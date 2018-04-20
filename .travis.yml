@@ -1,0 +1,15 @@
+addons:
+  apt:
+    packages:
+    - locales
+    - language-pack-pl
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+script:
+- "./scripts/VICHS_Travis.sh $(dirname $(git diff-tree --no-commit-id --name-only
+  -r master)).txt"
+env:
+  global:
+    secure: F18BkUlwJ1azaZJ5/5W8pqrF6+t+++haE7cVv/0OPH0eDMd+HpVlJujimMe0u/ONXRiZsoxFIkyRzO4bIoLuL9Pz7/aocMzIdV0Qt+aOch8NomebaIILzh0EXCGbPGcOPWBDPSub7/bQ7U7ifpAV6QuipKwUEeAIUCMh562ue3EBcWTBSm4G0lEaIRClV1JEmHXt8M0EY28xEzqWy1Hp2zBk9pd253Pz8laalofHM7J0jMALoKBKgN1Fqb8cklcvKEN8cR797MtxuCszjuHfUPxk5z6fmFKGVvGMiAyMOYzr9fQtJ0ELNJmty+TArPQbRRMjiZ8Ny8qCyqV2VQiKPxpe4MGFOuGwOHU00DWDjoL3G2H1xgggk20MzInrPjn4Yugukq5PZexcgXJgHSx8fiW1JeZCyJALtsKL6r0ct6T91I9JtzZwNJ1uKrQUG4jTYTzk7g2ULepCqfNFsmo68q0N5Z9xxP6Wzxbg2z+X5A/DrPTTS7gdPcBzxGeAZxjzZ+YDnO0K9RCd9HiSWDriYOkKbnLVwuPyZXRF4XiagvXho/cKvn4AhOyBrLXYbO2rN9blgI7+XOki2UQwfeVY/bP7mvKxmi/R/dLSYNArUQmQUhD/2rrsRpV8nCnRsVMry+RPCgU7Xa5O+r2FEH6CBVVWWzojG+W9zSSyNsK6aPQ=
