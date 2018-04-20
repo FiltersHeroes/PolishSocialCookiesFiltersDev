@@ -1,0 +1,51 @@
+[Adblock Plus 2.0]
+! Checksum: 
+! Title: Polskie Filtry Ciasteczkowe
+! Polish Cookies Filters
+! Codename: Cookies
+! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności
+! Collaborators: F4z, xxcriticxx, blocker999, hawkeye116477
+! Homepage: https://www.certyficate.it/
+! Version: @wersja
+! Last modified: @data
+! Expires: 2 days
+! Support:
+!   Email => errors@certyficate.it
+!   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
+!   Discord => https://discord.me/polskiefiltry
+! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
+! Copyright (C) 2018 Certyficate IT & Polish Filters Team
+! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
+! v.@wersja aktualizacja: @aktualizacja
+!
+!
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
+!#include cookies_uB_AG.txt
+!
+!
+! Specific element hiding rules
+@include specific_hiding
+!
+!
+! Specific cookies blocking filters
+@include specific_blocking
+!
+!
+! Privacy Policy Popups
+@include privacy_policy_popups
+!
+!
+! General element hiding rules
+@include general_hiding
+!
+!
+! Whitelist
+@include whitelist
+!
+!
+! Blocking elements after antiadblock
+@include generichide
+!
+!
+! Prebake bugs
+@include prebake_bugs

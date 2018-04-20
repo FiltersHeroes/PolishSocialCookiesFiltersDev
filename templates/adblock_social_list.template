@@ -1,0 +1,59 @@
+[Adblock Plus 2.0]
+! Checksum: 
+! Title: Polskie Filtry Społecznościowe
+! Polish Social Filters
+! Codename: Social
+! Description: Filtry ukrywające i blokujące elementy sieci społecznościowych, tj. widgety, wyskakujące okienka i inne elementy społecznościowe. 
+! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
+! Collaborators: blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV
+! Homepage: https://www.certyficate.it/
+! Version: @wersja
+! Last modified: @data
+! Expires: 2 days
+! Support:
+!   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
+!   Discord => https://discord.me/polskiefiltry
+! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
+! Copyright © 2018 Certyficate IT & Polish Filters Team
+! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
+! v.@wersja aktualizacja: @aktualizacja 
+!
+!
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
+!#include social_filters_uB_AG.txt
+!
+!
+! Linki
+@include linki
+!
+! 
+! Popupy
+@include popupy
+!
+!
+! Resztki
+@include resztki
+!
+!
+! Widgety
+@include widgety
+!
+!
+! Blokowanie elementów po zastosowaniu generichide
+@include generichide
+!
+!
+! Bugi Fanboy's Social Blocking List
+@include bugi_fanboy
+!
+!
+! Wyjątki
+@include wyjatki
+!
+!
+! Reguły ogólne
+@include ogolne
+!
+!
+! Reguły specyficzne
+@include specyficzne
