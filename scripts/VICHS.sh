@@ -7,16 +7,13 @@ for i in "$@"; do
     # FILTR to nazwa pliku, który chcemy zaktualizować
     FILTR=$(basename $i .txt)
 
-    # FILTR_SCIEZKA to ścieżka, w której znajduje się filtr
-    FILTR_SCIEZKA=$(basename $(dirname $i))
-
     # Sciezka to miejsce, w którym znajduje się skrypt
     sciezka=$(dirname "$0")
     
     TEMPLATE=$sciezka/../templates/${FILTR}.template
     KONCOWY=$i
     TYMCZASOWY=$sciezka/../${FILTR}.temp
-    SEKCJE_KAT=$sciezka/../sections/${FILTR_SCIEZKA}
+    SEKCJE_KAT=$sciezka/../sections/${FILTR}
     
 
     # Podmienianie zawartości pliku końcowego na zawartość template'u
