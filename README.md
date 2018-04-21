@@ -1,2 +1,2 @@
 # Polish Social & Cookies Filters Beta
-Wersja Beta Polskich Filtrów Społecznościowych i Ciasteczkowych
+Wersja Deweloperska Polskich Filtrów Społecznościowych i Ciasteczkowych
