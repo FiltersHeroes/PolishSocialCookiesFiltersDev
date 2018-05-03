@@ -22,17 +22,9 @@
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
 !#include social_filters_uB_AG.txt
 !
-!
-! Linki
-@include linki
-!
 ! 
 ! Popupy
 @include popupy
-!
-!
-! Resztki
-@include resztki
 !
 !
 ! Widgety
@@ -43,17 +35,17 @@
 @include generichide
 !
 !
-! Bugi Fanboy's Social Blocking List
-@include bugi_fanboy
-!
-!
-! Wyjątki
-@include wyjatki
-!
-!
 ! Reguły ogólne
 @include ogolne
 !
 !
 ! Reguły specyficzne
 @include specyficzne
+!
+!
+! Bugi Fanboy's Social Blocking List
+@include bugi_fanboy
+!
+!
+! Wyjątki
+@include wyjatki
