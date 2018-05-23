@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: acGYHJ7TckicTgK2/AHnIg
+! Checksum: ufoQaLpi9cIDkSZLrga/ew
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 201805131736
-! Last modified: Sun, 13 May 2018, 17:36:42 UTC+02
+! Version: 201805231754
+! Last modified: Wed, 23 May 2018, 17:54:46 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201805131736 aktualizacja: nie, 13 maj 2018, 17:36:42 UTC+02 
+! v.201805231754 aktualizacja: śro, 23 maj 2018, 17:54:46 UTC+02 
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1239,6 +1239,7 @@ pl##.btn_social_fb
 pl##.btn_social_twiter
 pl##.btn_social_youtube
 pl##.b_like
+pl##.comments-facebook
 pl##.comments__likes
 pl##.community-sites
 pl##.content-wrapper.sitemap > .social
@@ -1799,6 +1800,7 @@ hej.mielec.pl##a[href^="http://blip.pl/dashboard"]
 hej.mielec.pl##.divPageCol2 > .divWindowTitle:nth-of-type(6)
 hej.mielec.pl##.divSecondaryContentsShell > .divOpisCnt:nth-of-type(2)
 hej.mielec.pl##.embedly-card
+hellozdrowie.pl##.wrapSocialBox
 hifiphilosophy.com###wysuwane
 hipcio.sklep.pl##a[href="https://www.facebook.com/hipciosklep"]
 histografy.pl###text-2
@@ -1842,6 +1844,7 @@ komentuj24.pl##center
 komorkomat.pl##.social
 komorkomat.pl##.hidden-sm.hidden-xs.social_kontener
 komorkomat.pl##.widget_text.col-md-3:nth-of-type(4) > .widgettitle
+kongresobywatelski.pl##[href="https://twitter.com/Obywatelski"], [href="https://www.facebook.com/KongresObywatelski/"], [href="http://obywatelski.natemat.pl/"], [href="https://www.youtube.com/channel/UCn3cn6PS0o-1U6tm7Sq6PgA"]
 kosmetykizameryki.pl##.insta-top
 koszalininfo.pl###text-4
 koszulkowo.com##.icon-wrapper--facebook
@@ -1993,6 +1996,7 @@ polemi.co.uk###left > .moduletable:nth-of-type(2)
 polgrill.pl##.bigsocialblock__item
 policja.pl###social > li:nth-child(n+2)
 polsatnews.pl##.soc-txt-share
+polsat.pl##.comments-facebook
 polskamafia.pl###fpw_widget
 polskibus.com###footer-more
 polskieradio.com##.post-widget.widget:nth-of-type(4) > .title-section > h1
@@ -2007,6 +2011,7 @@ powiatsuski24.pl##.widget-facebook-tab
 pozyczkomat-lodz.pl##.head_socials
 pracawgdansku.com.pl###facebook
 prawdaobiektywna.pl###hwm
+prawdaobiektywna.pl###top-social-menu, #column-right .article
 prawdaobiektywna.pl##.article > h2
 prawodrogowe.pl##div:nth-of-type(4) > .img-responsive
 progenis.pl,rysunek.edu.pl##.widget_face
@@ -2016,7 +2021,7 @@ projekt-rodzina.pl###setwood_socials-2, #setwood_facebook_box-2, #null-instagram
 prostoomuzyce.pl###block-block-18
 prostozmostu.pl##.at_flat_counter, .social
 przegladbaltycki.pl###rum_sst_tab
-pudelek.pl###o2FBFanbox
+pudelek.pl###o2FBFanbox, ##.aside-youtube-channel, .header-fb-link
 racing-planet.pl###socials_block
 radioemaus.pl##.icons > tbody
 radiolodz.pl##a[rel="me noopener"][target="blank"]
@@ -2142,6 +2147,7 @@ tvn24.pl##.side-info
 tvp.info##.facebook-paragraph
 tvzabrze.eu##a[href="http://www.facebook.com/pages/TVZ-Telewizja-Zabrze/148299788539083"]
 tygodnikbydgoski.pl##.social:nth-of-type(5), .social:nth-of-type(6), .social:nth-of-type(7)
+tygodnikzamojski.pl##.headerfbl
 tygodnik-krapkowicki.info###tabfour
 variatkowo.pl###text-27 > .widget-title
 versus.com##div[class^=Footer__follow]
