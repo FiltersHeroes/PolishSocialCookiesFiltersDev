@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: V0udIoi08rQwfCt3Vk5fLw
+! Checksum: Yk9BSbqNU1ifdZE3n9RXhQ
 ! Title: Polskie Filtry Ciasteczkowe
 ! Polish Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO
 ! Collaborators: F4z, xxcriticxx, blocker999, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201805272024
-! Last modified: Sun, 27 May 2018, 20:24:19 UTC+02
+! Version: 201805272054
+! Last modified: Sun, 27 May 2018, 20:54:54 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201805272024 aktualizacja: nie, 27 maj 2018, 20:24:19 UTC+02
+! v.201805272054 aktualizacja: nie, 27 maj 2018, 20:54:54 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1086,6 +1086,7 @@ autocentrum.pl##.hello-rodo
 auto-swiat.pl###termsPopup
 certum.pl##.spu-bg, .spu-box
 demotywatory.pl,fabrykamemow.pl,faktopedia.pl,piekielni.pl,mklr.pl,rebelianci.org,kotburger.pl,mistrzowie.org,joemonster.org,komixxy.pl,retro.pewex.pl,stylowi.pl###pp-bg-overlay
+durszlak.pl##.shadow.privacy-layer
 dziennikwschodni.pl##.rodo-alert
 ekstraklasa.tv##.cmp-app_gdpr
 epoznan.pl###rodo-info-box
@@ -1130,6 +1131,7 @@ www.dobreprogramy.pl##body>div[id]
 /_sess/rodo.js
 ||a.wpimg.pl/a/i/stg/wpjslib-chunk-consent-form.js
 ||cdn.rp.pl/rodo-agreement-popup/rodo-agreement-popup.min.js
+||newonce.net/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||rodo.agora.pl^$script
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js 
 ||whitepress.pl/common/pltk/pltk.js
