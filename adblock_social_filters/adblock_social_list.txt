@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 4IxbLf4i4K43zkuOycDyfQ
+! Checksum: MG6ep1B9UX9r8C/xd4iyBg
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 201805272024
-! Last modified: Sun, 27 May 2018, 20:24:16 UTC+02
+! Version: 201805272054
+! Last modified: Sun, 27 May 2018, 20:54:53 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201805272024 aktualizacja: nie, 27 maj 2018, 20:24:16 UTC+02 
+! v.201805272054 aktualizacja: nie, 27 maj 2018, 20:54:53 UTC+02 
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1496,6 +1496,8 @@ ncplus.pl,sympatia.onet.pl##.findUs
 neosite.pl##.cell3, #body-bottom-keeper
 nerwica.com##.facebook
 netkom.pruszcz.com##.pwebfblikebox_tab
+newonce.net##h5.h5:nth-of-type(2)
+newonce.net##.footer-desktop__social-wrapper
 news.androidlista.pl##.text-center.filter-collapse.panel-group:nth-of-type(2) > .panel-default.panel, .text-center.filter-collapse.panel-group:nth-of-type(3) > .panel-default.panel, .entry-header > .float-left.compartir.entry-meta, .text-center.filter-collapse.panel-group:nth-of-type(4) > .panel-default.panel, .entry-content > .float-left.compartir.entry-meta, .wp_rp_vertical:nth-of-type(2) > .t_orange.related_post_title, .no-border.half.width-100.pull-left:nth-of-type(4)
 nexto.pl###social
 nibyblog.pl###rss > ul > li:nth-of-type(2)
@@ -2292,9 +2294,13 @@ zyciepabianic.pl###facebook
 ||www.rynek-kolejowy.pl/themes/limiddle.png
 ||www.rynek-kolejowy.pl/themes/tt.png
 ||www.rynek-kolejowy.pl/themes/ttmiddle.png
+||www.rynek-lotniczy.pl/themes/Udostepnij.png
+||www.rynek-lotniczy.pl/themes/in321.png$image
 ||www.smarkacz.pl/images/gfx/ins2.png
 ||www.sp33.olsztyn.pl/wp-content/uploads/2017/12/fanpage.jpg
 ||www.szkla.com/images/szkla.com/pl/fb.png
+||www.transport-publiczny.pl/themes/fbLogo.jpg$image
+||www.transport-publiczny.pl/themes/twLogo.jpg$image
 ||www.tvpolsat.info/themes/tvpolsatinfo/images/inicon.png
 ||www.tvpolsat.info/themes/tvpolsatinfo/images/twicon.png
 ||www.tvpolsat.info/themes/tvpolsatinfo/images/yticon.png
