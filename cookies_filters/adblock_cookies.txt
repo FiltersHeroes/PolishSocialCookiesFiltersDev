@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: S3QYo9YKVygfLU7B1zhhbA
+! Checksum: wyiQ8suIGKfKATr81eivMA
 ! Title: Polskie Filtry Ciasteczkowe
 ! Polish Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO
 ! Collaborators: F4z, xxcriticxx, blocker999, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201805281421
-! Last modified: Mon, 28 May 2018, 14:21:45 UTC+02
+! Version: 201805281425
+! Last modified: Mon, 28 May 2018, 14:25:24 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201805281421 aktualizacja: pon, 28 maj 2018, 14:21:45 UTC+02
+! v.201805281425 aktualizacja: pon, 28 maj 2018, 14:25:25 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1416,6 +1416,27 @@ zyciepabianic.pl###cookie-warn
 !
 !
 ! Bugi Prebake
+gg.pl#@#body > div:nth-of-type(2) > div 
 !
 !
 ! Wyjątki
+foxnews.com#@#.cookies
+iculture.nl#@#[id*="cookie_"]
+letsplej.pl,telepizza.pl,orange.pl,google.pl,topics.nl,przenosne.pl##@#div[class*="cookie"]
+lomza.pl#@##komunikat-cookie
+lycos.de,lycos.com#@#.cookies
+norauto.pl#@#:not(input)[id*="Cookie"]
+opencraft.pl#@#[id^="topInfo"]
+orange.pl#@##cookies-info
+orange.pl#@#:not(input)[id*="Cookie"]
+orange.pl,taat.pl,bskrasnosielc.pl,iculture.nl,interhotel.pl,puma.com,bestcena.pl#@#:not(input)[id*="cookie"]
+pokemon.com#@#.cookies
+redbullmobilecollect.pl#@#[id^="polityka-prywatnosci"]
+tchibo.de#@#.cookies
+tychy.geminipark.pl#@#.privacy-policy
+@@/cookie.js$domain=socialblade.com|infoplus.com.pl|arimr.gov.pl|promedica24.com.pl|emigrantpl.com|wirtualnemedia.pl|e.dorzeczy.pl|e.wprost.pl|intel.com|cdaction.pl|katowice-airport.com|myshows.me|rze.pl|nba.com
+@@/js/jquery.cookie.min.js$domain=rozklad.pkp.pl|ubi.com
+@@/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$script,domain=escaperooms.pl|xboxarcade.pl|naziemna.info|3dwpraktyce.pl|tvs.pl|przegladbaltycki.pl|wypowiadamoc.pl
+@@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js$script
+@@||coinroom.com/Modules/UI/Cookie/Cookie.js$script
+@@||pracatobie.pl/jscripts/cookieLaws.js
