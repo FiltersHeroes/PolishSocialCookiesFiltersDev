@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: fyLbaoQnjmcL2TK4mhfQEw
+! Checksum: D296/PizMNF3lbJEoz/zkw
 ! Title: Polskie Filtry Ciasteczkowe
 ! Polish Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO
 ! Collaborators: F4z, xxcriticxx, blocker999, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201805281429
-! Last modified: Mon, 28 May 2018, 14:29:52 UTC+02
+! Version: 201805281431
+! Last modified: Mon, 28 May 2018, 14:31:06 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201805281429 aktualizacja: pon, 28 maj 2018, 14:29:52 UTC+02
+! v.201805281431 aktualizacja: pon, 28 maj 2018, 14:31:06 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1142,6 +1142,27 @@ www.dobreprogramy.pl##body>div[id]
 !
 !
 ! Ogólne reguły blokujące
+/CookieAlert-latest.min.js
+/CookieLaw$script
+/cookieDisclaimer.js$script
+/cookieMonster.min.js
+/cookiealert.
+/cookies.smartgroup.min.js
+/cookiesWidget/widget.js$script
+/cookieser.js$script
+/cookies-legal-
+/cookiewarning*.js
+/cookie-terms.
+/cookie.js$script
+/cookie_msg.js$script
+/cookie_notify/*
+/informationbar.js$domain=stowarzyszenie-dyrektorow.pl|zgkim.zgora.pl
+/js/cookieinfo.js
+/js/info_o_cookie.js
+/js/jquery.cookie.min.js$script,domain=~rozklad-pkp.pl|~telepizza.pl|~uplayconnect.ubi.com
+/js/polityka_cookies.js$script
+/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$script
+/savecookie.js$script 
 !
 !
 ! Ogólne reguły ukrywające
