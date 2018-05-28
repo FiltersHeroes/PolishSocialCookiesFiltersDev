@@ -23,29 +23,33 @@
 !#include cookies_uB_AG.txt
 !
 !
-! Specific element hiding rules
-@include specific_hiding
+! Specyficzne reguły ukrywające
+@include specyficzne_ukrywajace
 !
 !
-! Specific cookies blocking filters
-@include specific_blocking
+! Specyficzne reguły blokujące
+@include specyficzne_blokujace
 !
 !
-! Privacy Policy Popups
-@include privacy_policy_popups
+! Popupy - polityka prywatności/RODO
+@include popupy_polityka
 !
 !
-! General element hiding rules
-@include general_hiding
+! Ogólne reguły blokujące
+@include ogolne_blokujące
 !
 !
-! Whitelist
-@include whitelist
+! Ogólne reguły ukrywające
+@include ogolne_ukrywajace
 !
 !
-! Blocking elements after antiadblock
+! Blokowanie elementów po zastosowaniu generichide
 @include generichide
 !
 !
-! Prebake bugs
+! Bugi Prebake
 @include prebake_bugs
+!
+!
+! Wyjątki
+@include whitelist

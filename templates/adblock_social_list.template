@@ -27,16 +27,12 @@
 @include popupy
 !
 !
-! Widgety
-@include widgety
+! Ogólne reguły blokujące
+@include ogolne_blokujace
 !
 !
-! Blokowanie elementów po zastosowaniu generichide
-@include generichide
-!
-!
-! Reguły ogólne
-@include ogolne
+! Ogólne reguły ukrywające
+@include ogolne_ukrywajace
 !
 !
 ! Specyficzne reguły ukrywające
@@ -45,6 +41,10 @@
 !
 ! Specyficzne reguły blokujące
 @include specyficzne_blokujace
+!
+!
+! Blokowanie elementów po zastosowaniu generichide
+@include generichide
 !
 !
 ! Bugi Fanboy's Social Blocking List
