@@ -17,7 +17,8 @@ oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
 portalspozywczy.pl##.rodo
 portalspozywczy.pl##.windowOpen:style(overflow: auto !important;)
-wsensie.pl,wsensie.tv##script:inject(abort-on-property-write.js, policy)
+wsensie.pl,wsensie.tv###policy
+wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zeropln.antyweb.pl##body:style(overflow: auto !important;)
 zeropln.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
