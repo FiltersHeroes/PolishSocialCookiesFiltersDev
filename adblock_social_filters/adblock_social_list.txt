@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
-! Checksum: mWKr67Ppvh2mZTonL26TZQ
+! Checksum: ZeS/ilrSw1ewb/k98nKwag
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
 ! Description: Filtry ukrywające i blokujące elementy sieci społecznościowych, tj. widgety, wyskakujące okienka i inne elementy społecznościowe. 
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
-! Collaborators: blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV
+! Collaborators: blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201806060847
-! Last modified: Wed, 06 Jun 2018, 08:47 UTC+02
+! Version: 201806061142
+! Last modified: Wed, 06 Jun 2018, 11:42:43 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201806060847 aktualizacja: śro, 06 cze 2018, 08:47 UTC+02 
+! v.201806061142 aktualizacja: śro, 06 cze 2018, 11:42:43 UTC+02 
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -805,7 +805,7 @@ bet-at-home.com##.teaser-social-media
 bezpiecznywtlumie.pl##.fa-google-plus
 bezprawnik.pl##.columns.show-for-large.large-1 > p:nth-of-type(2)
 beztajemnic.pwn.pl###menu-item-50
-bezwypadkowy.net##.fa-google-plus-square, .fa-facebook, .fa-twitter, .jf_sidebuttons, .rt-grid-3:nth-of-type(3)
+bezwypadkowy.net##li.schide:nth-child(n+2):nth-child(-n+4), .jf_sidebuttons, .rt-grid-3:nth-of-type(3)
 biedronka.pl##.see-fb
 bieganieuskrzydla.pl###text-2
 bielskiedrogi.pl###block-block-1
@@ -873,6 +873,7 @@ catzilla.com##.btn-block.btn-sm.btn-default.btn.cbConnectButtonTwitter.cbConnect
 catzilla.com##.btn-block.btn-sm.btn-primary.btn.cbConnectButtonFacebook.cbConnectButtonIconText.cbConnectButton
 cdahd.pl##.rdt, .social-share-round
 cdp.pl##.fmenu-col.col4
+cenowarka.pl###fb-btn-img
 centrumkomputerowe.eu###imFooter > div
 centrumkomputerowe.eu###imHeader > div:nth-of-type(4)
 centrumparis.pl##.social_footer_2
@@ -1253,7 +1254,8 @@ hotelforumlublin.pl###google_icon
 how2play.pl##.social-description
 hpba.pl##.social__media
 hubkolektyw.pl##.uk-grid.uk-flex-center.uk-child-width-auto
-iautomatyka.pl##.youtube.pf-sociallinks-item
+iautomatyka.pl##.youtube.pf-sociallinks-item, .mpc-effect-side--none
+iautomatyka.pl#?#.h2_belka:-abp-contains(Społeczność)
 idg.pl##.social_con, ul:nth-of-type(2) > li, .footer_social_links > ul
 ikrotoszyn.pl##.facebookfield
 inbook.pl##a[href="http://plus.google.com/u/0/105997578854872087403/posts"]
@@ -1523,7 +1525,6 @@ nafrontendzie.pl##.widget_text.col-4.widget
 namasce.pl###facebook-like-box-2, #jr_insta_slider-2, .post-share
 namasce.pl##.jr-insta-slider
 naszpradnik.pl##.menu-social-fb
-natatry.pl##A > IMG[src="images/icon-insta.png"]
 natemat.pl##.footer__box__list--social
 naturalo.pl##.center.section-title
 naukaitechnologie.plportal.pl###block-block-12
@@ -1709,8 +1710,7 @@ polsl.pl##tr:nth-of-type(3) > .shortcutsLink:nth-of-type(2)
 polsl.pl##tr:nth-of-type(3) > .shortcutsLink:nth-of-type(5)
 polsl.pl##tr:nth-of-type(5) > .shortcutsImg:nth-of-type(1)
 polsl.pl##tr:nth-of-type(5) > .shortcutsLink:nth-of-type(2)
-polszczyzna.pl##.eltdf-icon-shortcode
-polszczyzna.pl#?##text-7 > .textwidget > h4:-abp-contains(Bądźmy w kontakcie)
+polszczyzna.pl##.eltdf-icon-shortcode, .textwidget > h4
 polvision.com##.foot_search_share
 polygamia.pl###polysocial
 polygamia.pl###sidebar-footer-top
@@ -1858,6 +1858,7 @@ samequizy.pl##.hidemobile.col-3:nth-of-type(1)
 samoloty.pl##.custom > p:nth-of-type(2)
 samoloty.pl##.custom > p:nth-of-type(3)
 samsung.com##.gb-footer__sns-list
+satkurier.pl###sky_left_container
 saturn.pl##.s-productFooter_social
 sawataxi.pl##.oNasSocIcons, .oNasSocName
 schronisko.olsztyn.pl###wysuwane
@@ -2304,6 +2305,7 @@ zyciepabianic.pl###facebook
 ||m.lm.pl/gfx/facebook_zaloguj.png
 ||m.lm.pl/gfx/instagram.png
 ||naekranie.pl/wp-content/plugins/socialfans-counter/assets/js/socialfans-script.js
+||natatry.pl/images/icon-insta.png
 ||news.androidlista.pl/wp-content/themes/tema/gplusicon.jpg
 ||pakerzy.org/gfx/fb.png
 ||pay-card.pl/wp-content/uploads/2017/06/social-bg.jpg
@@ -2391,6 +2393,7 @@ naekranie.pl#@#.share-buttons
 naszpradnik.pl#@#.menu-social
 rta24.eu#@#.social-bottom
 rynek-kolejowy.pl#@#.socialIcons
+satkurier.pl#@##menu_social
 tabletowo.pl#@#.social_icon
 tabletowo.pl#@#.top-social
 tvgry.pl,gameplay.pl#@#.social-16
