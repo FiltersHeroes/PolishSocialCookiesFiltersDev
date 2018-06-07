@@ -6,7 +6,7 @@ if [ "$ost_commit_katalog" == "sections/adblock_social_list" ]; then
     plik=adblock_social_list.txt
 elif [ "$ost_commit_katalog" == "sections/adblock_cookies" ]; then
     katalog=cookies_filters
-    pik=adblock_cookies.txt
+    plik=adblock_cookies.txt
 elif [ "$ost_commit_katalog" == "sections/cookies_uB_AG" ]; then
     katalog=cookies_filters
     plik=cookies_uB_AG.txt
