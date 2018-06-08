@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: iT2/81HVKzP+EtRuMoTAIw
+! Checksum: ksbrxdczJUkFgjPOkYL+jA
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201806081725
-! Last modified: Fri, 08 Jun 2018, 17:25 UTC+02
+! Version: 201806082146
+! Last modified: Fri, 08 Jun 2018, 21:46:46 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201806081725 aktualizacja: pią, 08 cze 2018, 17:25 UTC+02 
+! v.201806082146 aktualizacja: pią, 08 cze 2018, 21:46:47 UTC+02 
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -864,6 +864,7 @@ bwotr.pl##.widget_easy_facebook_feed
 bystragrazyna.pl###bs-likebox-2
 cafebabel.pl##.share
 cardsplitter.pl##center > center:nth-of-type(1)
+carlsbergpolska.pl##div.col-md-4:nth-of-type(2)
 carrefour.pl##li.m-t-sm:nth-of-type(4)
 cashless.pl##a[href="https://www.facebook.com/cashlesspolska/"], a[href="https://plus.google.com/u/0/102191552045627623806"], a[href="https://twitter.com/Cashlesspl"], a[href="https://www.youtube.com/channel/UCUi9JWmGYrukodfVJi4xjLg"], a[href="https://www.linkedin.com/company-beta/17953895"]
 cashless.pl##.socialsFooter > h3
@@ -1064,6 +1065,8 @@ emt-systems.pl##.top-main > li:nth-of-type(13), .social.footer-menu
 em.kielce.pl###socialico > ul
 em.kielce.pl##.module_prawa:nth-of-type(1)
 em.kielce.pl##.module_prawa:nth-of-type(4)
+enelsport.pl##div.page:nth-of-type(2) > div.width-25.column:nth-of-type(3)
+enelsport.pl##.quick-insta, .quick-fb
 energetyka24.com,cyberdefence24.pl,defence24.pl,space24.pl,infosecurity24.pl##.header-bottom-social
 energetyka24.com,infosecurity24.pl,defence24.pl,cyberdefence24.pl,space24.pl##.mt-30.right-news-module
 enigmatech.eu###bossbyte_slide
@@ -1370,13 +1373,14 @@ kupbuty.com###tws_a_0
 kurasinski.com##.home-social
 kurier365.pl##.fa-google.fa
 kurier365.pl##.no-border.box
-kwantowo.pl##.footer-widgets-static > .social
+kwantowo.pl##.youtube
 laczynaspilka.pl##.box-standard.social-side
 lajt.co.uk##.ebFooter__headerLinks--lajt, .peTopbar__section--social
 last.fm##.footer-top-col:nth-of-type(5)
 leasetake.pl##.footer-links-col.col-md-3.col-sm-6.block--type--TEXT.block--facebook-widget.block > .footer-header
 lechia.net###gkInset > .box:nth-of-type(n+1):nth-of-type(-n+3)
 lechia.net###jj_sl_navigation
+lech.tv##.video_text_societies_share, .video_text_societies_embed, .video_button_societies_embed, .video_button_societies_share
 lecnawakacje.pl##.classPageGenerator_default_bottom_socialMedia
 lejtmotyw.info###HTML23
 liberte.pl##.sc-facebook, .sc-twitter
@@ -1651,7 +1655,6 @@ pieniadzeiprawo.pl###fblbx > .widgettitle
 piewca.pl###facebookwidgetplus-2
 pionki24.pl###like-box
 piotripawel.pl##.social-absolute-home
-piotrkowski24.pl##.info-links
 piotrkowski24.pl##.single-post-social, .info-links, .post-meta-shb > .sfsb.sfsh
 pipelife.com##.smm
 planetagracza.pl###text-2 > .widget-title
@@ -1782,7 +1785,7 @@ pudelek.pl###o2FBFanbox, .aside-youtube-channel, .header-fb-link
 pudelek.pl##.like-box-wrap
 pulshr.pl##li:nth-of-type(1) > a[href="https://www.facebook.com/pulsHR"]
 pulshr.pl##.box-1 > .v2
-pyszne.pl##.underlined.youtube
+pyszne.pl##div.row:nth-of-type(1) > ul:nth-of-type(2)
 questus.pl##.fa-linkedin-square
 racing-planet.pl###socials_block
 racjonalista.pl##td:nth-of-type(2) > .rtab > tbody
@@ -1795,8 +1798,9 @@ radioony.fm##a[href="https://twitter.com/RadioONY93_1FM"]
 radioony.fm##a[href="https://www.facebook.com/Radio-ONY-931-FM-1532015213794826/"]
 radioony.fm##a[href="https://www.instagram.com/radioony93.1fm/"]
 radioony.fm##a[href="https://www.youtube.com/channel/UCJDLhAlQfvDUlRC0SH_W7Qw"]
+radiopoznan.fm##div.col-xs-12.col-sm-6.col-md-3:nth-of-type(4) > p:nth-of-type(2)
 radiopoznan.fm##.col-xs-12.col-sm-6.col-md-3:nth-of-type(4) > h4:nth-of-type(1)
-radiopoznan.fm##.rm-footer-social
+radiopoznan.fm##.rm-footer-social, .footer-social-media-header
 radiorekord.pl##li:nth-of-type(3) > h3
 radiosud.pl##.sud-i-facebook, .sud-i-gplus
 radioszczecin.pl##.boxext
@@ -1825,7 +1829,6 @@ rmf24.pl##.i2.el1.logo
 rmf24.pl##.i3.el2.logo
 rmf24.pl##.i4.el4.logo
 rmf24.pl##.recommend
-rmf24.pl##.FooterLinksSpolecznosc.commonNavigation.box > .boxBody
 rmf.fm##a[href="http://plus.google.com/111421310920233185523/posts"]
 rmf.fm##a[href="http://twitter.com/rmf_fm"]
 rmf.fm##a[href="http://www.facebook.com/rmf24"]
@@ -2280,6 +2283,9 @@ zyciepabianic.pl###facebook
 ! Specyficzne reguły blokujące
 /belka-fb.png$domain=komputerswiat.pl
 ||adwokat-gostkowski.pl/img/socjal/*.jpg
+||audiovideo.com.pl/themes/av/img/google+_logo.png
+||audiovideo.com.pl/themes/av/img/pinterest_logo.png
+||audiovideo.com.pl/themes/av/img/spotify_logo.png
 ||aukcjoner.pl/tmp/box20/menu2-all.png
 ||biznesalert.pl/wp-content/themes/wpbootstrap_ba/images/telegram.png
 ||bliskopolski.pl/pliki/facebook.png
@@ -2358,6 +2364,7 @@ zyciepabianic.pl###facebook
 ||www.festiwalbiegowy.pl/sites/default/files/upload/misc/twitter_318-136405.jpg
 ||www.festiwalbiegowy.pl/sites/default/files/upload/misc/youtube_logo_detail.png
 ||www.kammar24.pl/szablony/kammar24.rwd/obrazki/sociale/$image
+||www.lechpils.pl/resources/images/ico-yt.png
 ||www.linguajob.pl/_tpl/_img/facebook_slider.png
 ||www.m-handel.pl/project/mhandel/images/fbb.png
 ||www.ock.olsztyn.pl/resources/site/images/i-fb.png
@@ -2423,4 +2430,5 @@ tvn24bis.pl#@#.social-container
 !
 !
 ! Wyjątki
+polityczek.pl#@##twitter
 shinden.pl#@#.fa-youtube-play.fa
