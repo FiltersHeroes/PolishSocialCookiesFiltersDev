@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 6xEtGblWhRDEvJg+QADJ/Q
+! Checksum: qhGMWj/6Wayy/HPrK5YyMw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201806091845
-! Last modified: Sat, 09 Jun 2018, 18:45 UTC+02
+! Version: 201806092057
+! Last modified: Sat, 09 Jun 2018, 20:57 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201806091845 aktualizacja: sob, 09 cze 2018, 18:45 UTC+02
+! v.201806092057 aktualizacja: sob, 09 cze 2018, 20:57 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1160,7 +1160,6 @@ nokaut.pl###GDPRModal
 odo24.pl##.rodo-body
 optyczne.pl###id01
 panoramafirm.pl###rodoLayer, .modal-backdrop
-player.pl##.modal-dialog
 pl##.cmp-app_gdpr:not(body):not(html)
 pl##.rodo-accept:not(body):not(html)
 pl##.rodo-popup:not(body):not(html)
@@ -1204,6 +1203,7 @@ zywiec.com.pl,heineken.com.pl###infobx
 ||kochamwroclaw.pl/wp-content/plugins/surbma-yes-no-popup/css/styles.css
 ||kochamwroclaw.pl/wp-content/plugins/wp-terms-popup/assets/popup-style.css
 ||newonce.net/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
+||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
 ||rodo.agora.pl^$script
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js 
 ||whitepress.pl/common/pltk/pltk.js
