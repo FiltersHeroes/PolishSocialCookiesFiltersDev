@@ -86,7 +86,7 @@ for i in "$@"; do
     export TZ=":Poland"
 
     # Aktualizacja daty i godziny w polu „Last modified"
-    modified=$(date +"%a, %d %b %Y, %H:%M UTC%:::z")
+    modified=$(date +"%a, %d %b %Y, %H:%M:%S UTC%:::z")
     sed -i "s|@modified|$modified|g" $i
 
     # Aktualizacja wersji
@@ -95,7 +95,7 @@ for i in "$@"; do
 
     # Aktualizacja pola „aktualizacja"
     export LC_ALL=pl_PL.UTF-8
-    aktualizacja=$(date +"%a, %d %b %Y, %H:%M UTC%:::z")
+    aktualizacja=$(date +"%a, %d %b %Y, %H:%M:%S UTC%:::z")
     sed -i "s|@aktualizacja|$aktualizacja|g" $i
     
     # Aktualizacja sumy kontrolnej
