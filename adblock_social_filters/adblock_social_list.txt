@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: t1agVdmEPoHPGK2CG098Aw
+! Checksum: k/Il93OjGoIHVEfYHa0m9A
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201806091356
-! Last modified: Sat, 09 Jun 2018, 13:56:56 UTC+02
+! Version: 201806101116
+! Last modified: Sun, 10 Jun 2018, 11:16:55 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201806091356 aktualizacja: sob, 09 cze 2018, 13:56:56 UTC+02 
+! v.201806101116 aktualizacja: nie, 10 cze 2018, 11:16:55 UTC+02 
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -26,6 +26,7 @@
 ! Popupy
 dementuj.pl###ips-popup, #ips-popup-wrapper
 esensja.pl###FBox
+forum.grywamtu.pl###pop-slap[data-hello-text], .bg-pop-over
 forum.joomla.pl###fancybox-overlay, #fancybox-wrap
 galeriaveneda.com.pl###popup
 godealla.pl##.overlay
@@ -1139,6 +1140,7 @@ forumrowerowe.org##.col.ftcol:nth-of-type(4)
 forum-oddluzanie.pl##.simplesocialbuttons
 forum.blogowicz.info##.podzielsie, #facebook-badge, #googleplus-badge, .column-sidebar-inner > div:nth-of-type(3), #gfr > div:nth-of-type(n+1):nth-of-type(-n+2), #facebook2, .imp:nth-of-type(n+5):nth-of-type(-n+6), #gfr > div:nth-of-type(3) > div:nth-child(n+3), .firstPostd > hr:nth-of-type(3)
 forum.blogowicz.info##[href="http://url.blogowicz.info/LubieTo"], [href="http://url.blogowicz.info/gplus"]
+forum.grywamtu.pl#?#li.ipsSpacer_bottom.ipsBox.cForumRow:nth-of-type(1) > .ipsAreaBackground_reset.ipsDataList_zebra.ipsDataList_large.ipsDataList > li.ipsClearfix.ipsDataItem_responsivePhoto.ipsDataItem.cForumRow:nth-of-type(1):-abp-contains(Facebook)
 forum.pasja-informatyki.pl##div.qam-footer-col:nth-of-type(1)
 forum.shinden.pl##.sharePage.infoBlock.section > .secondaryContent, .social > a[href="#"]
 forum.swiateczne.info###fb
@@ -1721,6 +1723,10 @@ polvision.com##.foot_search_share
 polygamia.pl###polysocial
 polygamia.pl###sidebar-footer-top
 pomagam.pl##.og-share.bg-color-fb.btn-icon-inherit.btn, .tweet.bg-color-tw.btn-icon-inherit.btn.js-twt
+pompaspeak.pl##center > [href^="https://www.facebook.com/pompa.speak.ts/"], center > [href="https://www.youtube.com/channel/UCRV31wswTs-EOC2LdyNOeDA"]
+pompaspeak.pl##div#link:nth-child(n+3):nth-child(-n+4)
+pompaspeak.pl##div.row:nth-of-type(2) > .span12 > .thumbnails > li.span3:nth-of-type(1) > .thumbnail
+pompaspeak.pl##div.row:nth-of-type(2) > .span12 > .thumbnails > li.span3:nth-of-type(4) > .thumbnail
 pompateam.pl##div.col-sm-5.col-md-5.col-lg-5:nth-of-type(4)
 pomyslnawszystko.pl##.widget_ffpw_social
 poradnikprzedsiebiorcy.pl##.col-md-6
@@ -2041,6 +2047,7 @@ truso.tv##.gp
 truso.tv,oakandberry.com##.in
 trybawaryjny.pl##.widget_text.col-4.widget:nth-of-type(3)
 trybun.org.pl##.uwl_instagram_widget_wrap, .widget_simplecatch_social_widget
+ts-stars.pl##div.col:nth-of-type(3)
 tugazeta.pl###face_button, #snap_button
 tui.pl##.col-lg-3.col-sm-6.col-xs-12:nth-of-type(4)
 tuzdrowie.pl##.tr-facebook
