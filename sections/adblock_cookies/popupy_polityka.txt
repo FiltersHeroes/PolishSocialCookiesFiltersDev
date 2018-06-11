@@ -57,6 +57,7 @@ mall.pl##consent-panel
 meble.com.pl,archiconnect.pl,lazienka.pl,najlepszedomy.pl,mamkuchnie.pl###axn
 medme.pl###ccc
 medpolonia.pl###bannerPopup
+moviesroom.pl###privacy, .overlay-rules
 m.benchmark.pl###private-policy-popup
 naekranie.pl###modal-rodo-info, .reveal-modal-bg
 natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl##div[class^="app_gdpr"]
@@ -74,12 +75,14 @@ pl,ki24.info,ciechocinek.biz,gniewkowo.eu,pluznica.info,nizanskie.info##.rodo-ov
 pogodynka.pl###accept
 polskieradio.pl##.rodo-modal
 portel.pl###rodoDiv
+queer.pl##.bg, .box-rodo
 radiogol.pl##.hustle-modal-message
 radiowroclaw.pl,radioram.pl,radiogdansk.pl###rodoModal
 radiozet.pl,antyradio.pl,radiostacja.pl,meloradio.pl,azorek.pl,planeta.fm,chillizet.pl##div[class^="app_cmpAppGdpr"]
 razemztoba.pl##.inform
 rmf.fm##.rodo-popup
 salesmanago.pl##.popup
+serialowa.pl##.popmake-overlay
 speedtest.net###_evidon-barrier-wrapper
 store.playstation.com###privacy-header
 szlot.pl##.spu-bg, .spu-total-
@@ -97,14 +100,13 @@ wpolityce.pl,wgospodarce.pl,wpolsce.pl##.rhododendron-popup, .rhododendron-popup
 wunderground.com,weather.com##.truste_overlay, .truste_box_overlay, .privacy-policy-toast
 wzp.pl###myrodoinfo
 zywiec.com.pl,heineken.com.pl###infobx
-moviesroom.pl###privacy, .overlay-rules
-queer.pl##.bg, .box-rodo
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
 !komputerswiat.pl,onet.pl,newsweek.pl,fakt.pl,literia.pl,verdykt.pl,plejada.pl,forbes.pl,onetontour.pl,przegladsportowy.pl,auto-swiat.pl,ofeminin.pl,nk.pl,noizz.pl,skapiec.pl,zumi.pl,opineo.pl,medonet.pl,softonet.pl,pclab.pl,businessinsider.com.pl,targsmaku.pl,agdlab.pl,jakdojade.pl,vod.pl,dreamlab.pl##.cmp-app_gdpr
 ###rodo-popup:not(.fade):not(body):not(html)
 ##.gdpr-privacy-bar:not(body):not(html)
 /rhododendron/css/rhododendron-popup.css$domain=wpolityce.pl|wgospodarce.pl|wpolsce.pl
+/rodo/*$xmlhttprequest,domain=polsat.pl|polsat1.pl|polsatfilm.pl|polsatplay.pl|polsatcafe.pl|tv4.pl|tv6.com.pl|discopolomusic.pl
 /_sess/rodo.js
 ||assets.allegrostatic.com/opbox-rodo-consent-modal/index*.css$domain=allegro.pl
 ||assets.goldenline.io/assets/user/profilingAgreement.*.js
@@ -118,9 +120,7 @@ queer.pl##.bg, .box-rodo
 ||rodo.agora.pl^$script
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js 
 ||whitepress.pl/common/pltk/pltk.js
+||www.serialowa.pl/wpr/wp-content/plugins/popup-maker/assets/css/site.min.css
 ||www.swiatksiazki.pl/customer/account/infoAgreement/*$xmlhttprequest
 ||www.twojapogoda.pl/rodo/*$xmlhttprequest
 ||www.wroclaw.pl/portal/themes/js/script-rodo.min.js
-/rodo/*$xmlhttprequest,domain=polsat.pl|polsat1.pl|polsatfilm.pl|polsatplay.pl|polsatcafe.pl|tv4.pl|tv6.com.pl|discopolomusic.pl
-serialowa.pl##.popmake-overlay
-||www.serialowa.pl/wpr/wp-content/plugins/popup-maker/assets/css/site.min.css
