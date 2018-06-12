@@ -25,14 +25,14 @@ elka.pl,elka.tv###RODOZgoda
 emt-systems.pl###rodoBG
 epoznan.pl###rodo-info-box
 epuap.gov.pl###rodo-modal
-fantasy.ekstraklasa.tv###rodo-info
+fantasy.ekstraklasa.tv,trojmiasto.pl###rodo-info
 filmlab.com.pl,wtkplay.pl,lech.tv,obiezyswiat.org###rodo-info-box
 filmweb.pl##.rodo__overlay
 firmy.lu###privacy_info_overlay, #privacy_info_content
 foreca.pl###ckieconsent
 fotosik.pl###rodo-info, .modal-backdrop
 funduszpomerania.pl###eprivacyModal, .modal-backdrop
-gazetalubuska.pl,dziennikbaltycki.pl,gs24.pl,echodnia.eu,pomorska.pl,nto.pl,gazetakrakowska.pl,sportowy24.pl,dzienniklodzki.pl,dziennikpolski24.pl,gloswielkopolski.pl,gol24.pl,nowiny24.pl,warszawa.naszemiasto.pl,kurierlubelski.pl,expressilustrowany.pl,gazetawroclawska.pl,poranny.pl,dziennikzachodni.pl,nowosci.com.pl,gk24.pl,to.com.pl,polskatimes.pl,expressbydgoski.pl,telemagazyn.pl,naszemiasto.pl,gp24.pl###cross-dialog
+gazetalubuska.pl,dziennikbaltycki.pl,gs24.pl,echodnia.eu,pomorska.pl,nto.pl,gazetakrakowska.pl,sportowy24.pl,dzienniklodzki.pl,dziennikpolski24.pl,gloswielkopolski.pl,gol24.pl,nowiny24.pl,warszawa.naszemiasto.pl,kurierlubelski.pl,expressilustrowany.pl,gazetawroclawska.pl,poranny.pl,dziennikzachodni.pl,nowosci.com.pl,gk24.pl,to.com.pl,polskatimes.pl,expressbydgoski.pl,telemagazyn.pl,naszemiasto.pl,gp24.pl,gratka.pl###cross-dialog
 gb.pl###rdModal
 gieldarolna.pl##.rodo
 gofin.pl###formalAgreementModal, #modalBackdrop
@@ -104,6 +104,7 @@ zywiec.com.pl,heineken.com.pl###infobx
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
 !komputerswiat.pl,onet.pl,newsweek.pl,fakt.pl,literia.pl,verdykt.pl,plejada.pl,forbes.pl,onetontour.pl,przegladsportowy.pl,auto-swiat.pl,ofeminin.pl,nk.pl,noizz.pl,skapiec.pl,zumi.pl,opineo.pl,medonet.pl,softonet.pl,pclab.pl,businessinsider.com.pl,targsmaku.pl,agdlab.pl,jakdojade.pl,vod.pl,dreamlab.pl##.cmp-app_gdpr
+###gdpr_banner:not(body):not(html)
 ###rodo-popup:not(.fade):not(body):not(html)
 ##.gdpr-privacy-bar:not(body):not(html)
 /rhododendron/css/rhododendron-popup.css$domain=wpolityce.pl|wgospodarce.pl|wpolsce.pl
@@ -112,6 +113,7 @@ zywiec.com.pl,heineken.com.pl###infobx
 ||assets.allegrostatic.com/opbox-rodo-consent-modal/index*.css$domain=allegro.pl
 ||assets.goldenline.io/assets/user/profilingAgreement.*.js
 ||a.wpimg.pl/a/i/stg/wpjslib-chunk-consent-form.js
+||a.wpimg.pl/a/i/stg/wpjslib-chunk-notification.js
 ||cdn.rp.pl/rodo-agreement-popup/rodo-agreement-popup.min.js
 ||cookie.avt.pl/cookie-noscript
 ||kochamwroclaw.pl/wp-content/plugins/surbma-yes-no-popup/css/styles.css
@@ -120,6 +122,7 @@ zywiec.com.pl,heineken.com.pl###infobx
 ||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
 ||rodo.agora.pl^$script
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js 
+||std.wpcdn.pl/wpjslib/*/wpjslib-chunk-notification.js
 ||whitepress.pl/common/pltk/pltk.js
 ||www.serialowa.pl/wpr/wp-content/plugins/popup-maker/assets/css/site.min.css
 ||www.swiatksiazki.pl/customer/account/infoAgreement/*$xmlhttprequest
