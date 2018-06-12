@@ -1,4 +1,5 @@
 !#if !cap_user_stylesheet
+dobreprogramy.pl##.author-social-links, .social:style(visibility: hidden !important;)
 gadzetomania.pl,fotoblogia.pl,komorkomania.pl,autokult.pl##a[href^="https://www.facebook.com/sharer.php"], [href^="http://twitter.com/intent/tweet"], [href^="http://pinterest.com/pin/create/link/"]:style(visibility: hidden !important;)
 gadzetomania.pl,fotoblogia.pl,komorkomania.pl,autokult.pl##.link-facebook, .link-youtube, .link-gplus, .link-instagram, .icon-mail:style(visibility: hidden !important;)
 wp.pl,~www.wp.pl###app > div > table > tbody > tr:nth-child(1) > td > div > div > div > div > div > div > div > article > div > div > div > div[hidden]:style(position: absolute !important; left: -3000px !important;)
