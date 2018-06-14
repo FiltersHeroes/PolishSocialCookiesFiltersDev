@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: bPTnu9S6MP9z0AWnSJ9Twg
+! Checksum: p2pZUw2871q/MDpq/IDlgA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201806141740
-! Last modified: Thu, 14 Jun 2018, 17:40:09 UTC+02
+! Version: 201806142011
+! Last modified: Thu, 14 Jun 2018, 20:11:58 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201806141740 aktualizacja: czw, 14 cze 2018, 17:40:09 UTC+02
+! v.201806142011 aktualizacja: czw, 14 cze 2018, 20:11:58 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1129,7 +1129,7 @@ firmy.lu###privacy_info_overlay, #privacy_info_content
 foreca.pl###ckieconsent
 fotosik.pl###rodo-info, .modal-backdrop
 funduszpomerania.pl###eprivacyModal, .modal-backdrop
-garwolin.spolem.org.pl###colorbox
+garwolin.spolem.org.pl#?##colorbox:-abp-has(#rodo_width_hotfix)
 gazetalubuska.pl,dziennikbaltycki.pl,gs24.pl,echodnia.eu,pomorska.pl,nto.pl,gazetakrakowska.pl,sportowy24.pl,dzienniklodzki.pl,dziennikpolski24.pl,gloswielkopolski.pl,gol24.pl,nowiny24.pl,warszawa.naszemiasto.pl,kurierlubelski.pl,expressilustrowany.pl,gazetawroclawska.pl,poranny.pl,dziennikzachodni.pl,nowosci.com.pl,gk24.pl,to.com.pl,polskatimes.pl,expressbydgoski.pl,telemagazyn.pl,naszemiasto.pl,gp24.pl,gratka.pl###cross-dialog
 gb.pl###rdModal
 gieldarolna.pl##.rodo
@@ -1159,7 +1159,7 @@ medpolonia.pl###bannerPopup
 moviesroom.pl##.overlay-rules
 m.benchmark.pl###private-policy-popup
 naekranie.pl###modal-rodo-info, .reveal-modal-bg
-natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl##div[class^="app_gdpr"]
+natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl,joemonster.org##div[class^="app_gdpr"]
 neonet.pl##.rodo-info__content, .rodo-info__overlay
 neosite.pl,ppe.pl,terazmuzyka.pl###rodo-overlay
 niezalezna.pl,gpcodziennie.pl###swsoverlay, #swsmodal
@@ -1174,6 +1174,7 @@ pl,ki24.info,ciechocinek.biz,gniewkowo.eu,pluznica.info,nizanskie.info##.rodo-ov
 pogodynka.pl###accept
 polskieradio.pl##.rodo-modal
 pomagam.pl###pp-info
+portaltatrzanski.pl###rododiv
 portel.pl###rodoDiv
 pz.gov.pl###gdprPopup
 queer.pl##.box-rodo
