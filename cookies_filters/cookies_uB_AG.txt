@@ -1,11 +1,11 @@
-! Checksum: gjNluhvjCPSE8Vft+VzcDw
+! Checksum: nmjwgl+7HTxGr370H0qUqw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201806151658
-! Last modified: Fri, 15 Jun 2018, 16:58:19 UTC+02
+! Version: 201806151923
+! Last modified: Fri, 15 Jun 2018, 19:23:50 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201806151658 aktualizacja: pią, 15 cze 2018, 16:58:19 UTC+02 
+! v.201806151923 aktualizacja: pią, 15 cze 2018, 19:23:50 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -75,6 +75,8 @@ budownictwo.pl##.modal-open:style(overflow: auto !important;)
 craftserve.pl###rodo, .modal-backdrop
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
+eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.open.rodo
+eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.windowOpen:style(overflow: auto !important;)
 eobuwie.com.pl###permissions-popup
 eobuwie.com.pl,zeropln.antyweb.pl,mazury.travel,wagrowczanie.pl,praca.antyweb.pl##body:style(overflow: auto !important;)
 e-sochaczew.pl,pultusk24.pl###RODOCOOKIE, .modal-backdrop
@@ -92,8 +94,6 @@ infoplanet.pl###rodo, .modal-backdrop
 lovekrakow.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 mazury.travel##.popup, .popup-overlay
-mckkatowice.pl,spodekkatowice.pl##.open.rodo
-mckkatowice.pl,spodekkatowice.pl##.windowOpen:style(overflow: auto !important;)
 morele.net##html:style(overflow: auto !important; padding-right: 0px !important;)
 morele.net###content_info_popup
 obywatel.gov.pl###modal-rodo, .modal-backdrop
