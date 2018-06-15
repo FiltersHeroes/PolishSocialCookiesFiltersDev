@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: DX6YQIhG46B1QUg4yXzcng
+! Checksum: DfCsjokXf7AX0CJS2JKcZQ
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201806151841
-! Last modified: Fri, 15 Jun 2018, 18:41:43 UTC+02
+! Version: 201806151945
+! Last modified: Fri, 15 Jun 2018, 19:45:05 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201806151841 aktualizacja: pią, 15 cze 2018, 18:41:43 UTC+02 
+! v.201806151945 aktualizacja: pią, 15 cze 2018, 19:45:05 UTC+02 
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1948,7 +1948,7 @@ soczewki24.pl##a[href="https://plus.google.com/+Soczewki24Pl1/posts"]
 soczewki24.pl##.icon:nth-of-type(3)
 soczewki24.pl##[href="https://pl-pl.facebook.com/soczewki24"]
 solidarnoscarimr.pl###right
-spidersonline.pl###facebook_like_box_footer, ##bottom_column
+spidersonline.pl###facebook_like_box_footer, #bottom_column
 spidersweb.pl##.row > .columns.large-offset-1.large-11 > .margin-bottom35.single-about > .row > .show-for-large.columns.large-7 > .text-right.display-table.single-interactions > .display-table-cell > span:nth-child(n+2):nth-child(-n+3)
 spidersweb.pl##.social-media-frame
 spigot.pl##.ipsBox.ipsWidget_vertical.ipsWidget:nth-of-type(4)
@@ -2002,7 +2002,7 @@ swiatdronow.pl###text-4 > .widget-title
 swiatgsm.com##.sp_likebox_img
 swiatoze.pl###text-2 > .widget-title
 swiatoze.pl##.textwidget > div:nth-of-type(2)
-swietokrzyskie.pro##.hdr_links1 > li:nth-of-type(1+3n)
+swietokrzyskie.pro##.hdr_links1 > li:nth-of-type(n+3)
 swobodnie.eu##.asalah-social-widget, .asalah-fbpage-widget
 swobodnie.eu##.asalah-tweets-widget, #text-3
 sygnaturazdrowia.pl##.col-sm-3.col-md-3.col-lg-3.fusion-column:nth-of-type(3)
