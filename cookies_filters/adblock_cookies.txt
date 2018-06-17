@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Rg9Idenc8cvZqwbpGWDz2Q
+! Checksum: GKkRa8HK2UdztzGkW4UTdg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201806171546
-! Last modified: Sun, 17 Jun 2018, 15:46:14 UTC+02
+! Version: 201806171808
+! Last modified: Sun, 17 Jun 2018, 18:08:33 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201806171546 aktualizacja: nie, 17 cze 2018, 15:46:14 UTC+02
+! v.201806171808 aktualizacja: nie, 17 cze 2018, 18:08:33 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1265,7 +1265,7 @@ zywiec.com.pl,heineken.com.pl###infobx
 ! Ogólne reguły ukrywające
 ~addons.mozilla.org##.privacy-policy
 ~allegro##[class*="cookie-policy"]:not(body):not(html)
-~autocentrum.pl,~ideabank.pl,~intel.pl,~intel.com,~pkn.pl,~topsecret.pl,~starbucks.pl,~isobar.com,~morizon.pl,~abctygodnik.pl,~wykop.pl,~bt4.pl,~kolba.pl,~tablety.pl,~tesco.pl,~unileverfoodsolutions.pl,~lomza.pl,~multimediago.pl,pl##div[class*="cookie"]
+~autocentrum.pl,~ideabank.pl,~intel.pl,~intel.com,~intel.de,~pkn.pl,~topsecret.pl,~starbucks.pl,~isobar.com,~morizon.pl,~abctygodnik.pl,~wykop.pl,~bt4.pl,~kolba.pl,~tablety.pl,~tesco.pl,~unileverfoodsolutions.pl,~lomza.pl,~multimediago.pl,pl##div[class*="cookie"]
 ~bskrasnosielc.pl,~interhotel.pl,~laskonline.pl,~piekarniaanka.pl###cookiewarning:not(body):not(html)
 ~fd.nl,~piekarniaanka.pl,~xboxarcade.pl,~everafterhigh.com,~wmeritum.pl,~microsoft.com,~paypal.com,~reserved.com,~zumi.pl,~komunikacja.bialystok.pl,~nvidia.com,~dobreprogramy.pl,~emigrantpl.com,~lomza.pl##:not(input)[id*="cookie"]
 ~filterlists.com,~yamaha-motor.eu,~dwkoral.pl,~piekarniaanka.pl,~xboxarcade.pl,~appki.com.pl,~paypal.com,~accounts.google.com,~tylesmiechu.pl,~neon24.pl##:not(input)[id*="Cookie"]
