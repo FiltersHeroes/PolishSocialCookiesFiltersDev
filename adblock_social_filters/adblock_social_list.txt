@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: TkNK31U+Ea24H8VIBg5SqQ
+! Checksum: IrjGxSaZIkiF9bw7sAJ4nQ
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201806192014
-! Last modified: Tue, 19 Jun 2018, 20:14:29 UTC+02
+! Version: 201806192055
+! Last modified: Tue, 19 Jun 2018, 20:55:48 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201806192014 aktualizacja: wto, 19 cze 2018, 20:14:30 UTC+02 
+! v.201806192055 aktualizacja: wto, 19 cze 2018, 20:55:48 UTC+02 
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -873,8 +873,7 @@ cafebabel.pl##.share
 cardsplitter.pl##center > center:nth-of-type(1)
 carlsbergpolska.pl##div.col-md-4:nth-of-type(2)
 carrefour.pl##li.m-t-sm:nth-of-type(4)
-cashless.pl##a[href="https://www.facebook.com/cashlesspolska/"], a[href="https://plus.google.com/u/0/102191552045627623806"], a[href="https://twitter.com/Cashlesspl"], a[href="https://www.youtube.com/channel/UCUi9JWmGYrukodfVJi4xjLg"], a[href="https://www.linkedin.com/company-beta/17953895"]
-cashless.pl##.socialsFooter > h3
+cashless.pl##div.col-sm-2:nth-of-type(5) > h1, .icon-list > li:nth-of-type(-n+5)
 castorama.pl##div.col-md-2.col-xs-3:nth-of-type(5) > p, .so-ico
 catzilla.com##img[src="/images/vimeo.png"]
 catzilla.com##.btn-block.btn-sm.btn-danger.btn.cbConnectButtonGoogle.cbConnectButtonIconText.cbConnectButton
