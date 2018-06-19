@@ -1,7 +1,8 @@
+!#if !cap_html_filtering
 publikator.com.pl##.layer
 publikator.com.pl##body>*:style(filter: none !important;)
 publikator.com.pl##html > body:style(overflow: auto !important;)
-publikator.com.pl##^body script:has-text(polityka|zaufani)
 !#endif
 !#if cap_html_filtering
-!#if !cap_html_filtering
+publikator.com.pl##^body script:has-text(polityka|zaufani)
+!#endif
