@@ -22,7 +22,7 @@ for i in "$@"; do
     # Usuwanie pustych linii z sekcji
     find ${SEKCJE_KAT} -type f -exec sed -i '/^$/d' {} \;
     
-    # Sortowanie sekcji z pominięciem sekcji zawierających specjalne instrukcje
+    # Sortowanie sekcji z pominięciem tych, które zawierają specjalne instrukcje
     find ${SEKCJE_KAT} -type f ! -iname ""*_specjalne_instrukcje.txt"" -exec sort -uV -o {} {} \;
     
     # Obliczanie ilości sekcji (wystąpień słowa @include w template'cie
