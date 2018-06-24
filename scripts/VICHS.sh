@@ -26,7 +26,7 @@ for i in "$@"; do
     find ${SEKCJE_KAT} -type f -exec sed -i '/^$/d' {} \;
     
     # Sortowanie sekcji
-    find ${SEKCJE_KAT} -type f ! -iname ${SEKCJA_NS}.txt -exec sort -uV -o {} {} \;
+    find ${SEKCJE_KAT} -type f ! -iname "${SEKCJA_NS}.txt" -exec sort -uV -o {} {} \;
     
     # Obliczanie ilości sekcji (wystąpień słowa @include w template'cie
     END=$(grep -o -i '@include' ${TEMPLATE} | wc -l)
