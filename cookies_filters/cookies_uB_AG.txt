@@ -1,11 +1,11 @@
-! Checksum: bNvJvDChuGyztr6ARm0WLw
+! Checksum: DAuRS9zRnT+Z3KC3CI629g
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201806261254
-! Last modified: Tue, 26 Jun 2018, 12:54:50 UTC+02
+! Version: 201806261947
+! Last modified: Tue, 26 Jun 2018, 19:47:32 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201806261254 aktualizacja: wto, 26 cze 2018, 12:54:50 UTC+02 
+! v.201806261947 aktualizacja: wto, 26 cze 2018, 19:47:32 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -108,6 +108,8 @@ obywatel.gov.pl###modal-rodo, .modal-backdrop
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
+otwarteklatki.pl###popup-gdpr, .popup-overlay
+otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
 polski-tenis.pl###rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.windowOpen:style(overflow: auto !important;)
