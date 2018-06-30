@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: /+lZ0e9OcWflFJOstktfKw
+! Checksum: a1szZ8OQ/HjA0mIlHEJk2w
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201806300218
-! Last modified: Sat, 30 Jun 2018, 02:18:11 UTC+02
+! Version: 201806301239
+! Last modified: Sat, 30 Jun 2018, 12:39:03 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201806300218 aktualizacja: sob, 30 cze 2018, 02:18:11 UTC+02 
+! v.201806301239 aktualizacja: sob, 30 cze 2018, 12:39:03 UTC+02 
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -905,7 +905,6 @@ comparic.pl##a[href="https://twitter.com/comparic"]
 comparic.pl##.sfm-has-child-menu.sfm-menu-item-301294 > a[href="#"]
 comparic.pl##.widget_text.widget.td_block_template_1:nth-of-type(5)
 comparic.pl#?#.g-single:-abp-contains(Dołącz do naszej grupy)
-comparic.pl#?#.td-post-content > h3:-abp-contains(za pomocą Facebook)
 comperio.co##nav > .Facebook
 comperio.co##nav > .Gplus
 comperio.co##nav > .Twitter
@@ -1395,9 +1394,8 @@ lols.pl##.bimber-icon-follow
 longevitas.pl##.footer_box:nth-of-type(3)
 lososwkuchni.pl,blog.spigot.pl###text-6
 lovedlafirm.pl##.opl-footer__social
-lowcygier.pl###socialfans_counter_widget-2
-lowcygier.pl##.widget_socialfans_counter_widget
-lowcytrendow.pl###sfsi-widget-2
+lowcygier.pl###socialfans_counter_widget-2, .widget_socialfans_counter_widget
+lowcytrendow.pl###sfsi-widget-2, .box-sharing
 lowicz24.eu##li.social
 lubiekabaret.pl###text-2, #text-19, #text-21
 lublin112.pl##.g.icon
@@ -1487,7 +1485,7 @@ mojawww.com##.share
 mojawww.com###socialFoot > span
 mojbytom.pl,mojchorzow.pl,mojegliwice.pl,laziska.com.pl,mojekatowice.pl,mojmikolow.pl,m-ce.pl,orzesze.com.pl,piekaryslaskie.com.pl,pyskowice.com.pl,rudaslaska.com.pl,rybnicki.com,siemianowice.net.pl,sosnowiecki.pl,swiony.pl,mojetychy.pl,wodzislaw.com.pl,zabrze.com.pl,zory.com.pl###news-share
 mojegotowanie.pl##.top-menu-like-us
-moje-bubble.blogspot.com###HTML2, #Profile1, #PlusBadge2
+moje-bubble.blogspot.com###HTML2, #Profile1, #PlusBadge2, #HTML5
 mojtelefon.info##.daily
 mojtelefon.info##.google
 mojtelefon.info##.youtube
@@ -2227,7 +2225,7 @@ wszystkotujest.pl##.is
 wulkanista.pl###text-2
 www.aligato.pl##.soc-link
 www.chamskie.pl##.widget-fanbox
-www.djakdesign.pl###HTML6, #HTML3, #HTML1
+www.djakdesign.pl###HTML6, #HTML3, #HTML1, #HTML2
 www.fn.org.pl##.col-md-4.col-sm-12:nth-of-type(3)
 www.focus.pl##.box-obserwuj-newsletter > a[href="https://www.instagram.com/focus.pl/"], h2:first-of-type, .social-icon-box
 www.forumzdrowia.pl,perfectsoft.com.pl,sklep.hard-pc.pl,vida.pl###face-slider
