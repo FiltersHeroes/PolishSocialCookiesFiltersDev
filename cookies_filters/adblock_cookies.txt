@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: AT+qS+K90BHBprf53q+w/g
+! Checksum: 1XJsGHibvEgU1nagnQOv7Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807011654
-! Last modified: Sun, 01 Jul 2018, 16:54:30 UTC+02
+! Version: 201807011703
+! Last modified: Sun, 01 Jul 2018, 17:03:53 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807011654 aktualizacja: nie, 01 lip 2018, 16:54:30 UTC+02
+! v.201807011703 aktualizacja: nie, 01 lip 2018, 17:03:53 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -508,6 +508,7 @@ mactronic.pl##body > div[id*="cookie"]
 madreklama.com##.style2
 magazynpracy.pl##DIV[style="width: 100%; text-align: center; background-color: rgb(255, 255, 255); box-shadow: 0px 0px 8px rgb(85, 85, 85); padding: 10px 0px; z-index: 100; position: fixed; bottom: 0px;"]
 magazynpracy.pl##body > div:not([id]):not([class])
+magboss.pl#?#.alert-dismissable:-abp-contains(cookie)
 mall.pl##.cpr-bar
 malygosc.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
 mammografia.elblag.pl##body > div[id]
