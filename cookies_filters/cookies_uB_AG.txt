@@ -1,11 +1,11 @@
-! Checksum: 3cQd8XdRwNauS0v8MhbT+A
+! Checksum: FbA18Z6zGOU4sM8+vLim7w
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201807060832
-! Last modified: Fri, 06 Jul 2018, 08:32:20 UTC+02
+! Version: 201807061043
+! Last modified: Fri, 06 Jul 2018, 10:43:14 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807060832 aktualizacja: pią, 06 lip 2018, 08:32:20 UTC+02 
+! v.201807061043 aktualizacja: pią, 06 lip 2018, 10:43:14 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -73,7 +73,7 @@ unileverfoodsolutions.pl##.js-cookie-wall
 ! Popupy dot. polityki prywatności/RODO
 4fun.tv###cModal, .modal-backdrop
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
-alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl,tuzdrowie.pl,polski-tenis.pl,craftserve.pl,ustawmundial.weszlo.com,4fun.tv,m.24jgora.pl,ztm.poznan.pl,roztoczanskipn.pl,born2be.pl,renee.pl,pro-sprzet.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
+alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl,tuzdrowie.pl,polski-tenis.pl,craftserve.pl,ustawmundial.weszlo.com,4fun.tv,m.24jgora.pl,ztm.poznan.pl,roztoczanskipn.pl,born2be.pl,renee.pl,pro-sprzet.pl,mowianamiescie.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl##.modal-open:style(overflow: auto !important;)
@@ -92,8 +92,8 @@ fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com##.popmake-overlay
 gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com##.pum-open:style(overflow: auto !important;)
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
-generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0px !important;)
-hbogo.pl##body:style(overflow: auto !important; padding-right: 0px !important;)
+generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
+hbogo.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
 hbogo.pl##.banner-overlay
 hm.com##.modal-open, .modal-open body:style(overflow-y: auto !important; position: static !important;)
 hm.com#?#.modaloverlay:-abp-has(#gdpr-modal)
@@ -104,8 +104,9 @@ kaliszak.pl##.rodo, .rodo_layer
 lovekrakow.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 mazury.travel##.popup, .popup-overlay
-morele.net##html:style(overflow: auto !important; padding-right: 0px !important;)
+morele.net##html:style(overflow: auto !important; padding-right: 0 !important;)
 morele.net###content_info_popup
+mowianamiescie.pl###rodo
 m.24jgora.pl###rodoModal, .modal-backdrop
 obywatel.gov.pl###modal-rodo, .modal-backdrop
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
