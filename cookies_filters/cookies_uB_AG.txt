@@ -1,11 +1,11 @@
-! Checksum: /JBSMQBC5w6zhyTodgNjEw
+! Checksum: fjLL6xkJNqEHYShbWNQfLQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201807061047
-! Last modified: Fri, 06 Jul 2018, 10:47:39 UTC+02
+! Version: 201807061110
+! Last modified: Fri, 06 Jul 2018, 11:10:04 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807061047 aktualizacja: pią, 06 lip 2018, 10:47:39 UTC+02 
+! v.201807061110 aktualizacja: pią, 06 lip 2018, 11:10:04 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -101,6 +101,8 @@ infoplanet.pl###rodo, .modal-backdrop
 ipla.tv##.no-scroll:style(overflow: auto !important;)
 ipla.tv##.rodo-rules-modal
 kaliszak.pl##.rodo, .rodo_layer
+koelnerpolska.pl##.cookieModal:style(overflow: auto !important;)
+koelnerpolska.pl##.rodo-modal
 lovekrakow.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 mazury.travel##.popup, .popup-overlay
