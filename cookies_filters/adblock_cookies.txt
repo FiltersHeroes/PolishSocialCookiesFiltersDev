@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: qcAblnXFkxGmXUiID+uDrQ
+! Checksum: vQxSKKJ+SrDKspG6snEIAQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807070020
-! Last modified: Sat, 07 Jul 2018, 00:20:10 UTC+02
+! Version: 201807081736
+! Last modified: Sun, 08 Jul 2018, 17:36:28 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807070020 aktualizacja: sob, 07 lip 2018, 00:20:10 UTC+02
+! v.201807081736 aktualizacja: nie, 08 lip 2018, 17:36:28 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1136,6 +1136,7 @@ certum.pl##.spu-bg, .spu-box
 chomikuj.pl###acceptChomikujTermsOverlay, #acceptChomikujTermsContainer
 cinema3d.pl##rodo-modal
 cos.pl###popup
+danepubliczne.gov.pl##.flash-messages
 demotywatory.pl,fabrykamemow.pl,faktopedia.pl,piekielni.pl,mklr.pl,rebelianci.org,kotburger.pl,mistrzowie.org,joemonster.org,komixxy.pl,retro.pewex.pl,stylowi.pl,memy.pl###pp-bg-overlay
 dobreprogramy.pl###rodoCookie
 dobrymechanik.pl##.small.navbar-fixed-bottom
@@ -1234,6 +1235,7 @@ speedtest.net###_evidon-barrier-wrapper
 spidersweb.pl###moove_gdpr_cookie_info_bar
 store.playstation.com###privacy-header
 szlot.pl##.spu-bg, .spu-total-
+tcz.pl###dynamic-load-rodo, #dynamic-loading-rodo
 telegazeta.pl##.tvp-covl-bg, .tvp-covl
 telewizjarepublika.pl###swsmodal, #swsoverlay
 tesco.pl##.gdpr-cookies-inside
