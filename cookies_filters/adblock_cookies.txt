@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: YnVyP4iNyduDEs6U7H+UXA
+! Checksum: 9U9/ss9DDWXyOb+I9C0MTQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807091819
-! Last modified: Mon, 09 Jul 2018, 18:19:23 UTC+02
+! Version: 201807091832
+! Last modified: Mon, 09 Jul 2018, 18:32:22 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807091819 aktualizacja: pon, 09 lip 2018, 18:19:23 UTC+02
+! v.201807091832 aktualizacja: pon, 09 lip 2018, 18:32:22 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1602,7 +1602,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
 ! Wyjątki
-digitaltrends.com#@#[id*="cookie-"]
+digitaltrends.com,php.net#@#[id*="cookie-"]
 foxnews.com#@#.cookies
 gdansk.pl,gokf.gda.pl,orteil.dashnet.org#@##cookies:not(body):not(html):not(.section)
 iculture.nl#@#[id*="cookie_"]
