@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: vQxSKKJ+SrDKspG6snEIAQ
+! Checksum: YnVyP4iNyduDEs6U7H+UXA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807081736
-! Last modified: Sun, 08 Jul 2018, 17:36:28 UTC+02
+! Version: 201807091819
+! Last modified: Mon, 09 Jul 2018, 18:19:23 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807081736 aktualizacja: nie, 08 lip 2018, 17:36:28 UTC+02
+! v.201807091819 aktualizacja: pon, 09 lip 2018, 18:19:23 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1614,7 +1614,7 @@ naekranie.pl#@#[id^="polityka-prywatnosci"]
 norauto.pl,orange.pl,orteil.dashnet.org#@#:not(input)[id*="Cookie"]
 opencraft.pl#@#[id^="topInfo"]
 orange.pl#@##cookies-info
-orange.pl,taat.pl,bskrasnosielc.pl,iculture.nl,interhotel.pl,puma.com,bestcena.pl,gokf.gda.pl,orteil.dashnet.org,gdansk.pl,naekranie.pl,digitaltrends.com#@#:not(input)[id*="cookie"]
+orange.pl,taat.pl,bskrasnosielc.pl,iculture.nl,interhotel.pl,puma.com,bestcena.pl,gokf.gda.pl,orteil.dashnet.org,gdansk.pl,naekranie.pl,digitaltrends.com,php.net#@#:not(input)[id*="cookie"]
 orteil.dashnet.org#@#div[class*="Cookie"]
 pokemon.com#@#.cookies
 redbullmobilecollect.pl#@#[id^="polityka-prywatnosci"]
