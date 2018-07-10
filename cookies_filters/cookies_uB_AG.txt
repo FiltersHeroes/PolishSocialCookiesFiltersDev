@@ -1,11 +1,11 @@
-! Checksum: k8i3R+YV8UjBxfm15Pg3uw
+! Checksum: auQfC85yg8+Jt9hY4EyDog
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201807061951
-! Last modified: Fri, 06 Jul 2018, 19:51:39 UTC+02
+! Version: 201807101453
+! Last modified: Tue, 10 Jul 2018, 14:53:59 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807061951 aktualizacja: pią, 06 lip 2018, 19:51:39 UTC+02 
+! v.201807101453 aktualizacja: wto, 10 lip 2018, 14:53:59 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -44,7 +44,7 @@ twitter.com##.topbar-spacer:style(padding-top: 0 !important;)
 webhelp.pl###wrapper:style(margin-top: auto !important;)
 wykop.pl##.cookie
 wykop.pl##.type-permanent+#nav+div:style(padding-top: 49px !important;)
-wykop.pl##.type-permanent+#nav:style(top: 0 !important;) 
+wykop.pl##.type-permanent+#nav:style(top: 0 !important;)
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px!important;)
 !
 !
@@ -55,19 +55,19 @@ fotoblogia.pl,gadzetomania.pl,komorkomania.pl##.cookie-disclaimer:style(visibili
 !
 !
 ! Popupy
-auto-czesci-lipiec.pl###mAll 
-auto-czesci-lipiec.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;) 
+auto-czesci-lipiec.pl###mAll
+auto-czesci-lipiec.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 etransport.pl##.modals.dimmer
 etransport.pl##body.dimmed:style(overflow: auto !important;)
 kobietymedycyny.pl##script:inject(abort-current-inline-script.js, $, cookies)
-mkidn.gov.pl###myModal 
-mkidn.gov.pl,puma.com##.modal-open:style(padding-right: 0px!important; overflow: visible!important;) 
+mkidn.gov.pl###myModal
+mkidn.gov.pl,puma.com##.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
 multimediago.pl##.modal-cookie
 multimediago.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
-puma.com###modal-geoip-cookies, .modal-backdrop 
-unileverfoodsolutions.pl##body.blurred>*:style(box-shadow: none!important; filter: none!important;) 
-unileverfoodsolutions.pl##body:style(overflow: auto!important;) 
-unileverfoodsolutions.pl##.js-cookie-wall 
+puma.com###modal-geoip-cookies, .modal-backdrop
+unileverfoodsolutions.pl##body.blurred>*:style(box-shadow: none!important; filter: none!important;)
+unileverfoodsolutions.pl##body:style(overflow: auto!important;)
+unileverfoodsolutions.pl##.js-cookie-wall
 !
 !
 ! Popupy dot. polityki prywatności/RODO
