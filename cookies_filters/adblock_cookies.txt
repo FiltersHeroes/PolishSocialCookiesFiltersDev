@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 4jF+AQwWCvAXJfzpRBs6dg
+! Checksum: /whS29kJwYdn3Rq/cTsZAA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807092203
-! Last modified: Mon, 09 Jul 2018, 22:03:09 UTC+02
+! Version: 201807101453
+! Last modified: Tue, 10 Jul 2018, 14:53:41 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807092203 aktualizacja: pon, 09 lip 2018, 22:03:09 UTC+02
+! v.201807101453 aktualizacja: wto, 10 lip 2018, 14:53:41 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1128,7 +1128,7 @@ apra.pl###popup-overlay
 astar.czest.pl##.lean-overlay
 audioteka.com##.anonymousToSConsent_mask
 autocentrum.pl##.hello-rodo
-autodna.pl##.privacy_policy-info 
+autodna.pl##.privacy_policy-info
 autogielda.pl##.modal-backdrop
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 auto-swiat.pl###termsPopup
@@ -1288,7 +1288,7 @@ zywiec.com.pl,heineken.com.pl###infobx
 ||rodo.agora.pl^$script
 ||rodo.rawlplug.com/wp-content/themes/rodo/popup/markups/modal-koelner.html$xmlhttprequest
 ||static.fabrykasily.pl/fs-tac/pp-t-a-c.js
-||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js 
+||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
 ||std.wpcdn.pl/wpjslib/*/wpjslib-chunk-notification.js
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
@@ -1323,7 +1323,7 @@ zywiec.com.pl,heineken.com.pl###infobx
 /js/jquery.cookie.min.js$script,domain=~rozklad-pkp.pl|~telepizza.pl|~uplayconnect.ubi.com
 /js/polityka_cookies.js$script
 /plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$script
-/savecookie.js$script 
+/savecookie.js$script
 !
 !
 ! Ogólne reguły ukrywające
@@ -1468,7 +1468,7 @@ pl##[id^="polityka-prywatnosci"]
 ###inpl_cp_cnt:not(body):not(html)
 ###jqmCookieMonster:not(body):not(html)
 ###js_popup_cookies:not(body):not(html)
-###komunikat_ciasteczka:not(body):not(html) 
+###komunikat_ciasteczka:not(body):not(html)
 ###korzystanieZCiateczek
 ###kuki
 ###notifyCookie:not(body):not(html)
