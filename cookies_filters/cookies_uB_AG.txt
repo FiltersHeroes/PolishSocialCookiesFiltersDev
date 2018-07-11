@@ -1,11 +1,11 @@
-! Checksum: auQfC85yg8+Jt9hY4EyDog
+! Checksum: IYOe8q6cKcPBFgOx0RvWAg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201807101453
-! Last modified: Tue, 10 Jul 2018, 14:53:59 UTC+02
+! Version: 201807111758
+! Last modified: Wed, 11 Jul 2018, 17:58:27 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807101453 aktualizacja: wto, 10 lip 2018, 14:53:59 UTC+02 
+! v.201807111758 aktualizacja: śro, 11 lip 2018, 17:58:27 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -101,6 +101,7 @@ infoplanet.pl###rodo, .modal-backdrop
 ipla.tv##.no-scroll:style(overflow: auto !important;)
 ipla.tv##.rodo-rules-modal
 kaliszak.pl##.rodo, .rodo_layer
+kruger.pl###rodo, .fader
 lovekrakow.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 mazury.travel##.popup, .popup-overlay
@@ -116,8 +117,8 @@ otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
 polski-tenis.pl###rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.windowOpen:style(overflow: auto !important;)
-prawdaobiektywna.pl##body:style(overflow: auto !important;)
 prawdaobiektywna.pl##.qc-cmp-ui-container
+prawdaobiektywna.pl,kruger.pl##body:style(overflow: auto !important;)
 pro-sprzet.pl###myWorning, .modal-backdrop
 przydomu.pl###popup_25
 przydomu.pl##.container:style(filter: none !important;)
