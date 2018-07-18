@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: vJhOpydYDVniyZkcT0cO6A
+! Checksum: t8cbsDzYkQnLm4M78uKIug
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807172232
-! Last modified: Tue, 17 Jul 2018, 22:32:21 UTC+02
+! Version: 201807181233
+! Last modified: Wed, 18 Jul 2018, 12:33:25 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807172232 aktualizacja: wto, 17 lip 2018, 22:32:21 UTC+02 
+! v.201807181233 aktualizacja: śro, 18 lip 2018, 12:33:25 UTC+02 
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -45,7 +45,6 @@ pl##.facebook-popup
 politykazdrowotna.com##.modal-footer
 poradniktransportowy.pl###wbounce-modal
 programistanaswoim.pl##.spu-box, .spu-bg
-sat-charts.eu###fbox-background
 serialowy.info##.wph-modal
 telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 wakacjezprocentem.pl##.overlay
@@ -57,6 +56,7 @@ yt360.pl###ouibounce-modal
 ||chamskie.pl/compress/popupFacebook.js
 ||chamskie.pl/compress/popups/popupFacebook_normal.css
 ||inffuse-fbpopup.appspot.com/widget.html
+||sat-charts.eu/js/fcbkpopup.js
 ||timeandwatches.pl/modules/mod_onscreen_facebook_likebox_popup/assets/js/jquery.colorbox-min.js
 ||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
@@ -708,6 +708,7 @@ allegro.pl##a[href="https://www.youtube.com/allegro"]
 allepaczki.pl##a[href*="facebook.com/allepaczki"]
 amparts24.pl##.connect.white
 amso.pl##.toplayer3
+analizy.pl##.subskrypcja.footer-box > ul > li:nth-child(-n+5)
 androidbeztajemnic.com##.icon-google
 androidbeztajemnic.com##.icon-google-plus.icon
 androidbeztajemnic.com##.icon-twitter.icon
@@ -2048,6 +2049,9 @@ sport.tvn24.pl##.htmlBox
 sport.tvp.pl##.navigation__social, .article__buttons, .navigation__socialWrapper, .probe__share-box, .siteFooter__social, .article__head-socials
 sport.tvp.pl##.siteFooter__socialIcon:nth-child(-n+4)
 sprawnymarketing.pl##.fb-customerchat, .fb_dialog_advanced
+spreadshirt.pl##div.col-12:nth-of-type(2) > ul > li:nth-child(-n+2)
+spreadshirt.pl##div.col-12:nth-of-type(2) > ul > li:nth-of-type(4)
+spreadshirt.pl##.order-lg-3.col-lg-2.col-md-3.col-12.ft-social > div > .row > div.col-12:nth-of-type(1)
 sprzetdragon.pl###widget_shop4
 sps24.pl###baner187
 stacja7.pl###icon-google-plus
