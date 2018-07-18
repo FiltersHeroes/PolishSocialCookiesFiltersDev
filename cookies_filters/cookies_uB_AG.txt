@@ -1,11 +1,11 @@
-! Checksum: J7H4RPBc+fji04hKps3XbQ
+! Checksum: 5dHBMx15GwKW4JSu+oJ79w
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201807171013
-! Last modified: Tue, 17 Jul 2018, 10:13:00 UTC+02
+! Version: 201807181233
+! Last modified: Wed, 18 Jul 2018, 12:33:27 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807171013 aktualizacja: wto, 17 lip 2018, 10:13:00 UTC+02 
+! v.201807181233 aktualizacja: śro, 18 lip 2018, 12:33:27 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -34,9 +34,11 @@ kalisz.info.pl###all:style(top: 0 !important;)
 lafe.pl##.cinfo:style(padding-bottom: 0 !important;)
 lomza.pl##html > body.polityka-cookies:style(margin-top: 0 !important; background-position: center 120px !important;)
 meetup.com###mupFooter:style(padding-bottom: 0 !important;)
+mikroporady.pl##.mikroporady:style(padding-top: 0 !important;)
 msn.com###precontent:style(margin-top: 8rem !important;)
 msn.com##.head:style(margin-top: 0 !important;)
 neon24.pl##script:inject(abort-on-property-read.js, Service.cookieMonster)
+obpon.pl##.menu-flashmessages:style(top: 0 !important;)
 play.google.com,translate.google.pl###gba:style(height: 60px!important;)
 sephora.pl###header:style(margin-top: 41px !important;)
 sephora.pl##.bandeBody:style(top: 0 !important;)
@@ -77,6 +79,8 @@ unileverfoodsolutions.pl##.js-cookie-wall
 4fun.tv###cModal, .modal-backdrop
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl,tuzdrowie.pl,polski-tenis.pl,craftserve.pl,ustawmundial.weszlo.com,4fun.tv,m.24jgora.pl,ztm.poznan.pl,roztoczanskipn.pl,born2be.pl,renee.pl,pro-sprzet.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+analizy.pl##html:style(overflow: auto !important;)
+analizy.pl##.nl_rodo, .ui-widget-overlay
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl##.modal-open:style(overflow: auto !important;)
