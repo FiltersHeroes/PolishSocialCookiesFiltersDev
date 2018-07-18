@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 0B5Sq97wWXM16QgZJwPItw
+! Checksum:
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807182048
-! Last modified: Wed, 18 Jul 2018, 20:48:14 UTC+02
+! Version: 201807182051
+! Last modified: Wed, 18 Jul 2018, 20:51:48 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,11 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807182048 aktualizacja: śro, 18 lip 2018, 20:48:14 UTC+02
-!
-!
-! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
-!#include cookies_uB_AG.txt
+! v.201807182051 aktualizacja: śro, 18 lip 2018, 20:51:48 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1652,3 +1648,7 @@ wsensie.pl,wsensie.tv#@#.policy-box:not(body):not(html)
 @@||china-gadgets.de/app/plugins/cookie-law-info/js/cookielawinfo.js
 @@||coinroom.com/Modules/UI/Cookie/Cookie.js$script
 @@||pracatobie.pl/jscripts/cookieLaws.js
+!
+!
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
+!#include cookies_uB_AG.txt
