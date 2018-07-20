@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: NAjTCCYUW9x6xKgEpfUSrQ
+! Checksum: 6zYUgcpBZLWIWaw/Vy3uTQ
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807201411
-! Last modified: Fri, 20 Jul 2018, 14:11:01 UTC+02
+! Version: 201807201426
+! Last modified: Fri, 20 Jul 2018, 14:26:30 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807201411 aktualizacja: pią, 20 lip 2018, 14:11:01 UTC+02
+! v.201807201426 aktualizacja: pią, 20 lip 2018, 14:26:31 UTC+02
 !
 !
 ! Popupy
@@ -1164,6 +1164,7 @@ galeriabronowice.pl##.social-2
 galopuje.pl##a[href^="https://plus.google.com/u/0/+galopuje/"]
 gamedot.pl##.icon-twitch, .icon-steam-logo
 gameplanet.onet.pl##.footer__socials, .header__socials, .social-bar
+gastro-pol.pl###bar-fb
 gazetalubuska.pl###prawa-kolumna > .blok:nth-of-type(5)
 gazetalubuska.pl###prawa-kolumna > .blok:nth-of-type(7)
 gazetamiedzyszkolna.pl###advanced_text-3
@@ -2004,6 +2005,7 @@ sklep.grupazpr.pl##.tab_promo
 sklep.hart-metale.pl##.kac-sm-panel
 sklep.mieloch.pl##.clearfix.col-md-2.hidden-sm.hidden-xs.top_icons_wrapper
 sklep.mieloch.pl##.tile_icons.col-sm-6.col-xs-12
+skm.pkp.pl#?#a.round-link:-abp-contains(Facebook)
 skomplikowane.pl##.herald-sidebar-right.col-md-3.col-lg-3.herald-sidebar
 skript.pl###elNavSecondary_33 > a[href="https://www.facebook.com/skriptpl"]
 skript.pl##.ipsSocial_facebook
@@ -2105,6 +2107,7 @@ tarczynski.pl##.s_icon
 targimodypoznan.pl,cavaliada.pl,gamearena.pl##.youtube2
 targi.krakow.pl##.social
 targsmaku.pl##.fb-flayout-box-trigger
+tatromaniak.pl##.btn-join, div:nth-of-type(2) > [href="https://spolecznosc.tatromaniak.pl/"], .text--light.CTA, .social, .feed
 tatryski.pl##div.sidebutton:nth-of-type(10), div.col-md-12.col-sm-6.col-xs-12:nth-of-type(2)
 tcz.pl##a[href="http://www.facebook.com/tczewtczpl"]
 teatrlalek.olsztyn.pl##.icon-youtube-play
@@ -2441,6 +2444,9 @@ zyciepabianic.pl###facebook
 ||krzyzowki.info/images_krzyzowki/fbutton.jpg
 ||lexlabor.pl/templates/gfx/cech/facebook.png
 ||lib.onet.pl/fblike/v5/fb-popover.js$script
+||maxtest.cube-shops.com/appSocialMedia/gfx/facebook.png
+||maxtest.cube-shops.com/appSocialMedia/gfx/instagram.png
+||maxtest.cube-shops.com/appSocialMedia/gfx/twitter.png
 ||meritum.gda.pl/files/banners/744/11742-facebook_www.jpg
 ||mh.org.pl/modules/x13facebookbox/img/fb-default-normal.png
 ||mkn-moto.pl/images/f1.png
