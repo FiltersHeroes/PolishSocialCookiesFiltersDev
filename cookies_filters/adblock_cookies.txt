@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: cTOsYFz4NTlvZqFMQJUA2Q
+! Checksum: STbVvEmAn4o4YZuBBH6N8Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807191804
-! Last modified: Thu, 19 Jul 2018, 18:04:39 UTC+02
+! Version: 201807201426
+! Last modified: Fri, 20 Jul 2018, 14:26:27 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807191804 aktualizacja: czw, 19 lip 2018, 18:04:39 UTC+02
+! v.201807201426 aktualizacja: pią, 20 lip 2018, 14:26:27 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -53,6 +53,7 @@ apsdata.pl###alert
 aptekadyzurna.pl##div[style="padding: 10px 70px 10px 50px; font-family: arial, sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 9px; line-height: normal; background-color: rgb(153, 153, 153); display: block; position: relative; color: white; width: 99%; "]
 aptekagemini.pl##div#kukiz
 aptekaleki.co.uk##.ui-resizable.ui-draggable.ui-dialog-buttons.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
+aptoide.com##.cookie-notification-holder
 arachnea.org##div.guestwarn
 archiwa.gov.pl###message_box
 areatour.pl##div#topbar
@@ -690,6 +691,7 @@ piltza37.pl###fb
 pingpong.com.pl##body > div:nth-of-type(6)
 pipelife.com###coo
 pis.org.pl##body > div:not([id]):not([class])
+pkspolonus.pl###popek
 pks.zary.pl##div#infobar
 pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.aPad
 player.pl##.cBox
@@ -830,6 +832,7 @@ siemens.pl##.PopupDiv
 siemianowice.pl##body > div:not([id]):not([class])
 sieradz.com.pl,zdunskawola24.pl###polityka-2
 simba.com.pl###cContainer
+sitn.pl#?#body > div:-abp-has(#cookie-close)
 skapiec.pl##div#uclaInfo
 sklepdlaplastykow.pl###popup
 sklep-muzyczny.com.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
@@ -1187,11 +1190,13 @@ imagazine.pl,moviesroom.pl##.overlay-rules
 infostrefa.com,pap.pl###rodoWrapper
 instagram.com#?#div>div>div:-abp-contains(cookie)
 jarocinska.pl,gostynska.pl,zpleszewa.pl,rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
+jelenia.pl###alert-blue
 jelonka.com##.prywatnosc
 kalendarzrolnikow.pl###colorbox, #cboxOverlay
 kiep.pl,milanos.pl###rodo-pop
 kochamwroclaw.pl###tfade, #cwv3_dialog, #tlight, .dialog-overlay, #surbma-yes-no-popup
 koleje-wielkopolskie.com.pl##.spu-bg, .spu-box
+krakowairport.pl##.privacyPolicyPop
 kreskoweczki.pl###rodo-block
 lokalna24.pl#?##jm-right .custom > table:-abp-contains(RODO)
 londynek.net##.jd-rodo, .jd-rodo-2
@@ -1221,6 +1226,7 @@ optyczne.pl###id01
 otolaryngolodzy24.pl,prow.lubelskie.pl###rodo-policy
 pakolorente.com###toplayer_styleadvisor
 panoramafirm.pl###rodoLayer, .modal-backdrop
+pkspolonus.pl###popek
 pl##.rodo-accept:not(body):not(html):not(input):not(a)
 pl##.rodo-popup:not(body):not(html)
 pl,ki24.info,ciechocinek.biz,gniewkowo.eu,pluznica.info,nizanskie.info##.rodo-overlay:not(body):not(html)
@@ -1248,6 +1254,8 @@ sawataxi.pl##.w_news
 serialowa.pl##.popmake-overlay
 skionline.pl###popup_rodo
 sklepyabc.pl###am_pop-up
+skm.pkp.pl##.ui-widget-overlay
+skm.pkp.pl#?#.ui-dialog:-abp-has(#dialog-message-rodo)
 speedtest.net###_evidon-barrier-wrapper
 spidersweb.pl###moove_gdpr_cookie_info_bar
 store.playstation.com###privacy-header
@@ -1259,6 +1267,7 @@ telewizjarepublika.pl###swsmodal, #swsoverlay
 tesco.pl##.gdpr-cookies-inside
 tophifi.pl##.popup-rodo
 trakt.tv##.sncmp-app_gdpr
+trentino.pl###popup_rodo, #popup_tlo
 tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvs.pl##.RodoNotyfication
 tygodnikpowszechny.pl###top_head
