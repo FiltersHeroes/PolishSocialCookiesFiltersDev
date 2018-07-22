@@ -1,23 +1,24 @@
 ~addons.mozilla.org##.privacy-policy
-~allegro##[class*="cookie-policy"]:not(body):not(html)
-~autocentrum.pl,~ideabank.pl,~intel.pl,~intel.com,~intel.de,~pkn.pl,~topsecret.pl,~starbucks.pl,~isobar.com,~morizon.pl,~abctygodnik.pl,~wykop.pl,~bt4.pl,~kolba.pl,~tablety.pl,~tesco.pl,~unileverfoodsolutions.pl,~lomza.pl,~multimediago.pl,pl##div[class*="cookie"]
+~allegro.pl##[class*="cookie-policy"]:not(body):not(html)
+~autocentrum.pl,~ideabank.pl,~intel.pl,~pkn.pl,~topsecret.pl,~starbucks.pl,~morizon.pl,~abctygodnik.pl,~wykop.pl,~bt4.pl,~kolba.pl,~tablety.pl,~tesco.pl,~unileverfoodsolutions.pl,~lomza.pl,~multimediago.pl,pl##div[class*="cookie"]
 ~bskrasnosielc.pl,~interhotel.pl,~laskonline.pl,~piekarniaanka.pl###cookiewarning:not(body):not(html)
-~fd.nl,~piekarniaanka.pl,~xboxarcade.pl,~everafterhigh.com,~wmeritum.pl,~microsoft.com,~paypal.com,~reserved.com,~zumi.pl,~komunikacja.bialystok.pl,~nvidia.com,~dobreprogramy.pl,~emigrantpl.com,~lomza.pl##:not(input)[id*="cookie"]
-~filterlists.com,~yamaha-motor.eu,~dwkoral.pl,~piekarniaanka.pl,~xboxarcade.pl,~appki.com.pl,~paypal.com,~accounts.google.com,~tylesmiechu.pl,~neon24.pl##:not(input)[id*="Cookie"]
-~linuxiarz.pl,~piekarniaanka.pl,~xboxarcade.pl,~appki.com.pl,~mvno-gsm.pl##[id*="cookie-"]
-~lycos.com,~freaktab.com,~csmonitor.com##.cookies:not(body):not(html)
-~microsoft.com##[id*="cookie_"]
-~riscosoftware.pl##div[class*="Cookie"]
+~dwkoral.pl,~piekarniaanka.pl,~xboxarcade.pl,~appki.com.pl,~tylesmiechu.pl,~neon24.pl,pl##:not(input)[id*="Cookie"]
+~linuxiarz.pl,~piekarniaanka.pl,~xboxarcade.pl,~appki.com.pl,~mvno-gsm.pl,pl##[id*="cookie-"]
+~piekarniaanka.pl,~xboxarcade.pl,~wmeritum.pl,~zumi.pl,~komunikacja.bialystok.pl,~dobreprogramy.pl,~lomza.pl,pl##:not(input)[id*="cookie"]
+~riscosoftware.pl,pl##div[class*="Cookie"]
 ~sympatia.onet.pl##[id^="topInfo"]
 com##.is-ready.is-shown.cnil-banner
 pl##DIV[style="border: 10px solid rgb(138, 138, 138); border-radius: 10px; box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255); padding: 8px 8px 10px; position: fixed; z-index: 99999; right: 20px; left: 20px; bottom: 20px; width: 700px; max-width: 90%;"]
 pl##DIV[style="padding: 5px 25px 5px 15px;"]
 pl###cokPyt
+pl###cookies:not(body):not(html):not(.section)
 pl###komunikat-cookies
 pl###notice_bar
 pl###policy-info
 pl##.cnil-banner__content
+pl##.cookies:not(body):not(html)
 pl##[class^="kom_polityka_prywatnosci"]
+pl##[id*="cookie_"]
 pl##[id^="polityka-prywatnosci"]
 ##.JSWrapper
 ##.ciasteczko
@@ -105,7 +106,6 @@ pl##[id^="polityka-prywatnosci"]
 ###cookies-info:not(body):not(html)
 ###cookies-policy:not(body):not(html)
 ###cookies-politics:not(body):not(html)
-###cookies:not(body):not(html):not(.section)
 ###cookies_content:not(body):not(html)
 ###cookies_info:not(body):not(html)
 ###cookies_policy_box
