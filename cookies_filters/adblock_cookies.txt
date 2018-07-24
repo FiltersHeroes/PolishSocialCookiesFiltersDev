@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 4D6YBWxMG1xyB3erwSr1Iw
+! Checksum: 3n7onOcl7q+4nD/R4uADaQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807221228
-! Last modified: Sun, 22 Jul 2018, 12:28:42 UTC+02
+! Version: 201807240859
+! Last modified: Tue, 24 Jul 2018, 08:59:27 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807221228 aktualizacja: nie, 22 lip 2018, 12:28:42 UTC+02
+! v.201807240859 aktualizacja: wto, 24 lip 2018, 08:59:27 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -872,6 +872,7 @@ stopwariatom.pl##body > div:not([id]):not([class])
 storm24.pl###popup
 strefaczasu.pl##.Cooker
 stroer.pl##.popUpWrap
+strona.euro-net.pl###ctl00_CiasteczkaPolityka_RNCockie_popup
 studentpotrafi.pl##body > div:not([id]):not([class])
 studiorolety.pl##.content-head-information
 stylowi.pl##DIV[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:16; overflow: auto"]
@@ -1258,6 +1259,7 @@ skm.pkp.pl#?#.ui-dialog:-abp-has(#dialog-message-rodo)
 speedtest.net###_evidon-barrier-wrapper
 spidersweb.pl###moove_gdpr_cookie_info_bar
 store.playstation.com###privacy-header
+szkolymedyczne.eu###ppsPopupBgOverlay, .ppsPopupShell
 szlot.pl##.spu-bg, .spu-total-
 tanie-loty.com.pl###rodo_info_placeholder
 tcz.pl###dynamic-load-rodo, #dynamic-loading-rodo
