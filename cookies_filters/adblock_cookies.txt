@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: BBtwFNorXGmEDvmyLPNn7A
+! Checksum: htoUTrst9V9lC6pfZU17gw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807241516
-! Last modified: Tue, 24 Jul 2018, 15:16:25 UTC+02
+! Version: 201807241623
+! Last modified: Tue, 24 Jul 2018, 16:23:36 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807241516 aktualizacja: wto, 24 lip 2018, 15:16:25 UTC+02
+! v.201807241623 aktualizacja: wto, 24 lip 2018, 16:23:36 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1163,6 +1163,7 @@ dziennikwschodni.pl##.rodo-alert
 elka.pl,elka.tv,miedziowe.pl###RODOZgoda
 elk.gmina.pl##.spu-bg, .spu-box
 emt-systems.pl###rodoBG
+enjoyuk.pl###fanback
 epiotrkow.pl##.user_politic_pop
 epoznan.pl###rodo-info-box
 epuap.gov.pl###rodo-modal
@@ -1236,8 +1237,7 @@ pl,ki24.info,ciechocinek.biz,gniewkowo.eu,pluznica.info,nizanskie.info##.rodo-ov
 pl.isilines.com##.wrapper-banner-rgpd
 podrozezmamaitata.com##.penci-gprd-law
 pogodynka.pl###accept
-polopiryna.pl##.monit
-polpharma.pl##.monit
+polopiryna.pl,polpharma.pl##.monit
 polskieradio.pl,dziennikwschodni.pl##.rodo-modal
 pomagam.pl###pp-info
 portaltatrzanski.pl###rododiv
@@ -1465,6 +1465,7 @@ pl##[id^="polityka-prywatnosci"]
 ###cookiesPanel:not(body):not(html)
 ###cookiesText:not(body):not(html)
 ###cookiesdirective:not(body):not(html)
+###cookies-banner:not(body):not(html)
 ###cookies-container:not(body):not(html)
 ###cookies-info:not(body):not(html)
 ###cookies-policy:not(body):not(html)
@@ -1476,6 +1477,7 @@ pl##[id^="polityka-prywatnosci"]
 ###cookie-info-box:not(body):not(html)
 ###cookie-info:not(body):not(html)
 ###cookie-law-info-bar:not(body):not(html)
+###cookie-notice:not(body):not(html)
 ###cookie:not(body):not(html)
 ###cookis-bg:not(body):not(html)
 ###cooki:not(body):not(html)
