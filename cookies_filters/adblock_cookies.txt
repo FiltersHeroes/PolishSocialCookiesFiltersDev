@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: FgVxd+MJTelxcIag57tKVg
+! Checksum: e6MvZt5vLhmHXfUbTYUBhQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807241701
-! Last modified: Tue, 24 Jul 2018, 17:01:06 UTC+02
+! Version: 201807241731
+! Last modified: Tue, 24 Jul 2018, 17:31:20 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807241701 aktualizacja: wto, 24 lip 2018, 17:01:06 UTC+02
+! v.201807241731 aktualizacja: wto, 24 lip 2018, 17:31:20 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -66,6 +66,7 @@ autokult.pl##div#cop
 autosklep24.pl##div#box_alert
 avast.com##.cookie-bar
 avioner.pl##.alert
+a-o.ninja###cookie-notice
 baje.pl,traftu.pl##.unconfirmed.opt-in-splash
 bankmillennium.pl,zus.pl#@#.cookies-info
 bardotti.pl##.wpmui-popup
@@ -806,7 +807,7 @@ salon404.pl###jqmAlert
 salonroman.pl##DIV[style="background-color: rgb(203, 169, 92); color: rgb(255, 255, 255); font-size: 13px; margin: 0px auto; padding: 6px 0px; position: relative; text-align: center; top: 0px; width: 100%; z-index: 9000;"]
 salonroman.pl##body > div:not([id]):not([class])
 samba.com.pl###ciastoWarstwa
-samsung.com,a-o.ninja##.cookie-notice
+samsung.com,player.pl##.cookie-notice
 sandecja.org###overflow-content
 sanprobi-superformula.pl##body > div:not([id]):not([class])
 santander24.pl###pageUpperInfo
@@ -1378,6 +1379,7 @@ pl##DIV[style="padding: 5px 25px 5px 15px;"]
 pl###cokPyt
 pl###cookies-banner:not(body):not(html)
 pl###cookies:not(body):not(html):not(.section)
+pl###cookie-notice:not(body):not(html)
 pl###komunikat-cookies
 pl###notice_bar
 pl###policy-info
@@ -1480,7 +1482,6 @@ pl##[id^="polityka-prywatnosci"]
 ###cookie-info-box:not(body):not(html)
 ###cookie-info:not(body):not(html)
 ###cookie-law-info-bar:not(body):not(html)
-###cookie-notice:not(body):not(html)
 ###cookie:not(body):not(html)
 ###cookis-bg:not(body):not(html)
 ###cooki:not(body):not(html)
