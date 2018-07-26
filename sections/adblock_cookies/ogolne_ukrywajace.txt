@@ -7,23 +7,23 @@
 ~piekarniaanka.pl,~xboxarcade.pl,~wmeritum.pl,~zumi.pl,~komunikacja.bialystok.pl,~dobreprogramy.pl,~lomza.pl,pl##:not(input)[id*="cookie"]
 ~riscosoftware.pl,pl##div[class*="Cookie"]
 ~sympatia.onet.pl##[id^="topInfo"]
-com##.is-ready.is-shown.cnil-banner
+com##.is-ready.is-shown.cnil-banner:not(body):not(html)
 pl##DIV[style="border: 10px solid rgb(138, 138, 138); border-radius: 10px; box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255); padding: 8px 8px 10px; position: fixed; z-index: 99999; right: 20px; left: 20px; bottom: 20px; width: 700px; max-width: 90%;"]
 pl##DIV[style="padding: 5px 25px 5px 15px;"]
-pl###cokPyt
+pl###cokPyt:not(body):not(html)
 pl###cookies-banner:not(body):not(html)
 pl###cookies:not(body):not(html):not(.section)
-pl###cookie-law-info-again
+pl###cookie-law-info-again:not(body):not(html)
 pl###cookie-notice:not(body):not(html)
-pl###komunikat-cookies
-pl###notice_bar
-pl###policy-info
-pl##.cnil-banner__content
+pl###komunikat-cookies:not(body):not(html)
+pl###notice_bar:not(body):not(html)
+pl###policy-info:not(body):not(html)
+pl##.cnil-banner__content:not(body):not(html)
 pl##.cookies:not(body):not(html)
 pl##.cookie-notice:not(body):not(html)
-pl##[class^="kom_polityka_prywatnosci"]
-pl##[id*="cookie_"]
-pl##[id^="polityka-prywatnosci"]
+pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
+pl##[id*="cookie_"]:not(body):not(html)
+pl##[id^="polityka-prywatnosci"]:not(body):not(html)
 ##.JSWrapper
 ##.ciasteczko
 ##.cookieForm
