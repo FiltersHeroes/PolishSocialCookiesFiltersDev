@@ -1,11 +1,11 @@
-! Checksum: jXg3B4RSAFkTZW3j3iNxaQ
+! Checksum: 290Pwi+jsn2vU+Zq/CKBsw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201807261033
-! Last modified: Thu, 26 Jul 2018, 10:33:20 UTC+02
+! Version: 201807261146
+! Last modified: Thu, 26 Jul 2018, 11:46:28 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807261033 aktualizacja: czw, 26 lip 2018, 10:33:20 UTC+02 
+! v.201807261146 aktualizacja: czw, 26 lip 2018, 11:46:33 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -57,7 +57,7 @@ youtube.com##div#masthead-positioner-height-offset:style(height: 80px!important;
 !
 ! Komunikaty ciasteczkowe i dziury - specjalne instrukcje
 !#if !cap_user_stylesheet
-fotoblogia.pl,gadzetomania.pl,komorkomania.pl##.cookie-disclaimer:style(visibility: hidden !important;)
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:style(visibility: hidden !important;)
 purepc.pl##script:inject(nano-remove-elements-onready.js, .cookiesinfo)
 !#endif
 !
