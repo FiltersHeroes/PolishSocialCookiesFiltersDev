@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: CR4kTzyGFGbfpdR9XpxAvw
+! Checksum: Dl5kr+faWTVlGP7QjsME0w
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807261031
-! Last modified: Thu, 26 Jul 2018, 10:31:30 UTC+02
+! Version: 201807261038
+! Last modified: Thu, 26 Jul 2018, 10:38:04 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807261031 aktualizacja: czw, 26 lip 2018, 10:31:30 UTC+02
+! v.201807261038 aktualizacja: czw, 26 lip 2018, 10:38:04 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1381,23 +1381,23 @@ zywiec.com.pl,heineken.com.pl###infobx
 ~piekarniaanka.pl,~xboxarcade.pl,~wmeritum.pl,~zumi.pl,~komunikacja.bialystok.pl,~dobreprogramy.pl,~lomza.pl,pl##:not(input)[id*="cookie"]
 ~riscosoftware.pl,pl##div[class*="Cookie"]
 ~sympatia.onet.pl##[id^="topInfo"]
-com##.is-ready.is-shown.cnil-banner
+com##.is-ready.is-shown.cnil-banner:not(body):not(html)
 pl##DIV[style="border: 10px solid rgb(138, 138, 138); border-radius: 10px; box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255); padding: 8px 8px 10px; position: fixed; z-index: 99999; right: 20px; left: 20px; bottom: 20px; width: 700px; max-width: 90%;"]
 pl##DIV[style="padding: 5px 25px 5px 15px;"]
-pl###cokPyt
+pl###cokPyt:not(body):not(html)
 pl###cookies-banner:not(body):not(html)
 pl###cookies:not(body):not(html):not(.section)
-pl###cookie-law-info-again
+pl###cookie-law-info-again:not(body):not(html)
 pl###cookie-notice:not(body):not(html)
-pl###komunikat-cookies
-pl###notice_bar
-pl###policy-info
-pl##.cnil-banner__content
+pl###komunikat-cookies:not(body):not(html)
+pl###notice_bar:not(body):not(html)
+pl###policy-info:not(body):not(html)
+pl##.cnil-banner__content:not(body):not(html)
 pl##.cookies:not(body):not(html)
 pl##.cookie-notice:not(body):not(html)
-pl##[class^="kom_polityka_prywatnosci"]
-pl##[id*="cookie_"]
-pl##[id^="polityka-prywatnosci"]
+pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
+pl##[id*="cookie_"]:not(body):not(html)
+pl##[id^="polityka-prywatnosci"]:not(body):not(html)
 ##.JSWrapper
 ##.ciasteczko
 ##.cookieForm
