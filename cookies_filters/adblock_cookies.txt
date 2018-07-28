@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: m58A2QeJxGuLkXGktgyeqA
+! Checksum: qni554AxKr4tx3Am3r+rGA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807281844
-! Last modified: Sat, 28 Jul 2018, 18:44:16 UTC+02
+! Version: 201807281847
+! Last modified: Sat, 28 Jul 2018, 18:47:16 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807281844 aktualizacja: sob, 28 lip 2018, 18:44:16 UTC+02
+! v.201807281847 aktualizacja: sob, 28 lip 2018, 18:47:16 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -576,6 +576,7 @@ mkidn.gov.pl###pa
 mklr.pl##DIV[style="position: fixed; left:0; right:0; bottom:0; height:40px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 mklr.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
 mmtv.pl###policyInfo
+mobile.de##div[class^="cookie-banner"]
 mocnopomocni.pl##DIV[style="width: 100%; background-color: rgb(242, 242, 242); margin: 10px auto 0px; padding: 15px 8px; position: fixed; left: 0px; bottom: 0px; z-index: 1000; color: rgb(40, 40, 40);"]
 mocnopomocni.pl##body > div:not([id]):not([class])
 mocnopomocni.pl##div[style="width: 100%; background-color: rgb(242, 242, 242); margin: 10px auto 0px; padding: 15px 8px; position: fixed; left: 0px; bottom: 0px; z-index: 1000; color: rgb(40, 40, 40); "]
