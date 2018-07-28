@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 3Ttk2iOAQEtkt6TCkZxL4A
+! Checksum: 5xp4yJIPtHvLYoz1TU3JSw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807281829
-! Last modified: Sat, 28 Jul 2018, 18:29:20 UTC+02
+! Version: 201807281836
+! Last modified: Sat, 28 Jul 2018, 18:36:24 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807281829 aktualizacja: sob, 28 lip 2018, 18:29:20 UTC+02
+! v.201807281836 aktualizacja: sob, 28 lip 2018, 18:36:24 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -862,6 +862,7 @@ smart.com##.ui-widget-overlay
 solidarni2010.pl##div#kom
 sosnowiec.pl###topBar_MainCover
 sosulski.pl##body > form
+soundcloud.com##.announcements
 specshop.pl##.blockUI
 speedtest.com.pl##div#info_container
 speedtest.net##.alert-container
@@ -871,6 +872,7 @@ speedtest.pl###container_vsm, #info_container
 sportowysklep.pl##body > div:not([id]):not([class])
 sportowysklep.pl##div[style="background-color: rgb(73, 73, 73); color: rgb(255, 255, 255); font-size: 12px; font-family: sans-serif; position: fixed; bottom: 0px; left: 0px; padding: 10px 15%; opacity: 0.9; z-index: 9999; line-height: 18px; background-position: initial initial; background-repeat: initial initial;"]
 sporto.com.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
+spotify.com###js-message-bar-cookie-notice
 spsk2-szczecin.pl###spsk2ct
 srebrnystyl.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
 starbucks.pl###allow_message
@@ -1161,6 +1163,7 @@ chomikuj.pl###acceptChomikujTermsOverlay, #acceptChomikujTermsContainer
 cinema3d.pl##rodo-modal
 copernicusfestival.com,naukaireligia.pl,filozofiawnauce.pl,copernicuscenter.edu.pl###block-block-31
 cos.pl###popup
+dailymotion.com#div[class^="CookieGdpr"]
 danepubliczne.gov.pl##.flash-messages
 darlowo.pl###dane_osobowe
 demotywatory.pl,fabrykamemow.pl,faktopedia.pl,piekielni.pl,mklr.pl,rebelianci.org,kotburger.pl,mistrzowie.org,joemonster.org,komixxy.pl,retro.pewex.pl,stylowi.pl,memy.pl###pp-bg-overlay
@@ -1295,6 +1298,7 @@ tygodnikpowszechny.pl###top_head
 tygodnikzamojski.pl,starachowice-net.pl###rodo-message
 ulub.pl###rodo_all
 umowycywilnoprawne.pl###formalAgreementModal, #modalBackdrop
+vimeo.com##.gdpr_banner
 virustotal.com###euConsent
 wakacyjnipiraci.pl###tarteaucitronAlertBig
 weather.com##.lite-msg-parent
