@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: jEiuCsjiyQsp2az+7hkv7Q
+! Checksum: XIDCfzg/CD0X2JW/zVHvbA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807271950
-! Last modified: Fri, 27 Jul 2018, 19:50:01 UTC+02
+! Version: 201807281824
+! Last modified: Sat, 28 Jul 2018, 18:24:18 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807271950 aktualizacja: pią, 27 lip 2018, 19:50:01 UTC+02
+! v.201807281824 aktualizacja: sob, 28 lip 2018, 18:24:18 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -41,6 +41,7 @@ allegro.pl##div[data-box-name="cookie policy"]
 allekoszyk.pl##DIV[style="position:fixed;bottom:0;background-color:white;width:100%;padding-left:10px;font-size:12px;"]
 alles-bhp.pl,greattrade.pl,szkolnaspizarnia.pl,urwisy2.pl###contGlowny > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,bptour.pl,cmjordan.krakow.pl,czasdzieci.pl,edk.org.pl,eneva.pl,faktopedia.pl,galeria-dominikanska.pl,gosc.pl,komixxy.pl,kotburger.pl,puls.hedrych.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
+alltube.tv,nasze-kino.tv###cookies
 almamarket.pl,kozy.pl,galeriakrakowska.pl,www.sygnity.pl###claw
 amarone.pl###bannerMSG
 amundi.pl###disclaimer
@@ -611,7 +612,6 @@ mzdik.pl###webDataTime > span
 nakanapie.pl##div.sticker
 nano-carbon.pl##body > div:not([id]):not([class])
 naszamlawa.pl###fancybox-overlay
-nasze-kino.tv###cookies
 naturo.pl###simple-modal, #simple-modal-overlay
 nauka.gov.pl##.ui-notificationbar.top
 nazaruk.pl##.fixedInfo
@@ -1199,6 +1199,7 @@ gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl###rodo
 gothaer.pl##.ci-bar-wrapper
 haloursynow.pl###myModal, .modal-backdrop
 hebe.pl##.rodo-popup_popup
+homebrewing.pl##.rodo-popupbox
 iiyama.com##.infobar-message
 imagazine.pl,moviesroom.pl##.overlay-rules
 infostrefa.com,pap.pl###rodoWrapper
@@ -1287,6 +1288,7 @@ trentino.pl###popup_rodo, #popup_tlo
 trojmiasto.pl###rodo_info
 tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvs.pl##.RodoNotyfication
+twitch.tv##.gdpr-consent-banner, .butterBar
 tygodnikpowszechny.pl###top_head
 tygodnikzamojski.pl,starachowice-net.pl###rodo-message
 ulub.pl###rodo_all
