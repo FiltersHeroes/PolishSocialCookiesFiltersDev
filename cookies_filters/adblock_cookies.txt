@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 8VAUO0n5lTbrcnhaAQG5PQ
+! Checksum: MFWFQO4yvf3yUDTJ/VdMIw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807301845
-! Last modified: Mon, 30 Jul 2018, 18:45:44 UTC+02
+! Version: 201807301853
+! Last modified: Mon, 30 Jul 2018, 18:53:11 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807301845 aktualizacja: pon, 30 lip 2018, 18:45:44 UTC+02
+! v.201807301853 aktualizacja: pon, 30 lip 2018, 18:53:11 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -101,7 +101,7 @@ bocian.org.pl##.jGrowl-notification
 bold.net.pl###u12344
 bold.net.pl###u12365
 bookiatryk.pl##div[style="position: fixed; z-index: 9999; top: 0px; width: 100%; margin: 0px; padding: 5px 20px; text-align: center; line-height: 1.3em; background-color: rgb(255, 255, 255); font-size: 15px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(255, 0, 0); background-position: initial initial; background-repeat: initial initial;"]
-booking###comcookie_warning
+booking###cookie_warning
 borelioza.vegie.pl###menubar > center
 bose.pl###privacy-message-bar
 bravekingdoms.com##DIV[style="position: absolute; margin-top: 30px; margin-left: 550px;"]
@@ -1154,6 +1154,7 @@ cookie-law-popup.js$script
 ||revolweb.pl/api/flash_msg.js$script
 ||rolpetrol.com.pl/cookies.js$script
 ||skryptcookies.pl^$third-party
+||tinder.com/static/build/chunks/CookiePolicyBanner-*.js
 ||www.e-drewno.pl/stock/javascript/browser.js
 ||www.e-drewno.pl/stock/javascript/cptlx.js
 ||www.odszkodowania-torun.pl/wp-content/plugins/wp-cookies-alert/style.css
