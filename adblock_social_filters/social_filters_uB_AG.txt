@@ -1,11 +1,11 @@
-! Checksum: sT1O7DHHSNYwQNXlSdMVFQ
+! Checksum: d8F/5Wup+KwaMuL2MFPrEQ
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Social Filters - Supplement for uBlock & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 201807151846
-! Last modified: Sun, 15 Jul 2018, 18:46:20 UTC+02
+! Version: 201807301511
+! Last modified: Mon, 30 Jul 2018, 15:11:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807151846 aktualizacja: nie, 15 lip 2018, 18:46:21 UTC+02 
+! v.201807301511 aktualizacja: pon, 30 lip 2018, 15:11:31 UTC+02 
 !
 !
 ! Popupy
@@ -33,6 +33,7 @@ sprawnymarketing.pl##.blur:style(filter: none !important;)
 ! Widgety
 4free.waw.pl###spolecznosci:style(height: auto !important;)
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
+blog.wirtualnemedia.pl###social_ikons_header_fixed:style(visibility: hidden !important;)
 rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !important;)
 wp.pl##.article > [class]:has(>[class] > .fb-like)
 !
