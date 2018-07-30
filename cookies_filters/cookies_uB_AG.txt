@@ -1,11 +1,11 @@
-! Checksum: TgCM4IveXHvaC2/WAtr4Ow
+! Checksum: QwaoQYIlnjJ+oorMxYt4nQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201807291555
-! Last modified: Sun, 29 Jul 2018, 15:55:00 UTC+02
+! Version: 201807301849
+! Last modified: Mon, 30 Jul 2018, 18:49:41 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,12 +14,13 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807291555 aktualizacja: nie, 29 lip 2018, 15:55:00 UTC+02 
+! v.201807301849 aktualizacja: pon, 30 lip 2018, 18:49:41 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 abcalkoholu.pl##.cookielaw:style(padding-top: 0 !important;)
+appsource.microsoft.com##.cookieBanner:style(visibility: hidden !important;)
 archiwum.rp.pl,info.rp.pl##body:style(margin-top: 0 !important;)
 bbcpolska.com###home:style(padding-top: 0 !important;)
 beko.pl##.cookies-margin:style(top: 0 !important;)
@@ -142,6 +143,8 @@ roztoczanskipn.pl###rodo-modal, .modal-backdrop
 sklep.ptwp.pl##.window
 tabletowo.pl###disqus_thread:style(display: initial !important;)
 tabletowo.pl##.ginger_banner-wrapper
+tommy.com##.remodal-is-locked:style(overflow: auto !important;)
+tommy.com##.remodal-wrapper, .remodal-overlay, .cookie-notice
 tuzdrowie.pl###popupModal, .modal-backdrop
 ustawmundial.weszlo.com,ustawlige.com###privacy-modal, .modal-backdrop
 wagrowczanie.pl##.showRodo
