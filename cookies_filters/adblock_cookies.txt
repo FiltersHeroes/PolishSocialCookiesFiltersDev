@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 81O5kL21PNx097FT1akouw
+! Checksum: 0/13canQUtMsYbbfDQM4Fw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201807311040
-! Last modified: Tue, 31 Jul 2018, 10:40:08 UTC+02
+! Version: 201807311058
+! Last modified: Tue, 31 Jul 2018, 10:58:05 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201807311040 aktualizacja: wto, 31 lip 2018, 10:40:08 UTC+02
+! v.201807311058 aktualizacja: wto, 31 lip 2018, 10:58:05 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -36,6 +36,7 @@ adobe.com##.message
 advatus.pl###myModal
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl##body > div:not([id]):not([class])[style*="position"][style*="relative"]
 agatahome.pl##[id^="jbar"]
+airbnb.pl###site-content > div > div > div > div > div:-abp-contains(cookie)
 akademia-piwa.pl##div#polityka_tekst
 alipaczka.pl###bottom-charm
 allegro.pl##div[data-box-name="cookie policy"]
@@ -687,6 +688,7 @@ oracle.com##div[style="position: absolute; z-index: 2000000; top: 150px; border-
 orange.pl##.background
 orientshop.com.pl,tapenda.pl###ciacha
 origin.com###truste-banner
+origin.com##.origin-sitestripe
 orliman.pl##.c-info
 oskolaf.pl###modal-info, .modal-backdrop
 ostrowiecnr1.pl###iopp
@@ -812,6 +814,7 @@ reactor.pl,yamo.pl###einfo
 recepcja.visionexpress.pl##div[style="background-color: rgb(217, 217, 217); margin: 0px auto; padding: 25px 8px 15px; position: fixed; right: 0px; width: 400px; bottom: 0px; z-index: 1000; color: rgb(0, 0, 0); border: 3px solid rgb(102, 102, 102); "]
 redbullmobile.pl###more1
 reddit.com#?##SHORTCUT_FOCUSABLE_DIV > div > div > div > form > div:-abp-contains(cookies)
+reebok.pl,adidas.pl###truste-consent-content
 reedukacja.pl,sklepbiegowy.com,sklepkoszykarza.pl,zgodafc.pl##body > div:not([id]):not([class])
 refunder.pl#?#.bg-white:-abp-has([href="/warunki#cookies"])
 relpol.pl###powiadomiony
