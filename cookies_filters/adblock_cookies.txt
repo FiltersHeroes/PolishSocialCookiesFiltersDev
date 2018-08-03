@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: pHkR2p+HnPKdBAlnhNtupw
+! Checksum: jjiLKincaDcXM8Ukb/zxmw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808031125
-! Last modified: Fri, 03 Aug 2018, 11:25:53 UTC+02
+! Version: 201808031128
+! Last modified: Fri, 03 Aug 2018, 11:28:37 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808031125 aktualizacja: pią, 03 sie 2018, 11:25:53 UTC+02
+! v.201808031128 aktualizacja: pią, 03 sie 2018, 11:28:37 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -36,7 +36,8 @@ adobe.com##.message
 advatus.pl###myModal
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl##body > div:not([id]):not([class])[style*="position"][style*="relative"]
 agatahome.pl##[id^="jbar"]
-airbnb.pl###site-content > div > div > div > div > div:-abp-contains(cookie)
+airbnb.pl#?##site-content > div > div > div > div > div:-abp-contains(cookie)
+airport.gdansk.pl###cookiesAlert
 akademia-piwa.pl##div#polityka_tekst
 aliexpress.com###j-aliexpress-notice
 alipaczka.pl###bottom-charm
