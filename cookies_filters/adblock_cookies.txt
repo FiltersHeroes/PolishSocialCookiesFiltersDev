@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: n9aua3uA7MRzxXp793MzIw
+! Checksum: kOL/TdyGc/B6hyv/G69P5w
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808031623
-! Last modified: Fri, 03 Aug 2018, 16:23:40 UTC+02
+! Version: 201808061413
+! Last modified: Mon, 06 Aug 2018, 14:13:20 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808031623 aktualizacja: pią, 03 sie 2018, 16:23:40 UTC+02
+! v.201808061413 aktualizacja: pon, 06 sie 2018, 14:13:20 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -183,6 +183,7 @@ dpd.com.pl##div[style="width:940px; border:#CCCCCC 1px solid; padding:10px; z-in
 drabex.com###footer
 drogerielaboo.pl##.ciacho2-wrap-container
 drony.net##div#cop
+dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
 dukapolska.com,onlinekredyty.pl,legnica.pl,zory.dlawas.pl###popupdiv
 duka.com###popupdiv
 dvbsklep.pl,naturo.pl##[id^="simple-modal"]
