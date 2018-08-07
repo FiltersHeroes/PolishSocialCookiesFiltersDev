@@ -1,11 +1,11 @@
-! Checksum: D3CIyg7+jGpZkBOW5hZUVg
+! Checksum: a63rKlqBBuuHkmlvv3o94Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201808062110
-! Last modified: Mon, 06 Aug 2018, 21:10:12 UTC+02
+! Version: 201808070855
+! Last modified: Tue, 07 Aug 2018, 08:55:38 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808062110 aktualizacja: pon, 06 sie 2018, 21:10:12 UTC+02 
+! v.201808070855 aktualizacja: wto, 07 sie 2018, 08:55:38 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -96,7 +96,7 @@ analizy.pl##html:style(overflow: auto !important;)
 analizy.pl##.nl_rodo, .ui-widget-overlay
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 budownictwo.pl###rodoLayer, .modal-backdrop
-budownictwo.pl,zdmikp.bydgoszcz.pl##.modal-open:style(overflow: auto !important;)
+budownictwo.pl,zdmikp.bydgoszcz.pl,koty.pl,psy.pl##.modal-open:style(overflow: auto !important;)
 craftserve.pl###rodo, .modal-backdrop
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
@@ -123,6 +123,7 @@ ipla.tv##.rodo-rules-modal
 kaliszak.pl##.rodo, .rodo_layer
 komputerswiat.pl##html > body.cmp:style(overflow: auto !important;)
 komputerswiat.pl##.cmp-app_gdpr
+koty.pl,psy.pl###infoPopup, .modal-backdrop
 kruger.pl###rodo, .fader
 kruger.pl##.wmpci-popup-open:style(overflow: auto !important;)
 lovekrakow.pl###modal-rodo, .modal-backdrop
