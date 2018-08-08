@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: cCo5tLwU6IGLEspMICr9wQ
+! Checksum: YJpcme6B/nv7vJfeWmiGbw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808081131
-! Last modified: Wed, 08 Aug 2018, 11:31:41 UTC+02
+! Version: 201808081849
+! Last modified: Wed, 08 Aug 2018, 18:49:20 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808081131 aktualizacja: śro, 08 sie 2018, 11:31:41 UTC+02
+! v.201808081849 aktualizacja: śro, 08 sie 2018, 18:49:20 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -74,7 +74,7 @@ autosklep24.pl##div#box_alert
 avast.com##.cookie-bar
 avioner.pl##.alert
 azure.microsoft.com###cookie-prompt
-a-o.ninja###cookie-notice
+a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu###cookie-notice
 baje.pl,traftu.pl##.unconfirmed.opt-in-splash
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
 bankmillennium.pl,zus.pl#@#.cookies-info
@@ -236,7 +236,6 @@ e-fajek.pl##div[style="position: fixed; top: 0; left: 0; z-index: 10000; width: 
 e-farmacja.net##div:not([id]):not([class])[style="width: 100%; padding: 15px; background: rgb(240, 235, 226); border-bottom: 1px solid rgb(131, 118, 99); border-top: 1px solid rgb(255, 255, 255);"]
 e-legnickie.pl##body > div[style*="left:0px"]
 e-metalzbyt.pl###popupContact
-e-niemcy.de,independentdigital.com###cookie-notice
 e-petrol.pl###statement
 e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
 e-podroznik.pl##.biscuits-usage
@@ -681,6 +680,7 @@ omegasoft.pl##.ui-dialog
 omnibussimulator.pl##body > div > div[style*="position: fixed"]
 omnibussimulator.pl##[id^="co15"]
 one2tribe.pl##.cw_container
+onlineradiobox.com###alert_cookies
 opac.wimbp.zgora.pl##div#alertboxsec_c
 opac.wimbp.zgora.pl##div#alertboxsec_mask
 openpli.org##div[style="height:20px;background-color:#FAFFDC;color:#222;padding:10px;font-size:1.1em !important;"]
