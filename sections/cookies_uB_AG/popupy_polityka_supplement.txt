@@ -1,33 +1,22 @@
-4fun.tv###cModal, .modal-backdrop
-alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
-alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl,tuzdrowie.pl,polski-tenis.pl,craftserve.pl,ustawmundial.weszlo.com,4fun.tv,m.24jgora.pl,ztm.poznan.pl,roztoczanskipn.pl,born2be.pl,renee.pl,pro-sprzet.pl,ustawlige.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 analizy.pl##html:style(overflow: auto !important;)
 analizy.pl##.nl_rodo, .ui-widget-overlay
-born2be.pl,renee.pl##.rules-modal, .modal-backdrop
-budownictwo.pl###rodoLayer, .modal-backdrop
-budownictwo.pl,zdmikp.bydgoszcz.pl,infostrow.pl##.modal-open:style(overflow: auto !important;)
-craftserve.pl###rodo, .modal-backdrop
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 eobuwie.com.pl###permissions-popup
 eobuwie.com.pl,zeropln.antyweb.pl,mazury.travel,wagrowczanie.pl,praca.antyweb.pl,kaliszak.pl##body:style(overflow: auto !important;)
-e-sochaczew.pl,pultusk24.pl###RODOCOOKIE, .modal-backdrop
+e-sochaczew.pl,pultusk24.pl##script:inject(abort-current-inline-script.js, $, #RODOCOOKIE)
 farmacja.net##.blur:style(filter: none !important;)
 farmacja.net##.noscroll:style(overflow: auto !important;)
 farmacja.net##.zgoda-popup-wrapper, .popup-overlay
 filmweb.pl##.rodo:style(overflow: auto !important; position: static !important;)
 filmweb.pl##.rodo__overlay
-fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
-gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com,fdds.pl,przegladpolityczny.pl,belsat.eu##.popmake-overlay
-gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com,fdds.pl,przegladpolityczny.pl,belsat.eu##.pum-open:style(overflow: auto !important;)
-gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
+gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com,fdds.pl,przegladpolityczny.pl##.popmake-overlay
+gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com,fdds.pl,przegladpolityczny.pl##.pum-open:style(overflow: auto !important;)
 generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
 hbogo.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
 hbogo.pl##.banner-overlay
 hm.com##.modaloverlay:has(#gdpr-modal)
 hm.com##.modal-open, .modal-open body:style(overflow-y: auto !important; position: static !important;)
-infoplanet.pl###rodo, .modal-backdrop
-infostrow.pl###rodo-modal
 ipla.tv##.no-scroll:style(overflow: auto !important;)
 ipla.tv##.rodo-rules-modal
 kaliszak.pl##.rodo, .rodo_layer
@@ -35,14 +24,12 @@ komputerswiat.pl##html > body.cmp:style(overflow: auto !important;)
 komputerswiat.pl##.cmp-app_gdpr
 kruger.pl###rodo, .fader
 kruger.pl##.wmpci-popup-open:style(overflow: auto !important;)
-lovekrakow.pl###modal-rodo, .modal-backdrop
-lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 mazury.travel##.popup, .popup-overlay
 morele.net##html:style(overflow: auto !important; padding-right: 0 !important;)
 morele.net###content_info_popup
 m.24jgora.pl###rodoModal, .modal-backdrop
 obywatel.gov.pl###modal-rodo, .modal-backdrop
-ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
+obywatel.gov.pl,m.24jgora.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
 otwarteklatki.pl###popup-gdpr, .popup-overlay
@@ -51,26 +38,21 @@ pl.tommy.com##div.remodal-wrapper:has(.cookie-notice)
 pl.tommy.com##.cookie-notice:style(visibility: hidden !important;)
 pl.tommy.com##.remodal-is-locked:style(overflow: auto !important;)
 pl.tommy.com##.remodal-overlay
-polski-tenis.pl###rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.windowOpen:style(overflow: auto !important;)
 prawdaobiektywna.pl##body:style(overflow: auto !important;)
 prawdaobiektywna.pl##.qc-cmp-ui-container
-pro-sprzet.pl###myWorning, .modal-backdrop
 przydomu.pl###popup_25
 przydomu.pl##.container:style(filter: none !important;)
-roztoczanskipn.pl###rodo-modal, .modal-backdrop
 sklep.ptwp.pl##.window
 skyscrapercity.com##body:style(overflow: auto !important;)
 skyscrapercity.com##.fc-consent-root
 tabletowo.pl###disqus_thread:style(display: initial !important;)
 tabletowo.pl##.ginger_banner-wrapper
 tuzdrowie.pl###popupModal, .modal-backdrop
-ustawmundial.weszlo.com,ustawlige.com###privacy-modal, .modal-backdrop
 wagrowczanie.pl##.showRodo
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
 zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
-ztm.poznan.pl###PopUP, .modal-backdrop
