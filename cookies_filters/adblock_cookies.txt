@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: qx+3tXw+XgFeyA9BvN9zmw
+! Checksum: nm/ftEj/nFMCt6T3I7/JVA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808100859
-! Last modified: Fri, 10 Aug 2018, 08:59:32 UTC+02
+! Version: 201808111334
+! Last modified: Sat, 11 Aug 2018, 13:34:48 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808100859 aktualizacja: pią, 10 sie 2018, 08:59:32 UTC+02
+! v.201808111334 aktualizacja: sob, 11 sie 2018, 13:34:48 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -505,6 +505,7 @@ laznianowa.pl##body > div:not([id]):not([class])
 lca.pl###popupDiv
 leclerc.com.pl##div#tekst
 legalsite.pl###message-1
+legionisci.com##.cookie-popup
 lego.com###GFSticky
 lekarz.znanylekarz.pl###footer-baner
 lektury.gov.pl##message-box[storage-key="'cookies-accepted'"]
@@ -1383,6 +1384,7 @@ zywiec.com.pl,heineken.com.pl###infobx
 ||igimag.pl/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/lity.js
 ||kochamwroclaw.pl/wp-content/plugins/surbma-yes-no-popup/css/styles.css
 ||kochamwroclaw.pl/wp-content/plugins/wp-terms-popup/assets/popup-style.css
+||legionisci.com/js/cookiepopup.js
 ||newonce.net/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||openid.pino.pl/app/static/global/rodo.js
 ||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
