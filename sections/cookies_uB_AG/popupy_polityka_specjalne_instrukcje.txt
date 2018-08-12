@@ -7,6 +7,8 @@ born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 born2be.pl,renee.pl,roztoczanskipn.pl,zakopane.info,tuwroclaw.com,tulodz.com,infoplanet.pl,gokf.gda.pl,gdansk.pl,craftserve.pl,ustawmundial.weszlo.com,ustawlige.com,ztm.poznan.pl,4fun.tv,alltube.tv,alltube.pl,infostrow.pl,fryzomania.pl,tuzdrowie.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl,zdmikp.bydgoszcz.pl##.modal-open:style(overflow: auto !important;)
+eobuwie.com.pl##.popup
+eobuwie.com.pl##body:style(overflow: auto !important;)
 fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
 infoplanet.pl,craftserve.pl###rodo, .modal-backdrop
@@ -31,6 +33,7 @@ alltube.tv,alltube.pl##^#rodo-popup
 belsat.eu##^.popmake-overlay
 born2be.pl,renee.pl##^.rules-modal
 budownictwo.pl##^#rodoLayer
+eobuwie.com.pl##^script:has-text(technologii cookies)
 ferguson-digital.eu##^#cookie-notice
 fryzomania.pl##^#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl##^.rodo
@@ -49,6 +52,7 @@ ztm.poznan.pl##^#PopUP
 4fun.tv$$#cModal
 alltube.tv,alltube.pl$$#rodo-popup
 belsat.eu$$.popmake-overlay
+eobuwie.com.pl$$script[tag-content="technologii cookies"]
 ferguson-digital.eu$$#cookie-notice
 fryzomania.pl$$#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl$$.rodo
