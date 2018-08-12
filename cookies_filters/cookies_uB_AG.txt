@@ -1,11 +1,11 @@
-! Checksum: 2xaeibZYoe7foKaeTHDtmQ
+! Checksum: y93lCgqvJZ8jVgBRXCmPgw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201808121455
-! Last modified: Sun, 12 Aug 2018, 14:55:04 UTC+02
+! Version: 201808121527
+! Last modified: Sun, 12 Aug 2018, 15:27:37 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808121455 aktualizacja: nie, 12 sie 2018, 14:55:04 UTC+02 
+! v.201808121527 aktualizacja: nie, 12 sie 2018, 15:27:37 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -166,6 +166,7 @@ infoplanet.pl,craftserve.pl###rodo, .modal-backdrop
 infostrow.pl###rodo-modal
 lovekrakow.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
+money.pl##script:inject(nano-remove-elements-onready.js, .rodo-popup)
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 polski-tenis.pl###rodo
 pro-sprzet.pl###myWorning, .modal-backdrop
