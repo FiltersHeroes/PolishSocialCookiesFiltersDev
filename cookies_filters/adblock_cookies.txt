@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 6lvWoIo4OIRJvHEYKjktJw
+! Checksum: Bz+/5uLhjOLmDbK79G7LKw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808131208
-! Last modified: Mon, 13 Aug 2018, 12:08:27 UTC+02
+! Version: 201808131647
+! Last modified: Mon, 13 Aug 2018, 16:47:51 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808131208 aktualizacja: pon, 13 sie 2018, 12:08:27 UTC+02
+! v.201808131647 aktualizacja: pon, 13 sie 2018, 16:47:52 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -813,6 +813,7 @@ radom24.pl##div#ciasteczka-info
 raiffeisenpolbank.com###valid_cookie_message
 ramboll.pl##.infoboxHolder
 rankinglekarzy.pl##.info
+ranking.abczdrowie.pl###app > div > div > div[class*=" "] > div
 rankomat.pl###rankomat-cookies-div
 raraavis.krakow.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
 ravanson.pl##body > div[style*="cookies"]
@@ -1390,6 +1391,7 @@ zywiec.com.pl,heineken.com.pl###infobx
 ||newonce.net/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||openid.pino.pl/app/static/global/rodo.js
 ||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
+||powiat.okay.pl/media/system/js/modal.js
 ||quantcast.mgr.consensu.org/cmp.js$domain=memy.pl
 ||rodo.agora.pl^$script
 ||rodo.rawlplug.com/wp-content/themes/rodo/popup/markups/modal-koelner.html$xmlhttprequest
