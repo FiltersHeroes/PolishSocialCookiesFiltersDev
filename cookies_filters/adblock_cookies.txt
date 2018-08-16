@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: amfu08LYj81TNc7s2F58jw
+! Checksum: CqoQ74XaxDIV8YCQzz2Kfg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808161350
-! Last modified: Thu, 16 Aug 2018, 13:50:52 UTC+02
+! Version: 201808162022
+! Last modified: Thu, 16 Aug 2018, 20:22:38 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808161350 aktualizacja: czw, 16 sie 2018, 13:50:52 UTC+02
+! v.201808162022 aktualizacja: czw, 16 sie 2018, 20:22:38 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1155,6 +1155,7 @@ cookie-law-popup.js$script
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=satkurier.pl
 ||cdn.inaudium.com/js/adtctr.js
 ||ciasteczkowapolityka.pl/getscript$script
+||confero.pl/js/cookies2013$script
 ||consent.truste.com/get?name=notice.js$script
 ||cookiebanner.eu/js/cookiebanner.min.js
 ||cookieq.com^$third-party
@@ -1292,6 +1293,7 @@ nokaut.pl###GDPRModal
 obpon.pl###rodo-notice, #shadow-overlay
 odo24.pl##.rodo-body
 optyczne.pl###id01
+ortograf.pl###ns-rodo-popup-one
 otolaryngolodzy24.pl,prow.lubelskie.pl###rodo-policy
 pakolorente.com###toplayer_styleadvisor
 panoramafirm.pl###rodoLayer, .modal-backdrop
@@ -1619,6 +1621,7 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html)
 ###wpca-box:not(body):not(html)
 ###wrap.ciacho-wrap-container:not(body):not(html)
 ###zk_polityka_ciastek:not(body):not(html)
+###zk_polityka_ciastek_overlay:not(body):not(html)
 ##.COOKIE_PRIVACY_CONT:not(body):not(html)
 ##.RACKWrapper:not(body):not(html)
 ##.agree-cookie-wrap:not(body):not(html)
