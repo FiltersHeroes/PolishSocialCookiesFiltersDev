@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 7fP0YQQJZAdgxbGsYl1Mfw
+! Checksum: RazIzp1ndTSlI0DNNTVWbw
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808160835
-! Last modified: Thu, 16 Aug 2018, 08:35:18 UTC+02
+! Version: 201808161341
+! Last modified: Thu, 16 Aug 2018, 13:41:33 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808160835 aktualizacja: czw, 16 sie 2018, 08:35:18 UTC+02
+! v.201808161341 aktualizacja: czw, 16 sie 2018, 13:41:33 UTC+02
 !
 !
 ! Popupy
@@ -1682,6 +1682,8 @@ onet100.vod.pl###socialIcons, .o_footSection3
 onetech.pl###gplus, #obserwujnas
 onet.pl##.widgetFollowUs
 onet.pl##.fb_share
+onet.pl##.tw_share, div[data-params*="facebook"]
+onet.pl#?#p.hyphenate:-abp-contains(Polub)
 onninen.pl##.ikony
 ono24.info###tab
 open.pl##.gap-down-1.text-center.vertical-align.container-footer.container > .col-md-3
@@ -1962,6 +1964,7 @@ rynek-kolejowy.pl##.zawartoscBox > span > a[href="https://twitter.com/RynekKolej
 rynek-kolejowy.pl##.zawartoscBox > span > a[href="https://www.facebook.com/RynekKolejowy"]
 rzeszow-news.pl##.td-instagram-element, .td-footer-instagram-title
 rzeszow.dominikanie.pl##.wtitle
+sadownictwo.com.pl##div.widthFull.isotopeGrid-item, .width4.isotopeGrid-item
 sadownictwo.com.pl###socialBox > a:nth-child(-n+5)
 sadurscy.pl##.null-instagram-feed
 sadurscy.pl##.widget_vanda_facebook_page, .widget_vanda_socialize
@@ -2558,6 +2561,7 @@ zyciepabianic.pl,paradashop24.pl,pracawgdansku.com.pl,rze.pl,gorlice.tv,myfloor.
 ||www.rynek-kolejowy.pl/themes/ttmiddle.png
 ||www.rynek-lotniczy.pl/themes/Udostepnij.png
 ||www.rynek-lotniczy.pl/themes/in321.png$image
+||www.sadownictwo.com.pl/edc_media/Manager/Ikony-aktualnosci/Twitter-index.jpg
 ||www.smarkacz.pl/images/gfx/ins2.png
 ||www.sp33.olsztyn.pl/wp-content/uploads/2017/12/fanpage.jpg
 ||www.szkla.com/images/szkla.com/pl/fb.png
