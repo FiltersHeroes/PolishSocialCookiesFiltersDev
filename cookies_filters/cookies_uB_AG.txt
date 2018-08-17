@@ -1,11 +1,11 @@
-! Checksum: k1LxD4JkcEDt+q4A9NVlRQ
+! Checksum: hTSbMGz1JAUGCdk398zmKw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201808170900
-! Last modified: Fri, 17 Aug 2018, 09:00:12 UTC+02
+! Version: 201808170950
+! Last modified: Fri, 17 Aug 2018, 09:50:36 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808170900 aktualizacja: pią, 17 sie 2018, 09:00:12 UTC+02 
+! v.201808170950 aktualizacja: pią, 17 sie 2018, 09:50:36 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -175,6 +175,8 @@ publikator.com.pl##body>*:style(filter: none !important;)
 publikator.com.pl##html > body:style(overflow: auto !important;)
 roztoczanskipn.pl###rodo-modal, .modal-backdrop
 tuzdrowie.pl###popupModal, .modal-backdrop
+tuzory.pl,tujastrzebie.pl###pd-modal, .modal-backdrop
+tuzory.pl,tujastrzebie.pl###.modal-open:style(overflow: auto !important;)
 ustawmundial.weszlo.com,ustawlige.com###privacy-modal, .modal-backdrop
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 ztm.poznan.pl###PopUP, .modal-backdrop
@@ -197,7 +199,7 @@ publikator.com.pl##^body script:has-text(polityka|zaufani)
 pro-sprzet.pl##^#myWorning
 tuzdrowie.pl##^#popupModal
 ustawmundial.weszlo.com,ustawlige.com##^#privacy-modal
-zakopane.info,tuwroclaw.com,tulodz.com##^#pd-modal
+zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl##^#pd-modal
 ztm.poznan.pl##^#PopUP
 !#endif
 !#if !env_mobile
@@ -219,6 +221,6 @@ pro-sprzet.pl$$#myWorning
 publikator.com.pl$$script[tag-content="polityka|zaufani"]
 tuzdrowie.pl$$#popupModal
 ustawmundial.weszlo.com,ustawlige.com$$#privacy-modal
-zakopane.info,tuwroclaw.com,tulodz.com$$#pd-modal
+zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl$$#pd-modal
 ztm.poznan.pl$$#PopUP
 !#endif
