@@ -1,11 +1,11 @@
-! Checksum: P7/tAmAgpgUGqrt28q6Zgg
+! Checksum: jwvYL5fn4H/sdi2ortgRnw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201808172106
-! Last modified: Fri, 17 Aug 2018, 21:06:14 UTC+02
+! Version: 201808172120
+! Last modified: Fri, 17 Aug 2018, 21:20:55 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808172106 aktualizacja: pią, 17 sie 2018, 21:06:14 UTC+02 
+! v.201808172120 aktualizacja: pią, 17 sie 2018, 21:20:55 UTC+02 
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -198,7 +198,7 @@ lovekrakow.pl,djoles.pl,muzyczneradio.com.pl##^#modal-rodo
 ogloszenia.plock.pl##^#dialog-rodo
 publikator.com.pl##^body script:has-text(polityka|zaufani)
 pro-sprzet.pl##^#myWorning
-styl.fm##^#rodo-info
+styl.fm##^.rodo-info
 tuzdrowie.pl##^#popupModal
 ustawmundial.weszlo.com,ustawlige.com##^#privacy-modal
 zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl##^#pd-modal
@@ -221,7 +221,7 @@ lovekrakow.pl,djoles.pl,muzyczneradio.com.pl$$#modal-rodo
 ogloszenia.plock.pl$$#dialog-rodo
 pro-sprzet.pl$$#myWorning
 publikator.com.pl$$script[tag-content="polityka|zaufani"]
-styl.fm$$#rodo-info
+styl.fm$$.rodo-info
 tuzdrowie.pl$$#popupModal
 ustawmundial.weszlo.com,ustawlige.com$$#privacy-modal
 zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl$$#pd-modal
