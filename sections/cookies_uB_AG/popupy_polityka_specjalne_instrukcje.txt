@@ -49,6 +49,9 @@ ustawmundial.weszlo.com,ustawlige.com##^#privacy-modal
 zakopane.info,tuwroclaw.com,tulodz.com##^#pd-modal
 ztm.poznan.pl##^#PopUP
 !#endif
+!#if !env_mobile
+azure.microsoft.com###main:style(padding-top: 88px !important;)
+!#endif
 !#if !ext_ublock
 4fun.tv$$#cModal
 alltube.tv,alltube.pl$$#rodo-popup
