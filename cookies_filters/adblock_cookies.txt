@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: CHRQGrW9fR+9z5vflsPVtg
+! Checksum: XVFZOyHe8dgDvJ399iYJiQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808170946
-! Last modified: Fri, 17 Aug 2018, 09:46:29 UTC+02
+! Version: 201808170958
+! Last modified: Fri, 17 Aug 2018, 09:58:50 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808170946 aktualizacja: pią, 17 sie 2018, 09:46:29 UTC+02
+! v.201808170958 aktualizacja: pią, 17 sie 2018, 09:58:50 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1261,6 +1261,7 @@ imagazine.pl,moviesroom.pl##.overlay-rules
 infostrefa.com,pap.pl###rodoWrapper
 instagram.com#?#div>div>div:-abp-contains(cookie)
 jarocinska.pl,gostynska.pl,zpleszewa.pl,rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
+jastrzebieonline.pl###rodo_popup
 jelenia.pl###alert-blue
 jelonka.com##.prywatnosc
 kalendarzrolnikow.pl###colorbox, #cboxOverlay
@@ -1295,6 +1296,7 @@ nj24.pl###rodo
 nokaut.pl###GDPRModal
 obpon.pl###rodo-notice, #shadow-overlay
 odo24.pl##.rodo-body
+olza.pl###rodo-widget
 optyczne.pl###id01
 ortograf.pl###ns-rodo-popup-one
 otolaryngolodzy24.pl,prow.lubelskie.pl###rodo-policy
@@ -1334,6 +1336,7 @@ skm.pkp.pl##.ui-widget-overlay
 skm.pkp.pl#?#.ui-dialog:-abp-has(#dialog-message-rodo)
 speedtest.net###_evidon-barrier-wrapper
 spidersweb.pl###moove_gdpr_cookie_info_bar
+stalowemiasto.pl##.header-parent > .container > .slot-1280px.slot
 store.playstation.com###privacy-header
 szkolymedyczne.eu###ppsPopupBgOverlay, .ppsPopupShell
 szlot.pl##.spu-bg, .spu-total-
