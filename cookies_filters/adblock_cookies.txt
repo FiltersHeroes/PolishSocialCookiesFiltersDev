@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: qwXp/rbx/I+J845mexlsvw
+! Checksum: bu2xvy0SHipTGmS/b54t5g
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808171534
-! Last modified: Fri, 17 Aug 2018, 15:34:59 UTC+02
+! Version: 201808172106
+! Last modified: Fri, 17 Aug 2018, 21:06:10 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808171534 aktualizacja: pią, 17 sie 2018, 15:34:59 UTC+02
+! v.201808172106 aktualizacja: pią, 17 sie 2018, 21:06:10 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -628,7 +628,7 @@ mpolska24.pl##.infoBox
 mpolska24.pl##div[class^="infoBox"]
 mp.pl###toptop
 msdn.microsoft.com###Fragment_SocialLinks
-msn.com###conditionalbanner
+msn.com###conditionalbanner, .euBanner
 mtech.pl###content_jquery_bottom
 mtm-info.pl###etisoA
 multiplay.pl##.inform
@@ -680,6 +680,7 @@ off-road.pl###popslide
 ogllo.pl##DIV[style="opacity: 0.9;-moz-opacity:0.9;z-index:999;position:fixed;bottom:0;left:0;right:0;text-align:center;padding:6px;color:#eee;background-color:#666;border-bottom:1px solid gray;"]
 ogloszenia.e-gratka.info##div#pojemnik
 ogradzamy.pl##body > div[id*="cookie"]
+okiemrolnika.pl##.panel_cookie
 okulary.szkla.com##div#polityka_prywatnosci
 ok-kredyt.pl###messagePopup
 olimpiasport.pl##div#sek_cstk_inf
@@ -1115,7 +1116,6 @@ wycena.otodom.pl##.landend-infobar-dark
 wydruki-wroclaw.pl##div.activebar-container
 wykopoczta.pl###noty_top_layout_container
 wymiana-pieca.pl###cmbox
-wynajemsamochodow.msn.com,loty.msn.com###precontent
 wzory-cv.com##.gatewayBar
 xaa.pl###ic
 xiaomi.eu##.notice--cookie
@@ -1237,7 +1237,7 @@ epuap.gov.pl,webcamera.pl###rodo-modal
 fantasy.ekstraklasa.tv,trojmiasto.pl###rodo-info
 fdb.pl###consent
 filmlab.com.pl,wtkplay.pl,lech.tv,obiezyswiat.org###rodo-info-box
-finansowysupermarket.pl###policy-popup
+finansowysupermarket.pl,faktykaliskie.pl###policy-popup
 firmy.lu###privacy_info_overlay, #privacy_info_content
 foreca.pl###ckieconsent
 fostertravel.pl##.ft-rodo-html-banner
