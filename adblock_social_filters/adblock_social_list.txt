@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: xtnT1dx2a9ZXV/cB3zbXhQ
+! Checksum: ajvwv3DTiAGHic+BBR1lwg
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808171559
-! Last modified: Fri, 17 Aug 2018, 15:59:14 UTC+02
+! Version: 201808172106
+! Last modified: Fri, 17 Aug 2018, 21:06:12 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808171559 aktualizacja: pią, 17 sie 2018, 15:59:14 UTC+02
+! v.201808172106 aktualizacja: pią, 17 sie 2018, 21:06:13 UTC+02
 !
 !
 ! Popupy
@@ -1688,9 +1688,7 @@ omega.om.pl###execphp-6
 onepiece.com.pl#?#.column.wide.four > .segments.ui:-abp-contains(Facebook)
 onet100.vod.pl###socialIcons, .o_footSection3
 onetech.pl###gplus, #obserwujnas
-onet.pl##.widgetFollowUs
-onet.pl##.fb_share
-onet.pl##.tw_share, div[data-params*="facebook"]
+onet.pl##.widgetFollowUs, .fb_share, .tw_share, div[data-params*="facebook"]
 onet.pl#?#p.hyphenate:-abp-contains(Polub)
 onninen.pl##.ikony
 ono24.info###tab
@@ -1887,6 +1885,7 @@ przedsiebiorcy.eu##.fa-facebook, .fa-twitter
 przegladbaltycki.pl###rum_sst_tab
 przegladpiaseczynski.pl###Mod106
 przegladsportowy.pl##.fb_share
+przegladsportowy.pl##.tw_share
 przemocnc.pl##.simplesocialbuttons
 przenosne.pl##.sm_link
 przewodnikduchowy.pl##.well:nth-of-type(1)
