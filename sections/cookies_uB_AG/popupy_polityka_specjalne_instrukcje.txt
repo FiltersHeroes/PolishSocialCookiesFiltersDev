@@ -24,6 +24,8 @@ publikator.com.pl##body>*:style(filter: none !important;)
 publikator.com.pl##html > body:style(overflow: auto !important;)
 roztoczanskipn.pl###rodo-modal, .modal-backdrop
 tuzdrowie.pl###popupModal, .modal-backdrop
+tuzory.pl,tujastrzebie.pl###pd-modal, .modal-backdrop
+tuzory.pl,tujastrzebie.pl###.modal-open:style(overflow: auto !important;)
 ustawmundial.weszlo.com,ustawlige.com###privacy-modal, .modal-backdrop
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 ztm.poznan.pl###PopUP, .modal-backdrop
@@ -46,7 +48,7 @@ publikator.com.pl##^body script:has-text(polityka|zaufani)
 pro-sprzet.pl##^#myWorning
 tuzdrowie.pl##^#popupModal
 ustawmundial.weszlo.com,ustawlige.com##^#privacy-modal
-zakopane.info,tuwroclaw.com,tulodz.com##^#pd-modal
+zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl##^#pd-modal
 ztm.poznan.pl##^#PopUP
 !#endif
 !#if !env_mobile
@@ -68,6 +70,6 @@ pro-sprzet.pl$$#myWorning
 publikator.com.pl$$script[tag-content="polityka|zaufani"]
 tuzdrowie.pl$$#popupModal
 ustawmundial.weszlo.com,ustawlige.com$$#privacy-modal
-zakopane.info,tuwroclaw.com,tulodz.com$$#pd-modal
+zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl$$#pd-modal
 ztm.poznan.pl$$#PopUP
 !#endif
