@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: q4oncVQQUPbExHMlnW4zSg
+! Checksum: fCjuYzi6xlIBkzyU4cGxdg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808162043
-! Last modified: Thu, 16 Aug 2018, 20:43:25 UTC+02
+! Version: 201808170845
+! Last modified: Fri, 17 Aug 2018, 08:45:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808162043 aktualizacja: czw, 16 sie 2018, 20:43:25 UTC+02
+! v.201808170845 aktualizacja: pią, 17 sie 2018, 08:45:31 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1034,6 +1034,7 @@ webd.pl###cffc
 webd.pl###topbar, #topBar, .topbarBox, .topBarMessage, #__topBar, #top_bar
 webelite.pl###infobarDiv, #infobar, .infobar, #info-bar, #info_c_box, .info-message
 web-booking.mytaxi.com#?#body > div > div > div:-abp-contains(🍪)
+web.skype.com#?#.info.notification:-abp-contains(cookie)
 weebly.com,eniro.pl,eniroweb.pl,amawid.pl###kb-container
 wefix.pl##DIV[style="position: fixed; bottom: 0; left: 0; z-index: 10000; width: 100%; min-height: 30px; border-bottom: 1px solid rgba(186,186,186,.5); background-color: #fff; background-color: rgba(255,255,255,.9); color: #333; font-family: Arial,Helvetica,Garuda,sans-serif; line-height: normal; font-size: 10px;"]
 wegetarianie.pl##td[align="center"][height="22"]
@@ -1112,6 +1113,7 @@ wycena.otodom.pl##.landend-infobar-dark
 wydruki-wroclaw.pl##div.activebar-container
 wykopoczta.pl###noty_top_layout_container
 wymiana-pieca.pl###cmbox
+wynajemsamochodow.msn.com,loty.msn.com###precontent
 wzory-cv.com##.gatewayBar
 xaa.pl###ic
 xiaomi.eu##.notice--cookie
