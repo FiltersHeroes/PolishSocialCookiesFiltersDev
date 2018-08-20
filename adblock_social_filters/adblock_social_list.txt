@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 4GGE86dM/lG0hy+KKiCfKw
+! Checksum: SDivFxs+6HpXXZI+8DRTyA
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,16 +7,17 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808191108
-! Last modified: Sun, 19 Aug 2018, 11:08:43 UTC+02
+! Version: 201808201343
+! Last modified: Mon, 20 Aug 2018, 13:43:13 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
 !   Discord => https://discord.me/polskiefiltry
+!   Redundant Checker => https://www.certyficate.it/redundant_checker/redundantRuleChecker.html
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808191108 aktualizacja: nie, 19 sie 2018, 11:08:43 UTC+02
+! v.201808201343 aktualizacja: pon, 20 sie 2018, 13:43:13 UTC+02
 !
 !
 ! Popupy
@@ -2608,6 +2609,16 @@ alilove.pl#@#.footer-social-wrap
 alilove.pl#@#.td-social-icon-wrap
 avast.com,szkolymedyczne.eu#@#.social-icons
 biznes.interia.pl#@#.social-socialButtons
+downdetector.pl#@#a[title="Facebook"]
+downdetector.pl#@#a[title="Instagram"]
+downdetector.pl#@#a[title="LinkedIn"]
+downdetector.pl#@#a[title="Pinterest"]
+downdetector.pl#@#a[title="Tumblr"]
+downdetector.pl#@#a[title="Twitter"]
+downdetector.pl#@#a[title="Youtube"]
+downdetector.pl#@#img[title="Facebook"]
+downdetector.pl#@#img[title="LinkedIn"]
+downdetector.pl#@#img[title="Twitter"]
 edunews.pl#@#.custom-social-buttons
 eurosport.interia.pl,muzyka.interia.pl,fakty.interia.pl,pomponik.pl#@#.article-social
 eurosport.interia.pl,muzyka.interia.pl,fakty.interia.pl,pomponik.pl#@#.article-social-buttons
@@ -2633,8 +2644,11 @@ tvp.info#@#.social-article
 www.dobreprogramy.pl#@##topSocial
 www.dobreprogramy.pl#@#.rrssb-buttons
 www.dobreprogramy.pl#@#.social-wrapper
+@@/fb-f-logo_$image,domain=downdetector.pl
 @@/img/social_sprite.png$domain=tvn.pl
+@@/linkedin.png$image,domain=downdetector.pl
 @@/social_media_$domain=mazury.travel
+@@/tumblr_logo.$image,domain=downdetector.pl
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||www.facebook.com/v2.0/plugins/like.php$subdocument,domain=e-biznes.pl
 @@||zarabiamykase.com.pl/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/cubes/cubes_rss.png
