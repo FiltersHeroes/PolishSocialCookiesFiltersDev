@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 5NmYjZU5NWphy3ZVYOCqZQ
+! Checksum: s7OmkV1gKYv6YktptMnxVQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808221118
-! Last modified: Wed, 22 Aug 2018, 11:18:02 UTC+02
+! Version: 201808221121
+! Last modified: Wed, 22 Aug 2018, 11:21:58 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808221118 aktualizacja: śro, 22 sie 2018, 11:18:02 UTC+02
+! v.201808221121 aktualizacja: śro, 22 sie 2018, 11:21:58 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1259,6 +1259,8 @@ gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl###rodo
 gothaer.pl##.ci-bar-wrapper
 haloursynow.pl###myModal, .modal-backdrop
 hebe.pl##.rodo-popup_popup
+heuristic.pl###cboxOverlay
+heuristic.pl#?##colorbox:-abp-has(#rodoPopup)
 homebrewing.pl##.rodo-popupbox
 iiyama.com##.infobar-message
 imagazine.pl,moviesroom.pl##.overlay-rules
@@ -1324,6 +1326,7 @@ portaltatrzanski.pl###rododiv
 portel.pl###rodoDiv
 programatory.com###myModal
 proszynski.pl###komunikat
+pulawy.eu###modalRodo, .modal-backdrop
 pz.gov.pl###gdprPopup
 queer.pl##.box-rodo
 radiogol.pl##.hustle-modal-message
