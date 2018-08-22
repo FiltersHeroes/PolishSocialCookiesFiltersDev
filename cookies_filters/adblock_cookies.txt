@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: d1P1Fl9ElrVfTeSvo1aVkA
+! Checksum: +gQ99M6Z2cE1nv8ff2jGbQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808221127
-! Last modified: Wed, 22 Aug 2018, 11:27:50 UTC+02
+! Version: 201808222041
+! Last modified: Wed, 22 Aug 2018, 20:41:53 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808221127 aktualizacja: śro, 22 sie 2018, 11:27:50 UTC+02
+! v.201808222041 aktualizacja: śro, 22 sie 2018, 20:41:53 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -207,6 +207,7 @@ ekko.com.pl###messagePo
 ekosalus.pl##.welcomebar
 ekosalus.pl##div#DIVwelcome
 ekoserwis.poznan.pl##.content-head-information
+ekspedyt.org###cookie-notice
 eldom.eu##div[style="width: 100%; background-color: rgb(29, 29, 29); background: none repeat scroll 0 0 rgba(29, 29, 29, 0.94); color: #F5F5F5; border-bottom: solid 1px #cecece; border-top: solid 1px #fafafa; position: fixed; bottom: 0; z-index: 999;"]
 elektroda.pl##div#top2
 elektroonline.pl###ccc-state
@@ -307,6 +308,7 @@ genesis-zone.com###cookie-notice
 genetico.pl##.coologo7
 geoblog.pl###cContainer
 gerlach.org.pl###top0info
+germany.travel##.cookie-snippet
 gg.pl##div[style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: auto; z-index: 6660; visibility: hidden; font-family: Arial, Tahoma, Verdana; font-size: 16px; line-height: 1em; color: rgb(34, 34, 34);"]
 gg.pl##[style="position:absolute;right:0;top:0;display:block;width:22px;height:30px;font-family:Verdana, Tahoma, Arial;font-weight:bold;font-size:10px;color:#aaa;text-align:center;line-height:25px;cursor:pointer;cursor:hand;"] + DIV
 giercownia.pl###ci-info-box
@@ -1259,8 +1261,7 @@ gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl###rodo
 gothaer.pl##.ci-bar-wrapper
 haloursynow.pl###myModal, .modal-backdrop
 hebe.pl##.rodo-popup_popup
-heuristic.pl###cboxOverlay
-heuristic.pl#?##colorbox:-abp-has(#rodoPopup)
+heuristic.pl###cboxContent, #cboxOverlay
 homebrewing.pl##.rodo-popupbox
 iiyama.com##.infobar-message
 imagazine.pl,moviesroom.pl##.overlay-rules
