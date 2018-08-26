@@ -97,5 +97,5 @@ for i in "$@"; do
     # Dodawanie zmienionych plików do repozytorium git
     git add $i
     git commit -m "Update $filtr to version $wersja [ci skip]"
-    git push https://PolishJarvis:${GH_TOKEN}@github.com/PolishFiltersTeam/PolishSocialCookiesFiltersBeta.git HEAD:master
+    git push https://PolishJarvis:${GH_TOKEN}@github.com/PolishFiltersTeam/PolishSocialCookiesFiltersBeta.git HEAD:master > /dev/null 2>&1
 done
