@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: kIdQ33ezZ6NWuvW50PaTOg
+! Checksum: Xjm/nfW2sVgqF4ZqevI+gQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201809012114
-! Last modified: Sat, 01 Sep 2018, 21:14:33 UTC+02
+! Version: 201809012130
+! Last modified: Sat, 01 Sep 2018, 21:30:38 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201809012114 aktualizacja: sob, 01 wrz 2018, 21:14:33 UTC+02
+! v.201809012130 aktualizacja: sob, 01 wrz 2018, 21:30:38 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -881,6 +881,7 @@ siemens.pl##.PopupDiv
 siemianowice.pl##body > div:not([id]):not([class])
 sieradz.com.pl,zdunskawola24.pl###polityka-2
 simba.com.pl###cContainer
+sin-say.com###display_cookie_message
 sitn.pl#?#body > div:-abp-has(#cookie-close)
 skapiec.pl##div#uclaInfo
 sklepdlaplastykow.pl###popup
@@ -1084,7 +1085,7 @@ www.cmcmarkets.com###cmc-tracking-consent-form-step1
 www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
 www.ea.com##ea-truste-consent-bar
-www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh
+www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hays.pl###header-msg
 www.hertz.com.pl##[class^="lb-"]
