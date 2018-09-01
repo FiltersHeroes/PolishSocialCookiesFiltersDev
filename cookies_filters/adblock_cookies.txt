@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: FJ3qycLZaWeljsVdtQ3XMA
+! Checksum: 3AZQbfX0XpfDvRzgI8bevg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201808311845
-! Last modified: Fri, 31 Aug 2018, 18:45:29 UTC+02
+! Version: 201809011055
+! Last modified: Sat, 01 Sep 2018, 10:55:58 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201808311845 aktualizacja: pią, 31 sie 2018, 18:45:29 UTC+02
+! v.201809011055 aktualizacja: sob, 01 wrz 2018, 10:55:58 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -697,6 +697,7 @@ one2tribe.pl##.cw_container
 onlineradiobox.com###alert_cookies
 opac.wimbp.zgora.pl##div#alertboxsec_c
 opac.wimbp.zgora.pl##div#alertboxsec_mask
+openpli.org##div:-abp-has(div[onclick^="euCreateCookie"])
 openpli.org##div[style="height:20px;background-color:#FAFFDC;color:#222;padding:10px;font-size:1.1em !important;"]
 opineo.pl##div#uclaInfo
 opinie.wp.pl##._14gug ~ span
