@@ -19,7 +19,7 @@ lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !im
 money.pl##script:inject(nano-remove-elements-onready.js, .rodo-popup)
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 !+ PLATFORM(ext_ublock)
-openpli.org##div:has(> div[onclick^="euCreateCookie"])
+openpli.org##body > div:not([id]):not([class])
 pl.dow.com##.cookie-notify
 pl.dow.com##html,body:style(overflow: visible !important; position: static !important;)
 polski-tenis.pl###rodo
