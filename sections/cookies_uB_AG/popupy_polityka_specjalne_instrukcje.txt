@@ -9,6 +9,7 @@ budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm##.modal-open:style(overflow: auto !important;)
 eobuwie.com.pl##.popup
 eobuwie.com.pl##body:style(overflow: auto !important;)
+forums.openpli.org##script:inject(abort-current-inline-script.js, euReadCookie)
 fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
 infoplanet.pl,craftserve.pl###rodo, .modal-backdrop
@@ -17,6 +18,7 @@ lovekrakow.pl,djoles.pl,muzyczneradio.com.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 money.pl##script:inject(nano-remove-elements-onready.js, .rodo-popup)
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
+openpli.org##div:has(> div[onclick^="euCreateCookie"])
 pl.dow.com##.cookie-notify
 pl.dow.com##html,body:style(overflow: visible !important; position: static !important;)
 polski-tenis.pl###rodo
@@ -47,6 +49,7 @@ infoplanet.pl,polski-tenis.pl,craftserve.pl##^#rodo
 infostrow.pl,roztoczanskipn.pl##^#rodo-modal
 lovekrakow.pl,djoles.pl,muzyczneradio.com.pl##^#modal-rodo
 ogloszenia.plock.pl##^#dialog-rodo
+openpli.org##^script:has-text(gdpr-accepted)
 pl.dow.com##^.cookie-notify
 publikator.com.pl##^body script:has-text(polityka|zaufani)
 pulawy.eu##^#modalRodo
@@ -72,6 +75,7 @@ infoplanet.pl,polski-tenis.pl,craftserve.pl$$#rodo
 infostrow.pl$$#rodo-modal
 lovekrakow.pl,djoles.pl,muzyczneradio.com.pl$$#modal-rodo
 ogloszenia.plock.pl$$#dialog-rodo
+openpli.org$$script[tag-content="gdpr-accepted"]
 pl.dow.com$$.cookie-notify
 pro-sprzet.pl$$#myWorning
 publikator.com.pl$$script[tag-content="polityka|zaufani"]
