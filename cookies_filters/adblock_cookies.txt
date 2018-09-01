@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Xjm/nfW2sVgqF4ZqevI+gQ
+! Checksum: gfRxGNL9YKxyO7fR/0Nfyw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201809012130
-! Last modified: Sat, 01 Sep 2018, 21:30:38 UTC+02
+! Version: 201809012157
+! Last modified: Sat, 01 Sep 2018, 21:57:18 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201809012130 aktualizacja: sob, 01 wrz 2018, 21:30:38 UTC+02
+! v.201809012157 aktualizacja: sob, 01 wrz 2018, 21:57:18 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1427,9 +1427,9 @@ zywiec.com.pl,heineken.com.pl###infobx
 ||openid.pino.pl/app/static/global/rodo.js
 ||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
 ||powiat.okay.pl/media/system/js/modal.js
-||quantcast.mgr.consensu.org/cmp.js$domain=memy.pl
 ||rodo.agora.pl^$script
 ||rodo.rawlplug.com/wp-content/themes/rodo/popup/markups/modal-koelner.html$xmlhttprequest
+||static.quantcast.mgr.consensu.org/*/cmpui-banner.js$domain=memy.pl|pwn.pl
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
 ||std.wpcdn.pl/wpjslib/*/wpjslib-chunk-notification.js
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
