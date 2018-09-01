@@ -305,12 +305,6 @@ goldenline.pl##section[class*="cookiesInfo"]
 goldenline.pl###topReminder
 goodie.pl##.bp_br
 google.com,google.pl##.widget-consent-dialog
-google.pl###cnsh
-google.pl###dialog_uid_0
-google.pl##[class$="_overlay"]
-google.pl,google.com##div#epbar
-google.pl,google.com###gb > .gb_g.gb_ac.gb_bc
-google.pl,google.com##.vk_c._Udi
 gosc.pl###l-overlay
 gostynin.info##.cookies-message-wrapper
 gov.pl##.informationBar, .JSWrapper
@@ -718,7 +712,7 @@ pks.zary.pl##div#infobar
 pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.aPad
 player.pl##.cBox
 playtube.pl##.alert-success
-play.google.com#?#.gb_g:-abp-contains(cookie)
+play.google.com,translate.google.pl,books.google.pl###gb > div[style*="background-color"]
 plotowanie.com##div#howdydo-wrapper
 pl.chili.tv###_evh-ric
 pl.depositphotos.com##._notification
@@ -744,6 +738,7 @@ poligraf.com.pl###modal_wrap
 polomarket.pl##body > div:not([id]):not([class])
 polona.pl##cbn-cookies
 polskawoda.pl,dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;bottom: 0px;left: 0px;text-align: center;color: #000;border-top: 1px #000 solid;z-index: 100;"]
+polska.googleblog.com###cookieChoiceInfo
 polskiprawnik.pl##.reveal-modal-bg, #popup3
 popkorn.pl##body > div:not([id]):not([class])
 popoznaniu.pl##div#divcook
@@ -964,7 +959,6 @@ totaaltv.nl##div#sanoma-consent-bar
 totalmoney.pl##div#right_widget
 tp-link.com.pl###noticeBox
 traftu.pl##.unconfirmed.opt-in-splash
-translate.google.pl#?#.gb_g:-abp-contains(polityce)
 travelist.pl###mwFormBlackout, #mwFormContainer
 trello.com##.gdpr-cookie-consent-banner
 trovit.pl###welcomebar-wrapper
@@ -1067,7 +1061,7 @@ www.cmcmarkets.com###cmc-tracking-consent-form-step1
 www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
 www.ea.com##ea-truste-consent-bar
-www.google.com,www.google.pl#?#div>div>div>div>div>div>div>div>div>div>div:-abp-contains(Przypomnienie o polityce prywatności Google)
+www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"]
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hays.pl###header-msg
 www.hertz.com.pl##[class^="lb-"]
