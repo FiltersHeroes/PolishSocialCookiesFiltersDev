@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: PIXks/CkV1xIhFNGJPcG8Q
+! Checksum: PcLOUv6rXjUZ+HTCJ3Sc8g
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201809022307
-! Last modified: Sun, 02 Sep 2018, 23:07:39 UTC+02
+! Version: 201809031832
+! Last modified: Mon, 03 Sep 2018, 18:32:37 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201809022307 aktualizacja: nie, 02 wrz 2018, 23:07:39 UTC+02
+! v.201809031832 aktualizacja: pon, 03 wrz 2018, 18:32:38 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -693,7 +693,6 @@ onlineradiobox.com###alert_cookies
 opac.wimbp.zgora.pl##div#alertboxsec_c
 opac.wimbp.zgora.pl##div#alertboxsec_mask
 opineo.pl##div#uclaInfo
-opinie.wp.pl##._14gug ~ span
 opteam.pl###infobarDiv, #infobar, .infobar, #info-bar, #info_c_box, .info-message
 oracle.com##div[style="background-color: rgb(0, 0, 0); opacity: 0.4; position: fixed; z-index: 1000000; width: 100%; height: 100%; top: 0px; left: 0px; overflow: hidden; "]
 oracle.com##div[style="position: absolute; z-index: 2000000; top: 150px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; background-image: url(http://consent.truste.com/get?name=trans.png); left: 50%; margin-left: -425px; background-position: initial initial; background-repeat: initial initial; "]
@@ -1061,9 +1060,6 @@ wodociagi-kalisz.pl###white2
 wolnymkrokiem.pl,gieldaklasykow.pl,nowawarszawa.pl##.ginger_banner-wrapper
 wordpress.com###eu-cookie-law
 word.waw.pl##div#eKPC_Container
-wp.pl##div#messageID_user_info_cookiePolicy
-wp.pl##._2PL-mL0.kBUqizx
-wp.pl#?#span>div>div:-abp-contains(cookie)
 wrobelekelemelek.com###cboxOverlay
 wrobelekelemelek.com###cboxWrapper
 wrota.lubuskie.pl##div#eKPC_Container
@@ -1437,7 +1433,6 @@ zywiec.com.pl,heineken.com.pl###infobx
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pcworld.pl|internetstandard.pl|computerworld.pl
-||wp.pl/*GYqBm0Zbz4IZioGbRlvPghmKgZtGW8$domain=o2.pl
 ||www.forumsamochodowe.pl/js/jquery.cookie.js
 ||www.granice.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
 ||www.serialowa.pl/wpr/wp-content/plugins/popup-maker/assets/css/site.min.css
