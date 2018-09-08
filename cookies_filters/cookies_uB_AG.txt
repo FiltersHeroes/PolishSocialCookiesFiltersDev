@@ -1,11 +1,11 @@
-! Checksum: E6cDL83LuQEufhZZKMnxwg
+! Checksum: fbg2wvrSBDyQna/jOOE3Wg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201809081324
-! Last modified: Sat, 08 Sep 2018, 13:24:58 UTC+02
+! Version: 201809081630
+! Last modified: Sat, 08 Sep 2018, 16:30:47 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201809081324 aktualizacja: sob, 08 wrz 2018, 13:24:58 UTC+02
+! v.201809081630 aktualizacja: sob, 08 wrz 2018, 16:30:47 UTC+02
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -137,7 +137,7 @@ skyscrapercity.com##.fc-consent-root
 tabletowo.pl###disqus_thread:style(display: initial !important;)
 tabletowo.pl##.ginger_banner-wrapper
 tuzdrowie.pl###popupModal, .modal-backdrop
-tv.pudelek.pl##script:inject(set-constant.js, wp_no_consent_screen, true)
+tv.pudelek.pl,gryonline.wp.pl##script:inject(set-constant.js, wp_no_consent_screen, true)
 wagrowczanie.pl##.showRodo
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
