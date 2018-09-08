@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: gM9G1rT2Um54EWW1x1uEwA
+! Checksum: zNCrx1p248zdBs93MTNemw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201809081457
-! Last modified: Sat, 08 Sep 2018, 14:57:16 UTC+02
+! Version: 201809081630
+! Last modified: Sat, 08 Sep 2018, 16:30:42 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201809081457 aktualizacja: sob, 08 wrz 2018, 14:57:17 UTC+02
+! v.201809081630 aktualizacja: sob, 08 wrz 2018, 16:30:42 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -45,7 +45,6 @@ aliexpress.com###j-aliexpress-notice
 alipaczka.pl###bottom-charm
 allbox.tv###cookiescript_injected
 allegro.pl##div[data-box-name="cookie policy"]
-allekoszyk.pl##DIV[style="position:fixed;bottom:0;background-color:white;width:100%;padding-left:10px;font-size:12px;"]
 alles-bhp.pl,greattrade.pl,szkolnaspizarnia.pl,urwisy2.pl###contGlowny > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allianz.pl##.region-disclaimer-component
 allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,bptour.pl,cmjordan.krakow.pl,czasdzieci.pl,edk.org.pl,eneva.pl,faktopedia.pl,galeria-dominikanska.pl,gosc.pl,komixxy.pl,kotburger.pl,puls.hedrych.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
@@ -60,11 +59,8 @@ animesub.info##div.appriseOuter
 animesub.info##div#aOverlay
 apdmarket.pl###popup
 apkpure.com###policy-info
-apsdata.pl###alert
-aptekadyzurna.pl##div[style="padding: 10px 70px 10px 50px; font-family: arial, sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 9px; line-height: normal; background-color: rgb(153, 153, 153); display: block; position: relative; color: white; width: 99%; "]
 aptekagemini.pl##div#kukiz
-aptekaleki.co.uk##.ui-resizable.ui-draggable.ui-dialog-buttons.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
-aptoide.com##.cookie-notification-holder
+aptekaleki.co.uk###ck_dsclr
 arachnea.org##div.guestwarn
 archiwa.gov.pl###message_box
 areatour.pl##div#topbar
@@ -862,7 +858,6 @@ sklep-wadima.pl###topbar, #topBar, .topbarBox, .topBarMessage, #__topBar, #top_b
 sklep.alablaboratoria.pl,lmbruss.pl###cover
 sklep.eltron.pl###communication
 sklep.sizeer.com###js-cookieInfo
-sklep.vistula.pl##div[style="text-align: center; position: fixed; bottom: 0px; left: 0px; right: 0px; background: none repeat scroll 0% 0% rgb(240, 240, 240); border-top: 2px solid rgb(204, 204, 204);"]
 skm.warszawa.pl##div[style="width: 600px; padding: 40px 30px 30px; position: fixed; margin-left: -300px; border: 1px solid rgb(34, 34, 34); line-height: 18px; font-size: 14px; background-color: rgb(255, 255, 255); box-shadow: rgba(50, 50, 50, 0.75) 3px 3px 9px; border-radius: 4px; right: 40px; bottom: 40px; z-index: 9999; color: rgb(40, 40, 40); overflow: hidden;"]
 skokinarciarskie.pl##.pbox:nth-of-type(13)
 skrypt.com.pl,ekologiczny.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
@@ -904,13 +899,10 @@ stroer.pl##.popUpWrap
 strona.euro-net.pl##.komunikatciasteczka
 studentpotrafi.pl##body > div:not([id]):not([class])
 studiorolety.pl##.content-head-information
-stylowi.pl##DIV[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:16; overflow: auto"]
-stylowi.pl##body > div:not([id]):not([class])
 stypendia.sejmik.kielce.pl##.mod_pa_sci
 superfilm.pl###box_info
 swiatnauki.pl###menu
 swiat-agd.com.pl##body > div:not([id]):not([class])
-swiat-laptopow.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
 swidnica24.pl##div#policyBox
 swietnafirma.pl###cMess
 synektik.pl###mc_top_bar
@@ -1049,13 +1041,11 @@ y8.com###policy-validation
 yogenfruz.pl##.shotimoo
 youtube.com###ticker
 yoy.tv##.notice
-yp.pl##div#jQ_cookiBox
 zaimo.pl##.politica
 zajadam.pl##.infobar-bottom
 zarmen.pl###komunikat
 zaufanekliniki.pl##.alert-fixed
 zblogowani.pl###ci-info-box
-zdgtor.pl##body > div:not([id]):not([class])
 zdm.poznan.pl###cContainer
 zdrowemiasto.pl###_mo
 zgierz.pl##.ui-widget, .ui-widget-overlay
@@ -1067,7 +1057,7 @@ zoover.pl###infobarDiv, #infobar, .infobar, #info-bar, #info_c_box, .info-messag
 zoo.wroclaw.pl###okno_18only
 zosiaikevin.pl###novem-slot
 zrzutka.pl##.plicy
-zs1mm.edu.pl##body > div:not([id]):not([class])
+zs1mm.home.pl##body > div[style^="position: relative;"]:not(id):not(class)
 zyciekalisza.pl###cdiv
 zysk.com.pl###pageUpperInfo
 !
@@ -1222,7 +1212,7 @@ mi.com##.top-notify
 mypolacy.de###rMo
 m.benchmark.pl###private-policy-popup
 naekranie.pl###modal-rodo-info, .reveal-modal-bg
-natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl,joemonster.org,eskago.pl##div[class^="app_gdpr"]
+natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl,joemonster.org,eskago.pl,stylowi.pl##div[class^="app_gdpr"]
 neonet.pl##.rodo-info__content, .rodo-info__overlay
 neosite.pl,ppe.pl,terazmuzyka.pl###rodo-overlay
 niezalezna.pl,gpcodziennie.pl###swsoverlay, #swsmodal
@@ -1260,7 +1250,7 @@ pz.gov.pl###gdprPopup
 queer.pl##.box-rodo
 radiogol.pl##.hustle-modal-message
 radiohit.net.pl##.RODOframe
-radiowroclaw.pl,radioram.pl,radiogdansk.pl###rodoModal
+radiowroclaw.pl,radioram.pl,radiogdansk.pl,tanibus.com###rodoModal
 radiozet.pl,antyradio.pl,radiostacja.pl,meloradio.pl,azorek.pl,planeta.fm,chillizet.pl##div[class^="app_cmpAppGdpr"]
 razemztoba.pl##.inform
 rc.fm###popup-message-window, #popup-message-background
@@ -1331,7 +1321,7 @@ zywiec.com.pl,heineken.com.pl###infobx
 /_sess/rodo.js
 ||ad.prv.pl/rodo.js
 ||artkomnet.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
-||assets.allegrostatic.com/opbox-rodo-consent-modal/index*.css$domain=allegro.pl
+||assets.allegrostatic.com/opbox-rodo-consent-modal/index*.css
 ||assets.goldenline.io/assets/user/profilingAgreement.*.js
 ||a.wpimg.pl/a/i/stg/wpjslib-chunk-consent-form.js
 ||a.wpimg.pl/a/i/stg/wpjslib-chunk-notification.js
@@ -1408,6 +1398,7 @@ com##.is-ready.is-shown.cnil-banner:not(body):not(html)
 pl##DIV[style="border: 10px solid rgb(138, 138, 138); border-radius: 10px; box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255); padding: 8px 8px 10px; position: fixed; z-index: 99999; right: 20px; left: 20px; bottom: 20px; width: 700px; max-width: 90%;"]
 pl##DIV[style="padding: 5px 25px 5px 15px;"]
 pl###cokPyt:not(body):not(html)
+pl###confirmCookie:not(body):not(html)
 pl###cookieChoiceInfo:not(body):not(html)
 pl###cookies-banner:not(body):not(html)
 pl###cookies:not(body):not(html):not(.section)
@@ -1650,29 +1641,17 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html)
 !
 !
 ! Blokowanie elementów po zastosowaniu generichide
-4free.waw.pl###cookie-alert
 24opole.pl###div_cookie_accept
 applemobile.pl###cookies-message
 filmweb.pl##.cookieInfo
-gryonline.wp.pl##.js-cookie-info
-ksplus.komputerswiat.pl###cookies
-kwejk.pl###cookies-politics
 minecraftpolska.net##.cookieinfo
-miniminiplus.pl##.cookies
 mybank.pl##.ciasteczka
-panwybierak.wp.pl###cookie-law-info-bar
 pl###cookieView:not(body):not(html)
-przegladsportowy.pl##.cookies-section
 rapidgrab.pl##.cc_banner
-sklep.fakt.pl###cookies-section
-store.playstation.com###cookieWarningMessage:not(body):not(html)
 strefabajek.vod.pl###cookie-bar
 sympatia.onet.pl###cookieInfo
 webcamera.pl###catapult-cookie-bar
 zyciepabianic.pl###cookie-warn
-!pclab.pl,onet.pl,businessinsider.com.pl,noizz.pl,komputerswiat.pl,plejada.pl,auto-swiat.pl,fakt.pl,vod.pl###cookieView
-/resources/js/cookies2.min.js$domain=fakt.pl|komputerswiat.pl|przegladsportowy.pl|auto-swiat.pl|prezenty-i-zyczenia.pl|asp24.pl
-/resources/js/min.cookies.js$domain=fakt.pl|komputerswiat.pl|przegladsportowy.pl|auto-swiat.pl|prezenty-i-zyczenia.pl|asp24.pl
 !
 !
 ! Bugi Prebake
