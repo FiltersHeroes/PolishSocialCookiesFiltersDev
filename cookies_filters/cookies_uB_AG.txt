@@ -1,11 +1,11 @@
-! Checksum: PLiiiYMN4c4hySrkNeYyOQ
+! Checksum: EGY975c6E+0nCMJT5+CY8w
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201809161555
-! Last modified: Sun, 16 Sep 2018, 15:55:24 UTC+02
+! Version: 201809212350
+! Last modified: Fri, 21 Sep 2018, 23:50:28 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201809161555 aktualizacja: nie, 16 wrz 2018, 15:55:24 UTC+02
+! v.201809212350 aktualizacja: pią, 21 wrz 2018, 23:50:28 UTC+02
 !
 !
 ! Komunikaty ciasteczkowe i dziury
@@ -214,6 +214,7 @@ tvasta.pl##^#infoModal
 ustawmundial.weszlo.com,ustawlige.com##^#privacy-modal
 zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl##^#pd-modal
 ztm.poznan.pl##^#PopUP
+spolem.katowice.pl##^#popup.modal
 !#endif
 !#if !env_mobile
 azure.microsoft.com###main:style(padding-top: 88px !important;)
@@ -242,4 +243,5 @@ tvasta.pl$$#infoModal
 ustawmundial.weszlo.com,ustawlige.com$$#privacy-modal
 zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl$$#pd-modal
 ztm.poznan.pl$$#PopUP
+spolem.katowice.pl$$#popup.modal
 !#endif
