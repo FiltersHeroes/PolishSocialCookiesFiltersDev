@@ -17,21 +17,24 @@
 ! v.@wersja aktualizacja: @aktualizacja
 !
 !
-! Komunikaty ciasteczkowe i dziury
+! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
 @include komunikaty_supplement
 !
 !
-! Komunikaty ciasteczkowe i dziury - specjalne instrukcje
-@include komunikaty_specjalne_instrukcje
-!
-!
-! Popupy
-@include popupy_supplement
-!
-!
-! Popupy dot. polityki prywatności/RODO
-@include popupy_polityka_supplement
-!
-!
-! Popupy dot. polityki prywatności/RODO - specjalne instrukcje
-@include popupy_polityka_specjalne_instrukcje
+! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂 - specjalne instrukcje
+!#if !cap_html_filtering
+@include komunikaty_bez_html
+@include komunikaty_bez_html_dodatkowe_specjalne_instrukcje
+!#endif
+!#if cap_html_filtering
+@include komunikaty_html
+!#endif
+!#if !cap_user_stylesheet
+@include komunikaty_bez_styli_uzytkownika
+!#endif
+!#if !env_mobile
+@include komunikaty_niemobilne
+!#endif
+!#if !ext_ublock
+@include komunikaty_AdGuard
+!#endif
