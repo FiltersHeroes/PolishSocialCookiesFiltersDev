@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: mCBE/1uimHTJm84R2PdO5w
+! Checksum: +WfgIcUvQw+iQ0blXIbR9w
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201809221610
-! Last modified: Sat, 22 Sep 2018, 16:10:57 UTC+02
+! Version: 201809222106
+! Last modified: Sat, 22 Sep 2018, 21:06:50 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201809221610 aktualizacja: sob, 22 wrz 2018, 16:10:57 UTC+02
+! v.201809222106 aktualizacja: sob, 22 wrz 2018, 21:06:50 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -61,7 +61,6 @@ amarone.pl###bannerMSG
 amazon.de###desktop-cookie-disclosure
 americanexpress.com###cookie_Header
 amundi.pl###disclaimer
-angielski-kazdego-dnia.pl##.wpgdprc
 antyweb.pl###privacy
 apdmarket.pl###popup
 apkpure.com###policy-info
@@ -657,7 +656,6 @@ mggp.com.pl##.navbar-inverse
 mggp.com.pl##.navbar.navbar-fixed-bottom
 miastograf.pl##.ui-widget, .ui-widget-overlay
 miastons.pl##[id^="overflow"]
-miasto-gazeta.pl##.wpgdprc
 michalgrabarski.eu###ccc-icon
 mikos.com.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
 ministerstworeklamy.pl###messagePopup
@@ -755,7 +753,6 @@ noweprzetargi.pl###txt
 nowezyciepabianic.pl##div#PopupDiv
 nuorder.pl##.___ncn-container
 nvidia.com#@#[id*="cookie_"]
-nvt.pl##.wpgdprc-consent-bar
 o2.pl##.zyHor, #app-inner ._1Arb2
 obpon.pl###rodo-notice, #shadow-overlay
 ociasteczkach.pl###ociasteczkach
@@ -783,6 +780,7 @@ onlineradiobox.com###alert_cookies
 opac.wimbp.zgora.pl##div#alertboxsec_c
 opac.wimbp.zgora.pl##div#alertboxsec_mask
 opineo.pl##div#uclaInfo
+opoka.tv###eu-cookie-bar
 opteam.pl###infobarDiv, #infobar, .infobar, #info-bar, #info_c_box, .info-message
 optyczne.pl###id01
 orange.pl##.background
@@ -1240,6 +1238,7 @@ zs1mm.home.pl##body > div[style^="position: relative;"]:not(id):not(class)
 zyciekalisza.pl###cdiv
 zysk.com.pl###pageUpperInfo
 zywiec.com.pl,heineken.com.pl###infobx
+!angielski-kazdego-dnia.pl,miasto-gazeta.pl,nvt.pl##.wpgdprc
 !fora.pl##.pp-t-a-c
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
@@ -1409,6 +1408,7 @@ pl##.panel_cookie:not(body):not(html)
 pl##.rodo-accept:not(body):not(html):not(input):not(a)
 pl##.rodo-overlay:not(body):not(html)
 pl##.rodo-popup:not(body):not(html)
+pl##.wpgdprc-consent-bar:not(body):not(html)
 pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
 pl##[id*="cookie_"]:not(body):not(html)
 pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
