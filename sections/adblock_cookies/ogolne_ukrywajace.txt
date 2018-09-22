@@ -264,3 +264,10 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 ##[id*="coockie"]
 ##[id^="PolitykaPrywatnosci"]
 ##[id^="cookies-message"]
+pl##.rodo-accept:not(body):not(html):not(input):not(a)
+pl##.rodo-popup:not(body):not(html)
+pl##.rodo-overlay:not(body):not(html)
+###gdpr_banner:not(body):not(html)
+###rodo-popup:not(.fade):not(body):not(html)
+##.gdpr-privacy-bar:not(body):not(html)
+##.wordpress-gdpr-popup:not(body):not(html)
