@@ -38,6 +38,9 @@ pl##.cookie-notice-container:not(body):not(html)
 pl##.cookie-notice:not(body):not(html)
 pl##.hpm-alert-cookies:not(body):not(html)
 pl##.panel_cookie:not(body):not(html)
+pl##.rodo-accept:not(body):not(html):not(input):not(a)
+pl##.rodo-overlay:not(body):not(html)
+pl##.rodo-popup:not(body):not(html)
 pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
 pl##[id*="cookie_"]:not(body):not(html)
 pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
@@ -151,6 +154,7 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 ###ecl-notice
 ###elGuestTerms[data-role="guestTermsBar"]:not(body):not(html)
 ###evideCookiesNotify:not(body):not(html)
+###gdpr_banner:not(body):not(html)
 ###gm-cookies:not(body):not(html)
 ###hideMe
 ###icc_message
@@ -181,6 +185,7 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 ###privacy-notice:not(body):not(html)
 ###privacy_policy
 ###privacy_policy_bar:not(body):not(html)
+###rodo-popup:not(.fade):not(body):not(html)
 ###showCookieInfo:not(body):not(html)
 ###showCookie:not(body):not(html)
 ###showCookie:not(body):not(html) ~ br
@@ -243,6 +248,7 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 ##.ek-bar
 ##.eupopup-container:not(body):not(html)
 ##.eu-cookie-panel:not(body):not(html)
+##.gdpr-privacy-bar:not(body):not(html)
 ##.head-page-information
 ##.kukiez:not(body):not(html)
 ##.message--cookie:not(body):not(html)
@@ -258,16 +264,10 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 ##.privacy-container:not(body):not(html):not(.content-container)
 ##.privacy-info:not(body):not(html)
 ##.privacy_policy_info:not(body):not(html)
+##.wordpress-gdpr-popup:not(body):not(html)
 ##[class*="coockie"]
 ##[class^="box-cookie"]
 ##[id*="ciasteczka_alert"]
 ##[id*="coockie"]
 ##[id^="PolitykaPrywatnosci"]
 ##[id^="cookies-message"]
-pl##.rodo-accept:not(body):not(html):not(input):not(a)
-pl##.rodo-popup:not(body):not(html)
-pl##.rodo-overlay:not(body):not(html)
-###gdpr_banner:not(body):not(html)
-###rodo-popup:not(.fade):not(body):not(html)
-##.gdpr-privacy-bar:not(body):not(html)
-##.wordpress-gdpr-popup:not(body):not(html)
