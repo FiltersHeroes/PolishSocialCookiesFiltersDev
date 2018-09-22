@@ -1,4 +1,3 @@
-!#if !cap_html_filtering
 4fun.tv###cModal, .modal-backdrop
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 belsat.eu##.popmake-overlay
@@ -18,8 +17,6 @@ lovekrakow.pl,djoles.pl,muzyczneradio.com.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 money.pl##script:inject(nano-remove-elements-onready.js, .rodo-popup)
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
-!+ PLATFORM(ext_ublock)
-openpli.org##body > div:not([id]):not([class])
 pl.dow.com##.cookie-notify
 pl.dow.com##html,body:style(overflow: visible !important; position: static !important;)
 polski-tenis.pl###rodo
@@ -38,61 +35,4 @@ tvasta.pl##.modal-backdrop
 ustawmundial.weszlo.com,ustawlige.com###privacy-modal, .modal-backdrop
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 ztm.poznan.pl###PopUP, .modal-backdrop
-!#endif
-!#if cap_html_filtering
-4fun.tv##^#cModal
-alltube.tv,alltube.pl##^#rodo-popup
-belsat.eu##^.popmake-overlay
-born2be.pl,renee.pl##^.rules-modal
-budownictwo.pl##^#rodoLayer
-eobuwie.com.pl##^script:has-text(technologii cookies)
-ferguson-digital.eu##^#cookie-notice
-fryzomania.pl##^#myWorningNewsletterPopUp
-gdansk.pl,gokf.gda.pl##^.rodo
-infoplanet.pl,polski-tenis.pl,craftserve.pl##^#rodo
-infostrow.pl,roztoczanskipn.pl##^#rodo-modal
-lovekrakow.pl,djoles.pl,muzyczneradio.com.pl##^#modal-rodo
-ogloszenia.plock.pl##^#dialog-rodo
-openpli.org##^script:has-text(gdpr-accepted)
-pl.dow.com##^.cookie-notify
-publikator.com.pl##^body script:has-text(polityka|zaufani)
-pulawy.eu##^#modalRodo
-pro-sprzet.pl##^#myWorning
-skm.pkp.pl##^#dialog-message-rodo
-styl.fm##^.rodo-info
-tuzdrowie.pl##^#popupModal
-tvasta.pl##^#infoModal
-ustawmundial.weszlo.com,ustawlige.com##^#privacy-modal
-zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl##^#pd-modal
-ztm.poznan.pl##^#PopUP
-spolem.katowice.pl##^#popup.modal
-!#endif
-!#if !env_mobile
-azure.microsoft.com###main:style(padding-top: 88px !important;)
-!#endif
-!#if !ext_ublock
-4fun.tv$$#cModal
-alltube.tv,alltube.pl$$#rodo-popup
-belsat.eu$$.popmake-overlay
-eobuwie.com.pl$$script[tag-content="technologii cookies"]
-ferguson-digital.eu$$#cookie-notice
-fryzomania.pl$$#myWorningNewsletterPopUp
-gdansk.pl,gokf.gda.pl$$.rodo
-infoplanet.pl,polski-tenis.pl,craftserve.pl$$#rodo
-infostrow.pl$$#rodo-modal
-lovekrakow.pl,djoles.pl,muzyczneradio.com.pl$$#modal-rodo
-ogloszenia.plock.pl$$#dialog-rodo
-openpli.org$$script[tag-content="gdpr-accepted"]
-pl.dow.com$$.cookie-notify
-pro-sprzet.pl$$#myWorning
-publikator.com.pl$$script[tag-content="polityka|zaufani"]
-pulawy.eu$$#modalRodo
-skm.pkp.pl$$#dialog-message-rodo
-styl.fm$$.rodo-info
-tuzdrowie.pl$$#popupModal
-tvasta.pl$$#infoModal
-ustawmundial.weszlo.com,ustawlige.com$$#privacy-modal
-zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl$$#pd-modal
-ztm.poznan.pl$$#PopUP
-spolem.katowice.pl$$#popup.modal
-!#endif
+empik.com##script:inject(nano-remove-elements-onready.js, .cookies-accept)
