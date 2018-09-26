@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 2vEYdrm7UG9wce98FzBg0A
+! Checksum: +zUJcmg4wUlabtmTWd3CvQ
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201809260832
-! Last modified: Wed, 26 Sep 2018, 08:32:12 UTC+02
+! Version: 201809261046
+! Last modified: Wed, 26 Sep 2018, 10:46:37 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201809260832 aktualizacja: śro, 26 wrz 2018, 08:32:12 UTC+02
+! v.201809261046 aktualizacja: śro, 26 wrz 2018, 10:46:37 UTC+02
 !
 !
 ! Popupy
@@ -774,6 +774,7 @@ autonom.pl###text-7
 autorskielegalnie.pl###text-10, #menu-menu-2-dol > .menu-item-644.menu-item-object-custom.menu-item-type-custom.menu-item, .menu-item-620.menu-item-object-custom.menu-item-type-custom.menu-item
 autotrader.pl##.layout-footer__nav__social
 auto-mobil.pl##.f-icon-2, .f-icon-3, .f-icon-4
+auto-swiat.pl##.version4.bigVersion.onet_ustPlugin_addthis > .box2, .whitelistPremium > div:nth-of-type(4) > .version4.onet_ustPlugin_addthis
 avast.com##.social-icons > a.bi-link:nth-child(-n+5)
 avlab.pl##li:nth-child(-n+3) > .ext
 azure.microsoft.com##nav.medium-3.column
@@ -1422,6 +1423,7 @@ komentuj24.pl##center
 komorkomania.pl##.post-article-links__header > strong, .social-links--author
 komorkomat.pl##.hidden-sm.hidden-xs.social_kontener
 komorkomat.pl##.widget_text.col-md-3:nth-of-type(4) > .widgettitle
+komputerswiat.pl##.social-container, [href="https://www.facebook.com/komputerswiat/"]
 komputerytychy.pl##.col-md-12:nth-of-type(4) > .panel-default.panel
 konecki24.pl##.np-aside-social-wrapper
 kongresobywatelski.pl##[href="https://twitter.com/Obywatelski"], [href="https://www.facebook.com/KongresObywatelski/"], [href="http://obywatelski.natemat.pl/"], [href="https://www.youtube.com/channel/UCn3cn6PS0o-1U6tm7Sq6PgA"]
@@ -1646,7 +1648,6 @@ myownconference.pl##a[href="https://www.youtube.com/channel/UC2safZpWs0HHjM3aJx2
 myownconference.pl##a[href^="https://www.linkedin.com/company/4865021"]
 myphone.pl##.clearGroup.fLeft
 mzk-ostrow.com.pl##p:nth-child(n+59)
-m.auto-swiat.pl##.fb_share
 m.se.pl##.social.row
 nadrapaku.pl###HTML1, #HTML2
 naekranie.pl###social-fans, .addthis_responsive_sharing, .msg-share, .title-p, .tw-share
@@ -1944,8 +1945,8 @@ prostozmostu.pl##.at_flat_counter, .social
 przedsiebiorcy.eu##.fa-facebook, .fa-twitter
 przegladbaltycki.pl###rum_sst_tab
 przegladpiaseczynski.pl###Mod106
-przegladsportowy.pl##.fb_share
-przegladsportowy.pl##.tw_share
+przegladsportowy.pl##.tw_share, .email.button, .in, .socials
+przegladsportowy.pl,m.auto-swiat.pl,komputerswiat.pl##.fb_share
 przemocnc.pl##.simplesocialbuttons
 przenosne.pl##.sm_link
 przewodnikduchowy.pl##.well:nth-of-type(1)
@@ -2446,7 +2447,6 @@ www.politycznyislam.info##.wpb_start_animation.wpb_bottom-to-top.wpb_animate_whe
 www.polityka.pl##.hiddenOnMobile.header-share-links, #md-footer_social, .md-sharethis-toolbox-floatingbutton_fb, .wykopTo.md-sharethis-toolbox-floatingbutton_wykop
 www.poradnikzdrowie.pl##.big_socials_fb, .big_socials_tw, .big_socials_gp, .joinus
 www.promocyjni.pl##.socials-float
-www.przegladsportowy.pl##.in
 www.publio.pl##.facebook-page-widget
 www.risreklamy.pl,mobbingwpracy.com,www.up.krakow.pl##.jj_sl_navigation
 www.rossmann.pl##a[href="https://www.instagram.com/RossmannPL/"]
