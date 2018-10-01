@@ -138,7 +138,7 @@ select yn in "Tak" "Nie"; do
         git push
         printf "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): "
         read roz_opis
-        hub pull-request -c -m "Update $lista to version $wersja
+        hub pull-request -m "Update $lista to version $wersja
 
         ${roz_opis}"
         break;;
