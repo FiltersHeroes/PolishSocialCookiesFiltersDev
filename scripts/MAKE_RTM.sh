@@ -78,11 +78,11 @@ ost_zmieniony_plik=$(git diff -z --name-only | xargs -0)
 
 for i in $ost_zmieniony_plik; do
 
-    if [[ "$i" == "sections/adblock_cookies"* ]] || [["$i" == "sections/cookies_uB_AG"* ]]; then
+    if [[ "$i" == "sections/adblock_cookies"* ]] || [[ "$i" == "sections/cookies_uB_AG"* ]]; then
         cp -r ~/git/PolishSocialCookiesFiltersDev/cookies_filters ~/git/polish-ads-filter/
     fi
 
-    if [[ "$i" == "sections/adblock_social"* ]] || [["$i" == "sections/social_filters_uB_AG"* ]]; then
+    if [[ "$i" == "sections/adblock_social"* ]] || [[ "$i" == "sections/social_filters_uB_AG"* ]]; then
         cp -r ~/git/PolishSocialCookiesFiltersDev/adblock_social_filters ~/git/polish-ads-filter/
     fi
 
