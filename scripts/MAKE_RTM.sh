@@ -89,11 +89,10 @@ for i in $ost_zmieniony_plik; do
 done
 
 cd ~/git/polish-ads-filter
+wersja="$(date +"%Y%m%d") RTM"
 ost_zmieniony_plik_RTM=$(git diff -z --name-only | xargs -0)
 
 for j in $ost_zmieniony_plik_RTM; do
-wersja="$(date +"%Y%m%d") RTM"
-
     if [[ "$j" == "adblock_social_filters/adblock_social_list.txt"* ]]; then
         if [[ "$lista" != *" 👍"* ]] ;then
             lista+=" "👍
@@ -139,7 +138,7 @@ select yn in "Tak" "Nie"; do
         git push
         printf "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): "
         read roz_opis
-        hub pull-request -c -m "Update $lista
+        hub pull-request -c -m "Update $lista to version $wersja
 
         ${roz_opis}"
         break;;
