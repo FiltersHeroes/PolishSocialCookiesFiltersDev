@@ -78,11 +78,11 @@ ost_zmieniony_plik=$(git diff -z --name-only | xargs -0)
 
 for i in $ost_zmieniony_plik; do
 
-    if [[ "$i" == "sections/adblock_cookies"* ]] || [[ "$i" == "sections/cookies_uB_AG"* ]]; then
+    if [[ "$i" == "cookies_filters/adblock_cookies.txt"* ]] || [[ "$i" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
         cp -r ~/git/PolishSocialCookiesFiltersDev/cookies_filters ~/git/polish-ads-filter/
     fi
 
-    if [[ "$i" == "sections/adblock_social"* ]] || [[ "$i" == "sections/social_filters_uB_AG"* ]]; then
+    if [[ "$i" == "adblock_social_filters/adblock_social_list.txt"* ]] || [[ "$i" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
         cp -r ~/git/PolishSocialCookiesFiltersDev/adblock_social_filters ~/git/polish-ads-filter/
     fi
 
@@ -127,7 +127,7 @@ wersja="$(date +"%Y%m%d") RTM"
     fi
 done
 
-if [[ "$lista" != *" 🍪"* ]] && [[ "$lista" != *" 👍"* ]]; then
+if [[ "$lista" == *" 🍪"* ]] && [[ "$lista" == *" 👍"* ]]; then
     lista="🍪 & 👍"
 fi
 
@@ -137,7 +137,11 @@ select yn in "Tak" "Nie"; do
     case $yn in
         Tak )
         git push
-        hub pull-request -c -F "Update $lista"
+        printf "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): "
+        read roz_opis
+        hub pull-request -c -m "Update $lista
+
+        ${roz_opis}"
         break;;
         Nie ) break;;
 esac
