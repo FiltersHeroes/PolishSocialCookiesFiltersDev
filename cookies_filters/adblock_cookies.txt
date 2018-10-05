@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: qVCrZiOaygP5dL4WmgGWvA
+! Checksum: 0C/k2s3QGi2/kpjmsjkO5g
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810041810
-! Last modified: Thu, 04 Oct 2018, 18:10:23 UTC+02
+! Version: 201810051122
+! Last modified: Fri, 05 Oct 2018, 11:22:10 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810041810 aktualizacja: czw, 04 paź 2018, 18:10:23 UTC+02
+! v.201810051122 aktualizacja: pią, 05 paź 2018, 11:22:10 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -392,7 +392,7 @@ gsm-grodzisk.pl##div#_mo
 guardian.co.uk##.identity-noticebar-content
 gugik.gov.pl,smyk.com,modecom.com,brodnica.net,hifi.pl,wielkopolska.eu,dw.com##.cookie
 hachette.com.pl##div[style="position:fixed;bottom:0;z-index:1000;width:100%;text-align:center;background:#EEE;padding:15px 0;border-top:1px solid #333;"]
-haloursynow.pl###myModal, .modal-backdrop
+haloursynow.pl,warsztat.pl###myModal, .modal-backdrop
 hankooktire.com##.top_ep_wrap
 hattrick.interia.pl##div.alert
 hbo.pl###overlay
@@ -459,8 +459,6 @@ intymna.pl###wymagania_sklepu_alert
 iom.pl###cooker
 ipartworld.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
 iperfumy.pl##div#gritter-notice-wrapper
-ip-sa.pl###myModal
-ip-sa.pl##.reveal-modal-bg
 istockphoto.com##.warning.banner
 istotne.pl##.in.fade.modal
 istotne.pl##header.top
@@ -536,8 +534,7 @@ komunikacja.um.bialystok.pl##a[href="/?page=cookies"]
 konsbud-hifi.com.pl##.sticky-footer
 konserwatyzm.pl###toast-container
 kontakt-simon.com.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
-korpol.pl###myModal
-korpol.pl##.reveal-modal-bg
+korpol.pl,ip-sa.pl###myModal, .reveal-modal-bg
 kpim.pl##.coologo7
 krakowairport.pl##.privacyPolicyPop
 kredito24.pl##.politica
@@ -1119,6 +1116,7 @@ upc.pl##.dmg-cookie-info
 upolujebooka.pl##.alert
 uzdrowisko-wieniec.pl###statement
 v10.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
+vademecumksiegowego.pl###modalBackdrop, #formalAgreementModal
 vas.com.pl##body > div:not([id]):not([class])
 viralka.pl,repostuj.pl##.cc-window
 virustotal.com###euConsent
