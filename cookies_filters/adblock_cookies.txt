@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: QCbdFOmX5vO0OJVONPPpuw
+! Checksum: 1TVQ1+Rtuibh672OYsXPDA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810051831
-! Last modified: Fri, 05 Oct 2018, 18:31:44 UTC+02
+! Version: 201810061818
+! Last modified: Sat, 06 Oct 2018, 18:18:50 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810051831 aktualizacja: pią, 05 paź 2018, 18:31:44 UTC+02
+! v.201810061818 aktualizacja: sob, 06 paź 2018, 18:18:50 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -353,6 +353,7 @@ gih.grajewo.pl###fancybox-overlay
 gih.grajewo.pl#?##fancybox-wrap:-abp-contains(RODO)
 ginekolog-darlowo.pl###zgoda
 gkn.pl##div#gora0
+glogow-info.pl##.info1, .tloinfo1
 glos24.pl##DIV[style="border: 1px solid #fcce00; background: #fcfc9a; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 2px 4px #bbb; -webkit-box-shadow:0 2px 4px #bbb; -khtml-box-shadow: 0 2px 4px #bbb; box-shadow:0 2px 4px #bbb; width: 700px; font: normal 12px/1.6em verdana; color: #505050;"]
 glos24.pl##body > div[style*="z-index: 999"]
 glucholazy.pl###layer9
@@ -647,8 +648,7 @@ megawrzuta.pl##.notification, .Notification, .js-notification, .notifications-co
 mega-com.eu###footer-information
 memoinfo.pl##body > div:nth-of-type(6)
 memorialhenrykapuzonia.pl###sc
-mercedes-benz.com###cLayer
-mercedes-benz.com###cPageOverlay
+mercedes-benz.com###cLayer, #cPageOverlay
 mercedes-benz.com,mercedes-benz.pl###emb-cp-dialog
 mercure.com##.is-ready
 merixstudio.pl###message, .message
@@ -656,8 +656,8 @@ merlin.pl##.merlin-legal-note
 meteovista.pl###info-bar-content
 metro2033.pl##body > div:not([id]):not([class])
 mettosport.eu###moove_gdpr_cookie_info_bar
-mggp.com.pl##.navbar-inverse
-mggp.com.pl##.navbar.navbar-fixed-bottom
+mggp.com.pl##.navbar-inverse, .navbar.navbar-fixed-bottom
+mgr.farm###cookie_notice
 miastograf.pl##.ui-widget, .ui-widget-overlay
 miastons.pl##[id^="overflow"]
 michalgrabarski.eu###ccc-icon
@@ -752,16 +752,14 @@ nomi.pl##div#Messenger-Special
 nowaostroleka.pl###cffc
 nowapapiernia.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
 nowehoryzonty.pl##div#div_ac
-noweprzetargi.pl###dcach
-noweprzetargi.pl###txt
+noweprzetargi.pl###dcach, #txt
 nowezyciepabianic.pl##div#PopupDiv
 nuorder.pl##.___ncn-container
 nvidia.com#@#[id*="cookie_"]
 o2.pl##.zyHor, #app-inner ._1Arb2
 obpon.pl###rodo-notice, #shadow-overlay
 ociasteczkach.pl###ociasteczkach
-odjechani.com.pl###akceptacja-odjechani
-odjechani.com.pl##.guest_warn
+odjechani.com.pl###akceptacja-odjechani, .guest_warn
 odleglosci.pl###komunikat-pp-dol
 odo24.pl##.rodo-body
 oferia.pl##body > div:not([id]):not([class])
@@ -777,20 +775,17 @@ olimpijski.pl,softon.pl,ingtechpoland.com,kultura.krasnik.eu,brolerserwis.pl,spe
 olympusclub.pl###navbar_notice_192
 olza.pl###rodo-widget
 omegasoft.pl##.ui-dialog
-omnibussimulator.pl##body > div > div[style*="position: fixed"]
-omnibussimulator.pl##[id^="co15"]
+omnibussimulator.pl##body > div > div[style*="position: fixed"], #[id^="co15"]
 one2tribe.pl##.cw_container
 onlineradiobox.com###alert_cookies
-opac.wimbp.zgora.pl##div#alertboxsec_c
-opac.wimbp.zgora.pl##div#alertboxsec_mask
+opac.wimbp.zgora.pl##div#alertboxsec_c, div#alertboxsec_mask
 opineo.pl##div#uclaInfo
 opoka.tv###eu-cookie-bar
 opteam.pl###infobarDiv, #infobar, .infobar, #info-bar, #info_c_box, .info-message
 optyczne.pl###id01
 orange.pl##.background
 orientshop.com.pl,tapenda.pl###ciacha
-origin.com###truste-banner
-origin.com##.origin-sitestripe
+origin.com###truste-banner, .origin-sitestripe
 orliman.pl##.c-info
 ortograf.pl###ns-rodo-popup-one
 oskolaf.pl###modal-info, .modal-backdrop
