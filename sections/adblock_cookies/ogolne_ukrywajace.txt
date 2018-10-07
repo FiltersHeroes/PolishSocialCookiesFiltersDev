@@ -1,12 +1,7 @@
-##.privacy-policy
-##[class*="cookie-policy"]:not(body):not(html)
-###cookiewarning:not(body):not(html)
-pl##:not(input)[id*="cookie"]
-pl##div[class*="Cookie"]
-##[id^="topInfo"]
 com##.is-ready.is-shown.cnil-banner:not(body):not(html)
 pl##DIV[style="border: 10px solid rgb(138, 138, 138); border-radius: 10px; box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255); padding: 8px 8px 10px; position: fixed; z-index: 99999; right: 20px; left: 20px; bottom: 20px; width: 700px; max-width: 90%;"]
 pl##DIV[style="padding: 5px 25px 5px 15px;"]
+pl##div[class*="Cookie"]
 pl###cokPyt:not(body):not(html)
 pl###confirmCookie:not(body):not(html)
 pl###cookieChoiceInfo:not(body):not(html)
@@ -39,6 +34,7 @@ pl##.rodo-accept:not(body):not(html):not(input):not(a)
 pl##.rodo-overlay:not(body):not(html)
 pl##.rodo-popup:not(body):not(html)
 pl##.wpgdprc-consent-bar:not(body):not(html)
+pl##:not(input)[id*="cookie"]
 pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
 pl##[id*="cookie_"]:not(body):not(html)
 pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
@@ -131,6 +127,7 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 ###cookies_content:not(body):not(html)
 ###cookies_info:not(body):not(html)
 ###cookies_policy_box
+###cookiewarning:not(body):not(html)
 ###cookie-bar:not(body):not(html)
 ###cookie-info-box:not(body):not(html)
 ###cookie-info:not(body):not(html)
@@ -261,11 +258,14 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 ##.privacybanner_notice:not(body):not(html)
 ##.privacy-container:not(body):not(html):not(.content-container)
 ##.privacy-info:not(body):not(html)
+##.privacy-policy
 ##.privacy_policy_info:not(body):not(html)
 ##.wordpress-gdpr-popup:not(body):not(html)
 ##[class*="coockie"]
+##[class*="cookie-policy"]:not(body):not(html)
 ##[class^="box-cookie"]
 ##[id*="ciasteczka_alert"]
 ##[id*="coockie"]
 ##[id^="PolitykaPrywatnosci"]
 ##[id^="cookies-message"]
+##[id^="topInfo"]
