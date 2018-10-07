@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: hKeXKv4x7GR1IGI8ZxDJpw
+! Checksum: s7Yo1pupzpfS2gXdkMnmpg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810072113
-! Last modified: Sun, 07 Oct 2018, 21:13:20 UTC+02
+! Version: 201810080114
+! Last modified: Mon, 08 Oct 2018, 01:14:27 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810072113 aktualizacja: nie, 07 paź 2018, 21:13:20 UTC+02
+! v.201810080114 aktualizacja: pon, 08 paź 2018, 01:14:27 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1371,18 +1371,10 @@ cookie-law-popup.js$script
 !
 !
 ! Ogólne reguły ukrywające
-~addons.mozilla.org##.privacy-policy
-~allegro.pl##[class*="cookie-policy"]:not(body):not(html)
-~autocentrum.pl,~ideabank.pl,~intel.pl,~pkn.pl,~topsecret.pl,~starbucks.pl,~morizon.pl,~abctygodnik.pl,~wykop.pl,~bt4.pl,~kolba.pl,~tablety.pl,~tesco.pl,~unileverfoodsolutions.pl,~lomza.pl,~multimediago.pl,pl##div[class*="cookie"]
-~bskrasnosielc.pl,~interhotel.pl,~laskonline.pl,~piekarniaanka.pl###cookiewarning:not(body):not(html)
-~dwkoral.pl,~piekarniaanka.pl,~xboxarcade.pl,~appki.com.pl,~tylesmiechu.pl,~neon24.pl,pl##:not(input)[id*="Cookie"]
-~linuxiarz.pl,~piekarniaanka.pl,~xboxarcade.pl,~appki.com.pl,~mvno-gsm.pl,pl##[id*="cookie-"]
-~piekarniaanka.pl,~xboxarcade.pl,~wmeritum.pl,~zumi.pl,~komunikacja.bialystok.pl,~dobreprogramy.pl,~lomza.pl,pl##:not(input)[id*="cookie"]
-~riscosoftware.pl,pl##div[class*="Cookie"]
-~sympatia.onet.pl##[id^="topInfo"]
 com##.is-ready.is-shown.cnil-banner:not(body):not(html)
 pl##DIV[style="border: 10px solid rgb(138, 138, 138); border-radius: 10px; box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255); padding: 8px 8px 10px; position: fixed; z-index: 99999; right: 20px; left: 20px; bottom: 20px; width: 700px; max-width: 90%;"]
 pl##DIV[style="padding: 5px 25px 5px 15px;"]
+pl##div[class*="Cookie"]
 pl###cokPyt:not(body):not(html)
 pl###confirmCookie:not(body):not(html)
 pl###cookieChoiceInfo:not(body):not(html)
@@ -1415,6 +1407,7 @@ pl##.rodo-accept:not(body):not(html):not(input):not(a)
 pl##.rodo-overlay:not(body):not(html)
 pl##.rodo-popup:not(body):not(html)
 pl##.wpgdprc-consent-bar:not(body):not(html)
+pl##:not(input)[id*="cookie"]
 pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
 pl##[id*="cookie_"]:not(body):not(html)
 pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
@@ -1507,6 +1500,7 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 ###cookies_content:not(body):not(html)
 ###cookies_info:not(body):not(html)
 ###cookies_policy_box
+###cookiewarning:not(body):not(html)
 ###cookie-bar:not(body):not(html)
 ###cookie-info-box:not(body):not(html)
 ###cookie-info:not(body):not(html)
@@ -1637,14 +1631,17 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 ##.privacybanner_notice:not(body):not(html)
 ##.privacy-container:not(body):not(html):not(.content-container)
 ##.privacy-info:not(body):not(html)
+##.privacy-policy
 ##.privacy_policy_info:not(body):not(html)
 ##.wordpress-gdpr-popup:not(body):not(html)
 ##[class*="coockie"]
+##[class*="cookie-policy"]:not(body):not(html)
 ##[class^="box-cookie"]
 ##[id*="ciasteczka_alert"]
 ##[id*="coockie"]
 ##[id^="PolitykaPrywatnosci"]
 ##[id^="cookies-message"]
+##[id^="topInfo"]
 !
 !
 ! Blokowanie elementów po zastosowaniu generichide
