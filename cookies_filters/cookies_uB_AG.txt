@@ -1,11 +1,11 @@
-! Checksum: 4Vd9A6Qy6QRWIwXdBVhEpA
+! Checksum: I0S6qrwcJnPVwgMwShbPtA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201810061755
-! Last modified: Sat, 06 Oct 2018, 17:55:24 UTC+02
+! Version: 201810072058
+! Last modified: Sun, 07 Oct 2018, 20:58:17 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810061755 aktualizacja: sob, 06 paź 2018, 17:55:24 UTC+02
+! v.201810072058 aktualizacja: nie, 07 paź 2018, 20:58:17 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -159,6 +159,8 @@ lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !im
 lovekrakow.pl,djoles.pl,muzyczneradio.com.pl###modal-rodo, .modal-backdrop
 money.pl##script:inject(nano-remove-elements-onready.js, .rodo-popup)
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
+okazik.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
+okazik.pl##.mfp-wrap, .mfp-bg
 pl.dow.com##html,body:style(overflow: visible !important; position: static !important;)
 pl.dow.com##.cookie-notify
 polski-tenis.pl###rodo
@@ -197,6 +199,7 @@ infostrow.pl,roztoczanskipn.pl##^#rodo-modal
 lovekrakow.pl,djoles.pl,muzyczneradio.com.pl##^#modal-rodo
 motobanda.pl##^#rodo
 ogloszenia.plock.pl##^#dialog-rodo
+okazik.pl##^script:has-text(#cookie-dialog)
 openpli.org##^script:has-text(gdpr-accepted)
 pl.dow.com##^.cookie-notify
 pro-sprzet.pl##^#myWorning
@@ -233,6 +236,7 @@ infostrow.pl$$#rodo-modal
 lovekrakow.pl,djoles.pl,muzyczneradio.com.pl$$#modal-rodo
 motobanda.pl$$#rodo
 ogloszenia.plock.pl$$#dialog-rodo
+okazik.pl$$^script:contains(#cookie-dialog)
 openpli.org$$script[tag-content="gdpr-accepted"]
 pl.dow.com$$.cookie-notify
 pro-sprzet.pl$$#myWorning
