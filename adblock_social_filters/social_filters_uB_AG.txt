@@ -1,11 +1,11 @@
-! Checksum: PWf80gh/YM4lW8qBJIkT7g
+! Checksum: 1agFjg+m6rFSxdiFmvh9NQ
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Social Filters - Supplement for uBlock & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 201810080811
-! Last modified: Mon, 08 Oct 2018, 08:11:52 UTC+02
+! Version: 201810081841
+! Last modified: Mon, 08 Oct 2018, 18:41:15 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,16 +13,17 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810080811 aktualizacja: pon, 08 paź 2018, 08:11:52 UTC+02
+! v.201810081841 aktualizacja: pon, 08 paź 2018, 18:41:15 UTC+02
 !
 !
 ! Popupy
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
 apynews.pl###fb-modal, .modal-backdrop
-apynews.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+apynews.pl,lookcam.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 e-biznes.pl##.onp-sl-blur-area:style(filter: none !important;)
 e-biznes.pl##.onp-sl-outer-wrap
+lookcam.com###lookcam-fb-modal, .modal-backdrop
 masher.pl##html.pum-open:style(overflow: auto !important;)
 masher.pl##.popmake-overlay
 smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
@@ -60,3 +61,4 @@ librus.pl##.container-fluid:style(width: 100% !important;)
 ts-stars.pl##.card:style(margin-left: auto; margin-right: auto;)
 www.cba.pl##span[class="mailto-span"]:style(font-size: 25px !important;)
 www.cba.pl###footer > div > div:first-child:style(font-size: 0 !important;)
+zlotygron.pl##.site_social > span:style(display: inline-block !important; padding-top: 5px !important;)
