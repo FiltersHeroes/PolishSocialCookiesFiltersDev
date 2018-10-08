@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: VR2Wpmi7UXUYbmYjNC0F7g
+! Checksum: ES1VlIS7PSD/vGRAbch9xA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810080116
-! Last modified: Mon, 08 Oct 2018, 01:16:05 UTC+02
+! Version: 201810081253
+! Last modified: Mon, 08 Oct 2018, 12:53:29 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810080116 aktualizacja: pon, 08 paź 2018, 01:16:05 UTC+02
+! v.201810081253 aktualizacja: pon, 08 paź 2018, 12:53:29 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -301,6 +301,7 @@ forbot.pl###ForbotCookies
 ford-esklep.pl###box_alert
 foreca.pl###ckieconsent
 forgeworld.co.uk##div#overlayMask
+forumdermatologiczne.pl##.ui-widget-overlay, .ui-widget-content
 forumlekarza.pl###cpolicy_wrap
 forumplay.pl##li#navbar_notice_6
 forumplay.pl###notices
@@ -882,6 +883,7 @@ pracatobie.pl###coocieDiv
 praktiker.pl##div.info_c_box
 praktiker.pl###infobarDiv, #infobar, .infobar, #info-bar, #info_c_box, .info-message
 prawdaobiektywna.pl###mcpc
+prawnik-rodzinny.pl###modalBackdrop, #formalAgreementModal
 prgm.pl###Layer25
 prideshop.pl##body > div:nth-of-type(1)
 primary-justpay.digitalvirgo.pl##coll-cookie-info
@@ -997,6 +999,8 @@ skm.warszawa.pl##div[style="width: 600px; padding: 40px 30px 30px; position: fix
 skokinarciarskie.pl##.pbox:nth-of-type(13)
 skrypt.com.pl,ekologiczny.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
 skyscrapercity.com###ukCookiePopup
+slaskwroclaw.pl###bg-layer, #rodo-wrapper
+slawomirambroziak.pl##.privacy_policy
 slowhop.com###cookie-policy
 slubowisko.pl###eurociastko
 slupsk.pl###easyNotification
@@ -1302,6 +1306,7 @@ cookie-law-popup.js$script
 ||kochamwroclaw.pl/wp-content/plugins/wp-terms-popup/assets/popup-style.css
 ||kolarstwo.wroclaw.pl/cook.js
 ||legionisci.com/js/cookiepopup.js
+||lubiegrac.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
 ||metpartner.pl/cookie/info_cookie.js$script
 ||newonce.net/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||nike.com/*CookieSettingsManager$xmlhttprequest
