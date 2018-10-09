@@ -20,6 +20,18 @@
 @include popupy_supplement
 !
 !
+! Popupy - specjalne instrukcje
+!#if !cap_html_filtering
+@include popupy_bez_html
+!#endif
+!#if cap_html_filtering
+@include popupy_html
+!#endif
+!#if !ext_ublock
+@include popupy_AG
+!#endif
+!
+!
 ! Widgety
 @include widgety_supplement
 !
