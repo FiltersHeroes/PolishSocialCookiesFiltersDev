@@ -6,3 +6,17 @@ purepc.pl##.article-options2
 wp.pl##.liketag, .wpsocials--buttons:style(visibility: hidden !important;)
 wp.pl,~www.wp.pl###app > div > table > tbody > tr:nth-child(1) > td > div > div > div > div > div > div > div > article > div > div > div > div[hidden]:style(position: absolute !important; left: -3000px !important;)
 !#endif
+!#if !cap_html_filtering
+alemeksyk.eu##.pwebbox-modal, .modal-backdrop
+alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
+lookcam.com###lookcam-fb-modal, .modal-backdrop
+lookcam.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+!#endif
+!#if cap_html_filtering
+alemeksyk.eu##^.pwebbox-plugin-facebook_page_plugin
+lookcam.com##^#lookcam-fb-modal
+!#endif
+!#if !ext_ublock
+alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
+lookcam.com$$#lookcam-fb-modal
+!#endif
