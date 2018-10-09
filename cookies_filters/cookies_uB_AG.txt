@@ -1,11 +1,11 @@
-! Checksum: 1aGInNFsvu2jcvg02k57uw
+! Checksum: w2MDE/B5R10+CoXkAror6Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201810082145
-! Last modified: Mon, 08 Oct 2018, 21:45:59 UTC+02
+! Version: 201810091258
+! Last modified: Tue, 09 Oct 2018, 12:58:19 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810082145 aktualizacja: pon, 08 paź 2018, 21:45:59 UTC+02
+! v.201810091258 aktualizacja: wto, 09 paź 2018, 12:58:19 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -32,7 +32,8 @@ beko.pl##.cookies-margin:style(top: 0 !important;)
 biuletyn.net##body > table:style(margin-top: 0 !important;)
 biuletyn.net##.urzad_mini > div:style(top: 225px !important;)
 bloombergbusinessweek.pl##body:style(margin-top: 0 !important;)
-dane.gov.pl##.modal-dialog, .modal-backdrop
+dane.gov.pl##.modal-backdrop
+dane.gov.pl##.modal-dialog:has-text(Informacje dotyczące RODO)
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
