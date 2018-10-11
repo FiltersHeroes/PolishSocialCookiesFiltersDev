@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 3a52d6iOrQ0LTcpOu+s2+Q
+! Checksum: /62jQnFOXFcor1xBg1mztw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810101307
-! Last modified: Wed, 10 Oct 2018, 13:07:29 UTC+02
+! Version: 201810111353
+! Last modified: Thu, 11 Oct 2018, 13:53:53 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810101307 aktualizacja: śro, 10 paź 2018, 13:07:29 UTC+02
+! v.201810111353 aktualizacja: czw, 11 paź 2018, 13:53:53 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -541,6 +541,7 @@ komunikacja.um.bialystok.pl##a[href="/?page=cookies"]
 konsbud-hifi.com.pl##.sticky-footer
 konserwatyzm.pl###toast-container
 kontakt-simon.com.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
+koscian.net##.zgoda_popup
 kpim.pl##.coologo7
 krakowairport.pl##.privacyPolicyPop
 kredito24.pl##.politica
@@ -830,6 +831,7 @@ pkspolonus.pl###popek
 pks.zary.pl##div#infobar
 pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.aPad
 player.pl##.cBox
+playnow.pl##.c-cookie-info
 playtube.pl##.alert-success
 play.google.com,translate.google.pl,books.google.pl###gb > div[style*="background-color"]
 plotowanie.com##div#howdydo-wrapper
@@ -928,6 +930,7 @@ rankinglekarzy.pl##.info
 ranking.abczdrowie.pl###app > div > div > div[class*=" "] > div
 rankomat.pl###rankomat-cookies-div
 raraavis.krakow.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
+ravelo.pl##.use-cookie-box-n
 razemztoba.pl##.inform
 rc.fm###popup-message-window, #popup-message-background
 reactor.pl,yamo.pl###einfo
