@@ -78,7 +78,7 @@ ost_zmieniony_plik=$(git diff -z --name-only | xargs -0)
 
 for i in $ost_zmieniony_plik; do
 
-    if [[ "$i" == "cookies_filters/adblock_cookies.txt"* ]]]; then
+    if [[ "$i" == "cookies_filters/adblock_cookies.txt"* ]]; then
         cp -r ~/git/PolishSocialCookiesFiltersDev/cookies_filters/adblock_cookies.txt ~/git/polish-ads-filter/cookies_filters/
     fi
     
