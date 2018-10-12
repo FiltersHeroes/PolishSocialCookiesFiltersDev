@@ -80,6 +80,7 @@ for i in $ost_zmieniony_plik; do
 
     if [[ "$i" == "cookies_filters/adblock_cookies.txt"* ]]]; then
         cp -r ~/git/PolishSocialCookiesFiltersDev/cookies_filters/adblock_cookies.txt ~/git/polish-ads-filter/cookies_filters/
+    fi
     
     if [[ "$i" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
         cp -r ~/git/PolishSocialCookiesFiltersDev/cookies_filters/cookies_uB_AG.txt ~/git/polish-ads-filter/cookies_filters/
@@ -87,6 +88,7 @@ for i in $ost_zmieniony_plik; do
 
     if [[ "$i" == "adblock_social_filters/adblock_social_list.txt"* ]]; then
         cp -r ~/git/PolishSocialCookiesFiltersDev/adblock_social_filters/adblock_social_list.txt ~/git/polish-ads-filter/adblock_social_filters/
+    fi
         
     if [[ "$i" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
         cp -r ~/git/PolishSocialCookiesFiltersDev/adblock_social_filters/social_filters_uB_AG.txt ~/git/polish-ads-filter/adblock_social_filters/
