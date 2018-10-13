@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: r3JERBrTRNE+FRfQWkodCg
+! Checksum: dIinh2ycIv/5QHzvG+MAog
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810122124
-! Last modified: Fri, 12 Oct 2018, 21:24:48 UTC+02
+! Version: 201810131600
+! Last modified: Sat, 13 Oct 2018, 16:00:28 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810122124 aktualizacja: pią, 12 paź 2018, 21:24:49 UTC+02
+! v.201810131600 aktualizacja: sob, 13 paź 2018, 16:00:28 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -265,6 +265,7 @@ e-dukacja.pl##div:not([id]):not([class])[style="width: 100%; padding: 15px; back
 e-fajek.pl##body > div:not([id]):not([class])
 e-fajek.pl##div[style="position: fixed; top: 0; left: 0; z-index: 10000; width: 100%; height: 30px; border-bottom: 1px solid rgba(186,186,186,.5); background-color: #000000; background-color: rgba(0,0,0,.9); color: #cccccc; font-family: Arial,Helvetica,Garuda,sans-serif; line-height: normal; font-size: 10px;"]
 e-farmacja.net##div:not([id]):not([class])[style="width: 100%; padding: 15px; background: rgb(240, 235, 226); border-bottom: 1px solid rgb(131, 118, 99); border-top: 1px solid rgb(255, 255, 255);"]
+e-kolo.pl##.rodo
 e-metalzbyt.pl###popupContact
 e-petrol.pl###statement
 e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
@@ -451,7 +452,6 @@ infoludek.pl##div.infcook
 infomusic.pl###privacy-alert, #privacy-alert-blur
 infostrefa.com,pap.pl###rodoWrapper
 info.wiara.pl##div[style="border: 10px solid rgb(138, 138, 138); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; box-shadow: rgba(0, 0, 0, 0.901961) 0px 0px 15px 0px; background-color: rgb(255, 255, 255); padding: 8px 8px 10px; position: fixed; z-index: 99999; right: 20px; left: 20px; bottom: 20px; width: 700px; max-width: 90%;"]
-inianie.pl###wpfront-notification-bar-spacer
 inksystem.pl##.fixed_bottom
 inoreader.com##.landing_promo_banner_top
 inpay.pl##.ckcontent
@@ -718,7 +718,7 @@ mtm-info.pl###etisoA
 multiplay.pl##.inform
 muve.pl##.f-find-box
 muzyczneradio.com.pl###legalLayer
-myhome.pl###wpfront-notification-bar
+myhome.pl,newsbook.pl,inianie.pl###wpfront-notification-bar
 myob.pl###warning-popup
 myownconference.pl##.co-ag
 mypolacy.de###rMo
@@ -902,7 +902,7 @@ promocodius.com###reminder
 proszynski.pl###komunikat
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 przygarnijkrolika.pl##.tplis-cl-cookies
-psychiatria.pl##[aria-describedby="ajaxDialogrodopopup"], .ui-widget-overlay
+psychiatria.pl,forumneurologiczne.pl##[aria-describedby="ajaxDialogrodopopup"], .ui-widget-overlay
 pulawy.eu###modalRodo, .modal-backdrop
 punkt44.pl###alertTop
 pupilexpert.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
