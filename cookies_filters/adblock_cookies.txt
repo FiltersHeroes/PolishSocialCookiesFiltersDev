@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Ajz6iFdQ8T854HKkY9BKvA
+! Checksum: IkqTQuXoMi4rR0ubEnOAYw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810132005
-! Last modified: Sat, 13 Oct 2018, 20:05:34 UTC+02
+! Version: 201810141402
+! Last modified: Sun, 14 Oct 2018, 14:02:04 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810132005 aktualizacja: sob, 13 paź 2018, 20:05:34 UTC+02
+! v.201810141402 aktualizacja: nie, 14 paź 2018, 14:02:04 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -290,6 +290,7 @@ filman.cc###cookies > div
 filmlab.com.pl,wtkplay.pl,lech.tv,obiezyswiat.org###rodo-info-box
 filmowo.co##.cookie-notice-container
 filmweb.pl##div.topBarCont
+finanse.rankomat.pl,sowafinansowa.pl,komorkomat.pl,wakacyjnapolisa.pl,wypowiadamoc.pl,autoumowa.pl##.r-cookie-bar
 finansowysupermarket.pl,faktykaliskie.pl###policy-popup
 firecash.org##div#info
 firmy4u.pl###infociasteczka
@@ -461,18 +462,14 @@ instytutlogopedyczny.pl###flash-msg
 interhandler.pl##div#comm_info
 interprojekt.pl###myModal, .modal-backdrop, .reveal-modal-bg
 intimiti.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
-intymna.pl###sb_bottom_float
-intymna.pl###wymagania_sklepu_alert
+intymna.pl###sb_bottom_float, #wymagania_sklepu_alert
 iom.pl###cooker
 ipartworld.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
 iperfumy.pl##div#gritter-notice-wrapper
 ip-sa.pl##.myModal-box
 istebna.org###cookie_alert
 istockphoto.com##.warning.banner
-istotne.pl##.in.fade.modal
-istotne.pl##header.top
-istotne.pl##.in.fade.modal-backdrop
-istotne.pl##.notification-info.notification
+istotne.pl##.in.fade.modal, header.top, .in.fade.modal-backdrop, .notification-info.notification
 ists.pl##.polityka
 itaka.pl##div[style="position: fixed; bottom: 0px; width: 100%; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(187, 187, 187); box-shadow: rgb(238, 238, 238) 0px -10px 20px; padding: 10px; text-align: center; background-color: rgb(252, 252, 252); z-index: 10000; background-position: initial initial; background-repeat: initial initial; "]
 itpromo.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
@@ -481,6 +478,7 @@ iwanowice.pl###privacy-policy-box
 izone.pl##.mm-page > div[style*="height: 80px"]
 jajco.pl##div[id*="n-cookies-notification"]
 jakbudowac.pl##.dialog-fixed
+jakikredyt.pl##.popup--open
 jak-ksiegowac.pl###message_wrap
 jangar.pl###popup
 januszebiznesu.pl###komunikat
