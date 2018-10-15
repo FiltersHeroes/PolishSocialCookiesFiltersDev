@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: rNgMrfRFEUnCKk6N6SIRvg
+! Checksum: 2NhH3sf9OgcILtUBccYUzQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810151213
-! Last modified: Mon, 15 Oct 2018, 12:13:50 UTC+02
+! Version: 201810151959
+! Last modified: Mon, 15 Oct 2018, 19:59:42 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810151213 aktualizacja: pon, 15 paź 2018, 12:13:50 UTC+02
+! v.201810151959 aktualizacja: pon, 15 paź 2018, 19:59:42 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -110,6 +110,7 @@ bitcomputer.pl###pp
 bitmarket24.pl###notifications
 bitmaszyna.pl###wwelcome
 biznesistyl.pl##.popup_overlay, .box_popup
+biznes-firma.pl##.rodo_cookies_popup
 blog4u.pl##DIV[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
 bocian.org.pl##.jGrowl-notification
@@ -153,6 +154,7 @@ ckmir.com.pl#?#p:-abp-contains(cookie)
 clarias.pl###InfoCookie
 claritine.pl##.cc-grower
 clearchannel.com.pl###rodoPopup
+clickmeeting.com##.cookie
 codziennikfeministyczny.pl###bazinga-muffin-container
 coinroom.com##.cookie-warning
 cookielaw.org##div.optanon-alert-box-wrapper
@@ -531,6 +533,7 @@ klublifestyle.pl###fancybox-wrap, #fancybox-overlay, #fancybox-loading, #fancybo
 kobieta.byc.pl###kontener1
 kochamwroclaw.pl###tfade, #cwv3_dialog, #tlight, .dialog-overlay, #surbma-yes-no-popup
 kochlik.pl###cffc
+kodilla.com##.cookies-prompt
 kodzisz.pl##.cookieinfo
 kokos.pl##.flashMessage
 kolejeslaskie.com##div#c_m
