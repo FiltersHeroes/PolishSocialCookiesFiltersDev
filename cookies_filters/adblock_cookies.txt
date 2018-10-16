@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 61lgzQuZewpr34CH9H44Pw
+! Checksum: z3pX5yntfUNvNz71TMGYig
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810160840
-! Last modified: Tue, 16 Oct 2018, 08:40:26 UTC+02
+! Version: 201810160842
+! Last modified: Tue, 16 Oct 2018, 08:42:02 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810160840 aktualizacja: wto, 16 paź 2018, 08:40:26 UTC+02
+! v.201810160842 aktualizacja: wto, 16 paź 2018, 08:42:02 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1661,14 +1661,21 @@ pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 ! Blokowanie elementów po zastosowaniu generichide
 24opole.pl###div_cookie_accept
 applemobile.pl###cookies-message
-filmweb.pl##.cookieInfo
+auto-swiat.pl###termsPopup
+eskago.pl##div[class^="app_gdpr"]
+filmweb.pl##.cookieInfo, div.topBarCont
+istotne.pl##.in.fade.modal, header.top, .in.fade.modal-backdrop, .notification-info.notification
+kontakt24.tvn24.pl###msgLayer
+kupbilet.onet.pl##.alert-dismissible
 minecraftpolska.net##.cookieinfo
 mybank.pl##.ciasteczka
 pl###cookieView:not(body):not(html)
 rapidgrab.pl##.cc_banner
+shinden.pl##.as-oil-content-overlay
 strefabajek.vod.pl###cookie-bar
 sympatia.onet.pl###cookieInfo
 webcamera.pl###catapult-cookie-bar
+wzory-cv.com##.gatewayBar
 zyciepabianic.pl###cookie-warn
 !
 !
