@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: z3pX5yntfUNvNz71TMGYig
+! Checksum: p4f8jMUwm0MTGpOXpZJ6Yw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810160842
-! Last modified: Tue, 16 Oct 2018, 08:42:02 UTC+02
+! Version: 201810161134
+! Last modified: Tue, 16 Oct 2018, 11:34:07 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810160842 aktualizacja: wto, 16 paź 2018, 08:42:02 UTC+02
+! v.201810161134 aktualizacja: wto, 16 paź 2018, 11:34:07 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1689,6 +1689,8 @@ allegro.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
 dwkoral.pl,piekarniaanka.pl,xboxarcade.pl,appki.com.pl,tylesmiechu.pl,neon24.pl,norauto.pl,orange.pl#@#:not(input)[id*="Cookie"]
 gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section)
+laciate.pl,loterialaciate.pl#@#.cookies:not(body):not(html)
+laciate.pl,loterialaciate.pl#@#.cookies:not(.wrapper):not(.popup-newsletter):not(#page):not(body):not(html)
 letsplej.pl,telepizza.pl,orange.pl,google.pl,przenosne.pl,spreadshirt.pl,sellizer.pl,autocentrum.pl,ideabank.pl,intel.pl,pkn.pl,topsecret.pl,starbucks.pl,morizon.pl,abctygodnik.pl,wykop.pl,bt4.pl,kolba.pl,tablety.pl,tesco.pl,unileverfoodsolutions.pl,lomza.pl,multimediago.pl#@#div[class*="cookie"]
 linuxiarz.pl,piekarniaanka.pl,xboxarcade.pl,appki.com.pl,mvno-gsm.pl,okazik.pl#@#[id*="cookie-"]
 lomza.pl#@##komunikat-cookie
