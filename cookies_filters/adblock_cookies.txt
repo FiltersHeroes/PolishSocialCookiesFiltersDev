@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: cFt1zHis7+vwQS/bxPGP2A
+! Checksum: 6GsGT3hfJgOlbGqLJvEwjQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810171450
-! Last modified: Wed, 17 Oct 2018, 14:50:45 UTC+02
+! Version: 201810171501
+! Last modified: Wed, 17 Oct 2018, 15:01:58 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810171450 aktualizacja: śro, 17 paź 2018, 14:50:45 UTC+02
+! v.201810171501 aktualizacja: śro, 17 paź 2018, 15:01:58 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1426,6 +1426,7 @@ pl##.rodo-accept:not(body):not(html):not(input):not(a)
 pl##.rodo-overlay:not(body):not(html)
 pl##.rodo-popup:not(body):not(html)
 pl##.wpgdprc-consent-bar:not(body):not(html)
+pl##:not(input)[id*="Cookie"]
 pl##:not(input)[id*="cookie"]
 pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
 pl##[id*="cookie_"]:not(body):not(html)
