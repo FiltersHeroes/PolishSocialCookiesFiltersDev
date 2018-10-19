@@ -1,11 +1,11 @@
-! Checksum: 4+VR+MI3WhREs8ZNqNnAlQ
+! Checksum: Ck2Vrg3sCe2RXRWPdl1sWg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201810191715
-! Last modified: Fri, 19 Oct 2018, 17:15:10 UTC+02
+! Version: 201810192201
+! Last modified: Fri, 19 Oct 2018, 22:01:34 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810191715 aktualizacja: pią, 19 paź 2018, 17:15:10 UTC+02
+! v.201810192201 aktualizacja: pią, 19 paź 2018, 22:01:34 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -108,7 +108,7 @@ prawdaobiektywna.pl##.qc-cmp-ui-container
 przydomu.pl###popup_25
 przydomu.pl##.container:style(filter: none !important;)
 puma.com###modal-geoip-cookies, .modal-backdrop
-quadgraphics.pl##.blur:style(filter: none !important;)
+quadgraphics.pl##.blur:style(filter: none !important; pointer-events: unset !important;)
 quadgraphics.pl##.rodo-information-popup, .fixed-layer-information
 sellizer.pl##.cookies-visible .header-main:style(top: 0 !important;)
 sephora.pl###header:style(margin-top: 41px !important;)
