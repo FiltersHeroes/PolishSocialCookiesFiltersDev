@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: RKK2yjPndX2x6OJ4waTGXQ
+! Checksum: UBOYm2rFNEWfTaxeL0PiPQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810191350
-! Last modified: Fri, 19 Oct 2018, 13:50:18 UTC+02
+! Version: 201810191436
+! Last modified: Fri, 19 Oct 2018, 14:36:59 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810191350 aktualizacja: pią, 19 paź 2018, 13:50:18 UTC+02
+! v.201810191436 aktualizacja: pią, 19 paź 2018, 14:36:59 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -42,6 +42,7 @@ agencjagazeta.pl###rodoLayer
 agropolska.pl##.ui-widget-overlay, .ui-widget-content
 airbnb.pl##[data-veloute="cookie-disclaimer"]
 airkiosk.lot.com##.mf-modal-overlay, .mf-modal-iframe
+airly.eu##.welcome-modal__block--whatsNew.welcome-modal__block:nth-of-type(2):-abp-contains(Rodo + ciasteczka)
 airport.gdansk.pl###cookiesAlert
 airport.gdansk.pl,r.pl###rodoAlert
 akademia-piwa.pl##div#polityka_tekst
