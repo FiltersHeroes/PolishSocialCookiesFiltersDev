@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: gsuqHBgCtJN/RxqgZFvw8w
+! Checksum: otRyhfCW+3xy24LXENbulQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810201929
-! Last modified: Sat, 20 Oct 2018, 19:29:14 UTC+02
+! Version: 201810202032
+! Last modified: Sat, 20 Oct 2018, 20:32:29 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810201929 aktualizacja: sob, 20 paź 2018, 19:29:14 UTC+02
+! v.201810202032 aktualizacja: sob, 20 paź 2018, 20:32:29 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -579,6 +579,7 @@ kulki.info###welcome-box
 kulturalnysklep.pl###ctl00_cq_divText
 kupbilet.pl##div#t3393f
 kupbilet.pl##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
+kuratorium.bialystok.pl###spu-9294, #spu-bg-9294
 kursyuniversum.ksiezyc.pl##a[href="cookies.php"]
 kzkgop.com.pl,rozklady.kzkgop.pl##.container.in.fade
 kzkgop.pl###container > div:not([id]):not([class])
@@ -622,6 +623,7 @@ loveair.pl###ci-rodo
 lovekrakow.pl###new-policy
 lovela.pl##body > div:not([id]):not([class])
 lowicz.eu###warstwa_cookie
+lpwiksa.com.pl###cboxOverlay, #colorbox
 lsisoftware.pl,smartpage.pl##.noty_message
 lstsoft.com.pl##body > div:not([id]):not([class])
 lubartow24.pl##.bg-warning
@@ -1005,7 +1007,7 @@ seg.org.pl###block-block-19
 serialefilmyonline.pl##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
 seriale.co###komunikat
 seriale.co###player_warn
-serialowa.pl,60sekund.tytan.pl##.popmake-overlay
+serialowa.pl,60sekund.tytan.pl,lucatel.pl##.popmake-overlay
 serwis.currenda.pl##div#sign_up
 seszele.com.pl##iframe#cookfr
 shazam.com##div.policy-label
@@ -1083,6 +1085,7 @@ studiorolety.pl##.content-head-information
 stypendia.sejmik.kielce.pl##.mod_pa_sci
 superfilm.pl###box_info
 swiatnauki.pl###menu
+swiatpodlog.com.pl###giodo, .modal-backdrop
 swiat-agd.com.pl##body > div:not([id]):not([class])
 swidnica24.pl##div#policyBox
 swietnafirma.pl###cMess
@@ -1220,7 +1223,7 @@ www.daftrucks.pl##.page-overlay
 www.ea.com##ea-truste-consent-bar
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.halico.pl##.sqs-announcement-bar-custom-location
-www.hays.pl###header-msg
+www.hays.pl,hays-response.pl###header-msg
 www.hertz.com.pl##[class^="lb-"]
 www.hotelbb.pl###be-modal-content-disclaimer
 www.hotelbb.pl##.reveal-modal-bg
