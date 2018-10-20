@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 6DjgnKjCt+p71fdEUl27xg
+! Checksum: gsuqHBgCtJN/RxqgZFvw8w
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810201927
-! Last modified: Sat, 20 Oct 2018, 19:27:23 UTC+02
+! Version: 201810201929
+! Last modified: Sat, 20 Oct 2018, 19:29:14 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810201927 aktualizacja: sob, 20 paź 2018, 19:27:23 UTC+02
+! v.201810201929 aktualizacja: sob, 20 paź 2018, 19:29:14 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -236,6 +236,7 @@ edarling.pl###infobarDiv, #infobar, .infobar, #info-bar, #info_c_box, .info-mess
 eecpoland.eu##.cookie-bar2
 eena.pl###whole_page_loader
 ekko.com.pl###messagePo
+ekliniki.pl##body > div[style]:not([id]):not([class]):nth-of-type(1)
 ekosalus.pl##.welcomebar
 ekosalus.pl##div#DIVwelcome
 ekoserwis.poznan.pl##.content-head-information
