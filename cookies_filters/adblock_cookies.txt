@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: otRyhfCW+3xy24LXENbulQ
+! Checksum: 8Mv/VdZ5UeAy9WqlJb6Bsw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810202032
-! Last modified: Sat, 20 Oct 2018, 20:32:29 UTC+02
+! Version: 201810202136
+! Last modified: Sat, 20 Oct 2018, 21:36:43 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810202032 aktualizacja: sob, 20 paź 2018, 20:32:29 UTC+02
+! v.201810202136 aktualizacja: sob, 20 paź 2018, 21:36:43 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -94,6 +94,7 @@ avast.com##.cookie-bar
 avioner.pl##.alert
 azure.microsoft.com###cookie-prompt
 a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com###cookie-notice
+badaniaprenatalne.pl##div[data-nconvert-cookie]
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
 bardotti.pl##.wpmui-popup
 bartix.pl###menusDiv
@@ -561,6 +562,7 @@ konsbud-hifi.com.pl##.sticky-footer
 konserwatyzm.pl###toast-container
 kontakt-simon.com.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
 koscian.net##.zgoda_popup
+koty24.pl,psy24.pl###box_policies
 kpim.pl##.coologo7
 krakowairport.pl##.privacyPolicyPop
 kredito24.pl##.politica
