@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: AoQd3h5Zy1Z5sCN8zhXOqQ
+! Checksum: xsFTgR3uIOHnAYuMYPQdKQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810201104
-! Last modified: Sat, 20 Oct 2018, 11:04:35 UTC+02
+! Version: 201810201630
+! Last modified: Sat, 20 Oct 2018, 16:30:02 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810201104 aktualizacja: sob, 20 paź 2018, 11:04:35 UTC+02
+! v.201810201630 aktualizacja: sob, 20 paź 2018, 16:30:02 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -571,6 +571,7 @@ krsystem.pl###cook, .cook
 krups.com.pl##body > div:not([id]):not([class])
 kryminalnapolska.pl###adnp
 krytykapolityczna.pl,estore-pl.pandora.net##div#cccwr
+ksero-tecza.pl##body > table > tbody > tr:nth-of-type(1)
 kuchniapelnanagrod.pl##div#claw-prompt
 kula.gov.pl###pa
 kulki.info###welcome-box
@@ -1182,7 +1183,7 @@ wiem-to.pl###notice_visitor
 wiescirolnicze.pl###popup_newsletter
 wiif.nowybip.pl###jGrowl
 wikar.com.pl##.popupContent
-wio.waw.pl,ciechanowinaczej.pl,lowicz24.eu,szczecinek.com,ototorun.pl,ddb24.pl,lipno-cli.pl,brodnica-cbr.pl,golub-cgd.pl,rypin-cry.pl,wabrzezno-cwa.pl,wolomin24.info,zambrow.org,izoliborz.pl##.modal-backdrop, #RODOCOOKIE
+wio.waw.pl,ciechanowinaczej.pl,lowicz24.eu,szczecinek.com,ototorun.pl,ddb24.pl,lipno-cli.pl,brodnica-cbr.pl,golub-cgd.pl,rypin-cry.pl,wabrzezno-cwa.pl,wolomin24.info,zambrow.org,izoliborz.pl,ibielany.pl###RODOCOOKIE, .modal-backdrop
 wirtualis.pl,ettoi.pl###info_container, #info_content
 wirtualnygarwolin.pl###zaslona
 wislaportal.pl###cook, .cook
@@ -1202,6 +1203,7 @@ wrota.lubuskie.pl##div#eKPC_Container
 wrzucacz.pl###logo .info
 wsb.pl##div#ciasteczkowy_potwor
 wsedno24.pl###mordern_adbar_wrap
+wseit.edu.pl##.modal-dialog, .modal-backdrop, #welcome
 wsse-poznan.pl##.visiblebox
 wszystkotujest.pl##body > div:not([id]):not([class])
 wtkanwil.com.pl##div#ciastoWarstwa
