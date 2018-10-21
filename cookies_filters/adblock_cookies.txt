@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 1d/yZIGouxLtcsTGinL51A
+! Checksum: twghLO1pNXvUyIEz7NMk1A
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810211815
-! Last modified: Sun, 21 Oct 2018, 18:15:49 UTC+02
+! Version: 201810211855
+! Last modified: Sun, 21 Oct 2018, 18:55:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810211815 aktualizacja: nie, 21 paź 2018, 18:15:49 UTC+02
+! v.201810211855 aktualizacja: nie, 21 paź 2018, 18:55:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -204,6 +204,7 @@ disport.pl,mmo.pl##.coookie-policy
 diyaudio.pl###navbar_notice_11
 dlapacjenta.pl###topbar
 dlink.com##.notification
+dobregniazdka.pl###rodo_container
 dobrekosmetyki.co.uk###DIVwelcome
 dobrymechanik.pl##.small.navbar-fixed-bottom
 dogizycka.pl,dojaroslawca.pl,domragowa.pl,helskipolwysep.pl,kursnamikolajki.pl,kursnaruciane.pl,nadnarie.pl,visiton.pl###rstbox_1
@@ -392,6 +393,7 @@ goldenline.pl###topReminder
 goldenline.pl##.modal-backdrop, #profiling-agreement
 gomez.pl##.window-police
 goodie.pl##.bp_br
+goodlookin.pl##div > div > div > .toplayaa
 google.com,google.pl##.widget-consent-dialog
 gosc.pl###l-overlay
 gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,nj24.pl###rodo
@@ -464,6 +466,7 @@ ihrzeszow.ires.pl##.PopupOverlay, .Popup
 iiyama.com##.infobar-message
 iiyama.com##.new-cookies-info
 imagazine.pl,moviesroom.pl##.overlay-rules
+impekao24.pl###rodo-popup-wrapper
 in4.pl##div.subheader
 info24.rzeszow.pl##.ja-box-right.column.ja-box-wrap
 infoludek.pl##div.infcook
@@ -805,6 +808,7 @@ off-road.pl###popslide
 ogllo.pl##DIV[style="opacity: 0.9;-moz-opacity:0.9;z-index:999;position:fixed;bottom:0;left:0;right:0;text-align:center;padding:6px;color:#eee;background-color:#666;border-bottom:1px solid gray;"]
 ogloszenia.e-gratka.info##div#pojemnik
 ogradzamy.pl##body > div[id*="cookie"]
+ogrzewanie-elektryczne.pl###oknoPopUp, #tloPopUp
 okulary.szkla.com##div#polityka_prywatnosci
 ok-kredyt.pl###messagePopup
 olimpiasport.pl##div#sek_cstk_inf
@@ -1139,6 +1143,7 @@ transfergo.com##.gdpr-consent
 trello.com##.gdpr-cookie-consent-banner
 trentino.pl###popup_rodo, #popup_tlo
 trojmiasto.pl###rodo_info
+trojmiejskaperfumeria.pl###st_notification_1
 trovit.pl###welcomebar-wrapper
 truckstore.com##.tso-popup-footer, .tso-popup-overlay
 trustpilot.com##.cookie-bar:not(body)
