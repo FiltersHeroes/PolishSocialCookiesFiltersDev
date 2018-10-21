@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 8Mv/VdZ5UeAy9WqlJb6Bsw
+! Checksum: iBftEtosE2Ui3JD3g9qi/g
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810202136
-! Last modified: Sat, 20 Oct 2018, 21:36:43 UTC+02
+! Version: 201810211705
+! Last modified: Sun, 21 Oct 2018, 17:05:54 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810202136 aktualizacja: sob, 20 paź 2018, 21:36:43 UTC+02
+! v.201810211705 aktualizacja: nie, 21 paź 2018, 17:05:54 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1729,6 +1729,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 addons.mozilla.org#@#.privacy-policy
 allegro.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
+bskrasnosielc.pl,piekarniaanka.pl,xboxarcade.pl,wmeritum.pl,zumi.pl,komunikacja.bialystok.pl,dobreprogramy.pl,lomza.pl,orange.pl,taat.pl,interhotel.pl,bestcena.pl,gokf.gda.pl,gdansk.pl,naekranie.pl,indbuildcraft.pl,okazik.pl,tabakiera.com.pl#@#:not(input)[id*="cookie"]
 dwkoral.pl,piekarniaanka.pl,xboxarcade.pl,appki.com.pl,tylesmiechu.pl,neon24.pl,norauto.pl,orange.pl,cenapaliw.pl#@#:not(input)[id*="Cookie"]
 gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section)
 laciate.pl,loterialaciate.pl#@#.cookies:not(body):not(html)
@@ -1739,7 +1740,6 @@ lomza.pl#@##komunikat-cookie
 naekranie.pl#@##polityka-cookies:not(body):not(html)
 opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]
 orange.pl#@##cookies-info
-piekarniaanka.pl,xboxarcade.pl,wmeritum.pl,zumi.pl,komunikacja.bialystok.pl,dobreprogramy.pl,lomza.pl,orange.pl,taat.pl,bskrasnosielc.pl,interhotel.pl,bestcena.pl,gokf.gda.pl,gdansk.pl,naekranie.pl,indbuildcraft.pl,okazik.pl#@#:not(input)[id*="cookie"]
 riscosoftware.pl#@#div[class*="Cookie"]
 tychy.geminipark.pl#@#.privacy-policy
 wsensie.pl,wsensie.tv#@#.policy-box:not(body):not(html)
