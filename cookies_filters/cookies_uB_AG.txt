@@ -1,11 +1,11 @@
-! Checksum: 3ALoUz3L5AL/rrqQQRr1Bw
+! Checksum: LY1NYNHrzMddtavGNu3f0g
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201810202047
-! Last modified: Sat, 20 Oct 2018, 20:47:00 UTC+02
+! Version: 201810211801
+! Last modified: Sun, 21 Oct 2018, 18:01:20 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,14 +14,14 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810202047 aktualizacja: sob, 20 paź 2018, 20:47:00 UTC+02
+! v.201810211801 aktualizacja: nie, 21 paź 2018, 18:01:20 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 abcalkoholu.pl##.cookielaw:style(padding-top: 0 !important;)
-analizy.pl##html:style(overflow: auto !important;)
 analizy.pl##.nl_rodo, .ui-widget-overlay
+analizy.pl,mago.com##html:style(overflow: auto !important;)
 appsource.microsoft.com##.cookieBanner:style(visibility: hidden !important;)
 aquapark.wroc.pl###header:style(top: 0 !important;)
 archiwum.rp.pl,info.rp.pl##body:style(margin-top: 0 !important;)
@@ -42,12 +42,18 @@ domisad.pl##.show-message #top-nav:style(height: auto !important;)
 dropbox.com##.embedded-app.IndexRebrandPage.top-notification-bar:style(margin-top: -51px !important;)
 dropbox.com##.top-notification-bar-container + .preview-box .react-file-viewer, .embedded-app.IndexRebrandPage.top-notification-bar .RebrandNavigation-container:style(top: 0 !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
+edupolis.pl##html:style(overflow: auto !important;)
+edupolis.pl###sgpb-popup-dialog-main-div-wrapper, .sg-popup-overlay
 etransport.pl##.modals.dimmer
 etransport.pl##body.dimmed:style(overflow: auto !important;)
 e-sochaczew.pl,pultusk24.pl###RODOCOOKIE, .modal-backdrop
 farmacja.net##.blur:style(filter: none !important;)
 farmacja.net##.noscroll:style(overflow: auto !important;)
 farmacja.net##.zgoda-popup-wrapper, .popup-overlay
+fastdeal.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
+fastdeal.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
+fdm.pl##.cms-popup, .cms-popup-backdrop
+fdm.pl##.cms-popup-open:style(overflow: auto !important;)
 filmweb.pl##.rodo:style(overflow: auto !important; position: static !important;)
 filmweb.pl##.rodo__overlay
 fiskars.pl##.desktop:style(top: 0 !important;)
@@ -68,6 +74,8 @@ ipla.tv##.rodo-rules-modal
 kaliszak.pl##.rodo, .rodo_layer
 kalisz.info.pl###all:style(top: 0 !important;)
 kobietymedycyny.pl##script:inject(abort-current-inline-script.js, $, cookies)
+kolomnie.pl##.rodo-pop-up
+kolosmnie.pl##.open-modal:style(overflow: auto !important;)
 komputerswiat.pl##html > body.cmp:style(overflow: auto !important;)
 komputerswiat.pl##.cmp-app_gdpr
 kruger.pl###rodo, .fader
@@ -76,6 +84,7 @@ lafe.pl##.cinfo:style(padding-bottom: 0 !important;)
 lipinscy.pl###popRodoInfoContent, #popRodoInfoFade
 lipinscy.pl##.noscroll:style(overflow: auto !important;)
 lomza.pl##html > body.polityka-cookies:style(margin-top: 0 !important; background-position: center 120px !important;)
+mago.com###yl-popup-wrapper-popupRodo, #yl-popup-shadow-popupRodo
 mazury.travel##.popup, .popup-overlay
 meetup.com###mupFooter:style(padding-bottom: 0 !important;)
 mgr.farm##.blur:style(filter: none !important;)
