@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: zR47wt6OthzUd1MDQ98Jtw
+! Checksum: d9BjcqWO9UoCUFDj5ilH+w
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810211728
-! Last modified: Sun, 21 Oct 2018, 17:28:47 UTC+02
+! Version: 201810211812
+! Last modified: Sun, 21 Oct 2018, 18:12:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,11 +17,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810211728 aktualizacja: nie, 21 paź 2018, 17:28:47 UTC+02
+! v.201810211812 aktualizacja: nie, 21 paź 2018, 18:12:09 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
-2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,stefczyk.info,lot.com,vod.internetowa.ws###cookies
+2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,stefczyk.info,lot.com,vod.internetowa.ws,lumarte.eu###cookies
 4hifi.pl,advatus.pl,tylkodywan.pl##.myModal-box
 4lomza.pl###komunikat_rodo
 24jgora.pl###myModal_cookie
@@ -93,7 +93,7 @@ automo.pl,autobaza.pl###rodo, .rodoButtonUp
 avast.com##.cookie-bar
 avioner.pl##.alert
 azure.microsoft.com###cookie-prompt
-a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com###cookie-notice
+a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com###cookie-notice
 badaniaprenatalne.pl##div[data-nconvert-cookie]
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
 bardotti.pl##.wpmui-popup
@@ -126,12 +126,14 @@ borelioza.vegie.pl###menubar > center
 bose.pl###privacy-message-bar
 bravekingdoms.com##DIV[style="position: absolute; margin-top: 30px; margin-left: 550px;"]
 bricomarche.pl##div#content-head-information
+brodnica.net,clickmeeting.com,gugik.gov.pl,smyk.com,modecom.com,hifi.pl,wielkopolska.eu,dw.com,supermemo.com##.cookie
 browarlubicz.pl##.PamphletWidget .popup_anchor
 browar.biz,centrumpiwowarstwa.pl##DIV[style="color: gray; background-color: white; border-bottom: 1px dotted gray; padding:2px; font-size: 0.75em;"]
 bryk.pl,interia.pl,pokazywarka.pl##.rodo-mini
 bskrasnosielc.pl###cookiewarning > div
 bstorun.pl##div#comm_info
 buduj.co.uk###SiteAnouncement
+bugwie.com##.cookie-box
 buliba.pl###tooltip-hook
 burze.dzis.net###zasady_info
 business.mytaxi.com#?#body > div > span > div:-abp-contains(🍪)
@@ -162,7 +164,6 @@ ckmir.com.pl#?#p:-abp-contains(cookie)
 clarias.pl###InfoCookie
 claritine.pl##.cc-grower
 clearchannel.com.pl,sokolka.com.pl###rodoPopup
-clickmeeting.com,gugik.gov.pl,smyk.com,modecom.com,brodnica.net,hifi.pl,wielkopolska.eu,dw.com##.cookie
 cmg24.pl##.RODO
 codziennikfeministyczny.pl###bazinga-muffin-container
 coinroom.com##.cookie-warning
@@ -214,6 +215,7 @@ dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;pos
 downdetector.pl,patronite.pl###overlay
 dowozy.pl##.rodo
 drabex.com###footer
+dreammachines.pl##.modal-backdrop
 drogerielaboo.pl##.ciacho2-wrap-container
 drony.net##div#cop
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
@@ -237,7 +239,7 @@ edarling.pl###infobarDiv, #infobar, .infobar, #info-bar, #info_c_box, .info-mess
 eecpoland.eu##.cookie-bar2
 eena.pl###whole_page_loader
 ekko.com.pl###messagePo
-ekliniki.pl##body > div[style]:not([id]):not([class]):nth-of-type(1)
+ekliniki.pl,sklepbiegacza.pl##body > div[style]:not([id]):not([class]):nth-of-type(1)
 ekosalus.pl##.welcomebar
 ekosalus.pl##div#DIVwelcome
 ekoserwis.poznan.pl##.content-head-information
@@ -742,6 +744,7 @@ mtm-info.pl###etisoA
 multiplay.pl##.inform
 musicexpert.pl###x13popup-container, #x13popup-cover
 muve.pl##.f-find-box
+muzeumslaskie.pl###popup
 muzyczneradio.com.pl###legalLayer
 myhome.pl,newsbook.pl,inianie.pl###wpfront-notification-bar
 myob.pl###warning-popup
@@ -929,6 +932,7 @@ prohibita.pl##.ciachbtm-wrap-container
 projekt-parking.com###RodoModal
 promocodius.com###reminder
 proszynski.pl###komunikat
+przegladlokalny.eu###cookiePolicy, .popup, #popup-overlay
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 przygarnijkrolika.pl##.tplis-cl-cookies
 psychiatria.pl,forumneurologiczne.pl##[aria-describedby="ajaxDialogrodopopup"], .ui-widget-overlay
@@ -975,6 +979,7 @@ reddit.com#?##SHORTCUT_FOCUSABLE_DIV > div > div > div > form > div:-abp-contain
 reebok.pl,adidas.pl###truste-consent-content
 reedukacja.pl,sklepbiegowy.com,sklepkoszykarza.pl,zgodafc.pl,rckik.poznan.pl##body > div:not([id]):not([class])
 refunder.pl#?#.bg-white:-abp-has([href="/warunki#cookies"])
+regionwielkopolska.pl###info
 reklamawwindzie.net##.panel_cookie
 relpol.pl###powiadomiony
 renault.pl##.ccpane
@@ -1105,6 +1110,7 @@ szukacz.pl###routerBox1
 szybko.pl##.toast
 szyj.pl##body > div:not([id]):not([class])
 szymoszkowa.pl##[data-popmake*="cookies"]
+tabakiera.com.pl###x13pmcookiebar
 tanie-loty.com.pl###rodo_info_placeholder
 targeo.pl##body > div:not([id]):not([class])[style^="position: absolute;"]
 tcz.pl###dynamic-load-rodo, #dynamic-loading-rodo
@@ -1156,12 +1162,14 @@ ulub.pl###rodo_all
 umg.edu.pl,cartoonnetwork.pl###sliding-popup
 umowycywilnoprawne.pl###formalAgreementModal, #modalBackdrop
 um.jaslo.pl,adeste.eu##.cp-info-bar
+unilink.pl##.windov_front_new_text
 uni-tech.pl###topbar, #topBar, .topbarBox, .topBarMessage, #__topBar, #top_bar
 upc.pl##.dmg-cookie-info
 upolujebooka.pl##.alert
 uzdrowisko-wieniec.pl###statement
 v10.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
 vademecumksiegowego.pl###modalBackdrop, #formalAgreementModal
+vagaru.pl##.id-18.location-0.type-10.widget
 vas.com.pl##body > div:not([id]):not([class])
 viralka.pl,repostuj.pl##.cc-window
 virustotal.com###euConsent
@@ -1194,6 +1202,7 @@ wirtualis.pl,ettoi.pl###info_container, #info_content
 wirtualnygarwolin.pl###zaslona
 wislaportal.pl###cook, .cook
 wisport.com.pl###DIVnasz
+wizytowki4you.pl##smq-popup
 wiz.pl###menu
 wkd.com.pl##div#_mo
 wlkp24.info###itro_popup, #itro_opaco, #cookieChoiceInfo
