@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: NeRG3U6mFImxt/BgbMKQCw
+! Checksum: CTmTZZ/J4PRgJy5k8cwtyA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810212320
-! Last modified: Sun, 21 Oct 2018, 23:20:18 UTC+02
+! Version: 201810222056
+! Last modified: Mon, 22 Oct 2018, 20:56:57 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810212320 aktualizacja: nie, 21 paź 2018, 23:20:18 UTC+02
+! v.201810222056 aktualizacja: pon, 22 paź 2018, 20:56:57 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -132,6 +132,7 @@ browar.biz,centrumpiwowarstwa.pl##DIV[style="color: gray; background-color: whit
 bryk.pl,interia.pl,pokazywarka.pl##.rodo-mini
 bskrasnosielc.pl###cookiewarning > div
 bstorun.pl##div#comm_info
+budimex-nieruchomosci.pl###komRodo
 buduj.co.uk###SiteAnouncement
 bugwie.com##.cookie-box
 buliba.pl###tooltip-hook
@@ -156,7 +157,7 @@ chojnice24.pl###disclaimer, #bg_cover
 chomikuj.pl###acceptChomikujTermsOverlay, #acceptChomikujTermsContainer
 chreptiow.pl###pu620
 ciam.pl###privacy-info
-ciasteczka.org.pl###ciasteczka\.org\.pl
+ciasteczka.org.pl,gsmk.org.pl###ciasteczka\.org\.pl
 cinema3d.pl##rodo-modal
 cire.pl###ramka_ciasteczka_info
 ckiw-dobieszkow.ohp.pl###eDcPopupBox
@@ -220,6 +221,7 @@ dreammachines.pl##.modal-backdrop
 drogerielaboo.pl##.ciacho2-wrap-container
 drony.net##div#cop
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
+dstreet.pl###ToplayerConsent, #ToplayerCover
 dukapolska.com,onlinekredyty.pl,legnica.pl,zory.dlawas.pl###popupdiv
 duka.com###popupdiv
 durszlak.pl##.shadow.privacy-layer
@@ -505,7 +507,7 @@ jangar.pl###popup
 januszebiznesu.pl###komunikat
 jarocinska.pl,gostynska.pl,zpleszewa.pl,rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 jarocin.poznan.lasy.gov.pl##div#aui_3_2_0_1203
-jastrzebieonline.pl,darnatury.pl####rodo_popup
+jastrzebieonline.pl,darnatury.pl###rodo_popup
 jazzfestiwal.kck.com.pl###system-message > .fade.message.notice > ul > li
 jazzsoul.pl,ksiegarnienaukowe.pl###globalMessage
 jcubic.pl##.cookie-baner
@@ -586,6 +588,7 @@ kulki.info###welcome-box
 kulturalnysklep.pl###ctl00_cq_divText
 kupbilet.pl##div#t3393f
 kupbilet.pl##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
+kupujemy.to###cookie_info
 kuratorium.bialystok.pl###spu-9294, #spu-bg-9294
 kursyuniversum.ksiezyc.pl##a[href="cookies.php"]
 kzkgop.com.pl,rozklady.kzkgop.pl##.container.in.fade
@@ -821,6 +824,7 @@ omnibussimulator.pl##body > div > div[style*="position: fixed"], [id^="co15"]
 one2tribe.pl##.cw_container
 onlineradiobox.com###alert_cookies
 opac.wimbp.zgora.pl##div#alertboxsec_c, div#alertboxsec_mask
+operon.pl##.rodoModal
 opineo.pl##div#uclaInfo
 opoka.tv###eu-cookie-bar
 opony.net###cookiefy_bar
@@ -955,7 +959,7 @@ qualitylife.pl###text-5
 queer.pl##.box-rodo
 quer.pl##DIV[style="top:0;width:100%;background:#0a0e10;color:#f2f2f2;font-size:10px;text-align:center"]
 quer.pl##body > div:not([id]):not([class])
-quizme.pl###modal-consent, .iziModal-overlay
+quizme.pl,quizowa.pl###modal-consent, .iziModal-overlay
 racjonalista.pl###_ci
 radioem.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
 radiofama.com.pl##body > div:not([id]):not([class])
@@ -999,7 +1003,7 @@ rosja.pl###cookframe
 routex.com###ca_alert
 rozwojowiec.pl###fixedBar
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl###pd-modal, .modal-backdrop
-r-gol.com###cookieBan
+r-gol.com,51015kids.eu###cookieBan
 sadowocowy.pl###container > div:nth-of-type(1)
 salesmanago.pl,grene.pl##.popup
 salonroman.pl##body > div:not([id]):not([class])
@@ -1397,6 +1401,7 @@ cookie-law-popup.js$script
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pcworld.pl|internetstandard.pl|computerworld.pl
 ||vox.pl/modal/rodo$xmlhttprequest
+||www.albeco.com.pl/scripts/jquery/plugins/cookie/jquery.cookie.js$script,domain=www.albeco.com.pl
 ||www.aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
 ||www.e-drewno.pl/stock/javascript/browser.js
 ||www.e-drewno.pl/stock/javascript/cptlx.js
