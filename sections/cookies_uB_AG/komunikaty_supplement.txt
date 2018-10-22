@@ -13,6 +13,8 @@ biuletyn.net##body > table:style(margin-top: 0 !important;)
 biuletyn.net##.urzad_mini > div:style(top: 225px !important;)
 bloombergbusinessweek.pl##body:style(margin-top: 0 !important;)
 chojnow.pl##script:inject(abort-current-inline-script.js, confirm, rodoConfirm)
+cupsell.pl##.tingle-modal
+cupsell.pl##.tingle-enabled:style(position: static !important; overflow: auto !important;)
 dane.gov.pl##.modal-backdrop
 dane.gov.pl##.modal-dialog:has-text(RODO)
 dobrzemieszkaj.pl###axn
@@ -52,7 +54,7 @@ hbogo.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
 hbogo.pl##.banner-overlay
 hm.com##.modaloverlay:has(#gdpr-modal)
 hm.com##.modal-open, .modal-open body:style(overflow-y: auto !important; position: static !important;)
-indbuildcraft.pl##body:style(overflow: auto !important;)
+indbuildcraft.pl,pum.edu.pl##body:style(overflow: auto !important;)
 indbuildcraft.pl##.modal-overlay, #modal_cookies
 ipla.tv##.no-scroll:style(overflow: auto !important;)
 ipla.tv##.rodo-rules-modal
@@ -106,6 +108,7 @@ prawdaobiektywna.pl##.qc-cmp-ui-container
 przydomu.pl###popup_25
 przydomu.pl##.container:style(filter: none !important;)
 puma.com###modal-geoip-cookies, .modal-backdrop
+pum.edu.pl##.js-rodo-info
 quadgraphics.pl##.blur:style(filter: none !important; pointer-events: unset !important;)
 quadgraphics.pl##.rodo-information-popup, .fixed-layer-information
 sellizer.pl##.cookies-visible .header-main:style(top: 0 !important;)
