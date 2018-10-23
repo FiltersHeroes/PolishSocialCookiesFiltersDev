@@ -1,11 +1,11 @@
-! Checksum: EDHD+NabuMQqdYrh0BLqSw
+! Checksum: qGpHbTjAExyYkStq++X5bA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201810220017
-! Last modified: Mon, 22 Oct 2018, 00:17:53 UTC+02
+! Version: 201810230931
+! Last modified: Tue, 23 Oct 2018, 09:31:14 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810220017 aktualizacja: pon, 22 paź 2018, 00:17:53 UTC+02
+! v.201810230931 aktualizacja: wto, 23 paź 2018, 09:31:14 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -33,6 +33,8 @@ biuletyn.net##body > table:style(margin-top: 0 !important;)
 biuletyn.net##.urzad_mini > div:style(top: 225px !important;)
 bloombergbusinessweek.pl##body:style(margin-top: 0 !important;)
 chojnow.pl##script:inject(abort-current-inline-script.js, confirm, rodoConfirm)
+cupsell.pl##.tingle-enabled:style(position: static !important; overflow: auto !important;)
+cupsell.pl##.tingle-modal
 dane.gov.pl##.modal-backdrop
 dane.gov.pl##.modal-dialog:has-text(RODO)
 dobrzemieszkaj.pl###axn
@@ -43,7 +45,7 @@ drogeriapigment.pl##.fancybox-overlay:has(#potwierdzamrodo)
 drogeriapigment.pl,teatrpolski.waw.pl##html > body:style(overflow: auto !important;)
 drogeriapigment.pl,teatrpolski.waw.pl##html.fancybox-lock > body:style(overflow: auto !important;)
 drogeriapigment.pl,teatrpolski.waw.pl##html.fancybox-lock:style(overflow: auto !important;)
-drogeriapigment.pl,teatrpolski.waw.pl##html.fancybox-margin:style(margin-right: 0px!important;)
+drogeriapigment.pl,teatrpolski.waw.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 dropbox.com##.embedded-app.IndexRebrandPage.top-notification-bar:style(margin-top: -51px !important;)
 dropbox.com##.top-notification-bar-container + .preview-box .react-file-viewer, .embedded-app.IndexRebrandPage.top-notification-bar .RebrandNavigation-container:style(top: 0 !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
@@ -72,8 +74,8 @@ hbogo.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
 hbogo.pl##.banner-overlay
 hm.com##.modaloverlay:has(#gdpr-modal)
 hm.com##.modal-open, .modal-open body:style(overflow-y: auto !important; position: static !important;)
-indbuildcraft.pl##body:style(overflow: auto !important;)
 indbuildcraft.pl##.modal-overlay, #modal_cookies
+indbuildcraft.pl,pum.edu.pl##body:style(overflow: auto !important;)
 ipla.tv##.no-scroll:style(overflow: auto !important;)
 ipla.tv##.rodo-rules-modal
 kaliszak.pl##.rodo, .rodo_layer
@@ -126,6 +128,7 @@ prawdaobiektywna.pl##.qc-cmp-ui-container
 przydomu.pl###popup_25
 przydomu.pl##.container:style(filter: none !important;)
 puma.com###modal-geoip-cookies, .modal-backdrop
+pum.edu.pl##.js-rodo-info
 quadgraphics.pl##.blur:style(filter: none !important; pointer-events: unset !important;)
 quadgraphics.pl##.rodo-information-popup, .fixed-layer-information
 sellizer.pl##.cookies-visible .header-main:style(top: 0 !important;)
@@ -172,8 +175,9 @@ belsat.eu,mobilet.pl,marfafashion.com##.pum-open:style(overflow: auto !important
 bioagris.pl###policy-accept-div, .modal-backdrop
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 budownictwo.pl###rodoLayer, .modal-backdrop
-budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl##.modal-open:style(overflow: auto !important;)
+budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl##.modal-open:style(overflow: auto !important;)
 cenapaliw.pl###CBCookieMsg, .modal-backdrop
+dalmierze.pl###Widget3, .modal-backdrop
 empik.com##script:inject(nano-remove-elements-onready.js, .cookies-accept)
 eobuwie.com.pl##.popup
 eobuwie.com.pl##body:style(overflow: auto !important;)
@@ -225,6 +229,7 @@ bioagris.pl##^#policy-accept-div
 born2be.pl,renee.pl##^.rules-modal
 budownictwo.pl##^#rodoLayer
 cenapaliw.pl##^#CBCookieMsg
+dalmierze.pl##^#Widget3
 empik.com##^.cookies-accept
 eobuwie.com.pl##^script:has-text(technologii cookies)
 ferguson-digital.eu##^#cookie-notice
@@ -269,6 +274,7 @@ alltube.tv,alltube.pl$$#rodo-popup
 belsat.eu,mobilet.pl,marfafashion.com$$.popmake-overlay
 bioagris.pl$$#policy-accept-div
 cenapaliw.pl$$#CBCookieMsg
+dalmierze.pl$$#Widget3
 empik.com$$.cookies-accept
 eobuwie.com.pl$$script[tag-content="technologii cookies"]
 ferguson-digital.eu$$#cookie-notice
