@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ciqKv5/hf+h1hmuYb7NUUg
+! Checksum: w5po2tTkVYBZ8e7nqdlC0A
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810251412
-! Last modified: Thu, 25 Oct 2018, 14:12:41 UTC+02
+! Version: 201810251433
+! Last modified: Thu, 25 Oct 2018, 14:33:48 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810251412 aktualizacja: czw, 25 paź 2018, 14:12:41 UTC+02
+! v.201810251433 aktualizacja: czw, 25 paź 2018, 14:33:48 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1681,7 +1681,7 @@ opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]
 orange.pl#@##cookies-info
 piekarniaanka.pl,xboxarcade.pl,appki.com.pl,tylesmiechu.pl,neon24.pl,norauto.pl,orange.pl#@#:not(input)[id*="Cookie"]
 riscosoftware.pl#@#div[class*="Cookie"]
-tabakiera.com.pl,fastdeal.pl#@#:not(input)[id*="cookie"]:not(body):not(html):not(.fade)
+tabakiera.com.pl,fastdeal.pl,unileverfoodsolutions.pl#@#:not(input)[id*="cookie"]:not(body):not(html):not(.fade)
 tychy.geminipark.pl#@#.privacy-policy
 vod.naekranie.pl#@##cookie-notice:not(body):not(html)
 vod.naekranie.pl#@##modal-rodo-info, .reveal-modal-bg
