@@ -1,11 +1,11 @@
-! Checksum: qGpHbTjAExyYkStq++X5bA
+! Checksum: lbv+J6UgLWO7hxHscFWNBA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201810230931
-! Last modified: Tue, 23 Oct 2018, 09:31:14 UTC+02
+! Version: 201810250825
+! Last modified: Thu, 25 Oct 2018, 08:25:57 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810230931 aktualizacja: wto, 23 paź 2018, 09:31:14 UTC+02
+! v.201810250825 aktualizacja: czw, 25 paź 2018, 08:25:57 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -150,6 +150,8 @@ twitter.com##.topbar-spacer:style(padding-top: 0 !important;)
 unileverfoodsolutions.pl##body.blurred>*:style(box-shadow: none !important; filter: none !important;)
 unileverfoodsolutions.pl##.js-cookie-wall
 unileverfoodsolutions.pl,wikia.com##body:style(overflow: auto !important;)
+vod.naekranie.pl###modal-rodo-info, .modal-backdrop
+vod.naekranie.pl##.modal-open:style(overflow: auto !important;)
 wagrowczanie.pl##.showRodo
 webhelp.pl###wrapper:style(margin-top: auto !important;)
 wikia.com##div[data-tracking-opt-in-overlay]
