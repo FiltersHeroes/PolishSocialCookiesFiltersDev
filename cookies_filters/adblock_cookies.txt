@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: /kKAdBDj/t4aDb+2IGf36Q
+! Checksum: z0mSS45KvZPx0B7Lnec6qw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810250828
-! Last modified: Thu, 25 Oct 2018, 08:28:12 UTC+02
+! Version: 201810251053
+! Last modified: Thu, 25 Oct 2018, 10:53:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810250828 aktualizacja: czw, 25 paź 2018, 08:28:12 UTC+02
+! v.201810251053 aktualizacja: czw, 25 paź 2018, 10:53:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -44,7 +44,7 @@ agencjagazeta.pl###rodoLayer
 agropolska.pl##.ui-widget-overlay, .ui-widget-content
 airbnb.pl##[data-veloute="cookie-disclaimer"]
 airkiosk.lot.com##.mf-modal-overlay, .mf-modal-iframe
-airly.eu##.welcome-modal__block--whatsNew.welcome-modal__block:nth-of-type(2):-abp-contains(Rodo + ciasteczka)
+airly.eu#?#.welcome-modal__block--whatsNew.welcome-modal__block:nth-of-type(2):-abp-contains(Rodo + ciasteczka)
 airport.gdansk.pl###cookiesAlert
 airport.gdansk.pl,r.pl###rodoAlert
 akademia-piwa.pl##div#polityka_tekst
@@ -428,7 +428,7 @@ hipcio.sklep.pl,e-torro.pl###cookiesBar
 hi-tec.com.pl##DIV[style="width: 882px; padding: 10px; margin: 3px auto; text-align: center; color: #BABABA"]
 hoga.pl###warning
 holidaycheck.pl###infoCloseableBoxContainer
-holidu.pl###root > aside[class]:-abp-contains(🍪)
+holidu.pl#?##root > aside[class]:-abp-contains(🍪)
 homebrewing.pl##.rodo-popupbox
 home.pl###box_policies
 horizon.tv##.notifications-manager
@@ -643,7 +643,7 @@ marykay.pl##div[style="background-color: rgba(255, 255, 255, 0.8); border-top-wi
 mat-dom.pl##.info_rodo
 maybellinetrends.pl##div[style="position: fixed; z-index: 999; bottom: 0px; right: 0px; width: 900px; padding: 18px 0px !important; background-color: rgb(0, 0, 0) !important; color: rgb(255, 255, 255) !important; font-family: arial !important; font-size: 12px !important; border-top-left-radius: 4px !important; border-top-right-radius: 4px !important; border-bottom-right-radius: 4px !important; border-bottom-left-radius: 4px !important; background-position: initial initial !important; background-repeat: initial initial !important;"]
 mazowia.eu###co15ie87a
-mazowia.eu###dymek239:-abp-has(a[href$="rodo.html"])
+mazowia.eu#?##dymek239:-abp-has(a[href$="rodo.html"])
 mcksokol.pl,muzeum.sacz.pl###overflow-content
 mc-2.pl###_COOKIE-PPN
 meble.com.pl,archiconnect.pl,lazienka.pl,najlepszedomy.pl,mamkuchnie.pl,biznesmeblowy.pl###axn
