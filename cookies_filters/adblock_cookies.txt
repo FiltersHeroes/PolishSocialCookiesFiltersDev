@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Ut3t3+dJ76VaPfW3OMYRxQ
+! Checksum: ciqKv5/hf+h1hmuYb7NUUg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810251354
-! Last modified: Thu, 25 Oct 2018, 13:54:25 UTC+02
+! Version: 201810251412
+! Last modified: Thu, 25 Oct 2018, 14:12:41 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810251354 aktualizacja: czw, 25 paź 2018, 13:54:25 UTC+02
+! v.201810251412 aktualizacja: czw, 25 paź 2018, 14:12:41 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -39,6 +39,7 @@ adguard.com##.sticky-bar--cookie
 adm-media.pl,kociadolina.pl##.policy
 adobe.com##.message
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl##body > div:not([id]):not([class])[style*="position"][style*="relative"]
+aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
 agatameble.pl##.js-infoBarCookies
 agencjagazeta.pl###rodoLayer
 agropolska.pl##.ui-widget-overlay, .ui-widget-content
@@ -755,6 +756,7 @@ nivea.pl##.bdf-cookie-policy-popup
 nokaut.pl###GDPRModal
 nokia.com##.cookie_container
 nomi.pl##div#Messenger-Special
+norwegian.com#?#.alert:-abp-has(.cookie-disclaimer)
 nowapapiernia.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
 nowehoryzonty.pl##div#div_ac
 noweprzetargi.pl###dcach, #txt
