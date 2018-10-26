@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 8HIFVskMf1Qvktbk6O2LhQ
+! Checksum: hVs/Tg6thf1eRh/sIfu5eQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810251836
-! Last modified: Thu, 25 Oct 2018, 18:36:19 UTC+02
+! Version: 201810262140
+! Last modified: Fri, 26 Oct 2018, 21:40:45 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810251836 aktualizacja: czw, 25 paź 2018, 18:36:19 UTC+02
+! v.201810262140 aktualizacja: pią, 26 paź 2018, 21:40:45 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -213,7 +213,6 @@ domena.pl###alert_container_id
 domisad.pl##.message-cockies
 domodi.pl,homebook.pl##body > div:not(body):not(id):not(class)[style*="position: fixed;"]
 dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;bottom: 0px;left: 0px;text-align: center;color: #000;border-top: 1px #000 solid;z-index: 100;"]
-downdetector.pl,patronite.pl###overlay
 dowozy.pl##.rodo
 drabex.com###footer
 dreammachines.pl##.modal-backdrop
@@ -812,6 +811,7 @@ parkhandlowylomza.pl###pamphletu38210
 parkhotel.bydgoszcz.pl###alert_container_id
 parkwodny.pl##.ppsPopupShell, #ppsPopupBgOverlay
 parp.gov.pl###howdydo-wrapper
+patronite.pl###overlay
 patrz.pl,olsztyn.com.pl##.rodoaccept
 paypal.com###gdprCookieBanner
 pbg-sa.pl,grupaeurocash.pl,payup.pl###info
