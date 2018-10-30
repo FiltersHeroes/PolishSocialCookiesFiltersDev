@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: NI+jBhF3qPkzyvwtLQ8umw
+! Checksum: Pelm4+9wOU5my6OBvmf3mQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810301121
-! Last modified: Tue, 30 Oct 2018, 11:21:54 UTC+01
+! Version: 201810301215
+! Last modified: Tue, 30 Oct 2018, 12:15:33 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810301121 aktualizacja: wto, 30 paź 2018, 11:21:54 UTC+01
+! v.201810301215 aktualizacja: wto, 30 paź 2018, 12:15:33 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1350,7 +1350,6 @@ cookie-law-popup.js$script
 /cookies-legal-
 /cookiewarning*.js
 /cookie-terms.
-/cookie.js$domain=pl
 /cookie_msg.js$script
 /cookie_notify/*
 /js/cookieinfo.js
@@ -1684,7 +1683,6 @@ tychy.geminipark.pl#@#.privacy-policy
 vod.naekranie.pl#@##cookie-notice:not(body):not(html)
 vod.naekranie.pl#@##modal-rodo-info, .reveal-modal-bg
 wsensie.pl,wsensie.tv#@#.policy-box:not(body):not(html)
-@@/cookie.js$domain=infoplus.com.pl|arimr.gov.pl|promedica24.com.pl|wirtualnemedia.pl|e.dorzeczy.pl|e.wprost.pl|cdaction.pl|rze.pl|invado.pl|zus.pl|brownells.pl
 @@/js/jquery.cookie.min.js$domain=rozklad.pkp.pl|ubi.com|telepizza.pl|uplayconnect.ubi.com|playrust.io
 @@/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$script,domain=escaperooms.pl|xboxarcade.pl|naziemna.info|3dwpraktyce.pl|tvs.pl|przegladbaltycki.pl|wypowiadamoc.pl|gazetabilgoraj.pl|serialowy.info|ittechblog.pl
 @@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js$script
