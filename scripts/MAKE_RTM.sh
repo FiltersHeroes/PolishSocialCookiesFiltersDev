@@ -106,7 +106,9 @@ for j in $ost_zmieniony_plik_RTM; do
             lista+=" "👍
         fi
         git add adblock_social_filters/adblock_social_list.txt
-        git commit -S -m "Update 👍 to version $wersja"
+        git commit -S -m "Update 👍 to version $wersja
+
+Co-authored-by: krystian3w <35370833+krystian3w@users.noreply.github.com>"
     fi
 
     if [[ "$j" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
@@ -114,7 +116,9 @@ for j in $ost_zmieniony_plik_RTM; do
             lista+=" "👍
         fi
         git add adblock_social_filters/social_filters_uB_AG.txt
-        git commit -S -m "Update 👍 - Supplement to version $wersja"
+        git commit -S -m "Update 👍 - Supplement to version $wersja
+        
+Co-authored-by: krystian3w <35370833+krystian3w@users.noreply.github.com>"
     fi
 
     if [[ "$j" == "cookies_filters/adblock_cookies.txt"* ]]; then
@@ -122,7 +126,9 @@ for j in $ost_zmieniony_plik_RTM; do
             lista+=" "🍪
         fi
         git add cookies_filters/adblock_cookies.txt
-        git commit -S -m "Update 🍪 to version $wersja"
+        git commit -S -m "Update 🍪 to version $wersja
+              
+Co-authored-by: krystian3w <35370833+krystian3w@users.noreply.github.com>"
     fi
 
     if [[ "$j" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
@@ -130,7 +136,9 @@ for j in $ost_zmieniony_plik_RTM; do
             lista+=" "🍪
         fi
         git add cookies_filters/cookies_uB_AG.txt
-        git commit -S -m "Update 🍪 - Supplement to version $wersja"
+        git commit -S -m "Update 🍪 - Supplement to version $wersja
+               
+Co-authored-by: krystian3w <35370833+krystian3w@users.noreply.github.com>"
     fi
 done
 
