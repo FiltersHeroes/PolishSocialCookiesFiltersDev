@@ -3,12 +3,14 @@ pl##DIV[style="border: 10px solid rgb(138, 138, 138); border-radius: 10px; box-s
 pl##DIV[style="padding: 5px 25px 5px 15px;"]
 pl##div[class*="Cookie"]
 pl##div[class*="cookie"]
+pl###CookieInfo:not(body):not(html)
 pl###cokPyt:not(body):not(html)
 pl###confirmCookie:not(body):not(html)
 pl###cookieChoiceInfo:not(body):not(html)
 pl###cookieLaw:not(body):not(html)
 pl###cookieNotice:not(body):not(html)
 pl###cookiesPolicyPopup:not(body):not(html)
+pl###cookiesStatement:not(body):not(html)
 pl###cookies-banner:not(body):not(html)
 pl###cookies:not(body):not(html):not(.section)
 pl###cookies_message:not(body):not(html)
@@ -35,8 +37,6 @@ pl##.rodo-accept:not(body):not(html):not(input):not(a)
 pl##.rodo-overlay:not(body):not(html)
 pl##.rodo-popup:not(body):not(html)
 pl##.wpgdprc-consent-bar:not(body):not(html)
-pl##:not(input)[id*="Cookie"]:not(body):not(html):not(.fade)
-pl##:not(input)[id*="cookie"]:not(body):not(html):not(.fade)
 pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
 pl##[id*="cookie_"]:not(body):not(html)
 pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
