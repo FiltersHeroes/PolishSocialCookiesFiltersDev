@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: /Nc7n+GhMSDONyH13WOD1A
+! Checksum: JIWm2MBsqCiCp6KpD3ZxCg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201810312244
-! Last modified: Wed, 31 Oct 2018, 22:44:45 UTC+01
+! Version: 201810312321
+! Last modified: Wed, 31 Oct 2018, 23:21:26 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810312244 aktualizacja: śro, 31 paź 2018, 22:44:45 UTC+01
+! v.201810312321 aktualizacja: śro, 31 paź 2018, 23:21:26 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -327,6 +327,7 @@ forumwodne.pl##body > div[id] > div[style*="fixed"]
 forum-kredytowe.pl###navbar_notice_6
 forum-kulturystyka.pl###fk-terms, .pp-t-a-c
 forum.benchmark.pl##div#document_modal
+forum.dobreprogramy.pl###rodoCookie
 forum.dziennikwschodni.pl###cookiePolicyPopup > div > p
 forum.joomla.pl###notices
 forum.minepedia.pl##div#notice
@@ -859,6 +860,7 @@ polcar.com###cwwb
 policja.pl##.informationBar, .JSWrapper
 poligraf.com.pl###modal_wrap
 polki.pl,mamotoja.pl,wizaz.pl,viva.pl,gotujmy.pl,party.pl##.disclaimer-container
+polnord.pl###polCookieInfo
 polona.pl##cbn-cookies
 polopiryna.pl,polpharma.pl##.monit
 polska.googleblog.com###cookieChoiceInfo
@@ -967,6 +969,7 @@ seg.org.pl###block-block-19
 serialefilmyonline.pl##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
 seriale.co###player_warn
 serialowa.pl,60sekund.tytan.pl,lucatel.pl##.popmake-overlay
+seriea.pl,kadra.pl,ligapolska.pl,goal.pl,primeradivision.pl###viewCookies
 serwis.currenda.pl##div#sign_up
 seszele.com.pl##iframe#cookfr
 shazam.com##div.policy-label
@@ -1373,12 +1376,14 @@ pl##DIV[style="border: 10px solid rgb(138, 138, 138); border-radius: 10px; box-s
 pl##DIV[style="padding: 5px 25px 5px 15px;"]
 pl##div[class*="Cookie"]
 pl##div[class*="cookie"]
+pl###CookieInfo:not(body):not(html)
 pl###cokPyt:not(body):not(html)
 pl###confirmCookie:not(body):not(html)
 pl###cookieChoiceInfo:not(body):not(html)
 pl###cookieLaw:not(body):not(html)
 pl###cookieNotice:not(body):not(html)
 pl###cookiesPolicyPopup:not(body):not(html)
+pl###cookiesStatement:not(body):not(html)
 pl###cookies-banner:not(body):not(html)
 pl###cookies:not(body):not(html):not(.section)
 pl###cookies_message:not(body):not(html)
@@ -1405,8 +1410,6 @@ pl##.rodo-accept:not(body):not(html):not(input):not(a)
 pl##.rodo-overlay:not(body):not(html)
 pl##.rodo-popup:not(body):not(html)
 pl##.wpgdprc-consent-bar:not(body):not(html)
-pl##:not(input)[id*="Cookie"]:not(body):not(html):not(.fade)
-pl##:not(input)[id*="cookie"]:not(body):not(html):not(.fade)
 pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
 pl##[id*="cookie_"]:not(body):not(html)
 pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
@@ -1675,7 +1678,6 @@ bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:n
 gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section)
 laciate.pl,loterialaciate.pl#@#.cookies:not(body):not(html)
 laciate.pl,loterialaciate.pl#@#.cookies:not(.wrapper):not(.popup-newsletter):not(#page):not(body):not(html)
-letsplej.pl,telepizza.pl,orange.pl,google.pl,przenosne.pl,spreadshirt.pl,sellizer.pl,autocentrum.pl,ideabank.pl,intel.pl,pkn.pl,topsecret.pl,starbucks.pl,morizon.pl,abctygodnik.pl,wykop.pl,bt4.pl,kolba.pl,tablety.pl,tesco.pl,lomza.pl,multimediago.pl,vod.naekranie.pl,pamiatki.pl#@#div[class*="cookie"]
 linuxiarz.pl,piekarniaanka.pl,xboxarcade.pl,appki.com.pl,mvno-gsm.pl,okazik.pl#@#[id*="cookie-"]
 lomza.pl#@##komunikat-cookie
 naekranie.pl#@##polityka-cookies:not(body):not(html)
@@ -1683,14 +1685,15 @@ opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]
 orange.pl#@##cookies-info
 pamiatki.pl#@#[id*="cookie_"]:not(body):not(html)
 riscosoftware.pl#@#div[class*="Cookie"]
-tabakiera.com.pl,fastdeal.pl,unileverfoodsolutions.pl,pamiatki.pl#@#:not(input)[id*="cookie"]:not(body):not(html):not(.fade)
 tychy.geminipark.pl#@#.privacy-policy
 vod.naekranie.pl#@##cookie-notice:not(body):not(html)
 vod.naekranie.pl#@##modal-rodo-info, .reveal-modal-bg
 wsensie.pl,wsensie.tv#@#.policy-box:not(body):not(html)
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 !bskrasnosielc.pl,piekarniaanka.pl,xboxarcade.pl,wmeritum.pl,komunikacja.bialystok.pl,dobreprogramy.pl,lomza.pl,orange.pl,interhotel.pl,bestcena.pl,gokf.gda.pl,gdansk.pl,naekranie.pl,indbuildcraft.pl,okazik.pl#@#:not(input)[id*="cookie"]
+!letsplej.pl,telepizza.pl,orange.pl,google.pl,przenosne.pl,spreadshirt.pl,sellizer.pl,autocentrum.pl,ideabank.pl,intel.pl,pkn.pl,topsecret.pl,starbucks.pl,morizon.pl,abctygodnik.pl,wykop.pl,bt4.pl,kolba.pl,tablety.pl,tesco.pl,lomza.pl,multimediago.pl,vod.naekranie.pl,pamiatki.pl#@#div[class*="cookie"]
 !piekarniaanka.pl,xboxarcade.pl,appki.com.pl,tylesmiechu.pl,neon24.pl,norauto.pl,orange.pl#@#:not(input)[id*="Cookie"]
+!tabakiera.com.pl,fastdeal.pl,unileverfoodsolutions.pl,pamiatki.pl#@#:not(input)[id*="cookie"]:not(body):not(html):not(.fade)
 @@/js/jquery.cookie.min.js$domain=rozklad.pkp.pl|ubi.com|telepizza.pl|uplayconnect.ubi.com|playrust.io
 @@/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$script,domain=escaperooms.pl|xboxarcade.pl|naziemna.info|3dwpraktyce.pl|tvs.pl|przegladbaltycki.pl|wypowiadamoc.pl|gazetabilgoraj.pl|serialowy.info|ittechblog.pl
 @@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js$script
