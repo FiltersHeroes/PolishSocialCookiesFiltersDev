@@ -1,11 +1,11 @@
-! Checksum: TJG6ebvQxqzkTxzawZ9D5Q
+! Checksum: sdWdwc+xD1toQlSm0pcR/Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201810312252
-! Last modified: Wed, 31 Oct 2018, 22:52:57 UTC+01
+! Version: 201811011502
+! Last modified: Thu, 01 Nov 2018, 15:02:10 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201810312252 aktualizacja: śro, 31 paź 2018, 22:52:57 UTC+01
+! v.201811011502 aktualizacja: czw, 01 lis 2018, 15:02:11 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -25,6 +25,8 @@ analizy.pl,mago.com##html:style(overflow: auto !important;)
 appsource.microsoft.com##.cookieBanner:style(visibility: hidden !important;)
 aquapark.wroc.pl###header:style(top: 0 !important;)
 archiwum.rp.pl,info.rp.pl##body:style(margin-top: 0 !important;)
+autostrada-a2.pl###rodo-box, .overlay
+autostrada-a2.pl##+js(remove-attr.js, class, body.cookielaw)
 auto-czesci-lipiec.pl###mAll
 auto-czesci-lipiec.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 bbcpolska.com###home:style(padding-top: 0 !important;)
