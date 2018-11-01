@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: PrOudD+ipsoQ/Kd9C0sjfw
+! Checksum: lDoJ/7NStuVvmT3X0IDBzQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811011757
-! Last modified: Thu, 01 Nov 2018, 17:57:15 UTC+01
+! Version: 201811011759
+! Last modified: Thu, 01 Nov 2018, 17:59:21 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811011757 aktualizacja: czw, 01 lis 2018, 17:57:15 UTC+01
+! v.201811011759 aktualizacja: czw, 01 lis 2018, 17:59:21 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1670,7 +1670,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 ! Wyjątki
 addons.mozilla.org#@#.privacy-policy
-allegro.pl#@#[class*="cookie-policy"]:not(body):not(html)
+allegro.pl,paradoxplaza.com#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
 gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section)
 laciate.pl,loterialaciate.pl#@#.cookies:not(body):not(html)
@@ -1682,7 +1682,6 @@ opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]
 orange.pl#@##cookies-info
 pamiatki.pl#@#[id*="cookie_"]:not(body):not(html)
 paradoxplaza.com#@##cookies-info:not(body):not(html)
-paradoxplaza.com#@#[class*="cookie-policy"]:not(body):not(html)
 riscosoftware.pl#@#div[class*="Cookie"]
 tychy.geminipark.pl#@#.privacy-policy
 vod.naekranie.pl#@##cookie-notice:not(body):not(html)
