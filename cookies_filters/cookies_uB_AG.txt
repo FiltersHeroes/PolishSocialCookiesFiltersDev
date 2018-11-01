@@ -1,11 +1,11 @@
-! Checksum: r+LtGGmBfrrCtSul9If+ag
+! Checksum: 7cS/dztgYrJL8S7UtoHRFw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811011601
-! Last modified: Thu, 01 Nov 2018, 16:01:55 UTC+01
+! Version: 201811011609
+! Last modified: Thu, 01 Nov 2018, 16:09:22 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811011601 aktualizacja: czw, 01 lis 2018, 16:01:55 UTC+01
+! v.201811011609 aktualizacja: czw, 01 lis 2018, 16:09:22 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -224,10 +224,10 @@ ztm.poznan.pl###PopUP, .modal-backdrop
 openpli.org##body > div:not([id]):not([class])
 !#endif
 !+ PLATFORM(ext_ublock)
-autostrada-a2.pl##^#rodo-box, .overlay
+autostrada-a2.pl##^#rodo-box, .overlay, #cookielaw-box
 !#endif
 !+ PLATFORM(ext_ublock)
-autostrada-a2.pl###rodo-box, .overlay
+autostrada-a2.pl###rodo-box, .overlay, #cookielaw-box
 !#endif
 !+ PLATFORM(ext_ublock)
 autostrada-a2.pl##+js(remove-attr.js, class, body.cookielaw)
