@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: bxLuSzqUI0DZ8j3oJY1zWw
+! Checksum: KMXSF+8P06FTS7CoJSDdIA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811021419
-! Last modified: Fri, 02 Nov 2018, 14:19:41 UTC+01
+! Version: 201811021507
+! Last modified: Fri, 02 Nov 2018, 15:07:13 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811021419 aktualizacja: pią, 02 lis 2018, 14:19:41 UTC+01
+! v.201811021507 aktualizacja: pią, 02 lis 2018, 15:07:13 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -655,6 +655,7 @@ medme.pl###ccc
 medpolonia.pl###bannerPopup
 medpytania.pl,mymedic.pl###mcpc
 meetup.com##[class*="_cookieBanner-module_cookieBanner"]
+megasat.tv##.ep-cookies-bar
 megawrzuta.pl##.notification, .Notification, .js-notification, .notifications-container, #notifications, #notification_1, #notification, #notification_area, .notifications, .notif-bar, .notificationBox
 mega-com.eu###footer-information
 memoinfo.pl##body > div:nth-of-type(6)
@@ -1399,6 +1400,7 @@ pl###polityka-cookie:not(body):not(html)
 pl##.cnil-banner__content:not(body):not(html)
 pl##.cookieChoiceInfo:not(body):not(html)
 pl##.cookieInfo:not(body):not(html)
+pl##.cookies-bar:not(body):not(html)
 pl##.cookies:not(body):not(html)
 pl##.cookie-notice-container:not(body):not(html)
 pl##.cookie-notice:not(body):not(html)
