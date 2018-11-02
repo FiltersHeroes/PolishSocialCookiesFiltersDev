@@ -1,11 +1,11 @@
-! Checksum: K9KtSLu2Fvl5ZkBfZteFaw
+! Checksum: ljzFjhSZW4Hsd9uNxr1GdA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811020720
-! Last modified: Fri, 02 Nov 2018, 07:20:39 UTC+01
+! Version: 201811021049
+! Last modified: Fri, 02 Nov 2018, 10:49:16 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811020720 aktualizacja: pią, 02 lis 2018, 07:20:39 UTC+01
+! v.201811021049 aktualizacja: pią, 02 lis 2018, 10:49:16 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -223,19 +223,16 @@ zdajmyrazem.pl###gdprModal, .modal-backdrop
 ztm.poznan.pl###PopUP, .modal-backdrop
 !+ PLATFORM(ext_ublock)
 openpli.org##body > div:not([id]):not([class])
-!#endif
 !+ PLATFORM(ext_ublock)
-autostrada-a2.pl##^#rodo-box, .overlay, #cookielaw-box
-!#endif
-!+ PLATFORM(ext_ublock)
-autostrada-a2.pl###rodo-box, .overlay, #cookielaw-box
-!#endif
+autostrada-a2.pl###rodo-box, #cookielaw-box
 !+ PLATFORM(ext_ublock)
 autostrada-a2.pl##+js(remove-attr.js, class, body.cookielaw)
 !#endif
 !#if cap_html_filtering
 4fun.tv##^#cModal
 alltube.tv,alltube.pl##^#rodo-popup
+autostrada-a2.pl##+js(remove-attr.js, class, body.cookielaw)
+autostrada-a2.pl##^#rodo-box, #cookielaw-box
 belsat.eu,mobilet.pl,marfafashion.com##^.popmake-overlay
 bioagris.pl##^#policy-accept-div
 born2be.pl,renee.pl##^.rules-modal
