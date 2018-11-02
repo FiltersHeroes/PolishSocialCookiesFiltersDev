@@ -1,11 +1,6 @@
 !+ PLATFORM(ext_ublock)
 openpli.org##body > div:not([id]):not([class])
-!#endif
 !+ PLATFORM(ext_ublock)
-autostrada-a2.pl##^#rodo-box, .overlay, #cookielaw-box
-!#endif
-!+ PLATFORM(ext_ublock)
-autostrada-a2.pl###rodo-box, .overlay, #cookielaw-box
-!#endif
+autostrada-a2.pl###rodo-box, #cookielaw-box
 !+ PLATFORM(ext_ublock)
 autostrada-a2.pl##+js(remove-attr.js, class, body.cookielaw)
