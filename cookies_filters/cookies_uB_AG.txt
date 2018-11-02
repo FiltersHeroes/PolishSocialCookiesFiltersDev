@@ -1,11 +1,11 @@
-! Checksum: 7cS/dztgYrJL8S7UtoHRFw
+! Checksum: K9KtSLu2Fvl5ZkBfZteFaw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811011609
-! Last modified: Thu, 01 Nov 2018, 16:09:22 UTC+01
+! Version: 201811020720
+! Last modified: Fri, 02 Nov 2018, 07:20:39 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811011609 aktualizacja: czw, 01 lis 2018, 16:09:22 UTC+01
+! v.201811020720 aktualizacja: pią, 02 lis 2018, 07:20:39 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -112,6 +112,7 @@ obywatel.gov.pl###modal-rodo, .modal-backdrop
 obywatel.gov.pl,m.24jgora.pl,e-sochaczew.pl,pultusk24.pl,multimediago.pl,dane.gov.pl,24wroclaw.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
+opiniodajnia.pl##body:style(overflow: visible !important;)
 opiniodajnia.pl###eu-consent
 otwarteklatki.pl###popup-gdpr, .popup-overlay
 otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
@@ -160,7 +161,7 @@ wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px !important;)
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
-zeropln.antyweb.pl,mazury.travel,wagrowczanie.pl,praca.antyweb.pl,kaliszak.pl,skyscrapercity.com,prawdaobiektywna.pl,opiniodajnia.pl##body:style(overflow: auto !important;)
+zeropln.antyweb.pl,mazury.travel,wagrowczanie.pl,praca.antyweb.pl,kaliszak.pl,skyscrapercity.com,prawdaobiektywna.pl##body:style(overflow: auto !important;)
 zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
 !
 !
