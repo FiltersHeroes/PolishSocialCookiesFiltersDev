@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: dunl7BSCSyAzwOB5kBaSEw
+! Checksum: H4s7Xmp4UeZ/7IzFpfCndg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811031644
-! Last modified: Sat, 03 Nov 2018, 16:44:58 UTC+01
+! Version: 201811031858
+! Last modified: Sat, 03 Nov 2018, 18:58:58 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811031644 aktualizacja: sob, 03 lis 2018, 16:44:58 UTC+01
+! v.201811031858 aktualizacja: sob, 03 lis 2018, 18:58:58 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -69,7 +69,7 @@ amazon.de###desktop-cookie-disclosure
 americanexpress.com###cookie_Header
 amundi.pl###disclaimer
 antyweb.pl,norauto.pl###privacy
-apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl###popup
+apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl###popup
 apkpure.com###policy-info
 apra.pl###popup-overlay
 aptekagemini.pl###kukiz
@@ -119,6 +119,7 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
+bip.visacom.pl###eucookielaw
 bitcomputer.pl###pp
 bitmarket24.pl###notifications
 bitmaszyna.pl###wwelcome
@@ -165,6 +166,7 @@ chreptiow.pl###pu620
 ciam.pl###privacy-info
 ciasteczka.org.pl,gsmk.org.pl###ciasteczka\.org\.pl
 cinema3d.pl##rodo-modal
+circlek.pl###cookieboxM, #cookiebox
 cire.pl###ramka_ciasteczka_info
 ckiw-dobieszkow.ohp.pl###eDcPopupBox
 ckmir.com.pl#?#p:-abp-contains(cookie)
@@ -211,6 +213,7 @@ dobregniazdka.pl###rodo_container
 dobrymechanik.pl##.small.navbar-fixed-bottom
 dogizycka.pl,dojaroslawca.pl,domragowa.pl,helskipolwysep.pl,kursnamikolajki.pl,kursnaruciane.pl,visiton.pl###rstbox_1
 dolce-gusto.pl###nimgrowler
+dollarro.com###pnlCookiebanner
 domena.pl###alert_container_id
 domisad.pl##.message-cockies
 domodi.pl,homebook.pl##body > div:not(body):not(id):not(class)[style*="position: fixed;"]
@@ -452,6 +455,7 @@ ibm.com##div[style="background-color: rgb(0, 0, 0); opacity: 0.4; position: fixe
 ibm.com##div[style="position: absolute; z-index: 2000000; top: 150px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; background-image: url(http://consent.truste.com/get?name=trans.png); left: 50%; margin-left: -420px; background-position: initial initial; background-repeat: initial initial;"]
 icppc.pl###wptbheadline1
 idcgames.com##.avisolegal_p
+ids.q8.com###calibr8-cookie-compliance
 id.sonyentertainmentnetwork.com###appnotice-contents
 id.sonyentertainmentnetwork.com###js-SIEWS1lib-header
 ign.org.pl##div#closeCookeiInfo
@@ -809,6 +813,7 @@ ovh.com,ovh.pl###cookiesPop
 owocowydom.pl,weck.com.pl###popup2
 pajerosport.pl##div#ci-info-box
 pakolorente.com###toplayer_styleadvisor
+paliwaolkop.pl##div:-abp-has(div > #cookieContent)
 panasonic.pl##div#CP_Layer
 pandora.net##[class*="ui-"]
 panoramafirm.pl###rodoLayer, .modal-backdrop
@@ -947,6 +952,7 @@ recepcja.visionexpress.pl##div[style="background-color: rgb(217, 217, 217); marg
 redbullmobile.pl###more1
 reddit.com#?##SHORTCUT_FOCUSABLE_DIV > div > div > div > form > div:-abp-contains(cookies)
 reebok.pl,adidas.pl###truste-consent-content
+reflex.com.pl###cookiesdiv
 refunder.pl#?#.bg-white:-abp-has([href="/warunki#cookies"])
 regionwielkopolska.pl###info
 reklamawwindzie.net##.panel_cookie
