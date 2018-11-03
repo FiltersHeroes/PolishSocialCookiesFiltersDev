@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: HS36rogaXMMfFK4SuRz/Lw
+! Checksum: QttoRj48BlaGdMpnzPfMVw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811031350
-! Last modified: Sat, 03 Nov 2018, 13:50:16 UTC+01
+! Version: 201811031413
+! Last modified: Sat, 03 Nov 2018, 14:13:16 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811031350 aktualizacja: sob, 03 lis 2018, 13:50:16 UTC+01
+! v.201811031413 aktualizacja: sob, 03 lis 2018, 14:13:16 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -903,6 +903,7 @@ promocodius.com###reminder
 przegladlokalny.eu###cookiePolicy, .popup, #popup-overlay
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 przygarnijkrolika.pl##.tplis-cl-cookies
+psse-poznan.pl###cookiesMsg
 psychiatria.pl,forumneurologiczne.pl##[aria-describedby="ajaxDialogrodopopup"], .ui-widget-overlay
 pulawy.eu###modalRodo, .modal-backdrop
 punkt44.pl###alertTop
@@ -927,6 +928,7 @@ radiopik.pl##div#hmonit
 radiotaxitg.pl###messagePopup
 radiowroclaw.pl,radioram.pl,radiogdansk.pl,tanibus.com###rodoModal
 radiozet.pl,antyradio.pl,radiostacja.pl,meloradio.pl,azorek.pl,planeta.fm,chillizet.pl##div[class^="app_cmpAppGdpr"]
+radio.opole.pl###monitcookie
 radom24.pl##div#ciasteczka-info
 raiffeisenpolbank.com###valid_cookie_message
 ramboll.pl##.infoboxHolder
