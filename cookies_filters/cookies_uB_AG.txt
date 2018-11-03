@@ -1,11 +1,11 @@
-! Checksum: 9LVyHB0p99lmwZZmoN5QrA
+! Checksum: cNVNGQw4ZXMBySVF6LPglA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811030021
-! Last modified: Sat, 03 Nov 2018, 00:21:00 UTC+01
+! Version: 201811031610
+! Last modified: Sat, 03 Nov 2018, 16:10:28 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811030021 aktualizacja: sob, 03 lis 2018, 00:21:00 UTC+01
+! v.201811031610 aktualizacja: sob, 03 lis 2018, 16:10:28 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -169,7 +169,7 @@ zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂 - specjalne instrukcje
 !#if !cap_html_filtering
 4fun.tv###cModal, .modal-backdrop
-4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,djoles.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.com.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,djoles.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.com.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,wroclaw.dlawas.info##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 autakrajowe.com.pl##.modal-open:style(overflow: auto !important; margin-right: 0 !important;)
 belsat.eu,mobilet.pl,marfafashion.com##.popmake-overlay
@@ -188,7 +188,7 @@ fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
 gdos.gov.pl###banner-komunikat-rodo-gdos-2, .modal-backdrop
 infoplanet.pl,craftserve.pl,motobanda.pl,autakrajowe.com.pl###rodo, .modal-backdrop
-infostrow.pl###rodo-modal
+infostrow.pl,wroclaw.dlawas.info###rodo-modal
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 lovekrakow.pl,djoles.pl,muzyczneradio.com.pl###modal-rodo, .modal-backdrop
 money.pl##script:inject(nano-remove-elements-onready.js, .rodo-popup)
@@ -247,7 +247,7 @@ fryzomania.pl##^#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl##^.rodo
 gdos.gov.pl##^#banner-komunikat-rodo-gdos-2
 infoplanet.pl,polski-tenis.pl,craftserve.pl,autakrajowe.com.pl##^#rodo
-infostrow.pl,roztoczanskipn.pl##^#rodo-modal
+infostrow.pl,roztoczanskipn.pl,wroclaw.dlawas.info##^#rodo-modal
 lovekrakow.pl,djoles.pl,muzyczneradio.com.pl##^#modal-rodo
 motobanda.pl##^#rodo
 ogloszenia.plock.pl##^#dialog-rodo
@@ -295,7 +295,7 @@ fryzomania.pl$$#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl$$.rodo
 gdos.gov.pl$$#banner-komunikat-rodo-gdos-2
 infoplanet.pl,polski-tenis.pl,craftserve.pl,autakrajowe.com.pl$$#rodo
-infostrow.pl$$#rodo-modal
+infostrow.pl,roztoczanskipn.pl,wroclaw.dlawas.info$$#rodo-modal
 lovekrakow.pl,djoles.pl,muzyczneradio.com.pl$$#modal-rodo
 motobanda.pl$$#rodo
 ogloszenia.plock.pl$$#dialog-rodo
