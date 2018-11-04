@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: WaaffWu/f83b1t5k13T8yA
+! Checksum: tVQmcbo2fL+noR4uR4igDQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811041914
-! Last modified: Sun, 04 Nov 2018, 19:14:38 UTC+01
+! Version: 201811042006
+! Last modified: Sun, 04 Nov 2018, 20:06:54 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811041914 aktualizacja: nie, 04 lis 2018, 19:14:38 UTC+01
+! v.201811042006 aktualizacja: nie, 04 lis 2018, 20:06:54 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -341,7 +341,6 @@ forum.zarabianie24.net##div[style="font-family: Tahoma; margin-bottom: 6px; padd
 fostertravel.pl##.ft-rodo-html-banner
 fotojoker.pl##div#floatDiv
 fotosik.pl###rodo-info, .modal-backdrop
-frazpc.pl###cookie-information-wrapper
 funclub.pl##.jss313
 funduszpomerania.pl###eprivacyModal, .modal-backdrop
 funnygames.pl###cmp-container-id
@@ -1409,6 +1408,7 @@ pl###cookiesStatement:not(body):not(html)
 pl###cookies-banner:not(body):not(html)
 pl###cookies:not(body):not(html):not(.section)
 pl###cookies_message:not(body):not(html)
+pl###cookie-information-wrapper:not(body):not(html)
 pl###cookie-law-info-again:not(body):not(html)
 pl###cookie-law-message:not(body):not(html)
 pl###cookie-notice:not(body):not(html)
