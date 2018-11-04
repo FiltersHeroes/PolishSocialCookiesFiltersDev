@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: MuaogsKjK17erxXZgFoAgA
+! Checksum: doeIh0AKsy5Z0Znlx5JSgg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811041729
-! Last modified: Sun, 04 Nov 2018, 17:29:28 UTC+01
+! Version: 201811041743
+! Last modified: Sun, 04 Nov 2018, 17:43:27 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811041729 aktualizacja: nie, 04 lis 2018, 17:29:28 UTC+01
+! v.201811041743 aktualizacja: nie, 04 lis 2018, 17:43:27 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -489,6 +489,7 @@ itaka.pl##div[style="position: fixed; bottom: 0px; width: 100%; border-top-width
 iturek.net###cookie_message_website_policy
 iwanowice.pl###privacy-policy-box
 izone.pl##.mm-page > div[style*="height: 80px"]
+jabra.pl###CybotCookiebotDialog
 jajco.pl##div[id*="n-cookies-notification"]
 jakbudowac.pl##.dialog-fixed
 jakikredyt.pl##.popup--open
@@ -865,7 +866,7 @@ pogodynka.pl###accept
 poki.pl##div[class^="app_gdpr"]
 poki.pl#?#div > div > div:-abp-contains(cookie)
 polandtrade.pl###cb
-polcar.com###cwwb
+polcar.com,schroniskowroclaw.pl###cwwb
 policja.pl##.informationBar, .JSWrapper
 poligraf.com.pl###modal_wrap
 polki.pl,mamotoja.pl,wizaz.pl,viva.pl,gotujmy.pl,party.pl##.disclaimer-container
@@ -975,6 +976,8 @@ santanderconsumer.pl##div#pageUpperInfo
 saturn.pl###site_container > section:not([id])
 sawataxi.pl##.w_news
 scentre.pl##.consent
+schronisko-nowodwor.com.pl##.ba-cookies
+schronisko-wloclawek.pl###accept_cookies_ramka
 seans24.pl##.Messages
 seansik.top##.coi.container
 sedkomp.com.pl##.art-content-layout:nth-of-type(2)
