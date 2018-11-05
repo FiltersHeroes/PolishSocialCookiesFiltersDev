@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: gaYEtVuACmsVxkozuHFBnA
+! Checksum: +4wzLhNncA7oucGWqfPW4g
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811051127
-! Last modified: Mon, 05 Nov 2018, 11:27:07 UTC+01
+! Version: 201811051214
+! Last modified: Mon, 05 Nov 2018, 12:14:11 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811051127 aktualizacja: pon, 05 lis 2018, 11:27:07 UTC+01
+! v.201811051214 aktualizacja: pon, 05 lis 2018, 12:14:11 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -98,7 +98,7 @@ automo.pl,autobaza.pl###rodo, .rodoButtonUp
 avast.com,pay.google.com##.cookie-bar
 avioner.pl##.alert
 azure.microsoft.com###cookie-prompt
-a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com###cookie-notice
+a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info###cookie-notice
 badaniaprenatalne.pl##div[data-nconvert-cookie]
 bambino.dzidziusiowo.pl##.section--cookies
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
@@ -260,6 +260,7 @@ elopol.pl##div#black2
 elopol.pl##div.ciacho-wrap-container
 emt-systems.pl###rodoBG
 enjoyuk.pl###fanback
+eostroleka.pl###cookiesRodo
 epiotrkow.pl##.user_politic
 epiotrkow.pl##.user_politic_pop
 epoznan.pl###rodo-info-box
@@ -391,8 +392,8 @@ goclever.pl##div#cp-wrap
 gofin.pl,poradnikksiegowego.pl###formalAgreementModal, #modalBackdrop
 gokf.gda.pl###zgoda_cookie
 goldenline.pl##section[class*="cookiesInfo"]
+goldenline.pl###profiling-agreement, .modal-backdrop
 goldenline.pl###topReminder
-goldenline.pl##.modal-backdrop, #profiling-agreement
 gomez.pl##.window-police
 goodie.pl##.bp_br
 goodlookin.pl##div > div > div > .toplayaa
@@ -700,7 +701,7 @@ modile.pl###marketing-popup
 mojapogoda.com###IR
 mojawww.com##.id-6
 mojehobby.pl##.message-footer-panel
-mojemazury.pl###rodoinfo
+mojemazury.pl,kurierostrolecki.pl###rodoinfo
 mol.pl##DIV[style="position: fixed; bottom: 0px; z-index: 10000; box-sizing: border-box; width: 100%; font: 8pt Verdana,sans-serif; margin: 0px; padding: 1px 1em 1em; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-top: 1px solid rgb(153, 153, 153);"]
 mondeoklubpolska.pl##li#navbar_notice_12
 monedo.pl##.NotificationBar
@@ -910,6 +911,7 @@ programyzadarmo.net.pl##.primary.floatingItem
 prohibita.pl##.ciachbtm-wrap-container
 projekt-parking.com###RodoModal
 promocodius.com###reminder
+pruszkow.pl##.js-rodo-info, #cookies_law
 przegladlokalny.eu###cookiePolicy, .popup, #popup-overlay
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 przygarnijkrolika.pl##.tplis-cl-cookies
@@ -1161,7 +1163,7 @@ wiescirolnicze.pl###popup_newsletter
 wiif.nowybip.pl###jGrowl
 wikar.com.pl##.popupContent
 winnicalidla.pl##.privacy-popup
-wio.waw.pl,ciechanowinaczej.pl,lowicz24.eu,szczecinek.com,ototorun.pl,ddb24.pl,lipno-cli.pl,brodnica-cbr.pl,golub-cgd.pl,rypin-cry.pl,wabrzezno-cwa.pl,wolomin24.info,zambrow.org,izoliborz.pl,ibielany.pl###RODOCOOKIE, .modal-backdrop
+wio.waw.pl,ciechanowinaczej.pl,lowicz24.eu,szczecinek.com,ototorun.pl,ddb24.pl,lipno-cli.pl,brodnica-cbr.pl,golub-cgd.pl,rypin-cry.pl,wabrzezno-cwa.pl,wolomin24.info,zambrow.org,izoliborz.pl,ibielany.pl,twojradom.pl###RODOCOOKIE, .modal-backdrop
 wirtualis.pl,ettoi.pl###info_container, #info_content
 wirtualnygarwolin.pl###zaslona
 wisport.com.pl###DIVnasz
