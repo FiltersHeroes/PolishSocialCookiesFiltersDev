@@ -1,11 +1,11 @@
-! Checksum: VjIjZE43DUWCU4+VdwAXqA
+! Checksum: k+XI0e/zI9hDqZ+CvNtT+A
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811052034
-! Last modified: Mon, 05 Nov 2018, 20:34:18 UTC+01
+! Version: 201811052108
+! Last modified: Mon, 05 Nov 2018, 21:08:16 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811052034 aktualizacja: pon, 05 lis 2018, 20:34:18 UTC+01
+! v.201811052108 aktualizacja: pon, 05 lis 2018, 21:08:16 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -42,10 +42,10 @@ dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
 domisad.pl##.show-message #top-nav:style(height: auto !important;)
 drogeriapigment.pl##.fancybox-overlay:has(#potwierdzamrodo)
-drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl##html > body:style(overflow: auto !important;)
-drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl##html.fancybox-lock > body:style(overflow: auto !important;)
-drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl##html.fancybox-lock:style(overflow: auto !important;)
-drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl##html.fancybox-margin:style(margin-right: 0 !important;)
+drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl##html > body:style(overflow: auto !important;)
+drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl##html.fancybox-lock > body:style(overflow: auto !important;)
+drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl##html.fancybox-lock:style(overflow: auto !important;)
+drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 dropbox.com##.embedded-app.IndexRebrandPage.top-notification-bar:style(margin-top: -51px !important;)
 dropbox.com##.top-notification-bar-container + .preview-box .react-file-viewer, .embedded-app.IndexRebrandPage.top-notification-bar .RebrandNavigation-container:style(top: 0 !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
@@ -148,7 +148,6 @@ tabletowo.pl###disqus_thread:style(display: initial !important;)
 tabletowo.pl##.ginger_banner-wrapper
 teatrpolski.waw.pl##.fancybox-overlay:has(#privacyPolicy)
 telepizza.pl##.navbar:style(margin-top: 0 !important;)
-tureckisklep.pl##.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
 tureckisklep.pl##.fancybox-overlay-fixed.fancybox-overlay
 tuzdrowie.pl###popupModal, .modal-backdrop
 tv.pudelek.pl,gryonline.wp.pl##script:inject(set-constant.js, wp_no_consent_screen, true)
