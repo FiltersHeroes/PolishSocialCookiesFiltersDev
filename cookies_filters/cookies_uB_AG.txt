@@ -1,11 +1,11 @@
-! Checksum: SW1yMWNRsYpqsaLZKeutfg
+! Checksum: gF1NZkc7fQLa3v7Zv2sqvg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811050848
-! Last modified: Mon, 05 Nov 2018, 08:48:03 UTC+01
+! Version: 201811050849
+! Last modified: Mon, 05 Nov 2018, 08:49:37 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811050848 aktualizacja: pon, 05 lis 2018, 08:48:03 UTC+01
+! v.201811050849 aktualizacja: pon, 05 lis 2018, 08:49:37 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -291,7 +291,7 @@ belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl$$.popmake-overlay
 bioagris.pl$$#policy-accept-div
 cenapaliw.pl$$#CBCookieMsg
 dalmierze.pl$$#Widget3
-emas.gdos.gov.pl,projekty.gdos.gov.pl$$^[id^="banner-komunikat-rodo-"]
+emas.gdos.gov.pl,projekty.gdos.gov.pl$$[id^="banner-komunikat-rodo-"]
 empik.com$$.cookies-accept
 eobuwie.com.pl$$script[tag-content="technologii cookies"]
 ferguson-digital.eu$$#cookie-notice
