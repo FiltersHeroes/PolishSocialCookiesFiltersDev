@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: QRzdZRUTH0vOjmhvGK+IfA
+! Checksum: zoKrHL/vu50OZdCjT6FB5w
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811051530
-! Last modified: Mon, 05 Nov 2018, 15:30:47 UTC+01
+! Version: 201811051551
+! Last modified: Mon, 05 Nov 2018, 15:51:16 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811051530 aktualizacja: pon, 05 lis 2018, 15:30:47 UTC+01
+! v.201811051551 aktualizacja: pon, 05 lis 2018, 15:51:16 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -95,7 +95,7 @@ autogespot.pl##div[class^="popup"]:not(.fancybox-margin)
 autogielda.pl,mix4kids.tv##.modal-backdrop
 autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.net##div#cop
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
-avast.com,pay.google.com##.cookie-bar
+avast.com,pay.google.com,portalsamorzadowy.pl##.cookie-bar
 avioner.pl##.alert
 azure.microsoft.com###cookie-prompt
 a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info###cookie-notice
@@ -154,6 +154,7 @@ cafago.com,tomtop.com##.m_privacy_statement
 capri-lublin.pl###mod98
 ccm.net##.ccmcss_oic
 cda.pl,superfilm.pl##div#box_info
+cdr.gov.pl##.navbar-inverse.navbar-fixed-bottom.navbar
 centrumpilkarskie.pl##div.jqibox
 centrumreklamy.com###CookieInfoBlock
 certum.pl,elk.gmina.pl,koleje-wielkopolskie.com.pl##.spu-bg, .spu-box
@@ -284,7 +285,7 @@ extraserv.pl##div#uwaga
 ezakupy.tesco.pl###privacyInnerContainer
 e-dukacja.pl##div:not([id]):not([class])[style="width: 100%; padding: 15px; background: rgb(240, 235, 226); border-bottom: 1px solid rgb(131, 118, 99); border-top: 1px solid rgb(255, 255, 255); position: absolute;"]
 e-farmacja.net##div:not([id]):not([class])[style="width: 100%; padding: 15px; background: rgb(240, 235, 226); border-bottom: 1px solid rgb(131, 118, 99); border-top: 1px solid rgb(255, 255, 255);"]
-e-kolo.pl##.rodo
+e-kolo.pl,tubamarek.pl##.rodo
 e-konkursy.info###rodoNotify, .modal-backdrop, #cookieNotify
 e-metalzbyt.pl###popupContact
 e-petrol.pl###statement
@@ -465,6 +466,7 @@ igomedia.pl###l-overlay
 ihrzeszow.ires.pl##.PopupOverlay, .Popup
 iiyama.com##.infobar-message
 iiyama.com##.new-cookies-info
+ilza.com.pl###rodoMain
 imagazine.pl,moviesroom.pl##.overlay-rules
 impekao24.pl###rodo-popup-wrapper
 in4.pl##div.subheader
@@ -612,6 +614,7 @@ livesmarter.pl###co15ie87a
 logistics.dhl##.c-cookie-disclaimer
 lokalna24.pl#?##jm-right .custom > table:-abp-contains(RODO)
 loktech.com.pl###comm_info
+lomianki.pl###splash
 londynek.net##.jd-rodo, .jd-rodo-2
 loterialaciate.pl##.bg
 lotnictwo.net.pl###navbar_notice_123
@@ -673,6 +676,7 @@ mercedes-benz.com,mercedes-benz.pl###emb-cp-dialog
 mercure.com##.is-ready
 merixstudio.pl###message, .message
 merlin.pl##.merlin-legal-note
+meteor-turystyka.pl##body > div[style="position: fixed; width: 100%; text-align: center; background: orange; color: white; font-weight: bold; padding: 5px; line-height: 20px; z-index: 3; bottom: 0px;"]
 meteovista.pl###info-bar-content
 mettosport.eu###moove_gdpr_cookie_info_bar
 mggp.com.pl##.navbar-inverse, .navbar.navbar-fixed-bottom
@@ -772,6 +776,7 @@ nomi.pl##div#Messenger-Special
 norwegian.com#?#.alert:-abp-has(.cookie-disclaimer)
 nowapapiernia.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
 nowehoryzonty.pl##div#div_ac
+nowemiasto.pl,zwolen.pl,laskarzew.pl###cook
 noweprzetargi.pl###dcach, #txt
 nowezyciepabianic.pl##div#PopupDiv
 nuorder.pl##.___ncn-container
@@ -809,6 +814,7 @@ origin.com###truste-banner, .origin-sitestripe
 orliman.pl##.c-info
 ortograf.pl###ns-rodo-popup-one
 oskolaf.pl###modal-info, .modal-backdrop
+osm-sierpc.pl##.tm-cookies
 ostrowiecnr1.pl###iopp
 otabletach.pl###cop
 otolaryngolodzy24.pl,prow.lubelskie.pl###rodo-policy
@@ -921,6 +927,7 @@ pulawy.eu###modalRodo, .modal-backdrop
 punkt44.pl###alertTop
 purepc.pl##.cookiesinfo
 pushpushgo.com##.ppg-cookies
+pwik.wolomin.pl###oknoModal
 pw.edu.pl##.lb-overlay, .lb-wrapper
 pzip.pl##.sqs-announcement-bar-content
 pzm.bydgoszcz.pl##div[tyle="position: fixed; left:0; right:0; bottom:0; height:70px; background-color:#eee; border: 1px solid red; z-index:1000; overflow: auto"]
@@ -1076,7 +1083,7 @@ szostygracz.pl##div#cw_statusbar
 szpital-chrzanow.pl##.warp_top_message
 szukacz.pl###routerBox1
 szybko.pl##.toast
-szymoszkowa.pl##[data-popmake*="cookies"]
+szymoszkowa.pl,mckplonsk.pl##[data-popmake*="cookies"]
 tabakiera.com.pl###x13pmcookiebar
 tanie-loty.com.pl###rodo_info_placeholder
 targeo.pl##body > div:not([id]):not([class])[style^="position: absolute;"]
@@ -1163,7 +1170,7 @@ wiescirolnicze.pl###popup_newsletter
 wiif.nowybip.pl###jGrowl
 wikar.com.pl##.popupContent
 winnicalidla.pl##.privacy-popup
-wio.waw.pl,ciechanowinaczej.pl,lowicz24.eu,szczecinek.com,ototorun.pl,ddb24.pl,lipno-cli.pl,brodnica-cbr.pl,golub-cgd.pl,rypin-cry.pl,wabrzezno-cwa.pl,wolomin24.info,zambrow.org,izoliborz.pl,ibielany.pl,twojradom.pl###RODOCOOKIE, .modal-backdrop
+wio.waw.pl,ciechanowinaczej.pl,lowicz24.eu,szczecinek.com,ototorun.pl,ddb24.pl,lipno-cli.pl,brodnica-cbr.pl,golub-cgd.pl,rypin-cry.pl,wabrzezno-cwa.pl,wolomin24.info,zambrow.org,izoliborz.pl,ibielany.pl,twojradom.pl,itvpiaseczno.pl,iotwock.info,plonszczak.pl,egarwolin.pl###RODOCOOKIE, .modal-backdrop
 wirtualis.pl,ettoi.pl###info_container, #info_content
 wirtualnygarwolin.pl###zaslona
 wisport.com.pl###DIVnasz
@@ -1171,11 +1178,12 @@ wizytowki4you.pl##smq-popup
 wiz.pl###menu
 wkd.com.pl##div#_mo
 wlkp24.info###itro_popup, #itro_opaco, #cookieChoiceInfo
-wm.pl,przyszloscdladzieci.org,familie.pl,naszolsztyniak.pl,gazetaolsztynska.pl###rodoinfo
+wm.pl,przyszloscdladzieci.org,familie.pl,naszolsztyniak.pl,gazetaolsztynska.pl,kuriermlawski.pl,kurierprzasnyski.pl,kuriermakowski.pl,kurierzurominski.pl###rodoinfo
 wodociagi-kalisz.pl###white2
 wolnymkrokiem.pl,gieldaklasykow.pl,nowawarszawa.pl##.ginger_banner-wrapper
 wordpress.com###eu-cookie-law
 word.waw.pl##div#eKPC_Container
+wprost.pl###cookiespopup-layer
 wp.pl###app > div > table > tbody > tr:nth-child(2) > td > span > div
 wrobelekelemelek.com###cboxOverlay, #cboxWrapper
 wrota.lubuskie.pl##div#eKPC_Container
@@ -1184,6 +1192,7 @@ wsb.pl##div#ciasteczkowy_potwor
 wsedno24.pl###mordern_adbar_wrap
 wseit.edu.pl##.modal-dialog, .modal-backdrop, #welcome
 wsse-poznan.pl##.visiblebox
+wszystkoblisko.pl##.ueCookies
 wtkanwil.com.pl##div#ciastoWarstwa
 wunderground.com,weather.com##.truste_overlay, .truste_box_overlay, .privacy-policy-toast
 wu.swps.edu.pl##div#Iagree
@@ -1260,6 +1269,8 @@ zosiaikevin.pl###novem-slot
 zrzutka.pl##.plicy
 zs1mm.home.pl##body > div[style^="position: relative;"]:not(id):not(class)
 ztm.poznan.pl##.cookies-info-container
+zuromin.ibip.net.pl###jGrowl
+zwolenpowiat.pl###fancybox-wrap, #fancybox-overlay
 zyciekalisza.pl###cdiv
 zysk.com.pl###pageUpperInfo
 zywiec.com.pl,heineken.com.pl###infobx
