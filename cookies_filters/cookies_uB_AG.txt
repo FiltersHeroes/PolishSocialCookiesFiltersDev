@@ -1,11 +1,11 @@
-! Checksum: 1/mPiKAKPMzAC7NZFfrNnw
+! Checksum: kBREgg9i0hlf0oT8xepBNA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811051203
-! Last modified: Mon, 05 Nov 2018, 12:03:51 UTC+01
+! Version: 201811051557
+! Last modified: Mon, 05 Nov 2018, 15:57:04 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811051203 aktualizacja: pon, 05 lis 2018, 12:03:51 UTC+01
+! v.201811051557 aktualizacja: pon, 05 lis 2018, 15:57:04 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -42,10 +42,10 @@ dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
 domisad.pl##.show-message #top-nav:style(height: auto !important;)
 drogeriapigment.pl##.fancybox-overlay:has(#potwierdzamrodo)
-drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl##html > body:style(overflow: auto !important;)
-drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl##html.fancybox-lock > body:style(overflow: auto !important;)
-drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl##html.fancybox-lock:style(overflow: auto !important;)
-drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl##html.fancybox-margin:style(margin-right: 0 !important;)
+drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl##html > body:style(overflow: auto !important;)
+drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl##html.fancybox-lock > body:style(overflow: auto !important;)
+drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl##html.fancybox-lock:style(overflow: auto !important;)
+drogeriapigment.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 dropbox.com##.embedded-app.IndexRebrandPage.top-notification-bar:style(margin-top: -51px !important;)
 dropbox.com##.top-notification-bar-container + .preview-box .react-file-viewer, .embedded-app.IndexRebrandPage.top-notification-bar .RebrandNavigation-container:style(top: 0 !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
@@ -57,8 +57,8 @@ e-sochaczew.pl,pultusk24.pl###RODOCOOKIE, .modal-backdrop
 farmacja.net##.blur:style(filter: none !important;)
 farmacja.net##.noscroll:style(overflow: auto !important;)
 farmacja.net##.zgoda-popup-wrapper, .popup-overlay
-fastdeal.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 fastdeal.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
+fastdeal.pl,zsgarwolin.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: auto !important;)
 filmweb.pl##.rodo:style(overflow: auto !important; position: static !important;)
@@ -110,7 +110,7 @@ neon24.pl##script:inject(abort-on-property-read.js, Service.cookieMonster)
 news.google.com##.gb_Id[style="height: 94px;"]:style(height: 64px !important;)
 obpon.pl##.menu-flashmessages:style(top: 0 !important;)
 obywatel.gov.pl###modal-rodo, .modal-backdrop
-obywatel.gov.pl,m.24jgora.pl,e-sochaczew.pl,pultusk24.pl,multimediago.pl,dane.gov.pl,24wroclaw.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+obywatel.gov.pl,m.24jgora.pl,e-sochaczew.pl,pultusk24.pl,multimediago.pl,dane.gov.pl,24wroclaw.pl,zwolen.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
 opiniodajnia.pl##body:style(overflow: visible !important;)
@@ -128,6 +128,7 @@ pl.tommy.com##.remodal-is-locked:style(overflow: auto !important;)
 pl.tommy.com##.remodal-overlay
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.windowOpen:style(overflow: auto !important;)
+powiat-zyrardowski.pl##.fancybox-overlay
 prawdaobiektywna.pl##.qc-cmp-ui-container
 przydomu.pl###popup_25
 przydomu.pl##.container:style(filter: none !important;)
@@ -165,6 +166,9 @@ zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
 zeropln.antyweb.pl,mazury.travel,wagrowczanie.pl,praca.antyweb.pl,kaliszak.pl,skyscrapercity.com,prawdaobiektywna.pl##body:style(overflow: auto !important;)
 zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
+zsgarwolin.pl##.mfp-content:-abp-has(#cadre_alert_cookies)
+zsgarwolin.pl##.mfp-ready.mfp-bg
+zwolen.pl###g_toplayer, .modal-backdrop
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂 - specjalne instrukcje
