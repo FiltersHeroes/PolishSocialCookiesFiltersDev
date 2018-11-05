@@ -1,11 +1,11 @@
-! Checksum: lvZ6BWEivznAP2HXChnJsg
+! Checksum: X7Uja5iL14ypB/pF5f6wrA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811051007
-! Last modified: Mon, 05 Nov 2018, 10:07:42 UTC+01
+! Version: 201811051011
+! Last modified: Mon, 05 Nov 2018, 10:11:20 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811051007 aktualizacja: pon, 05 lis 2018, 10:07:42 UTC+01
+! v.201811051011 aktualizacja: pon, 05 lis 2018, 10:11:20 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -180,14 +180,13 @@ budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl##.modal-open:style(overflow: auto !important;)
 cenapaliw.pl###CBCookieMsg, .modal-backdrop
 dalmierze.pl###Widget3, .modal-backdrop
-emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl###[id^="banner-komunikat-rodo-"], .modal-backdrop
+emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##[id^="banner-komunikat-rodo-"], .modal-backdrop
 empik.com##script:inject(nano-remove-elements-onready.js, .cookies-accept)
 eobuwie.com.pl##.popup
 eobuwie.com.pl,radiobielsko.pl,pamiatki.pl##body:style(overflow: auto !important;)
 forums.openpli.org##script:inject(abort-current-inline-script.js, euReadCookie)
 fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
-gdos.gov.pl###banner-komunikat-rodo-gdos-2, .modal-backdrop
 infoplanet.pl,craftserve.pl,motobanda.pl,autakrajowe.com.pl###rodo, .modal-backdrop
 infostrow.pl,wroclaw.dlawas.info###rodo-modal
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
