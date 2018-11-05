@@ -1,11 +1,11 @@
-! Checksum: k+XI0e/zI9hDqZ+CvNtT+A
+! Checksum: bkFmGV7TJgM7czdAaOHrIQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811052108
-! Last modified: Mon, 05 Nov 2018, 21:08:16 UTC+01
+! Version: 201811052125
+! Last modified: Mon, 05 Nov 2018, 21:25:32 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811052108 aktualizacja: pon, 05 lis 2018, 21:08:16 UTC+01
+! v.201811052125 aktualizacja: pon, 05 lis 2018, 21:25:32 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -148,7 +148,7 @@ tabletowo.pl###disqus_thread:style(display: initial !important;)
 tabletowo.pl##.ginger_banner-wrapper
 teatrpolski.waw.pl##.fancybox-overlay:has(#privacyPolicy)
 telepizza.pl##.navbar:style(margin-top: 0 !important;)
-tureckisklep.pl##.fancybox-overlay-fixed.fancybox-overlay
+tureckisklep.pl##.fancybox-overlay-fixed.fancybox-overlay:has-text(ZGODA NA DOPASOWANIE TREŚCI)
 tuzdrowie.pl###popupModal, .modal-backdrop
 tv.pudelek.pl,gryonline.wp.pl##script:inject(set-constant.js, wp_no_consent_screen, true)
 twitter.com##.topbar-spacer:style(padding-top: 0 !important;)
