@@ -1,11 +1,11 @@
-! Checksum: lxmg7Ga+gCeQDCBIJN+KnQ
+! Checksum: SW1yMWNRsYpqsaLZKeutfg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811050846
-! Last modified: Mon, 05 Nov 2018, 08:46:49 UTC+01
+! Version: 201811050848
+! Last modified: Mon, 05 Nov 2018, 08:48:03 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811050846 aktualizacja: pon, 05 lis 2018, 08:46:49 UTC+01
+! v.201811050848 aktualizacja: pon, 05 lis 2018, 08:48:03 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -106,12 +106,11 @@ msn.com###precontent:style(margin-top: 8rem !important;)
 msn.com##.head:style(margin-top: 0 !important;)
 multimediago.pl##.modal-cookie
 m.24jgora.pl,24wroclaw.pl###rodoModal, .modal-backdrop
-natura2000.gdos.gov.pl,emas.gdos.gov.pl,projekty.gdos.gov.pl##[id^="banner-komunikat-rodo-"], .modal-backdrop
-natura2000.gdos.gov.pl,emas.gdos.gov.pl,projekty.gdos.gov.pl,obywatel.gov.pl,m.24jgora.pl,e-sochaczew.pl,pultusk24.pl,multimediago.pl,dane.gov.pl,24wroclaw.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 neon24.pl##script:inject(abort-on-property-read.js, Service.cookieMonster)
 news.google.com##.gb_Id[style="height: 94px;"]:style(height: 64px !important;)
 obpon.pl##.menu-flashmessages:style(top: 0 !important;)
 obywatel.gov.pl###modal-rodo, .modal-backdrop
+obywatel.gov.pl,m.24jgora.pl,e-sochaczew.pl,pultusk24.pl,multimediago.pl,dane.gov.pl,24wroclaw.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
 opiniodajnia.pl##body:style(overflow: visible !important;)
