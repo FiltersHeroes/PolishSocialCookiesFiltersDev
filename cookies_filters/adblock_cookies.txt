@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: LWRnblK2KV6Ib96nFZI3SQ
+! Checksum: 0h1oTCJo+gLRBz6hyTNulw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811051856
-! Last modified: Mon, 05 Nov 2018, 18:56:39 UTC+01
+! Version: 201811051902
+! Last modified: Mon, 05 Nov 2018, 19:02:24 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811051856 aktualizacja: pon, 05 lis 2018, 18:56:39 UTC+01
+! v.201811051902 aktualizacja: pon, 05 lis 2018, 19:02:24 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1451,6 +1451,7 @@ pl###cookiesPanel:not(body):not(html)
 pl###cookiesPolicyPopup:not(body):not(html)
 pl###cookiesStatement:not(body):not(html)
 pl###cookiesText:not(body):not(html)
+pl###cookiesck:not(body):not(html)
 pl###cookiesdirective:not(body):not(html)
 pl###cookiespopup-layer:not(body):not(html)
 pl###cookies-banner:not(body):not(html)
@@ -1549,6 +1550,7 @@ pl##.cookies:not(body):not(html)
 pl##.cookies:not(.wrapper):not(.popup-newsletter):not(#page):not(body):not(html)
 pl##.cookies_info:not(body):not(html)
 pl##.cookies_message:not(body):not(html)
+pl##.cookies_policy:not(body):not(html)
 pl##.cookie-alert:not(body):not(html)
 pl##.cookie-banner:not(body):not(html)
 pl##.cookie-consent:not(body):not(html)
