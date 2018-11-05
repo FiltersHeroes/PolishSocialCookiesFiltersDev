@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 0h1oTCJo+gLRBz6hyTNulw
+! Checksum: DMss6RLyxLUk8G3CPqh1Jg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811051902
-! Last modified: Mon, 05 Nov 2018, 19:02:24 UTC+01
+! Version: 201811051909
+! Last modified: Mon, 05 Nov 2018, 19:09:07 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811051902 aktualizacja: pon, 05 lis 2018, 19:02:24 UTC+01
+! v.201811051909 aktualizacja: pon, 05 lis 2018, 19:09:07 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -277,7 +277,6 @@ eteacher.pl###info_container
 eternityproject.pl##div.newsbar
 etipolam.com.pl##.ico-wrapper
 everhome.pl##div.shotimoo
-ewyszkow.pl###cookies_notification
 expansa.pl##.ui-resizable
 expozdrowie.pl###alert_popup
 expozdrowie.pl,fzz.pl##div#alert_popup
@@ -877,7 +876,6 @@ polopiryna.pl,polpharma.pl##.monit
 polska.googleblog.com###cookieChoiceInfo
 polskicaravaning.pl###myModalpol
 polskieradio.pl,dziennikwschodni.pl##.rodo-modal
-polskieszlaki.pl###CookieAlert
 polskiprawnik.pl##.reveal-modal-bg, #popup3
 pomagam.pl###pp-info
 popoznaniu.pl##div#divcook
@@ -914,7 +912,6 @@ psychiatria.pl,forumneurologiczne.pl##[aria-describedby="ajaxDialogrodopopup"], 
 puk.elk.pl###AgreeCookieMsg
 pulawy.eu###modalRodo, .modal-backdrop
 punkt44.pl###alertTop
-purepc.pl##.cookiesinfo
 pushpushgo.com##.ppg-cookies
 pwik.wolomin.pl###oknoModal
 pw.edu.pl##.lb-overlay, .lb-wrapper
@@ -1402,8 +1399,10 @@ pl##span[class*="Cookie"]
 pl##span[class*="cookie"]
 pl###AcceptCookie:not(body):not(html)
 pl###CPolicy:not(body):not(html)
+pl###CookieAlert:not(body):not(html)
 pl###CookieInfo:not(body):not(html)
 pl###CookielawBanner:not(body):not(html)
+pl###CybotCookiebotDialog:not(body):not(html)
 pl###acceptCookies:not(body):not(html)
 pl###amp-user-notification1:not(body):not(html)
 pl###barritaloca:not(body):not(html)
@@ -1536,6 +1535,7 @@ pl##.cookieWrapper:not(body):not(html)
 pl##.cookiepolicy:not(body):not(html)
 pl##.cookiesNotificationOuter:not(body):not(html)
 pl##.cookiesNotification:not(body):not(html)
+pl##.cookiesinfo:not(body):not(html)
 pl##.cookiespanel:not(body):not(html)
 pl##.cookies-accept:not(body):not(html)
 pl##.cookies-alert:not(body):not(html)
