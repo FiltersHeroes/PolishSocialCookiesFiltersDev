@@ -1,11 +1,11 @@
-! Checksum: +Wp5WAUNu9ozhezq4Y36PA
+! Checksum: iLD3D/Z5LXRU3UCKlkij2A
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811051600
-! Last modified: Mon, 05 Nov 2018, 16:00:31 UTC+01
+! Version: 201811051704
+! Last modified: Mon, 05 Nov 2018, 17:04:51 UTC+00
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811051600 aktualizacja: pon, 05 lis 2018, 16:00:31 UTC+01
+! v.201811051704 aktualizacja: pon., 05 lis 2018, 17:04:52 UTC+00
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -110,7 +110,7 @@ neon24.pl##script:inject(abort-on-property-read.js, Service.cookieMonster)
 news.google.com##.gb_Id[style="height: 94px;"]:style(height: 64px !important;)
 obpon.pl##.menu-flashmessages:style(top: 0 !important;)
 obywatel.gov.pl###modal-rodo, .modal-backdrop
-obywatel.gov.pl,m.24jgora.pl,e-sochaczew.pl,pultusk24.pl,multimediago.pl,dane.gov.pl,24wroclaw.pl,zwolen.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+obywatel.gov.pl,m.24jgora.pl,e-sochaczew.pl,pultusk24.pl,multimediago.pl,dane.gov.pl,24wroclaw.pl,zwolen.pl,wrzesnia.info.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
 opiniodajnia.pl##body:style(overflow: visible !important;)
@@ -159,6 +159,7 @@ wagrowczanie.pl##.showRodo
 webhelp.pl###wrapper:style(margin-top: auto !important;)
 wpolityce.pl##.rhododendron-body-with-popup:style(overflow: auto !important;)
 wpolityce.pl##.rhododendron-popup, .rhododendron-popup-overlay
+wrzesnia.info.pl###rodo, .modal-backdrop
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px !important;)
@@ -166,7 +167,7 @@ zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
 zeropln.antyweb.pl,mazury.travel,wagrowczanie.pl,praca.antyweb.pl,kaliszak.pl,skyscrapercity.com,prawdaobiektywna.pl##body:style(overflow: auto !important;)
 zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
-zsgarwolin.pl##.mfp-content:-abp-has(#cadre_alert_cookies)
+zsgarwolin.pl##.mfp-content:has(#cadre_alert_cookies)
 zsgarwolin.pl##.mfp-ready.mfp-bg
 zwolen.pl###g_toplayer, .modal-backdrop
 !
