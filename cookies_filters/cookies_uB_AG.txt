@@ -1,11 +1,11 @@
-! Checksum: gF1NZkc7fQLa3v7Zv2sqvg
+! Checksum: lvZ6BWEivznAP2HXChnJsg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811050849
-! Last modified: Mon, 05 Nov 2018, 08:49:37 UTC+01
+! Version: 201811051007
+! Last modified: Mon, 05 Nov 2018, 10:07:42 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811050849 aktualizacja: pon, 05 lis 2018, 08:49:37 UTC+01
+! v.201811051007 aktualizacja: pon, 05 lis 2018, 10:07:42 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -233,6 +233,7 @@ autostrada-a2.pl##+js(remove-attr.js, class, body.cookielaw)
 !#if cap_html_filtering
 4fun.tv##^#cModal
 alltube.tv,alltube.pl##^#rodo-popup
+autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl##^#rodo
 autostrada-a2.pl##+js(remove-attr.js, class, body.cookielaw)
 autostrada-a2.pl##^#rodo-box, #cookielaw-box
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl##^.popmake-overlay
@@ -241,16 +242,14 @@ born2be.pl,renee.pl##^.rules-modal
 budownictwo.pl##^#rodoLayer
 cenapaliw.pl##^#CBCookieMsg
 dalmierze.pl##^#Widget3
-emas.gdos.gov.pl,projekty.gdos.gov.pl##^[id^="banner-komunikat-rodo-"]
+emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##^[id^="banner-komunikat-rodo-"]
 empik.com##^.cookies-accept
 eobuwie.com.pl##^script:has-text(technologii cookies)
 ferguson-digital.eu##^#cookie-notice
 fryzomania.pl##^#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl##^.rodo
-gdos.gov.pl##^#banner-komunikat-rodo-gdos-2
-infoplanet.pl,polski-tenis.pl,craftserve.pl,autakrajowe.com.pl##^#rodo
 infostrow.pl,roztoczanskipn.pl,wroclaw.dlawas.info##^#rodo-modal
-lovekrakow.pl,djoles.pl,muzyczneradio.com.pl##^#modal-rodo
+lovekrakow.pl,muzyczneradio.pl##^#modal-rodo
 motobanda.pl##^#rodo
 natura2000.gdos.gov.pl##^#apla-banner
 ogloszenia.plock.pl##^#dialog-rodo
@@ -263,6 +262,7 @@ pro-sprzet.pl##^#myWorning
 publikator.com.pl##^body script:has-text(polityka|zaufani)
 pulawy.eu##^#modalRodo
 radiobielsko.pl##^script:has-text(#rodo)
+rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl,tuwroclaw.com,tulodz.com,zakopane.info##^#pd-modal
 sevenpolska.com##^#flipFlop
 skm.pkp.pl##^#dialog-message-rodo
 spolem.katowice.pl##^#popup.modal
@@ -271,11 +271,11 @@ tuzdrowie.pl##^#popupModal
 tvasta.pl##^#infoModal
 tvregionalna24.pl##^#rodoModal
 twojeankiety.pl##^.polPriv
-ustawmundial.weszlo.com,ustawlige.com##^#privacy-modal
+ustawlige.com,ustawmundial.weszlo.com##^#privacy-modal
 wtk.pl##^#GDPR-modal
-zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl##^#pd-modal
 zdajmyrazem.pl##^#gdprModal
 ztm.poznan.pl##^#PopUP
+!djoles.pl##^#modal-rodo
 !#endif
 !#if !cap_user_stylesheet
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:style(visibility: hidden !important;)
@@ -287,21 +287,20 @@ azure.microsoft.com###main:style(padding-top: 88px !important;)
 !#if !ext_ublock
 4fun.tv$$#cModal
 alltube.tv,alltube.pl$$#rodo-popup
+autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl$$#rodo
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl$$.popmake-overlay
 bioagris.pl$$#policy-accept-div
 cenapaliw.pl$$#CBCookieMsg
 dalmierze.pl$$#Widget3
-emas.gdos.gov.pl,projekty.gdos.gov.pl$$[id^="banner-komunikat-rodo-"]
+emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl$$[id^="banner-komunikat-rodo-"]
 empik.com$$.cookies-accept
-eobuwie.com.pl$$script[tag-content="technologii cookies"]
 ferguson-digital.eu$$#cookie-notice
 fryzomania.pl$$#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl$$.rodo
-gdos.gov.pl$$#banner-komunikat-rodo-gdos-2
-infoplanet.pl,polski-tenis.pl,craftserve.pl,autakrajowe.com.pl$$#rodo
 infostrow.pl,roztoczanskipn.pl,wroclaw.dlawas.info$$#rodo-modal
-lovekrakow.pl,djoles.pl,muzyczneradio.com.pl$$#modal-rodo
+lovekrakow.pl$$#modal-rodo
 motobanda.pl$$#rodo
+muzyczneradio.pl$$#modal-rodo
 natura2000.gdos.gov.pl$$#apla-banner
 ogloszenia.plock.pl$$#dialog-rodo
 okazik.pl$$script[tag-content="#cookie-dialog"]
@@ -315,6 +314,7 @@ pro-sprzet.pl$$#myWorning
 publikator.com.pl$$script[tag-content="polityka|zaufani"]
 pulawy.eu$$#modalRodo
 radiobielsko.pl$$script[tag-content="rodo"]
+rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl,tuwroclaw.com,tulodz.com,zakopane.info$$#pd-modal
 sevenpolska.com$$#flipFlop
 skm.pkp.pl$$#dialog-message-rodo
 spolem.katowice.pl$$#popup.modal
@@ -323,9 +323,10 @@ tuzdrowie.pl$$#popupModal
 tvasta.pl$$#infoModal
 tvregionalna24.pl$$#rodoModal
 twojeankiety.pl$$.polPriv
-ustawmundial.weszlo.com,ustawlige.com$$#privacy-modal
+ustawlige.com,ustawmundial.weszlo.com$$#privacy-modal
 wtk.pl$$#GDPR-modal
-zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl$$#pd-modal
 zdajmyrazem.pl$$#gdprModal
 ztm.poznan.pl$$#PopUP
+!djoles.pl$$#modal-rodo
+!eobuwie.com.pl$$script[tag-content="technologii cookies"]
 !#endif
