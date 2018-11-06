@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: LhLthiQx65oTF3FcJvHOmA
+! Checksum: sX6L8yQJjKLZ3KnzkH16UQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811061856
-! Last modified: Tue, 06 Nov 2018, 18:56:49 UTC+01
+! Version: 201811062047
+! Last modified: Tue, 06 Nov 2018, 20:47:33 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811061856 aktualizacja: wto, 06 lis 2018, 18:56:49 UTC+01
+! v.201811062047 aktualizacja: wto, 06 lis 2018, 20:47:33 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -41,14 +41,12 @@ adm-media.pl,kociadolina.pl##.policy
 adobe.com##.message
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl##body > div:not([id]):not([class])[style*="position"][style*="relative"]
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
-agatameble.pl##.js-infoBarCookies
 agencjagazeta.pl###rodoLayer
 agropolska.pl##.ui-widget-overlay, .ui-widget-content
 airbnb.pl##[data-veloute="cookie-disclaimer"]
 airkiosk.lot.com##.mf-modal-overlay, .mf-modal-iframe
 airly.eu##.cookies-policy
 airly.eu#?#.welcome-modal__block--whatsNew.welcome-modal__block:nth-of-type(2):-abp-contains(Rodo + ciasteczka)
-airport.gdansk.pl###cookiesAlert
 airport.gdansk.pl,r.pl###rodoAlert
 akademia-piwa.pl##div#polityka_tekst
 alerabat.com###popup-rodo
@@ -96,7 +94,7 @@ autogespot.pl##div[class^="popup"]:not(.fancybox-margin)
 autogielda.pl,mix4kids.tv##.modal-backdrop
 autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.net##div#cop
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
-avast.com,pay.google.com,portalsamorzadowy.pl##.cookie-bar
+avast.com,pay.google.com##.cookie-bar
 avioner.pl##.alert
 azure.microsoft.com###cookie-prompt
 a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info###cookie-notice
@@ -120,13 +118,8 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
-bip.biala.gmina.pl##.bipPasekCookie
 bip.kujawsko-pomorskie.pl###scnb-cookie-bar
-bip.lubelskie.pl###cookies_
 bip.sejmik.kielce.pl##.pa_sci
-bip.uml.lodz.pl,bip.gmwodzislawsl.finn.pl###cookie-box
-bip.um.szczecin.pl###simplecookienotification_v01
-bip.warszawa.pl###BIPCookies
 bitcomputer.pl###pp
 bitmarket24.pl###notifications
 bitmaszyna.pl###wwelcome
@@ -257,8 +250,7 @@ ekliniki.pl,sklepbiegacza.pl##body > div[style]:not([id]):not([class]):nth-of-ty
 ekosalus.pl##.welcomebar
 ekosalus.pl##div#DIVwelcome
 ekoserwis.poznan.pl##.content-head-information
-ekrs.ms.gov.pl###cookiesStatement
-eldom.eu,autopartner.pl###cookie-alert
+eldom.eu###cookie-alert
 elektroda.pl##div#top2
 elektroinstalacje.info###cookie-control
 elektroonline.pl###ccc-state
@@ -278,7 +270,6 @@ epuap.gov.pl,webcamera.pl###rodo-modal
 erboristeriamagentina.it###blultpdfbanner
 ergokantor.pl##.alert-warning.alert
 eservice.pl###zwcc
-eskago.pl###mpc_cookie_intro
 esklep-sbs.pl###cibMessage
 espritgames.com###easy-cookies-policy-main-wrapper
 eteacher.pl###info_container
@@ -556,7 +547,6 @@ klublifestyle.pl###fancybox-wrap, #fancybox-overlay, #fancybox-loading, #fancybo
 kobieta.byc.pl###kontener1
 kochamwroclaw.pl###tfade, #cwv3_dialog, #tlight, .dialog-overlay, #surbma-yes-no-popup
 kodilla.com##.cookies-prompt
-kodzisz.pl##.cookieinfo
 kokos.pl##.flashMessage
 kolejeslaskie.com##div#c_m
 komfort.pl###intro_row, #kt-cookies
@@ -1393,22 +1383,22 @@ cookie-law-popup.js$script
 !
 ! Ogólne reguły ukrywające
 com##.is-ready.is-shown.cnil-banner:not(body):not(html)
-pl##.JSWrapper
-pl##aside[class*="Cookie"]
-pl##aside[class*="cookie"]
+pl##aside[class*="Cookie"]:not(body):not(html)
+pl##aside[class*="cookie"]:not(body):not(html)
 pl##div#cookiepopupdiv:not(body):not(html)
 pl##div#footer-cookies:not(body):not(html)
-pl##div[class^="pea_cook_wrapper"]
-pl##div[id^="cookemessage"]
-pl##iframe[class*="Cookie"]
-pl##iframe[class*="cookie"]
+pl##div[class^="pea_cook_wrapper"]:not(body):not(html)
+pl##div[id^="cookemessage"]:not(body):not(html)
+pl##iframe[class*="Cookie"]:not(body):not(html)
+pl##iframe[class*="cookie"]:not(body):not(html)
 pl##inpl_cp_cnt:not(body):not(html)
-pl##nav[class*="Cookie"]
-pl##nav[class*="cookie"]
+pl##nav[class*="Cookie"]:not(body):not(html)
+pl##nav[class*="cookie"]:not(body):not(html)
 pl##sliding-popup:not(body):not(html)
-pl##span[class*="Cookie"]
-pl##span[class*="cookie"]
+pl##span[class*="Cookie"]:not(body):not(html)
+pl##span[class*="cookie"]:not(body):not(html)
 pl###AcceptCookie:not(body):not(html)
+pl###BIPCookies:not(body):not(html)
 pl###CPolicy:not(body):not(html)
 pl###CookieAlert:not(body):not(html)
 pl###CookieInfo:not(body):not(html)
@@ -1416,9 +1406,9 @@ pl###CookielawBanner:not(body):not(html)
 pl###CybotCookiebotDialog:not(body):not(html)
 pl###acceptCookies:not(body):not(html)
 pl###amp-user-notification1:not(body):not(html)
-pl###avt-cookie-popup
+pl###avt-cookie-popup:not(body):not(html)
 pl###barritaloca:not(body):not(html)
-pl###blockPopupInformation
+pl###blockPopupInformation:not(body):not(html)
 pl###catapult-cookie-bar:not(body):not(html)
 pl###ca_banner:not(body):not(html)
 pl###cc-notification:not(body):not(html)
@@ -1455,6 +1445,7 @@ pl###cookiemonster_popup:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html) + #document_modal
 pl###cookieoverlay:not(body):not(html)
 pl###cookiepolicydiv:not(body):not(html)
+pl###cookiesAlert:not(body):not(html)
 pl###cookiesBar:not(body):not(html)
 pl###cookiesBox:not(body):not(html)
 pl###cookiesDiv:not(body):not(html)
@@ -1481,8 +1472,11 @@ pl###cookies_law:not(body):not(html)
 pl###cookies_message:not(body):not(html)
 pl###cookies_notification:not(body):not(html)
 pl###cookies_policy_box:not(body):not(html)
+pl###cookies_:not(body):not(html)
 pl###cookiewarning:not(body):not(html)
+pl###cookie-alert:not(body):not(html)
 pl###cookie-bar:not(body):not(html)
+pl###cookie-box:not(body):not(html)
 pl###cookie-consent:not(body):not(html)
 pl###cookie-content:not(body):not(html)
 pl###cookie-information-wrapper:not(body):not(html)
@@ -1508,6 +1502,7 @@ pl###icc_message:not(body):not(html)
 pl###js-cookieInfo:not(body):not(html)
 pl###komunikat-cookies:not(body):not(html)
 pl###monitcookie:not(body):not(html)
+pl###mpc_cookie_intro:not(body):not(html)
 pl###notice-cookie-block:not(body):not(html)
 pl###notice_bar:not(body):not(html)
 pl###notifyCookie:not(body):not(html)
@@ -1524,6 +1519,7 @@ pl###rodo-popup:not(.fade):not(body):not(html)
 pl###showCookieInfo:not(body):not(html)
 pl###showCookie:not(body):not(html)
 pl###showCookie:not(body):not(html) ~ br
+pl###simplecookienotification_v01:not(body):not(html)
 pl###sliding-popup:not(body):not(html)
 pl###stg-privacy-bar:not(body):not(html)
 pl###stopcookinfo:not(body):not(html)
@@ -1531,6 +1527,7 @@ pl###w357_cpnb:not(body):not(html)
 pl###wc:not(body):not(html)
 pl###wpca-box:not(body):not(html)
 pl##.COOKIE_PRIVACY_CONT:not(body):not(html)
+pl##.JSWrapper:not(body):not(html)
 pl##.RACKWrapper:not(body):not(html)
 pl##.agree-cookie-wrap:not(body):not(html)
 pl##.alert-sm.alert-warning.alert
@@ -1550,6 +1547,7 @@ pl##.cookieNotification:not(body):not(html)
 pl##.cookiePolicy:not(body):not(html)
 pl##.cookieWarningBox:not(body):not(html)
 pl##.cookieWrapper:not(body):not(html)
+pl##.cookieinfo:not(body):not(html)
 pl##.cookiepolicy:not(body):not(html)
 pl##.cookiesNotificationOuter:not(body):not(html)
 pl##.cookiesNotification:not(body):not(html)
@@ -1562,7 +1560,7 @@ pl##.cookies-box:not(body):not(html)
 pl##.cookies-container:not(body):not(html)
 pl##.cookies-info-container:not(body):not(html)
 pl##.cookies-info:not(body):not(html)
-pl##.cookies-policy-container
+pl##.cookies-policy-container:not(body):not(html)
 pl##.cookies-statement:not(body):not(html)
 pl##.cookies:not(body):not(html)
 pl##.cookies:not(.wrapper):not(.popup-newsletter):not(#page):not(body):not(html)
@@ -1571,6 +1569,7 @@ pl##.cookies_message:not(body):not(html)
 pl##.cookies_policy:not(body):not(html)
 pl##.cookie-alert:not(body):not(html)
 pl##.cookie-banner:not(body):not(html)
+pl##.cookie-bar:not(body):not(html)
 pl##.cookie-consent:not(body):not(html)
 pl##.cookie-disclaimer:not(body):not(html)
 pl##.cookie-info:not(body):not(html)
@@ -1593,6 +1592,7 @@ pl##.footer__cookies:not(body):not(html)
 pl##.gdpr-privacy-bar:not(body):not(html)
 pl##.head-page-information:not(body):not(html)
 pl##.hpm-alert-cookies:not(body):not(html)
+pl##.js-infoBarCookies:not(body):not(html)
 pl##.message--cookie:not(body):not(html)
 pl##.message_cookie:not(body):not(html)
 pl##.notice_notice_cookies:not(body):not(html)
@@ -1611,17 +1611,12 @@ pl##.rodo-popup:not(body):not(html)
 pl##.wpgdprc-consent-bar:not(body):not(html)
 pl##.wrap-cookie-info:not(body):not(html)
 pl##[class*="cookie-policy"]:not(body):not(html)
-pl##[class^="box-cookie"]
+pl##[class^="box-cookie"]:not(body):not(html)
 pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
 pl##[id*="cookie_"]:not(body):not(html)
-pl##[id^="cookies-message"]
+pl##[id^="cookies-message"]:not(body):not(html)
 pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
-pl##[id^="topInfo"]
-##.ciasteczko
-##.cookieForm
-##.cookskom
-##.giodoContainer
-##.messi
+pl##[id^="topInfo"]:not(body):not(html)
 ##DIV[style*="background:url(images/cookies_tlo.png)"]
 ##DIV[style*="url(layout/cookies.png)"]
 ##ciasteczka:not(body):not(html)
@@ -1634,7 +1629,7 @@ pl##[id^="topInfo"]
 ###ciacho:not(body):not(html)
 ###ciacho_bar:not(body):not(html)
 ###ciasteczkaInfo:not(body):not(html)
-###ciasteczka-komunikat
+###ciasteczka-komunikat:not(body):not(html)
 ###ciasteczka:not(body):not(html)
 ###ciasteczka_info:not(body):not(html)
 ###ciasteczka_tresc:not(body):not(html)
@@ -1685,24 +1680,30 @@ pl##[id^="topInfo"]
 ###wrap.ciacho-wrap-container:not(body):not(html)
 ###zk_polityka_ciastek:not(body):not(html)
 ###zk_polityka_ciastek_overlay:not(body):not(html)
-##.ciacho2-wrap-container
+##.bipPasekCookie:not(body):not(html)
+##.ciacho2-wrap-container:not(body):not(html)
 ##.ciacho:not(body):not(html)
 ##.ciasteczka-info:not(body):not(html)
 ##.ciasteczka:not(body):not(html)
+##.ciasteczko:not(body):not(html)
 ##.ciastka:not(body):not(html)
 ##.ciastka_ostrzezenie:not(body):not(html)
+##.cookieForm:not(body):not(html)
+##.cookskom:not(body):not(html)
 ##.dhl-cgk:not(body):not(html)
 ##.ek-bar:not(body):not(html)
+##.giodoContainer:not(body):not(html)
 ##.kukiez:not(body):not(html)
+##.messi:not(body):not(html)
 ##.pasek_cookie:not(body):not(html)
 ##.politykaprywatnosci:not(body):not(html)
 ##.polityka-cookie:not(body):not(html)
 ##.polityka_ciastek:not(body):not(html)
 ##.wordpress-gdpr-popup:not(body):not(html)
-##[class*="coockie"]
-##[id*="ciasteczka_alert"]
-##[id*="coockie"]
-##[id^="PolitykaPrywatnosci"]
+##[class*="coockie"]:not(body):not(html)
+##[id*="ciasteczka_alert"]:not(body):not(html)
+##[id*="coockie"]:not(body):not(html)
+##[id^="PolitykaPrywatnosci"]:not(body):not(html)
 !
 !
 ! Blokowanie elementów po zastosowaniu generichide
@@ -1731,6 +1732,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 ! Wyjątki
 addons.mozilla.org#@#.privacy-policy
 allegro.pl,paradoxplaza.com#@#[class*="cookie-policy"]:not(body):not(html)
+bskrasnosielc.pl#@##cookiewarning:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
 gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section)
 laciate.pl,loterialaciate.pl#@#.cookies:not(body):not(html)
