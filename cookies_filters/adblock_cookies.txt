@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: kd1aTnz89JFxmQbHteS/wQ
+! Checksum: AavVF8g6kA+ukOYKrh7edA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811052134
-! Last modified: Mon, 05 Nov 2018, 21:34:58 UTC+01
+! Version: 201811060815
+! Last modified: Tue, 06 Nov 2018, 08:15:11 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811052134 aktualizacja: pon, 05 lis 2018, 21:34:58 UTC+01
+! v.201811060815 aktualizacja: wto, 06 lis 2018, 08:15:11 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1689,12 +1689,10 @@ pl##[id^="topInfo"]
 !
 ! Blokowanie elementów po zastosowaniu generichide
 24opole.pl###div_cookie_accept
-applemobile.pl###cookies-message
 auto-swiat.pl###termsPopup
 eskago.pl##div[class^="app_gdpr"]
 filmweb.pl##.cookieInfo, div.topBarCont
 istotne.pl##.in.fade.modal, header.top, .in.fade.modal-backdrop, .notification-info.notification
-konkret24.tvn24.pl,kontakt24.tvn24.pl###msgLayer
 kupbilet.onet.pl##.alert-dismissible
 minecraftpolska.net##.cookieinfo
 mybank.pl##.ciasteczka
@@ -1703,6 +1701,7 @@ rapidgrab.pl##.cc_banner
 shinden.pl##.as-oil-content-overlay
 strefabajek.vod.pl###cookie-bar
 sympatia.onet.pl###cookieInfo
+tvn24.pl###msgLayer
 webcamera.pl###catapult-cookie-bar
 wzory-cv.com##.gatewayBar
 zyciepabianic.pl###cookie-warn
