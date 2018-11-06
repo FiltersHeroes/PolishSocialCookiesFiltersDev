@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: SVLadDX5HUK4CAbjSHdQCw
+! Checksum: MOVKwHqK5lZ/B47KqDGlVQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811060932
-! Last modified: Tue, 06 Nov 2018, 09:32:39 UTC+01
+! Version: 201811060948
+! Last modified: Tue, 06 Nov 2018, 09:48:46 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811060932 aktualizacja: wto, 06 lis 2018, 09:32:39 UTC+01
+! v.201811060948 aktualizacja: wto, 06 lis 2018, 09:48:46 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -52,6 +52,7 @@ airly.eu#?#.welcome-modal__block--whatsNew.welcome-modal__block:nth-of-type(2):-
 airport.gdansk.pl###cookiesAlert
 airport.gdansk.pl,r.pl###rodoAlert
 akademia-piwa.pl##div#polityka_tekst
+akademia.nask.pl,saferinternet.pl###cookieoverlay
 alerabat.com###popup-rodo
 alga-shop.pl##.top.infobar_wrap
 aliexpress.com###j-aliexpress-notice
@@ -731,6 +732,7 @@ m.benchmark.pl###private-policy-popup
 m.facebook.com###header-notices
 naekranie.pl###modal-rodo-info, .reveal-modal-bg
 nakanapie.pl##div.sticker
+nask.pl###cookies-popup
 naszamlawa.pl###fancybox-overlay
 natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl,joemonster.org,stylowi.pl,kotburger.pl,faktopedia.pl,komixxy.pl,demotywatory.pl##div[class^="app_gdpr"]
 naturo.pl###simple-modal, #simple-modal-overlay
