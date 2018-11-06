@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: oljxgVuXgH6CSSjos7coeg
+! Checksum: 6Xl2EG5km6bgPmFDf8BbBg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811061347
-! Last modified: Tue, 06 Nov 2018, 13:47:07 UTC+01
+! Version: 201811061500
+! Last modified: Tue, 06 Nov 2018, 15:00:30 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811061347 aktualizacja: wto, 06 lis 2018, 13:47:07 UTC+01
+! v.201811061500 aktualizacja: wto, 06 lis 2018, 15:00:30 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -68,7 +68,7 @@ amarone.pl###bannerMSG
 amazon.de###desktop-cookie-disclosure
 americanexpress.com###cookie_Header
 amundi.pl###disclaimer
-antyweb.pl,norauto.pl###privacy
+antyweb.pl,norauto.pl,grupakety.com###privacy
 apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl###popup
 apkpure.com###policy-info
 apra.pl###popup-overlay
@@ -219,7 +219,7 @@ domisad.pl##.message-cockies
 domodi.pl,homebook.pl##body > div:not(body):not(id):not(class)[style*="position: fixed;"]
 dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;bottom: 0px;left: 0px;text-align: center;color: #000;border-top: 1px #000 solid;z-index: 100;"]
 dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,tubawyszkowa.pl,tubaostrowa.pl,tubachorzowa.pl##.rodo
-dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl###rodo
+dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl###rodo
 drabex.com###footer
 dreammachines.pl##.modal-backdrop
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
@@ -1139,7 +1139,7 @@ weranda.pl,werandacountry.pl,werandaweekend.pl,astromagia.pl,wrozka.com.pl,gwiaz
 wgospodarce.pl,wpolsce.pl##.rhododendron-popup, .rhododendron-popup-overlay
 whatsapp.com###banner
 wiara.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
-wielkopolska.travel##.pea_cook_wrapper
+wielkopolska.travel,andrychow.eu##.pea_cook_wrapper
 wiem-to.pl###notice_visitor
 wiescirolnicze.pl###popup_newsletter
 wikar.com.pl##.popupContent
