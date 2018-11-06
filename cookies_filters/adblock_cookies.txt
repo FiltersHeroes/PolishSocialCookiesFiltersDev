@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Mus87GUPdF3vOvgMbhbtCw
+! Checksum: heAtPF6RSEW/0WTiqIEOLQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811061014
-! Last modified: Tue, 06 Nov 2018, 10:14:04 UTC+01
+! Version: 201811061033
+! Last modified: Tue, 06 Nov 2018, 10:33:38 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,14 +17,13 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811061014 aktualizacja: wto, 06 lis 2018, 10:14:04 UTC+01
+! v.201811061033 aktualizacja: wto, 06 lis 2018, 10:33:38 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
 2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,stefczyk.info,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm###cookies
 4hifi.pl,advatus.pl,tylkodywan.pl##.myModal-box
 4lomza.pl###komunikat_rodo
-5v.pl###cookie-warn
 24jgora.pl###myModal_cookie
 40latki.pl###noty_bottom_layout_container
 a4-klub.pl,pfmrc.eu###document_modal
@@ -52,7 +51,6 @@ airly.eu#?#.welcome-modal__block--whatsNew.welcome-modal__block:nth-of-type(2):-
 airport.gdansk.pl###cookiesAlert
 airport.gdansk.pl,r.pl###rodoAlert
 akademia-piwa.pl##div#polityka_tekst
-akademia.nask.pl,saferinternet.pl###cookieoverlay
 alerabat.com###popup-rodo
 alga-shop.pl##.top.infobar_wrap
 aliexpress.com###j-aliexpress-notice
@@ -90,7 +88,6 @@ assecods.pl###spu-22991, #spu-bg-22991
 astar.czest.pl##.lean-overlay
 atlas-roslin.pl##.tytul > span
 atskaner.pl###cookieInfoWindow
-audioplus.pl###cookiesBox
 audioteka.com##.anonymousToSConsent_mask
 autocentrum.pl##.hello-rodo
 autodna.pl##.privacy_policy-info
@@ -723,7 +720,7 @@ mtm-info.pl###etisoA
 multiplay.pl##.inform
 musicexpert.pl###x13popup-container, #x13popup-cover
 muve.pl##.f-find-box
-muzyczneradio.pl###legalLayer, #cookie-accep
+muzyczneradio.pl###cookie-accep
 myhome.pl,newsbook.pl,inianie.pl###wpfront-notification-bar
 myob.pl###warning-popup
 myownconference.pl##.co-ag
@@ -733,7 +730,6 @@ m.benchmark.pl###private-policy-popup
 m.facebook.com###header-notices
 naekranie.pl###modal-rodo-info, .reveal-modal-bg
 nakanapie.pl##div.sticker
-nask.pl###cookies-popup
 naszamlawa.pl###fancybox-overlay
 natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl,joemonster.org,stylowi.pl,kotburger.pl,faktopedia.pl,komixxy.pl,demotywatory.pl##div[class^="app_gdpr"]
 naturo.pl###simple-modal, #simple-modal-overlay
@@ -878,7 +874,6 @@ polona.pl##cbn-cookies
 polopiryna.pl,polpharma.pl##.monit
 polska.googleblog.com###cookieChoiceInfo
 polskicaravaning.pl###myModalpol
-polskieradio24.pl##.wrap-cookie-info
 polskieradio.pl,dziennikwschodni.pl##.rodo-modal
 polskiprawnik.pl##.reveal-modal-bg, #popup3
 pomagam.pl###pp-info
@@ -1445,8 +1440,10 @@ pl###cookiebox:not(body):not(html)
 pl###cookiecontrol:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html) + #document_modal
+pl###cookieoverlay:not(body):not(html)
 pl###cookiepolicydiv:not(body):not(html)
 pl###cookiesBar:not(body):not(html)
+pl###cookiesBox:not(body):not(html)
 pl###cookiesDiv:not(body):not(html)
 pl###cookiesEU-box:not(body):not(html)
 pl###cookiesMsg:not(body):not(html)
@@ -1462,6 +1459,7 @@ pl###cookies-container:not(body):not(html)
 pl###cookies-info:not(body):not(html)
 pl###cookies-policy:not(body):not(html)
 pl###cookies-politics:not(body):not(html)
+pl###cookies-popup:not(body):not(html)
 pl###cookies:not(body):not(html):not(.section)
 pl###cookies_content:not(body):not(html)
 pl###cookies_info:not(body):not(html)
@@ -1483,6 +1481,7 @@ pl###cookie-notice:not(body):not(html)
 pl###cookie-policy-banner:not(body):not(html)
 pl###cookie-policy:not(body):not(html)
 pl###cookie-terms:not(body):not(html)
+pl###cookie-warn:not(body):not(html)
 pl###cookie_container:not(body):not(html)
 pl###divCookie:not(body):not(html)
 pl###elGuestTerms[data-role="guestTermsBar"]:not(body):not(html)
@@ -1595,6 +1594,7 @@ pl##.rodo-accept:not(body):not(html):not(input):not(a)
 pl##.rodo-overlay:not(body):not(html)
 pl##.rodo-popup:not(body):not(html)
 pl##.wpgdprc-consent-bar:not(body):not(html)
+pl##.wrap-cookie-info:not(body):not(html)
 pl##[class*="cookie-policy"]:not(body):not(html)
 pl##[class^="box-cookie"]
 pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
