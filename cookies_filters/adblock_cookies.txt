@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: WXg2TZiSeK6HlBBbm9SIRA
+! Checksum: D5YTY3cEeHgJk57Vxcp+RQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811061557
-! Last modified: Tue, 06 Nov 2018, 15:57:57 UTC+01
+! Version: 201811061846
+! Last modified: Tue, 06 Nov 2018, 18:46:12 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811061557 aktualizacja: wto, 06 lis 2018, 15:57:57 UTC+01
+! v.201811061846 aktualizacja: wto, 06 lis 2018, 18:46:12 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -119,8 +119,10 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
+bip.biala.gmina.pl##.bipPasekCookie
 bip.lubelskie.pl###cookies_
-bip.uml.lodz.pl###cookie-box
+bip.sejmik.kielce.pl##.pa_sci
+bip.uml.lodz.pl,bip.gmwodzislawsl.finn.pl###cookie-box
 bip.um.szczecin.pl###simplecookienotification_v01
 bip.warszawa.pl###BIPCookies
 bitcomputer.pl###pp
@@ -740,6 +742,7 @@ natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl,joemonster.
 naturo.pl###simple-modal, #simple-modal-overlay
 nauka.gov.pl##.ui-notificationbar.top
 nazaruk.pl##.fixedInfo
+nck.pl###cookieterms
 ncplusgo.pl##.js-messages
 ncplus.pl##.js-messages
 neobiznes.pl###cpolicyHolder
