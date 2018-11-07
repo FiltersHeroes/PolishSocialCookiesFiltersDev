@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: njB57xk8Hm4tMQSUy2ycyA
+! Checksum: iWgjukQrNigJr6vHV4dAvA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811070827
-! Last modified: Wed, 07 Nov 2018, 08:27:26 UTC+01
+! Version: 201811070837
+! Last modified: Wed, 07 Nov 2018, 08:37:04 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811070827 aktualizacja: śro, 07 lis 2018, 08:27:26 UTC+01
+! v.201811070837 aktualizacja: śro, 07 lis 2018, 08:37:04 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1326,6 +1326,7 @@ cookie-law-popup.js$script
 ||nike.com/*CookieSettingsManager$xmlhttprequest
 ||nike.com/*/script.js?assets=nike.gadget.CookieSettingsManager&loaded=nike.exp.global.Ad*nike.ScriptLoade$script
 ||openid.pino.pl/app/static/global/rodo.js
+||ose.gov.pl/rest/public/consent/cookies-body/pl$xmlhttprequest
 ||paypass.pl/themes/paypass/js/cookies.js$script
 ||phufart.pl/info_o_cookie_utf8.js$script
 ||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
@@ -1745,8 +1746,8 @@ addons.mozilla.org#@#.privacy-policy
 allegro.pl,paradoxplaza.com#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
 gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section)
-laciate.pl,ose.gov.pl,loterialaciate.pl#@#.cookies:not(body):not(html)
-laciate.pl,ose.gov.pl,loterialaciate.pl#@#.cookies:not(.wrapper):not(.popup-newsletter):not(#page):not(body):not(html)
+laciate.pl,loterialaciate.pl#@#.cookies:not(body):not(html)
+laciate.pl,loterialaciate.pl#@#.cookies:not(.wrapper):not(.popup-newsletter):not(#page):not(body):not(html)
 linuxiarz.pl,piekarniaanka.pl,xboxarcade.pl,appki.com.pl,mvno-gsm.pl,okazik.pl#@#[id*="cookie-"]
 lomza.pl#@##komunikat-cookie
 naekranie.pl#@##polityka-cookies:not(body):not(html)
