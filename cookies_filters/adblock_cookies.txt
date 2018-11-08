@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: QbCyToMimrzXsaz+USLctw
+! Checksum: RlHbepGK6QuDua8GMjyPDw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811081122
-! Last modified: Thu, 08 Nov 2018, 11:22:27 UTC+01
+! Version: 201811081220
+! Last modified: Thu, 08 Nov 2018, 12:20:35 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811081122 aktualizacja: czw, 08 lis 2018, 11:22:27 UTC+01
+! v.201811081220 aktualizacja: czw, 08 lis 2018, 12:20:35 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -482,7 +482,8 @@ info.wiara.pl##div[style="border: 10px solid rgb(138, 138, 138); border-top-left
 inksystem.pl##.fixed_bottom
 inoreader.com##.landing_promo_banner_top
 inpay.pl##.ckcontent
-instagram.com#?#div>div>div:-abp-contains(cookie)
+instagram.com#?#div>div>div p:-abp-contains(cookie)
+instagram.com#?#section>div:-abp-contains(cookie)
 instytutlogopedyczny.pl###flash-msg
 interprojekt.pl###myModal, .modal-backdrop, .reveal-modal-bg
 intymna.pl###sb_bottom_float, #wymagania_sklepu_alert
