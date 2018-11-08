@@ -4,5 +4,4 @@ openpli.org##body > div:not([id]):not([class])
 autostrada-a2.pl###rodo-box, #cookielaw-box
 !+ PLATFORM(ext_ublock)
 autostrada-a2.pl##+js(remove-attr.js, class, body.cookielaw)
-!+ NOT_PLATFORM(ext_android_cb, ios, ext_ublock)
-autostrada-a2.pl#%#(function() { if (document.cookie.indexOf('rodo') == -1) { document.cookie = "rodo=true"; document.cookie = "cookielaw=true"; location.reload(); } })();
+
