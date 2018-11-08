@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: aEcEn3mmAAG1lBMbjAlb1Q
+! Checksum: P6kMT/uuHQpaRS/iYoAdeA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811081500
-! Last modified: Thu, 08 Nov 2018, 15:00:24 UTC+01
+! Version: 201811081516
+! Last modified: Thu, 08 Nov 2018, 15:16:46 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811081500 aktualizacja: czw, 08 lis 2018, 15:00:24 UTC+01
+! v.201811081516 aktualizacja: czw, 08 lis 2018, 15:16:46 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -184,7 +184,7 @@ circlek.pl###cookieboxM
 cire.pl###ramka_ciasteczka_info
 ckiw-dobieszkow.ohp.pl###eDcPopupBox
 ckmir.com.pl#?#p:-abp-contains(cookie)
-clarias.pl,smalltronic.pl###InfoCookie
+clarias.pl,smalltronic.pl,greenstar.pl###InfoCookie
 claritine.pl##.cc-grower
 clearchannel.com.pl,sokolka.com.pl###rodoPopup
 cmg24.pl##.RODO
@@ -694,6 +694,7 @@ mirjan24.pl###window_overlay
 mistrzowie.org##div[style="position: fixed; left:0; right:0; bottom:0; height:40px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 mixmedia.pl##div#cook_info
 mi.com##.top-notify
+mjmmusic.pl###cookieAlert
 mkidn.gov.pl###pa
 mklr.pl##DIV[style="position: fixed; left:0; right:0; bottom:0; height:40px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 mklr.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
