@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: P6kMT/uuHQpaRS/iYoAdeA
+! Checksum: jJabEyWgYVLnW+icZgTJ/w
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811081516
-! Last modified: Thu, 08 Nov 2018, 15:16:46 UTC+01
+! Version: 201811081542
+! Last modified: Thu, 08 Nov 2018, 15:42:28 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811081516 aktualizacja: czw, 08 lis 2018, 15:16:46 UTC+01
+! v.201811081542 aktualizacja: czw, 08 lis 2018, 15:42:28 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -97,7 +97,7 @@ autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.n
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 avast.com,pay.google.com##.cookie-bar
 avioner.pl##.alert
-awf.edu.pl,firmyinzynieria.com,prostozkranu.krakow.pl,merchtedes.pl,bip.um.rybnik.eu,mediaarena.pl,e-smartphone.pl###cookie
+awf.edu.pl,firmyinzynieria.com,prostozkranu.krakow.pl,merchtedes.pl,bip.um.rybnik.eu,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl###cookie
 awf.poznan.pl###redim-cookiehint
 azure.microsoft.com###cookie-prompt
 a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info###cookie-notice
@@ -184,7 +184,7 @@ circlek.pl###cookieboxM
 cire.pl###ramka_ciasteczka_info
 ckiw-dobieszkow.ohp.pl###eDcPopupBox
 ckmir.com.pl#?#p:-abp-contains(cookie)
-clarias.pl,smalltronic.pl,greenstar.pl###InfoCookie
+clarias.pl,smalltronic.pl,greenstar.pl,greenstar.pl###InfoCookie
 claritine.pl##.cc-grower
 clearchannel.com.pl,sokolka.com.pl###rodoPopup
 cmg24.pl##.RODO
@@ -237,6 +237,7 @@ dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,t
 dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl###rodo
 dreammachines.pl##.modal-backdrop
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
+drumshop.pl###cookiesblock-wrapper
 dstreet.pl###ToplayerConsent, #ToplayerCover
 dukapolska.com,onlinekredyty.pl,legnica.pl,zory.dlawas.pl###popupdiv
 duka.com###popupdiv
@@ -311,6 +312,7 @@ fandk.com.pl###block-block-6
 fansubs.pl##div[style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; top: 0px; right: 0%; width: 94%; opacity: 1; margin-left: 2%; display: block; "]
 fantastyka.pl##div[style="text-align: center; padding: 15px; border-bottom: 2px solid #cc3300; background: url(obrazki/kwadrat-monit.png); font-size: 9pt;"]
 fantasy.ekstraklasa.tv,trojmiasto.pl###rodo-info
+fan.pl##td:nth-of-type(3) > table > tbody > tr > td > .mll
 farmacja.edu.pl###polityka_notice
 fdb.pl###consent
 feb.net.pl,slubowisko.pl###eurociastko
@@ -525,7 +527,7 @@ jezykipodroze.pl##.widgets-5.widgets-list
 joemonster.org##DIV[style="position: fixed; bottom: 0; width: 1020px; height: 100px; background-color: #eee; border: 1px solid black; z-index: 1000; overflow: auto; left: 50%; margin-left: -510px; border-bottom: 0;"]
 joemonster.org,mistrzowie.org,komixxy.pl,demotywatory.pl,faktopedia.pl,fabrykamemow.pl,motokiller.pl,kotburger.pl,piekielni.pl,atakklonow.pl,rebelianci.org,wspaniali.pl,tenajlepsze.pl,stylowi.pl,wszechpolska.pl,gifowisko.pl,filmixxy.pl,popkorn.pl,dawniejdzisiaj.pl,studentpotrafi.pl,wykresy.pl,machinaczasu.pl,wyciagamykarteczki.pl##div[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 jung.de###language-redirection-layer
-jysk.pl###CookieDialog, .cookiesBanner
+jysk.pl,uzywana-muzyka.business.site###cookieDialog
 kabam.com##div#eu_privacy
 kabar.pl##body > .blockMsg
 kalendarzrolnikow.pl###colorbox, #cboxOverlay
@@ -1251,6 +1253,7 @@ zywiec.com.pl,heineken.com.pl###infobx
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
 !jpg.pl,pinotv.pl,playa.pl,moblo.pl,slajdzik.pl,rusz.pl,osobie.pl,www.prv.pl###rodoInfoForm
+!jysk.pl##.cookiesBanner
 !
 !
 ! Specyficzne reguły blokujące
