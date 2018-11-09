@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: fT808DM9UtV+oRKCjrcCTg
+! Checksum: 8vvIOHa/HHssxFhHdM6gBw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811091153
-! Last modified: Fri, 09 Nov 2018, 11:53:39 UTC+01
+! Version: 201811091231
+! Last modified: Fri, 09 Nov 2018, 12:31:48 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811091153 aktualizacja: pią, 09 lis 2018, 11:53:39 UTC+01
+! v.201811091231 aktualizacja: pią, 09 lis 2018, 12:31:48 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -459,6 +459,7 @@ hotpay.pl##.alert-dismissible.alert-success.alert
 hotpoint.pl###_1_WAR_privacyportlet_privacy-info-message
 hpe.com##.privacy-banner
 hp.com##.optanon-alert-box-wrapper
+huawei.com##.huawei-cookie
 hurtowniateleinformatyczna.pl,ideanord.com.pl,intimiti.pl,ipartworld.pl,itpromo.pl,lunamarket.pl,mazury.pl,mikos.com.pl,mini-itx.com.pl,ostry-sklep.pl,pcoutlet.pl,powerflex.pl,pupilexpert.pl,raraavis.krakow.pl,sklep-muzyczny.com.pl,skrypt.com.pl,ekologiczny.pl,sporto.com.pl,srebrnystyl.pl,termokubki.com.pl,tv-zakupy.pl,wodna-kraina.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
 iab.org.pl,iabpolska.pl###wpca-wrapper
 ibm.com##div[style="background-color: rgb(0, 0, 0); opacity: 0.4; position: fixed; z-index: 1000000; width: 100%; height: 100%; top: 0px; left: 0px; overflow: hidden; "]
@@ -1589,6 +1590,7 @@ pl##.cookie-banner:not(body):not(html)
 pl##.cookie-bar:not(body):not(html)
 pl##.cookie-consent:not(body):not(html)
 pl##.cookie-disclaimer:not(body):not(html)
+pl##.cookie-infobox-wrp:not(body):not(html)
 pl##.cookie-info:not(body):not(html)
 pl##.cookie-law:not(body):not(html):not(.post-content)
 pl##.cookie-message:not(body):not(html)
