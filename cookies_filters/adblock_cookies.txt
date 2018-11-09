@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: EfM82pTGTshc/ZMeT0/drA
+! Checksum: AsB+ri+ud/+j0dVrZsvusg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811092300
-! Last modified: Fri, 09 Nov 2018, 23:00:23 UTC+01
+! Version: 201811092311
+! Last modified: Fri, 09 Nov 2018, 23:11:33 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811092300 aktualizacja: pią, 09 lis 2018, 23:00:23 UTC+01
+! v.201811092311 aktualizacja: pią, 09 lis 2018, 23:11:33 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -139,7 +139,7 @@ biznes-firma.pl##.rodo_cookies_popup
 blog4u.pl##DIV[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
 bmc-switzerland.pl##.tab2-rodo-bar
-bocian.org.pl##.jGrowl-notification
+bocian.org.pl,siteor.pl##.jGrowl-notification
 booking.com###cookie_warning
 booksy.com###cookie-policy-2
 borelioza.vegie.pl###menubar > center
@@ -1086,6 +1086,7 @@ szlot.pl##.spu-bg, .spu-total-
 szostygracz.pl##div#cw_statusbar
 szpital-chrzanow.pl##.warp_top_message
 szukacz.pl###routerBox1
+szukajka.tv###rodo-popup
 szybko.pl##.toast
 szymoszkowa.pl,mckplonsk.pl##[data-popmake*="cookies"]
 tabakiera.com.pl###x13pmcookiebar
