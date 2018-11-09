@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: y9PhSEUaZE1F1cYHVnDuZg
+! Checksum: poq+SRGSz3lZdQ6dB661nQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811091541
-! Last modified: Fri, 09 Nov 2018, 15:41:02 UTC+01
+! Version: 201811091643
+! Last modified: Fri, 09 Nov 2018, 16:43:52 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811091541 aktualizacja: pią, 09 lis 2018, 15:41:02 UTC+01
+! v.201811091643 aktualizacja: pią, 09 lis 2018, 16:43:52 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -167,6 +167,7 @@ capri-lublin.pl###mod98
 ccm.net##.ccmcss_oic
 cda.pl,superfilm.pl##div#box_info
 cdr.gov.pl##.navbar-inverse.navbar-fixed-bottom.navbar
+cea-art.pl##.bs-gdpr-law
 centrumpilkarskie.pl##div.jqibox
 centrumreklamy.com###CookieInfoBlock
 certum.pl,elk.gmina.pl,koleje-wielkopolskie.com.pl##.spu-bg, .spu-box
@@ -1504,6 +1505,7 @@ pl###cookie-notice:not(body):not(html)
 pl###cookie-policy-banner:not(body):not(html)
 pl###cookie-policy:not(body):not(html)
 pl###cookie-terms:not(body):not(html)
+pl###cookie-warning:not(body):not(html)
 pl###cookie-warn:not(body):not(html)
 pl###cookie_container:not(body):not(html)
 pl###divCookie:not(body):not(html)
