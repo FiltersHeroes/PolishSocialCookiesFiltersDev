@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: XpT8vp+dzfe6pdE+i7mzYw
+! Checksum: ZQfVrLJox1VYzVJG6KfiYw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811082350
-! Last modified: Thu, 08 Nov 2018, 23:50:04 UTC+01
+! Version: 201811090821
+! Last modified: Fri, 09 Nov 2018, 08:21:53 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811082350 aktualizacja: czw, 08 lis 2018, 23:50:04 UTC+01
+! v.201811090821 aktualizacja: pią, 09 lis 2018, 08:21:53 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -140,6 +140,7 @@ blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
 bmc-switzerland.pl##.tab2-rodo-bar
 bocian.org.pl##.jGrowl-notification
 booking.com###cookie_warning
+booksy.com###cookie-policy-2
 borelioza.vegie.pl###menubar > center
 bosch.pl##.O-CookieLaw
 bose.pl###privacy-message-bar
@@ -971,6 +972,7 @@ rockpapershotgun.com##div#ecd_opt_in_banner
 rosja.pl###cookframe
 routex.com###ca_alert
 rozwojowiec.pl###fixedBar
+rps.ms.gov.pl###MS
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl###pd-modal, .modal-backdrop
 r-gol.com,51015kids.eu###cookieBan
 sadowocowy.pl###container > div:nth-of-type(1)
@@ -1037,6 +1039,7 @@ starbucks.pl###allow_message
 starcom-ntt.com.pl##.ciasteczkowy
 starterek.pl###rodo_form
 start.me##.alert.notification-bar
+statoscope.pl##rodo
 stat.gov.pl,pap.pl,popoznaniu.pl##div#divcook
 stodola.pl##.toast-container
 store.playstation.com###privacy-header
