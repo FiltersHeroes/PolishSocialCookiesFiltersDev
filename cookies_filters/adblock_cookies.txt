@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: poq+SRGSz3lZdQ6dB661nQ
+! Checksum: GXOqFst81/D2kbduT7wDNg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811091643
-! Last modified: Fri, 09 Nov 2018, 16:43:52 UTC+01
+! Version: 201811091649
+! Last modified: Fri, 09 Nov 2018, 16:49:28 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811091643 aktualizacja: pią, 09 lis 2018, 16:43:52 UTC+01
+! v.201811091649 aktualizacja: pią, 09 lis 2018, 16:49:28 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -97,7 +97,7 @@ autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.n
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 avast.com,pay.google.com##.cookie-bar
 avioner.pl##.alert
-awf.edu.pl,firmyinzynieria.com,prostozkranu.krakow.pl,merchtedes.pl,bip.um.rybnik.eu,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl###cookie
+awf.edu.pl,firmyinzynieria.com,prostozkranu.krakow.pl,merchtedes.pl,bip.um.rybnik.eu,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl###cookie
 awf.poznan.pl###redim-cookiehint
 azure.microsoft.com###cookie-prompt
 a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info,cdax.online###cookie-notice
@@ -621,6 +621,7 @@ lg.com##.policyChk
 lg.com##.agree-cookie-wrap
 licytacje.komornik.pl###sign_up, body > div[style*="margin-top: 100px"]
 limango.pl##.floating_notification
+limanowa.in###cookiesdirective
 linuxiarz.pl###colophon
 linuxportal.pl##DIV[style="width: 100%; background: rgb(44, 48, 51) none repeat scroll 0% 0%; padding: 10px 0; color: #fff; border-top: 1px solid rgb(221, 221, 221);  text-align: center; position: fixed; bottom: 0; z-index: 999999999;"]
 logistics.dhl##.c-cookie-disclaimer
@@ -764,6 +765,7 @@ net-s.pl##.regulations
 news.google.com##div[style^="behavior:url(#default#homePage) url(#default#userData)"]
 nfz-lodz.pl##.mfp-ready
 nf.pl###rodonf-app-ux
+niepodlegla.pomorskie.eu###cookiesinfoPWU
 niestatystyczny.pl##.group.rcc-panel
 niezalezna.pl##div[style="border: 2px solid #900; margin-left: auto; margin-right: auto; padding: 3px; width: 984px"]
 niezalezna.pl,gpcodziennie.pl###swsoverlay, #swsmodal
@@ -1096,6 +1098,7 @@ toyota-lublin.pl###ePrivacyDisclaimer
 tp-link.com###divCookieUsedNote
 traftu.pl##.unconfirmed.opt-in-splash
 trakt.tv##.sncmp-app_gdpr
+transatlantyk.org###app-cookie-bar
 transfergo.com##.gdpr-consent
 trello.com##.gdpr-cookie-consent-banner
 trentino.pl###popup_cookies
