@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: K2yalDjJsufyeW2MSp1rgg
+! Checksum: wVC8Q1foOlI+7JwU8dqV2Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811102233
-! Last modified: Sat, 10 Nov 2018, 22:33:00 UTC+01
+! Version: 201811102307
+! Last modified: Sat, 10 Nov 2018, 23:07:01 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811102233 aktualizacja: sob, 10 lis 2018, 22:33:00 UTC+01
+! v.201811102307 aktualizacja: sob, 10 lis 2018, 23:07:01 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -327,6 +327,7 @@ fan.pl##td:nth-of-type(3) > table > tbody > tr > td > .mll
 farmacja.edu.pl###polityka_notice
 fdb.pl###consent
 felgdent.com###COOKIE_DIV
+ferpay.com##.cookieinfo
 festiwaldobregosmaku.eu###cookie-notice
 fiatklubpolska.pl##li#navbar_notice_1
 fiatklubpolska.pl###navbar_notice_1.restore
@@ -360,6 +361,7 @@ forum-kredytowe.pl###navbar_notice_6
 forum-kulturystyka.pl###fk-terms, .pp-t-a-c
 forum.benchmark.pl##div#document_modal
 forum.dobreprogramy.pl###rodoCookie
+forum.dvhk.to###CookieKomunikat
 forum.dziennikwschodni.pl###cookiePolicyPopup > div > p
 forum.joomla.pl###notices
 forum.minepedia.pl##div#notice
@@ -426,6 +428,7 @@ goodie.pl##.bp_br
 goodlookin.pl##div > div > div > .toplayaa
 google.com,google.pl##.widget-consent-dialog
 gosc.pl,igomedia.pl###l-overlay
+gospodarkamorska.pl###fr3ex-cookiewarning
 gostynin.info##.cookies-message-wrapper
 gothaer.pl##.ci-bar-wrapper
 gov.pl,policja.pl##.informationBar, .JSWrapper
@@ -460,6 +463,7 @@ hemp.pl##table[width="1166"][bgcolor="gray"]
 herbaciani.pl##DIV[style="float:right; padding-top:20px; padding-bottom:20px; width:100%; font-size:12px; background:#ddd; color:#333; text-align:center; margin-bottom:10px;"]
 heuristic.pl###cboxContent, #cboxOverlay
 hillsvet.pl##[class*="ui-widget"]
+histmag.org###cookie-warning
 hi-tec.com.pl##DIV[style="width: 882px; padding: 10px; margin: 3px auto; text-align: center; color: #BABABA"]
 hoga.pl###warning
 holidaycheck.pl###infoCloseableBoxContainer
@@ -507,6 +511,7 @@ inpay.pl##.ckcontent
 instagram.com#?#div>div>div p:-abp-contains(cookie)
 instagram.com#?#section>div:-abp-contains(cookie)
 instytutlogopedyczny.pl###flash-msg
+intercars.pl##.cookies-notify
 interprojekt.pl###myModal, .modal-backdrop, .reveal-modal-bg
 intymna.pl###sb_bottom_float, #wymagania_sklepu_alert
 inwestinfo.pl##div[style="position:fixed;bottom:0px;width:100%;height:65px;border:#c0c0c0 1px solid; text-align:center;padding:5px;background:#e7e7e7;"]
@@ -703,6 +708,7 @@ merixstudio.pl###message, .message
 merlin.pl##.merlin-legal-note
 meteor-turystyka.pl##body > div[style="position: fixed; width: 100%; text-align: center; background: orange; color: white; font-weight: bold; padding: 5px; line-height: 20px; z-index: 3; bottom: 0px;"]
 meteovista.pl###info-bar-content
+metro.co.uk##.mol-ads-cmp
 mggp.com.pl##.navbar-inverse, .navbar.navbar-fixed-bottom
 mgr.farm###cookie_notice
 miastograf.pl##.ui-widget, .ui-widget-overlay
@@ -769,6 +775,7 @@ naszamlawa.pl###fancybox-overlay
 naszrybnik.com,naszwodzislaw.com###polityka_cookies
 natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl,joemonster.org,stylowi.pl,kotburger.pl,faktopedia.pl,komixxy.pl,demotywatory.pl,poki.pl##div[class^="app_gdpr"]
 naturo.pl###simple-modal, #simple-modal-overlay
+nauka.rocks###ct-ultimate-gdpr-cookie-popup
 nazaruk.pl##.fixedInfo
 nck.pl,u-jazdowski.pl###cookieterms
 ncplusgo.pl,ncplus.pl##.js-messages
@@ -917,6 +924,7 @@ poki.pl#?#div > div > div:-abp-contains(cookie)
 polandtrade.pl###cb
 polcar.com,schroniskowroclaw.pl###cwwb
 poligraf.com.pl###modal_wrap
+polishexpress.co.uk,koniecpol.info###cookies-message
 polki.pl,mamotoja.pl,wizaz.pl,viva.pl,gotujmy.pl,party.pl##.disclaimer-container
 polnord.pl###polCookieInfo
 polona.pl##cbn-cookies
@@ -924,6 +932,7 @@ polopiryna.pl,polpharma.pl##.monit
 polska.googleblog.com###cookieChoiceInfo
 polskicaravaning.pl###myModalpol
 polskieradio.pl,dziennikwschodni.pl##.rodo-modal
+polskiobserwator.de###cookie-law-info-bar
 polskiprawnik.pl##.reveal-modal-bg, #popup3
 pomagam.pl###pp-info
 popbookownik.pl##.wph-modal
@@ -990,6 +999,7 @@ ramboll.pl##.infoboxHolder
 rankinglekarzy.pl##.info
 ranking.abczdrowie.pl###app > div > div > div[class*=" "] > div
 rankomat.pl###rankomat-cookies-div
+rarlab.com###cookiewarning
 ravelo.pl##.use-cookie-box-n
 rawlplug.com###cookies-warning
 rc.fm###popup-message-window, #popup-message-background
@@ -1057,6 +1067,7 @@ skm.pkp.pl##.ui-widget-overlay
 skm.pkp.pl#?#.ui-dialog:-abp-has(#dialog-message-rodo)
 skm.warszawa.pl##div[style="width: 600px; padding: 40px 30px 30px; position: fixed; margin-left: -300px; border: 1px solid rgb(34, 34, 34); line-height: 18px; font-size: 14px; background-color: rgb(255, 255, 255); box-shadow: rgba(50, 50, 50, 0.75) 3px 3px 9px; border-radius: 4px; right: 40px; bottom: 40px; z-index: 9999; color: rgb(40, 40, 40); overflow: hidden;"]
 skokinarciarskie.pl##.pbox:nth-of-type(13)
+skyscanner.net,skyscanner.pl###cookie-banner-root
 skyscrapercity.com###ukCookiePopup
 slaskwroclaw.pl###bg-layer, #rodo-wrapper
 slawomirambroziak.pl##.privacy_policy
@@ -1161,6 +1172,7 @@ tygodnikpowszechny.pl###top_head
 tygodnikzamojski.pl,starachowice-net.pl###rodo-message
 tymrazemglosuje.eu###cookiespolicymessage
 udemy.com##[data-module-id="eu-cookie-message"]
+ufs.pt###cookiesBar
 uk.ign.com##div#policyNotice
 ulub.pl###rodo_all
 umg.edu.pl,cartoonnetwork.pl,sadeczanin.info###sliding-popup
@@ -1223,15 +1235,19 @@ wsse-poznan.pl##.visiblebox
 wszystkoblisko.pl##.ueCookies
 wunderground.com,weather.com##.truste_overlay, .truste_box_overlay, .privacy-policy-toast
 wu.swps.edu.pl##div#Iagree
+www.bbc.com###cookiePrompt
 www.bing.com###b_notificationContainer
 www.biomedical.pl,prawdaobiektywna.pl,medpytania.pl,mymedic.pl###mcpc
 www.bip.kielce.eu###aui_3_2_0_1101.popup-alert-notice
 www.biurozplusem.pl##.top-left.sticky-queue
+www.ccleaner.com##.cookie-banner
 www.cmcmarkets.com###cmc-tracking-consent-form-step1
 www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
 www.ea.com##ea-truste-consent-bar
+www.eset.pl###cookie-layer
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
+www.gumtree.com##.gdpr-banner
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hays.pl,hays-response.pl###header-msg
 www.hertz.com.pl##[class^="lb-"]
@@ -1240,23 +1256,31 @@ www.hotelbb.pl###be-modal-content-disclaimer
 www.hotelbb.pl##.reveal-modal-bg
 www.ifon.pl##.region-top.region
 www.insp.waw.pl###divbox
+www.java.com##.truste_box_overlay, .truste_overlay
 www.joe.pl###j_all > div:nth-of-type(3)
 www.legendyboksu.pl##.topbarBox
 www.lifescan.pl###simplemodal-overlay
 www.lifescan.pl##.simplemodal-wrap
 www.mercedes-benz.pl###emb-cp-overlay
+www.mirror.co.uk,www.cambridge-news.co.uk##.captify-widget
 www.multimedia-energia.pl###layer
 www.nfz-zielonagora.pl###statementWrapper
 www.niemartwsie.pl##.notification
+www.o2.co.uk##.cookie-dialog
 www.o2.pl##._2_S1s
 www.odpady.zgrp.pl###popup-message-window, #popup-message-background
 www.promise.com.pl##.ui-front
 www.rmf24.pl###pl_cookies.pl-cookies
+www.skype.com###msccBanner
+www.smartpolak.co.uk###cookie-law-info-bar
 www.ssw-consulting.pl##.ui-pnotify
 www.teamprevent.pl##.warnings
 www.tem.com.pl###block-block-29
+www.tesco.com###cookie-policy
+www.thesettlersonline.pl###cookieNotificationBanner
 www.totalizator.pl##.rodo-information-overlay, .rodo-information-popup
 www.tupperware.pl##.topRibbon
+www.vodafone.co.uk##.optanon-alert-box-wrapper
 www.wiedzakontrowersyjna.pl###ad-bg-transparent
 www.youtube.com##.clearfix.yt-consent-banner.yt-consent
 wycena.otodom.pl##.landend-infobar-dark
