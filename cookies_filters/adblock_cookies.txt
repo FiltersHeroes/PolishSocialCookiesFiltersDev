@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: SD+N8CZx5AXQOKUB013OeQ
+! Checksum: ODbs8n24HPUR9XVOUoSfow
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811101713
-! Last modified: Sat, 10 Nov 2018, 17:13:10 UTC+01
+! Version: 201811101731
+! Last modified: Sat, 10 Nov 2018, 17:31:13 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811101713 aktualizacja: sob, 10 lis 2018, 17:13:10 UTC+01
+! v.201811101731 aktualizacja: sob, 10 lis 2018, 17:31:13 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -794,6 +794,7 @@ nowehoryzonty.pl##div#div_ac
 nowemiasto.pl,zwolen.pl,laskarzew.pl###cook
 noweprzetargi.pl###dcach, #txt
 nowezyciepabianic.pl##div#PopupDiv
+nowyteatr.org###cookies-notification
 nuorder.pl##.___ncn-container
 nvidia.com#@#[id*="cookie_"]
 o2.pl##.zyHor, #app-inner ._1Arb2
@@ -877,6 +878,7 @@ play.google.com,translate.google.pl,books.google.pl###gb > div[style*="backgroun
 plny.pl###cookiesinfo
 plotowanie.com##div#howdydo-wrapper
 pl-pl.facebook.com,www.facebook.com##[data-testid="cookie-policy-banner"]
+pl.aleteia.org##.qc-cmp-ui-content
 pl.bab.la,halogorlice.info##.cc-window
 pl.chili.tv###_evh-ric
 pl.depositphotos.com##._notification
@@ -950,6 +952,7 @@ pulawy.eu###modalRodo, .modal-backdrop
 punkt44.pl###alertTop
 pushpushgo.com##.ppg-cookies
 pwik.wolomin.pl###oknoModal
+pw.edu.pl###cookie-notification
 pw.edu.pl##.lb-overlay, .lb-wrapper
 pzip.pl##.sqs-announcement-bar-content
 pzm.bydgoszcz.pl##div[tyle="position: fixed; left:0; right:0; bottom:0; height:70px; background-color:#eee; border: 1px solid red; z-index:1000; overflow: auto"]
@@ -969,6 +972,7 @@ radiomerkury.pl##div#privacyPolicyBox
 radiopik.pl##div#hmonit
 radiowroclaw.pl,radioram.pl,radiogdansk.pl,tanibus.com###rodoModal
 radiozet.pl,antyradio.pl,radiostacja.pl,meloradio.pl,azorek.pl,planeta.fm,chillizet.pl##div[class^="app_cmpAppGdpr"]
+radio.kielce.pl###cookieInfoBar
 radom24.pl##div#ciasteczka-info
 raiffeisenpolbank.com###valid_cookie_message
 ramboll.pl##.infoboxHolder
@@ -1081,6 +1085,7 @@ swiatnauki.pl,wiz.pl###menu
 swiatpodlog.com.pl###giodo, .modal-backdrop
 swidnica24.pl##div#policyBox
 swietnafirma.pl###cMess
+swietokrzyskie.pro##.cookieNotification
 swistak.pl##.pp-t-a-c
 szarakomorka.pl###DIVwelcome
 szczecinek.com###__cmcmedia_upid_26
@@ -1147,6 +1152,7 @@ uk.ign.com##div#policyNotice
 ulub.pl###rodo_all
 umg.edu.pl,cartoonnetwork.pl,sadeczanin.info###sliding-popup
 umowycywilnoprawne.pl###formalAgreementModal, #modalBackdrop
+umtychy.pl###accept-cookies-question
 um.jaslo.pl,adeste.eu##.cp-info-bar
 unilink.pl##.windov_front_new_text
 upc.pl##.dmg-cookie-info
@@ -1172,6 +1178,7 @@ weekendfm.pl##.rodo_out
 wegetarianie.pl##td[align="center"][height="22"]
 weidemann.de###tx_shortcutscookiedisclaimer
 weranda.pl,werandacountry.pl,werandaweekend.pl,astromagia.pl,wrozka.com.pl,gwiazdy.com.pl##.popup-rodo, .popup-overlay
+wfos.krakow.pl##.privacy-note
 wgospodarce.pl,wpolsce.pl##.rhododendron-popup, .rhododendron-popup-overlay
 wgrane.pl##.cookieinfo1
 whatsapp.com,www.msd.pl###banner
