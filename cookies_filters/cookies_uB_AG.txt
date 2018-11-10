@@ -1,11 +1,11 @@
-! Checksum: HmYR/cw8KgYyRk3X3B8mWg
+! Checksum: rTyYldlIAHwHZyv8JvR8CA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811101829
-! Last modified: Sat, 10 Nov 2018, 18:29:52 UTC+01
+! Version: 201811102308
+! Last modified: Sat, 10 Nov 2018, 23:08:29 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811101829 aktualizacja: sob, 10 lis 2018, 18:29:52 UTC+01
+! v.201811102308 aktualizacja: sob, 10 lis 2018, 23:08:29 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -108,6 +108,7 @@ msn.com###precontent:style(margin-top: 8rem !important;)
 msn.com##.head:style(margin-top: 0 !important;)
 multimediago.pl##.modal-cookie
 m.24jgora.pl,24wroclaw.pl###rodoModal, .modal-backdrop
+nauka.rocks##.ct-ultimate-gdpr-cookie-topPanel-padding:style(padding-top: 0 !important;)
 neon24.pl##script:inject(abort-on-property-read.js, Service.cookieMonster)
 obpon.pl##.menu-flashmessages:style(top: 0 !important;)
 obywatel.gov.pl###modal-rodo, .modal-backdrop
