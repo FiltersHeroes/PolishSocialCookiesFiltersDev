@@ -1,11 +1,11 @@
-! Checksum: D/85tbSTHf89h2OV4RYpHA
+! Checksum: 7SVqAqIV6xoWIe8UW7+r8Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811110018
-! Last modified: Sun, 11 Nov 2018, 00:18:16 UTC+01
+! Version: 201811110024
+! Last modified: Sun, 11 Nov 2018, 00:24:34 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811110018 aktualizacja: nie, 11 lis 2018, 00:18:16 UTC+01
+! v.201811110024 aktualizacja: nie, 11 lis 2018, 00:24:34 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -248,7 +248,7 @@ autostrada-a2.pl###rodo-box, #cookielaw-box
 !+ PLATFORM(ext_ublock)
 autostrada-a2.pl##+js(remove-attr.js, class, body.cookielaw)
 !+ PLATFORM(ext_ublock)
-dobramama.pl,tv.kafeteria.pl,kafeteria.tv,samosia.pl,snobka.pl,smog.pl,pinger.pl,testwiedzy.pl##+js(addEventListener-defuser.js, DOMContentLoaded, default.setTimeout)
+dobramama.pl,kafeteria.tv,tv.kafeteria.pl,samosia.pl,snobka.pl,smog.pl,pinger.pl,pudelek.tv,tv.pudelek.pl,testwiedzy.pl,morizon.wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, default.setTimeout)
 !#endif
 !#if cap_html_filtering
 4fun.tv##^#cModal
