@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: t3qDAkmjlbRBZLfJ3grt1Q
+! Checksum: BHD/JWKNXmbikjTnTb286g
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811101820
-! Last modified: Sat, 10 Nov 2018, 18:20:25 UTC+01
+! Version: 201811101840
+! Last modified: Sat, 10 Nov 2018, 18:40:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811101820 aktualizacja: sob, 10 lis 2018, 18:20:25 UTC+01
+! v.201811101840 aktualizacja: sob, 10 lis 2018, 18:40:31 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -786,6 +786,7 @@ niezalezna.pl##div[style="border: 2px solid #900; margin-left: auto; margin-righ
 niezalezna.pl,gpcodziennie.pl###swsoverlay, #swsmodal
 niezlasztuka.net###cookie-banner
 nike.com###cookieBanner
+nil.gov.pl,polskiedzieje.pl,wabrzezno.com,przygarnijkrolika.pl##.tplis-cl-cookies
 ninateka.pl##.popup--festival
 niniwateam.pl##div[style="background-color: rgb(255, 230, 173); color: rgb(0, 0, 102); position: fixed; top: 0px; width: 100%; padding: 10px; font-size: 12px; "]
 nivea.pl##.bdf-cookie-policy-popup
@@ -949,7 +950,6 @@ prosto.pl###id-rules
 pruszkow.pl##.js-rodo-info
 przegladlokalny.eu###cookiePolicy, .popup, #popup-overlay
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
-przygarnijkrolika.pl##.tplis-cl-cookies
 psychiatria.pl,forumneurologiczne.pl##[aria-describedby="ajaxDialogrodopopup"], .ui-widget-overlay
 pttk.katowice.pl###cookBox
 puk.elk.pl###AgreeCookieMsg
@@ -1170,7 +1170,6 @@ vagaru.pl##.id-18.location-0.type-10.widget
 vetpersonel.elamed.pl###agreeInfo
 virustotal.com###euConsent
 vivaldi.com###cookiemsg
-wabrzezno.com,nil.gov.pl##.tplis-cl-cookies
 wacetob.com.pl###container > div[style="position:fixed;left:0px;width:100%;height:60px; background-color:white;padding:5px;bottom:0px;opacity:0.85;filter:alpha(opacity=85);text-align:right;"]
 wakacyjnipiraci.pl###tarteaucitronAlertBig
 wapteka.pl##.coo
