@@ -1,11 +1,11 @@
-! Checksum: AvznSboflpJye8iIreuJgw
+! Checksum: cZDhtyHrgiRLpaFs4b3gqw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811092300
-! Last modified: Fri, 09 Nov 2018, 23:00:27 UTC+01
+! Version: 201811101828
+! Last modified: Sat, 10 Nov 2018, 18:28:17 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811092300 aktualizacja: pią, 09 lis 2018, 23:00:27 UTC+01
+! v.201811101828 aktualizacja: sob, 10 lis 2018, 18:28:17 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -287,7 +287,7 @@ spolem.katowice.pl##^#popup.modal
 styl.fm##^.rodo-info
 tuzdrowie.pl##^#popupModal
 tvasta.pl##^#infoModal
-tvregionalna24.pl##^#rodoModal
+tvsztum.pl,tvregionalna24.pl##^#rodoModal
 twojeankiety.pl##^.polPriv
 ustawlige.com,ustawmundial.weszlo.com##^#privacy-modal
 wtk.pl##^#GDPR-modal
@@ -341,7 +341,7 @@ spolem.katowice.pl$$#popup.modal
 styl.fm$$.rodo-info
 tuzdrowie.pl$$#popupModal
 tvasta.pl$$#infoModal
-tvregionalna24.pl$$#rodoModal
+tvsztum.pl,tvregionalna24.pl$$#rodoModal
 twojeankiety.pl$$.polPriv
 ustawlige.com,ustawmundial.weszlo.com$$#privacy-modal
 wtk.pl$$#GDPR-modal
