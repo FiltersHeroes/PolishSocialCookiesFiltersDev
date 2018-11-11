@@ -1,11 +1,11 @@
-! Checksum: BwDuQE8nyZUWXYBRraQoSA
+! Checksum: vDFbSiVK5vNO1sMIa+VvRQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811111510
-! Last modified: Sun, 11 Nov 2018, 15:10:18 UTC+01
+! Version: 201811111748
+! Last modified: Sun, 11 Nov 2018, 17:48:16 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811111510 aktualizacja: nie, 11 lis 2018, 15:10:18 UTC+01
+! v.201811111748 aktualizacja: nie, 11 lis 2018, 17:48:16 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -39,6 +39,7 @@ cupsell.pl##.tingle-enabled:style(position: static !important; overflow: auto !i
 cupsell.pl##.tingle-modal
 dane.gov.pl##.modal-backdrop
 dane.gov.pl##.modal-dialog:has-text(RODO)
+dobramama.pl,kafeteria.tv,tv.kafeteria.pl,samosia.pl,snobka.pl,smog.pl,pinger.pl,pudelek.tv,tv.pudelek.pl,testwiedzy.pl,gryonline.wp.pl,morizon.wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, default.setTimeout)
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
@@ -247,8 +248,6 @@ openpli.org##body > div:not([id]):not([class])
 autostrada-a2.pl###rodo-box, #cookielaw-box
 !+ PLATFORM(ext_ublock)
 autostrada-a2.pl##+js(remove-attr.js, class, body.cookielaw)
-!+ PLATFORM(ext_ublock)
-dobramama.pl,kafeteria.tv,tv.kafeteria.pl,samosia.pl,snobka.pl,smog.pl,pinger.pl,pudelek.tv,tv.pudelek.pl,testwiedzy.pl,gryonline.wp.pl,morizon.wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, default.setTimeout)
 !#endif
 !#if cap_html_filtering
 4fun.tv##^#cModal
