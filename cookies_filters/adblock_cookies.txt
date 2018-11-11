@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: fGHQ6H1Zd7lUl6MA4lUkVw
+! Checksum: 5qkurCscqz5gh0tMacpjEw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811111809
-! Last modified: Sun, 11 Nov 2018, 18:09:16 UTC+01
+! Version: 201811111818
+! Last modified: Sun, 11 Nov 2018, 18:18:11 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811111809 aktualizacja: nie, 11 lis 2018, 18:09:16 UTC+01
+! v.201811111818 aktualizacja: nie, 11 lis 2018, 18:18:11 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1591,16 +1591,12 @@ pl###gdpr_banner:not(body):not(html)
 pl###gm-cookies:not(body):not(html)
 pl###icc_message:not(body):not(html)
 pl###js-cookieInfo:not(body):not(html)
-pl###komunikat-cookies:not(body):not(html)
-pl###monitcookie:not(body):not(html)
 pl###mpc_cookie_intro:not(body):not(html)
 pl###notice-cookie-block:not(body):not(html)
 pl###notice_bar:not(body):not(html)
 pl###notifyCookie:not(body):not(html)
 pl###panel_cookie:not(body):not(html)
 pl###policy-info:not(body):not(html)
-pl###politykaCookieWrapper:not(body):not(html)
-pl###polityka-cookie:not(body):not(html)
 pl###popup-cookies:not(body):not(html)
 pl###privacyInfo:not(body):not(html)
 pl###privacy-notice:not(body):not(html)
@@ -1723,10 +1719,8 @@ pl##.wpgdprc-consent-bar:not(body):not(html)
 pl##.wrap-cookie-info:not(body):not(html)
 pl##[class*="cookie-policy"]:not(body):not(html)
 pl##[class^="box-cookie"]:not(body):not(html)
-pl##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
 pl##[id*="cookie_"]:not(body):not(html)
 pl##[id^="cookies-message"]:not(body):not(html)
-pl##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 pl##[id^="topInfo"]:not(body):not(html)
 ##DIV[style*="background:url(images/cookies_tlo.png)"]
 ##DIV[style*="url(layout/cookies.png)"]
@@ -1776,9 +1770,11 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###inpl_cp_cnt:not(body):not(html)
 ###jqmCookieMonster:not(body):not(html)
 ###js_popup_cookies:not(body):not(html)
+###komunikat-cookies:not(body):not(html)
 ###komunikat_ciasteczka:not(body):not(html)
 ###korzystanieZCiateczek:not(body):not(html)
 ###kuki:not(body):not(html)
+###monitcookie:not(body):not(html)
 ###openglobal_privacy_widget:not(body):not(html)
 ###panel_cookie_dol:not(body):not(html)
 ###pasek_ciasteczka:not(body):not(html)
@@ -1786,6 +1782,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###poityka-ciastek:not(body):not(html)
 ###policy-box:not(body):not(html)
 ###politosci:not(body):not(html)
+###politykaCookieWrapper:not(body):not(html)
 ###politykacooki:not(body):not(html)
 ###politykaprywatnosci:not(body):not(html)
 ###polityka-ciastek:not(body):not(html)
@@ -1818,9 +1815,11 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##.polityka_ciastek:not(body):not(html)
 ##.wordpress-gdpr-popup:not(body):not(html)
 ##[class*="coockie"]:not(body):not(html)
+##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
 ##[id*="ciasteczka_alert"]:not(body):not(html)
 ##[id*="coockie"]:not(body):not(html)
 ##[id^="PolitykaPrywatnosci"]:not(body):not(html)
+##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
 !
 !
 ! Blokowanie elementów po zastosowaniu generichide
