@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: zG4JyDspo7HWCtNqsqyldQ
+! Checksum: 27kuwx1AVZ1/Qe1bsy7Keg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811121421
-! Last modified: Mon, 12 Nov 2018, 14:21:57 UTC+01
+! Version: 201811121434
+! Last modified: Mon, 12 Nov 2018, 14:34:35 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811121421 aktualizacja: pon, 12 lis 2018, 14:21:57 UTC+01
+! v.201811121434 aktualizacja: pon, 12 lis 2018, 14:34:35 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1664,7 +1664,6 @@ pl##.cookies-info:not(body):not(html)
 pl##.cookies-notify:not(body):not(html)
 pl##.cookies-policy-container:not(body):not(html)
 pl##.cookies-statement:not(body):not(html)
-pl##.cookies:not(body):not(html)
 pl##.cookies:not(.wrapper):not(.popup-newsletter):not(#page):not(body):not(html)
 pl##.cookies_info:not(body):not(html)
 pl##.cookies_message:not(body):not(html)
@@ -1848,7 +1847,6 @@ addons.mozilla.org#@#.privacy-policy
 allegro.pl,paradoxplaza.com#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
 gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section)
-laciate.pl,loterialaciate.pl#@#.cookies:not(body):not(html)
 laciate.pl,loterialaciate.pl#@#.cookies:not(.wrapper):not(.popup-newsletter):not(#page):not(body):not(html)
 linuxiarz.pl,piekarniaanka.pl,xboxarcade.pl,appki.com.pl,mvno-gsm.pl,okazik.pl#@#[id*="cookie-"]
 lomza.pl#@##komunikat-cookie
