@@ -1,11 +1,11 @@
-! Checksum: 9qo7XKxPsKZ/NLoJi5j6Gw
+! Checksum: eePuS94cioRJ+HzaC0FQ5w
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811121840
-! Last modified: Mon, 12 Nov 2018, 18:40:40 UTC+01
+! Version: 201811121846
+! Last modified: Mon, 12 Nov 2018, 18:46:17 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811121840 aktualizacja: pon, 12 lis 2018, 18:40:40 UTC+01
+! v.201811121846 aktualizacja: pon, 12 lis 2018, 18:46:17 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -195,7 +195,7 @@ emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##[i
 empik.com##script:inject(nano-remove-elements-onready.js, .cookies-accept)
 eobuwie.com.pl##.popup
 eobuwie.com.pl##.popup-open:style(overflow: auto !important;)
-farmacja.pl##.rodo-modal
+farmacja.pl##div.rodo-modal
 farmacja.pl##[style^="filter: blur"]:style(filter: none !important;)
 forums.openpli.org##script:inject(abort-current-inline-script.js, euReadCookie)
 fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
