@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 27kuwx1AVZ1/Qe1bsy7Keg
+! Checksum: YQwnFYsfrHd9q2IiStTN1Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811121434
-! Last modified: Mon, 12 Nov 2018, 14:34:35 UTC+01
+! Version: 201811121436
+! Last modified: Mon, 12 Nov 2018, 14:36:39 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811121434 aktualizacja: pon, 12 lis 2018, 14:34:35 UTC+01
+! v.201811121436 aktualizacja: pon, 12 lis 2018, 14:36:39 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -495,7 +495,7 @@ iiyama.com##.infobar-message
 iiyama.com##.new-cookies-info
 ilza.com.pl###rodoMain
 imagazine.pl,moviesroom.pl##.overlay-rules
-impekao24.pl###rodo-popup-wrapper
+impekao24.pl###rodo-popup-wrapper, #rodo-cookie-shadow-cover
 in4.pl##div.subheader
 info24.rzeszow.pl##.ja-box-right.column.ja-box-wrap
 infoludek.pl##div.infcook
@@ -505,6 +505,7 @@ info.wiara.pl##div[style="border: 10px solid rgb(138, 138, 138); border-top-left
 inksystem.pl##.fixed_bottom
 inoreader.com##.landing_promo_banner_top
 inpay.pl##.ckcontent
+insert.com.pl###privacyAndCookiePolicy
 instagram.com#?#div>div>div p:-abp-contains(cookie)
 instagram.com#?#section>div:-abp-contains(cookie)
 instytutlogopedyczny.pl###flash-msg
