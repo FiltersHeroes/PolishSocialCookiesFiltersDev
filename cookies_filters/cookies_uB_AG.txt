@@ -1,11 +1,11 @@
-! Checksum: lRyJcef0E5m04YdnFldpDA
+! Checksum: NK9fG9ZYqOv6PiyH0JerpA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811130836
-! Last modified: Tue, 13 Nov 2018, 08:36:28 UTC+01
+! Version: 201811131050
+! Last modified: Tue, 13 Nov 2018, 10:50:58 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811130836 aktualizacja: wto, 13 lis 2018, 08:36:28 UTC+01
+! v.201811131050 aktualizacja: wto, 13 lis 2018, 10:50:58 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -45,10 +45,10 @@ dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
 domisad.pl##.show-message #top-nav:style(height: auto !important;)
 drogeriapigment.pl##.fancybox-overlay:has(#potwierdzamrodo)
-drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl##html > body:style(overflow: auto !important;)
-drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl##html.fancybox-lock > body:style(overflow: auto !important;)
-drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl##html.fancybox-lock:style(overflow: auto !important;)
-drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl##html.fancybox-margin:style(margin-right: 0 !important;)
+drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl,sklepdlalekarza.com##html > body:style(overflow: auto !important;)
+drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl,sklepdlalekarza.com##html.fancybox-lock > body:style(overflow: auto !important;)
+drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl,sklepdlalekarza.com##html.fancybox-lock:style(overflow: auto !important;)
+drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl,sklepdlalekarza.com##html.fancybox-margin:style(margin-right: 0 !important;)
 dropbox.com##.embedded-app.IndexRebrandPage.top-notification-bar:style(margin-top: -51px !important;)
 dropbox.com##.top-notification-bar-container + .preview-box .react-file-viewer, .embedded-app.IndexRebrandPage.top-notification-bar .RebrandNavigation-container:style(top: 0 !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
@@ -147,6 +147,7 @@ sellizer.pl##.cookies-visible .header-main:style(top: 0 !important;)
 sephora.pl###header:style(margin-top: 41px !important;)
 sephora.pl##.bandeBody:style(top: 0 !important;)
 serwis.currenda.pl##div:style(margin-top: auto !important;)
+sklepdlalekarza.com##.basicLightbox
 sklep.ptwp.pl##.window
 skyscrapercity.com##.fc-consent-root
 sonymobile.com##.bnw-module.header[style="margin-top: 80px;"]:style(margin-top: 0 !important;)
