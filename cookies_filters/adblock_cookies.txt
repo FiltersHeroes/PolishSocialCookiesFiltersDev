@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 1/dspp8g0/6JZkrcJBDZzw
+! Checksum: WcYYWejRKxYztiRe6hHZHw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811130014
-! Last modified: Tue, 13 Nov 2018, 00:14:39 UTC+01
+! Version: 201811130828
+! Last modified: Tue, 13 Nov 2018, 08:28:15 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811130014 aktualizacja: wto, 13 lis 2018, 00:14:39 UTC+01
+! v.201811130828 aktualizacja: wto, 13 lis 2018, 08:28:15 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -126,6 +126,7 @@ bingospa.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
 bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc###cookies-message
+bip.gliwice.eu##.cookies
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl###fancybox-wrap, #fancybox-overlay
 bip.marciszow.pl###cookiesWarning
@@ -519,6 +520,7 @@ istockphoto.com##.warning.banner
 ists.pl,zmienimyswiat.pl##.polityka
 itaka.pl##div[style="position: fixed; bottom: 0px; width: 100%; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(187, 187, 187); box-shadow: rgb(238, 238, 238) 0px -10px 20px; padding: 10px; text-align: center; background-color: rgb(252, 252, 252); z-index: 10000; background-position: initial initial; background-repeat: initial initial; "]
 iturek.net###cookie_message_website_policy
+it-szkola.edu.pl###cookieLayerBoxModal
 iwanowice.pl###privacy-policy-box
 izone.pl##.mm-page > div[style*="height: 80px"]
 jabra.pl###CybotCookiebotDialog
@@ -763,16 +765,19 @@ muzyczneradio.pl###cookie-accep
 myob.pl###warning-popup
 myownconference.pl##.co-ag
 mypolacy.de###rMo
+mzbm.tychy.pl###accept-cookies-question
 mzdik.pl###webDataTime > span
 m.benchmark.pl###private-policy-popup
 m.facebook.com,touch.facebook.com###header-notices
 naekranie.pl###modal-rodo-info, .reveal-modal-bg
 nakanapie.pl##div.sticker
+naprzedwiosniu.waw.pl###zf--alerts-panel
 naszamlawa.pl###fancybox-overlay
 natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl,joemonster.org,stylowi.pl,kotburger.pl,faktopedia.pl,komixxy.pl,demotywatory.pl,poki.pl##div[class^="app_gdpr"]
 naturo.pl###simple-modal, #simple-modal-overlay
 nauka.rocks###ct-ultimate-gdpr-cookie-popup
 nazaruk.pl##.fixedInfo
+nbi.com.pl###CookieMsg
 nck.pl,u-jazdowski.pl###cookieterms
 ncplusgo.pl,ncplus.pl##.js-messages
 neobiznes.pl###cpolicyHolder
@@ -1048,6 +1053,7 @@ seszele.com.pl##iframe#cookfr
 sgurp.pl###fancybox-overlay, #fancybox-wrap
 shazam.com##div.policy-label
 shippuuden.pl##div#cookis-bg
+shoper.pl,benchmarking.silesia.org.pl##.cookie
 shop-dent.pl##div.black_overlay
 shop-dent.pl##div.ciacho-wrap-container
 showmax.com#?##___gatsby > div > div:-abp-contains(cookie)
@@ -1086,6 +1092,7 @@ speedtest.pl###container_vsm, #info_container
 sportsdirect.com###divCookieAcceptance
 spotify.com###js-message-bar-cookie-notice
 spsk2-szczecin.pl###spsk2ct
+srodaslaska.pl##.ppsPopupListsShell.ppsPopupShell, #ppsPopupBgOverlay
 stalowemiasto.pl##.header-parent > .container > .slot-1280px.slot
 starbucks.pl###allow_message
 starcom-ntt.com.pl##.ciasteczkowy
