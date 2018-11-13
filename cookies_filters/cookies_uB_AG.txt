@@ -1,11 +1,11 @@
-! Checksum: l/NEP0cd8NOE7+rCW/epYA
+! Checksum: KRlEi+LPrkQLiRI46GMZwg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811131549
-! Last modified: Tue, 13 Nov 2018, 15:49:18 UTC+01
+! Version: 201811132012
+! Last modified: Tue, 13 Nov 2018, 20:12:41 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,12 +14,13 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811131549 aktualizacja: wto, 13 lis 2018, 15:49:18 UTC+01
+! v.201811132012 aktualizacja: wto, 13 lis 2018, 20:12:41 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 abcalkoholu.pl##.cookielaw:style(padding-top: 0 !important;)
+abczdrowie.pl,autokult.pl,dobramama.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,jejswiat.pl,kafeteria.pl,kafeteria.tv,komorkomania.pl,money.pl,nocowanie.pl,o2.pl,open.fm,parenting.pl,pinger.pl,pudelek.pl,pytamy.pl,samosia.pl,snobka.pl,testwiedzy.pl,wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, default.setTimeout)
 analizy.pl##.nl_rodo, .ui-widget-overlay
 analizy.pl,mago.com##html:style(overflow: auto !important;)
 appsource.microsoft.com##.cookieBanner:style(visibility: hidden !important;)
@@ -39,7 +40,6 @@ cupsell.pl##.tingle-enabled:style(position: static !important; overflow: auto !i
 cupsell.pl##.tingle-modal
 dane.gov.pl##.modal-backdrop
 dane.gov.pl##.modal-dialog:has-text(RODO)
-dobramama.pl,kafeteria.tv,tv.kafeteria.pl,samosia.pl,snobka.pl,smog.pl,pinger.pl,pudelek.tv,tv.pudelek.pl,testwiedzy.pl,gryonline.wp.pl,morizon.wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, default.setTimeout)
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
