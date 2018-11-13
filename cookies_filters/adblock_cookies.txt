@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ODlqMOgtQcf1Xz3c5mB7bg
+! Checksum: powqLH9UJogky2jNHiQnsA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811131559
-! Last modified: Tue, 13 Nov 2018, 15:59:12 UTC+01
+! Version: 201811132046
+! Last modified: Tue, 13 Nov 2018, 20:46:52 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811131559 aktualizacja: wto, 13 lis 2018, 15:59:12 UTC+01
+! v.201811132046 aktualizacja: wto, 13 lis 2018, 20:46:52 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -125,7 +125,7 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
-bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info###cookies-message
+bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com###cookies-message
 bip.gliwice.eu,diamante-wear.com,ims.fm##.cookies
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl###fancybox-wrap, #fancybox-overlay
@@ -507,6 +507,7 @@ istebna.org###cookie_alert
 istockphoto.com##.warning.banner
 ists.pl,zmienimyswiat.pl##.polityka
 itaka.pl##div[style="position: fixed; bottom: 0px; width: 100%; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(187, 187, 187); box-shadow: rgb(238, 238, 238) 0px -10px 20px; padding: 10px; text-align: center; background-color: rgb(252, 252, 252); z-index: 10000; background-position: initial initial; background-repeat: initial initial; "]
+itaxi.pl,nowyteatr.org###cookies-notification
 iturek.net###cookie_message_website_policy
 it-szkola.edu.pl###cookieLayerBoxModal
 iwanowice.pl###privacy-policy-box
@@ -573,6 +574,7 @@ kolejeslaskie.com##div#c_m
 komfort.pl###intro_row, #kt-cookies
 komputerymarkowe.pl##.ui-dialog.ui-widget
 komputery-kalwaria.pl##body > center
+komp-net.eu###xrootCookieRules
 komugroup.eu###pop-up-modal
 komugroup.eu##.cookie-infobox
 komunikacja.um.bialystok.pl##a[href="/?page=cookies"]
@@ -646,6 +648,7 @@ lubimyczytac.pl###TB_window, #TB_overlay
 lublin112.pl###privacy_info_content, #privacy_info_overlay
 lubliniak.com.pl##DIV[style="background: #fff; padding: 5px; text-align: center; font-size: 11px;"]
 lukasfinanse.pl###strap
+lyconet.com###cookie-box
 mactronic.pl##body > div[id*="cookie"]
 madreklama.com##.style2
 magazynpracy.pl##DIV[style="width: 100%; text-align: center; background-color: rgb(255, 255, 255); box-shadow: 0px 0px 8px rgb(85, 85, 85); padding: 10px 0px; z-index: 100; position: fixed; bottom: 0px;"]
@@ -791,7 +794,6 @@ nowapapiernia.pl##body > div:not([id]):not([class])[style*="position"][style*="f
 nowemiasto.pl,zwolen.pl,laskarzew.pl###cook
 noweprzetargi.pl###dcach, #txt
 nowezyciepabianic.pl##div#PopupDiv
-nowyteatr.org###cookies-notification
 nuorder.pl##.___ncn-container
 nvidia.com#@#[id*="cookie_"]
 o2.pl##.zyHor, #app-inner ._1Arb2
@@ -1276,7 +1278,7 @@ zyciekalisza.pl###cdiv
 zysk.com.pl###pageUpperInfo
 zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl###infobx
 !angielski-kazdego-dnia.pl,miasto-gazeta.pl,nvt.pl##.wpgdprc
-!awf.edu.pl,firmyinzynieria.com,prostozkranu.krakow.pl,merchtedes.pl,bip.um.rybnik.eu,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl###cookie
+!awf.edu.pl,firmyinzynieria.com,prostozkranu.krakow.pl,merchtedes.pl,bip.um.rybnik.eu,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl,coremannet.com###cookie
 !fora.pl##.pp-t-a-c
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
