@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: J+Fuf5g/Ujv/YgJQLtrnbA
+! Checksum: 2FhhbbPBDYVr/O3OdzQl8Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811131234
-! Last modified: Tue, 13 Nov 2018, 12:34:02 UTC+01
+! Version: 201811131319
+! Last modified: Tue, 13 Nov 2018, 13:19:30 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811131234 aktualizacja: wto, 13 lis 2018, 12:34:02 UTC+01
+! v.201811131319 aktualizacja: wto, 13 lis 2018, 13:19:30 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -173,6 +173,7 @@ cea-art.pl##.bs-gdpr-law
 centrumpilkarskie.pl##div.jqibox
 centrumreklamy.com###CookieInfoBlock
 centrum.mscdn.pl,shoper.pl,benchmarking.silesia.org.pl##.cookie
+cepelia.com.pl###overflow-content
 certum.pl,elk.gmina.pl,koleje-wielkopolskie.com.pl##.spu-bg, .spu-box
 chamsko.pl##div[class^="cookies"]
 chceauto.pl##.cookue
@@ -237,10 +238,10 @@ dolce-gusto.pl###nimgrowler
 dollarro.com###pnlCookiebanner
 domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
 domisad.pl##.message-cockies
-domodi.pl,homebook.pl##body > div:not(body):not(id):not(class)[style*="position: fixed;"]
+domodi.pl,homebook.pl,motokobiety.pl,sklep-bmw.pl##body > div:not(body):not(id):not(class)[style*="position: fixed;"]
 dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;bottom: 0px;left: 0px;text-align: center;color: #000;border-top: 1px #000 solid;z-index: 100;"]
 dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,tubawyszkowa.pl,tubaostrowa.pl,tubachorzowa.pl##.rodo
-dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl###rodo
+dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl,aktywnedzieciaki.info###rodo
 dreammachines.pl##.modal-backdrop
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
 drumshop.pl###cookiesblock-wrapper
@@ -352,6 +353,8 @@ forumdermatologiczne.pl##.ui-widget-overlay, .ui-widget-content
 forumlekarza.pl###cpolicy_wrap
 forumplay.pl,forum-kredytowe.pl###navbar_notice_6
 forumplay.pl,forum.joomla.pl###notices
+forumstomatologiczne.pl,forumneurologiczne.pl,psychiatria.pl###cookie-policy-wrapper
+forumstomatologiczne.pl,forumneurologiczne.pl,psychiatria.pl##.ui-dialog[aria-describedby="ajaxDialogrodopopup"], .ui-widget-overlay
 forumwodne.pl##body > div[id] > div[style*="fixed"]
 forum-kulturystyka.pl###fk-terms, .pp-t-a-c
 forum.dobreprogramy.pl###rodoCookie
@@ -397,7 +400,7 @@ gih.grajewo.pl###fancybox-overlay
 gih.grajewo.pl#?##fancybox-wrap:-abp-contains(RODO)
 ginekolog-darlowo.pl,lek-med.pl###zgoda
 gkn.pl##div#gora0
-glogow-info.pl##.info1, .tloinfo1
+glogow.info.pl##.info1, .tloinfo1
 glos24.pl##DIV[style="border: 1px solid #fcce00; background: #fcfc9a; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 2px 4px #bbb; -webkit-box-shadow:0 2px 4px #bbb; -khtml-box-shadow: 0 2px 4px #bbb; box-shadow:0 2px 4px #bbb; width: 700px; font: normal 12px/1.6em verdana; color: #505050;"]
 glos24.pl##body > div[style*="z-index: 999"]
 glucholazy.pl###layer9
@@ -824,6 +827,7 @@ opoka.tv###eu-cookie-bar
 opony.net###cookiefy_bar
 opowiecie.info###spu-95603, #spu-bg-95603
 optyczne.pl###id01
+orangerecykling.pl###cookie-warn-wrapper
 orange.pl##.background
 orientshop.com.pl,tapenda.pl###ciacha
 origin.com###truste-banner, .origin-sitestripe
@@ -923,6 +927,7 @@ poznan.lasy.gov.pl##div#aui_3_2_0_1243
 poznan.travel##.cookieWarningBox
 ppe.pl,terazmuzyka.pl###rodo-overlay
 pracatobie.pl###coocieDiv
+pragma.pl##.pra-cookie-info
 praktiker.pl##div.info_c_box
 prgm.pl###Layer25
 prideshop.pl##body > div:nth-of-type(1)
@@ -937,7 +942,6 @@ prosto.pl###id-rules
 pruszkow.pl##.js-rodo-info
 przegladlokalny.eu###cookiePolicy, .popup, #popup-overlay
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
-psychiatria.pl,forumneurologiczne.pl##[aria-describedby="ajaxDialogrodopopup"], .ui-widget-overlay
 pttk.katowice.pl###cookBox
 puk.elk.pl###AgreeCookieMsg
 pulawy.eu###modalRodo, .modal-backdrop
@@ -1071,6 +1075,8 @@ store.playstation.com###privacy-header
 storytel.pl###cookieWall
 stroer.pl##.popUpWrap
 strona.euro-net.pl##.komunikatciasteczka
+stukstuk.pl###tws_s_100001
+stylownik.com##.cpolicy
 stypendia.sejmik.kielce.pl##.mod_pa_sci
 swiatnauki.pl,wiz.pl###menu
 swiatpodlog.com.pl###giodo, .modal-backdrop
