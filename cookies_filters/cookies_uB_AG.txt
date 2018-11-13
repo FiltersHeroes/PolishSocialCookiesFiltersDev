@@ -1,11 +1,11 @@
-! Checksum: oalRHJ6rwssI0fZKWDDGrQ
+! Checksum: D4W5bkDxLmGN4Dh1L5wXZw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811131538
-! Last modified: Tue, 13 Nov 2018, 15:38:20 UTC+01
+! Version: 201811131544
+! Last modified: Tue, 13 Nov 2018, 15:44:58 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811131538 aktualizacja: wto, 13 lis 2018, 15:38:20 UTC+01
+! v.201811131544 aktualizacja: wto, 13 lis 2018, 15:44:58 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -69,8 +69,8 @@ filmweb.pl##.rodo__overlay
 fiskars.pl##.desktop:style(top: 0 !important;)
 gamisport.pl###body:style(padding-top: 0 !important;)
 gamisport.pl###nextcreBotDialog
-gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com,fdds.pl,przegladpolityczny.pl,zgrp.pl,powiat.limanowski.pl,andrychow.eu,wybielanie.pl,candeo.pl##.popmake-overlay
-gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com,fdds.pl,przegladpolityczny.pl,zgrp.pl,powiat.limanowski.pl,andrychow.eu,wybielanie.pl,candeo.pl##.pum-open:style(overflow: auto !important;)
+gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com,fdds.pl,przegladpolityczny.pl,zgrp.pl,powiat.limanowski.pl,andrychow.eu,candeo.pl##.popmake-overlay
+gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com,fdds.pl,przegladpolityczny.pl,zgrp.pl,powiat.limanowski.pl,andrychow.eu,candeo.pl##.pum-open:style(overflow: auto !important;)
 generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
 haloursynow.pl,warsztat.pl,hdtv-sat.eu##.modal-open:style(padding-right: 0 !important;)
 hbogo.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
@@ -168,7 +168,6 @@ wpolityce.pl##.rhododendron-popup, .rhododendron-popup-overlay
 wrzesnia.info.pl###rodo, .modal-backdrop
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
-wybielanie.pl##html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden]:style(padding-right: 0 !important;)
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px !important;)
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
