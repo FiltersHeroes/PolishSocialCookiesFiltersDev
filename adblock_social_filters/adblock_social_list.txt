@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: S5XzCGnc8DW+tp3krLfBhQ
+! Checksum: eogn3WojkBO5F73f3+uwTg
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811132027
-! Last modified: Tue, 13 Nov 2018, 20:27:23 UTC+01
+! Version: 201811132044
+! Last modified: Tue, 13 Nov 2018, 20:44:15 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811132027 aktualizacja: wto, 13 lis 2018, 20:27:23 UTC+01
+! v.201811132044 aktualizacja: wto, 13 lis 2018, 20:44:15 UTC+01
 !
 !
 ! Popupy
@@ -2320,9 +2320,7 @@ tylkoklocki.pl###widget_shop3
 tyna.info.pl###text-2, #widget_sp_image-39
 typeofweb.com###text-4, #tp_widget_recent_tweets-2, #text-2 > .widget-title
 tytus.edu.pl##[href="https://www.facebook.com/Hr.Tytus/"]
-ubereats.com##.ue-l.palm-one-whole.lap-one-half.one-third.layout__item > div:nth-of-type(2)
-uber.com##.dotcom-footer-core-social
-uber.com##.fd.fc > .ed.fp.fo.ci, ._j4._j3._j2
+uber.com,ubereats.com##a[href*="www.facebook.com/uber"], a[href*="twitter.com/uber"], a[href*="instagram.com/uber"], a[href*="linkedin.com/company/1815218"]
 ujot.fm###text-2
 ulotki.net###likeboxblueiconright
 um24.pl##.fb-top, .m-kontakt.navbar-nav.nav > li:nth-child(n+2)
