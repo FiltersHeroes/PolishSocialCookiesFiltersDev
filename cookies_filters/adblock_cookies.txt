@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 093m6l2PKWB0ilRuBHEj4g
+! Checksum: 8nguN+IkRNVXDAWOKBsaCg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811131035
-! Last modified: Tue, 13 Nov 2018, 10:35:00 UTC+01
+! Version: 201811131100
+! Last modified: Tue, 13 Nov 2018, 11:00:26 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811131035 aktualizacja: wto, 13 lis 2018, 10:35:00 UTC+01
+! v.201811131100 aktualizacja: wto, 13 lis 2018, 11:00:26 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -752,7 +752,6 @@ natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl,joemonster.
 naturo.pl###simple-modal, #simple-modal-overlay
 nauka.rocks###ct-ultimate-gdpr-cookie-popup
 nazaruk.pl##.fixedInfo
-nbi.com.pl###CookieMsg
 nck.pl,u-jazdowski.pl###cookieterms
 ncplusgo.pl,ncplus.pl##.js-messages
 neobiznes.pl###cpolicyHolder
@@ -1421,6 +1420,7 @@ pl###BIPCookies:not(body):not(html)
 pl###CPolicy:not(body):not(html)
 pl###CookieAlert:not(body):not(html)
 pl###CookieInfo:not(body):not(html)
+pl###CookieMsg:not(body):not(html)
 pl###CookieNotification:not(body):not(html)
 pl###CookielawBanner:not(body):not(html)
 pl###CybotCookiebotDialog:not(body):not(html)
@@ -1472,6 +1472,7 @@ pl###cookiecontrol:not(body):not(html)
 pl###cookieinfo:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html) + #document_modal
+pl###cookiemsg:not(body):not(html)
 pl###cookieoverlay:not(body):not(html)
 pl###cookiepolicydiv:not(body):not(html)
 pl###cookiesAlert:not(body):not(html)
