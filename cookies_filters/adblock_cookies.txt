@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 2FhhbbPBDYVr/O3OdzQl8Q
+! Checksum: lVB9gOsvcHr/7iOvUhN86w
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811131319
-! Last modified: Tue, 13 Nov 2018, 13:19:30 UTC+01
+! Version: 201811131334
+! Last modified: Tue, 13 Nov 2018, 13:34:24 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811131319 aktualizacja: wto, 13 lis 2018, 13:19:30 UTC+01
+! v.201811131334 aktualizacja: wto, 13 lis 2018, 13:34:24 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -403,6 +403,7 @@ gkn.pl##div#gora0
 glogow.info.pl##.info1, .tloinfo1
 glos24.pl##DIV[style="border: 1px solid #fcce00; background: #fcfc9a; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 2px 4px #bbb; -webkit-box-shadow:0 2px 4px #bbb; -khtml-box-shadow: 0 2px 4px #bbb; box-shadow:0 2px 4px #bbb; width: 700px; font: normal 12px/1.6em verdana; color: #505050;"]
 glos24.pl##body > div[style*="z-index: 999"]
+gls-group.eu,kinder.com###cookiePopup
 glucholazy.pl###layer9
 gmina.gorlice.pl,hotmag.pl###wysuwane
 gmsystem.pl,sosulski.pl##body > form
@@ -556,7 +557,6 @@ ki24.info,ciechocinek.biz,gniewkowo.eu,pluznica.info,nizanskie.info,kolniak24.eu
 kiep.pl,milanos.pl,kreskowki.tv###rodo-pop
 kierunekspozywczy.pl,krsystem.pl,wislaportal.pl###cook, .cook
 kimovil.com###code_cookies
-kinder.com###cookiePopup
 kinonh.pl,nowehoryzonty.pl###div_ac
 kinoteka.pl##DIV[style="font-size: 13px; color: rgb(221, 221, 221); font-family: Tahoma,Geneva,sans-serif; z-index: 10000; position: fixed; bottom: 0px; left: 0px; right: 0px; height: 60px; padding: 0px 20px; background: rgb(70, 70, 70) none repeat scroll 0% 0%; border-top: 1px solid rgb(204, 204, 204);"]
 kinoteka.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
