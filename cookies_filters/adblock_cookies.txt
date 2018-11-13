@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: LGJi1ZMGEr2+N3WpzvA5eg
+! Checksum: ODlqMOgtQcf1Xz3c5mB7bg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811131450
-! Last modified: Tue, 13 Nov 2018, 14:50:32 UTC+01
+! Version: 201811131559
+! Last modified: Tue, 13 Nov 2018, 15:59:12 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811131450 aktualizacja: wto, 13 lis 2018, 14:50:32 UTC+01
+! v.201811131559 aktualizacja: wto, 13 lis 2018, 15:59:12 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -869,7 +869,7 @@ player.pl##.cBox
 playnow.pl##.c-cookie-info
 playtube.pl##.alert-success
 play.google.com,translate.google.pl,books.google.pl###gb > div[style*="background-color"]
-plny.pl###cookiesinfo
+plny.pl,forte.com.pl###cookiesinfo
 pl-pl.facebook.com,www.facebook.com##[data-testid="cookie-policy-banner"]
 pl.aleteia.org##.qc-cmp-ui-content
 pl.bab.la,halogorlice.info,pl.soringpcrepair.com##.cc-window
@@ -1195,6 +1195,7 @@ wrobelekelemelek.com###cboxOverlay, #cboxWrapper
 wrzucacz.pl###logo .info
 wsedno24.pl###mordern_adbar_wrap
 wseit.edu.pl##.modal-dialog, .modal-backdrop, #welcome
+wsensie.pl###rodo
 wsse-poznan.pl##.visiblebox
 wszystkoblisko.pl##.ueCookies
 wunderground.com,weather.com##.truste_overlay, .truste_box_overlay, .privacy-policy-toast
