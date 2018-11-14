@@ -1,11 +1,11 @@
-! Checksum: ZZ1mbIVNy3TUsJo+dgXPgw
+! Checksum: Qajjb0dwm0YNRJh1TzH8kA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811141011
-! Last modified: Wed, 14 Nov 2018, 10:11:20 UTC+01
+! Version: 201811141016
+! Last modified: Wed, 14 Nov 2018, 10:16:42 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811141011 aktualizacja: śro, 14 lis 2018, 10:11:20 UTC+01
+! v.201811141016 aktualizacja: śro, 14 lis 2018, 10:16:42 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -288,7 +288,7 @@ pamiatki.pl##^#hw_cookie_law
 pl.dow.com##^.cookie-notify
 powiatslubicki.pl##^#myModal
 pro-sprzet.pl##^#myWorning
-publikator.com.pl##^body script:has-text(polityka|zaufani)
+publikator.com.pl##^script:has-text(polityka|zaufani)
 pulawy.eu##^#modalRodo
 radiobielsko.pl##^script:has-text(#rodo)
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl,tuwroclaw.com,tulodz.com,zakopane.info##^#pd-modal
