@@ -1,11 +1,11 @@
-! Checksum: q6KDQ0bFvf+cafNwSh/3Mw
+! Checksum: IMaXZNXTWGAC4Ru7vd9EAA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811141523
-! Last modified: Wed, 14 Nov 2018, 15:23:32 UTC+01
+! Version: 201811142201
+! Last modified: Wed, 14 Nov 2018, 22:01:47 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811141523 aktualizacja: śro, 14 lis 2018, 15:23:32 UTC+01
+! v.201811142201 aktualizacja: śro, 14 lis 2018, 22:01:47 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -184,8 +184,8 @@ zwolen.pl###g_toplayer, .modal-backdrop
 4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,tvszum.pl,wpr.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 autakrajowe.com.pl##.modal-open:style(overflow: auto !important; margin-right: 0 !important;)
-belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl##.popmake-overlay
-belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl##.pum-open:style(overflow: auto !important;)
+belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl##.popmake-overlay[data-popmake*="cookies"]
+belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl##.pum-open:style(overflow: auto !important;)
 bioagris.pl###policy-accept-div, .modal-backdrop
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 budownictwo.pl###rodoLayer, .modal-backdrop
@@ -262,7 +262,7 @@ alltube.tv,alltube.pl##^#rodo-popup
 autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl##^#rodo
 autostrada-a2.pl##+js(remove-attr.js, class, body)
 autostrada-a2.pl##^#rodo-box, #cookielaw-box
-belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl##^.popmake-overlay
+belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl##^.popmake-overlay
 bioagris.pl##^#policy-accept-div
 born2be.pl,renee.pl##^.rules-modal
 budownictwo.pl##^#rodoLayer
@@ -319,7 +319,7 @@ azure.microsoft.com###main:style(padding-top: 88px !important;)
 4fun.tv$$#cModal
 alltube.tv,alltube.pl$$#rodo-popup
 autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl$$#rodo
-belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl$$.popmake-overlay
+belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl$$.popmake-overlay
 bioagris.pl$$#policy-accept-div
 cenapaliw.pl$$#CBCookieMsg
 dalmierze.pl$$#Widget3
