@@ -1,11 +1,11 @@
-! Checksum: e5xJLXXXxs7YkdySxQxN8w
+! Checksum: ZZ1mbIVNy3TUsJo+dgXPgw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811132050
-! Last modified: Tue, 13 Nov 2018, 20:50:01 UTC+01
+! Version: 201811141011
+! Last modified: Wed, 14 Nov 2018, 10:11:20 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811132050 aktualizacja: wto, 13 lis 2018, 20:50:01 UTC+01
+! v.201811141011 aktualizacja: śro, 14 lis 2018, 10:11:20 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -192,6 +192,7 @@ budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl##.modal-open:style(overflow: auto !important;)
 cenapaliw.pl###CBCookieMsg, .modal-backdrop
 dalmierze.pl###Widget3, .modal-backdrop
+ekobiuro24.pl##.ui-dialog[aria-labelledby="ui-dialog-title-dialog-agreement"], .ui-widget-overlay
 emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##[id^="banner-komunikat-rodo-"], .modal-backdrop
 empik.com##script:inject(nano-remove-elements-onready.js, .cookies-accept)
 eobuwie.com.pl##.popup
@@ -222,10 +223,10 @@ polski-tenis.pl###rodo
 powiatslubicki.pl##+js(abort-current-inline-script.js, jQuery, #myModal)
 pro-sprzet.pl###myWorning, .modal-backdrop
 publikator.com.pl##.layer
-publikator.com.pl##body>*:style(filter: none !important;)
+publikator.com.pl##body > *:style(filter: none !important;)
 publikator.com.pl##html > body:style(overflow: auto !important;)
 radiobielsko.pl###rodo, .lean-overlay
-radiobielsko.pl,pamiatki.pl##body:style(overflow: auto !important;)
+radiobielsko.pl,pamiatki.pl,ekobiuro24.pl##body:style(overflow: auto !important;)
 roztoczanskipn.pl###rodo-modal, .modal-backdrop
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,pulawy.eu##.modal-open:style(padding-right: 0 !important;)
 sevenpolska.com###flipFlop, .modal-backdrop
@@ -266,6 +267,7 @@ born2be.pl,renee.pl##^.rules-modal
 budownictwo.pl##^#rodoLayer
 cenapaliw.pl##^#CBCookieMsg
 dalmierze.pl##^#Widget3
+ekobiuro24.pl##^#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##^[id^="banner-komunikat-rodo-"]
 empik.com##^.cookies-accept
 eobuwie.com.pl##^script:has-text(technologii cookies)
@@ -319,6 +321,7 @@ belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics
 bioagris.pl$$#policy-accept-div
 cenapaliw.pl$$#CBCookieMsg
 dalmierze.pl$$#Widget3
+ekobiuro24.pl$$#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl$$[id^="banner-komunikat-rodo-"]
 empik.com$$.cookies-accept
 farmacja.pl$$.rodo-modal
