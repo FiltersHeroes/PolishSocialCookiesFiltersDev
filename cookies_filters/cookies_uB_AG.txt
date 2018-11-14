@@ -1,11 +1,11 @@
-! Checksum: ahISuIPhCL5UREa0pS8zig
+! Checksum: ig1z+2YmGWliHKVYz5F6AQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811141042
-! Last modified: Wed, 14 Nov 2018, 10:42:53 UTC+01
+! Version: 201811141255
+! Last modified: Wed, 14 Nov 2018, 12:55:59 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811141042 aktualizacja: śro, 14 lis 2018, 10:42:53 UTC+01
+! v.201811141255 aktualizacja: śro, 14 lis 2018, 12:55:59 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -192,6 +192,7 @@ budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl##.modal-open:style(overflow: auto !important;)
 cenapaliw.pl###CBCookieMsg, .modal-backdrop
 dalmierze.pl###Widget3, .modal-backdrop
+easyprotect.pl###gafancybox-overlay227
 ekobiuro24.pl##.ui-dialog[aria-labelledby="ui-dialog-title-dialog-agreement"], .ui-widget-overlay
 emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##[id^="banner-komunikat-rodo-"], .modal-backdrop
 empik.com##+js(nano-remove-elements-onready.js, .cookies-accept)
@@ -205,11 +206,11 @@ fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
 infoplanet.pl,craftserve.pl,motobanda.pl,autakrajowe.com.pl###rodo, .modal-backdrop
 infostrow.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info###rodo-modal
-listymikolaja.pl##html > body:style(overflow: auto !important;)
-listymikolaja.pl##html.fancybox-lock > body:style(overflow: auto !important;)
-listymikolaja.pl##html.fancybox-lock:style(overflow: auto !important;)
-listymikolaja.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 listymikolaja.pl##.fancybox-overlay:has(#popup_rodo_layer)
+listymikolaja.pl,easyprotect.pl##html > body:style(overflow: auto !important;)
+listymikolaja.pl,easyprotect.pl##html.fancybox-lock > body:style(overflow: auto !important;)
+listymikolaja.pl,easyprotect.pl##html.fancybox-lock:style(overflow: auto !important;)
+listymikolaja.pl,easyprotect.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 lovekrakow.pl,muzyczneradio.pl###modal-rodo, .modal-backdrop
 money.pl##+js(nano-remove-elements-onready.js, .rodo-popup)
@@ -267,6 +268,7 @@ born2be.pl,renee.pl##^.rules-modal
 budownictwo.pl##^#rodoLayer
 cenapaliw.pl##^#CBCookieMsg
 dalmierze.pl##^#Widget3
+easyprotect.pl##^#gafancybox-overlay227
 ekobiuro24.pl##^#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##^[id^="banner-komunikat-rodo-"]
 empik.com##^.cookies-accept
@@ -321,6 +323,7 @@ belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics
 bioagris.pl$$#policy-accept-div
 cenapaliw.pl$$#CBCookieMsg
 dalmierze.pl$$#Widget3
+easyprotect.pl$$#gafancybox-overlay227
 ekobiuro24.pl$$#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl$$[id^="banner-komunikat-rodo-"]
 empik.com$$.cookies-accept
