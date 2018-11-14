@@ -15,7 +15,7 @@ biuletyn.net##body > table:style(margin-top: 0 !important;)
 biuletyn.net##.urzad_mini > div:style(top: 225px !important;)
 bloombergbusinessweek.pl##body:style(margin-top: 0 !important;)
 ceres.pl###flipFlop, .modal-backdrop
-chojnow.pl##script:inject(abort-current-inline-script.js, confirm, rodoConfirm)
+chojnow.pl##+js(abort-current-inline-script.js, confirm, rodoConfirm)
 cupsell.pl##.tingle-enabled:style(position: static !important; overflow: auto !important;)
 cupsell.pl##.tingle-modal
 dane.gov.pl##.modal-backdrop
@@ -63,7 +63,7 @@ ipla.tv##.no-scroll:style(overflow: auto !important;)
 ipla.tv##.rodo-rules-modal
 kaliszak.pl##.rodo, .rodo_layer
 kalisz.info.pl###all:style(top: 0 !important;)
-kobietymedycyny.pl##script:inject(abort-current-inline-script.js, $, cookies)
+kobietymedycyny.pl##+js(abort-current-inline-script.js, $, cookies)
 kolomnie.pl##.rodo-pop-up
 kolosmnie.pl##.open-modal:style(overflow: auto !important;)
 komputerswiat.pl##html > body.cmp:style(overflow: auto !important;)
@@ -91,7 +91,7 @@ multimediago.pl##.modal-cookie
 mzbm.tychy.pl###privacy-modal, .modal-backdrop
 m.24jgora.pl,24wroclaw.pl###rodoModal, .modal-backdrop
 nauka.rocks##.ct-ultimate-gdpr-cookie-topPanel-padding:style(padding-top: 0 !important;)
-neon24.pl##script:inject(abort-on-property-read.js, Service.cookieMonster)
+neon24.pl##+js(abort-on-property-read.js, Service.cookieMonster)
 obpon.pl##.menu-flashmessages:style(top: 0 !important;)
 obywatel.gov.pl###modal-rodo, .modal-backdrop
 obywatel.gov.pl,m.24jgora.pl,e-sochaczew.pl,pultusk24.pl,multimediago.pl,dane.gov.pl,24wroclaw.pl,zwolen.pl,wrzesnia.info.pl,ceres.pl,komugroup.eu##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
@@ -136,7 +136,7 @@ teatrpolski.waw.pl##.fancybox-overlay:has(#privacyPolicy)
 telepizza.pl##.navbar:style(margin-top: 0 !important;)
 tureckisklep.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#conditions_condition button.acceptCondition)
 tuzdrowie.pl###popupModal, .modal-backdrop
-tv.pudelek.pl,gryonline.wp.pl##script:inject(set-constant.js, wp_no_consent_screen, true)
+tv.pudelek.pl,gryonline.wp.pl##+js(set-constant.js, wp_no_consent_screen, true)
 twitter.com##.topbar-spacer:style(padding-top: 0 !important;)
 umig.olkusz.pl###gafancybox-overlay174
 vod.naekranie.pl###modal-rodo-info, .modal-backdrop
