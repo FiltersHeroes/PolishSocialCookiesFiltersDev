@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: yQVMEpwjezX//caW6NDzWg
+! Checksum: d2QlMxkmCC9RPAcpEFbZ5g
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811151213
-! Last modified: Thu, 15 Nov 2018, 12:13:48 UTC+01
+! Version: 201811151415
+! Last modified: Thu, 15 Nov 2018, 14:15:13 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811151213 aktualizacja: czw, 15 lis 2018, 12:13:48 UTC+01
+! v.201811151415 aktualizacja: czw, 15 lis 2018, 14:15:13 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -26,6 +26,7 @@
 4lomza.pl###komunikat_rodo
 24jgora.pl###myModal_cookie
 40latki.pl###noty_bottom_layout_container
+40ton.net###catapult-cookie-bar
 a4-klub.pl,forum.radioparty.pl,forum.benchmark.pl,pfmrc.eu###document_modal
 abbvie.pl###omniTrackDiv
 abfoto.pl##.abfoto_popup_bg
@@ -126,7 +127,7 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
-bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net###cookies-message
+bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net###cookies-message
 bip.gliwice.eu,diamante-wear.com,ims.fm##.cookies
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl###fancybox-wrap, #fancybox-overlay
@@ -196,7 +197,7 @@ claritine.pl##.cc-grower
 clearchannel.com.pl,sokolka.com.pl###rodoPopup
 cmg24.pl##.RODO
 codziennikfeministyczny.pl###bazinga-muffin-container
-coinroom.com,targikielce.pl##.cookie-warning
+coinroom.com,targikielce.pl,polimex.net##.cookie-warning
 convertcase.net###cookiebar
 cookielaw.org,hp.com##.optanon-alert-box-wrapper
 copernicusfestival.com,naukaireligia.pl,filozofiawnauce.pl,copernicuscenter.edu.pl###block-block-31
@@ -286,6 +287,7 @@ elektrozysk.pl,fajka24.pl,krups.com.pl,laznianowa.pl,linuxportal.pl,lovela.pl,ls
 elka.pl,elka.tv,miedziowe.pl,miedziowe.tv###RODOZgoda
 elopol.pl##div#black2
 elopol.pl##div.ciacho-wrap-container
+emito.net##.cookie-jar
 emt-systems.pl###rodoBG
 enjoyuk.pl###fanback
 eostroleka.pl###cookiesRodo
@@ -531,6 +533,7 @@ jak-ksiegowac.pl###message_wrap
 januszebiznesu.pl,proszynski.pl,seriale.co,zarmen.pl###komunikat
 jarocinska.pl,gostynska.pl,zpleszewa.pl,rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 jarocin.poznan.lasy.gov.pl##div#aui_3_2_0_1203
+jasnet.pl###cookies_box
 jastrzebieonline.pl,darnatury.pl###rodo_popup
 jazzfestiwal.kck.com.pl###system-message > .fade.message.notice > ul > li
 jazzsoul.pl,ksiegarnienaukowe.pl###globalMessage
@@ -903,6 +906,7 @@ pl.mitsubishielectric.com##.pc_scsmod-cookie_alert
 pl.mytaxi.com##.cookie-overlay
 pl.next-jobs24.com###container
 pl.next-jobs24.com###container_tmp
+pl.pandora.net###cccwr.ccc-impl.ccc-light.ccc-bar.ccc-top, #cccwrpad
 pl.pinterest.com##.outerCookieBar
 pl.pons.com##.cc_banner-wrapper
 pl.sat24.com###cookie-message
@@ -917,6 +921,7 @@ poczesna.com.pl##div#PolitykaBlok
 podhale-sport.pl##body > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2) > p
 podrozezmamaitata.com##.penci-gprd-law
 pogodynka.pl###accept
+pogonsportnet.pl##.cookies-footer
 poki.pl#?#div > div > div:-abp-contains(cookie)
 polandtrade.pl###cb
 polcar.com,schroniskowroclaw.pl###cwwb
@@ -928,7 +933,7 @@ polopiryna.pl,polpharma.pl##.monit
 polska.googleblog.com###cookieChoiceInfo
 polskicaravaning.pl###myModalpol
 polskieradio.pl,dziennikwschodni.pl##.rodo-modal
-polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com###cookie-law-info-bar
+polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com,widzewtomy.net###cookie-law-info-bar
 polskiprawnik.pl##.reveal-modal-bg, #popup3
 pomagam.pl###pp-info
 popbookownik.pl##.wph-modal
