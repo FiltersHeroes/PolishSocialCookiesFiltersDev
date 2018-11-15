@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: vg7znBiFoblGRraTGElbdQ
+! Checksum: IbPJ1olv/gmSJk9cjFEPqw
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811150948
-! Last modified: Thu, 15 Nov 2018, 09:48:37 UTC+01
+! Version: 201811150950
+! Last modified: Thu, 15 Nov 2018, 09:50:26 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811150948 aktualizacja: czw, 15 lis 2018, 09:48:37 UTC+01
+! v.201811150950 aktualizacja: czw, 15 lis 2018, 09:50:27 UTC+01
 !
 !
 ! Popupy
@@ -683,7 +683,6 @@ pl##[id^="nk_fajne"]
 !
 !
 ! Specyficzne reguły ukrywające
-.e-korepetycje.net##section.bg-white:-abp-contains(Dołącz do naszej społeczności!)
 3mk.pl##.cresta-facebook-messenger-box, #text-8
 3obieg.pl###text-7, .smart-youtube
 4dd.pl##.list-12 > li
@@ -1115,6 +1114,7 @@ e-biznes.pl##.x-main > div.content.entry-content:nth-of-type(1)
 e-kca.pl##a[href="http://plus.google.com/112246936900220613632"]
 e-kca.pl##a[href="http://www.facebook.com/sklepkca"]
 e-kominki24h.pl##.widgets, .footer-hehe > span:nth-of-type(8)
+e-korepetycje.net##section.bg-white:-abp-contains(Dołącz do naszej społeczności!)
 e-korepetycje.net##.footer-top-left > ul > li
 e-sochaczew.pl##.col-lg-8
 e-sochaczew.pl##[href^="https://plus.google.com/u/0/100895888893863910318/"]
