@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: rxFxHEcazgpEUgdw+P7N1w
+! Checksum: vg7znBiFoblGRraTGElbdQ
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811142218
-! Last modified: Wed, 14 Nov 2018, 22:18:41 UTC+01
+! Version: 201811150948
+! Last modified: Thu, 15 Nov 2018, 09:48:37 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811142218 aktualizacja: śro, 14 lis 2018, 22:18:41 UTC+01
+! v.201811150948 aktualizacja: czw, 15 lis 2018, 09:48:37 UTC+01
 !
 !
 ! Popupy
@@ -128,6 +128,7 @@ pl##.facebookThis
 pl##.facebookactivity
 pl##.facebooks
 pl##.fa.icon
+pl##.fb
 pl##.fbButton
 pl##.fbLikebtn
 pl##.fbLink
@@ -189,6 +190,7 @@ pl##.theChampFacebookBackground.theChampSharing
 pl##.theChampGoogleplusBackground.theChampSharing
 pl##.theChampTwitterBackground.theChampSharing
 pl##.theChampWykopBackground.theChampSharing
+pl##.tw
 pl##.tweetShare
 pl##.tweet.item
 pl##.twico.icon
@@ -913,6 +915,7 @@ centrumparis.pl##.social_footer_2
 centrum-gracza.pl##.widget:nth-of-type(2) > .widget-title, .col-md-4.col-sm-12
 centrum.fm##.fb
 certyficate.it##.message.social
+cesario.pl,moodconcept.pl###ssb-btn-0
 channel9.msdn.com##.twitter, .facebook, .reddit
 chatkazpiernika.pl###vdUnderFooter
 chemik-police.com##.twitter, #footer > .social, .youtube-cta
@@ -1611,10 +1614,9 @@ mojegotowanie.pl##.top-menu-like-us
 mojewypieki.com###home_fb_plugin
 moje-bubble.blogspot.com###HTML2, #Profile1, #PlusBadge2, #HTML5
 mojtelefon.info##.daily, .google
-mojtelefon.info,oakandberry.com,~allegro.pl,~kurnik.pl,pl##.fb
-mojtelefon.info,oakandberry.com,pl##.tw
+mojtelefon.info,oakandberry.com##.fb
+mojtelefon.info,oakandberry.com##.tw
 mondaynews.pl##.pre-footer-internal-social
-moodconcept.pl###ssb-btn-0
 mosquito-sklep.pl##[href="https://www.instagram.com/mosquitopl/"], [href="https://www.facebook.com/mosquitopl"]
 moto125.pl###widget_shop1
 motomi.pl##.col-sm-4 > h3
@@ -2820,6 +2822,7 @@ www.instalki.pl#@#img[alt="Facebook"]
 !
 !
 ! Wyjątki
+allegro.pl,kurnik.pl#@#.fb
 downdetector.pl#@#a[title="Instagram"]
 linuxportal.pl#@#a.like
 polityczek.pl#@##twitter
