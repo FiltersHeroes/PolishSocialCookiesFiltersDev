@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: H2+9VL9jhE6GqDrh9QJfeQ
+! Checksum: 0Dx3/Ik1WHQd1yKvw/Ctag
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811142216
-! Last modified: Wed, 14 Nov 2018, 22:16:49 UTC+01
+! Version: 201811151001
+! Last modified: Thu, 15 Nov 2018, 10:01:14 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811142216 aktualizacja: śro, 14 lis 2018, 22:16:49 UTC+01
+! v.201811151001 aktualizacja: czw, 15 lis 2018, 10:01:14 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -321,7 +321,7 @@ e-promar.pl,lafe.pl,promib.pl###cInfo
 e-reporter.pl,myhome.pl,newsbook.pl,inianie.pl###wpfront-notification-bar
 e-swietokrzyskie.kielce.eu##div#belka_dolna
 fabrykamemow.pl##body>div:not([id]):not([class])
-facebook.com##.pam.fbPageBanner._3d9x.uiBoxGray.bottomborder
+facebook.com##.pam.fbPageBanner.uiBoxGray.bottomborder, [data-testid="cookie-policy-banner"]
 fajka24.pl##DIV[style="background: #fafafa; border: 1px solid #ccc; text-align: center; font-size: 1em; padding: 20px; width: 960px; height: 20px; left: 50%; bottom: 60px; margin-left: -480px; position: fixed; z-index:130 "]
 fandk.com.pl###block-block-6
 fansubs.pl##div[style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; top: 0px; right: 0%; width: 94%; opacity: 1; margin-left: 2%; display: block; "]
@@ -889,7 +889,6 @@ player.pl##.cBox
 playnow.pl##.c-cookie-info
 playtube.pl##.alert-success
 play.google.com,translate.google.pl,books.google.pl###gb > div[style*="background-color"]
-pl-pl.facebook.com,www.facebook.com##.pam.fbPageBanner[id][role="alert"]
 pl.aleteia.org##.qc-cmp-ui-content
 pl.bab.la,halogorlice.info,pl.soringpcrepair.com##.cc-window
 pl.chili.tv###_evh-ric
