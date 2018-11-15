@@ -1,11 +1,11 @@
-! Checksum: 4cFno8pEWmwT2Y6U7W8AwA
+! Checksum: 0AJdMisNKgnhEBGQFFcoaQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811151545
-! Last modified: Thu, 15 Nov 2018, 15:45:45 UTC+01
+! Version: 201811152113
+! Last modified: Thu, 15 Nov 2018, 21:13:28 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811151545 aktualizacja: czw, 15 lis 2018, 15:45:45 UTC+01
+! v.201811152113 aktualizacja: czw, 15 lis 2018, 21:13:28 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -26,6 +26,7 @@ analizy.pl,mago.com##html:style(overflow: auto !important;)
 appsource.microsoft.com##.cookieBanner:style(visibility: hidden !important;)
 aquapark.wroc.pl###header:style(top: 0 !important;)
 archiwum.rp.pl,info.rp.pl##body:style(margin-top: 0 !important;)
+autostrada-a2.pl##+js(remove-attr.js, class, body)
 auto-czesci-lipiec.pl###mAll
 auto-czesci-lipiec.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 bbcpolska.com###home:style(padding-top: 0 !important;)
@@ -252,18 +253,20 @@ ztm.poznan.pl###PopUP, .modal-backdrop
 !djoles.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 !eurologistics.pl##html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden]:style(padding-right: 0 !important;)
 !+ PLATFORM(ext_ublock)
-openpli.org##body > div:not([id]):not([class])
+akamai.com##.notification--warning, .modal--overlay
+!+ PLATFORM(ext_ublock)
+akamai.com##+js(remove-attr.js, class, .disable-sibling-pointer-events)
 !+ PLATFORM(ext_ublock)
 autostrada-a2.pl###rodo-box, #cookielaw-box
 !+ PLATFORM(ext_ublock)
-autostrada-a2.pl##+js(remove-attr.js, class, body)
+openpli.org##body > div:not([id]):not([class])
 !#endif
 !#if cap_html_filtering
 4fun.tv##^#cModal
 academy.asseco.pl##^#politykaPrywatnosciModal
+akamai.com##^.notification--warning
 alltube.tv,alltube.pl##^#rodo-popup
 autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl##^#rodo
-autostrada-a2.pl##+js(remove-attr.js, class, body)
 autostrada-a2.pl##^#rodo-box, #cookielaw-box
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl##^.popmake-overlay
 bioagris.pl##^#policy-accept-div
@@ -321,6 +324,7 @@ azure.microsoft.com###main:style(padding-top: 88px !important;)
 !#if !ext_ublock
 4fun.tv$$#cModal
 academy.asseco.pl$$#politykaPrywatnosciModal
+akamai.com$$.notification--warning
 alltube.tv,alltube.pl$$#rodo-popup
 autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl$$#rodo
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl$$.popmake-overlay
