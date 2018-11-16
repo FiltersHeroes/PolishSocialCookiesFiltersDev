@@ -492,8 +492,7 @@ inksystem.pl##.fixed_bottom
 inoreader.com##.landing_promo_banner_top
 inpay.pl##.ckcontent
 insert.com.pl###privacyAndCookiePolicy
-instagram.com#?#div>div>div p:-abp-contains(cookie)
-instagram.com#?#section>div:-abp-contains(cookie)
+instagram.com#?#body > span > section > div:nth-of-type(1):-abp-has(.coreSpriteDismissLarge)
 instytutlogopedyczny.pl###flash-msg
 interprojekt.pl###myModal, .modal-backdrop, .reveal-modal-bg
 intymna.pl###sb_bottom_float, #wymagania_sklepu_alert
