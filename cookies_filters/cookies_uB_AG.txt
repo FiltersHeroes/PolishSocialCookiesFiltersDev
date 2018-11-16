@@ -1,11 +1,11 @@
-! Checksum: Ac8/PdYepB59XG7R5CdAyQ
+! Checksum: 3HbyWQu/OZopjftIvrvJYg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811152139
-! Last modified: Thu, 15 Nov 2018, 21:39:09 UTC+01
+! Version: 201811161054
+! Last modified: Fri, 16 Nov 2018, 10:54:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811152139 aktualizacja: czw, 15 lis 2018, 21:39:09 UTC+01
+! v.201811161054 aktualizacja: pią, 16 lis 2018, 10:54:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -191,7 +191,7 @@ belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics
 bioagris.pl###policy-accept-div, .modal-backdrop
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 budownictwo.pl###rodoLayer, .modal-backdrop
-budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl##.modal-open:style(overflow: auto !important;)
+budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl,poszalu.pl##.modal-open:style(overflow: auto !important;)
 cenapaliw.pl###CBCookieMsg, .modal-backdrop
 dalmierze.pl###Widget3, .modal-backdrop
 easyprotect.pl###gafancybox-overlay227
@@ -224,6 +224,7 @@ pl.dow.com##html,body:style(overflow: visible !important; position: static !impo
 pl.dow.com##.cookie-notify
 polski-tenis.pl###rodo
 porcelana.com.pl##+js(abort-on-property-read.js, alert, cookies)
+poszalu.pl###gdpr-modal, .modal-backdrop
 powiatslubicki.pl##+js(abort-current-inline-script.js, jQuery, #myModal)
 pro-sprzet.pl###myWorning, .modal-backdrop
 publikator.com.pl##.layer
@@ -294,6 +295,7 @@ okazik.pl##^script:has-text(#cookie-dialog)
 openpli.org##^script:has-text(gdpr-accepted)
 pamiatki.pl##^#hw_cookie_law
 pl.dow.com##^.cookie-notify
+poszalu.pl##^#gdpr-modal
 powiatslubicki.pl##^#myModal
 pro-sprzet.pl##^#myWorning
 publikator.com.pl##^script:has-text(polityka|zaufani)
@@ -352,6 +354,7 @@ openpli.org$$script[tag-content="gdpr-accepted"]
 pamiatki.pl$$#hw_cookie_law
 pl.dow.com$$.cookie-notify
 porcelana.com.pl$$#script[tag-content="plików cookies"]
+poszalu.pl$$#gdpr-modal
 powiatslubicki.pl###myModal, .modal-backdrop
 powiatslubicki.pl##.modal-open:style(overflow: auto !important;)
 powiatslubicki.pl$$#myModal
