@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: P5TlHM9Tbvy0A+F++ohPww
+! Checksum: icAxlxzv+38tl+utNF2c8Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811161812
-! Last modified: Fri, 16 Nov 2018, 18:12:25 UTC+01
+! Version: 201811161901
+! Last modified: Fri, 16 Nov 2018, 19:01:14 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811161812 aktualizacja: pią, 16 lis 2018, 18:12:25 UTC+01
+! v.201811161901 aktualizacja: pią, 16 lis 2018, 19:01:14 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -114,6 +114,7 @@ bbcpolska.com##body > iframe
 bdi.com.pl##.ultra_modules_ad_acceptation_b
 bdl.lasy.gov.pl###infoDiv
 bebio.pl##.rodo-canvas-wrapper
+bejeans.pl###js-cookienotice
 beskidzkapilka.pl##.messageinfo
 betsson.com###MsgAreaBottom
 bialapodlaska.pl##.accept-cookies
@@ -130,7 +131,7 @@ biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
 bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net###cookies-message
 bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com##.cookies
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
-bip.izabelin.pl###fancybox-wrap, #fancybox-overlay
+bip.izabelin.pl,aspsklep.pl,klublifestyle.pl,sgurp.pl,zwolenpowiat.pl###fancybox-wrap, #fancybox-overlay
 bip.marciszow.pl###cookiesWarning
 bip.sejmik.kielce.pl##.pa_sci
 bip.um.rybnik.eu###cookie, #rodo
@@ -353,6 +354,7 @@ firecash.org,pbg-sa.pl,grupaeurocash.pl,payup.pl,regionwielkopolska.pl###info
 firmamazur.pl,mazurcompany.com###cookies-glass
 firmy4u.pl###infociasteczka
 firmyinzynieria.com,bip.um.rybnik.eu###cookie
+firmymiesne.pl##[aria-describedby="rodo-dialog"], .ui-widget-overlay
 firmy.lu###privacy_info_overlay, #privacy_info_content
 fleetboard.pl,hbo.pl,patronite.pl###overlay
 florexpol.eu##div#fancybox-overlay
@@ -583,7 +585,6 @@ klockolandia.pl##DIV[style="position:fixed;top:0;z-index:1000;width:100%;text-al
 klodzko24.eu,nowaruda24.pl,amrest.eu,eenergy.com.pl###cndiv
 klopsztanga.eu##div[style="background:#2A2A2A; left:0px; bottom:0px; right:0px; position:fixed; z-index:10000;"]
 klubjagiellonski.pl##.block-powitanie
-klublifestyle.pl###fancybox-wrap, #fancybox-overlay, #fancybox-loading, #fancybox-tmp, .fancybox-wrap, .fancybox-overlay
 kobieta.byc.pl###kontener1
 kochamwroclaw.pl###tfade, #cwv3_dialog, #tlight, .dialog-overlay, #surbma-yes-no-popup
 kodilla.com##.cookies-prompt
@@ -1057,7 +1058,6 @@ seriea.pl###viewCookiesClose
 seriea.pl,kadra.pl,ligapolska.pl,goal.pl,primeradivision.pl###viewCookies
 serwis.currenda.pl##div#sign_up
 seszele.com.pl##iframe#cookfr
-sgurp.pl###fancybox-overlay, #fancybox-wrap
 shazam.com##div.policy-label
 shippuuden.pl##div#cookis-bg
 shop-dent.pl##div.black_overlay
@@ -1311,7 +1311,6 @@ zomato.com##.gdbr_banner_wrapper
 zosiaikevin.pl###novem-slot
 zrzutka.pl##.plicy
 zs1mm.home.pl##body > div[style^="position: relative;"]:not(id):not(class)
-zwolenpowiat.pl###fancybox-wrap, #fancybox-overlay
 zyciekalisza.pl###cdiv
 zysk.com.pl###pageUpperInfo
 zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl###infobx
