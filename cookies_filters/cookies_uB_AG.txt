@@ -1,11 +1,11 @@
-! Checksum: rqpLuz92b1cogr02+HKTmQ
+! Checksum: 8pim8SfJ/bVZKwQ5h59SDg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811161256
-! Last modified: Fri, 16 Nov 2018, 12:56:45 UTC+01
+! Version: 201811161901
+! Last modified: Fri, 16 Nov 2018, 19:01:15 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811161256 aktualizacja: pią, 16 lis 2018, 12:56:45 UTC+01
+! v.201811161901 aktualizacja: pią, 16 lis 2018, 19:01:15 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -187,7 +187,7 @@ academy.asseco.pl###politykaPrywatnosciModal, .modal-backdrop
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 autakrajowe.com.pl##.modal-open:style(overflow: auto !important; margin-right: 0 !important;)
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl##.popmake-overlay[data-popmake*="cookies"]
-belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl##.pum-open:style(overflow: auto !important;)
+belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,homedesign.pl##.pum-open:style(overflow: auto !important;)
 bioagris.pl###policy-accept-div, .modal-backdrop
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 budownictwo.pl###rodoLayer, .modal-backdrop
@@ -206,6 +206,7 @@ farmacja.pl##[style^="filter: blur"]:style(filter: none !important;)
 forums.openpli.org##+js(abort-current-inline-script.js, euReadCookie)
 fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
+homedesign.pl##[data-popmake*="rodo"]
 infoplanet.pl,craftserve.pl,motobanda.pl,autakrajowe.com.pl###rodo, .modal-backdrop
 infostrow.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info###rodo-modal
 listymikolaja.pl##.fancybox-overlay:has(#popup_rodo_layer)
@@ -284,6 +285,7 @@ farmacja.pl##^.rodo-modal
 ferguson-digital.eu##^#cookie-notice
 fryzomania.pl##^#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl##^.rodo
+homedesign.pl##^[data-popmake*="rodo"]
 ideafairplay.pl##^#modal-privacy
 infostrow.pl,roztoczanskipn.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info##^#rodo-modal
 listymikolaja.pl##^#popup_rodo_layer
@@ -376,6 +378,7 @@ ustawlige.com,ustawmundial.weszlo.com$$#privacy-modal
 wtk.pl$$#GDPR-modal
 zdajmyrazem.pl$$#gdprModal
 ztm.poznan.pl$$#PopUP
+!Działa dopiero po odświeżeniu? homedesign.pl$$[data-popmake*="rodo"]
 !djoles.pl$$#modal-rodo
 !eobuwie.com.pl$$script[tag-content="technologii cookies"]
 !#endif
