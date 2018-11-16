@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: /lw39XP2eoQsRCyxCP1wew
+! Checksum: P5TlHM9Tbvy0A+F++ohPww
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811161553
-! Last modified: Fri, 16 Nov 2018, 15:53:57 UTC+01
+! Version: 201811161812
+! Last modified: Fri, 16 Nov 2018, 18:12:25 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811161553 aktualizacja: pią, 16 lis 2018, 15:53:57 UTC+01
+! v.201811161812 aktualizacja: pią, 16 lis 2018, 18:12:25 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -101,7 +101,6 @@ automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autos-motos.net,scentre.pl##.consent
 avast.com,pay.google.com##.cookie-bar
 avioner.pl,upolujebooka.pl##.alert
-awf.poznan.pl,audio-bajki.pl###redim-cookiehint
 azure.microsoft.com###cookie-prompt
 a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info,cdax.online,emisja.tv,pl.stealthsettings.com,bajeczki.org###cookie-notice
 badaniaprenatalne.pl###stb-14718
@@ -466,9 +465,7 @@ hdtv-sat.eu###modalcookies, .modal-backdrop
 hebe.pl##.legal-info
 hebe.pl##.rodo-popup_popup
 heineken.com.pl###infobx2
-helios.pl##.cookiesInfo
-helios.pl#?#.fancybox-overlay:-abp-has(.cookiesInfo)
-hemp.pl##table[width="1166"][bgcolor="gray"]
+helios.pl##.ban-rodo
 herbaciani.pl##DIV[style="float:right; padding-top:20px; padding-bottom:20px; width:100%; font-size:12px; background:#ddd; color:#333; text-align:center; margin-bottom:10px;"]
 heuristic.pl###cboxContent, #cboxOverlay
 hillsvet.pl##[class*="ui-widget"]
@@ -1628,6 +1625,7 @@ pl###privacy-notice:not(body):not(html)
 pl###privacy-policy:not(body):not(html)
 pl###privacy_policy:not(body):not(html)
 pl###privacy_policy_bar:not(body):not(html)
+pl###redim-cookiehint:not(body):not(html)
 pl###rodo-popup:not(.fade):not(body):not(html)
 pl###scnb-cookie-bar:not(body):not(html)
 pl###showCookieInfo:not(body):not(html)
@@ -1674,6 +1672,7 @@ pl##.cookieinfo:not(body):not(html)
 pl##.cookienotice:not(body):not(html)
 pl##.cookiepolicy:not(body):not(html)
 pl##.cookiesBanner:not(body):not(html)
+pl##.cookiesInfo:not(body):not(html)
 pl##.cookiesNotificationOuter:not(body):not(html)
 pl##.cookiesNotification:not(body):not(html)
 pl##.cookiesWrapper:not(body):not(html)
