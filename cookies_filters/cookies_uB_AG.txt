@@ -1,11 +1,11 @@
-! Checksum: wIdu6XzoDsmFqBwIIOQLXg
+! Checksum: LqzwDbodHKmNbhTdwJWxxQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811171949
-! Last modified: Sat, 17 Nov 2018, 19:49:43 UTC+01
+! Version: 201811172225
+! Last modified: Sat, 17 Nov 2018, 22:25:30 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811171949 aktualizacja: sob, 17 lis 2018, 19:49:43 UTC+01
+! v.201811172225 aktualizacja: sob, 17 lis 2018, 22:25:30 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -194,10 +194,10 @@ budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl,poszalu.pl##.modal-open:style(overflow: auto !important;)
 cenapaliw.pl###CBCookieMsg, .modal-backdrop
 dalmierze.pl###Widget3, .modal-backdrop
+easyprotect.pl##html.gafancybox-lock > body:style(overflow: auto !important;)
+easyprotect.pl##html.gafancybox-lock:style(overflow: auto !important;)
+easyprotect.pl##html.gafancybox-margin:style(margin-right: 0 !important;)
 easyprotect.pl###gafancybox-overlay227
-easyprotect.pl##.gafancybox-lock > body:style(overflow: auto !important;)
-easyprotect.pl##.gafancybox-lock:style(overflow: auto !important;)
-easyprotect.pl##.gafancybox-margin:style(margin-right: 0 !important;)
 ekobiuro24.pl##.ui-dialog[aria-labelledby="ui-dialog-title-dialog-agreement"], .ui-widget-overlay
 emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##[id^="banner-komunikat-rodo-"], .modal-backdrop
 empik.com##+js(nano-remove-elements-onready.js, .cookies-accept)
@@ -279,7 +279,7 @@ born2be.pl,renee.pl##^.rules-modal
 budownictwo.pl##^#rodoLayer
 cenapaliw.pl##^#CBCookieMsg
 dalmierze.pl##^#Widget3
-easyprotect.pl##^#gafancybox-overlay227
+easyprotect.pl##^.popup-aholic227
 ekobiuro24.pl##^#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##^[id^="banner-komunikat-rodo-"]
 empik.com##^.cookies-accept
@@ -342,7 +342,7 @@ belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics
 bioagris.pl$$#policy-accept-div
 cenapaliw.pl$$#CBCookieMsg
 dalmierze.pl$$#Widget3
-easyprotect.pl$$#gafancybox-overlay227
+easyprotect.pl$$.popup-aholic227
 ekobiuro24.pl$$#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl$$[id^="banner-komunikat-rodo-"]
 empik.com$$.cookies-accept
