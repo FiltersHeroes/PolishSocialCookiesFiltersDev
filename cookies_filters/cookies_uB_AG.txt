@@ -1,11 +1,11 @@
-! Checksum: KEyX9xZT3FhqOjYf4Dnlhg
+! Checksum: lMQfo3Af3a/bYr7elfKnQA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811171711
-! Last modified: Sat, 17 Nov 2018, 17:11:33 UTC+01
+! Version: 201811171749
+! Last modified: Sat, 17 Nov 2018, 17:49:41 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811171711 aktualizacja: sob, 17 lis 2018, 17:11:33 UTC+01
+! v.201811171749 aktualizacja: sob, 17 lis 2018, 17:49:41 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -206,8 +206,6 @@ empik.com##+js(nano-remove-elements-onready.js, .cookies-accept)
 eobuwie.com.pl##.popup
 eobuwie.com.pl##.popup-open:style(overflow: auto !important;)
 eurologistics.pl,wybielanie.pl##.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
-farmacja.pl##div.rodo-modal
-farmacja.pl##[style^="filter: blur"]:style(filter: none !important;)
 forums.openpli.org##+js(abort-current-inline-script.js, euReadCookie)
 fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
@@ -286,7 +284,6 @@ ekobiuro24.pl##^#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##^[id^="banner-komunikat-rodo-"]
 empik.com##^.cookies-accept
 eobuwie.com.pl##^script:has-text(technologii cookies)
-farmacja.pl##^.rodo-modal
 ferguson-digital.eu##^#cookie-notice
 fryzomania.pl##^#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl##^.rodo
@@ -347,7 +344,6 @@ easyprotect.pl$$#gafancybox-overlay227
 ekobiuro24.pl$$#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl$$[id^="banner-komunikat-rodo-"]
 empik.com$$.cookies-accept
-farmacja.pl$$.rodo-modal
 ferguson-digital.eu$$#cookie-notice
 fryzomania.pl$$#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl$$.rodo
