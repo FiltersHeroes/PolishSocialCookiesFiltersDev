@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: cU/XTCCZMliE/LRfo8gwEw
+! Checksum: RE+GJOjnoG7GFN1GA98Vcw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811171658
-! Last modified: Sat, 17 Nov 2018, 16:58:15 UTC+01
+! Version: 201811171740
+! Last modified: Sat, 17 Nov 2018, 17:40:06 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811171658 aktualizacja: sob, 17 lis 2018, 16:58:15 UTC+01
+! v.201811171740 aktualizacja: sob, 17 lis 2018, 17:40:06 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -102,7 +102,7 @@ autos-motos.net,scentre.pl##.consent
 avast.com,pay.google.com##.cookie-bar
 avioner.pl,upolujebooka.pl##.alert
 azure.microsoft.com###cookie-prompt
-a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info,cdax.online,emisja.tv,pl.stealthsettings.com,bajeczki.org###cookie-notice
+a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info,cdax.online,emisja.tv,pl.stealthsettings.com,bajeczki.org,doradztwoprawne.org###cookie-notice
 badaniaprenatalne.pl###stb-14718
 bambino.dzidziusiowo.pl##.section--cookies
 bankier.pl###smart-cmp-host
@@ -121,6 +121,8 @@ bialapodlaska.pl##.accept-cookies
 bialoleka.waw.pl###img_98
 bialoleka.waw.pl###popup-bg
 bibliotekaleczyca.pl###bannerlt, #closead
+biblioteka.nowaruda.pl###ucore_ciasteczka
+biblioteka.olawa.pl###u21554-10, #u21554-11, #u21554-14, #u21554-16, #u21554-24, #u21554-26
 biegniepodleglosci.pl###cf-cookie-banner
 bielsko.info##.cookie_policy
 bilka.com.pl###mod99
@@ -128,7 +130,7 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
-bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net###cookies-message
+bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info###cookies-message
 bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com##.cookies
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl,aspsklep.pl,klublifestyle.pl,sgurp.pl,zwolenpowiat.pl###fancybox-wrap, #fancybox-overlay
@@ -311,6 +313,7 @@ estore.sonymobile.com##.cookie-consent
 eteacher.pl,starmann.pl###info_container
 eternityproject.pl##div.newsbar
 etipolam.com.pl##.ico-wrapper
+etroniks.pl,trojmiejskaperfumeria.pl###st_notification_1
 everhome.pl,gda.pl,yogenfruz.pl##.shotimoo
 expansa.pl,www.promise.com.pl##.ui-resizable
 expozdrowie.pl,fzz.pl###alert_popup
@@ -326,6 +329,7 @@ e-metalzbyt.pl###popupContact
 e-petrol.pl,uzdrowisko-wieniec.pl###statement
 e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
 e-podroznik.pl##.biscuits-usage
+e-prawnik.pl##.cookieaccept_wrapper, .cookieaccept
 e-promar.pl,lafe.pl,promib.pl###cInfo
 e-reporter.pl,myhome.pl,newsbook.pl,inianie.pl###wpfront-notification-bar
 e-swietokrzyskie.kielce.eu##div#belka_dolna
@@ -398,6 +402,7 @@ gazeo.pl###rodo_accept
 gazeta-msp.pl###stickynote
 gbritain.net,eastbook.eu##div#permission-bar
 gb.pl,wsieciprawdy.pl###rdModal
+gckis.trzebnica.pl###fancybox-wrap, #fancybox-overlay
 gck-szczurowa.pl#?#div[style^="font-size:12px; background:rgb(255, 241, 168); "]:-abp-contains(cookies)
 gct.pl###xrootRODO
 gdziewpolsce.pl##DIV[style="width: 100%; height: 85px; position: fixed; bottom: 0px; background: url(\"http://theateam.pl/cookie-alert/low_contrast_linen.png\") repeat scroll 0px 0px transparent; box-shadow: 0px 0px 10px rgb(0, 0, 0) inset; border-top: 1px solid rgb(71, 71, 71); border-bottom: 1px solid rgb(71, 71, 71); display: block;"]
@@ -518,6 +523,7 @@ inoreader.com##.landing_promo_banner_top
 inpay.pl##.ckcontent
 insert.com.pl###privacyAndCookiePolicy
 instagram.com#?#body > span > section > div:nth-of-type(1):-abp-has(.coreSpriteDismissLarge)
+instytutksiazki.pl##.cookieWarn
 instytutlogopedyczny.pl###flash-msg
 interprojekt.pl###myModal, .modal-backdrop, .reveal-modal-bg
 intymna.pl###sb_bottom_float, #wymagania_sklepu_alert
@@ -700,6 +706,7 @@ marykay.pl##div[style="background-color: rgba(255, 255, 255, 0.8); border-top-wi
 mat-dom.pl##.info_rodo
 maybellinetrends.pl##div[style="position: fixed; z-index: 999; bottom: 0px; right: 0px; width: 900px; padding: 18px 0px !important; background-color: rgb(0, 0, 0) !important; color: rgb(255, 255, 255) !important; font-family: arial !important; font-size: 12px !important; border-top-left-radius: 4px !important; border-top-right-radius: 4px !important; border-bottom-right-radius: 4px !important; border-bottom-left-radius: 4px !important; background-position: initial initial !important; background-repeat: initial initial !important;"]
 mazowia.eu#?##dymek239:-abp-has(a[href$="rodo.html"])
+mbp.dzierzoniow.pl###block-vbanner-popup
 mcdonalds.pl###cookies_message_info
 mcksokol.pl,muzeum.sacz.pl,sandecja.org###overflow-content
 mc-2.pl###_COOKIE-PPN
@@ -870,6 +877,7 @@ orientshop.com.pl,tapenda.pl###ciacha
 origin.com###truste-banner, .origin-sitestripe
 orliman.pl##.c-info
 ortograf.pl###ns-rodo-popup-one
+orzeczenia.ms.gov.pl###cookieInfoHeader
 oskolaf.pl###modal-info, .modal-backdrop
 osm-sierpc.pl##.tm-cookies
 ostrowiecnr1.pl###iopp
@@ -1068,6 +1076,7 @@ shippuuden.pl##div#cookis-bg
 shop-dent.pl##div.black_overlay
 shop-dent.pl##div.ciacho-wrap-container
 showmax.com#?##___gatsby > div > div:-abp-contains(cookie)
+siegnijpopiekno.pl###cookie-law-container
 siemens.com##.nts-notification-cookie
 sieradz.com.pl,zdunskawola24.pl###polityka-2
 sin-say.com###display_cookie_message
@@ -1170,7 +1179,6 @@ trello.com##.gdpr-cookie-consent-banner
 trentino.pl###popup_cookies
 trentino.pl###popup_rodo, #popup_tlo
 trojmiasto.pl###rodo_info
-trojmiejskaperfumeria.pl###st_notification_1
 trovit.pl###welcomebar-wrapper
 truckstore.com##.tso-popup-footer, .tso-popup-overlay
 trustpilot.com##.cookie-bar:not(body)
@@ -1206,6 +1214,7 @@ wacetob.com.pl###container > div[style="position:fixed;left:0px;width:100%;heigh
 wakacyjnipiraci.pl###tarteaucitronAlertBig
 wapteka.pl##.coo
 warka.com.pl###rodo_env
+warszawa19115.pl###band-cookies
 weather.com##.lite-msg-parent
 webcover.eu###box-polityka-pr
 webelite.pl###infobar
@@ -1279,6 +1288,7 @@ www.o2.pl##._2_S1s
 www.odpady.zgrp.pl###popup-message-window, #popup-message-background
 www.promise.com.pl##.ui-front
 www.rmf24.pl###pl_cookies.pl-cookies
+www.saos.org.pl###cookie-window.cookie-window
 www.skype.com###msccBanner
 www.ssw-consulting.pl##.ui-pnotify
 www.teamprevent.pl##.warnings
@@ -1321,7 +1331,7 @@ zyciekalisza.pl###cdiv
 zysk.com.pl###pageUpperInfo
 zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl###infobx
 !angielski-kazdego-dnia.pl,miasto-gazeta.pl,nvt.pl##.wpgdprc
-!awf.edu.pl,firmyinzynieria.com,prostozkranu.krakow.pl,merchtedes.pl,bip.um.rybnik.eu,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl,coremannet.com###cookie
+!awf.edu.pl,firmyinzynieria.com,prostozkranu.krakow.pl,merchtedes.pl,bip.um.rybnik.eu,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl,coremannet.com,szlakwokoltatr.eu###cookie
 !fora.pl##.pp-t-a-c
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
