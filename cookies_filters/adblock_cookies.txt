@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: JNfoDg9h+Esx60U9Q3qB6A
+! Checksum: SkqWGMkrLBi3LkMfnF/bBQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811171745
-! Last modified: Sat, 17 Nov 2018, 17:45:31 UTC+01
+! Version: 201811171750
+! Last modified: Sat, 17 Nov 2018, 17:50:10 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811171745 aktualizacja: sob, 17 lis 2018, 17:45:31 UTC+01
+! v.201811171750 aktualizacja: sob, 17 lis 2018, 17:50:10 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -122,7 +122,6 @@ bialoleka.waw.pl###img_98
 bialoleka.waw.pl###popup-bg
 bibliotekaleczyca.pl###bannerlt, #closead
 biblioteka.nowaruda.pl###ucore_ciasteczka
-biblioteka.olawa.pl###u21554-10, #u21554-11, #u21554-14, #u21554-16, #u21554-24, #u21554-26
 biegniepodleglosci.pl###cf-cookie-banner
 bielsko.info##.cookie_policy
 bilka.com.pl###mod99
@@ -330,7 +329,6 @@ e-metalzbyt.pl###popupContact
 e-petrol.pl,uzdrowisko-wieniec.pl###statement
 e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
 e-podroznik.pl##.biscuits-usage
-e-prawnik.pl##.cookieaccept_wrapper, .cookieaccept
 e-promar.pl,lafe.pl,promib.pl###cInfo
 e-reporter.pl,myhome.pl,newsbook.pl,inianie.pl###wpfront-notification-bar
 e-swietokrzyskie.kielce.eu##div#belka_dolna
@@ -524,7 +522,6 @@ inoreader.com##.landing_promo_banner_top
 inpay.pl##.ckcontent
 insert.com.pl###privacyAndCookiePolicy
 instagram.com#?#body > span > section > div:nth-of-type(1):-abp-has(.coreSpriteDismissLarge)
-instytutksiazki.pl##.cookieWarn
 instytutlogopedyczny.pl###flash-msg
 interprojekt.pl###myModal, .modal-backdrop, .reveal-modal-bg
 intymna.pl###sb_bottom_float, #wymagania_sklepu_alert
@@ -1077,7 +1074,6 @@ shippuuden.pl##div#cookis-bg
 shop-dent.pl##div.black_overlay
 shop-dent.pl##div.ciacho-wrap-container
 showmax.com#?##___gatsby > div > div:-abp-contains(cookie)
-siegnijpopiekno.pl###cookie-law-container
 siemens.com##.nts-notification-cookie
 sieradz.com.pl,zdunskawola24.pl###polityka-2
 sin-say.com###display_cookie_message
@@ -1215,7 +1211,6 @@ wacetob.com.pl###container > div[style="position:fixed;left:0px;width:100%;heigh
 wakacyjnipiraci.pl###tarteaucitronAlertBig
 wapteka.pl##.coo
 warka.com.pl###rodo_env
-warszawa19115.pl###band-cookies
 weather.com##.lite-msg-parent
 webcover.eu###box-polityka-pr
 webelite.pl###infobar
@@ -1289,7 +1284,6 @@ www.o2.pl##._2_S1s
 www.odpady.zgrp.pl###popup-message-window, #popup-message-background
 www.promise.com.pl##.ui-front
 www.rmf24.pl###pl_cookies.pl-cookies
-www.saos.org.pl###cookie-window.cookie-window
 www.skype.com###msccBanner
 www.ssw-consulting.pl##.ui-pnotify
 www.teamprevent.pl##.warnings
@@ -1502,6 +1496,7 @@ pl###accept-cookies-question:not(body):not(html)
 pl###accept_cookies:not(body):not(html)
 pl###amp-user-notification1:not(body):not(html)
 pl###avt-cookie-popup:not(body):not(html)
+pl###band-cookies:not(body):not(html)
 pl###barritaloca:not(body):not(html)
 pl###blockPopupInformation:not(body):not(html)
 pl###catapult-cookie-bar:not(body):not(html)
@@ -1604,6 +1599,7 @@ pl###cookie-hint:not(body):not(html)
 pl###cookie-information-wrapper:not(body):not(html)
 pl###cookie-info-box:not(body):not(html)
 pl###cookie-info:not(body):not(html)
+pl###cookie-law-container:not(body):not(html)
 pl###cookie-law-info-again:not(body):not(html)
 pl###cookie-law-info-bar:not(body):not(html)
 pl###cookie-law-message:not(body):not(html)
@@ -1617,6 +1613,7 @@ pl###cookie-policy:not(body):not(html)
 pl###cookie-terms:not(body):not(html)
 pl###cookie-warning:not(body):not(html)
 pl###cookie-warn:not(body):not(html)
+pl###cookie-window:not(body):not(html)
 pl###cookie:not(body):not(html):not([href*="cookieclicker"])
 pl###cookie_container:not(body):not(html)
 pl###divCookie:not(body):not(html)
@@ -1683,7 +1680,9 @@ pl##.cookieNotification:not(body):not(html)
 pl##.cookiePolicy:not(body):not(html)
 pl##.cookieWarningBox:not(body):not(html)
 pl##.cookieWarning:not(body):not(html)
+pl##.cookieWarn:not(body):not(html)
 pl##.cookieWrapper:not(body):not(html)
+pl##.cookieaccept > .cookieaccept_wrapper:not(body):not(html)
 pl##.cookiebanner:not(body):not(html):not(#header)
 pl##.cookieinfo:not(body):not(html)
 pl##.cookienotice:not(body):not(html)
