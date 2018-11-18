@@ -1,11 +1,11 @@
-! Checksum: 8zaTlKyIkh+fYQOomjufMw
+! Checksum: L5hoZYS+VfI5qRDC8jQ4/Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811181555
-! Last modified: Sun, 18 Nov 2018, 15:55:21 UTC+01
+! Version: 201811181638
+! Last modified: Sun, 18 Nov 2018, 16:38:49 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811181555 aktualizacja: nie, 18 lis 2018, 15:55:21 UTC+01
+! v.201811181638 aktualizacja: nie, 18 lis 2018, 16:38:49 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -278,17 +278,17 @@ born2be.pl,renee.pl##^.rules-modal
 budownictwo.pl##^#rodoLayer
 cenapaliw.pl##^#CBCookieMsg
 dalmierze.pl##^#Widget3
-domhouse.pl,farmacja.pl##^script:has-text(rodo)
+domhouse.pl,gdansk.pl,gokf.gda.pl##^.rodo
 easyprotect.pl##^.popup-aholic227
 ekobiuro24.pl##^#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##^[id^="banner-komunikat-rodo-"]
 empik.com##^.cookies-accept
 eobuwie.com.pl##^script:has-text(technologii cookies)
 farmacja.pl##^div.rodo-modal
+farmacja.pl##^script:has-text(rodo)
 ferguson-digital.eu##^#cookie-notice
 fnglob.pl##^#modal
 fryzomania.pl##^#myWorningNewsletterPopUp
-gdansk.pl,gokf.gda.pl##^.rodo
 homedesign.pl##^[data-popmake*="rodo"]
 ideafairplay.pl##^#modal-privacy
 infostrow.pl,roztoczanskipn.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info##^#rodo-modal
@@ -342,16 +342,16 @@ belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics
 bioagris.pl$$#policy-accept-div
 cenapaliw.pl$$#CBCookieMsg
 dalmierze.pl$$#Widget3
-domhouse.pl,farmacja.pl,radiobielsko.pl$$script[tag-content="rodo"]
+domhouse.pl,gdansk.pl,gokf.gda.pl$$.rodo
 easyprotect.pl$$.popup-aholic227
 ekobiuro24.pl$$#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl$$[id^="banner-komunikat-rodo-"]
 empik.com$$.cookies-accept
 farmacja.pl##[style^="filter: blur"]:style(filter: none !important;)
+farmacja.pl,radiobielsko.pl$$script[tag-content="rodo"]
 ferguson-digital.eu$$#cookie-notice
 fnglob.pl$$#modal
 fryzomania.pl$$#myWorningNewsletterPopUp
-gdansk.pl,gokf.gda.pl$$.rodo
 ideafairplay.pl$$#modal-privacy
 infostrow.pl,roztoczanskipn.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info$$#rodo-modal
 listymikolaja.pl$$#popup_rodo_layer
