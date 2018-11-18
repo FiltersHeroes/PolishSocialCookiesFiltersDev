@@ -1,11 +1,11 @@
-! Checksum: egYPeQeQJQMD/0VTWrVXPQ
+! Checksum: 8zaTlKyIkh+fYQOomjufMw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811181545
-! Last modified: Sun, 18 Nov 2018, 15:45:31 UTC+01
+! Version: 201811181555
+! Last modified: Sun, 18 Nov 2018, 15:55:21 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811181545 aktualizacja: nie, 18 lis 2018, 15:45:31 UTC+01
+! v.201811181555 aktualizacja: nie, 18 lis 2018, 15:55:21 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -43,7 +43,6 @@ dane.gov.pl##.modal-backdrop
 dane.gov.pl##.modal-dialog:has-text(RODO)
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
-domhouse.pl##+js(abort-current-inline-script.js, $, rodo)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
 domisad.pl##.show-message #top-nav:style(height: auto !important;)
 drogeriapigment.pl##.fancybox-overlay:has(#potwierdzamrodo)
@@ -194,6 +193,7 @@ budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl,poszalu.pl##.modal-open:style(overflow: auto !important;)
 cenapaliw.pl###CBCookieMsg, .modal-backdrop
 dalmierze.pl###Widget3, .modal-backdrop
+domhouse.pl##+js(abort-current-inline-script.js, $, rodo)
 easyprotect.pl##html.gafancybox-lock > body, html.gafancybox-lock:style(overflow: auto !important;)
 easyprotect.pl###gafancybox-overlay227
 easyprotect.pl##.gafancybox-margin:style(margin-right: 0 !important;)
@@ -278,13 +278,13 @@ born2be.pl,renee.pl##^.rules-modal
 budownictwo.pl##^#rodoLayer
 cenapaliw.pl##^#CBCookieMsg
 dalmierze.pl##^#Widget3
+domhouse.pl,farmacja.pl##^script:has-text(rodo)
 easyprotect.pl##^.popup-aholic227
 ekobiuro24.pl##^#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##^[id^="banner-komunikat-rodo-"]
 empik.com##^.cookies-accept
 eobuwie.com.pl##^script:has-text(technologii cookies)
 farmacja.pl##^div.rodo-modal
-farmacja.pl##^script:has-text(rodo)
 ferguson-digital.eu##^#cookie-notice
 fnglob.pl##^#modal
 fryzomania.pl##^#myWorningNewsletterPopUp
@@ -342,12 +342,12 @@ belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics
 bioagris.pl$$#policy-accept-div
 cenapaliw.pl$$#CBCookieMsg
 dalmierze.pl$$#Widget3
+domhouse.pl,farmacja.pl,radiobielsko.pl$$script[tag-content="rodo"]
 easyprotect.pl$$.popup-aholic227
 ekobiuro24.pl$$#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl$$[id^="banner-komunikat-rodo-"]
 empik.com$$.cookies-accept
 farmacja.pl##[style^="filter: blur"]:style(filter: none !important;)
-farmacja.pl$$script[tag-content="rodo"]
 ferguson-digital.eu$$#cookie-notice
 fnglob.pl$$#modal
 fryzomania.pl$$#myWorningNewsletterPopUp
@@ -372,7 +372,6 @@ powiatslubicki.pl$$#myModal
 pro-sprzet.pl$$#myWorning
 publikator.com.pl$$script[tag-content="polityka|zaufani"]
 pulawy.eu$$#modalRodo
-radiobielsko.pl$$script[tag-content="rodo"]
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl,tuwroclaw.com,tulodz.com,zakopane.info$$#pd-modal
 sevenpolska.com$$#flipFlop
 sklepbiker.pl###rodoModal, .modal-backdrop
