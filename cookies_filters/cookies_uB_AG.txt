@@ -1,11 +1,11 @@
-! Checksum: X4ADuytUntiliqyJWo0x6g
+! Checksum: luhZDy5gDpw1RIZjwhqp7Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811181708
-! Last modified: Sun, 18 Nov 2018, 17:08:27 UTC+01
+! Version: 201811181929
+! Last modified: Sun, 18 Nov 2018, 19:29:10 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811181708 aktualizacja: nie, 18 lis 2018, 17:08:27 UTC+01
+! v.201811181929 aktualizacja: nie, 18 lis 2018, 19:29:10 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -190,7 +190,7 @@ belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics
 bioagris.pl###policy-accept-div, .modal-backdrop
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 budownictwo.pl###rodoLayer, .modal-backdrop
-budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl,poszalu.pl##.modal-open:style(overflow: auto !important;)
+budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl,poszalu.pl,victoriassecret.pl##.modal-open:style(overflow: auto !important;)
 cenapaliw.pl###CBCookieMsg, .modal-backdrop
 dalmierze.pl###Widget3, .modal-backdrop
 domhouse.pl##+js(abort-current-inline-script.js, $, rodo)
@@ -249,6 +249,8 @@ tvregionalna24.pl###rodoModal, .modal-backdrop
 tvsztum.pl###rodoModal
 twojeankiety.pl##.polPriv, .modal-backdrop
 ustawmundial.weszlo.com,ustawlige.com###privacy-modal, .modal-backdrop
+victoriassecret.pl##body:style(padding-right: 0 !important;)
+victoriassecret.pl###cookie-info-modal, .modal-backdrop
 wtk.pl###GDPR-modal, .modal-backdrop
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zdajmyrazem.pl###gdprModal, .modal-backdrop
@@ -320,6 +322,7 @@ tvasta.pl##^#infoModal
 tvsztum.pl,tvregionalna24.pl##^#rodoModal
 twojeankiety.pl##^.polPriv
 ustawlige.com,ustawmundial.weszlo.com##^#privacy-modal
+victoriassecret.pl##^script:has-text(cookie-)
 wtk.pl##^#GDPR-modal
 zdajmyrazem.pl##^#gdprModal
 ztm.poznan.pl##^#PopUP
@@ -388,6 +391,7 @@ tvasta.pl$$#infoModal
 tvsztum.pl,tvregionalna24.pl$$#rodoModal
 twojeankiety.pl$$.polPriv
 ustawlige.com,ustawmundial.weszlo.com$$#privacy-modal
+victoriassecret.pl$$script[tag-content="cookie-"]
 wtk.pl$$#GDPR-modal
 zdajmyrazem.pl$$#gdprModal
 ztm.poznan.pl$$#PopUP
