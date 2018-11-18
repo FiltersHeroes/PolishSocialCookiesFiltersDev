@@ -1,11 +1,11 @@
-! Checksum: lpPuYS9X2dfFSykeCaNEuQ
+! Checksum: egYPeQeQJQMD/0VTWrVXPQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811172258
-! Last modified: Sat, 17 Nov 2018, 22:58:45 UTC+01
+! Version: 201811181545
+! Last modified: Sun, 18 Nov 2018, 15:45:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811172258 aktualizacja: sob, 17 lis 2018, 22:58:45 UTC+01
+! v.201811181545 aktualizacja: nie, 18 lis 2018, 15:45:31 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -43,6 +43,7 @@ dane.gov.pl##.modal-backdrop
 dane.gov.pl##.modal-dialog:has-text(RODO)
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
+domhouse.pl##+js(abort-current-inline-script.js, $, rodo)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
 domisad.pl##.show-message #top-nav:style(height: auto !important;)
 drogeriapigment.pl##.fancybox-overlay:has(#potwierdzamrodo)
@@ -181,7 +182,7 @@ zwolen.pl###g_toplayer, .modal-backdrop
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂 - specjalne instrukcje
 !#if !cap_html_filtering
 4fun.tv###cModal, .modal-backdrop
-4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,tvszum.pl,wpr.pl,academy.asseco.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,tvszum.pl,wpr.pl,academy.asseco.pl,fnglob.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 academy.asseco.pl###politykaPrywatnosciModal, .modal-backdrop
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 autakrajowe.com.pl##.modal-open:style(overflow: auto !important; margin-right: 0 !important;)
@@ -204,6 +205,7 @@ eobuwie.com.pl##.popup-open:style(overflow: auto !important;)
 eurologistics.pl,wybielanie.pl##.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
 farmacja.pl##div.rodo-modal
 farmacja.pl##+js(abort-current-inline-script.js, jQuery, .rodo-modal)
+fnglob.pl###modal, .modal-backdrop
 forums.openpli.org##+js(abort-current-inline-script.js, euReadCookie)
 fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
@@ -284,6 +286,7 @@ eobuwie.com.pl##^script:has-text(technologii cookies)
 farmacja.pl##^div.rodo-modal
 farmacja.pl##^script:has-text(rodo)
 ferguson-digital.eu##^#cookie-notice
+fnglob.pl##^#modal
 fryzomania.pl##^#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl##^.rodo
 homedesign.pl##^[data-popmake*="rodo"]
@@ -346,6 +349,7 @@ empik.com$$.cookies-accept
 farmacja.pl##[style^="filter: blur"]:style(filter: none !important;)
 farmacja.pl$$script[tag-content="rodo"]
 ferguson-digital.eu$$#cookie-notice
+fnglob.pl$$#modal
 fryzomania.pl$$#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl$$.rodo
 ideafairplay.pl$$#modal-privacy
