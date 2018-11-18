@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Mh6sIFP738s+gj/8ElTsig
+! Checksum: 1MNsb1IR5CWwgp5qjh1DaQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811180009
-! Last modified: Sun, 18 Nov 2018, 00:09:46 UTC+01
+! Version: 201811181542
+! Last modified: Sun, 18 Nov 2018, 15:42:15 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,11 +17,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811180009 aktualizacja: nie, 18 lis 2018, 00:09:46 UTC+01
+! v.201811181542 aktualizacja: nie, 18 lis 2018, 15:42:15 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
-2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,stefczyk.info,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com###cookies
+2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,stefczyk.info,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info###cookies
 4hifi.pl,advatus.pl,tylkodywan.pl,ip-sa.pl##.myModal-box
 4lomza.pl###komunikat_rodo
 24jgora.pl###myModal_cookie
@@ -130,7 +130,7 @@ bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
 bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info###cookies-message
-bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com##.cookies
+bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu##.cookies
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl,aspsklep.pl,klublifestyle.pl,sgurp.pl,zwolenpowiat.pl###fancybox-wrap, #fancybox-overlay
 bip.marciszow.pl###cookiesWarning
@@ -162,7 +162,7 @@ bryk.pl,interia.pl,pokazywarka.pl##.rodo-mini
 bsgoleniow.pl##.jsCookieInfo
 bskrasnosielc.pl###cookiewarning > div
 bstorun.pl,interhandler.pl,eliza.pl,loktech.com.pl,miastozdzieckiem.pl,torun.pl###comm_info
-budimex-nieruchomosci.pl###komRodo
+budimex-nieruchomosci.pl,zoliborzkrasinskiego.pl###komRodo
 bugwie.com##.cookie-box
 buliba.pl###tooltip-hook
 burze.dzis.net###zasady_info
@@ -250,6 +250,7 @@ domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
 domesta.com.pl###CookiesWarningPopup
 domisad.pl##.message-cockies
 domodi.pl,homebook.pl,motokobiety.pl,sklep-bmw.pl##body > div:not(body):not(id):not(class)[style*="position: fixed;"]
+domowladni.pl###domo-cookies-policy
 dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;bottom: 0px;left: 0px;text-align: center;color: #000;border-top: 1px #000 solid;z-index: 100;"]
 dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,tubawyszkowa.pl,tubaostrowa.pl,tubachorzowa.pl##.rodo
 dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl,aktywnedzieciaki.info,centrumwroclaw.pl###rodo
@@ -598,6 +599,7 @@ kodeksspolek.pl###formalAgreementModal, #modalBackdrop
 kodilla.com##.cookies-prompt
 kokos.pl##.flashMessage
 kolejeslaskie.com##div#c_m
+kolorowychsnow.pl##.consent-cookie
 komfort.pl###intro_row, #kt-cookies
 kominki.org###cookieMsg, #popup-policy
 komputerymarkowe.pl##.ui-dialog.ui-widget
@@ -847,6 +849,7 @@ odjechani.com.pl###akceptacja-odjechani, .guest_warn
 odleglosci.pl,tabele-kalorii.pl###komunikat-pp-dol
 odo24.pl##.rodo-body
 off-road.pl###popslide
+ogloszeniachojnice.com##.show.fade.alert-dismissible.alert-info.text-center.alert
 ogloszenia.e-gratka.info##div#pojemnik
 ogradzamy.pl##body > div[id*="cookie"]
 ogrzewanie-elektryczne.pl###oknoPopUp, #tloPopUp
@@ -1204,6 +1207,8 @@ v10.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], bo
 vademecumksiegowego.pl,prawnik-rodzinny.pl###modalBackdrop, #formalAgreementModal
 vagaru.pl##.id-18.location-0.type-10.widget
 vectra.pl##.l-cookies
+vents-group.pl###akceptacja-rodo
+vents-group.pl###cookies-accept-info
 venus-beauty.com.pl##.privatepolicy--show
 vetpersonel.elamed.pl###agreeInfo
 virustotal.com###euConsent
@@ -1249,6 +1254,7 @@ wseit.edu.pl##.modal-dialog, .modal-backdrop, #welcome
 wsensie.pl###rodo
 wspanialewesele.com.pl###rodomodal
 wsse-poznan.pl##.visiblebox
+wszp.edu.pl###akcept_cookies
 wszystkoblisko.pl##.ueCookies
 wunderground.com,weather.com##.truste_overlay, .truste_box_overlay, .privacy-policy-toast
 wu.swps.edu.pl##div#Iagree
