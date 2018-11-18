@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: tKQZ1WRObCqi9bcU7tIPLw
+! Checksum: naPD0CMcmXBN2A2wwZPuHg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811181929
-! Last modified: Sun, 18 Nov 2018, 19:29:07 UTC+01
+! Version: 201811182039
+! Last modified: Sun, 18 Nov 2018, 20:39:21 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811181929 aktualizacja: nie, 18 lis 2018, 19:29:07 UTC+01
+! v.201811182039 aktualizacja: nie, 18 lis 2018, 20:39:21 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -70,6 +70,7 @@ al.to,x-kom.pl###popup-cookie
 amarone.pl###bannerMSG
 amazon.de###desktop-cookie-disclosure
 americanexpress.com###cookie_Header
+ampero.pl,zdrovit.pl###popup
 amundi.pl###disclaimer
 antyweb.pl,norauto.pl,grupakety.com###privacy
 apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl###popup
@@ -236,6 +237,7 @@ demotywatory.pl,fabrykamemow.pl,faktopedia.pl,piekielni.pl,mklr.pl,rebelianci.or
 developers.google.com##.devsite-notification-eu-cookie
 devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
 dietlux.pl###mod286
+digitalhill.pl##.notification-panel
 dipocket.org###dip-cookies-policy
 disport.pl,mmo.pl##.coookie-policy
 diyaudio.pl###navbar_notice_11
@@ -435,7 +437,7 @@ gmina.gorlice.pl,hotmag.pl###wysuwane
 gmsystem.pl,sosulski.pl##body > form
 gm-inowroclaw.rbip.mojregion.info###scnb-cookie-bar
 goclever.com,goclever.pl##div#cp-wrap
-gofin.pl,poradnikksiegowego.pl###formalAgreementModal, #modalBackdrop
+gofin.pl,poradnikksiegowego.pl,poradypodatkowe.pl,kodeksspolek.pl,umowycywilnoprawne.pl,vademecumksiegowego.pl,prawnik-rodzinny.pl###formalAgreementModal, #modalBackdrop
 gokf.gda.pl###zgoda_cookie
 goldenline.pl##section[class*="cookiesInfo"]
 goldenline.pl###profiling-agreement, .modal-backdrop
@@ -565,7 +567,7 @@ jysk.pl,uzywana-muzyka.business.site###cookieDialog
 kabam.com##div#eu_privacy
 kabar.pl##body > .blockMsg
 kajto.pl###cookies-section
-kalendarzrolnikow.pl###colorbox, #cboxOverlay
+kalendarzrolnikow.pl,lpwiksa.com.pl,hopea.eu###colorbox, #cboxOverlay
 kalendarzswiat.pl###consent, #consent-container, #consent-disclaimer, #consentContainer, #consentWrapper, #consent_box_wrapper, #ConsentLayerWrapper
 kalisz.pl###showHideDiv
 kalkulator.wakacyjnapolisa.pl,rankomat.pl##.rank-cookie-bar
@@ -597,7 +599,6 @@ klopsztanga.eu##div[style="background:#2A2A2A; left:0px; bottom:0px; right:0px; 
 klubjagiellonski.pl##.block-powitanie
 kobieta.byc.pl###kontener1
 kochamwroclaw.pl###tfade, #cwv3_dialog, #tlight, .dialog-overlay, #surbma-yes-no-popup
-kodeksspolek.pl###formalAgreementModal, #modalBackdrop
 kodilla.com##.cookies-prompt
 kokos.pl##.flashMessage
 kolejeslaskie.com##div#c_m
@@ -676,7 +677,6 @@ lotto.pl###klauzula_informacyjna_nakladka
 loveair.pl###ci-rodo
 lovekrakow.pl###new-policy
 lowicz.eu###warstwa_cookie
-lpwiksa.com.pl###cboxOverlay, #colorbox
 lsisoftware.pl,smartpage.pl##.noty_message
 lubartow24.pl##.bg-warning
 lubimyczytac.pl###TB_window, #TB_overlay
@@ -1201,12 +1201,10 @@ tymrazemglosuje.eu###cookiespolicymessage
 udemy.com##[data-module-id="eu-cookie-message"]
 uk.ign.com##div#policyNotice
 ulub.pl###rodo_all
-umowycywilnoprawne.pl###formalAgreementModal, #modalBackdrop
 um.jaslo.pl,adeste.eu##.cp-info-bar
 unilink.pl##.windov_front_new_text
 upc.pl##.dmg-cookie-info
 v10.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"], body > div:not([id]):not([class])[style*="position"][style*="absolute"]
-vademecumksiegowego.pl,prawnik-rodzinny.pl###modalBackdrop, #formalAgreementModal
 vagaru.pl##.id-18.location-0.type-10.widget
 vectra.pl##.l-cookies
 vents-group.pl###akceptacja-rodo
@@ -1394,6 +1392,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl###infobx
 ||fundingchoices.google.com^$script,domain=www.accuweather.com
 ||global.silnet.pl/media/js/vue/silnet-privacy-policy.vue$xmlhttprequest,domain=sonomedico.pl|silnet.pl
 ||igimag.pl/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/lity.js
+||itmarket.pl/modules/prestaboost/views/js/prestaboost-popup.js
 ||jak-zablokowac-cookies.pl/cookies_komunikat.js$script
 ||katowice-airport.com/js-libraries/cookie-info.js$script
 ||kochamwroclaw.pl/wp-content/plugins/surbma-yes-no-popup/css/styles.css
@@ -1554,6 +1553,7 @@ pl###cookiemonster_popup:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html) + #document_modal
 pl###cookiemsg:not(body):not(html)
 pl###cookienote:not(body):not(html)
+pl###cookienotice-container:not(body):not(html)
 pl###cookieoverlay:not(body):not(html)
 pl###cookiepolicydiv:not(body):not(html)
 pl###cookiesAlert:not(body):not(html)
@@ -1660,6 +1660,7 @@ pl###stg-privacy-bar:not(body):not(html)
 pl###stopcookinfo:not(body):not(html)
 pl###w357_cpnb:not(body):not(html)
 pl###wc:not(body):not(html)
+pl###wpca-bar:not(body):not(html)
 pl###wpca-box:not(body):not(html)
 pl###x13pmcookiebar:not(body):not(html)
 pl##.COOKIE_PRIVACY_CONT:not(body):not(html)
