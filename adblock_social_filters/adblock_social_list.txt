@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: DiUGB1imSQqObP9UFERkYw
+! Checksum: qR2XUFxd+o+vmNs9hJDWmg
 ! Title: Polskie Filtry Społecznościowe
 ! Polish Social Filters
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811191536
-! Last modified: Mon, 19 Nov 2018, 15:36:47 UTC+01
+! Version: 201811191541
+! Last modified: Mon, 19 Nov 2018, 15:41:49 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811191536 aktualizacja: pon, 19 lis 2018, 15:36:47 UTC+01
+! v.201811191541 aktualizacja: pon, 19 lis 2018, 15:41:49 UTC+01
 !
 !
 ! Popupy
@@ -2584,8 +2584,8 @@ zwrotzalot.pl##[href^="https://www.facebook.com/zwrotzalot/"]
 !
 !
 ! Specyficzne reguły blokujące
-/themes/fbLogo.jpg$domain=rynekinfrastruktury.pl|rynek-lotniczy.pl
-/themes/twLogo.jpg$domain=rynekinfrastruktury.pl|rynek-lotniczy.pl
+/themes/fbLogo.jpg$image,domain=rynekinfrastruktury.pl|rynek-lotniczy.pl
+/themes/twLogo.jpg$image,domain=rynekinfrastruktury.pl|rynek-lotniczy.pl
 ||adwokat-gostkowski.pl/img/socjal/*.jpg
 ||assets.allegrostatic.com/metrum/icon/instagram-*.svg
 ||assets.allegrostatic.com/metrum/icon/pinterest-*.svg
@@ -2725,8 +2725,6 @@ zwrotzalot.pl##[href^="https://www.facebook.com/zwrotzalot/"]
 ||www.smarkacz.pl/images/gfx/ins2.png
 ||www.sp33.olsztyn.pl/wp-content/uploads/2017/12/fanpage.jpg
 ||www.szkla.com/images/szkla.com/pl/fb.png
-||www.transport-publiczny.pl/themes/fbLogo.jpg$image
-||www.transport-publiczny.pl/themes/twLogo.jpg$image
 ||www.tvpolsat.info/themes/tvpolsatinfo/images/inicon.png
 ||www.tvpolsat.info/themes/tvpolsatinfo/images/twicon.png
 ||www.tvpolsat.info/themes/tvpolsatinfo/images/yticon.png
