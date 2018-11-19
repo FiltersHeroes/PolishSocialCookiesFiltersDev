@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: N3pAf2jEB4Hxhdbn+eLRhw
+! Checksum: 3G9SgtXPbJfdyIfQNKLshw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811191016
-! Last modified: Mon, 19 Nov 2018, 10:16:24 UTC+01
+! Version: 201811191454
+! Last modified: Mon, 19 Nov 2018, 14:54:58 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811191016 aktualizacja: pon, 19 lis 2018, 10:16:24 UTC+01
+! v.201811191454 aktualizacja: pon, 19 lis 2018, 14:54:58 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -649,6 +649,7 @@ lasy.gov.pl,bip.kielce.eu##.popup-alert-notice
 laznianowa.pl##DIV[style="background: #E9E9E9; color: #777; font-size: 9px; position: fixed; bottom: 0; width: 100%; z-index: 9999; padding: 2px; text-align: center; -webkit-border-top-right-radius: 8px; -webkit-border-top-left-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-topleft: 8px; border-top-right-radius: 8px; border-top-left-radius: 8px; font-size: 12px; -webkit-box-shadow: 2px 2px 3px 0px rgba(127, 127, 127, 0.4); box-shadow: 2px -2px 3px 0px rgba(127, 127, 127, 0.4);"]
 lca.pl###popupDiv
 leclerc.com.pl##div#tekst
+leddo.pl,zdp.poznan.pl##.rodo-block
 legalsite.pl###message-1
 legia.net###cookies_policy
 lego.com###GFSticky
@@ -1213,6 +1214,7 @@ venus-beauty.com.pl##.privatepolicy--show
 vetpersonel.elamed.pl###agreeInfo
 virustotal.com###euConsent
 vivaldi.com###cookiemsg
+vogue.pl###cookiesnotify
 wacetob.com.pl###container > div[style="position:fixed;left:0px;width:100%;height:60px; background-color:white;padding:5px;bottom:0px;opacity:0.85;filter:alpha(opacity=85);text-align:right;"]
 wakacyjnipiraci.pl###tarteaucitronAlertBig
 wapteka.pl##.coo
@@ -1318,7 +1320,6 @@ zakupycodzienne.carrefour.pl##div[role="alertdialog"]
 zalando.pl##.z-navicat-header-cookieBar
 zara.com###popup-announcements
 zaufanekliniki.pl##.alert-fixed
-zdp.poznan.pl##.rodo-block
 zebrasbox.pl##.alert-dismissible.alert-warning.alert
 zepsute.pl###overlay_uv, #uv_box_data
 zgierz.pl##.ui-widget, .ui-widget-overlay
