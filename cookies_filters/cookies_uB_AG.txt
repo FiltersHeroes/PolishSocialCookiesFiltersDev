@@ -1,11 +1,11 @@
-! Checksum: jf6i0PfZdGvHMi5GvqiFDA
+! Checksum: WkGMF5XejQQzO7YUe+bAVw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811192255
-! Last modified: Mon, 19 Nov 2018, 22:55:08 UTC+01
+! Version: 201811201232
+! Last modified: Tue, 20 Nov 2018, 12:32:07 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811192255 aktualizacja: pon, 19 lis 2018, 22:55:08 UTC+01
+! v.201811201232 aktualizacja: wto, 20 lis 2018, 12:32:07 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -181,12 +181,12 @@ zwolen.pl###g_toplayer, .modal-backdrop
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂 - specjalne instrukcje
 !#if !cap_html_filtering
 4fun.tv###cModal, .modal-backdrop
-4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,tvszum.pl,wpr.pl,academy.asseco.pl,fnglob.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,tvszum.pl,wpr.pl,academy.asseco.pl,fnglob.pl,tvbraniewo24.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 academy.asseco.pl###politykaPrywatnosciModal, .modal-backdrop
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 autakrajowe.com.pl##.modal-open:style(overflow: auto !important; margin-right: 0 !important;)
-belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,homedesign.pl,pasjagolebie.pl,tvwalbrzych.pl##.pum-open:style(overflow: auto !important;)
-belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,pasjagolebie.pl,tvwalbrzych.pl##.popmake-overlay[data-popmake*="cookies"]
+belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,homedesign.pl,pasjagolebie.pl,tvwalbrzych.pl,pytanieomieszkanie.pl##.pum-open:style(overflow: auto !important;)
+belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,pasjagolebie.pl,tvwalbrzych.pl,##.popmake-overlay[data-popmake*="cookies"]
 bioagris.pl###policy-accept-div, .modal-backdrop
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 budownictwo.pl###rodoLayer, .modal-backdrop
@@ -232,6 +232,7 @@ pro-sprzet.pl###myWorning, .modal-backdrop
 publikator.com.pl##.layer
 publikator.com.pl##body > *:style(filter: none !important;)
 publikator.com.pl##html > body:style(overflow: auto !important;)
+pytanieomieszkanie.pl##.popmake-overlay
 radiobielsko.pl###rodo, .lean-overlay
 radiobielsko.pl,pamiatki.pl,ekobiuro24.pl##body:style(overflow: auto !important;)
 roztoczanskipn.pl###rodo-modal, .modal-backdrop
@@ -245,7 +246,7 @@ styl.fm###rodo-info, .modal-backdrop
 tuzdrowie.pl###popupModal, .modal-backdrop
 tuzory.pl,tujastrzebie.pl###pd-modal, .modal-backdrop
 tvasta.pl##.modal-backdrop
-tvregionalna24.pl###rodoModal, .modal-backdrop
+tvregionalna24.pl,tvbraniewo24.pl###rodoModal, .modal-backdrop
 tvsztum.pl###rodoModal
 twojeankiety.pl##.polPriv, .modal-backdrop
 ustawmundial.weszlo.com,ustawlige.com###privacy-modal, .modal-backdrop
@@ -276,7 +277,7 @@ akamai.com##^.notification--warning
 alltube.tv,alltube.pl##^#rodo-popup
 autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl##^#rodo
 autostrada-a2.pl##^#rodo-box, #cookielaw-box
-belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,tvwalbrzych.pl##^.popmake-overlay
+belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,tvwalbrzych.pl,pytanieomieszkanie.pl##^.popmake-overlay
 bioagris.pl##^#policy-accept-div
 born2be.pl,renee.pl##^.rules-modal
 budownictwo.pl##^#rodoLayer
@@ -315,13 +316,12 @@ pulawy.eu##^#modalRodo
 radiobielsko.pl,webprojekt.biz##^script:has-text(#rodo)
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl,tuwroclaw.com,tulodz.com,zakopane.info##^#pd-modal
 sevenpolska.com##^#flipFlop
-sklepbiker.pl##^#rodoModal
+sklepbiker.pl,tvbraniewo24.pl,tvsztum.pl,tvregionalna24.pl##^#rodoModal
 skm.pkp.pl##^#dialog-message-rodo
 spolem.katowice.pl,wpr.pl##^#popup.modal
 styl.fm##^.rodo-info
 tuzdrowie.pl##^#popupModal
 tvasta.pl##^#infoModal
-tvsztum.pl,tvregionalna24.pl##^#rodoModal
 twojeankiety.pl##^.polPriv
 ustawlige.com,ustawmundial.weszlo.com##^#privacy-modal
 victoriassecret.pl##^script:has-text(cookie-)
@@ -343,7 +343,7 @@ academy.asseco.pl$$#politykaPrywatnosciModal
 akamai.com$$.notification--warning
 alltube.tv,alltube.pl$$#rodo-popup
 autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl$$#rodo
-belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,tvwalbrzych.pl$$.popmake-overlay
+belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,tvwalbrzych.pl,pytanieomieszkanie.pl$$.popmake-overlay
 bioagris.pl$$#policy-accept-div
 cenapaliw.pl$$#CBCookieMsg
 dalmierze.pl$$#Widget3
@@ -384,13 +384,12 @@ rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl,tuwroclaw
 sevenpolska.com$$#flipFlop
 sklepbiker.pl###rodoModal, .modal-backdrop
 sklepbiker.pl##.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
-sklepbiker.pl$$#rodoModal
+sklepbiker.pl,tvbraniewo24.pl,tvsztum.pl,tvregionalna24.pl$$#rodoModal
 skm.pkp.pl$$#dialog-message-rodo
 spolem.katowice.pl,wpr.pl$$#popup.modal
 styl.fm$$.rodo-info
 tuzdrowie.pl$$#popupModal
 tvasta.pl$$#infoModal
-tvsztum.pl,tvregionalna24.pl$$#rodoModal
 twojeankiety.pl$$.polPriv
 ustawlige.com,ustawmundial.weszlo.com$$#privacy-modal
 victoriassecret.pl$$script[tag-content="cookie-"]
