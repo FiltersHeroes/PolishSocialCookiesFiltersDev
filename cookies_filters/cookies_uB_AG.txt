@@ -1,11 +1,11 @@
-! Checksum: 738Kv3phyQOkYBmw38uP4A
+! Checksum: sRWR9QZV9xkpIqO/A1oCKA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811201239
-! Last modified: Tue, 20 Nov 2018, 12:39:45 UTC+01
+! Version: 201811202116
+! Last modified: Tue, 20 Nov 2018, 21:16:19 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811201239 aktualizacja: wto, 20 lis 2018, 12:39:45 UTC+01
+! v.201811202116 aktualizacja: wto, 20 lis 2018, 21:16:19 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -186,7 +186,7 @@ academy.asseco.pl###politykaPrywatnosciModal, .modal-backdrop
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 autakrajowe.com.pl##.modal-open:style(overflow: auto !important; margin-right: 0 !important;)
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,homedesign.pl,pasjagolebie.pl,tvwalbrzych.pl,pytanieomieszkanie.pl##.pum-open:style(overflow: auto !important;)
-belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,pasjagolebie.pl,tvwalbrzych.pl,##.popmake-overlay[data-popmake*="cookies"]
+belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,pasjagolebie.pl,tvwalbrzych.pl,pytanieomieszkanie.pl##.popmake-overlay[data-popmake*="cookies"]
 bioagris.pl###policy-accept-div, .modal-backdrop
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 budownictwo.pl###rodoLayer, .modal-backdrop
@@ -232,7 +232,6 @@ pro-sprzet.pl###myWorning, .modal-backdrop
 publikator.com.pl##.layer
 publikator.com.pl##body > *:style(filter: none !important;)
 publikator.com.pl##html > body:style(overflow: auto !important;)
-pytanieomieszkanie.pl##.popmake-overlay
 radiobielsko.pl###rodo, .lean-overlay
 radiobielsko.pl,pamiatki.pl,ekobiuro24.pl##body:style(overflow: auto !important;)
 roztoczanskipn.pl###rodo-modal, .modal-backdrop
