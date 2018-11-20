@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: FCPrPBuJms8RDx4kJZ3dQA
+! Checksum: vWkyeRi2PcnUuS+CvcTscw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811202129
-! Last modified: Tue, 20 Nov 2018, 21:29:31 UTC+01
+! Version: 201811202151
+! Last modified: Tue, 20 Nov 2018, 21:51:07 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811202129 aktualizacja: wto, 20 lis 2018, 21:29:31 UTC+01
+! v.201811202151 aktualizacja: wto, 20 lis 2018, 21:51:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -100,7 +100,7 @@ autogespot.pl##div[class^="popup"]:not(.fancybox-margin)
 autogielda.pl,mix4kids.tv##.modal-backdrop
 autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.net,galerialimonka.pl,otabletach.pl###cop
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
-autos-motos.net,scentre.pl,ilewazy.pl###modal-one.consent
+autos-motos.net,scentre.pl,ilewazy.pl##.consent
 avast.com,pay.google.com,trustpilot.com##.cookie-bar:not(body)
 avioner.pl,upolujebooka.pl##.alert
 azure.microsoft.com###cookie-prompt
