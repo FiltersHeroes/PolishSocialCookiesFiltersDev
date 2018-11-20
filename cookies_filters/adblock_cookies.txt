@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: EcIuNGRox6X/+wTiDTBXHQ
+! Checksum: Y4t1o8sFx7vdIDvj7KQ4Og
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811201558
-! Last modified: Tue, 20 Nov 2018, 15:58:42 UTC+01
+! Version: 201811202116
+! Last modified: Tue, 20 Nov 2018, 21:16:17 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811201558 aktualizacja: wto, 20 lis 2018, 15:58:42 UTC+01
+! v.201811202116 aktualizacja: wto, 20 lis 2018, 21:16:17 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -71,7 +71,6 @@ al.to,x-kom.pl###popup-cookie
 amarone.pl###bannerMSG
 amazon.de###desktop-cookie-disclosure
 americanexpress.com###cookie_Header
-amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,motoria.pl,pupilo.pl,sklep-presto.pl,ubieramy.pl###cookie_box
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl###popup
 amundi.pl###disclaimer
 antyweb.pl,norauto.pl,grupakety.com,olimpijski.pl,softon.pl,ingtechpoland.com,kultura.krasnik.eu,brolerserwis.pl,spedycje.pl,kancelaria-szip.pl###privacy
@@ -345,7 +344,7 @@ e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; backgroun
 e-podroznik.pl##.biscuits-usage
 e-promar.pl,lafe.pl,promib.pl###cInfo
 e-reporter.pl,myhome.pl,newsbook.pl,inianie.pl###wpfront-notification-bar
-e-restauracja.com,rynek-turystyczny.pl###cookies-accept
+e-restauracja.com###cookies-accept
 e-restauracja.com,rynek-turystyczny.pl##.popup[onclick][style]
 e-swietokrzyskie.kielce.eu##div#belka_dolna
 fabrykamemow.pl##body > div:not(id):not(class)
@@ -773,6 +772,7 @@ monese.com##.cookie-popover
 monitoring.krakow.pios.gov.pl##.a-footer
 monocerus.pl###fafikciastka
 monsterpolska.pl###interMsgsW, #m-popup-softgate, .browserAlertHolder
+morele.net###cookie_box
 morska.edu.pl##.cookies-tab
 mos.gov.pl##div#textcook
 motofocus.pl###privacy-policy-bar
@@ -1203,7 +1203,6 @@ venus-beauty.com.pl##.privatepolicy--show
 vetpersonel.elamed.pl###agreeInfo
 virustotal.com###euConsent
 vivaldi.com###cookiemsg
-vogue.pl###cookiesnotify
 voxel.pl###block-rodo-rodo-block
 wacetob.com.pl###container > div[style="position:fixed;left:0px;width:100%;height:60px; background-color:white;padding:5px;bottom:0px;opacity:0.85;filter:alpha(opacity=85);text-align:right;"]
 wakacyjnipiraci.pl###tarteaucitronAlertBig
@@ -1560,7 +1559,9 @@ pl###cookiesck:not(body):not(html)
 pl###cookiesdirective:not(body):not(html)
 pl###cookiesinfo:not(body):not(html)
 pl###cookieslaw:not(body):not(html)
+pl###cookiesnotify:not(body):not(html)
 pl###cookiespopup-layer:not(body):not(html)
+pl###cookies-accept:not(body):not(html)
 pl###cookies-agree:not(body):not(html)
 pl###cookies-banner:not(body):not(html)
 pl###cookies-box:not(body):not(html)
@@ -1611,6 +1612,7 @@ pl###cookie-warning:not(body):not(html)
 pl###cookie-warn:not(body):not(html)
 pl###cookie-window:not(body):not(html)
 pl###cookie:not(body):not(html):not([href*="cookieclicker"])
+pl###cookie_box:not(body):not(html)
 pl###cookie_container:not(body):not(html)
 pl###divCookie:not(body):not(html)
 pl###elGuestTerms[data-role="guestTermsBar"]:not(body):not(html)
