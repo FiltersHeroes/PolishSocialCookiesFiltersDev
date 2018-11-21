@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 9sDv0mibEzkIXXrtzpNWEg
+! Checksum: KypO5AiCJjmnzLsZAgH41g
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811212327
-! Last modified: Wed, 21 Nov 2018, 23:27:46 UTC+01
+! Version: 201811212349
+! Last modified: Wed, 21 Nov 2018, 23:49:27 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811212327 aktualizacja: śro, 21 lis 2018, 23:27:46 UTC+01
+! v.201811212349 aktualizacja: śro, 21 lis 2018, 23:49:27 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -103,6 +103,7 @@ autogielda.pl,mix4kids.tv##.modal-backdrop
 autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.net,galerialimonka.pl,otabletach.pl###cop
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autos-motos.net,scentre.pl,ilewazy.pl##.consent
+avans.pl##.is-cookies
 avast.com,pay.google.com,trustpilot.com##.cookie-bar:not(body)
 avioner.pl,upolujebooka.pl##.alert
 azure.microsoft.com###cookie-prompt
@@ -246,6 +247,7 @@ deichmann.com##.open.clearfix.module.newsflash
 dekavit.pl,brewa.pl##.module-abovebox-content
 delicjapolska.pl,www.bi-polska.pl###cooboo
 demotywatory.pl,fabrykamemow.pl,faktopedia.pl,piekielni.pl,mklr.pl,rebelianci.org,kotburger.pl,mistrzowie.org,joemonster.org,komixxy.pl,retro.pewex.pl,stylowi.pl,memy.pl###pp-bg-overlay
+denley.pl##.ck-popup.cookiepopup
 developers.google.com##.devsite-notification-eu-cookie
 devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
 dietlux.pl###mod286
@@ -293,6 +295,7 @@ edarling.pl,foto4u.pl,himountain.pl,opteam.pl,praktiker.pl,smakizycia.pl,zoover.
 edukacja.rybnik.eu,polskaekologia.org##.cookieWarning
 eecpoland.eu##.cookie-bar2
 eena.pl###whole_page_loader
+efortuna.pl###cookies-disclaimer
 ekko.com.pl###messagePo
 ekliniki.pl,sklepbiegacza.pl##body > div[style]:not([id]):not([class]):nth-of-type(1)
 ekobud.com.pl###cookieLayer
@@ -882,6 +885,7 @@ omnibussimulator.pl##body > div > div[style*="position: fixed"], [id^="co15"]
 one2tribe.pl##.cw_container
 onlineradiobox.com###alert_cookies
 opac.wimbp.zgora.pl##div#alertboxsec_c, div#alertboxsec_mask
+opel.pl##.q-silent-consent.q-legal-notification
 operon.pl##.rodoModal
 opineo.pl,skapiec.pl##div#uclaInfo
 opoka.tv###eu-cookie-bar
@@ -1322,6 +1326,7 @@ yoy.tv##.notice
 zadluzenia.com###CookiesInfo
 zajadam.pl##.infobar-bottom
 zakupycodzienne.carrefour.pl##div[role="alertdialog"]
+zalando-lounge.pl###cookie-information, ##[class^="CookieConsent_cookie-consent_"]
 zalando.pl##.z-navicat-header-cookieBar
 zara.com###popup-announcements
 zaufanekliniki.pl##.alert-fixed
