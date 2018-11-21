@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: jcUQnLwJjGrdnwP/Krfm7A
+! Checksum: eB5qv2K0WhhYyf+HOUc4Ag
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811211039
-! Last modified: Wed, 21 Nov 2018, 10:39:44 UTC+01
+! Version: 201811211250
+! Last modified: Wed, 21 Nov 2018, 12:50:28 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811211039 aktualizacja: śro, 21 lis 2018, 10:39:44 UTC+01
+! v.201811211250 aktualizacja: śro, 21 lis 2018, 12:50:28 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -65,6 +65,8 @@ allekoszyk.pl##div > .ng-scope[ng-if="cookieinfo == false"]
 alles-bhp.pl,greattrade.pl,urwisy2.pl###contGlowny > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allianz.pl##.region-disclaimer-component
 allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,galeria-dominikanska.pl,gosc.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro,alarte.pl,winawloskie.pl,jeanmueller.pl,igomedia.pl,footroll.pl,wiara.pl,shop.ticketpro.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
+allview.pl###modalGDPR.modalGDPR
+allview.pl###v-cookielaw
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
 altimi.com###cookie-info
 al.to,x-kom.pl###popup-cookie
@@ -172,6 +174,7 @@ buliba.pl###tooltip-hook
 burze.dzis.net###zasady_info
 business.mytaxi.com#?#body > div > span > div:-abp-contains(🍪)
 buty-smile.pl###closePopUp
+buty-wolka.pl###popup
 buziak.pl,kochlik.pl,nowaostroleka.pl,webd.pl###cffc
 bydgoszcznastart.pl,kpzpn.pl##.polityka-prywatnosci
 byinsomnia.com,butyjana.pl###v-cookielaw
@@ -353,7 +356,7 @@ fajka24.pl##DIV[style="background: #fafafa; border: 1px solid #ccc; text-align: 
 fandk.com.pl###block-block-6
 fansubs.pl##div[style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; top: 0px; right: 0%; width: 94%; opacity: 1; margin-left: 2%; display: block; "]
 fantastyka.pl##div[style="text-align: center; padding: 15px; border-bottom: 2px solid #cc3300; background: url(obrazki/kwadrat-monit.png); font-size: 9pt;"]
-fantasy.ekstraklasa.tv,trojmiasto.pl,fajniemieszkam.pl###rodo-info
+fantasy.ekstraklasa.tv,trojmiasto.pl,fajniemieszkam.pl,sportzona.pl###rodo-info
 fan.pl##td:nth-of-type(3) > table > tbody > tr > td > .mll
 farmacja.edu.pl###polityka_notice
 fdb.pl###consent
@@ -394,7 +397,7 @@ forumstomatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,psychiatria.p
 forums.linuxmint.com##.cookiebanner
 forumwodne.pl##body > div[id] > div[style*="fixed"]
 forum-kulturystyka.pl###fk-terms
-forum-kulturystyka.pl,swistak.pl##.pp-t-a-c
+forum-kulturystyka.pl,swistak.pl,trizer.pl##.pp-t-a-c
 forum.dobreprogramy.pl###rodoCookie
 forum.dziennikwschodni.pl###cookiePolicyPopup > div > p
 forum.minepedia.pl##div#notice
@@ -511,6 +514,7 @@ hotpoint.pl###_1_WAR_privacyportlet_privacy-info-message
 hpe.com##.privacy-banner
 huawei.com,huaweipolska.pl##.huawei-cookie
 hurtowniateleinformatyczna.pl,ideanord.com.pl,intimiti.pl,ipartworld.pl,itpromo.pl,lunamarket.pl,mazury.pl,mikos.com.pl,mini-itx.com.pl,ostry-sklep.pl,pcoutlet.pl,powerflex.pl,pupilexpert.pl,raraavis.krakow.pl,sklep-muzyczny.com.pl,skrypt.com.pl,ekologiczny.pl,sporto.com.pl,srebrnystyl.pl,termokubki.com.pl,tv-zakupy.pl,wodna-kraina.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
+hurtownia-24.pl###roar-alert-wrap  > #roar-alert.roar-alert
 iab.org.pl,iabpolska.pl###wpca-wrapper
 ibm.com##div[style="background-color: rgb(0, 0, 0); opacity: 0.4; position: fixed; z-index: 1000000; width: 100%; height: 100%; top: 0px; left: 0px; overflow: hidden; "]
 ibm.com##div[style="position: absolute; z-index: 2000000; top: 150px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; background-image: url(http://consent.truste.com/get?name=trans.png); left: 50%; margin-left: -420px; background-position: initial initial; background-repeat: initial initial;"]
@@ -623,6 +627,7 @@ konsbud-hifi.com.pl##.sticky-footer
 konserwatyzm.pl###toast-container
 koscian.net##.zgoda_popup
 krakowairport.pl##.privacyPolicyPop
+kran.tychy.pl##.footer.config-messages
 kredito24.pl,zaimo.pl##.politica
 kreskoweczki.pl###rodo-block
 kreskowki.tv###cookie-bar
@@ -808,6 +813,7 @@ naprzedwiosniu.waw.pl###zf--alerts-panel
 natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl,joemonster.org,stylowi.pl,kotburger.pl,faktopedia.pl,komixxy.pl,demotywatory.pl,poki.pl,strawpoll.me,pl.namemc.com##div[class^="app_gdpr"]
 naturo.pl###simple-modal, #simple-modal-overlay
 nazaruk.pl##.fixedInfo
+nck.gov.pl##.navbar-fixed-bottom.alert-dismissible.alert-warning.alert:not(position-fixed)
 nck.pl,u-jazdowski.pl###cookieterms
 ncplusgo.pl,ncplus.pl##.js-messages
 neobiznes.pl###cpolicyHolder
@@ -1149,6 +1155,7 @@ szukajka.tv###rodo-popup
 szybko.pl##.toast
 tanie-loty.com.pl###rodo_info_placeholder
 targeo.pl##body > div:not([id]):not([class])[style^="position: absolute;"]
+tatra.pl##.cookies-2-overlay, .popup-cookies-2
 tatuaze-wzory.com###showcookie
 tcz.pl###dynamic-load-rodo, #dynamic-loading-rodo
 teatrpalladium.com##.cppa
@@ -1174,6 +1181,7 @@ transatlantyk.org###app-cookie-bar
 transfergo.com##.gdpr-consent
 trello.com##.gdpr-cookie-consent-banner
 trentino.pl###popup_cookies
+trizer.pl##.ft__cookies
 trojmiasto.pl###rodo_info
 trovit.pl###welcomebar-wrapper
 truckstore.com##.tso-popup-footer, .tso-popup-overlay
@@ -1321,7 +1329,7 @@ zrzutka.pl##.plicy
 zs1mm.home.pl##body > div[style^="position: relative;"]:not([id]):not([class])
 zyciekalisza.pl###cdiv
 zysk.com.pl###pageUpperInfo
-zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl###infobx
+zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !angielski-kazdego-dnia.pl,miasto-gazeta.pl,nvt.pl##.wpgdprc
 !awf.edu.pl,prostozkranu.krakow.pl,merchtedes.pl,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl###cookie
 !fora.pl##.pp-t-a-c
