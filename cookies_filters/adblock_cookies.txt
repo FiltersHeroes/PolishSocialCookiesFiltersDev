@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: +TxuUqDW04XVNdeNpGLYvw
+! Checksum: i2LJbPtsahuGbsJo2Y89tQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811210814
-! Last modified: Wed, 21 Nov 2018, 08:14:19 UTC+01
+! Version: 201811210824
+! Last modified: Wed, 21 Nov 2018, 08:24:30 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811210814 aktualizacja: śro, 21 lis 2018, 08:14:19 UTC+01
+! v.201811210824 aktualizacja: śro, 21 lis 2018, 08:24:30 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -662,8 +662,7 @@ lego.com###GFSticky
 lekarz.znanylekarz.pl###footer-baner
 lektury.gov.pl##message-box[storage-key="'cookies-accepted'"]
 lema15.pl##.bar--cookies
-leoexpress.com##div > #__next > div > footer ~ div
-leoexpress.com##.kMYOWv.sc-1oi3yor-0
+leoexpress.com##body > #__next > footer + div.sc-1oi3yor-0
 leo.pl,4fstore.com##.modal-backdrop
 lesnydwor.net.pl###header > center
 lexus-polska.pl,portale-randkowe-ranking.pl##.disclaimer
