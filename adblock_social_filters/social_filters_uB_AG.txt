@@ -1,11 +1,11 @@
-! Checksum: HNDE1a1206BSYjcfEaI7DQ
+! Checksum: qoZL/9id/Zx6enNnpYYldg
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Social Filters - Supplement for uBlock & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 201811221210
-! Last modified: Thu, 22 Nov 2018, 12:10:13 UTC+01
+! Version: 201811231145
+! Last modified: Fri, 23 Nov 2018, 11:45:18 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811221210 aktualizacja: czw, 22 lis 2018, 12:10:13 UTC+01
+! v.201811231145 aktualizacja: pią, 23 lis 2018, 11:45:18 UTC+01
 !
 !
 ! Popupy
@@ -72,6 +72,7 @@ autoumowa.pl##.copyright > p:after:style(content: "Google+"; margin-left: -47px;
 cashless.pl##.icon-list:style(margin-top: 25px !important;)
 cashless.pl##.rss-before:before:style(margin-right: 5px; display: inline-block !important; position: static !important;)
 fajnycraft.pl##.primary-menu > li:nth-of-type(n+3):style(visibility: hidden !important;)
+iab.org.pl###menu-social .menu-social:style(width: auto !important;)
 librus.pl##div.promo:style(width: 100%;)
 librus.pl###navBar:style(width: 100% !important;)
 librus.pl##.container-fluid:style(width: 100% !important;)
