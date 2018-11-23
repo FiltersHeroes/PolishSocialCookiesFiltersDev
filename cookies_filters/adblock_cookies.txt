@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: FeOkWrYj/AGU6nEZ43vJwQ
+! Checksum: weKnx1M+2H/TgnYp6Bh3jQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811231532
-! Last modified: Fri, 23 Nov 2018, 15:32:45 UTC+01
+! Version: 201811231721
+! Last modified: Fri, 23 Nov 2018, 17:21:14 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811231532 aktualizacja: pią, 23 lis 2018, 15:32:45 UTC+01
+! v.201811231721 aktualizacja: pią, 23 lis 2018, 17:21:14 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -890,6 +890,7 @@ oko.press##.cookie-message
 oksir.eu###cac
 oktawave.com###gdprbox
 okulary.szkla.com##div#polityka_prywatnosci
+old.reddit.com###eu-cookie-policy
 olimpiasport.pl##div#sek_cstk_inf
 olympusclub.pl###navbar_notice_192
 olza.pl###rodo-widget
@@ -1061,7 +1062,7 @@ rc.fm,www.odpady.zgrp.pl###popup-message-window, #popup-message-background
 reactor.pl,yamo.pl###einfo
 recepcja.visionexpress.pl##div[style="background-color: rgb(217, 217, 217); margin: 0px auto; padding: 25px 8px 15px; position: fixed; right: 0px; width: 400px; bottom: 0px; z-index: 1000; color: rgb(0, 0, 0); border: 3px solid rgb(102, 102, 102);"]
 redbullmobile.pl###more1
-reddit.com#?##SHORTCUT_FOCUSABLE_DIV > div > div > div > form > div:-abp-contains(cookies)
+reddit.com#?##SHORTCUT_FOCUSABLE_DIV > div > form:-abp-contains(cookies)
 reebok.pl,adidas.pl###truste-consent-content
 reflex.com.pl###cookiesdiv
 refunder.pl#?#.bg-white:-abp-has([href="/warunki#cookies"])
