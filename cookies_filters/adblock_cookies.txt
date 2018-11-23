@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 3mrnrq8uiLzWn7pZIqvXYA
+! Checksum: SAZF5kCpwAPAB2nt9aGCdg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811231158
-! Last modified: Fri, 23 Nov 2018, 11:58:00 UTC+01
+! Version: 201811231218
+! Last modified: Fri, 23 Nov 2018, 12:18:21 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811231158 aktualizacja: pią, 23 lis 2018, 11:58:00 UTC+01
+! v.201811231218 aktualizacja: pią, 23 lis 2018, 12:18:21 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -43,6 +43,7 @@ adguard.com##.sticky-bar--cookie
 adm-media.pl,kociadolina.pl##.policy
 adobe.com##.message
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl##body > div:not([id]):not([class])[style*="position"][style*="relative"]
+adwokatura.katowice.pl###cookieInfCont
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
 afryka.org##body > div[style="background: #911515;"]:nth-of-type(1)
 agencjagazeta.pl###rodoLayer
@@ -227,7 +228,7 @@ croatia.hr,umg.edu.pl,cartoonnetwork.pl,sadeczanin.info,kghm.com###sliding-popup
 cshacked.pl,stara-gwardia.pl,openitforum.pl,4af.pl,worldofmetin.pl,supportsamsung.pl,ipsbeyond.pl,totalnie-polski-rpg.pl###elGuestTerms
 cs-puchatek.pl##.oregulaminie
 cubus.com###EPDirectiveInfo
-culture.pl##.Cookie--top
+culture.pl##.Cookie--top.Cookie
 cyanmod.pl##.cm-message, .ipsfocus_globalMessage
 cyberbajt.pl##div#message0
 czasdzieci.net##DIV[style="width:100%;position:fixed;bottom:0;background-color:#f5f5f5;padding:13px 25px 20px;font-size:13px;z-index:200;box-shadow:0 0 10px rgba(0,0,0,0.3);"]
@@ -332,6 +333,7 @@ ergokantor.pl##.alert-warning.alert
 eservice.pl###zwcc
 esklep-sbs.pl###cibMessage
 espritgames.com###easy-cookies-policy-main-wrapper
+esprzedaz.com###netgraf_cookie_alert
 estore.fanuc.eu###cookie-footer
 estore.sonymobile.com##.cookie-consent
 eteacher.pl,starmann.pl###info_container
@@ -1086,6 +1088,7 @@ rybomania.pl###cookies_widget
 rymer.org###info_bottom
 r-gol.com,51015kids.eu###cookieBan
 sadowocowy.pl###container > div:nth-of-type(1)
+salesmedia.pl###agreeCookie
 samouczek.info,aranzujemy.pl,kobieceporady.pl##.gdpr
 samsung.com##.cm-cookie-geo
 sawataxi.pl##.w_news
@@ -1145,7 +1148,7 @@ sportsdirect.com###divCookieAcceptance
 spotify.com###js-message-bar-cookie-notice
 spotter.pl###pp_alert
 spsk2-szczecin.pl###spsk2ct
-sso.epf.org.pl##.Cookie--base.Cookie--bottom.Cookie
+sso.epf.org.pl,rejestr.io##.Cookie--bottom.Cookie
 stalowemiasto.pl##.header-parent > .container > .slot-1280px.slot
 stalowka.net###cookieInfo.cookienotice
 starbucks.pl###allow_message
