@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: weKnx1M+2H/TgnYp6Bh3jQ
+! Checksum: DOukypfA/k1HTPCqgWdBWw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811231721
-! Last modified: Fri, 23 Nov 2018, 17:21:14 UTC+01
+! Version: 201811232323
+! Last modified: Fri, 23 Nov 2018, 23:23:56 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811231721 aktualizacja: pią, 23 lis 2018, 17:21:14 UTC+01
+! v.201811232323 aktualizacja: pią, 23 lis 2018, 23:23:56 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -140,7 +140,7 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
-bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu###cookies-message
+bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com###cookies-message
 bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com##.cookies
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl,aspsklep.pl,klublifestyle.pl,sgurp.pl,zwolenpowiat.pl,gckis.trzebnica.pl,florexpol.eu###fancybox-wrap, #fancybox-overlay
@@ -469,6 +469,7 @@ goldenline.pl###profiling-agreement, .modal-backdrop
 goldenline.pl###topReminder
 golfparkspoland.pl###infoCookieWrapper
 gomez.pl##.window-police
+goodie.pl##.FooterComponent ~ div[class^="h7"]:not([id])
 goodie.pl##.bp_br
 goodlookin.pl##div > div > div > .toplayaa
 google.com,google.pl##.widget-consent-dialog
@@ -541,6 +542,7 @@ iiyama.com##.infobar-message
 iiyama.com##.new-cookies-info
 ilza.com.pl###rodoMain
 imagazine.pl,moviesroom.pl##.overlay-rules
+immergas.pl,www.eset.pl###cookie-layer
 impekao24.pl###rodo-popup-wrapper, #rodo-cookie-shadow-cover
 in4.pl##div.subheader
 info24.rzeszow.pl##.ja-box-right.column.ja-box-wrap
@@ -841,6 +843,7 @@ net4car.pl###notice_messages
 netcity.pl##body > div:nth-of-type(1)
 netcompany.com##.cookie-content
 netflix.com###cookie-disclosure
+netpolska.com###privacy-policy-container
 nettg.pl##.fade
 netweber.pl##.flash-info
 net-speak.pl##div.uwaga
@@ -1293,7 +1296,6 @@ www.cmcmarkets.com###cmc-tracking-consent-form-step1
 www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
 www.ea.com##ea-truste-consent-bar
-www.eset.pl###cookie-layer
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.gumtree.com##.gdpr-banner
 www.halico.pl##.sqs-announcement-bar-custom-location
