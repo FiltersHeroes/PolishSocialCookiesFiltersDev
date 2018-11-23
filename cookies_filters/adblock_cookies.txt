@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: fHnW6Q5rfE5Sqysvg3ywIg
+! Checksum: 8IlaCDZH4c/m2/41+DeH9g
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811231407
-! Last modified: Fri, 23 Nov 2018, 14:07:53 UTC+01
+! Version: 201811231526
+! Last modified: Fri, 23 Nov 2018, 15:26:44 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811231407 aktualizacja: pią, 23 lis 2018, 14:07:53 UTC+01
+! v.201811231526 aktualizacja: pią, 23 lis 2018, 15:26:44 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -69,7 +69,6 @@ alles-bhp.pl,greattrade.pl,urwisy2.pl###contGlowny > div:not([id]):not([class])[
 allianz.pl##.region-disclaimer-component
 allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,galeria-dominikanska.pl,gosc.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro,alarte.pl,winawloskie.pl,jeanmueller.pl,igomedia.pl,footroll.pl,wiara.pl,shop.ticketpro.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allview.pl###modalGDPR.modalGDPR
-allview.pl,byinsomnia.com,butyjana.pl###v-cookielaw
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
 altimi.com###cookie-info
 al.to,x-kom.pl###popup-cookie
@@ -183,6 +182,7 @@ buty-smile.pl###closePopUp
 buty-wolka.pl###popup
 buziak.pl,kochlik.pl,nowaostroleka.pl,webd.pl###cffc
 bydgoszcznastart.pl,kpzpn.pl##.polityka-prywatnosci
+byinsomnia.com###v-cookielaw
 bytzbiorowy.pl,www.pro-tech.bydgoszcz.pl,slupsk.pl###easyNotification
 bywajtu.pl,livesmarter.pl,luszczyce.pl,mammografia.elblag.pl,mazowia.eu###co15ie87a
 bzwbk.pl##.cookie-btn
@@ -299,7 +299,6 @@ edarling.pl,foto4u.pl,himountain.pl,opteam.pl,praktiker.pl,smakizycia.pl,zoover.
 edukacja.rybnik.eu,polskaekologia.org##.cookieWarning
 eecpoland.eu##.cookie-bar2
 eena.pl###whole_page_loader
-efortuna.pl###cookies-disclaimer
 ekko.com.pl###messagePo
 ekliniki.pl,sklepbiegacza.pl##body > div[style]:not([id]):not([class]):nth-of-type(1)
 ekobud.com.pl###cookieLayer
@@ -341,7 +340,6 @@ eternityproject.pl##div.newsbar
 etipolam.com.pl##.ico-wrapper
 etroniks.pl,trojmiejskaperfumeria.pl###st_notification_1
 euro26.pl###popup, #fade
-euroloan.pl##.cookies-message
 everhome.pl,gda.pl,yogenfruz.pl##.shotimoo
 ewl.com.pl###bezzo-cookies-bar
 expansa.pl,www.promise.com.pl##.ui-resizable
@@ -420,7 +418,6 @@ fostertravel.pl##.ft-rodo-html-banner
 fotojoker.pl##div#floatDiv
 fotonegatyw.com###cookie, #fx-modal-1
 fotosik.pl###rodo-info, .modal-backdrop
-fratria.pl###cookiePolicyWrapper
 fsmm.pl###cookieinfoboxitems
 funclub.pl##body > div > div > div > div > div:-abp-contains(cookies)
 funduszpomerania.pl###eprivacyModal, .modal-backdrop
@@ -435,7 +432,6 @@ garwolin.spolem.org.pl#?##colorbox:-abp-has(#rodo_width_hotfix)
 gazeo.pl###rodo_accept
 gazeta-msp.pl,katalogmsp.pl###stickynote
 gbritain.net,eastbook.eu,qkiz.pl###permission-bar
-gb.pl###cookiePolicyWrapper
 gb.pl,wsieciprawdy.pl###rdModal
 gck-szczurowa.pl#?#div[style^="font-size:12px; background:rgb(255, 241, 168); "]:-abp-contains(cookies)
 gct.pl###xrootRODO
@@ -1089,7 +1085,6 @@ rybomania.pl###cookies_widget
 rymer.org###info_bottom
 r-gol.com,51015kids.eu###cookieBan
 sadowocowy.pl###container > div:nth-of-type(1)
-salesmedia.pl###agreeCookie
 samouczek.info,aranzujemy.pl,kobieceporady.pl##.gdpr
 samsung.com##.cm-cookie-geo
 sawataxi.pl##.w_news
@@ -1107,7 +1102,6 @@ seriea.pl,kadra.pl,ligapolska.pl,goal.pl,primeradivision.pl###viewCookies
 serwiskorporacyjny.carrefour.pl##.js-cookies-wrapper.l-sec--cookies.l-sec
 serwis.currenda.pl##div#sign_up
 seszele.com.pl##iframe#cookfr
-sexshop112.pl###prettyCookie_message
 shazam.com##div.policy-label
 shippuuden.pl##div#cookis-bg
 shop-dent.pl##div.black_overlay
@@ -1532,6 +1526,7 @@ pl###InfoCookie:not(body):not(html)
 pl###acceptCookies:not(body):not(html)
 pl###accept-cookies-question:not(body):not(html)
 pl###accept_cookies:not(body):not(html)
+pl###agreeCookie:not(body):not(html)
 pl###amp-user-notification1:not(body):not(html)
 pl###avt-cookie-popup:not(body):not(html)
 pl###band-cookies:not(body):not(html)
@@ -1566,6 +1561,7 @@ pl###cookieMsg:not(body):not(html)
 pl###cookieNotice:not(body):not(html)
 pl###cookiePolicyBanner:not(body):not(html)
 pl###cookiePolicyBar:not(body):not(html)
+pl###cookiePolicyWrapper:not(body):not(html)
 pl###cookiePolicy:not(body):not(html)
 pl###cookiePolisyInfo:not(body):not(html)
 pl###cookieView:not(body):not(html)
@@ -1609,6 +1605,7 @@ pl###cookies-agree:not(body):not(html)
 pl###cookies-banner:not(body):not(html)
 pl###cookies-box:not(body):not(html)
 pl###cookies-container:not(body):not(html)
+pl###cookies-disclaimer:not(body):not(html)
 pl###cookies-eu-banner:not(body):not(html)
 pl###cookies-info:not(body):not(html)
 pl###cookies-notification:not(body):not(html)
@@ -1675,6 +1672,7 @@ pl###notifyCookie:not(body):not(html)
 pl###panel_cookie:not(body):not(html)
 pl###policy-info:not(body):not(html)
 pl###popup-cookies:not(body):not(html)
+pl###prettyCookie_message:not(body):not(html)
 pl###privacyInfo:not(body):not(html)
 pl###privacy-notice:not(body):not(html)
 pl###privacy-policy:not(body):not(html)
@@ -1690,6 +1688,7 @@ pl###simplecookienotification_v01:not(body):not(html)
 pl###sliding-popup:not(body):not(html)
 pl###stg-privacy-bar:not(body):not(html)
 pl###stopcookinfo:not(body):not(html)
+pl###v-cookielaw:not(body):not(html)
 pl###w357_cpnb:not(body):not(html)
 pl###wc:not(body):not(html)
 pl###wpca-bar:not(body):not(html)
@@ -1747,6 +1746,7 @@ pl##.cookies-eu:not(body):not(html)
 pl##.cookies-footer:not(body):not(html)
 pl##.cookies-info-container:not(body):not(html)
 pl##.cookies-info:not(body):not(html)
+pl##.cookies-message:not(body):not(html)
 pl##.cookies-notify:not(body):not(html)
 pl##.cookies-policy-container:not(body):not(html)
 pl##.cookies-statement:not(body):not(html)
