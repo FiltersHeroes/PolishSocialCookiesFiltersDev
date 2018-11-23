@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: SAZF5kCpwAPAB2nt9aGCdg
+! Checksum: fHnW6Q5rfE5Sqysvg3ywIg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811231218
-! Last modified: Fri, 23 Nov 2018, 12:18:21 UTC+01
+! Version: 201811231407
+! Last modified: Fri, 23 Nov 2018, 14:07:53 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811231218 aktualizacja: pią, 23 lis 2018, 12:18:21 UTC+01
+! v.201811231407 aktualizacja: pią, 23 lis 2018, 14:07:53 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -422,7 +422,7 @@ fotonegatyw.com###cookie, #fx-modal-1
 fotosik.pl###rodo-info, .modal-backdrop
 fratria.pl###cookiePolicyWrapper
 fsmm.pl###cookieinfoboxitems
-funclub.pl##.jss313
+funclub.pl##body > div > div > div > div > div:-abp-contains(cookies)
 funduszpomerania.pl###eprivacyModal, .modal-backdrop
 funnygames.pl###cmp-container-id
 futu.pl###my-alert
@@ -887,6 +887,7 @@ odo24.pl##.rodo-body
 off-road.pl###popslide
 ogloszeniachojnice.com##.show.fade.alert-dismissible.alert-info.text-center.alert
 ogloszenia.e-gratka.info##div#pojemnik
+ogloszenioteka.pl##.bottom_notice
 ogrzewanie-elektryczne.pl###oknoPopUp, #tloPopUp
 oifp.eu##.cookies-notice
 oko.press##.cookie-message
@@ -1158,6 +1159,7 @@ start.me##.alert.notification-bar
 statoscope.pl##rodo
 stat.gov.pl,pap.pl,popoznaniu.pl,warszawa-pragapoludnie.sr.gov.pl###divcook
 stodola.pl##.toast-container
+stoprocent.com###cndiv
 store.playstation.com###privacy-header
 storytel.pl###cookieWall
 strabag.pl###dsgvo
@@ -1168,6 +1170,7 @@ stylownik.com##.cpolicy
 stypendia.sejmik.kielce.pl##.mod_pa_sci
 swiatnauki.pl,wiz.pl###menu
 swiatpodlog.com.pl###giodo, .modal-backdrop
+swiat-czekolady.com.pl##.alert-info.alert
 swidnica24.pl##div#policyBox
 swietnafirma.pl###cMess
 swietokrzyskie.pro##.cookieNotification
@@ -1204,6 +1207,7 @@ traftu.pl##.unconfirmed.opt-in-splash
 trakt.tv##.sncmp-app_gdpr
 transatlantyk.org###app-cookie-bar
 transfergo.com##.gdpr-consent
+trecnutrition.com##.cookies
 trello.com##.gdpr-cookie-consent-banner
 trentino.pl###popup_cookies
 trizer.pl##.ft__cookies
@@ -1237,9 +1241,11 @@ vetpersonel.elamed.pl###agreeInfo
 virustotal.com###euConsent
 vivaldi.com###cookiemsg
 voxel.pl###block-rodo-rodo-block
+vuch.pl##.gdpr-cookie-bar
 wacetob.com.pl###container > div[style="position:fixed;left:0px;width:100%;height:60px; background-color:white;padding:5px;bottom:0px;opacity:0.85;filter:alpha(opacity=85);text-align:right;"]
 wakacyjnipiraci.pl###tarteaucitronAlertBig
 wapteka.pl##.coo
+waran.pl###q-cookie-box
 warka.com.pl###rodo_env
 wars.pl###spu-1773, #spu-bg-1773
 weather.com##.lite-msg-parent
@@ -1273,6 +1279,7 @@ wolnymkrokiem.pl,gieldaklasykow.pl,nowawarszawa.pl##.ginger_banner-wrapper
 wordpress.com###eu-cookie-law
 wp.pl###app > div > table > tbody > tr:nth-child(2) > td > span > div
 wrobelekelemelek.com###cboxOverlay, #cboxWrapper
+wroclawfashionoutlet.com##.via-notification--cookie
 wrzucacz.pl###logo .info
 wsedno24.pl###mordern_adbar_wrap
 wseit.edu.pl##.modal-dialog, .modal-backdrop, #welcome
@@ -1310,6 +1317,7 @@ www.nfz-zielonagora.pl###statementWrapper
 www.o2.pl##._2_S1s
 www.promise.com.pl##.ui-front
 www.rmf24.pl###pl_cookies.pl-cookies
+www.simex.pl###CookiesInfoDiv
 www.skype.com###msccBanner
 www.ssw-consulting.pl##.ui-pnotify
 www.teamprevent.pl##.warnings
