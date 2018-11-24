@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 9ebq3SANcpBL0wLyxqQGaA
+! Checksum: krXYL3js7dpu55njJDr8hw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811242010
-! Last modified: Sat, 24 Nov 2018, 20:10:26 UTC+01
+! Version: 201811242123
+! Last modified: Sat, 24 Nov 2018, 21:23:48 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811242010 aktualizacja: sob, 24 lis 2018, 20:10:26 UTC+01
+! v.201811242123 aktualizacja: sob, 24 lis 2018, 21:23:48 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -172,7 +172,7 @@ bosch.pl##.O-CookieLaw
 bose.pl###privacy-message-bar
 brakestock.pl###agree
 bricomarche.pl,szkolkikornickie.pl###content-head-information
-brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl##.cookie
+brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl,klinikaagd.pl,pgd.pl##.cookie
 browar.biz,centrumpiwowarstwa.pl##DIV[style="color: gray; background-color: white; border-bottom: 1px dotted gray; padding:2px; font-size: 0.75em;"]
 bryk.pl,interia.pl,pokazywarka.pl##.rodo-mini
 bsgoleniow.pl##.jsCookieInfo
@@ -264,7 +264,7 @@ discoverychannel.pl##.dni-notifications_cookie-notification
 disport.pl,mmo.pl##.coookie-policy
 diyaudio.pl###navbar_notice_11
 dlink.com##.notification
-dobregniazdka.pl###rodo_container
+dobregniazdka.pl,luxmarket.pl###rodo_container
 dobrymechanik.pl##.small.navbar-fixed-bottom
 dogizycka.pl,dojaroslawca.pl,domragowa.pl,helskipolwysep.pl,kursnamikolajki.pl,kursnaruciane.pl,visiton.pl,kartuzy.pl###rstbox_1
 dolce-gusto.pl###nimgrowler
@@ -275,6 +275,7 @@ domisad.pl##.message-cockies
 domodi.pl,homebook.pl,motokobiety.pl,sklep-bmw.pl##body > div:not(body):not([id]):not([class])[style*="position: fixed;"]
 domowladni.pl###domo-cookies-policy
 doniczki-poznan.pl##body > .alert-dismissible.alert-warning.alert:nth-of-type(1)
+dotsport.pl##.cookie-nav
 dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;bottom: 0px;left: 0px;text-align: center;color: #000;border-top: 1px #000 solid;z-index: 100;"]
 dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,tubawyszkowa.pl,tubaostrowa.pl,tubachorzowa.pl,pracownia.org.pl,ptbs.pl##.rodo
 dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl,aktywnedzieciaki.info,centrumwroclaw.pl,wsensie.pl###rodo
@@ -348,6 +349,7 @@ eternityproject.pl##div.newsbar
 etipolam.com.pl##.ico-wrapper
 etroniks.pl,trojmiejskaperfumeria.pl###st_notification_1
 euro26.pl###popup, #fade
+eurostyl.com.pl###euroCookieInfo
 everhome.pl,gda.pl,yogenfruz.pl##.shotimoo
 ewl.com.pl###bezzo-cookies-bar
 expansa.pl,www.promise.com.pl##.ui-resizable
@@ -489,6 +491,7 @@ google.com,google.pl##.widget-consent-dialog
 goout.net###js-cookieBar.cookieBar
 gosc.pl,igomedia.pl###l-overlay
 gospodarkamorska.pl###fr3ex-cookiewarning
+gostynin.info###modal-privacy
 gostynin.info##.cookies-message-wrapper
 gothaer.pl##.ci-bar-wrapper
 gov.pl,policja.pl##.informationBar, .JSWrapper
@@ -559,6 +562,7 @@ imagazine.pl,moviesroom.pl##.overlay-rules
 immergas.pl,www.eset.pl###cookie-layer
 impekao24.pl###rodo-popup-wrapper, #rodo-cookie-shadow-cover
 in4.pl##div.subheader
+inbook.pl,timemaster24.pl###privacy-policy-info-container
 info24.rzeszow.pl##.ja-box-right.column.ja-box-wrap
 infogliwice.pl,nauka.rocks###ct-ultimate-gdpr-cookie-popup
 infoludek.pl##div.infcook
@@ -791,6 +795,7 @@ michalgrabarski.eu###ccc-icon
 michal.kosmulski.org###ustawaCiasteczkowa
 microsoft.com###uhfCookieAlert
 millymally.pl###js-xcookies
+milmag.pl###layCookieAlert
 ministerstworeklamy.pl,ok-kredyt.pl,radiotaxitg.pl,szkoleniapartner.pl###messagePopup
 miplo.pl##.error.rounded
 mirjan24.pl###window_overlay
@@ -943,6 +948,7 @@ orzeczenia.ms.gov.pl###cookieInfoHeader
 oskolaf.pl###modal-info, .modal-backdrop
 osm-sierpc.pl##.tm-cookies
 ostrowiecnr1.pl###iopp
+otohurt.pl###bar_bottom_cookie
 otolaryngolodzy24.pl,prow.lubelskie.pl,rogowskidevelopment.pl###rodo-policy
 ovh.com,ovh.pl###cookiesPop
 owocowydom.pl,weck.com.pl###popup2
@@ -1079,6 +1085,7 @@ radiowroclaw.pl,radioram.pl,radiogdansk.pl,tanibus.com###rodoModal
 radiozet.pl,antyradio.pl,radiostacja.pl,meloradio.pl,azorek.pl,planeta.fm,chillizet.pl##div[class^="app_cmpAppGdpr"]
 radom24.pl##div#ciasteczka-info
 raiffeisenpolbank.com###valid_cookie_message
+rajapack.pl###barre__cookie.barre__cookie
 ramboll.pl##.infoboxHolder
 ranking.abczdrowie.pl###app > div > div > div[class*=" "] > div
 rankomat.pl###rankomat-cookies-div
@@ -1159,6 +1166,7 @@ skyscrapercity.com###ukCookiePopup
 slaskwroclaw.pl###bg-layer, #rodo-wrapper
 slawomirambroziak.pl##.privacy_policy
 slowhop.com,interpretacje-podatkowe.org,www.tesco.com###cookie-policy
+smsapi.pl##.cookie-agreement-bar
 snapchat.com###cookiePopupContainer
 snt.pl###sntc-close
 solartime.pl###sticky-notify
@@ -1226,7 +1234,6 @@ testhub.pl##.sh-page-notice
 testigo.pl###cp_wrap
 testujemy.biedronka.pl##.qucki-box
 thebestmp3.pl##DIV[style="background: #000;position: fixed; left: 0; right: 0; bottom: 0; min-height: 30px; border-top: 2px dashed #fff"]
-timemaster24.pl###privacy-policy-info-container
 tominet.com.pl#?#table:-abp-has(#cookieMessageText)
 tophifi.pl##.popup-rodo
 torkusa.com,tork.pl##.headerMessage
