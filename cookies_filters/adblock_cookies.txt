@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 9018ypPyj6EUapc47CqkRw
+! Checksum: o7aYniZ9acKybGERJzKd1w
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811240056
-! Last modified: Sat, 24 Nov 2018, 00:56:09 UTC+01
+! Version: 201811241606
+! Last modified: Sat, 24 Nov 2018, 16:06:44 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811240056 aktualizacja: sob, 24 lis 2018, 00:56:09 UTC+01
+! v.201811241606 aktualizacja: sob, 24 lis 2018, 16:06:44 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -96,6 +96,7 @@ assecods.pl###spu-22991, #spu-bg-22991
 astar.czest.pl##.lean-overlay
 atcdevelopment.pl,ginekolog-darlowo.pl,lek-med.pl###zgoda
 atlas-roslin.pl##.tytul > span
+atramentowka.com###cookie, #cookie_popup
 atskaner.pl###cookieInfoWindow
 audioteka.com##.anonymousToSConsent_mask
 autocentrum.pl##.hello-rodo
@@ -293,6 +294,8 @@ ebay.pl##.gh-banner-active.gh-banner
 ebizneskrokpokroku.pl###notification-bar
 ebok.jmdi.pl,nauka.gov.pl##.ui-notificationbar.top
 ebok.vectra.pl##div.jqmAlertContent
+ebrokerpartner.pl##.jsCookieInfoPlugin.cookie_plugin
+ebroker.pl,opinie24.pl##.rodo_cookies_popup
 ecbedzin.pl,enut.pl###myModal
 economist.com##div#ec-message-1
 eco.atman.pl,kreskoweczki.pl,groj.pl,marketing-news.pl,www.obozytenisowe.pl###gbpl_oba
@@ -490,6 +493,7 @@ greenlux.pl###pawelix_banner
 gregorio.pl##.ciacho-wrap-container, .black_overlay
 grene.pl,salesmanago.pl,turek.net.pl##.popup
 groupon.pl##div#jOftLayer
+gruparmf.pl###polityka-cookie
 grupazywiec.pl###apollo-bar
 gry-online.pl##.cookie-alert-2018-c
 gsbk.pl###ci
@@ -872,6 +876,7 @@ nokaut.pl###GDPRModal
 nokia.com##.cookie_container
 nomi.pl##div#Messenger-Special
 norwegian.com#?#.alert:-abp-has(.cookie-disclaimer)
+nowa.tv###mpc_cookie_intro
 nowemiasto.pl,zwolen.pl,laskarzew.pl###cook
 noweprzetargi.pl###dcach, #txt
 nowezyciepabianic.pl##div#PopupDiv
@@ -1103,6 +1108,7 @@ seansik.top##.coi.container
 sedkomp.com.pl##.art-content-layout:nth-of-type(2)
 seg.org.pl###block-block-19
 sekap.pl###uglipop_popbox, #uglipop_overlay
+senetic.pl###rodoBar
 seriale.co###player_warn
 serialowa.pl,60sekund.tytan.pl,lucatel.pl,szymoszkowa.pl,mckplonsk.pl,defra.pl,airdron-polska.pl##.popmake-overlay[data-popmake*="cookies"]
 seriea.pl###viewCookiesClose
@@ -1123,6 +1129,7 @@ sklepyabc.pl###am_pop-up
 sklep-tosia.eu##.cookie-center
 sklep.alablaboratoria.pl,lmbruss.pl###cover
 sklep.eltron.pl###communication
+sklep.hyperbook.pl###cookies-wiadomosc-box
 sklep.sizeer.com###js-cookieInfo
 skm.pkp.pl#?#.ui-dialog:-abp-has(#dialog-message-rodo)
 skm.pkp.pl,smart.com##.ui-widget-overlay
