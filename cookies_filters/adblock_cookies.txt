@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Ho5JR0F+NcWRuEbfogbeLg
+! Checksum: xLN/PvycfAuyuT11sI8vgA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811251231
-! Last modified: Sun, 25 Nov 2018, 12:31:44 UTC+01
+! Version: 201811251255
+! Last modified: Sun, 25 Nov 2018, 12:55:34 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811251231 aktualizacja: nie, 25 lis 2018, 12:31:44 UTC+01
+! v.201811251255 aktualizacja: nie, 25 lis 2018, 12:55:34 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -69,7 +69,7 @@ allekoszyk.pl##div > .ng-scope[ng-if="cookieinfo == false"]
 alles-bhp.pl,greattrade.pl,urwisy2.pl###contGlowny > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allianz.pl##.region-disclaimer-component
 allnet24.pl,sklep.mebloart.eu,kran.tychy.pl##.footer.config-messages
-allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,galeria-dominikanska.pl,gosc.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro,alarte.pl,winawloskie.pl,jeanmueller.pl,igomedia.pl,footroll.pl,wiara.pl,shop.ticketpro.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
+allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,galeria-dominikanska.pl,gosc.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro,alarte.pl,winawloskie.pl,jeanmueller.pl,igomedia.pl,footroll.pl,wiara.pl,shop.ticketpro.pl,skm.warszawa.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allview.pl###modalGDPR.modalGDPR
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
 altimi.com###cookie-info
@@ -171,7 +171,7 @@ bosch.pl##.O-CookieLaw
 bose.pl###privacy-message-bar
 brakestock.pl###agree
 bricomarche.pl,szkolkikornickie.pl###content-head-information
-brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl,klinikaagd.pl,pgd.pl##.cookie
+brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl,klinikaagd.pl,pgd.pl,mazowieckie.com.pl##.cookie
 browar.biz,centrumpiwowarstwa.pl##DIV[style="color: gray; background-color: white; border-bottom: 1px dotted gray; padding:2px; font-size: 0.75em;"]
 bryk.pl,interia.pl,pokazywarka.pl##.rodo-mini
 bsgoleniow.pl##.jsCookieInfo
@@ -645,6 +645,7 @@ kochamwroclaw.pl###tfade, #cwv3_dialog, #tlight, .dialog-overlay, #surbma-yes-no
 kodilla.com##.cookies-prompt
 kokos.pl##.flashMessage
 kolejeslaskie.com##div#c_m
+kolejeslaskie.com###cookie-law
 kolorowychsnow.pl##.consent-cookie
 komfort.pl###intro_row, #kt-cookies
 kominki.org###cookieMsg, #popup-policy
@@ -716,6 +717,7 @@ limango.pl##.floating_notification
 limanowa.in,parkerpen.com###cookiesdirective
 linuxiarz.pl###colophon
 linuxportal.pl##DIV[style="width: 100%; background: rgb(44, 48, 51) none repeat scroll 0% 0%; padding: 10px 0; color: #fff; border-top: 1px solid rgb(221, 221, 221);  text-align: center; position: fixed; bottom: 0; z-index: 999999999;"]
+lka.lodzkie.pl###polish-cookie-note
 logistics.dhl##.c-cookie-disclaimer
 lokalna24.pl#?##jm-right .custom > table:-abp-contains(RODO)
 lomianki.pl###splash
