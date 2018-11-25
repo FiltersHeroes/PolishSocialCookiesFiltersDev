@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: sEhOOac2g1X+OcHNsMqJ2w
+! Checksum: G/6ndhvjq8KUuttVoBkAmQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811251418
-! Last modified: Sun, 25 Nov 2018, 14:18:02 UTC+01
+! Version: 201811251438
+! Last modified: Sun, 25 Nov 2018, 14:38:41 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,17 +17,17 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811251418 aktualizacja: nie, 25 lis 2018, 14:18:02 UTC+01
+! v.201811251438 aktualizacja: nie, 25 lis 2018, 14:38:41 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
-2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,stefczyk.info,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,firmyinzynieria.com,bip.um.rybnik.eu,coremannet.com,firmyinzynieria.com,szlakwokoltatr.eu,starosadeckie.info###cookie
+2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,stefczyk.info,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,firmyinzynieria.com,bip.um.rybnik.eu,coremannet.com,firmyinzynieria.com,szlakwokoltatr.eu,starosadeckie.info,comperia.pl###cookie
 2x45.info,nasze-kino.tv,xtb.com,lumarte.eu,feriogaj.com,koszyki.com###cookies
 4hifi.pl,advatus.pl,tylkodywan.pl,ip-sa.pl##.myModal-box
 4lomza.pl###komunikat_rodo
 24jgora.pl###myModal_cookie
 40latki.pl###noty_bottom_layout_container
-40ton.net###catapult-cookie-bar
+40ton.net,nowy-sacz.info###catapult-cookie-bar
 2018.pl##.r-background
 a4-klub.pl,forum.radioparty.pl,forum.benchmark.pl,pfmrc.eu###document_modal
 abbvie.pl###omniTrackDiv
@@ -692,6 +692,7 @@ k-ex.pl##div[style="position: fixed; bottom: 0px; width: 100%; background-color:
 laboratoria.net###cboxOverlay
 laboratoria.net#?##colorbox:-abp-has(#rodoPopupClose)
 labottegatoscana.pl###disclaimer, .disclaimer, .disclaimerContainer, .disclaimer-box, .disclaimer--info, #disclaimerC, #disclaimer-container, #disclaimer-box, .disclaimer-wrapper
+lagardere-tr.pl###madcoders-cookies-info-bar-wrapper-back
 lahtipro.pl###alert_bar
 lajfy.com##.eu-cookie, .fucking-eu-cookies
 lak-auto.pl###windowcookie > #innercookie
@@ -1235,6 +1236,7 @@ teatrpalladium.com##.cppa
 techpedia.pl##.skyf1
 telefonylodz.com###iqitcookielaw
 telegazeta.pl##.tvp-covl-bg, .tvp-covl
+telepolis.pl,tlp.is##.cookiepolicy
 telewizjarepublika.pl###swsmodal, #swsoverlay
 tenit.com.pl###gdpr
 tesco.pl##.gdpr-cookies-inside
@@ -1242,6 +1244,7 @@ testhub.pl##.sh-page-notice
 testigo.pl###cp_wrap
 testujemy.biedronka.pl##.qucki-box
 thebestmp3.pl##DIV[style="background: #000;position: fixed; left: 0; right: 0; bottom: 0; min-height: 30px; border-top: 2px dashed #fff"]
+tnt-tv.pl##.cookie_bar
 tominet.com.pl#?#table:-abp-has(#cookieMessageText)
 tophifi.pl##.popup-rodo
 torkusa.com,tork.pl##.headerMessage
@@ -1406,7 +1409,7 @@ zyciekalisza.pl###cdiv
 zysk.com.pl###pageUpperInfo
 zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !angielski-kazdego-dnia.pl,miasto-gazeta.pl,nvt.pl##.wpgdprc
-!awf.edu.pl,prostozkranu.krakow.pl,merchtedes.pl,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl###cookie
+!awf.edu.pl,prostozkranu.krakow.pl,merchtedes.pl,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl - #cookie
 !fora.pl##.pp-t-a-c
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
