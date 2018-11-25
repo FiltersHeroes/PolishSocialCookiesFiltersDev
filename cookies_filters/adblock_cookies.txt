@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 8pTGGqNar+jG2ZIYCEfJgA
+! Checksum: O5pDZzIXGrbbwCNmQD3Mqw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811251931
-! Last modified: Sun, 25 Nov 2018, 19:31:33 UTC+01
+! Version: 201811251950
+! Last modified: Sun, 25 Nov 2018, 19:50:01 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811251931 aktualizacja: nie, 25 lis 2018, 19:31:33 UTC+01
+! v.201811251950 aktualizacja: nie, 25 lis 2018, 19:50:01 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1220,6 +1220,7 @@ swidnica24.pl##div#policyBox
 swietnafirma.pl###cMess
 swietokrzyskie.pro##.cookieNotification
 swmarcin-jarocin.com,ufs.pt###cookiesBar
+swps.pl###cpnb_warningBoxBgOverlay, [data-cookie-name="cookiesDirective"]
 szczecinek.com###__cmcmedia_upid_26
 szlot.pl##.spu-bg, .spu-total-
 szostygracz.pl##div#cw_statusbar
@@ -1753,6 +1754,7 @@ pl###simplecookienotification_v01:not(body):not(html)
 pl###sliding-popup:not(body):not(html)
 pl###stg-privacy-bar:not(body):not(html)
 pl###stopcookinfo:not(body):not(html)
+pl###top-cookie-wrapper:not(body):not(html)
 pl###v-cookielaw:not(body):not(html)
 pl###w357_cpnb:not(body):not(html)
 pl###wc:not(body):not(html)
