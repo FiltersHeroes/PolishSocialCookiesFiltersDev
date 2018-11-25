@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: c/zBWin6zEScGTCJokiWZg
+! Checksum: rVUMj8Agq+U/GwU26EWojg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811250229
-! Last modified: Sun, 25 Nov 2018, 02:29:43 UTC+01
+! Version: 201811251147
+! Last modified: Sun, 25 Nov 2018, 11:47:28 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811250229 aktualizacja: nie, 25 lis 2018, 02:29:43 UTC+01
+! v.201811251147 aktualizacja: nie, 25 lis 2018, 11:47:28 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -199,7 +199,7 @@ cea-art.pl##.bs-gdpr-law
 centrumklima.pl###cookieCKdiv
 centrumpilkarskie.pl##div.jqibox
 centrumreklamy.com###CookieInfoBlock
-centrum-marino.com###cookie_zgoda
+centrum-marino.com,wroclaw.pl###cookie_zgoda
 cenum.pl##.cssmessage
 cepelia.com.pl,sandecja.tv,mcksokol.pl,muzeum.sacz.pl,sandecja.org###overflow-content
 certum.pl,elk.gmina.pl,koleje-wielkopolskie.com.pl##.spu-bg, .spu-box
@@ -984,7 +984,7 @@ playnow.pl##.c-cookie-info
 playtube.pl##.alert-success
 play.google.com,translate.google.pl,books.google.pl###gb > div[style*="background-color"]
 pl.aleteia.org##.qc-cmp-ui-content
-pl.bab.la,halogorlice.info,pl.soringpcrepair.com,easypaste.org##.cc-window[aria-label*="consent"]
+pl.bab.la,halogorlice.info,pl.soringpcrepair.com,easypaste.org,polskatelewizjausa.com##.cc-window[aria-label="cookieconsent"]
 pl.chili.tv###_evh-ric
 pl.depositphotos.com##._notification
 pl.fotolia.com,stock.adobe.com,rexona.com###_evidon_banner
@@ -1866,6 +1866,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###Informacja_o_ciasteczkach:not(body):not(html)
 ###Qookie:not(body):not(html)
 ###ZATAKIEUSTAWYPOWINNIZAMYKAC:not(body):not(html)
+###boxZgodaNaCookie:not(body):not(html)
 ###ciachoinfo:not(body):not(html)
 ###ciacho:not(body):not(html)
 ###ciacho_bar:not(body):not(html)
@@ -1930,6 +1931,8 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###polityka_prywatnosci:not(body):not(html)
 ###wrap.ciacho-wrap-container:not(body):not(html)
 ###zezwolenieNaCookie:not(body):not(html)
+###zgodacookie:not(body):not(html)
+###zgoda_cookie:not(body):not(html)
 ###zk_polityka_ciastek:not(body):not(html)
 ###zk_polityka_ciastek_overlay:not(body):not(html)
 ##.bipPasekCookie:not(body):not(html)
@@ -1952,6 +1955,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##.polityka-cookie:not(body):not(html)
 ##.polityka_ciastek:not(body):not(html)
 ##.wordpress-gdpr-popup:not(body):not(html)
+##.zgoda_na_cookie:not(body):not(html)
 ##[class*="coockie"]:not(body):not(html)
 ##[class^="kom_polityka_prywatnosci"]:not(body):not(html)
 ##[id*="ciasteczka_alert"]:not(body):not(html)
