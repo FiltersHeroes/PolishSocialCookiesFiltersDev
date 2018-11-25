@@ -1,11 +1,11 @@
-! Checksum: adaZ1VS1PGldnppK+P/Jiw
+! Checksum: jqvVb5HG+xMf07u6vXQivA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811251351
-! Last modified: Sun, 25 Nov 2018, 13:51:03 UTC+01
+! Version: 201811251459
+! Last modified: Sun, 25 Nov 2018, 14:59:50 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811251351 aktualizacja: nie, 25 lis 2018, 13:51:03 UTC+01
+! v.201811251459 aktualizacja: nie, 25 lis 2018, 14:59:50 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -189,7 +189,7 @@ zwolen.pl###g_toplayer, .modal-backdrop
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂 - specjalne instrukcje
 !#if !cap_html_filtering
 4fun.tv###cModal, .modal-backdrop
-4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,tvszum.pl,wpr.pl,academy.asseco.pl,fnglob.pl,tvbraniewo24.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,tvszum.pl,wpr.pl,academy.asseco.pl,fnglob.pl,tvbraniewo24.pl,stadionenerga.pl,rowerowygdansk.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 academy.asseco.pl###politykaPrywatnosciModal, .modal-backdrop
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 autakrajowe.com.pl##.modal-open:style(overflow: auto !important; margin-right: 0 !important;)
@@ -216,7 +216,7 @@ farmacja.pl##+js(abort-current-inline-script.js, jQuery, .rodo-modal)
 fnglob.pl###modal, .modal-backdrop
 forums.openpli.org##+js(abort-current-inline-script.js, euReadCookie)
 fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
-gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
+gdansk.pl,gokf.gda.pl,stadionenerga.pl,rowerowygdansk.pl##.rodo, .modal-backdrop
 homedesign.pl##.popmake-overlay[data-popmake*="rodo"]
 infoplanet.pl,craftserve.pl,motobanda.pl,autakrajowe.com.pl###rodo, .modal-backdrop
 infostrow.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info###rodo-modal
@@ -291,7 +291,7 @@ born2be.pl,renee.pl##^.rules-modal
 budownictwo.pl##^#rodoLayer
 cenapaliw.pl##^#CBCookieMsg
 dalmierze.pl##^#Widget3
-domhouse.pl,gdansk.pl,gokf.gda.pl##^.rodo
+domhouse.pl,gdansk.pl,gokf.gda.pl,stadionenerga.pl,rowerowygdansk.pl##^.rodo
 easyprotect.pl##^.popup-aholic227
 ekobiuro24.pl##^#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##^[id^="banner-komunikat-rodo-"]
@@ -358,7 +358,7 @@ dalmierze.pl$$#Widget3
 domhouse.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
 domhouse.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 domhouse.pl##.fancybox-overlay:has-text(RODO)
-domhouse.pl,gdansk.pl,gokf.gda.pl$$.rodo
+domhouse.pl,gdansk.pl,gokf.gda.pl,stadionenerga.pl,rowerowygdansk.pl$$.rodo
 easyprotect.pl$$.popup-aholic227
 ekobiuro24.pl$$#dialog-agreement
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl$$[id^="banner-komunikat-rodo-"]
@@ -407,6 +407,6 @@ zdajmyrazem.pl$$#gdprModal
 ztm.poznan.pl$$#PopUP
 !djoles.pl$$#modal-rodo
 !eobuwie.com.pl$$script[tag-content="technologii cookies"]
-!homedesign.pl$$.popmake-overlay[data-popmake*="rodo"] #Działa dopiero po odświeżeniu? 
+!homedesign.pl$$.popmake-overlay[data-popmake*="rodo"] #Działa dopiero po odświeżeniu?
 !pasjagolebie.pl$$.popmake-overlay[data-popmake*="cookies"]
 !#endif
