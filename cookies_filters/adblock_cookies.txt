@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: O5pDZzIXGrbbwCNmQD3Mqw
+! Checksum: LRv2u6a+YqRupPDE5DpR5A
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811251950
-! Last modified: Sun, 25 Nov 2018, 19:50:01 UTC+01
+! Version: 201811252203
+! Last modified: Sun, 25 Nov 2018, 22:03:19 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811251950 aktualizacja: nie, 25 lis 2018, 19:50:01 UTC+01
+! v.201811252203 aktualizacja: nie, 25 lis 2018, 22:03:20 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -112,7 +112,7 @@ avast.com,pay.google.com,trustpilot.com##.cookie-bar:not(body)
 avioner.pl,upolujebooka.pl##.alert
 avon.pl##.CookieSection
 azure.microsoft.com###cookie-prompt
-a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info,cdax.online,emisja.tv,pl.stealthsettings.com,bajeczki.org,doradztwoprawne.org,farmacja.net,anymind.com,festiwaldobregosmaku.eu###cookie-notice
+a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info,cdax.online,emisja.tv,pl.stealthsettings.com,bajeczki.org,doradztwoprawne.org,farmacja.net,anymind.com,festiwaldobregosmaku.eu,wislakrakow.com###cookie-notice
 badaniaprenatalne.pl###stb-14718
 bambino.dzidziusiowo.pl##.section--cookies
 bankier.pl###smart-cmp-host
@@ -1144,8 +1144,7 @@ selgros24.pl###cookieModal
 senetic.pl###rodoBar
 seriale.co###player_warn
 serialowa.pl,60sekund.tytan.pl,lucatel.pl,szymoszkowa.pl,mckplonsk.pl,defra.pl,airdron-polska.pl##.popmake-overlay[data-popmake*="cookies"]
-seriea.pl###viewCookiesClose
-seriea.pl,kadra.pl,ligapolska.pl,goal.pl,primeradivision.pl###viewCookies
+seriea.pl,kadra.pl,ligapolska.pl,goal.pl,primeradivision.pl###viewCookies, #viewCookiesClose
 serwiskorporacyjny.carrefour.pl##.js-cookies-wrapper.l-sec--cookies.l-sec
 serwis.currenda.pl##div#sign_up
 seszele.com.pl##iframe#cookfr
@@ -1840,6 +1839,7 @@ pl##.cookie-notification:not(body):not(html)
 pl##.cookie-overlay-box:not(body):not(html)
 pl##.cookie-tooltip:not(body):not(html)
 pl##.cookie_agree:not(body):not(html)
+pl##.cookie_policy:not(body):not(html):not(#Content):not(#page)
 pl##.cookie_popup:not(body):not(html)
 pl##.cookwarning:not(body):not(html)
 pl##.cp-cookie-bar:not(body):not(html)
