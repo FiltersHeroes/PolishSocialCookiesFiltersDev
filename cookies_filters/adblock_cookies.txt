@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: X3ty/a0OPFisOV+rSH9/5g
+! Checksum: FprUAxNJ0QoE5VrOgp4AQQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811251456
-! Last modified: Sun, 25 Nov 2018, 14:56:41 UTC+01
+! Version: 201811251459
+! Last modified: Sun, 25 Nov 2018, 14:59:46 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811251456 aktualizacja: nie, 25 lis 2018, 14:56:41 UTC+01
+! v.201811251459 aktualizacja: nie, 25 lis 2018, 14:59:47 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -893,7 +893,6 @@ niezalezna.pl##div[style="border: 2px solid #900; margin-left: auto; margin-righ
 niezalezna.pl,gpcodziennie.pl###swsoverlay, #swsmodal
 niezlasztuka.net###cookie-banner
 nike.com###cookieBanner
-nil.gov.pl,polskiedzieje.pl,wabrzezno.com,przygarnijkrolika.pl,przygarnijkrolika.pl,inex.augustow.pl##.tplis-cl-cookies
 ninateka.pl##.popup--festival
 niniwateam.pl##div[style="background-color: rgb(255, 230, 173); color: rgb(0, 0, 102); position: fixed; top: 0px; width: 100%; padding: 10px; font-size: 12px; "]
 nivea.pl##.bdf-cookie-policy-popup
@@ -985,7 +984,7 @@ picodi.com,starysacz.info##.cookie-alert
 piltza37.pl###fb
 pipelife.com###coo
 pizzaportal.pl,pl.chili.com##.react-cookie-banner
-pkobp.pl##.rodo-not-small-modal, .cookie-rodo--center.cookie-rodo
+pkobp.pl##.rodo-not-small-modal, .cookie-rodo
 pkspolonus.pl,zakexpress.pl###popek
 pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.aPad
 player.pl##.cBox
@@ -1123,7 +1122,6 @@ rockpapershotgun.com##div#ecd_opt_in_banner
 rosja.pl###cookframe
 rotringsklep.pl###BoxCookie
 routex.com###ca_alert
-rozklad-pkp.pl###cookies-rodo:not(body):not(html):not(a):not(button)
 rozwojowiec.pl###fixedBar
 rps.ms.gov.pl###MS
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl###pd-modal, .modal-backdrop
@@ -1290,6 +1288,7 @@ virustotal.com###euConsent
 vivaldi.com###cookiemsg
 voxel.pl###block-rodo-rodo-block
 vuch.pl##.gdpr-cookie-bar
+wabrzezno.com##.tplis-cl-cookies
 wacetob.com.pl###container > div[style="position:fixed;left:0px;width:100%;height:60px; background-color:white;padding:5px;bottom:0px;opacity:0.85;filter:alpha(opacity=85);text-align:right;"]
 wakacyjnipiraci.pl###tarteaucitronAlertBig
 wapteka.pl##.coo
@@ -1362,7 +1361,6 @@ www.mercedes-benz.pl###emb-cp-overlay
 www.multimedia-energia.pl###layer
 www.nfz-zielonagora.pl###statementWrapper
 www.o2.pl##._2_S1s
-www.pkobp.pl###.cookie-rodo
 www.promise.com.pl##.ui-front
 www.rmf24.pl###pl_cookies.pl-cookies
 www.simex.pl###CookiesInfoDiv
@@ -1401,6 +1399,7 @@ zinfo.pl###iod-message
 zkmgdynia.pl##div.kom_polityka_prywatnosci
 zloty-pociag.com##.popup_wrapper
 zomato.com##.gdbr_banner_wrapper
+zooexpress.pl###cookies_message_rodo
 zosiaikevin.pl###novem-slot
 zrzutka.pl##.plicy
 zs1mm.home.pl##body > div[style^="position: relative;"]:not([id]):not([class])
@@ -1409,7 +1408,7 @@ zyciekalisza.pl###cdiv
 zysk.com.pl###pageUpperInfo
 zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !angielski-kazdego-dnia.pl,miasto-gazeta.pl,nvt.pl##.wpgdprc
-!awf.edu.pl,prostozkranu.krakow.pl,merchtedes.pl,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl - #cookie
+!awf.edu.pl,prostozkranu.krakow.pl,merchtedes.pl,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl###cookie
 !fora.pl##.pp-t-a-c
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
@@ -1521,6 +1520,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 ||www.vectra.pl/img/icns/ico-yt-footer.png
 ||www.wio.org.pl/js/cookie_warning.js$script
 ||www.wroclaw.pl/portal/themes/js/script-rodo.min.js
+||wyprawyrowerem.pl/wp-content/plugins/popup-builder/public/js/Popup.js
 ||zgody.infor.pl/build/assets/js/main.js
 ||ztm.kielce.pl/modules/mod_rppopup/js/jquery.gafancybox.min.js
 !
@@ -1669,7 +1669,7 @@ pl###cookies-notification:not(body):not(html)
 pl###cookies-policy:not(body):not(html)
 pl###cookies-politics:not(body):not(html)
 pl###cookies-popup:not(body):not(html)
-pl###cookies:not(body):not(html):not(.section)
+pl###cookies:not(body):not(html):not(.section):not(.fade)
 pl###cookies_box:not(body):not(html)
 pl###cookies_container:not(body):not(html)
 pl###cookies_content:not(body):not(html)
@@ -1865,6 +1865,7 @@ pl##.regional-cookie-warning:not(body):not(html)
 pl##.rodo-accept:not(body):not(html):not(input):not(a)
 pl##.rodo-overlay:not(body):not(html)
 pl##.rodo-popup:not(body):not(html)
+pl##.tplis-cl-cookies:not(body):not(html)
 pl##.vm-cookies:not(body):not(html)
 pl##.wpgdprc-consent-bar:not(body):not(html)
 pl##.wrap-cookie-info:not(body):not(html)
