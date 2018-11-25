@@ -1,11 +1,11 @@
-! Checksum: 0nsYGGxpH0NVedZRozLocw
+! Checksum: adaZ1VS1PGldnppK+P/Jiw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811251348
-! Last modified: Sun, 25 Nov 2018, 13:48:47 UTC+01
+! Version: 201811251351
+! Last modified: Sun, 25 Nov 2018, 13:51:03 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811251348 aktualizacja: nie, 25 lis 2018, 13:48:47 UTC+01
+! v.201811251351 aktualizacja: nie, 25 lis 2018, 13:51:03 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -302,7 +302,7 @@ farmacja.pl##^script:has-text(rodo)
 ferguson-digital.eu##^#cookie-notice
 fnglob.pl##^#modal
 fryzomania.pl##^#myWorningNewsletterPopUp
-homedesign.pl##^[data-popmake*="rodo"]
+homedesign.pl##^.popmake-overlay[data-popmake*="rodo"]
 ideafairplay.pl##^#modal-privacy
 infostrow.pl,roztoczanskipn.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info##^#rodo-modal
 listymikolaja.pl##^#popup_rodo_layer
@@ -405,8 +405,8 @@ victoriassecret.pl$$script[tag-content="cookie-"]
 wtk.pl$$#GDPR-modal
 zdajmyrazem.pl$$#gdprModal
 ztm.poznan.pl$$#PopUP
-!Działa dopiero po odświeżeniu? homedesign.pl$$[data-popmake*="rodo"]
 !djoles.pl$$#modal-rodo
 !eobuwie.com.pl$$script[tag-content="technologii cookies"]
+!homedesign.pl$$.popmake-overlay[data-popmake*="rodo"] #Działa dopiero po odświeżeniu? 
 !pasjagolebie.pl$$.popmake-overlay[data-popmake*="cookies"]
 !#endif
