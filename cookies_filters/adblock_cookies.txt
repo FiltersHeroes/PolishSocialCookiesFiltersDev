@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: NYlpJPV7A6Ek8CqwUu2Pbw
+! Checksum: 6BKkJdME8MewkUH1OZm0hQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811262234
-! Last modified: Mon, 26 Nov 2018, 22:34:44 UTC+01
+! Version: 201811262237
+! Last modified: Mon, 26 Nov 2018, 22:37:28 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811262234 aktualizacja: pon, 26 lis 2018, 22:34:44 UTC+01
+! v.201811262237 aktualizacja: pon, 26 lis 2018, 22:37:28 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1488,8 +1488,8 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 ||cookie.avt.pl/cookie-noscript
 ||cookie.bortos.pl/*cookie*.js$script
 ||ctm.gdynia.pl/js/alertbox.js
-||dlastudenta.pl/cookie/cookie_set.js$script,domain=~www.dlastudenta.pl
-||dlastudenta.pl/cookie/upd/*$xmlhttprequest,domain=~www.dlastudenta.pl
+||dlastudenta.pl/cookie/cookie_set.js$script,~third-party,domain=~www.dlastudenta.pl
+||dlastudenta.pl/cookie/upd/*$xmlhttprequest,~third-party,domain=~www.dlastudenta.pl
 ||dziennikelblaski.pl/js/rodo-wm.js
 ||eurocookie.galilcloud.wixapps.net/pages/widget/views/widget.html
 ||eurocookie.galilcloud.wixapps.net/popup$subdocument
