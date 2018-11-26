@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: fIvhpEHW/3rHHZoGNFlsLA
+! Checksum: 3oJUlb9Xlg+n35lwz1N5Xw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811261935
-! Last modified: Mon, 26 Nov 2018, 19:35:12 UTC+01
+! Version: 201811262005
+! Last modified: Mon, 26 Nov 2018, 20:05:12 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811261935 aktualizacja: pon, 26 lis 2018, 19:35:12 UTC+01
+! v.201811262005 aktualizacja: pon, 26 lis 2018, 20:05:12 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -234,7 +234,7 @@ convertcase.net###cookiebar
 cookielaw.org,hp.com##.optanon-alert-box-wrapper
 copernicusfestival.com,naukaireligia.pl,filozofiawnauce.pl,copernicuscenter.edu.pl###block-block-31
 costacoffee.pl##.notification-global
-croatia.hr,umg.edu.pl,cartoonnetwork.pl,sadeczanin.info,kghm.com###sliding-popup
+croatia.hr,umg.edu.pl,cartoonnetwork.pl,sadeczanin.info,kghm.com,gliwice.eu###sliding-popup
 cshacked.pl,stara-gwardia.pl,openitforum.pl,4af.pl,worldofmetin.pl,supportsamsung.pl,ipsbeyond.pl,totalnie-polski-rpg.pl###elGuestTerms
 cs-puchatek.pl##.oregulaminie
 cubus.com###EPDirectiveInfo
@@ -714,6 +714,7 @@ lasy.gov.pl,bip.kielce.eu##.popup-alert-notice
 laznianowa.pl##DIV[style="background: #E9E9E9; color: #777; font-size: 9px; position: fixed; bottom: 0; width: 100%; z-index: 9999; padding: 2px; text-align: center; -webkit-border-top-right-radius: 8px; -webkit-border-top-left-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-topleft: 8px; border-top-right-radius: 8px; border-top-left-radius: 8px; font-size: 12px; -webkit-box-shadow: 2px 2px 3px 0px rgba(127, 127, 127, 0.4); box-shadow: 2px -2px 3px 0px rgba(127, 127, 127, 0.4);"]
 lbn.pl###ciastko
 lca.pl###popupDiv
+leclerc-bielany.pl###popup
 leclerc.com.pl##div#tekst
 leddo.pl,zdp.poznan.pl##.rodo-block
 legalsite.pl###message-1
@@ -1185,6 +1186,7 @@ skokinarciarskie.pl##.pbox:nth-of-type(13)
 skorzecin.pl###mod143
 skyscanner.net###cookie-banner-root
 skyscrapercity.com###ukCookiePopup
+slampa.pl##.topbar div.pull-left.column:nth-of-type(1)
 slaskwroclaw.pl###bg-layer, #rodo-wrapper
 slawomirambroziak.pl##.privacy_policy
 slowhop.com,interpretacje-podatkowe.org,www.tesco.com###cookie-policy
@@ -1365,6 +1367,7 @@ www.biurozplusem.pl##.top-left.sticky-queue
 www.cmcmarkets.com###cmc-tracking-consent-form-step1
 www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
+www.dia.com.pl###S_cookies
 www.ea.com##ea-truste-consent-bar
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.gumtree.com##.gdpr-banner
