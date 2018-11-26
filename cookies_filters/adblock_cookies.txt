@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 2ofbAxc0fgfo1I3iAjcvGg
+! Checksum: gPp2OK++1Sp2jvYnCTdnFQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811261601
-! Last modified: Mon, 26 Nov 2018, 16:01:18 UTC+01
+! Version: 201811261803
+! Last modified: Mon, 26 Nov 2018, 18:03:16 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811261601 aktualizacja: pon, 26 lis 2018, 16:01:18 UTC+01
+! v.201811261803 aktualizacja: pon, 26 lis 2018, 18:03:16 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -115,6 +115,7 @@ avon.pl##.CookieSection
 azure.microsoft.com###cookie-prompt
 a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info,cdax.online,emisja.tv,pl.stealthsettings.com,bajeczki.org,doradztwoprawne.org,farmacja.net,anymind.com,festiwaldobregosmaku.eu,wislakrakow.com###cookie-notice
 badaniaprenatalne.pl###stb-14718
+badaniapsychologiczne.net###kopageBarCookies
 bambino.dzidziusiowo.pl##.section--cookies
 bankier.pl###smart-cmp-host
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
@@ -438,6 +439,7 @@ fotofocus.pl###pcUsingCookies
 fotojoker.pl##div#floatDiv
 fotonegatyw.com###cookie, #fx-modal-1
 fotosik.pl###rodo-info, .modal-backdrop
+franciszkanskie.pl###privacy
 fsmm.pl###cookieinfoboxitems
 funclub.pl##body > div > div > div > div > div:-abp-contains(cookies)
 funduszpomerania.pl###eprivacyModal, .modal-backdrop
@@ -527,6 +529,8 @@ hebe.pl##.legal-info
 hebe.pl##.rodo-popup_popup
 heineken.com.pl###infobx2
 helios.pl##.ban-rodo
+helio.pl###cookiePane
+helio.pl###rodo_popup
 herbaciani.pl##DIV[style="float:right; padding-top:20px; padding-bottom:20px; width:100%; font-size:12px; background:#ddd; color:#333; text-align:center; margin-bottom:10px;"]
 heuristic.pl###cboxContent, #cboxOverlay
 hillsvet.pl##[class*="ui-widget"]
@@ -667,6 +671,7 @@ koncertomania.pl###conv11548
 konecki24.pl##.cli-modal-backdrop
 konsbud-hifi.com.pl##.sticky-footer
 konserwatyzm.pl###toast-container
+koraliki.pl##.main-body > .alert-dismissable.alert-warning.alert
 koscian.net##.zgoda_popup
 koszulkomat.eu##.cookies
 krakowairport.pl##.privacyPolicyPop
@@ -789,6 +794,7 @@ megasat.tv##.ep-cookies-bar
 megataxi.pl##body > div > div:not([id]):not([class])[style*="position"][style*="fixed"]
 megawrzuta.pl##.notification, .Notification, .js-notification, .notifications-container, #notifications, #notification_1, #notification, #notification_area, .notifications, .notif-bar, .notificationBox
 mega-com.eu###footer-information
+meloradio.pl##.cookie-giodo
 memoinfo.pl,pingpong.com.pl##body > div:nth-of-type(6)
 memorialhenrykapuzonia.pl###sc
 mercedes-benz.com###cLayer, #cPageOverlay
@@ -978,6 +984,7 @@ parkwodny.pl,szkolymedyczne.eu,srodaslaska.pl##.ppsPopupShell, #ppsPopupBgOverla
 parp.gov.pl,plotowanie.com###howdydo-wrapper
 patrz.pl,olsztyn.com.pl##.rodoaccept
 paypal.com###gdprCookieBanner
+pcprwiecbork.pl##.mlab-modal
 pebx.pl###Notices
 peb.pl###jqibox
 penguingamers.eu##div#RACKWrapper
@@ -1215,6 +1222,7 @@ storytel.pl###cookieWall
 strabag.pl###dsgvo
 stroer.pl##.popUpWrap
 strona.euro-net.pl##.komunikatciasteczka
+studio-kosmetyki-profesjonalnej.pl###mod116
 stukstuk.pl###tws_s_100001
 stylownik.com##.cpolicy
 stypendia.sejmik.kielce.pl##.mod_pa_sci
