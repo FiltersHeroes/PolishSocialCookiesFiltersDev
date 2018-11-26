@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: y6gTnKqQd7hTwa7nuCAEQA
+! Checksum: AQ/InpDGVypDHjC7+X4BKw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811262316
-! Last modified: Mon, 26 Nov 2018, 23:16:40 UTC+01
+! Version: 201811262326
+! Last modified: Mon, 26 Nov 2018, 23:26:21 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811262316 aktualizacja: pon, 26 lis 2018, 23:16:40 UTC+01
+! v.201811262326 aktualizacja: pon, 26 lis 2018, 23:26:21 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -195,7 +195,6 @@ bytzbiorowy.pl,www.pro-tech.bydgoszcz.pl,slupsk.pl###easyNotification
 bywajtu.pl,livesmarter.pl,luszczyce.pl,mammografia.elblag.pl,mazowia.eu###co15ie87a
 bzwbk.pl##.cookie-btn
 cafago.com,tomtop.com##.m_privacy_statement
-capitalapart.pl###cookiepolicy-div
 capri-lublin.pl###mod98
 ccleaner.com,deezer.com##.cookie-banner
 ccm.net##.ccmcss_oic
@@ -1436,6 +1435,7 @@ zysk.com.pl###pageUpperInfo
 zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !angielski-kazdego-dnia.pl,miasto-gazeta.pl,nvt.pl##.wpgdprc
 !awf.edu.pl,prostozkranu.krakow.pl,merchtedes.pl,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl###cookie
+!capitalapart.pl###cookiepolicy-div
 !fora.pl##.pp-t-a-c
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
@@ -1671,6 +1671,8 @@ pl###cookienote:not(body):not(html)
 pl###cookienotice-container:not(body):not(html)
 pl###cookieoverlay:not(body):not(html)
 pl###cookiepolicydiv:not(body):not(html)
+pl###cookiepolicy-div:not(body):not(html)
+pl###cookiepolicy:not(body):not(html)
 pl###cookiesAlert:not(body):not(html)
 pl###cookiesBar:not(body):not(html)
 pl###cookiesBox:not(body):not(html)
@@ -1899,7 +1901,7 @@ pl##.privacy-note:not(body):not(html)
 pl##.privacy-policy:not(body):not(html)
 pl##.privacy_policy_info:not(body):not(html)
 pl##.regional-cookie-warning:not(body):not(html)
-pl##.rodo-accept:not(body):not(html):not(input):not(a)
+pl##.rodo-accept[style*="bottom"]:not(body):not(html)
 pl##.rodo-overlay:not(body):not(html)
 pl##.rodo-popup:not(body):not(html)
 pl##.tplis-cl-cookies:not(body):not(html)
