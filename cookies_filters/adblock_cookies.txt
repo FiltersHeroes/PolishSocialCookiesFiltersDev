@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 3YVRajey7Y2EJjSdgkHS7Q
+! Checksum: hLRS0pavGAcwV2yqLnUNbQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811262212
-! Last modified: Mon, 26 Nov 2018, 22:12:08 UTC+01
+! Version: 201811262228
+! Last modified: Mon, 26 Nov 2018, 22:28:46 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811262212 aktualizacja: pon, 26 lis 2018, 22:12:08 UTC+01
+! v.201811262228 aktualizacja: pon, 26 lis 2018, 22:28:46 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1534,6 +1534,8 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pcworld.pl|internetstandard.pl|computerworld.pl|bleepingcomputer.com
 ||vox.pl/modal/rodo$xmlhttprequest
+||warszawa.dlastudenta.pl/cookie/cookie_set.js$script,domain=warszawa.dlastudenta.pl
+||warszawa.dlastudenta.pl/cookie/upd/*$xmlhttprequest,domain=warszawa.dlastudenta.pl
 ||www.albeco.com.pl/scripts/jquery/plugins/cookie/jquery.cookie.js$script,domain=www.albeco.com.pl
 ||www.aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
 ||www.e-drewno.pl/stock/javascript/browser.js
