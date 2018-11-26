@@ -1,11 +1,11 @@
-! Checksum: NkDSKsgYm990ahUNiwgH/Q
+! Checksum: oNYBuQpqDQ+92Uzti9P6ow
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811261219
-! Last modified: Mon, 26 Nov 2018, 12:19:12 UTC+01
+! Version: 201811262108
+! Last modified: Mon, 26 Nov 2018, 21:08:27 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811261219 aktualizacja: pon, 26 lis 2018, 12:19:12 UTC+01
+! v.201811262108 aktualizacja: pon, 26 lis 2018, 21:08:27 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -87,8 +87,8 @@ ipla.tv##.rodo-rules-modal
 kaliszak.pl##.rodo, .rodo_layer
 kalisz.info.pl###all:style(top: 0 !important;)
 kobietymedycyny.pl##+js(abort-current-inline-script.js, $, cookies)
-kolomnie.pl##.rodo-pop-up
-kolosmnie.pl##.open-modal:style(overflow: auto !important;)
+kolomnie.pl##.open-modal:style(overflow: auto !important;)
+kolomnie.pl##.show.rodo-pop-up
 komputerswiat.pl##html > body.cmp:style(overflow: auto !important;)
 komputerswiat.pl##.cmp-app_gdpr
 kruger.pl###rodo, .fader
