@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 3oJUlb9Xlg+n35lwz1N5Xw
+! Checksum: oBaC59ZDA6WC/0CWmerLRA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811262005
-! Last modified: Mon, 26 Nov 2018, 20:05:12 UTC+01
+! Version: 201811262059
+! Last modified: Mon, 26 Nov 2018, 20:59:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811262005 aktualizacja: pon, 26 lis 2018, 20:05:12 UTC+01
+! v.201811262059 aktualizacja: pon, 26 lis 2018, 20:59:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2042,6 +2042,8 @@ gg.pl#@#body > div:nth-of-type(2) > div
 allegro.pl,paradoxplaza.com#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
 gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section)
+kolomnie.pl#@#.rodo-accept:not(body):not(html):not(input):not(a)
+kolomnie.pl#@#.rodo-pop-up
 laciate.pl,loterialaciate.pl#@#.cookies:not(.wrapper):not(.popup-newsletter):not(#page):not(body):not(html)
 lomza.pl#@##komunikat-cookie
 naekranie.pl#@##polityka-cookies:not(body):not(html)
