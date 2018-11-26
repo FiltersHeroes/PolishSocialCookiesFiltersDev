@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: tt9UBzJWOEDccbyjd6XQzQ
+! Checksum: SBHgz/F1JrRhgr/XKrnUfg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811262352
-! Last modified: Mon, 26 Nov 2018, 23:52:36 UTC+01
+! Version: 201811270017
+! Last modified: Tue, 27 Nov 2018, 00:17:14 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811262352 aktualizacja: pon, 26 lis 2018, 23:52:36 UTC+01
+! v.201811270017 aktualizacja: wto, 27 lis 2018, 00:17:14 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -263,6 +263,7 @@ demotywatory.pl,fabrykamemow.pl,faktopedia.pl,piekielni.pl,mklr.pl,rebelianci.or
 denley.pl##.ck-popup.cookiepopup
 developers.google.com##.devsite-notification-eu-cookie
 devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
+dia.com.pl,pkfpolska.pl,pkfszkolenia.pl###S_cookies
 dietlux.pl###mod286
 digitalhill.pl##.notification-panel
 dipocket.org###dip-cookies-policy
@@ -330,6 +331,7 @@ elevensports.pl##.cookieNotice
 elka.pl,elka.tv,miedziowe.pl,miedziowe.tv###RODOZgoda
 elopol.pl##div#black2
 elopol.pl,shop-dent.pl##div.ciacho-wrap-container
+emc-sa.pl###popup_rodo
 emeryturyirenty.pl,gofin.pl,kodeksspolek.pl,podatekvat.pl,poradnikksiegowego.pl,poradypodatkowe.pl,prawnik-rodzinny.pl,umowycywilnoprawne.pl,vademecumksiegowego.pl###formalAgreementModal, #modalBackdrop
 emito.net##.cookie-jar
 emt-systems.pl###rodoBG
@@ -532,7 +534,6 @@ hebe.pl##.legal-info
 hebe.pl##.rodo-popup_popup
 heineken.com.pl###infobx2
 helios.pl##.ban-rodo
-helio.pl###cookiePane
 helio.pl###rodo_popup
 herbaciani.pl##DIV[style="float:right; padding-top:20px; padding-bottom:20px; width:100%; font-size:12px; background:#ddd; color:#333; text-align:center; margin-bottom:10px;"]
 heuristic.pl###cboxContent, #cboxOverlay
@@ -1161,7 +1162,7 @@ sekap.pl###uglipop_popbox, #uglipop_overlay
 selgros24.pl###cookieModal
 senetic.pl###rodoBar
 seriale.co###player_warn
-serialowa.pl,60sekund.tytan.pl,lucatel.pl,szymoszkowa.pl,mckplonsk.pl,defra.pl,airdron-polska.pl,paralympic.org.pl##.popmake-overlay[data-popmake*="cookies"]
+serialowa.pl,60sekund.tytan.pl,lucatel.pl,szymoszkowa.pl,mckplonsk.pl,defra.pl,airdron-polska.pl##.popmake-overlay[data-popmake*="cookies"]
 seriea.pl,kadra.pl,ligapolska.pl,goal.pl,primeradivision.pl###viewCookies, #viewCookiesClose
 serwiskorporacyjny.carrefour.pl##.js-cookies-wrapper.l-sec--cookies.l-sec
 serwis.currenda.pl##div#sign_up
@@ -1369,7 +1370,6 @@ www.biurozplusem.pl##.top-left.sticky-queue
 www.cmcmarkets.com###cmc-tracking-consent-form-step1
 www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
-www.dia.com.pl###S_cookies
 www.ea.com##ea-truste-consent-bar
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.gumtree.com##.gdpr-banner
@@ -1606,6 +1606,7 @@ pl###CookieAlert:not(body):not(html)
 pl###CookieInfo:not(body):not(html)
 pl###CookieMsg:not(body):not(html)
 pl###CookieNotification:not(body):not(html)
+pl###CookiePane:not(body):not(html)
 pl###CookielawBanner:not(body):not(html)
 pl###CybotCookiebotDialog:not(body):not(html)
 pl###DIVcookies:not(body):not(html)
@@ -1650,6 +1651,7 @@ pl###cookieMonster:not(body):not(html)
 pl###cookieMsgBlock:not(body):not(html)
 pl###cookieMsg:not(body):not(html)
 pl###cookieNotice:not(body):not(html)
+pl###cookiePane:not(body):not(html)
 pl###cookiePolicyBanner:not(body):not(html)
 pl###cookiePolicyBar:not(body):not(html)
 pl###cookiePolicyWrapper:not(body):not(html)
