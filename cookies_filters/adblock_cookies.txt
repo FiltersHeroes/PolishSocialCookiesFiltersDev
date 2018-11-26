@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: AQ/InpDGVypDHjC7+X4BKw
+! Checksum: tt9UBzJWOEDccbyjd6XQzQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811262326
-! Last modified: Mon, 26 Nov 2018, 23:26:21 UTC+01
+! Version: 201811262352
+! Last modified: Mon, 26 Nov 2018, 23:52:36 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811262326 aktualizacja: pon, 26 lis 2018, 23:26:21 UTC+01
+! v.201811262352 aktualizacja: pon, 26 lis 2018, 23:52:36 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -480,6 +480,7 @@ gigabyte.pl###policy-div
 gih.grajewo.pl#?##fancybox-wrap:-abp-contains(RODO)
 gih.grajewo.pl,naszamlawa.pl###fancybox-overlay
 gkn.pl##div#gora0
+glogow-info.pl,glogow.info.pl##.wrapper > table:nth-of-type(1)[style="margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: -6px;"]
 glogow.info.pl,glogow-info.pl##.info1, .tloinfo1
 glos24.pl##DIV[style="border: 1px solid #fcce00; background: #fcfc9a; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 2px 4px #bbb; -webkit-box-shadow:0 2px 4px #bbb; -khtml-box-shadow: 0 2px 4px #bbb; box-shadow:0 2px 4px #bbb; width: 700px; font: normal 12px/1.6em verdana; color: #505050;"]
 glos24.pl##body > div[style*="z-index: 999"]
