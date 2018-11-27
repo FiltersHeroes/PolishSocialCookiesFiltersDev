@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: WZf5frrttpctdsx3dVWGFg
+! Checksum: 4ZrqGgQelc5doA46nHI+4Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811271053
-! Last modified: Tue, 27 Nov 2018, 10:53:59 UTC+01
+! Version: 201811271109
+! Last modified: Tue, 27 Nov 2018, 11:09:32 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811271053 aktualizacja: wto, 27 lis 2018, 10:53:59 UTC+01
+! v.201811271109 aktualizacja: wto, 27 lis 2018, 11:09:32 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1427,7 +1427,7 @@ zalando-lounge.pl###cookie-information, [class^="CookieConsent_cookie-consent_"]
 zalando.pl##.z-navicat-header-cookieBar
 zara.com###popup-announcements
 zaufanekliniki.pl##.alert-fixed
-zdrowiewkrakowie.pl##body > div:nth-of-type(2)[style$="background: #fafafa; border-bottom: 5px solid #ec008c;"]
+zdrowiewkrakowie.pl##body > div:not([id]):not([class])[style]:nth-of-type(2)
 zebrasbox.pl##.alert-dismissible.alert-warning.alert
 zepsute.pl###overlay_uv, #uv_box_data
 zgorzelec.info##.l-cookie-law
