@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: qQnti2KUF+ZPJ4to1+JUPQ
+! Checksum: oq0HvCD50wKaBuSxwfwdiw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811271312
-! Last modified: Tue, 27 Nov 2018, 13:12:05 UTC+01
+! Version: 201811271337
+! Last modified: Tue, 27 Nov 2018, 13:37:03 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811271312 aktualizacja: wto, 27 lis 2018, 13:12:05 UTC+01
+! v.201811271337 aktualizacja: wto, 27 lis 2018, 13:37:03 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -290,7 +290,6 @@ dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;pos
 dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,tubawyszkowa.pl,tubaostrowa.pl,tubachorzowa.pl,pracownia.org.pl,ptbs.pl,terramar.pl##.rodo
 dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl,aktywnedzieciaki.info,centrumwroclaw.pl,wsensie.pl,dreamtours.pl###rodo
 dreammachines.pl##.modal-backdrop
-drogerium.pl###modal-one
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
 drumshop.pl###cookiesblock-wrapper
 dstreet.pl###ToplayerConsent, #ToplayerCover
@@ -1347,7 +1346,6 @@ wiem-to.pl###notice_visitor
 wiescirolnicze.pl###popup_newsletter
 wikar.com.pl##.popupContent
 winnicalidla.pl##.privacy-popup
-wio.waw.pl,ciechanowinaczej.pl,lowicz24.eu,szczecinek.com,ototorun.pl,ddb24.pl,lipno-cli.pl,brodnica-cbr.pl,golub-cgd.pl,rypin-cry.pl,wabrzezno-cwa.pl,wolomin24.info,zambrow.org,izoliborz.pl,ibielany.pl,twojradom.pl,itvpiaseczno.pl,iotwock.info,plonszczak.pl,egarwolin.pl,izyrardow.pl###RODOCOOKIE, .modal-backdrop
 wirtualis.pl,ettoi.pl###info_container, #info_content
 wirtualnygarwolin.pl###zaslona
 wisport.com.pl###DIVnasz
@@ -1456,6 +1454,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !klikmapa.pl,ulub.pl,wjo.pl,joe.pl,j6.pl,dai.pl,blogasek.pl,klikmapa.pl,blog4u.pl###rodo_all
 !polityka.pl##.md-cookie-warning
 !praca.gov.pl##.komunikat-panel-cookies
+!wio.waw.pl,ciechanowinaczej.pl,lowicz24.eu,szczecinek.com,ototorun.pl,ddb24.pl,lipno-cli.pl,brodnica-cbr.pl,golub-cgd.pl,rypin-cry.pl,wabrzezno-cwa.pl,wolomin24.info,zambrow.org,izoliborz.pl,ibielany.pl,twojradom.pl,itvpiaseczno.pl,iotwock.info,plonszczak.pl,egarwolin.pl,izyrardow.pl,ipragapoludnie.pl###RODOCOOKIE, .modal-backdrop
 !www.hiszpanskidlapolakow.com###gdpr-disclaimer
 !
 !
@@ -1762,6 +1761,7 @@ pl###cookie-terms:not(body):not(html)
 pl###cookie-warning:not(body):not(html)
 pl###cookie-warn:not(body):not(html)
 pl###cookie-window:not(body):not(html)
+pl###cookie-wrapper:not(body):not(html)
 pl###cookie:not(body):not(html):not([href*="cookieclicker"])
 pl###cookie_box:not(body):not(html)
 pl###cookie_container:not(body):not(html)
@@ -1936,6 +1936,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###CookieKomunikat:not(body):not(html)
 ###Informacja_o_ciasteczkach:not(body):not(html)
 ###Qookie:not(body):not(html)
+###RODOCOOKIE:not([aria-hidden]), .modal-backdrop
 ###ZATAKIEUSTAWYPOWINNIZAMYKAC:not(body):not(html)
 ###boxZgodaNaCookie:not(body):not(html)
 ###ciachoinfo:not(body):not(html)
