@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: xHX1V1Es/AX8Nq6x9Np2KA
+! Checksum: qQnti2KUF+ZPJ4to1+JUPQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811271309
-! Last modified: Tue, 27 Nov 2018, 13:09:21 UTC+01
+! Version: 201811271312
+! Last modified: Tue, 27 Nov 2018, 13:12:05 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811271309 aktualizacja: wto, 27 lis 2018, 13:09:21 UTC+01
+! v.201811271312 aktualizacja: wto, 27 lis 2018, 13:12:05 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1077,7 +1077,6 @@ poznan.lasy.gov.pl##div#aui_3_2_0_1243
 poznan.travel##.cookieWarningBox
 ppe.pl,terazmuzyka.pl###rodo-overlay
 pracatobie.pl###coocieDiv
-praca.gov.pl##.komunikat-panel-cookies
 pragma.pl##.pra-cookie-info
 praktiker.pl##div.info_c_box
 prgm.pl###Layer25
@@ -1250,6 +1249,7 @@ swietnafirma.pl###cMess
 swietokrzyskie.pro##.cookieNotification
 swmarcin-jarocin.com,ufs.pt###cookiesBar
 swps.pl###cpnb_warningBoxBgOverlay, [data-cookie-name="cookiesDirective"]
+szczecinek.com###cookies-message-container
 szczecinek.com###__cmcmedia_upid_26
 szczepimy.com.pl##.cookiesalert
 szlot.pl##.spu-bg, .spu-total-
@@ -1455,6 +1455,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !jysk.pl##.cookiesBanner
 !klikmapa.pl,ulub.pl,wjo.pl,joe.pl,j6.pl,dai.pl,blogasek.pl,klikmapa.pl,blog4u.pl###rodo_all
 !polityka.pl##.md-cookie-warning
+!praca.gov.pl##.komunikat-panel-cookies
 !www.hiszpanskidlapolakow.com###gdpr-disclaimer
 !
 !
@@ -2021,6 +2022,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##.dhl-cgk:not(body):not(html)
 ##.ek-bar:not(body):not(html)
 ##.giodoContainer:not(body):not(html)
+##.komunikat-panel-cookies:not(body):not(html)
 ##.kukiez:not(body):not(html)
 ##.messi:not(body):not(html)
 ##.pasek_cookie:not(body):not(html)
