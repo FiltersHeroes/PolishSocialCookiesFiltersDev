@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: oq0HvCD50wKaBuSxwfwdiw
+! Checksum: za8JpIs0iIEW1sQ3blPXoQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811271337
-! Last modified: Tue, 27 Nov 2018, 13:37:03 UTC+01
+! Version: 201811271354
+! Last modified: Tue, 27 Nov 2018, 13:54:15 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811271337 aktualizacja: wto, 27 lis 2018, 13:37:03 UTC+01
+! v.201811271354 aktualizacja: wto, 27 lis 2018, 13:54:15 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -115,7 +115,7 @@ avast.com,pay.google.com,trustpilot.com##.cookie-bar:not(body)
 avioner.pl,upolujebooka.pl##.alert
 avon.pl##.CookieSection
 azure.microsoft.com###cookie-prompt
-a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info,cdax.online,emisja.tv,pl.stealthsettings.com,bajeczki.org,doradztwoprawne.org,farmacja.net,anymind.com,festiwaldobregosmaku.eu,wislakrakow.com###cookie-notice
+a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info,cdax.online,emisja.tv,pl.stealthsettings.com,bajeczki.org,doradztwoprawne.org,farmacja.net,anymind.com,festiwaldobregosmaku.eu,wislakrakow.com,polska-ie.com###cookie-notice
 badaniaprenatalne.pl###stb-14718
 badaniapsychologiczne.net###kopageBarCookies
 bambino.dzidziusiowo.pl##.section--cookies
@@ -212,6 +212,7 @@ cepelia.com.pl,sandecja.tv,mcksokol.pl,muzeum.sacz.pl,sandecja.org###overflow-co
 certum.pl,elk.gmina.pl,koleje-wielkopolskie.com.pl##.spu-bg, .spu-box
 chamsko.pl##div[class^="cookies"]
 chceauto.pl##.cookue
+chirurgia.plastyczna.eu##.cookie-info-cont
 chojnice24.pl###disclaimer, #bg_cover
 chomikuj.pl###acceptChomikujTermsOverlay, #acceptChomikujTermsContainer
 chreptiow.pl###pu620
@@ -905,6 +906,7 @@ net-s.pl##.regulations
 news.google.com##div[style^="behavior:url(#default#homePage) url(#default#userData)"]
 nfz-lodz.pl##.mfp-ready
 nf.pl###rodonf-app-ux
+niania.pl##.cookies_message_bar
 nickjr.com.pl##.cookiebar-visible
 niepodlegla.pomorskie.eu###cookiesinfoPWU
 niepodlegla.pomorskie.eu##.cookieBar-portlet
@@ -1051,6 +1053,7 @@ polki.pl,mamotoja.pl,wizaz.pl,viva.pl,gotujmy.pl,party.pl##.disclaimer-container
 polnord.pl###polCookieInfo
 polona.pl##cbn-cookies
 polopiryna.pl,polpharma.pl##.monit
+polska-ie.com##.gdpr-privacy-bar
 polskicaravaning.pl###myModalpol
 polskieradio.pl,dziennikwschodni.pl##.rodo-modal
 polskijubiler.pl##body > div:nth-of-type(1)[style="width: 90%; margin: 0 auto;"]
