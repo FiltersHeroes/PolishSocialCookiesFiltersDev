@@ -1,11 +1,11 @@
-! Checksum: 8lnn3xnwuaqYZflBu2LdMg
+! Checksum: 4gIzydf6w3FBbolnkT9oVw
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Social Filters - Supplement for uBlock & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 201811272304
-! Last modified: Tue, 27 Nov 2018, 23:04:23 UTC+01
+! Version: 201811280006
+! Last modified: Wed, 28 Nov 2018, 00:06:47 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811272304 aktualizacja: wto, 27 lis 2018, 23:04:23 UTC+01
+! v.201811280006 aktualizacja: śro, 28 lis 2018, 00:06:47 UTC+01
 !
 !
 ! Popupy
@@ -68,7 +68,7 @@ wp.pl,~www.wp.pl###app > div > table > tbody > tr:nth-child(1) > td > div > div 
 !
 !
 ! Ulepszenia CSS
-autoumowa.pl##.copyright > p > a[rel="publisher"]:style(pointer-events: none !important; cursor: text !important; color: initial !important;)
+autoumowa.pl##.copyright > p > a[rel="publisher"]:style(pointer-events: none !important; color: initial !important;)
 cashless.pl##.icon-list:style(margin-top: 25px !important;)
 cashless.pl##.rss-before:before:style(margin-right: 5px; display: inline-block !important; position: static !important;)
 fajnycraft.pl##.primary-menu > li:nth-of-type(n+3):style(visibility: hidden !important;)
