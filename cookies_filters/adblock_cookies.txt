@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: za8JpIs0iIEW1sQ3blPXoQ
+! Checksum: JMPZ5EEZe4ixEnfNn5DBtQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811271354
-! Last modified: Tue, 27 Nov 2018, 13:54:15 UTC+01
+! Version: 201811271501
+! Last modified: Tue, 27 Nov 2018, 15:01:19 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811271354 aktualizacja: wto, 27 lis 2018, 13:54:15 UTC+01
+! v.201811271501 aktualizacja: wto, 27 lis 2018, 15:01:19 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -148,7 +148,7 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
-bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com###cookies-message
+bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com,madameedith.com###cookies-message
 bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com,stolmot.com##.cookies
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl,aspsklep.pl,klublifestyle.pl,sgurp.pl,zwolenpowiat.pl,gckis.trzebnica.pl,florexpol.eu###fancybox-wrap, #fancybox-overlay
@@ -839,6 +839,7 @@ mocnopomocni.pl##DIV[style="width: 100%; background-color: rgb(242, 242, 242); m
 mocnopomocni.pl##div[style="width: 100%; background-color: rgb(242, 242, 242); margin: 10px auto 0px; padding: 15px 8px; position: fixed; left: 0px; bottom: 0px; z-index: 1000; color: rgb(40, 40, 40); "]
 modecom.pl,synektik.pl###mc_top_bar
 modile.pl###marketing-popup
+modr.pl##.region-gdpr
 mojapogoda.com###IR
 mojawww.com##.id-6
 mojehobby.pl##.message-footer-panel
@@ -1158,6 +1159,7 @@ rymer.org###info_bottom
 r-gol.com,51015kids.eu###cookieBan
 sadowocowy.pl###container > div:nth-of-type(1)
 samouczek.info,aranzujemy.pl,kobieceporady.pl##.gdpr
+samsonite.pl##div[aria-labelledby="ui-dialog-title-cookies-dialog"], .ui-widget-overlay
 samsung.com##.cm-cookie-geo
 sawataxi.pl##.w_news
 schronisko-nowodwor.com.pl##.ba-cookies
