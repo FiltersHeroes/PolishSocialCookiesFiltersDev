@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 1QSM8qG6qPzJky7b+07PHQ
+! Checksum: ATdtpuBK+PClsy8zHhhz/Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811271126
-! Last modified: Tue, 27 Nov 2018, 11:26:19 UTC+01
+! Version: 201811271156
+! Last modified: Tue, 27 Nov 2018, 11:56:34 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811271126 aktualizacja: wto, 27 lis 2018, 11:26:19 UTC+01
+! v.201811271156 aktualizacja: wto, 27 lis 2018, 11:56:34 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1047,7 +1047,7 @@ polandtrade.pl###cb
 polbox.tv##.cc-banner
 polcar.com,schroniskowroclaw.pl###cwwb
 poligraf.com.pl###modal_wrap
-polityka.pl##.md-cookie-warning
+politykainsight.pl##.cc_message
 polki.pl,mamotoja.pl,wizaz.pl,viva.pl,gotujmy.pl,party.pl##.disclaimer-container
 polnord.pl###polCookieInfo
 polona.pl##cbn-cookies
@@ -1453,6 +1453,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
 !jpg.pl,pinotv.pl,playa.pl,moblo.pl,slajdzik.pl,rusz.pl,osobie.pl,www.prv.pl###rodoInfoForm
 !jysk.pl##.cookiesBanner
+!polityka.pl##.md-cookie-warning
 !www.hiszpanskidlapolakow.com###gdpr-disclaimer
 !
 !
@@ -1900,6 +1901,7 @@ pl##.head-page-information:not(body):not(html)
 pl##.hpm-alert-cookies:not(body):not(html)
 pl##.js-cookie:not(body):not(html):not(.thumb)
 pl##.js-infoBarCookies:not(body):not(html)
+pl##.md-cookie-warning:not(body):not(html)
 pl##.message--cookie:not(body):not(html)
 pl##.message_cookie:not(body):not(html)
 pl##.nm-cookiepolicy:not(body):not(html)
