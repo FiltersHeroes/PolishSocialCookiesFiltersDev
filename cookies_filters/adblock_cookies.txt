@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: GjjVUxJ4LdscifLCYHwXFQ
+! Checksum: /n7uA/DeGl+ZsrSeGsI6TA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811280824
-! Last modified: Wed, 28 Nov 2018, 08:24:13 UTC+01
+! Version: 201811280914
+! Last modified: Wed, 28 Nov 2018, 09:14:09 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811280824 aktualizacja: śro, 28 lis 2018, 08:24:13 UTC+01
+! v.201811280914 aktualizacja: śro, 28 lis 2018, 09:14:09 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1482,13 +1482,13 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !/ajax/privacy_popup$xmlhttprequest,domain=korsosanockie.pl|tvpogranicze.pl|pzl24.pl|korso.pl|narew.info|portalpomorza.pl|debica24.eu|zvami.tv|telewizjazary.pl|korsokolbuszowskie.pl|kociewiak.pl|tvobiektyw.pl|tczewska.pl|slowopodlasia.pl|tvswinoujscie.pl|tygodnikoko.pl|supertydzien.pl|lokalnatelewizja.pl
 !||cdn.jsdelivr.net/gh/fancyapps/fancybox@*/dist/jquery.fancybox.min.css$stylesheet,domain=mzk-torun.pl
 !||cdn.jsdelivr.net/gh/fancyapps/fancybox@*/dist/jquery.fancybox.min.js$script,domain=mzk-torun.pl
-/ajax/privacy_popup$xmlhttprequest,domain=pl|narew.info|debica24.eu|zvami.tv
+/ajax/privacy_popup$xmlhttprequest,domain=pl|debica24.eu|narew.info|zvami.tv
 /informationbar.js$domain=stowarzyszenie-dyrektorow.pl|zgkim.zgora.pl
 /libraries/js/jquery.tipsy.cookie.js$domain=kierunkowy.com
-/pltk.js$domain=whitepress.pl|aplikuj.pl|bielsko.biala.pl|filmy-wesele.pl|fotograf-wesele.pl|muzyka-wesele.pl|auta-wesele.pl|lokale-wesele.pl|wesele.com.pl|influencer.pl|biuroprasowe.pl
-/pp-t-a-c.js$domain=fabrykasily.pl|toplista.pl|domzdrowia.pl|fora.pl|torrent.top-100.pl|dieta.pl|odkrzychadoronaldo.pl
+/pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
+/pp-t-a-c.js$domain=dieta.pl|domzdrowia.pl|fabrykasily.pl|fora.pl|toplista.pl|torrent.top-100.pl|odkrzychadoronaldo.pl
 /rhododendron/css/rhododendron-popup.css$domain=abctygodnik.pl|wgospodarce.pl|wpolsce.pl
-/rodo.js$domain=polsat.pl|polsat1.pl|polsatfilm.pl|polsatplay.pl|polsatcafe.pl|tv4.pl|tv6.com.pl|discopolomusic.pl|polsat2.pl|polsatnews.pl|geekweek.pl|reklamowy-sklep.pl|mowianamiescie.pl|superstacja.tv|playa.pl|poszkole.pl|obi.pl
+/rodo.js$domain=discopolomusic.pl|geekweek.pl|mowianamiescie.pl|obi.pl|playa.pl|polsat.pl|polsat1.pl|polsat2.pl|polsatcafe.pl|polsatfilm.pl|polsatnews.pl|polsatplay.pl|poszkole.pl|reklamowy-sklep.pl|superstacja.tv|tv4.pl|tv6.com.pl
 /wp-content/plugins/mm-extensions/assets/js/info-popup.js$domain=koty.pl|psy.pl
 ||ad.ipolska.pl/cookies/cookiecheck.js$script,domain=wielodzietni.org
 ||ad.prv.pl/rodo.js
@@ -1530,7 +1530,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 ||exploder.pl/info_o_cookie.js$script
 ||frazpc.pl/scripts/default/rodo-v2a.js
 ||fundingchoices.google.com^$script,domain=www.accuweather.com
-||global.silnet.pl/media/js/vue/silnet-privacy-policy.vue$xmlhttprequest,domain=sonomedico.pl|silnet.pl
+||global.silnet.pl/media/js/vue/silnet-privacy-policy.vue$xmlhttprequest,domain=silnet.pl|sonomedico.pl
 ||igimag.pl/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/lity.js
 ||itmarket.pl/modules/prestaboost/views/js/prestaboost-popup.js
 ||jak-zablokowac-cookies.pl/cookies_komunikat.js$script
@@ -1569,7 +1569,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 ||tspodbeskidzie.pl/js/vendor/cookiebox.min.js
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pcworld.pl|internetstandard.pl|computerworld.pl|bleepingcomputer.com
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl
 ||vox.pl/modal/rodo$xmlhttprequest
 ||www.aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
 ||www.e-drewno.pl/stock/javascript/browser.js
