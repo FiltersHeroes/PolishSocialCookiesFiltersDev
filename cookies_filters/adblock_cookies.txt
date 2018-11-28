@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: /n7uA/DeGl+ZsrSeGsI6TA
+! Checksum: Edd7dM7JnAErnptojRcYeA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811280914
-! Last modified: Wed, 28 Nov 2018, 09:14:09 UTC+01
+! Version: 201811280915
+! Last modified: Wed, 28 Nov 2018, 09:15:20 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811280914 aktualizacja: śro, 28 lis 2018, 09:14:09 UTC+01
+! v.201811280915 aktualizacja: śro, 28 lis 2018, 09:15:20 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1482,6 +1482,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !/ajax/privacy_popup$xmlhttprequest,domain=korsosanockie.pl|tvpogranicze.pl|pzl24.pl|korso.pl|narew.info|portalpomorza.pl|debica24.eu|zvami.tv|telewizjazary.pl|korsokolbuszowskie.pl|kociewiak.pl|tvobiektyw.pl|tczewska.pl|slowopodlasia.pl|tvswinoujscie.pl|tygodnikoko.pl|supertydzien.pl|lokalnatelewizja.pl
 !||cdn.jsdelivr.net/gh/fancyapps/fancybox@*/dist/jquery.fancybox.min.css$stylesheet,domain=mzk-torun.pl
 !||cdn.jsdelivr.net/gh/fancyapps/fancybox@*/dist/jquery.fancybox.min.js$script,domain=mzk-torun.pl
+!||cookie.avt.pl/cookie-noscript
 /ajax/privacy_popup$xmlhttprequest,domain=pl|debica24.eu|narew.info|zvami.tv
 /informationbar.js$domain=stowarzyszenie-dyrektorow.pl|zgkim.zgora.pl
 /libraries/js/jquery.tipsy.cookie.js$domain=kierunkowy.com
@@ -1519,7 +1520,6 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 ||cookiebanner.eu/js/cookiebanner.min.js
 ||cookieq.com^$third-party
 ||cookies.komputerswiat.pl/checkCookie$script
-||cookie.avt.pl/cookie-noscript
 ||cookie.bortos.pl/*cookie*.js$script
 ||ctm.gdynia.pl/js/alertbox.js
 ||dlastudenta.pl/cookie/cookie_set.js$script,~third-party,domain=~www.dlastudenta.pl
