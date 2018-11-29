@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: NH4jMh/qVhjP3pEdviiDCw
+! Checksum: ItVX0/LPs3X0zjhfEYQX/w
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811291504
-! Last modified: Thu, 29 Nov 2018, 15:04:41 UTC+01
+! Version: 201811291533
+! Last modified: Thu, 29 Nov 2018, 15:33:06 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811291504 aktualizacja: czw, 29 lis 2018, 15:04:41 UTC+01
+! v.201811291533 aktualizacja: czw, 29 lis 2018, 15:33:06 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -44,6 +44,7 @@ addthis.com,nespresso.com,ea.com###consent_blackbar
 adguard.com##.sticky-bar--cookie
 adm-media.pl,kociadolina.pl##.policy
 adobe.com##.message
+adra.pl,expozdrowie.pl,fzz.pl###alert_popup
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl##body > div:not([id]):not([class])[style*="position"][style*="relative"]
 adwokatura.katowice.pl###cookieInfCont
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
@@ -223,6 +224,7 @@ chomikuj.pl###acceptChomikujTermsOverlay, #acceptChomikujTermsContainer
 chreptiow.pl###pu620
 chroma.pl##div[class^="CookiesInfo---container---"]
 chrzanow.pl,powiat-chrzanowski.pl###pdo-info-overlay
+chwilowkomat.pl,halopozyczka.pl###cookies-law
 ciam.pl###privacy-info
 ciasteczka.org.pl,gsmk.org.pl###ciasteczka\.org\.pl
 cinema3d.pl##rodo-modal
@@ -378,7 +380,6 @@ eurostyl.com.pl###euroCookieInfo
 everhome.pl,gda.pl,yogenfruz.pl##.shotimoo
 ewl.com.pl###bezzo-cookies-bar
 expansa.pl,www.promise.com.pl##.ui-resizable
-expozdrowie.pl,fzz.pl###alert_popup
 extraserv.pl##div#uwaga
 ezakupy.tesco.pl###privacyInnerContainer
 e-amur.com###cookieinf
@@ -545,7 +546,6 @@ gsm-grodzisk.pl,wkd.com.pl,hotelpanorama.pl,zdrowemiasto.pl###_mo
 hachette.com.pl##div[style="position:fixed;bottom:0;z-index:1000;width:100%;text-align:center;background:#EEE;padding:15px 0;border-top:1px solid #333;"]
 hair-shop.pl,mtech.pl##.popup_cont, .popup_back
 halogorlice.info##[aria-label="cookieconsent"]
-halopozyczka.pl###cookies-law
 haloursynow.pl,warsztat.pl###myModal, .modal-backdrop
 hankooktire.com##.top_ep_wrap
 haszkod.pl###cookieshit
@@ -724,6 +724,7 @@ kuchniapelnanagrod.pl##div#claw-prompt
 kula.gov.pl,mkidn.gov.pl###pa
 kulki.info###welcome-box
 kulturalnysklep.pl###ctl00_cq_divText
+kunsztmetal.pl###pasek_cookie
 kupbilet.pl##div#t3393f
 kupbilet.pl##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
 kupujemy.to,bip.skomlin.akcessnet.net###cookie_info
@@ -1355,6 +1356,7 @@ twitch.tv##.toast-manager__container
 twitter.com##.eu-cookie-notice
 twojeankiety.pl###notkaCookies
 twojeapteki.com##DIV[style="color:#fff;position: fixed;width:100%;bottom: 5px;z-index: 99999;padding: 10px;padding-right: 150px;background-color: #DB2229;margin: 1px 5px;text-align: justify;"]
+twojtenis.pl###cookie_accepter
 tygodnikpowszechny.pl###top_head
 tygodnikzamojski.pl,starachowice-net.pl###rodo-message
 tylkohity.pl##.cm_open
@@ -1481,6 +1483,7 @@ zara.com###popup-announcements
 zaufanekliniki.pl##.alert-fixed
 zdrowiewkrakowie.pl##body > div:not([id]):not([class])[style]:nth-of-type(2)
 zebrasbox.pl##.alert-dismissible.alert-warning.alert
+zegarkiipasja.pl###fcx-cookie-consent
 zepsute.pl###overlay_uv, #uv_box_data
 zgorzelec.info##.l-cookie-law
 zibi.pl###popup-outside
