@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: rbDyXvFNs3eWBrQGn7gtIA
+! Checksum: bteAAt1a2YM8meUUkC+XVA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811292312
-! Last modified: Thu, 29 Nov 2018, 23:12:13 UTC+01
+! Version: 201811300017
+! Last modified: Fri, 30 Nov 2018, 00:17:12 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811292312 aktualizacja: czw, 29 lis 2018, 23:12:13 UTC+01
+! v.201811300017 aktualizacja: pią, 30 lis 2018, 00:17:12 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -99,7 +99,7 @@ arcyfotka.pl##body > #wrap > .container > .in.fade.alert-warning.alert
 areatour.pl,dlapacjenta.pl,marbo-sport.pl##div#topbar
 arg.gdynia.pl,rankinglekarzy.pl##.info
 arnicaapteka.pl##.warning
-artim.com.pl#?#td[valign="top"]>div[webpartid].ms-WPbody:-abp-contains(pliki cookies)
+artim.com.pl#?#td[valign="top"] > div[webpartid].ms-WPbody:-abp-contains(pliki cookies)
 ascar-rent.pl###hellobar
 asd.pl##div[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;top: 0px;left: 0px;text-align: center;color: #000;border-bottom: 1px #000 solid;z-index: 1000;"]
 assecods.pl###spu-22991, #spu-bg-22991
