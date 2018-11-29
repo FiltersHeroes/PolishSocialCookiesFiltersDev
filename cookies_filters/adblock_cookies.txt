@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: PNuO9Ok/XEB79YBeR8rQ+A
+! Checksum: rbDyXvFNs3eWBrQGn7gtIA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811292244
-! Last modified: Thu, 29 Nov 2018, 22:44:53 UTC+01
+! Version: 201811292312
+! Last modified: Thu, 29 Nov 2018, 23:12:13 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811292244 aktualizacja: czw, 29 lis 2018, 22:44:53 UTC+01
+! v.201811292312 aktualizacja: czw, 29 lis 2018, 23:12:13 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -61,7 +61,7 @@ airly.eu#?#.welcome-modal__block--whatsNew.welcome-modal__block:nth-of-type(2):-
 akademiaeurocash.com.pl,www.niemartwsie.pl##.notification
 akademia-piwa.pl##div#polityka_tekst
 akpolbaby.pl###gdpr-sticky-banner
-alegotowka.pl###cookies-law
+alegotowka.pl,chwilowkomat.pl,halopozyczka.pl###cookies-law
 alerabat.com###popup-rodo
 alga-shop.pl##.top.infobar_wrap
 aliexpress.com###j-aliexpress-notice
@@ -228,7 +228,6 @@ chomikuj.pl###acceptChomikujTermsOverlay, #acceptChomikujTermsContainer
 chreptiow.pl###pu620
 chroma.pl##div[class^="CookiesInfo---container---"]
 chrzanow.pl,powiat-chrzanowski.pl###pdo-info-overlay
-chwilowkomat.pl,halopozyczka.pl###cookies-law
 ciam.pl###privacy-info
 ciasteczka.org.pl,gsmk.org.pl###ciasteczka\.org\.pl
 cinema3d.pl##rodo-modal
@@ -1624,7 +1623,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 ||tspodbeskidzie.pl/js/vendor/cookiebox.min.js
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|sztuka-architektury.pl
 ||vox.pl/modal/rodo$xmlhttprequest
 ||www.aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
 ||www.e-drewno.pl/stock/javascript/browser.js
@@ -1846,6 +1845,7 @@ pl###cookie:not(body):not(html):not([href*="cookieclicker"])
 pl###cookie_box:not(body):not(html)
 pl###cookie_container:not(body):not(html)
 pl###divCookie:not(body):not(html)
+pl###div_cookies_accept:not(body):not(html)
 pl###elGuestTerms[data-role="guestTermsBar"]:not(body):not(html)
 pl###eucookielaw:not(body):not(html)
 pl###eu-cookies2:not(body):not(html)
@@ -2004,6 +2004,7 @@ pl##.privacy-note:not(body):not(html)
 pl##.privacy-policy:not(body):not(html)
 pl##.privacy_policy_info:not(body):not(html)
 pl##.regional-cookie-warning:not(body):not(html)
+pl##.ribbon-_cookie:not(body):not(html)
 pl##.tplis-cl-cookies:not(body):not(html)
 pl##.viia-cookie:not(body):not(html)
 pl##.vm-cookies:not(body):not(html)
