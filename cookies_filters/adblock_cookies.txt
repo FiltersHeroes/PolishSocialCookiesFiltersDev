@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 4xPYFrPiarACB0Vy82Z2XQ
+! Checksum: Oiz52gTgToeAN3a0kcZeEw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811290908
-! Last modified: Thu, 29 Nov 2018, 09:08:21 UTC+01
+! Version: 201811291236
+! Last modified: Thu, 29 Nov 2018, 12:36:03 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811290908 aktualizacja: czw, 29 lis 2018, 09:08:21 UTC+01
+! v.201811291236 aktualizacja: czw, 29 lis 2018, 12:36:03 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -128,6 +128,7 @@ bankowoscprywatna.pkobp.pl###pko-cookie-rodo
 bardotti.pl##.wpmui-popup
 bartix.pl,pmi24.info,ddwlkp.pl,pch24.info,pnt24.info,pob24.info,pzl24.info###menusDiv
 batida.pl###top-closable-message
+bazakoni.pl###CookiePolicyBar
 baza-krs.pl##.alert-dismissible
 bbcpolska.com##body > iframe
 bdi.com.pl##.ultra_modules_ad_acceptation_b
@@ -371,6 +372,7 @@ eternityproject.pl##div.newsbar
 etipolam.com.pl##.ico-wrapper
 etroniks.pl,trojmiejskaperfumeria.pl###st_notification_1
 euro26.pl###popup, #fade
+europlytki.pl###cookies-info-container
 eurostyl.com.pl###euroCookieInfo
 everhome.pl,gda.pl,yogenfruz.pl##.shotimoo
 ewl.com.pl###bezzo-cookies-bar
@@ -415,6 +417,7 @@ fiatklubpolska.pl###navbar_notice_1.restore
 filman.cc###cookies > div
 filmyonline.tv,mettosport.eu,spidersweb.pl,vanessa.fm###moove_gdpr_cookie_info_bar
 filoma.org###app-confirm-dialog, .reveal-modal-bg
+finai.pl##.view > .info
 finanse.rankomat.pl,sowafinansowa.pl,komorkomat.pl,wakacyjnapolisa.pl,wypowiadamoc.pl,autoumowa.pl##.r-cookie-bar
 finansowysupermarket.pl,faktykaliskie.pl###policy-popup
 firecash.org,pbg-sa.pl,grupaeurocash.pl,payup.pl,regionwielkopolska.pl###info
@@ -700,6 +703,7 @@ konserwatyzm.pl###toast-container
 koraliki.pl##.main-body > .alert-dismissable.alert-warning.alert
 kornik.pl###CookiesInstro
 koscian.net##.zgoda_popup
+kpcen-torun.edu.pl###colorbox, #cboxOverlay
 krakowairport.pl##.privacyPolicyPop
 kredito24.pl,zaimo.pl##.politica
 kreskoweczki.pl###rodo-block
@@ -751,6 +755,7 @@ lema15.pl##.bar--cookies
 leoexpress.com##body > #__next > footer + div.sc-1oi3yor-0
 leo.pl,4fstore.com##.modal-backdrop
 lesnydwor.net.pl###header > center
+letniskowo.pl##.module-abovebox-content
 lexus-polska.pl,portale-randkowe-ranking.pl##.disclaimer
 lg.com##.policyChk
 lg.com##.agree-cookie-wrap
@@ -1019,6 +1024,7 @@ parkhandlowylomza.pl###pamphletu38210
 parkwodny.pl,szkolymedyczne.eu,srodaslaska.pl##.ppsPopupShell, #ppsPopupBgOverlay
 parp.gov.pl,plotowanie.com###howdydo-wrapper
 paypal.com###gdprCookieBanner
+pbgorski.pl##.cookies-tab
 pcprwiecbork.pl##.mlab-modal
 pebx.pl###Notices
 peb.pl###jqibox
@@ -1208,6 +1214,7 @@ serwis.currenda.pl##div#sign_up
 seszele.com.pl##iframe#cookfr
 shazam.com##div.policy-label
 shippuuden.pl##div#cookis-bg
+shoepassion.pl##.data_security_cookies
 shop-dent.pl##div.black_overlay
 showmax.com#?##___gatsby > div > div:-abp-contains(cookie)
 siemens.com##.nts-notification-cookie
@@ -1271,6 +1278,7 @@ strabag.pl###dsgvo
 stroer.pl##.popUpWrap
 strona.euro-net.pl##.komunikatciasteczka
 studio-kosmetyki-profesjonalnej.pl###mod116
+studiuje.eu,skierniewice.eu###cookies
 stukstuk.pl###tws_s_100001
 stylownik.com##.cpolicy
 stypendia.sejmik.kielce.pl##.mod_pa_sci
@@ -1322,6 +1330,7 @@ trakt.tv##.sncmp-app_gdpr
 transatlantyk.org###app-cookie-bar
 transfergo.com##.gdpr-consent
 travelplanet.pl###cookie--info-wrapper
+trejdoo.com###td-alert, #cookieinfo
 trello.com##.gdpr-cookie-consent-banner
 trentino.pl###popup_cookies
 trivago.pl##.alert--bottom-notification.alert--bottom.alert
@@ -1345,6 +1354,7 @@ tymrazemglosuje.eu###cookiespolicymessage
 udemy.com##[data-module-id="eu-cookie-message"]
 uk.ign.com##div#policyNotice
 um.jaslo.pl,adeste.eu##.cp-info-bar
+uniaeuropejska.org###wizjo-cookies
 unilink.pl##.windov_front_new_text
 upc.pl##.dmg-cookie-info
 ups-zasilacze.pl###pp2
@@ -1363,6 +1373,7 @@ wacetob.com.pl###container > div[style="position:fixed;left:0px;width:100%;heigh
 wakacyjnipiraci.pl###tarteaucitronAlertBig
 wapteka.pl##.coo
 warka.com.pl###rodo_env
+warszawa.rzgw.gov.pl##.cookies_law
 wars.pl###spu-1773, #spu-bg-1773
 weather.com##.lite-msg-parent
 webcover.eu###box-polityka-pr
