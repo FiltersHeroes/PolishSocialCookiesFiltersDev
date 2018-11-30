@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: yAAMp4OI8Mvo2FaZLo/zwg
+! Checksum: b8dUGZtOj7txGVmyPPgL/A
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811301146
-! Last modified: Fri, 30 Nov 2018, 11:46:53 UTC+01
+! Version: 201811301307
+! Last modified: Fri, 30 Nov 2018, 13:07:14 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811301146 aktualizacja: pią, 30 lis 2018, 11:46:53 UTC+01
+! v.201811301307 aktualizacja: pią, 30 lis 2018, 13:07:14 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -59,6 +59,7 @@ airkiosk.lot.com##.mf-modal-overlay, .mf-modal-iframe
 airly.eu##.cookies-policy
 airly.eu#?#.welcome-modal__block--whatsNew.welcome-modal__block:nth-of-type(2):-abp-contains(Rodo + ciasteczka)
 akademiaeurocash.com.pl,www.niemartwsie.pl##.notification
+akademiafalubaz.pl###cgRodoModal, #cgRodoBackdrop
 akademia-piwa.pl##div#polityka_tekst
 akpolbaby.pl###gdpr-sticky-banner
 alegotowka.pl,chwilowkomat.pl,halopozyczka.pl###cookies-law
@@ -170,6 +171,7 @@ biznesistyl.pl##.popup_overlay, .box_popup
 biznes-firma.pl##.rodo_cookies_popup
 blablacar.pl##.CookieBanner-wrapper
 blog4u.pl##DIV[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
+blogasek.pl###j_all > div[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
 blogspot.com,polska.googleblog.com###cookieChoiceInfo
 blog-pozyczoneiniebieskie.pl###cookie_info_container
@@ -263,6 +265,7 @@ czescidobmw.pl##div[style="position:fixed;left:0;top:0;width:100%;height:100%;ba
 czescidobmw.pl###container > div[onclick]
 czluchow.com.pl##table:nth-of-type(1) > tbody > tr > td > p:nth-of-type(1)
 dacter.pl,sklep-wadima.pl,uni-tech.pl###topbar, #topBar, .topbarBox, .topBarMessage, #__topBar, #top_bar
+daiglob.pl###NRodo2018
 danepubliczne.gov.pl##.flash-messages
 darkarea.pl,cmentarz-szprotawa.pl###hi-eu-opt-in
 darksiders.pl###callout
@@ -720,6 +723,7 @@ kropleinternetu.biz###cooc_container
 krosnocity.pl###polcia
 kryminalnapolska.pl###adnp
 krytykapolityczna.pl###cccwr
+krzyzowka.net###rodo
 ksero-tecza.pl##body > table > tbody > tr:nth-of-type(1)
 ksow.pl,wzp.pl###myrodoinfo
 kuchniapelnanagrod.pl##div#claw-prompt
