@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 90I8cmxYhNfkBt1jWDST6w
+! Checksum: dEAuswkFth+BNc6dcRSPcA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201811300951
-! Last modified: Fri, 30 Nov 2018, 09:51:49 UTC+01
+! Version: 201811301039
+! Last modified: Fri, 30 Nov 2018, 10:39:22 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811300951 aktualizacja: pią, 30 lis 2018, 09:51:49 UTC+01
+! v.201811301039 aktualizacja: pią, 30 lis 2018, 10:39:22 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -74,7 +74,7 @@ allekoszyk.pl##div > .ng-scope[ng-if="cookieinfo == false"]
 alles-bhp.pl,greattrade.pl,urwisy2.pl###contGlowny > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allianz.pl##.region-disclaimer-component
 allnet24.pl,sklep.mebloart.eu,kran.tychy.pl##.footer.config-messages
-allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,galeria-dominikanska.pl,gosc.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro,alarte.pl,winawloskie.pl,jeanmueller.pl,igomedia.pl,footroll.pl,wiara.pl,shop.ticketpro.pl,skm.warszawa.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
+allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,galeria-dominikanska.pl,gosc.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro,alarte.pl,winawloskie.pl,jeanmueller.pl,igomedia.pl,footroll.pl,wiara.pl,shop.ticketpro.pl,skm.warszawa.pl,domodi.pl,homebook.pl,motokobiety.pl,sklep-bmw.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allview.pl###modalGDPR.modalGDPR
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
 altimi.com###cookie-info
@@ -295,7 +295,6 @@ domd.pl###cookie-info-popup
 domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
 domesta.com.pl###CookiesWarningPopup
 domisad.pl##.message-cockies
-domodi.pl,homebook.pl,motokobiety.pl,sklep-bmw.pl##body > div:not(body):not([id]):not([class])[style*="position: fixed;"]
 domowladni.pl###domo-cookies-policy
 doniczki-poznan.pl##body > .alert-dismissible.alert-warning.alert:nth-of-type(1)
 dotsport.pl##.cookie-nav
@@ -664,6 +663,7 @@ kalkulator.wakacyjnapolisa.pl,rankomat.pl##.rank-cookie-bar
 kameleonbutik.com,rebelelectro.com,giorre.com###cookieNotice
 kamilianie.eu##div[style="position: fixed; top: 50px; left: 0px; right: 0px; bottom: auto; z-index: 5; visibility: hidden; font-family: Arial, Verdana, Tahoma; font-size: 14px; line-height: 1em; color: rgb(34, 34, 34); "]
 kappahl.com##.warning
+kapucyni.pl###mod_ppcookies
 karmimypsiaki.pl##div#ciasteczkaInfoContainer
 karmy.com.pl###privacy, .privacy, #mainPrivacyDiv, .privacyTop, #privacy-info, .privacy-top, .privacy-overlay, .privacypolicy, #privacy-notification, #inf_privacy, #privacypolicycontainer
 kartamultisport.pl##div[style=" width: 780px; background:#f0f0f0; text-align:center;  margin:0px auto 0px auto;  border:1px solid #cccccc; position:relative;"]
@@ -1138,6 +1138,8 @@ promocodius.com###reminder
 prosto.pl###id-rules
 pruszczgdanski.pl##.tm-footer > .uk-panel
 pruszkow.pl##.js-rodo-info
+przedszkolakowo.pl##body > div[id]:not([class])[style*="position"][style*="fixed"]
+przedszkolowo.pl###cookie-agree-bar
 przegladlokalny.eu###cookiePolicy, .popup, #popup-overlay
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 pttk.katowice.pl###cookBox
@@ -1434,6 +1436,7 @@ www.bbc.com###cookiePrompt
 www.bing.com###b_notificationContainer
 www.biomedical.pl,prawdaobiektywna.pl,medpytania.pl,mymedic.pl###mcpc
 www.biurozplusem.pl##.top-left.sticky-queue
+www.casamundo.pl###cm_spa_components_messages_oil
 www.cmcmarkets.com###cmc-tracking-consent-form-step1
 www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
