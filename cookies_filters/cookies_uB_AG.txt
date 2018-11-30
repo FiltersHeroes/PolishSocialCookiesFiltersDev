@@ -1,11 +1,11 @@
-! Checksum: D6YsR4eHkyxadZOq7TY7ag
+! Checksum: uuM60oRv30GWMhP+WLrCWw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811301102
-! Last modified: Fri, 30 Nov 2018, 11:02:35 UTC+01
+! Version: 201811301220
+! Last modified: Fri, 30 Nov 2018, 12:20:23 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811301102 aktualizacja: pią, 30 lis 2018, 11:02:35 UTC+01
+! v.201811301220 aktualizacja: pią, 30 lis 2018, 12:20:23 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -129,7 +129,6 @@ paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important;)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important;)
 pkw.gov.pl##body:style(overflow: auto !important;)
 pkw.gov.pl###rodo_wiadomosc
-play.google.com,translate.google.pl###gba:style(height: 60px !important;)
 pl.tommy.com##div.remodal-wrapper:has(.cookie-notice)
 pl.tommy.com##.cookie-notice:style(visibility: hidden !important;)
 pl.tommy.com##.remodal-is-locked:style(overflow: auto !important;)
@@ -162,6 +161,7 @@ sonymobile.com##.bnw-module.header[style="margin-top: 80px;"]:style(margin-top: 
 szpitalnawrzesinie.pl###gafancybox-overlay122
 teatrpolski.waw.pl##.fancybox-overlay:has(#privacyPolicy)
 telepizza.pl##.navbar:style(margin-top: 0 !important;)
+translate.google.pl###gba:style(height: 60px !important;)
 trendyradio.pl###fancybox-container-1:has(#rodo_1)
 tureckisklep.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#conditions_condition button.acceptCondition)
 tuzdrowie.pl###popupModal, .modal-backdrop
@@ -188,6 +188,7 @@ zwolen.pl###g_toplayer, .modal-backdrop
 !drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl,sklepdlalekarza.com##html > body:style(overflow: auto !important;)
 !lipinscy.pl###popRodoInfoContent, #popRodoInfoFade
 !lipinscy.pl##.noscroll:style(overflow: auto !important;)
+!play.google.com###gba:style(height: 60px !important;)
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂 - specjalne instrukcje
