@@ -1,11 +1,11 @@
-! Checksum: bF3j2tQrkuKG8qbpMvZdbg
+! Checksum: D6YsR4eHkyxadZOq7TY7ag
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201811290913
-! Last modified: Thu, 29 Nov 2018, 09:13:21 UTC+01
+! Version: 201811301102
+! Last modified: Fri, 30 Nov 2018, 11:02:35 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201811290913 aktualizacja: czw, 29 lis 2018, 09:13:21 UTC+01
+! v.201811301102 aktualizacja: pią, 30 lis 2018, 11:02:35 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -270,6 +270,9 @@ webprojekt.biz###rodo, #screenMoire
 webprojekt.biz##.no-move:style(overflow: auto !important;)
 wtk.pl###GDPR-modal, .modal-backdrop
 wybielanie.pl##body:style(overflow-y: unset !important;)
+wyceniono.pl##.qinfo
+wyceniono.pl##.cinfo > *:style(filter: none !important;)
+wyceniono.pl##.cinfo:style(overflow: auto !important;)
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zdajmyrazem.pl###gdprModal, .modal-backdrop
 ztm.poznan.pl###PopUP, .modal-backdrop
@@ -344,6 +347,7 @@ twojeankiety.pl##^.polPriv
 ustawlige.com,ustawmundial.weszlo.com##^#privacy-modal
 victoriassecret.pl##^script:has-text(cookie-)
 wtk.pl##^#GDPR-modal
+wyceniono.pl##^script:has-text(.cookie-ok)
 zdajmyrazem.pl##^#gdprModal
 ztm.poznan.pl##^#PopUP
 !djoles.pl##^#modal-rodo
@@ -416,6 +420,7 @@ twojeankiety.pl$$.polPriv
 ustawlige.com,ustawmundial.weszlo.com$$#privacy-modal
 victoriassecret.pl$$script[tag-content="cookie-"]
 wtk.pl$$#GDPR-modal
+wyceniono.pl$$script[tag-content=".cookie-ok"]
 zdajmyrazem.pl$$#gdprModal
 ztm.poznan.pl$$#PopUP
 !djoles.pl$$#modal-rodo
