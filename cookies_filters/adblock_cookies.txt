@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: JgT3GB78xSjaDXxGTH5pmg
+! Checksum: tTytCYPL9CHxw4uu+OoOZg
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812010305
-! Last modified: Sat, 01 Dec 2018, 03:05:23 UTC+01
+! Version: 201812010325
+! Last modified: Sat, 01 Dec 2018, 03:25:23 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812010305 aktualizacja: sob, 01 gru 2018, 03:05:23 UTC+01
+! v.201812010325 aktualizacja: sob, 01 gru 2018, 03:25:23 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -254,7 +254,6 @@ cookielaw.org,hp.com##.optanon-alert-box-wrapper
 copernicusfestival.com,naukaireligia.pl,filozofiawnauce.pl,copernicuscenter.edu.pl###block-block-31
 costacoffee.pl##.notification-global
 cqb.pl###overlay_cookies
-croatia.hr,umg.edu.pl,cartoonnetwork.pl,sadeczanin.info,kghm.com,gliwice.eu###sliding-popup
 cshacked.pl,stara-gwardia.pl,openitforum.pl,4af.pl,worldofmetin.pl,supportsamsung.pl,ipsbeyond.pl,totalnie-polski-rpg.pl###elGuestTerms
 cs-puchatek.pl##.oregulaminie
 cubus.com###EPDirectiveInfo
@@ -1528,6 +1527,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !awf.edu.pl,prostozkranu.krakow.pl,merchtedes.pl,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl###cookie
 !bazakoni.pl###CookiePolicyBar
 !capitalapart.pl###cookiepolicy-div
+!croatia.hr,umg.edu.pl,cartoonnetwork.pl,sadeczanin.info,kghm.com,gliwice.eu###sliding-popup
 !dowolnycel.pl,gotowkaodzaraz.com.pl,ajamedia.pl,leadmax.pl,dobrykredyt.co.pl,lokatadlaciebie.pl##.CTcookie-container
 !fora.pl##.pp-t-a-c
 !fotofocus.pl,fotoohlaszeny.pl,fotokurier.eu,extra-foto.pl,foto-fan.pl,ekodak.pl###pcUsingCookies
@@ -2034,6 +2034,7 @@ pl##[class*="cookie-policy"]:not(body):not(html)
 pl##[class^="box-cookie"]:not(body):not(html)
 pl##[id^="cookies-message"]:not(body):not(html)
 pl##[id^="topInfo"]:not(body):not(html)
+##BODY.sliding-popup-processed > #sliding-popup
 ##DIV[style*="background:url(images/cookies_tlo.png)"]
 ##DIV[style*="url(layout/cookies.png)"]
 ##ciasteczka:not(body):not(html)
