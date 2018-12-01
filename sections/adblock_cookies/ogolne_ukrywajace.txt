@@ -341,7 +341,7 @@ pl##[class*="cookie-policy"]:not(body):not(html)
 pl##[class^="box-cookie"]:not(body):not(html)
 pl##[id^="cookies-message"]:not(body):not(html)
 pl##[id^="topInfo"]:not(body):not(html)
-##BODY.sliding-popup-processed > #sliding-popup
+##BODY[class$="-processed"] > #sliding-popup
 ##DIV[style*="background:url(images/cookies_tlo.png)"]
 ##DIV[style*="url(layout/cookies.png)"]
 ##ciasteczka:not(body):not(html)
