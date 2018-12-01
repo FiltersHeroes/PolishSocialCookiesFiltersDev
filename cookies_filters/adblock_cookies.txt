@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: X554kohxo+XiJSxD4mtt5w
+! Checksum: ujC2lMnPOMrvfkHDKnBnCQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812010346
-! Last modified: Sat, 01 Dec 2018, 03:46:31 UTC+01
+! Version: 201812010455
+! Last modified: Sat, 01 Dec 2018, 04:55:33 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812010346 aktualizacja: sob, 01 gru 2018, 03:46:31 UTC+01
+! v.201812010455 aktualizacja: sob, 01 gru 2018, 04:55:33 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1920,7 +1920,7 @@ pl##.biscuit-usage:not(body):not(html)
 pl##.ccc-widget:not(body):not(html):not(.ccc-chart):not(.ccc-multi)
 pl##.cc-banner:not(body):not(html)
 pl##.cc-cookies:not(body):not(html)
-pl##.cc-window:not(body):not(html)[aria-label*="consent"]
+pl##.cc-window[aria-label*="consent"]:not(body):not(html)
 pl##.cc_banner-wrapper:not(body):not(html)
 pl##.cc_banner:not(body):not(html)
 pl##.cm-notification-container:not(body):not(html)
@@ -1967,7 +1967,7 @@ pl##.cookies-message:not(body):not(html)
 pl##.cookies-notify:not(body):not(html)
 pl##.cookies-policy-container:not(body):not(html)
 pl##.cookies-statement:not(body):not(html)
-pl##.cookies:not(.wrapper):not(.popup-newsletter):not(#page):not(body):not(html)
+pl##.cookies:not(body):not(html):not(.wrapper):not(.popup-newsletter):not(#page)
 pl##.cookies_info:not(body):not(html)
 pl##.cookies_message:not(body):not(html)
 pl##.cookies_policy:not(body):not(html)
@@ -2117,7 +2117,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###polityka_prywatnosci:not(body):not(html)
 ###rodoAlert:not(body):not(html)
 ###rodoNotificationWrapper:not(body):not(html)
-###rodo-popup:not(.fade):not(body):not(html):not(.modal)
+###rodo-popup:not(body):not(html):not(.fade):not(.modal)
 ###rodo_all:not(body):not(html)
 ###sliding-popup:not(body):not(html)
 ###warstwa_cookie:not(body):not(html)
@@ -2190,7 +2190,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 allegro.pl,paradoxplaza.com#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
 gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section)
-laciate.pl,loterialaciate.pl#@#.cookies:not(.wrapper):not(.popup-newsletter):not(#page):not(body):not(html)
+laciate.pl,loterialaciate.pl#@#.cookies:not(body):not(html):not(.wrapper):not(.popup-newsletter):not(#page)
 lomza.pl#@##komunikat-cookie
 naekranie.pl#@##polityka-cookies:not(body):not(html)
 opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
