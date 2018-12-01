@@ -32,9 +32,9 @@ homedesign.pl##.popmake-overlay[data-popmake*="rodo"]
 infoplanet.pl,craftserve.pl,motobanda.pl,autakrajowe.com.pl###rodo, .modal-backdrop
 infostrow.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info###rodo-modal
 lipinscy.pl###popRodoInfoContent, .modal-backdrop
-listymikolaja.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
-listymikolaja.pl##.fancybox-margin:style(margin-right: 0 !important;)
 listymikolaja.pl##.fancybox-overlay:has(#popup_rodo_layer)
+listymikolaja.pl,swiat-whisky.sklep.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
+listymikolaja.pl,swiat-whisky.sklep.pl##.fancybox-margin:style(margin-right: 0 !important;)
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 lovekrakow.pl,muzyczneradio.pl###modal-rodo, .modal-backdrop
 money.pl##+js(nano-remove-elements-onready.js, .rodo-popup)
@@ -63,6 +63,7 @@ sklepbiker.pl##+js(abort-current-inline-script.js, $, #rodoModal)
 skm.pkp.pl##+js(abort-current-inline-script.js, $, dialog-message-rodo)
 spolem.katowice.pl,wpr.pl###popup, .modal-backdrop
 styl.fm###rodo-info, .modal-backdrop
+swiat-whisky.sklep.pl##.fancybox-overlay:has(#conditions_condition)
 tuzdrowie.pl###popupModal, .modal-backdrop
 tuzory.pl,tujastrzebie.pl###pd-modal, .modal-backdrop
 tvasta.pl##.modal-backdrop
