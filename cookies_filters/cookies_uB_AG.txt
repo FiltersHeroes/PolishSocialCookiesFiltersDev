@@ -1,11 +1,11 @@
-! Checksum: VCZPvg/SRjktVCrl1J5JRg
+! Checksum: WYZ2UtBwlDVEiv/TRfBsow
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812010154
-! Last modified: Sat, 01 Dec 2018, 01:54:37 UTC+01
+! Version: 201812011128
+! Last modified: Sat, 01 Dec 2018, 11:28:23 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812010154 aktualizacja: sob, 01 gru 2018, 01:54:37 UTC+01
+! v.201812011128 aktualizacja: sob, 01 gru 2018, 11:28:23 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -52,8 +52,8 @@ dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
 domisad.pl##.show-message #top-nav:style(height: auto !important;)
 drogeriapigment.pl##.fancybox-overlay:has(#potwierdzamrodo)
-drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl,sklepdlalekarza.com,swiat-whisky.sklep.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
-drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl,sklepdlalekarza.com,swiat-whisky.sklep.pl##html.fancybox-margin:style(margin-right: 0 !important;)
+drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl,sklepdlalekarza.com##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
+drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl,sklepdlalekarza.com##html.fancybox-margin:style(margin-right: 0 !important;)
 dropbox.com##.embedded-app.IndexRebrandPage.top-notification-bar:style(margin-top: -51px !important;)
 dropbox.com##.top-notification-bar-container + .preview-box .react-file-viewer, .embedded-app.IndexRebrandPage.top-notification-bar .RebrandNavigation-container:style(top: 0 !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
@@ -158,7 +158,6 @@ sklepdlalekarza.com##.basicLightbox
 sklep.ptwp.pl##.window
 skyscrapercity.com##.fc-consent-root
 sonymobile.com##.bnw-module.header[style="margin-top: 80px;"]:style(margin-top: 0 !important;)
-swiat-whisky.sklep.pl##.fancybox-overlay:has(#conditions_condition)
 szpitalnawrzesinie.pl###gafancybox-overlay122
 teatrpolski.waw.pl##.fancybox-overlay:has(#privacyPolicy)
 telepizza.pl##.navbar:style(margin-top: 0 !important;)
@@ -228,9 +227,9 @@ homedesign.pl##.popmake-overlay[data-popmake*="rodo"]
 infoplanet.pl,craftserve.pl,motobanda.pl,autakrajowe.com.pl###rodo, .modal-backdrop
 infostrow.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info###rodo-modal
 lipinscy.pl###popRodoInfoContent, .modal-backdrop
-listymikolaja.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
-listymikolaja.pl##.fancybox-margin:style(margin-right: 0 !important;)
 listymikolaja.pl##.fancybox-overlay:has(#popup_rodo_layer)
+listymikolaja.pl,swiat-whisky.sklep.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
+listymikolaja.pl,swiat-whisky.sklep.pl##.fancybox-margin:style(margin-right: 0 !important;)
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 lovekrakow.pl,muzyczneradio.pl###modal-rodo, .modal-backdrop
 money.pl##+js(nano-remove-elements-onready.js, .rodo-popup)
@@ -259,6 +258,7 @@ sklepbiker.pl##+js(abort-current-inline-script.js, $, #rodoModal)
 skm.pkp.pl##+js(abort-current-inline-script.js, $, dialog-message-rodo)
 spolem.katowice.pl,wpr.pl###popup, .modal-backdrop
 styl.fm###rodo-info, .modal-backdrop
+swiat-whisky.sklep.pl##.fancybox-overlay:has(#conditions_condition)
 tuzdrowie.pl###popupModal, .modal-backdrop
 tuzory.pl,tujastrzebie.pl###pd-modal, .modal-backdrop
 tvasta.pl##.modal-backdrop
@@ -343,6 +343,7 @@ sklepbiker.pl,tvbraniewo24.pl,tvsztum.pl,tvregionalna24.pl##^#rodoModal
 skm.pkp.pl##^#dialog-message-rodo
 spolem.katowice.pl,wpr.pl##^#popup.modal
 styl.fm##^.rodo-info
+swiat-whisky.sklep.pl##^.POPUP_CONDITION
 tuzdrowie.pl##^#popupModal
 tvasta.pl##^#infoModal
 twojeankiety.pl##^.polPriv
@@ -416,6 +417,7 @@ sklepbiker.pl,tvbraniewo24.pl,tvsztum.pl,tvregionalna24.pl$$#rodoModal
 skm.pkp.pl$$#dialog-message-rodo
 spolem.katowice.pl,wpr.pl$$#popup.modal
 styl.fm$$.rodo-info
+swiat-whisky.sklep.pl$$.POPUP_CONDITION
 tuzdrowie.pl$$#popupModal
 tvasta.pl$$#infoModal
 twojeankiety.pl$$.polPriv
