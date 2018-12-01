@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 66IH7CWQhC2fFhNbitaX3Q
+! Checksum: 7amCHIBqx+rt0GLdtDw9Ug
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812010151
-! Last modified: Sat, 01 Dec 2018, 01:51:16 UTC+01
+! Version: 201812010215
+! Last modified: Sat, 01 Dec 2018, 02:15:41 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812010151 aktualizacja: sob, 01 gru 2018, 01:51:16 UTC+01
+! v.201812010215 aktualizacja: sob, 01 gru 2018, 02:15:41 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -111,6 +111,7 @@ atlas-roslin.pl##.tytul > span
 atramentowka.com###cookie, #cookie_popup
 atskaner.pl###cookieInfoWindow
 audioteka.com##.anonymousToSConsent_mask
+autoaukcje.net##.popup_cookies
 autocentrum.pl##.hello-rodo
 autodna.pl##.privacy_policy-info
 autogespot.pl##div[class^="popup"]:not(.fancybox-margin)
@@ -150,6 +151,7 @@ biblioteka.nowaruda.pl###ucore_ciasteczka
 bieganieuskrzydla.pl###js-site-cookie
 biegniepodleglosci.pl###cf-cookie-banner
 bielsko.info##.cookie_policy
+bierhalle.pl###rstbox_5, #overlay_rstbox_5
 bik.pl##.page-cookies-info, #cmsg
 bilka.com.pl###mod99
 bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
@@ -625,6 +627,7 @@ interprojekt.pl###myModal, .modal-backdrop, .reveal-modal-bg
 intymna.pl###sb_bottom_float, #wymagania_sklepu_alert
 investmap.pl##.popup-back, .popup-rodo, .cookie
 inwestinfo.pl##div[style="position:fixed;bottom:0px;width:100%;height:65px;border:#c0c0c0 1px solid; text-align:center;padding:5px;background:#e7e7e7;"]
+ioki.pl##.bg-warning
 iom.pl###cooker
 isms.pl###skel-panels-pageWrapper > div[name="cookie_info"]
 isok.gov.pl##.message_div_cookie
@@ -715,6 +718,7 @@ konecki24.pl##.cli-modal-backdrop
 konsbud-hifi.com.pl##.sticky-footer
 konserwatyzm.pl###toast-container
 koraliki.pl##.main-body > .alert-dismissable.alert-warning.alert
+korepetycje.edu.pl,niania.pl##.cookies_message_bar
 koscian.net##.zgoda_popup
 kpcen-torun.edu.pl###colorbox, #cboxOverlay
 krakowairport.pl##.privacyPolicyPop
@@ -937,6 +941,7 @@ nazaruk.pl##.fixedInfo
 nck.gov.pl##.navbar-fixed-bottom.alert-dismissible.alert-warning.alert
 nck.pl,u-jazdowski.pl###cookieterms
 ncplusgo.pl,ncplus.pl##.js-messages
+ndn.com.pl##.rodo-info, .rodo-overlayer
 neobiznes.pl###cpolicyHolder
 neonet.pl,neo24.pl##.rodo-info__content, .rodo-info__overlay
 neo-net.com.pl##body > div:not(body):not([id]):not([class])[style*="position: fixed; bottom: 0px;"]
@@ -953,7 +958,6 @@ news.adidas.com##.cookies-message
 news.google.com##div[style^="behavior:url(#default#homePage) url(#default#userData)"]
 nfz-lodz.pl##.mfp-ready
 nf.pl###rodonf-app-ux
-niania.pl##.cookies_message_bar
 nickjr.com.pl##.cookiebar-visible
 niepodlegla.pomorskie.eu###cookiesinfoPWU
 niepodlegla.pomorskie.eu##.cookieBar-portlet
@@ -2207,6 +2211,7 @@ wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 @@||china-gadgets.de/app/plugins/cookie-law-info/js/cookielawinfo.js
 @@||coinroom.com/Modules/UI/Cookie/Cookie.js
 @@||pracatobie.pl/jscripts/cookieLaws.js
+@@||www.kuba-pichci.pl/wp-content/plugins/wp-minify/min/*$stylesheet,domain=www.kuba-pichci.pl
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
