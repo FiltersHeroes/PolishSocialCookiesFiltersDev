@@ -1,11 +1,11 @@
-! Checksum: rl6PHxEqr2T9ptm3L5iZeQ
+! Checksum: rlScJf+vBkNvBz1orZKWpA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812021409
-! Last modified: Sun, 02 Dec 2018, 14:09:28 UTC+01
+! Version: 201812021526
+! Last modified: Sun, 02 Dec 2018, 15:26:52 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,11 +14,13 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812021409 aktualizacja: nie, 02 gru 2018, 14:09:28 UTC+01
+! v.201812021526 aktualizacja: nie, 02 gru 2018, 15:26:52 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
+7ryb.pl##.modals.dimmer.ui
+7ryb.pl##.dimmed.dimmable:style(overflow: auto !important;)
 abcalkoholu.pl##.cookielaw:style(padding-top: 0 !important;)
 abczdrowie.pl,autokult.pl,dobramama.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,jejswiat.pl,kafeteria.pl,kafeteria.tv,komorkomania.pl,luxlux.pl,medycyna24.pl,mixer.pl,money.pl,nocowanie.pl,o2.pl,open.fm,parenting.pl,pinger.pl,pogodnie.pl,pudelek.pl,pytamy.pl,samosia.pl,smog.pl,snobka.pl,testwiedzy.pl,~sportowefakty.wp.pl,wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, default.setTimeout)
 agrosystems.pl##body:style(overflow: auto !important;)
@@ -52,8 +54,8 @@ dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
 domisad.pl##.show-message #top-nav:style(height: auto !important;)
-dragon.com.pl##html.iziModal-isOverflow:style(overflow: visible !important;)
 dragon.com.pl###modal-rodo, .iziModal-overlay
+dragon.com.pl##.iziModal-isOverflow:style(overflow: visible !important;)
 drogeriapigment.pl##.fancybox-overlay:has(#potwierdzamrodo)
 drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl,sklepdlalekarza.com##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
 drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,umig.olkusz.pl,sklepdlalekarza.com##html.fancybox-margin:style(margin-right: 0 !important;)
