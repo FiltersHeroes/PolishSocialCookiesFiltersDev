@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 7FFOgNHw34UyrD0IWLfupA
+! Checksum: hwDHMXXf9UxCC08hlL9GZA
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812021819
-! Last modified: Sun, 02 Dec 2018, 18:19:42 UTC+01
+! Version: 201812021830
+! Last modified: Sun, 02 Dec 2018, 18:30:56 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812021819 aktualizacja: nie, 02 gru 2018, 18:19:42 UTC+01
+! v.201812021830 aktualizacja: nie, 02 gru 2018, 18:30:56 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -740,6 +740,7 @@ krakownh.pl###strip_cookie_info
 kredito24.pl,zaimo.pl##.politica
 kreskoweczki.pl###rodo-block
 kreskowki.tv,tygodniksiedlecki.com,atelier801.com###cookie-bar
+krn.org.pl##.clsCookieInfo
 kropleinternetu.biz###cooc_container
 krosnocity.pl###polcia
 kryminalnapolska.pl###adnp
@@ -839,6 +840,7 @@ maratony24.pl##div#privacyPolicy
 marekjuraszek.pl,tluszczak.pl###ml_wrapper
 marketing.org.pl###art_173_22032013_ukryj
 markgum.com.pl##body > div[id=""]
+markoweszyby.pl##body > .alert-info.alert
 marykay.pl##.gigyaNotify
 marykay.pl##div[style="background-color: rgba(255, 255, 255, 0.8); border-top-width: 1px; border-top-style: solid; border-top-color: rgb(153, 153, 153); bottom: 0px; color: black; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Arial Narrow', Arial, Helvetica, sans-serif; left: 0px; padding: 10px; position: fixed; right: 0px; text-align: center; z-index: 10000; background-position: initial initial; background-repeat: initial initial;"]
 masochista.teetres.com###_cookies_info
@@ -1241,6 +1243,7 @@ rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl###pd-modal, .modal-backdrop
 rybomania.pl###cookies_widget
 rymer.org###info_bottom
 rzemioslo.org###pronamic_cookie_holder
+rzgw.gda.pl###COOKIETLO
 r-gol.com,51015kids.eu###cookieBan
 sadowocowy.pl###container > div:nth-of-type(1)
 samouczek.info,aranzujemy.pl,kobieceporady.pl##.gdpr
