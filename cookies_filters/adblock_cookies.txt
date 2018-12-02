@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: hwDHMXXf9UxCC08hlL9GZA
+! Checksum: wHUXlt1YhZRJtzTwHpEJkw
 ! Title: Polskie Filtry RODO-Ciasteczkowe
 ! Polish GDPR-Cookies Filters
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812021830
-! Last modified: Sun, 02 Dec 2018, 18:30:56 UTC+01
+! Version: 201812021847
+! Last modified: Sun, 02 Dec 2018, 18:47:16 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812021830 aktualizacja: nie, 02 gru 2018, 18:30:56 UTC+01
+! v.201812021847 aktualizacja: nie, 02 gru 2018, 18:47:16 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -276,6 +276,7 @@ czescidobmw.pl##div[style="position:fixed;left:0;top:0;width:100%;height:100%;ba
 czescidobmw.pl###container > div[onclick]
 czluchow.com.pl##table:nth-of-type(1) > tbody > tr > td > p:nth-of-type(1)
 dacter.pl,sklep-wadima.pl,uni-tech.pl###topbar, #topBar, .topbarBox, .topBarMessage, #__topBar, #top_bar
+daewooforum.pl#?#.back > table:-abp-has(a[href="javascript:location.reload(true)"])
 daiglob.pl###NRodo2018
 danepubliczne.gov.pl##.flash-messages
 darkarea.pl,cmentarz-szprotawa.pl###hi-eu-opt-in
