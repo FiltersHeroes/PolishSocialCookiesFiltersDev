@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: oupG+7nl7/9rNJtXKeogng
+! Checksum: Mu7JlCU7SrYEhGrYm2aU5A
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812031847
-! Last modified: Mon, 03 Dec 2018, 18:47:34 UTC+01
+! Version: 201812031848
+! Last modified: Mon, 03 Dec 2018, 18:48:56 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812031847 aktualizacja: pon, 03 gru 2018, 18:47:34 UTC+01
+! v.201812031848 aktualizacja: pon, 03 gru 2018, 18:48:56 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -89,7 +89,6 @@ amazon.de###desktop-cookie-disclosure
 americanexpress.com###cookie_Header
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl###popup
 amundi.pl,biodiv.gdos.gov.pl###disclaimer
-anomail.pl###Ciastka
 antyweb.pl,norauto.pl,grupakety.com,olimpijski.pl,softon.pl,ingtechpoland.com,kultura.krasnik.eu,brolerserwis.pl,spedycje.pl,kancelaria-szip.pl,pelion.eu###privacy
 antywindyk.pl###rodo-container
 antywirus.biz##.iAgreePopup
@@ -127,7 +126,6 @@ autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.n
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autos-motos.net,scentre.pl,ilewazy.pl##.consent
 avans.pl##.is-cookies
-avanti.com.pl,orangerecykling.pl,promet.org.pl###cookie-warn-wrapper
 avast.com,pay.google.com,trustpilot.com##.cookie-bar:not(body)
 avioner.pl,upolujebooka.pl##.alert
 avon.pl##.CookieSection
@@ -1587,6 +1585,8 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !aleleki.pl###cookieMessage
 !amister.pl,meblenova.pl,waran.pl,dw-halina.pl,farmer-tenczynek.pl,sala-prestige.pl,progress.olkusz.pl,smartplac.pl###q-cookie-box
 !angielski-kazdego-dnia.pl,miasto-gazeta.pl,nvt.pl##.wpgdprc
+!anomail.pl###Ciastka
+!avanti.com.pl,orangerecykling.pl,promet.org.pl,parkrozrywkizawada.pl,starytelefon.pl,quantec.pl,sigma.org.pl,poklocki.pl,slusarczyk-bmw.pl,krakmax.pl###cookie-warn-wrapper
 !awf.edu.pl,prostozkranu.krakow.pl,merchtedes.pl,mediaarena.pl,e-smartphone.pl,popmaster.pl,prezentymuzyczne.pl,alenuty.pl,parkershop.pl,fonopolis.pl,yanosik.pl,flotis.pl,multibook.pl###cookie
 !bazakoni.pl###CookiePolicyBar
 !bs-zwolen.com.pl###cookie_info_box
@@ -1936,6 +1936,7 @@ pl###cookie-policy-wrapper:not(body):not(html)
 pl###cookie-policy:not(body):not(html)
 pl###cookie-terms:not(body):not(html)
 pl###cookie-warning:not(body):not(html)
+pl###cookie-warn-wrapper:not(body):not(html)
 pl###cookie-warn:not(body):not(html)
 pl###cookie-window:not(body):not(html)
 pl###cookie-wrapper:not(body):not(html)
@@ -1959,6 +1960,7 @@ pl###info-cookies:not(body):not(html)
 pl###js-cookieInfo:not(body):not(html)
 pl###mlUsingCookies:not(body):not(html)
 pl###modalcookies:not(body):not(html)
+pl###moove_gdpr_cookie_info_bar:not(body):not(html)
 pl###mpc_cookie_intro:not(body):not(html)
 pl###notice-cookie-block:not(body):not(html)
 pl###notice_bar:not(body):not(html)
@@ -2125,6 +2127,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##ciasteczka:not(body):not(html)
 ##cookidiv:not(body):not(html)
 ###Ciasteczka:not(body):not(html)
+###Ciastka:not(body):not(html)
 ###CookieKomunikat:not(body):not(html)
 ###Informacja_o_ciasteczkach:not(body):not(html)
 ###Qookie:not(body):not(html)
