@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: zQyHGlYZiGPlUln8uE+4ZA
+! Checksum: dKRlFE/WxafPipOtaGNRYA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812031242
-! Last modified: Mon, 03 Dec 2018, 12:42:58 UTC+01
+! Version: 201812031252
+! Last modified: Mon, 03 Dec 2018, 12:52:27 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812031242 aktualizacja: pon, 03 gru 2018, 12:42:58 UTC+01
+! v.201812031252 aktualizacja: pon, 03 gru 2018, 12:52:27 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -79,6 +79,7 @@ alles-bhp.pl,greattrade.pl,urwisy2.pl###contGlowny > div:not([id]):not([class])[
 allianz.pl##.region-disclaimer-component
 allnet24.pl,sklep.mebloart.eu,kran.tychy.pl##.footer.config-messages
 allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,galeria-dominikanska.pl,gosc.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro,alarte.pl,winawloskie.pl,jeanmueller.pl,igomedia.pl,footroll.pl,wiara.pl,shop.ticketpro.pl,skm.warszawa.pl,domodi.pl,homebook.pl,motokobiety.pl,sklep-bmw.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
+allsporter.com##.cookies-ct
 allview.pl###modalGDPR.modalGDPR
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
 altimi.com###cookie-info
@@ -125,6 +126,7 @@ autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.n
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autos-motos.net,scentre.pl,ilewazy.pl##.consent
 avans.pl##.is-cookies
+avanti.com.pl,orangerecykling.pl###cookie-warn-wrapper
 avast.com,pay.google.com,trustpilot.com##.cookie-bar:not(body)
 avioner.pl,upolujebooka.pl##.alert
 avon.pl##.CookieSection
@@ -547,6 +549,7 @@ goodie.pl##.FooterComponent ~ div[class]:not([id])
 goodlookin.pl##div > div > div > .toplayaa
 google.com,google.pl##.widget-consent-dialog
 goout.net###js-cookieBar.cookieBar
+gopr.org,lca.pl###popupDiv
 gosc.pl,igomedia.pl###l-overlay
 gospodarkamorska.pl###fr3ex-cookiewarning
 gostynin.info###modal-privacy, .cookies-message-wrapper
@@ -783,7 +786,6 @@ laskonline.pl,bskrasnosielc.pl###cookiewarning > div:nth-of-type(1)
 lasy.gov.pl,bip.kielce.eu##.popup-alert-notice
 laznianowa.pl##DIV[style="background: #E9E9E9; color: #777; font-size: 9px; position: fixed; bottom: 0; width: 100%; z-index: 9999; padding: 2px; text-align: center; -webkit-border-top-right-radius: 8px; -webkit-border-top-left-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-topleft: 8px; border-top-right-radius: 8px; border-top-left-radius: 8px; font-size: 12px; -webkit-box-shadow: 2px 2px 3px 0px rgba(127, 127, 127, 0.4); box-shadow: 2px -2px 3px 0px rgba(127, 127, 127, 0.4);"]
 lbn.pl###ciastko
-lca.pl###popupDiv
 leclerc-bielany.pl###popup
 leclerc.com.pl##div#tekst
 leddo.pl,zdp.poznan.pl##.rodo-block
@@ -1052,7 +1054,6 @@ opony.net###cookiefy_bar
 opowiecie.info###spu-95603, #spu-bg-95603
 optomer.pl###GDPRInformationModal, .cookie-container
 optyczne.pl###id01
-orangerecykling.pl###cookie-warn-wrapper
 orange.pl##.background
 orientshop.com.pl,tapenda.pl###ciacha
 originals24.pl###wcookie
@@ -1271,6 +1272,7 @@ seansik.top##.coi.container
 sedkomp.com.pl##.art-content-layout:nth-of-type(2)
 seg.org.pl###block-block-19
 sekap.pl###uglipop_popbox, #uglipop_overlay
+sekretypiekna.net##.ba_cookie_bar
 selgros24.pl###cookieModal
 senetic.pl###rodoBar
 seriale.co###player_warn
