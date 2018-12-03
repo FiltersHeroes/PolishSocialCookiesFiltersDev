@@ -1,11 +1,11 @@
-! Checksum: 5O9oiIjC4qkwsg1dHkRAVg
+! Checksum: LPVUgNzzoB8bZw0e6r1Zhw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812030852
-! Last modified: Mon, 03 Dec 2018, 08:52:57 UTC+01
+! Version: 201812031341
+! Last modified: Mon, 03 Dec 2018, 13:41:17 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812030852 aktualizacja: pon, 03 gru 2018, 08:52:57 UTC+01
+! v.201812031341 aktualizacja: pon, 03 gru 2018, 13:41:17 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -189,6 +189,9 @@ zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
 zeropln.antyweb.pl,mazury.travel,wagrowczanie.pl,praca.antyweb.pl,kaliszak.pl,skyscrapercity.com,prawdaobiektywna.pl##body:style(overflow: auto !important;)
 zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
+zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important; overflow-y: visible !important;)
+zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
+zozsuchabeskidzka.pl###mpc-modal-4-1
 zsgarwolin.pl##.mfp-content:has(#cadre_alert_cookies)
 zsgarwolin.pl##.mfp-ready.mfp-bg
 zwolen.pl###g_toplayer, .modal-backdrop
