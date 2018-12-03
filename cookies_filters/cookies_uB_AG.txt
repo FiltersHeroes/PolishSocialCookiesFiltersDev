@@ -1,11 +1,11 @@
-! Checksum: rlScJf+vBkNvBz1orZKWpA
+! Checksum: 5O9oiIjC4qkwsg1dHkRAVg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812021526
-! Last modified: Sun, 02 Dec 2018, 15:26:52 UTC+01
+! Version: 201812030852
+! Last modified: Mon, 03 Dec 2018, 08:52:57 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812021526 aktualizacja: nie, 02 gru 2018, 15:26:52 UTC+01
+! v.201812030852 aktualizacja: pon, 03 gru 2018, 08:52:57 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -44,6 +44,7 @@ bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl###fancybox-container-1
 biuletyn.net##body > table:style(margin-top: 0 !important;)
 biuletyn.net##.urzad_mini > div:style(top: 225px !important;)
 bloombergbusinessweek.pl##body:style(margin-top: 0 !important;)
+bs-zwolen.com.pl###fancybox-container-1:has(img[src="baner,32,informacja-rodo.jpg"])
 ceres.pl###flipFlop, .modal-backdrop
 chojnow.pl##+js(abort-current-inline-script.js, confirm, rodoConfirm)
 cupsell.pl##.tingle-enabled:style(position: static !important; overflow: auto !important;)
@@ -143,7 +144,7 @@ porcelana.pl##.modal-popup
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.windowOpen:style(overflow: auto !important;)
 powiat-sepolno.pl###fancybox-container-1
-powiat-sepolno.pl,mzk-torun.pl,trendyradio.pl##.compensate-for-scrollbar:style(overflow: auto !important; margin-right: 0 !important;)
+powiat-sepolno.pl,mzk-torun.pl,trendyradio.pl,bs-zwolen.com.pl##.compensate-for-scrollbar:style(overflow: auto !important; margin-right: 0 !important;)
 powiat-zyrardowski.pl##.fancybox-overlay
 prawdaobiektywna.pl##.qc-cmp-ui-container
 przydomu.pl###popup_25
