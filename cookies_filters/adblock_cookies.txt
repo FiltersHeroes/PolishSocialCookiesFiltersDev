@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: HTC+e0oaJo00+Q1O27ebww
+! Checksum: mrXhzaRhSEo7BEge2XHYhw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812031405
-! Last modified: Mon, 03 Dec 2018, 14:05:49 UTC+01
+! Version: 201812031752
+! Last modified: Mon, 03 Dec 2018, 17:52:07 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812031405 aktualizacja: pon, 03 gru 2018, 14:05:49 UTC+01
+! v.201812031752 aktualizacja: pon, 03 gru 2018, 17:52:07 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -110,6 +110,7 @@ arnicaapteka.pl##.warning
 artim.com.pl#?#td[valign="top"] > div[webpartid].ms-WPbody:-abp-contains(pliki cookies)
 ascar-rent.pl###hellobar
 asd.pl##div[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;top: 0px;left: 0px;text-align: center;color: #000;border-bottom: 1px #000 solid;z-index: 1000;"]
+asklepios.pl##.cookies_show
 assecods.pl###spu-22991, #spu-bg-22991
 astar.czest.pl##.lean-overlay
 atcdevelopment.pl,ginekolog-darlowo.pl,lek-med.pl###zgoda
@@ -126,7 +127,7 @@ autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.n
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autos-motos.net,scentre.pl,ilewazy.pl##.consent
 avans.pl##.is-cookies
-avanti.com.pl,orangerecykling.pl###cookie-warn-wrapper
+avanti.com.pl,orangerecykling.pl,promet.org.pl###cookie-warn-wrapper
 avast.com,pay.google.com,trustpilot.com##.cookie-bar:not(body)
 avioner.pl,upolujebooka.pl##.alert
 avon.pl##.CookieSection
@@ -181,6 +182,7 @@ bizin.pl###bottom-cookies
 biznesistyl.pl##.popup_overlay, .box_popup
 biznes-firma.pl##.rodo_cookies_popup
 blablacar.pl##.CookieBanner-wrapper
+blackpearlszczecin.pl##.policy-cookies
 blog4u.pl##DIV[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blogasek.pl###j_all > div[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
@@ -918,6 +920,7 @@ modile.pl###marketing-popup
 modm.bialystok.pl###dailyfullscreen
 mojapogoda.com###IR
 mojawww.com##.id-6
+moja-grecja.pl##.alert-dismissible.alert-info.alert
 mojehobby.pl##.message-footer-panel
 mol.pl##DIV[style="position: fixed; bottom: 0px; z-index: 10000; box-sizing: border-box; width: 100%; font: 8pt Verdana,sans-serif; margin: 0px; padding: 1px 1em 1em; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-top: 1px solid rgb(153, 153, 153);"]
 mondeoklubpolska.pl##li#navbar_notice_12
