@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Sj4UVEXmPL1rfnlSLI2Pxg
+! Checksum: RsBeXlGDfnZNyOtUVM8F0w
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812031407
-! Last modified: Mon, 03 Dec 2018, 14:07:45 UTC+01
+! Version: 201812031848
+! Last modified: Mon, 03 Dec 2018, 18:48:57 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812031407 aktualizacja: pon, 03 gru 2018, 14:07:45 UTC+01
+! v.201812031848 aktualizacja: pon, 03 gru 2018, 18:48:58 UTC+01
 !
 !
 ! Popupy
@@ -123,7 +123,6 @@ pl##.blip
 pl##.contest.BTtbar
 pl##.extraBoxFacebook
 pl##.face
-pl##.facebook
 pl##.facebookIco
 pl##.facebookLikeBoxSmall
 pl##.facebookThis
@@ -406,6 +405,7 @@ pl##.facebook-plain-control
 pl##.facebook-small
 pl##.facebook-solid-control
 pl##.facebook-toolbar
+pl##.facebook:not([data-id*=videos])
 pl##.facebook_bg1
 pl##.facebook_color
 pl##.facebook_like
@@ -1876,6 +1876,7 @@ paranormalne.pl##li:nth-of-type(n+11):nth-of-type(-n+13)
 paranormalne.pl##.nopad:nth-of-type(5) > .block_wrap.category_block:nth-of-type(3)
 parkerpen.com###footerSocialSection
 parkhandlowylomza.pl###buttonu23697
+parkrozrywkizawada.pl##.fa-google-plus
 parkwodny.pl##.footer-social-box
 partneragdrtv.com.pl###menu_buttons3
 pasazer.com##.col:nth-of-type(4)
@@ -2236,6 +2237,7 @@ slawomirambroziak.pl##li > [href="https://www.facebook.com/pages/slawomirambrozi
 slodkastrona.com###Profile1
 sloworegionu.pl##img[src="/imagess/111_1/8/facebook.png"]
 sls.info.pl###widget-1
+slusarczyk-bmw.pl###musli > li:nth-child(-n+2)
 sluzby-ur.pl##.wysun_facebooka.fl, #youtube
 smartage.pl##.widget_text.col-6.widget
 snp-poland.com##.side-widgets
