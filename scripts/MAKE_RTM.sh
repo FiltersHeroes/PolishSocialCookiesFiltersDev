@@ -15,6 +15,9 @@ for i in "$@"; do
     # Podmienianie zawartości pliku końcowego na zawartość template'u
     cp -R $TEMPLATE $KONCOWY
 
+    # Usuwanie DEV z nazwy filtrów
+    sed -i "s| DEV||g" $KONCOWY
+    
     # Usuwanie pustych linii z sekcji
     find ${SEKCJE_KAT} -type f -exec sed -i '/^$/d' {} \;
 
@@ -48,7 +51,7 @@ for i in "$@"; do
 
     # Ustawienie polskiej strefy czasowej
     export TZ=":Poland"
-
+    
     # Aktualizacja daty i godziny w polu „Last modified"
     export LC_ALL=en_US.UTF-8
     modified=$(date +"%a, %d %b %Y")
