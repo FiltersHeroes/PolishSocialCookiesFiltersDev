@@ -91,7 +91,7 @@ mgr.farm##.blur:style(filter: none !important;)
 mgr.farm##.noscroll:style(overflow: auto !important;)
 mgr.farm##.popup-overlay, .zgoda-popup-wrapper
 mikroporady.pl##.mikroporady:style(padding-top: 0 !important;)
-militaria-hobby.eu##+js(remove-attr.js,onLoad,body[onLoad="alert ('UWAGA! - Ta strona używa ciasteczek (cookies)')"])
+militaria-hobby.eu##+js(abort-on-property-read.js, alert)
 mkidn.gov.pl###myModal
 mkidn.gov.pl,puma.com##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 msn.com###precontent:style(margin-top: 8rem !important;)
