@@ -1,11 +1,11 @@
-! Checksum: vJHa3pw7ShqjRuPbUZNY9Q
+! Checksum: TJ96T9gyW4pO0GAvQuO/PQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812031911
-! Last modified: Mon, 03 Dec 2018, 19:11:47 UTC+01
+! Version: 201812031915
+! Last modified: Mon, 03 Dec 2018, 19:15:09 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812031911 aktualizacja: pon, 03 gru 2018, 19:11:47 UTC+01
+! v.201812031915 aktualizacja: pon, 03 gru 2018, 19:15:09 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -428,12 +428,14 @@ powiatslubicki.pl$$#myModal
 pro-sprzet.pl$$#myWorning
 publikator.com.pl$$script[tag-content="polityka|zaufani"]
 pulawy.eu$$#modalRodo
+rome-easysolution.tk$$#modal-fade
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl,tuwroclaw.com,tulodz.com,zakopane.info$$#pd-modal
 sevenpolska.com$$#flipFlop
 sklepbiker.pl###rodoModal, .modal-backdrop
 sklepbiker.pl,galopuje.pl##.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 sklepbiker.pl,tvbraniewo24.pl,tvsztum.pl,tvregionalna24.pl$$#rodoModal
 skm.pkp.pl$$#dialog-message-rodo
+sp112.waw.pl$$.popmake-overlay[data-popmake*="cookies"]
 spolem.katowice.pl,wpr.pl,mdkkolbuszowa.pl$$#popup.modal
 styl.fm$$.rodo-info
 swiat-whisky.sklep.pl$$.POPUP_CONDITION
