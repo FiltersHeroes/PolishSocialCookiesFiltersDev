@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: biy4z6zjqIh2MO+W83/2qg
+! Checksum: QZLxZt+8EQsGOPtv/cwNng
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812041052
-! Last modified: Tue, 04 Dec 2018, 10:52:53 UTC+01
+! Version: 201812041100
+! Last modified: Tue, 04 Dec 2018, 11:00:39 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812041052 aktualizacja: wto, 04 gru 2018, 10:52:53 UTC+01
+! v.201812041100 aktualizacja: wto, 04 gru 2018, 11:00:39 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2257,19 +2257,20 @@ pl##[id^="topInfo"]:not(body):not(html)
 24opole.pl###div_cookie_accept
 auto-swiat.pl###termsPopup
 eskago.pl##div[class^="app_gdpr"]
-filmweb.pl##.cookieInfo, div.topBarCont
+filmweb.pl##div.topBarCont
 istotne.pl##.in.fade.modal, header.top, .in.fade.modal-backdrop, .notification-info.notification
 kupbilet.onet.pl##.alert-dismissible
 minecraftpolska.net##.cookieinfo
 mybank.pl##.ciasteczka
-rapidgrab.pl##.cc_banner
 shinden.pl##.as-oil-content-overlay
-strefabajek.vod.pl###cookie-bar
-sympatia.onet.pl###cookieInfo
 tvn24.pl###msgLayer
-webcamera.pl###catapult-cookie-bar
 wzory-cv.com##.gatewayBar
 zyciepabianic.pl###cookie-warn
+!filmweb.pl##.cookieInfo
+!rapidgrab.pl##.cc_banner
+!strefabajek.vod.pl###cookie-bar
+!sympatia.onet.pl###cookieInfo
+!webcamera.pl###catapult-cookie-bar
 !
 !
 ! Bugi Prebake
