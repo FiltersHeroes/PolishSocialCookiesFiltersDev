@@ -1,11 +1,11 @@
-! Checksum: 9KyAtZZG7Q5QW+5Bu3j8TQ
+! Checksum: 6MEX+cXUnwzu6ukU+NMHnA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812041229
-! Last modified: Tue, 04 Dec 2018, 12:29:12 UTC+01
+! Version: 201812042237
+! Last modified: Tue, 04 Dec 2018, 22:37:38 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812041229 aktualizacja: wto, 04 gru 2018, 12:29:12 UTC+01
+! v.201812042237 aktualizacja: wto, 04 gru 2018, 22:37:38 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -115,6 +115,8 @@ mkidn.gov.pl,puma.com##.modal-open:style(overflow: visible !important; padding-r
 msn.com###precontent:style(margin-top: 8rem !important;)
 msn.com##.head:style(margin-top: 0 !important;)
 multimediago.pl##.modal-cookie
+muzeumwspolczesne.pl##body:style(overflow: auto !important;)
+muzeumwspolczesne.pl###rodo_modal_window_mask, #cookies_modal_window_mask
 mzbm.tychy.pl###privacy-modal, .modal-backdrop
 mzk-torun.pl###fancybox-container-1:has(#policy_elem)
 mzk-torun.pl###fancybox-container-2:has(#policy_elem)
