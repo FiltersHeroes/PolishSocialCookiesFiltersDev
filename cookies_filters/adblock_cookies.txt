@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: w9eFQJgioiG/8CpvFQS/bQ
+! Checksum: aqQRcTJ9sgRJdMYHSml2aw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812041145
-! Last modified: Tue, 04 Dec 2018, 11:45:12 UTC+01
+! Version: 201812041149
+! Last modified: Tue, 04 Dec 2018, 11:49:39 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812041145 aktualizacja: wto, 04 gru 2018, 11:45:12 UTC+01
+! v.201812041149 aktualizacja: wto, 04 gru 2018, 11:49:39 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -691,7 +691,6 @@ kartunsy.pl###ait-infobar
 kartuzy.info##div#page_top_topbar2
 kentype.pl##div#ciasteczka-box
 kepno.pl###dhtml_popup
-ki24.info,ciechocinek.biz,gniewkowo.eu,pluznica.info,nizanskie.info,kolniak24.eu##.rodo-overlay:not(body):not(html)
 kiep.pl,milanos.pl,kreskowki.tv###rodo-pop
 kierunekspozywczy.pl,krsystem.pl,wislaportal.pl###cook, .cook
 kimovil.com###code_cookies
@@ -1563,6 +1562,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
 !jpg.pl,pinotv.pl,playa.pl,moblo.pl,slajdzik.pl,rusz.pl,osobie.pl,www.prv.pl###rodoInfoForm
 !jysk.pl##.cookiesBanner
+!ki24.info,ciechocinek.biz,gniewkowo.eu,pluznica.info,nizanskie.info,kolniak24.eu##.rodo-overlay:not(body):not(html)
 !klikmapa.pl,ulub.pl,wjo.pl,joe.pl,j6.pl,dai.pl,blogasek.pl,klikmapa.pl,blog4u.pl###rodo_all
 !kornik.pl,kamieniec.pl,duszniki.eu,muzeumkraszewskiego.pl,agrokakolewo.pl###CookiesInstro
 !krzysztofturzanski.pl,mediamass.pl,luxusowi.pl##.cookie_acceptance, .cookie_acceptance_background
@@ -1848,6 +1848,11 @@ pl###cookies-container:not(body):not(html)
 pl###cookies-disclaimer:not(body):not(html)
 pl###cookies-eu-banner:not(body):not(html)
 pl###cookies-info:not(body):not(html)
+pl###cookies-message-container:not(body):not(html)
+pl###cookies-message-div:not(body):not(html)
+pl###cookies-message-main:not(body):not(html)
+pl###cookies-message-src:not(body):not(html)
+pl###cookies-message:not(body):not(html)
 pl###cookies-notification:not(body):not(html)
 pl###cookies-overlay:not(body):not(html)
 pl###cookies-policy-popup:not(body):not(html)
@@ -2079,8 +2084,8 @@ pl##.wpgdprc-consent-bar:not(body):not(html)
 pl##.wrap-cookie-info:not(body):not(html)
 pl##[class*="cookie-policy"]:not(body):not(html)
 pl##[class^="box-cookie"]:not(body):not(html)
-pl##[id^="cookies-message"]:not(body):not(html)
 pl##[id^="topInfo"]:not(body):not(html)
+!pl##[id^="cookies-message"]:not(body):not(html)
 !###rodoInfo:not(body):not(html):not([style*="display: inline-block"])
 ##DIV[style*="background:url(images/cookies_tlo.png)"]
 ##DIV[style*="url(layout/cookies.png)"]
@@ -2091,7 +2096,6 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###CookieKomunikat:not(body):not(html)
 ###Informacja_o_ciasteczkach:not(body):not(html)
 ###Qookie:not(body):not(html)
-###RODOCOOKIE:not([aria-hidden]), .modal-backdrop
 ###ZATAKIEUSTAWYPOWINNIZAMYKAC:not(body):not(html)
 ###boxZgodaNaCookie:not(body):not(html)
 ###ciachoinfo:not(body):not(html)
