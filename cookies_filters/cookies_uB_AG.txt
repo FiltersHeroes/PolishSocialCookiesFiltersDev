@@ -1,11 +1,11 @@
-! Checksum: TJ96T9gyW4pO0GAvQuO/PQ
+! Checksum: Ek02OMUdPI3eQPtbkkwYjA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812031915
-! Last modified: Mon, 03 Dec 2018, 19:15:09 UTC+01
+! Version: 201812040845
+! Last modified: Tue, 04 Dec 2018, 08:45:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812031915 aktualizacja: pon, 03 gru 2018, 19:15:09 UTC+01
+! v.201812040845 aktualizacja: wto, 04 gru 2018, 08:45:31 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -257,6 +257,8 @@ porcelana.com.pl##+js(abort-on-property-read.js, alert, cookies)
 poszalu.pl###gdpr-modal, .modal-backdrop
 powiatslubicki.pl##+js(abort-current-inline-script.js, jQuery, #myModal)
 pro-sprzet.pl###myWorning, .modal-backdrop
+pruszczgdanski.pl###ifancybox-overlay115
+pruszczgdanski.pl##.ifancybox-margin, .ifancybox-lock, .ifancybox-lock body:style(overflow: auto !important; margin-right: 0 !important;)
 publikator.com.pl##.layer
 publikator.com.pl##body > *:style(filter: none !important;)
 publikator.com.pl##html > body:style(overflow: auto !important;)
@@ -350,6 +352,7 @@ porcelana.com.pl##^script:has-text(plików cookies)
 poszalu.pl##^#gdpr-modal
 powiatslubicki.pl##^#myModal
 pro-sprzet.pl##^#myWorning
+pruszczgdanski.pl##^#auto_popup
 publikator.com.pl##^script:has-text(polityka|zaufani)
 pulawy.eu##^#modalRodo
 radiobielsko.pl,webprojekt.biz##^script:has-text(#rodo)
@@ -426,6 +429,7 @@ powiatslubicki.pl###myModal, .modal-backdrop
 powiatslubicki.pl##.modal-open:style(overflow: auto !important;)
 powiatslubicki.pl$$#myModal
 pro-sprzet.pl$$#myWorning
+pruszczgdanski.pl$$#auto_popup
 publikator.com.pl$$script[tag-content="polityka|zaufani"]
 pulawy.eu$$#modalRodo
 rome-easysolution.tk$$#modal-fade
