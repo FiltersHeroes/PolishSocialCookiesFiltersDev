@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: RlprvAASTtQq+VUxREnMww
+! Checksum: UE9JOZy1AHqIUcSUCzIMBg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812042242
-! Last modified: Tue, 04 Dec 2018, 22:42:24 UTC+01
+! Version: 201812042318
+! Last modified: Tue, 04 Dec 2018, 23:18:39 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812042242 aktualizacja: wto, 04 gru 2018, 22:42:24 UTC+01
+! v.201812042318 aktualizacja: wto, 04 gru 2018, 23:18:40 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -112,7 +112,7 @@ artim.com.pl#?#td[valign="top"] > div[webpartid].ms-WPbody:-abp-contains(pliki c
 ascar-rent.pl###hellobar
 asd.pl##div[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;top: 0px;left: 0px;text-align: center;color: #000;border-bottom: 1px #000 solid;z-index: 1000;"]
 asklepios.pl##.cookies_show
-assecods.pl,szlot.pl,teatr-capitol.pl,wars.pl,kuratorium.bialystok.pl,kuratorium.krakow.pl,opowiecie.info##.spu-bg, .spu-total-
+assecods.pl###spu-22991, #spu-bg-22991
 astar.czest.pl##.lean-overlay
 atcdevelopment.pl,ginekolog-darlowo.pl,lek-med.pl###zgoda
 atlas-roslin.pl##.tytul > span
@@ -235,7 +235,7 @@ centrumreklamy.com###CookieInfoBlock
 centrum-marino.com,wroclaw.pl###cookie_zgoda
 cenum.pl##.cssmessage
 cepelia.com.pl,sandecja.tv,mcksokol.pl,muzeum.sacz.pl,sandecja.org###overflow-content
-certum.pl,elk.gmina.pl,koleje-wielkopolskie.com.pl##.spu-bg, .spu-box
+certum.pl###spu-3634, #spu-bg-3634
 chamsko.pl##div[class^="cookies"]
 chceauto.pl##.cookue
 chirurgia.plastyczna.eu##.cookie-info-cont
@@ -363,6 +363,7 @@ elektroonline.pl###ccc-state
 elektrozysk.pl,fajka24.pl,krups.com.pl,laznianowa.pl,linuxportal.pl,lovela.pl,lstsoft.com.pl,magazynpracy.pl,matoga.com.pl,metro2033.pl,mjm.com.pl,mocnopomocni.pl,mol.pl,motonotes.pl,nano-carbon.pl,noclegi24h.pl,oferia.pl,offsklep.pl,personnelsolutions.pl,piekielni.pl,pis.org.pl,polomarket.pl,popkorn.pl,quer.pl,radiofama.com.pl,reedukacja.pl,sklepbiegowy.com,sklepkoszykarza.pl,salonroman.pl,sanprobi-superformula.pl,siemianowice.pl,stopwariatom.pl,studentpotrafi.pl,swiat-agd.com.pl,szyj.pl,rckik.poznan.pl,vas.com.pl,westgate.com.pl,wszystkotujest.pl,zgodafc.pl,tge.com.pl##body > div:not([id]):not([class])
 elevensports.pl##.cookieNotice
 elka.pl,elka.tv,miedziowe.pl,miedziowe.tv###RODOZgoda
+elk.gmina.pl###spu-10427, #spu-bg-10427
 elopol.pl##div#black2
 elopol.pl,shop-dent.pl##div.ciacho-wrap-container
 emc-sa.pl###popup_rodo
@@ -718,6 +719,7 @@ kodilla.com##.cookies-prompt
 kokos.pl##.flashMessage
 kolejeslaskie.com##div#c_m
 kolejeslaskie.com###cookie-law
+koleje-wielkopolskie.com.pl###spu-bg-15688, #spu-15688
 kolorowychsnow.pl##.consent-cookie
 komfort.pl###intro_row, #kt-cookies
 kominki.org###cookieMsg, #popup-policy
@@ -753,6 +755,8 @@ kulturalnysklep.pl###ctl00_cq_divText
 kupbilet.pl##div#t3393f
 kupbilet.pl##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
 kupujemy.to,bip.skomlin.akcessnet.net###cookie_info
+kuratorium.bialystok.pl###spu-9294, #spu-bg-9294
+kuratorium.krakow.pl###spu-24921, #spu-bg-24921
 kuriergarwolinski.pl,fit-kids.pl,sopocki-zdroj.pl,waxclinic.pl###rodoInfo
 kurjerzy.pl,legia.net###cookies_policy
 kzgw.gov.pl###jcemediabox-popup-page, .cookie
@@ -1033,6 +1037,7 @@ operon.pl##.rodoModal
 opineo.pl,skapiec.pl##div#uclaInfo
 opoka.tv###eu-cookie-bar
 opony.net###cookiefy_bar
+opowiecie.info###spu-95603, #spu-bg-95603
 optomer.pl###GDPRInformationModal, .cookie-container
 optyczne.pl###id01
 orange.pl##.background
@@ -1342,6 +1347,7 @@ swps.pl###cpnb_warningBoxBgOverlay, [data-cookie-name="cookiesDirective"]
 szczecinek.com###__cmcmedia_upid_26
 szczepimy.com.pl##.cookiesalert
 szkolenia24h.pl##body > div[style]:not([id]):not([class]):nth-of-type(1)
+szlot.pl###spu-1873, #spu-bg-1873
 szostygracz.pl##div#cw_statusbar
 szpital-chrzanow.pl##.warp_top_message
 szukacz.pl###routerBox1
@@ -1352,6 +1358,7 @@ tatra.pl##.cookies-2-overlay, .popup-cookies-2
 tatuaze-wzory.com###showcookie
 tcz.pl###dynamic-load-rodo, #dynamic-loading-rodo
 teatrpalladium.com##.cppa
+teatr-capitol.pl###spu-4768, #spu-bg-4768
 techpedia.pl##.skyf1
 telefonylodz.com###iqitcookielaw
 telegazeta.pl##.tvp-covl-bg, .tvp-covl
@@ -1424,6 +1431,7 @@ wakacyjnipiraci.pl###tarteaucitronAlertBig
 wapteka.pl##.coo
 warka.com.pl###rodo_env
 warszawa.rzgw.gov.pl##.cookies_law
+wars.pl###spu-1773, #spu-bg-1773
 weather.com##.lite-msg-parent
 webcover.eu###box-polityka-pr
 webdev20.pl###top_message
