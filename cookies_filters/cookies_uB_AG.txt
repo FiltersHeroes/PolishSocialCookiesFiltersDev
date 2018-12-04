@@ -1,11 +1,11 @@
-! Checksum: p/ZBO+RMPKiPWEQOUEph4Q
+! Checksum: 9KyAtZZG7Q5QW+5Bu3j8TQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812041004
-! Last modified: Tue, 04 Dec 2018, 10:04:32 UTC+01
+! Version: 201812041229
+! Last modified: Tue, 04 Dec 2018, 12:29:12 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812041004 aktualizacja: wto, 04 gru 2018, 10:04:32 UTC+01
+! v.201812041229 aktualizacja: wto, 04 gru 2018, 12:29:12 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -253,7 +253,7 @@ poszalu.pl###gdpr-modal, .modal-backdrop
 powiatslubicki.pl##+js(abort-current-inline-script.js, jQuery, #myModal)
 pro-sprzet.pl###myWorning, .modal-backdrop
 pruszczgdanski.pl###ifancybox-overlay115
-pruszczgdanski.pl##.ifancybox-margin, .ifancybox-lock, .ifancybox-lock body:style(overflow: auto !important; margin-right: 0 !important;)
+pruszczgdanski.pl##.ifancybox-margin.ifancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
 publikator.com.pl##.layer
 publikator.com.pl##body > *:style(filter: none !important;)
 publikator.com.pl##html > body:style(overflow: auto !important;)
