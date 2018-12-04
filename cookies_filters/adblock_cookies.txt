@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: aKz3k1f8O0sQ9RT3770q7A
+! Checksum: F3/LAqj/FZwxUUfXSIK49A
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812042033
-! Last modified: Tue, 04 Dec 2018, 20:33:31 UTC+01
+! Version: 201812042043
+! Last modified: Tue, 04 Dec 2018, 20:43:49 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812042033 aktualizacja: wto, 04 gru 2018, 20:33:31 UTC+01
+! v.201812042043 aktualizacja: wto, 04 gru 2018, 20:43:49 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -405,6 +405,8 @@ e-butydladzieci.pl###coockiInfo
 e-dukacja.pl,e-farmacja.net##div:not([id]):not([class])[style^="width: 100%; padding: 15px; background: rgb(240, 235, 226); border-bottom: 1px solid rgb(131, 118, 99); border-top: 1px solid rgb(255, 255, 255);"]
 e-hak24.pl###cokkies
 e-hortico.pl###fancybox-container-1
+e-hotelarz.pl##.popup
+e-hotelarz.pl###header-cookies-accept
 e-konferencje.pl##body > div[style="width: 970px; border:1px solid gray; margin: 3px auto; color: gray; padding: 3px; text-align: center; font: 10px Verdana, sans-serif;"]
 e-konkursy.info###rodoNotify, .modal-backdrop, #cookieNotify
 e-kwiaciarz.pl##.ff-cookies-container
