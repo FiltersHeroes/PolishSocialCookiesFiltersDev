@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: XqiYsyujiEqQ6n2qqOmQVw
+! Checksum: 21MZKD+n6u4iEJ6xiLlnsQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812051534
-! Last modified: Wed, 05 Dec 2018, 15:34:13 UTC+01
+! Version: 201812051558
+! Last modified: Wed, 05 Dec 2018, 15:58:07 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812051534 aktualizacja: śro, 05 gru 2018, 15:34:13 UTC+01
+! v.201812051558 aktualizacja: śro, 05 gru 2018, 15:58:07 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -759,6 +759,7 @@ kuratorium.bialystok.pl###spu-9294, #spu-bg-9294
 kuratorium.krakow.pl###spu-24921, #spu-bg-24921
 kuriergarwolinski.pl,fit-kids.pl,sopocki-zdroj.pl,waxclinic.pl###rodoInfo
 kurjerzy.pl,legia.net###cookies_policy
+kuvert.com.pl###gdpr-cookie-message
 kzgw.gov.pl###jcemediabox-popup-page, .cookie
 kzkgop.com.pl,rozklady.kzkgop.pl##.container.in.fade
 kzkgop.pl###container > div:not([id]):not([class])
@@ -1164,6 +1165,7 @@ praktiker.pl##div.info_c_box
 prgm.pl###Layer25
 prideshop.pl##body > div:nth-of-type(1)
 primary-justpay.digitalvirgo.pl##coll-cookie-info
+producentkopert.pl###banner-cookies
 profilki.pl#?#.bc_white.centering.tile:-abp-has(img[src="/img/lay/maskotka_ciastko.png"])
 programyzadarmo.net.pl##.primary.floatingItem
 progrupa.com###progrupa_cookie_policy
