@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 21MZKD+n6u4iEJ6xiLlnsQ
+! Checksum: 3J94/Gg8mjPDQJ4xwAe6wg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812051558
-! Last modified: Wed, 05 Dec 2018, 15:58:07 UTC+01
+! Version: 201812051910
+! Last modified: Wed, 05 Dec 2018, 19:10:50 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812051558 aktualizacja: śro, 05 gru 2018, 15:58:07 UTC+01
+! v.201812051910 aktualizacja: śro, 05 gru 2018, 19:10:50 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -208,6 +208,7 @@ bryk.pl,interia.pl,pokazywarka.pl##.rodo-mini
 bsgoleniow.pl##.jsCookieInfo
 bsmyszkow.pl###system-message > .fade.message
 bspruszcz.pl###cookies-top
+bs.olawa.pl##.cookie
 budimex-nieruchomosci.pl,zoliborzkrasinskiego.pl###komRodo
 bugwie.com,virtual-it.pl,forum-bron.pl##.cookie-box
 buliba.pl###tooltip-hook
@@ -723,7 +724,7 @@ koleje-wielkopolskie.com.pl###spu-bg-15688, #spu-15688
 kolorowychsnow.pl##.consent-cookie
 komfort.pl###intro_row, #kt-cookies
 kominki.org###cookieMsg, #popup-policy
-komputerymarkowe.pl,pizza-express.pl,omegasoft.pl##.ui-widget.ui-dialog
+komputerymarkowe.pl,pizza-express.pl,omegasoft.pl,pupbelchatow.pl##.ui-widget.ui-dialog
 komputery-kalwaria.pl,oczamimlodych.pl##body > center:nth-of-type(1)
 komp-net.eu###xrootCookieRules
 komugroup.eu###pop-up-modal
