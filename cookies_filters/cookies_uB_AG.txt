@@ -1,11 +1,11 @@
-! Checksum: xSspPAZRlIOhLiuOEjs8xw
+! Checksum: da+DwQcmlYnvglQio/sbKg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812052024
-! Last modified: Wed, 05 Dec 2018, 20:24:33 UTC+01
+! Version: 201812052046
+! Last modified: Wed, 05 Dec 2018, 20:46:56 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812052024 aktualizacja: śro, 05 gru 2018, 20:24:33 UTC+01
+! v.201812052046 aktualizacja: śro, 05 gru 2018, 20:46:56 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -167,6 +167,9 @@ sonymobile.com##.bnw-module.header[style="margin-top: 80px;"]:style(margin-top: 
 szpitalnawrzesinie.pl###gafancybox-overlay122
 teatrpolski.waw.pl##.fancybox-overlay:has(#privacyPolicy)
 telepizza.pl##.navbar:style(margin-top: 0 !important;)
+totalcasino.pl##.fn-overlay
+totalcasino.pl##.fn-popups:if-not(.age-verification-popup)
+totalcasino.pl##.preventScrolling:style(position: static !important; overflow: auto !important;)
 translate.google.pl###gba:style(height: 60px !important;)
 trendyradio.pl###fancybox-container-1:has(#rodo_1)
 tureckisklep.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#conditions_condition button.acceptCondition)
