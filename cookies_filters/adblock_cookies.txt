@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ZWz+H4UImI9nGxskjIGlhA
+! Checksum: 2wWZGQShDkWt4Q2QPxdZwg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812051939
-! Last modified: Wed, 05 Dec 2018, 19:39:40 UTC+01
+! Version: 201812052002
+! Last modified: Wed, 05 Dec 2018, 20:02:43 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812051939 aktualizacja: śro, 05 gru 2018, 19:39:40 UTC+01
+! v.201812052002 aktualizacja: śro, 05 gru 2018, 20:02:43 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -149,6 +149,7 @@ bdl.lasy.gov.pl###infoDiv
 bebio.pl##.rodo-canvas-wrapper
 becek.pl###preloadm-rodo, #preloadb
 bejeans.pl###js-cookienotice
+belutti.com##.fk-cookies
 beskidzkapilka.pl##.messageinfo
 betsson.com###MsgAreaBottom
 bialapodlaska.pl##.accept-cookies
@@ -275,6 +276,7 @@ culture.pl##.Cookie--top.Cookie
 cyanmod.pl##.cm-message, .ipsfocus_globalMessage
 cyberbajt.pl##div#message0
 cyfrowarepublika.pl,energoekspert.com.pl###system-message
+czarno-biale.pl##[aria-describedby="rodo-popup"], .ui-widget-overlay
 czasdzieci.net##DIV[style="width:100%;position:fixed;bottom:0;background-color:#f5f5f5;padding:13px 25px 20px;font-size:13px;z-index:200;box-shadow:0 0 10px rgba(0,0,0,0.3);"]
 czechtourism.com###eu_cookie
 czekoladacortez.pl,garwolin-starostwo.pl,gniezno24.com,mania4x4.pl,orpeg.pl##.activebar-container
