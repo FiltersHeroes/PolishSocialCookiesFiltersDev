@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 2wWZGQShDkWt4Q2QPxdZwg
+! Checksum: SPkvi0UGcXP+6C2yyoVxag
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812052002
-! Last modified: Wed, 05 Dec 2018, 20:02:43 UTC+01
+! Version: 201812052014
+! Last modified: Wed, 05 Dec 2018, 20:14:44 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812052002 aktualizacja: śro, 05 gru 2018, 20:02:43 UTC+01
+! v.201812052014 aktualizacja: śro, 05 gru 2018, 20:14:44 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -511,7 +511,7 @@ gck-szczurowa.pl#?#div[style^="font-size:12px; background:rgb(255, 241, 168); "]
 gct.pl###xrootRODO
 gdsport.pl###rodo-policy-banner
 gdziewpolsce.pl##DIV[style="width: 100%; height: 85px; position: fixed; bottom: 0px; background: url(\"http://theateam.pl/cookie-alert/low_contrast_linen.png\") repeat scroll 0px 0px transparent; box-shadow: 0px 0px 10px rgb(0, 0, 0) inset; border-top: 1px solid rgb(71, 71, 71); border-bottom: 1px solid rgb(71, 71, 71); display: block;"]
-geekbuying.com##.gdpr-cookie
+geekbuying.com,geekbuying.pl##.gdpr-cookie
 generali.pl##div#cLayer
 generatorkodowkreskowych.pl,kalendarz-roku-szkolnego.edu.pl###cn
 generator.blulink.pl##.privatepolicy
@@ -567,6 +567,7 @@ grene.pl,salesmanago.pl,turek.net.pl##.popup
 groman.pl,hotelboss.pl,jellinek.pl,zoo.wroclaw.pl###okno_18only
 groupon.pl##div#jOftLayer
 grupazywiec.pl###apollo-bar
+gry.lotto.pl###cookie__note
 gsbk.pl,klinika.krakow.pl###ci
 gsmonline.pl##div[id*="jGrowl"][class*="bottom-right"]
 gsmonline.pl,wiif.nowybip.pl,zuromin.ibip.net.pl###jGrowl
@@ -652,6 +653,7 @@ investmap.pl##.popup-back, .popup-rodo, .cookie
 inwestinfo.pl##div[style="position:fixed;bottom:0px;width:100%;height:65px;border:#c0c0c0 1px solid; text-align:center;padding:5px;background:#e7e7e7;"]
 ioki.pl,lubartow24.pl##.bg-warning
 iom.pl###cooker
+iposto.com###cookie-message-box
 isms.pl###skel-panels-pageWrapper > div[name="cookie_info"]
 isok.gov.pl##.message_div_cookie
 istebna.org###cookie_alert
