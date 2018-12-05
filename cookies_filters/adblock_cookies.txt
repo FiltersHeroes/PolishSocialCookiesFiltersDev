@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ceGlhTdxSogHtFq0yCnQZw
+! Checksum: iT3IJ+QRHk0zU0CDNRl9ZA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812051303
-! Last modified: Wed, 05 Dec 2018, 13:03:45 UTC+01
+! Version: 201812051513
+! Last modified: Wed, 05 Dec 2018, 15:13:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812051303 aktualizacja: śro, 05 gru 2018, 13:03:45 UTC+01
+! v.201812051513 aktualizacja: śro, 05 gru 2018, 15:13:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1181,6 +1181,9 @@ pttk.katowice.pl###cookBox
 publio.pl###cookie-agreement
 puk.elk.pl###AgreeCookieMsg
 pulawy.eu###modalRodo, .modal-backdrop
+pupgrodziskwlkp.pl###fancybox-overlay
+pupgrodziskwlkp.pl##.cookies_bar
+pupgrodziskwlkp.pl#?##fancybox-wrap:-abp-has(img[src="/ckeditor_assets/pictures/197/content_informacja_rodo.png"])
 pushpushgo.com##.ppg-cookies
 pwik.wolomin.pl###oknoModal
 pw.edu.pl##.lb-overlay, .lb-wrapper
