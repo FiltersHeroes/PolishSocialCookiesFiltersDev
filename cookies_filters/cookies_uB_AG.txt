@@ -1,11 +1,11 @@
-! Checksum: da+DwQcmlYnvglQio/sbKg
+! Checksum: tqi+E0h8PjL3zEBRUHyY/Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812052046
-! Last modified: Wed, 05 Dec 2018, 20:46:56 UTC+01
+! Version: 201812060926
+! Last modified: Thu, 06 Dec 2018, 09:26:43 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812052046 aktualizacja: śro, 05 gru 2018, 20:46:56 UTC+01
+! v.201812060926 aktualizacja: czw, 06 gru 2018, 09:26:43 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -246,6 +246,9 @@ listymikolaja.pl,swiat-whisky.sklep.pl##.fancybox-margin:style(margin-right: 0 !
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 lovekrakow.pl,muzyczneradio.pl###modal-rodo, .modal-backdrop
 money.pl##+js(nano-remove-elements-onready.js, .rodo-popup)
+muzeumazji.pl###rodo-info
+muzeumazji.pl##+js(abort-current-inline-script.js, $, doRODO)
+muzeumazji.pl##.blur:style(filter: none !important;)
 norgips.pl###cookiemodal
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 okazik.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
@@ -339,6 +342,7 @@ lipinscy.pl##^#popRodoInfoContent
 listymikolaja.pl##^#popup_rodo_layer
 lovekrakow.pl,muzyczneradio.pl##^#modal-rodo
 motobanda.pl##^#rodo
+muzeumazji.pl##^script:has-text(doRODO)
 natura2000.gdos.gov.pl##^#apla-banner
 norgips.pl##^#cookiemodal
 ogloszenia.plock.pl##^#dialog-rodo
@@ -414,6 +418,7 @@ lipinscy.pl$$#popRodoInfoContent
 listymikolaja.pl$$#popup_rodo_layer
 lovekrakow.pl$$#modal-rodo
 motobanda.pl$$#rodo
+muzeumazji.pl$$script[tag-content="doRODO"]
 muzyczneradio.pl$$#modal-rodo
 natura2000.gdos.gov.pl$$#apla-banner
 norgips.pl$$#cookiemodal
