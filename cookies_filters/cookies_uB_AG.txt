@@ -1,11 +1,11 @@
-! Checksum: tqi+E0h8PjL3zEBRUHyY/Q
+! Checksum: bw+2v7SNCq+FpYLg12M1Ew
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812060926
-! Last modified: Thu, 06 Dec 2018, 09:26:43 UTC+01
+! Version: 201812061443
+! Last modified: Thu, 06 Dec 2018, 14:43:01 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812060926 aktualizacja: czw, 06 gru 2018, 09:26:43 UTC+01
+! v.201812061443 aktualizacja: czw, 06 gru 2018, 14:43:01 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -168,7 +168,7 @@ szpitalnawrzesinie.pl###gafancybox-overlay122
 teatrpolski.waw.pl##.fancybox-overlay:has(#privacyPolicy)
 telepizza.pl##.navbar:style(margin-top: 0 !important;)
 totalcasino.pl##.fn-overlay
-totalcasino.pl##.fn-popups:if-not(.age-verification-popup)
+totalcasino.pl##.fn-popups:has(.gdpr-popup)
 totalcasino.pl##.preventScrolling:style(position: static !important; overflow: auto !important;)
 translate.google.pl###gba:style(height: 60px !important;)
 trendyradio.pl###fancybox-container-1:has(#rodo_1)
