@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: bCc8AbNWFW1q9SYLSwLHUA
+! Checksum: Ycz3txS0okwYBr1NMOpMpw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812052222
-! Last modified: Wed, 05 Dec 2018, 22:22:15 UTC+01
+! Version: 201812060915
+! Last modified: Thu, 06 Dec 2018, 09:15:17 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812052222 aktualizacja: śro, 05 gru 2018, 22:22:15 UTC+01
+! v.201812060915 aktualizacja: czw, 06 gru 2018, 09:15:17 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -352,6 +352,7 @@ economist.com##div#ec-message-1
 eco.atman.pl,kreskoweczki.pl,groj.pl,marketing-news.pl,www.obozytenisowe.pl###gbpl_oba
 edarling.pl,foto4u.pl,himountain.pl,opteam.pl,praktiker.pl,smakizycia.pl,zoover.pl###infobarDiv, #infobar, .infobar, #info-bar, #info_c_box, .info-message
 edukacja.rybnik.eu,polskaekologia.org##.cookieWarning
+edutorial.pl###wmpci-popup-wrp
 eecpoland.eu##.cookie-bar2
 eena.pl###whole_page_loader
 egrafik.pl###cookies1
@@ -1633,6 +1634,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 /rhododendron/css/rhododendron-popup.css$domain=abctygodnik.pl|wgospodarce.pl|wpolsce.pl
 /rodo.js$domain=discopolomusic.pl|geekweek.pl|mowianamiescie.pl|obi.pl|playa.pl|polsat.pl|polsat1.pl|polsat2.pl|polsatcafe.pl|polsatfilm.pl|polsatnews.pl|polsatplay.pl|poszkole.pl|reklamowy-sklep.pl|superstacja.tv|tv4.pl|tv6.com.pl
 /wp-content/plugins/mm-extensions/assets/js/info-popup.js$domain=koty.pl|psy.pl
+/wp-content/plugins/wp-modal-popup-with-cookie-integration/*$script,stylesheet,domain=edutorial.pl
 ||ad.ipolska.pl/cookies/cookiecheck.js$script,domain=wielodzietni.org
 ||ad.prv.pl/rodo.js
 ||apteki24.waw.pl/info_cook.js
