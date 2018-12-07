@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: NNLsF/OD1s55QI+UzkHBJw
+! Checksum: WeovEurZ3v8P06wYc8bNLA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812071331
-! Last modified: Fri, 07 Dec 2018, 13:31:55 UTC+01
+! Version: 201812071538
+! Last modified: Fri, 07 Dec 2018, 15:38:52 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812071331 aktualizacja: pią, 07 gru 2018, 13:31:55 UTC+01
+! v.201812071538 aktualizacja: pią, 07 gru 2018, 15:38:52 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1004,7 +1004,6 @@ ninateka.pl##.popup--festival
 niniwateam.pl##div[style="background-color: rgb(255, 230, 173); color: rgb(0, 0, 102); position: fixed; top: 0px; width: 100%; padding: 10px; font-size: 12px; "]
 nitro.to###cookie_policies
 nivea.pl##.bdf-cookie-policy-popup
-njumobile.pl###cookies-acceptance
 nobiles.pl##.cookies__alert
 noblehealth.pl##.cookie-promotion
 nokaut.pl###GDPRModal
@@ -1616,6 +1615,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !logistyka.net.pl###info-cookies
 !lowicz.eu,filter-service.eu,fast4net.pl,sklep.citymask.eu,kasalotnicza.pl,knopikowka.pl,amitor.pl,bazaspa.pl###warstwa_cookie
 !mojemazury.pl,kurierostrolecki.pl,wm.pl,przyszloscdladzieci.org,familie.pl,naszolsztyniak.pl,gazetaolsztynska.pl,kuriermlawski.pl,kurierprzasnyski.pl,kuriermakowski.pl,kurierzurominski.pl,planetawiedzy.pl,refericon.pl###rodoinfo
+!njumobile.pl###cookies-acceptance
 !pirc.org.pl,appleworld.pl###pronamic_cookie_holder
 !pokatne.pl###cookies_compliance
 !polityka.pl##.md-cookie-warning
@@ -1887,6 +1887,7 @@ pl###cookiesinfo:not(body):not(html)
 pl###cookieslaw:not(body):not(html)
 pl###cookiesnotify:not(body):not(html)
 pl###cookiespopup-layer:not(body):not(html)
+pl###cookies-acceptance:not(body):not(html):not(button)
 pl###cookies-accept:not(body):not(html)
 pl###cookies-agree:not(body):not(html)
 pl###cookies-banner:not(body):not(html)
