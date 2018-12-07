@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: o3e55CcjOc/uhqCYXRHmpQ
+! Checksum: flWq0t/Jq/Ln3qDGQk32SQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812072145
-! Last modified: Fri, 07 Dec 2018, 21:45:07 UTC+01
+! Version: 201812072151
+! Last modified: Fri, 07 Dec 2018, 21:51:29 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812072145 aktualizacja: pią, 07 gru 2018, 21:45:07 UTC+01
+! v.201812072151 aktualizacja: pią, 07 gru 2018, 21:51:29 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2299,12 +2299,14 @@ gg.pl#@#body > div:nth-of-type(2) > div
 ! Wyjątki
 allegro.pl,paradoxplaza.com#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
+fabrykacukiernika.pl#@#.rodo-popup:not(body):not(html)
 gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section)
 lomza.pl#@##komunikat-cookie:not(body):not(html)
 naekranie.pl#@##polityka-cookies:not(body):not(html)
 opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
 orange.pl,paradoxplaza.com#@##cookies-info:not(body):not(html)
 tychy.geminipark.pl#@#.privacy-policy:not(body):not(html)
+umig.olkusz.pl#@##ca_banner:not(body):not(html)
 vod.naekranie.pl#@##cookie-notice:not(body):not(html)
 vod.naekranie.pl#@##modal-rodo-info, .reveal-modal-bg
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
@@ -2317,6 +2319,7 @@ wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 !pamiatki.pl#@#[id*="cookie_"]:not(body):not(html)
 !piekarniaanka.pl,xboxarcade.pl,appki.com.pl,tylesmiechu.pl,neon24.pl,norauto.pl,orange.pl#@#:not(input)[id*="Cookie"]
 !wsensie.pl#@#.policy-box:not(body):not(html)
+@@/js/CookieInfo.js$script,domain=topschool.pl
 @@/js/jquery.cookie.min.js$domain=rozklad.pkp.pl|rozklad-pkp.pl|ubi.com|telepizza.pl|playrust.io|nudelle.com|pokatne.pl
 @@/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$domain=escaperooms.pl|xboxarcade.pl|naziemna.info|3dwpraktyce.pl|tvs.pl|przegladbaltycki.pl|wypowiadamoc.pl|gazetabilgoraj.pl|serialowy.info|ittechblog.pl
 @@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
