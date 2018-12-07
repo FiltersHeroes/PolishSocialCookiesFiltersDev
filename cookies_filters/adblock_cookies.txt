@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: EhfKu1DxB2IkQO22UEqL/Q
+! Checksum: lTB8TsoAwSKaJPDFh33x+A
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812071553
-! Last modified: Fri, 07 Dec 2018, 15:53:30 UTC+01
+! Version: 201812071703
+! Last modified: Fri, 07 Dec 2018, 17:03:18 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812071553 aktualizacja: pią, 07 gru 2018, 15:53:30 UTC+01
+! v.201812071703 aktualizacja: pią, 07 gru 2018, 17:03:18 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -29,6 +29,7 @@
 4hifi.pl,advatus.pl,tylkodywan.pl,ip-sa.pl##.myModal-box
 4lomza.pl,ubojnia-skad.pl###komunikat_rodo
 24jgora.pl###myModal_cookie
+24opole.pl###div_cookie_accept
 40latki.pl###noty_bottom_layout_container
 40ton.net,nowy-sacz.info###catapult-cookie-bar
 99rent.pl##.region-rodo-info
@@ -1417,6 +1418,7 @@ trovit.pl###welcomebar-wrapper
 truckstore.com##.tso-popup-footer, .tso-popup-overlay
 ttv.pl###msgLayer
 tugazeta.pl###komunikat_ciastka
+tvn24.pl###msgLayer
 tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvs.pl##.RodoNotyfication
 twitch.tv##.gdpr-consent-banner, .butterBar
@@ -2274,18 +2276,12 @@ pl##[id^="topInfo"]:not(body):not(html)
 !
 !
 ! Blokowanie elementów po zastosowaniu generichide
-24opole.pl###div_cookie_accept
 auto-swiat.pl###termsPopup
 eskago.pl##div[class^="app_gdpr"]
-filmweb.pl##div.topBarCont
-istotne.pl##.in.fade.modal, header.top, .in.fade.modal-backdrop, .notification-info.notification
-kupbilet.onet.pl##.alert-dismissible
+istotne.pl##.notification-info.notification
 minecraftpolska.net##.cookieinfo
 mybank.pl##.ciasteczka
-shinden.pl##.as-oil-content-overlay
-tvn24.pl###msgLayer
 wzory-cv.com##.gatewayBar
-zyciepabianic.pl###cookie-warn
 !filmweb.pl##.cookieInfo
 !rapidgrab.pl##.cc_banner
 !strefabajek.vod.pl###cookie-bar
