@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: KZMhOKhqY9U8RMfTDoQApA
+! Checksum: IDo3Vc0C1X78GoIb+VNeVA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812082309
-! Last modified: Sat, 08 Dec 2018, 23:09:26 UTC+01
+! Version: 201812082328
+! Last modified: Sat, 08 Dec 2018, 23:28:11 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812082309 aktualizacja: sob, 08 gru 2018, 23:09:26 UTC+01
+! v.201812082328 aktualizacja: sob, 08 gru 2018, 23:28:11 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -661,7 +661,8 @@ inoreader.com##.landing_promo_banner_top
 inpay.pl##.ckcontent
 inpoland.net.pl##.inpoland-privacy, .inpoland-modal-background
 insert.com.pl###privacyAndCookiePolicy
-instagram.com#?#body > span > section > div:nth-of-type(1):-abp-has(.coreSpriteDismissLarge)
+instagram.com#?#body > span#react-root > section > div[class]:-abp-has(.coreSpriteDismissLarge)
+instagram.com#?#body > span#react-root > section > nav > div > div > div[class]:-abp-has(.coreSpriteDismissLarge)
 instytutlogopedyczny.pl###flash-msg
 interprojekt.pl###myModal, .modal-backdrop, .reveal-modal-bg
 intymna.pl###sb_bottom_float, #wymagania_sklepu_alert
@@ -1649,6 +1650,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !wil.org.pl##.cookiesBox
 !wio.waw.pl,ciechanowinaczej.pl,lowicz24.eu,szczecinek.com,ototorun.pl,ddb24.pl,lipno-cli.pl,brodnica-cbr.pl,golub-cgd.pl,rypin-cry.pl,wabrzezno-cwa.pl,wolomin24.info,zambrow.org,izoliborz.pl,ibielany.pl,twojradom.pl,itvpiaseczno.pl,iotwock.info,plonszczak.pl,egarwolin.pl,izyrardow.pl,ipragapoludnie.pl###RODOCOOKIE, .modal-backdrop
 !www.hiszpanskidlapolakow.com###gdpr-disclaimer
+!www.instagram.com##.lOPC8
 !
 !
 ! Specyficzne reguły blokujące
