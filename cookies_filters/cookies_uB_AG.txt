@@ -1,11 +1,11 @@
-! Checksum: Zk3tqffqX/py9DcScuttJg
+! Checksum: arjc0ufrSNGNxBfVGJp8aQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812081755
-! Last modified: Sat, 08 Dec 2018, 17:55:08 UTC+01
+! Version: 201812081814
+! Last modified: Sat, 08 Dec 2018, 18:14:06 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812081755 aktualizacja: sob, 08 gru 2018, 17:55:08 UTC+01
+! v.201812081814 aktualizacja: sob, 08 gru 2018, 18:14:06 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -23,6 +23,8 @@
 7ryb.pl,etransport.pl##body.dimmed:style(overflow: auto !important;)
 abcalkoholu.pl##.cookielaw:style(padding-top: 0 !important;)
 abczdrowie.pl,autokult.pl,dobramama.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,jejswiat.pl,kafeteria.pl,kafeteria.tv,komorkomania.pl,luxlux.pl,medycyna24.pl,mixer.pl,money.pl,nocowanie.pl,o2.pl,open.fm,parenting.pl,pinger.pl,pogodnie.pl,pudelek.pl,pytamy.pl,samosia.pl,smog.pl,snobka.pl,testwiedzy.pl,~sportowefakty.wp.pl,wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, default.setTimeout)
+adexemplum.com##.mfp-wrap, .mfp-bg
+adexemplum.com,fastdeal.pl,zsgarwolin.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 agrosystems.pl##body:style(overflow: auto !important;)
 agrosystems.pl##.modal-rodo
 airdron-polska.pl,paralympic.org.pl##+js(nano-remove-elements-onready.js, .popmake-overlay[data-popmake*="cookies"])
@@ -30,7 +32,7 @@ airdron-polska.pl,paralympic.org.pl##.pum-open body > [aria-hidden]:style(paddin
 albeco.com.pl###content:style(filter: none !important;)
 albeco.com.pl###pol-background, #pol-c
 analizy.pl##.nl_rodo, .ui-widget-overlay
-analizy.pl,mago.com##html:style(overflow: auto !important;)
+analizy.pl,mago.com,edupolis.pl##html:style(overflow: auto !important;)
 appsource.microsoft.com##.cookieBanner:style(visibility: hidden !important;)
 aquapark.wroc.pl###header:style(top: 0 !important;)
 archiwum.rp.pl,info.rp.pl##body:style(margin-top: 0 !important;)
@@ -63,14 +65,12 @@ drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl
 dropbox.com##.embedded-app.IndexRebrandPage.top-notification-bar:style(margin-top: -51px !important;)
 dropbox.com##.top-notification-bar-container + .preview-box .react-file-viewer, .embedded-app.IndexRebrandPage.top-notification-bar .RebrandNavigation-container:style(top: 0 !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
-edupolis.pl##html:style(overflow: auto !important;)
 edupolis.pl###sgpb-popup-dialog-main-div-wrapper, .sg-popup-overlay
 e-sochaczew.pl###RODOCOOKIE, .modal-backdrop
 farmacja.net##.blur:style(filter: none !important;)
 farmacja.net##.noscroll:style(overflow: auto !important;)
 farmacja.net##.zgoda-popup-wrapper, .popup-overlay
 fastdeal.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
-fastdeal.pl,zsgarwolin.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: auto !important;)
 filmweb.pl##.rodo:style(overflow: auto !important; position: static !important;)
