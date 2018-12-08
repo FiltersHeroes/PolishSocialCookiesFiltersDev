@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: IMRwmNt7m+V4HZSv5UFhaQ
+! Checksum: i7mLy9dANqAY6mdOsmkFPQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812082052
-! Last modified: Sat, 08 Dec 2018, 20:52:43 UTC+01
+! Version: 201812082131
+! Last modified: Sat, 08 Dec 2018, 21:31:12 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812082052 aktualizacja: sob, 08 gru 2018, 20:52:43 UTC+01
+! v.201812082131 aktualizacja: sob, 08 gru 2018, 21:31:12 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -685,6 +685,7 @@ jajco.pl##div[id*="n-cookies-notification"]
 jakbudowac.pl##.dialog-fixed
 jakikredyt.pl##.popup--open
 jak-ksiegowac.pl###message_wrap
+jarek-kefir.org###eu-cookie-law
 jarocinska.pl,gostynska.pl,zpleszewa.pl,rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 jarocin.poznan.lasy.gov.pl##div#aui_3_2_0_1203
 jazzfestiwal.kck.com.pl###system-message > .fade.message.notice > ul > li
@@ -814,6 +815,7 @@ lexus-polska.pl,portale-randkowe-ranking.pl##.disclaimer
 lg.com##.policyChk
 lg.com##.agree-cookie-wrap
 licytacje.komornik.pl###sign_up, body > div[style*="margin-top: 100px"]
+limango-outlet.pl##.lilayout-header-cookiebar
 limango.pl##.floating_notification
 limanowa.in,parkerpen.com###cookiesdirective
 linuxiarz.pl###colophon
@@ -1048,6 +1050,7 @@ oksir.eu###cac
 oktawave.com###gdprbox
 okulary.szkla.com##div#polityka_prywatnosci
 old.reddit.com###eu-cookie-policy
+olgasmile.com###catapult-cookie-bar
 olimpiasport.pl##div#sek_cstk_inf
 olsztyn.com.pl##.rodoaccept
 olympusclub.pl###navbar_notice_192
@@ -1442,6 +1445,7 @@ tygodnikzamojski.pl,starachowice-net.pl###rodo-message
 tylkohity.pl##.cm_open
 tymrazemglosuje.eu###cookiespolicymessage
 udemy.com##[data-module-id="eu-cookie-message"]
+uksw.edu.pl###cadre_alert_cookies
 uk.ign.com##div#policyNotice
 um.jaslo.pl,adeste.eu##.cp-info-bar
 unilink.pl##.windov_front_new_text
@@ -1731,7 +1735,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 ||satelita.phorum.pl/cookiebanner.js
 ||siemashop.pl/assets/*/js/cookie_agreement.js$script
 ||skryptcookies.pl^$third-party
-||static.quantcast.mgr.consensu.org/*/cmpui-banner.js$domain=memy.pl|pwn.pl|translatica.pl|tv.eurosport.pl
+||static.quantcast.mgr.consensu.org/*/cmpui-banner.js$domain=memy.pl|pwn.pl|translatica.pl|tv.eurosport.pl|krokdozdrowia.com
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
 ||std.wpcdn.pl/wpjslib/*/wpjslib-chunk-notification.js
 ||tinder.com/static/build/chunks/CookiePolicyBanner-*.js
