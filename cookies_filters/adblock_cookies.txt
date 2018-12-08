@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: wDrqvabhx/4yuo7GJxXQqQ
+! Checksum: Us2gHbAwsNhff3OSotEw9g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812072239
-! Last modified: Fri, 07 Dec 2018, 22:39:06 UTC+01
+! Version: 201812081759
+! Last modified: Sat, 08 Dec 2018, 17:59:12 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812072239 aktualizacja: pią, 07 gru 2018, 22:39:06 UTC+01
+! v.201812081759 aktualizacja: sob, 08 gru 2018, 17:59:12 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -971,6 +971,7 @@ nanodatex.pl###cookis-box
 napad.pl###pp-cookies-container
 naprzedwiosniu.waw.pl###zf--alerts-panel
 naratunek.org###rodo, .modal-backdrop
+nastopy.pl##.rodo, .mask
 natemat.pl,aszdziennik.pl,mamadu.pl,innpoland.pl,warszawawpigulce.pl,joemonster.org,stylowi.pl,kotburger.pl,faktopedia.pl,komixxy.pl,demotywatory.pl,poki.pl,strawpoll.me,pl.namemc.com##div[class^="app_gdpr"]
 natgeotv.com###cookieBar
 naturo.pl###simple-modal, #simple-modal-overlay
@@ -1570,6 +1571,7 @@ zebrasbox.pl##.alert-dismissible.alert-warning.alert
 zegarkiipasja.pl###fcx-cookie-consent
 zepsute.pl###overlay_uv, #uv_box_data
 zgorzelec.info##.l-cookie-law
+zgryz.com###ciachomed
 ziaja.com###cookies-info
 zibi.pl###popup-outside
 zinfo.pl###iod-message
