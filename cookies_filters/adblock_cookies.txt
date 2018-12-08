@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: QBR5BqPwCqzfPMVhpv8WUA
+! Checksum: yHHZlh1bBQp4NknlVEDGKQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812081821
-! Last modified: Sat, 08 Dec 2018, 18:21:35 UTC+01
+! Version: 201812081848
+! Last modified: Sat, 08 Dec 2018, 18:48:01 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812081821 aktualizacja: sob, 08 gru 2018, 18:21:36 UTC+01
+! v.201812081848 aktualizacja: sob, 08 gru 2018, 18:48:01 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -91,6 +91,7 @@ al.to,x-kom.pl###popup-cookie
 amarone.pl###bannerMSG
 amazon.de###desktop-cookie-disclosure
 americanexpress.com###cookie_Header
+amica.pl###cookie_confirmation
 amix.pl###policy
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl###popup
 amundi.pl,biodiv.gdos.gov.pl###disclaimer
@@ -330,6 +331,7 @@ dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;pos
 dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,tubawyszkowa.pl,tubaostrowa.pl,tubachorzowa.pl,pracownia.org.pl,ptbs.pl,terramar.pl##.rodo
 dreammachines.pl##.modal-backdrop
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
+drukcyfrowygamma.pl,oifp.eu##.cookies-notice
 drumshop.pl###cookiesblock-wrapper
 dstreet.pl###ToplayerConsent, #ToplayerCover
 dukapolska.com,onlinekredyty.pl,legnica.pl,zory.dlawas.pl,duka.com###popupdiv
@@ -366,6 +368,7 @@ ekosalus.pl,szarakomorka.pl###DIVwelcome
 ekoserwis.poznan.pl,studiorolety.pl##.content-head-information
 ekstraklasa.org###cookiesPolicy
 eldom.eu,iletutego.eu###cookie-alert
+electrolux.pl##.CookieConsent
 elektroda.pl##div#top2
 elektroinstalacje.info###cookie-control
 elektroonline.pl###ccc-state
@@ -1039,7 +1042,6 @@ ogloszeniachojnice.com##.show.fade.alert-dismissible.alert-info.text-center.aler
 ogloszenia.e-gratka.info##div#pojemnik
 ogloszenioteka.pl##.bottom_notice
 ogrzewanie-elektryczne.pl###oknoPopUp, #tloPopUp
-oifp.eu##.cookies-notice
 oko.press##.cookie-message
 oksir.eu###cac
 oktawave.com###gdprbox
@@ -1127,7 +1129,7 @@ pl.mytaxi.com##.cookie-overlay
 pl.next-jobs24.com###container, #container_tmp
 pl.pinterest.com##.outerCookieBar
 pl.pons.com,languagetool.org##.cc_banner-wrapper
-pl.sat24.com###cookie-message
+pl.sat24.com,zelmer.pl###cookie-message
 pl.sputniknews.com###cookieContainer
 pl.tripadvisor.com##.ppr_priv_document_cookie_banner
 pl.twich.tv##div#noty_bottomCenter_layout_container
