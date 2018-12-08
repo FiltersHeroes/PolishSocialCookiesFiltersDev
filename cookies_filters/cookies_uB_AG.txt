@@ -1,11 +1,11 @@
-! Checksum: iB5P4knNrNzRFiXiqeUm7w
+! Checksum: jbf8+VT/HNHiFV/87nBvaw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812082039
-! Last modified: Sat, 08 Dec 2018, 20:39:57 UTC+01
+! Version: 201812082149
+! Last modified: Sat, 08 Dec 2018, 21:49:22 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812082039 aktualizacja: sob, 08 gru 2018, 20:39:57 UTC+01
+! v.201812082149 aktualizacja: sob, 08 gru 2018, 21:49:22 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -60,8 +60,8 @@ domisad.pl##.show-message #top-nav:style(height: auto !important;)
 dragon.com.pl###modal-rodo, .iziModal-overlay
 dragon.com.pl##.iziModal-isOverflow:style(overflow: visible !important;)
 drogeriapigment.pl##.fancybox-overlay:has(#potwierdzamrodo)
-drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,sklepdlalekarza.com##html.fancybox-lock > body, html.fancybox-lock, html.gafancybox-lock > body, html.gafancybox-lock:style(overflow: auto !important;)
-drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,sklepdlalekarza.com##html.fancybox-margin, html.gafancybox-margin:style(margin-right: 0 !important;)
+drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,sklepdlalekarza.com##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
+drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,sklepdlalekarza.com##html.fancybox-margin:style(margin-right: 0 !important;)
 dropbox.com##.embedded-app.IndexRebrandPage.top-notification-bar:style(margin-top: -51px !important;)
 dropbox.com##.top-notification-bar-container + .preview-box .react-file-viewer, .embedded-app.IndexRebrandPage.top-notification-bar .RebrandNavigation-container:style(top: 0 !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
@@ -181,8 +181,8 @@ tuzdrowie.pl###popupModal, .modal-backdrop
 tv.pudelek.pl,gryonline.wp.pl##+js(set-constant.js, wp_no_consent_screen, true)
 twitter.com##.topbar-spacer:style(padding-top: 0 !important;)
 ugb.pl##+js(abort-current-inline-script.js, alert, RODO)
-umig.olkusz.pl##html > body, html:style(margin-right: 0 !important;)
-umig.olkusz.pl##html > body, html:style(overflow: auto !important;)
+umig.olkusz.pl##html.gafancybox-lock > body, html.gafancybox-lock:style(margin-right: 0 !important;)
+umig.olkusz.pl##html.gafancybox-margin:style(overflow: auto !important;)
 umig.olkusz.pl###gafancybox-overlay174
 vod.naekranie.pl###modal-rodo-info, .modal-backdrop
 vod.naekranie.pl,samasz.pl,mzbm.tychy.pl##.modal-open:style(overflow: auto !important;)
