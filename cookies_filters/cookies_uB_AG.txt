@@ -1,11 +1,11 @@
-! Checksum: jbf8+VT/HNHiFV/87nBvaw
+! Checksum: CQ5M+zxK3Ym8TyDKwc41Mw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812082149
-! Last modified: Sat, 08 Dec 2018, 21:49:22 UTC+01
+! Version: 201812091805
+! Last modified: Sun, 09 Dec 2018, 18:05:20 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812082149 aktualizacja: sob, 08 gru 2018, 21:49:22 UTC+01
+! v.201812091805 aktualizacja: nie, 09 gru 2018, 18:05:20 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -40,6 +40,9 @@ atat.pl,elektryka-atat.pl,chemia-atat.pl,oswietlenie-atat.pl,zywnosc-atat.pl##.g
 autostrada-a2.pl##+js(remove-attr.js, class, body)
 auto-czesci-lipiec.pl###mAll
 auto-czesci-lipiec.pl,mkidn.gov.pl,puma.com##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
+baptysci.pl###gafancybox-overlay559
+baptysci.pl##.gafancybox-lock:style(overflow: auto !important;)
+baptysci.pl##.gafancybox-margin:style(margin-right: 0 !important;)
 bbcpolska.com###home:style(padding-top: 0 !important;)
 beko.pl##.cookies-margin:style(top: 0 !important;)
 bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,powiat-sepolno.pl###fancybox-container-1
