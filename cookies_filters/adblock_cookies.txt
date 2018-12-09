@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: HsDk3CDcCOsCcdBU2b73PA
+! Checksum: pr4A6nADkdIPMhjaW24Obg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812100010
-! Last modified: Mon, 10 Dec 2018, 00:10:38 UTC+01
+! Version: 201812100015
+! Last modified: Mon, 10 Dec 2018, 00:15:01 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812100010 aktualizacja: pon, 10 gru 2018, 00:10:38 UTC+01
+! v.201812100015 aktualizacja: pon, 10 gru 2018, 00:15:01 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -136,7 +136,7 @@ avatradepolska.pl##.accept-cookie-block
 avioner.pl,upolujebooka.pl##.alert
 avon.pl##.CookieSection
 azure.microsoft.com###cookie-prompt
-a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info,cdax.online,emisja.tv,pl.stealthsettings.com,bajeczki.org,doradztwoprawne.org,farmacja.net,anymind.com,festiwaldobregosmaku.eu,wislakrakow.com,polska-ie.com,eveline.eu###cookie-notice
+a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio,lapppoland.lappgroup.com,skiparkmagura.eu,filmowo.co,kryminalni24.info,marfafashion.com,mago.com,wnet.fm,weddingdream.com,lowiczanin.info,cdax.online,emisja.tv,pl.stealthsettings.com,bajeczki.org,doradztwoprawne.org,farmacja.net,anymind.com,festiwaldobregosmaku.eu,wislakrakow.com,polska-ie.com,eveline.eu,jakdorobic.com###cookie-notice
 badaniaprenatalne.pl###stb-14718
 badaniapsychologiczne.net###kopageBarCookies
 bambino.dzidziusiowo.pl##.section--cookies
@@ -835,7 +835,7 @@ logistics.dhl##.c-cookie-disclaimer
 lokalna24.pl#?##jm-right .custom > table:-abp-contains(RODO)
 lomianki.pl###splash
 londynek.net##.jd-rodo, .jd-rodo-2
-loteriainpost.pl###pop_up
+loteriainpost.pl,somatgold.pl###pop_up
 loterialaciate.pl##.bg
 lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
@@ -1672,6 +1672,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !
 !
 ! Specyficzne reguły blokujące
+.pl/images/cookie.png$images,domain=loteriainpost.pl|somatgold.pl
 !/ajax/privacy_popup$xmlhttprequest,domain=korsosanockie.pl|tvpogranicze.pl|pzl24.pl|korso.pl|narew.info|portalpomorza.pl|debica24.eu|zvami.tv|telewizjazary.pl|korsokolbuszowskie.pl|kociewiak.pl|tvobiektyw.pl|tczewska.pl|slowopodlasia.pl|tvswinoujscie.pl|tygodnikoko.pl|supertydzien.pl|lokalnatelewizja.pl
 !||cdn.jsdelivr.net/gh/fancyapps/fancybox@*/dist/jquery.fancybox.min.css$stylesheet,domain=mzk-torun.pl
 !||cdn.jsdelivr.net/gh/fancyapps/fancybox@*/dist/jquery.fancybox.min.js$script,domain=mzk-torun.pl
@@ -1734,7 +1735,6 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 ||kochamwroclaw.pl/wp-content/plugins/wp-terms-popup/assets/popup-style.css
 ||kolarstwo.wroclaw.pl/cook.js
 ||legionisci.com/js/cookiepopup.js
-||loteriainpost.pl/images/cookie.png$image
 ||lubiegrac.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
 ||metpartner.pl/cookie/info_cookie.js$script
 ||msecnd.net/Unilever/panels/generic/PanelPrzepisy.htm?consent*$subdocument
