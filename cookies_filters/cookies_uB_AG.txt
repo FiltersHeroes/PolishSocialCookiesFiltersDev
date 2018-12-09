@@ -1,11 +1,11 @@
-! Checksum: CQ5M+zxK3Ym8TyDKwc41Mw
+! Checksum: hXgyhYFhnWzXJ6sDdLs/IA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812091805
-! Last modified: Sun, 09 Dec 2018, 18:05:20 UTC+01
+! Version: 201812091840
+! Last modified: Sun, 09 Dec 2018, 18:40:07 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812091805 aktualizacja: nie, 09 gru 2018, 18:05:20 UTC+01
+! v.201812091840 aktualizacja: nie, 09 gru 2018, 18:40:07 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -184,9 +184,9 @@ tuzdrowie.pl###popupModal, .modal-backdrop
 tv.pudelek.pl,gryonline.wp.pl##+js(set-constant.js, wp_no_consent_screen, true)
 twitter.com##.topbar-spacer:style(padding-top: 0 !important;)
 ugb.pl##+js(abort-current-inline-script.js, alert, RODO)
-umig.olkusz.pl##html.gafancybox-lock > body, html.gafancybox-lock:style(margin-right: 0 !important;)
-umig.olkusz.pl##html.gafancybox-margin:style(overflow: auto !important;)
 umig.olkusz.pl###gafancybox-overlay174
+umig.olkusz.pl##.gafancybox-lock > body, .gafancybox-lock:style(overflow: auto !important;)
+umig.olkusz.pl##.gafancybox-margin:style(margin-right: 0 !important;)
 vod.naekranie.pl###modal-rodo-info, .modal-backdrop
 vod.naekranie.pl,samasz.pl,mzbm.tychy.pl##.modal-open:style(overflow: auto !important;)
 wagrowczanie.pl##.showRodo
