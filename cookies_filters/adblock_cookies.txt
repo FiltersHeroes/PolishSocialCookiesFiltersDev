@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: WjFKbnjJkwXx8ZAnY+c+4w
+! Checksum: OUDe4Sg2hYPRP0DXITxnRA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812101754
-! Last modified: Mon, 10 Dec 2018, 17:54:08 UTC+01
+! Version: 201812101759
+! Last modified: Mon, 10 Dec 2018, 17:59:45 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812101754 aktualizacja: pon, 10 gru 2018, 17:54:08 UTC+01
+! v.201812101759 aktualizacja: pon, 10 gru 2018, 17:59:45 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -66,8 +66,10 @@ akademiaeurocash.com.pl,www.niemartwsie.pl,dlink.com##.notification
 akademiafalubaz.pl###cgRodoModal, #cgRodoBackdrop
 akademia-piwa.pl##div#polityka_tekst
 akpolbaby.pl###gdpr-sticky-banner
+aktualnyodpis.pl##.ao-cookie-container
 aktywnedzieciaki.info,dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl,centrumwroclaw.pl,wsensie.pl,dreamtours.pl,krzyzowka.net,tacyjakja.pl,zamek.malbork.pl###rodo
 alegotowka.pl,chwilowkomat.pl,halopozyczka.pl###cookies-law
+alekino.com###cookies-info-wrapper
 alerabat.com###popup-rodo
 alga-shop.pl##.top.infobar_wrap
 aliexpress.com###j-aliexpress-notice
@@ -269,6 +271,7 @@ coinroom.com,polimex.net,sonos.com##.cookie-warning
 cojestgrane.pl##.ui-cookies-acceptance
 colormark.pl###Kom_cookie
 comitor.pl###rodoBoxWrap
+comtv.pl,prohibita.pl##.ciachbtm-wrap-container
 confronter.pl###cookieBarDiv
 convertcase.net###cookiebar
 cookielaw.org,hp.com##.optanon-alert-box-wrapper
@@ -694,6 +697,7 @@ jakbudowac.pl##.dialog-fixed
 jakikredyt.pl##.popup--open
 jak-ksiegowac.pl###message_wrap
 jarek-kefir.org###eu-cookie-law
+jarmula.com###cookie-warn-wrapper
 jarocinska.pl,gostynska.pl,zpleszewa.pl,rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 jarocin.poznan.lasy.gov.pl##div#aui_3_2_0_1203
 jazzfestiwal.kck.com.pl###system-message > .fade.message.notice > ul > li
@@ -913,6 +917,7 @@ miastons.pl##[id^="overflow"]
 michalgrabarski.eu###ccc-icon
 michal.kosmulski.org###ustawaCiasteczkowa
 microsoft.com###uhfCookieAlert
+mielec.pl##.footer_cookieinfo
 milenium.pl##.cookie_acceptation
 millymally.pl###js-xcookies
 milmag.pl###layCookieAlert
@@ -1208,7 +1213,6 @@ profilki.pl#?#.bc_white.centering.tile:-abp-has(img[src="/img/lay/maskotka_ciast
 profix.com.pl,proline-tools.com.pl###alert_bar
 programyzadarmo.net.pl##.primary.floatingItem
 progrupa.com###progrupa_cookie_policy
-prohibita.pl##.ciachbtm-wrap-container
 projekt-parking.com###RodoModal
 promocodius.com###reminder
 prosto.pl###id-rules
@@ -1563,6 +1567,7 @@ www.nfz-zielonagora.pl###statementWrapper
 www.o2.pl##._2_S1s
 www.promise.com.pl##.ui-front
 www.rmf24.pl###pl_cookies.pl-cookies
+www.select.pl##.cookiepop
 www.simex.pl###CookiesInfoDiv
 www.skype.com###msccBanner
 www.ssw-consulting.pl##.ui-pnotify
