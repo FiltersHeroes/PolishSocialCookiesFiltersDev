@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ZeRf+KxMfT5kCQYGoJJ5FA
+! Checksum: GsHIpgpot2neD1jbMDqn3A
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812102238
-! Last modified: Mon, 10 Dec 2018, 22:38:17 UTC+01
+! Version: 201812102239
+! Last modified: Mon, 10 Dec 2018, 22:39:56 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812102238 aktualizacja: pon, 10 gru 2018, 22:38:17 UTC+01
+! v.201812102239 aktualizacja: pon, 10 gru 2018, 22:39:56 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2380,6 +2380,7 @@ vod.naekranie.pl#@##modal-rodo-info, .reveal-modal-bg
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 !autostrada-a2.pl,tabakiera.com.pl,fastdeal.pl,unileverfoodsolutions.pl,pamiatki.pl#@#:not(input)[id*="cookie"]:not(body):not(html):not(.fade)
 !bskrasnosielc.pl,piekarniaanka.pl,xboxarcade.pl,wmeritum.pl,komunikacja.bialystok.pl,dobreprogramy.pl,lomza.pl,orange.pl,interhotel.pl,bestcena.pl,gokf.gda.pl,gdansk.pl,naekranie.pl,indbuildcraft.pl,okazik.pl#@#:not(input)[id*="cookie"]
+!fabrykacukiernika.pl#@#.rodo-popup
 !laciate.pl,loterialaciate.pl#@#.cookies:not(body):not(html):not(.wrapper):not(.popup-newsletter):not(#page)
 !letsplej.pl,telepizza.pl,orange.pl,google.pl,przenosne.pl,spreadshirt.pl,sellizer.pl,autocentrum.pl,ideabank.pl,intel.pl,pkn.pl,topsecret.pl,starbucks.pl,morizon.pl,abctygodnik.pl,wykop.pl,bt4.pl,kolba.pl,tablety.pl,tesco.pl,lomza.pl,multimediago.pl,vod.naekranie.pl,pamiatki.pl#@#div[class*="cookie"]
 !linuxiarz.pl,piekarniaanka.pl,xboxarcade.pl,appki.com.pl,mvno-gsm.pl,okazik.pl#@#[id*="cookie-"]
