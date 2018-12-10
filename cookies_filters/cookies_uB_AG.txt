@@ -1,11 +1,11 @@
-! Checksum: fh46ZkyTOF9z3NQ8vJc4ng
+! Checksum: 9Ey4KTYe/J7/x4szHfix/w
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812102243
-! Last modified: Mon, 10 Dec 2018, 22:43:12 UTC+01
+! Version: 201812102249
+! Last modified: Mon, 10 Dec 2018, 22:49:43 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812102243 aktualizacja: pon, 10 gru 2018, 22:43:12 UTC+01
+! v.201812102249 aktualizacja: pon, 10 gru 2018, 22:49:43 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -82,8 +82,6 @@ filmweb.pl##.rodo:style(overflow: auto !important; position: static !important;)
 filmweb.pl##.rodo__overlay
 fiskars.pl##.desktop:style(top: 0 !important;)
 galopuje.pl##+js(abort-current-inline-script.js, $, RODOCOOKIE)
-gamisport.pl###body:style(padding-top: 0 !important;)
-gamisport.pl###nextcreBotDialog
 gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com,fdds.pl,przegladpolityczny.pl,zgrp.pl,powiat.limanowski.pl,andrychow.eu,candeo.pl##.popmake-overlay[data-popmake*="cookies"]
 gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,pedzledomakijazu.com,fdds.pl,przegladpolityczny.pl,zgrp.pl,powiat.limanowski.pl,andrychow.eu,candeo.pl,defra.pl##.pum-open:style(overflow: auto !important;)
 generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
