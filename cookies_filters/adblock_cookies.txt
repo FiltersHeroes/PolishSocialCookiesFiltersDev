@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: eW/cG1NET+DIUlRTrj4++A
+! Checksum: bxUznAnNnTluzpfys+H3gg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812102113
-! Last modified: Mon, 10 Dec 2018, 21:13:48 UTC+01
+! Version: 201812102120
+! Last modified: Mon, 10 Dec 2018, 21:20:53 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812102113 aktualizacja: pon, 10 gru 2018, 21:13:48 UTC+01
+! v.201812102120 aktualizacja: pon, 10 gru 2018, 21:20:53 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -95,7 +95,7 @@ amazon.de###desktop-cookie-disclosure
 americanexpress.com###cookie_Header
 amica.pl###cookie_confirmation
 amix.pl###policy
-ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl###popup
+ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl,sklep.intert.pl,lampyilampki.pl,lampytanie.pl###popup
 amundi.pl,biodiv.gdos.gov.pl###disclaimer
 antywindyk.pl###rodo-container
 antywirus.biz##.iAgreePopup
@@ -961,7 +961,7 @@ monese.com##.cookie-popover
 monitoring.krakow.pios.gov.pl,powietrze.katowice.wios.gov.pl##.a-footer
 monocerus.pl###fafikciastka
 monsterpolska.pl###interMsgsW, #m-popup-softgate, .browserAlertHolder
-mord.krakow.pl###scroller
+mord.krakow.pl##span[onclick="location.href='http://mord.krakow.pl/ogloszenia/a,36,pliki-cookie.html'"]
 morele.net###cookieBoxWrapper
 morele.net###cookie_box
 morska.edu.pl,pbgorski.pl,directimport.pl,soundrive.pl##.cookies-tab
@@ -1345,7 +1345,6 @@ sklep-tosia.eu##.cookie-center
 sklep.alablaboratoria.pl,lmbruss.pl###cover
 sklep.eltron.pl###communication
 sklep.genos.com.pl###rodoText, #rodoLayer
-sklep.intert.pl,lampyilampki.pl,lampytanie.pl###popup
 sklep.sizeer.com###js-cookieInfo
 skm.pkp.pl#?#.ui-dialog:-abp-has(#dialog-message-rodo)
 skm.pkp.pl,smart.com##.ui-widget-overlay
