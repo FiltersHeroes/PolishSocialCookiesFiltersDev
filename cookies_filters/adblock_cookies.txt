@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: bJh5cRj1/4bNRcE+KU6mTQ
+! Checksum: Y1rgNISw6kFyjCgw6Esy1A
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812100023
-! Last modified: Mon, 10 Dec 2018, 00:23:07 UTC+01
+! Version: 201812100158
+! Last modified: Mon, 10 Dec 2018, 01:58:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812100023 aktualizacja: pon, 10 gru 2018, 00:23:07 UTC+01
+! v.201812100158 aktualizacja: pon, 10 gru 2018, 01:58:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -835,7 +835,6 @@ logistics.dhl##.c-cookie-disclaimer
 lokalna24.pl#?##jm-right .custom > table:-abp-contains(RODO)
 lomianki.pl###splash
 londynek.net##.jd-rodo, .jd-rodo-2
-loteriainpost.pl,somatgold.pl###pop_up
 loterialaciate.pl##.bg
 lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
@@ -2180,6 +2179,7 @@ pl##.wrap-cookie-info:not(body):not(html)
 pl##[class*="cookie-policy"]:not(body):not(html)
 pl##[class^="box-cookie"]:not(body):not(html)
 pl##[id^="topInfo"]:not(body):not(html)
+pl#?#div#pop_up:-abp-has(div[onclick="hideCookie()"])
 !pl##span[class*="cookie"]:not(body):not(html):not(.icon)
 !pl##[id^="cookies-message"]:not(body):not(html)
 !###rodoInfo:not(body):not(html):not([style*="display: inline-block"])
