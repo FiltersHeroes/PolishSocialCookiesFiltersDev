@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: NQlFpq7MBVFF3/0+vjEaNA
+! Checksum: K1u/BTV1GSx94hS+5gEdrg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812102047
-! Last modified: Mon, 10 Dec 2018, 20:47:51 UTC+01
+! Version: 201812102102
+! Last modified: Mon, 10 Dec 2018, 21:02:28 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812102047 aktualizacja: pon, 10 gru 2018, 20:47:51 UTC+01
+! v.201812102102 aktualizacja: pon, 10 gru 2018, 21:02:28 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -519,6 +519,7 @@ gaj-stal.com,polonia.nl###pasek
 gamedot.pl##.policy_warning
 gameplay.pl##div#CP_box
 gameplay.pl,tvgry.pl,gry-online.pl##.cookie-alert-2018-c
+gamet.eu##.cookies
 gaming.youtube.com###notification-footer
 gardinia.pl,ogradzamy.pl,mactronic.pl##body > div[id*="cookie"]
 garwolin.pl,nowemiasto.pl,zwolen.pl,laskarzew.pl###cook
@@ -532,6 +533,7 @@ gb.pl,wsieciprawdy.pl###rdModal
 gck-szczurowa.pl#?#div[style^="font-size:12px; background:rgb(255, 241, 168); "]:-abp-contains(cookies)
 gct.pl###xrootRODO
 gdsport.pl###rodo-policy-banner
+gdynia.sr.gov.pl##.cookie
 gdziewpolsce.pl##DIV[style="width: 100%; height: 85px; position: fixed; bottom: 0px; background: url(\"http://theateam.pl/cookie-alert/low_contrast_linen.png\") repeat scroll 0px 0px transparent; box-shadow: 0px 0px 10px rgb(0, 0, 0) inset; border-top: 1px solid rgb(71, 71, 71); border-bottom: 1px solid rgb(71, 71, 71); display: block;"]
 geekbuying.com,geekbuying.pl##.gdpr-cookie
 generali.pl##div#cLayer
@@ -633,6 +635,7 @@ hpe.com##.privacy-banner
 huawei.com,huaweipolska.pl##.huawei-cookie
 hurtowniateleinformatyczna.pl,ideanord.com.pl,intimiti.pl,ipartworld.pl,itpromo.pl,lunamarket.pl,mazury.pl,mikos.com.pl,mini-itx.com.pl,ostry-sklep.pl,pcoutlet.pl,powerflex.pl,pupilexpert.pl,raraavis.krakow.pl,sklep-muzyczny.com.pl,skrypt.com.pl,ekologiczny.pl,sporto.com.pl,srebrnystyl.pl,termokubki.com.pl,tv-zakupy.pl,wodna-kraina.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
 hurtownia-24.pl###roar-alert-wrap  > #roar-alert.roar-alert
+hydrem-online.com###bookingLayer
 iab.org.pl,iabpolska.pl###wpca-wrapper
 ibm.com##div[style="background-color: rgb(0, 0, 0); opacity: 0.4; position: fixed; z-index: 1000000; width: 100%; height: 100%; top: 0px; left: 0px; overflow: hidden; "]
 ibm.com##div[style="position: absolute; z-index: 2000000; top: 150px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; background-image: url(http://consent.truste.com/get?name=trans.png); left: 50%; margin-left: -420px; background-position: initial initial; background-repeat: initial initial;"]
@@ -667,6 +670,7 @@ informatyk.info.pl###divBox
 infostrefa.com,pap.pl###rodoWrapper
 info.wiara.pl##div[style="border: 10px solid rgb(138, 138, 138); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; box-shadow: rgba(0, 0, 0, 0.901961) 0px 0px 15px 0px; background-color: rgb(255, 255, 255); padding: 8px 8px 10px; position: fixed; z-index: 99999; right: 20px; left: 20px; bottom: 20px; width: 700px; max-width: 90%;"]
 inksystem.pl##.fixed_bottom
+inopony.pl##.easyNotificationBck
 inoreader.com##.landing_promo_banner_top
 inpay.pl##.ckcontent
 inpoland.net.pl##.inpoland-privacy, .inpoland-modal-background
@@ -701,6 +705,7 @@ jarek-kefir.org###eu-cookie-law
 jarmula.com###cookie-warn-wrapper
 jarocinska.pl,gostynska.pl,zpleszewa.pl,rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 jarocin.poznan.lasy.gov.pl##div#aui_3_2_0_1203
+jasfbg.com.pl###ac_cookie_bar
 jazzfestiwal.kck.com.pl###system-message > .fade.message.notice > ul > li
 jazzsoul.pl,ksiegarnienaukowe.pl###globalMessage
 jcubic.pl##.cookie-baner
@@ -917,6 +922,7 @@ miastograf.pl,zgierz.pl##.ui-widget, .ui-widget-overlay
 miastons.pl##[id^="overflow"]
 michalgrabarski.eu###ccc-icon
 michal.kosmulski.org###ustawaCiasteczkowa
+microhost.pl##footer > .container > .alert-warning.alert
 microsoft.com###uhfCookieAlert
 mielec.pl##.footer_cookieinfo
 milenium.pl##.cookie_acceptation
@@ -955,6 +961,7 @@ monese.com##.cookie-popover
 monitoring.krakow.pios.gov.pl,powietrze.katowice.wios.gov.pl##.a-footer
 monocerus.pl###fafikciastka
 monsterpolska.pl###interMsgsW, #m-popup-softgate, .browserAlertHolder
+mord.krakow.pl###scroller
 morele.net###cookieBoxWrapper
 morele.net###cookie_box
 morska.edu.pl,pbgorski.pl,directimport.pl,soundrive.pl##.cookies-tab
@@ -1094,6 +1101,7 @@ orzeczenia.ms.gov.pl###cookieInfoHeader
 osiedle-chelmonskiego.pl.tl##.cc_banner-wrapper:not(body):not(html)
 oskolaf.pl###modal-info, .modal-backdrop
 osm-sierpc.pl##.tm-cookies
+ospace.com.pl###private-police.private-police
 ostrowiecnr1.pl###iopp
 otolaryngolodzy24.pl,prow.lubelskie.pl,rogowskidevelopment.pl###rodo-policy
 ovh.com,ovh.pl###cookiesPop
@@ -1121,6 +1129,7 @@ personnelsolutions.pl,lekkoatletykadlakazdego.pl##DIV[style="background: rgb(0, 
 pfhb.pl###simplecookienotification_v01
 pg.edu.pl###pg-message-cookie
 philips.pl##.dot-cc-container, .dot-body-overlay
+phrasal-verbs.pl##body > div[style="display: block; width: 100%; height: 18px; padding: 4px 0px 10px 0px; margin-bottom: 10px; color: #676767; font-size: 11px; background-color: #fafafa; text-align: center;"]
 picodi.com,starysacz.info##.cookie-alert
 piekni.pl##.cookie-notice-accept
 piltza37.pl###fb
@@ -1336,6 +1345,7 @@ sklep-tosia.eu##.cookie-center
 sklep.alablaboratoria.pl,lmbruss.pl###cover
 sklep.eltron.pl###communication
 sklep.genos.com.pl###rodoText, #rodoLayer
+sklep.intert.pl,lampyilampki.pl,lampytanie.pl###popup
 sklep.sizeer.com###js-cookieInfo
 skm.pkp.pl#?#.ui-dialog:-abp-has(#dialog-message-rodo)
 skm.pkp.pl,smart.com##.ui-widget-overlay
@@ -1494,6 +1504,7 @@ wakacyjnipiraci.pl###tarteaucitronAlertBig
 wapteka.pl##.coo
 warka.com.pl###rodo_env
 warszawa.rzgw.gov.pl##.cookies_law
+warsztatywyobrazni.com.pl##body div > div[style="width: 1104px; padding: 8px; font-size: 11px;  color: #777777; text-align: justify; clear: both; margin: 0 auto; border: 1px solid #a4a4a4; background: #FFFFFF;"]
 wars.pl###spu-1773, #spu-bg-1773
 weather.com##.lite-msg-parent
 webcover.eu###box-polityka-pr
@@ -1534,6 +1545,7 @@ wsedno24.pl###mordern_adbar_wrap
 wseit.edu.pl##.modal-dialog, .modal-backdrop, #welcome
 wskaznikizrp.stat.gov.pl,sdg.stat.gov.pl##table[id$="gridStopka"] > tbody > .ui-panelgrid-even.ui-widget-content > .ui-panelgrid-cell
 wspanialewesele.com.pl###rodomodal
+wsqn.pl##.infotext:-abp-has(.close_info_text)
 wsse-poznan.pl##.visiblebox
 wszp.edu.pl###akcept_cookies
 wszystkoblisko.pl##.ueCookies
