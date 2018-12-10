@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: OUDe4Sg2hYPRP0DXITxnRA
+! Checksum: ve/8k4eiP8pQfjcEh4zllQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812101759
-! Last modified: Mon, 10 Dec 2018, 17:59:45 UTC+01
+! Version: 201812101812
+! Last modified: Mon, 10 Dec 2018, 18:12:26 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812101759 aktualizacja: pon, 10 gru 2018, 17:59:45 UTC+01
+! v.201812101812 aktualizacja: pon, 10 gru 2018, 18:12:26 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -501,7 +501,6 @@ forum-kulturystyka.pl,swistak.pl,trizer.pl##.pp-t-a-c
 forum.dobreprogramy.pl###rodoCookie
 forum.dziennikwschodni.pl###cookiePolicyPopup > div > p
 forum.minepedia.pl##div#notice
-forum.thesettlersonline.pl###cookieNotificationBanner
 forum.vwgolf.pl##iframe[src="cookie.html"]
 forum.zarabianie24.net##div[style="font-family: Tahoma; margin-bottom: 6px; padding: 5px; font-size: 10px; color: rgb(0, 0, 0); background-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-color: black; border-bottom-style: solid; "]
 fostertravel.pl##.ft-rodo-html-banner
@@ -590,6 +589,7 @@ grene.pl,salesmanago.pl,turek.net.pl##.popup
 groman.pl,hotelboss.pl,jellinek.pl,zoo.wroclaw.pl###okno_18only
 groupon.pl##div#jOftLayer
 grupazywiec.pl###apollo-bar
+gry.lotto.pl###cookie__note
 gsbk.pl,klinika.krakow.pl###ci
 gsmonline.pl##div[id*="jGrowl"][class*="bottom-right"]
 gsmonline.pl,wiif.nowybip.pl,zuromin.ibip.net.pl###jGrowl
@@ -1573,7 +1573,6 @@ www.skype.com###msccBanner
 www.ssw-consulting.pl##.ui-pnotify
 www.teamprevent.pl##.warnings
 www.tem.com.pl###block-block-29
-www.thesettlersonline.pl###cookieNotificationBanner
 www.totalizator.pl##.rodo-information-overlay, .rodo-information-popup
 www.tupperware.pl##.topRibbon
 www.wiedzakontrowersyjna.pl###ad-bg-transparent
@@ -1642,7 +1641,6 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !epaka.pl###cookiesInfoBox1
 !fora.pl##.pp-t-a-c
 !fotofocus.pl,fotoohlaszeny.pl,fotokurier.eu,extra-foto.pl,foto-fan.pl,ekodak.pl###pcUsingCookies
-!gry.lotto.pl###cookie__note
 !gry.lotto.pl###modalRodoConfirmatio
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
@@ -1667,6 +1665,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 !targikielce.pl##.cookie-warning
 !tb7.pl,xt7.pl###cookieAccept
 !thecity.com.pl##.cookies-warning
+!thesettlersonline.pl###cookieNotificationBanner
 !tophifi.pl##.popup-rodo
 !totalcasino.pl##.cookies_regulation__container
 !toyotabank.pl###cookie-policy-info
@@ -1890,6 +1889,7 @@ pl###cookieMonster:not(body):not(html)
 pl###cookieMsgBlock:not(body):not(html)
 pl###cookieMsg:not(body):not(html)
 pl###cookieNotice:not(body):not(html)
+pl###cookieNotificationBanner:not(body):not(html)
 pl###cookieNotify:not(body):not(html)
 pl###cookiePane:not(body):not(html)
 pl###cookiePolicyBanner:not(body):not(html)
