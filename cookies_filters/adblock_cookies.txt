@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: DsRI7uRPHx/k3R1B43spAA
+! Checksum: 4qI7HltYPmuqGtjKxFfgPw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812112253
-! Last modified: Tue, 11 Dec 2018, 22:53:22 UTC+01
+! Version: 201812120010
+! Last modified: Wed, 12 Dec 2018, 00:10:46 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812112253 aktualizacja: wto, 11 gru 2018, 22:53:22 UTC+01
+! v.201812120010 aktualizacja: śro, 12 gru 2018, 00:10:46 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -390,6 +390,7 @@ elka.pl,elka.tv,miedziowe.pl,miedziowe.tv###RODOZgoda
 elk.gmina.pl###spu-10427, #spu-bg-10427
 elopol.pl##div#black2
 elopol.pl,shop-dent.pl##div.ciacho-wrap-container
+emag.pl##.widget-cookies
 emc-sa.pl###popup_rodo
 emeryturyirenty.pl,gofin.pl,kodeksspolek.pl,podatekvat.pl,poradnikksiegowego.pl,poradypodatkowe.pl,prawnik-rodzinny.pl,umowycywilnoprawne.pl,vademecumksiegowego.pl###formalAgreementModal, #modalBackdrop
 emilbus.com.pl###window_4cookies
@@ -1802,6 +1803,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 ||siemashop.pl/assets/*/js/cookie_agreement.js$script
 ||skryptcookies.pl/cookie.js
 ||skryptcookies.pl^$third-party
+||spolecznosci.mgr.consensu.org/js/cmp.stable.min.js$script,domain=sadistic.pl
 ||static.quantcast.mgr.consensu.org/*/cmpui-banner.js$domain=memy.pl|pwn.pl|translatica.pl|tv.eurosport.pl|krokdozdrowia.com
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
 ||std.wpcdn.pl/wpjslib/*/wpjslib-chunk-notification.js
