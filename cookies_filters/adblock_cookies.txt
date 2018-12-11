@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: gR5F250BgfV6mJDFLYMM6w
+! Checksum: r9DG/nX8nw7ub7LVEvO55g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812111453
-! Last modified: Tue, 11 Dec 2018, 14:53:18 UTC+01
+! Version: 201812111827
+! Last modified: Tue, 11 Dec 2018, 18:27:18 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812111453 aktualizacja: wto, 11 gru 2018, 14:53:18 UTC+01
+! v.201812111827 aktualizacja: wto, 11 gru 2018, 18:27:18 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -83,7 +83,7 @@ allekoszyk.pl##div > .ng-scope[ng-if="cookieinfo == false"]
 alles-bhp.pl,greattrade.pl,urwisy2.pl###contGlowny > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allianz.pl##.region-disclaimer-component
 allnet24.pl,sklep.mebloart.eu,kran.tychy.pl##.footer.config-messages
-allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,galeria-dominikanska.pl,gosc.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro,alarte.pl,winawloskie.pl,jeanmueller.pl,igomedia.pl,footroll.pl,wiara.pl,shop.ticketpro.pl,skm.warszawa.pl,domodi.pl,homebook.pl,motokobiety.pl,sklep-bmw.pl,adexemplum.com,prisonwars.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
+allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,galeria-dominikanska.pl,gosc.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro,alarte.pl,winawloskie.pl,jeanmueller.pl,igomedia.pl,footroll.pl,wiara.pl,shop.ticketpro.pl,skm.warszawa.pl,domodi.pl,homebook.pl,motokobiety.pl,sklep-bmw.pl,adexemplum.com,prisonwars.pl,sportowiec.com##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allsporter.com##.cookies-ct
 allview.pl###modalGDPR.modalGDPR
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
@@ -477,6 +477,7 @@ flyordie.pl###eucc
 fly-sky.pl,galeriaveneda.com.pl###miPlugin-cookie-info
 fly.pl##div[data-cookiebar]
 fogo.pl##.bottom.shadow.foobar-wrapper.small-white-arrow
+footballpark.pl###policyContainer
 fora.pl##DIV[style="position:relative;display:block;margin:0 auto;visibility:visible;overflow:hidden;font-size:0.8em;color:#232000;background-color:#fcfc9a;-moz-box-shadow:0 2px 4px #bbb;-webkit-box-shadow:0 2px 4px #bbb;-khtml-box-shadow:0 2px 4px #bbb;box-shadow:0 2px 4px #bbb;filter:progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=4);"]
 forbot.pl###ForbotCookies
 ford-esklep.pl###box_alert
@@ -1711,6 +1712,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 /wp-content/plugins/wp-modal-popup-with-cookie-integration/*$script,stylesheet,domain=edutorial.pl
 ||ad.ipolska.pl/cookies/cookiecheck.js$script,domain=wielodzietni.org
 ||ad.prv.pl/rodo.js
+||akademiareissa.pl/jquery.cg.rodo.modal.js
 ||apteki24.waw.pl/info_cook.js
 ||architektura.info/extension/pucookies/design/base/stylesheets/pu_cookies.css
 ||artkomnet.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
