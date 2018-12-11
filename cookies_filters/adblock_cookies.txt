@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: r9DG/nX8nw7ub7LVEvO55g
+! Checksum: 7PVZlOzALL+r6mLBex56Lg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812111827
-! Last modified: Tue, 11 Dec 2018, 18:27:18 UTC+01
+! Version: 201812111838
+! Last modified: Tue, 11 Dec 2018, 18:38:28 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812111827 aktualizacja: wto, 11 gru 2018, 18:27:18 UTC+01
+! v.201812111838 aktualizacja: wto, 11 gru 2018, 18:38:29 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -218,6 +218,7 @@ bsgoleniow.pl##.jsCookieInfo
 bsmyszkow.pl###system-message > .fade.message
 bspruszcz.pl###cookies-top
 bs.olawa.pl##.cookie
+btc-ag.pl###cokki
 budimex-nieruchomosci.pl,zoliborzkrasinskiego.pl###komRodo
 bugwie.com,virtual-it.pl,forum-bron.pl##.cookie-box
 buliba.pl###tooltip-hook
@@ -356,6 +357,7 @@ ebok.jmdi.pl,nauka.gov.pl##.ui-notificationbar.top
 ebok.vectra.pl##div.jqmAlertContent
 ebrokerpartner.pl##.jsCookieInfoPlugin.cookie_plugin
 ecbedzin.pl,enut.pl,programatory.com###myModal
+echosonda.pl###cookie_i
 economist.com##div#ec-message-1
 eco.atman.pl,kreskoweczki.pl,groj.pl,marketing-news.pl,www.obozytenisowe.pl###gbpl_oba
 edarling.pl,foto4u.pl,himountain.pl,opteam.pl,praktiker.pl,smakizycia.pl,zoover.pl###infobarDiv, #infobar, .infobar, #info-bar, #info_c_box, .info-message
@@ -1628,6 +1630,7 @@ zooexpress.pl###cookies_message_rodo
 zosiaikevin.pl###novem-slot
 zrzutka.pl##.plicy
 zs1mm.home.pl##body > div[style^="position: relative;"]:not([id]):not([class])
+zsme.pl###kokies
 zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zysk.com.pl###pageUpperInfo
