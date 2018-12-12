@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: UuHCxzTHQpcYDXhcesA09A
+! Checksum: ypKkehrlS8Jj8mKOEaiCuw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812121710
-! Last modified: Wed, 12 Dec 2018, 17:10:49 UTC+01
+! Version: 201812121730
+! Last modified: Wed, 12 Dec 2018, 17:30:47 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812121710 aktualizacja: śro, 12 gru 2018, 17:10:49 UTC+01
+! v.201812121730 aktualizacja: śro, 12 gru 2018, 17:30:47 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -235,6 +235,7 @@ bytzbiorowy.pl,www.pro-tech.bydgoszcz.pl,slupsk.pl###easyNotification
 bywajtu.pl,livesmarter.pl,luszczyce.pl,mammografia.elblag.pl,mazowia.eu###co15ie87a
 bzwbk.pl##.cookie-btn
 cafago.com,tomtop.com##.m_privacy_statement
+canalplussport.pl##.a--cookie.alert
 capri-lublin.pl###mod98
 ccc.eu###cookiesModal
 ccleaner.com,deezer.com##.cookie-banner
@@ -336,6 +337,7 @@ domd.pl###cookie-info-popup
 domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
 domesta.com.pl###CookiesWarningPopup
 domisad.pl##.message-cockies
+domoplus.pl,miniminiplus.pl,kuchniaplus.pl,teletoonplus.pl###cpb.rodoLayer
 domowladni.pl###domo-cookies-policy
 doniczki-poznan.pl##body > .alert-dismissible.alert-warning.alert:nth-of-type(1)
 doosanbabcock.com###notice-bar
@@ -702,6 +704,7 @@ ists.pl,lokalnabiznes.pl,zmienimyswiat.pl##.polityka
 itaka.pl##div[style="position: fixed; bottom: 0px; width: 100%; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(187, 187, 187); box-shadow: rgb(238, 238, 238) 0px -10px 20px; padding: 10px; text-align: center; background-color: rgb(252, 252, 252); z-index: 10000; background-position: initial initial; background-repeat: initial initial; "]
 iturek.net###cookie_message_website_policy
 it-szkola.edu.pl###cookieLayerBoxModal
+iulotka.pl###cookiescript_injected
 iwanowice.pl###privacy-policy-box
 izone.pl##.mm-page > div[style*="height: 80px"]
 jabra.pl###CybotCookiebotDialog
@@ -1074,6 +1077,7 @@ odjechani.com.pl###akceptacja-odjechani, .guest_warn
 odleglosci.pl,tabele-kalorii.pl###komunikat-pp-dol
 odmiana.net###cookie
 odo24.pl##.rodo-body
+ofertypromocje.pl##.cookiePolitics
 off-road.pl###popslide
 ofix.pl###dpa-popup
 ogloszeniachojnice.com##.show.fade.alert-dismissible.alert-info.text-center.alert
@@ -1106,6 +1110,7 @@ opowiecie.info###spu-95603, #spu-bg-95603
 optomer.pl###GDPRInformationModal, .cookie-container
 optyczne.pl###id01
 orange.pl##.background
+orange.pl###mod-common\/modules\/opl-cookie-control-1
 orientshop.com.pl,tapenda.pl###ciacha
 originals24.pl###wcookie
 origin.com###truste-banner, .origin-sitestripe
@@ -1523,6 +1528,7 @@ warka.com.pl###rodo_env
 warszawa.rzgw.gov.pl##.cookies_law
 warsztatywyobrazni.com.pl##body div > div[style="width: 1104px; padding: 8px; font-size: 11px;  color: #777777; text-align: justify; clear: both; margin: 0 auto; border: 1px solid #a4a4a4; background: #FFFFFF;"]
 wars.pl###spu-1773, #spu-bg-1773
+wayup.pl###rodoMsg
 weather.com##.lite-msg-parent
 webcover.eu###box-polityka-pr
 webdev20.pl###top_message
