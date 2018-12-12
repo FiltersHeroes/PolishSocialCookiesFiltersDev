@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 4qI7HltYPmuqGtjKxFfgPw
+! Checksum: r8E1sNiAnHDkvAVmAHo55w
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812120010
-! Last modified: Wed, 12 Dec 2018, 00:10:46 UTC+01
+! Version: 201812120108
+! Last modified: Wed, 12 Dec 2018, 01:08:10 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812120010 aktualizacja: śro, 12 gru 2018, 00:10:46 UTC+01
+! v.201812120108 aktualizacja: śro, 12 gru 2018, 01:08:10 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1803,7 +1803,7 @@ zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
 ||siemashop.pl/assets/*/js/cookie_agreement.js$script
 ||skryptcookies.pl/cookie.js
 ||skryptcookies.pl^$third-party
-||spolecznosci.mgr.consensu.org/js/cmp.stable.min.js$script,domain=sadistic.pl
+||spolecznosci.mgr.consensu.org/js/cmp*.min.js$script,domain=sadistic.pl
 ||static.quantcast.mgr.consensu.org/*/cmpui-banner.js$domain=memy.pl|pwn.pl|translatica.pl|tv.eurosport.pl|krokdozdrowia.com
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
 ||std.wpcdn.pl/wpjslib/*/wpjslib-chunk-notification.js
