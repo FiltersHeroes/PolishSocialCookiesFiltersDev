@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Ev1vvrzaqZ/dyJ01RDtJvA
+! Checksum: UuHCxzTHQpcYDXhcesA09A
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812121645
-! Last modified: Wed, 12 Dec 2018, 16:45:51 UTC+01
+! Version: 201812121710
+! Last modified: Wed, 12 Dec 2018, 17:10:49 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812121645 aktualizacja: śro, 12 gru 2018, 16:45:51 UTC+01
+! v.201812121710 aktualizacja: śro, 12 gru 2018, 17:10:49 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -316,6 +316,7 @@ demotywatory.pl,fabrykamemow.pl,faktopedia.pl,piekielni.pl,mklr.pl,rebelianci.or
 denley.pl##.ck-popup.cookiepopup
 developers.google.com##.devsite-notification-eu-cookie
 devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
+diagprog4.com###cookies
 dia.com.pl,pkfpolska.pl,pkfszkolenia.pl###S_cookies
 diecezjaplocka.pl###modalKlauzulaInformacyjna
 diecezjaplocka.pl##.cookies_block
@@ -451,6 +452,7 @@ e-wiklinowy-sklep.pl##.cookiesPolicyInfo
 fabrykamemow.pl##body > div:not([id]):not([class])
 facebook.com##.pam.fbPageBanner.uiBoxGray.bottomborder, [data-testid="cookie-policy-banner"]
 fajka24.pl##DIV[style="background: #fafafa; border: 1px solid #ccc; text-align: center; font-size: 1em; padding: 20px; width: 960px; height: 20px; left: 50%; bottom: 60px; margin-left: -480px; position: fixed; z-index:130 "]
+fakturownia.pl,sugester.pl###jGrowl.jGrowl.bottom-right
 fandk.com.pl###block-block-6
 fansubs.pl##div[style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; top: 0px; right: 0%; width: 94%; opacity: 1; margin-left: 2%; display: block; "]
 fantastyka.pl##div[style="text-align: center; padding: 15px; border-bottom: 2px solid #cc3300; background: url(obrazki/kwadrat-monit.png); font-size: 9pt;"]
@@ -925,6 +927,7 @@ merlin.pl##.merlin-legal-note
 meskiegacie.pl###footer_links_sub > .ft_social
 meteor-turystyka.pl##body > div[style="position: fixed; width: 100%; text-align: center; background: orange; color: white; font-weight: bold; padding: 5px; line-height: 20px; z-index: 3; bottom: 0px;"]
 meteovista.pl###info-bar-content
+metis.pl###wndCookies
 mggp.com.pl##.navbar-inverse, .navbar.navbar-fixed-bottom
 mgr.farm###cookie_notice
 miastograf.pl,zgierz.pl##.ui-widget, .ui-widget-overlay
@@ -1627,6 +1630,7 @@ zalando-lounge.pl###cookie-information, [class^="CookieConsent_cookie-consent_"]
 zalando.pl##.z-navicat-header-cookieBar
 zara.com###popup-announcements
 zaufanekliniki.pl##.alert-fixed
+zawodykonne.com###cookie-akcept
 zdrowiewkrakowie.pl##body > div:not([id]):not([class])[style]:nth-of-type(2)
 zebrasbox.pl##.alert-dismissible.alert-warning.alert
 zegarkiipasja.pl###fcx-cookie-consent
@@ -1638,6 +1642,7 @@ zibi.pl###popup-outside
 zinfo.pl###iod-message
 zkmgdynia.pl##div.kom_polityka_prywatnosci
 zloty-pociag.com##.popup_wrapper
+zmkowalczyk.pl###r-overlay
 znanylekarz.pl##.floating-cookie-info
 zomato.com###user-cookie-message
 zomato.com##.gdbr_banner_wrapper
