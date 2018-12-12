@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 9l96Fhc7uUF6JForkya+bQ
+! Checksum: XbxgYmMltE37EkemK0+Ueg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812122207
-! Last modified: Wed, 12 Dec 2018, 22:07:55 UTC+01
+! Version: 201812130003
+! Last modified: Thu, 13 Dec 2018, 00:03:15 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812122207 aktualizacja: śro, 12 gru 2018, 22:07:55 UTC+01
+! v.201812130003 aktualizacja: czw, 13 gru 2018, 00:03:15 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -346,6 +346,7 @@ dotsport.pl##.cookie-nav
 dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;bottom: 0px;left: 0px;text-align: center;color: #000;border-top: 1px #000 solid;z-index: 100;"]
 dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,tubawyszkowa.pl,tubaostrowa.pl,tubachorzowa.pl,pracownia.org.pl,ptbs.pl,terramar.pl##.rodo
 dreammachines.pl##.modal-backdrop
+drogeriapigment.pl###cookielaw
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
 drumshop.pl###cookiesblock-wrapper
 dstreet.pl###ToplayerConsent, #ToplayerCover
@@ -427,6 +428,7 @@ etroniks.pl,trojmiejskaperfumeria.pl###st_notification_1
 euro26.pl###popup, #fade
 europlytki.pl###cookies-info-container
 eurostyl.com.pl###euroCookieInfo
+eurowizja.org###cookie-notice
 everhome.pl,gda.pl,yogenfruz.pl##.shotimoo
 ewl.com.pl###bezzo-cookies-bar
 expansa.pl,www.promise.com.pl##.ui-resizable
@@ -846,12 +848,14 @@ limango.pl##.floating_notification
 limanowa.in,parkerpen.com###cookiesdirective
 linuxiarz.pl###colophon
 linuxportal.pl##DIV[style="width: 100%; background: rgb(44, 48, 51) none repeat scroll 0% 0%; padding: 10px 0; color: #fff; border-top: 1px solid rgb(221, 221, 221);  text-align: center; position: fixed; bottom: 0; z-index: 999999999;"]
+lodzkie.pl##.cookie
 lodz.pl,ago.pl,mamoo.pl,askopolska.pl,papercast.pl,indigo-nails.com###banner_cookies_bullshit
 logistics.dhl##.c-cookie-disclaimer
 lokalna24.pl#?##jm-right .custom > table:-abp-contains(RODO)
 lomianki.pl###splash
 londynek.net##.jd-rodo, .jd-rodo-2
 loterialaciate.pl##.bg
+lotnictwo.net.pl###cookiescript_injected
 lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
@@ -926,6 +930,7 @@ meteovista.pl###info-bar-content
 metis.pl###wndCookies
 mggp.com.pl##.navbar-inverse, .navbar.navbar-fixed-bottom
 mgr.farm###cookie_notice
+miastodzieci.pl##.gdpr-cookie-notice
 miastograf.pl,zgierz.pl##.ui-widget, .ui-widget-overlay
 miastons.pl##[id^="overflow"]
 michalgrabarski.eu###ccc-icon
@@ -993,6 +998,7 @@ multiplay.pl,razemztoba.pl##.inform
 muscat.pl##.c-cookie-belt
 musicexpert.pl,recepturybonifratrow.pl###x13popup-container, #x13popup-cover
 muve.pl##.f-find-box
+muzycznagielda.com##.cookie-alert
 muzyczneradio.pl###cookie-accep
 myadventure.com.pl###nXDOC.yel-popup-main-wrapper
 myob.pl###warning-popup
@@ -1308,6 +1314,7 @@ rymer.org###info_bottom
 rzemioslo.org###pronamic_cookie_holder
 rzgw.gda.pl,gdansk.rzgw.gov.pl###COOKIETLO
 r-gol.com,51015kids.eu###cookieBan
+saabotage.pl##.overall
 sadowocowy.pl###container > div:nth-of-type(1)
 samouczek.info,aranzujemy.pl,kobieceporady.pl##.gdpr
 samsonite.pl##div[aria-labelledby="ui-dialog-title-cookies-dialog"], .ui-widget-overlay
@@ -1733,7 +1740,7 @@ zysk.com.pl###pageUpperInfo
 ||cdn.rp.pl/rodo-agreement-popup/rodo-agreement-popup.min.js
 ||cdn.zw.com.pl/rodo-agreement-popup/rodo-agreement-popup.min.js
 ||ciasteczkowapolityka.pl/getscript$script
-||cmp.dreamlab.pl/static/cmp.complete.bundle.js$domain=~komputerswiat.pl
+||cmp.dreamlab.pl/static/cmp.complete.bundle.js
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
 ||confero.pl/js/cookies2013$script
 ||consent.truste.com/get?name=notice.js$script
