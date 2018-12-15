@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 43yxgOfFWWsZApzS1GGiwQ
+! Checksum: zUMod9mm7oAhRvCrhociKA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812152042
-! Last modified: Sat, 15 Dec 2018, 20:42:55 UTC+01
+! Version: 201812152055
+! Last modified: Sat, 15 Dec 2018, 20:55:07 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812152042 aktualizacja: sob, 15 gru 2018, 20:42:55 UTC+01
+! v.201812152055 aktualizacja: sob, 15 gru 2018, 20:55:07 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -542,7 +542,7 @@ gb.pl,wsieciprawdy.pl###rdModal
 gck-szczurowa.pl#?#div[style^="font-size:12px; background:rgb(255, 241, 168); "]:-abp-contains(cookies)
 gct.pl###xrootRODO
 gdsport.pl###rodo-policy-banner
-gdziewpolsce.pl##DIV[style="width: 100%; height: 85px; position: fixed; bottom: 0px; background: url(\"http://theateam.pl/cookie-alert/low_contrast_linen.png\") repeat scroll 0px 0px transparent; box-shadow: 0px 0px 10px rgb(0, 0, 0) inset; border-top: 1px solid rgb(71, 71, 71); border-bottom: 1px solid rgb(71, 71, 71); display: block;"]
+gdziewpolsce.pl##body > div > .cookie-alert-content
 geekbuying.com,geekbuying.pl##.gdpr-cookie
 generali.pl##div#cLayer
 generatorkodowkreskowych.pl,kalendarz-roku-szkolnego.edu.pl###cn
