@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: NxQZi7M9fCEPTAGqTpqmUw
+! Checksum: E8SboYBMno6+ToJtW2a/UA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812161418
-! Last modified: Sun, 16 Dec 2018, 14:18:04 UTC+01
+! Version: 201812161659
+! Last modified: Sun, 16 Dec 2018, 16:59:35 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812161418 aktualizacja: nie, 16 gru 2018, 14:18:04 UTC+01
+! v.201812161659 aktualizacja: nie, 16 gru 2018, 16:59:35 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -378,6 +378,7 @@ egrafik.pl###cookies1
 ekko.com.pl###messagePo
 ekliniki.pl,sklepbiegacza.pl##body > div[style]:not([id]):not([class]):nth-of-type(1)
 ekobud.com.pl###cookieLayer
+ekologia.pl###cookie-agree
 ekookna.pl###ppFooter-rodo
 ekosalus.pl##.welcomebar
 ekosalus.pl,szarakomorka.pl###DIVwelcome
@@ -559,6 +560,7 @@ giercownia.pl,maxior.pl,tekstowo.pl,zblogowani.pl,pajerosport.pl###ci-info-box
 gigabyte.pl###policy-div
 gih.grajewo.pl#?##fancybox-wrap:-abp-contains(RODO)
 gih.grajewo.pl,naszamlawa.pl###fancybox-overlay
+gismeteo.pl##.cookies-banner
 gispartner.pl,geotec.pl###saycookie
 gkn.pl##div#gora0
 glogow-info.pl,glogow.info.pl##.wrapper > table:nth-of-type(1)[style="margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: -6px;"]
@@ -923,8 +925,11 @@ mercure.com##.is-ready
 merixstudio.pl###message, .message
 merlin.pl##.merlin-legal-note
 meskiegacie.pl###footer_links_sub > .ft_social
+meteoblue.com##.gdprMessage
+meteoprog.pl##.gdpr-dialog
 meteor-turystyka.pl##body > div[style="position: fixed; width: 100%; text-align: center; background: orange; color: white; font-weight: bold; padding: 5px; line-height: 20px; z-index: 3; bottom: 0px;"]
 meteovista.pl###info-bar-content
+meteo.waw.pl###cookies-note
 metis.pl###wndCookies
 mggp.com.pl##.navbar-inverse, .navbar.navbar-fixed-bottom
 mgr.farm###cookie_notice
@@ -1165,6 +1170,7 @@ pl.investing.com##.consentBarWrapper
 pl.isilines.com##.wrapper-banner-rgpd
 pl.jooble.org##.gdpr-consent-banner
 pl.kingofsat.net##.cc_banner
+pl.meteox.com###cookie-message
 pl.mitsubishielectric.com##.pc_scsmod-cookie_alert
 pl.mytaxi.com##.cookie-overlay
 pl.next-jobs24.com###container, #container_tmp
