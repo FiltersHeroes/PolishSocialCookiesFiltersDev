@@ -1,11 +1,11 @@
-! Checksum: o5aVD2N3ABn7RALtlort5w
+! Checksum: e8t8Yg8YbsO6ih1gh+qzvg
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Social Filters - Supplement for uBlock & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 201812051553
-! Last modified: Wed, 05 Dec 2018, 15:53:34 UTC+01
+! Version: 201812160336
+! Last modified: Sun, 16 Dec 2018, 03:36:58 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812051553 aktualizacja: śro, 05 gru 2018, 15:53:34 UTC+01
+! v.201812160336 aktualizacja: nie, 16 gru 2018, 03:36:58 UTC+01
 !
 !
 ! Popupy
@@ -64,6 +64,7 @@ dobreprogramy.pl##.social__group > .social__label
 gadzetomania.pl,fotoblogia.pl,komorkomania.pl,autokult.pl##.link-facebook, .link-youtube, .link-gplus, .link-instagram, .icon-mail:style(visibility: hidden !important;)
 gadzetomania.pl,fotoblogia.pl,komorkomania.pl,autokult.pl##a[href^="https://www.facebook.com/sharer.php"], [href^="http://twitter.com/intent/tweet"], [href^="http://pinterest.com/pin/create/link/"]:style(visibility: hidden !important;)
 purepc.pl##.article-options2
+f.kafeteria.pl###ipsLayout_mainArea > .ipsList_inline > li > .cShareLink
 wp.pl##.liketag, .wpsocials--buttons:style(visibility: hidden !important;)
 wp.pl,~www.wp.pl###app > div > table > tbody > tr:nth-child(1) > td > div > div > div > div > div > div > div > article > div > div > div > div[hidden]:style(position: absolute !important; left: -3000px !important;)
 !#endif
