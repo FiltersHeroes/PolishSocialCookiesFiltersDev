@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: jGB8roTHXm9PdWQqjGUoEA
+! Checksum: yFNycZragjy4n3bB4EiwmA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812182038
-! Last modified: Tue, 18 Dec 2018, 20:38:58 UTC+01
+! Version: 201812182043
+! Last modified: Tue, 18 Dec 2018, 20:43:50 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812182038 aktualizacja: wto, 18 gru 2018, 20:38:58 UTC+01
+! v.201812182043 aktualizacja: wto, 18 gru 2018, 20:43:50 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -183,7 +183,7 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
-bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com,madameedith.com,stskurier.com###cookies-message
+bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com,madameedith.com,stskurier.com,zabart.com###cookies-message
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl,aspsklep.pl,klublifestyle.pl,sgurp.pl,zwolenpowiat.pl,gckis.trzebnica.pl,florexpol.eu###fancybox-wrap, #fancybox-overlay
 bip.marciszow.pl###cookiesWarning
@@ -222,6 +222,7 @@ brewa.pl,dekavit.pl,glyskincare.eu,opiekun.kalisz.pl,letniskowo.pl##.module-abov
 bricomarche.pl,szkolkikornickie.pl###content-head-information
 brooklynbutik.pl##.gdprModal
 browar.biz,centrumpiwowarstwa.pl##DIV[style="color: gray; background-color: white; border-bottom: 1px dotted gray; padding:2px; font-size: 0.75em;"]
+brtvp.pl##.tvp-cookie-overlay
 bryk.pl,interia.pl,pokazywarka.pl##.rodo-mini
 bsgoleniow.pl##.jsCookieInfo
 bsmyszkow.pl###system-message > .fade.message
@@ -503,7 +504,7 @@ forbot.pl###ForbotCookies
 ford-esklep.pl###box_alert
 foreca.pl###ckieconsent
 fors.pl,pks.zary.pl,webelite.pl###infobar
-forte.com.pl,mustasz.com,agatabielen.com
+forte.com.pl,mustasz.com,agatabielen.com###cookiesinfo
 forumlekarza.pl###cpolicy_wrap
 forumplay.pl,forum-kredytowe.pl###navbar_notice_6
 forumplay.pl,forum.joomla.pl###notices
@@ -673,6 +674,7 @@ ilza.com.pl###rodoMain
 imagazine.pl,moviesroom.pl##.overlay-rules
 immergas.pl,www.eset.pl###cookie-layer
 impekao24.pl###rodo-popup-wrapper, #rodo-cookie-shadow-cover
+imperiumreklamy.com###CookieInfoBlock
 in4.pl##div.subheader
 inagent.pl###iaCookies
 inarisc.pl###cookies_info_maktiv
@@ -718,7 +720,7 @@ jajco.pl##div[id*="n-cookies-notification"]
 jakbudowac.pl##.dialog-fixed
 jakikredyt.pl##.popup--open
 jak-ksiegowac.pl###message_wrap
-jarek-kefir.org,portable.info.pl,wordpress.com,rowery.org###eu-cookie-law
+jarek-kefir.org,wordpress.com,rowery.org###eu-cookie-law
 jarmula.com###cookie-warn-wrapper
 jarocinska.pl,gostynska.pl,zpleszewa.pl,rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 jarocin.poznan.lasy.gov.pl##div#aui_3_2_0_1203
@@ -1083,6 +1085,7 @@ ociasteczkach.pl###ociasteczkach
 odjechani.com.pl###akceptacja-odjechani, .guest_warn
 odleglosci.pl,tabele-kalorii.pl###komunikat-pp-dol
 odo24.pl##.rodo-body
+oees.pl###fm-pu-container
 ofertypromocje.pl##.cookiePolitics
 off-road.pl###popslide
 ofix.pl###dpa-popup
@@ -1242,6 +1245,7 @@ primary-justpay.digitalvirgo.pl##coll-cookie-info
 profilki.pl#?#.bc_white.centering.tile:-abp-has(img[src="/img/lay/maskotka_ciastko.png"])
 programyzadarmo.net.pl##.primary.floatingItem
 progrupa.com###progrupa_cookie_policy
+projektydomfort.pl###cookie_informacja
 projekt-parking.com###RodoModal
 promocodius.com###reminder
 prosto.pl###id-rules
@@ -2035,6 +2039,7 @@ pl###cookie-compliance:not(body):not(html)
 pl###cookie-consent:not(body):not(html)
 pl###cookie-content:not(body):not(html)
 pl###cookie-cookie-div:not(body):not(html)
+pl###cookie-div:not(body):not(html)
 pl###cookie-hint:not(body):not(html)
 pl###cookie-information-wrapper:not(body):not(html)
 pl###cookie-info-box:not(body):not(html)
@@ -2156,6 +2161,7 @@ pl##.cookieWarn:not(body):not(html)
 pl##.cookieWrapper:not(body):not(html)
 pl##.cookieaccept > .cookieaccept_wrapper:not(body):not(html)
 pl##.cookiebanner:not(body):not(html):not(#header)
+pl##.cookiebar:not(body):not(html)
 pl##.cookiebox:not(body):not(html)
 pl##.cookieinfo:not(body):not(html)
 pl##.cookienotice:not(body):not(html)
