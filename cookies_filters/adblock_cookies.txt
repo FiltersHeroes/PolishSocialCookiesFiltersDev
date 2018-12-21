@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: OwXtCaSJGJFGFUeB3XzD1g
+! Checksum: mVS2VqZfMlDubpx7u/LvOw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812211306
-! Last modified: Fri, 21 Dec 2018, 13:06:22 UTC+01
+! Version: 201812211341
+! Last modified: Fri, 21 Dec 2018, 13:41:02 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812211306 aktualizacja: pią, 21 gru 2018, 13:06:22 UTC+01
+! v.201812211341 aktualizacja: pią, 21 gru 2018, 13:41:02 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1099,7 +1099,6 @@ oifp.eu##.cookies-notice
 oko.press##.cookie-message
 oksir.eu###cac
 oktawave.com###gdprbox
-okularywsieci.pl##.cookies_notice
 okulary.szkla.com##div#polityka_prywatnosci
 old.reddit.com###eu-cookie-policy
 olimpiasport.pl##div#sek_cstk_inf
@@ -1708,6 +1707,7 @@ zysk.com.pl###pageUpperInfo
 !mojemazury.pl,kurierostrolecki.pl,wm.pl,przyszloscdladzieci.org,familie.pl,naszolsztyniak.pl,gazetaolsztynska.pl,kuriermlawski.pl,kurierprzasnyski.pl,kuriermakowski.pl,kurierzurominski.pl,planetawiedzy.pl,refericon.pl###rodoinfo
 !mojestronywww.pl###popup-cookie-contenedor
 !njumobile.pl###cookies-acceptance
+!okularywsieci.pl##.cookies_notice
 !pirc.org.pl,appleworld.pl###pronamic_cookie_holder
 !pokatne.pl###cookies_compliance
 !polityka.pl##.md-cookie-warning
@@ -2204,6 +2204,7 @@ pl##.cookies_block:not(body):not(html)
 pl##.cookies_header:not(body):not(html)
 pl##.cookies_info:not(body):not(html)
 pl##.cookies_message:not(body):not(html)
+pl##.cookies_notice:not(body):not(html)
 pl##.cookies_policy:not(body):not(html)
 pl##.cookies_regulation__container:not(body):not(html)
 pl##.cookies_warning:not(body):not(html)
