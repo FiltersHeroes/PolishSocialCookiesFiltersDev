@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: yp1HXJa6YyROLXQIHed7JQ
+! Checksum: A0OKI9KuEMruiH7uejQ4Ng
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812231052
-! Last modified: Sun, 23 Dec 2018, 10:52:46 UTC+01
+! Version: 201812231234
+! Last modified: Sun, 23 Dec 2018, 12:34:25 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812231052 aktualizacja: nie, 23 gru 2018, 10:52:46 UTC+01
+! v.201812231234 aktualizacja: nie, 23 gru 2018, 12:34:25 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -86,7 +86,7 @@ allekoszyk.pl##div > .ng-scope[ng-if="cookieinfo == false"]
 alles-bhp.pl,greattrade.pl,urwisy2.pl###contGlowny > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allianz.pl##.region-disclaimer-component
 allnet24.pl,sklep.mebloart.eu,kran.tychy.pl##.footer.config-messages
-allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,galeria-dominikanska.pl,gosc.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro,alarte.pl,winawloskie.pl,jeanmueller.pl,igomedia.pl,footroll.pl,wiara.pl,shop.ticketpro.pl,skm.warszawa.pl,domodi.pl,homebook.pl,motokobiety.pl,sklep-bmw.pl,adexemplum.com,prisonwars.pl,sportowiec.com,o-c.pl,panelex.pl,teatr-maly.pl,cubik.pl,itezone.pl,apspolska.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
+allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,galeria-dominikanska.pl,gosc.pl,sigatech.pl,strzelnicabojowa.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,mototube.pl,pudliszki.pl,miechow.eu,culturapoloneza.ro,alarte.pl,winawloskie.pl,jeanmueller.pl,igomedia.pl,footroll.pl,wiara.pl,shop.ticketpro.pl,skm.warszawa.pl,domodi.pl,homebook.pl,motokobiety.pl,sklep-bmw.pl,adexemplum.com,prisonwars.pl,sportowiec.com,o-c.pl,panelex.pl,teatr-maly.pl,cubik.pl,itezone.pl,apspolska.pl,wmrowisku.pl##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
 allsporter.com##.cookies-ct
 allview.pl###modalGDPR.modalGDPR
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
@@ -118,6 +118,7 @@ archiwa.gov.pl,noria.pl###message_box
 arcyfotka.pl##body > #wrap > .container > .in.fade.alert-warning.alert
 areatour.pl,dlapacjenta.pl,marbo-sport.pl##div#topbar
 arg.gdynia.pl,rankinglekarzy.pl##.info
+arkady.info,krzysztonjan.com###notice_bar
 arnicaapteka.pl,kappahl.com##.warning
 artim.com.pl#?#td[valign="top"] > div[webpartid].ms-WPbody:-abp-contains(pliki cookies)
 ascar-rent.pl###hellobar
@@ -615,7 +616,7 @@ grupazywiec.pl###apollo-bar
 gry.lotto.pl###cookie__note
 gsbk.pl,klinika.krakow.pl###ci
 gsmonline.pl##div[id*="jGrowl"][class*="bottom-right"]
-gsmonline.pl,wiif.nowybip.pl,zuromin.ibip.net.pl,fakturownia.pl,sugester.pl###jGrowl
+gsmonline.pl,wiif.nowybip.pl,zuromin.ibip.net.pl,fakturownia.pl,sugester.pl,attipas.pl###jGrowl
 gsm-grodzisk.pl,wkd.com.pl,hotelpanorama.pl,zdrowemiasto.pl###_mo
 hachette.com.pl##div[style="position:fixed;bottom:0;z-index:1000;width:100%;text-align:center;background:#EEE;padding:15px 0;border-top:1px solid #333;"]
 hair-shop.pl,mtech.pl##.popup_cont, .popup_back
@@ -643,7 +644,7 @@ hokej.net###cookies_box
 holidaycheck.pl###infoCloseableBoxContainer
 holidu.pl#?##root > aside[class]:-abp-contains(🍪)
 homebrewing.pl##.rodo-popupbox
-home.pl,koty24.pl,psy24.pl###box_policies
+home.pl,koty24.pl,psy24.pl,idea4you.eu###box_policies
 horizon.tv##.notifications-manager
 horyzonty.pl##.cookies_note
 host1.eu##.cookies_policy
