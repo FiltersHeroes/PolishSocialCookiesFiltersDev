@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: A0OKI9KuEMruiH7uejQ4Ng
+! Checksum: CPnqt7C4mbF+PnVs3ayzpw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812231234
-! Last modified: Sun, 23 Dec 2018, 12:34:25 UTC+01
+! Version: 201812231352
+! Last modified: Sun, 23 Dec 2018, 13:52:44 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812231234 aktualizacja: nie, 23 gru 2018, 12:34:25 UTC+01
+! v.201812231352 aktualizacja: nie, 23 gru 2018, 13:52:44 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -126,7 +126,7 @@ asd.pl##div[style="width: 100%;float: left;background: #fff;padding: 15px 0;posi
 asklepios.pl##.cookies_show
 assecods.pl###spu-22991, #spu-bg-22991
 astar.czest.pl##.lean-overlay
-aszdziennik.pl,demotywatory.pl,faktopedia.pl,innpoland.pl,joemonster.org,komixxy.pl,kotburger.pl,mamadu.pl,natemat.pl,pl.namemc.com,poki.pl,sadistic.pl,sportowememy.pl,strawpoll.me,stylowi.pl,warszawawpigulce.pl##[class^="app_gdpr"]
+aszdziennik.pl,demotywatory.pl,faktopedia.pl,innpoland.pl,joemonster.org,komixxy.pl,kotburger.pl,mamadu.pl,natemat.pl,pl.namemc.com,poki.pl,sadistic.pl,sportowememy.pl,strawpoll.me,stylowi.pl,warszawawpigulce.pl,styl.fm##[class^="app_gdpr"]
 atcdevelopment.pl,ginekolog-darlowo.pl,lek-med.pl###zgoda
 atlas-roslin.pl##.tytul > span
 atramentowka.com###cookie, #cookie_popup
@@ -207,7 +207,7 @@ blogasek.pl###j_all > div[style="width:100%;float:left;padding:3px 0;background-
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
 blogspot.com,polska.googleblog.com###cookieChoiceInfo
 blog-pozyczoneiniebieskie.pl###cookie_info_container
-bluecity.pl,brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl,klinikaagd.pl,pgd.pl,mazowieckie.com.pl,terramar.pl,sfinks.pl,filmotekaszkolna.pl,pozyczkaplus.pl,bs.olawa.pl,onerqe-kredyt.pl,szkolenia-semper.pl,gdynia.sr.gov.pl,unityline.pl,lodzkie.pl,seopilot.pl,waw.pl##.cookie
+bluecity.pl,brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl,klinikaagd.pl,pgd.pl,mazowieckie.com.pl,terramar.pl,sfinks.pl,filmotekaszkolna.pl,pozyczkaplus.pl,bs.olawa.pl,onerqe-kredyt.pl,szkolenia-semper.pl,gdynia.sr.gov.pl,unityline.pl,lodzkie.pl,seopilot.pl,waw.pl,decoratorium.eu##.cookie
 bmc-switzerland.pl##.tab2-rodo-bar
 bobrowniki.tv###cookie_policy_popup
 bocian.org.pl,siteor.pl##.jGrowl-notification
@@ -416,7 +416,7 @@ enutka.net###CookieAlert
 eobuwie.com.pl#?#.popup:-abp-has(.permissions-form)
 eostroleka.pl###cookiesRodo
 epiotrkow.pl##.user_politic
-epiotrkow.pl##.user_politic_pop
+epiotrkow.pl,glosregionu.pl,zw.pl,ziemiawolsztynska.pl,ziemiagorowska.pl,ziemialeszczynska.pl##.user_politic_pop
 epoznan.pl,filmlab.com.pl,lech.tv,obiezyswiat.org###rodo-info-box
 epuap.gov.pl###specialbox-info
 epuap.gov.pl##.footer-info
@@ -741,6 +741,7 @@ jelonka.com,walbrzyszek.com##.prywatnosc
 jezykipodroze.pl##.widgets-5.widgets-list
 joemonster.org##DIV[style="position: fixed; bottom: 0; width: 1020px; height: 100px; background-color: #eee; border: 1px solid black; z-index: 1000; overflow: auto; left: 50%; margin-left: -510px; border-bottom: 0;"]
 joemonster.org,mistrzowie.org,komixxy.pl,demotywatory.pl,faktopedia.pl,fabrykamemow.pl,motokiller.pl,kotburger.pl,piekielni.pl,atakklonow.pl,rebelianci.org,wspaniali.pl,tenajlepsze.pl,stylowi.pl,wszechpolska.pl,gifowisko.pl,filmixxy.pl,popkorn.pl,dawniejdzisiaj.pl,studentpotrafi.pl,wykresy.pl,machinaczasu.pl,wyciagamykarteczki.pl##div[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
+jula.pl##.g-cookie__box
 jung.de###language-redirection-layer
 jysk.pl,uzywana-muzyka.business.site###cookieDialog
 kabam.com##div#eu_privacy
@@ -907,6 +908,7 @@ markgum.com.pl##body > div[id=""]
 markoweszyby.pl##body > .alert-info.alert
 marykay.pl##.gigyaNotify
 marykay.pl##div[style="background-color: rgba(255, 255, 255, 0.8); border-top-width: 1px; border-top-style: solid; border-top-color: rgb(153, 153, 153); bottom: 0px; color: black; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Arial Narrow', Arial, Helvetica, sans-serif; left: 0px; padding: 10px; position: fixed; right: 0px; text-align: center; z-index: 10000; background-position: initial initial; background-repeat: initial initial;"]
+masz.eu##.popupContent
 matematykainnegowymiaru.pl##.popup_cookie_contener_main
 mat-dom.pl##.info_rodo
 maybellinetrends.pl##div[style="position: fixed; z-index: 999; bottom: 0px; right: 0px; width: 900px; padding: 18px 0px !important; background-color: rgb(0, 0, 0) !important; color: rgb(255, 255, 255) !important; font-family: arial !important; font-size: 12px !important; border-top-left-radius: 4px !important; border-top-right-radius: 4px !important; border-bottom-right-radius: 4px !important; border-bottom-left-radius: 4px !important; background-position: initial initial !important; background-repeat: initial initial !important;"]
@@ -1224,6 +1226,7 @@ polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com,widzewtomy.net,japrzeds
 polskiprawnik.pl###popup3, .reveal-modal-bg
 pomagam.pl###pp-info
 pomiar24.pl###cookiesContainer
+pomorskie.eu###cookiesinfoPWU
 popaopa.pl###popup-content
 popbookownik.pl##.wph-modal
 portalgorski.pl###aToolTip
@@ -1252,6 +1255,7 @@ primary-justpay.digitalvirgo.pl##coll-cookie-info
 profilki.pl#?#.bc_white.centering.tile:-abp-has(img[src="/img/lay/maskotka_ciastko.png"])
 programyzadarmo.net.pl##.primary.floatingItem
 progrupa.com###progrupa_cookie_policy
+projektoskop.pl###popupCookie
 projektydomfort.pl###cookie_informacja
 projekt-parking.com###RodoModal
 promocodius.com###reminder
@@ -1351,6 +1355,7 @@ seg.org.pl###block-block-19
 sekap.pl###uglipop_popbox, #uglipop_overlay
 sekretypiekna.net,szpot.pl,flordent.pl##.ba_cookie_bar
 selgros24.pl###cookieModal
+selgros.pl###cookie_simple_overlay
 selsey.pl##.cookie_alert_selsey
 semex.pl,zmkowalczyk.pl###r-overlay
 senetic.pl###rodoBar
@@ -1451,7 +1456,7 @@ szostygracz.pl##div#cw_statusbar
 szpital-chrzanow.pl##.warp_top_message
 szukacz.pl###routerBox1
 szukajka.tv###rodo-popup
-szukajka.tv,wizzair.com##.cookie-policy
+szukajka.tv,wizzair.com,styl.fm##.cookie-policy
 szybko.pl##.toast
 targeo.pl##body > div:not([id]):not([class])[style^="position: absolute;"]
 tatra.pl##.cookies-2-overlay, .popup-cookies-2
