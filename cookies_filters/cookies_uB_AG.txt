@@ -1,11 +1,11 @@
-! Checksum: ze1uLmtZY2jjnel/YHW+zQ
+! Checksum: l7yhE+2v5J0uW/VpftA3sg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 201812231234
-! Last modified: Sun, 23 Dec 2018, 12:34:29 UTC+01
+! Version: 201812231352
+! Last modified: Sun, 23 Dec 2018, 13:52:47 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812231234 aktualizacja: nie, 23 gru 2018, 12:34:29 UTC+01
+! v.201812231352 aktualizacja: nie, 23 gru 2018, 13:52:47 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -92,6 +92,8 @@ hbogo.pl##.banner-overlay
 hbogo.pl,cbdzoe.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
 hm.com##.modaloverlay:has(#gdpr-modal)
 hm.com##.modal-open, .modal-open body:style(overflow-y: auto !important; position: static !important;)
+ikea.com###cookieMsgBlock
+ikea.com##.has-cookie .main-header-wrap:style(top: 0 !important;)
 indbuildcraft.pl##.modal-overlay, #modal_cookies
 indbuildcraft.pl,kaliszak.pl,mazury.travel,panattonieurope.com,pkw.gov.pl,porcelana.pl,praca.antyweb.pl,prawdaobiektywna.pl,pum.edu.pl,skyscrapercity.com,wagrowczanie.pl,zeropln.antyweb.pl##body:style(overflow: auto !important;)
 innogy.pl##html.cookie-wall-active body:style(overflow: auto !important;)
