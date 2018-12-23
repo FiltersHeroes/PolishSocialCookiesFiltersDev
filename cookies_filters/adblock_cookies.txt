@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: xPiAwC0LaioUyJCF6FsfZg
+! Checksum: RJyF3k+sYkWiG+OZjEUmHQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812221951
-! Last modified: Sat, 22 Dec 2018, 19:51:30 UTC+01
+! Version: 201812230336
+! Last modified: Sun, 23 Dec 2018, 03:36:38 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812221951 aktualizacja: sob, 22 gru 2018, 19:51:30 UTC+01
+! v.201812230336 aktualizacja: nie, 23 gru 2018, 03:36:38 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -276,7 +276,6 @@ cire.pl###ramka_ciasteczka_info
 civitas.edu.pl###cronox-cookie-notice
 ckiw-dobieszkow.ohp.pl###eDcPopupBox
 ckmir.com.pl#?#p:-abp-contains(cookie)
-claritine.pl##.cc-grower
 clearchannel.com.pl,sokolka.com.pl,mpwik.com.pl###rodoPopup
 clineo.pl###floatingFB
 cmg24.pl##.RODO
@@ -369,7 +368,7 @@ dziennikwschodni.pl,wykop.pl##.rodo-alert
 dzis.tv##div#regulaminWrap
 e24cloud.com##div#FullBox
 earlystage.pl###cookie-beam
-easypaste.org,halogorlice.info,nasze-kino.eu,pl.bab.la,polskatelewizjausa.com,pl.soringpcrepair.com,halogorlice.info,forum.swiateczne.info##.cc-window[aria-label="cookieconsent"]
+easypaste.org,halogorlice.info,nasze-kino.eu,polskatelewizjausa.com,pl.soringpcrepair.com,halogorlice.info,forum.swiateczne.info##.cc-window[aria-label="cookieconsent"]
 ebay.pl###gdpr-banner, .gh-banner
 ebizneskrokpokroku.pl###notification-bar
 ebok.jmdi.pl,nauka.gov.pl##.ui-notificationbar.top
@@ -1761,7 +1760,7 @@ zysk.com.pl###pageUpperInfo
 ||a.wpimg.pl/a/i/stg/wpjslib-chunk-cookie-info.js$script
 ||a.wpimg.pl/a/i/stg/wpjslib-chunk-notification.js
 ||bramka-proxy.pl/themes/default/cookies.js
-||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=satkurier.pl
+||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=pl.bab.la|satkurier.pl
 ||cdnjs.cloudflare.com/ajax/libs/fancybox/*/css/jquery.fancybox.min.css$domain=wiemy.to
 ||cdnjs.cloudflare.com/ajax/libs/fancybox/*/js/jquery.fancybox.min.js$domain=wiemy.to
 ||cdn.digitrust.mgr.consensu.org/1/cmp.complete.bundle.js$domain=m.demotywatory.pl
