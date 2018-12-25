@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 6X89TD5te7JdTLRiWrhcVA
+! Checksum: +45xs6KdL04SsD2dsr8CwA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812250229
-! Last modified: Tue, 25 Dec 2018, 02:29:21 UTC+01
+! Version: 201812251246
+! Last modified: Tue, 25 Dec 2018, 12:46:46 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,14 +17,17 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812250229 aktualizacja: wto, 25 gru 2018, 02:29:21 UTC+01
+! v.201812251246 aktualizacja: wto, 25 gru 2018, 12:46:46 UTC+01
 !
 !
 ! Popupy
+beskidy.news##.c-pop-up
 dementuj.pl###ips-popup, #ips-popup-wrapper
 dziennik-polityczny.com###dz-popup-follow-us
+ebizpro.pl###itro_opaco, #itro_popup
 esensja.pl###FBox
 e-iglaki.pl###szkolenie-message
+fifek.pl###ips-popup, #ips-popup-wrapper
 forum.grywamtu.pl###pop-slap[data-hello-text], .bg-pop-over
 forum.joomla.pl###fancybox-overlay, #fancybox-wrap
 galeriaveneda.com.pl###popup
@@ -33,7 +36,7 @@ godealla.pl##.overlay
 growbox.pl###pf_bg, .pf_sub
 jednymtchem.pl###stb-overlay
 kamira90.blogspot.com###fbox-background, #fbox-close
-kierunekchorwacja.pl###cboxOverlay, #colorbox
+kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
 klasek.pl###spu-bg, #spu-main
 kuchniawedwoje.pl,black-friday.pl,zatrzymujacczas.pl,e-przepisykulinarne.pl,funfashion.pl,magazyninformacyjny.pl,wielkopolskamagazyn.pl,cryptoprofit.pl,tele-wizja.ru###ffbp, #ffbp-bg
 limonkowy.com##.ui-widget-overlay, .ui-dialog
@@ -66,6 +69,7 @@ wakacjezprocentem.pl##.overlay
 winicjatywa.pl##h2:nth-of-type(3)
 yt360.pl###ouibounce-modal
 zakazany-humor.pl##.snp-pop-111-wrap, .snp-pop-111-overlay
+/wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=shareinfo.pl
 /wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
