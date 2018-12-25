@@ -1,11 +1,11 @@
-! Checksum: fdW4LzaZZsu0W1a35GOqDg
+! Checksum: tHfipLe6q46cqvHk8Aj45g
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Social Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 201812221941
-! Last modified: Sat, 22 Dec 2018, 19:41:28 UTC+01
+! Version: 201812251246
+! Last modified: Tue, 25 Dec 2018, 12:46:49 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812221941 aktualizacja: sob, 22 gru 2018, 19:41:28 UTC+01
+! v.201812251246 aktualizacja: wto, 25 gru 2018, 12:46:49 UTC+01
 !
 !
 ! Popupy
@@ -23,8 +23,12 @@ cieplikpodrozuje.pl,fashionvoyager.pl##.ArevicoModal, .ArevicoModal-bg
 cieplikpodrozuje.pl,fashionvoyager.pl##.arvnoscroll:style(overflow: auto !important;)
 e-biznes.pl##.onp-sl-blur-area:style(filter: none !important;)
 e-biznes.pl##.onp-sl-outer-wrap
+mamalla.pl##.modal-backdrop
+mamalla.pl##.modal-open:style(overflow: auto !important;)
 masher.pl##html.pum-open:style(overflow: auto !important;)
 masher.pl##.popmake-overlay
+ratujemyzwierzaki.pl##.dimmer
+ratujemyzwierzaki.pl##body.dimmed:style(overflow: auto !important;)
 smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
 smaker.pl###overlay, #popup
 sprawnymarketing.pl###pop_facebook
