@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: kmfGTxz333w1BK15DTe7HQ
+! Checksum: nPl2iY9ZYS4UHTs9a9Komw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812242255
-! Last modified: Mon, 24 Dec 2018, 22:55:27 UTC+01
+! Version: 201812271018
+! Last modified: Thu, 27 Dec 2018, 10:18:49 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812242255 aktualizacja: pon, 24 gru 2018, 22:55:27 UTC+01
+! v.201812271018 aktualizacja: czw, 27 gru 2018, 10:18:49 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1092,6 +1092,7 @@ obligacjeskarbowe.pl##.js-cookie-rodo.cookie-rodo
 obpon.pl###rodo-notice, #shadow-overlay
 ociasteczkach.pl###ociasteczkach
 odjechani.com.pl###akceptacja-odjechani, .guest_warn
+odkryjpomorze.pl##.cookie_info
 odleglosci.pl,tabele-kalorii.pl###komunikat-pp-dol
 odo24.pl##.rodo-body
 oees.pl###fm-pu-container
@@ -1463,6 +1464,7 @@ szybko.pl##.toast
 targeo.pl##body > div:not([id]):not([class])[style^="position: absolute;"]
 tatra.pl##.cookies-2-overlay, .popup-cookies-2
 tatuaze-wzory.com###showcookie
+tchibo.pl##.euCookiePanel
 tcz.pl###dynamic-load-rodo, #dynamic-loading-rodo
 teatrpalladium.com##.cppa
 teatr-capitol.pl###spu-4768, #spu-bg-4768
