@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: nPl2iY9ZYS4UHTs9a9Komw
+! Checksum: xIUAaZ22alIJAnVVKEDuzA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812271018
-! Last modified: Thu, 27 Dec 2018, 10:18:49 UTC+01
+! Version: 201812271044
+! Last modified: Thu, 27 Dec 2018, 10:44:12 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812271018 aktualizacja: czw, 27 gru 2018, 10:18:49 UTC+01
+! v.201812271044 aktualizacja: czw, 27 gru 2018, 10:44:12 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -543,6 +543,7 @@ gameplay.pl,tvgry.pl,gry-online.pl##.cookie-alert-2018-c
 gaming.youtube.com###notification-footer
 gamisport.pl###nextcreBotDialog
 gardinia.pl,ogradzamy.pl,mactronic.pl##body > div[id*="cookie"]
+garneczki.pl##.cookieframe
 garwolin.pl,nowemiasto.pl,zwolen.pl,laskarzew.pl###cook
 garwolin.spolem.org.pl#?##colorbox:-abp-has(#rodo_width_hotfix)
 gastrowypozyczalnia.pl###popup1
@@ -807,6 +808,7 @@ krakownh.pl,rentsellersgroup.com###strip_cookie_info
 kredito24.pl,zaimo.pl##.politica
 kreskoweczki.pl###rodo-block
 kreskowki.tv,tygodniksiedlecki.com,atelier801.com,fabrykazabawek.eu,nekodancer.com,fortoresse.com,bouboum.com,transformice.com###cookie-bar
+krnmedia.pl##.cookiealert
 krn.org.pl##.clsCookieInfo
 kropleinternetu.biz###cooc_container
 krosnocity.pl###polcia
@@ -1078,6 +1080,7 @@ nokia.com##.cookie_container
 nomi.pl##div#Messenger-Special
 nordglass.pl##.rodoBox--visible.rodoBox
 norwegian.com#?#.alert:-abp-has(.cookie-disclaimer)
+nosalowy-dwor.eu###cookieWarning
 nova-farm.com##.cookie_consent
 nowa.tv###mpc_cookie_intro
 noweprzetargi.pl###dcach, #txt
@@ -1130,6 +1133,7 @@ orange.pl##.background, #mod-common\/modules\/opl-cookie-control-1
 orientshop.com.pl,tapenda.pl###ciacha
 originals24.pl###wcookie
 origin.com###truste-banner, .origin-sitestripe
+orle-gniazdo.pl##.Cooker
 orliman.pl##.c-info
 ortograf.pl###ns-rodo-popup-one
 orzeczenia.ms.gov.pl###cookieInfoHeader
@@ -1327,6 +1331,7 @@ riot.im##.mx_MatrixToolbar
 rio.gov.pl###cookies_ue_alert
 rkb.pl##.fb-top.foobar-wrapper
 rmf.fm##.rodo-popup
+roan-gifts.pl###netgraf_cookie_alert
 rockpapershotgun.com##div#ecd_opt_in_banner
 rondel.pl###rondelpl_cookies
 rosja.pl###cookframe
@@ -1461,6 +1466,7 @@ szukacz.pl###routerBox1
 szukajka.tv###rodo-popup
 szukajka.tv,wizzair.com,styl.fm##.cookie-policy
 szybko.pl##.toast
+tapeciarnia.pl###div_info_cookies
 targeo.pl##body > div:not([id]):not([class])[style^="position: absolute;"]
 tatra.pl##.cookies-2-overlay, .popup-cookies-2
 tatuaze-wzory.com###showcookie
@@ -1552,6 +1558,7 @@ webdev20.pl###top_message
 webprojekt.biz###ppc
 web-booking.mytaxi.com#?#body > div > div > div:-abp-contains(🍪)
 web.skype.com#?#.info.notification:-abp-contains(cookie)
+wedelpijalnie.p###cookies_allowed_message
 weebly.com,eniro.pl,eniroweb.pl,amawid.pl###kb-container
 weekendfm.pl##.rodo_out
 wegetarianie.pl##td[align="center"][height="22"]
