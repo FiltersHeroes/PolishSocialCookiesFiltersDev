@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: thv6Y44X9ODSV+RKWFX2XQ
+! Checksum: HarnOBpP+iGReiR4UQVkFQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812271257
-! Last modified: Thu, 27 Dec 2018, 12:57:31 UTC+01
+! Version: 201812280840
+! Last modified: Fri, 28 Dec 2018, 08:40:27 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812271257 aktualizacja: czw, 27 gru 2018, 12:57:31 UTC+01
+! v.201812280840 aktualizacja: pią, 28 gru 2018, 08:40:27 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -33,6 +33,7 @@
 40latki.pl###noty_bottom_layout_container
 40ton.net,nowy-sacz.info,olgasmile.com,tb4hr.com,telewizja-cyfrowa.com,naziemna.info###catapult-cookie-bar
 99rent.pl##.region-rodo-info
+360studio.org##.tplis-cl-cookies
 2018.pl##.r-background
 a4-klub.pl,forum.radioparty.pl,forum.benchmark.pl,pfmrc.eu###document_modal
 abbvie.pl###omniTrackDiv
@@ -45,6 +46,7 @@ account.ubisoft.com###footer_tc_privacy
 accuweather.com###eu-cookie-notify-wrap
 acer.com##.cookieBox
 aclari.pl###licence-agreement, .modal-backdrop
+adbl.eu###cookie-law-info-bar
 addthis.com,nespresso.com,ea.com###consent_blackbar
 adguard.com##.sticky-bar--cookie
 adm-media.pl,kociadolina.pl##.policy
@@ -99,6 +101,7 @@ amazon.de###desktop-cookie-disclosure
 ambermarine.pl###a-cookie
 americanexpress.com###cookie_Header
 amix.pl###policy
+amodream.com###cookie-notice
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl,sklep.intert.pl,lampyilampki.pl,lampytanie.pl,gitara-sklep.pl###popup
 amundi.pl,biodiv.gdos.gov.pl###disclaimer
 antyczek.pl###upper-menu-container
@@ -182,6 +185,7 @@ bierhalle.pl###rstbox_5, #overlay_rstbox_5
 bik.pl##.page-cookies-info, #cmsg
 bilka.com.pl###mod99
 bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
+bingospa.eu###cookie
 bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
@@ -270,6 +274,7 @@ chreptiow.pl###pu620
 chroma.pl##div[class^="CookiesInfo---container---"]
 chrzanow.pl,powiat-chrzanowski.pl###pdo-info-overlay
 ciam.pl###privacy-info
+ciasta.net###cookies-message
 ciasteczka.org.pl,gsmk.org.pl###ciasteczka\.org\.pl
 cinema3d.pl##rodo-modal
 circlek.pl###cookieboxM
@@ -455,6 +460,7 @@ e-konkursy.info###rodoNotify, .modal-backdrop, #cookieNotify
 e-kwiaciarz.pl##.ff-cookies-container
 e-petrol.pl,uzdrowisko-wieniec.pl###statement
 e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
+e-podlaskie.eu###cookie-info-box
 e-podroznik.pl##.biscuits-usage
 e-promar.pl,lafe.pl,promib.pl###cInfo
 e-reporter.pl,myhome.pl,newsbook.pl,inianie.pl###wpfront-notification-bar
@@ -584,6 +590,7 @@ gmina.gorlice.pl,hotmag.pl###wysuwane
 gmsystem.pl,sosulski.pl##body > form
 gm-inowroclaw.rbip.mojregion.info###scnb-cookie-bar
 goclever.com,goclever.pl##div#cp-wrap
+godstoys.pl###eu-cookie-bar-notification
 goin.pl##body > div[style="color:white;background:black;padding:5px;"]
 gokf.gda.pl###zgoda_cookie
 goldenline.pl##section[class*="cookiesInfo"]
@@ -1139,6 +1146,7 @@ ostrowiecnr1.pl###iopp
 otolaryngolodzy24.pl,prow.lubelskie.pl,rogowskidevelopment.pl###rodo-policy
 ovh.com,ovh.pl###cookiesPop
 owocowydom.pl,weck.com.pl###popup2
+paker.co.uk###cookie-information
 pakolorente.com###toplayer_styleadvisor
 paliwaolkop.pl#?#div:-abp-has(div > #cookieContent)
 panasonic.com###notescookies
@@ -1161,6 +1169,7 @@ pepiniera.pl##.relative > div:nth-of-type(4)[style="float:left; width:100%; padd
 pepper.pl###softMessages-list
 personnelsolutions.pl,lekkoatletykadlakazdego.pl##DIV[style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; opacity: 0.8; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 100001;"]
 pfhb.pl###simplecookienotification_v01
+pfmrc.eu###cookiemonster_popup
 pg.edu.pl###pg-message-cookie
 philips.pl##.dot-cc-container, .dot-body-overlay
 phrasal-verbs.pl##body > div[style="display: block; width: 100%; height: 18px; padding: 4px 0px 10px 0px; margin-bottom: 10px; color: #676767; font-size: 11px; background-color: #fafafa; text-align: center;"]
@@ -1458,6 +1467,7 @@ szukacz.pl###routerBox1
 szukajka.tv###rodo-popup
 szukajka.tv,wizzair.com,styl.fm##.cookie-policy
 szybko.pl##.toast
+tagen.tv###cookiesEU-box
 tapeciarnia.pl###div_info_cookies
 targeo.pl##body > div:not([id]):not([class])[style^="position: absolute;"]
 tatra.pl##.cookies-2-overlay, .popup-cookies-2
@@ -1486,6 +1496,7 @@ tominet.com.pl#?#table:-abp-has(#cookieMessageText)
 top123.pl##.woocommerce-store-notice
 torkusa.com,tork.pl##.headerMessage
 toyota.pl,toyota-lublin.pl###ePrivacyDisclaimer
+tpvpolska.pl##.cookie
 tp-link.com###divCookieUsedNote
 trafica.eu,wodbud.eu###q-cookie-box
 traftu.pl##.unconfirmed.opt-in-splash
@@ -1522,6 +1533,7 @@ um.jaslo.pl,adeste.eu##.cp-info-bar
 unilink.pl##.windov_front_new_text
 upc.pl##.dmg-cookie-info
 ups-zasilacze.pl###pp2
+urbanium.eu###catapult-cookie-bar
 vanced.app###cookieConsent
 vectra.pl##.l-cookies
 vents-group.pl###akceptacja-rodo
