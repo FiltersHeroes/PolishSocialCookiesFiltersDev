@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 76HrbPRmHrpLYShpIeP9CA
+! Checksum: YAFYU0hos0hqB0RfcqfuLw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201812290839
-! Last modified: Sat, 29 Dec 2018, 08:39:06 UTC+01
+! Version: 201812290851
+! Last modified: Sat, 29 Dec 2018, 08:51:53 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,11 +18,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201812290839 aktualizacja: sob, 29 gru 2018, 08:39:06 UTC+01
+! v.201812290851 aktualizacja: sob, 29 gru 2018, 08:51:53 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
-2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,xtb.com,feriogaj.com,koszyki.com,muzo.fm,cedc.com,edeklaracje.info,studiuje.eu,skierniewice.eu,diagprog4.com,tebrizsesi.com,evertourist.com###cookies
+2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,xtb.com,feriogaj.com,koszyki.com,muzo.fm,cedc.com,edeklaracje.info,studiuje.eu,skierniewice.eu,diagprog4.com,tebrizsesi.com,evertourist.com,prymus.info###cookies
 3dom.pro,bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com,stolmot.com,anmur.eu,trecnutrition.com,koszulkomat.eu,f1experiences.com,gamet.eu##.cookies
 3mpolska.pl###__tealiumGDPRecModal
 3s.pl,franciszkanskie.pl,antyweb.pl,norauto.pl,grupakety.com,olimpijski.pl,softon.pl,ingtechpoland.com,kultura.krasnik.eu,brolerserwis.pl,spedycje.pl,kancelaria-szip.pl,pelion.eu###privacy
@@ -210,7 +210,7 @@ blogasek.pl###j_all > div[style="width:100%;float:left;padding:3px 0;background-
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
 blogspot.com,polska.googleblog.com###cookieChoiceInfo
 blog-pozyczoneiniebieskie.pl###cookie_info_container
-bluecity.pl,brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl,klinikaagd.pl,pgd.pl,mazowieckie.com.pl,terramar.pl,sfinks.pl,filmotekaszkolna.pl,pozyczkaplus.pl,bs.olawa.pl,onerqe-kredyt.pl,szkolenia-semper.pl,gdynia.sr.gov.pl,unityline.pl,lodzkie.pl,seopilot.pl,waw.pl,decoratorium.eu##.cookie
+bluecity.pl,brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl,klinikaagd.pl,pgd.pl,mazowieckie.com.pl,terramar.pl,sfinks.pl,filmotekaszkolna.pl,pozyczkaplus.pl,bs.olawa.pl,onerqe-kredyt.pl,szkolenia-semper.pl,gdynia.sr.gov.pl,unityline.pl,lodzkie.pl,seopilot.pl,waw.pl,decoratorium.eu,tpvpolska.pl,arena.wroc.pl##.cookie
 bmc-switzerland.pl##.tab2-rodo-bar
 bobrowniki.tv###cookie_policy_popup
 bocian.org.pl,siteor.pl##.jGrowl-notification
@@ -743,6 +743,7 @@ jelenia.tv###rodoModal, .modal-backdrop
 jelonka.com,walbrzyszek.com##.prywatnosc
 joemonster.org##DIV[style="position: fixed; bottom: 0; width: 1020px; height: 100px; background-color: #eee; border: 1px solid black; z-index: 1000; overflow: auto; left: 50%; margin-left: -510px; border-bottom: 0;"]
 joemonster.org,mistrzowie.org,komixxy.pl,demotywatory.pl,faktopedia.pl,fabrykamemow.pl,motokiller.pl,kotburger.pl,piekielni.pl,atakklonow.pl,rebelianci.org,wspaniali.pl,tenajlepsze.pl,stylowi.pl,wszechpolska.pl,gifowisko.pl,filmixxy.pl,popkorn.pl,dawniejdzisiaj.pl,studentpotrafi.pl,wykresy.pl,machinaczasu.pl,wyciagamykarteczki.pl##div[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
+joga-joga.pl###cookieInfoDiv
 jula.pl##.g-cookie__box
 jung.de###language-redirection-layer
 jysk.pl,uzywana-muzyka.business.site###cookieDialog
@@ -845,7 +846,7 @@ lampy.pl##.dnt-dialog
 lancia.pl###cl-banner
 laserhouse.pl##.LASERWrapper
 laskonline.pl,bskrasnosielc.pl,rarlab.com###cookiewarning > div:nth-of-type(1)
-lasy.gov.pl,bip.kielce.eu##.popup-alert-notice
+lasy.gov.pl,bip.kielce.eu,wrota-swietokrzyskie.pl##.popup-alert-notice
 laznianowa.pl##DIV[style="background: #E9E9E9; color: #777; font-size: 9px; position: fixed; bottom: 0; width: 100%; z-index: 9999; padding: 2px; text-align: center; -webkit-border-top-right-radius: 8px; -webkit-border-top-left-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-topleft: 8px; border-top-right-radius: 8px; border-top-left-radius: 8px; font-size: 12px; -webkit-box-shadow: 2px 2px 3px 0px rgba(127, 127, 127, 0.4); box-shadow: 2px -2px 3px 0px rgba(127, 127, 127, 0.4);"]
 lbn.pl###ciastko
 leclerc.com.pl##div#tekst
@@ -1155,6 +1156,7 @@ parkhandlowylomza.pl###pamphletu38210
 parkwodny.pl,szkolymedyczne.eu,srodaslaska.pl##.ppsPopupShell, #ppsPopupBgOverlay
 parp.gov.pl###howdydo-wrapper
 paypal.com###gdprCookieBanner
+pbspolska.eu##.wpgdprc-consent-bar.wpgdprc
 pcprwiecbork.pl##.mlab-modal
 pebx.pl###Notices
 peb.pl###jqibox
@@ -1450,7 +1452,7 @@ swiat-zdrowia.pl###NeucaCookieDialog
 swidnica24.pl##div#policyBox
 swietnafirma.pl###cMess
 swietokrzyskie.pro##.cookieNotification
-swmarcin-jarocin.com,ufs.pt###cookiesBar
+swmarcin-jarocin.com,ufs.pt,biblioteki.org###cookiesBar
 swps.pl###cpnb_warningBoxBgOverlay, [data-cookie-name="cookiesDirective"]
 szczecinek.com###__cmcmedia_upid_26
 szczepimy.com.pl##.cookiesalert
@@ -1488,7 +1490,6 @@ tominet.com.pl#?#table:-abp-has(#cookieMessageText)
 top123.pl##.woocommerce-store-notice
 torkusa.com,tork.pl##.headerMessage
 toyota.pl,toyota-lublin.pl###ePrivacyDisclaimer
-tpvpolska.pl##.cookie
 tp-link.com###divCookieUsedNote
 trafica.eu,wodbud.eu###q-cookie-box
 traftu.pl##.unconfirmed.opt-in-splash
