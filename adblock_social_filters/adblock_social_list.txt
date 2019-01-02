@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: wgwVACWnk+Y0FtKWAFcRog
+! Checksum: Ua3dDhIspRqukciX7dgxHA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 201901021523
-! Last modified: Wed, 02 Jan 2019, 15:23:49 UTC+01
+! Version: 2019.1.5
+! Last modified: Wed, 02 Jan 2019, 22:04 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.201901021523 aktualizacja: śro, 02 sty 2019, 15:23:49 UTC+01
+! v.2019.1.5 aktualizacja: śro, 02 sty 2019, 22:04 UTC+01
 !
 !
 ! Popupy
@@ -797,7 +797,7 @@ asta24.pl##.fb_inner, .margin40.box:nth-of-type(2), .text-center.margin40
 astromagia.pl###sidebar_facebook
 astronomia24.com##.googleplusBtn, .youtubeBtn, .footer-icons > a[href="https://plus.google.com/+Astronomia24Polska"], a[href="http://www.youtube.com/user/Astronomia24"]
 astroweb.pl##.col-md-8 > div:nth-of-type(4)
-astroweb.pl##.well:nth-of-type(1)
+astroweb.pl,przewodnikduchowy.pl##.well:nth-of-type(1)
 atarashii.pl###container > table:nth-of-type(2) > tbody > tr > td:nth-of-type(3)
 atcdevelopment.pl##a[href*="www.facebook.com/SRODMIESCIEodnowa"] > img, a[href="https://twitter.com/ATC_Development"] > img
 atnel.pl###trigger1
@@ -961,7 +961,7 @@ centrumdruku3d.pl##.widget_text.col-4.widget
 centrumkomputerowe.eu###imFooter > div, #imHeader > div:nth-of-type(4)
 centrumparis.pl##.social_footer_2
 centrum-gracza.pl##.widget:nth-of-type(2) > .widget-title, .col-md-4.col-sm-12
-centrum.fm##.fb
+centrum.fm,miechow.eu,patriot24.net##.fb
 certyficate.it##.message.social
 cesario.pl,moodconcept.pl###ssb-btn-0
 cewe.pl##.sidebar-link:nth-of-type(n+4):nth-of-type(-n+6) > .sidebar-icon
@@ -1008,7 +1008,7 @@ cowziemipiszczy.pl###text-16 > .textwidget > p:nth-of-type(1), .textwidget > p:n
 cozahistoria.pl###menu-item-87, #menu-item-88, #menu-item-89
 craftboard.pl##a[href="http://facebook.com/listaserwerowminecraft"]
 craftportal.pl##.__xXznajdziesz20nas20tutaj, #text-3
-crazynauka.pl##.cb-widget-social-media
+crazynauka.pl,oscarrak.pl##.cb-widget-social-media
 creativetools.pl,fan-strefa.pl###twitter2_2
 croatia.hr##.social-media-links--platforms > li:nth-of-type(-n+7)
 crolove.pl###text-47
@@ -1155,7 +1155,7 @@ enelsport.pl##div.page:nth-of-type(2) > div.width-25.column:nth-of-type(3), .qui
 energetyka24.com,cyberdefence24.pl,defence24.pl,space24.pl,infosecurity24.pl##.header-bottom-social
 energetyka24.com,infosecurity24.pl,defence24.pl,cyberdefence24.pl,space24.pl##.mt-30.right-news-module
 envelo.pl##.envelo-facebook, .envelo-twitter, .envelo-gplus, .envelo-in, .envelo-instagram
-epainfo.pl##.widget_fbw_id
+epainfo.pl,kosmicznapropaganda.pl,movieway.pl,cryptodemy.pl,xn--soikowo-njb.pl,magyazyn.pl,ochrona24.info,odkrywamyzakryte.com,retronagazie.eu##.widget_fbw_id
 epiotrkow.pl##.sboxr
 epiotrkow.pl##div.wcontl:nth-of-type(5) > h1
 epiotrkow.pl##.wcontl:nth-of-type(2), .wcontl:nth-of-type(6) > h1
@@ -1225,7 +1225,7 @@ finansenaobcasach.info###text-4 > .widgettitle
 finansowysupermarket.pl###fb-header
 finmarket.pl##span:nth-of-type(5)
 firaneczki.com.pl##.st_news_left > .hidden > li:nth-of-type(1)
-firebit.pl##.fa-google.fa
+firebit.pl,kurier365.pl##.fa-google.fa
 firmamazur.pl,mazurcompany.com###foot_socials
 fish24.pl##.google_foot
 fishing-mart.com.pl##.link:nth-of-type(4)
@@ -1241,7 +1241,7 @@ flarrow.pl##.td-ss-main-sidebar > div:nth-of-type(3)
 flashscore.pl##.selfPromo__box--social
 fly4free.pl##.slide-box--facebook.slide-box
 fly.pl##li.social.hidden-sm.hidden-xs:nth-child(-n+4)
-fokusfashion.com###tws_a_0
+fokusfashion.com,kupbuty.com###tws_a_0
 fonopolis.pl##.wce_sociallinks
 footballart.pl###text-3, #custom_html-3
 footroll.pl##.likebox-facebook
@@ -1445,8 +1445,8 @@ info.ceneo.pl##.footer #text-8
 info.wiara.pl##.txt__social
 inianie.pl###main-article > .share
 innogy.pl#?#div#footer > .row > .grid-12 > .fluid.container.component:-abp-contains(Spotkajmy się!)
-innpoland.pl##.art__body__instagram-container
 innpoland.pl,mamadu.pl,medianarodowe.com,natemat.pl###fbinvite
+innpoland.pl,natemat.pl,aszdziennik.pl,mamadu.pl##.art__body__instagram-container
 inpay.pl##.column.wide.six
 insert.com.pl###RL
 insomnia.pl##.facebook_inso
@@ -1538,11 +1538,10 @@ kopalniawiedzy.pl##.ui-helper-clearfix.box.articles:nth-of-type(4)
 koraliki.pl###footer div.col-sm-3:nth-of-type(1)
 korob.pl##a[href="https://www.facebook.com/KOROB-330310557144075"]
 korr.pl##a[href="http://www.facebook.com/pages/KORR/512135138801101"], a[href^="http://www.youtube.com/user/KORRtunery"]
-korsokolbuszowskie.pl##.in
+korsokolbuszowskie.pl,truso.tv,oakandberry.com##.in
 korso.pl##.sbuttons.list-inline.list-unstyled > li:nth-of-type(4)
 kosmetykizameryki.pl##.insta-top
 kosmicznapropaganda.pl##.themewing_instagram_widget
-kosmicznapropaganda.pl,movieway.pl,cryptodemy.pl,xn--soikowo-njb.pl,magyazyn.pl,ochrona24.info,odkrywamyzakryte.com,retronagazie.eu##.widget_fbw_id
 kosmonautyka.pl##tr:nth-of-type(3)
 koszalininfo.pl###text-4
 koszulki-polska.pl##.link-follow
@@ -1569,10 +1568,8 @@ kswmma.com##.mb-0.d-inline-block.list-inline
 kuchnialidla.pl##.home_newsletter > .home_newsletter_col2 > h3
 kupbilet.pl##.tabslideFB
 kupbuty.com###menu_banners3
-kupbuty.com###tws_a_0
 kupujemy.to###fbBox, #contactBox
 kurasinski.com##.home-social
-kurier365.pl##.fa-google.fa
 kurier365.pl##.no-border.box
 kurjerzy.pl##.main__footer__container .row > .push-0\@tablet.gr-12\@tablet.push-8.gr-4
 kzkgop.com.pl,rozklady.kzkgop.pl##.pull-right.col-sm-1 > .btn-sm.btn-default.btn
@@ -1709,7 +1706,6 @@ miastons.pl##.widget_better-social-banner
 miasto-info.pl###mp-facebook
 miasto-ogrodow.eu##a.pull-right:nth-of-type(n+3):nth-of-type(-n+4), .stopka > div.col-md-3:nth-of-type(3)
 michalkiewicz.pl###PRAWA > div.modul:nth-of-type(2)
-miechow.eu##.fb
 mieszkaniowi.pl###fpw_icon
 milanos.pl##.col-xs-12.col-sm-6.col-md-34:nth-of-type(4)
 milanos.pl##.row:nth-of-type(8)
@@ -1824,7 +1820,6 @@ naszemiasto.pl##.component.componentsArticleTools > a:nth-of-type(-n+2)
 naszpradnik.pl##.menu-social-fb
 naszwodzislaw.com##.instagram
 natemat.pl##.footer__box__list--social
-natemat.pl,aszdziennik.pl,mamadu.pl##.art__body__instagram-container
 naturalo.pl##.center.section-title
 naukaitechnologie.plportal.pl###block-block-12
 nawozy.eu###fbWidget
@@ -1845,8 +1840,8 @@ nietylkopasta.pl##.uk-width-large-1-4.bh-sidebar-right > .widget-text.uk-panel:n
 nietylkopasta.pl##.widget-ws_fb_like_box, #dbx_light, .uk-icon-button
 niezatapialni.com###text-4
 niezlasztuka.net##.nksub_socialbar
-niezlomni.com###hwm
 niezlomni.com,drama-online.pl##.widget_facebook
+niezlomni.com,prawdaobiektywna.pl###hwm
 nieznany-numer.pl##.titleRwd:nth-of-type(5), .social
 nike.com##.nsg-glyph--facebook
 nike.com##.nsg-glyph--instagram
@@ -1857,7 +1852,7 @@ nitrofilm.pl##div:nth-of-type(2) > div:nth-of-type(4), div:nth-of-type(2) > div:
 njumobile.pl##li > .sun-orb
 nocowanie.pl##.icon-gplus
 nono-store.pl##.fsi-social-icons-left, #text-3, .fullwidth.stripecontainer
-norauto.pl##.m-copyrights_social
+norauto.pl,zadowolenie.pl##.m-copyrights_social
 norwegian.com,nvidia.com##.page-footer__social
 nowakonfederacja.pl##.icons-facebook-letter-logo, .icons-twitter-black-shape, .icons-youtube-symbol
 nowastrategia.org.pl##div.home-widget:nth-of-type(2) > .widget_text.widget > .textwidget > p
@@ -1918,7 +1913,6 @@ originals24.pl##td:nth-of-type(3) > table:nth-of-type(3)
 orlenteam.pl##.socialTabs
 orlen.pl##.menu_box_1 > ul > li:nth-child(n+4):nth-child(-n+6)
 orpeg.pl##a[href="https://www.youtube.com/user/ORPEG/videos"]
-oscarrak.pl##.cb-widget-social-media
 ostatniatawerna.pl##.module-about.widget
 ostrowmaz.com##.nk-tab
 osworld.pl##.td-social-wrap-64.td-social-wrap.td_block_wrap > .block-title
@@ -1952,7 +1946,6 @@ pasazer.com##.col:nth-of-type(4)
 pasja-informatyki.pl###slide-out-div
 patabloguje.pl###HTML1, #HTML2
 pato.pl###nasza_klasa_side_bar
-patriot24.net##.fb
 pay-card.pl##a[href="https://www.youtube.com/channel/UCIrQBYCQhV8RCvPZ5YlZywQ"]
 pay-card.pl##.et_pb_section_6
 pay.google.com##.youtube.social--icon
@@ -2096,7 +2089,6 @@ poznan.travel##.customhtml.widget:nth-of-type(5), div.customhtml.widget:nth-of-t
 pozycjeobowiazkowe.pl##.fontana-social-icons, #HTML3, #HTML5
 pozyczkomat-lodz.pl##.head_socials
 pralniaiprasowalniadlaciebie.pl##[alt="Google+ Social Icon"]
-prawdaobiektywna.pl###hwm
 prawdaobiektywna.pl###top-social-menu, #column-right .article
 prawdaobiektywna.pl##.article > h2
 prawodrogowe.pl##div:nth-of-type(4) > .img-responsive
@@ -2126,7 +2118,6 @@ przegladbaltycki.pl###rum_sst_tab
 przegladpiaseczynski.pl###Mod106
 przelom.pl###sidebar > hr:nth-of-type(5), #sidebar > div.title:nth-of-type(10)
 przenosne.pl##.sm_link
-przewodnikduchowy.pl##.well:nth-of-type(1)
 przewodnik-katolicki.pl##.pozycje-menu, .social-stopka, .strefa-social, .fb-comments
 przyslijprzepis.pl##a[href="https://www.youtube.com/przyslijprzepis"]
 przyslijprzepis.pl##.top-fb, .top-instagram
@@ -2499,7 +2490,6 @@ triathlonprzechlewo.pl###menu-triathlon-przechlewo-pl-1 > li:nth-child(7), .grve
 trojmiejskaperfumeria.pl###easycontent_6 > .title_block > .title_block_inner, .social_wrap > .fto-facebook, .social_wrap > .fto-instagram-1, .social_wrap > .fto-gplus-squared
 trovit.pl##.share_friends
 truso.tv##.gp
-truso.tv,oakandberry.com##.in
 trybawaryjny.pl##.widget_text.col-4.widget:nth-of-type(3)
 trybun.org.pl##.uwl_instagram_widget_wrap, .widget_simplecatch_social_widget, .uwl_widget_wrap
 ts-stars.pl##div.col:nth-of-type(3)
@@ -2729,7 +2719,6 @@ yerbanot.com###custom_html-5
 youtube.com##.ytd-c4-tabbed-header-renderer.yt-simple-endpoint[title="Facebook"]
 zaadoptujfaceta.pl##.clearfix.fleft:nth-of-type(1)
 zadluzenia.com##.footer > .container > .row > div.col-sm-3:nth-of-type(4)
-zadowolenie.pl##.m-copyrights_social
 zadowolenie.pl##.m-socialIcons
 zagorz24.pl,ustrzyki24.pl,brzozow24.pl,jaslo24.pl,zarszyn24.pl,bukowsko24.pl,rzeszow24.pl,strzyzow24.pl,esanok.pl##.tt-links > .container > .row > div > .list-inline > .list-inline-item:nth-of-type(-n+2)
 zagranie.com##.social_links_style2, #twitter-timeline-profile-4
@@ -2805,6 +2794,7 @@ zwrotzalot.pl##a[href^="https://www.facebook.com/zwrotzalot/"]
 ||ctm.gdynia.pl/pics/like.png
 ||dlahandlu.pl/images/2015/icons/fb.png
 ||doxa.fm/wp-content/plugins/sn-facebook-like/js/retioSlider.min.js
+||facebook.com/widgets/like.php?href=http://gustaf.pl/opis/$subdocument
 ||fight24.pl/fb.png
 ||forum.blogowicz.info/img/czat-blogger-polska.png
 ||forum.blogowicz.info/templates/SubHyTySz/images/blogger_icon_profile.gif
