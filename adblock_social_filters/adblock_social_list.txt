@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 2RtH7v7cxCF7JfQ0gZR0ig
+! Checksum: F9loOs1+WucvSdz9DF3RIQ
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.6
-! Last modified: Thu, 03 Jan 2019, 08:47 UTC+01
+! Version: 2019.1.7
+! Last modified: Thu, 03 Jan 2019, 09:48 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.6 aktualizacja: czw, 03 sty 2019, 08:47 UTC+01
+! v.2019.1.7 aktualizacja: czw, 03 sty 2019, 09:48 UTC+01
 !
 !
 ! Popupy
@@ -1519,7 +1519,6 @@ kochamwroclaw.pl##.td-instagram-element, td-footer-instagram-title
 kochanamama.pl##.pmpIFb, .pmpIGp, .pmpIYt
 kodiwpigulce.pl##.footer-sidebar.sidebar:nth-of-type(4)
 kodi.org.pl##.pweb-theme-fbnavy
-kodzisz.pl##li.menu__item:nth-of-type(n+5)
 kolemsietoczy.pl###menu-sociale > li:nth-child(-n+4)
 kolorowankionline.net###sgcboxWrapper
 kombatanci.gov.pl##[src="/images/wyglad/fb.png"], [src="/images/wyglad/tt.png"]
@@ -2512,7 +2511,6 @@ tvp.info##.nav__fake--social > .gplus
 tvp.info##.nav__fake--social > .twitter
 tvp.pl##.section-facebook
 tvwlodawa.pl##.youtube-widget
-tvzabrze.eu##a[href="http://www.facebook.com/pages/TVZ-Telewizja-Zabrze/148299788539083"]
 tv.eurosport.pl##.share-buttons-container
 twierdzaeuropa.pl###footgroup2
 twojahistoria.pl##.footer-fixed
@@ -2720,7 +2718,7 @@ youtube.com##.ytd-c4-tabbed-header-renderer.yt-simple-endpoint[title="Facebook"]
 zaadoptujfaceta.pl##.clearfix.fleft:nth-of-type(1)
 zadluzenia.com##.footer > .container > .row > div.col-sm-3:nth-of-type(4)
 zadowolenie.pl##.m-socialIcons
-zagorz24.pl,ustrzyki24.pl,brzozow24.pl,jaslo24.pl,zarszyn24.pl,bukowsko24.pl,rzeszow24.pl,strzyzow24.pl,esanok.pl##.tt-links > .container > .row > div > .list-inline > .list-inline-item:nth-of-type(-n+2)
+zagorz24.pl,ustrzyki24.pl,brzozow24.pl,jaslo24.pl,zarszyn24.pl,rzeszow24.pl,strzyzow24.pl,esanok.pl##.tt-links > .container > .row > div > .list-inline > .list-inline-item:nth-of-type(-n+2)
 zagranie.com##.social_links_style2, #twitter-timeline-profile-4
 zalajkowane.pl##.pu_facebook_widget
 zalando.pl##a[href="https://www.facebook.com/zalando.polska"]
@@ -2771,6 +2769,9 @@ zvami.tv,cooltura24.co.uk,echotygodnik.info##.facebook, .google, .twitter, .inst
 zwiedzam-stadiony.eu##.instagal_widget
 zwrotzalot.pl##a[href^="https://www.facebook.com/zwrotzalot/"]
 zygzaksnow.pl###ppfacebook
+!bukowsko24.pl##.tt-links > .container > .row > div > .list-inline > .list-inline-item:nth-of-type(-n+2)
+!kodzisz.pl##li.menu__item:nth-of-type(n+5)
+!tvzabrze.eu##a[href="http://www.facebook.com/pages/TVZ-Telewizja-Zabrze/148299788539083"]
 !
 !
 ! Specyficzne reguły blokujące
