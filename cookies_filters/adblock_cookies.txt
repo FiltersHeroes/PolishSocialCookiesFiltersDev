@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: cOUlXBrj3KxlgLUyTeiajA
+! Checksum: a0ifIOlHv+iFV4xQy51HnQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.8
-! Last modified: Thu, 03 Jan 2019, 08:44 UTC+01
+! Version: 2019.1.9
+! Last modified: Thu, 03 Jan 2019, 09:43 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.8 aktualizacja: czw, 03 sty 2019, 08:44 UTC+01
+! v.2019.1.9 aktualizacja: czw, 03 sty 2019, 09:43 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -43,11 +43,11 @@ abfoto.pl##.abfoto_popup_bg
 aboutyou.pl##div[class^="styles__inner"]
 absolvent.pl##.top-ban-wrapper
 abt-s.pl,ecbedzin.pl,enut.pl,programatory.com,haloursynow.pl,warsztat.pl,interprojekt.pl###myModal
-abt-s.pl,interprojekt.pl,yes.pl##.reveal-modal-bg
+abt-s.pl,interprojekt.pl,yes.pl,filoma.org,naekranie.pl,polskiprawnik.pl,www.hotelbb.pl##.reveal-modal-bg
 account.ubisoft.com###footer_tc_privacy
 accuweather.com###eu-cookie-notify-wrap
 acer.com##.cookieBox
-aclari.pl###licence-agreement, .modal-backdrop
+aclari.pl###licence-agreement
 adbl.eu,polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com,widzewtomy.net,japrzedsiebiorca.biz,konstytucjabiznesu.biz,doradcarestrukturyzacyjny.info,sandraspa.eu,centrum.fm,elektrykapradnietyka.com,platinet.eu,spece.it,wolnekonopie.org###cookie-law-info-bar
 addthis.com,nespresso.com,ea.com###consent_blackbar
 adguard.com##.sticky-bar--cookie
@@ -143,7 +143,7 @@ autoaukcje.net##.popup_cookies
 autocentrum.pl##.hello-rodo
 autodna.pl##.privacy_policy-info
 autogespot.pl##div[class^="popup"]:not(.fancybox-margin)
-autogielda.pl,mix4kids.tv,dreammachines.pl,fotosik.pl,haloursynow.pl,warsztat.pl,jelenia.tv,leo.pl,4fstore.com,interprojekt.pl##.modal-backdrop
+autogielda.pl,mix4kids.tv,dreammachines.pl,fotosik.pl,haloursynow.pl,warsztat.pl,jelenia.tv,leo.pl,4fstore.com,interprojekt.pl,aclari.pl,diecezjaplocka.pl,e-konkursy.info,funduszpomerania.pl,goldenline.pl,hdtv-sat.eu,naratunek.org,oskolaf.pl,panoramafirm.pl,pulawy.eu,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,swiatpodlog.com.pl,wseit.edu.pl##.modal-backdrop
 autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.net,galerialimonka.pl,otabletach.pl###cop
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autos-motos.net,scentre.pl,ilewazy.pl##.consent
@@ -340,7 +340,7 @@ denley.pl##.ck-popup.cookiepopup
 developers.google.com,developer.android.com##.devsite-notification-eu-cookie
 devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
 dia.com.pl,pkfpolska.pl,pkfszkolenia.pl###S_cookies
-diecezjaplocka.pl###modalKlauzulaInformacyjna, .modal-backdrop
+diecezjaplocka.pl###modalKlauzulaInformacyjna
 dieta.pl##.cookies__std
 dietlux.pl###mod286
 digitalhill.pl##.notification-panel
@@ -462,7 +462,7 @@ e-hak24.pl###cokkies
 e-hortico.pl###fancybox-container-1
 e-hotelarz.pl,e-restauracja.com,rynek-turystyczny.pl,polskijubiler.pl,e-stacjapaliw.pl##.popup, #header-cookies-accept
 e-konferencje.pl,szkolenia24h.pl##body > div[style="width: 970px; border:1px solid gray; margin: 3px auto; color: gray; padding: 3px; text-align: center; font: 10px Verdana, sans-serif;"]
-e-konkursy.info###rodoNotify, .modal-backdrop, #cookieNotify
+e-konkursy.info###rodoNotify, #cookieNotify
 e-kwiaciarz.pl##.ff-cookies-container
 e-petrol.pl,uzdrowisko-wieniec.pl###statement
 e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
@@ -496,7 +496,7 @@ fiatklubpolska.pl##li#navbar_notice_1
 fiatklubpolska.pl###navbar_notice_1.restore
 filman.cc###cookies > div
 filmyonline.tv,mettosport.eu,spidersweb.pl,vanessa.fm###moove_gdpr_cookie_info_bar
-filoma.org###app-confirm-dialog, .reveal-modal-bg
+filoma.org###app-confirm-dialog
 finai.pl##.view > .info
 finanse.rankomat.pl,sowafinansowa.pl,komorkomat.pl,wakacyjnapolisa.pl,wypowiadamoc.pl,autoumowa.pl##.r-cookie-bar
 finansowysupermarket.pl,faktykaliskie.pl###policy-popup
@@ -542,7 +542,7 @@ fotonegatyw.com###fx-modal-1
 fotoprint.pl###info-bar
 fsmm.pl###cookieinfoboxitems
 funclub.pl##body > div > div > div > div > div:-abp-contains(cookies)
-funduszpomerania.pl###eprivacyModal, .modal-backdrop
+funduszpomerania.pl###eprivacyModal
 funnygames.pl###cmp-container-id
 futu.pl###my-alert
 gaj-stal.com,polonia.nl###pasek
@@ -599,7 +599,7 @@ goclever.com,goclever.pl##div#cp-wrap
 goin.pl##body > div[style="color:white;background:black;padding:5px;"]
 gokf.gda.pl###zgoda_cookie
 goldenline.pl##section[class*="cookiesInfo"]
-goldenline.pl###profiling-agreement, .modal-backdrop
+goldenline.pl###profiling-agreement
 goldenline.pl###topReminder
 golfparkspoland.pl###infoCookieWrapper
 gomez.pl##.window-police
@@ -635,7 +635,7 @@ hair-shop.pl,mtech.pl##.popup_cont, .popup_back
 handen.pl,mican.eu##.mod_cookiesinfo
 hankooktire.com##.top_ep_wrap
 haszkod.pl###cookieshit
-hdtv-sat.eu###modalcookies, .modal-backdrop
+hdtv-sat.eu###modalcookies
 hebeapteka.pl,hebe.pl##.legal-info
 hebe.pl##.rodo-popup_popup
 hegos.eu,tagen.tv###cookiesEU-box
@@ -1021,12 +1021,12 @@ myownconference.pl##.co-ag
 mzdik.pl###webDataTime > span
 m.benchmark.pl###private-policy-popup
 m.facebook.com,touch.facebook.com###header-notices
-naekranie.pl###modal-rodo-info, .reveal-modal-bg
+naekranie.pl###modal-rodo-info
 nakanapie.pl##div.sticker
 nanodatex.pl###cookis-box
 napad.pl###pp-cookies-container
 naprzedwiosniu.waw.pl###zf--alerts-panel
-naratunek.org###rodo, .modal-backdrop
+naratunek.org###rodo
 nastopy.pl##.mask
 natgeotv.com###cookieBar
 naturo.pl###simple-modal, #simple-modal-overlay
@@ -1123,7 +1123,7 @@ orliman.pl##.c-info
 ortograf.pl###ns-rodo-popup-one
 orzeczenia.ms.gov.pl###cookieInfoHeader
 osiedle-chelmonskiego.pl.tl,pl.pons.com,languagetool.org,forum.optymalizacja.com##.cc_banner-wrapper:not(body):not(html)
-oskolaf.pl###modal-info, .modal-backdrop
+oskolaf.pl###modal-info
 osm-sierpc.pl##.tm-cookies
 ospace.com.pl###private-police.private-police
 ostrowiecnr1.pl###iopp
@@ -1138,7 +1138,7 @@ panasonic.pl##div#CP_Layer
 pandora.net###cccwrpad
 pandora.net##[class*="ui-"]
 paneleogrodzeniowe-treza.com###treza-cookies
-panoramafirm.pl###rodoLayer, .modal-backdrop
+panoramafirm.pl###rodoLayer
 parkersklep.pl,rotringsklep.pl###BoxCookie
 parkhandlowylomza.pl###pamphletu38210
 parkwodny.pl,szkolymedyczne.eu,srodaslaska.pl##.ppsPopupShell, #ppsPopupBgOverlay
@@ -1215,7 +1215,7 @@ polskicaravaning.pl###myModalpol
 polskieradio.pl,dziennikwschodni.pl##.rodo-modal
 polskijubiler.pl##body > div:nth-of-type(1)[style="width: 90%; margin: 0 auto;"]
 polskijubiler.pl,e-stacjapaliw.pl###myPopup
-polskiprawnik.pl###popup3, .reveal-modal-bg
+polskiprawnik.pl###popup3
 pomagam.pl###pp-info
 pomiar24.pl###cookiesContainer
 pomorskie.eu###cookiesinfoPWU
@@ -1261,12 +1261,13 @@ pttk.katowice.pl###cookBox
 publio.pl###cookie-agreement
 puderek.com.pl,tatuum.com###cookie_law_informations
 puk.elk.pl###AgreeCookieMsg
-pulawy.eu###modalRodo, .modal-backdrop
+pulawy.eu###modalRodo
 pupgrodziskwlkp.pl##.cookies_bar
 pupgrodziskwlkp.pl#?##fancybox-wrap:-abp-has(img[src="/ckeditor_assets/pictures/197/content_informacja_rodo.png"])
 pushpushgo.com##.ppg-cookies
 pwik.wolomin.pl###oknoModal
 pw.edu.pl##.lb-overlay, .lb-wrapper
+pzbuk.pl##.cookieConsent
 pzip.pl##.sqs-announcement-bar-content
 pzm.bydgoszcz.pl##div[tyle="position: fixed; left:0; right:0; bottom:0; height:70px; background-color:#eee; border: 1px solid red; z-index:1000; overflow: auto"]
 pzszerm.pl,rewolucjawoc.pl##.copy
@@ -1317,7 +1318,7 @@ rosja.pl###cookframe
 routex.com###ca_alert
 rozwojowiec.pl###fixedBar
 rps.ms.gov.pl###MS
-rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl###pd-modal, .modal-backdrop
+rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl###pd-modal
 rybomania.pl###cookies_widget
 rymer.org###info_bottom
 rzemioslo.org###pronamic_cookie_holder
@@ -1430,7 +1431,7 @@ superkoszyk.pl###widget-cookie-message
 super-siodemka.pl###div-cookie-acceptance
 support.kaspersky.com###gdprbar
 swiatnauki.pl,wiz.pl###menu
-swiatpodlog.com.pl###giodo, .modal-backdrop
+swiatpodlog.com.pl###giodo
 swiat-zdrowia.pl###NeucaCookieDialog
 swidnica24.pl##div#policyBox
 swietnafirma.pl###cMess
@@ -1535,7 +1536,7 @@ webdev20.pl###top_message
 webprojekt.biz###ppc
 web-booking.mytaxi.com#?#body > div > div > div:-abp-contains(🍪)
 web.skype.com#?#.info.notification:-abp-contains(cookie)
-wedelpijalnie.p###cookies_allowed_message
+wedelpijalnie.pl###cookies_allowed_message
 weebly.com,eniro.pl,eniroweb.pl,amawid.pl###kb-container
 weekendfm.pl##.rodo_out
 wegetarianie.pl##td[align="center"][height="22"]
@@ -1565,7 +1566,7 @@ wrobelekelemelek.com###cboxOverlay, #cboxWrapper
 wroclawfashionoutlet.com##.via-notification--cookie
 wrzucacz.pl###logo .info
 wsedno24.pl###mordern_adbar_wrap
-wseit.edu.pl##.modal-dialog, .modal-backdrop, #welcome
+wseit.edu.pl##.modal-dialog, #welcome
 wskaznikizrp.stat.gov.pl,sdg.stat.gov.pl##table[id$="gridStopka"] > tbody > .ui-panelgrid-even.ui-widget-content > .ui-panelgrid-cell
 wspanialewesele.com.pl###rodomodal
 wsqn.pl#?#.infotext:-abp-has(.close_info_text)
@@ -1589,7 +1590,7 @@ www.gumtree.com##.gdpr-banner
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hays.pl,hays-response.pl###header-msg
 www.hertz.com.pl##[class^="lb-"]
-www.hotelbb.pl###be-modal-content-disclaimer, .reveal-modal-bg
+www.hotelbb.pl###be-modal-content-disclaimer
 www.ifon.pl##.region-top.region
 www.insp.waw.pl###divbox
 www.joe.pl###j_all > div:nth-of-type(3)
