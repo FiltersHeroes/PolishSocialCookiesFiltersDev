@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: KD2NqgIDLj4KFCOZdFTixQ
+! Checksum: gKchoSOdJUXwFxbgX56jTw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.3.5
-! Last modified: Thu, 03 Jan 2019, 16:05 UTC+01
+! Version: 2019.1.3.6
+! Last modified: Thu, 03 Jan 2019, 18:57 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,11 +18,10 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.3.5 aktualizacja: czw, 03 sty 2019, 16:05 UTC+01
+! v.2019.1.3.6 aktualizacja: czw, 03 sty 2019, 18:57 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
-~www.wp.pl,~poczta.wp.pl,wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,xtb.com,feriogaj.com,koszyki.com,muzo.fm,cedc.com,edeklaracje.info,studiuje.eu,skierniewice.eu,diagprog4.com,tebrizsesi.com,evertourist.com,prymus.info,answear.com,telesystem-world.com###cookies
 3dom.pro,bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com,stolmot.com,anmur.eu,trecnutrition.com,koszulkomat.eu,f1experiences.com,gamet.eu##.cookies
 3mpolska.pl###__tealiumGDPRecModal
@@ -52,7 +51,7 @@ adbl.eu,polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com,widzewtomy.net,
 addthis.com,nespresso.com,ea.com###consent_blackbar
 adguard.com##.sticky-bar--cookie
 adm-media.pl,kociadolina.pl##.policy
-adobe.com##.message
+adobe.com,merixstudio.pl##.message
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl##body > div:not([id]):not([class])[style*="position"][style*="relative"]
 adwokatura.katowice.pl###cookieInfCont
@@ -73,7 +72,7 @@ akademiafalubaz.pl###cgRodoModal, #cgRodoBackdrop
 akademia-piwa.pl##div#polityka_tekst
 akpolbaby.pl###gdpr-sticky-banner
 aktualnyodpis.pl##.ao-cookie-container
-aktywnedzieciaki.info,dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl,centrumwroclaw.pl,wsensie.pl,dreamtours.pl,krzyzowka.net,tacyjakja.pl,zamek.malbork.pl###rodo
+aktywnedzieciaki.info,dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl,centrumwroclaw.pl,wsensie.pl,dreamtours.pl,krzyzowka.net,tacyjakja.pl,zamek.malbork.pl,bip.um.rybnik.eu,naratunek.org###rodo
 alegotowka.pl,chwilowkomat.pl,halopozyczka.pl,quadralite.pl###cookies-law
 alekino.com###cookies-info-wrapper
 alerabat.com###popup-rodo
@@ -199,7 +198,6 @@ bip.marciszow.pl###cookiesWarning
 bip.org.pl,plocman.pl###dialog-rodo
 bip.sejmik.kielce.pl##.pa_sci
 bip.skomlin.akcessnet.net,instytuty.drirenaeris.com,kupujemy.to###cookie_info
-bip.um.rybnik.eu###rodo
 bitcomputer.pl,teletrade-dj.pl###pp
 bitmarket24.pl###notifications
 bitmaszyna.pl###wwelcome
@@ -213,7 +211,7 @@ blog4u.pl##DIV[style="width:100%;float:left;padding:3px 0;background-color:#fff"
 blogasek.pl###j_all > div[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
 blog-pozyczoneiniebieskie.pl###cookie_info_container
-bluecity.pl,brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl,klinikaagd.pl,pgd.pl,mazowieckie.com.pl,terramar.pl,sfinks.pl,filmotekaszkolna.pl,pozyczkaplus.pl,bs.olawa.pl,onerqe-kredyt.pl,szkolenia-semper.pl,gdynia.sr.gov.pl,unityline.pl,lodzkie.pl,seopilot.pl,waw.pl,decoratorium.eu,tpvpolska.pl,arena.wroc.pl,ligawalkizrakiem.pl,otouczelnie.pl,fakturaelektroniczna.com,fitandyummy.pl##.cookie
+bluecity.pl,brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl,klinikaagd.pl,pgd.pl,mazowieckie.com.pl,terramar.pl,sfinks.pl,filmotekaszkolna.pl,pozyczkaplus.pl,bs.olawa.pl,onerqe-kredyt.pl,szkolenia-semper.pl,gdynia.sr.gov.pl,unityline.pl,lodzkie.pl,seopilot.pl,waw.pl,decoratorium.eu,tpvpolska.pl,arena.wroc.pl,ligawalkizrakiem.pl,otouczelnie.pl,fakturaelektroniczna.com,fitandyummy.pl,olejkilecznicze.pl##.cookie
 bmc-switzerland.pl##.tab2-rodo-bar
 bobrowniki.tv###cookie_policy_popup
 bocian.org.pl,siteor.pl##.jGrowl-notification
@@ -658,6 +656,7 @@ host1.eu##.cookies_policy
 hotele.pl##DIV[style="font-family: Tahoma; margin-bottom: 6px; padding: 5px; font-size: 10px; color: rgb(0, 0, 0); background-color: rgb(204, 204, 204); border-bottom: 1px solid black;"]
 hotpoint.pl###_1_WAR_privacyportlet_privacy-info-message
 hpe.com##.privacy-banner
+hrlink.pl##.cookies-obligation-clause
 huawei.com,huaweipolska.pl##.huawei-cookie
 humanoffice.pl###cookie_cointer
 hurtowniateleinformatyczna.pl,ideanord.com.pl,intimiti.pl,ipartworld.pl,itpromo.pl,lunamarket.pl,mazury.pl,mikos.com.pl,mini-itx.com.pl,ostry-sklep.pl,pcoutlet.pl,powerflex.pl,pupilexpert.pl,raraavis.krakow.pl,sklep-muzyczny.com.pl,skrypt.com.pl,ekologiczny.pl,sporto.com.pl,srebrnystyl.pl,termokubki.com.pl,tv-zakupy.pl,wodna-kraina.pl###topInfoContainer0, #topInfoContainer1, #topInfoContainer1Mask, #top_info, .top_info
@@ -930,7 +929,7 @@ memorialhenrykapuzonia.pl###sc
 mercedes-benz.com###cLayer, #cPageOverlay
 mercedes-benz.com,mercedes-benz.pl###emb-cp-dialog
 mercure.com##.is-ready
-merixstudio.pl###message, .message
+merixstudio.pl###message
 merlin.pl##.merlin-legal-note
 meskiegacie.pl###footer_links_sub > .ft_social
 meteoblue.com##.gdprMessage
@@ -1022,7 +1021,6 @@ nakanapie.pl##div.sticker
 nanodatex.pl###cookis-box
 napad.pl###pp-cookies-container
 naprzedwiosniu.waw.pl###zf--alerts-panel
-naratunek.org###rodo
 nastopy.pl##.mask
 natgeotv.com###cookieBar
 naturo.pl###simple-modal, #simple-modal-overlay
@@ -1100,6 +1098,7 @@ olsztyn.com.pl##.rodoaccept
 olympusclub.pl###navbar_notice_192
 olza.pl###rodo-widget
 one2tribe.pl##.cw_container
+onlineprinters.pl###ws_cookie_layer
 onlineradiobox.com###alert_cookies
 opac.wimbp.zgora.pl##div#alertboxsec_c, div#alertboxsec_mask
 opel.pl##.q-silent-consent.q-legal-notification
@@ -1124,6 +1123,7 @@ osm-sierpc.pl##.tm-cookies
 ospace.com.pl###private-police.private-police
 ostrowiecnr1.pl###iopp
 otolaryngolodzy24.pl,prow.lubelskie.pl,rogowskidevelopment.pl###rodo-policy
+outride.rs##.cookie-bar
 ovh.com,ovh.pl###cookiesPop
 owocowydom.pl,weck.com.pl###popup2
 paker.co.uk,zalando-lounge.pl###cookie-information
@@ -1357,6 +1357,7 @@ sieradz.com.pl,zdunskawola24.pl###polityka-2
 simplesurance.pl###_s-cookie-notification-container
 sin-say.com###display_cookie_message
 sitn.pl#?#body > div:-abp-has(#cookie-close)
+sklepjubilerski.com###cookieGuardMsg
 sklepyabc.pl###am_pop-up
 sklep-tosia.eu##.cookie-center
 sklep.alablaboratoria.pl,lmbruss.pl,telesystem-world.com###cover
@@ -1419,6 +1420,7 @@ studio-kosmetyki-profesjonalnej.pl###mod116
 stukstuk.pl###tws_s_100001
 stylownik.com##.cpolicy
 stypendia.sejmik.kielce.pl##.mod_pa_sci
+sudafed.pl###cookies-alert
 sunandsnow.pl##.popup-cookies
 superkoszyk.pl###widget-cookie-message
 super-siodemka.pl###div-cookie-acceptance
@@ -1554,6 +1556,7 @@ wlkp24.info###itro_popup, #itro_opaco
 wodociagi-kalisz.pl###white2
 wodociagi.krakow.pl##.cookieMessages
 wolnymkrokiem.pl,gieldaklasykow.pl,nowawarszawa.pl##.ginger_banner-wrapper
+wp.pl,~www.wp.pl,~poczta.wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 wrobelekelemelek.com###cboxOverlay, #cboxWrapper
 wroclawfashionoutlet.com##.via-notification--cookie
 wrzucacz.pl###logo .info
