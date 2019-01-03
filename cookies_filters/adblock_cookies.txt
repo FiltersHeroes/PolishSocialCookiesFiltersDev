@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 9N2iDytTEn0hQZKY+wHH8A
+! Checksum: yYkUUFowGjeT6JQ+PWAzaQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.3.6
-! Last modified: Thu, 03 Jan 2019, 17:53 UTC+00
+! Version: 2019.1.3.8
+! Last modified: Thu, 03 Jan 2019, 20:22 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.3.6 aktualizacja: Cz, 03 sty 2019, 17:53 UTC+00
+! v.2019.1.3.8 aktualizacja: czw, 03 sty 2019, 20:22 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -59,7 +59,7 @@ aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
 aforyzmy-cytaty.pl#?#.alert:-abp-contains(cookies)
 afryka.org##body > div[style="background: #911515;"]:nth-of-type(1)
 aftermarket-benefit.pl###zgodaCookies
-agencjagazeta.pl###rodoLayer
+agencjagazeta.pl,sklep.genos.com.pl###rodoLayer
 agropolska.pl,forumdermatologiczne.pl##.ui-widget-overlay, .ui-widget-content
 agusto.pl###st_notification_3
 airbnb.pl##[data-veloute="cookie-disclaimer"]
@@ -104,7 +104,7 @@ americanexpress.com###cookie_Header
 amix.pl###policy
 amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com###cookie-notice
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl,sklep.intert.pl,lampyilampki.pl,lampytanie.pl,gitara-sklep.pl###popup
-amundi.pl,biodiv.gdos.gov.pl###disclaimer
+amundi.pl,biodiv.gdos.gov.pl,chojnice24.pl###disclaimer
 antyczek.pl###upper-menu-container
 antywindyk.pl###rodo-container
 antywirus.biz##.iAgreePopup
@@ -146,7 +146,7 @@ autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.n
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autos-motos.net,scentre.pl,ilewazy.pl##.consent
 avans.pl##.is-cookies
-avast.com,pay.google.com,trustpilot.com##.cookie-bar:not(body)
+avast.com,pay.google.com,trustpilot.com,outride.rs##.cookie-bar:not(body)
 avatradepolska.pl##.accept-cookie-block
 avioner.pl,hotpay.pl,playtube.pl#?#.alert-success.alert:-abp-contains(cookies)
 avon.pl##.CookieSection
@@ -211,7 +211,7 @@ blog4u.pl##DIV[style="width:100%;float:left;padding:3px 0;background-color:#fff"
 blogasek.pl###j_all > div[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
 blog-pozyczoneiniebieskie.pl###cookie_info_container
-bluecity.pl,brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl,klinikaagd.pl,pgd.pl,mazowieckie.com.pl,terramar.pl,sfinks.pl,filmotekaszkolna.pl,pozyczkaplus.pl,bs.olawa.pl,onerqe-kredyt.pl,szkolenia-semper.pl,gdynia.sr.gov.pl,unityline.pl,lodzkie.pl,seopilot.pl,waw.pl,decoratorium.eu,tpvpolska.pl,arena.wroc.pl,ligawalkizrakiem.pl,otouczelnie.pl,fakturaelektroniczna.com,fitandyummy.pl,olejkilecznicze.pl##.cookie
+bluecity.pl,brodnica.net,centrum.mscdn.pl,clickmeeting.com,dw.com,e-marketbudowlany.pl,essentiale.pl,gugik.gov.pl,hifi.pl,leroymerlin.pl,modecom.com,muszynianka.pl,palmiarnia.poznan.pl,polstor.pl,shoper.pl,benchmarking.silesia.org.pl,smyk.com,stalgorzow.pl,supermemo.com,wielkopolska.eu,www.mtp.pl,dulskidesign.pl,tapis.pl,90.pl,moventum.com.pl,smartpozyczka.pl,venture.pl,klinikaagd.pl,pgd.pl,mazowieckie.com.pl,terramar.pl,sfinks.pl,filmotekaszkolna.pl,pozyczkaplus.pl,bs.olawa.pl,onerqe-kredyt.pl,szkolenia-semper.pl,gdynia.sr.gov.pl,unityline.pl,lodzkie.pl,seopilot.pl,waw.pl,decoratorium.eu,tpvpolska.pl,arena.wroc.pl,ligawalkizrakiem.pl,otouczelnie.pl,fakturaelektroniczna.com,fitandyummy.pl,olejkilecznicze.pl,investmap.pl,kzgw.gov.pl##.cookie
 bmc-switzerland.pl##.tab2-rodo-bar
 bobrowniki.tv###cookie_policy_popup
 bocian.org.pl,siteor.pl##.jGrowl-notification
@@ -268,7 +268,7 @@ certum.pl###spu-3634, #spu-bg-3634
 chamsko.pl##div[class^="cookies"]
 chceauto.pl##.cookue
 chirurgia.plastyczna.eu##.cookie-info-cont
-chojnice24.pl###disclaimer, #bg_cover
+chojnice24.pl###bg_cover
 chomikuj.pl###acceptChomikujTermsOverlay, #acceptChomikujTermsContainer
 chreptiow.pl###pu620
 chroma.pl##div[class^="CookiesInfo---container---"]
@@ -707,7 +707,7 @@ instagram.com#?#body > span#react-root > section > div[class]:-abp-has(.coreSpri
 instagram.com#?#body > span#react-root > section > nav > div > div > div[class]:-abp-has(.coreSpriteDismissLarge)
 instytutlogopedyczny.pl,gastromaniacy.pl###flash-msg
 intymna.pl###sb_bottom_float
-investmap.pl##.popup-back, .popup-rodo, .cookie
+investmap.pl##.popup-back, .popup-rodo
 inwestinfo.pl##div[style="position:fixed;bottom:0px;width:100%;height:65px;border:#c0c0c0 1px solid; text-align:center;padding:5px;background:#e7e7e7;"]
 ioki.pl,lubartow24.pl##.bg-warning
 iom.pl###cooker
@@ -825,7 +825,7 @@ kuratorium.krakow.pl###spu-24921, #spu-bg-24921
 kuriergarwolinski.pl,fit-kids.pl,sopocki-zdroj.pl,waxclinic.pl###rodoInfo
 kurjerzy.pl,legia.net###cookies_policy
 kuvert.com.pl###gdpr-cookie-message
-kzgw.gov.pl###jcemediabox-popup-page, .cookie
+kzgw.gov.pl###jcemediabox-popup-page
 k-ex.pl##div[style="position: fixed; bottom: 0px; width: 100%; background-color: rgb(204, 204, 204); z-index: 1; box-shadow: rgb(102, 102, 102) 0px 0px 5px;"]
 laboratoria.net###cboxOverlay
 laboratoria.net#?##colorbox:-abp-has(#rodoPopupClose)
@@ -929,7 +929,7 @@ memorialhenrykapuzonia.pl###sc
 mercedes-benz.com###cLayer, #cPageOverlay
 mercedes-benz.com,mercedes-benz.pl###emb-cp-dialog
 mercure.com##.is-ready
-merixstudio.pl###message
+merixstudio.pl,multikody.pl,multikod.net.pl,ranking.net.pl,twojliquid.pl,szukarka.net,efaktury.org,olekmotocykle.pl###message
 merlin.pl##.merlin-legal-note
 meskiegacie.pl###footer_links_sub > .ft_social
 meteoblue.com##.gdprMessage
@@ -1002,7 +1002,6 @@ mrowka.com.pl#?#.popup-container:-abp-has(.popup-button-agree)
 msn.com###conditionalbanner, .euBanner
 mtech.pl###content_jquery_bottom
 mtm-info.pl###etisoA
-multikody.pl,multikod.net.pl,ranking.net.pl,twojliquid.pl,szukarka.net,efaktury.org,olekmotocykle.pl###message
 multiplay.pl,razemztoba.pl##.inform
 muscat.pl##.c-cookie-belt
 musicexpert.pl,recepturybonifratrow.pl###x13popup-container, #x13popup-cover
@@ -1123,7 +1122,6 @@ osm-sierpc.pl##.tm-cookies
 ospace.com.pl###private-police.private-police
 ostrowiecnr1.pl###iopp
 otolaryngolodzy24.pl,prow.lubelskie.pl,rogowskidevelopment.pl###rodo-policy
-outride.rs##.cookie-bar
 ovh.com,ovh.pl###cookiesPop
 owocowydom.pl,weck.com.pl###popup2
 paker.co.uk,zalando-lounge.pl###cookie-information
@@ -1363,7 +1361,7 @@ sklep-tosia.eu##.cookie-center
 sklep.alablaboratoria.pl,lmbruss.pl,telesystem-world.com###cover
 sklep.delta.poznan.pl###cookieDiv
 sklep.eltron.pl###communication
-sklep.genos.com.pl###rodoText, #rodoLayer
+sklep.genos.com.pl###rodoText
 sklep.sizeer.com###js-cookieInfo
 skm.pkp.pl#?#.ui-dialog:-abp-has(#dialog-message-rodo)
 skm.pkp.pl,smart.com##.ui-widget-overlay
