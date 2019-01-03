@@ -15,21 +15,15 @@ fi
 
 for i in $ost_plik; do
 
-    if [[ "$i" == "sections/adblock_cookies"* ]]; then
-        if [[ "$lista" != *" cookies_filters/adblock_cookies.txt"* ]] ;then
-            lista+=" "cookies_filters/adblock_cookies.txt
-        fi
-    fi
-
     if [[ "$i" == "sections/adblock_cookies/uBO_AG"* ]]; then
         if [[ "$lista" != *" cookies_filters/cookies_uB_AG.txt"* ]] ;then
             lista+=" "cookies_filters/cookies_uB_AG.txt
         fi
     fi
 
-    if [[ "$i" == "sections/adblock_social_list"* ]]; then
-        if [[ "$lista" != *" adblock_social_filters/adblock_social_list.txt"* ]] ;then
-            lista+=" "adblock_social_filters/adblock_social_list.txt
+    if [[ "$i" == "sections/adblock_cookies"* ]]; then
+        if [[ "$lista" != *" cookies_filters/adblock_cookies.txt"* ]] ;then
+            lista+=" "cookies_filters/adblock_cookies.txt
         fi
     fi
 
@@ -39,6 +33,15 @@ for i in $ost_plik; do
         fi
     fi
 
+    if [[ "$i" == "sections/adblock_social_list"* ]]; then
+        if [[ "$lista" != *" adblock_social_filters/adblock_social_list.txt"* ]] ;then
+            lista+=" "adblock_social_filters/adblock_social_list.txt
+        fi
+    fi
+
 done
 
-$sciezka/VICHS.sh $lista
+
+if [ "$lista" ]; then
+    $sciezka/VICHS.sh $lista
+fi
