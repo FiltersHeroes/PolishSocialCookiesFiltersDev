@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 3VMOQgf0o0QZdJ7aYh8RIA
+! Checksum: BmZBcvZFPLG0w/cS+wikbA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.3.6
-! Last modified: Thu, 03 Jan 2019, 19:51 UTC+01
+! Version: 2019.1.4.1
+! Last modified: Fri, 04 Jan 2019, 09:24 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.3.6 aktualizacja: czw, 03 sty 2019, 19:51 UTC+01
+! v.2019.1.4.1 aktualizacja: pią, 04 sty 2019, 09:24 UTC+01
 !
 !
 ! Popupy
@@ -1658,6 +1658,7 @@ markoweszyby.pl###left > .moduletable
 mastersport.com.pl###mastersport-social
 maszyneria.pl##.wciecie_kat:nth-of-type(2)
 masz.eu###topFacebook
+matematyka.pisz.pl###ikonkaFb
 matfiz24.pl##.media-spolecznosciowe
 matshop.pl##a[href="https://instagram.com/matshoppl"]
 matshop.pl##a[href="https://twitter.com/Matshoppl"]
@@ -1814,7 +1815,7 @@ najmeble.pl###mpcth_header_socials
 namasce.pl###facebook-like-box-2, #jr_insta_slider-2, .post-share
 namasce.pl##.jr-insta-slider
 napad.pl##.footerBottom-inner > ul > li > a[target]
-narew.info##.sbuttons.list-inline.list-unstyled > li:nth-of-type(-n+4)
+narew.info##.sbuttons > li:nth-of-type(-n+4)
 nastopy.pl##.leftSlide > .fb-wrap
 naszemiasto.pl##.component.componentsArticleTools > a:nth-of-type(-n+2)
 naszpradnik.pl##.menu-social-fb
@@ -3007,6 +3008,7 @@ lublin112.pl#@##social-icon
 motormag.pl#@##menu-social
 motormag.pl#@##social-navigation
 motormag.pl#@#.nav--social
+narew.info#@#.sbuttons
 naszpradnik.pl#@#.menu-social
 nowawarszawa.pl#@#.share-container
 rawlplug.com#@##socialNetworks
