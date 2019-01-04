@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: i6PYvgzz3+yLPFUCnDY/gA
+! Checksum: UA6j3eoRZuJAD8+M0Ioixw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.4.2
-! Last modified: Fri, 04 Jan 2019, 15:17 UTC+01
+! Version: 2019.1.4.3
+! Last modified: Fri, 04 Jan 2019, 20:58 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.4.2 aktualizacja: pią, 04 sty 2019, 15:17 UTC+01
+! v.2019.1.4.3 aktualizacja: pią, 04 sty 2019, 20:58 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1491,6 +1491,7 @@ twitch.tv##.butterBar, .toast-manager__container
 twitter.com##.eu-cookie-notice
 twojeankiety.pl###notkaCookies
 twojeapteki.com##DIV[style="color:#fff;position: fixed;width:100%;bottom: 5px;z-index: 99999;padding: 10px;padding-right: 150px;background-color: #DB2229;margin: 1px 5px;text-align: justify;"]
+twoje-seriale.pl###cookie-monster-san
 twojtenis.pl###cookie_accepter
 tygodnikpowszechny.pl###top_head
 tygodnikzamojski.pl,starachowice-net.pl###rodo-message
@@ -1863,6 +1864,7 @@ zysk.com.pl###pageUpperInfo
 ||tinder.com/static/build/chunks/CookiePolicyBanner-*.js
 ||tspodbeskidzie.pl/js/vendor/cookiebox.min.js
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
+||twoje-seriale.pl/cookies.html
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|sztuka-architektury.pl
 ||vox.pl/modal/rodo$xmlhttprequest
