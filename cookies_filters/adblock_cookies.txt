@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 6r89K0Oe/nX057afx8IWlQ
+! Checksum: 4MBld5V1gmL5kymaBsWUmg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.5.1
-! Last modified: Sat, 05 Jan 2019, 16:11 UTC+01
+! Version: 2019.1.5.2
+! Last modified: Sat, 05 Jan 2019, 17:38 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.5.1 aktualizacja: sob, 05 sty 2019, 16:11 UTC+01
+! v.2019.1.5.2 aktualizacja: sob, 05 sty 2019, 17:38 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -669,6 +669,7 @@ ibm.com##div[style="background-color: rgb(0, 0, 0); opacity: 0.4; position: fixe
 ibm.com##div[style="position: absolute; z-index: 2000000; top: 150px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; background-image: url(http://consent.truste.com/get?name=trans.png); left: 50%; margin-left: -420px; background-position: initial initial; background-repeat: initial initial;"]
 icar.pl###icarcookies
 icppc.pl###wptbheadline1
+icube.pl,loveair.pl###ci-rodo
 idcgames.com##.avisolegal_p
 ids.q8.com###calibr8-cookie-compliance
 id.sonyentertainmentnetwork.com###appnotice-contents
@@ -871,7 +872,6 @@ loterialaciate.pl##.bg
 lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
-loveair.pl###ci-rodo
 lovekrakow.pl###new-policy
 lowicz24.eu,zajefajna.com,szczecinek.com###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
@@ -1488,6 +1488,7 @@ ttv.pl,tvn24.pl###msgLayer
 tugazeta.pl###komunikat_ciastka
 tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvs.pl##.RodoNotyfication
+tvzabrze.pl###ics-pp-cookies-accept
 twitch.tv##.butterBar, .toast-manager__container
 twitter.com##.eu-cookie-notice
 twojeankiety.pl###notkaCookies
