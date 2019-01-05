@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: UA6j3eoRZuJAD8+M0Ioixw
+! Checksum: 6r89K0Oe/nX057afx8IWlQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.4.3
-! Last modified: Fri, 04 Jan 2019, 20:58 UTC+01
+! Version: 2019.1.5.1
+! Last modified: Sat, 05 Jan 2019, 16:11 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.4.3 aktualizacja: pią, 04 sty 2019, 20:58 UTC+01
+! v.2019.1.5.1 aktualizacja: sob, 05 sty 2019, 16:11 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -43,6 +43,7 @@ aboutyou.pl##div[class^="styles__inner"]
 absolvent.pl##.top-ban-wrapper
 abt-s.pl,ecbedzin.pl,enut.pl,programatory.com,haloursynow.pl,warsztat.pl,interprojekt.pl###myModal
 abt-s.pl,interprojekt.pl,yes.pl,filoma.org,naekranie.pl,polskiprawnik.pl,www.hotelbb.pl##.reveal-modal-bg
+account.live.com,www.skype.com###msccBanner
 account.ubisoft.com###footer_tc_privacy
 accuweather.com###eu-cookie-notify-wrap
 acer.com##.cookieBox
@@ -133,8 +134,9 @@ aszdziennik.pl,demotywatory.pl,faktopedia.pl,innpoland.pl,joemonster.org,komixxy
 atcdevelopment.pl,ginekolog-darlowo.pl,lek-med.pl###zgoda
 atlas-roslin.pl##.tytul > span
 atramentowka.com###cookie_popup
-atramentowka.com,bingospa.eu,bip.um.rybnik.eu,fotonegatyw.com,firmyinzynieria.com,coremannet.com,szlakwokoltatr.eu,starosadeckie.info,odmiana.net,fyrestore.com,whitervbbit.com,royaltime.eu,meczelive.tv###cookie
+atramentowka.com,bingospa.eu,bip.um.rybnik.eu,fotonegatyw.com,firmyinzynieria.com,coremannet.com,szlakwokoltatr.eu,starosadeckie.info,odmiana.net,fyrestore.com,whitervbbit.com,royaltime.eu,meczelive.tv,wyczesani.com###cookie
 atskaner.pl###cookieInfoWindow
+attrader.pl,teatrpalladium.com##.cppa
 audioteka.com##.anonymousToSConsent_mask
 auto4free.pl###js-cookieBanner
 autoaukcje.net##.popup_cookies
@@ -235,7 +237,7 @@ bsmyszkow.pl###system-message > .fade.message
 bspruszcz.pl###cookies-top
 btc-ag.pl###cokki
 budimex-nieruchomosci.pl,zoliborzkrasinskiego.pl###komRodo
-bugwie.com,virtual-it.pl,forum-bron.pl##.cookie-box
+bugwie.com,virtual-it.pl,forum-bron.pl,wesclan.com.pl##.cookie-box
 buliba.pl###tooltip-hook
 bumble.com##.js-cookie-notification
 burze.dzis.net###zasady_info
@@ -1103,7 +1105,7 @@ opac.wimbp.zgora.pl##div#alertboxsec_c, div#alertboxsec_mask
 opel.pl##.q-silent-consent.q-legal-notification
 operon.pl##.rodoModal
 opineo.pl,skapiec.pl##div#uclaInfo
-opoka.tv###eu-cookie-bar
+opoka.tv,ekskluzywnymenel.com###eu-cookie-bar
 opony.net###cookiefy_bar
 opowiecie.info###spu-95603, #spu-bg-95603
 optomer.pl###GDPRInformationModal, .cookie-container
@@ -1446,7 +1448,6 @@ tatra.pl##.cookies-2-overlay, .popup-cookies-2
 tatuaze-wzory.com###showcookie
 tatuum.com###cookie_law_informations
 tcz.pl###dynamic-load-rodo, #dynamic-loading-rodo
-teatrpalladium.com##.cppa
 teatr-capitol.pl###spu-4768, #spu-bg-4768
 techpedia.pl##.skyf1
 teetres.com###_cookies_info
@@ -1601,7 +1602,6 @@ www.promise.com.pl##.ui-front
 www.rmf24.pl###pl_cookies.pl-cookies
 www.select.pl##.cookiepop
 www.simex.pl###CookiesInfoDiv
-www.skype.com###msccBanner
 www.ssw-consulting.pl##.ui-pnotify
 www.teamprevent.pl##.warnings
 www.tem.com.pl###block-block-29
@@ -1864,7 +1864,7 @@ zysk.com.pl###pageUpperInfo
 ||tinder.com/static/build/chunks/CookiePolicyBanner-*.js
 ||tspodbeskidzie.pl/js/vendor/cookiebox.min.js
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
-||twoje-seriale.pl/cookies.html
+||twoje-seriale.pl/cookies.html$subdocument
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|sztuka-architektury.pl
 ||vox.pl/modal/rodo$xmlhttprequest
