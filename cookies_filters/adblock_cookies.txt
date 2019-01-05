@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: WS3m+epWeXkjVtO0/+z8dw
+! Checksum: IpCRR1/yW3EAOtFbIP0JNw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.5.4
-! Last modified: Sat, 05 Jan 2019, 20:22 UTC+01
+! Version: 2019.1.5.5
+! Last modified: Sat, 05 Jan 2019, 22:05 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.5.4 aktualizacja: sob, 05 sty 2019, 20:22 UTC+01
+! v.2019.1.5.5 aktualizacja: sob, 05 sty 2019, 22:05 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -143,7 +143,7 @@ autoaukcje.net##.popup_cookies
 autocentrum.pl##.hello-rodo
 autodna.pl##.privacy_policy-info
 autogespot.pl##div[class^="popup"]:not(.fancybox-margin)
-autogielda.pl,mix4kids.tv,dreammachines.pl,fotosik.pl,haloursynow.pl,warsztat.pl,jelenia.tv,leo.pl,4fstore.com,interprojekt.pl,aclari.pl,diecezjaplocka.pl,e-konkursy.info,funduszpomerania.pl,goldenline.pl,hdtv-sat.eu,naratunek.org,oskolaf.pl,panoramafirm.pl,pulawy.eu,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,swiatpodlog.com.pl,wseit.edu.pl##.modal-backdrop
+autogielda.pl,auto-czesci-lipiec.pl,mix4kids.tv,dreammachines.pl,fotosik.pl,haloursynow.pl,warsztat.pl,jelenia.tv,leo.pl,4fstore.com,interprojekt.pl,aclari.pl,diecezjaplocka.pl,e-konkursy.info,funduszpomerania.pl,goldenline.pl,hdtv-sat.eu,naratunek.org,oskolaf.pl,panoramafirm.pl,pulawy.eu,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,swiatpodlog.com.pl,wseit.edu.pl##.modal-backdrop
 autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.net,galerialimonka.pl,otabletach.pl###cop
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autos-motos.net,scentre.pl,ilewazy.pl##.consent
@@ -847,6 +847,7 @@ leclerc.com.pl##div#tekst
 leddo.pl,zdp.poznan.pl##.rodo-block
 legalsite.pl###message-1
 legia.com###cook-wrapper
+legia.net,tygodnikzamojski.pl,starachowice-net.pl###rodo-message
 lego.com###GFSticky
 leier.pl###CookieLeier
 lekarz.znanylekarz.pl###footer-baner
@@ -1017,7 +1018,7 @@ myownconference.pl##.co-ag
 mzdik.pl###webDataTime > span
 m.benchmark.pl###private-policy-popup
 m.facebook.com,touch.facebook.com###header-notices
-naekranie.pl###modal-rodo-info
+naekranie.pl,~vod.naekranie.pl###modal-rodo-info
 nakanapie.pl##div.sticker
 nanodatex.pl###cookis-box
 napad.pl###pp-cookies-container
@@ -1496,7 +1497,6 @@ twojeapteki.com##DIV[style="color:#fff;position: fixed;width:100%;bottom: 5px;z-
 twoje-seriale.pl###cookie-monster-san
 twojtenis.pl###cookie_accepter
 tygodnikpowszechny.pl###top_head
-tygodnikzamojski.pl,starachowice-net.pl###rodo-message
 tylkohity.pl##.cm_open
 tymrazemglosuje.eu###cookiespolicymessage
 udemy.com##[data-module-id="eu-cookie-message"]
@@ -2495,7 +2495,6 @@ opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
 orange.pl,paradoxplaza.com#@##cookies-info:not(body):not(html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
 tychy.geminipark.pl#@#.privacy-policy:not(body):not(html)
-vod.naekranie.pl#@##modal-rodo-info
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 !autostrada-a2.pl,tabakiera.com.pl,fastdeal.pl,unileverfoodsolutions.pl,pamiatki.pl#@#:not(input)[id*="cookie"]:not(body):not(html):not(.fade)
 !bskrasnosielc.pl,piekarniaanka.pl,xboxarcade.pl,wmeritum.pl,komunikacja.bialystok.pl,dobreprogramy.pl,lomza.pl,orange.pl,interhotel.pl,bestcena.pl,gokf.gda.pl,gdansk.pl,naekranie.pl,indbuildcraft.pl,okazik.pl#@#:not(input)[id*="cookie"]
@@ -2507,9 +2506,10 @@ wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 !pamiatki.pl#@#[id*="cookie_"]:not(body):not(html)
 !piekarniaanka.pl,xboxarcade.pl,appki.com.pl,tylesmiechu.pl,neon24.pl,norauto.pl,orange.pl#@#:not(input)[id*="Cookie"]
 !vod.naekranie.pl#@##cookie-notice:not(body):not(html)
+!vod.naekranie.pl#@##modal-rodo-info
 !wsensie.pl#@#.policy-box:not(body):not(html)
 !@@/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$domain=naziemna.info|serialowy.info
-@@/js/CookieInfo.js$script,domain=topschool.pl|porno720.pl
+@@/js/CookieInfo.js$script,domain=cyrk-zalewski.com.pl|topschool.pl|porno720.pl
 @@/js/jquery.cookie.min.js$domain=rozklad.pkp.pl|rozklad-pkp.pl|ubi.com|telepizza.pl|playrust.io|nudelle.com|pokatne.pl|moric.pl
 @@/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$domain=escaperooms.pl|xboxarcade.pl|3dwpraktyce.pl|tvs.pl|przegladbaltycki.pl|wypowiadamoc.pl|gazetabilgoraj.pl|ittechblog.pl|rozterkistartuperki.pl
 @@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
