@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: IpCRR1/yW3EAOtFbIP0JNw
+! Checksum: OQ54moXtA47zktgVMKjiAw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.5.5
-! Last modified: Sat, 05 Jan 2019, 22:05 UTC+01
+! Version: 2019.1.5.6
+! Last modified: Sat, 05 Jan 2019, 22:32 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.5.5 aktualizacja: sob, 05 sty 2019, 22:05 UTC+01
+! v.2019.1.5.6 aktualizacja: sob, 05 sty 2019, 22:32 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -31,7 +31,7 @@
 24jgora.pl###myModal_cookie
 24opole.pl###div_cookie_accept
 40latki.pl###noty_bottom_layout_container
-40ton.net,nowy-sacz.info,olgasmile.com,tb4hr.com,telewizja-cyfrowa.com,naziemna.info,fastwhitecat.com,urbanium.eu,zasiedzenie.net,indianpoland.com###catapult-cookie-bar
+40ton.net,nowy-sacz.info,olgasmile.com,tb4hr.com,telewizja-cyfrowa.com,naziemna.info,fastwhitecat.com,urbanium.eu,zasiedzenie.net,indianpoland.com,settlersonlinewiki.eu###catapult-cookie-bar
 99rent.pl##.region-rodo-info
 360studio.org,wabrzezno.com##.tplis-cl-cookies
 2018.pl##.r-background
@@ -665,8 +665,7 @@ hurtowniateleinformatyczna.pl,ideanord.com.pl,intimiti.pl,ipartworld.pl,itpromo.
 hurtownia-24.pl###roar-alert-wrap  > #roar-alert.roar-alert
 hydrem-online.com###bookingLayer
 iab.org.pl,iabpolska.pl###wpca-wrapper
-ibm.com##div[style="background-color: rgb(0, 0, 0); opacity: 0.4; position: fixed; z-index: 1000000; width: 100%; height: 100%; top: 0px; left: 0px; overflow: hidden; "]
-ibm.com##div[style="position: absolute; z-index: 2000000; top: 150px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; background-image: url(http://consent.truste.com/get?name=trans.png); left: 50%; margin-left: -420px; background-position: initial initial; background-repeat: initial initial;"]
+ibm.com,wd.com##.truste_box_overlay, .truste_overlay
 icar.pl###icarcookies
 icppc.pl###wptbheadline1
 icube.pl,loveair.pl###ci-rodo
@@ -866,6 +865,7 @@ linuxiarz.pl###colophon
 linuxportal.pl##DIV[style="width: 100%; background: rgb(44, 48, 51) none repeat scroll 0% 0%; padding: 10px 0; color: #fff; border-top: 1px solid rgb(221, 221, 221);  text-align: center; position: fixed; bottom: 0; z-index: 999999999;"]
 lodz.pl,ago.pl,mamoo.pl,askopolska.pl,papercast.pl,indigo-nails.com###banner_cookies_bullshit
 logistics.dhl##.c-cookie-disclaimer
+logitech.com##.explicit_consent.privacy_prompt
 lokalna24.pl#?##jm-right .custom > table:-abp-contains(RODO)
 lomianki.pl###splash
 londynek.net##.jd-rodo, .jd-rodo-2
@@ -1073,6 +1073,7 @@ nowgeo.pl###div_ciasteczka
 nowyteatr.org###cookies-notification
 nuorder.pl##.___ncn-container
 nvidia.com#@#[id*="cookie_"]
+nvidia.pl###cookiePolicy-layer
 nysa.eu###img_77, #popup-bg
 o2.pl##.zyHor, #app-inner ._1Arb2
 obligacjeskarbowe.pl##.js-cookie-rodo.cookie-rodo
@@ -1549,8 +1550,10 @@ wiem-to.pl###notice_visitor
 wiescirolnicze.pl###popup_newsletter
 wikom.pl##.law-popup-wrapper
 winnicalidla.pl##.privacy-popup
+wiocha.pl,hopaj.pl###cookieinfo1
 wirtualis.pl,ettoi.pl###info_content
 wirtualnygarwolin.pl###zaslona
+wisla.krakow.pl###cookie-foot
 wisport.com.pl###DIVnasz
 wittchen.com##.footer__cookie-alert--wrapper
 wizytowki4you.pl##smq-popup
@@ -1702,6 +1705,8 @@ zysk.com.pl###pageUpperInfo
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
 !hotelbrda.com.pl###cookienfo
 !hotpay.pl##.alert-dismissible.alert-success.alert
+!ibm.com##div[style="background-color: rgb(0, 0, 0); opacity: 0.4; position: fixed; z-index: 1000000; width: 100%; height: 100%; top: 0px; left: 0px; overflow: hidden; "]
+!ibm.com##div[style="position: absolute; z-index: 2000000; top: 150px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; background-image: url(http://consent.truste.com/get?name=trans.png); left: 50%; margin-left: -420px; background-position: initial initial; background-repeat: initial initial;"]
 !interia.pl,pcformat.pl,esporter.pl,rmf24.pl,cdaction.pl,pokazywarka.pl,edufinanse.pl##.rodo-popup
 !iulotka.pl,lotnictwo.net.pl###cookiescript_injected
 !jezykipodroze.pl##.widgets-5.widgets-list
