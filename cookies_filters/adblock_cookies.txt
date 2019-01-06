@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: +YCsmYWoLGfojJaSsplWww
+! Checksum: AN/6hnXlVjf/UXlHokMZlQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.6.1
-! Last modified: Sun, 06 Jan 2019, 12:37 UTC+01
+! Version: 2019.1.6.2
+! Last modified: Sun, 06 Jan 2019, 12:57 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.6.1 aktualizacja: nie, 06 sty 2019, 12:37 UTC+01
+! v.2019.1.6.2 aktualizacja: nie, 06 sty 2019, 12:57 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1814,8 +1814,9 @@ zysk.com.pl###pageUpperInfo
 ||cmp.dreamlab.pl/static/cmp.complete.bundle.js
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
 ||confero.pl/js/cookies2013$script
+||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|reebok.pl
 ||consent.truste.com/get?name=notice.js$script
-||consent.trust*.com/notice?domain=$script,domain=addthis.com|adidas.pl|ea.com|ibm.com|java.com|nespresso.com|oracle.com|origin.com|reebok.pl|wd.com|weather.com|wunderground.com
+||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|nespresso.com|oracle.com|origin.com|wd.com|weather.com|wunderground.com
 ||cookiebanner.eu/js/cookiebanner.min.js
 ||cookieq.com^$third-party
 ||cookies.komputerswiat.pl/checkCookie$script
