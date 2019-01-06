@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: hf98WT/fJPmWhjYnosc+ww
+! Checksum: +YCsmYWoLGfojJaSsplWww
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.5.7
-! Last modified: Sat, 05 Jan 2019, 23:11 UTC+01
+! Version: 2019.1.6.1
+! Last modified: Sun, 06 Jan 2019, 12:37 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.5.7 aktualizacja: sob, 05 sty 2019, 23:11 UTC+01
+! v.2019.1.6.1 aktualizacja: nie, 06 sty 2019, 12:37 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1093,7 +1093,7 @@ oko.press##.cookie-message
 oksir.eu###cac
 oktawave.com###gdprbox
 okulary.szkla.com##div#polityka_prywatnosci
-old.reddit.com###eu-cookie-policy
+old.reddit.com,ps.reddit.com###eu-cookie-policy
 olimpiasport.pl##div#sek_cstk_inf
 olsztyn.com.pl##.rodoaccept
 olympusclub.pl###navbar_notice_192
@@ -1290,7 +1290,6 @@ rck.pila.pl#?#.alert-message.alert:-abp-has(.plg_system_eprivacy_message)
 reactor.pl,yamo.pl###einfo
 recepcja.visionexpress.pl##div[style="background-color: rgb(217, 217, 217); margin: 0px auto; padding: 25px 8px 15px; position: fixed; right: 0px; width: 400px; bottom: 0px; z-index: 1000; color: rgb(0, 0, 0); border: 3px solid rgb(102, 102, 102);"]
 redbullmobile.pl###more1
-reddit.com#?##SHORTCUT_FOCUSABLE_DIV > div > form:-abp-contains(cookies)
 reflex.com.pl###cookiesdiv
 refunder.pl#?#.bg-white:-abp-has([href="/warunki#cookies"])
 reklamawwindzie.net##.panel_cookie
@@ -1597,6 +1596,7 @@ www.multimedia-energia.pl###layer
 www.nfz-zielonagora.pl###statementWrapper
 www.o2.pl##._2_S1s
 www.promise.com.pl##.ui-front
+www.reddit.com#?##SHORTCUT_FOCUSABLE_DIV > div > form:-abp-contains(cookies)
 www.rmf24.pl###pl_cookies.pl-cookies
 www.select.pl##.cookiepop
 www.simex.pl###CookiesInfoDiv
