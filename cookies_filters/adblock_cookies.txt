@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Lon5r5Os7Gss8DVjj1IDeA
+! Checksum: wQWzpS/UtqXTHFj0Q9Udpg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.7.4
-! Last modified: Mon, 07 Jan 2019, 18:52 UTC+01
+! Version: 2019.1.7.5
+! Last modified: Mon, 07 Jan 2019, 22:43 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.7.4 aktualizacja: pon, 07 sty 2019, 18:52 UTC+01
+! v.2019.1.7.5 aktualizacja: pon, 07 sty 2019, 22:43 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -93,7 +93,7 @@ allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,
 allsporter.com##.cookies-ct
 allview.pl###modalGDPR.modalGDPR
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
-altimi.com###cookie-info
+altimi.com,superstacja.tv###cookie-info
 alufelgi.sklep.pl,sklep.kutnik.com.pl##body > div[style*="position: fixed;"]:not([id]):not([class])
 aluzja.gorzow.pl,artgos.pl,diagmed.info.pl,hostgrafia.pl,itlab.pl,mojawww.com,naukajazdy-kowalik.pl,osrodek-terapii.com,puch-kotlowski.pl,sls.info.pl,swiatdeski.pl,tomiicars.com.pl,treningkrakow.pl,vagaru.pl,ck.przemysl.pl##div > aside.type-10.widget
 al.to,x-kom.pl,combat.pl###popup-cookie
@@ -174,6 +174,7 @@ becek.pl###preloadm-rodo, #preloadb
 bejeans.pl,hael.pl###js-cookienotice
 belutti.com##.fk-cookies
 beskidzkapilka.pl##.messageinfo
+besty.pl##.alert-cookies
 bethesda.net##app > visor-alert[class^="__tag_"] > div[class] > div[class] > div[class]:not([id])
 betsson.com###MsgAreaBottom
 bialapodlaska.pl##.accept-cookies
@@ -691,7 +692,7 @@ inbook.pl,timemaster24.pl###privacy-policy-info-container
 inchcape.pl##.cookieinfo_bar
 info24.rzeszow.pl##.ja-box-right.column.ja-box-wrap
 infocredit-online.pl###modal-warper
-infogliwice.pl,nauka.rocks###ct-ultimate-gdpr-cookie-popup
+infogliwice.pl,nauka.rocks,webniusy.com###ct-ultimate-gdpr-cookie-popup
 infoludek.pl##div.infcook
 infomusic.pl,obiektyspa.com###privacy-alert, #privacy-alert-blur
 informatyk.info.pl###divBox
@@ -859,6 +860,7 @@ lg.com##.policyChk
 lg.com##.agree-cookie-wrap
 licytacje.komornik.pl###sign_up, body > div[style*="margin-top: 100px"]
 limango-outlet.pl##.lilayout-header-cookiebar
+limango.pl##.cookies_notification
 limango.pl##.floating_notification
 limanowa.in,parkerpen.com###cookiesdirective
 linuxiarz.pl###colophon
