@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: wQWzpS/UtqXTHFj0Q9Udpg
+! Checksum: g6qkdBWNJ7MV4Om/IVTY9Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.7.5
-! Last modified: Mon, 07 Jan 2019, 22:43 UTC+01
+! Version: 2019.1.7.6
+! Last modified: Mon, 07 Jan 2019, 22:59 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.7.5 aktualizacja: pon, 07 sty 2019, 22:43 UTC+01
+! v.2019.1.7.6 aktualizacja: pon, 07 sty 2019, 22:59 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -174,7 +174,6 @@ becek.pl###preloadm-rodo, #preloadb
 bejeans.pl,hael.pl###js-cookienotice
 belutti.com##.fk-cookies
 beskidzkapilka.pl##.messageinfo
-besty.pl##.alert-cookies
 bethesda.net##app > visor-alert[class^="__tag_"] > div[class] > div[class] > div[class]:not([id])
 betsson.com###MsgAreaBottom
 bialapodlaska.pl##.accept-cookies
@@ -706,7 +705,6 @@ inpay.pl##.ckcontent
 inpoland.net.pl##.inpoland-privacy, .inpoland-modal-background
 insert.com.pl###privacyAndCookiePolicy
 instagram.com#?#body > span#react-root > section > div[class]:-abp-has(.coreSpriteDismissLarge)
-instagram.com#?#body > span#react-root > section > nav > div > div > div[class]:-abp-has(.coreSpriteDismissLarge)
 instytutlogopedyczny.pl,gastromaniacy.pl###flash-msg
 intymna.pl###sb_bottom_float
 investmap.pl##.popup-back, .popup-rodo
@@ -763,7 +761,6 @@ kartamultisport.pl##div[style=" width: 780px; background:#f0f0f0; text-align:cen
 kartonwork.pl,luszczyce.pl##body > div > div[style*="position"][style*="fixed"]
 kartunsy.pl###ait-infobar
 kartuzy.info##div#page_top_topbar2
-kaufland.pl##.m-cookie-notification
 kentype.pl##div#ciasteczka-box
 kepno.pl###dhtml_popup
 kiep.pl,milanos.pl,kreskowki.tv###rodo-pop
@@ -860,7 +857,6 @@ lg.com##.policyChk
 lg.com##.agree-cookie-wrap
 licytacje.komornik.pl###sign_up, body > div[style*="margin-top: 100px"]
 limango-outlet.pl##.lilayout-header-cookiebar
-limango.pl##.cookies_notification
 limango.pl##.floating_notification
 limanowa.in,parkerpen.com###cookiesdirective
 linuxiarz.pl###colophon
@@ -1652,6 +1648,9 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
+!besty.pl##.alert-cookies
+!kaufland.pl##.m-cookie-notification
+!limango.pl##.cookies_notification
 !
 !
 ! Specyficzne reguły blokujące
@@ -2079,6 +2078,7 @@ pl##.JSWrapper:not(body):not(html)
 pl##.RACKWrapper:not(body):not(html)
 pl##.acceptCookies:not(body):not(html)
 pl##.agree-cookie-wrap:not(body):not(html)
+pl##.alert-cookies:not(body):not(html)
 pl##.alert-sm.alert-warning.alert
 pl##.alert-wrapper-cookie:not(body):not(html)
 pl##.a--cookie:not(body):not(html)
@@ -2147,6 +2147,7 @@ pl##.cookies_header:not(body):not(html)
 pl##.cookies_info:not(body):not(html)
 pl##.cookies_message:not(body):not(html)
 pl##.cookies_notice:not(body):not(html)
+pl##.cookies_notification:not(body):not(html)
 pl##.cookies_policy:not(body):not(html)
 pl##.cookies_regulation__container:not(body):not(html)
 pl##.cookies_warning:not(body):not(html)
@@ -2196,6 +2197,7 @@ pl##.js-infoBarCookies:not(body):not(html)
 pl##.md-cookie-warning:not(body):not(html)
 pl##.message--cookie:not(body):not(html)
 pl##.message_cookie:not(body):not(html)
+pl##.m-cookie-notification:not(body):not(html)
 pl##.nm-cookiepolicy:not(body):not(html)
 pl##.notice_notice_cookies:not(body):not(html)
 pl##.optanon-alert-box-wrapper:not(body):not(html)
