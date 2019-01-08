@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: g6qkdBWNJ7MV4Om/IVTY9Q
+! Checksum: P8pEFJuE7siqjcriA03LJA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.7.6
-! Last modified: Mon, 07 Jan 2019, 22:59 UTC+01
+! Version: 2019.1.8.1
+! Last modified: Tue, 08 Jan 2019, 10:44 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2018 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.7.6 aktualizacja: pon, 07 sty 2019, 22:59 UTC+01
+! v.2019.1.8.1 aktualizacja: wto, 08 sty 2019, 10:44 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -497,6 +497,7 @@ filoma.org###app-confirm-dialog
 finai.pl##.view > .info
 finanse.rankomat.pl,sowafinansowa.pl,komorkomat.pl,wakacyjnapolisa.pl,wypowiadamoc.pl,autoumowa.pl##.r-cookie-bar
 finansowysupermarket.pl,faktykaliskie.pl###policy-popup
+finnair.com##.cookie-consent-wrapper > .consent-popup
 firecash.org,pbg-sa.pl,grupaeurocash.pl,payup.pl,regionwielkopolska.pl,fundacjabos.pl###info
 firmamazur.pl,mazurcompany.com###cookies-glass
 firmy4u.pl###infociasteczka
@@ -1648,9 +1649,6 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
-!besty.pl##.alert-cookies
-!kaufland.pl##.m-cookie-notification
-!limango.pl##.cookies_notification
 !
 !
 ! Specyficzne reguły blokujące
