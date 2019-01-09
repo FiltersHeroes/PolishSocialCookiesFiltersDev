@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: OseQBy6K+YGkDW4bghCvhg
+! Checksum: eMRSLW1g4Oz/QGm/43CR9Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.8.4
-! Last modified: Tue, 08 Jan 2019, 18:52 UTC+01
+! Version: 2019.1.9.1
+! Last modified: Wed, 09 Jan 2019, 08:10 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.8.4 aktualizacja: wto, 08 sty 2019, 18:52 UTC+01
+! v.2019.1.9.1 aktualizacja: śro, 09 sty 2019, 08:10 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -164,7 +164,7 @@ bankowoscprywatna.pkobp.pl###pko-cookie-rodo
 bardotti.pl##.wpmui-popup
 bartix.pl,pmi24.info,ddwlkp.pl,pch24.info,pnt24.info,pob24.info,pzl24.info###menusDiv
 batida.pl###top-closable-message
-baza-krs.pl,markoweszyby.pl,moja-grecja.pl,swiat-czekolady.com.pl,kzkgop.com.pl,rozklady.kzkgop.pl,upolujebooka.pl#?#.alert-info.alert:-abp-contains(cookies)
+baza-krs.pl,markoweszyby.pl,moja-grecja.pl,swiat-czekolady.com.pl,kzkgop.com.pl,rj.metropoliaztm.pl,upolujebooka.pl#?#.alert-info.alert:-abp-contains(cookies)
 bbcpolska.com##body > iframe
 bdi.com.pl##.ultra_modules_ad_acceptation_b
 bdl.lasy.gov.pl###infoDiv
@@ -421,7 +421,6 @@ emito.net##.cookie-jar
 emt-systems.pl###rodoBG
 eneba.com##body > #app > div[class] + div[class]:nth-of-type(2)
 enjoyuk.pl###fanback
-entertheroom.pl###cookie_accept
 enutka.net###CookieAlert
 eobuwie.com.pl#?#.popup:-abp-has(.permissions-form)
 eostroleka.pl###cookiesRodo
@@ -2001,6 +2000,7 @@ pl###cookie-warn:not(body):not(html)
 pl###cookie-window:not(body):not(html)
 pl###cookie-wrapper:not(body):not(html)
 pl###cookie:not(body):not(html):not([href*="cookieclicker"])
+pl###cookie_accept:not(body):not(html)
 pl###cookie_box:not(body):not(html)
 pl###cookie_confirmation:not(body):not(html)
 pl###cookie_container:not(body):not(html)
