@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: eMRSLW1g4Oz/QGm/43CR9Q
+! Checksum: XzXLaJLWS6vNjas4lcnlYg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.9.1
-! Last modified: Wed, 09 Jan 2019, 08:10 UTC+01
+! Version: 2019.1.9.2
+! Last modified: Wed, 09 Jan 2019, 12:45 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.9.1 aktualizacja: śro, 09 sty 2019, 08:10 UTC+01
+! v.2019.1.9.2 aktualizacja: śro, 09 sty 2019, 12:45 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -48,7 +48,7 @@ account.ubisoft.com###footer_tc_privacy
 accuweather.com###eu-cookie-notify-wrap
 acer.com##.cookieBox
 aclari.pl###licence-agreement
-adbl.eu,polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com,widzewtomy.net,japrzedsiebiorca.biz,konstytucjabiznesu.biz,doradcarestrukturyzacyjny.info,sandraspa.eu,centrum.fm,elektrykapradnietyka.com,platinet.eu,spece.it,wolnekonopie.org###cookie-law-info-bar
+adbl.eu,polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com,widzewtomy.net,japrzedsiebiorca.biz,konstytucjabiznesu.biz,doradcarestrukturyzacyjny.info,sandraspa.eu,centrum.fm,elektrykapradnietyka.com,platinet.eu,spece.it,wolnekonopie.org,domowa.pizza,skup-laptopow.com###cookie-law-info-bar
 adguard.com##.sticky-bar--cookie
 adm-media.pl,kociadolina.pl##.policy
 adobe.com,merixstudio.pl##.message
@@ -355,7 +355,6 @@ domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
 domesta.com.pl###CookiesWarningPopup
 domisad.pl##.message-cockies
 domoplus.pl,miniminiplus.pl,kuchniaplus.pl,teletoonplus.pl###cpb.rodoLayer
-domowa.pizza###cookie-law-info-bar
 domowladni.pl###domo-cookies-policy
 domzdrowia.pl,mgr.farm###cookie_notice
 doosanbabcock.com###notice-bar
@@ -2175,6 +2174,7 @@ pl##.cookie-warning:not(body):not(html):not(#Web):not(#Container)
 pl##.cookie-wrap:not(body):not(html)
 pl##.cookie_acceptance:not(body):not(html), .cookie_acceptance_background:not(body):not(html)
 pl##.cookie_agree:not(body):not(html)
+pl##.cookie_header:not(body):not(html)
 pl##.cookie_info:not(body):not(html)
 pl##.cookie_notice:not(body):not(html)
 pl##.cookie_policy:not(body):not(html):not(#Content):not(#page)
