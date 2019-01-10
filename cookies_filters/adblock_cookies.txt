@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Sl1eeKjuADFQtzizho5nuQ
+! Checksum: dfndzBY5CHEdlr+ZBiEitQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.9.5
-! Last modified: Wed, 09 Jan 2019, 14:09 UTC+01
+! Version: 2019.1.10.1
+! Last modified: Thu, 10 Jan 2019, 12:29 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.9.5 aktualizacja: śro, 09 sty 2019, 14:09 UTC+01
+! v.2019.1.10.1 aktualizacja: czw, 10 sty 2019, 12:29 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1237,7 +1237,7 @@ prgm.pl###Layer25
 prgok.pl###top_i
 prideshop.pl,queer.pl##.box-rodo
 primary-justpay.digitalvirgo.pl##coll-cookie-info
-profilki.pl#?#.bc_white.centering.tile:-abp-has(img[src="/img/lay/maskotka_ciastko.png"])
+profilki.pl#?#div.centering.tile:-abp-has(img[src="/img/lay/maskotka_ciastko.png"])
 programyzadarmo.net.pl##.primary.floatingItem
 progrupa.com###progrupa_cookie_policy
 projektoskop.pl###popupCookie
