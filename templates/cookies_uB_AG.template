@@ -33,6 +33,9 @@
 !#if !cap_user_stylesheet
 @include komunikaty_bez_styli_uzytkownika
 !#endif
+!#if cap_user_stylesheet
+@include komunikaty_style_uzytkownika
+!#endif
 !#if !env_mobile
 @include komunikaty_niemobilne
 !#endif
