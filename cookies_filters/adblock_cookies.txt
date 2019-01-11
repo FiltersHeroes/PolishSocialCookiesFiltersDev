@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: h4F3mbgUpVWJt8/cPkdytg
+! Checksum: wAREEbPWdtLfYPHu7Gi7hQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.11.5
-! Last modified: Fri, 11 Jan 2019, 15:13 UTC+01
+! Version: 2019.1.11.6
+! Last modified: Fri, 11 Jan 2019, 23:13 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.11.5 aktualizacja: pią, 11 sty 2019, 15:13 UTC+01
+! v.2019.1.11.6 aktualizacja: pią, 11 sty 2019, 23:13 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -581,6 +581,7 @@ gih.grajewo.pl#?##fancybox-wrap:-abp-contains(RODO)
 gih.grajewo.pl,naszamlawa.pl,pupgrodziskwlkp.pl###fancybox-overlay
 gismeteo.pl##.cookies-banner
 gispartner.pl,geotec.pl###saycookie
+github.com###CybotCookiebotDialog
 gkn.pl##div#gora0
 gkstychy.info###coookie
 glogow-info.pl,glogow.info.pl##.wrapper > table:nth-of-type(1)[style="margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: -6px;"]
@@ -721,7 +722,6 @@ it-szkola.edu.pl###cookieLayerBoxModal
 iwanowice.pl###privacy-policy-box
 ixon.cloud###privacyConsent
 izone.pl##.mm-page > div[style*="height: 80px"]
-jabra.pl###CybotCookiebotDialog
 jackvision.pl###jz-overlay.blur
 jajco.pl##div[id*="n-cookies-notification"]
 jakbudowac.pl##.dialog-fixed
@@ -1404,7 +1404,7 @@ starterek.pl###rodo_form
 start.me##.app__message > .info-message
 statoscope.pl##rodo
 stat.gov.pl,pap.pl,popoznaniu.pl,warszawa-pragapoludnie.sr.gov.pl###divcook
-stefczyk.info,leniwy.eu##.cookies-alert
+stefczyk.info,leniwy.eu,disco-polo.info##.cookies-alert
 stodola.pl##.toast-container
 store.playstation.com###privacy-header
 storytel.pl###cookieWall
@@ -1871,6 +1871,7 @@ pl###cookieNotify:not(body):not(html)
 pl###cookiePane:not(body):not(html)
 pl###cookiePolicyBanner:not(body):not(html)
 pl###cookiePolicyBar:not(body):not(html)
+pl###cookiePolicyBox:not(body):not(html)
 pl###cookiePolicyWrapper:not(body):not(html)
 pl###cookiePolicy-layer:not(body):not(html)
 pl###cookiePolicy:not(body):not(html)
