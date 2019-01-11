@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: TD31q3gDOHSOZFrIY6tL5A
+! Checksum: h4F3mbgUpVWJt8/cPkdytg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.11.4
-! Last modified: Fri, 11 Jan 2019, 14:31 UTC+01
+! Version: 2019.1.11.5
+! Last modified: Fri, 11 Jan 2019, 15:13 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.11.4 aktualizacja: pią, 11 sty 2019, 14:31 UTC+01
+! v.2019.1.11.5 aktualizacja: pią, 11 sty 2019, 15:13 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -31,7 +31,7 @@
 24jgora.pl###myModal_cookie
 24opole.pl###div_cookie_accept
 40latki.pl###noty_bottom_layout_container
-40ton.net,nowy-sacz.info,olgasmile.com,tb4hr.com,telewizja-cyfrowa.com,naziemna.info,fastwhitecat.com,urbanium.eu,zasiedzenie.net,indianpoland.com,settlersonlinewiki.eu###catapult-cookie-bar
+40ton.net,nowy-sacz.info,olgasmile.com,tb4hr.com,telewizja-cyfrowa.com,naziemna.info,fastwhitecat.com,urbanium.eu,zasiedzenie.net,indianpoland.com,settlersonlinewiki.eu,blog.spacetronik.eu###catapult-cookie-bar
 99rent.pl##.region-rodo-info
 360studio.org,wabrzezno.com##.tplis-cl-cookies
 2018.pl##.r-background
@@ -119,7 +119,7 @@ architektura.info##.modal
 architektura.info##.cookies-warning
 archiwa.gov.pl,noria.pl###message_box
 arcyfotka.pl,doniczki-poznan.pl,koraliki.pl,nck.gov.pl,kupbilet.pl,microhost.pl,postrabbit.pl#?#.alert-warning.alert:-abp-contains(cookie)
-areatour.pl,dlapacjenta.pl,marbo-sport.pl,radentortodonta.pl##div#topbar
+areatour.pl,dacter.pl,dlapacjenta.pl,marbo-sport.pl,radentortodonta.pl,uni-tech.pl##div#topbar
 arg.gdynia.pl,rankinglekarzy.pl,finai.pl##div > .info
 arkady.info,krzysztonjan.com###notice_bar
 arnicaapteka.pl,kappahl.com##.warning
@@ -133,7 +133,7 @@ aszdziennik.pl,demotywatory.pl,faktopedia.pl,innpoland.pl,joemonster.org,komixxy
 atcdevelopment.pl,ginekolog-darlowo.pl,lek-med.pl###zgoda
 atlas-roslin.pl##.tytul > span
 atramentowka.com###cookie_popup
-atramentowka.com,bingospa.eu,bip.um.rybnik.eu,fotonegatyw.com,firmyinzynieria.com,coremannet.com,szlakwokoltatr.eu,starosadeckie.info,odmiana.net,fyrestore.com,whitervbbit.com,royaltime.eu,meczelive.tv,wyczesani.com###cookie
+atramentowka.com,bingospa.eu,bip.um.rybnik.eu,fotonegatyw.com,firmyinzynieria.com,coremannet.com,szlakwokoltatr.eu,starosadeckie.info,odmiana.net,fyrestore.com,whitervbbit.com,royaltime.eu,meczelive.tv,wyczesani.com,warsztatowski.com###cookie
 atskaner.pl###cookieInfoWindow
 attrader.pl,teatrpalladium.com##.cppa
 audioteka.com##.anonymousToSConsent_mask
@@ -306,6 +306,7 @@ cubus.com###EPDirectiveInfo
 culture.pl##.Cookie--top.Cookie
 cyanmod.pl##.cm-message, .ipsfocus_globalMessage
 cyberbajt.pl##div#message0
+cybor-tech.com.pl##.cookie_privacy_info_bar
 cyfrowarepublika.pl,energoekspert.com.pl###system-message
 czarno-biale.pl##[aria-describedby="rodo-popup"], .ui-widget-overlay
 czasdzieci.net##DIV[style="width:100%;position:fixed;bottom:0;background-color:#f5f5f5;padding:13px 25px 20px;font-size:13px;z-index:200;box-shadow:0 0 10px rgba(0,0,0,0.3);"]
@@ -315,7 +316,6 @@ czescidobmw.pl##div[style="position:fixed;left:0;top:0;width:100%;height:100%;ba
 czescidobmw.pl###container > div[onclick]
 czluchow.com.pl##table:nth-of-type(1) > tbody > tr > td > p:nth-of-type(1)
 daciakatowice.pl,nazaruk.pl##.fixedInfo
-dacter.pl,sklep-wadima.pl,uni-tech.pl###topbar, #topBar, .topbarBox, .topBarMessage, #__topBar, #top_bar
 daewooforum.pl##.back > table:not(.bodyline):nth-of-type(1)
 daiglob.pl###NRodo2018
 danepubliczne.gov.pl##.flash-messages
@@ -387,7 +387,6 @@ ebrokerpartner.pl##.jsCookieInfoPlugin.cookie_plugin
 echosonda.pl###cookie_i
 economist.com##div#ec-message-1
 eco.atman.pl,kreskoweczki.pl,groj.pl,marketing-news.pl,www.obozytenisowe.pl###gbpl_oba
-edarling.pl,foto4u.pl,himountain.pl,opteam.pl,praktiker.pl,smakizycia.pl,zoover.pl###infobarDiv, #infobar, .infobar, #info-bar, #info_c_box, .info-message
 edukacja.rybnik.eu,polskaekologia.org##.cookieWarning
 edutorial.pl,kerrisgroup.com###wmpci-popup-wrp
 eecpoland.eu##.cookie-bar2
@@ -535,10 +534,10 @@ forum.minepedia.pl##div#notice
 forum.vwgolf.pl##iframe[src="cookie.html"]
 forum.zarabianie24.net##div[style="font-family: Tahoma; margin-bottom: 6px; padding: 5px; font-size: 10px; color: rgb(0, 0, 0); background-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-color: black; border-bottom-style: solid; "]
 fostertravel.pl##.ft-rodo-html-banner
+foto4u.pl,fotoprint.pl,smakizycia.pl,zoover.pl,###info-bar
 fotojoker.pl##div#floatDiv
 fotokurier.eu###pcUsingCookies
 fotonegatyw.com###fx-modal-1
-fotoprint.pl###info-bar
 fsmm.pl###cookieinfoboxitems
 funclub.pl##body > div > div > div > div > div:-abp-contains(cookies)
 funduszpomerania.pl###eprivacyModal
@@ -753,7 +752,7 @@ kalendarzrolnikow.pl,lpwiksa.com.pl,hopea.eu,kpcen-torun.edu.pl###colorbox, #cbo
 kalendarzswiat.pl###consent_box_wrapper
 kalisz.pl###showHideDiv
 kalkulator.wakacyjnapolisa.pl,rankomat.pl##.rank-cookie-bar
-kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com###cookieNotice
+kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu###cookieNotice
 kamilianie.eu##div[style="position: fixed; top: 50px; left: 0px; right: 0px; bottom: auto; z-index: 5; visibility: hidden; font-family: Arial, Verdana, Tahoma; font-size: 14px; line-height: 1em; color: rgb(34, 34, 34); "]
 kapucyni.pl###mod_ppcookies
 karmimypsiaki.pl##div#ciasteczkaInfoContainer
@@ -1384,6 +1383,7 @@ sonymobile.com##.cookie-consent
 sonymobile.com##.fullbleed-response[data-module="sony-survey-client"][style]
 sosnowiec.pl###topBar_MainCover
 soundcloud.com,blyskawicznakorekta.pl##.announcements
+spacetronik.eu###x13pmcookiebar
 specshop.pl##.blockUI
 speedtest.net###_evidon-barrier-wrapper
 speedtest.net##.alert-container
