@@ -1,11 +1,11 @@
-! Checksum: IG2kVh0qfgSEPqlkxJrDtw
+! Checksum: 0LvJpF7OzWulGG5Etu9BGw
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Social Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.13.1
-! Last modified: Sun, 13 Jan 2019, 10:50 UTC+01
+! Version: 2019.1.13.2
+! Last modified: Sun, 13 Jan 2019, 10:55 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.13.1 aktualizacja: nie, 13 sty 2019, 10:50 UTC+01
+! v.2019.1.13.2 aktualizacja: nie, 13 sty 2019, 10:55 UTC+01
 !
 !
 ! Popupy
@@ -57,6 +57,7 @@ lookcam.com$$#lookcam-fb-modal
 45minut.pl##.carousel-inner > .item.active > a[href="https://www.facebook.com/45minutpl"]:style(visibility: hidden !important;)
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
 blog.wirtualnemedia.pl###social_ikons_header_fixed:style(visibility: hidden !important;)
+dobreprogramy.pl###phContent_SocialControlBottom_socialBox > .social__group_like.social__group:has(:not(#phContent_SocialControlBottom_btnBookmark))
 dobreprogramy.pl###phContent_SocialControlBottom_socialBox > .social__group_like.social__group:if-not(#phContent_SocialControlBottom_btnBookmark)
 freshfile.pl##.facebook, .google:style(visibility: hidden !important;)
 odkryjpomorze.pl##+js(nano-remove-elements-onready.js, div.span6 > map[name="Map"] > area:nth-of-type(1))
