@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: tYjQShLuEVkUS+2u3azMjw
+! Checksum: z9T3HbbgROvwgBBrdvnvCQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.12.6
-! Last modified: Sat, 12 Jan 2019, 20:01 UTC+01
+! Version: 2019.1.13.1
+! Last modified: Sun, 13 Jan 2019, 10:27 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.12.6 aktualizacja: sob, 12 sty 2019, 20:01 UTC+01
+! v.2019.1.13.1 aktualizacja: nie, 13 sty 2019, 10:27 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -133,8 +133,7 @@ aszdziennik.pl,demotywatory.pl,faktopedia.pl,innpoland.pl,joemonster.org,komixxy
 atcdevelopment.pl,ginekolog-darlowo.pl,lek-med.pl###zgoda
 atlas-roslin.pl##.tytul > span
 atramentowka.com###cookie_popup
-atramentowka.com,bingospa.eu,bip.um.rybnik.eu,fotonegatyw.com,firmyinzynieria.com,coremannet.com,szlakwokoltatr.eu,starosadeckie.info,odmiana.net,fyrestore.com,whitervbbit.com,royaltime.eu,meczelive.tv,wyczesani.com,warsztatowski.com###cookie
-atskaner.pl###cookieInfoWindow
+atramentowka.com,bingospa.eu,bip.um.rybnik.eu,fotonegatyw.com,firmyinzynieria.com,coremannet.com,szlakwokoltatr.eu,starosadeckie.info,odmiana.net,fyrestore.com,whitervbbit.com,royaltime.eu,meczelive.tv,wyczesani.com,warsztatowski.com,atskaner.pl###cookieInfoWindow
 attrader.pl,teatrpalladium.com##.cppa
 audioteka.com##.anonymousToSConsent_mask
 auto4free.pl###js-cookieBanner
@@ -934,6 +933,7 @@ meteoblue.com##.gdprMessage
 meteoprog.pl##.gdpr-dialog
 meteor-turystyka.pl##body > div[style="position: fixed; width: 100%; text-align: center; background: orange; color: white; font-weight: bold; padding: 5px; line-height: 20px; z-index: 3; bottom: 0px;"]
 meteovista.pl###info-bar-content
+meteo.org.pl##.f > .em
 meteo.waw.pl###cookies-note
 metis.pl###wndCookies
 mggp.com.pl##.navbar-inverse, .navbar.navbar-fixed-bottom
@@ -999,6 +999,7 @@ mrowka.com.pl#?#.popup-container:-abp-has(.popup-button-agree)
 msn.com###conditionalbanner, .euBanner
 mtech.pl###content_jquery_bottom
 mtm-info.pl###etisoA
+multimetro.pl,strefakursow.pl##.b-cookies
 multiplay.pl,razemztoba.pl##.inform
 muscat.pl##.c-cookie-belt
 musicexpert.pl,recepturybonifratrow.pl###x13popup-container, #x13popup-cover
@@ -1127,6 +1128,7 @@ panasonic.pl##div#CP_Layer
 pandora.net###cccwrpad
 pandora.net##[class*="ui-"]
 paneleogrodzeniowe-treza.com###treza-cookies
+parfumclub.pl##.gmt_gdpr
 parkersklep.pl,rotringsklep.pl###BoxCookie
 parkhandlowylomza.pl###pamphletu38210
 parkwodny.pl,szkolymedyczne.eu,srodaslaska.pl##.ppsPopupShell, #ppsPopupBgOverlay
@@ -1448,6 +1450,7 @@ telefonylodz.com###iqitcookielaw
 telegazeta.pl##.tvp-covl-bg, .tvp-covl
 telewizjarepublika.pl###swsmodal, #swsoverlay
 tenit.com.pl###gdpr
+termgaz.pl###cook_woyt
 tesco.pl##.gdpr-cookies-inside
 testhub.pl##.sh-page-notice
 testigo.pl###cp_wrap
@@ -2098,6 +2101,7 @@ pl##.cookieConsent:not(body):not(html)
 pl##.cookieContainer:not(body):not(html)
 pl##.cookieInfo:not(body):not(html)
 pl##.cookieNotification:not(body):not(html)
+pl##.cookiePolicyNotice:not(body):not(html)
 pl##.cookiePolicy:not(body):not(html)
 pl##.cookieTooltip:not(body):not(html)
 pl##.cookieWarningBox:not(body):not(html)
@@ -2167,6 +2171,7 @@ pl##.cookie-notice-container:not(body):not(html)
 pl##.cookie-notice:not(body):not(html)
 pl##.cookie-notification:not(body):not(html)
 pl##.cookie-overlay-box:not(body):not(html)
+pl##.cookie-overlay:not(body):not(html)
 pl##.cookie-tooltip:not(body):not(html)
 pl##.cookie-warning:not(body):not(html):not(#Web):not(#Container)
 pl##.cookie-wrap:not(body):not(html)
@@ -2381,7 +2386,7 @@ porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
 tychy.geminipark.pl#@#.privacy-policy:not(body):not(html)
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 @@/js/CookieInfo.js$script,domain=cyrk-zalewski.com.pl|topschool.pl|porno720.pl
-@@/js/jquery.cookie.min.js$domain=rozklad.pkp.pl|rozklad-pkp.pl|ubi.com|telepizza.pl|playrust.io|nudelle.com|pokatne.pl|moric.pl
+@@/js/jquery.cookie.min.js$domain=rozklad.pkp.pl|rozklad-pkp.pl|ubi.com|telepizza.pl|playrust.io|nudelle.com|pokatne.pl|moric.pl|hotto.pl
 @@/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$domain=escaperooms.pl|xboxarcade.pl|3dwpraktyce.pl|tvs.pl|przegladbaltycki.pl|wypowiadamoc.pl|gazetabilgoraj.pl|ittechblog.pl|rozterkistartuperki.pl
 @@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
 @@||china-gadgets.de/app/plugins/cookie-law-info/js/cookielawinfo.js
