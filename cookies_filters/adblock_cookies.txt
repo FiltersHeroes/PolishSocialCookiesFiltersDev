@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: BH7CgKLKLBS7wFzABqreeA
+! Checksum: EZUxrtjwZz3q2blJyf3wQA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.14.3
-! Last modified: Mon, 14 Jan 2019, 09:40 UTC+01
+! Version: 2019.1.14.4
+! Last modified: Mon, 14 Jan 2019, 11:55 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.14.3 aktualizacja: pon, 14 sty 2019, 09:40 UTC+01
+! v.2019.1.14.4 aktualizacja: pon, 14 sty 2019, 11:55 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -267,7 +267,7 @@ cenum.pl##.cssmessage
 cepelia.com.pl,sandecja.tv,mcksokol.pl,muzeum.sacz.pl,sandecja.org###overflow-content
 certum.pl###spu-3634, #spu-bg-3634
 chamsko.pl##div[class^="cookies"]
-charlizemystery.com#?##popups:-abp-has(> .popup_box > .cookie-empty)
+charlizemystery.com,mjakmrowka.pl##.cookie-empty
 chceauto.pl##.cookue
 chirurgia.plastyczna.eu##.cookie-info-cont
 chojnice24.pl###bg_cover
@@ -361,6 +361,7 @@ domoplus.pl,miniminiplus.pl,kuchniaplus.pl,teletoonplus.pl###cpb.rodoLayer
 domowladni.pl###domo-cookies-policy
 domzdrowia.pl,mgr.farm###cookie_notice
 doosanbabcock.com###notice-bar
+doradcasmaku.pl###cookies_popup
 dotsport.pl##.cookie-nav
 dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;bottom: 0px;left: 0px;text-align: center;color: #000;border-top: 1px #000 solid;z-index: 100;"]
 dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,tubawyszkowa.pl,tubaostrowa.pl,tubachorzowa.pl,pracownia.org.pl,ptbs.pl,terramar.pl,nastopy.pl##.rodo
@@ -961,7 +962,6 @@ mistrzowie.org##div[style="position: fixed; left:0; right:0; bottom:0; height:40
 mixer.pl,wp.pl,testwiedzy.pl,forum.dobreprogramy.pl,eholiday.pl###WP-cookie-info
 mixmedia.pl##div#cook_info
 mi.com##.J_agreeCookieModal, .top-notify
-mjakmrowka.pl##.cookie-empty
 mklr.pl##DIV[style="position: fixed; left:0; right:0; bottom:0; height:40px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 mmtv.pl###policyInfo
 mniammniam.com##.mm-cookies
@@ -2006,6 +2006,7 @@ pl###cookie-window:not(body):not(html)
 pl###cookie-wrapper:not(body):not(html)
 pl###cookie:not(body):not(html):not([href*="cookieclicker"])
 pl###cookie_accept:not(body):not(html)
+pl###cookie_acc_wrap:not(body):not(html)
 pl###cookie_box:not(body):not(html)
 pl###cookie_confirmation:not(body):not(html)
 pl###cookie_container:not(body):not(html)
