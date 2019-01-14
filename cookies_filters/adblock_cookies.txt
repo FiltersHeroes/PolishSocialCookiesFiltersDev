@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Xp311hK+GmT1IZJ5EmGkgA
+! Checksum: 1f1EnmG8sgDEcl12S3x1Ig
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.13.3
-! Last modified: Sun, 13 Jan 2019, 21:47 UTC+01
+! Version: 2019.1.14.1
+! Last modified: Mon, 14 Jan 2019, 08:47 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.13.3 aktualizacja: nie, 13 sty 2019, 21:47 UTC+01
+! v.2019.1.14.1 aktualizacja: pon, 14 sty 2019, 08:47 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -267,6 +267,7 @@ cenum.pl##.cssmessage
 cepelia.com.pl,sandecja.tv,mcksokol.pl,muzeum.sacz.pl,sandecja.org###overflow-content
 certum.pl###spu-3634, #spu-bg-3634
 chamsko.pl##div[class^="cookies"]
+charlizemystery.com#?##popups:-abp-has(> .popup_box > .cookie-empty)
 chceauto.pl##.cookue
 chirurgia.plastyczna.eu##.cookie-info-cont
 chojnice24.pl###bg_cover
@@ -965,7 +966,7 @@ mklr.pl##DIV[style="position: fixed; left:0; right:0; bottom:0; height:40px; bac
 mmtv.pl###policyInfo
 mniammniam.com##.mm-cookies
 mobile.de##div[class^="cookie-banner"]
-mobile.twitter.com###react-root > div > div > .rn-gvpnoh
+mobile.twitter.com##.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
 mobilitytrends.pl,mobilitynews.pl,techtradeshow.pl##.politic-cookie
 mocnopomocni.pl##DIV[style="width: 100%; background-color: rgb(242, 242, 242); margin: 10px auto 0px; padding: 15px 8px; position: fixed; left: 0px; bottom: 0px; z-index: 1000; color: rgb(40, 40, 40);"]
 mocnopomocni.pl##div[style="width: 100%; background-color: rgb(242, 242, 242); margin: 10px auto 0px; padding: 15px 8px; position: fixed; left: 0px; bottom: 0px; z-index: 1000; color: rgb(40, 40, 40); "]
