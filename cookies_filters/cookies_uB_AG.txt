@@ -1,11 +1,11 @@
-! Checksum: XrXT0M0r5OFj6NW9Lf/oDw
+! Checksum: /jxBEzrwm20aUycv80n6cA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.10.1
-! Last modified: Thu, 10 Jan 2019, 12:29 UTC+01
+! Version: 2019.1.15.1
+! Last modified: Tue, 15 Jan 2019, 08:42 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.10.1 aktualizacja: czw, 10 sty 2019, 12:29 UTC+01
+! v.2019.1.15.1 aktualizacja: wto, 15 sty 2019, 08:42 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -80,7 +80,7 @@ fastdeal.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: auto !important;)
 filmweb.pl##body.rodo #header:style(position: relative !important;)
-filmweb.pl##.rodo:style(overflow: auto !important; position: static !important;)
+filmweb.pl##body.rodo:style(overflow: auto !important; position: static !important;)
 filmweb.pl##.rodo__overlay
 fiskars.pl##.desktop:style(top: 0 !important;)
 galopuje.pl##+js(abort-current-inline-script.js, $, RODOCOOKIE)
