@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: NQ8Qpz5LUf5z9PLHsSMquA
+! Checksum: JftlhJE/R6e5vcH2IeunCQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.16.4
-! Last modified: Wed, 16 Jan 2019, 12:13 UTC+01
+! Version: 2019.1.16.5
+! Last modified: Wed, 16 Jan 2019, 14:15 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.16.4 aktualizacja: śro, 16 sty 2019, 12:13 UTC+01
+! v.2019.1.16.5 aktualizacja: śro, 16 sty 2019, 14:15 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -655,6 +655,7 @@ hoga.pl###warning
 hokej.net###cookies_box
 holidaycheck.pl###infoCloseableBoxContainer
 holidu.pl#?##root > aside[class]:-abp-contains(🍪)
+homebook.pl#?#body > div[class]:last-of-type:-abp-contains(RODO)
 homebrewing.pl##.rodo-popupbox
 home.pl,koty24.pl,psy24.pl,idea4you.eu###box_policies
 horizon.tv##.notifications-manager
@@ -693,6 +694,7 @@ inagent.pl###iaCookies
 inarisc.pl###cookies_info_maktiv
 inbook.pl,timemaster24.pl###privacy-policy-info-container
 inchcape.pl##.cookieinfo_bar
+independentdigital.lnk.to###modal.lnk-c-modal
 info24.rzeszow.pl##.ja-box-right.column.ja-box-wrap
 infocredit-online.pl###modal-warper
 infogliwice.pl,nauka.rocks,webniusy.com###ct-ultimate-gdpr-cookie-popup
