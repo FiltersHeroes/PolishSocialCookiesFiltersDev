@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 2d66fpCuMHJFleylcb5A7A
+! Checksum: ko56mHlfivBBRNpAWtGf1g
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.16.1
-! Last modified: Wed, 16 Jan 2019, 08:14 UTC+01
+! Version: 2019.1.16.2
+! Last modified: Wed, 16 Jan 2019, 11:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.16.1 aktualizacja: śro, 16 sty 2019, 08:14 UTC+01
+! v.2019.1.16.2 aktualizacja: śro, 16 sty 2019, 11:31 UTC+01
 !
 !
 ! Popupy
@@ -714,6 +714,7 @@ pl##[id^="nk_fajne"]
 4dd.pl##.list-12 > li
 4fun.tv##.mt-4.mb-3.justify-content-center.d-flex, .mt-5.row > div.col-md-4:nth-child(-n+2)
 4kolkainietylko.pl,kryptoraport.pl###do-etfw-2
+4lifedirect.pl##body > .container div.white.header4:nth-of-type(1), a > img[src="/Content/uploaded/images/fcbk.png"]
 4run.pl##.headerSocial, .footerSocialMedia
 5el.pl##.widget_black_studio_tinymce.uk-panel:nth-of-type(3)
 24kurier.pl##.boxFilm.tMarg20.box:nth-of-type(2)
@@ -784,7 +785,7 @@ anotherdesign.pl###pint, #slide_box_sz
 antywirus-nod32.pl##.page-footer div.span4:nth-of-type(3) > div > h4, .page-footer div.span4:nth-of-type(3) > div > h4 + ul > li > a > img
 aosporcie.pl###HTML6
 apama.pl,orlenteam.pl,forma.czest.pl##.socialTabs
-apap.pl,greensteam.pl,km-net.pl,rolnik.pl,eventgo.24net.pl,nexto.pl,plusbank.pl,slowhop.com,meczelive.tv,luqam.com,tebrizsesi.com,tophifi.pl,iluzjon.fn.org.pl,holidon.pl###social
+apap.pl,greensteam.pl,km-net.pl,rolnik.pl,eventgo.24net.pl,nexto.pl,plusbank.pl,slowhop.com,meczelive.tv,luqam.com,tebrizsesi.com,tophifi.pl,iluzjon.fn.org.pl,holidon.pl,dzem.com.pl###social
 apetete.pl##.social_media_add
 apollo.pl##.b-sm-list
 appki.com.pl,autonom.pl,domtuiteraz.eu,paczka-wiedzy.pl###text-7
@@ -854,7 +855,7 @@ bajm.pl##.icons > a[href^="https://www.facebook.com/BAJMpage/"]
 balladine.com###widgetFb
 balneokosmetyki.pl##.top-fb
 balujemy.eostroleka.pl##.module:nth-of-type(9)
-bananki.pl,bptour.pl,encje.odjechani.com.pl,zyciepabianic.pl,paradashop24.pl,pracawgdansku.com.pl,rze.pl,gorlice.tv,myfloor.pl,iopen.pl,univision24.pl,www.sellsmart.pl,wsliwinski.pl,annalotan.pl,fryzjerskie.com,zm.org.pl,zycie.pl###facebook
+bananki.pl,bptour.pl,encje.odjechani.com.pl,zyciepabianic.pl,paradashop24.pl,pracawgdansku.com.pl,rze.pl,gorlice.tv,myfloor.pl,iopen.pl,univision24.pl,www.sellsmart.pl,wsliwinski.pl,annalotan.pl,fryzjerskie.com,zm.org.pl,zycie.pl,www.mbank.pl,reagujratuj.pl###facebook
 bananki.pl,onetech.pl###gplus
 bankmillennium.pl##.o-btn--twitter, .o-btn--youtube, .o-btn--linkedin
 bankobranie.blogspot.com###sideSocial > .social > li:nth-child(-n+4), #logoSocial > .social > li:nth-child(-n+4)
@@ -877,6 +878,7 @@ bedziepieklo.pl##.footer-container > .container-fluid > .row > div.col-xs-12:nth
 belsat.eu##a[href="https://twitter.com/Bielsat_pl"], a[href="https://www.youtube.com/user/ibelsat"], a[href^="https://www.facebook.com/pages/Bie%C5%82sat-po-polsku/123113364510536"]
 belutti.com##.fa-facebook-official.fa
 beskidy.news##.js-fb-page.c-fb-page
+bestaudio.pl###pwebbox526
 beta.speedtest.net##a[href="http://twitter.com/speedtest"], a[href="http://www.facebook.com/teamookla"]
 bettingexpert.com##.columns.medium-3:nth-of-type(1)
 bet-at-home.com##.teaser-social-media
@@ -930,6 +932,7 @@ blog.spacetronik.eu###facebook-2, #social_v2-2
 blog.swiatbaterii.pl##.aspexifbsidebox
 blokada.org##.fa-twitter, .fa-facebook, .fa-google-plus
 bluecity.pl##.tool-facebook
+bmwsklep.pl###my-menu0.right.pull-item:nth-of-type(5)
 boardtime.pl###Social_Widget, .f-widget-1.f-widget > .widget
 bobola.info###footer-blocks > section:nth-of-type(3) > h6
 bobowozki.com.pl##a[href="https://www.facebook.com/bobowozki/"] > img
@@ -1017,6 +1020,7 @@ citroen.pl##.column_50.columns:nth-of-type(2)
 ci-polsat.pl##.pane-block-21.pane-block.panel-pane, .promo:nth-of-type(2) > .inner > .content
 ckm.pl##.facebook-aside.widget, .social-link-item
 ckz.pl##a[href="#"]:nth-of-type(n+2):nth-of-type(-n+3) > .use-hover.shortcode.icon, div[id*="wpv-column-"] > p > a[href="#"]:nth-of-type(1) > .use-hover.shortcode.icon
+claresa.pl##.boxGrzesSocial
 coccodrillo.eu###socialFlyBox
 cocomoda.pl##h4:nth-of-type(2), .banner_small_right, .icons_footer_top
 codzienniefit.pl##.owl-stage
@@ -1161,6 +1165,7 @@ ebizpro.pl##.contact-block--footer.contact-block
 ebutik.pl###footer_socials
 echo24.tv##.hide-mobile.social
 echotygodnik.info##.pinterest, .linkedin
+ecoblik.pl##.td-footer-wrapper div.td-pb-span4:nth-of-type(2)
 edgp.gazetaprawna.pl##div[class^="footer__follow"]
 edukacja.rybnik.eu##div.box:nth-of-type(6)
 edunews.pl##.customja-social > div > a[href="https://www.facebook.com/edunews"], a[href="https://www.flickr.com/photos/edunews/"],  a[href="https://www.pinterest.com/marcinpolak/edustore/"], a[href="https://www.twitter.com/edunews_pl"],  a[href="https://www.youtube.com/user/terazedukacja"]
@@ -1369,6 +1374,7 @@ generator-ogloszen.pl##div.module.otModule:nth-child(n+4)
 genesis-zone.com##.top-menu-social
 germany.travel##.item-social, li.divider:nth-of-type(8)
 getecom.pl##.btn__more--facebook.btn__more--footer
+getem.pl###openFB
 gieldaklasykow.pl###text-22
 gieldowememy.pl##.boks_tekst.boks:nth-of-type(2)
 gih.grajewo.pl###bip
@@ -1438,7 +1444,9 @@ gymeltoro.pl##.bean-social1
 hack.pl,repozytorium.fn.org.pl,spoleczenstwo.plportal.pl###block-block-11
 hairbyjul.pl##.penci_facebook_widget
 halogorlice.info###sp-bottom3
+hamptons.pl###pinterest-likebox, #gplus-likebox, #instagram-likebox
 handballnews.pl##.box:nth-of-type(4)
+happyholic.pl###hh-facebook
 hardcorowo.pl,stskurier.com###fbLink
 harmony.org.pl##a[href^="https://www.facebook.com/pages/Harmony-Biuro-rachunkowe/463505313706616"]
 harpersbazaar.com##.share-module--button-wrap-pinterest.share-module--button-wrap
@@ -1458,7 +1466,7 @@ hellozdrowie.pl##.fbCount
 hellozdrowie.pl##.wrapSocialBox
 herbapol.com.pl##.new-social-footer-icons
 hes.pl##a[href="https://www.facebook.com/hes.wroclaw/"]
-hifiphilosophy.com,schronisko.olsztyn.pl,skiny.pl,darmowe-torrenty.net,ckpodgorza.pl,prawo-porady.pl,gckis.trzebnica.pl,fabrykazabawek.eu,hotelpiotr-gorce.pl,narzedziadiamentowe.com###wysuwane
+hifiphilosophy.com,schronisko.olsztyn.pl,skiny.pl,darmowe-torrenty.net,ckpodgorza.pl,prawo-porady.pl,gckis.trzebnica.pl,fabrykazabawek.eu,hotelpiotr-gorce.pl,narzedziadiamentowe.com,pzszerm.pl###wysuwane
 hipcio.sklep.pl##a[href="https://www.facebook.com/hipciosklep"]
 histmag.org##.commented-widget:nth-of-type(7)
 historiasportu.info###text-2 > .widgettitle
@@ -1582,6 +1590,7 @@ kabeltv.pl##.sidebar-widget:nth-of-type(3)
 kajto.pl##.sidebar.span3
 kalendarzrolnikow.pl##.bt-fc
 kamen.com.pl##.header_contener_navigation_socials
+kamira90.blogspot.com###HTML4,  #HTML5, #HTML6
 katalogmarzen.pl##.bottom-box.content-box > .container > .row > div.col-xs-12.col-sm-12.col-md-6:nth-of-type(1)
 katowice24.info##.rst-list-social > li:nth-of-type(-n+3)
 katowicedzis.pl,waszaturystyka.pl##.g-social
@@ -1768,6 +1777,7 @@ matshop.pl##a[href="https://instagram.com/matshoppl"]
 matshop.pl##a[href="https://twitter.com/Matshoppl"]
 matshop.pl##a[href="https://www.facebook.com/Matshoppl"]
 matshop.pl##a[href="https://www.youtube.com/user/MelanzAlcoTeam"]
+mazakzabawki.pl##a.commercial_button2:nth-of-type(3)
 mazoviamtb.pl##.side_links
 mazowia.eu###facebook2_2
 mazury.pl##.byt_social_widget
@@ -1865,7 +1875,7 @@ motherhood.pl###stopka > .container > div > .third
 motomi.pl##.col-sm-4 > h3
 motoperfekt.plsupermaluszek.pl##.container.userfooter > .row
 motormag.pl##a[href^="https://www.facebook.com/magazynmotor"], a[href="https://www.instagram.com/motormagpl/"], a[href="https://www.youtube.com/user/motoCentrumFM"], a[href="https://plus.google.com/+MagazynMot%C3%B3r"]
-motormag.pl##.wdi_instagram_widget
+motormag.pl,tutek.pl##.wdi_instagram_widget
 motywujemy24.pl##li:nth-of-type(2) > .fb_iframe_widget
 motywujemy24.pl##.ads_right_side_3
 mountainfreaks.ge###footer .columns.four:nth-of-type(3)
@@ -2306,6 +2316,7 @@ rankinglekarzy.pl##.rl-socialButtons
 rankomat.pl###footer-menu-col-social
 ravanson.pl##.jm-footer.jm-flexiblock.row-fluid > div.span4:nth-of-type(3)
 ravelo.pl##.footersocialicons
+reagujratuj.pl###sos_fb_slider
 realmadryt.pl#?#.bg:-abp-contains(dołącz)
 recea.pl##.container > .f-row > div.f-grid-6:nth-of-type(2)
 recenzja.eu###black-studio-tinymce-12
@@ -2368,6 +2379,8 @@ sadownictwo.com.pl###socialBox > a:nth-child(-n+5)
 sadurscy.pl##.null-instagram-feed
 sadurscy.pl##.widget_vanda_facebook_page, .widget_vanda_socialize
 sagana.pl##.fx-join-us
+salonmeblowy.net.pl##.icoPlus.fl, .icoPlus.fl + .ml20.fl
+salsaclasica.pl##.headerfb, .clickfb
 samequizy.pl##.hidemobile.col-3:nth-of-type(1)
 samoloty.pl##.custom > p:nth-of-type(n+2):nth-of-type(-n+3)
 samsung.com##.gb-footer__sns-list
@@ -2512,6 +2525,7 @@ stressfree.pl##.row:nth-of-type(1) > .col-md-5.col-lg-5
 strimi.pl##div.col-lg-4:nth-of-type(3)
 strimi.pl##.hidden-xs.hidden-sm.col-md-4.col-lg-4
 strzelnicabojowa.pl##.text-center.col-md-2
+studiojogapark.pl##.hidden-xs[style^="position:fixed;"] > p:nth-of-type(1)
 subiektywnieofinansach.pl##.et-social-instagram
 superauto24.com##div.smframe:nth-of-type(9), div.smframe:nth-of-type(10)
 supergrosz.pl##div.footerColumn:nth-of-type(3)
@@ -2553,6 +2567,7 @@ szlot.pl##.rednews_facebook_widge
 sznyt.pl##li.is-hidden-mobile:nth-of-type(-n+3) > .bar-nav-icon, .article-comment-button__link--facebook
 szopi.pl##.social-content
 sztab.org##.sidebar-widget:nth-of-type(4)
+szukajacslonca.com##.widget_wpcom_instagram_widget
 tablica-rejestracyjna.pl###fbutton-container
 tago.com.pl##.float-social
 taktutanio.pl###wysZakladki
@@ -2641,6 +2656,7 @@ tubachorzowa.pl,tubagliwic.pl,tubamarek.pl,tubaostrowa.pl##div.no-side-padding.b
 tugazeta.pl###face_button, #snap_button
 tui.pl##.col-lg-3.col-sm-6.col-xs-12:nth-of-type(4)
 turek.net.pl##.no-padding-left.l-footer--social-icons
+tutek.pl#?#.footer .col-6:first-of-type:-abp-has(> #sow-editor-2 > .so-widget-sow-editor)
 tuzdrowie.pl##.tr-facebook
 tu.swinoujscie.pl###jr_insta_slider-4
 tvgry.pl##.mnu-ico-fb, .mnu-ico-yt, .mnu-ico-tw, .tvgry-main-right-promo
@@ -2679,6 +2695,7 @@ umed.wroc.pl###slide_menu
 unileverfoodsolutions.pl##.last-col.col-span-6 > .h4
 unilink.pl##.last_footer.container_footer_item > ul > li:nth-of-type(-n+2)
 union-investment.pl##.bm-right.col-md-12
+uniwexaudio.pl###blok_19
 unturned.pl##.widget_text:nth-of-type(3)
 up8.com##div.b-footer_infoItem:nth-of-type(1)
 upflix.pl##.so-f, .so-t, .so-w
@@ -2689,11 +2706,13 @@ urania.edu.pl##p > a[href="https://twitter.com/UraniaPA"]
 urbnews.pl##.footer-1
 urbnews.pl##.sb-widget:nth-of-type(3)
 urzadskarbowy24.pl###lsi_widget-2 > .widget-title
+urzadzone.pl##.bottomBox > .group > a[href="https://www.facebook.com/177595405599474"]
 urz.pl##a.btn-default.button[href="https://www.facebook.com/SSURz"]
 ustawlige.com##.menu-item-facebook, #menu-item-91
 v1ncent.pl##.here_are_socials, .sidebar .col-lg-12 > h3.border-bottom:nth-of-type(2), .sidebar > h3.first_on_top.border-bottom:nth-of-type(2)
 variatkowo.pl###text-27 > .widget-title
 vegetime.pl###fbWrapper
+velpa.pl###menu_buttons >.footer_links > li
 venezia.pl##.social_icons_title
 versus.com##div[class^=Footer__follow]
 versus.com##.hover__hvr-grow___3kkj1.NavLink__iconLink___1QRm7:nth-of-type(-n+2)
@@ -2808,7 +2827,6 @@ www.iwaszkiewiczipartnerzy.com###LnkBr0-9cd
 www.krzysztonjan.com,starterzy.pl,e-zikoapteka.pl,gwp.pl###side_widget
 www.lodzkie.pl##.jj_sl_custom3
 www.lotto.pl##.fixedFacebook
-www.mbank.pl###facebook
 www.money.pl##.fuOmTF.sc-7nq3hz-0
 www.money.pl##.sc-1ajosl-1
 www.my-mobile.pl##a[href="https://www.facebook.com/mymobilepl"]
