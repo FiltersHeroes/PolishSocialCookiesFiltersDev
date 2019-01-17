@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 8b3dEJroDR4wj50jNewNfA
+! Checksum: RHHI+HQ4FI56z9/fsBAa/w
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.17.2
-! Last modified: Thu, 17 Jan 2019, 11:54 UTC+01
+! Version: 2019.1.17.3
+! Last modified: Thu, 17 Jan 2019, 12:45 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.17.2 aktualizacja: czw, 17 sty 2019, 11:54 UTC+01
+! v.2019.1.17.3 aktualizacja: czw, 17 sty 2019, 12:45 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -204,6 +204,7 @@ bip.skomlin.akcessnet.net,instytuty.drirenaeris.com,kupujemy.to,konwerter.net###
 bitcomputer.pl,teletrade-dj.pl###pp
 bitmarket24.pl###notifications
 bitmaszyna.pl###wwelcome
+biurowy.sklep.pl##div > a[href$="/polityka-prywatnosci-cookies_s_5.html"] > img
 bizin.pl###bottom-cookies
 biznesistyl.pl##.popup_overlay, .box_popup
 biznesoferty.pl###cookies-message-n
@@ -467,7 +468,7 @@ e-hotelarz.pl,e-stacjapaliw.pl,e-restauracja.com,grene.pl,salesmanago.pl,turek.n
 e-konferencje.pl,szkolenia24h.pl##body > div[style="width: 970px; border:1px solid gray; margin: 3px auto; color: gray; padding: 3px; text-align: center; font: 10px Verdana, sans-serif;"]
 e-konkursy.info###rodoNotify, #cookieNotify
 e-kwiaciarz.pl##.ff-cookies-container
-e-manufaktura.com,starecegly.com###cookie
+e-manufaktura.com,starecegly.com,sklep.polbit.com###cookie
 e-petrol.pl,uzdrowisko-wieniec.pl###statement
 e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
 e-podlaskie.eu###cookie-info-box
@@ -1151,6 +1152,7 @@ parp.gov.pl###howdydo-wrapper
 paypal.com###gdprCookieBanner
 pbspolska.eu##.wpgdprc-consent-bar.wpgdprc
 pcprwiecbork.pl##.mlab-modal
+pc.net.sosnowiec.pl###stopka > div[style*="position"][style*="absolute"]
 pebx.pl###Notices
 peb.pl###jqibox
 peka.poznan.pl###popup-peka
@@ -2042,6 +2044,7 @@ pl###gm-cookies:not(body):not(html)
 pl###icc_message:not(body):not(html)
 pl###ics-pp-cookies-accept:not(body):not(html)
 pl###info-cookies:not(body):not(html)
+pl###iqitcookielaw:not(body):not(html)
 pl###js-cookieInfo:not(body):not(html)
 pl###kqs-cookie:not(body):not(html)
 pl###mlUsingCookies:not(body):not(html)
@@ -2178,6 +2181,11 @@ pl##.cookie-alert:not(body):not(html)
 pl##.cookie-banner:not(body):not(html)
 pl##.cookie-bar2:not(body):not(html)
 pl##.cookie-bar:not(body):not(html)
+pl##.cookie-compliance-bar:not(body):not(html)
+pl##.cookie-compliance-container:not(body):not(html)
+pl##.cookie-compliance-desk:not(body):not(html)
+pl##.cookie-compliance-message:not(body):not(html)
+pl##.cookie-compliance:not(body):not(html)
 pl##.cookie-consent:not(body):not(html)
 pl##.cookie-container_:not(body):not(html)
 pl##.cookie-disclaimer:not(body):not(html)
@@ -2239,6 +2247,7 @@ pl##.ribbon-_cookie:not(body):not(html)
 pl##.tplis-cl-cookies:not(body):not(html)
 pl##.viia-cookie:not(body):not(html)
 pl##.vm-cookies:not(body):not(html)
+pl##.vp-cookie-consent:not(body):not(html)
 pl##.wpgdprc-consent-bar:not(body):not(html)
 pl##.wrap-cookie-info:not(body):not(html)
 pl##[class*="cookie-policy"]:not(body):not(html)
