@@ -38,7 +38,15 @@
 !
 !
 ! Widgety - specjalne instrukcje
-@include widgety_specjalne_instrukcje
+!#if !cap_user_stylesheet
+@include widgety_bez_userCSS
+!#endif
+!#if !cap_html_filtering
+@include widgety_bez_html
+!#endif
+!#if cap_html_filtering
+@include widgety_html
+!#endif
 !
 !
 ! Ulepszenia CSS
