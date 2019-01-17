@@ -1,11 +1,11 @@
-! Checksum: RbyMbUcyXzFXwDNJx7Lhcw
+! Checksum: yZiGX6q21vBXWYV/cwbssg
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Social Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.17.1
-! Last modified: Thu, 17 Jan 2019, 15:51 UTC+01
+! Version: 2019.1.17.2
+! Last modified: Thu, 17 Jan 2019, 16:01 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.17.1 aktualizacja: czw, 17 sty 2019, 15:51 UTC+01
+! v.2019.1.17.2 aktualizacja: czw, 17 sty 2019, 16:01 UTC+01
 !
 !
 ! Popupy
@@ -60,11 +60,11 @@ blog.wirtualnemedia.pl###social_ikons_header_fixed:style(visibility: hidden !imp
 dobreprogramy.pl###phContent_SocialControlBottom_socialBox > .social__group_like.social__group:if-not(#phContent_SocialControlBottom_btnBookmark)
 freshfile.pl##.facebook, .google:style(visibility: hidden !important;)
 homebeer.pl##+js(remove-attr.js, href|title, a.slider-img[href="https://pl-pl.facebook.com/homebeerpl/"])
-homebeer.pl##^#sh-slide-12:has(a.slider-img[href="https://pl-pl.facebook.com/homebeerpl/"])
+homebeer.pl##^.slides > li[id]:has(a.slider-img[href="https://pl-pl.facebook.com/homebeerpl/"])
 kamaciuch.pl##+js(remove-attr.js, href, .homeslider-container a[href="https://www.facebook.com/kamaciuch"])
 kamaciuch.pl##^.homeslider-container:has(a[href="https://www.facebook.com/kamaciuch"])
 napiachu.pl##+js(remove-attr.js, href, .carousel-inner a[href="https://www.facebook.com/napiachu/"])
-napiachu.pl##^.item:not(.active):has(img[src="/images/6/1/thumbs/1140x375/Slajder_FB.png"])
+napiachu.pl##^.carousel-inner > .item:not(.active):has(a[href="https://www.facebook.com/napiachu/"])
 odkryjpomorze.pl##+js(nano-remove-elements-onready.js, div.span6 > map[name="Map"] > area:nth-of-type(1))
 plejada.pl##.detailContentWrapper .contentShareLeft .fb_share:style(background: transparent !important;)
 rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !important;)
