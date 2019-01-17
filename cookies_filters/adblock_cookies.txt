@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: RHHI+HQ4FI56z9/fsBAa/w
+! Checksum: /nRkjqRI46w70Glg+jq9pw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.17.3
-! Last modified: Thu, 17 Jan 2019, 12:45 UTC+01
+! Version: 2019.1.17.4
+! Last modified: Thu, 17 Jan 2019, 18:20 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.17.3 aktualizacja: czw, 17 sty 2019, 12:45 UTC+01
+! v.2019.1.17.4 aktualizacja: czw, 17 sty 2019, 18:20 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -33,7 +33,7 @@
 24opole.pl###div_cookie_accept
 40latki.pl###noty_bottom_layout_container
 40ton.net,nowy-sacz.info,olgasmile.com,tb4hr.com,telewizja-cyfrowa.com,naziemna.info,fastwhitecat.com,urbanium.eu,zasiedzenie.net,indianpoland.com,settlersonlinewiki.eu,blog.spacetronik.eu###catapult-cookie-bar
-90.pl,arena.wroc.pl,benchmarking.silesia.org.pl,bluecity.pl,brodnica.net,bs.olawa.pl,centrum.mscdn.pl,clickmeeting.com,csioz.gov.pl,decoratorium.eu,dulskidesign.pl,dw.com,e-marketbudowlany.pl,essentiale.pl,fakturaelektroniczna.com,filmotekaszkolna.pl,fitandyummy.pl,gdynia.sr.gov.pl,gugik.gov.pl,hifi.pl,investmap.pl,klinikaagd.pl,kzgw.gov.pl,leroymerlin.pl,ligawalkizrakiem.pl,lodzkie.pl,mazowieckie.com.pl,modecom.com,moventum.com.pl,muszynianka.pl,olejkilecznicze.pl,onerqe-kredyt.pl,otouczelnie.pl,palmiarnia.poznan.pl,pgd.pl,polstor.pl,pozyczkaplus.pl,seopilot.pl,sfinks.pl,shoper.pl,smartpozyczka.pl,smyk.com,stalgorzow.pl,supermemo.com,szkolenia-semper.pl,tapis.pl,terramar.pl,tpvpolska.pl,unityline.pl,venture.pl,waw.pl,wielkopolska.eu,www.mtp.pl,zebra.com##.cookie
+90.pl,arena.wroc.pl,benchmarking.silesia.org.pl,bluecity.pl,brodnica.net,bs.olawa.pl,centrum.mscdn.pl,clickmeeting.com,csioz.gov.pl,decoratorium.eu,dulskidesign.pl,dw.com,e-marketbudowlany.pl,essentiale.pl,fakturaelektroniczna.com,filmotekaszkolna.pl,fitandyummy.pl,gdynia.sr.gov.pl,gugik.gov.pl,hifi.pl,investmap.pl,klinikaagd.pl,kzgw.gov.pl,leroymerlin.pl,ligawalkizrakiem.pl,lodzkie.pl,mazowieckie.com.pl,modecom.com,moventum.com.pl,muszynianka.pl,olejkilecznicze.pl,onerqe-kredyt.pl,otouczelnie.pl,palmiarnia.poznan.pl,pgd.pl,polstor.pl,pozyczkaplus.pl,seopilot.pl,sfinks.pl,shoper.pl,smartpozyczka.pl,smyk.com,stalgorzow.pl,supermemo.com,szkolenia-semper.pl,tapis.pl,terramar.pl,tpvpolska.pl,unityline.pl,venture.pl,waw.pl,wielkopolska.eu,www.mtp.pl,zebra.com,nysa.pl##.cookie
 99rent.pl##.region-rodo-info
 360studio.org,wabrzezno.com##.tplis-cl-cookies
 2018.pl##.r-background
@@ -274,6 +274,7 @@ charlizemystery.com,mjakmrowka.pl##.cookie-empty
 chceauto.pl##.cookue
 chirurgia.plastyczna.eu##.cookie-info-cont
 chojnice24.pl###bg_cover
+chojnow.eu###cookie_form
 chomikuj.pl###acceptChomikujTermsOverlay, #acceptChomikujTermsContainer
 chreptiow.pl###pu620
 chroma.pl##div[class^="CookiesInfo---container---"]
@@ -488,7 +489,7 @@ fantasy.ekstraklasa.tv,trojmiasto.pl,fajniemieszkam.pl,sportzona.pl,fotosik.pl##
 fan.pl##td:nth-of-type(3) > table > tbody > tr > td > .mll
 farbykabe.pl###top_cookie_policy
 farmacja.edu.pl###polityka_notice
-fastenerpoland.eu,kartki-swiateczne.com,stalowka.net###cookieInfo
+fastenerpoland.eu,kartki-swiateczne.com,stalowka.net,grojec24.net###cookieInfo
 fastenerpoland.eu,vetpersonel.elamed.pl###agreeInfo
 fdb.pl###consent
 felgdent.com###COOKIE_DIV
@@ -1188,7 +1189,7 @@ pl.gravatar.com##.custom-cookie-banner
 pl.investing.com##.consentBarWrapper
 pl.isilines.com##.wrapper-banner-rgpd
 pl.jooble.org,twitch.tv##.gdpr-consent-banner
-pl.kingofsat.net,godzina.info##.cc_banner
+pl.kingofsat.net,godzina.info,bolec.info##.cc_banner
 pl.meteox.com,pl.sat24.com,zelmer.pl,earlymath.pl###cookie-message
 pl.mitsubishielectric.com##.pc_scsmod-cookie_alert
 pl.mytaxi.com##.cookie-overlay
