@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 7fgGYCsuKbPr0mwNiOko3Q
+! Checksum: KDdfACP5mx1pDbjIdtq3kQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.18.1
-! Last modified: Fri, 18 Jan 2019, 15:56 UTC+01
+! Version: 2019.1.19.1
+! Last modified: Sat, 19 Jan 2019, 13:56 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.18.1 aktualizacja: pią, 18 sty 2019, 15:56 UTC+01
+! v.2019.1.19.1 aktualizacja: sob, 19 sty 2019, 13:56 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -50,6 +50,7 @@ account.ubisoft.com###footer_tc_privacy
 accuweather.com###eu-cookie-notify-wrap
 acer.com##.cookieBox
 aclari.pl###licence-agreement
+acronis.com##.cookies-notification
 adbl.eu,polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com,widzewtomy.net,japrzedsiebiorca.biz,konstytucjabiznesu.biz,doradcarestrukturyzacyjny.info,sandraspa.eu,centrum.fm,elektrykapradnietyka.com,platinet.eu,spece.it,wolnekonopie.org,domowa.pizza,skup-laptopow.com,alkalicznystylzycia.com,pl.xiaomitoday.it,moneygrabbing.co.uk###cookie-law-info-bar, #cookie-law-info-again
 adguard.com##.sticky-bar--cookie
 adm-media.pl,kociadolina.pl##.policy
@@ -195,7 +196,7 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
-bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com,madameedith.com,stskurier.com,zabart.com,ciasta.net,tfkable.com###cookies-message
+bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com,madameedith.com,stskurier.com,zabart.com,ciasta.net,tfkable.com,emcconsultant.eu###cookies-message
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl,aspsklep.pl,klublifestyle.pl,sgurp.pl,zwolenpowiat.pl,gckis.trzebnica.pl,florexpol.eu###fancybox-wrap, #fancybox-overlay
 bip.marciszow.pl###cookiesWarning
@@ -292,7 +293,7 @@ clearchannel.com.pl,sokolka.com.pl,mpwik.com.pl###rodoPopup
 clineo.pl###floatingFB
 cmg24.pl##.RODO
 codziennikfeministyczny.pl###bazinga-muffin-container
-coinroom.com,polimex.net,sonos.com##.cookie-warning
+coinroom.com,polimex.net,sonos.com,ridgid.eu##.cookie-warning
 cojestgrane.pl##.ui-cookies-acceptance
 colormark.pl###Kom_cookie
 comitor.pl###rodoBoxWrap
@@ -815,7 +816,7 @@ krakowairport.pl##.privacyPolicyPop
 krakownh.pl,rentsellersgroup.com###strip_cookie_info
 kredito24.pl,zaimo.pl##.politica
 kreskoweczki.pl###rodo-block
-kreskowki.tv,tygodniksiedlecki.com,atelier801.com,fabrykazabawek.eu,nekodancer.com,fortoresse.com,bouboum.com,transformice.com,grupaimage.eu,77sushi.com###cookie-bar
+kreskowki.tv,tygodniksiedlecki.com,atelier801.com,fabrykazabawek.eu,nekodancer.com,fortoresse.com,bouboum.com,transformice.com,grupaimage.eu,77sushi.com,avg.com###cookie-bar
 krnmedia.pl##.cookiealert
 krn.org.pl##.clsCookieInfo
 kropleinternetu.biz###cooc_container
@@ -1380,6 +1381,7 @@ sklepjubilerski.com###cookieGuardMsg
 sklepyabc.pl###am_pop-up
 sklep-tosia.eu##.cookie-center
 sklep.alablaboratoria.pl,lmbruss.pl,telesystem-world.com###cover
+sklep.carrefour.pl##.components-cookie-law-basic
 sklep.delta.poznan.pl###cookieDiv
 sklep.eltron.pl###communication
 sklep.genos.com.pl###rodoText
@@ -1462,6 +1464,7 @@ szukajka.tv###rodo-popup
 szukajka.tv,wizzair.com,styl.fm##.cookie-policy
 szybko.pl##.toast
 tapeciarnia.pl###div_info_cookies
+targeo.pl#?#body > div:not([id]):not([class])[style^="position: absolute;"]:-abp-contains(plików cookie)
 tatra.pl##.cookies-2-overlay, .popup-cookies-2
 tatuaze-wzory.com###showcookie
 tatuum.com###cookie_law_informations
@@ -1511,6 +1514,7 @@ twitch.tv##.butterBar, .toast-manager__container
 twitter.com##.eu-cookie-notice
 twojeankiety.pl###notkaCookies
 twojeapteki.com##DIV[style="color:#fff;position: fixed;width:100%;bottom: 5px;z-index: 99999;padding: 10px;padding-right: 150px;background-color: #DB2229;margin: 1px 5px;text-align: justify;"]
+twoje-miasto.pl##.tmCookieBox
 twojtenis.pl###cookie_accepter
 tygodnikpowszechny.pl###top_head
 tylkohity.pl##.cm_open
