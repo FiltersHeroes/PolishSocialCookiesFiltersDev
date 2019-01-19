@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Rs9U5hnNo3QB7kq0dk2L2w
+! Checksum: 3mivRCrzfT2+oSB++V9N8g
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.18.2
-! Last modified: Fri, 18 Jan 2019, 13:34 UTC+01
+! Version: 2019.1.19.1
+! Last modified: Sat, 19 Jan 2019, 13:56 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,19 +17,18 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.18.2 aktualizacja: pią, 18 sty 2019, 13:34 UTC+01
+! v.2019.1.19.1 aktualizacja: sob, 19 sty 2019, 13:56 UTC+01
 !
 !
 ! Popupy
 beskidy.news##.c-pop-up
-dementuj.pl###ips-popup, #ips-popup-wrapper
+dementuj.pl,fifek.pl,psychiczni.pl###ips-popup, #ips-popup-wrapper
 dziennik-polityczny.com###dz-popup-follow-us
 ebizpro.pl###itro_opaco, #itro_popup
 eitalia.pl###facebox, #facebox_overlay
 ekstrastats.pl,obcasy.pl,viralz.pl##.spu-bg, .spu-box
 esensja.pl###FBox
 e-iglaki.pl###szkolenie-message
-fifek.pl###ips-popup, #ips-popup-wrapper
 forum.grywamtu.pl###pop-slap[data-hello-text], .bg-pop-over
 forum.joomla.pl###fancybox-overlay, #fancybox-wrap
 galeriaveneda.com.pl###popup
@@ -60,6 +59,7 @@ pl##.facebook-popup
 podrogach.pl###popup_container
 politykazdrowotna.com##.modal-footer
 poradniktransportowy.pl###wbounce-modal
+pracujwsprzedazy.pl###modal-social
 prezeska.pl##.pum
 programistanaswoim.pl##.spu-box, .spu-bg
 rzeszow4u.pl###myModal
@@ -71,7 +71,7 @@ telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOv
 vpnmentor.com##.share-blog-modal
 wakacjezprocentem.pl##.overlay
 winicjatywa.pl##h2:nth-of-type(3)
-yt360.pl###ouibounce-modal
+yt360.pl,emcconsultant.eu###ouibounce-modal
 zakazany-humor.pl##.snp-pop-111-wrap, .snp-pop-111-overlay
 /wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
@@ -1833,7 +1833,8 @@ mazury.pl##.byt_social_widget
 mbank.pl##.fr.community
 mdkkolbuszowa.pl##A[href^="https://www.facebook.com/mdk.kolbuszowa"], A[href="https://www.youtube.com/channel/UC0R0ALL8IyLcRn8SMTe3iOw"]
 meble.pl##.additional-info:nth-of-type(2)
-mebline.co.uk##.moduletable_social
+mebline.co.uk,mebline.nl##.moduletable_social
+mebline.nl##.social-news
 media2.pl##a[href*="feedly.com"]
 media2.pl##a[href="https://twitter.com/media2pl"]
 media2.pl##a[href="https://www.facebook.com/media2pl/"]
@@ -1930,7 +1931,6 @@ mormoni.pl##.pf-footer__social
 mosquito-sklep.pl##a[href="https://www.instagram.com/mosquitopl/"], a[href="https://www.facebook.com/mosquitopl"]
 motherhood.pl###stopka > .container > div > .third
 motomi.pl##.col-sm-4 > h3
-motoperfekt.pl##userfooter > .row
 motoperfekt.pl##.userfooter > .row > table
 motormag.pl##a[href^="https://www.facebook.com/magazynmotor"], a[href="https://www.instagram.com/motormagpl/"], a[href="https://www.youtube.com/user/motoCentrumFM"], a[href="https://plus.google.com/+MagazynMot%C3%B3r"]
 motormag.pl,tutek.pl##.wdi_instagram_widget
@@ -2923,7 +2923,7 @@ wszystko.pl##.sm-iblock.like
 www.aligato.pl##.soc-link
 www.chamskie.pl,chamsko.net.pl##.widget-fanbox
 www.djakdesign.pl###HTML1, #HTML2, #HTML3, #HTML6
-www.dobreprogramy.pl,www.pcworld.pl##[class^="StyledShareProviderButtons"].ProviderIcons, [class^="StyledShareProviderButtons"].ProvidersText[class^="StyledShareProviderButtons"]
+www.dobreprogramy.pl,www.pcworld.pl##[class^="StyledShareProviderButtons"].ProviderIcons, [class^="StyledShareProviderButtons"].ProvidersText
 www.e-podroznik.pl##.DefinitionsSet\:\:SocialNetworks
 www.fn.org.pl##.footer-menu > .row  > div.col-md-4.col-sm-12:nth-of-type(2)
 www.focus.pl##.box-obserwuj-newsletter > a[href="https://www.instagram.com/focus.pl/"], h2:first-of-type, .social-icon-box
