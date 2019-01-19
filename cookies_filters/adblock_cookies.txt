@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: KDdfACP5mx1pDbjIdtq3kQ
+! Checksum: aMMwkYSgEMAmSDcV13ugYQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.19.1
-! Last modified: Sat, 19 Jan 2019, 13:56 UTC+01
+! Version: 2019.1.19.2
+! Last modified: Sat, 19 Jan 2019, 16:55 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.19.1 aktualizacja: sob, 19 sty 2019, 13:56 UTC+01
+! v.2019.1.19.2 aktualizacja: sob, 19 sty 2019, 16:55 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -105,7 +105,7 @@ amazon.de###desktop-cookie-disclosure
 ambermarine.pl###a-cookie
 americanexpress.com###cookie_Header
 amix.pl###policy
-amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv###cookie-notice
+amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv,wifi-spot.net###cookie-notice
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl,sklep.intert.pl,lampyilampki.pl,lampytanie.pl,gitara-sklep.pl###popup
 amundi.pl,biodiv.gdos.gov.pl,chojnice24.pl###disclaimer
 antyczek.pl###upper-menu-container
@@ -2052,6 +2052,7 @@ pl###gdpr_banner:not(body):not(html)
 pl###gm-cookies:not(body):not(html)
 pl###icc_message:not(body):not(html)
 pl###ics-pp-cookies-accept:not(body):not(html)
+pl###infocookie:not(body):not(html)
 pl###info-cookies:not(body):not(html)
 pl###iqitcookielaw:not(body):not(html)
 pl###js-cookieInfo:not(body):not(html)
