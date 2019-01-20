@@ -53,5 +53,11 @@
 @include ulepszenia_CSS
 !
 !
-! Bugi AdGuard Social Media Filter
+! Bugi uBO i AG związane z AdGuard Social Media Filter
+@include bugi_AGS
+!
+!
+! Bugi AdGuarda
+!#if !ext_ublock
 @include bugi_AG
+!#endif
