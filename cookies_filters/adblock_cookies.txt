@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Yefdt7gMP3KsNa19JBhK7Q
+! Checksum: 7L0Pqlo1ppc+d+ped7L7kg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.20.2
-! Last modified: Sun, 20 Jan 2019, 18:00 UTC+01
+! Version: 2019.1.20.3
+! Last modified: Sun, 20 Jan 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.20.2 aktualizacja: nie, 20 sty 2019, 18:00 UTC+01
+! v.2019.1.20.3 aktualizacja: nie, 20 sty 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -197,7 +197,7 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
-bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com,madameedith.com,stskurier.com,zabart.com,ciasta.net,tfkable.com,emcconsultant.eu###cookies-message
+bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com,madameedith.com,stskurier.com,zabart.com,ciasta.net,tfkable.com,emcconsultant.eu,zlomowisko.info###cookies-message
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl,aspsklep.pl,klublifestyle.pl,sgurp.pl,zwolenpowiat.pl,gckis.trzebnica.pl,florexpol.eu###fancybox-wrap, #fancybox-overlay
 bip.marciszow.pl###cookiesWarning
@@ -294,6 +294,7 @@ ckmir.com.pl#?#p:-abp-contains(cookie)
 clearchannel.com.pl,sokolka.com.pl,mpwik.com.pl###rodoPopup
 clineo.pl###floatingFB
 cmg24.pl##.RODO
+codetwo.pl,drogeriapigment.pl,zielarniapodlaska.pl###cookielaw
 codziennikfeministyczny.pl###bazinga-muffin-container
 coinroom.com,polimex.net,sonos.com,ridgid.eu##.cookie-warning
 cojestgrane.pl##.ui-cookies-acceptance
@@ -372,7 +373,6 @@ doradcasmaku.pl###cookies_popup
 dotsport.pl##.cookie-nav
 dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;bottom: 0px;left: 0px;text-align: center;color: #000;border-top: 1px #000 solid;z-index: 100;"]
 dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,tubawyszkowa.pl,tubaostrowa.pl,tubachorzowa.pl,pracownia.org.pl,ptbs.pl,terramar.pl,nastopy.pl##.rodo
-drogeriapigment.pl,zielarniapodlaska.pl###cookielaw
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
 drumshop.pl###cookiesblock-wrapper
 dstreet.pl###ToplayerConsent, #ToplayerCover
@@ -777,6 +777,7 @@ kartamultisport.pl##div[style=" width: 780px; background:#f0f0f0; text-align:cen
 kartonwork.pl,luszczyce.pl##body > div > div[style*="position"][style*="fixed"]
 kartunsy.pl###ait-infobar
 kartuzy.info##div#page_top_topbar2
+kawasaki.pl###Panel_Cookies
 kegel-aj.com###InfoCookie
 kentype.pl##div#ciasteczka-box
 kepno.pl###dhtml_popup
@@ -1002,6 +1003,7 @@ monedo.pl##.wr-notification-panel, .Notifications
 monese.com##.cookie-popover
 monitoring.krakow.pios.gov.pl,powietrze.katowice.wios.gov.pl##.a-footer
 monocerus.pl###fafikciastka
+monsterbike.eu,polbox.tv##.cc-banner
 monsterpolska.pl###interMsgsW, #m-popup-softgate, .browserAlertHolder
 mord.krakow.pl##span[onclick="location.href='http://mord.krakow.pl/ogloszenia/a,36,pliki-cookie.html'"]
 morele.net###cookieBoxWrapper
@@ -1221,7 +1223,6 @@ pogodynka.pl###accept
 poki.pl#?#div > div > div:-abp-contains(cookie)
 polandtrade.pl###cb
 polarsport.pl##.cookies-info-wrapper
-polbox.tv##.cc-banner
 polcar.com,schroniskowroclaw.pl###cwwb
 poligraf.com.pl###modal_wrap
 politykainsight.pl##.cc_message
@@ -1419,7 +1420,7 @@ sonymobile.com##.fullbleed-response[data-module="sony-survey-client"][style]
 sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu##.cookie-consent
 sosnowiec.pl###topBar_MainCover
 soundcloud.com,blyskawicznakorekta.pl##.announcements
-spacetronik.eu###x13pmcookiebar
+spacetronik.eu,skottuning.com###x13pmcookiebar
 specshop.pl##.blockUI
 speedtest.net###_evidon-barrier-wrapper
 speedtest.net##.alert-container
