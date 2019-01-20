@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: D8C0+i0gWmgAJbEXNExPBg
+! Checksum: rJsyTPGJezodv7dDEzmrPw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.20.4
-! Last modified: Sun, 20 Jan 2019, 22:08 UTC+01
+! Version: 2019.1.20.5
+! Last modified: Sun, 20 Jan 2019, 22:21 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.20.4 aktualizacja: nie, 20 sty 2019, 22:08 UTC+01
+! v.2019.1.20.5 aktualizacja: nie, 20 sty 2019, 22:21 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -294,7 +294,6 @@ ckmir.com.pl#?#p:-abp-contains(cookie)
 clearchannel.com.pl,sokolka.com.pl,mpwik.com.pl###rodoPopup
 clineo.pl###floatingFB
 cmg24.pl##.RODO
-codetwo.pl,drogeriapigment.pl,zielarniapodlaska.pl###cookielaw
 codziennikfeministyczny.pl###bazinga-muffin-container
 coinroom.com,polimex.net,sonos.com,ridgid.eu##.cookie-warning
 cojestgrane.pl##.ui-cookies-acceptance
@@ -643,7 +642,6 @@ hachette.com.pl##div[style="position:fixed;bottom:0;z-index:1000;width:100%;text
 hair-shop.pl,mtech.pl##.popup_cont, .popup_back
 handen.pl,mican.eu##.mod_cookiesinfo
 hankooktire.com##.top_ep_wrap
-happenings.pl###xcookies
 haszkod.pl###cookieshit
 hdtv-sat.eu###modalcookies
 hebeapteka.pl,hebe.pl##.legal-info
@@ -861,7 +859,6 @@ lasy.gov.pl,bip.kielce.eu,wrota-swietokrzyskie.pl##.popup-alert-notice
 laznianowa.pl##DIV[style="background: #E9E9E9; color: #777; font-size: 9px; position: fixed; bottom: 0; width: 100%; z-index: 9999; padding: 2px; text-align: center; -webkit-border-top-right-radius: 8px; -webkit-border-top-left-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-topleft: 8px; border-top-right-radius: 8px; border-top-left-radius: 8px; font-size: 12px; -webkit-box-shadow: 2px 2px 3px 0px rgba(127, 127, 127, 0.4); box-shadow: 2px -2px 3px 0px rgba(127, 127, 127, 0.4);"]
 lbn.pl###ciastko
 leclerc.com.pl##div#tekst
-ledco.pl###pd_cookielaw
 leddo.pl,zdp.poznan.pl##.rodo-block
 legalsite.pl###message-1
 legia.com###cook-wrapper
@@ -1148,7 +1145,7 @@ otwarte.eu###accept-cookie-box
 ovh.com,ovh.pl###cookiesPop
 owocowydom.pl,weck.com.pl###popup2
 pafere.org##.dialog.ginger_banner
-paker.co.uk,zalando-lounge.pl,festool.pl###cookie-information
+paker.co.uk###cookie-information
 pakolorente.com###toplayer_styleadvisor
 paliwaolkop.pl#?#div:-abp-has(div > #cookieContent)
 panasonic.com###notescookies
@@ -1271,7 +1268,6 @@ progrupa.com###progrupa_cookie_policy
 projektoskop.pl###popupCookie
 projektydomfort.pl###cookie_informacja
 projekt-parking.com###RodoModal
-promapolska.pl##.cookiesBar
 promocodius.com###reminder
 prosto.pl###id-rules
 pruszczgdanski.pl##.tm-footer > .uk-panel
@@ -1932,6 +1928,7 @@ pl###cookiebox:not(body):not(html)
 pl###cookiecontrol:not(body):not(html)
 pl###cookieinfo1:not(body):not(html)
 pl###cookieinfo:not(body):not(html)
+pl###cookielaw:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html) + #document_modal
 pl###cookiemsg:not(body):not(html)
@@ -2018,6 +2015,7 @@ pl###cookie-div:not(body):not(html)
 pl###cookie-foot:not(body):not(html)
 pl###cookie-hint:not(body):not(html)
 pl###cookie-information-wrapper:not(body):not(html)
+pl###cookie-information:not(body):not(html)
 pl###cookie-info-bar:not(body):not(html)
 pl###cookie-info-box:not(body):not(html)
 pl###cookie-info:not(body):not(html)
@@ -2086,6 +2084,7 @@ pl###onyx_cookiesinfo_bar:not(body):not(html)
 pl###overlay_cookies:not(body):not(html)
 pl###panel_cookie:not(body):not(html)
 pl###pcUsingCookies:not(body):not(html)
+pl###pd_cookielaw:not(body):not(html)
 pl###policy-info:not(body):not(html)
 pl###popup-cookies:not(body):not(html)
 pl###popup-cookie-contenedor:not(body):not(html)
@@ -2119,6 +2118,7 @@ pl###wpca-bar:not(body):not(html)
 pl###wpca-box:not(body):not(html)
 pl###ws_cookie_layer:not(body):not(html)
 pl###x13pmcookiebar:not(body):not(html)
+pl###xcookies:not(body):not(html)
 pl##.COOKIE_PRIVACY_CONT:not(body):not(html)
 pl##.CTcookie-container:not(body):not(html)
 pl##.CookieApprove:not(body):not(html)
@@ -2169,6 +2169,7 @@ pl##.cookieinfo:not(body):not(html)
 pl##.cookienotice:not(body):not(html)
 pl##.cookiepolicy:not(body):not(html)
 pl##.cookiesBanner:not(body):not(html)
+pl##.cookiesBar:not(body):not(html)
 pl##.cookiesBox:not(body):not(html)
 pl##.cookiesInfo:not(body):not(html)
 pl##.cookiesNotificationOuter:not(body):not(html)
