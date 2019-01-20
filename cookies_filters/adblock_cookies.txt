@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 7L0Pqlo1ppc+d+ped7L7kg
+! Checksum: D8C0+i0gWmgAJbEXNExPBg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.20.3
-! Last modified: Sun, 20 Jan 2019, 22:00 UTC+01
+! Version: 2019.1.20.4
+! Last modified: Sun, 20 Jan 2019, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.20.3 aktualizacja: nie, 20 sty 2019, 22:00 UTC+01
+! v.2019.1.20.4 aktualizacja: nie, 20 sty 2019, 22:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -546,12 +546,12 @@ forum.minepedia.pl##div#notice
 forum.vwgolf.pl##iframe[src="cookie.html"]
 forum.zarabianie24.net##div[style="font-family: Tahoma; margin-bottom: 6px; padding: 5px; font-size: 10px; color: rgb(0, 0, 0); background-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-color: black; border-bottom-style: solid; "]
 fostertravel.pl##.ft-rodo-html-banner
-foto4u.pl,fotoprint.pl,smakizycia.pl,zoover.pl,###info-bar
+foto4u.pl,fotoprint.pl,smakizycia.pl,zoover.pl###info-bar
 fotojoker.pl##div#floatDiv
 fotokurier.eu###pcUsingCookies
 fotonegatyw.com###fx-modal-1
 fsmm.pl###cookieinfoboxitems
-funclub.pl##body > div > div > div > div > div:-abp-contains(cookies)
+funclub.pl#?#body > div > div > div > div > div:-abp-contains(cookies)
 funduszpomerania.pl###eprivacyModal
 funnygames.pl###cmp-container-id
 futu.pl###my-alert
