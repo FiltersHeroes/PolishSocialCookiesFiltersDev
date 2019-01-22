@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: cJFH3cWpL/ivXVoXhMLgXQ
+! Checksum: 6wMKXOoSSEXbuJgGzOs7Cg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.21.2
-! Last modified: Mon, 21 Jan 2019, 14:00 UTC+01
+! Version: 2019.1.22.1
+! Last modified: Tue, 22 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.21.2 aktualizacja: pon, 21 sty 2019, 14:00 UTC+01
+! v.2019.1.22.1 aktualizacja: wto, 22 sty 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -319,7 +319,7 @@ cyfrowarepublika.pl,energoekspert.com.pl###system-message
 czarno-biale.pl##[aria-describedby="rodo-popup"], .ui-widget-overlay
 czasdzieci.net##DIV[style="width:100%;position:fixed;bottom:0;background-color:#f5f5f5;padding:13px 25px 20px;font-size:13px;z-index:200;box-shadow:0 0 10px rgba(0,0,0,0.3);"]
 czechtourism.com###eu_cookie
-czekoladacortez.pl,garwolin-starostwo.pl,gniezno24.com,mania4x4.pl,orpeg.pl,wrosip.pl##.activebar-container
+czekoladacortez.pl,garwolin-starostwo.pl,gniezno24.com,mania4x4.pl,orpeg.pl,wrosip.pl,eurocent.opole.pl##.activebar-container
 czescidobmw.pl##div[style="position:fixed;left:0;top:0;width:100%;height:100%;background:#000;background:rgba(0,0,0,0.5);z-index:99999;cursor:pointer"]
 czescidobmw.pl###container > div[onclick]
 czluchow.com.pl##table:nth-of-type(1) > tbody > tr > td > p:nth-of-type(1)
@@ -949,7 +949,7 @@ memorialhenrykapuzonia.pl###sc
 mercedes-benz.com###cLayer, #cPageOverlay
 mercedes-benz.com,mercedes-benz.pl###emb-cp-dialog
 mercure.com##.is-ready
-merixstudio.pl,multikody.pl,multikod.net.pl,ranking.net.pl,twojliquid.pl,szukarka.net,efaktury.org,olekmotocykle.pl###message
+merixstudio.pl,multikody.pl,multikod.net.pl,ranking.net.pl,twojliquid.pl,szukarka.net,efaktury.org,olekmotocykle.pl,cpb.pl###message
 merlin.pl##.merlin-legal-note
 meskiegacie.pl###footer_links_sub > .ft_social
 meteoblue.com##.gdprMessage
@@ -1066,7 +1066,6 @@ nfz-lodz.pl##.mfp-ready
 nf.pl###rodonf-app-ux
 nickjr.com.pl##.cookiebar-visible
 niepodlegla.pomorskie.eu##.cookieBar-portlet
-niestatystyczny.pl##.group.rcc-panel
 niezalezna.pl##div[style="border: 2px solid #900; margin-left: auto; margin-right: auto; padding: 3px; width: 984px"]
 niezalezna.pl,gpcodziennie.pl###swsoverlay, #swsmodal
 nike.com###cookieBanner
@@ -1237,6 +1236,7 @@ polskiprawnik.pl###popup3
 pomagam.pl###pp-info
 pomiar24.pl###cookiesContainer
 pomorskie.eu###cookiesinfoPWU
+pomorskie.travel###cookiesInfoPOT
 popaopa.pl###popup-content
 popbookownik.pl,japierpapier.pl##.wph-modal
 portale-randkowe-ranking.pl##.disclaimer
@@ -1836,6 +1836,7 @@ cookie-law-popup.js$domain=pl
 com##.is-ready.is-shown.cnil-banner:not(body):not(html)
 pl##aside[class*="Cookie"]:not(body):not(html)
 pl##aside[class*="cookie"]:not(body):not(html)
+pl##body > .rcc-panel.group
 pl##div#cookiepopupdiv:not(body):not(html)
 pl##div#footer-cookies:not(body):not(html)
 pl##div[class^="pea_cook_wrapper"]:not(body):not(html)
@@ -1918,6 +1919,8 @@ pl###cookiePolicyWrapper:not(body):not(html)
 pl###cookiePolicy-layer:not(body):not(html)
 pl###cookiePolicy:not(body):not(html)
 pl###cookiePolisyInfo:not(body):not(html)
+pl###cookieSignpost:not(body):not(html)
+pl###cookieSign:not(body):not(html)
 pl###cookieView:not(body):not(html)
 pl###cookieWarningMessage:not(body):not(html)
 pl###cookieWarning:not(body):not(html)
@@ -2026,6 +2029,7 @@ pl###cookie-law-info-again:not(body):not(html)
 pl###cookie-law-info-bar:not(body):not(html)
 pl###cookie-law-message:not(body):not(html)
 pl###cookie-law:not(body):not(html)
+pl###cookie-line:not(body):not(html)
 pl###cookie-modal:not(body):not(html)
 pl###cookie-monster-san:not(body):not(html)
 pl###cookie-monster:not(body):not(html)
