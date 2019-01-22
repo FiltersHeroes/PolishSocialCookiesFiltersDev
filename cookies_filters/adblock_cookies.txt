@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 6wMKXOoSSEXbuJgGzOs7Cg
+! Checksum: d1NuFFu7YPwmSgS+1DCZcg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.22.1
-! Last modified: Tue, 22 Jan 2019, 14:00 UTC+01
+! Version: 2019.1.22.2
+! Last modified: Tue, 22 Jan 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.22.1 aktualizacja: wto, 22 sty 2019, 14:00 UTC+01
+! v.2019.1.22.2 aktualizacja: wto, 22 sty 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -430,7 +430,6 @@ emt-systems.pl###rodoBG
 eneba.com##body > #app > div[class] + div[class]:nth-of-type(2)
 enjoyuk.pl###fanback
 enutka.net###CookieAlert
-eobuwie.com.pl#?#.popup:-abp-has(.permissions-form)
 eostroleka.pl###cookiesRodo
 epicgames.com###euCookie
 epiotrkow.pl##.user_politic
@@ -2259,6 +2258,7 @@ pl##.gdpr-privacy-bar:not(body):not(html)
 pl##.ginger_banner-wrapper:not(body):not(html)
 pl##.head-page-information:not(body):not(html)
 pl##.hpm-alert-cookies:not(body):not(html)
+pl##.info_cookie:not(body):not(html)
 pl##.js-cookie:not(body):not(html):not(.thumb)
 pl##.js-infoBarCookies:not(body):not(html)
 pl##.md-cookie-warning:not(body):not(html)
