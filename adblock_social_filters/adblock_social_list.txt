@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: J9Sw70UUoxL5aHI2rb8aFw
+! Checksum: TFPzOtU+T1oLS9UF3Upoeg
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.22.2
-! Last modified: Tue, 22 Jan 2019, 18:00 UTC+01
+! Version: 2019.1.23.1
+! Last modified: Wed, 23 Jan 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.22.2 aktualizacja: wto, 22 sty 2019, 18:00 UTC+01
+! v.2019.1.23.1 aktualizacja: śro, 23 sty 2019, 02:00 UTC+01
 !
 !
 ! Popupy
@@ -746,6 +746,7 @@ agusiq-torrents.pl###bottomstats > table.lista:nth-of-type(2)
 agusto.pl###easycontent_23
 agwerblog.pl###custom_html-7, .footer-widget-inside.widget_text > .custom-html-widget.textwidget > ul
 airbnb.pl##footer ul > li > span
+airly.eu##[class^="footer__SocialLinks"]
 airport.gdansk.pl,big.pl,chemik-police.com,grene.pl,kwantowo.pl,lexus-krakow.com.pl,mojtelefon.info,rms.pl,niepodlegla.gov.pl,tvobiektyw.pl,damitv.pl,tczewska.pl,tvswinoujscie.pl,motocaina.pl,mall.pl,pap.pl##.youtube
 ajgroup-pros.pl##.SocialBoard
 akademia.nask.pl###fb-ico
@@ -1328,6 +1329,7 @@ e-korepetycje.net#?#section.bg-white:-abp-contains(Dołącz do naszej społeczno
 e-manufaktura.com##.box_facebooklike_wrapm
 e-manufaktura.com#?#div.box_custom.resetcss.box[id]:-abp-contains(Dołącz do nas:)
 e-moko.pl###header > [class^="fb"]
+e-pingpong.pl###flybutton
 e-sochaczew.pl##a[href^="https://plus.google.com/u/0/100895888893863910318/"]
 e-sochaczew.pl,wedkuje.pl##.col-lg-8
 e-stargard.pl##a > img[src="http://e-stargard.pl/grafika/banery/estargard/polubnas2.jpg"]
@@ -2213,7 +2215,7 @@ palestyna24.pl##.widget_text.widget:nth-of-type(3)
 pamiatki.pl##.dvs-facebook, .ath_mega-menu__l1--right:nth-of-type(n+4) > .ath_mega-menu__l1__link
 panattonieurope.com##.social-youtube-square
 panelex.pl###wysuwany_div, #wysuwany_div2, #wysuwany_div3, #wysuwany_div4, #wysuwany_div5
-pangrono.pl##.sidebar > div.widget_custom_html.widget.widget_text:nth-of-type(9)
+pangrono.pl##div.widget_custom_html.widget.widget_text, .widget_youtube-channel, .widget_like_box_facbook
 pannaannabiega.pl###text-8, #text-10
 pannaannabiega.pl##.socheader > .social_label
 pannaannabiega.pl##.text-right.zl_socicon > .social_label
@@ -2898,6 +2900,7 @@ tv.eurosport.pl##.share-buttons-container
 twardepierniki.pl##.socialmedia-panels
 twojahistoria.pl##.footer-fixed
 twojapogoda.pl##.ico-ig
+twojradom.pl##li.c-navi-socials__item
 twojszklarz.pl##a[href="http://www.twojszklarz.pl/twojszklarz-w-google.html"] > img
 twojtenis.pl##.al_right.iconbox
 tygodnikbydgoski.pl##.social:nth-of-type(5), .social:nth-of-type(6), .social:nth-of-type(7)
@@ -3092,6 +3095,7 @@ www.risreklamy.pl,mobbingwpracy.com,www.up.krakow.pl##.jj_sl_navigation
 www.rossmann.pl##a[href="https://www.instagram.com/RossmannPL/"]
 www.rossmann.pl###footer > .row:nth-of-type(4)
 www.rp.pl##.btn--icon.btn--light
+www.rybnik.eu##.social.list-inline > li:nth-child(-n+4)
 www.studentnews.pl##nobr:nth-of-type(7), nobr:nth-of-type(8)
 www.tytan.pl##.top_part > .social
 www.wittchen.com##.footer__social-media--wrapper
