@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: TFPzOtU+T1oLS9UF3Upoeg
+! Checksum: N6zuvVkqlIVHAwQSpbAguA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.23.1
-! Last modified: Wed, 23 Jan 2019, 02:00 UTC+01
+! Version: 2019.1.23.2
+! Last modified: Wed, 23 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.23.1 aktualizacja: śro, 23 sty 2019, 02:00 UTC+01
+! v.2019.1.23.2 aktualizacja: śro, 23 sty 2019, 14:00 UTC+01
 !
 !
 ! Popupy
@@ -1193,8 +1193,8 @@ drukcyfrowygamma.pl##.partners > div
 dts24.pl##.col-md-4.footer-sidebar:nth-of-type(3)
 duckduckgo.com##.js-side-menu-twitter, .nav-menu--social-media
 dumeldiscovery.pl##.dumel-main-template__social-wrapper, .cms-dumel-instagram, .cms-dumel-footer__social
-dumeldiscovery.pl##.slick-active.slick-current.cms-dumel-review__slide > .cms-dumel-review__fb
-dumeldiscovery.pl#?#.slick-active.slick-current.cms-dumel-review__slide > .cms-dumel-review__link:-abp-contains(przeczytaj na facebook)
+dumeldiscovery.pl##.slick-slide.cms-dumel-review__slide > .cms-dumel-review__fb
+dumeldiscovery.pl#?#.slick-slide.cms-dumel-review__slide > .cms-dumel-review__link:-abp-contains(przeczytaj na facebook)
 duszniki.pl##.vc_col-sm-3.vc_column_container.wpb_column > .vc_column-inner
 dwmed.pl###facebook
 dw.com##div.col2:nth-of-type(3) > .basicTeaser.col2, .bluedw.bottom.imgTeaserS, div.externalWindowTeaser.col1, .bordeaux.bottom.imgTeaserS, .bordeaux.bottom.imgTeaserM
@@ -1713,7 +1713,7 @@ kingsong.pl##.social > a:nth-of-type(n+3):nth-of-type(-n+4)
 kinkyowl.pl##.tipi-i-facebook, .tipi-i-twitter, .tipi-i-instagram
 kkslech.com###text-25
 klamoty.com##.container > .row > .col-sm-4:nth-of-type(3)
-klassikauto.pl###text-23
+klassikauto.pl###custom_html-3, #text-17, #text-18, #text-23
 klasykami.pl##.cherry-instagram_widget
 klasykami.pl##.row-edge.row:nth-of-type(n+8)
 klonowypark.pl,misjonarska.com###belka_facebook2
@@ -3459,6 +3459,7 @@ www.wsqn.pl#@#.social_container
 @@||filoma.org/static/images/facebook.jpg
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
+@@||startme.com/assets/google-icon-*.svg$image,domain=start.me
 @@||www.facebook.com/v2.0/plugins/like.php$subdocument,domain=e-biznes.pl
 @@||zarabiamykase.com.pl/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/cubes/cubes_rss.png
 @@||zaufanatrzeciastrona.pl/wp-content/plugins/subscribe-connect-follow-widget/images/32px/rss.png
