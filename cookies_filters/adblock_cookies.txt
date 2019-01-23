@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: d1NuFFu7YPwmSgS+1DCZcg
+! Checksum: ranxIJ9Yi/Bfr2I3C8inZw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.22.2
-! Last modified: Tue, 22 Jan 2019, 18:00 UTC+01
+! Version: 2019.1.23.1
+! Last modified: Wed, 23 Jan 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.22.2 aktualizacja: wto, 22 sty 2019, 18:00 UTC+01
+! v.2019.1.23.1 aktualizacja: śro, 23 sty 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -67,9 +67,10 @@ agropolska.pl,forumdermatologiczne.pl##.ui-widget-overlay, .ui-widget-content
 agusto.pl###st_notification_3
 ahrefs.com###iubenda-cs-banner
 airbnb.pl##[data-veloute="cookie-disclaimer"]
-aircon.panasonic.eu,mazury.com,pl.vivre.eu##.cc-cookies
+aircon.panasonic.eu,mazury.com,pl.vivre.eu,rybnik.eu##.cc-cookies
 airkiosk.lot.com##.mf-modal-overlay, .mf-modal-iframe
 airly.eu##.cookies-policy
+airly.eu##[class^="cookies-alert__Wrapper"]
 airly.eu#?#.welcome-modal__block--whatsNew.welcome-modal__block:nth-of-type(2):-abp-contains(Rodo + ciasteczka)
 akademiaeurocash.com.pl,www.niemartwsie.pl,dlink.com,megawrzuta.pl##.notification
 akademiafalubaz.pl###cgRodoModal, #cgRodoBackdrop
@@ -106,7 +107,7 @@ amazon.de###desktop-cookie-disclosure
 ambermarine.pl###a-cookie
 americanexpress.com###cookie_Header
 amix.pl###policy
-amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv,wifi-spot.net,prostowsmak.com,przedsiebiorcza.com###cookie-notice
+amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv,wifi-spot.net,prostowsmak.com,przedsiebiorcza.com,toiowo.eu###cookie-notice
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl,sklep.intert.pl,lampyilampki.pl,lampytanie.pl,gitara-sklep.pl###popup
 amundi.pl,biodiv.gdos.gov.pl,chojnice24.pl###disclaimer
 antyczek.pl###upper-menu-container
@@ -889,7 +890,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubimyczytac.pl###TB_window, #TB_overlay
@@ -1741,6 +1742,7 @@ zysk.com.pl###pageUpperInfo
 ||eurocookie.galilcloud.wixapps.net/popup$subdocument
 ||exploder.pl/info_o_cookie.js$script
 ||e-hortico.pl/skins/user/rwd_shoper_1/js/fancybox/dist/jquery.fancybox.min.css
+||e-monki.pl/images/emonki_f.png
 ||fundingchoices.google.com^$script,domain=www.accuweather.com
 ||global.silnet.pl/media/js/vue/silnet-privacy-policy.vue$xmlhttprequest,domain=silnet.pl|sonomedico.pl
 ||igimag.pl/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/lity.js
