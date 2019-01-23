@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ranxIJ9Yi/Bfr2I3C8inZw
+! Checksum: eny55E+ZBcIlgpTvt07YVw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.23.1
-! Last modified: Wed, 23 Jan 2019, 02:00 UTC+01
+! Version: 2019.1.23.2
+! Last modified: Wed, 23 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.23.1 aktualizacja: śro, 23 sty 2019, 02:00 UTC+01
+! v.2019.1.23.2 aktualizacja: śro, 23 sty 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -45,7 +45,7 @@ aboutyou.pl##div[class^="styles__inner"]
 absolvent.pl##.top-ban-wrapper
 abt-s.pl,ecbedzin.pl,enut.pl,programatory.com,haloursynow.pl,warsztat.pl,interprojekt.pl###myModal
 abt-s.pl,interprojekt.pl,yes.pl,filoma.org,naekranie.pl,polskiprawnik.pl,www.hotelbb.pl##.reveal-modal-bg
-account.live.com,www.skype.com###msccBanner
+account.live.com,login.live.com,www.skype.com###msccBanner
 account.ubisoft.com###footer_tc_privacy
 accuweather.com###eu-cookie-notify-wrap
 acer.com##.cookieBox
@@ -1435,7 +1435,7 @@ stalowemiasto.pl##.header-parent > .container > .slot-1280px.slot
 starbucks.pl###allow_message
 starcom-ntt.com.pl##.ciasteczkowy
 starterek.pl###rodo_form
-start.me##.app__message > .info-message
+start.me##.app__message > .info-message, .cookiebar
 statoscope.pl##rodo
 stat.gov.pl,pap.pl,popoznaniu.pl,warszawa-pragapoludnie.sr.gov.pl###divcook
 stefczyk.info,leniwy.eu,disco-polo.info##.cookies-alert
@@ -1471,7 +1471,6 @@ szukacz.pl###routerBox1
 szukajka.tv###rodo-popup
 szukajka.tv,wizzair.com,styl.fm##.cookie-policy
 szybko.pl##.toast
-tapeciarnia.pl###div_info_cookies
 targeo.pl#?#body > div:not([id]):not([class])[style^="position: absolute;"]:-abp-contains(plików cookie)
 tatra.pl##.cookies-2-overlay, .popup-cookies-2
 tatuaze-wzory.com###showcookie
@@ -2059,6 +2058,7 @@ pl###cookie_info_box:not(body):not(html)
 pl###cookie_law_informations:not(body):not(html)
 pl###divCookie:not(body):not(html)
 pl###div_cookies_accept:not(body):not(html)
+pl###div_info_cookies:not(body):not(html)
 pl###elGuestTerms[data-role="guestTermsBar"]:not(body):not(html)
 pl###eucookielaw:not(body):not(html)
 pl###eu-cookies2:not(body):not(html)
