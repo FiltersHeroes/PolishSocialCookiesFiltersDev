@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: vkFbXFeLXHdfY7hCLEY/QQ
+! Checksum: BEkFBtDhkOqfP1D/4UIDsw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.25.1
-! Last modified: Fri, 25 Jan 2019, 02:00 UTC+01
+! Version: 2019.1.25.2
+! Last modified: Fri, 25 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.25.1 aktualizacja: pią, 25 sty 2019, 02:00 UTC+01
+! v.2019.1.25.2 aktualizacja: pią, 25 sty 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -270,7 +270,7 @@ centrumklima.pl###cookieCKdiv
 centrumkurierskie.pl##.ci-min.ci-container.ci-data
 centrumpilkarskie.pl##div.jqibox
 centrumreklamy.com,zielonymail.com,imperiumreklamy.com###CookieInfoBlock
-centrum-marino.com,wroclaw.pl###cookie_zgoda
+centrum-marino.com,wroclaw.pl,optegra.com.pl###cookie_zgoda
 cenum.pl##.cssmessage
 cepelia.com.pl,sandecja.tv,mcksokol.pl,muzeum.sacz.pl,sandecja.org###overflow-content
 certum.pl###spu-3634, #spu-bg-3634
@@ -398,6 +398,7 @@ ebrokerpartner.pl##.jsCookieInfoPlugin.cookie_plugin
 echosonda.pl###cookie_i
 economist.com##div#ec-message-1
 eco.atman.pl,kreskoweczki.pl,groj.pl,marketing-news.pl,www.obozytenisowe.pl###gbpl_oba
+ec.europa.eu###cookie-consent-banner
 edukacja.rybnik.eu,polskaekologia.org##.cookieWarning
 edutorial.pl,kerrisgroup.com###wmpci-popup-wrp
 eecpoland.eu##.cookie-bar2
@@ -1159,6 +1160,7 @@ parkersklep.pl,rotringsklep.pl###BoxCookie
 parkhandlowylomza.pl###pamphletu38210
 parkwodny.pl,szkolymedyczne.eu,srodaslaska.pl##.ppsPopupShell, #ppsPopupBgOverlay
 parp.gov.pl###howdydo-wrapper
+paszport.info###sliding-popupt
 paypal.com###gdprCookieBanner
 pbspolska.eu##.wpgdprc-consent-bar.wpgdprc
 pcprwiecbork.pl##.mlab-modal
@@ -2053,6 +2055,8 @@ pl###cookie-wrapper:not(body):not(html)
 pl###cookie:not(body):not(html):not([href*="cookieclicker"])
 pl###cookie_accept:not(body):not(html)
 pl###cookie_acc_wrap:not(body):not(html)
+pl###cookie_agreement:not(body):not(html)
+pl###cookie_agree:not(body):not(html)
 pl###cookie_box:not(body):not(html)
 pl###cookie_confirmation:not(body):not(html)
 pl###cookie_container:not(body):not(html)
