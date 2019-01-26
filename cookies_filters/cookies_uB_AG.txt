@@ -1,11 +1,11 @@
-! Checksum: rsDC6D3BV1JD0CYs9u7Arg
+! Checksum: 1ebt6LF01z+gKt7okA26HQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.22.1
-! Last modified: Tue, 22 Jan 2019, 18:00 UTC+01
+! Version: 2019.1.26.1
+! Last modified: Sat, 26 Jan 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.22.1 aktualizacja: wto, 22 sty 2019, 18:00 UTC+01
+! v.2019.1.26.1 aktualizacja: sob, 26 sty 2019, 18:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -254,6 +254,9 @@ listymikolaja.pl,swiat-whisky.sklep.pl##html.fancybox-lock > body, html.fancybox
 listymikolaja.pl,swiat-whisky.sklep.pl##.fancybox-margin:style(margin-right: 0 !important;)
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 lovekrakow.pl,muzyczneradio.pl###modal-rodo, .modal-backdrop
+mirjan24.pl##body.compensate-for-scrollbar:style(overflow: auto !important;)
+mirjan24.pl###fancybox-container-1:has(#gdpr)
+mirjan24.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
 money.pl##+js(nano-remove-elements-onready.js, .rodo-popup)
 muzeumazji.pl###rodo-info
 muzeumazji.pl##+js(abort-current-inline-script.js, $, doRODO)
@@ -346,6 +349,7 @@ infostrow.pl,roztoczanskipn.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrz
 lipinscy.pl##^#popRodoInfoContent
 listymikolaja.pl##^#popup_rodo_layer
 lovekrakow.pl,muzyczneradio.pl##^#modal-rodo
+mirjan24.pl##^#fancybox-container-1:has(#gdpr)
 motobanda.pl##^#rodo
 muzeumazji.pl##^script:has-text(doRODO)
 natura2000.gdos.gov.pl##^#apla-banner
@@ -426,6 +430,7 @@ infostrow.pl,roztoczanskipn.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrz
 lipinscy.pl$$#popRodoInfoContent
 listymikolaja.pl$$#popup_rodo_layer
 lovekrakow.pl$$#modal-rodo
+mirjan24.pl$$#fancybox-container-1[tag-content="gdpr"]
 motobanda.pl$$#rodo
 muzeumazji.pl$$script[tag-content="doRODO"]
 muzyczneradio.pl$$#modal-rodo
