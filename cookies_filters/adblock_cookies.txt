@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: d1LMq6mT5LWxvMIe1PtK3Q
+! Checksum: H+a1Kb2KeLVXv8sI0SM7gQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.26.2
-! Last modified: Sat, 26 Jan 2019, 18:00 UTC+01
+! Version: 2019.1.26.3
+! Last modified: Sat, 26 Jan 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.26.2 aktualizacja: sob, 26 sty 2019, 18:00 UTC+01
+! v.2019.1.26.3 aktualizacja: sob, 26 sty 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -32,7 +32,7 @@
 24jgora.pl###myModal_cookie
 24opole.pl###div_cookie_accept
 40latki.pl###noty_bottom_layout_container
-40ton.net,nowy-sacz.info,olgasmile.com,tb4hr.com,telewizja-cyfrowa.com,naziemna.info,fastwhitecat.com,urbanium.eu,zasiedzenie.net,indianpoland.com,settlersonlinewiki.eu,blog.spacetronik.eu,yato.com,perfumyfm.biz,showmag.info,naklo.fm###catapult-cookie-bar
+40ton.net,nowy-sacz.info,olgasmile.com,tb4hr.com,telewizja-cyfrowa.com,naziemna.info,fastwhitecat.com,urbanium.eu,zasiedzenie.net,indianpoland.com,settlersonlinewiki.eu,blog.spacetronik.eu,yato.com,perfumyfm.biz,showmag.info,naklo.fm,mecze.com###catapult-cookie-bar
 90.pl,arena.wroc.pl,benchmarking.silesia.org.pl,bluecity.pl,brodnica.net,bs.olawa.pl,centrum.mscdn.pl,clickmeeting.com,csioz.gov.pl,decoratorium.eu,dulskidesign.pl,dw.com,e-marketbudowlany.pl,essentiale.pl,fakturaelektroniczna.com,filmotekaszkolna.pl,fitandyummy.pl,gdynia.sr.gov.pl,gugik.gov.pl,hifi.pl,investmap.pl,klinikaagd.pl,kzgw.gov.pl,leroymerlin.pl,ligawalkizrakiem.pl,lodzkie.pl,mazowieckie.com.pl,modecom.com,moventum.com.pl,muszynianka.pl,olejkilecznicze.pl,onerqe-kredyt.pl,otouczelnie.pl,palmiarnia.poznan.pl,pgd.pl,polstor.pl,pozyczkaplus.pl,seopilot.pl,sfinks.pl,shoper.pl,smartpozyczka.pl,smyk.com,stalgorzow.pl,supermemo.com,szkolenia-semper.pl,tapis.pl,terramar.pl,tpvpolska.pl,unityline.pl,venture.pl,waw.pl,wielkopolska.eu,www.mtp.pl,zebra.com,nysa.pl,dolnysopot.pl,radioznin.fm##.cookie
 99rent.pl##.region-rodo-info
 360studio.org,wabrzezno.com##.tplis-cl-cookies
@@ -135,7 +135,7 @@ asd.pl##div[style="width: 100%;float: left;background: #fff;padding: 15px 0;posi
 asklepios.pl##.cookies_show
 assecods.pl###spu-22991, #spu-bg-22991
 astar.czest.pl##.lean-overlay
-aszdziennik.pl,demotywatory.pl,faktopedia.pl,innpoland.pl,joemonster.org,komixxy.pl,kotburger.pl,mamadu.pl,natemat.pl,pl.namemc.com,poki.pl,sadistic.pl,sportowememy.pl,strawpoll.me,stylowi.pl,warszawawpigulce.pl,styl.fm##[class^="app_gdpr"]
+aszdziennik.pl,astar.czest.pl,demotywatory.pl,faktopedia.pl,innpoland.pl,joemonster.org,komixxy.pl,kotburger.pl,mamadu.pl,natemat.pl,pl.namemc.com,poki.pl,sadistic.pl,sportowememy.pl,strawpoll.me,stylowi.pl,warszawawpigulce.pl,styl.fm##[class^="app_gdpr"]
 atcdevelopment.pl,ginekolog-darlowo.pl,lek-med.pl###zgoda
 atlas-roslin.pl##.tytul > span
 atramentowka.com###cookie_popup
@@ -669,6 +669,7 @@ holidu.pl#?##root > aside[class]:-abp-contains(🍪)
 homebook.pl#?#body > div[class]:last-of-type:-abp-contains(RODO)
 homebrewing.pl##.rodo-popupbox
 home.pl,koty24.pl,psy24.pl,idea4you.eu###box_policies
+hondanews.eu###cookiesPolicyBanner, #cookies-cover
 honda.auto.com.pl##.cookie-information-wrapper
 horizon.tv##.notifications-manager
 horyzonty.pl##.cookies_note
@@ -895,7 +896,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubimyczytac.pl###TB_window, #TB_overlay
@@ -906,7 +907,7 @@ lukasfinanse.pl###strap
 lunch24.com##.jss258 > .jss63 > .jss232.jss230
 luqam.com###cookiesFlyInBox
 luxprodukt.pl,otohurt.pl###bar_bottom_cookie
-lvlup.pro,przegladlokalny.eu###cookiePolicy
+lvlup.pro,przegladlokalny.eu,dziary.com###cookiePolicy
 lwowecki.info,dkl24.pl###cookies_accepted
 lyconet.com###cookie-box
 madreklama.com##.style2
@@ -983,6 +984,7 @@ mirjan24.pl###window_overlay
 missplanner.pl##.page--notification
 mistama.com###change_terms_message
 mistrzowie.org##div[style="position: fixed; left:0; right:0; bottom:0; height:40px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
+miumag.pl###cookie-widget
 mixer.pl,wp.pl,testwiedzy.pl,forum.dobreprogramy.pl,eholiday.pl###WP-cookie-info
 mixmedia.pl##div#cook_info
 mi.com##.J_agreeCookieModal, .top-notify
@@ -1604,6 +1606,7 @@ wspanialewesele.com.pl###rodomodal
 wsqn.pl#?#.infotext:-abp-has(.close_info_text)
 wsse-poznan.pl##.visiblebox
 wste.edu.pl###ms_rodo
+wszelkieprzepisy.pl##.txc_cookie_infobox
 wszp.edu.pl###akcept_cookies
 wszystkoblisko.pl##.ueCookies
 wu.swps.edu.pl##div#Iagree
@@ -1704,7 +1707,8 @@ zysk.com.pl###pageUpperInfo
 /pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
 /pp-t-a-c.js$domain=bmi-online.pl|dieta.pl|domzdrowia.pl|fabrykasily.pl|fora.pl|toplista.pl|torrent.top-100.pl|odkrzychadoronaldo.pl|forum-kulturystyka.pl|swistak.pl|trizer.pl
 /rhododendron/css/rhododendron-popup.css$domain=abctygodnik.pl|wgospodarce.pl|wpolsce.pl
-/rodo.js$domain=discopolomusic.pl|geekweek.pl|mowianamiescie.pl|obi.pl|playa.pl|polsat.pl|polsat1.pl|polsat2.pl|polsatcafe.pl|polsatfilm.pl|polsatnews.pl|polsatplay.pl|poszkole.pl|reklamowy-sklep.pl|superstacja.tv|tv4.pl|tv6.com.pl
+/rodo-agreement-popup/rodo-agreement-popup.min.js$domain=rpkom.pl|rp.pl|zw.com.pl
+/rodo.js$domain=discopolomusic.pl|geekweek.pl|mowianamiescie.pl|obi.pl|playa.pl|polsat.pl|polsat1.pl|polsat2.pl|polsatcafe.pl|polsatfilm.pl|polsatnews.pl|polsatplay.pl|poszkole.pl|reklamowy-sklep.pl|superstacja.tv|tv4.pl|tv6.com.pl|trendu.pl|styluva.pl
 /wp-content/plugins/mm-extensions/assets/js/info-popup.js$domain=koty.pl|psy.pl
 /wp-content/plugins/wp-modal-popup-with-cookie-integration/*$script,stylesheet,domain=edutorial.pl
 ||ad.ipolska.pl/cookies/cookiecheck.js$script,domain=wielodzietni.org
@@ -1726,9 +1730,6 @@ zysk.com.pl###pageUpperInfo
 ||cdnjs.cloudflare.com/ajax/libs/fancybox/*/js/jquery.fancybox.min.js$domain=wiemy.to
 ||cdn.digitrust.mgr.consensu.org/1/cmp.complete.bundle.js$domain=m.demotywatory.pl
 ||cdn.inaudium.com/js/adtctr.js
-||cdn.rpkom.pl/rodo-agreement-popup/rodo-agreement-popup.min.js
-||cdn.rp.pl/rodo-agreement-popup/rodo-agreement-popup.min.js
-||cdn.zw.com.pl/rodo-agreement-popup/rodo-agreement-popup.min.js
 ||ciasteczkowapolityka.pl/getscript$script
 ||cmp.dreamlab.pl/static/cmp.complete.bundle.js
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
@@ -1783,7 +1784,7 @@ zysk.com.pl###pageUpperInfo
 ||siemashop.pl/assets/*/js/cookie_agreement.js$script
 ||skryptcookies.pl/cookie.js
 ||skryptcookies.pl^$third-party
-||spolecznosci.mgr.consensu.org/js/cmp*.min.js$script,domain=sadistic.pl
+||spolecznosci.mgr.consensu.org/js/cmp.stable.min.js$script,domain=sadistic.pl|garnek.pl|wypracowania.pl
 ||static.quantcast.mgr.consensu.org/v13/cmpui-popup.js$domain=cybersport.pl
 ||static.quantcast.mgr.consensu.org/*/cmpui-banner.js$domain=memy.pl|pwn.pl|translatica.pl|tv.eurosport.pl|krokdozdrowia.com
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
@@ -1793,7 +1794,7 @@ zysk.com.pl###pageUpperInfo
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||twoje-seriale.pl/cookies.html$subdocument
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|sztuka-architektury.pl
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|sztuka-architektury.pl|stars.pl
 ||vox.pl/modal/rodo$xmlhttprequest
 ||www.aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
 ||www.e-drewno.pl/stock/javascript/browser.js
