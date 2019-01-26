@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Pbex/MTx8v6BiGNrV4Nmyg
+! Checksum: d6AoTNLR8dgSLdYxMIJdRw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.26.2
-! Last modified: Sat, 26 Jan 2019, 18:00 UTC+01
+! Version: 2019.1.26.3
+! Last modified: Sat, 26 Jan 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.26.2 aktualizacja: sob, 26 sty 2019, 18:00 UTC+01
+! v.2019.1.26.3 aktualizacja: sob, 26 sty 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -133,7 +133,7 @@ zuch.media###spu-10366, #spu-bg-10366
 /tw.
 /twitter-icon.
 /twitter_white
-/yt.
+/yt.$image
 !
 !
 ! Ogólne reguły ukrywające
@@ -1574,6 +1574,7 @@ homebook.pl##.btn--pinterest.btn
 homeoffice360.pl###footerColumn2 > h3:nth-of-type(1), #footerColumn2 > a > img[src*="/xhtml/img/stopka_"]
 home.pl##.o-page-footer__column:nth-of-type(5)
 homify.pl##.social-follow-links-box
+hondanews.eu###homepage-socialmedia.socialmedia-hub
 honda.pl##article:nth-of-type(2) > .footerHeading
 horecabc.pl##.et_pb_image > [href="https://www.facebook.com/groups/horecabc/"]
 horizongamer.pl,smartage.pl##.widget_text.col-6.widget
@@ -2732,6 +2733,7 @@ stardadaj.pl###social-fixed
 staresiolkowice.pl##.barcelona-widget-social-counter
 starkl.pl###soc-net-footer, li:nth-of-type(3) > h2:nth-of-type(3)
 stars-impresariat.pl##.contact-summary-part-buttons > .grey.button.big:nth-of-type(2)
+stars.pl##footer.row > .mainfooter > .mainfooter-colLeft
 start24.pl##a[href="http://blog.start24.pl"], a[href="https://www.facebook.com/START24/"]
 startkariery.pl##a[href="https://plus.google.com/104863226500187801389"]
 stat.gov.pl##.pos-3, .pos-4, .pos-5, .pos-6
@@ -3072,9 +3074,13 @@ wsensie.pl,wsensie.tv##.lubie
 wspieram.to##.bottom_cat.c4
 wsse-poznan.pl###pwebbox265_toggler, #pwebbox266_toggler, #pwebbox267_toggler
 wste.edu.pl##.social_menu
+wszelkieprzepisy.pl###foot > .container > div.span2:nth-of-type(3), #foot > .container > .span3 > div.section:nth-of-type(3) > a
+wszelkieprzepisy.pl###likeup
 wszystkotujest.pl##.is
 wszystko.pl##.sm-iblock.like
 www.aligato.pl##.soc-link
+www.astar.czest.pl##.tdm-social-wrapper
+www.astar.czest.pl#?#td_block_title.td_block_wrap > .td-block-title > .td-pulldown-size:-abp-contains(Obserwuj nas)
 www.chamskie.pl,chamsko.net.pl##.widget-fanbox
 www.djakdesign.pl###HTML1, #HTML2, #HTML3, #HTML6
 www.dobreprogramy.pl,www.pcworld.pl##[class^="StyledShareProviderButtons"].ProviderIcons, [class^="StyledShareProviderButtons"].ProvidersText
@@ -3494,7 +3500,6 @@ samequizy.pl,swiatebookow.pl#@#.fa-facebook-official.fa
 shinden.pl#@#.fa-youtube-play.fa
 swiatebookow.pl#@#.facebook-button
 @@/instagram_logo$domain=downdetector.pl
-@@/wp-content/themes/yeahthemes-sparkle/js/yt.*$script
 @@||moja-ostroleka.pl/images/ico_gallery.png$image,domain=moja-ostroleka.pl
 !
 !
