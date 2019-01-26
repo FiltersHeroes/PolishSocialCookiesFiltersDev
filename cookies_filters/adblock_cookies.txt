@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ubCw/wZO3ld9EusNw1sH4Q
+! Checksum: d1LMq6mT5LWxvMIe1PtK3Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.26.1
-! Last modified: Sat, 26 Jan 2019, 14:00 UTC+01
+! Version: 2019.1.26.2
+! Last modified: Sat, 26 Jan 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.26.1 aktualizacja: sob, 26 sty 2019, 14:00 UTC+01
+! v.2019.1.26.2 aktualizacja: sob, 26 sty 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -156,7 +156,7 @@ avast.com,pay.google.com,trustpilot.com,outride.rs##.cookie-bar:not(body)
 avatradepolska.pl##.accept-cookie-block
 avioner.pl,hotpay.pl,playtube.pl#?#.alert-success.alert:-abp-contains(cookies)
 avon.pl##.CookieSection
-azjatyckibazar.com###cookiesinfo
+azjatyckibazar.com,rpo.pomorskie.eu,forte.com.pl,mustasz.com,agatabielen.com,pantuniestal.com###cookiesinfo
 azure.microsoft.com###cookie-prompt
 badaniaprenatalne.pl###stb-14718
 badaniapsychologiczne.net###kopageBarCookies
@@ -192,6 +192,7 @@ bieganski.org##.cookies_kontener
 biegniepodleglosci.pl###cf-cookie-banner
 bielsko.info##.cookie_policy
 bierhalle.pl###rstbox_5, #overlay_rstbox_5
+bike-parts-honda.pl,vanced.app###cookieConsent
 bik.pl##.page-cookies-info, #cmsg
 bilka.com.pl###mod99
 bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
@@ -295,6 +296,7 @@ ckmir.com.pl#?#p:-abp-contains(cookie)
 clearchannel.com.pl,sokolka.com.pl,mpwik.com.pl###rodoPopup
 clineo.pl###floatingFB
 cmg24.pl##.RODO
+cms.tipnews.pl##body > div[id][class=""][data-editable="boxCookieNotification"]
 codziennikfeministyczny.pl###bazinga-muffin-container
 coinroom.com,polimex.net,sonos.com,ridgid.eu##.cookie-warning
 cojestgrane.pl##.ui-cookies-acceptance
@@ -532,7 +534,6 @@ ford-esklep.pl###box_alert
 foreca.pl###ckieconsent
 forma.czest.pl##.cookieMonster
 fors.pl,pks.zary.pl,webelite.pl###infobar
-forte.com.pl,mustasz.com,agatabielen.com,pantuniestal.com###cookiesinfo
 forumlekarza.pl###cpolicy_wrap
 forumplay.pl,forum-kredytowe.pl###navbar_notice_6
 forumplay.pl,forum.joomla.pl###notices
@@ -668,6 +669,7 @@ holidu.pl#?##root > aside[class]:-abp-contains(🍪)
 homebook.pl#?#body > div[class]:last-of-type:-abp-contains(RODO)
 homebrewing.pl##.rodo-popupbox
 home.pl,koty24.pl,psy24.pl,idea4you.eu###box_policies
+honda.auto.com.pl##.cookie-information-wrapper
 horizon.tv##.notifications-manager
 horyzonty.pl##.cookies_note
 horyzont.net###cookies_info
@@ -976,6 +978,7 @@ milmag.pl###layCookieAlert
 ministerstwogadzetow.com,swmarcin-jarocin.com,ufs.pt,biblioteki.org###cookiesBar
 ministerstworeklamy.pl,ok-kredyt.pl,radiotaxitg.pl,szkoleniapartner.pl###messagePopup
 miplo.pl##.error.rounded
+mirjan24.pl##.cookieslaw
 mirjan24.pl###window_overlay
 missplanner.pl##.page--notification
 mistama.com###change_terms_message
@@ -1232,8 +1235,9 @@ polona.pl##cbn-cookies
 polopiryna.pl,polpharma.pl##.monit
 polskazachwyca.pl,lotaro.pl,tanie-loty.com.pl###rodo_info_placeholder
 polska-ie.com,stoicway.net##.gdpr-privacy-bar
+polska-szkola.pl###activebar-container
 polskicaravaning.pl###myModalpol
-polskieradio.pl,dziennikwschodni.pl##.rodo-modal
+polskieradio.pl,dziennikwschodni.pl,prsa.pl##.rodo-modal
 polskijubiler.pl##body > div:nth-of-type(1)[style="width: 90%; margin: 0 auto;"]
 polskijubiler.pl,e-stacjapaliw.pl###myPopup
 polskiprawnik.pl###popup3
@@ -1539,7 +1543,6 @@ unilink.pl##.windov_front_new_text
 upc.pl##.dmg-cookie-info
 ups-zasilacze.pl###pp2
 userstyles.org##.NotificationLine
-vanced.app###cookieConsent
 vectra.pl##.l-cookies
 vents-group.pl###akceptacja-rodo
 vents-group.pl###cookies-accept-info
@@ -1565,8 +1568,7 @@ webdev20.pl###top_message
 webprojekt.biz###ppc
 web-booking.mytaxi.com#?#body > div > div > div:-abp-contains(🍪)
 web.skype.com#?#.info.notification:-abp-contains(cookie)
-wedelpijalnie.pl###cookies_allowed_message
-weebly.com,eniro.pl,eniroweb.pl,amawid.pl###kb-container
+weebly.com,eniro.pl,eniroweb.pl,amawid.pl,paullanaklo.pl###kb-container
 weekendfm.pl##.rodo_out
 wegetarianie.pl##td[align="center"][height="22"]
 weidemann.de###tx_shortcutscookiedisclaimer
@@ -1995,6 +1997,7 @@ pl###cookies-politics:not(body):not(html)
 pl###cookies-popup:not(body):not(html)
 pl###cookies:not(body):not(html):not(.section):not(.fade)
 pl###cookies_accept:not(body):not(html)
+pl###cookies_allowed_message:not(body):not(html)
 pl###cookies_box:not(body):not(html)
 pl###cookies_compliance:not(body):not(html)
 pl###cookies_container:not(body):not(html)
