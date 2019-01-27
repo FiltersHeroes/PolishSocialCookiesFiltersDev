@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 8o3/r9BppsOYvneRtrHwdA
+! Checksum: Zu/9qEJObOc8xlrYHSbm3Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.27.1
-! Last modified: Sun, 27 Jan 2019, 14:00 UTC+01
+! Version: 2019.1.27.2
+! Last modified: Sun, 27 Jan 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.27.1 aktualizacja: nie, 27 sty 2019, 14:00 UTC+01
+! v.2019.1.27.2 aktualizacja: nie, 27 sty 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -460,6 +460,7 @@ euro26.pl###popup, #fade
 europlytki.pl###cookies-info-container
 eurostyl.com.pl###euroCookieInfo
 everhome.pl,gda.pl,yogenfruz.pl##.shotimoo
+ewitryna.pl###info-cookie
 ewl.com.pl###bezzo-cookies-bar
 expansa.pl,www.promise.com.pl##.ui-resizable
 extraserv.pl##div#uwaga
@@ -542,7 +543,6 @@ forums.linuxmint.com##.cookiebanner
 forumtransportu.pl##table.glowna:nth-of-type(1) > tbody > tr > td
 forum-bron.pl###phpbb_announcement[style="background-color:#f0eae1"]
 forum-kulturystyka.pl###fk-terms
-forum.dobreprogramy.pl###rodoCookie
 forum.dziennikwschodni.pl###cookiePolicyPopup > div > p
 forum.minepedia.pl##div#notice
 forum.vwgolf.pl##iframe[src="cookie.html"]
@@ -877,6 +877,7 @@ lema15.pl##.bar--cookies
 leoexpress.com##body > #__next > footer + div.sc-1oi3yor-0
 lesnydwor.net.pl###header > center
 lexus-polska.pl##.l-disclaimer[data-view="Disclaimer"][data-view-priority]
+lgchem.com##.top_cookie
 lg.com##.policyChk
 lg.com##.agree-cookie-wrap
 licytacje.komornik.pl###sign_up, body > div[style*="margin-top: 100px"]
@@ -1133,6 +1134,7 @@ opineo.pl,skapiec.pl##div#uclaInfo
 opoka.tv,ekskluzywnymenel.com###eu-cookie-bar
 opony.net###cookiefy_bar
 opowiecie.info###spu-95603, #spu-bg-95603
+optimalg.com###info_cookie
 optomer.pl###GDPRInformationModal, .cookie-container
 optyczne.pl###id01
 orange.pl##.background, #mod-common\/modules\/opl-cookie-control-1
@@ -1327,6 +1329,7 @@ rck.pila.pl#?#.alert-message.alert:-abp-has(.plg_system_eprivacy_message)
 reactor.pl,yamo.pl###einfo
 rebe1scum.com###eu-cookie-law
 recepcja.visionexpress.pl##div[style="background-color: rgb(217, 217, 217); margin: 0px auto; padding: 25px 8px 15px; position: fixed; right: 0px; width: 400px; bottom: 0px; z-index: 1000; color: rgb(0, 0, 0); border: 3px solid rgb(102, 102, 102);"]
+recticelinsulation.com###js-cookie-alert.c-alert-cookie
 redbullmobile.pl###more1
 reflex.com.pl###cookiesdiv
 refunder.pl#?#.bg-white:-abp-has([href="/warunki#cookies"])
