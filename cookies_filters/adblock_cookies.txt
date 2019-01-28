@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: QVxooBFj/AI1WsGNi7107Q
+! Checksum: TePONWGHjfeCUcE1Eg4PNQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.27.3
-! Last modified: Sun, 27 Jan 2019, 22:00 UTC+01
+! Version: 2019.1.28.1
+! Last modified: Mon, 28 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.27.3 aktualizacja: nie, 27 sty 2019, 22:00 UTC+01
+! v.2019.1.28.1 aktualizacja: pon, 28 sty 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -100,7 +100,7 @@ allview.pl###modalGDPR.modalGDPR
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
 altimi.com,superstacja.tv,fiufiu.co###cookie-info
 alufelgi.sklep.pl,sklep.kutnik.com.pl##body > div[style*="position: fixed;"]:not([id]):not([class])
-aluzja.gorzow.pl,artgos.pl,diagmed.info.pl,hostgrafia.pl,itlab.pl,mojawww.com,naukajazdy-kowalik.pl,osrodek-terapii.com,puch-kotlowski.pl,sls.info.pl,swiatdeski.pl,tomiicars.com.pl,treningkrakow.pl,vagaru.pl,ck.przemysl.pl##div > aside.type-10.widget
+aluzja.gorzow.pl,artgos.pl,diagmed.info.pl,hostgrafia.pl,mojawww.com,osrodek-terapii.com,puch-kotlowski.pl,sls.info.pl,swiatdeski.pl,tomiicars.com.pl,treningkrakow.pl,vagaru.pl,ck.przemysl.pl,wikar.pl##div > aside.type-10.widget
 al.to,x-kom.pl,combat.pl###popup-cookie
 amarone.pl###bannerMSG
 amazon.de###desktop-cookie-disclosure
@@ -298,6 +298,7 @@ clineo.pl###floatingFB
 cmg24.pl##.RODO
 cms.tipnews.pl##body > div[id][class=""][data-editable="boxCookieNotification"]
 codziennikfeministyczny.pl###bazinga-muffin-container
+coinquista.com##.drawer.ant-drawer > .ant-drawer-content-wrapper
 coinroom.com,polimex.net,sonos.com,ridgid.eu##.cookie-warning
 cojestgrane.pl##.ui-cookies-acceptance
 colormark.pl###Kom_cookie
@@ -1195,6 +1196,7 @@ pkn.net.pl##.lity-inline.lity-opened.lity
 pkobp.pl##.rodo-not-small-modal, .cookie-rodo
 pkspolonus.pl,zakexpress.pl,albatrosbus.pl,pks.elblag.pl###popek
 pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.aPad
+planeta-budowlana.pl###cookie29.cookie29
 player.pl##.cBox
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
 play.google.com,books.google.pl###gb > div[style*="background-color"]
@@ -1427,7 +1429,7 @@ solartime.pl###sticky-notify
 solidarni2010.pl##div#kom
 solidarnosckatowice.pl##body > div:not([class]):not([id]) > div[style^="position: absolute;"]
 sonymobile.com##.fullbleed-response[data-module="sony-survey-client"][style]
-sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu##.cookie-consent
+sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu##.cookie-consent
 sosnowiec.pl###topBar_MainCover
 soundcloud.com,blyskawicznakorekta.pl##.announcements
 spacetronik.eu,skottuning.com###x13pmcookiebar
@@ -1511,6 +1513,7 @@ tnt-tv.pl##.cookie_bar
 tominet.com.pl,polonika.at#?#table:-abp-has(#cookieMessageText)
 top123.pl##.woocommerce-store-notice
 torkusa.com,tork.pl##.headerMessage
+toshiba-tv.com###CookieDiv.Cookies
 toyota.pl,toyota-lublin.pl###ePrivacyDisclaimer
 tp-link.com###divCookieUsedNote
 trafica.eu,wodbud.eu###q-cookie-box
