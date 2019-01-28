@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: uZQM+RKXY3digG57iwGNPA
+! Checksum: YC486hSu1AdEeHSTWrp/+A
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.27.3
-! Last modified: Sun, 27 Jan 2019, 22:00 UTC+01
+! Version: 2019.1.28.1
+! Last modified: Mon, 28 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.27.3 aktualizacja: nie, 27 sty 2019, 22:00 UTC+01
+! v.2019.1.28.1 aktualizacja: pon, 28 sty 2019, 14:00 UTC+01
 !
 !
 ! Popupy
@@ -1361,7 +1361,8 @@ festiwalinspiracji.pl#?#div.tzSpace_default.vc_row-fluid.wpb_row.vc_row:-abp-con
 festiwal.mtp.pl,sportexpo.mtp.pl,targimodypoznan.pl,gamearena.pl,retromotor.pl,specialdays.pl##.fb_likebox
 fight24.pl##div:nth-of-type(3) > h2:nth-of-type(1)
 fightershop.pl##.bigMedia > .container > .row
-fightershop.pl##.findUs > div.nav-header:nth-of-type(1), .social-conteiner
+fightershop.pl##.findUs > div.nav-header:nth-of-type(1), 
+fightershop.pl,sklep-muzyczny.com.pl,pcoutlet.pl,plumeria.sklep.pl,wellsamed.pl##.social-conteiner
 filman.cc###facebook-side
 filmozercy.com##.c-panel-social__list > .c-panel-social__item:nth-of-type(-n+4)
 filmy-wesele.pl,fotograf-wesele.pl,muzyka-wesele.pl,auta-wesele.pl##.ggl
@@ -2260,7 +2261,6 @@ pbs.pl###menu-menu-glowne > .menu-item:nth-of-type(n+5):nth-of-type(-n+7), .fusi
 pb.pl##a[href="#npb-tab-twitter"]
 pccentre.pl###zak_fb
 pcformat.pl###slider-track
-pcoutlet.pl,plumeria.sklep.pl##.social-conteiner
 pcprojekt.pl##.theblogwidgets
 pcsupport.lenovo.com##.icon-l-ytb
 pct24.pl,psz24.info,pp24.info.pl##.socialtop, .socmed
@@ -2297,6 +2297,7 @@ pkp-informatyka.pl##body > .blue-section > .container > .col-tn-12.col-sm-3:nth-
 pkw.gov.pl##li.ico:nth-of-type(n+4):nth-of-type(-n+6)
 planetagracza.pl,swiatoze.pl###text-2 > .widget-title
 planetarium.torun.pl###columns > #dol > #dol2
+planeta-budowlana.pl##.youtube.contact-button-link
 planeteplus.pl##.footer > .planete-portale
 planszowkiwedwoje.pl###HTML1, a[href="https://www.instagram.com/planszowkiwedwoje/"], a[href^="http://www.blogger.com/follow-blog.g"]
 play.pl##.columns.box:nth-of-type(6)
@@ -2477,6 +2478,7 @@ pyszne.pl##div.row:nth-of-type(1) > ul:nth-of-type(2)
 pzlsedziszow.pl##div.container:nth-of-type(4) > .row > div.col-md-6.col-sm-12:nth-of-type(2), #footer-contact > .social
 pzp.info.pl#?#.et_section_regular.et_pb_with_background.et_pb_section_3.et_pb_section:-abp-contains(Facebook)
 pzu.pl##ul:nth-of-type(3) > li:nth-of-type(-n+6)
+qnapclub.eu##div.footer-block.col-xs-12.col-sm-6.col-md-3:nth-of-type(3)
 qpony.pl##a.footer__info__social__icon:nth-of-type(n+2)
 qr-online.pl##.sidebar > .panel-default.panel
 queer.pl##.social > .label
@@ -2656,7 +2658,7 @@ sklepmonastyczny.pl##div.myaccount.block:nth-of-type(2)
 sklepy.muzyczne.studentnews.pl##nobr:nth-of-type(12)
 sklepy.muzyczne.studentnews.pl##nobr:nth-of-type(13) > .menulnk
 sklep-fitness.pl##.bottom
-sklep-muzyczny.com.pl###widget_shop7, .social-conteiner
+sklep-muzyczny.com.pl###widget_shop7
 sklep-rolnicze.eu##.right
 sklep.3mk.pl###sm-widget
 sklep.cosplayworld.pl##.footer_portal_title
