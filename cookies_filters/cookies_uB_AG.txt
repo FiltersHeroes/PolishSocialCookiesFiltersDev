@@ -1,11 +1,11 @@
-! Checksum: XU+jybym82SiTWSzKuaAzA
+! Checksum: QY4ftCBLtaEX4txtTlzWEA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.27.3
-! Last modified: Sun, 27 Jan 2019, 22:00 UTC+01
+! Version: 2019.1.29.1
+! Last modified: Tue, 29 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.27.3 aktualizacja: nie, 27 sty 2019, 22:00 UTC+01
+! v.2019.1.29.1 aktualizacja: wto, 29 sty 2019, 14:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -393,10 +393,11 @@ fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:st
 purepc.pl##+js(nano-remove-elements-onready.js, .cookiesinfo)
 !#endif
 !#if cap_user_stylesheet
+forum.dobreprogramy.pl##body > div[class]:has-text(RODO)
 homebook.pl##body > div[class]:last-of-type:has-text(RODO)
 sportowefakty.wp.pl##body > *:style(filter: none !important;)
 sportowefakty.wp.pl##html > body > footer ~ div[class]:has-text(RODO)
-sportowefakty.wp.pl,homebook.pl##html:style(overflow-y: visible !important; height: auto !important;)
+sportowefakty.wp.pl,homebook.pl,forum.dobreprogramy.pl##html:style(overflow-y: visible !important; height: auto !important;)
 !#endif
 !#if !env_mobile
 azure.microsoft.com###main:style(padding-top: 88px !important;)
