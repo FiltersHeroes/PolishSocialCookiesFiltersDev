@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: WA1BjX4uWEXyxNcf9Px9gg
+! Checksum: poCblNoKW7uozqd0e6vy5g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.29.2
-! Last modified: Tue, 29 Jan 2019, 14:00 UTC+01
+! Version: 2019.1.29.3
+! Last modified: Tue, 29 Jan 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.29.2 aktualizacja: wto, 29 sty 2019, 14:00 UTC+01
+! v.2019.1.29.3 aktualizacja: wto, 29 sty 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -107,7 +107,7 @@ amazon.de###desktop-cookie-disclosure
 ambermarine.pl###a-cookie
 americanexpress.com###cookie_Header
 amix.pl###policy
-amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv,wifi-spot.net,prostowsmak.com,przedsiebiorcza.com,toiowo.eu###cookie-notice
+amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv,wifi-spot.net,prostowsmak.com,przedsiebiorcza.com,toiowo.eu,rolland.tech###cookie-notice
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl,sklep.intert.pl,lampyilampki.pl,lampytanie.pl,gitara-sklep.pl###popup
 amundi.pl,biodiv.gdos.gov.pl,chojnice24.pl###disclaimer
 antyczek.pl###upper-menu-container
@@ -492,6 +492,7 @@ e-swietokrzyskie.kielce.eu##div#belka_dolna
 e-wiklinowy-sklep.pl##.cookiesPolicyInfo
 fabrykamemow.pl##body > div:not([id]):not([class])
 facebook.com##.pam.fbPageBanner.uiBoxGray.bottomborder, [data-testid="cookie-policy-banner"]
+faie.pl##.page-wrap--cookie-permission
 fajka24.pl##DIV[style="background: #fafafa; border: 1px solid #ccc; text-align: center; font-size: 1em; padding: 20px; width: 960px; height: 20px; left: 50%; bottom: 60px; margin-left: -480px; position: fixed; z-index:130 "]
 fandk.com.pl###block-block-6
 fansubs.pl##div[style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; top: 0px; right: 0%; width: 94%; opacity: 1; margin-left: 2%; display: block; "]
@@ -1407,6 +1408,7 @@ sin-say.com###display_cookie_message
 sitn.pl#?#body > div:-abp-has(#cookie-close)
 sklepjubilerski.com###cookieGuardMsg
 sklepyabc.pl###am_pop-up
+sklep-rolnicze.eu,sowlofficial.com###cookieinfo
 sklep-tosia.eu##.cookie-center
 sklep.alablaboratoria.pl,lmbruss.pl,telesystem-world.com###cover
 sklep.carrefour.pl##.components-cookie-law-basic
@@ -1437,7 +1439,6 @@ sonymobile.com##.fullbleed-response[data-module="sony-survey-client"][style]
 sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu##.cookie-consent
 sosnowiec.pl###topBar_MainCover
 soundcloud.com,blyskawicznakorekta.pl##.announcements
-sowlofficial.com###cookieinfo
 spacetronik.eu,skottuning.com###x13pmcookiebar
 specshop.pl##.blockUI
 speedtest.net###_evidon-barrier-wrapper
@@ -1789,6 +1790,7 @@ zysk.com.pl###pageUpperInfo
 ||powiat.okay.pl/media/system/js/modal.js
 ||ptwp.pl/fs/js/jquery.cookie.js$script,domain=4dd.pl
 ||radiopoznan.fm//homepage/privacyPolicy
+||retrotraktor.pl/grafika/cookies.jpg$image
 ||revolweb.pl/api/flash_msg.js$script
 ||rodo.agora.pl^$script
 ||rodo.rawlplug.com/wp-content/themes/rodo/popup/markups/modal-koelner.html$xmlhttprequest
