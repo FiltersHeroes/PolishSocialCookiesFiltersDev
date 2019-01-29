@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: h8yOWrrUEM4lxPZE64gu1w
+! Checksum: WA1BjX4uWEXyxNcf9Px9gg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.29.1
-! Last modified: Tue, 29 Jan 2019, 02:00 UTC+01
+! Version: 2019.1.29.2
+! Last modified: Tue, 29 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.29.1 aktualizacja: wto, 29 sty 2019, 02:00 UTC+01
+! v.2019.1.29.2 aktualizacja: wto, 29 sty 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -644,6 +644,7 @@ gsbk.pl,klinika.krakow.pl###ci
 gsmonline.pl##div[id*="jGrowl"][class*="bottom-right"]
 gsmonline.pl,wiif.nowybip.pl,zuromin.ibip.net.pl,fakturownia.pl,sugester.pl,attipas.pl###jGrowl
 gsm-grodzisk.pl,wkd.com.pl,hotelpanorama.pl,zdrowemiasto.pl###_mo
+gumtree.pl##.consent-notice
 hachette.com.pl##div[style="position:fixed;bottom:0;z-index:1000;width:100%;text-align:center;background:#EEE;padding:15px 0;border-top:1px solid #333;"]
 hair-shop.pl,mtech.pl##.popup_cont, .popup_back
 handen.pl,mican.eu##.mod_cookiesinfo
@@ -957,6 +958,7 @@ mega-kino.pl,skutecznie.tv###dc-cnb-container
 meloradio.pl##.cookie-giodo
 memoinfo.pl,pingpong.com.pl##body > div:nth-of-type(6)
 memorialhenrykapuzonia.pl###sc
+mercedes-benz-trucks.com##.cookielayer
 mercedes-benz.com###cLayer, #cPageOverlay
 mercedes-benz.com,mercedes-benz.pl###emb-cp-dialog
 mercure.com##.is-ready
