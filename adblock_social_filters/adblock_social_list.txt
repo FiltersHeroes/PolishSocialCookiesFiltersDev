@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: WG1YBb5AX1ctV3Ok1GnLDw
+! Checksum: GuCwuVvM+5VMrtJsELlCVQ
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.29.1
-! Last modified: Tue, 29 Jan 2019, 02:00 UTC+01
+! Version: 2019.1.29.2
+! Last modified: Tue, 29 Jan 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.29.1 aktualizacja: wto, 29 sty 2019, 02:00 UTC+01
+! v.2019.1.29.2 aktualizacja: wto, 29 sty 2019, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -744,6 +744,7 @@ agencjagazeta.pl##a[href^="https://twitter.com/agencjagazeta"]
 agkoperty.com.pl##.frontpage-contact.line > li:nth-of-type(3)
 agroalex.pl##.pc-social-sidebar
 agrobex.pl##.fb-tab
+agro-tom.eu###yt
 agusiq-torrents.pl###bottomstats > table.lista:nth-of-type(2)
 agusto.pl###easycontent_23
 agwerblog.pl###custom_html-7, .footer-widget-inside.widget_text > .custom-html-widget.textwidget > ul
@@ -993,7 +994,7 @@ bydgoszcz.com##.fb, .tw, .yt
 bystragrazyna.pl###bs-likebox-2
 cad-akademia.pl##.und
 cardsplitter.pl##center > center:nth-of-type(1)
-cardsplitter.pl,umig.olkusz.pl,herbapol.krakow.pl,forum.swiateczne.info,homebrewing.pl,greenstar.pl,forum.poradnikogrodniczy.pl,stephenking.pl,nowyolechow.pl,przystanekjezus.pl,mfryz.com.pl,bazarek-deco.com.pl,jackfishing.pl,kegel-aj.com,menago.pl,forumogrodniczeoaza.pl,kinoagrafka.pl,sklepqnap.pl###fb
+cardsplitter.pl,umig.olkusz.pl,herbapol.krakow.pl,forum.swiateczne.info,homebrewing.pl,greenstar.pl,forum.poradnikogrodniczy.pl,stephenking.pl,nowyolechow.pl,przystanekjezus.pl,mfryz.com.pl,bazarek-deco.com.pl,jackfishing.pl,kegel-aj.com,menago.pl,forumogrodniczeoaza.pl,kinoagrafka.pl,sklepqnap.pl,sklep.mizar.com.pl###fb
 carlsbergpolska.pl##div.col-md-4:nth-of-type(2)
 carpetvista.pl##.g-padTstd.r-5cols.std > div.r-colspan1.r-col:nth-of-type(5)
 carrefour.pl##li.m-t-sm:nth-of-type(4)
@@ -1115,7 +1116,7 @@ czerwonak.pl###fb-root, #fb-side-like
 czescidobmw.pl##.facebook-plugin
 czestochowskie24.pl###text-32, .item-youtube
 czterylapysklep.com,zdmikp.bydgoszcz.pl,okiemrolnika.pl###likeboxbluestandardright
-czynnecaladobe.pl,nova.edu.pl,fileshark.pl,lubliniec.info,restauracjabiesiada.com,www.forumzdrowia.pl,perfectsoft.com.pl,sklep.hard-pc.pl,vida.pl,naszabramow.pl,arcontact.pl###face-slider
+czynnecaladobe.pl,nova.edu.pl,fileshark.pl,lubliniec.info,restauracjabiesiada.com,www.forumzdrowia.pl,perfectsoft.com.pl,sklep.hard-pc.pl,vida.pl,naszabramow.pl,arcontact.pl,agro-tom.eu###face-slider
 c-and-a.com##.util-add-margin-bottom.col-md-4.col-xs-12:nth-of-type(3)
 daciakatowice.pl##.fixedFB
 dacter.pl##.stopka a[href="https://www.facebook.com/dacter.akcesoria"]
@@ -1343,6 +1344,7 @@ e-vasco.pl##.facebook-box-slider
 f1experiences.com##.social-media-wrapper
 f1wm.pl##a[href="http://www.facebook.com/pages/F1WMpl-Wyprzedz-Mnie/312906321837"]
 f1wm.pl##a[href="http://www.twitter.com/F1WM"]
+faie.pl###gwSocialmedia
 fakro.pl##div.col-sm-6.col-md-3.footer-col:nth-of-type(4)
 faktykonopne.pl###custom_html-12
 faktyoswiecim.pl###mzine_instagram-2, #mzine_social_media-2
@@ -2413,6 +2415,8 @@ pozegnaj.pl###bottom .col-md-4 > h6.title, #bottom .col-md-4 > p > a
 poznan.travel##.customhtml.widget:nth-of-type(5), div.customhtml.widget:nth-of-type(7), div.customhtml.widget:nth-of-type(8)
 pozycjeobowiazkowe.pl##.fontana-social-icons, #HTML3, #HTML5
 pozyczkomat-lodz.pl##.head_socials
+pphu-galkowski.pl#?#article > span:-abp-contains(NASZE FILMY)
+pphu-galkowski.pl#?#p:nth-of-type(5) > span > strong:-abp-has(a[href="https://www.youtube.com/channel/UCZ6F7e_4fQ1OGQKRovPLjaQ"])
 pracowniastylova.pl###spolecznosc
 pracownia.org.pl##._container-3 > ._col-2 > p:nth-of-type(1), .bordered > ._container-3 > ._col-2 > .image-link
 pralniaiprasowalniadlaciebie.pl##[alt="Google+ Social Icon"]
@@ -2552,6 +2556,7 @@ retroage.net##.bg-grey-100.border-grey-200.border-1.section, .no-padding-sm-lg.c
 retrolab.pl##.wiersz_fb
 retromtb.pl##td:nth-of-type(2) > table > tbody > tr > td:nth-of-type(2) > table > tbody > tr:nth-of-type(n+3) > td > div
 retronagazie.eu###sfsi-widget-5
+retrotraktor.pl##.side-border-right > table:nth-of-type(1)
 rimset.pl###s5_fb
 rmf24.pl##.i2.el1.logo, .i3.el2.logo, .i4.el4.logo, .recommend
 rmf.fm##a[href="http://plus.google.com/111421310920233185523/posts"], a[href="http://twitter.com/rmf_fm"], a[href="http://www.facebook.com/rmf24"], a[href="http://www.facebook.com/rmffm"], a[href="http://www.youtube.com/radiormf"]
@@ -2673,6 +2678,7 @@ sklep.hart-metale.pl##.kac-sm-panel
 sklep.krosno.com.pl##a[href="https://fb.com/krosno.glass"]
 sklep.mieloch.pl##.clearfix.col-md-2.hidden-sm.hidden-xs.top_icons_wrapper
 sklep.mieloch.pl##.tile_icons.col-sm-6.col-xs-12
+sklep.mizar.com.pl###pierwsza.zaklwys
 sklep.platinet.pl##div.fbox:nth-of-type(1) > .t, div.fbox:nth-of-type(1) > .t2
 sklep.polbit.com##.kac-sm-block
 skm.pkp.pl#?#a.round-link:-abp-contains(Facebook)
