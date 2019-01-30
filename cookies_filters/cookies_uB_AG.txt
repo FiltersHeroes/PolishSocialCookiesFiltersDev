@@ -1,11 +1,11 @@
-! Checksum: QY4ftCBLtaEX4txtTlzWEA
+! Checksum: UaZYg1SJPddXhERIdJqJCA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.29.1
-! Last modified: Tue, 29 Jan 2019, 14:00 UTC+01
+! Version: 2019.1.30.1
+! Last modified: Wed, 30 Jan 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.29.1 aktualizacja: wto, 29 sty 2019, 14:00 UTC+01
+! v.2019.1.30.1 aktualizacja: śro, 30 sty 2019, 02:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -79,7 +79,7 @@ fastdeal.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: auto !important;)
 filmweb.pl##body.rodo #header:style(position: relative !important;)
-filmweb.pl##.rodo:style(overflow: auto !important; position: static !important;)
+filmweb.pl##.rodo:style(position: static !important; overflow: auto !important;)
 filmweb.pl##.rodo__overlay
 fiskars.pl##.desktop:style(top: 0 !important;)
 galopuje.pl##+js(abort-current-inline-script.js, $, RODOCOOKIE)
@@ -91,7 +91,7 @@ haloursynow.pl,warsztat.pl,hdtv-sat.eu##.modal-open:style(padding-right: 0 !impo
 hbogo.pl##.banner-overlay
 hbogo.pl,cbdzoe.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
 hm.com##.modaloverlay:has(#gdpr-modal)
-hm.com##.modal-open, .modal-open body:style(overflow-y: auto !important; position: static !important;)
+hm.com##.modal-open, .modal-open body:style(position: static !important; overflow-y: auto !important;)
 ikea.com###cookieMsgBlock
 ikea.com##.has-cookie .main-header-wrap:style(top: 0 !important;)
 indbuildcraft.pl##.modal-overlay, #modal_cookies
@@ -107,6 +107,8 @@ kolomnie.pl##.open-modal:style(overflow: auto !important;)
 kolomnie.pl##.show.rodo-pop-up
 komputerswiat.pl##html > body.cmp:style(overflow: auto !important;)
 komputerswiat.pl##.cmp-app_gdpr
+kramp.com###root-modal
+kramp.com##.no-scroll:style(position: static !important; overflow: auto !important;)
 kruger.pl###rodo, .fader
 kruger.pl##.wmpci-popup-open:style(overflow: auto !important;)
 lafe.pl##.cinfo:style(padding-bottom: 0 !important;)
@@ -200,7 +202,7 @@ wrzesnia.info.pl###rodo, .modal-backdrop
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 www.g2a.com##.modal-options--cookie
-www.g2a.com##.noscroll:style(overflow: auto !important; position: static !important;)
+www.g2a.com##.noscroll:style(position: static !important; overflow: auto !important;)
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px !important;)
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
