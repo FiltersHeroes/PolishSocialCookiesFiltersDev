@@ -1,11 +1,11 @@
-! Checksum: UaZYg1SJPddXhERIdJqJCA
+! Checksum: 58dNWRyCiLs3q3hBm2lpeQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.30.1
-! Last modified: Wed, 30 Jan 2019, 02:00 UTC+01
+! Version: 2019.1.30.2
+! Last modified: Wed, 30 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.30.1 aktualizacja: śro, 30 sty 2019, 02:00 UTC+01
+! v.2019.1.30.2 aktualizacja: śro, 30 sty 2019, 14:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -256,7 +256,7 @@ lipinscy.pl###popRodoInfoContent, .modal-backdrop
 listymikolaja.pl##.fancybox-overlay:has(#popup_rodo_layer)
 listymikolaja.pl,swiat-whisky.sklep.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
 listymikolaja.pl,swiat-whisky.sklep.pl##.fancybox-margin:style(margin-right: 0 !important;)
-lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
+lovekrakow.pl##.modal-open:style(position: static !important; overflow: auto !important;)
 lovekrakow.pl,muzyczneradio.pl###modal-rodo, .modal-backdrop
 mirjan24.pl##body.compensate-for-scrollbar:style(overflow: auto !important;)
 mirjan24.pl###fancybox-container-1:has(#gdpr)
@@ -270,7 +270,7 @@ ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 okazik.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 okazik.pl##.mfp-wrap, .mfp-bg
 pamiatki.pl###hw_cookie_law
-pl.dow.com##html,body:style(overflow: visible !important; position: static !important;)
+pl.dow.com##html, body:style(position: static !important; overflow: visible !important;)
 pl.dow.com##.cookie-notify
 polski-tenis.pl###rodo
 porcelana.com.pl##+js(abort-on-property-read.js, alert, cookies)
