@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 7V9hKmhKzZtiaqWxGr25mQ
+! Checksum: lt1fq658AKCQmmSdFi7zRQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.30.1
-! Last modified: Wed, 30 Jan 2019, 02:00 UTC+01
+! Version: 2019.1.30.2
+! Last modified: Wed, 30 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.30.1 aktualizacja: śro, 30 sty 2019, 02:00 UTC+01
+! v.2019.1.30.2 aktualizacja: śro, 30 sty 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -108,7 +108,7 @@ amazon.de###desktop-cookie-disclosure
 ambermarine.pl###a-cookie
 americanexpress.com###cookie_Header
 amix.pl###policy
-amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv,wifi-spot.net,prostowsmak.com,przedsiebiorcza.com,toiowo.eu,rolland.tech###cookie-notice
+amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv,wifi-spot.net,prostowsmak.com,przedsiebiorcza.com,toiowo.eu,rolland.tech,miyacosmetics.com###cookie-notice
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl,sklep.intert.pl,lampyilampki.pl,lampytanie.pl,gitara-sklep.pl###popup
 amundi.pl,biodiv.gdos.gov.pl,chojnice24.pl###disclaimer
 antyczek.pl###upper-menu-container
@@ -789,7 +789,7 @@ kartonwork.pl,luszczyce.pl##body > div > div[style*="position"][style*="fixed"]
 kartunsy.pl###ait-infobar
 kartuzy.info##div#page_top_topbar2
 kawasaki.pl###Panel_Cookies
-kegel-aj.com###InfoCookie
+kegel-aj.com,sprzetjezdziecki.com###InfoCookie
 kentype.pl##div#ciasteczka-box
 kepno.pl###dhtml_popup
 kiep.pl,milanos.pl,kreskowki.tv###rodo-pop
@@ -1098,7 +1098,7 @@ nokia.com##.cookie_container
 nomi.pl##div#Messenger-Special
 nordglass.pl##.rodoBox--visible.rodoBox
 norwegian.com#?#.alert:-abp-has(.cookie-disclaimer)
-nosalowy-dwor.eu###cookieWarning
+nosalowy-dwor.eu,hotelkrynica.eu###cookieWarning
 nova-farm.com##.cookie_consent
 nowa.tv###mpc_cookie_intro
 noweprzetargi.pl###dcach, #txt
@@ -1195,7 +1195,7 @@ pg.edu.pl###pg-message-cookie
 philips.pl##.dot-cc-container, .dot-body-overlay
 phrasal-verbs.pl##body > div[style="display: block; width: 100%; height: 18px; padding: 4px 0px 10px 0px; margin-bottom: 10px; color: #676767; font-size: 11px; background-color: #fafafa; text-align: center;"]
 piekni.pl##.cookie-notice-accept
-piltza37.pl###fb
+piltza37.pl###fb	
 pipelife.com###coo
 pizzahut.pl###ph-cookies
 pizzaportal.pl,pl.chili.com##.react-cookie-banner
@@ -1414,7 +1414,7 @@ sklep-rolnicze.eu,sowlofficial.com###cookieinfo
 sklep-tosia.eu##.cookie-center
 sklep.alablaboratoria.pl,lmbruss.pl,telesystem-world.com###cover
 sklep.carrefour.pl##.components-cookie-law-basic
-sklep.delta.poznan.pl,globus-wapienica.eu,przeswietl.pl###cookieDiv
+sklep.delta.poznan.pl,globus-wapienica.eu,przeswietl.pl,juvenia2000.pl###cookieDiv
 sklep.eltron.pl###communication
 sklep.genos.com.pl###rodoText
 sklep.sizeer.com###js-cookieInfo
@@ -1441,7 +1441,7 @@ sonymobile.com##.fullbleed-response[data-module="sony-survey-client"][style]
 sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu##.cookie-consent
 sosnowiec.pl###topBar_MainCover
 soundcloud.com,blyskawicznakorekta.pl##.announcements
-spacetronik.eu,skottuning.com###x13pmcookiebar
+spacetronik.eu,skottuning.com,meblerajo.pl###x13pmcookiebar
 specshop.pl##.blockUI
 speedtest.net###_evidon-barrier-wrapper
 speedtest.net##.alert-container
@@ -1523,6 +1523,7 @@ tominet.com.pl,polonika.at#?#table:-abp-has(#cookieMessageText)
 top123.pl##.woocommerce-store-notice
 torkusa.com,tork.pl##.headerMessage
 toshiba-tv.com###CookieDiv.Cookies
+toyotawola.pl###cookie_top_info
 toyota.pl,toyota-lublin.pl###ePrivacyDisclaimer
 tp-link.com###divCookieUsedNote
 trafica.eu,wodbud.eu###q-cookie-box
