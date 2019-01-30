@@ -1,11 +1,11 @@
-! Checksum: Q7EpBtE365+184fMYGrThg
+! Checksum: aWAbRBoEZepyyWJ53swO7A
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Social Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.26.2
-! Last modified: Sat, 26 Jan 2019, 18:00 UTC+01
+! Version: 2019.1.30.1
+! Last modified: Wed, 30 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.26.2 aktualizacja: sob, 26 sty 2019, 18:00 UTC+01
+! v.2019.1.30.1 aktualizacja: śro, 30 sty 2019, 14:00 UTC+01
 !
 !
 ! Popupy
@@ -65,6 +65,8 @@ rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !import
 waw4free.pl###spolecznosci:style(height: auto !important;)
 werandafamily.com##+js(remove-attr.js, href, .instagram-item > .link-block)
 wp.pl##.article > [class]:has(> [class] > .fb-like)
+!# abcfirany.pl##[src="images/banners/Rabat FB.png"]:not([wyciac-inaczej])
+!# upominki24.pl##.item-16.item:not([inaczej-wyciac])
 !
 !
 ! Widgety - specjalne instrukcje
