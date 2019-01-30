@@ -36,7 +36,7 @@ lipinscy.pl###popRodoInfoContent, .modal-backdrop
 listymikolaja.pl##.fancybox-overlay:has(#popup_rodo_layer)
 listymikolaja.pl,swiat-whisky.sklep.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
 listymikolaja.pl,swiat-whisky.sklep.pl##.fancybox-margin:style(margin-right: 0 !important;)
-lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
+lovekrakow.pl##.modal-open:style(position: static !important; overflow: auto !important;)
 lovekrakow.pl,muzyczneradio.pl###modal-rodo, .modal-backdrop
 mirjan24.pl##body.compensate-for-scrollbar:style(overflow: auto !important;)
 mirjan24.pl###fancybox-container-1:has(#gdpr)
@@ -50,7 +50,7 @@ ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 okazik.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 okazik.pl##.mfp-wrap, .mfp-bg
 pamiatki.pl###hw_cookie_law
-pl.dow.com##html,body:style(overflow: visible !important; position: static !important;)
+pl.dow.com##html, body:style(position: static !important; overflow: visible !important;)
 pl.dow.com##.cookie-notify
 polski-tenis.pl###rodo
 porcelana.com.pl##+js(abort-on-property-read.js, alert, cookies)
