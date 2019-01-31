@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: hLDJKIUq6gInSD52qx2esw
+! Checksum: KM4n9OHp+ckCSSXujP7erg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.31.2
-! Last modified: Thu, 31 Jan 2019, 14:00 UTC+01
+! Version: 2019.1.31.3
+! Last modified: Thu, 31 Jan 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.31.2 aktualizacja: czw, 31 sty 2019, 14:00 UTC+01
+! v.2019.1.31.3 aktualizacja: czw, 31 sty 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -32,7 +32,7 @@
 24jgora.pl###myModal_cookie
 24opole.pl###div_cookie_accept
 40latki.pl###noty_bottom_layout_container
-40ton.net,nowy-sacz.info,olgasmile.com,tb4hr.com,telewizja-cyfrowa.com,naziemna.info,fastwhitecat.com,urbanium.eu,zasiedzenie.net,indianpoland.com,settlersonlinewiki.eu,blog.spacetronik.eu,yato.com,perfumyfm.biz,showmag.info,naklo.fm,mecze.com,pabianice.tv,miedzyrzecz.biz###catapult-cookie-bar
+40ton.net,nowy-sacz.info,olgasmile.com,tb4hr.com,telewizja-cyfrowa.com,naziemna.info,fastwhitecat.com,urbanium.eu,zasiedzenie.net,indianpoland.com,settlersonlinewiki.eu,blog.spacetronik.eu,yato.com,perfumyfm.biz,showmag.info,naklo.fm,mecze.com,pabianice.tv,miedzyrzecz.biz,tsintegracje.com###catapult-cookie-bar
 90.pl,arena.wroc.pl,benchmarking.silesia.org.pl,bluecity.pl,brodnica.net,bs.olawa.pl,centrum.mscdn.pl,clickmeeting.com,csioz.gov.pl,decoratorium.eu,dulskidesign.pl,dw.com,e-marketbudowlany.pl,essentiale.pl,fakturaelektroniczna.com,filmotekaszkolna.pl,fitandyummy.pl,gdynia.sr.gov.pl,gugik.gov.pl,hifi.pl,investmap.pl,klinikaagd.pl,kzgw.gov.pl,leroymerlin.pl,ligawalkizrakiem.pl,lodzkie.pl,mazowieckie.com.pl,modecom.com,moventum.com.pl,muszynianka.pl,olejkilecznicze.pl,onerqe-kredyt.pl,otouczelnie.pl,palmiarnia.poznan.pl,pgd.pl,polstor.pl,pozyczkaplus.pl,seopilot.pl,sfinks.pl,shoper.pl,smartpozyczka.pl,smyk.com,stalgorzow.pl,supermemo.com,szkolenia-semper.pl,tapis.pl,terramar.pl,tpvpolska.pl,unityline.pl,venture.pl,waw.pl,wielkopolska.eu,www.mtp.pl,zebra.com,nysa.pl,dolnysopot.pl,radioznin.fm,wanicki.pl##.cookie
 99rent.pl##.region-rodo-info
 360studio.org,wabrzezno.com##.tplis-cl-cookies
@@ -505,6 +505,7 @@ farbykabe.pl###top_cookie_policy
 farmacja.edu.pl###polityka_notice
 fastenerpoland.eu,kartki-swiateczne.com,stalowka.net,grojec24.net,staltech.biz###cookieInfo
 fastenerpoland.eu,vetpersonel.elamed.pl###agreeInfo
+faxtel.com.pl,krnmedia.pl##.cookiealert
 fdb.pl###consent
 felgdent.com###COOKIE_DIV
 feromony.pl###btmcks
@@ -794,7 +795,7 @@ kartonwork.pl,luszczyce.pl##body > div > div[style*="position"][style*="fixed"]
 kartunsy.pl###ait-infobar
 kartuzy.info##div#page_top_topbar2
 kawasaki.pl###Panel_Cookies
-kegel-aj.com,sprzetjezdziecki.com###InfoCookie
+kegel-aj.com,sprzetjezdziecki.com,interlumen.com###InfoCookie
 kentype.pl##div#ciasteczka-box
 kepno.pl###dhtml_popup
 kiep.pl,milanos.pl,kreskowki.tv###rodo-pop
@@ -840,7 +841,6 @@ krakownh.pl,rentsellersgroup.com###strip_cookie_info
 kredito24.pl,zaimo.pl##.politica
 kreskoweczki.pl###rodo-block
 kreskowki.tv,tygodniksiedlecki.com,atelier801.com,fabrykazabawek.eu,nekodancer.com,fortoresse.com,bouboum.com,transformice.com,grupaimage.eu,77sushi.com,avg.com###cookie-bar
-krnmedia.pl##.cookiealert
 krn.org.pl##.clsCookieInfo
 kropleinternetu.biz###cooc_container
 krosnocity.pl###polcia
@@ -855,6 +855,7 @@ kuchniapelnanagrod.pl##div#claw-prompt
 kula.gov.pl,mkidn.gov.pl###pa
 kulki.info###welcome-box
 kulturalnysklep.pl###ctl00_cq_divText
+kupzegarek.com##.cookie-alert.alert-info.alert
 kuratorium.bialystok.pl###spu-9294, #spu-bg-9294
 kuratorium.krakow.pl###spu-24921, #spu-bg-24921
 kuriergarwolinski.pl,fit-kids.pl,sopocki-zdroj.pl,waxclinic.pl###rodoInfo
