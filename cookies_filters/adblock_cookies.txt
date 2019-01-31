@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ll2KeqeddyAnDwX1Ss13tg
+! Checksum: iO/qTMdz86n/6HlzyglZbw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.30.3
-! Last modified: Wed, 30 Jan 2019, 18:00 UTC+01
+! Version: 2019.1.31.1
+! Last modified: Thu, 31 Jan 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.30.3 aktualizacja: śro, 30 sty 2019, 18:00 UTC+01
+! v.2019.1.31.1 aktualizacja: czw, 31 sty 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -634,6 +634,7 @@ gothaer.pl##.ci-bar-wrapper
 gov.pl,policja.pl##.informationBar, .JSWrapper
 gowork.pl##div#header_top
 gowork.pl###header_top > p
+gplshop.pl##.slot--cookies
 grafoteka.pl###info-container
 gragra.pl###WGsswwfyyt
 grawipol.pl,kopland.pl###message-bar
@@ -689,6 +690,7 @@ hrlink.pl##.cookies-obligation-clause
 huawei.com,huaweipolska.pl##.huawei-cookie
 humanoffice.pl###cookie_cointer
 hurtownia-24.pl###roar-alert-wrap  > #roar-alert.roar-alert
+husqvarna.com##.c-fnd-cookie-acceptance
 hydrem-online.com###bookingLayer
 iab.org.pl,iabpolska.pl###wpca-wrapper
 icar.pl###icarcookies
@@ -1105,6 +1107,7 @@ nowa.tv###mpc_cookie_intro
 noweprzetargi.pl###dcach, #txt
 nowezyciepabianic.pl##div#PopupDiv
 nowgeo.pl###div_ciasteczka
+nowyolechow.pl##.cookiesAlert
 nowyteatr.org###cookies-notification
 nuorder.pl##.___ncn-container
 nysa.eu###img_77, #popup-bg
@@ -1409,6 +1412,7 @@ sieradz.com.pl,zdunskawola24.pl###polityka-2
 simplesurance.pl###_s-cookie-notification-container
 sin-say.com###display_cookie_message
 sitn.pl#?#body > div:-abp-has(#cookie-close)
+sklepfarmer.pl###cookie_info_response
 sklepjubilerski.com###cookieGuardMsg
 sklepyabc.pl###am_pop-up
 sklep-rolnicze.eu,sowlofficial.com###cookieinfo
@@ -1419,6 +1423,7 @@ sklep.delta.poznan.pl,globus-wapienica.eu,przeswietl.pl,juvenia2000.pl###cookieD
 sklep.eltron.pl###communication
 sklep.genos.com.pl###rodoText
 sklep.sizeer.com###js-cookieInfo
+sklep.traktor.com.pl###tlo_cookie
 skm.pkp.pl#?#.ui-dialog:-abp-has(#dialog-message-rodo)
 skm.pkp.pl,smart.com##.ui-widget-overlay
 skm.warszawa.pl##div[style="width: 600px; padding: 40px 30px 30px; position: fixed; margin-left: -300px; border: 1px solid rgb(34, 34, 34); line-height: 18px; font-size: 14px; background-color: rgb(255, 255, 255); box-shadow: rgba(50, 50, 50, 0.75) 3px 3px 9px; border-radius: 4px; right: 40px; bottom: 40px; z-index: 9999; color: rgb(40, 40, 40); overflow: hidden;"]
