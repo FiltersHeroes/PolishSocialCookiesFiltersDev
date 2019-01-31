@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: iO/qTMdz86n/6HlzyglZbw
+! Checksum: hLDJKIUq6gInSD52qx2esw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.31.1
-! Last modified: Thu, 31 Jan 2019, 02:00 UTC+01
+! Version: 2019.1.31.2
+! Last modified: Thu, 31 Jan 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.31.1 aktualizacja: czw, 31 sty 2019, 02:00 UTC+01
+! v.2019.1.31.2 aktualizacja: czw, 31 sty 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -262,7 +262,7 @@ bywajtu.pl,livesmarter.pl,luszczyce.pl,mammografia.elblag.pl,mazowia.eu###co15ie
 bzwbk.pl##.cookie-btn
 cafago.com,tomtop.com##.m_privacy_statement
 capri-lublin.pl###mod98
-cavallonero.pl,golembiewscy.pl,sztukalakierowania.pl,sztukawyciszania.pl,perfectclima.pl,puller.com.pl,mikroznakowanie.pl,sprawdzhistorie.pl,zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl,tarta.pl###infobx
+cavallonero.pl,golembiewscy.pl,sztukalakierowania.pl,sztukawyciszania.pl,perfectclima.pl,puller.com.pl,mikroznakowanie.pl,sprawdzhistorie.pl,zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl###infobx
 ccc.eu###cookiesModal
 ccleaner.com,deezer.com##.cookie-banner
 ccm.net##.ccmcss_oic
@@ -365,7 +365,7 @@ diyaudio.pl###navbar_notice_11
 dkpraga.pl##.cookies-frame
 dobregniazdka.pl,luxmarket.pl###rodo_container
 dobrymechanik.pl##.small.navbar-fixed-bottom
-dogizycka.pl,dojaroslawca.pl,domragowa.pl,helskipolwysep.pl,kursnamikolajki.pl,kursnaruciane.pl,visiton.pl,kartuzy.pl###rstbox_1
+dogizycka.pl,dojaroslawca.pl,domragowa.pl,helskipolwysep.pl,kursnamikolajki.pl,visiton.pl,kartuzy.pl###rstbox_1
 dolce-gusto.pl###nimgrowler
 dollarro.com###pnlCookiebanner
 dolnyslask.travel##.cl-banner
@@ -612,6 +612,7 @@ glos.tv##.cookieTooltip
 gls-group.eu,kinder.com###cookiePopup
 glucholazy.pl###layer9
 glyskincare.eu##.module-abovebox[style^="position: fixed;"]
+gminasiedlce.pl###cookieNotification
 gmina.gorlice.pl,hotmag.pl###wysuwane
 gmsystem.pl,sosulski.pl##body > form
 gm-inowroclaw.rbip.mojregion.info###scnb-cookie-bar
@@ -649,6 +650,7 @@ gsmonline.pl##div[id*="jGrowl"][class*="bottom-right"]
 gsmonline.pl,wiif.nowybip.pl,zuromin.ibip.net.pl,fakturownia.pl,sugester.pl,attipas.pl###jGrowl
 gsm-grodzisk.pl,wkd.com.pl,hotelpanorama.pl,zdrowemiasto.pl###_mo
 gumtree.pl##.consent-notice
+haart.pl##.penci-wrap-gprd-law
 hachette.com.pl##div[style="position:fixed;bottom:0;z-index:1000;width:100%;text-align:center;background:#EEE;padding:15px 0;border-top:1px solid #333;"]
 hair-shop.pl,mtech.pl##.popup_cont, .popup_back
 handen.pl,mican.eu##.mod_cookiesinfo
@@ -1641,6 +1643,7 @@ www.casamundo.pl###cm_spa_components_messages_oil
 www.cmcmarkets.com###cmc-tracking-consent-form-step1
 www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
+www.dobreprogramy.pl#?#body[class^="amp-mode"] > #myUserConsent:-abp-contains(RODO)
 www.dxracerkrzesla.pl###cookies-confirm
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.gumtree.com,wordpress.com##.gdpr-banner
