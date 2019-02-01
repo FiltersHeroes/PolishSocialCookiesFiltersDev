@@ -1,11 +1,11 @@
-! Checksum: aWAbRBoEZepyyWJ53swO7A
+! Checksum: GWuRXYgbh1St1FP55bbCmw
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Social Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.30.1
-! Last modified: Wed, 30 Jan 2019, 14:00 UTC+01
+! Version: 2019.2.1.1
+! Last modified: Fri, 01 Feb 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.30.1 aktualizacja: śro, 30 sty 2019, 14:00 UTC+01
+! v.2019.2.1.1 aktualizacja: pią, 01 lut 2019, 14:00 UTC+01
 !
 !
 ! Popupy
@@ -65,8 +65,6 @@ rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !import
 waw4free.pl###spolecznosci:style(height: auto !important;)
 werandafamily.com##+js(remove-attr.js, href, .instagram-item > .link-block)
 wp.pl##.article > [class]:has(> [class] > .fb-like)
-!# abcfirany.pl##[src="images/banners/Rabat FB.png"]:not([wyciac-inaczej])
-!# upominki24.pl##.item-16.item:not([inaczej-wyciac])
 !
 !
 ! Widgety - specjalne instrukcje
@@ -81,10 +79,12 @@ wp.pl##.liketag, .wpsocials--buttons:style(visibility: hidden !important;)
 wp.pl,~www.wp.pl###app > div > table > tbody > tr:nth-child(1) > td > div > div > div > div > div > div > div > article > div > div > div > div[hidden]:style(position: absolute !important; left: -3000px !important;)
 !#endif
 !#if !cap_html_filtering
+abcfirany.pl##+js(remove-attr.js, href, #BanneryAnimacjaPrzewijana > #scrlnr1 > a[href="https://abcfirany.pl/reklama-b-4.html"])
 azjatyckibazar.com##+js(remove-attr.js, href, .slides > li[data-duration] > a[href="http://facebook.com/azjatyckibazar"])
 homebeer.pl##+js(remove-attr.js, href|title, a.slider-img[href="https://pl-pl.facebook.com/homebeerpl/"])
 kamaciuch.pl##+js(remove-attr.js, href, .homeslider-container a[href="https://www.facebook.com/kamaciuch"])
 napiachu.pl##+js(remove-attr.js, href, .carousel-inner a[href="https://www.facebook.com/napiachu/"])
+upominki24.pl##+js(remove-attr.js, href, #slider .item-16 a[href="https://www.facebook.com/upominki24pl/"])
 !#endif
 !#if cap_html_filtering
 azjatyckibazar.com##^#heroSlider > .slides > li[data-duration]:has(a[href="http://facebook.com/azjatyckibazar"])
@@ -92,6 +92,7 @@ homebeer.pl##^.slides > li[id]:has(a.slider-img[href="https://pl-pl.facebook.com
 kamaciuch.pl##^.homeslider-container:has(a[href="https://www.facebook.com/kamaciuch"])
 napiachu.pl##^.carousel-inner > .item:not(.active):has(a[href="https://www.facebook.com/napiachu/"])
 swietarodzina.pila.pl##^div.partial_staged_slideL.single_fading_slide:has-text(Skontaktuj się z nami korzystając z serwisów społecznościowych), div.slider_nav > a:nth-of-type(5)
+upominki24.pl##^#slider .item-16:has(a[href="https://www.facebook.com/upominki24pl/"])
 !#endif
 !
 !
