@@ -1,11 +1,11 @@
-! Checksum: 58dNWRyCiLs3q3hBm2lpeQ
+! Checksum: vjJQ3EygSd7dJFo2lwnLKA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.30.2
-! Last modified: Wed, 30 Jan 2019, 14:00 UTC+01
+! Version: 2019.2.1.1
+! Last modified: Fri, 01 Feb 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.30.2 aktualizacja: śro, 30 sty 2019, 14:00 UTC+01
+! v.2019.2.1.1 aktualizacja: pią, 01 lut 2019, 14:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -219,7 +219,7 @@ zwolen.pl###g_toplayer, .modal-backdrop
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂 - specjalne instrukcje
 !#if !cap_html_filtering
 4fun.tv###cModal, .modal-backdrop
-4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,tvszum.pl,wpr.pl,academy.asseco.pl,fnglob.pl,tvbraniewo24.pl,stadionenerga.pl,rowerowygdansk.pl,brieftip.pl,lipinscy.pl,mistravel.pl,norgips.pl,rome-easysolution.tk,happydental.pl,tvmalbork.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,wroclaw.dlawas.info,nowemiasto.dlawas.info,walbrzych.dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,tvszum.pl,wpr.pl,academy.asseco.pl,fnglob.pl,tvbraniewo24.pl,stadionenerga.pl,rowerowygdansk.pl,brieftip.pl,lipinscy.pl,mistravel.pl,norgips.pl,rome-easysolution.tk,happydental.pl,tvmalbork.pl,poradnikbudowlany.eu##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 academy.asseco.pl###politykaPrywatnosciModal, .modal-backdrop
 alltube.tv,alltube.pl,mistravel.pl###rodo-popup, .modal-backdrop
 autakrajowe.com.pl,optimalg.com##.modal-open:style(overflow: auto !important; margin-right: 0 !important;)
@@ -297,7 +297,7 @@ swiat-whisky.sklep.pl##.fancybox-overlay:has(#conditions_condition)
 tuzdrowie.pl###popupModal, .modal-backdrop
 tuzory.pl,tujastrzebie.pl,tuwroclaw.com,tulodz.com,zakopane.info###pd-modal, .modal-backdrop
 tvasta.pl##.modal-backdrop
-tvregionalna24.pl,tvbraniewo24.pl,optimalg.com,tvmalbork.pl###rodoModal, .modal-backdrop
+tvregionalna24.pl,tvbraniewo24.pl,optimalg.com,tvmalbork.pl,poradnikbudowlany.eu###rodoModal, .modal-backdrop
 tvsztum.pl###rodoModal
 twojeankiety.pl##.polPriv, .modal-backdrop
 ustawmundial.weszlo.com,ustawlige.com###privacy-modal, .modal-backdrop
@@ -374,7 +374,7 @@ radiobielsko.pl,webprojekt.biz##^script:has-text(#rodo)
 rome-easysolution.tk##^#modal-fade
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl,tuwroclaw.com,tulodz.com,zakopane.info##^#pd-modal
 sevenpolska.com##^#flipFlop
-sklepbiker.pl,tvbraniewo24.pl,tvsztum.pl,tvregionalna24.pl,optimalg.com,tvmalbork.pl##^#rodoModal
+sklepbiker.pl,tvbraniewo24.pl,tvsztum.pl,tvregionalna24.pl,optimalg.com,tvmalbork.pl,poradnikbudowlany.eu##^#rodoModal
 skm.pkp.pl##^#dialog-message-rodo
 sp112.waw.pl##^.popmake-overlay[data-popmake*="cookies"]
 spolem.katowice.pl,wpr.pl,mdkkolbuszowa.pl##^#popup.modal
@@ -459,7 +459,7 @@ rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl,tuwroclaw
 sevenpolska.com$$#flipFlop
 sklepbiker.pl###rodoModal, .modal-backdrop
 sklepbiker.pl,galopuje.pl##.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
-sklepbiker.pl,tvbraniewo24.pl,tvsztum.pl,tvregionalna24.pl,optimalg.com,tvmalbork.pl$$#rodoModal
+sklepbiker.pl,tvbraniewo24.pl,tvsztum.pl,tvregionalna24.pl,optimalg.com,tvmalbork.pl,poradnikbudowlany.eu$$#rodoModal
 skm.pkp.pl$$#dialog-message-rodo
 sp112.waw.pl$$.popmake-overlay[data-popmake*="cookies"]
 spolem.katowice.pl,wpr.pl,mdkkolbuszowa.pl$$#popup.modal
