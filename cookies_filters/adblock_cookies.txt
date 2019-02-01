@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: KM4n9OHp+ckCSSXujP7erg
+! Checksum: d3anBWj8MjN9AS3Gmo95uQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.1.31.3
-! Last modified: Thu, 31 Jan 2019, 18:00 UTC+01
+! Version: 2019.2.1.1
+! Last modified: Fri, 01 Feb 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.1.31.3 aktualizacja: czw, 31 sty 2019, 18:00 UTC+01
+! v.2019.2.1.1 aktualizacja: pią, 01 lut 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -99,7 +99,7 @@ allplay.pl,ammoffice.pl,androidmagazine.pl,biuletyn.net,blog.j-labs.pl,eneva.pl,
 allsporter.com##.cookies-ct
 allview.pl###modalGDPR.modalGDPR
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
-altimi.com,superstacja.tv,fiufiu.co###cookie-info
+altimi.com,superstacja.tv,fiufiu.co,inwex.eu###cookie-info
 alufelgi.sklep.pl,sklep.kutnik.com.pl##body > div[style*="position: fixed;"]:not([id]):not([class])
 aluzja.gorzow.pl,artgos.pl,ck.przemysl.pl,diagmed.info.pl,hostgrafia.pl,mojawww.com,osrodek-terapii.com,puch-kotlowski.pl,sls.info.pl,swiatdeski.pl,tomiicars.com.pl,treningkrakow.pl,vagaru.pl,wikar.pl##div[class]:not([id]) > aside.type-10.widget, section[class]:not([id]) > aside.type-10.widget, div[class]:not([id]) > div[id].type-10.widget > aside.type-10.widget
 al.to,x-kom.pl,combat.pl###popup-cookie
@@ -108,7 +108,7 @@ amazon.de###desktop-cookie-disclosure
 ambermarine.pl###a-cookie
 americanexpress.com###cookie_Header
 amix.pl###policy
-amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv,wifi-spot.net,prostowsmak.com,przedsiebiorcza.com,toiowo.eu,rolland.tech,miyacosmetics.com###cookie-notice
+amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv,wifi-spot.net,prostowsmak.com,przedsiebiorcza.com,toiowo.eu,rolland.tech,miyacosmetics.com,bysewo-kolor.eu###cookie-notice
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl,sklep.intert.pl,lampyilampki.pl,lampytanie.pl,gitara-sklep.pl###popup
 amundi.pl,biodiv.gdos.gov.pl,chojnice24.pl###disclaimer
 antyczek.pl###upper-menu-container
@@ -164,6 +164,7 @@ badaniaprenatalne.pl###stb-14718
 badaniapsychologiczne.net###kopageBarCookies
 badoo.com###page-cookie-notification
 baldowski.pl,label-magazine.com##.moduleCookiesBox
+balex.eu###djckm.cookie-alert
 balladine.com,nails.silcare.com,ochnik.com,mistama.com,basspolska.com###cookies_message
 bambino.dzidziusiowo.pl##.section--cookies
 bankier.pl###smart-cmp-host
@@ -482,7 +483,7 @@ e-hotelarz.pl,e-stacjapaliw.pl,e-restauracja.com,grene.pl,salesmanago.pl,turek.n
 e-konferencje.pl,szkolenia24h.pl##body > div[style="width: 970px; border:1px solid gray; margin: 3px auto; color: gray; padding: 3px; text-align: center; font: 10px Verdana, sans-serif;"]
 e-konkursy.info###rodoNotify, #cookieNotify
 e-kwiaciarz.pl##.ff-cookies-container
-e-manufaktura.com,starecegly.com,sklep.polbit.com,kolonieiobozy.net,rolkom.net###cookie
+e-manufaktura.com,starecegly.com,sklep.polbit.com,kolonieiobozy.net,rolkom.net,sklep.grupamagnum.eu,shopgadget.eu,poradnikbudowlany.eu###cookie
 e-petrol.pl,uzdrowisko-wieniec.pl###statement
 e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
 e-podlaskie.eu###cookie-info-box
@@ -786,7 +787,7 @@ kalendarzrolnikow.pl,lpwiksa.com.pl,hopea.eu,kpcen-torun.edu.pl###colorbox, #cbo
 kalendarzswiat.pl###consent_box_wrapper
 kalisz.pl###showHideDiv
 kalkulator.wakacyjnapolisa.pl,rankomat.pl##.rank-cookie-bar
-kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu,hikoki-narzedzia.pl###cookieNotice
+kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu,hikoki-narzedzia.pl,dombud.eu###cookieNotice
 kamilianie.eu##div[style="position: fixed; top: 50px; left: 0px; right: 0px; bottom: auto; z-index: 5; visibility: hidden; font-family: Arial, Verdana, Tahoma; font-size: 14px; line-height: 1em; color: rgb(34, 34, 34); "]
 kapucyni.pl###mod_ppcookies
 karmimypsiaki.pl##div#ciasteczkaInfoContainer
@@ -910,7 +911,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubimyczytac.pl###TB_window, #TB_overlay
