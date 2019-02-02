@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: d3anBWj8MjN9AS3Gmo95uQ
+! Checksum: dvcSwmocUM/5i0E1W6opfQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.1.1
-! Last modified: Fri, 01 Feb 2019, 14:00 UTC+01
+! Version: 2019.2.2.1
+! Last modified: Sat, 02 Feb 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.1.1 aktualizacja: pią, 01 lut 2019, 14:00 UTC+01
+! v.2019.2.2.1 aktualizacja: sob, 02 lut 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -108,7 +108,7 @@ amazon.de###desktop-cookie-disclosure
 ambermarine.pl###a-cookie
 americanexpress.com###cookie_Header
 amix.pl###policy
-amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv,wifi-spot.net,prostowsmak.com,przedsiebiorcza.com,toiowo.eu,rolland.tech,miyacosmetics.com,bysewo-kolor.eu###cookie-notice
+amodream.com,anymind.com,bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,genesis-zone.com,hulubrushes.com,independentdigital.com,jakdorobic.com,kropka.audio,kryminalni24.info,lapppoland.lappgroup.com,lowiczanin.info,mago.com,marfafashion.com,pl.stealthsettings.com,pol-ukr.com,polska-ie.com,roztocze.net,skiparkmagura.eu,weddingdream.com,wiskitki.org,wislakrakow.com,wnet.fm,gettinenglish.com,orangebuddies.com,makulscy.com,domjozefa.tv,wifi-spot.net,prostowsmak.com,przedsiebiorcza.com,toiowo.eu,rolland.tech,miyacosmetics.com,bysewo-kolor.eu,warsawmotorshow.com###cookie-notice
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl,sklep.intert.pl,lampyilampki.pl,lampytanie.pl,gitara-sklep.pl###popup
 amundi.pl,biodiv.gdos.gov.pl,chojnice24.pl###disclaimer
 antyczek.pl###upper-menu-container
@@ -153,6 +153,7 @@ autogielda.pl,auto-czesci-lipiec.pl,mix4kids.tv,dreammachines.pl,fotosik.pl,halo
 autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,steplowski.net,galerialimonka.pl,otabletach.pl###cop
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autos-motos.net,scentre.pl,ilewazy.pl##.consent
+auto.pl##.cookie-information-wrapper
 avans.pl##.is-cookies
 avast.com,pay.google.com,trustpilot.com,outride.rs##.cookie-bar:not(body)
 avatradepolska.pl##.accept-cookie-block
@@ -396,7 +397,7 @@ dziennikwschodni.pl,wykop.pl##.rodo-alert
 dzis.tv##div#regulaminWrap
 e24cloud.com##div#FullBox
 earlystage.pl###cookie-beam
-easypaste.org,halogorlice.info,nasze-kino.eu,polskatelewizjausa.com,pl.soringpcrepair.com,forum.swiateczne.info,experiencecorner.com,plustek.com##.cc-window[aria-label="cookieconsent"], .cc-revoke
+easypaste.org,halogorlice.info,nasze-kino.eu,polskatelewizjausa.com,pl.soringpcrepair.com,forum.swiateczne.info,experiencecorner.com,plustek.com,eco-driving.info##.cc-window[aria-label="cookieconsent"], .cc-revoke
 ebay.pl###gdpr-banner, .gh-banner
 ebizneskrokpokroku.pl###notification-bar
 eblik.pl#?#.page_content_info:-abp-has(#cookie_info_max)
@@ -673,7 +674,7 @@ hipotekadlaciebie.com,srodkidlafirm.com##.CTcookie-container
 histmag.org,cochrane.org###cookie-warning
 hitachi.eu###cookie-compliance
 hi-tec.com.pl##DIV[style="width: 882px; padding: 10px; margin: 3px auto; text-align: center; color: #BABABA"]
-hoegert.com###ca_banner
+hoegert.com,pimot.eu###ca_banner
 hoga.pl###warning
 hokej.net###cookies_box
 holidaycheck.pl###infoCloseableBoxContainer
@@ -865,6 +866,7 @@ kuvert.com.pl###gdpr-cookie-message
 kyoceradocumentsolutions.pl###cookie-slide
 kzgw.gov.pl###jcemediabox-popup-page
 k-ex.pl##div[style="position: fixed; bottom: 0px; width: 100%; background-color: rgb(204, 204, 204); z-index: 1; box-shadow: rgb(102, 102, 102) 0px 0px 5px;"]
+k-mag.pl#?##modals-container:-abp-contains(RODO)
 laboratoria.net###cboxOverlay
 laboratoria.net#?##colorbox:-abp-has(#rodoPopupClose)
 lagardere-tr.pl###madcoders-cookies-info-bar-wrapper-back
@@ -990,6 +992,7 @@ michalgrabarski.eu###ccc-icon
 michal.kosmulski.org###ustawaCiasteczkowa
 microsoft.com,office.com###uhfCookieAlert
 mielec.pl##.footer_cookieinfo
+mikroporady.pl##.c-cookie-box
 milenium.pl##.cookie_acceptation
 millymally.pl###js-xcookies
 milmag.pl###layCookieAlert
@@ -1008,7 +1011,7 @@ mi.com##.J_agreeCookieModal, .top-notify
 mklr.pl##DIV[style="position: fixed; left:0; right:0; bottom:0; height:40px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 mmtv.pl###policyInfo
 mniammniam.com##.mm-cookies
-mobile.de##div[class^="cookie-banner"]
+mobile.de###consentBanner, div[class^="cookie-banner"]
 mobilitytrends.pl,mobilitynews.pl,techtradeshow.pl##.politic-cookie
 mocnopomocni.pl##DIV[style="width: 100%; background-color: rgb(242, 242, 242); margin: 10px auto 0px; padding: 15px 8px; position: fixed; left: 0px; bottom: 0px; z-index: 1000; color: rgb(40, 40, 40);"]
 mocnopomocni.pl##div[style="width: 100%; background-color: rgb(242, 242, 242); margin: 10px auto 0px; padding: 15px 8px; position: fixed; left: 0px; bottom: 0px; z-index: 1000; color: rgb(40, 40, 40); "]
@@ -1363,6 +1366,7 @@ rio.gov.pl###cookies_ue_alert
 rittal.com###wrap-cookieconsent
 rkantor.com###cookies-box
 rkb.pl##.fb-top.foobar-wrapper
+roadstars.mercedes-benz.com##.cookie-law
 rockpapershotgun.com##div#ecd_opt_in_banner
 rondel.pl###rondelpl_cookies
 rosja.pl###cookframe
@@ -1581,6 +1585,7 @@ vinted.pl##.c-cell--default.c-cell--primary.c-cell--wide.c-cell
 virustotal.com###euConsent
 vivaldi.com###cookiemsg
 vivrehome.pl###notification__consent
+volkswagen.pl##.vw_js_cookie_eu_policy
 voxel.pl###block-rodo-rodo-block
 vuch.pl##.gdpr-cookie-bar
 wacetob.com.pl###container > div[style="position:fixed;left:0px;width:100%;height:60px; background-color:white;padding:5px;bottom:0px;opacity:0.85;filter:alpha(opacity=85);text-align:right;"]
