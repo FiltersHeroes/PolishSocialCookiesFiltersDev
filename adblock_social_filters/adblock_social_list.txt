@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 3889jzdnYSQJ+OgVqDg46w
+! Checksum: V0S2H4pmhBT7hnC8xjWWyA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.3.3
-! Last modified: Sun, 03 Feb 2019, 22:00 UTC+01
+! Version: 2019.2.3.4
+! Last modified: Sun, 03 Feb 2019, 23:11 UTC+00
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.3.3 aktualizacja: nie, 03 lut 2019, 22:00 UTC+01
+! v.2019.2.3.4 aktualizacja: N, 03 lut 2019, 23:11 UTC+00
 !
 !
 ! Popupy
@@ -139,6 +139,7 @@ zuch.media###spu-10366, #spu-bg-10366
 !
 !
 ! Ogólne reguły ukrywające
+com,pl##.pwebbox.pwebbox-plugin-facebook_page_plugin
 pl##.FBButton
 pl##.Facebook
 pl##.Instagram
@@ -915,7 +916,6 @@ belsat.eu##a[href="https://twitter.com/Bielsat_pl"], a[href="https://www.youtube
 belutti.com##.fa-facebook-official.fa
 beskidy.news##.js-fb-page.c-fb-page
 beskidzka-akademia.pl##.footer-medium .contact-us-widget
-bestaudio.pl###pwebbox526
 beta.speedtest.net##a[href="http://twitter.com/speedtest"], a[href="http://www.facebook.com/teamookla"]
 bettingexpert.com##.columns.medium-3:nth-of-type(1)
 bet-at-home.com##.teaser-social-media
@@ -1124,7 +1124,6 @@ cs-escape.pl##.ipsBox.ipsWidget_vertical.ipsWidget:nth-of-type(3)
 cs-harnas.pl###ipsLayout_socialMedia
 ctek-ladowarki.pl##.polub_block
 cubik.pl##.fbwidget
-cud.rzeszow.pl###pwebbox104, .youtube
 culturalcare.pl##li.page-footer__link-list-social
 culture.pl##.sidebar-inner > ul > li:nth-of-type(-n+2)
 cumulus.pl##.Content .intro > .appName
@@ -1274,7 +1273,7 @@ ehurt.eu###fb_button
 eitalia.pl##div.fixed-slide:nth-of-type(2)
 ekobilet.pl#?#.padtb-3.text-center.container:-abp-contains(Facebooku)
 ekologia.pl##.linkWykop, .bi2.bottom-item
-ekologiczny.pl,moto125.pl,wodna-kraina.pl,sklephormann.pl,tylkostylowe.pl###widget_shop1
+ekologiczny.pl,moto125.pl,wodna-kraina.pl,sklephormann.pl,tylkostylowe.pl,hotspray.pl###widget_shop1
 ekonomik.olsztyn.pl###facebook_head
 eko-central.pl##.social-network
 eksiazki.az.pl##a[href="http://facebook.com/eksiazki"], .subscribe > a[href="https://plus.google.com/+Eksiążkiplus"], .subscribe > a[href="https://twitter.com/e_ksiazki"], .subscribe > a[href="http://www.youtube.com/c/Eksiążkiplus"]
@@ -1329,7 +1328,6 @@ eska.tv##.social.box
 espozywczak.pl,militarialodz.pl,fantoma.pl,kolonieiobozy.net##.box_facebooklike_wrap
 eswinoujscie.pl##.td-instagram-element, .td-footer-instagram-title, .td_block_instagram
 etam.pl##.shareFooter
-ets2mods.com###pwebbox137_toggler
 eulerhermes.pl###ICI-footerSocial, .ICI_linkedin, .ICI_google, .ICI_youtube
 euro26.pl###fbLikeright
 eurobank.pl##.last.f-div > .bold
@@ -1516,7 +1514,7 @@ gls-group.eu##.linkedin
 glusi.tv###text-21
 glyskincare.eu#?#.news.columns.twelve:-abp-contains(nas na Instagramie)
 gminamakow.info##.jm-social
-gminamoszczenica.eu###pwebbox168_toggler
+gminamoszczenica.eu,polonika.at,sedzia.net,sp5kcr.eu,radioznin.fm##.pwebbox-plugin-facebook_page_plugin
 gminasiedlce.pl##a[href="https://www.facebook.com/ugsiedlce"] > img
 gmina.kolobrzeg.pl##.banery_wysuwane > div.noprint.pole-banerowe:nth-of-type(n+2):nth-of-type(-n+3)
 gniezno24.com,pankanapka.pl,zsz.pisz.pl###likeboxbluestandardleft
@@ -1790,7 +1788,6 @@ knieje.pl##.fb_likebox
 kobietydokodu.pl##a[href="https://facebook.com/kobietydokodu"]
 kochanamama.pl##.pmpIFb, .pmpIGp, .pmpIYt
 kodiwpigulce.pl##.footer-sidebar.sidebar:nth-of-type(4)
-kodi.org.pl##.pweb-theme-fbnavy
 kodzisz.pl##li.menu__item:nth-of-type(n+5)
 kolczewska.pl###my_facebook_widget-2
 kolemsietoczy.pl###menu-sociale > li:nth-child(-n+4)
@@ -2056,7 +2053,6 @@ mmarocks.pl,rzeszow-news.pl,kochamwroclaw.pl ##.td-instagram-element, .td-footer
 mmiur.com##.ytimg
 mng.gda.pl##section.section-opaque > .container-vertical-middle.container-fullwidth > .vertical-middle.row > div.small-screen-default.text-center.col-md-4:nth-of-type(-n+3)
 mnwr.pl##.bottom-menu-lvl-2__sm > .footer-sm-2
-mobbingwpracy.com###pwebbox784
 mobilevikings.pl##.footer-other.columns > div.col-6-12:nth-of-type(1)
 mobilitytrends.pl##.footer_social_link:nth-of-type(4)
 mocak.pl##.mocak-social-links
@@ -2186,7 +2182,6 @@ nebulus.pl###fx-social
 neo-net.com.pl##a[href="https://www.facebook.com/drukarniaNeoNet"], a[href="http://instagram.com/drukarnianeonet"], a[href="http://pl.linkedin.com/company/neo-net---drukarnia-wielkoformatowa"]
 nepalshop.pl##a > img[src="/public/assets/ico-yt.png"], a > img[src="/public/assets/ico-insta.png"]
 netfan.pl##a[href="https://netfan.pl/partners/youtube.php"] > img, a[href="https://netfan.pl/partners/nk.php"] > img
-netkom.pruszcz.com##.pwebfblikebox_tab
 newonce.net##h5.h5:nth-of-type(2)
 newonce.net##.footer-desktop__social-wrapper
 newsweek.pl##.articleSocials
@@ -2431,7 +2426,6 @@ poloniawroclaw.pl##.ys-sidebar-btn-3, .ys-sidebar-btn-4
 polonia.nl##.facebook-like-us
 polonia.poznan.pl##.box:nth-of-type(3)
 polonika.at###top1 .poscenter
-polonika.at,sedzia.net,sp5kcr.eu##.pwebbox-plugin-facebook_page_plugin
 polregio.pl##.hpm-social
 polsatnews.pl##.nav--social-box.nav > .nav__items > .nav__item:nth-of-type(-n+5), .nav--share.nav.news__share > .nav__items > .nav__item:nth-of-type(-n+5)
 polsatnews.pl##.polubnas, .soc-txt-share
@@ -2607,7 +2601,6 @@ radiotczew.pl##.hidden-xs.sbuttons.list-inline.list-unstyled > li:nth-of-type(3)
 radiotczew.pl##.hidden-xs.sbuttons.list-inline.list-unstyled > li:nth-of-type(4) > a[href="https://www.youtube.com/user/tvtetka"]
 radiovia.com.pl###footer > div > div > div > p.text-center:nth-of-type(1)
 radiowarszawa.com.pl##.wp-side-menu > .wp-side-menu-item
-radioznin.fm###pwebbox384_toggler
 radio-goldap.com.pl###footer .hidden-xs.hidden-sm.col-md-3.col-sm-6.col-xs-12 > h2
 radio.bialystok.pl##div.row:nth-of-type(13) > div.columns.small-12.medium-6.large-4:nth-of-type(n+3):nth-of-type(-n+4), .footer2 .text-left.columns > .links2, div.row:nth-of-type(4) > div.columns.large-4:nth-of-type(5)
 radio.pl##li.col-md-2.col-sm-3.col-xs-6:nth-of-type(6) > .footer-headline
@@ -3059,6 +3052,8 @@ typeofweb.com###text-4, #tp_widget_recent_tweets-2, #text-2 > .widget-title
 tytus.edu.pl##a[href="https://www.facebook.com/Hr.Tytus/"]
 uap.edu.pl###footer #text-2
 uber.com,ubereats.com##a[href*="www.facebook.com/uber"], a[href*="twitter.com/uber"], a[href*="instagram.com/uber"], a[href*="linkedin.com/company/1815218"]
+ubraniak.pl##p > a[href*="facebook.com/Ubraniak/"] > img
+ubraniak.pl##.social-conteiner
 ulotki.net###likeboxblueiconright
 um24.pl##.m-kontakt.navbar-nav.nav > li:nth-child(n+2)
 umcs.pl##.layout-follow .col-lg-6.col-md-5 > .iblocks-30.iblocks, .layout-follow .col-lg-5.col-md-6 > .iblocks-30.iblocks > .iblock:nth-of-type(-n+2)
@@ -3346,6 +3341,11 @@ zvami.tv,cooltura24.co.uk,echotygodnik.info##.facebook, .google, .twitter, .inst
 zwiedzam-stadiony.eu##.instagal_widget
 zwrotzalot.pl##a[href^="https://www.facebook.com/zwrotzalot/"]
 zygzaksnow.pl###ppfacebook
+!cud.rzeszow.pl###pwebbox104, .youtube
+!ets2mods.com###pwebbox137_toggler
+!kodi.org.pl##.pweb-theme-fbnavy
+!mobbingwpracy.com###pwebbox784
+!netkom.pruszcz.com##.pwebfblikebox_tab
 !
 !
 ! Specyficzne reguły blokujące
