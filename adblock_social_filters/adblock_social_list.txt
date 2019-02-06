@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: k0BEXCLwSgXoM0H2cHiedQ
+! Checksum: cJZGlHt7A0hlEnnQj75Pjw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.6.1
-! Last modified: Wed, 06 Feb 2019, 14:00 UTC+01
+! Version: 2019.2.6.2
+! Last modified: Wed, 06 Feb 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.6.1 aktualizacja: śro, 06 lut 2019, 14:00 UTC+01
+! v.2019.2.6.2 aktualizacja: śro, 06 lut 2019, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -1093,6 +1093,7 @@ ci-polsat.pl##.pane-block-21.pane-block.panel-pane, .promo:nth-of-type(2) > .inn
 ckm.pl##.facebook-aside.widget, .social-link-item
 ckz.pl##a[href="#"]:nth-of-type(n+2):nth-of-type(-n+3) > .use-hover.shortcode.icon, div[id*="wpv-column-"] > p > a[href="#"]:nth-of-type(1) > .use-hover.shortcode.icon
 claresa.pl##.boxGrzesSocial
+click2go.pl#?#.fl-col-has-cols.fl-col-small.fl-col > .fl-node-content.fl-col-content:-abp-contains(Social Media)
 clineo.pl##.uk-flex-middle.uk-flex > .icon-facebook_icon
 coccodrillo.eu###socialFlyBox
 cocomoda.pl##h4:nth-of-type(2), .banner_small_right, .icons_footer_top
@@ -1745,7 +1746,7 @@ jakitydzien.pl#?#ul:-abp-has(>li>a[href="https://facebook.com/jakitydzien"])
 jakrobicmarketing.pl###twitter-follow-2, #gcz_facebook_page_like-2, .share-buttons
 jakzrobicwexcelu.pl,wrealu24.pl###custom_html-6
 janniezbedny.pl###social_gp
-janod.pl###instagram_zone
+janod.pl###instagram_zone, #instagram_footer
 janod.pl##.flr > .flr > a > img
 jarek-kefir.org##.sidebar-main.col-sidebar > #media_image-61
 javascript-html5-tutorial.pl##div.socialboxes:nth-of-type(3)
@@ -2079,6 +2080,7 @@ mng.gda.pl##section.section-opaque > .container-vertical-middle.container-fullwi
 mnwr.pl##.bottom-menu-lvl-2__sm > .footer-sm-2
 mobilevikings.pl##.footer-other.columns > div.col-6-12:nth-of-type(1)
 mobilitytrends.pl##.footer_social_link:nth-of-type(4)
+mobilne-miasto.org###go-twitter, #go-facebook, #go-linkedin
 mocak.pl##.mocak-social-links
 modea.pl##.footer_wrap .col-md-offset-1.col-md-6
 moderntasteblog.com##.menuplus
@@ -2724,6 +2726,7 @@ savicki.pl#?#.mt-5 > div.line-section:nth-of-type(1):-abp-contains(Dołącz do n
 sawataxi.pl##.oNasSocIcons, .oNasSocName
 schronisko-nowodwor.com.pl##.fa-google-plus.fa.ba-btn-transition
 scottiego.com##.social-links
+scroot.pl##.ins, .footerNav > ul > li:nth-of-type(3)
 sdk.pl##.rssocial-icons > li:nth-of-type(-n+5)
 sebucja.pl##footer > .main-footer-container.outter-wrapper > .element-block-widgets.hero-widgets
 sebucja.pl##.belle_instagram_gallery.widget, .belle_social_links.widget, .widget_belle_facebook.widget
