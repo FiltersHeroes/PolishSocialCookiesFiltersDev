@@ -1,11 +1,11 @@
-! Checksum: vjJQ3EygSd7dJFo2lwnLKA
+! Checksum: kCvXBIQ2j0TfRdnihAZd+A
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.1.1
-! Last modified: Fri, 01 Feb 2019, 14:00 UTC+01
+! Version: 2019.2.6.1
+! Last modified: Wed, 06 Feb 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.1.1 aktualizacja: pią, 01 lut 2019, 14:00 UTC+01
+! v.2019.2.6.1 aktualizacja: śro, 06 lut 2019, 14:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -72,9 +72,6 @@ edupolis.pl###sgpb-popup-dialog-main-div-wrapper, .sg-popup-overlay
 e-sochaczew.pl###RODOCOOKIE, .modal-backdrop
 fabrykacukiernika.pl##.rodo-on:style(overflow: auto !important;)
 fabrykacukiernika.pl##.rodo-popup
-farmacja.net##.blur:style(filter: none !important;)
-farmacja.net##.noscroll:style(overflow: auto !important;)
-farmacja.net##.zgoda-popup-wrapper, .popup-overlay
 fastdeal.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: auto !important;)
@@ -100,6 +97,8 @@ innogy.pl##html.cookie-wall-active body:style(overflow: auto !important;)
 innogy.pl###cookie-wall-container
 ipla.tv##.no-scroll:style(overflow: auto !important;)
 ipla.tv##.rodo-rules-modal
+jedenslad.pl##.popup-overlay.js-gdpr
+jedenslad.pl,farmacja.net,mgr.farm##.noscroll:style(overflow: auto !important;)
 kaliszak.pl##.rodo, .rodo_layer
 kalisz.info.pl###all:style(top: 0 !important;)
 kobietymedycyny.pl##+js(abort-current-inline-script.js, $, cookies)
@@ -117,9 +116,6 @@ mago.com###yl-popup-wrapper-popupRodo, #yl-popup-shadow-popupRodo
 maxpremiumburgers.pl##.infoBannerGdpr:style(margin-top: 0 !important;)
 mazury.travel##.popup, .popup-overlay
 meetup.com###mupFooter:style(padding-bottom: 0 !important;)
-mgr.farm##.blur:style(filter: none !important;)
-mgr.farm##.noscroll:style(overflow: auto !important;)
-mgr.farm##.popup-overlay, .zgoda-popup-wrapper
 mikroporady.pl##.mikroporady:style(padding-top: 0 !important;)
 militaria-hobby.eu##+js(abort-on-property-read.js, alert)
 mkidn.gov.pl###myModal
