@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: cRJLfNaDgKzVSRzaG5r1ww
+! Checksum: cNLcgzdqpphbnus4PNNGuw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.6.1
-! Last modified: Wed, 06 Feb 2019, 14:00 UTC+01
+! Version: 2019.2.6.2
+! Last modified: Wed, 06 Feb 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.6.1 aktualizacja: śro, 06 lut 2019, 14:00 UTC+01
+! v.2019.2.6.2 aktualizacja: śro, 06 lut 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -339,7 +339,7 @@ daciakatowice.pl,nazaruk.pl##.fixedInfo
 daewooforum.pl##.back > table:not(.bodyline):nth-of-type(1)
 daiglob.pl###NRodo2018
 danepubliczne.gov.pl##.flash-messages
-darkarea.pl,cmentarz-szprotawa.pl###hi-eu-opt-in
+darkarea.pl,cmentarz-szprotawa.pl,naklejkolandia.pl###hi-eu-opt-in
 darksiders.pl###callout
 darlowo.pl###dane_osobowe
 darnatury.pl###kukibar
@@ -1013,6 +1013,7 @@ mmtv.pl###policyInfo
 mniammniam.com##.mm-cookies
 mobile.de###consentBanner, div[class^="cookie-banner"]
 mobilitytrends.pl,mobilitynews.pl,techtradeshow.pl##.politic-cookie
+mobilne-miasto.org###c-box
 mocnopomocni.pl##DIV[style="width: 100%; background-color: rgb(242, 242, 242); margin: 10px auto 0px; padding: 15px 8px; position: fixed; left: 0px; bottom: 0px; z-index: 1000; color: rgb(40, 40, 40);"]
 mocnopomocni.pl##div[style="width: 100%; background-color: rgb(242, 242, 242); margin: 10px auto 0px; padding: 15px 8px; position: fixed; left: 0px; bottom: 0px; z-index: 1000; color: rgb(40, 40, 40); "]
 modecom.pl,synektik.pl###mc_top_bar
