@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Fy4XbAGUFVVD+9irjo5/qQ
+! Checksum: cRJLfNaDgKzVSRzaG5r1ww
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.5.2
-! Last modified: Tue, 05 Feb 2019, 22:00 UTC+01
+! Version: 2019.2.6.1
+! Last modified: Wed, 06 Feb 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.5.2 aktualizacja: wto, 05 lut 2019, 22:00 UTC+01
+! v.2019.2.6.1 aktualizacja: śro, 06 lut 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -119,7 +119,7 @@ apkpure.com###policy-info
 apo-discounter.pl###landing_page_popup
 apra.pl,przegladlokalny.eu###popup-overlay
 aptekagemini.pl###kukiz
-aptekaleki.co.uk,apteka-natura.eu,unbrokenstore.com,ene-due.eu,awangardashoes.com,newbadline.com,zapachyswiata.eu###ck_dsclr
+aptekaleki.co.uk,apteka-natura.eu,unbrokenstore.com,ene-due.eu,awangardashoes.com,newbadline.com,zapachyswiata.eu,bludshop.com,wentsystem.com,m-shop.eu###ck_dsclr
 aptekarzpolski.pl###sgcolorbox.colorbox4
 arachnea.org##div.guestwarn
 architektura.info##.modal
@@ -204,7 +204,7 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
-bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com,madameedith.com,stskurier.com,zabart.com,ciasta.net,tfkable.com,emcconsultant.eu,zlomowisko.info###cookies-message
+bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com,madameedith.com,stskurier.com,zabart.com,ciasta.net,tfkable.com,emcconsultant.eu,zlomowisko.info,wader.toys###cookies-message
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl,aspsklep.pl,klublifestyle.pl,sgurp.pl,zwolenpowiat.pl,gckis.trzebnica.pl,florexpol.eu###fancybox-wrap, #fancybox-overlay
 bip.marciszow.pl###cookiesWarning
@@ -402,7 +402,7 @@ dziennikwschodni.pl,wykop.pl##.rodo-alert
 dzis.tv##div#regulaminWrap
 e24cloud.com##div#FullBox
 earlystage.pl###cookie-beam
-easypaste.org,halogorlice.info,nasze-kino.eu,polskatelewizjausa.com,pl.soringpcrepair.com,forum.swiateczne.info,experiencecorner.com,plustek.com,eco-driving.info##.cc-window[aria-label="cookieconsent"], .cc-revoke
+easypaste.org,halogorlice.info,nasze-kino.eu,polskatelewizjausa.com,pl.soringpcrepair.com,forum.swiateczne.info,experiencecorner.com,plustek.com,eco-driving.info,trustisto.com##.cc-window[aria-label="cookieconsent"], .cc-revoke
 ebay.pl###gdpr-banner, .gh-banner
 ebizneskrokpokroku.pl###notification-bar
 eblik.pl#?#.page_content_info:-abp-has(#cookie_info_max)
@@ -1777,6 +1777,7 @@ zysk.com.pl###pageUpperInfo
 ||dziennikelblaski.pl/js/rodo-wm.js
 ||eurocookie.galilcloud.wixapps.net/pages/widget/views/widget.html
 ||eurocookie.galilcloud.wixapps.net/popup$subdocument
+||evacalor.pl/js/skryptdocookie.js
 ||exploder.pl/info_o_cookie.js$script
 ||e-hortico.pl/skins/user/rwd_shoper_1/js/fancybox/dist/jquery.fancybox.min.css
 ||e-monki.pl/images/emonki_f.png
