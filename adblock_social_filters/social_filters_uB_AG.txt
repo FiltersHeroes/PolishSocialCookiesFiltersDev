@@ -1,11 +1,11 @@
-! Checksum: Fx5lzOoFm/WQgMfys1ZlIQ
+! Checksum: 9tMGjOeKLocwzcQ2fRwG3A
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Social Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.6.1
-! Last modified: Wed, 06 Feb 2019, 14:00 UTC+01
+! Version: 2019.2.6.2
+! Last modified: Wed, 06 Feb 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.6.1 aktualizacja: śro, 06 lut 2019, 14:00 UTC+01
+! v.2019.2.6.2 aktualizacja: śro, 06 lut 2019, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -61,6 +61,7 @@ barokko.pl##js(remove-attr.js, href, div[class^="platnosci"] > a[href="http://ww
 blog.wirtualnemedia.pl###social_ikons_header_fixed:style(visibility: hidden !important;)
 englishcollege.pl##.bannerdol > a[href="fb.html"]:style(visibility: hidden !important;)
 freshfile.pl##.facebook, .google:style(visibility: hidden !important;)
+naklejkolandia.pl##+js(remove-attr.js, href, #sliderBox ul > li > a[href^="https://www.facebook.com/notes/naklejkolandiapl/"])
 odkryjpomorze.pl##+js(nano-remove-elements-onready.js, div.span6 > map[name="Map"] > area:nth-of-type(1))
 plejada.pl##.detailContentWrapper .contentShareLeft .fb_share:style(background: transparent !important;)
 pl.pandora.net###socialMediaFooter .leftMediaLinkFooter:style(visibility: hidden)
