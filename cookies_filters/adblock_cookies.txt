@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: cNLcgzdqpphbnus4PNNGuw
+! Checksum: FEA48FYqPbAS1roJr4QQVg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.6.2
-! Last modified: Wed, 06 Feb 2019, 18:00 UTC+01
+! Version: 2019.2.8.1
+! Last modified: Fri, 08 Feb 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.6.2 aktualizacja: śro, 06 lut 2019, 18:00 UTC+01
+! v.2019.2.8.1 aktualizacja: pią, 08 lut 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1792,6 +1792,7 @@ zysk.com.pl###pageUpperInfo
 ||kochamwroclaw.pl/wp-content/plugins/wp-terms-popup/assets/popup-style.css
 ||kolarstwo.wroclaw.pl/cook.js
 ||legionisci.com/js/cookiepopup.js
+||lenovozone.pl/frontend/js/sweetalert.min.js$script
 ||lubiegrac.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
 ||metpartner.pl/cookie/info_cookie.js$script
 ||msecnd.net/Unilever/panels/generic/PanelPrzepisy.htm?consent*$subdocument
@@ -2183,6 +2184,7 @@ pl##.COOKIE_PRIVACY_CONT:not(body):not(html)
 pl##.CTcookie-container:not(body):not(html)
 pl##.CookieApprove:not(body):not(html)
 pl##.CookieConsent:not(body):not(html)
+pl##.CookieLayer:not(body):not(html)
 pl##.JSWrapper:not(body):not(html)
 pl##.RACKWrapper:not(body):not(html)
 pl##.acceptCookies:not(body):not(html)
@@ -2213,6 +2215,8 @@ pl##.cookieConsent:not(body):not(html)
 pl##.cookieContainer:not(body):not(html)
 pl##.cookieContent:not(body):not(html)
 pl##.cookieInfo:not(body):not(html)
+pl##.cookieLayer:not(body):not(html)
+pl##.cookieLayer:not(body):not(html) + .ui-widget-overlay
 pl##.cookieNotification:not(body):not(html)
 pl##.cookiePolicyNotice:not(body):not(html)
 pl##.cookiePolicy:not(body):not(html)
@@ -2226,6 +2230,7 @@ pl##.cookiebanner:not(body):not(html):not(#header)
 pl##.cookiebar:not(body):not(html)
 pl##.cookiebox:not(body):not(html)
 pl##.cookieinfo:not(body):not(html)
+pl##.cookielayer:not(body):not(html)
 pl##.cookienotice:not(body):not(html)
 pl##.cookiepolicy:not(body):not(html)
 pl##.cookiesAlert:not(body):not(html)
