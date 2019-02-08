@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: FEA48FYqPbAS1roJr4QQVg
+! Checksum: 1abttmYQ5EZ2wqE8Sa7tEg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.8.1
-! Last modified: Fri, 08 Feb 2019, 02:00 UTC+01
+! Version: 2019.2.8.2
+! Last modified: Fri, 08 Feb 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.8.1 aktualizacja: pią, 08 lut 2019, 02:00 UTC+01
+! v.2019.2.8.2 aktualizacja: pią, 08 lut 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -46,7 +46,7 @@ aboutyou.pl##div[class^="styles__inner"]
 absolvent.pl##.top-ban-wrapper
 abt-s.pl,ecbedzin.pl,enut.pl,programatory.com,haloursynow.pl,warsztat.pl,interprojekt.pl,mojaolesnica.pl###myModal
 abt-s.pl,interprojekt.pl,yes.pl,filoma.org,naekranie.pl,polskiprawnik.pl,www.hotelbb.pl##.reveal-modal-bg
-account.live.com,login.live.com,www.skype.com###msccBanner
+account.live.com,answers.microsoft.com,login.live.com,www.skype.com###msccBanner
 account.ubisoft.com###footer_tc_privacy
 accuweather.com###eu-cookie-notify-wrap
 acer.com##.cookieBox
@@ -111,6 +111,7 @@ americanexpress.com###cookie_Header
 amix.pl###policy
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl,sklep.intert.pl,lampyilampki.pl,lampytanie.pl,gitara-sklep.pl###popup
 amundi.pl,biodiv.gdos.gov.pl,chojnice24.pl###disclaimer
+answers.ea.com##.cookie_content
 antyczek.pl###upper-menu-container
 antywindyk.pl###rodo-container
 antywirus.biz##.iAgreePopup
@@ -470,6 +471,7 @@ etroniks.pl,trojmiejskaperfumeria.pl###st_notification_1
 euro26.pl###popup, #fade
 europlytki.pl###cookies-info-container
 eurostyl.com.pl###euroCookieInfo
+eu.community.samsung.com###custom-header-cookie
 everhome.pl,gda.pl,yogenfruz.pl##.shotimoo
 ewl.com.pl###bezzo-cookies-bar
 expansa.pl,www.promise.com.pl##.ui-resizable
@@ -692,6 +694,7 @@ hotele.pl##DIV[style="font-family: Tahoma; margin-bottom: 6px; padding: 5px; fon
 hotpoint.pl###_1_WAR_privacyportlet_privacy-info-message
 hpe.com##.privacy-banner
 hrlink.pl##.cookies-obligation-clause
+htc.com##.cookie-consent-container
 huawei.com,huaweipolska.pl##.huawei-cookie
 humanoffice.pl###cookie_cointer
 hurtownia-24.pl###roar-alert-wrap  > #roar-alert.roar-alert
