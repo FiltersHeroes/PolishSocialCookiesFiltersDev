@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 1abttmYQ5EZ2wqE8Sa7tEg
+! Checksum: G/EY919CdysOD/1tOGseWQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.8.2
-! Last modified: Fri, 08 Feb 2019, 22:00 UTC+01
+! Version: 2019.2.9.1
+! Last modified: Sat, 09 Feb 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.8.2 aktualizacja: pią, 08 lut 2019, 22:00 UTC+01
+! v.2019.2.9.1 aktualizacja: sob, 09 lut 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -79,7 +79,7 @@ akademiafalubaz.pl###cgRodoModal, #cgRodoBackdrop
 akademia-piwa.pl##div#polityka_tekst
 akpolbaby.pl###gdpr-sticky-banner
 aktualnyodpis.pl##.ao-cookie-container
-aktywnedzieciaki.info,dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl,centrumwroclaw.pl,wsensie.pl,dreamtours.pl,krzyzowka.net,tacyjakja.pl,zamek.malbork.pl,bip.um.rybnik.eu,naratunek.org###rodo
+aktywnedzieciaki.info,dpn.pl,jaskinianiedzwiedzia.pl,gospodarkamorska.pl,synonim.net,speedtest.pl,nj24.pl,fashionpost.pl,sklep.krosno.com.pl,zsp2.edu.pl,centrumwroclaw.pl,wsensie.pl,dreamtours.pl,krzyzowka.net,tacyjakja.pl,zamek.malbork.pl,bip.um.rybnik.eu,naratunek.org,biskupice.pl,livesmarter.pl###rodo
 alegotowka.pl,chwilowkomat.pl,halopozyczka.pl,quadralite.pl###cookies-law
 alekino.com###cookies-info-wrapper
 alerabat.com###popup-rodo
@@ -183,6 +183,7 @@ bdl.lasy.gov.pl###infoDiv
 beautikon.com,e-lakiernik.net,helikon-tex.com###notice-cookie-block
 bebio.pl##.rodo-canvas-wrapper
 becek.pl###preloadm-rodo, #preloadb
+bechtle.com##.neo-footer__cookieBar
 bejeans.pl,hael.pl###js-cookienotice
 belutti.com##.fk-cookies
 beskidy.news##.js-cookies.c-cookies
@@ -692,6 +693,7 @@ horyzont.net###cookies_info
 host1.eu,mateuszgrzesiak.tv##.cookies_policy
 hotele.pl##DIV[style="font-family: Tahoma; margin-bottom: 6px; padding: 5px; font-size: 10px; color: rgb(0, 0, 0); background-color: rgb(204, 204, 204); border-bottom: 1px solid black;"]
 hotpoint.pl###_1_WAR_privacyportlet_privacy-info-message
+hpe.com###hpe_privacy_banner
 hpe.com##.privacy-banner
 hrlink.pl##.cookies-obligation-clause
 htc.com##.cookie-consent-container
@@ -1078,6 +1080,7 @@ naturo.pl###simple-modal, #simple-modal-overlay
 nck.pl,u-jazdowski.pl###cookieterms
 ncplusgo.pl,ncplus.pl##.js-messages
 ndn.com.pl##.rodo-info, .rodo-overlayer
+nec-display-solutions.com###privacyHint.privacy-hint
 nelrodata.eu,wydawnictwoswiatksiazki.pl##.overlay
 neobiznes.pl###cpolicyHolder
 neonet.pl,neo24.pl##.rodo-info__content, .rodo-info__overlay
@@ -2304,6 +2307,7 @@ pl##.cookie-tooltip:not(body):not(html)
 pl##.cookie-warning:not(body):not(html):not(#Web):not(#Container)
 pl##.cookie-wrap:not(body):not(html)
 pl##.cookie_acceptance:not(body):not(html), .cookie_acceptance_background:not(body):not(html)
+pl##.cookie_acept:not(body):not(html)
 pl##.cookie_agree:not(body):not(html)
 pl##.cookie_header:not(body):not(html)
 pl##.cookie_info:not(body):not(html)
