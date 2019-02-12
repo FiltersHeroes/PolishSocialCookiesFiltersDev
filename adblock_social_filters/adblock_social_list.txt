@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: N+Zc4iGUVevxSDuFVxQWNg
+! Checksum: ebmR8qmxWEUPSTLM8AzL1A
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.12.1
-! Last modified: Tue, 12 Feb 2019, 18:00 UTC+01
+! Version: 2019.2.12.2
+! Last modified: Tue, 12 Feb 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.12.1 aktualizacja: wto, 12 lut 2019, 18:00 UTC+01
+! v.2019.2.12.2 aktualizacja: wto, 12 lut 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -1214,7 +1214,6 @@ dnagdansk.com###facebookdna
 doba.pl###column-startowa-three > .bar-header:nth-of-type(8)
 doba.pl###panel
 dobremiejsce.org##.opes-wp-social-tab
-dobreprogramy.pl##div.col:nth-of-type(3) > .list > li.list__item:nth-child(n+2), .author-social-links, .dl-social, .content.float-right > .social, .float-right.social, .tools-social, .social__group_share, .social__group_like > .social__item, #phContent_page_content .social__group_like
 dobroni.pl##.sociale-index
 dobrzemieszkaj.pl##.right.box-6 > .desc
 dodaje.pl##.footer-content .no-padding-lg.col-xxs-12.col-xs-6.col-sm-12
@@ -1958,7 +1957,6 @@ lubsport.pl##a[href="https://www.facebook.com/lubsport/"]
 lubsport.pl##img[src="/wp-content/uploads/2017/10/yt_lubsport.png"]
 lukaszrosicki.pl##.sticky.bar
 lumarte.eu##a[href="https://www.instagram.com/lumarte_art_online/"]
-lunch24.com##a.jss252:nth-of-type(-n+2)
 luxlux.pl##.fan-box
 lvlup.pro##.footer-one.col-sm-12.col-xs-12.col-md-12.col-lg-3
 macademiangirl.com##.footer-instagram-wrapper, .header-info-text
@@ -2089,6 +2087,7 @@ mmarocks.pl,rzeszow-news.pl,kochamwroclaw.pl ##.td-instagram-element, .td-footer
 mmiur.com##.ytimg
 mng.gda.pl##section.section-opaque > .container-vertical-middle.container-fullwidth > .vertical-middle.row > div.small-screen-default.text-center.col-md-4:nth-of-type(-n+3)
 mnwr.pl##.bottom-menu-lvl-2__sm > .footer-sm-2
+moaburger.com##.fb
 mobilevikings.pl##.footer-other.columns > div.col-6-12:nth-of-type(1)
 mobilitytrends.pl##.footer_social_link:nth-of-type(4)
 mobilne-miasto.org###go-twitter, #go-facebook, #go-linkedin
@@ -2967,6 +2966,8 @@ szopi.pl##.social-content
 szpital-swinoujscie.pl##a > img[src="/pliki/szpitalswinoujscie/design/facebook.png"]
 sztab.org##.sidebar-widget:nth-of-type(4)
 szukajacslonca.com,rebe1scum.com##.widget_wpcom_instagram_widget
+szybkanauka.pro##.follow_me.widget
+szybkanauka.pro##.fpss.ssf, .scl
 tablica-rejestracyjna.pl###fbutton-container
 tadar.pl###csocial-facebook, #csocial-googleplus, #roy_facebook_block
 tago.com.pl##.float-social
@@ -3267,6 +3268,9 @@ www.astar.czest.pl##.tdm-social-wrapper
 www.astar.czest.pl#?#td_block_title.td_block_wrap > .td-block-title > .td-pulldown-size:-abp-contains(Obserwuj nas)
 www.chamskie.pl,chamsko.net.pl##.widget-fanbox
 www.djakdesign.pl###HTML1, #HTML2, #HTML3, #HTML6
+www.dobreprogramy.pl##div.col:nth-of-type(3) > .list > li.list__item:nth-of-type(n+2)
+www.dobreprogramy.pl###phContentLeft_SocialControl_socialBox, #phContent_SocialControl_SocialControlMain_socialBox
+www.dobreprogramy.pl##.author-social-links, .social__group_share.social__group, .social__item
 www.dobreprogramy.pl,www.pcworld.pl##[class^="StyledShareProviderButtons"].ProviderIcons, [class^="StyledShareProviderButtons"].ProvidersText
 www.eltron.pl###c634.csc-default > table
 www.e-podroznik.pl##.DefinitionsSet\:\:SocialNetworks
@@ -3457,6 +3461,8 @@ zygzaksnow.pl###ppfacebook
 ||krzyzowki.info/images_krzyzowki/fbutton.jpg
 ||lexlabor.pl/templates/gfx/cech/facebook.png
 ||lib.onet.pl/fblike/v5/fb-popover.js$script
+||lunch24.com/facebook-white.png
+||lunch24.com/instagram-white.png
 ||maclife.pl/Modules/mod.main/images/icons/icon-footer-google.png
 ||maxtest.cube-shops.com/appSocialMedia/gfx/facebook.png
 ||maxtest.cube-shops.com/appSocialMedia/gfx/instagram.png
