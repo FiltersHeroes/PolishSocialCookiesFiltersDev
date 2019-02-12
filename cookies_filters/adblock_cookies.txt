@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: GhZAcWYU5YeWW5UNBNkAFQ
+! Checksum: bhTf4TUfH+gucn/n50FU0w
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.12.1
-! Last modified: Tue, 12 Feb 2019, 14:00 UTC+01
+! Version: 2019.2.12.2
+! Last modified: Tue, 12 Feb 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.12.1 aktualizacja: wto, 12 lut 2019, 14:00 UTC+01
+! v.2019.2.12.2 aktualizacja: wto, 12 lut 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -722,6 +722,7 @@ inbook.pl,timemaster24.pl###privacy-policy-info-container
 inchcape.pl##.cookieinfo_bar
 independentdigital.lnk.to###modal.lnk-c-modal
 info24.rzeszow.pl##.ja-box-right.column.ja-box-wrap
+infoaudio.pl###privacy-alert, #privacy-alert-blur
 infocredit-online.pl###modal-warper
 infogliwice.pl,nauka.rocks,webniusy.com###ct-ultimate-gdpr-cookie-popup
 infoludek.pl##div.infcook
@@ -1031,6 +1032,7 @@ muscat.pl##.c-cookie-belt
 musicexpert.pl,recepturybonifratrow.pl###x13popup-container, #x13popup-cover
 muve.pl##.f-find-box
 muzyczneradio.pl###cookie-accep
+muzykabezkabli.pl###tstar-cookie-info
 myadventure.com.pl###nXDOC.yel-popup-main-wrapper
 mynewsdesk.com###accept-page-cookies
 myob.pl###warning-popup
@@ -1199,6 +1201,7 @@ pl.fotolia.com,helpx.adobe.com,stock.adobe.com,www.adobe.com,rexona.com,vmware.c
 pl.gearbest.com##.cookiePolicy
 pl.glosbe.com###cookie-statement
 pl.gravatar.com##.custom-cookie-banner
+pl.hama.com###privacyOptionsCookieOptIn-bottom
 pl.investing.com##.consentBarWrapper
 pl.isilines.com##.wrapper-banner-rgpd
 pl.jooble.org,twitch.tv##.gdpr-consent-banner
@@ -2053,6 +2056,7 @@ pl###cookie-information-wrapper:not(body):not(html)
 pl###cookie-information:not(body):not(html)
 pl###cookie-info-bar:not(body):not(html)
 pl###cookie-info-box:not(body):not(html)
+pl###cookie-info-container:not(body):not(html)
 pl###cookie-info:not(body):not(html)
 pl###cookie-law-bar:not(body):not(html)
 pl###cookie-law-container:not(body):not(html)
