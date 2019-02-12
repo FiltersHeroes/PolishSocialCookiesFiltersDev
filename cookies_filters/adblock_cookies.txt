@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: bhTf4TUfH+gucn/n50FU0w
+! Checksum: 7wtIWHbi6FPzS5L3VBHOAg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.12.2
-! Last modified: Tue, 12 Feb 2019, 18:00 UTC+01
+! Version: 2019.2.12.3
+! Last modified: Tue, 12 Feb 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.12.2 aktualizacja: wto, 12 lut 2019, 18:00 UTC+01
+! v.2019.2.12.3 aktualizacja: wto, 12 lut 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -909,7 +909,7 @@ lublin24.pl##.tlo_cookies
 lublin112.pl###privacy_info_content, #privacy_info_overlay
 lubliniak.com.pl##DIV[style="background: #fff; padding: 5px; text-align: center; font-size: 11px;"]
 lukasfinanse.pl###strap
-lunch24.com##.jss258 > .jss63 > .jss232.jss230
+lunch24.com##body > #__next > div[class=""] > div[class][direction="up"][style^="transform"]
 luqam.com###cookiesFlyInBox
 luxprodukt.pl,otohurt.pl###bar_bottom_cookie
 lvlup.pro,przegladlokalny.eu,dziary.com###cookiePolicy
@@ -1486,6 +1486,7 @@ szpital-chrzanow.pl##.warp_top_message
 szukacz.pl###routerBox1
 szukajka.tv###rodo-popup
 szukajka.tv,wizzair.com,styl.fm##.cookie-policy
+szybkanauka.pro#?##tve_editor:-abp-contains(cookies)
 szybko.pl##.toast
 targeo.pl#?#body > div:not([id]):not([class])[style^="position: absolute;"]:-abp-contains(plików cookie)
 tatra.pl##.cookies-2-overlay, .popup-cookies-2
@@ -1730,7 +1731,7 @@ zysk.com.pl###pageUpperInfo
 ||a.wpimg.pl/a/i/stg/wpjslib-chunk-cookie-info.js$script
 ||a.wpimg.pl/a/i/stg/wpjslib-chunk-notification.js
 ||bramka-proxy.pl/themes/default/cookies.js
-||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=pl.bab.la|satkurier.pl|legalcakes.com
+||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=legalcakes.comsatkurier.pl
 ||cdnjs.cloudflare.com/ajax/libs/fancybox/*/*s/jquery.fancybox.min.*s$script,stylesheet,domain=wiemy.to
 ||cdn.digitrust.mgr.consensu.org/1/cmp.complete.bundle.js$domain=m.demotywatory.pl
 ||cdn.inaudium.com/js/adtctr.js
