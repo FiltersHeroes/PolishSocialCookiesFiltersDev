@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 7wtIWHbi6FPzS5L3VBHOAg
+! Checksum: aNFzkCU7yy/EUt/2UaKsfg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.12.3
-! Last modified: Tue, 12 Feb 2019, 22:00 UTC+01
+! Version: 2019.2.13.1
+! Last modified: Wed, 13 Feb 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.12.3 aktualizacja: wto, 12 lut 2019, 22:00 UTC+01
+! v.2019.2.13.1 aktualizacja: śro, 13 lut 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1208,6 +1208,7 @@ pl.jooble.org,twitch.tv##.gdpr-consent-banner
 pl.kingofsat.net,godzina.info,bolec.info##.cc_banner
 pl.meteox.com,pl.sat24.com,zelmer.pl,earlymath.pl###cookie-message
 pl.mitsubishielectric.com##.pc_scsmod-cookie_alert
+pl.mouser.com###gdprBar
 pl.mytaxi.com##.cookie-overlay
 pl.next-jobs24.com###container, #container_tmp
 pl.pinterest.com##.outerCookieBar
@@ -1352,6 +1353,7 @@ rps.ms.gov.pl###MS
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl###pd-modal
 rybomania.pl###cookies_widget
 rymer.org###info_bottom
+rynekpapierniczy.pl###cookie-rp
 rzemioslo.org###pronamic_cookie_holder
 rzgw.gda.pl,gdansk.rzgw.gov.pl###COOKIETLO
 r-gol.com,51015kids.eu###cookieBan
@@ -1419,7 +1421,7 @@ slaskietargi.pl##.cookiescookies-info
 slaskwroclaw.pl###bg-layer, #rodo-wrapper
 slawomirambroziak.pl##.privacy_policy
 slowhop.com,interpretacje-podatkowe.org,www.tesco.com###cookie-policy
-smaczne.to,tygodnikbydgoski.pl###cookie-container
+smaczne.to###cookie-container
 smsapi.pl##.cookie-agreement-bar
 snapchat.com###cookiePopupContainer
 snt.pl###sntc-close
@@ -1741,7 +1743,7 @@ zysk.com.pl###pageUpperInfo
 ||confero.pl/js/cookies2013$script
 ||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|java.com|reebok.pl
 ||consent.truste.com/get?name=notice.js$script
-||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|nespresso.com|oracle.com|origin.com|wd.com|weather.com|wunderground.com|xerox.com
+||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|nespresso.com|oracle.com|origin.com|wd.com|weather.com|wunderground.com|xerox.com
 ||cookiebanner.eu/js/cookiebanner.min.js
 ||cookieq.com^$third-party
 ||cookies.komputerswiat.pl/checkCookie$script
@@ -2048,6 +2050,7 @@ pl###cookie-box:not(body):not(html)
 pl###cookie-compliance-bottom:not(body):not(html)
 pl###cookie-compliance:not(body):not(html)
 pl###cookie-consent:not(body):not(html)
+pl###cookie-container:not(body):not(html)
 pl###cookie-content:not(body):not(html)
 pl###cookie-cookie-div:not(body):not(html)
 pl###cookie-div:not(body):not(html)
