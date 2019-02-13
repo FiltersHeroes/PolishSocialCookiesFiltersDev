@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: aNFzkCU7yy/EUt/2UaKsfg
+! Checksum: afeg5lDyJcxFrmoL0L5wsA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.13.1
-! Last modified: Wed, 13 Feb 2019, 02:00 UTC+01
+! Version: 2019.2.13.2
+! Last modified: Wed, 13 Feb 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.13.1 aktualizacja: śro, 13 lut 2019, 02:00 UTC+01
+! v.2019.2.13.2 aktualizacja: śro, 13 lut 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -321,7 +321,6 @@ costacoffee.pl##.notification-global
 cqb.pl###overlay_cookies
 croatia.hr,sadeczanin.info,kghm.com,gliwice.eu,boca.com,kwestiasmaku.com,rc.fm,prestashop.com###sliding-popup
 crossweb.pl##.part-cook
-cshacked.pl,stara-gwardia.pl,openitforum.pl,4af.pl,worldofmetin.pl,supportsamsung.pl,ipsbeyond.pl,totalnie-polski-rpg.pl###elGuestTerms
 cs-puchatek.pl##.oregulaminie
 cubus.com###EPDirectiveInfo
 culture.pl##.Cookie--top.Cookie
@@ -1031,6 +1030,7 @@ multiplay.pl,razemztoba.pl##.inform
 muscat.pl##.c-cookie-belt
 musicexpert.pl,recepturybonifratrow.pl###x13popup-container, #x13popup-cover
 muve.pl##.f-find-box
+muzeum-radom.pl###rodo-information
 muzyczneradio.pl###cookie-accep
 muzykabezkabli.pl###tstar-cookie-info
 myadventure.com.pl###nXDOC.yel-popup-main-wrapper
@@ -1140,7 +1140,7 @@ orle-gniazdo.pl,portalpszczelarski.pl,strefaczasu.pl##.Cooker
 orliman.pl##.c-info
 ortograf.pl###ns-rodo-popup-one
 orzeczenia.ms.gov.pl###cookieInfoHeader
-osiedle-chelmonskiego.pl.tl,pl.pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,aeg-powertools.eu##.cc_banner-wrapper:not(body):not(html)
+osiedle-chelmonskiego.pl.tl,pl.pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,aeg-powertools.eu,dystans.org##.cc_banner-wrapper:not(body):not(html)
 oskolaf.pl###modal-info
 osm-sierpc.pl##.tm-cookies
 ospace.com.pl###private-police.private-police
@@ -1269,6 +1269,7 @@ pozyczkowy-portal.pl###gdprc
 pracatobie.pl###coocieDiv
 pragma.pl##.pra-cookie-info
 praktiker.pl##div.info_c_box
+prestashop.com###elGuestTerms
 prgm.pl###Layer25
 prgok.pl###top_i
 prideshop.pl,queer.pl##.box-rodo
@@ -1733,7 +1734,7 @@ zysk.com.pl###pageUpperInfo
 ||a.wpimg.pl/a/i/stg/wpjslib-chunk-cookie-info.js$script
 ||a.wpimg.pl/a/i/stg/wpjslib-chunk-notification.js
 ||bramka-proxy.pl/themes/default/cookies.js
-||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=legalcakes.comsatkurier.pl
+||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=legalcakes.com|satkurier.pl
 ||cdnjs.cloudflare.com/ajax/libs/fancybox/*/*s/jquery.fancybox.min.*s$script,stylesheet,domain=wiemy.to
 ||cdn.digitrust.mgr.consensu.org/1/cmp.complete.bundle.js$domain=m.demotywatory.pl
 ||cdn.inaudium.com/js/adtctr.js
@@ -1760,7 +1761,7 @@ zysk.com.pl###pageUpperInfo
 ||e-hortico.pl/skins/user/rwd_shoper_1/js/fancybox/dist/jquery.fancybox.min.css
 ||e-monki.pl/images/emonki_f.png
 ||fundingchoices.google.com^$script,domain=www.accuweather.com
-||global.silnet.pl/media/js/vue/silnet-privacy-policy.vue$xmlhttprequest,domain=silnet.pl|sonomedico.pl
+||global.silnet.pl/media/js/vue/silnet-privacy-policy.vue$xmlhttprequest
 ||igimag.pl/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/lity.js
 ||itmarket.pl/modules/prestaboost/views/js/prestaboost-popup.js
 ||jak-zablokowac-cookies.pl/cookies_komunikat.js$script
