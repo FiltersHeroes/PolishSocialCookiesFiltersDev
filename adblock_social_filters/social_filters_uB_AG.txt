@@ -1,11 +1,11 @@
-! Checksum: B4rYMisEn8OtgppbEkXqGw
+! Checksum: 9+HgPEipfMbC3e5KoOZtvw
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Social Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.10.1
-! Last modified: Sun, 10 Feb 2019, 18:00 UTC+01
+! Version: 2019.2.13.1
+! Last modified: Wed, 13 Feb 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.10.1 aktualizacja: nie, 10 lut 2019, 18:00 UTC+01
+! v.2019.2.13.1 aktualizacja: śro, 13 lut 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -74,6 +74,7 @@ www.dobreprogramy.pl###phContent_SocialControlBottom_socialBox > .social__group_
 !
 ! Widgety - specjalne instrukcje
 !#if !cap_user_stylesheet
+dobreprogramy.pl##.author-social-links, .content.float-right > .social, .rrssb-facebook, .rrssb-twitter, .social__group_share, .social__group_like > .social__item, #phContent_page_content .social__group_like
 dobreprogramy.pl##.author-social-links, .content.float-right > .social, .rrssb-facebook, .rrssb-twitter, .social__group_share, .social__group_like > .social__item, #phContent_page_content .social__group_like:style(visibility: hidden !important;)
 dobreprogramy.pl##.social__group > .social__label
 f.kafeteria.pl###ipsLayout_mainArea > .ipsList_inline > li > .cShareLink
