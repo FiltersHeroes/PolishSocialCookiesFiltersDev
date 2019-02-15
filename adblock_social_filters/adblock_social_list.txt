@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: l2K7pqHTy2AQ14hWStJO9g
+! Checksum: q5n/eqjFnJNKW1HUt5jiVA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.14.2
-! Last modified: Thu, 14 Feb 2019, 23:04 UTC+00
+! Version: 2019.2.15.2
+! Last modified: Fri, 15 Feb 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.14.2 aktualizacja: Cz, 14 lut 2019, 23:04 UTC+00
+! v.2019.2.15.2 aktualizacja: pią, 15 lut 2019, 02:00 UTC+01
 !
 !
 ! Popupy
@@ -1112,7 +1112,7 @@ comarch.pl##.sector-footer__definition-list--social-media
 comel-it.com##.fa-facebook
 comparic.pl##a[href="https://twitter.com/comparic"], .sfm-has-child-menu.sfm-menu-item-301294 > a[href="#"], .widget_text.widget.td_block_template_1:nth-of-type(5)
 comparic.pl#?#.g-single:-abp-contains(Dołącz do naszej grupy)
-compensa.pl##.footer div.footer__members-item:nth-of-type(n+6):nth-of-type(-n+7)
+compensa.pl##.footer div.footer__members-item:nth-of-type(n+6):nth-of-type(-n+7), .footer-container > .container-fluid > .row > div.col-xs-12:nth-of-type(3)
 comperio.co##nav > .Facebook, nav > .Gplus, nav > .Twitter, #Top > .Social, .Social > .Facebook, .Social > .Gplus, .Social > .Twitter, .body > .Social
 comtv.pl,dell24.pl,mediasystem-tdi.pl###musli
 confero.pl##a.confero_social_icon:nth-child(-n+4)
@@ -2885,7 +2885,7 @@ sportowyekspress.pl###custom_html-5, #custom_html-6
 sportraw.pl##.contact_type_facebook
 sportservice.pl###links_footer_4
 sportslaski.pl##.container3
-sport-transfer.com.pl##.pull-left > ul > li:nth-of-type(6)
+sport-transfer.com.pl##.pull-left > ul > li:nth-of-type(n+3):nth-of-type(-n+7) > .link
 sport.tvp.pl##.navigation__social, .article__buttons, .navigation__socialWrapper, .probe__share-box, .siteFooter__social, .article__head-socials
 sport.tvp.pl##.siteFooter__socialIcon:nth-child(-n+4)
 spot-a-shop.pl##div.pure-u-1.pure-u-md-1-5:nth-of-type(1) > div.mb-2:nth-of-type(1)
