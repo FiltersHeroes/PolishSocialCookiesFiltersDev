@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: YTPctPWA9rZH/TlOQjA+IA
+! Checksum: ms4Ql9nOA0iXx65zgxDV1Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.15.4
-! Last modified: Fri, 15 Feb 2019, 22:00 UTC+01
+! Version: 2019.2.16.1
+! Last modified: Sat, 16 Feb 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.15.4 aktualizacja: pią, 15 lut 2019, 22:00 UTC+01
+! v.2019.2.16.1 aktualizacja: sob, 16 lut 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1807,7 +1807,7 @@ zysk.com.pl###pageUpperInfo
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||twoje-seriale.pl/cookies.html$subdocument
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|softpedia.com|sztuka-architektury.pl|stars.pl
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|softpedia.com|sztuka-architektury.pl|stars.pl|kochamyzwierzaki.pl
 ||vox.pl/modal/rodo$xmlhttprequest
 ||www.aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
 ||www.e-drewno.pl/stock/javascript/browser.js
@@ -2308,6 +2308,7 @@ pl##.cookie_notice:not(body):not(html)
 pl##.cookie_policy:not(body):not(html):not(#Content):not(#page)
 pl##.cookie_popup:not(body):not(html)
 pl##.cookwarning:not(body):not(html)
+pl##.cp1CookieBanner:not(body):not(html)
 pl##.cp-cookie-bar:not(body):not(html)
 pl##.c-cookies-block:not(body):not(html)
 pl##.c-cookie-box:not(body):not(html)
