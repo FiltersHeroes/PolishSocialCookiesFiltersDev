@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 46WU23Z20w2YuXLMchvPzg
+! Checksum: hSn/zBEaI5BkuK6JzX2Yjw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.17.1
-! Last modified: Sun, 17 Feb 2019, 14:00 UTC+01
+! Version: 2019.2.17.2
+! Last modified: Sun, 17 Feb 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.17.1 aktualizacja: nie, 17 lut 2019, 14:00 UTC+01
+! v.2019.2.17.2 aktualizacja: nie, 17 lut 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -399,7 +399,7 @@ dziennikwschodni.pl,wykop.pl##.rodo-alert
 dzis.tv##div#regulaminWrap
 e24cloud.com##div#FullBox
 earlystage.pl###cookie-beam
-easypaste.org,halogorlice.info,nasze-kino.eu,polskatelewizjausa.com,pl.soringpcrepair.com,forum.swiateczne.info,experiencecorner.com,plustek.com,eco-driving.info,trustisto.com,pl.bab.la,radioexpert.net,memrise.com##.cc-window[aria-label="cookieconsent"], .cc-revoke
+easypaste.org,halogorlice.info,nasze-kino.eu,polskatelewizjausa.com,pl.soringpcrepair.com,forum.swiateczne.info,experiencecorner.com,plustek.com,eco-driving.info,trustisto.com,pl.bab.la,radioexpert.net,memrise.com,nordvpn.com##.cc-window[aria-label="cookieconsent"], .cc-revoke
 ebay.pl###gdpr-banner, .gh-banner
 ebizneskrokpokroku.pl###notification-bar
 eblik.pl#?#.page_content_info:-abp-has(#cookie_info_max)
@@ -810,7 +810,7 @@ kodilla.com##.cookies-prompt
 kokos.pl##.flashMessage
 kolba.pl##.ins-el-cookie-alert
 kolejeslaskie.com##div#c_m
-kolejeslaskie.com###cookie-law
+kolejeslaskie.com,platforma.org###cookie-law
 koleje-wielkopolskie.com.pl###spu-bg-15688, #spu-15688
 kolorowychsnow.pl##.consent-cookie
 komfort.pl###intro_row, #kt-cookies
@@ -1346,6 +1346,7 @@ rio.gov.pl###cookies_ue_alert
 rittal.com###wrap-cookieconsent
 rkantor.com###cookies-box
 rkb.pl##.fb-top.foobar-wrapper
+rma.asus-europe.eu##.cookieBar
 roadstars.mercedes-benz.com##.cookie-law
 rockpapershotgun.com##div#ecd_opt_in_banner
 rondel.pl###rondelpl_cookies
@@ -1476,6 +1477,7 @@ superkoszyk.pl###widget-cookie-message
 super-nowa.pl###syl-cookie-monster
 super-siodemka.pl###div-cookie-acceptance
 support.kaspersky.com###gdprbar
+sweetliving.pl###cookie-1.cookie
 swiatnauki.pl,wiz.pl###menu
 swiatpodlog.com.pl###giodo
 swiat-zdrowia.pl###NeucaCookieDialog
@@ -2147,6 +2149,8 @@ pl###pd_cookielaw:not(body):not(html)
 pl###policy-info:not(body):not(html)
 pl###popup-cookies:not(body):not(html)
 pl###popup-cookie-contenedor:not(body):not(html)
+pl###popup_cookies:not(body):not(html)
+pl###popup_cookie:not(body):not(html)
 pl###prettyCookie_message:not(body):not(html)
 pl###privacyCookiesPolicyMessageContainer:not(body):not(html)
 pl###privacyInfo:not(body):not(html)
