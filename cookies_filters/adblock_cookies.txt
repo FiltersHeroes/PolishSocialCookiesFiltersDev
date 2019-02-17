@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ms4Ql9nOA0iXx65zgxDV1Q
+! Checksum: 46WU23Z20w2YuXLMchvPzg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.16.1
-! Last modified: Sat, 16 Feb 2019, 02:00 UTC+01
+! Version: 2019.2.17.1
+! Last modified: Sun, 17 Feb 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.16.1 aktualizacja: sob, 16 lut 2019, 02:00 UTC+01
+! v.2019.2.17.1 aktualizacja: nie, 17 lut 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -564,6 +564,7 @@ fotokurier.eu###pcUsingCookies
 fotonegatyw.com###fx-modal-1
 fsmm.pl###cookieinfoboxitems
 funclub.pl#?#body > div > div > div > div > div:-abp-contains(cookies)
+fundacjadominikana.org###sp-cookie-consent
 funduszpomerania.pl###eprivacyModal
 funnygames.pl###cmp-container-id
 futu.pl###my-alert
@@ -658,7 +659,7 @@ haszkod.pl###cookieshit
 hdtv-sat.eu###modalcookies
 hebeapteka.pl,hebe.pl##.legal-info
 hebe.pl##.rodo-popup_popup
-hegos.eu,tagen.tv###cookiesEU-box
+hegos.eu,tagen.tv,dlawas.info###cookiesEU-box
 heineken.com.pl###infobx2
 helios.pl##.ban-rodo
 helio.pl,jastrzebieonline.pl,darnatury.pl###rodo_popup
@@ -785,6 +786,7 @@ kalkulator.wakacyjnapolisa.pl,rankomat.pl##.rank-cookie-bar
 kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu,hikoki-narzedzia.pl,dombud.eu###cookieNotice
 kapucyni.pl###mod_ppcookies
 karmimypsiaki.pl##div#ciasteczkaInfoContainer
+karpacz.pl###popupBody, #popupContainer
 kartonwork.pl,luszczyce.pl##body > div > div[style*="position"][style*="fixed"]
 kartunsy.pl###ait-infobar
 kartuzy.info##div#page_top_topbar2
@@ -831,7 +833,7 @@ krakowairport.pl##.privacyPolicyPop
 krakownh.pl,rentsellersgroup.com###strip_cookie_info
 kredito24.pl,zaimo.pl##.politica
 kreskoweczki.pl###rodo-block
-kreskowki.tv,tygodniksiedlecki.com,atelier801.com,fabrykazabawek.eu,nekodancer.com,fortoresse.com,bouboum.com,transformice.com,grupaimage.eu,77sushi.com,avg.com###cookie-bar
+kreskowki.tv,tygodniksiedlecki.com,atelier801.com,fabrykazabawek.eu,nekodancer.com,fortoresse.com,bouboum.com,transformice.com,avg.com,grupaimage.eu,77sushi.com,wyprzedaze.uk###cookie-bar
 krn.org.pl##.clsCookieInfo
 kropleinternetu.biz###cooc_container
 krosnocity.pl###polcia
@@ -900,7 +902,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubimyczytac.pl###TB_window, #TB_overlay
@@ -1140,7 +1142,7 @@ orle-gniazdo.pl,portalpszczelarski.pl,strefaczasu.pl##.Cooker
 orliman.pl##.c-info
 ortograf.pl###ns-rodo-popup-one
 orzeczenia.ms.gov.pl###cookieInfoHeader
-osiedle-chelmonskiego.pl.tl,pl.pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,aeg-powertools.eu,dystans.org##.cc_banner-wrapper:not(body):not(html)
+osiedle-chelmonskiego.pl.tl,pl.pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,aeg-powertools.eu,dystans.org,konin24.info##.cc_banner-wrapper > .cc_banner
 oskolaf.pl###modal-info
 osm-sierpc.pl##.tm-cookies
 ospace.com.pl###private-police.private-police
