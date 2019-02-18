@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: hSn/zBEaI5BkuK6JzX2Yjw
+! Checksum: itWdW8n5EE2Oe3Ez+Dl7LQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.17.2
-! Last modified: Sun, 17 Feb 2019, 22:00 UTC+01
+! Version: 2019.2.18.1
+! Last modified: Mon, 18 Feb 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.17.2 aktualizacja: nie, 17 lut 2019, 22:00 UTC+01
+! v.2019.2.18.1 aktualizacja: pon, 18 lut 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1766,6 +1766,7 @@ zysk.com.pl###pageUpperInfo
 ||exploder.pl/info_o_cookie.js$script
 ||e-hortico.pl/skins/user/rwd_shoper_1/js/fancybox/dist/jquery.fancybox.min.css
 ||e-monki.pl/images/emonki_f.png
+||files.bip.iap.pl/cookie.js
 ||fundingchoices.google.com^$script,domain=www.accuweather.com
 ||global.silnet.pl/media/js/vue/silnet-privacy-policy.vue$xmlhttprequest
 ||igimag.pl/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/lity.js
@@ -2097,6 +2098,7 @@ pl###cookie_accept:not(body):not(html)
 pl###cookie_acc_wrap:not(body):not(html)
 pl###cookie_agreement:not(body):not(html)
 pl###cookie_agree:not(body):not(html)
+pl###cookie_alert:not(body):not(html)
 pl###cookie_box:not(body):not(html)
 pl###cookie_confirmation:not(body):not(html)
 pl###cookie_container:not(body):not(html)
