@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: UF7nLzZqc5NJkwvKfF0q5w
+! Checksum: emVYGC3lN/gAyjxyHxCRsg
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.17.3
-! Last modified: Sun, 17 Feb 2019, 22:00 UTC+01
+! Version: 2019.2.18.1
+! Last modified: Mon, 18 Feb 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.17.3 aktualizacja: nie, 17 lut 2019, 22:00 UTC+01
+! v.2019.2.18.1 aktualizacja: pon, 18 lut 2019, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -1103,6 +1103,7 @@ cienkownarty.pl##.fishki > a:nth-of-type(n+2)
 cieplikpodrozuje.pl##.fa-facebook-f.fab
 cinema-city.pl##div.footer-group.col-sm-3.col-xs-6:nth-of-type(4)
 ciop.pl##.justified.niebieski > a[href="https://www.facebook.com/CIOPPIB/"] > img
+citrix.com.pl##.ctx-follow-wrap > div, .ctx-follow-wrap > ul[class]
 citroen.pl##.column_50.columns:nth-of-type(2)
 ci-polsat.pl##.pane-block-21.pane-block.panel-pane, .promo:nth-of-type(2) > .inner > .content
 ckm.pl##.facebook-aside.widget, .social-link-item
@@ -1257,6 +1258,9 @@ drogerium.pl,formotiva.pl##.socialsy
 drogerium.pl,formotiva.pl###frontpage-instafeed
 dron.pl##.widget-area-7, .widget-area-8, .widget-area-9
 drukcyfrowygamma.pl##.partners > div
+drzwiklamki.pl###social_block, #left_share_fb, .social-sharing
+drzwi-cal.pl##.socials-sharing, .facebook-messenger-avatar
+drzwi-cal.pl,legionisci.com##.socials
 dts24.pl##.col-md-4.footer-sidebar:nth-of-type(3)
 duckduckgo.com##.js-side-menu-twitter, .nav-menu--social-media
 dumeldiscovery.pl##.dumel-main-template__social-wrapper, .cms-dumel-instagram, .cms-dumel-footer__social
@@ -1936,7 +1940,6 @@ leftlane.pl##a[href="//www.youtube.com/c/LeftlanePl"], a[href="//www.instagram.c
 legia.net###first-col div.module:nth-of-type(7) > .module-header, #second-col div.module:nth-of-type(6) > .module-header
 legia.net###wydarzenie > div:nth-child(5)
 legimi.pl##.bookmarkFb
-legionisci.com##.socials
 lejtmotyw.info###HTML23
 lenovozone.pl##.social > li:nth-of-type(5) > a[href^="https://www.linkedin.com/company/lenovo"], .social-right-widget
 leoexpress.com##footer ul > li > a[target="_blank"]
@@ -2086,6 +2089,7 @@ michalkiewicz.pl###PRAWA > div.modul:nth-of-type(2)
 miedzyrzecz.biz##.td-social-boxed.td_block_social_counter > div > div:not(:nth-of-type(4)), .td_block_widget.td_block_social_counter > .td-social-list > .td_social_type:not(.td_social_rss)
 miejska.info.pl###text-19.header-widget
 mieszkaniowi.pl###fpw_icon
+mihata.pl##.cb-top-social > a[href^="https://plus.google.com/"]
 milanos.pl##.col-xs-12.col-sm-6.col-md-34:nth-of-type(4)
 milanos.pl##.row:nth-of-type(n+8):nth-of-type(-n+9)
 mileycyrus.pl##a[href="https://www.facebook.com/mileyraycyruspoland/"], a[href="https://twitter.com/MCUpdatesPoland"]
@@ -2250,6 +2254,7 @@ nec-display-solutions.com##.footerlinks--social
 neo-net.com.pl##a[href="https://www.facebook.com/drukarniaNeoNet"], a[href="http://instagram.com/drukarnianeonet"], a[href="http://pl.linkedin.com/company/neo-net---drukarnia-wielkoformatowa"]
 nepalshop.pl##a > img[src="/public/assets/ico-yt.png"], a > img[src="/public/assets/ico-insta.png"]
 netfan.pl##a[href="https://netfan.pl/partners/youtube.php"] > img, a[href="https://netfan.pl/partners/nk.php"] > img
+newfloor.pl###real_facebook_display > #fsbbox1 > #fsbbox2 > img
 newonce.net##h5.h5:nth-of-type(2)
 newonce.net##.footer-desktop__social-wrapper
 newsrm.tv###footer > div > ul > li > a
