@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Ranbi3FCw7huwGDLBdfGsw
+! Checksum: jHWpAWNFXUyJSGY32C1+4g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.19.2
-! Last modified: Tue, 19 Feb 2019, 18:00 UTC+01
+! Version: 2019.2.19.3
+! Last modified: Tue, 19 Feb 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.19.2 aktualizacja: wto, 19 lut 2019, 18:00 UTC+01
+! v.2019.2.19.3 aktualizacja: wto, 19 lut 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -385,6 +385,7 @@ doosanbabcock.com###notice-bar
 doradcasmaku.pl###cookies_popup
 dosukcesu.pl,poznajgwiazde.pl,uniaeuropejska.org,slowkaangielskie.pl###wizjo-cookies
 dotsport.pl##.cookie-nav
+downdetector.pl##.evidon-consent-button
 dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,tubawyszkowa.pl,tubaostrowa.pl,tubachorzowa.pl,pracownia.org.pl,ptbs.pl,terramar.pl,nastopy.pl##.rodo
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
 drumshop.pl###cookiesblock-wrapper
@@ -1609,6 +1610,7 @@ wnt.com###trackerBanner
 wodociagi-kalisz.pl###white2
 wodociagi.krakow.pl##.cookieMessages
 wolnymkrokiem.pl,gieldaklasykow.pl,nowawarszawa.pl##.ginger_banner-wrapper
+woobykids.com###cookie-law-bar
 wp.pl,~www.wp.pl,~poczta.wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 wrobelekelemelek.com###cboxOverlay, #cboxWrapper
 wroclawfashionoutlet.com##.via-notification--cookie
@@ -1784,6 +1786,8 @@ zysk.com.pl###pageUpperInfo
 ||newonce.net/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||nike.com/*CookieSettingsManager$xmlhttprequest
 ||nike.com/*/script.js?assets=nike.gadget.CookieSettingsManager&loaded=nike.exp.global.Ad*nike.ScriptLoade$script
+||odrowaz24.pl/wp-content/plugins/sintra-gdpr/*$script
+||odrowaz24.pl/wp-content/plugins/wp-gdpr-compliance/*$script
 ||openid.pino.pl/app/static/global/rodo.js
 ||ose.gov.pl/rest/public/consent/cookies-body/pl$xmlhttprequest
 ||paypass.pl/themes/paypass/js/cookies.js$script
