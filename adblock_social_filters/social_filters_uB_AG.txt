@@ -1,11 +1,11 @@
-! Checksum: fpkidRtlMMc0ciLZhT/hzw
+! Checksum: T1cnssLpLjfBgRT4OXT+LQ
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Social Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.17.1
-! Last modified: Sun, 17 Feb 2019, 14:00 UTC+01
+! Version: 2019.2.19.1
+! Last modified: Tue, 19 Feb 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.17.1 aktualizacja: nie, 17 lut 2019, 14:00 UTC+01
+! v.2019.2.19.1 aktualizacja: wto, 19 lut 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -117,6 +117,7 @@ www.cba.pl##span[class="mailto-span"]:style(font-size: 25px !important;)
 www.cba.pl###footer > div > div:first-child:style(font-size: 0 !important;)
 www.purina.pl###page:style(overflow: hidden;)
 www.tvn.pl##.detail-share:style(padding-bottom: 0 !important;)
+wymiennik.com##.contact-details > p > a[href*="facebook.com"]:style(pointer-events: none !important; color: inherit  !important;)
 zlotygron.pl##.site_social > span:style(display: inline-block !important; padding-top: 5px !important;)
 !
 !
