@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: i3Wl4aE3G8KM8BZ+MruGdQ
+! Checksum: BSSXxb9qNzXSVp/sMvnjNw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.18.2
-! Last modified: Mon, 18 Feb 2019, 22:00 UTC+01
+! Version: 2019.2.19.1
+! Last modified: Tue, 19 Feb 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.18.2 aktualizacja: pon, 18 lut 2019, 22:00 UTC+01
+! v.2019.2.19.1 aktualizacja: wto, 19 lut 2019, 02:00 UTC+01
 !
 !
 ! Popupy
@@ -793,6 +793,7 @@ allegro.pl##a[href="https://www.facebook.com/allegro"], a[href="https://www.inst
 allepaczki.pl##a[href*="facebook.com/allepaczki"]
 allrecipes.pl##.footer__links > div:nth-of-type(3)
 all-bielizna.pl###sid245
+amberexpo.pl##body > div[style]:nth-of-type(n+3):nth-of-type(-n+4) > .handle_fb
 amparts24.pl##.connect.white
 amso.pl##.toplayer3
 amso.pl##.bookmarklets_big
@@ -832,6 +833,7 @@ aquahost.pl##.DuoSlider > .SocialFB_DS
 aquamelior.pl##.menu-ig, .menu-yt, .menu-fb
 aquapark.lodz.pl##.box > .section-header.ce-header, div.grid-phone-add-gutter-bottom.col-6--phone.col-6--tablet.col-3:nth-of-type(2)
 aquapark.wroc.pl##.sticky-container__li:nth-of-type(1) > .sticky-container__a, .sticky-container__li:nth-of-type(5) > .sticky-container__a
+aranzujemy.pl##.main-footer li:nth-of-type(3) > a
 archidiecezja.lodz.pl##.menu__list-icons--footer
 arch.telewizjarepublika.pl##.box:nth-of-type(7)
 arcontact.pl##li > a > .fa-google-plus, #plusone-slider
@@ -1383,6 +1385,7 @@ eveline.eu##.ig
 eventforyou.com.pl##a > .fab-instagram, a > .fab-twitter-square, a > .fab-facebook-square
 evertiq.pl###foot > ul > li:nth-of-type(3)
 evertourist.com##.contact-fb
+ewaszalkowska.com###HTML1, #HTML2
 ewawachowicz.pl##.footer_column:nth-of-type(3) > .footer-headline:nth-of-type(2)
 ewawachowicz.pl##.icon-wach-facebook
 exerim.pl##.socialSubscribe, #sidebar > article:nth-of-type(2) > h3
@@ -2182,6 +2185,7 @@ mtv.pl##a[href="http://www.facebook.com/MTVPolska"]
 mtv.pl##a[href="/newsy/96672-zajrzyj-na-snapchata-mtv"]
 multibook.pl##a[href="https://www.instagram.com/multibook.pl/"]
 multibook.pl,change.shop.pl,starecegly.com###box_facebooklike
+multikredyty.eu##.blip, .twitter
 multilampy.pl##a[href*="https://web.facebook.com/MultiLampyPL/"]
 multimedia.pl##.columns.social
 multimetro.pl##.footer__fb
@@ -2287,6 +2291,8 @@ nono-store.pl##.fsi-social-icons-left, #text-3, .fullwidth.stripecontainer
 norauto.pl,zadowolenie.pl##.m-copyrights_social
 nordvpn.com##.Footer__menu.row > div.col-sm-3.col-xs-12:nth-of-type(4) > div.p-sm-0.p-3:nth-of-type(2)
 norwegian.com,nvidia.com##.page-footer__social
+nowaatlantyda.com##.milkit_widget_social.widget
+nowaatlantyda.com##.site-follow-label
 nowakonfederacja.pl##.icons-facebook-letter-logo, .icons-twitter-black-shape, .icons-youtube-symbol
 nowamuzyka.pl###primary-menu > #menu-item-54774
 nowastrategia.org.pl##div.home-widget:nth-of-type(2) > .widget_text.widget > .textwidget > p
@@ -2369,6 +2375,7 @@ overwatch.pl,bfhpolska.pl,polscygracze.pl,fortnitepolska.pl##.mks_button_small
 oyakata.com.pl###Social > [href="https://www.instagram.com/oyakatatomistrz"]
 ozonee.pl###menu_banners3 > .menu_button_wrapper > a
 o-m.pl###T1, .znajdz-nas
+o-m.pl##.logo-socials
 pabianice.tv##.header-search-wrapper > div.home-icon:nth-of-type(-n+2)
 paczkow.pl##.promo-links-facebook
 padokoweswiry.pl##.elementor-divider, .elementor-social-icons-wrapper, .fadeIn.elementor-widget-wp-widget-custom_html.elementor-element > .elementor-widget-container > h5
@@ -3115,6 +3122,7 @@ trwarszawa.pl##li > a > .ti-facebook, li > a > .ti-youtube
 trybawaryjny.pl##.widget_text.col-4.widget:nth-of-type(3)
 trybun.org.pl##.uwl_instagram_widget_wrap, .widget_simplecatch_social_widget, .uwl_widget_wrap
 trzykorony.pl##.header-social__item, .footer-up-social.container
+trzynasty-schron.net##.dolneIkonki > li:nth-of-type(n+2)
 tsintegracje.com##.colSocialHome.col-md-5.col-5
 ts-stars.pl##div.col:nth-of-type(3)
 ttg.com.pl###menu-item-111251
@@ -3338,6 +3346,7 @@ www.hotfix.pl##.side-border-left > center > table:nth-of-type(17)
 www.ing.pl##.footer_icons > ul > li[class^="footer_icon_"]
 www.interhouse.eu##a[href="http://www.facebook.com/pages/InterHouse-Sprawdzone-Nieruchomo%C5%9Bci/125078734246626"]
 www.iwaszkiewiczipartnerzy.com###LnkBr0-9cd
+www.kupony.pl##.additional-nav > li:nth-of-type(2)
 www.lodzkie.pl##.jj_sl_custom3
 www.lotto.pl##.fixedFacebook
 www.money.pl,moneyv.wp.pl##div.fuOmTF.sc-7nq3hz-0[color]
@@ -3451,6 +3460,7 @@ zoo.bydgoszcz.com##.f
 zoo.torun.pl##.trip-rp, p > [href="http://pl-pl.facebook.com/pages/Ogr%C3%B3d-Zoobotaniczny-w-Toruniu/334822023239568"]
 zpp.net.pl##.widgets_left
 zrozumboryska.cba.pl###stopka-d
+zsme.pl##center > table:nth-of-type(3) tr:nth-of-type(1) > td:nth-of-type(3) > table > tbody > tr:nth-of-type(n+5):nth-of-type(-n+9)
 zsme.pl##td:nth-of-type(3) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2), #tr:nth-of-type(2) > .menu_h1
 zs.mielec.pl##a[href="https://pl-pl.facebook.com/ElektrykMielec"] > img
 ztm.waw.pl##img[src="http://www.ztm.waw.pl/download/bannerZalacznik/302_bannery99.png"]
