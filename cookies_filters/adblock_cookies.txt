@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: a0FSe6BR25Wysfo4o4y1Lw
+! Checksum: 0JHMBeMxU1EB4OukC9PKNA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.20.2
-! Last modified: Wed, 20 Feb 2019, 14:00 UTC+01
+! Version: 2019.2.20.3
+! Last modified: Wed, 20 Feb 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.20.2 aktualizacja: śro, 20 lut 2019, 14:00 UTC+01
+! v.2019.2.20.3 aktualizacja: śro, 20 lut 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -360,6 +360,7 @@ dict.leo.org,www.leo.org##.as-oil[data-qa="oil-Layer"] > .as-oil-content-overlay
 diecezjaplocka.pl###modalKlauzulaInformacyjna
 dieta.pl##.cookies__std
 dietlux.pl###mod286
+diety.wp.pl##.rodo-popup
 digitalhill.pl##.notification-panel
 dipocket.org###dip-cookies-policy
 discoverychannel.pl##.dni-notifications_cookie-notification
@@ -616,6 +617,7 @@ glos.tv##.cookieTooltip
 gls-group.eu,kinder.com###cookiePopup
 glucholazy.pl###layer9
 glyskincare.eu##.module-abovebox[style^="position: fixed;"]
+gminalimanowa.pl##.infoPopup
 gmina.gorlice.pl,hotmag.pl###wysuwane
 gmsystem.pl,sosulski.pl##body > form
 gm-inowroclaw.rbip.mojregion.info###scnb-cookie-bar
@@ -759,7 +761,7 @@ jajco.pl##div[id*="n-cookies-notification"]
 jakbudowac.pl##.dialog-fixed
 jakikredyt.pl##.popup--open
 jak-ksiegowac.pl###message_wrap
-jarek-kefir.org,wordpress.com,rowery.org,czechofil.com,szukajacslonca.com###eu-cookie-law
+jarek-kefir.org,wordpress.com,rowery.org,czechofil.com,szukajacslonca.com,muzykoholicy.com###eu-cookie-law
 jarmula.com###cookie-warn-wrapper
 jarocinska.pl,gostynska.pl,zpleszewa.pl,rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 jarocin.poznan.lasy.gov.pl##div#aui_3_2_0_1203
@@ -1634,7 +1636,6 @@ www.casamundo.pl###cm_spa_components_messages_oil
 www.cmcmarkets.com###cmc-tracking-consent-form-step1
 www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
-www.dobreprogramy.pl#?#body[class^="amp-mode"] > #myUserConsent:-abp-contains(RODO)
 www.dxracerkrzesla.pl###cookies-confirm
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.gumtree.com,wordpress.com##.gdpr-banner
@@ -1867,7 +1868,6 @@ cookie-law-popup.js$domain=pl
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
 com##.is-ready.is-shown.cnil-banner:not(body):not(html)
 com,pl###cookie-notice:not(body):not(html)
-pl##amp-consent
 pl##aside[class*="Cookie"]:not(body):not(html)
 pl##aside[class*="cookie"]:not(body):not(html)
 pl##body > .rcc-panel.group
@@ -2182,6 +2182,7 @@ pl###stopcookinfo:not(body):not(html)
 pl###theCookie:not(body):not(html)
 pl###thecookie:not(body):not(html)
 pl###top-cookie-wrapper:not(body):not(html)
+pl###ue-cookie-notify:not(body):not(html)
 pl###v-cookielaw:not(body):not(html)
 pl###w357_cpnb:not(body):not(html)
 pl###wcookie_info:not(body):not(html)
@@ -2373,6 +2374,7 @@ pl##.wrap-cookie-info:not(body):not(html)
 pl##[class*="cookie-policy"]:not(body):not(html)
 pl##[class^="box-cookie"]:not(body):not(html)
 pl##[id^="topInfo"]:not(body):not(html)
+pl,org##amp-consent
 ##DIV[style*="background:url(images/cookies_tlo.png)"]
 ##DIV[style*="url(layout/cookies.png)"]
 ##ciasteczka:not(body):not(html)
