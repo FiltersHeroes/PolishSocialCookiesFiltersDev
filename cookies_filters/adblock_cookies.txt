@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: IwPlTomwc7Dmf8zwG5xNGg
+! Checksum: a0FSe6BR25Wysfo4o4y1Lw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.20.1
-! Last modified: Wed, 20 Feb 2019, 02:00 UTC+01
+! Version: 2019.2.20.2
+! Last modified: Wed, 20 Feb 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.20.1 aktualizacja: śro, 20 lut 2019, 02:00 UTC+01
+! v.2019.2.20.2 aktualizacja: śro, 20 lut 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -775,6 +775,7 @@ jelonka.com,walbrzyszek.com##.prywatnosc
 joemonster.org,mistrzowie.org,komixxy.pl,demotywatory.pl,faktopedia.pl,fabrykamemow.pl,motokiller.pl,kotburger.pl,piekielni.pl,atakklonow.pl,rebelianci.org,wspaniali.pl,tenajlepsze.pl,stylowi.pl,wszechpolska.pl,gifowisko.pl,filmixxy.pl,popkorn.pl,dawniejdzisiaj.pl,studentpotrafi.pl,wykresy.pl,machinaczasu.pl,wyciagamykarteczki.pl##div[style="position: fixed; left:0; right:0; bottom:0; height:120px; background-color:#eee; border-top: 1px solid black; z-index:1000; overflow: auto"]
 jula.pl##.g-cookie__box
 jung.de###language-redirection-layer
+justjoin.it##.cookies-footer
 jysk.pl,lovehairbarbershop.business.site,uzywana-muzyka.business.site###cookieDialog
 kabam.com##div#eu_privacy
 kabar.pl##body > .blockMsg
@@ -1866,6 +1867,7 @@ cookie-law-popup.js$domain=pl
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
 com##.is-ready.is-shown.cnil-banner:not(body):not(html)
 com,pl###cookie-notice:not(body):not(html)
+pl##amp-consent
 pl##aside[class*="Cookie"]:not(body):not(html)
 pl##aside[class*="cookie"]:not(body):not(html)
 pl##body > .rcc-panel.group
@@ -2123,6 +2125,7 @@ pl###eu-cookie-bar-notification:not(body):not(html)
 pl###eu-cookie-bar:not(body):not(html)
 pl###eu-cookie-law:not(body):not(html)
 pl###eu-law:not(body):not(html)
+pl###eu_cookie_notify:not(body):not(html)
 pl###evideCookiesNotify:not(body):not(html)
 pl###gdprHeader:not(body):not(html)
 pl###gdpr_banner:not(body):not(html)
@@ -2372,7 +2375,6 @@ pl##[class^="box-cookie"]:not(body):not(html)
 pl##[id^="topInfo"]:not(body):not(html)
 ##DIV[style*="background:url(images/cookies_tlo.png)"]
 ##DIV[style*="url(layout/cookies.png)"]
-##amp-consent
 ##ciasteczka:not(body):not(html)
 ##cookidiv:not(body):not(html)
 ###Ciasteczka:not(body):not(html)
