@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 9naA1amgdSHu5x9KQ44Agw
+! Checksum: oyTsJ0rhd6XdFRUGeADOkA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.23.1
-! Last modified: Sat, 23 Feb 2019, 02:00 UTC+01
+! Version: 2019.2.23.2
+! Last modified: Sat, 23 Feb 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.23.1 aktualizacja: sob, 23 lut 2019, 02:00 UTC+01
+! v.2019.2.23.2 aktualizacja: sob, 23 lut 2019, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -1633,7 +1633,10 @@ gry-online.pl###fbk-login-button
 gry-online.pl##.mnu-ico-yt
 gry-online.pl##.sfo-but-yt
 gry-online.pl##.social-19-out-GOL
+gry-online.pl##.social-19-out-NEWSROOM
 gry-online.pl#?#.tekst-ramka-blue:-abp-contains(Facebook)
+gry-online.pl,tvgry.pl##.mnu-big-p-social-c > a:not([href="https://www.gry-online.pl/team.asp"])
+gry-online.pl,tvgry.pl##.mnu-big-p-social-c > [class^="mnu"]:not(.mnu-big-p-ico-tg)
 gry-online.poszkole.pl###fb_slide
 gs24.pl###prawa-kolumna > .blok:nth-of-type(1)
 gsmonline.pl##div.col-lg-2.col-sm-4.col-12:nth-of-type(2)
@@ -2673,6 +2676,7 @@ pudelek.pl##.like-box-wrap
 pulshr.pl##li:nth-of-type(1) > a[href="https://www.facebook.com/pulsHR"]
 pulshr.pl##.box-1 > .v2
 pum.edu.pl##.crdocs__share__single:nth-of-type(-n+2)
+purepc.pl##.soc_yt
 purevitamins.pl###top-footer .col-sm-3
 purina.pl##div[data-block-plugin-id*="nppe_base_community"]
 puritanpride.com.pl##.toggle-footer > p:nth-of-type(1) > a > img
@@ -3340,6 +3344,7 @@ wojas.pl##.sv-fb-0
 wolkom.pl##.footer_portal
 wolna-polska.pl###text-41 > .widget-title
 wolnemedia.net#?#ul > h3:-abp-contains(społecznościowych)
+wolt.com##div[class*="Footer__socialsColumn"] > div[class^="Footer__socialsRow"] > a[class^="SocialsButton"]
 woobykids.com##.social
 word.olsztyn.pl##a[href="https://www.facebook.com/Warmia-i-Mazury-Zdrowe-%C5%BCycie-czysty-zysk-1741781486134765/"]
 word.olsztyn.pl##a[href^="https://www.youtube.com/playlist"]
