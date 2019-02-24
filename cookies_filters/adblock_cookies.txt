@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: CajyvuNE8BdmkPbOWggeXg
+! Checksum: DpyS/6fy/zWzSaCO9fRegQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.24.3
-! Last modified: Sun, 24 Feb 2019, 22:00 UTC+01
+! Version: 2019.2.24.4
+! Last modified: Sun, 24 Feb 2019, 21:55 UTC+00
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.24.3 aktualizacja: nie, 24 lut 2019, 22:00 UTC+01
+! v.2019.2.24.4 aktualizacja: N, 24 lut 2019, 21:55 UTC+00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -70,7 +70,7 @@ agropolska.pl,miastograf.pl##.ui-dialog[aria-describedby], .ui-widget-overlay
 agrozakupy.pl###ms-cookie-policy
 agusto.pl###st_notification_3
 ahrefs.com###iubenda-cs-banner
-airbnb.pl##[data-veloute="cookie-disclaimer"]
+airbnb.pl##div[data-veloute="cookie-disclaimer"]
 aircon.panasonic.eu,mazury.com,pl.vivre.eu,rybnik.eu,tbnpolska.tv,polemi.co.uk##.cc-cookies
 airkiosk.lot.com##.mf-modal-overlay, .mf-modal-iframe
 airly.eu##.cookies-policy
@@ -1564,6 +1564,7 @@ vinted.pl##.c-cell--default.c-cell--primary.c-cell--wide.c-cell
 virustotal.com###euConsent
 vivaldi.com###cookiemsg
 vivrehome.pl###notification__consent
+vivus.pl#?##app > div > div > div[class]:-abp-has(.cnt)
 voxel.pl###block-rodo-rodo-block
 vuch.pl##.gdpr-cookie-bar
 wacetob.com.pl###container > div:not([id]):not([class])[style*="position"][style*="fixed"]
