@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: EOZBlddDY8UQqkOp4+acGw
+! Checksum: aFWSoAyTDIIKzIz1sRcgiw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.25.1
-! Last modified: Mon, 25 Feb 2019, 02:00 UTC+01
+! Version: 2019.2.25.2
+! Last modified: Mon, 25 Feb 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.25.1 aktualizacja: pon, 25 lut 2019, 02:00 UTC+01
+! v.2019.2.25.2 aktualizacja: pon, 25 lut 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -267,6 +267,7 @@ bytzbiorowy.pl,www.pro-tech.bydgoszcz.pl,slupsk.pl###easyNotification
 bywajtu.pl,livesmarter.pl,luszczyce.pl,mammografia.elblag.pl,mazowia.eu###co15ie87a
 bzwbk.pl##.cookie-btn
 cafago.com,tomtop.com##.m_privacy_statement
+capap.gugik.gov.pl###saycookie
 capri-lublin.pl###mod98
 cavallonero.pl,golembiewscy.pl,sztukalakierowania.pl,sztukawyciszania.pl,perfectclima.pl,puller.com.pl,mikroznakowanie.pl,sprawdzhistorie.pl,zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl###infobx
 ccc.eu###cookiesModal
@@ -1103,6 +1104,7 @@ ociasteczkach.pl###ociasteczkach
 odjechani.com.pl###akceptacja-odjechani, .guest_warn
 odleglosci.pl,tabele-kalorii.pl###komunikat-pp-dol
 odo24.pl##.rodo-body
+odsluchane.eu###app > .alert-flash.notification
 oees.pl###fm-pu-container
 ofertypromocje.pl##.cookiePolitics
 off-road.pl###popslide
@@ -1288,6 +1290,7 @@ przedszkolakowo.pl##body > div[id]:not([class])[style*="position"][style*="fixed
 przedszkolowo.pl###cookie-agree-bar
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 przelewy24.pl,zlotyaniol.pl###policy_container
+pstryczki.eu###topInfoContainer0
 psychiatria-poradnie.pl,rc.fm,odpady.zgrp.pl###popup-message-window, #popup-message-background
 pttk.katowice.pl###cookBox
 publio.pl###cookie-agreement
@@ -2258,6 +2261,7 @@ pl##.cookiesNotification:not(body):not(html)
 pl##.cookiesWrapper:not(body):not(html)
 pl##.cookiesframe:not(body):not(html)
 pl##.cookiesinfo:not(body):not(html)
+pl##.cookieslaw:not(body):not(html)
 pl##.cookiespanel:not(body):not(html)
 pl##.cookies-accept:not(body):not(html)
 pl##.cookies-alert-container:not(body):not(html)
