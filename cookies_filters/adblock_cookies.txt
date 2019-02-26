@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 7JUjJ1CljQYboAwkWJAy7A
+! Checksum: 4zTJ/QG4l9WUUnbzxBiGQA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.25.3
-! Last modified: Mon, 25 Feb 2019, 22:41 UTC+01
+! Version: 2019.2.26.1
+! Last modified: Tue, 26 Feb 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.25.3 aktualizacja: pon, 25 lut 2019, 22:41 UTC+01
+! v.2019.2.26.1 aktualizacja: wto, 26 lut 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1222,6 +1222,7 @@ pobieralnia.org###close
 pochlaniaczwilgoci.com.pl##body > div:not(body):not([id]):not([class])[style^="display: block;"]
 poczesna.com.pl##div#PolitykaBlok
 poczytaj.pl###cookies_wiadomosc
+podatnik.info###CookieInfo
 podhale-sport.pl##body > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2) > p
 podrogach.pl###acceptCookieBox
 podrozezmamaitata.com##.penci-gprd-law
@@ -2144,6 +2145,7 @@ pl###iqitcookielaw:not(body):not(html)
 pl###jQueryCookieDisclaimer:not(body):not(html)
 pl###js-cookieInfo:not(body):not(html)
 pl###kqs-cookie:not(body):not(html)
+pl###maCookieInfo:not(body):not(html)
 pl###mlUsingCookies:not(body):not(html)
 pl###modalcookies:not(body):not(html)
 pl###moove_gdpr_cookie_info_bar:not(body):not(html)
