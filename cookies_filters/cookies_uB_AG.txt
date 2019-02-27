@@ -1,11 +1,11 @@
-! Checksum: WjwxNj6k2uq5Z6bZkDb1EA
+! Checksum: Kr+GKpGc8qVxDybadUF3vQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.27.1
-! Last modified: Wed, 27 Feb 2019, 18:00 UTC+01
+! Version: 2019.2.27.2
+! Last modified: Wed, 27 Feb 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.27.1 aktualizacja: śro, 27 lut 2019, 18:00 UTC+01
+! v.2019.2.27.2 aktualizacja: śro, 27 lut 2019, 22:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -224,8 +224,6 @@ zwolen.pl###g_toplayer, .modal-backdrop
 academy.asseco.pl###politykaPrywatnosciModal, .modal-backdrop
 alltube.tv,alltube.pl,mistravel.pl###rodo-popup, .modal-backdrop
 autakrajowe.com.pl,optimalg.com##.modal-open:style(overflow: auto !important; margin-right: 0 !important;)
-autostrada-a2.pl##+js(remove-attr.js, class, body[class="cookielaw cookielaw rodo"])
-autostrada-a2.pl##+js(remove-attr.js, class, body[class=" rodo"])
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,homedesign.pl,pasjagolebie.pl,tvwalbrzych.pl,pytanieomieszkanie.pl,buddyzm.info.pl,pzsnstart.eu,whatannawears.com##.pum-open:style(overflow: auto !important;)
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,pasjagolebie.pl,tvwalbrzych.pl,pytanieomieszkanie.pl,buddyzm.info.pl,pzsnstart.eu,whatannawears.com,sp112.waw.pl##.popmake-overlay[data-popmake*="cookies"]
 bioagris.pl###policy-accept-div, .modal-backdrop
@@ -317,12 +315,14 @@ wyceniono.pl##.cinfo > *:style(filter: none !important;)
 wyceniono.pl##.cinfo:style(overflow: auto !important;)
 zdajmyrazem.pl###gdprModal, .modal-backdrop
 ztm.poznan.pl###PopUP, .modal-backdrop
+!autostrada-a2.pl##+js(remove-attr.js, class, body[class="cookielaw cookielaw rodo"])
+!autostrada-a2.pl##+js(remove-attr.js, class, body[class=" rodo"])
 !+ PLATFORM(ext_ublock)
 akamai.com##.notification--warning, .modal--overlay
 !+ PLATFORM(ext_ublock)
 akamai.com##+js(remove-attr.js, class, .disable-sibling-pointer-events)
 !+ PLATFORM(ext_ublock)
-autostrada-a2.pl###rodo-box, #cookielaw-box
+!autostrada-a2.pl###rodo-box, #cookielaw-box
 !+ PLATFORM(ext_ublock)
 openpli.org##body > div:not([id]):not([class])
 !#endif
@@ -332,7 +332,6 @@ academy.asseco.pl##^#politykaPrywatnosciModal
 akamai.com##^.notification--warning
 alltube.tv,alltube.pl,mistravel.pl##^#rodo-popup
 autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl##^#rodo
-autostrada-a2.pl##^#rodo-box, #cookielaw-box
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,tvwalbrzych.pl,pytanieomieszkanie.pl,buddyzm.info.pl,pzsnstart.eu,whatannawears.com##^.popmake-overlay
 bioagris.pl##^#policy-accept-div
 born2be.pl,renee.pl##^.rules-modal
@@ -396,6 +395,7 @@ wtk.pl##^#GDPR-modal
 wyceniono.pl##^script:has-text(.cookie-ok)
 zdajmyrazem.pl##^#gdprModal
 ztm.poznan.pl##^#PopUP
+!autostrada-a2.pl##^#rodo-box, #cookielaw-box
 !#endif
 !#if !cap_user_stylesheet
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:style(visibility: hidden !important;)
