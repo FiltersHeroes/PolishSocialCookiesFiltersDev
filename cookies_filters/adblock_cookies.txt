@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 4zTJ/QG4l9WUUnbzxBiGQA
+! Checksum: TTW/FpsTNk4oK5jPzhNbHg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.26.1
-! Last modified: Tue, 26 Feb 2019, 02:00 UTC+01
+! Version: 2019.2.27.1
+! Last modified: Wed, 27 Feb 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.26.1 aktualizacja: wto, 26 lut 2019, 02:00 UTC+01
+! v.2019.2.27.1 aktualizacja: śro, 27 lut 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1724,11 +1724,9 @@ zysk.com.pl###pageUpperInfo
 /pp-t-a-c.js$domain=bmi-online.pl|dieta.pl|domzdrowia.pl|fabrykasily.pl|fora.pl|toplista.pl|torrent.top-100.pl|odkrzychadoronaldo.pl|forum-kulturystyka.pl|swistak.pl|trizer.pl
 /rhododendron/css/rhododendron-popup.css$domain=abctygodnik.pl|wgospodarce.pl|wpolsce.pl
 /rodo-agreement-popup/rodo-agreement-popup.min.js$domain=rpkom.pl|rp.pl|zw.com.pl|parkiet.com
-/rodo.js$domain=discopolomusic.pl|geekweek.pl|mowianamiescie.pl|obi.pl|playa.pl|polsat.pl|polsat1.pl|polsat2.pl|polsatcafe.pl|polsatfilm.pl|polsatnews.pl|polsatplay.pl|poszkole.pl|reklamowy-sklep.pl|superstacja.tv|tv4.pl|tv6.com.pl|trendu.pl|styluva.pl
 /wp-content/plugins/mm-extensions/assets/js/info-popup.js$domain=koty.pl|psy.pl
 /wp-content/plugins/wp-modal-popup-with-cookie-integration/*$script,stylesheet,domain=edutorial.pl
 ||ad.ipolska.pl/cookies/cookiecheck.js$script,domain=wielodzietni.org
-||ad.prv.pl/rodo.js
 ||akademiareissa.pl/jquery.cg.rodo.modal.js
 ||apteki24.waw.pl/info_cook.js
 ||architektura.info/extension/pucookies/design/base/stylesheets/pu_cookies.css
@@ -1787,7 +1785,6 @@ zysk.com.pl###pageUpperInfo
 ||nike.com/*/script.js?assets=nike.gadget.CookieSettingsManager&loaded=nike.exp.global.Ad*nike.ScriptLoade$script
 ||odrowaz24.pl/wp-content/plugins/sintra-gdpr/*$script
 ||odrowaz24.pl/wp-content/plugins/wp-gdpr-compliance/*$script
-||openid.pino.pl/app/static/global/rodo.js
 ||ose.gov.pl/rest/public/consent/cookies-body/pl$xmlhttprequest
 ||paypass.pl/themes/paypass/js/cookies.js$script
 ||phufart.pl/info_o_cookie_utf8.js$script
@@ -1802,10 +1799,10 @@ zysk.com.pl###pageUpperInfo
 ||rodo.rawlplug.com/wp-content/themes/rodo/popup/markups/modal-koelner.html$xmlhttprequest
 ||rolpetrol.com.pl/cookies.js$script
 ||satelita.phorum.pl/cookiebanner.js
+||sdk.privacy-center.org/*/loader.js?target=$script,domain=www.hilti.pl
 ||siemashop.pl/assets/*/js/cookie_agreement.js$script
 ||skryptcookies.pl/cookie.js$script
 ||spolecznosci.mgr.consensu.org/js/cmp.stable.min.js$script,domain=sadistic.pl|garnek.pl|wypracowania.pl
-||sso.ppapi.pl/rodo.js$script
 ||static.quantcast.mgr.consensu.org/*/cmpui-banner.js$domain=memy.pl|pwn.pl|translatica.pl|tv.eurosport.pl|krokdozdrowia.com
 ||static.quantcast.mgr.consensu.org/*/cmpui-popup.js$domain=cybersport.pl|royalad.pl
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
@@ -1857,8 +1854,8 @@ cookie-law-popup.js$domain=pl
 /js/info_o_cookie.js
 /js/polityka_cookies.js$script
 /plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$script,domain=pl
+/rodo.js
 /savecookie.js$script
-/_sess/rodo.js
 !
 !
 ! Ogólne reguły ukrywające
@@ -1893,6 +1890,7 @@ pl###CookielawBanner:not(body):not(html)
 pl###CookiesInstro:not(body):not(html)
 pl###CookiesMessage:not(body):not(html)
 pl###CookiesWindow:not(body):not(html)
+pl###Cookies:not(body):not(html)
 pl###CybotCookiebotDialog:not(body):not(html)
 pl###DIVcookies:not(body):not(html)
 pl###InfoCookie:not(body):not(html)
@@ -2532,21 +2530,19 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
 ! Wyjątki
-allegro.pl,paradoxplaza.com#@#[class*="cookie-policy"]:not(body):not(html)
+allegro.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
-gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section)
+gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section):not(.fade)
 lomza.pl#@##komunikat-cookie:not(body):not(html)
 naekranie.pl#@##polityka-cookies:not(body):not(html)
 opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
-orange.pl,paradoxplaza.com#@##cookies-info:not(body):not(html)
+orange.pl#@##cookies-info:not(body):not(html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
 tychy.geminipark.pl#@#.privacy-policy:not(body):not(html)
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 @@/js/CookieInfo.js$script,domain=cyrk-zalewski.com.pl|topschool.pl|porno720.pl
 @@/js/jquery.cookie.min.js$domain=rozklad.pkp.pl|rozklad-pkp.pl|telepizza.pl|pokatne.pl|moric.pl|hotto.pl
 @@/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$domain=escaperooms.pl|xboxarcade.pl|3dwpraktyce.pl|tvs.pl|przegladbaltycki.pl|wypowiadamoc.pl|gazetabilgoraj.pl|ittechblog.pl|rozterkistartuperki.pl|publolek.pl
-@@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
-@@||china-gadgets.de/app/plugins/cookie-law-info/js/cookielawinfo.js
 @@||coinroom.com/Modules/UI/Cookie/Cookie.js
 @@||pracatobie.pl/jscripts/cookieLaws.js
 !
