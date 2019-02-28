@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: MPAJI1DGtnmu4xO9f2o54A
+! Checksum: 7NtULFtqhcwi8ClKIGl42g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.27.3
-! Last modified: Wed, 27 Feb 2019, 22:00 UTC+01
+! Version: 2019.2.28.1
+! Last modified: Thu, 28 Feb 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.27.3 aktualizacja: śro, 27 lut 2019, 22:00 UTC+01
+! v.2019.2.28.1 aktualizacja: czw, 28 lut 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -73,9 +73,7 @@ ahrefs.com###iubenda-cs-banner
 airbnb.pl##div[data-veloute="cookie-disclaimer"]
 aircon.panasonic.eu,mazury.com,pl.vivre.eu,rybnik.eu,tbnpolska.tv,polemi.co.uk##.cc-cookies
 airkiosk.lot.com##.mf-modal-overlay, .mf-modal-iframe
-airly.eu##.cookies-policy
-airly.eu##[class^="cookies-alert__Wrapper"]
-airly.eu#?#.welcome-modal__block--whatsNew.welcome-modal__block:nth-of-type(2):-abp-contains(Rodo + ciasteczka)
+airly.eu##.cookies-policy, [class^="cookies-alert__Wrapper"]
 akademiaeurocash.com.pl,www.niemartwsie.pl,dlink.com,megawrzuta.pl##.notification
 akademiafalubaz.pl###cgRodoModal, #cgRodoBackdrop
 akademia-piwa.pl##div#polityka_tekst
