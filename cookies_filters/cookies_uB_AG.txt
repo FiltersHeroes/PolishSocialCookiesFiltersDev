@@ -1,11 +1,11 @@
-! Checksum: Kr+GKpGc8qVxDybadUF3vQ
+! Checksum: P9b1oGgD64MccmR2B//31Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.27.2
-! Last modified: Wed, 27 Feb 2019, 22:00 UTC+01
+! Version: 2019.3.1.1
+! Last modified: Fri, 01 Mar 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.27.2 aktualizacja: śro, 27 lut 2019, 22:00 UTC+01
+! v.2019.3.1.1 aktualizacja: pią, 01 mar 2019, 18:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -52,6 +52,8 @@ bs-zwolen.com.pl###fancybox-container-1:has(img[src="baner,32,informacja-rodo.jp
 cbdzoe.pl##.swal2-container
 ceres.pl###flipFlop, .modal-backdrop
 chojnow.pl##+js(abort-current-inline-script.js, confirm, rodoConfirm)
+claas.pl##.fancybox-lock:style(overflow: auto !important;margin-right: 0 !important;)
+claas.pl##.fancybox-overlay:has(.cookieHint)
 cupsell.pl##.tingle-enabled:style(position: static !important; overflow: auto !important;)
 cupsell.pl##.tingle-modal
 dane.gov.pl##.modal-backdrop
