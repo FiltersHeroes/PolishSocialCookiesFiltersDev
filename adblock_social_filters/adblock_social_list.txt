@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: LEiWPJLGQG6Q1socPhHiPQ
+! Checksum: kk4DDr686oiZ/owj9KmJWQ
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.1.2
-! Last modified: Fri, 01 Mar 2019, 18:00 UTC+01
+! Version: 2019.3.1.3
+! Last modified: Fri, 01 Mar 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.1.2 aktualizacja: pią, 01 mar 2019, 18:00 UTC+01
+! v.2019.3.1.3 aktualizacja: pią, 01 mar 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -1724,6 +1724,7 @@ iaeste.pl##a > img[src="/images/template/icons/icon-inst.png"],a > img[src="/ima
 iautomatyka.pl##div.mpc-column.col-md-3.col-lg-3.wpb_column:nth-of-type(1), div.pfwidgetinner:nth-of-type(4), div.h2_belka:nth-of-type(3)
 iautomatyka.pl##.youtube.pf-sociallinks-item, .mpc-effect-side--none
 iautomatyka.pl#?#.h2_belka:-abp-contains(Społeczność)
+icomfort.pl##.footer-1 > .upper > .container > .row > .col-md-2
 idcgames.com##.home-rrss, .rrss-footer
 ideabank.pl##.footer .col-md-5 > .title
 idg.pl##.social_con, ul:nth-of-type(2) > li, .footer_social_links > ul
@@ -2361,6 +2362,7 @@ oferteo.pl###rich-socials.rich-socials
 oferteo.pl##.container-socialmedia .col-sm-4.col-md-5.col-lg-6, .container-socialmedia .sm-box
 ofertypromocje.pl###linkiPortalu
 ogladaj-legalne.pl###redTopBox > #findAs
+ogloszenia.trojmiasto.pl###actions-bar-facebook-button
 ogloszenioteka.pl#?#div.article.lfloat:-abp-contains(Zapraszamy na nasz profil na Facebooku.)
 ogrodnik-amator.pl##a[href="http://www.facebook.com/pages/ogrodnik-amatorpl/459365410789108"]
 ogrzewania.pl##.modFBWidget
@@ -3297,6 +3299,7 @@ waneko.pl##.no-padding-desktop.none-desktop.col-12-desktop.col-6-tablet.side-box
 warsawdowntown.pl##.footer_top
 warsztatowski.com##.marki
 warsztatpodrozy.com##a[href="https://www.facebook.com/WarsztatPodrozy/"], a[href="https://www.instagram.com/warsztatpodrozy/"]
+warsztatywyobrazni.com.pl##a[href="https://www.facebook.com/wwyobrazni/"] > img
 wat.edu.pl,oswiecim112.pl##.topbar_social > ul > li:nth-of-type(2)
 wavepc.pl##.mh-footer-4, .mh_magazine_facebook_page
 waw4free.pl##a[href^="https://plus.google.com/share"], a[href^="https://twitter.com/share"], a[href^="https://www.facebook.com/sharer/sharer.php"], #spolecznosci > a[href="https://www.facebook.com/waw4free"]
@@ -3827,7 +3830,7 @@ www.instalki.pl#@#img[alt="Facebook"]
 @@/googleplus-$image,domain=www.wirtualnemedia.pl
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
 @@/social_media_$domain=mazury.travel
-@@||dropboxstatic.com/static/compiled/js/deep-integrations/icons/icon_google_calendar_square.min-*.js
+@@||dropboxstatic.com/static/*/icon_google_calendar_*.js$script,domain=www.dropbox.com
 @@||filoma.org/static/images/facebook.jpg
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
