@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 7NtULFtqhcwi8ClKIGl42g
+! Checksum: ThaI+OCtWz1x5TM3doEWZg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.2.28.1
-! Last modified: Thu, 28 Feb 2019, 18:00 UTC+01
+! Version: 2019.3.1.1
+! Last modified: Fri, 01 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.2.28.1 aktualizacja: czw, 28 lut 2019, 18:00 UTC+01
+! v.2019.3.1.1 aktualizacja: pią, 01 mar 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -52,7 +52,7 @@ accuweather.com###eu-cookie-notify-wrap
 acer.com##.cookieBox
 aclari.pl###licence-agreement
 acronis.com##.cookies-notification
-adbl.eu,polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com,widzewtomy.net,japrzedsiebiorca.biz,konstytucjabiznesu.biz,doradcarestrukturyzacyjny.info,sandraspa.eu,centrum.fm,elektrykapradnietyka.com,platinet.eu,spece.it,wolnekonopie.org,domowa.pizza,skup-laptopow.com,alkalicznystylzycia.com,pl.xiaomitoday.it,moneygrabbing.co.uk,jakzalozycfirmenaukrainie.com,inwestycjebudowlane.biz,domkorkowy.com###cookie-law-info-bar, #cookie-law-info-again
+adbl.eu,polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com,widzewtomy.net,japrzedsiebiorca.biz,konstytucjabiznesu.biz,doradcarestrukturyzacyjny.info,sandraspa.eu,centrum.fm,elektrykapradnietyka.com,platinet.eu,spece.it,wolnekonopie.org,domowa.pizza,skup-laptopow.com,alkalicznystylzycia.com,pl.xiaomitoday.it,moneygrabbing.co.uk,jakzalozycfirmenaukrainie.com,inwestycjebudowlane.biz,domkorkowy.com,secowarwick.com###cookie-law-info-bar, #cookie-law-info-again
 addons.prestashop.com,e-manufaktura.com,starecegly.com,sklep.polbit.com,kolonieiobozy.net,rolkom.net,sklep.grupamagnum.eu,shopgadget.eu,poradnikbudowlany.eu,meczelive.tv###cookie
 adexemplum.com,alarte.pl,allplay.pl,alufelgi.sklep.pl,ammoffice.pl,androidmagazine.pl,apspolska.pl,asd.pl,biuletyn.net,blog.j-labs.pl,cubik.pl,culturapoloneza.ro,domodi.pl,dourody.pl,dzidziusiowo.pl,eneva.pl,footroll.pl,galeria-dominikanska.pl,gosc.pl,homebook.pl,igomedia.pl,inwestinfo.pl,inwestpark.pila.pl,itezone.pl,jeanmueller.pl,kinoteka.pl,kontakt-simon.com.pl,malygosc.pl,miechow.eu,mklr.pl,motokiller.pl,motokobiety.pl,mototube.pl,nowapapiernia.pl,o-c.pl,panelex.pl,pgn.com.pl,prisonwars.pl,pudliszki.pl,radioem.pl,shop.ticketpro.pl,sigatech.pl,sklep-bmw.pl,sklep.kutnik.com.pl,skm.warszawa.pl,sportowiec.com,strzelnicabojowa.pl,teatr-maly.pl,v10.pl,wiara.pl,winawloskie.pl,wmrowisku.pl,mamnewsa.pl,www.pisz.pl,yorkedukacja.pl,zamakmercator.pl,zamow-myjnie.pl,klockolandia.pl,meteor-turystyka.pl,recepcja.visionexpress.pl,twojeapteki.com##body > div:not([id]):not([class])[style*="position"][style*="fixed"]
 adguard.com##.sticky-bar--cookie
@@ -66,6 +66,7 @@ aforyzmy-cytaty.pl#?#.alert:-abp-contains(cookies)
 afryka.org##body > div[style="background: #911515;"]:nth-of-type(1)
 aftermarket-benefit.pl###zgodaCookies
 agencjagazeta.pl,sklep.genos.com.pl,panoramafirm.pl###rodoLayer
+agmar.com,altimi.com,superstacja.tv,fiufiu.co,inwex.eu,fibaro.com###cookie-info
 agropolska.pl,miastograf.pl##.ui-dialog[aria-describedby], .ui-widget-overlay
 agrozakupy.pl###ms-cookie-policy
 agusto.pl###st_notification_3
@@ -99,7 +100,6 @@ allnet24.pl,sklep.mebloart.eu,kran.tychy.pl##.footer.config-messages
 allsporter.com##.cookies-ct
 allview.pl###modalGDPR.modalGDPR
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
-altimi.com,superstacja.tv,fiufiu.co,inwex.eu,agmar.com###cookie-info
 aluzja.gorzow.pl,artgos.pl,ck.przemysl.pl,diagmed.info.pl,hostgrafia.pl,mojawww.com,osrodek-terapii.com,puch-kotlowski.pl,sls.info.pl,swiatdeski.pl,tomiicars.com.pl,treningkrakow.pl,vagaru.pl,wikar.pl##div[class]:not([id]) > aside.type-10.widget, section[class]:not([id]) > aside.type-10.widget, div[class]:not([id]) > div[id].type-10.widget > aside.type-10.widget
 al.to,x-kom.pl,combat.pl###popup-cookie
 amarone.pl###bannerMSG
@@ -166,6 +166,7 @@ bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,
 baldowski.pl,label-magazine.com##.moduleCookiesBox
 balex.eu,kupzegarek.com,muzycznagielda.com,picodi.com,starysacz.info,ono24.info,wikidot.com,~www.wikidot.com##.cookie-alert
 balladine.com,nails.silcare.com,ochnik.com,mistama.com,basspolska.com###cookies_message
+balluff.com##.cookie-info
 bambino.dzidziusiowo.pl##.section--cookies
 bankier.pl###smart-cmp-host
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
@@ -317,7 +318,7 @@ cookielaw.org,hp.com,prezi.com##.optanon-alert-box-wrapper
 copernicusfestival.com,naukaireligia.pl,filozofiawnauce.pl,copernicuscenter.edu.pl###block-block-31
 costacoffee.pl##.notification-global
 cqb.pl###overlay_cookies
-croatia.hr,sadeczanin.info,kghm.com,gliwice.eu,boca.com,kwestiasmaku.com,rc.fm,prestashop.com###sliding-popup
+croatia.hr,sadeczanin.info,kghm.com,gliwice.eu,boca.com,kwestiasmaku.com,rc.fm,prestashop.com,dexcom.com###sliding-popup
 crossweb.pl##.part-cook
 cs-puchatek.pl##.oregulaminie
 cubus.com###EPDirectiveInfo
@@ -350,6 +351,7 @@ deichmann.com##.open.clearfix.module.newsflash
 delicjapolska.pl,www.bi-polska.pl###cooboo
 deloitte.com##.cookie-container
 denley.pl##.ck-popup.cookiepopup
+denso.com,pl.gearbest.com##.cookiePolicy
 developers.google.com,developer.android.com##.devsite-notification-eu-cookie
 devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
 dia.com.pl,pkfpolska.pl,pkfszkolenia.pl###S_cookies
@@ -371,6 +373,7 @@ dogizycka.pl,dojaroslawca.pl,domragowa.pl,helskipolwysep.pl,kursnamikolajki.pl,v
 dolce-gusto.pl###nimgrowler
 dollarro.com###pnlCookiebanner
 dolnyslask.travel##.cl-banner
+dombud.eu,kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu,hikoki-narzedzia.pl,rockwellautomation.com###cookieNotice
 domd.pl###cookie-info-popup
 domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
 domesta.com.pl###CookiesWarningPopup
@@ -560,6 +563,7 @@ foto4u.pl,fotoprint.pl,smakizycia.pl,zoover.pl###info-bar
 fotojoker.pl##div#floatDiv
 fotokurier.eu###pcUsingCookies
 fotonegatyw.com###fx-modal-1
+freestyle.abbott##header > .cookie
 fsmm.pl###cookieinfoboxitems
 funclub.pl#?#body > div > div > div > div > div:-abp-contains(cookies)
 fundacjadominikana.org###sp-cookie-consent
@@ -782,7 +786,6 @@ kalendarzrolnikow.pl,lpwiksa.com.pl,hopea.eu,kpcen-torun.edu.pl###colorbox, #cbo
 kalendarzswiat.pl###consent_box_wrapper
 kalisz.pl###showHideDiv
 kalkulator.wakacyjnapolisa.pl,rankomat.pl##.rank-cookie-bar
-kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu,hikoki-narzedzia.pl,dombud.eu###cookieNotice
 kapucyni.pl###mod_ppcookies
 karmimypsiaki.pl##div#ciasteczkaInfoContainer
 karpacz.pl###popupBody, #popupContainer
@@ -901,7 +904,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubimyczytac.pl###TB_window, #TB_overlay
@@ -1196,8 +1199,8 @@ pl.aleteia.org##.qc-cmp-ui-content
 pl.chili.tv###_evh-ric
 pl.depositphotos.com##._notification
 pl.eurosportplayer.com,ifm.com##.cookie-notice
+pl.farnell.com###mktg_Cookie_Wrap
 pl.fotolia.com,helpx.adobe.com,stock.adobe.com,www.adobe.com,rexona.com,vmware.com,www.knorr.pl,www.unilever.pl,behance.net###_evidon_banner
-pl.gearbest.com##.cookiePolicy
 pl.glosbe.com###cookie-statement
 pl.gravatar.com##.custom-cookie-banner
 pl.hama.com###privacyOptionsCookieOptIn-bottom
@@ -1395,6 +1398,7 @@ shippuuden.pl##div#cookis-bg
 shoepassion.pl##.data_security_cookies
 shop-dent.pl##div.black_overlay
 showmax.com#?##___gatsby > div > div:-abp-contains(cookie)
+sick.com##.cookie_law
 siemens.com##.nts-notification-cookie
 sieradz.com.pl,zdunskawola24.pl###polityka-2
 simplesurance.pl###_s-cookie-notification-container
@@ -1512,6 +1516,7 @@ tesco.pl##.gdpr-cookies-inside
 testhub.pl##.sh-page-notice
 testigo.pl###cp_wrap
 testujemy.biedronka.pl##.qucki-box
+tewa-sensors.com###cherry-cookie-banner
 ticketos.pl###prywatnosc
 tlcpolska.pl###dni-notifications
 tlp.is##.cookiepolicy
@@ -1927,6 +1932,7 @@ pl###cookieBlock:not(body):not(html)
 pl###cookieBoxContainer:not(body):not(html)
 pl###cookieBoxWrapper:not(body):not(html)
 pl###cookieBox:not(body):not(html)
+pl###cookieConsent:not(body):not(html)
 pl###cookieContent:not(body):not(html)
 pl###cookieDisclaimer:not(body):not(html)
 pl###cookieInfoBar:not(body):not(html)
@@ -2087,6 +2093,7 @@ pl###cookie-monster-san:not(body):not(html)
 pl###cookie-monster:not(body):not(html)
 pl###cookie-msg:not(body):not(html)
 pl###cookie-notification:not(body):not(html)
+pl###cookie-notify:not(body):not(html)
 pl###cookie-policy-banner:not(body):not(html)
 pl###cookie-policy-info:not(body):not(html)
 pl###cookie-policy-popup:not(body):not(html)
