@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 7+fLZixX9/NblFj1lE46Fw
+! Checksum: 4JK1UXMEb8WjlSHfEUK65A
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.3.1
-! Last modified: Sun, 03 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.3.2
+! Last modified: Sun, 03 Mar 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.3.1 aktualizacja: nie, 03 mar 2019, 02:00 UTC+01
+! v.2019.3.3.2 aktualizacja: nie, 03 mar 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -60,7 +60,7 @@ adobe.com,merixstudio.pl##.message
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl,zs1mm.edu.pl,zs1mm.home.pl##body > div:not([id]):not([class])[style*="position"][style*="relative"]
 adwokatura.katowice.pl###cookieInfCont
-aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pl.pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com##.cc_banner-wrapper > .cc_banner
+aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pl.pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com,ipa-katowice.org##.cc_banner-wrapper > .cc_banner
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
 aforyzmy-cytaty.pl#?#.alert:-abp-contains(cookies)
 afryka.org##body > div[style="background: #911515;"]:nth-of-type(1)
@@ -304,6 +304,7 @@ ckmir.com.pl#?#p:-abp-contains(cookie)
 clearchannel.com.pl,sokolka.com.pl,mpwik.com.pl###rodoPopup
 clineo.pl###floatingFB
 cmg24.pl##.RODO
+cmrev.com###cookies-overlay
 cms.tipnews.pl##body > div[id][class=""][data-editable="boxCookieNotification"]
 codziennikfeministyczny.pl###bazinga-muffin-container
 coinquista.com##.drawer.ant-drawer > .ant-drawer-content-wrapper
@@ -399,7 +400,7 @@ duszniki.eu###CookiesInstro
 dvbsklep.pl,naturo.pl##[id^="simple-modal"]
 dvdmax.pl,punkt44.pl###alertTop
 dzidziusiowo.pl,kinoteka.pl,kontakt-simon.com.pl,malygosc.pl,mklr.pl,motokiller.pl,nowapapiernia.pl,radioem.pl,v10.pl##body > div:not([id]):not([class])[style*="position"][style*="absolute"]
-dziennikwschodni.pl,wykop.pl##.rodo-alert
+dziennikwschodni.pl,wykop.pl,niskarata.org##.rodo-alert
 dzis.tv##div#regulaminWrap
 e24cloud.com##div#FullBox
 earlystage.pl###cookie-beam
@@ -907,7 +908,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubimyczytac.pl###TB_window, #TB_overlay
@@ -943,6 +944,7 @@ mcdonalds.pl###cookies_message_info
 mc-2.pl###_COOKIE-PPN
 mdkgal.edu.pl##[data-nclose-cookie]
 mebags.pl###st_notification_2
+meblezet.com,spacetronik.eu,skottuning.com###x13pmcookiebar
 meble.com.pl,archiconnect.pl,lazienka.pl,najlepszedomy.pl,mamkuchnie.pl,biznesmeblowy.pl###axn
 mediamarkt.pl###site_container > .clearfix
 mediam.eu,szkolawbrusie.pl###panel_popup
@@ -1442,7 +1444,6 @@ sonymobile.com##.fullbleed-response[data-module="sony-survey-client"][style]
 sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu##.cookie-consent
 sosnowiec.pl###topBar_MainCover
 soundcloud.com,blyskawicznakorekta.pl##.announcements
-spacetronik.eu,skottuning.com###x13pmcookiebar
 specshop.pl##.blockUI
 speedtest.net###_evidon-barrier-wrapper
 speedtest.net##.alert-container
@@ -1501,6 +1502,7 @@ szukajka.tv###rodo-popup
 szukajka.tv,wizzair.com,styl.fm##.cookie-policy
 szybkanauka.pro#?##tve_editor:-abp-contains(cookies)
 szybko.pl##.toast
+talbud.pl,termgaz.pl###cook_woyt
 targeo.pl#?#body > div:not([id]):not([class])[style^="position: absolute;"]:-abp-contains(plików cookie)
 tatra.pl##.cookies-2-overlay, .popup-cookies-2
 tatuaze-wzory.com###showcookie
@@ -1515,7 +1517,6 @@ telegazeta.pl##.tvp-covl-bg, .tvp-covl
 telewizjarepublika.pl###swsmodal, #swsoverlay
 tenit.com.pl###gdpr
 termedia.pl###acceptCookiesId
-termgaz.pl###cook_woyt
 tesco.pl##.gdpr-cookies-inside
 testhub.pl##.sh-page-notice
 testigo.pl###cp_wrap
@@ -2127,6 +2128,7 @@ pl###cookie_info_startpage:not(body):not(html)
 pl###cookie_info_startpage:not(body):not(html) + #white_layer
 pl###cookie_law_informations:not(body):not(html)
 pl###cookie_layer:not(body):not(html)
+pl###cookie_message:not(body):not(html)
 pl###cookie_notice:not(body):not(html)
 pl###cookie_top_info:not(body):not(html)
 pl###cross-dialog:not(body):not(html)
@@ -2262,6 +2264,7 @@ pl##.cookieaccept > .cookieaccept_wrapper:not(body):not(html)
 pl##.cookiebanner:not(body):not(html):not(#header)
 pl##.cookiebar:not(body):not(html)
 pl##.cookiebox:not(body):not(html)
+pl##.cookiedisclaimer:not(body):not(html)
 pl##.cookieinfo:not(body):not(html)
 pl##.cookielayer:not(body):not(html)
 pl##.cookienotice:not(body):not(html)
