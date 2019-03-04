@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: +klSX+RZV28/KyQctYNsUw
+! Checksum: SgUpgQhBrmxnbumETb9fHg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.3.4
-! Last modified: Sun, 03 Mar 2019, 22:00 UTC+01
+! Version: 2019.3.4.1
+! Last modified: Mon, 04 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.3.4 aktualizacja: nie, 03 mar 2019, 22:00 UTC+01
+! v.2019.3.4.1 aktualizacja: pon, 04 mar 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -153,7 +153,7 @@ automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autos-motos.net,scentre.pl,ilewazy.pl##.consent
 auto.pl,honda.auto.com.pl##.cookie-information-wrapper
 avans.pl##.is-cookies
-avast.com,pay.google.com,trustpilot.com,outride.rs##.cookie-bar:not(body)
+avast.com,pay.google.com,trustpilot.com,outride.rs,pl.depositphotos.com##.cookie-bar:not(body)
 avatradepolska.pl##.accept-cookie-block
 avioner.pl,hotpay.pl,playtube.pl#?#.alert-success.alert:-abp-contains(cookies)
 avon.pl##.CookieSection
@@ -510,7 +510,7 @@ fantasy.ekstraklasa.tv,trojmiasto.pl,fajniemieszkam.pl,sportzona.pl,fotosik.pl##
 fan.pl##td:nth-of-type(3) > table > tbody > tr > td > .mll
 farbykabe.pl###top_cookie_policy
 farmacja.edu.pl###polityka_notice
-fastenerpoland.eu,kartki-swiateczne.com,stalowka.net,grojec24.net,staltech.biz###cookieInfo
+fastenerpoland.eu,kartki-swiateczne.com,stalowka.net,grojec24.net,staltech.biz,gazeta-fotograficzna.org###cookieInfo
 fastenerpoland.eu,vetpersonel.elamed.pl###agreeInfo
 faxtel.com.pl,krnmedia.pl##.cookiealert
 fdb.pl###consent
@@ -616,6 +616,7 @@ glogow-info.pl,glogow.info.pl##.wrapper > table:nth-of-type(1)[style="margin-top
 glogow.info.pl,glogow-info.pl##.info1, .tloinfo1
 glos24.pl##DIV[style="border: 1px solid #fcce00; background: #fcfc9a; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 2px 4px #bbb; -webkit-box-shadow:0 2px 4px #bbb; -khtml-box-shadow: 0 2px 4px #bbb; box-shadow:0 2px 4px #bbb; width: 700px; font: normal 12px/1.6em verdana; color: #505050;"]
 glos24.pl##body > div[style*="z-index: 999"]
+glos.live##.eupopup-container-bottom.eupopup-container
 glos.tv##.cookieTooltip
 gls-group.eu,kinder.com###cookiePopup
 glucholazy.pl###layer9
@@ -983,7 +984,7 @@ mielec.pl##.footer_cookieinfo
 milenium.pl##.cookie_acceptation
 millymally.pl###js-xcookies
 milmag.pl###layCookieAlert
-ministerstwogadzetow.com,swmarcin-jarocin.com,ufs.pt,biblioteki.org,ksiegarniainternetowa.co.uk,polskaksiegarniainternetowa.eu###cookiesBar
+ministerstwogadzetow.com,swmarcin-jarocin.com,ufs.pt,biblioteki.org,ksiegarniainternetowa.co.uk,polskaksiegarniainternetowa.eu,studio-znet.com###cookiesBar
 miplo.pl##.error.rounded
 mirjan24.pl##.cookieslaw
 mirjan24.pl###window_overlay
@@ -1170,6 +1171,7 @@ parkhandlowylomza.pl###pamphletu38210
 parkwodny.pl,szkolymedyczne.eu,srodaslaska.pl##.ppsPopupShell, #ppsPopupBgOverlay
 parp.gov.pl###howdydo-wrapper
 pasazer.com##.info_cookie
+passa.media.pl##.popup, .popup-overlay
 paszport.info###sliding-popupt
 paypal.com###gdprCookieBanner
 pbspolska.eu##.wpgdprc-consent-bar.wpgdprc
@@ -1986,6 +1988,7 @@ pl###cookieinfo1:not(body):not(html)
 pl###cookieinfo:not(body):not(html)
 pl###cookielaw-box:not(body):not(html)
 pl###cookielaw:not(body):not(html)
+pl###cookiemonster:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html) + #document_modal
 pl###cookiemsg:not(body):not(html)
@@ -2029,6 +2032,7 @@ pl###cookies-alert-dialog:not(body):not(html)
 pl###cookies-alert-wrapper:not(body):not(html)
 pl###cookies-alert:not(body):not(html)
 pl###cookies-banner:not(body):not(html)
+pl###cookies-bar-container:not(body):not(html) > #cookies-bar
 pl###cookies-box:not(body):not(html)
 pl###cookies-container:not(body):not(html)
 pl###cookies-disclaimer:not(body):not(html)
@@ -2161,6 +2165,7 @@ pl###iqitcookielaw:not(body):not(html)
 pl###jQueryCookieDisclaimer:not(body):not(html)
 pl###js-cookieInfo:not(body):not(html)
 pl###kqs-cookie:not(body):not(html)
+pl###mCookies:not(body):not(html)
 pl###maCookieInfo:not(body):not(html)
 pl###mlUsingCookies:not(body):not(html)
 pl###modalcookies:not(body):not(html)
@@ -2342,6 +2347,7 @@ pl##.cookie-pop:not(body):not(html)
 pl##.cookie-tooltip:not(body):not(html)
 pl##.cookie-warning:not(body):not(html):not(#Container):not(#Web)
 pl##.cookie-wrap:not(body):not(html)
+pl##.cookie.bottom.jb:not(body):not(html)
 pl##.cookie_acceptance:not(body):not(html), .cookie_acceptance_background:not(body):not(html)
 pl##.cookie_acept:not(body):not(html)
 pl##.cookie_agree:not(body):not(html)
