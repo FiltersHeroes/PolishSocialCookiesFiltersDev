@@ -1,7 +1,5 @@
 4fun.tv###cModal, .modal-backdrop
 4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,halowawa.pl,dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,wpr.pl,academy.asseco.pl,fnglob.pl,tvbraniewo24.pl,stadionenerga.pl,rowerowygdansk.pl,brieftip.pl,lipinscy.pl,mistravel.pl,norgips.pl,rome-easysolution.tk,happydental.pl,tvmalbork.pl,poradnikbudowlany.eu,kaliber.pl,chelmonline.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
-chelmonline.pl###myModal, .modal-backdrop
-chelmonline.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style="padding-right: 17px;"])
 academy.asseco.pl###politykaPrywatnosciModal, .modal-backdrop
 alltube.tv,alltube.pl,mistravel.pl###rodo-popup, .modal-backdrop
 autakrajowe.com.pl,optimalg.com##.modal-open:style(overflow: auto !important; margin-right: 0 !important;)
@@ -14,6 +12,8 @@ brieftip.pl,kaliber.pl##+js(nano-remove-elements-onready.js, #cookieModal)
 budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl,poszalu.pl,victoriassecret.pl,mdkkolbuszowa.pl##.modal-open:style(overflow: auto !important;)
 cenapaliw.pl###CBCookieMsg, .modal-backdrop
+chelmonline.pl###myModal, .modal-backdrop
+chelmonline.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style="padding-right: 17px;"])
 dalmierze.pl###Widget3, .modal-backdrop
 domhouse.pl##+js(abort-current-inline-script.js, $, rodo)
 dworzec.kielce.pl###gafancybox-overlay97
@@ -32,9 +32,9 @@ fnglob.pl###modal, .modal-backdrop
 forums.openpli.org##+js(abort-current-inline-script.js, euReadCookie)
 fryzomania.pl,pro-sprzet.pl,happydental.pl###myWorning, .modal-backdrop
 gdansk.pl,gokf.gda.pl,stadionenerga.pl,rowerowygdansk.pl##.rodo, .modal-backdrop
+halowawa.pl,infostrow.pl,dlawas.info###rodo-modal
 homedesign.pl##.popmake-overlay[data-popmake*="rodo"]
 infoplanet.pl,craftserve.pl,motobanda.pl,autakrajowe.com.pl###rodo, .modal-backdrop
-halowawa.pl,infostrow.pl,dlawas.info###rodo-modal
 lipinscy.pl###popRodoInfoContent, .modal-backdrop
 listymikolaja.pl##.fancybox-overlay:has(#popup_rodo_layer)
 listymikolaja.pl,swiat-whisky.sklep.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
