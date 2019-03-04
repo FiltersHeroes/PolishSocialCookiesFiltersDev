@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: QhfYdKvhJL/9TdnBqZLqzQ
+! Checksum: 2Ra1xXA9J9NQxUp6tqR18w
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.4.2
-! Last modified: Mon, 04 Mar 2019, 18:00 UTC+01
+! Version: 2019.3.4.3
+! Last modified: Mon, 04 Mar 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.4.2 aktualizacja: pon, 04 mar 2019, 18:00 UTC+01
+! v.2019.3.4.3 aktualizacja: pon, 04 mar 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -88,6 +88,7 @@ zuch.media###spu-10366, #spu-bg-10366
 ||chamskie.pl/compress/popupFacebook.js
 ||chamskie.pl/compress/popups/popupFacebook_normal.css
 ||galeriabronowice.pl/templates/gb/js/fancybox/jquery.fancybox.js
+||haart.pl/wp-content/plugins/popup-builder/public/js/Popup.js
 ||inffuse-fbpopup.appspot.com/widget.html
 ||prezeska.pl/wp-content/uploads/pum/pum-site-styles.css
 ||sat-charts.eu/js/fcbkpopup.js
@@ -1393,6 +1394,7 @@ ene-due.eu,bludshop.com,wentsystem.com,m-shop.eu###tws_i_0
 enfamil.pl##.float-app:nth-of-type(3), .float-fb:nth-of-type(4)
 envelo.pl##.envelo-facebook, .envelo-twitter, .envelo-gplus, .envelo-in, .envelo-instagram
 epainfo.pl,kosmicznapropaganda.pl,movieway.pl,cryptodemy.pl,xn--soikowo-njb.pl,magyazyn.pl,ochrona24.info,odkrywamyzakryte.com,retronagazie.eu##.widget_fbw_id
+epione.pl###FacebookWidget
 epiotrkow.pl##.sboxr
 epiotrkow.pl##div.wcontl:nth-of-type(5) > h1
 epiotrkow.pl##.wcontl:nth-of-type(2), .wcontl:nth-of-type(6) > h1
@@ -1673,6 +1675,7 @@ gumtree.pl##.icon-seo-facebook, .icon-seo-gmailplus, .icon-seo-twitter, .icon-se
 guzik.konin.pl##a[href="https://pl-pl.facebook.com/GUZIK.systemy.informatyczne/"]
 guzik.konin.pl##.widget_text.social.widget-bottom.uk-panel-box.uk-panel
 gymeltoro.pl##.bean-social1
+haart.pl##.penci_social_widget, #custom_html-5
 hack.pl,repozytorium.fn.org.pl,spoleczenstwo.plportal.pl###block-block-11
 hallyustarnews.pl###media_image-3, #media_image-4
 halogorlice.info###sp-bottom3
@@ -1832,6 +1835,7 @@ jaion.pl#?#.clearfix.cb-column.cb-one:-abp-has(> #custom_html-3)
 jakitydzien.pl#?#ul:-abp-has(>li>a[href="https://facebook.com/jakitydzien"])
 jakrobicmarketing.pl###twitter-follow-2, #gcz_facebook_page_like-2, .share-buttons
 jakzrobicwexcelu.pl,wrealu24.pl###custom_html-6
+jak-zdobyc-dziewczyne.pl#?##scroll3:-abp-contains(Fanów na FB)
 jak-zdobyc-dziewczyne.pl#?#.right > ul:-abp-contains(społecznościowych)
 janniezbedny.pl###social_gp
 janod.pl###instagram_zone, #instagram_footer
@@ -1903,7 +1907,7 @@ klonowypark.pl,misjonarska.com###belka_facebook2
 klucz.net###labelSocial, .vklogo
 kmziz.pl##.item.col-xs-12.col-sm-12.col-md-3.col-lg-3
 knieje.pl##.fb_likebox
-kobieceporady.pl##li:nth-of-type(3) > a[href$="https://www.facebook.com/kobieceporadypl"]
+kobieceporady.pl##div.columns:nth-of-type(3) > ul.no-bullet:nth-of-type(1) > li:nth-of-type(3)
 kobietydokodu.pl##a[href="https://facebook.com/kobietydokodu"]
 kochanamama.pl##.pmpIFb, .pmpIGp, .pmpIYt
 kodiwpigulce.pl##.footer-sidebar.sidebar:nth-of-type(4)
@@ -2848,6 +2852,7 @@ ronet.com.pl##.sliding-zam-fb, .sliding-zam-yt
 rooader.pl##img[src="/files/image/facebook_2015_logo_detail.png"]
 rosenthal.pl###wysuwany_blog, #wysuwany_div
 rowerowy.biz###box_facebook
+rowery-elektryczne.pl###youtube-widget, #footer-links > p:nth-of-type(1)
 rowinskabusinesscoaching.com##.widget-section.widget > .row  > .container > a.widget-icon.widget
 royalcanin.pl##a[href="https://www.youtube.com/user/royalcaninpolska"] > img
 royalcanin.pl##.footer-col-3
@@ -3659,6 +3664,8 @@ zygzaksnow.pl###ppfacebook
 ||ibe.edu.pl/images/ikony/YouTube-grey.png
 ||ibe.edu.pl/images/ikony/twiter-gr.jpg
 ||ikrotoszyn.pl/tmpl/images/*_top_belka.png
+||jak-zdobyc-dziewczyne.pl/wp-content/uploads/*/56x56xFacebook_icon.png*$image
+||jak-zdobyc-dziewczyne.pl/wp-content/uploads/*/56x56xyoutube-icon.png*$image
 ||kampinos.pl/zdjecia/1339762719Przyc_www.jpg
 ||kantorekspert.pl/templates/tpl.kantorekspert.pl/gfx/f.png
 ||kantorekspert.pl/templates/tpl.kantorekspert.pl/gfx/facebook.png
@@ -3681,6 +3688,9 @@ zygzaksnow.pl###ppfacebook
 ||mkn-moto.pl/images/g1.png
 ||mkn-moto.pl/images/t1.png
 ||mobbingwpracy.com/media/mod_social_slider
+||mojacukrzyca.org/grafika/logo/20170801/nk.gif
+||mojacukrzyca.org/grafika/logo/20170801/snapchat.gif
+||mojacukrzyca.org/grafika/logo/20170801/youtube.gif
 ||mondeoklubpolska.pl/gfx/MondeoTube.jpg$image
 ||mondeoklubpolska.pl/gfx/nk.jpg$image
 ||muzeum-niepodleglosci.pl/wp-content/themes/muzeum_niepodleglosci_1/fb-n.jpg
