@@ -1,11 +1,11 @@
-! Checksum: Eb7FxULzumMq7m9+ImeS0w
+! Checksum: YZQ9GDEUo04OkgIGWgwsug
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.5.1
-! Last modified: Tue, 05 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.5.2
+! Last modified: Tue, 05 Mar 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.5.1 aktualizacja: wto, 05 mar 2019, 02:00 UTC+01
+! v.2019.3.5.2 aktualizacja: wto, 05 mar 2019, 22:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -143,6 +143,9 @@ oko.press##.reveal-overlay
 opiniodajnia.pl##body:style(overflow: visible !important;)
 opiniodajnia.pl###eu-consent
 optimalg.com##body[style]:style(padding-top: 0 !important; background-position: center top !important;)
+ostrzegamy.online##body.rodo-locked #page-container > *:style(filter: none !important;)
+ostrzegamy.online##body.rodo-locked, html.rodo-locked:style(overflow: auto !important;)
+ostrzegamy.online##.rodo-popup, .rodo-overlay
 otwarteklatki.pl###popup-gdpr, .popup-overlay
 otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
 panattonieurope.com###image-popup.txt-popup, #image-popup-bg
