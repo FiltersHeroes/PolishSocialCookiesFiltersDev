@@ -1,11 +1,11 @@
-! Checksum: yFBVKRXQfP3rsdq34r2LlA
+! Checksum: Eb7FxULzumMq7m9+ImeS0w
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.4.1
-! Last modified: Mon, 04 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.5.1
+! Last modified: Tue, 05 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.4.1 aktualizacja: pon, 04 mar 2019, 02:00 UTC+01
+! v.2019.3.5.1 aktualizacja: wto, 05 mar 2019, 02:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -222,8 +222,10 @@ zwolen.pl###g_toplayer, .modal-backdrop
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂 - specjalne instrukcje
 !#if !cap_html_filtering
 4fun.tv###cModal, .modal-backdrop
-4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,halowawa.pl,dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,wpr.pl,academy.asseco.pl,fnglob.pl,tvbraniewo24.pl,stadionenerga.pl,rowerowygdansk.pl,brieftip.pl,lipinscy.pl,mistravel.pl,norgips.pl,rome-easysolution.tk,happydental.pl,tvmalbork.pl,poradnikbudowlany.eu,kaliber.pl,chelmonline.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+4fun.tv,alltube.pl,alltube.tv,bioagris.pl,born2be.pl,cenapaliw.pl,craftserve.pl,fryzomania.pl,gdansk.pl,gokf.gda.pl,infoplanet.pl,infostrow.pl,motobanda.pl,muzyczneradio.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,renee.pl,roztoczanskipn.pl,spolem.katowice.pl,tujastrzebie.pl,tulodz.com,tuwroclaw.com,tuzdrowie.pl,tuzory.pl,tvasta.pl,tvregionalna24.pl,ustawlige.com,ustawmundial.weszlo.com,zakopane.info,zdajmyrazem.pl,ztm.poznan.pl,gdos.gov.pl,wtk.pl,halowawa.pl,dlawas.info,emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,ideafairplay.pl,wpr.pl,academy.asseco.pl,fnglob.pl,tvbraniewo24.pl,stadionenerga.pl,rowerowygdansk.pl,brieftip.pl,lipinscy.pl,mistravel.pl,norgips.pl,rome-easysolution.tk,happydental.pl,tvmalbork.pl,poradnikbudowlany.eu,kaliber.pl,chelmonline.pl,ac.com.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 academy.asseco.pl###politykaPrywatnosciModal, .modal-backdrop
+ac.com.pl###modalRodoInfo, .modal-backdrop
+ac.com.pl##+js(abort-current-inline-script.js, $, #modalRodoInfo)
 alltube.tv,alltube.pl,mistravel.pl###rodo-popup, .modal-backdrop
 autakrajowe.com.pl,optimalg.com##.modal-open:style(overflow: auto !important; margin-right: 0 !important;)
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,homedesign.pl,pasjagolebie.pl,tvwalbrzych.pl,pytanieomieszkanie.pl,buddyzm.info.pl,pzsnstart.eu,whatannawears.com##.pum-open:style(overflow: auto !important;)
@@ -333,6 +335,7 @@ openpli.org##body > div:not([id]):not([class])
 !#if cap_html_filtering
 4fun.tv##^#cModal
 academy.asseco.pl##^#politykaPrywatnosciModal
+ac.com.pl##^#modalRodoInfo
 akamai.com##^.notification--warning
 alltube.tv,alltube.pl,mistravel.pl##^#rodo-popup
 autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl##^#rodo
@@ -418,6 +421,7 @@ azure.microsoft.com###main:style(padding-top: 88px !important;)
 !#if !ext_ublock
 4fun.tv$$#cModal
 academy.asseco.pl$$#politykaPrywatnosciModal
+ac.com.pl$$#modalRodoInfo
 akamai.com$$.notification--warning
 alltube.tv,alltube.pl,mistravel.pl$$#rodo-popup
 autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl$$#rodo
