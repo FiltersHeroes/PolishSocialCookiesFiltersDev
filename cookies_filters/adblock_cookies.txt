@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: vRMjlWbHPJ39iOdZ1XSLZA
+! Checksum: 0CY29xJplOfm/tkvuSj4lw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.5.2
-! Last modified: Tue, 05 Mar 2019, 22:00 UTC+01
+! Version: 2019.3.6.1
+! Last modified: Wed, 06 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.5.2 aktualizacja: wto, 05 mar 2019, 22:00 UTC+01
+! v.2019.3.6.1 aktualizacja: śro, 06 mar 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -46,6 +46,7 @@ aboutyou.pl##div[class^="styles__inner"]
 absolvent.pl##.top-ban-wrapper
 abt-s.pl,ecbedzin.pl,enut.pl,programatory.com,haloursynow.pl,warsztat.pl,interprojekt.pl,mojaolesnica.pl###myModal
 abt-s.pl,interprojekt.pl,yes.pl,filoma.org,naekranie.pl,polskiprawnik.pl,www.hotelbb.pl##.reveal-modal-bg
+accenture.com,kia.com,wdeloitte.com,cookielaw.org,hp.com,prezi.com##.optanon-alert-box-wrapper, #optanon, #optanon-minimize-wrapper
 account.ubisoft.com###footer_tc_privacy
 accuweather.com###eu-cookie-notify-wrap
 acer.com##.cookieBox
@@ -267,6 +268,7 @@ bywajtu.pl,livesmarter.pl,luszczyce.pl,mammografia.elblag.pl,mazowia.eu###co15ie
 bzwbk.pl##.cookie-btn
 cafago.com,tomtop.com##.m_privacy_statement
 capap.gugik.gov.pl###saycookie
+capgemini.com##.section__cookies
 capri-lublin.pl###mod98
 cavallonero.pl,golembiewscy.pl,sztukalakierowania.pl,sztukawyciszania.pl,perfectclima.pl,puller.com.pl,mikroznakowanie.pl,sprawdzhistorie.pl,zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl###infobx
 ccc.eu###cookiesModal
@@ -315,7 +317,6 @@ comitor.pl###rodoBoxWrap
 confronter.pl###cookieBarDiv
 contentstream.pl,niezlasztuka.net###cookie-banner
 convertcase.net###cookiebar
-cookielaw.org,hp.com,prezi.com##.optanon-alert-box-wrapper
 copernicusfestival.com,naukaireligia.pl,filozofiawnauce.pl,copernicuscenter.edu.pl###block-block-31
 costacoffee.pl##.notification-global
 cqb.pl###overlay_cookies
@@ -330,7 +331,7 @@ cybor-tech.com.pl##.cookie_privacy_info_bar
 cyfrowarepublika.pl,energoekspert.com.pl###system-message
 czarno-biale.pl##.ui-dialog[aria-describedby="rodo-popup"], .ui-widget-overlay
 czechtourism.com###eu_cookie
-czekoladacortez.pl,garwolin-starostwo.pl,gniezno24.com,mania4x4.pl,orpeg.pl,wrosip.pl,eurocent.opole.pl##.activebar-container
+czekoladacortez.pl,garwolin-starostwo.pl,gniezno24.com,mania4x4.pl,orpeg.pl,wrosip.pl,eurocent.opole.pl,zoosafari.com.pl##.activebar-container
 czescidobmw.pl###container > div[onclick]
 czesci.wanicki.pl###JScookieInfo
 czluchow.com.pl##table:nth-of-type(1) > tbody > tr > td > p:nth-of-type(1)
@@ -439,6 +440,7 @@ elektroinstalacje.info###cookie-control
 elektroonline.pl###ccc-state
 elektrozysk.pl,fajka24.pl,krups.com.pl,laznianowa.pl,linuxportal.pl,lovela.pl,lstsoft.com.pl,magazynpracy.pl,matoga.com.pl,metro2033.pl,mjm.com.pl,mocnopomocni.pl,mol.pl,motonotes.pl,nano-carbon.pl,noclegi24h.pl,oferia.pl,offsklep.pl,personnelsolutions.pl,piekielni.pl,pis.org.pl,polomarket.pl,popkorn.pl,quer.pl,radiofama.com.pl,reedukacja.pl,sklepbiegowy.com,sklepkoszykarza.pl,salonroman.pl,sanprobi-superformula.pl,siemianowice.pl,stopwariatom.pl,studentpotrafi.pl,swiat-agd.com.pl,szyj.pl,rckik.poznan.pl,vas.com.pl,westgate.com.pl,wszystkotujest.pl,zgodafc.pl,tge.com.pl##body > div:not([id]):not([class])[style]
 elevensports.pl##.cookieNotice
+elica.com,gitlab.com###CybotCookiebotDialog
 elka.pl,elka.tv,miedziowe.pl,miedziowe.tv###RODOZgoda
 elk.gmina.pl###spu-10427, #spu-bg-10427
 elopol.pl##div#black2
@@ -611,7 +613,6 @@ gih.grajewo.pl#?##fancybox-wrap:-abp-contains(RODO)
 gih.grajewo.pl,naszamlawa.pl,pupgrodziskwlkp.pl###fancybox-overlay
 gismeteo.pl##.cookies-banner
 gispartner.pl,geotec.pl###saycookie
-gitlab.com###CybotCookiebotDialog
 gkn.pl##div#gora0
 gkstychy.info###coookie
 glogow-info.pl,glogow.info.pl##.wrapper > table:nth-of-type(1)[style="margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: -6px;"]
@@ -779,7 +780,6 @@ jedz-bezpiecznie.pl#?#body > table > tbody > tr > td > table > tbody > tr:nth-of
 jelenia.pl###alert-blue
 jelenia.tv,radiowroclaw.pl,radioram.pl,radiogdansk.pl,tanibus.com###rodoModal
 jelonka.com,walbrzyszek.com##.prywatnosc
-joemonster.org,strawpoll.me,styl.fm,mistrzowie.org,fotka.com##body > div[class^="app_gdpr"]
 jula.pl##.g-cookie__box
 junak.com.pl###wrapper > .toplayer
 jung.de###language-redirection-layer
@@ -940,7 +940,6 @@ masz.eu,wikar.com.pl##.popupContent
 matematykainnegowymiaru.pl##.popup_cookie_contener_main
 mat-dom.pl##.info_rodo
 maxpremiumburgers.pl###main .infoBanner
-maybelline.pl###optanon
 mazowia.eu#?##dymek239:-abp-has(a[href$="rodo.html"])
 mbeszczecin.pl,festiwaldzieciecy.pl###bpagencyCookieAll
 mbp.dzierzoniow.pl###block-vbanner-popup
@@ -1026,6 +1025,7 @@ motomoto.pl###itlbox
 motonotes.pl##div[style="background-color:black; width=100%; height:25px; color:white; position:absolute"]
 motorbiker.pl###my-welcome-message, #fvpp-blackout
 motostat.pl##div#messages
+motul.com##.cookies-eu
 mpk.lodz.pl###stpdueckmsg
 mpolska24.pl##.infoBox
 mpolska24.pl##div[class^="infoBox"]
@@ -1208,6 +1208,7 @@ playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
 play.google.com,books.google.pl###gb > div[style*="background-color"]
 pl.aleteia.org##.qc-cmp-ui-content
 pl.chili.tv###_evh-ric
+pl.delfi.lt,joemonster.org,strawpoll.me,styl.fm,mistrzowie.org,fotka.com##body > div[class^="app_gdpr"]
 pl.depositphotos.com##._notification
 pl.ecco.com###cookiebanner
 pl.eurosportplayer.com,ifm.com,ibood.com,cropp.com##.cookie-notice
@@ -1531,6 +1532,7 @@ testhub.pl##.sh-page-notice
 testigo.pl###cp_wrap
 testujemy.biedronka.pl##.qucki-box
 tewa-sensors.com###cherry-cookie-banner
+thule.com##.cookie-consent-box
 ticketos.pl###prywatnosc
 tlcpolska.pl###dni-notifications
 tlp.is##.cookiepolicy
@@ -1683,6 +1685,7 @@ www.totalizator.pl##.rodo-information-overlay, .rodo-information-popup
 www.tupperware.pl##.topRibbon
 www.wiedzakontrowersyjna.pl###ad-bg-transparent
 www.youtube.com##.clearfix.yt-consent-banner.yt-consent
+www.zarr.com.pl###accept_cookie_wrapper, #accept_cookie_overlay
 wycena.otodom.pl##.landend-infobar-dark
 wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
@@ -1769,7 +1772,7 @@ zysk.com.pl###pageUpperInfo
 ||confero.pl/js/cookies2013$script
 ||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|java.com|reebok.pl
 ||consent.truste.com/get?name=notice.js$script
-||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|nespresso.com|oracle.com|origin.com|wd.com|weather.com|wunderground.com|xerox.com
+||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|nespresso.com|oracle.com|origin.com|wd.com|weather.com|wunderground.com|xerox.com|signify.com|meethue.com
 ||cookiebanner.eu/js/cookiebanner.min.js
 ||cookieq.com^$third-party
 ||cookies.komputerswiat.pl/checkCookie$script
@@ -1919,6 +1922,7 @@ pl###acceptCookies:not(body):not(html)
 pl###accept-cookies-question:not(body):not(html)
 pl###accept_cookies:not(body):not(html)
 pl###agreeCookie:not(body):not(html)
+pl###allowcookie:not(body):not(html)
 pl###amp-user-notification1:not(body):not(html)
 pl###avt-cookie-popup:not(body):not(html)
 pl###band-cookies:not(body):not(html)
@@ -2187,6 +2191,8 @@ pl###notice-cookie-block:not(body):not(html)
 pl###notice_bar:not(body):not(html)
 pl###notifyCookie:not(body):not(html)
 pl###onyx_cookiesinfo_bar:not(body):not(html)
+pl###optanon-minimize-wrapper:not(body):not(html)
+pl###optanon:not(body):not(html)
 pl###overlay_cookies:not(body):not(html)
 pl###panel_cookie:not(body):not(html)
 pl###pcUsingCookies:not(body):not(html)
