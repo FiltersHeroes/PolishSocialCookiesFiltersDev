@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 0p7ICd/yOGVC97o6P1Khzw
+! Checksum: frTEM1Qs+1dt+Uw1J0vmzg
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.7.1
-! Last modified: Thu, 07 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.7.2
+! Last modified: Thu, 07 Mar 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.7.1 aktualizacja: czw, 07 mar 2019, 02:00 UTC+01
+! v.2019.3.7.2 aktualizacja: czw, 07 mar 2019, 14:00 UTC+01
 !
 !
 ! Popupy
@@ -27,7 +27,7 @@ dementuj.pl,fifek.pl,psychiczni.pl###ips-popup, #ips-popup-wrapper
 dziennik-polityczny.com###dz-popup-follow-us
 ebizpro.pl###itro_opaco, #itro_popup
 eitalia.pl###facebox, #facebox_overlay
-ekstrastats.pl,obcasy.pl,viralz.pl,programistanaswoim.pl##.spu-box, .spu-bg
+ekstrastats.pl,obcasy.pl,programistanaswoim.pl##.spu-box, .spu-bg
 esensja.pl###FBox
 e-iglaki.pl###szkolenie-message
 forum.grywamtu.pl###pop-slap[data-hello-text], .bg-pop-over
@@ -1067,6 +1067,7 @@ bydgoszcz.com##.fb, .tw, .yt
 bystragrazyna.pl###bs-likebox-2
 cad-akademia.pl##.und
 californiaskateshop.pl##header > #menu_buttons
+calkiemzdrowo.pl##[href="https://www.facebook.com/calkiemzdrowo/"], #text-7
 cardsplitter.pl##center > center:nth-of-type(1)
 carlsbergpolska.pl##div.col-md-4:nth-of-type(2)
 carpetvista.pl##.g-padTstd.r-5cols.std > div.r-colspan1.r-col:nth-of-type(5)
@@ -2814,7 +2815,6 @@ rc.fm###instagramrc
 reagujratuj.pl###sos_fb_slider
 realmadryt.pl#?#.bg:-abp-contains(dołącz)
 recea.pl##.container > .f-row > div.f-grid-6:nth-of-type(2)
-recenzja.eu###black-studio-tinymce-12
 recenzjezpazurem.pl###HTML1, #HTML2, #HTML901, #HTML902
 redcoon.pl##div.is-separator.m-contentBox_item:nth-of-type(4)
 redditch.pl##.astroid-social-icons > li:nth-of-type(-n+2)
@@ -3142,6 +3142,7 @@ szybkanauka.pro##.fb_iframe_widget.fb-page
 szybkanauka.pro##.follow_me.widget
 szybkanauka.pro##.fpss.ssf, .scl
 szybkanauka.pro##.tcm-share-dropdown > div > div:nth-of-type(-n+2)
+tabele-kalorii.pl###fb-likebox-my
 tablica-rejestracyjna.pl###fbutton-container
 tadar.pl###csocial-facebook, #csocial-googleplus, #roy_facebook_block
 tago.com.pl##.float-social
