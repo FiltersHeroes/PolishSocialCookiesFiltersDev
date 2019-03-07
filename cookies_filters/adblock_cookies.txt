@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: w22kVBDQJcmBO1IJtan5KQ
+! Checksum: WiqrFePxdiQdylZPDJ8Dbg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.7.2
-! Last modified: Thu, 07 Mar 2019, 18:00 UTC+01
+! Version: 2019.3.7.3
+! Last modified: Thu, 07 Mar 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,11 +18,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.7.2 aktualizacja: czw, 07 mar 2019, 18:00 UTC+01
+! v.2019.3.7.3 aktualizacja: czw, 07 mar 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
-2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,xtb.com,feriogaj.com,koszyki.com,muzo.fm,cedc.com,edeklaracje.info,studiuje.eu,skierniewice.eu,diagprog4.com,tebrizsesi.com,evertourist.com,prymus.info,answear.com,telesystem-world.com###cookies
+2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,xtb.com,feriogaj.com,koszyki.com,muzo.fm,cedc.com,edeklaracje.info,studiuje.eu,skierniewice.eu,diagprog4.com,tebrizsesi.com,evertourist.com,prymus.info,answear.com,telesystem-world.com,fokus.tv###cookies
 3dom.pro,bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com,stolmot.com,anmur.eu,trecnutrition.com,koszulkomat.eu,f1experiences.com,gamet.eu,telko.in,makoblog.com##.cookies
 3mpolska.pl,logitechg.com,bosch-professional.com,logitech.com###__tealiumGDPRecModal
 3s.pl,franciszkanskie.pl,antyweb.pl,norauto.pl,grupakety.com,olimpijski.pl,softon.pl,ingtechpoland.com,kultura.krasnik.eu,brolerserwis.pl,spedycje.pl,kancelaria-szip.pl,pelion.eu,karmy.com.pl###privacy
@@ -116,6 +116,7 @@ antyczek.pl###upper-menu-container
 antywindyk.pl###rodo-container
 antywirus.biz##.iAgreePopup
 apartamentychorwacja.pl###site_nt
+apc.com##.notification--cookie
 apkpure.com###policy-info
 apo-discounter.pl###landing_page_popup
 apra.pl,przegladlokalny.eu###popup-overlay
@@ -387,6 +388,7 @@ domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
 domesta.com.pl###CookiesWarningPopup
 domisad.pl##.message-cockies
 domkorkowy.com###cookielaw
+domnet.pl,jakbudowac.pl##.dialog-fixed
 domoplus.pl,miniminiplus.pl,kuchniaplus.pl,teletoonplus.pl###cpb.rodoLayer
 domowladni.pl###domo-cookies-policy
 domzdrowia.pl,mgr.farm###cookie_notice
@@ -410,6 +412,7 @@ dziennikwschodni.pl,wykop.pl,niskarata.org##.rodo-alert
 dzis.tv##div#regulaminWrap
 e24cloud.com##div#FullBox
 earlystage.pl###cookie-beam
+easyjet.com,sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu##.cookie-consent
 easypaste.org,halogorlice.info,nasze-kino.eu,polskatelewizjausa.com,pl.soringpcrepair.com,forum.swiateczne.info,experiencecorner.com,plustek.com,eco-driving.info,trustisto.com,pl.bab.la,radioexpert.net,memrise.com,nordvpn.com,jpg2pdf.com,jpg2pdf.com,combinepdf.com,pdfcompressor.com,xpstopdf.com,pdf2png.com,pdftoimage.com,pdftotext.com,pdf2docx.com,pdf2doc.com,jowat.com##.cc-window[aria-label="cookieconsent"], .cc-revoke
 ebay.pl###gdpr-banner, .gh-banner
 ebizneskrokpokroku.pl###notification-bar
@@ -613,6 +616,7 @@ geopoz.pl##.clinco_bg
 geoserwis.gdos.gov.pl###ext-comp-1066, #ext-gen38
 gerlach.org.pl###top0info
 germany.travel##.cookie-snippet
+getmailbird.com###navbar-cookie
 giercownia.pl,maxior.pl,tekstowo.pl,zblogowani.pl,pajerosport.pl,misjatravel.pl###ci-info-box
 gigabyte.pl###policy-div
 gih.grajewo.pl#?##fancybox-wrap:-abp-contains(RODO)
@@ -771,7 +775,6 @@ ixon.cloud###privacyConsent
 izone.pl##.mm-page > div[style*="height: 80px"]
 jackvision.pl###jz-overlay.blur
 jajco.pl##div[id*="n-cookies-notification"]
-jakbudowac.pl##.dialog-fixed
 jakikredyt.pl##.popup--open
 jak-ksiegowac.pl###message_wrap
 jarek-kefir.org,wordpress.com,rowery.org,czechofil.com,szukajacslonca.com,muzykoholicy.com,rebe1scum.com,ekskluzywnymenel.com###eu-cookie-law
@@ -848,6 +851,7 @@ koscian.net##.zgoda_popup
 kosmetyki.fr###nscookie
 krakowairport.pl##.privacyPolicyPop
 krakownh.pl,rentsellersgroup.com###strip_cookie_info
+krasnik-okna.pl###footer > div > #mod99
 kredito24.pl,zaimo.pl##.politica
 kreskoweczki.pl###rodo-block
 kreskowki.tv,tygodniksiedlecki.com,atelier801.com,fabrykazabawek.eu,nekodancer.com,fortoresse.com,bouboum.com,transformice.com,avg.com,grupaimage.eu,77sushi.com,wyprzedaze.uk,paysafecard.com###cookie-bar
@@ -1453,7 +1457,6 @@ solartime.pl###sticky-notify
 solidarni2010.pl##div#kom
 solidarnosckatowice.pl##body > div:not([class]):not([id]) > div[style^="position: absolute;"]
 sonymobile.com##.fullbleed-response[data-module="sony-survey-client"][style]
-sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu##.cookie-consent
 sosnowiec.pl###topBar_MainCover
 soundcloud.com,blyskawicznakorekta.pl##.announcements
 specialized.com##.eu-cookie-wrap
@@ -1483,6 +1486,7 @@ stodola.pl##.toast-container
 store.playstation.com###privacy-header
 storytel.pl###cookieWall
 strabag.pl###dsgvo
+stradivarius.com###cookiesWarn
 stroer.pl##.popUpWrap
 strona.euro-net.pl##.komunikatciasteczka
 stronghold.net.pl###ci_info
@@ -1775,7 +1779,7 @@ zysk.com.pl###pageUpperInfo
 ||cmp.dreamlab.pl/static/cmp.complete.bundle.js
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
 ||confero.pl/js/cookies2013$script
-||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|java.com|reebok.pl
+||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|java.com|reebok.pl|garmin.com
 ||consent.truste.com/get?name=notice.js$script
 ||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|nespresso.com|oracle.com|origin.com|wd.com|weather.com|wunderground.com|xerox.com|signify.com|meethue.com
 ||cookiebanner.eu/js/cookiebanner.min.js
@@ -2403,6 +2407,8 @@ pl##.message_cookie:not(body):not(html)
 pl##.m-cookie-notification:not(body):not(html)
 pl##.nm-cookiepolicy:not(body):not(html)
 pl##.notice_notice_cookies:not(body):not(html)
+pl##.notification--cookie-alert:not(body):not(html)
+pl##.notification--cookie:not(body):not(html)
 pl##.optanon-alert-box-wrapper:not(body):not(html)
 pl##.page-wrap--cookie-permission:not(body):not(html)
 pl##.panel_cookie:not(body):not(html)
