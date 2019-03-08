@@ -1,11 +1,11 @@
-! Checksum: sJBS0Ci5qBwOXve2EmRyhQ
+! Checksum: g/vWOrEy6693OhLXakuCdQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.7.1
-! Last modified: Thu, 07 Mar 2019, 18:00 UTC+01
+! Version: 2019.3.8.1
+! Last modified: Fri, 08 Mar 2019, 20:51 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.7.1 aktualizacja: czw, 07 mar 2019, 18:00 UTC+01
+! v.2019.3.8.1 aktualizacja: pią, 08 mar 2019, 20:51 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -187,6 +187,8 @@ telepizza.pl##.navbar:style(margin-top: 0 !important;)
 tlumacz-in.pl##body.jconfirm-noscroll:style(overflow: auto !important;)
 tlumacz-in.pl##.jconfirm:has(.jconfirm-scrollpane)
 translate.google.pl###gba:style(height: 60px !important;)
+trendyopticians.pl###bpr_rodo-info
+trendyopticians.pl##.bpr_body[style]:style(overflow: auto !important; background-position-x: 50% !important;)
 trendyradio.pl###fancybox-container-1:has(#rodo_1)
 tureckisklep.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#conditions_condition button.acceptCondition)
 tuzdrowie.pl###popupModal, .modal-backdrop
@@ -301,6 +303,9 @@ rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,pulawy.eu##.modal-open:style(paddin
 sevenpolska.com###flipFlop, .modal-backdrop
 sevenpolska.com##.modal-open:style(overflow: visible !important;)
 sklepbiker.pl##+js(abort-current-inline-script.js, $, #rodoModal)
+sklep.visionexpress.pl##html.remodal-is-locked, body:style(overflow: auto !important; padding-right: 0 !important;)
+sklep.visionexpress.pl##.remodal-bg.remodal-is-opening, .remodal-bg.remodal-is-opened:style(filter: none !important;)
+sklep.visionexpress.pl##.remodal-is-opened.remodal-wrapper, .remodal-is-opened.remodal-overlay
 skm.pkp.pl##+js(abort-current-inline-script.js, $, dialog-message-rodo)
 sp112.waw.pl##.pum-open-overlay:style(overflow: auto !important;)
 spolem.katowice.pl,wpr.pl,mdkkolbuszowa.pl###popup, .modal-backdrop
@@ -381,7 +386,7 @@ pamiatki.pl##^#hw_cookie_law
 pasjagolebie.pl##^.popmake-overlay[data-popmake*="cookies"]
 pl.dow.com##^.cookie-notify
 porcelana.com.pl##^script:has-text(plików cookies)
-poszalu.pl##^#gdpr-modal
+poszalu.pl,sklep.visionexpress.pl##^#gdpr-modal
 profeto.pl##^#modal-rodo-main
 pruszczgdanski.pl##^#auto_popup
 publikator.com.pl##^script:has-text(polityka|zaufani)
@@ -468,7 +473,7 @@ openpli.org$$script[tag-content="gdpr-accepted"]
 pamiatki.pl$$#hw_cookie_law
 pl.dow.com$$.cookie-notify
 porcelana.com.pl$$script[tag-content="plików cookies"]
-poszalu.pl$$#gdpr-modal
+poszalu.pl,sklep.visionexpress.pl$$#gdpr-modal
 powiatslubicki.pl###myModal, .modal-backdrop
 powiatslubicki.pl##.modal-open:style(overflow: auto !important;)
 profeto.pl$$#modal-rodo-main
