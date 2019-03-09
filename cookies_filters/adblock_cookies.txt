@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: w8EBVSCSXoCyMLVsUCK85g
+! Checksum: qe6X4dQqDbEjkz6TJKzitQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.8.3
-! Last modified: Fri, 08 Mar 2019, 22:00 UTC+01
+! Version: 2019.3.9.1
+! Last modified: Sat, 09 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.8.3 aktualizacja: pią, 08 mar 2019, 22:00 UTC+01
+! v.2019.3.9.1 aktualizacja: sob, 09 mar 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -156,6 +156,7 @@ automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autostrada-a2.pl###cookielawBox
 autos-motos.net,scentre.pl,ilewazy.pl##.consent
 auto.pl,honda.auto.com.pl##.cookie-information-wrapper
+avaaz.org##.gdpr-block-privacy
 avans.pl##.is-cookies
 avast.com,pay.google.com,trustpilot.com,outride.rs,pl.depositphotos.com##.cookie-bar:not(body)
 avatradepolska.pl##.accept-cookie-block
@@ -1230,6 +1231,7 @@ pl.hama.com###privacyOptionsCookieOptIn-bottom
 pl.investing.com##.consentBarWrapper
 pl.isilines.com##.wrapper-banner-rgpd
 pl.jooble.org,twitch.tv##.gdpr-consent-banner
+pl.linkedin.com###global-alert-queue > .warning.alert
 pl.meteox.com,pl.sat24.com,zelmer.pl,earlymath.pl###cookie-message
 pl.mitsubishielectric.com##.pc_scsmod-cookie_alert
 pl.mouser.com###gdprBar
@@ -2186,6 +2188,7 @@ pl###hw_cookie_law:not(body):not(html)
 pl###icc_message:not(body):not(html)
 pl###ics-pp-cookies-accept:not(body):not(html)
 pl###infocookie:not(body):not(html)
+pl###informations-cookies:not(body):not(html)
 pl###info-cookies:not(body):not(html)
 pl###info-cookie:not(body):not(html)
 pl###info_cookies:not(body):not(html)
