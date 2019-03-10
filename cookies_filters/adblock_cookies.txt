@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 5oeQozo1U3sOZUWm6U/sIQ
+! Checksum: w9iPPLhbnzKrTFdG0QR7TQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.9.2
-! Last modified: Sat, 09 Mar 2019, 14:00 UTC+01
+! Version: 2019.3.10.1
+! Last modified: Sun, 10 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.9.2 aktualizacja: sob, 09 mar 2019, 14:00 UTC+01
+! v.2019.3.10.1 aktualizacja: nie, 10 mar 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -363,7 +363,8 @@ delicjapolska.pl,www.bi-polska.pl###cooboo
 deloitte.com##.cookie-container
 denley.pl##.ck-popup.cookiepopup
 denso.com,pl.gearbest.com,internationalpaper.com##.cookiePolicy
-developers.google.com,developer.android.com##.devsite-notification-eu-cookie
+developers.google.com##.devsite-notification-eu-cookie
+developer.android.com,tensorflow.org##devsite-snackbar[type^="cookie-notification"]
 devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
 dia.com.pl,pkfpolska.pl,pkfszkolenia.pl###S_cookies
 dict.leo.org,www.leo.org##.as-oil[data-qa="oil-Layer"] > .as-oil-content-overlay
