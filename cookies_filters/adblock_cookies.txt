@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: WfuA/s5qXyG2kEIdsuPVCw
+! Checksum: rnw/oIN357noCvZWzwhskg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.11.1
-! Last modified: Mon, 11 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.11.2
+! Last modified: Mon, 11 Mar 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.11.1 aktualizacja: pon, 11 mar 2019, 02:00 UTC+01
+! v.2019.3.11.2 aktualizacja: pon, 11 mar 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -464,7 +464,7 @@ emito.net##.cookie-jar
 emt-systems.pl###rodoBG
 eneba.com##body > #app > div[class] + div[class]:nth-of-type(2)
 enjoyuk.pl###fanback
-enutka.net###CookieAlert
+enutka.net,orlenarena.eu###CookieAlert
 eostroleka.pl###cookiesRodo
 epicgames.com###euCookie
 epiotrkow.pl##.user_politic
@@ -698,7 +698,7 @@ hipotekadlaciebie.com,srodkidlafirm.com##.CTcookie-container
 histmag.org,cochrane.org###cookie-warning
 hitachi.eu###cookie-compliance
 hi-tec.com.pl##DIV[style="width: 882px; padding: 10px; margin: 3px auto; text-align: center; color: #BABABA"]
-hoegert.com,mobbingwpracy.com,pimot.eu###ca_banner
+hoegert.com,mobbingwpracy.com,pimot.eu,mm-gazeta.de###ca_banner
 hoga.pl###warning
 hokej.net###cookies_box
 holidaycheck.pl###infoCloseableBoxContainer
@@ -918,6 +918,7 @@ licytacje.komornik.pl###sign_up, body > div[style*="margin-top: 100px"]
 limango-outlet.pl##.lilayout-header-cookiebar
 limango.pl##.floating_notification
 limanowa.in,parkerpen.com,narew.info,debica24.eu,radiomalbork.fm,pl.toshibatec.eu###cookiesdirective
+linkedin.com###global-alert-queue > .alert, #notice-cookie-policy, .global-alert
 linuxiarz.pl###colophon
 lodz.pl,ago.pl,mamoo.pl,askopolska.pl,papercast.pl,indigo-nails.com###banner_cookies_bullshit
 logistics.dhl##.c-cookie-disclaimer
@@ -1237,7 +1238,6 @@ pl.hama.com###privacyOptionsCookieOptIn-bottom
 pl.investing.com##.consentBarWrapper
 pl.isilines.com##.wrapper-banner-rgpd
 pl.jooble.org,twitch.tv##.gdpr-consent-banner
-pl.linkedin.com###global-alert-queue > .warning.alert
 pl.meteox.com,pl.sat24.com,zelmer.pl,earlymath.pl###cookie-message
 pl.mitsubishielectric.com##.pc_scsmod-cookie_alert
 pl.mouser.com###gdprBar
@@ -1861,7 +1861,7 @@ zysk.com.pl###pageUpperInfo
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||twoje-seriale.pl/cookies.html$subdocument
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bankier.pl|bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|softpedia.com|sztuka-architektury.pl|stars.pl|kochamyzwierzaki.pl|przyslijprzepis.pl
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bankier.pl|bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|softpedia.com|sztuka-architektury.pl|stars.pl|kochamyzwierzaki.pl|przyslijprzepis.pl|krokdozdrowia.com
 ||vox.pl/modal/rodo$xmlhttprequest
 ||www.aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
 ||www.e-drewno.pl/stock/javascript/browser.js
