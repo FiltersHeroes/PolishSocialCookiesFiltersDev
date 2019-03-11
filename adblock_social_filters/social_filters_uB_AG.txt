@@ -1,11 +1,11 @@
-! Checksum: JxnSsVkwyUF17/BB6NaD8g
+! Checksum: 8JLylR1AeTY1NHVrGWf3sQ
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Social Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.8.3
-! Last modified: Fri, 08 Mar 2019, 22:00 UTC+01
+! Version: 2019.3.11.1
+! Last modified: Mon, 11 Mar 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.8.3 aktualizacja: pią, 08 mar 2019, 22:00 UTC+01
+! v.2019.3.11.1 aktualizacja: pon, 11 mar 2019, 14:00 UTC+01
 !
 !
 ! Popupy
@@ -58,6 +58,7 @@ lookcam.com$$#lookcam-fb-modal
 !
 !
 ! Widgety
+30minut.pl##.gora_ikony_nk, .gora_ikony_fb:style(visibility: hidden !important;)
 45minut.pl##+js(remove-attr.js, href, .carousel-inner a[href="https://www.facebook.com/45minutpl"])
 abcfirany.pl##+js(remove-attr.js, href, #BanneryAnimacjaPrzewijana > #scrlnr1 > a[href="https://abcfirany.pl/reklama-b-4.html"])
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
