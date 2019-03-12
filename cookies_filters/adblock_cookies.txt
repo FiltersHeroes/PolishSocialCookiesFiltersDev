@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: tDCWn0jiB3hutk67VnH3/A
+! Checksum: Phd6MEmarma4iZV7PDmU8g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.11.3
-! Last modified: Mon, 11 Mar 2019, 22:00 UTC+01
+! Version: 2019.3.12.1
+! Last modified: Tue, 12 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.11.3 aktualizacja: pon, 11 mar 2019, 22:00 UTC+01
+! v.2019.3.12.1 aktualizacja: wto, 12 mar 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -42,7 +42,6 @@ a4-klub.pl,forum.radioparty.pl,forum.benchmark.pl,pfmrc.eu###document_modal
 abbvie.pl###omniTrackDiv
 abctygodnik.pl,wgospodarce.pl,wpolsce.pl##.rhododendron-popup, .rhododendron-popup-overlay
 abfoto.pl##.abfoto_popup_bg
-aboutyou.pl##div[class^="styles__inner"]
 absolvent.pl##.top-ban-wrapper
 abt-s.pl,ecbedzin.pl,enut.pl,programatory.com,haloursynow.pl,warsztat.pl,interprojekt.pl,mojaolesnica.pl###myModal
 abt-s.pl,interprojekt.pl,yes.pl,filoma.org,naekranie.pl,polskiprawnik.pl,www.hotelbb.pl##.reveal-modal-bg
@@ -91,7 +90,9 @@ alga-shop.pl##.top.infobar_wrap
 aliexpress.com###j-aliexpress-notice
 alipaczka.pl###bottom-charm
 alko
+pl###subserviceCookiesBar:not(body):not(html)
 system.t-mobilebankowe.pl#?##app > div[class]:not([id]) > div[class]:not([id]):last-child > div[class]:not([id]):-abp-contains(cookies)
+www.aboutyou.pl###app > .cookieBannerActive > div[class*="cookieBannerContainer"]
 www.ipkobiznes.pl#?##layout > div > div.svg > div > div:first-child:-abp-contains(cookies)
 !
 !
