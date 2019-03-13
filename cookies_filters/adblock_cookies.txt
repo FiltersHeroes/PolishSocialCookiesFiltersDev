@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: S9djxrfH6NO1E8ar3AuPIw
+! Checksum: 0fiAW/Uy7KD5sIn5EP5lhA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.12.2
-! Last modified: Tue, 12 Mar 2019, 22:02 UTC+00
+! Version: 2019.3.13.1
+! Last modified: Wed, 13 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.12.2 aktualizacja: Wt, 12 mar 2019, 22:02 UTC+00
+! v.2019.3.13.1 aktualizacja: śro, 13 mar 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1223,7 +1223,6 @@ pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.a
 player.pl##.cBox
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
 play.google.com,books.google.pl###gb > div[style*="background-color"]
-pl###subserviceCookiesBar:not(body):not(html)
 pl.aleteia.org##.qc-cmp-ui-content
 pl.chili.tv###_evh-ric
 pl.delfi.lt,joemonster.org,strawpoll.me,styl.fm,mistrzowie.org,fotka.com##body > div[class^="app_gdpr"]
@@ -1801,7 +1800,7 @@ zysk.com.pl###pageUpperInfo
 ||confero.pl/js/cookies2013$script
 ||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|java.com|reebok.pl|garmin.com|leagueoflegends.com
 ||consent.truste.com/get?name=notice.js$script
-||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|nespresso.com|oracle.com|origin.com|wd.com|weather.com|wunderground.com|xerox.com|signify.com|meethue.com
+||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|nespresso.com|oracle.com|origin.com|wd.com|weather.com|wunderground.com|xerox.com|signify.com|meethue.com|support.wdc.com
 ||cookiebanner.eu/js/cookiebanner.min.js
 ||cookieq.com^$third-party
 ||cookies.komputerswiat.pl/checkCookie$script
