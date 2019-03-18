@@ -1,11 +1,11 @@
-! Checksum: wJyGuVSTkmKx13jEuG/riw
+! Checksum: jwfiIhDG4TN9P/IUFbAtmg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.16.1
-! Last modified: Sat, 16 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.18.1
+! Last modified: Mon, 18 Mar 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.16.1 aktualizacja: sob, 16 mar 2019, 02:00 UTC+01
+! v.2019.3.18.1 aktualizacja: pon, 18 mar 2019, 22:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -97,6 +97,9 @@ indbuildcraft.pl##.modal-overlay, #modal_cookies
 indbuildcraft.pl,kaliszak.pl,mazury.travel,panattonieurope.com,pkw.gov.pl,porcelana.pl,praca.antyweb.pl,prawdaobiektywna.pl,pum.edu.pl,skyscrapercity.com,wagrowczanie.pl,zeropln.antyweb.pl##body:style(overflow: auto !important;)
 innogy.pl##html.cookie-wall-active body:style(overflow: auto !important;)
 innogy.pl###cookie-wall-container
+intermarche.pl##body.showCookie .sec--head:style(top: 0 !important;)
+intermarche.pl##body.showCookie .sec--menu-popup:style(top: 117px !important;)
+intermarche.pl##body.showCookie .wrapper-for-blocked-content:style(margin-top: 0 !important;)
 ipla.tv##.no-scroll:style(overflow: auto !important;)
 ipla.tv##.rodo-rules-modal
 jedenslad.pl##.noscroll:style(overflow: auto !important;)
@@ -150,7 +153,7 @@ ostrzegamy.online##.rodo-popup, .rodo-overlay
 otwarteklatki.pl###popup-gdpr, .popup-overlay
 otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
 paczkomaty.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style="padding-right: 17px;"])
-paczkomaty.pl##.modal, .modal-backdrop
+paczkomaty.pl##.modal:has(app-regulations-modal > .modal-header > .modal-title:has-text(RODO)), .modal-backdrop
 panattonieurope.com###image-popup.txt-popup, #image-popup-bg
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important;)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important;)
@@ -201,6 +204,8 @@ ugb.pl##+js(abort-current-inline-script.js, alert, RODO)
 umig.olkusz.pl###gafancybox-overlay174
 umig.olkusz.pl##.gafancybox-lock > body, .gafancybox-lock:style(overflow: auto !important;)
 umig.olkusz.pl##.gafancybox-margin:style(margin-right: 0 !important;)
+vice.com##body[style], html[style]:style(overflow: visible !important; height: 100% !important;)
+vice.com##div[id^="sp_message"][class^="sp_message_container"], div[class^="sp_veil"]
 vod.naekranie.pl###modal-rodo-info, .modal-backdrop
 vod.naekranie.pl,samasz.pl,mzbm.tychy.pl##.modal-open:style(overflow: auto !important;)
 wagrowczanie.pl##.showRodo
