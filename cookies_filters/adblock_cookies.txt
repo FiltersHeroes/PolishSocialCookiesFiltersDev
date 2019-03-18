@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: snpOpflBGabU4plbslUiZA
+! Checksum: z652DXyVxbZL77jtzdSCAw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.16.3
-! Last modified: Sat, 16 Mar 2019, 22:00 UTC+01
+! Version: 2019.3.18.1
+! Last modified: Mon, 18 Mar 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,11 +18,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.16.3 aktualizacja: sob, 16 mar 2019, 22:00 UTC+01
+! v.2019.3.18.1 aktualizacja: pon, 18 mar 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
-2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,xtb.com,feriogaj.com,koszyki.com,muzo.fm,cedc.com,edeklaracje.info,studiuje.eu,skierniewice.eu,diagprog4.com,tebrizsesi.com,evertourist.com,prymus.info,answear.com,telesystem-world.com,fokus.tv###cookies
+2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,xtb.com,feriogaj.com,koszyki.com,muzo.fm,cedc.com,edeklaracje.info,studiuje.eu,skierniewice.eu,diagprog4.com,tebrizsesi.com,evertourist.com,prymus.info,answear.com,telesystem-world.com,fokus.tv,nowa.tv###cookies
 3dom.pro,bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com,stolmot.com,anmur.eu,trecnutrition.com,koszulkomat.eu,f1experiences.com,gamet.eu,telko.in,makoblog.com##.cookies
 3mpolska.pl,logitechg.com,bosch-professional.com,logitech.com###__tealiumGDPRecModal
 3s.pl,franciszkanskie.pl,antyweb.pl,norauto.pl,grupakety.com,olimpijski.pl,softon.pl,ingtechpoland.com,kultura.krasnik.eu,brolerserwis.pl,spedycje.pl,kancelaria-szip.pl,pelion.eu,karmy.com.pl###privacy
@@ -522,7 +522,7 @@ facebook.com##.pam.fbPageBanner.uiBoxGray.bottomborder, [data-testid="cookie-pol
 fandk.com.pl###block-block-6
 fansubs.pl##div[style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; top: 0px; right: 0%; width: 94%; opacity: 1; margin-left: 2%; display: block; "]
 fantastyka.pl##div[style="text-align: center; padding: 15px; border-bottom: 2px solid #cc3300; background: url(obrazki/kwadrat-monit.png); font-size: 9pt;"]
-fantasy.ekstraklasa.tv,trojmiasto.pl,fajniemieszkam.pl,sportzona.pl,fotosik.pl###rodo-info
+fantasy.ekstraklasa.tv,trojmiasto.pl,fajniemieszkam.pl,sportzona.pl,fotosik.pl,ciekawostkihistoryczne.pl###rodo-info
 fan.pl##td:nth-of-type(3) > table > tbody > tr > td > .mll
 farbykabe.pl###top_cookie_policy
 farmacja.edu.pl###polityka_notice
@@ -1019,6 +1019,7 @@ mixmedia.pl##div#cook_info
 mi.com##.J_agreeCookieModal, .top-notify
 mmtv.pl###policyInfo
 mniammniam.com##.mm-cookies
+mniamspinka.pl##body > div > .alert-box
 mobile.de###consentBanner, div[class^="cookie-banner"]
 mobilitytrends.pl,mobilitynews.pl,techtradeshow.pl##.politic-cookie
 mobilne-miasto.org###c-box
@@ -1440,6 +1441,7 @@ sitn.pl#?#body > div:-abp-has(#cookie-close)
 sklepfarmer.pl###cookie_info_response
 sklepjubilerski.com###cookieGuardMsg
 sklepyabc.pl###am_pop-up
+sklepzdrowia.eu##.ginger_banner-wrapper
 sklep-rolnicze.eu,sowlofficial.com,trejdoo.com###cookieinfo
 sklep-tosia.eu##.cookie-center
 sklep.alablaboratoria.pl,lmbruss.pl,telesystem-world.com###cover
@@ -1660,7 +1662,6 @@ wlkp24.info###itro_popup, #itro_opaco
 wnt.com###trackerBanner
 wodociagi-kalisz.pl###white2
 wodociagi.krakow.pl##.cookieMessages
-wolnymkrokiem.pl,gieldaklasykow.pl,nowawarszawa.pl##.ginger_banner-wrapper
 woobykids.com###cookie-law-bar
 wp.pl,~www.wp.pl,~poczta.wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 wrobelekelemelek.com###cboxOverlay, #cboxWrapper
@@ -1688,6 +1689,7 @@ www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
 www.dxracerkrzesla.pl###cookies-confirm
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
+www.google.pl,www.google.com###main > #cnt > #rcnt > div.col > #center_col > #taw > div > #epbar
 www.gumtree.com,wordpress.com##.gdpr-banner
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hays.pl,hays-response.pl###header-msg
@@ -2284,6 +2286,7 @@ pl##.CookieApprove:not(body):not(html)
 pl##.CookieConsent:not(body):not(html)
 pl##.CookieLayer:not(body):not(html)
 pl##.CookiePolicy-Contener:not(body):not(html)
+pl##.CookieWarning:not(body):not(html)
 pl##.JSWrapper:not(body):not(html)
 pl##.RACKWrapper:not(body):not(html)
 pl##.acceptCookies:not(body):not(html)
@@ -2375,6 +2378,7 @@ pl##.cookies_policy:not(body):not(html)
 pl##.cookies_regulation__container:not(body):not(html)
 pl##.cookies_warning:not(body):not(html)
 pl##.cookies__info:not(body):not(html)
+pl##.cookiewarning:not(body):not(html):not(.main)
 pl##.cookie-alert:not(body):not(html)
 pl##.cookie-banner:not(body):not(html)
 pl##.cookie-bar2:not(body):not(html)
@@ -2527,7 +2531,6 @@ pl,org##amp-consent
 ###informacjaOCiasteczkach:not(body):not(html)
 ###informacja_o_ciasteczkach:not(body):not(html)
 ###info_c_box:not(body):not(html)
-###inpl_cp_cnt:not(body):not(html)
 ###jqmCookieMonster:not(body):not(html)
 ###js_popup_cookies:not(body):not(html)
 ###komunikat-cookies:not(body):not(html)
