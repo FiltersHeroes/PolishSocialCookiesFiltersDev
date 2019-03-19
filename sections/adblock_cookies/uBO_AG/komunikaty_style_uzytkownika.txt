@@ -1,5 +1,5 @@
 dobreprogramy.pl##body > div[class]:has-text(RODO)
-dobreprogramy.pl,homebook.pl,sportowefakty.wp.pl##html:style(overflow-y: visible !important; height: auto !important;)
+dobreprogramy.pl,homebook.pl,sportowefakty.wp.pl##html:not(.login-page):style(overflow-y: visible !important; height: auto !important;)
 homebook.pl##body > div[class]:last-of-type:has-text(RODO)
 sportowefakty.wp.pl##body > *:style(filter: none !important;)
 sportowefakty.wp.pl##html > body > footer ~ div[class]:has-text(RODO)
