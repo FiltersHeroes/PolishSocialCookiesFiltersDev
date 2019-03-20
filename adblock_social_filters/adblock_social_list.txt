@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Pkux6qwBhyHO7nw24dD0ug
+! Checksum: LLeHIiZNCQGVLzjYuMiXUw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.19.3
-! Last modified: Tue, 19 Mar 2019, 22:15 UTC+00
+! Version: 2019.3.20.1
+! Last modified: Wed, 20 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.19.3 aktualizacja: wt., 19 mar 2019, 22:15 UTC+00
+! v.2019.3.20.1 aktualizacja: śro, 20 mar 2019, 02:00 UTC+01
 !
 !
 ! Popupy
@@ -1832,6 +1832,7 @@ integra.com.pl###facebook\ hidden-xs\ hidden-sm\ hidden-md
 intellect.pl##.right > .head
 interferie.pl##.GP
 interlumen.com###fb, #gp
+intermarche.pl##.foot-links-list > li.foot-links-list__item:nth-of-type(3)
 interpretacje-podatkowe.org##a[title="Śledź nas na Google+"]
 interskills.pl##.right.span_3_of_12.col
 intersport.pl##.header__top--social
@@ -2670,7 +2671,7 @@ polonia.nl##.facebook-like-us
 polonia.poznan.pl##.box:nth-of-type(3)
 polonika.at###top1 .poscenter
 polregio.pl##.hpm-social
-polsatnews.pl##.nav--social-box.nav > .nav__items > .nav__item:nth-of-type(-n+5), .nav--share.nav.news__share > .nav__items > .nav__item:nth-of-type(-n+5)
+polsatnews.pl##.news__share > ul.nav__items > .nav__item:not(.nav__item--comments), .nav--social-box.nav > .nav__items > .nav__item:nth-of-type(-n+5)
 polsatnews.pl##.polubnas, .soc-txt-share
 polsatsport.pl##.aside-twitter
 polsat.pl##.insta_likes
