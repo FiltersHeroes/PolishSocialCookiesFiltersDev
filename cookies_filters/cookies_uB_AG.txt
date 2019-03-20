@@ -1,11 +1,11 @@
-! Checksum: jwfiIhDG4TN9P/IUFbAtmg
+! Checksum: cuFIYQYAIS81JP/LnypCog
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.18.1
-! Last modified: Mon, 18 Mar 2019, 22:00 UTC+01
+! Version: 2019.3.20.1
+! Last modified: Wed, 20 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.18.1 aktualizacja: pon, 18 mar 2019, 22:00 UTC+01
+! v.2019.3.20.1 aktualizacja: śro, 20 mar 2019, 02:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -162,6 +162,12 @@ pl.tommy.com##div.remodal-wrapper:has(.cookie-notice)
 pl.tommy.com##.cookie-notice:style(visibility: hidden !important;)
 pl.tommy.com##.remodal-is-locked:style(overflow: auto !important;)
 pl.tommy.com##.remodal-overlay
+polskikoszyk.pl##body.cookie .layout-right-col:style(padding-top: 25px !important;)
+polskikoszyk.pl##body.cookie .menu-toggle, body.cookie .fixed-actions-mobile:style(top: 12px !important;)
+polskikoszyk.pl##body.cookie .promocja-header:style(top: 90px !important;)
+polskikoszyk.pl##body.cookie .search-box:style(top: 61px !important;)
+polskikoszyk.pl##body.cookie .topbar:style(top: 0 !important;)
+polskikoszyk.pl##body.cookie .topsubbar:style(top: 57px !important;)
 porcelana.pl##.modal-popup
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.windowOpen:style(overflow: auto !important;)
@@ -425,13 +431,11 @@ fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:st
 purepc.pl##+js(nano-remove-elements-onready.js, .cookiesinfo)
 !#endif
 !#if cap_user_stylesheet
-dobreprogramy.pl##body > div[class]:has-text(RODO)
-dobreprogramy.pl,homebook.pl,sportowefakty.wp.pl##html:style(overflow-y: visible !important; height: auto !important;)
-homebook.pl##body > div[class]:last-of-type:has-text(RODO)
-sportowefakty.wp.pl##body > *:style(filter: none !important;)
-sportowefakty.wp.pl##html > body > footer ~ div[class]:has-text(RODO)
+dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl,wp.pl,~www.wp.pl##body > div[class]:has-text(RODO)
+dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl,wp.pl,~www.wp.pl##html:style(overflow-y: visible !important; height: auto !important;)
+wp.pl,~www.wp.pl##body > *:style(filter: none !important;)
 www.wp.pl##body > #root ~ script + div[class]
-www.wp.pl##html, html > body:style(overflow: visible!important;)
+www.wp.pl##html, html > body:style(overflow: visible !important;)
 www.wp.pl###root:style(filter: none !important;)
 !#endif
 !#if !env_mobile
