@@ -1,11 +1,11 @@
-! Checksum: QaaJRsKqAjSDgeLtPRTbzA
+! Checksum: qrqxy5Wi5EjIkTJ5uotAHg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.21.1
-! Last modified: Thu, 21 Mar 2019, 14:00 UTC+01
+! Version: 2019.3.21.2
+! Last modified: Thu, 21 Mar 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.21.1 aktualizacja: czw, 21 mar 2019, 14:00 UTC+01
+! v.2019.3.21.2 aktualizacja: czw, 21 mar 2019, 22:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -325,6 +325,9 @@ sp112.waw.pl##.pum-open-overlay:style(overflow: auto !important;)
 spolem.katowice.pl,wpr.pl,mdkkolbuszowa.pl###popup, .modal-backdrop
 styl.fm###rodo-info, .modal-backdrop
 swiat-whisky.sklep.pl##.fancybox-overlay:has(#conditions_condition)
+tarnowska.tv###popModal, .modal-backdrop
+tarnowska.tv##+js(nano-remove-elements-onready.js, #popModal)
+tarnowska.tv##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 tuzdrowie.pl###popupModal, .modal-backdrop
 tuzory.pl,tujastrzebie.pl,tuwroclaw.com,tulodz.com,zakopane.info###pd-modal, .modal-backdrop
 tvasta.pl##.modal-backdrop
@@ -415,6 +418,7 @@ sp112.waw.pl##^.popmake-overlay[data-popmake*="cookies"]
 spolem.katowice.pl,wpr.pl,mdkkolbuszowa.pl##^#popup.modal
 styl.fm##^.rodo-info
 swiat-whisky.sklep.pl##^.POPUP_CONDITION
+tarnowska.tv##^#popModal
 tuzdrowie.pl##^#popupModal
 tvasta.pl##^#infoModal
 twojeankiety.pl##^.polPriv
@@ -431,12 +435,12 @@ fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:st
 purepc.pl##+js(nano-remove-elements-onready.js, .cookiesinfo)
 !#endif
 !#if cap_user_stylesheet
+~www.wp.pl,dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl,wp.pl##body > div[class]:has-text(RODO)
+~www.wp.pl,dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl,wp.pl##html:style(overflow-y: visible !important; height: auto !important;)
 ~www.wp.pl,wp.pl##body > #app ~ noscript + div[class]
-~www.wp.pl,wp.pl##html, html > body:style(overflow: visible!important;)
-~www.wp.pl,wp.pl###app:style(filter: none!important;)
-dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl,wp.pl,~www.wp.pl##body > div[class]:has-text(RODO)
-dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl,wp.pl,~www.wp.pl##html:style(overflow-y: visible !important; height: auto !important;)
-wp.pl,~www.wp.pl##body > *:style(filter: none !important;)
+~www.wp.pl,wp.pl##body > *:style(filter: none !important;)
+~www.wp.pl,wp.pl##html, html > body:style(overflow: visible !important;)
+~www.wp.pl,wp.pl###app:style(filter: none !important;)
 !#endif
 !#if !env_mobile
 azure.microsoft.com###main:style(padding-top: 88px !important;)
@@ -506,6 +510,7 @@ sp112.waw.pl$$.popmake-overlay[data-popmake*="cookies"]
 spolem.katowice.pl,wpr.pl,mdkkolbuszowa.pl$$#popup.modal
 styl.fm$$.rodo-info
 swiat-whisky.sklep.pl$$.POPUP_CONDITION
+tarnowska.tv$$#popModal
 tuzdrowie.pl$$#popupModal
 tvasta.pl$$#infoModal
 twojeankiety.pl$$.polPriv
