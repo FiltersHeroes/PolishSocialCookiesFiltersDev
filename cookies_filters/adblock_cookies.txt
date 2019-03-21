@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: FauLZuPBLg7QptY7nEDn5A
+! Checksum: guckEa3Kdk3LrxIm0OrlAg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.20.2
-! Last modified: Wed, 20 Mar 2019, 22:00 UTC+01
+! Version: 2019.3.21.1
+! Last modified: Thu, 21 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.20.2 aktualizacja: śro, 20 mar 2019, 22:00 UTC+01
+! v.2019.3.21.1 aktualizacja: czw, 21 mar 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -61,7 +61,7 @@ adobe.com,merixstudio.pl##.message
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl,zs1mm.edu.pl,zs1mm.home.pl##body > div:not([id]):not([class])[style*="position"][style*="relative"]
 adwokatura.katowice.pl###cookieInfCont
-aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pl.pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com,ipa-katowice.org##.cc_banner-wrapper > .cc_banner
+aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com,ipa-katowice.org##.cc_banner-wrapper > .cc_banner
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
 aforyzmy-cytaty.pl#?#.alert:-abp-contains(cookies)
 afryka.org##body > div[style="background: #911515;"]:nth-of-type(1)
@@ -1849,6 +1849,7 @@ zysk.com.pl###pageUpperInfo
 ||ose.gov.pl/rest/public/consent/cookies-body/pl$xmlhttprequest
 ||paypass.pl/themes/paypass/js/cookies.js$script
 ||phufart.pl/info_o_cookie_utf8.js$script
+||pikio.pl/desktop/static/js/jscookie.js$script
 ||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
 ||pl/wp-content/plugins/eu-cookie-law-wp-cookie-law/$script
 ||powiat.okay.pl/media/system/js/modal.js
@@ -2641,7 +2642,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
 ! Wyjątki
-allegro.pl#@#[class*="cookie-policy"]:not(body):not(html)
+allegro.pl,pikio.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
 gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section):not(.fade)
 gtv.com.pl#@##panel_cookie_dol:not(body):not(html)
@@ -2650,6 +2651,7 @@ lomza.pl#@##komunikat-cookie:not(body):not(html)
 naekranie.pl#@##polityka-cookies:not(body):not(html)
 opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
 orange.pl#@##cookies-info:not(body):not(html)
+pikio.pl#@##cookie-policy:not(body):not(html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
 tychy.geminipark.pl#@#.privacy-policy:not(body):not(html)
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
