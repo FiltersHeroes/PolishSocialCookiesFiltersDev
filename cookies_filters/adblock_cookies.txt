@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 8zTy+fkYJDJQrLD6UWG4FQ
+! Checksum: vHX3o1zveeZNYxRsiTuUPA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.22.1
-! Last modified: Fri, 22 Mar 2019, 14:00 UTC+01
+! Version: 2019.3.22.2
+! Last modified: Fri, 22 Mar 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.22.1 aktualizacja: pią, 22 mar 2019, 14:00 UTC+01
+! v.2019.3.22.2 aktualizacja: pią, 22 mar 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -61,7 +61,7 @@ adobe.com,merixstudio.pl##.message
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl,zs1mm.edu.pl,zs1mm.home.pl##body > div:not([id]):not([class])[style*="position"][style*="relative"]
 adwokatura.katowice.pl###cookieInfCont
-aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com,ipa-katowice.org##.cc_banner-wrapper > .cc_banner
+aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com,ipa-katowice.org,ftt.roto-frank.com##.cc_banner-wrapper > .cc_banner
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
 aforyzmy-cytaty.pl#?#.alert:-abp-contains(cookies)
 afryka.org##body > div[style="background: #911515;"]:nth-of-type(1)
@@ -1234,6 +1234,7 @@ pl.aleteia.org##.qc-cmp-ui-content
 pl.chili.tv###_evh-ric
 pl.delfi.lt,joemonster.org,strawpoll.me,styl.fm,mistrzowie.org,fotka.com##body > div[class^="app_gdpr"]
 pl.depositphotos.com##._notification
+pl.dst.roto-frank.com##.occ-inline
 pl.ecco.com###cookiebanner
 pl.eurosportplayer.com,ifm.com,ibood.com,cropp.com##.cookie-notice
 pl.farnell.com###mktg_Cookie_Wrap
