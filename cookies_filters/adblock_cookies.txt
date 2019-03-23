@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: DdsSHMMwhIqNPzKhsRYA/g
+! Checksum: 89URF36aMQxqA1IyvLa+KA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.23.1
-! Last modified: Sat, 23 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.23.2
+! Last modified: Sat, 23 Mar 2019, 18:01 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.23.1 aktualizacja: sob, 23 mar 2019, 02:00 UTC+01
+! v.2019.3.23.2 aktualizacja: sob, 23 mar 2019, 18:01 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -381,11 +381,12 @@ dkpraga.pl##.cookies-frame
 dobrefinanse.co.uk##.gdpr-box
 dobregniazdka.pl,luxmarket.pl###rodo_container
 dobrymechanik.pl##.small.navbar-fixed-bottom
+doceniajnieoceniaj.pl###msgprivacy
 dogizycka.pl,dojaroslawca.pl,domragowa.pl,helskipolwysep.pl,kursnamikolajki.pl,visiton.pl,kartuzy.pl###rstbox_1
 dolce-gusto.pl###nimgrowler
 dollarro.com###pnlCookiebanner
 dolnyslask.travel##.cl-banner
-dombud.eu,kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu,hikoki-narzedzia.pl,rockwellautomation.com,cropp.com###cookieNotice
+dombud.eu,kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu,hikoki-narzedzia.pl,rockwellautomation.com,cropp.com,sklep-tvsat.com###cookieNotice
 domd.pl###cookie-info-popup
 domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
 domesta.com.pl###CookiesWarningPopup
@@ -785,7 +786,7 @@ jackvision.pl###jz-overlay.blur
 jajco.pl##div[id*="n-cookies-notification"]
 jakikredyt.pl##.popup--open
 jak-ksiegowac.pl###message_wrap
-jamyoni.org.pl##body > #powiadomiony 
+jamyoni.org.pl##body > #powiadomiony
 jarek-kefir.org,wordpress.com,rowery.org,czechofil.com,szukajacslonca.com,muzykoholicy.com,rebe1scum.com,ekskluzywnymenel.com,ninawum.com###eu-cookie-law
 jarocinska.pl,gostynska.pl,zpleszewa.pl,rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 jarocin.poznan.lasy.gov.pl##div#aui_3_2_0_1203
@@ -858,6 +859,7 @@ konsbud-hifi.com.pl##.sticky-footer
 korepetycje.edu.pl,niania.pl##.cookies_message_bar
 koscian.net##.zgoda_popup
 kosmetyki.fr###nscookie
+kozak.pl###cookie_inf_o
 krakowairport.pl##.privacyPolicyPop
 krakownh.pl,rentsellersgroup.com###strip_cookie_info
 krasnik-okna.pl###footer > div > #mod99
