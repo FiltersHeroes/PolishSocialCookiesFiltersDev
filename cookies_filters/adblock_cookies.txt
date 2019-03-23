@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: vHX3o1zveeZNYxRsiTuUPA
+! Checksum: DdsSHMMwhIqNPzKhsRYA/g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.22.2
-! Last modified: Fri, 22 Mar 2019, 18:00 UTC+01
+! Version: 2019.3.23.1
+! Last modified: Sat, 23 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.22.2 aktualizacja: pią, 22 mar 2019, 18:00 UTC+01
+! v.2019.3.23.1 aktualizacja: sob, 23 mar 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1715,7 +1715,7 @@ www.nfz-zielonagora.pl###statementWrapper
 www.o2.pl##._2_S1s
 www.plus.pl###rodo-popup-overlay
 www.promise.com.pl##.ui-front
-www.reddit.com#?##SHORTCUT_FOCUSABLE_DIV > div > form:-abp-contains(cookies)
+www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div[class] > div[class*=" "] > form > div[style^="opacity"], .EUCookieNotice
 www.rmf24.pl###pl_cookies.pl-cookies
 www.select.pl##.cookiepop
 www.simex.pl###CookiesInfoDiv
@@ -1776,6 +1776,7 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
+!www.reddit.com#?##SHORTCUT_FOCUSABLE_DIV > div > form:-abp-contains(cookies)
 !
 !
 ! Specyficzne reguły blokujące
