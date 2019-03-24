@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: KjpE2sYUOcTJ9zVaA3hJpg
+! Checksum: Ur7HjnrZFxv+R3w91dfo4w
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.23.1
-! Last modified: Sat, 23 Mar 2019, 22:00 UTC+01
+! Version: 2019.3.24.1
+! Last modified: Sun, 24 Mar 2019, 16:30 UTC+00
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.23.1 aktualizacja: sob, 23 mar 2019, 22:00 UTC+01
+! v.2019.3.24.1 aktualizacja: niedz., 24 mar 2019, 16:30 UTC+00
 !
 !
 ! Popupy
@@ -913,7 +913,7 @@ azure.microsoft.com##nav.medium-3.column
 az.pl##div.o-page-footer__column:nth-of-type(3) > ul.o-footer-list:nth-of-type(1)
 b2btrade.eu###footer > div:nth-of-type(6) > a.left
 b365.pl###box_custom36
-babyfizjo.pl,kdi.pl,wkom.pl,znadniemna.pl###wkomimg
+babyfizjo.pl,kdi.pl,wkom.pl,znadniemna.pl,znadniemna.pl###wkomimg > a
 baccata.com.pl##a.footer_soc_icon:nth-of-type(-n+2)
 badaniaprenatalne.pl##.slidshikona
 badaniaprenatalne.pl##p > a[href="https://www.facebook.com/groups/badaniaprenatalne/"] > img
@@ -1085,6 +1085,7 @@ cad-akademia.pl##.und
 californiaskateshop.pl##header > #menu_buttons
 calkiemzdrowo.pl##a[href="https://www.facebook.com/calkiemzdrowo/"], #text-7
 cardsplitter.pl##center > center:nth-of-type(1)
+carfax.eu##.footer-content.row > div.col-xs-12.col-md-3:nth-of-type(3)
 carlsbergpolska.pl##div.col-md-4:nth-of-type(2)
 carpetvista.pl##.g-padTstd.r-5cols.std > div.r-colspan1.r-col:nth-of-type(5)
 carrefour.pl##li.m-t-sm:nth-of-type(4)
@@ -1382,7 +1383,7 @@ ekobilet.pl#?#.padtb-3.text-center.container:-abp-contains(Facebooku)
 ekologia.pl##.linkWykop, .bi2.bottom-item
 ekologiczny.pl,moto125.pl,wodna-kraina.pl,sklephormann.pl,tylkostylowe.pl,hotspray.pl###widget_shop1
 ekonomik.olsztyn.pl###facebook_head
-eko-central.pl##.social-network
+eko-central.pl,superubezpieczenia.pl##.social-network
 eksiazki.az.pl##a[href="http://facebook.com/eksiazki"], .subscribe > a[href="https://plus.google.com/+Eksiążkiplus"], .subscribe > a[href="https://twitter.com/e_ksiazki"], .subscribe > a[href="http://www.youtube.com/c/Eksiążkiplus"]
 eksiazki.az.pl##div.box:nth-of-type(2) > h5
 ekskluzywnymenel.com##.marlene-widget-social
@@ -1850,6 +1851,7 @@ interskills.pl##.right.span_3_of_12.col
 intersport.pl##.header__top--social
 interviewme.pl##.Socials__Link--Facebook, .Socials__Link--Instagram, .circle-line--sm
 intibs.pl##.social > ul > li:nth-of-type(-n+2)
+invimed.pl##.header__tools-social
 inwestujwmyjnie.pl##.row:nth-of-type(1) > .small-block-grid-1 > .bottom:nth-of-type(3)
 inwestycje.pl##.ico-foot-facebook, .ico-foot-twitter
 inzynieria.com##.cd-nav-social.list-inline > li:nth-of-type(-n+5), .nav-social-top > li:nth-of-type(-n+5)
@@ -2088,7 +2090,6 @@ lidl.pl##.navigation--social
 lifebymarcelka.pl###HTML1, #HTML9
 lifemanagerka.pl###text-2, #text-6, #nav_menu-2, .lightbox-btn
 lifemotion.pl##.follow.box
-lifetimetv.pl###block-lifetime-custom-social-puzzle
 ligaakademicka.pl##.qodef-btn[href="https://www.facebook.com/LigaAkademicka/"], .qodef-btn[href="https://www.instagram.com/ligaakademicka/"], .qodef-btn[href="https://www.twitch.tv/ligaakademicka"], .qodef-btn[href="https://www.youtube.com/channel/UCeD_j7rVvTIoxzaO1q__jfA"]
 ligamistrzow.com###fb-adv, #twitter-adv
 lightinthebox.com##.join-our-community
@@ -3178,6 +3179,7 @@ superkoszyk.pl##.menu-item-facebook
 supermemo.pl###block-block-42 > .content > h4, #profiles
 supertydzien.pl##.widget.row:nth-of-type(5) > .text-center.col-md-12
 supertydzien.pl##.widget.row:nth-of-type(6)
+superubezpieczenia.pl##.help-info > li > .wykop2
 support.garmin.com##.sp__quick-links__social-links
 support.wdc.com##div.footer-upper:nth-of-type(4)
 surgepolonia.pl###footer_contact_data > li:nth-of-type(1) > a
@@ -3629,6 +3631,7 @@ xboxarcade.pl##div#widget_text.widget:nth-of-type(2)
 xboxforum.pl##.primary.floatingItem, .xbSocialLogins
 xiaomi.eu##.uix_extendedFooterRow > div.block:nth-of-type(4)
 xlomza.pl##.uk-visible\@m.uk-margin-right.uk-navbar-right
+xn--wzr-wypowiedzenia-hyb.pl,xn--zgoszenie-szkody-kyc.pl,xn--zgoszenie-sprzeday-n9c98i.pl##.footer-container > .footerinner > div.first-col:nth-of-type(4) > .heading, .link-list-1
 xperiasite.pl###fbox-background
 xtreme-style.pl##a[href="https://www.facebook.com/sklepXTREME/"]
 x-mobile.pl##.border.col-sm-4.col-md-2.col-lg-2 > .footer_box
@@ -3663,6 +3666,7 @@ zawiszafans.net##li:nth-of-type(10)
 zawisza.szkola.pl#?#.enigma_callout_area:-abp-contains(Facebook'u)
 zbooy.pl##a[href="http://pinterest.com/zbooy/"] > img
 zdamyto.com##.footerIconsTwitter, .footerIconsFacebook, .footerIconsYoutube
+zdamyto.com##.s-hm-facebook, .s-hm-youtube
 zdamyto.com##.s-hm-twitter
 zdgtor.pl###menu-item-33
 zdrofit.pl##li:nth-child(n+2) > .darkgray.icon-btn
@@ -3986,7 +3990,6 @@ iab.org.pl#@#.menu-social-buttons
 influencer.pl#@#.socials
 kadantiscam.netlify.com#@#.social-icon
 kingowiec.pl#@#.socialmedia
-lifetimetv.pl#@#.social-feed
 lublin112.pl#@##social-icon
 miedzyrzecz.biz#@#.td_block_social_counter
 miedzyrzecz.biz#@#.td_social_type
