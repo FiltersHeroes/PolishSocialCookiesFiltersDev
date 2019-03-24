@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: btmtCUXb4RAZU4TpbFsqrQ
+! Checksum: HYuIIYZyqg3KKAXfdAz4SQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.24.1
-! Last modified: Sun, 24 Mar 2019, 16:29 UTC+00
+! Version: 2019.3.24.2
+! Last modified: Sun, 24 Mar 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.24.1 aktualizacja: niedz., 24 mar 2019, 16:29 UTC+00
+! v.2019.3.24.2 aktualizacja: nie, 24 mar 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -46,7 +46,7 @@ absbank.pl##body > div:not([id]):not([class])[style="background: #eee; border-bo
 absolvent.pl##.top-ban-wrapper
 abt-s.pl,ecbedzin.pl,enut.pl,programatory.com,haloursynow.pl,warsztat.pl,interprojekt.pl,mojaolesnica.pl###myModal
 abt-s.pl,interprojekt.pl,yes.pl,filoma.org,naekranie.pl,polskiprawnik.pl,www.hotelbb.pl##.reveal-modal-bg
-accenture.com,kia.com,wdeloitte.com,cookielaw.org,hp.com,prezi.com,asics.com,volvocars.com##.optanon-alert-box-wrapper, #optanon, #optanon-minimize-wrapper
+accenture.com,kia.com,cookielaw.org,hp.com,prezi.com,asics.com,volvocars.com##.optanon-alert-box-wrapper, #optanon, #optanon-minimize-wrapper
 account.ubisoft.com###footer_tc_privacy
 accuweather.com###eu-cookie-notify-wrap
 acer.com##.cookieBox
@@ -387,7 +387,7 @@ dogizycka.pl,dojaroslawca.pl,domragowa.pl,helskipolwysep.pl,kursnamikolajki.pl,v
 dolce-gusto.pl###nimgrowler
 dollarro.com###pnlCookiebanner
 dolnyslask.travel##.cl-banner
-dombud.eu,kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu,hikoki-narzedzia.pl,rockwellautomation.com,cropp.com,sklep-tvsat.com###cookieNotice
+dombud.eu,kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu,hikoki-narzedzia.pl,rockwellautomation.com,cropp.com,sklep-tvsat.com,ganjamafiashop.com,laroxy.com###cookieNotice
 domd.pl###cookie-info-popup
 domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
 domesta.com.pl###CookiesWarningPopup
@@ -551,7 +551,7 @@ firmamazur.pl,mazurcompany.com###cookies-glass
 firmy4u.pl###infociasteczka
 firmymiesne.pl##[aria-describedby="rodo-dialog"], .ui-widget-overlay
 firmy.lu###privacy_info_overlay, #privacy_info_content
-fitbox4you.pl,przeglad-budowlany.pl###kopageBar
+fitbox4you.pl###kopageBar
 fitomento.com##.navbar-inner
 fit.pl##.rodo-show
 fivesport.pl###rodo_delivery_container, .rodo_background
@@ -898,7 +898,6 @@ lajfy.com##.eu-cookie, .fucking-eu-cookies
 lak-auto.pl###windowcookie > #innercookie
 lampy.pl##.dnt-dialog
 lancia.pl###cl-banner
-laroxy.com###cookieNoticeContent
 laserhouse.pl##.LASERWrapper
 laskonline.pl,bskrasnosielc.pl,rarlab.com###cookiewarning > div:nth-of-type(1)
 lasy.gov.pl,bip.kielce.eu,wrota-swietokrzyskie.pl##.popup-alert-notice
@@ -1198,7 +1197,6 @@ panasonic.pl##div#CP_Layer
 paneleogrodzeniowe-treza.com###treza-cookies
 parfumclub.pl##.gmt_gdpr
 parkersklep.pl,rotringsklep.pl###BoxCookie
-parkhandlowylomza.pl###pamphletu38210
 parkwodny.pl,szkolymedyczne.eu,srodaslaska.pl##.ppsPopupShell, #ppsPopupBgOverlay
 parp.gov.pl###howdydo-wrapper
 pasazer.com##.info_cookie
@@ -1728,7 +1726,6 @@ www.teamprevent.pl##.warnings
 www.tem.com.pl###block-block-29
 www.totalizator.pl##.rodo-information-overlay, .rodo-information-popup
 www.tupperware.pl##.topRibbon
-www.wiedzakontrowersyjna.pl###ad-bg-transparent
 www.youtube.com##.clearfix.yt-consent-banner.yt-consent
 www.zarr.com.pl###accept_cookie_wrapper, #accept_cookie_overlay
 wycena.otodom.pl##.landend-infobar-dark
