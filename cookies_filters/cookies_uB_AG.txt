@@ -1,11 +1,11 @@
-! Checksum: 6eEVrTl8uwfs0Z/uIdknUA
+! Checksum: vPMR1VqQCMnntQZz3k2oMw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.24.1
-! Last modified: Sun, 24 Mar 2019, 18:00 UTC+01
+! Version: 2019.3.24.2
+! Last modified: Sun, 24 Mar 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.24.1 aktualizacja: nie, 24 mar 2019, 18:00 UTC+01
+! v.2019.3.24.2 aktualizacja: nie, 24 mar 2019, 22:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -436,12 +436,11 @@ fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:st
 purepc.pl##+js(nano-remove-elements-onready.js, .cookiesinfo)
 !#endif
 !#if cap_user_stylesheet
-~www.wp.pl,dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl,wp.pl##body > div[class]:has-text(RODO)
-~www.wp.pl,dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl,wp.pl##html:style(overflow-y: visible !important; height: auto !important;)
-~www.wp.pl,wp.pl##body > #app ~ noscript + div[class]
+~www.wp.pl,wp.pl##body > #app ~ noscript + div:not([id])[class], body > iframe + iframe + div:not([id])[class]
 ~www.wp.pl,wp.pl##body > *:style(filter: none !important;)
 ~www.wp.pl,wp.pl##html, html > body:style(overflow: visible !important;)
-~www.wp.pl,wp.pl###app:style(filter: none !important;)
+dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl##body > div:not([id])[class]:has-text(RODO)
+dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl##html:style(overflow-y: visible !important; height: auto !important;)
 !#endif
 !#if !env_mobile
 azure.microsoft.com###main:style(padding-top: 88px !important;)
