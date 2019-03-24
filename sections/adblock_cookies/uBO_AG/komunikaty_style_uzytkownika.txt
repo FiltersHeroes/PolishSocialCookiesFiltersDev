@@ -1,4 +1,4 @@
-~www.wp.pl,wp.pl##body > #app ~ noscript + div[class]
+~www.wp.pl,wp.pl##body > #app ~ noscript + div:not([id])[class], body > iframe + iframe + div:not([id])[class]
 ~www.wp.pl,wp.pl##body > *:style(filter: none !important;)
 ~www.wp.pl,wp.pl##html, html > body:style(overflow: visible !important;)
 
