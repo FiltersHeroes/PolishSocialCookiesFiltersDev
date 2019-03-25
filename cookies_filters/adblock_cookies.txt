@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 2wQ3Hxou75ns9A9aVnhLBg
+! Checksum: qH5p/8enIqk5uwiagW3wGQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.25.1
-! Last modified: Mon, 25 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.25.2
+! Last modified: Mon, 25 Mar 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.25.1 aktualizacja: pon, 25 mar 2019, 02:00 UTC+01
+! v.2019.3.25.2 aktualizacja: pon, 25 mar 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -147,7 +147,6 @@ attrader.pl,teatrpalladium.com##.cppa
 audioteka.com##.anonymousToSConsent_mask
 auto4free.pl###js-cookieBanner
 autoaukcje.net##.popup_cookies
-autocentrum.pl##.hello-rodo
 autodna.pl##.privacy_policy-info
 autogespot.pl##div[class^="popup"]:not(.fancybox-margin)
 autogielda.pl,auto-czesci-lipiec.pl,mix4kids.tv,dreammachines.pl,fotosik.pl,haloursynow.pl,warsztat.pl,jelenia.tv,leo.pl,4fstore.com,interprojekt.pl,aclari.pl,diecezjaplocka.pl,e-konkursy.info,funduszpomerania.pl,goldenline.pl,hdtv-sat.eu,naratunek.org,oskolaf.pl,panoramafirm.pl,pulawy.eu,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,swiatpodlog.com.pl,wseit.edu.pl##.modal-backdrop
@@ -1686,6 +1685,7 @@ wszp.edu.pl###akcept_cookies
 wszystkoblisko.pl##.ueCookies
 wu.swps.edu.pl##div#Iagree
 www.aboutyou.pl###app > .cookieBannerActive > div[class*="cookieBannerContainer"]
+www.autocentrum.pl##.hello-rodo
 www.bbc.com###cookiePrompt
 www.bing.com###b_notificationContainer
 www.bing.com###t_cookieInfo, #t_termsInfo
@@ -2280,6 +2280,7 @@ pl###q-cookie-box:not(body):not(html)
 pl###redim-cookiehint:not(body):not(html)
 pl###rsseo-cookie-accept:not(body):not(html)
 pl###scnb-cookie-bar:not(body):not(html)
+pl###selly-cookies:not(body):not(html)
 pl###showCookieInfo:not(body):not(html)
 pl###showCookie:not(body):not(html)
 pl###showCookie:not(body):not(html) ~ br
