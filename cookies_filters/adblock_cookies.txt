@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: NajEScJheg+S/ivf4HlZBw
+! Checksum: TlFG7Ru30e16VLUuMFa9ng
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.25.3
-! Last modified: Mon, 25 Mar 2019, 19:15 UTC+00
+! Version: 2019.3.25.4
+! Last modified: Mon, 25 Mar 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.25.3 aktualizacja: pon., 25 mar 2019, 19:15 UTC+00
+! v.2019.3.25.4 aktualizacja: pon, 25 mar 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -178,6 +178,7 @@ bankowoscprywatna.pkobp.pl###pko-cookie-rodo
 bardotti.pl##.wpmui-popup
 bartix.pl,pmi24.info,ddwlkp.pl,pch24.info,pnt24.info,pob24.info,pzl24.info###menusDiv
 batida.pl###top-closable-message
+baumit.pl##.pro-cookie-layout
 baza-krs.pl,markoweszyby.pl,moja-grecja.pl,swiat-czekolady.com.pl,kzkgop.com.pl,rj.metropoliaztm.pl,upolujebooka.pl#?#.alert-info.alert:-abp-contains(cookies)
 bbcpolska.com##body > iframe
 bdi.com.pl##.ultra_modules_ad_acceptation_b
@@ -318,6 +319,7 @@ codziennikfeministyczny.pl###bazinga-muffin-container
 coinquista.com##.drawer.ant-drawer > .ant-drawer-content-wrapper
 coinroom.com,polimex.net,sonos.com,ridgid.eu,vivala.pizza,pizzeria-vendetta.eu##.cookie-warning
 cojestgrane.pl##.ui-cookies-acceptance
+colores.pl##div > #popupContact
 colormark.pl###Kom_cookie
 comitor.pl###rodoBoxWrap
 confronter.pl###cookieBarDiv
@@ -675,6 +677,7 @@ greenmousestudio.com,jarmula.com###cookie-warn-wrapper
 gregorio.pl##.ciacho-wrap-container, .black_overlay
 groman.pl,hotelboss.pl,jellinek.pl,zoo.wroclaw.pl###okno_18only
 groupon.pl##div#jOftLayer
+grupapsb.com.pl##.popup-container
 grupazywiec.pl###apollo-bar
 gry.lotto.pl###cookie__note
 gsbk.pl,klinika.krakow.pl###ci
@@ -807,6 +810,7 @@ justjoin.it##.cookies-footer
 jysk.pl,lovehairbarbershop.business.site,uzywana-muzyka.business.site###cookieDialog
 kabam.com##div#eu_privacy
 kabar.pl##body > .blockMsg
+kabexdocieplenia.eu##.cookies-info
 kajto.pl###cookies-section
 kalendarzonline.com###cookiesBlock
 kalendarzrolnikow.pl,lpwiksa.com.pl,hopea.eu,kpcen-torun.edu.pl###colorbox, #cboxOverlay
@@ -2020,6 +2024,7 @@ pl###cookieInfoPanel:not(body):not(html)
 pl###cookieInfo:not(body):not(html)
 pl###cookieLawBox:not(body):not(html)
 pl###cookieLaw:not(body):not(html)
+pl###cookieLayer:not(body):not(html)
 pl###cookieMessageContainer:not(body):not(html)
 pl###cookieMessage:not(body):not(html)
 pl###cookieMonster:not(body):not(html)
