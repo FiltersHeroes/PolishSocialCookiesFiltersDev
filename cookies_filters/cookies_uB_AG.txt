@@ -1,11 +1,11 @@
-! Checksum: vPMR1VqQCMnntQZz3k2oMw
+! Checksum: VnMQFY8/xtGtHvONSxO1Cw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.24.2
-! Last modified: Sun, 24 Mar 2019, 22:00 UTC+01
+! Version: 2019.3.25.1
+! Last modified: Mon, 25 Mar 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.24.2 aktualizacja: nie, 24 mar 2019, 22:00 UTC+01
+! v.2019.3.25.1 aktualizacja: pon, 25 mar 2019, 02:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -437,10 +437,11 @@ purepc.pl##+js(nano-remove-elements-onready.js, .cookiesinfo)
 !#endif
 !#if cap_user_stylesheet
 ~www.wp.pl,wp.pl##body > #app ~ noscript + div:not([id])[class], body > iframe + iframe + div:not([id])[class]
-~www.wp.pl,wp.pl##body > *:style(filter: none !important;)
-~www.wp.pl,wp.pl##html, html > body:style(overflow: visible !important;)
+~www.wp.pl,wp.pl,portal.abczdrowie.pl##body > *:style(filter: none !important;)
+~www.wp.pl,wp.pl,portal.abczdrowie.pl##html, html > body:style(overflow: visible !important;)
 dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl##body > div:not([id])[class]:has-text(RODO)
 dobreprogramy.pl,~ssl.dobreprogramy.pl,homebook.pl##html:style(overflow-y: visible !important; height: auto !important;)
+portal.abczdrowie.pl##body > #fb-root.fb_reset + .cookie-msg-box + div:not([id])[class]
 !#endif
 !#if !env_mobile
 azure.microsoft.com###main:style(padding-top: 88px !important;)
