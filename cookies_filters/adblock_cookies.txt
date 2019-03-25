@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: qH5p/8enIqk5uwiagW3wGQ
+! Checksum: NajEScJheg+S/ivf4HlZBw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.25.2
-! Last modified: Mon, 25 Mar 2019, 14:00 UTC+01
+! Version: 2019.3.25.3
+! Last modified: Mon, 25 Mar 2019, 19:15 UTC+00
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.25.2 aktualizacja: pon, 25 mar 2019, 14:00 UTC+01
+! v.2019.3.25.3 aktualizacja: pon., 25 mar 2019, 19:15 UTC+00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -415,6 +415,7 @@ dvdmax.pl,punkt44.pl###alertTop
 dzidziusiowo.pl,kinoteka.pl,kontakt-simon.com.pl,malygosc.pl,mklr.pl,motokiller.pl,nowapapiernia.pl,radioem.pl,v10.pl##body > div:not([id]):not([class])[style*="position"][style*="absolute"]
 dziennikwschodni.pl,wykop.pl,niskarata.org##.rodo-alert
 dzis.tv##div#regulaminWrap
+dzwignice.info#?#body > div:first-of-type:-abp-has(a[href$="/polityka-prywatnosci"])
 e24cloud.com##div#FullBox
 earlystage.pl###cookie-beam
 easyjet.com,sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu##.cookie-consent
@@ -2211,6 +2212,7 @@ pl###cookie_law_informations:not(body):not(html)
 pl###cookie_layer:not(body):not(html)
 pl###cookie_message:not(body):not(html)
 pl###cookie_notice:not(body):not(html)
+pl###cookie_policy_popup:not(body):not(html)
 pl###cookie_top_info:not(body):not(html)
 pl###cross-dialog.crossDialog:not(body):not(html)
 pl###divCookie:not(body):not(html)
@@ -2236,6 +2238,7 @@ pl###icc_message:not(body):not(html)
 pl###ics-pp-cookies-accept:not(body):not(html)
 pl###infocookie:not(body):not(html)
 pl###informations-cookies:not(body):not(html)
+pl###info-cookies-banner:not(body):not(html)
 pl###info-cookies:not(body):not(html)
 pl###info-cookie:not(body):not(html)
 pl###info_cookies:not(body):not(html)
@@ -2305,6 +2308,7 @@ pl###xcookies:not(body):not(html)
 pl###xrootCookieRules:not(body):not(html)
 pl##.COOKIE_PRIVACY_CONT:not(body):not(html)
 pl##.CTcookie-container:not(body):not(html)
+pl##.CookieAlert:not(body):not(html)
 pl##.CookieApprove:not(body):not(html)
 pl##.CookieConsent:not(body):not(html)
 pl##.CookieLayer:not(body):not(html)
