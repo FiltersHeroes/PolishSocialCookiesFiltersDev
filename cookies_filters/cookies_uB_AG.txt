@@ -1,11 +1,11 @@
-! Checksum: VnMQFY8/xtGtHvONSxO1Cw
+! Checksum: reGpROM8xvCMCoaXdIbnsg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.25.1
-! Last modified: Mon, 25 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.25.2
+! Last modified: Mon, 25 Mar 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.25.1 aktualizacja: pon, 25 mar 2019, 02:00 UTC+01
+! v.2019.3.25.2 aktualizacja: pon, 25 mar 2019, 14:00 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -136,6 +136,8 @@ mzbm.tychy.pl###privacy-modal, .modal-backdrop
 mzk-torun.pl###fancybox-container-1:has(#policy_elem)
 mzk-torun.pl###fancybox-container-2:has(#policy_elem)
 m.24jgora.pl,24wroclaw.pl###rodoModal, .modal-backdrop
+m.autocentrum.pl##html.menu-active:style(overflow: auto !important;)
+m.autocentrum.pl##.hello-rodo
 m.filmweb.pl##body.rodo[style^="padding-top:"]:style(padding-top: 0 !important;)
 nauka.rocks##.ct-ultimate-gdpr-cookie-topPanel-padding:style(padding-top: 0 !important;)
 neon24.pl##+js(abort-on-property-read.js, Service.cookieMonster)
