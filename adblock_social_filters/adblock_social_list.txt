@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: DN9tCAYeeh0kH/GDhr/Ciw
+! Checksum: ZYlIYXkBwwzY8bcNwZqcLw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.26.1
-! Last modified: Tue, 26 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.26.2
+! Last modified: Tue, 26 Mar 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.26.1 aktualizacja: wto, 26 mar 2019, 02:00 UTC+01
+! v.2019.3.26.2 aktualizacja: wto, 26 mar 2019, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -1988,8 +1988,7 @@ komorkomania.pl##.social-links--author
 komorkomat.pl##.hidden-sm.hidden-xs.social_kontener
 komorkomat.pl##.widget_text.col-md-3:nth-of-type(4) > .widgettitle
 kompan.pl##.blog-icon
-komputerswiat.pl##a[href*="facebook.com/Komputerswiat"] > .lead, a[href*="facebook.com/GamezillaPL"] > .lead
-komputerswiat.pl##a[href*="facebook.com/komputerswiat"] .image, a[href*="facebook.com/GamezillaPL"] .image
+komputerswiat.pl##div > a[href*="facebook.com/Komputerswiat"] img, div > a[href*="facebook.com/GamezillaPL"] img
 komputerswiat.pl##.social-container
 komputerytychy.pl##.col-md-12:nth-of-type(4) > .panel-default.panel
 konecki24.pl##.np-aside-social-wrapper
@@ -3598,6 +3597,7 @@ www.ing.pl##.footer_icons > ul > li[class^="footer_icon_"]
 www.interhouse.eu##a[href="http://www.facebook.com/pages/InterHouse-Sprawdzone-Nieruchomo%C5%9Bci/125078734246626"]
 www.iwaszkiewiczipartnerzy.com###LnkBr0-9cd
 www.keller.com.pl###Mod111
+www.kominytona.pl##.hidden-320px.marginleft10.nopadding.inline-block > li.inline-block:nth-of-type(n+2)
 www.kupony.pl##.additional-nav > li:nth-of-type(2)
 www.lodzkie.pl##.jj_sl_custom3
 www.lotto.pl##.fixedFacebook
