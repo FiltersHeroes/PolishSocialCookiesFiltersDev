@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: M/ejQy88TVEopVpzFlyNEA
+! Checksum: FDLe0db6srzokRQZ6Xdyuw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.26.1
-! Last modified: Tue, 26 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.27.1
+! Last modified: Wed, 27 Mar 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.26.1 aktualizacja: wto, 26 mar 2019, 02:00 UTC+01
+! v.2019.3.27.1 aktualizacja: śro, 27 mar 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -161,7 +161,7 @@ avast.com,pay.google.com,trustpilot.com,outride.rs,pl.depositphotos.com##.cookie
 avatradepolska.pl##.accept-cookie-block
 avioner.pl,hotpay.pl,playtube.pl#?#.alert-success.alert:-abp-contains(cookies)
 avon.pl##.CookieSection
-azjatyckibazar.com,rpo.pomorskie.eu,forte.com.pl,mustasz.com,agatabielen.com,pantuniestal.com,edwardorlovski.com###cookiesinfo
+azjatyckibazar.com,rpo.pomorskie.eu,forte.com.pl,mustasz.com,agatabielen.com,pantuniestal.com,edwardorlovski.com,sofly.club###cookiesinfo
 azure.microsoft.com###cookie-prompt
 badaniaprenatalne.pl###stb-14718
 badaniapsychologiczne.net###kopageBarCookies
@@ -580,6 +580,7 @@ forum-bron.pl###phpbb_announcement[style="background-color:#f0eae1"]
 forum-kulturystyka.pl###fk-terms
 forum.dziennikwschodni.pl###cookiePolicyPopup > div > p
 forum.minepedia.pl##div#notice
+forum.optymalizacja.com,prestashop.com###elGuestTerms
 forum.vwgolf.pl##iframe[src="cookie.html"]
 forum.zarabianie24.net##div[style="font-family: Tahoma; margin-bottom: 6px; padding: 5px; font-size: 10px; color: rgb(0, 0, 0); background-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-color: black; border-bottom-style: solid; "]
 fostertravel.pl##.ft-rodo-html-banner
@@ -940,7 +941,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubimyczytac.pl###TB_window, #TB_overlay
@@ -1123,7 +1124,7 @@ nivea.pl##.bdf-cookie-policy-popup
 nobiles.pl##.cookies__alert
 noblehealth.pl##.cookie-promotion
 nokaut.pl###GDPRModal
-nokia.com##.cookie_container
+nokia.com,vertedrzwi.eu##.cookie_container
 nomi.pl##div#Messenger-Special
 nordglass.pl##.rodoBox--visible.rodoBox
 norwegian.com#?#.alert:-abp-has(.cookie-disclaimer)
@@ -1315,7 +1316,6 @@ pozyczkowy-portal.pl###gdprc
 pracatobie.pl###coocieDiv
 pragma.pl##.pra-cookie-info
 praktiker.pl##div.info_c_box
-prestashop.com###elGuestTerms
 prgm.pl###Layer25
 prgok.pl###top_i
 prideshop.pl,queer.pl##.box-rodo
