@@ -1,11 +1,11 @@
-! Checksum: reGpROM8xvCMCoaXdIbnsg
+! Checksum: 0VGT6vljkwiWtG4It0bEdQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.25.2
-! Last modified: Mon, 25 Mar 2019, 14:00 UTC+01
+! Version: 2019.3.29.1
+! Last modified: Fri, 29 Mar 2019, 14:01 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.25.2 aktualizacja: pon, 25 mar 2019, 14:00 UTC+01
+! v.2019.3.29.1 aktualizacja: pią, 29 mar 2019, 14:01 UTC+01
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -86,6 +86,11 @@ fiskars.pl##.desktop:style(top: 0 !important;)
 galopuje.pl##+js(abort-current-inline-script.js, $, RODOCOOKIE)
 generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
 gitara-sklep.pl##body:style(padding-top: 0 !important;)
+google.com,google.pl##body > #lb > div[id^="_"][class]
+google.com,google.pl##html.nsc:style(overflow-y: visible !important;) 
+google.com,google.pl##html:not(.nsc) > body.nsc:style(position: static !important; overflow-y: visible !important;) 
+google.com,google.pl##jsl > #consent-bump > .widget-consent
+google.com,google.pl###main > #lb > div[id^="_"][class^=" "]
 haloursynow.pl,warsztat.pl,hdtv-sat.eu##.modal-open:style(padding-right: 0 !important;)
 hbogo.pl##.banner-overlay
 hbogo.pl,cbdzoe.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
