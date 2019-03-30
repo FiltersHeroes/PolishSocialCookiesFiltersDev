@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: pQfzVsiBbWoTarWnhCqGsw
+! Checksum: 5jzGSWmfFm8BmTNZdRwmJQ
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.30.1
-! Last modified: Sat, 30 Mar 2019, 02:00 UTC+01
+! Version: 2019.3.30.2
+! Last modified: Sat, 30 Mar 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.30.1 aktualizacja: sob, 30 mar 2019, 02:00 UTC+01
+! v.2019.3.30.2 aktualizacja: sob, 30 mar 2019, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -1149,6 +1149,7 @@ chojnice.com##.column5
 chojnow.pl###sm-box
 cholewinski.com##.cho-social-links
 chomikuj.pl##.fileActionsFacebookSend
+chroma.pl##[class^="Footer---socialHeader"]
 chwilowkomat.pl###ssl > li:nth-of-type(3), #ssl > li:nth-of-type(4), #ssl > li:nth-of-type(5)
 chwp.pl##a[href="https://facebook.com/kancelariachalasiwspolnicy/"] > .icon, a[href="https://www.linkedin.com/company/371487/"] > .icon
 ciapkowo.pl###text-6, #text-12
@@ -1185,6 +1186,7 @@ comparic.pl#?#.g-single:-abp-contains(Dołącz do naszej grupy)
 compensa.pl##.footer div.footer__members-item:nth-of-type(n+6):nth-of-type(-n+7), .footer-container > .container-fluid > .row > div.col-xs-12:nth-of-type(3)
 comperio.co##nav > .Facebook, nav > .Gplus, nav > .Twitter, #Top > .Social, .Social > .Facebook, .Social > .Gplus, .Social > .Twitter, .body > .Social
 comtv.pl,dell24.pl,mediasystem-tdi.pl###musli
+concordiaubezpieczenia.pl##[href="//www.facebook.com/ConcordiaUbezpieczenia/"]
 confero.pl##a.confero_social_icon:nth-child(-n+4)
 congee.pl##.col-sm-12.col-md-3.newsletter_facebook
 consil.com.pl###wysuwany_div, #wysuwany_div2
@@ -1430,7 +1432,7 @@ elotek.pl##img[src="/static/zjvc3cdU7gfA0QJSMJ4gM7973JRKbn1YS34uItxVCGM.png"]
 elportal.pl###rfb_widget-2, #text-4
 elubaczow.com###text-34, #text-35
 elubaczow.com,inthecage.pl##.td-instagram-user
-elwico.com.pl##.kac-sm-block
+elwico.com.pl,imn.gliwice.pl##.kac-sm-block
 embryolisse.pl##div > div > a[href="https://embryolisse.pl/blog/"], #convertisinstagram
 emisja.tv##.header-signbtn
 emisja.tv##.person-social
@@ -1956,6 +1958,7 @@ kanal10.pl##div.yt-socialbt
 kancelaria.obligo.pl###footer  .widget-contact.widget
 kantor.com.pl##.dnd_follow_us > .top_social_icon
 kapral-car.pl##.absolute-fb.wpb_content_element, .icons-socials-homepage, .o-firmie.tabela p:nth-of-type(4) > strong
+karta.org.pl##.link-media:not(.link-email)
 kasianafali.pl###HTML3, #Image4
 kasprowiczanie.com##a[href="http://www.facebook.com/kasprowiczanie"] > #link
 kastu.pl##.footer-block-social
@@ -2642,6 +2645,7 @@ perfumyfm.biz###et-secondary-nav > .menu-item:nth-of-type(4)
 perfumyfm.biz###text-4, #footer-info > span > a > img
 petycjeonline.com###left_vertical_ad
 petycjeonline.com##.col-md-6:nth-of-type(2)
+pe.szczecin.pl##.social-icons-f > .fa-facebook-f
 pfhb.pl##.lead > [href="https://instagram.com/pfhbipm/"]
 pfm.pl##div.footer-box:nth-of-type(3) > .footer-links
 philips.pl##.p-footer-social
@@ -3068,6 +3072,7 @@ sieradztomy.pl###Image1, #Image6
 siglo.pl##a > img[src="images/layout/f.jpg"]
 signs.pl##.formend-right > nav, .hide800
 silcare.com###u81059
+silesia.info.pl##[href="https://www.facebook.com/silesiainfopl"]
 silesia.travel##.smw-floating-container, .widget-LikeBox-slaskietravel
 silesion.pl##.afb-share
 silesion.pl##.js-sticky.floatingSocials > ul > li:nth-child(-n+4)
