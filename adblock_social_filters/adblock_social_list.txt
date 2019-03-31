@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: dirxSBHMojvOK8quKRa38Q
+! Checksum: JulH5Jao8WcMFuBZW8QZvw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.3.31.1
-! Last modified: Sun, 31 Mar 2019, 15:00 UTC+02
+! Version: 2019.3.31.2
+! Last modified: Sun, 31 Mar 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.3.31.1 aktualizacja: nie, 31 mar 2019, 15:00 UTC+02
+! v.2019.3.31.2 aktualizacja: nie, 31 mar 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -1196,6 +1196,8 @@ consumer.huawei.com##.gtm-social.cbg-inline
 cookup.pl##.instagram-container
 cosdlazdrowia.pl##.col-lg-2.col-md-2.col-sm-6.col-xs-12:nth-of-type(4) > .footer-block
 cosinus.pl###google_icon, #yt_icon, #instagram_icon
+cottonina.pl#?##wrapper > section.l-section:-abp-has(a#instagram-widget)
+cottonina.pl#?##wrapper > section.l-section:-abp-has(h2 > i.fa-instagram)
 cowsierscipiszczy.pl##.wpf-sbtn, .wpf-sb-buttons
 cowziemipiszczy.pl###text-16 > .textwidget > p:nth-of-type(1), .textwidget > p:nth-of-type(2)
 cozahistoria.pl###menu-item-87, #menu-item-88, #menu-item-89
