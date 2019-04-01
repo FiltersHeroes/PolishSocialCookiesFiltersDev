@@ -39,9 +39,6 @@
 !#if !env_mobile
 @include komunikaty_niemobilne
 !#endif
-!#if ext_ublock
-@include komunikaty_uBO
-!#endif
 !#if !ext_ublock
 @include komunikaty_AdGuard
 !#endif
