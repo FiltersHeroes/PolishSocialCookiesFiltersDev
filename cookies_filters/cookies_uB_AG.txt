@@ -1,11 +1,11 @@
-! Checksum: UDRP9T/pg57X26kgcY4OJg
+! Checksum: 71jPqkF9i7zN4mH5LM0mUQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.1.2
-! Last modified: Mon, 01 Apr 2019, 17:38 UTC+00
+! Version: 2019.4.1.3
+! Last modified: Mon, 01 Apr 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.1.2 aktualizacja: pon., 01 kwi 2019, 17:38 UTC+00
+! v.2019.4.1.3 aktualizacja: pon, 01 kwi 2019, 23:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -441,17 +441,22 @@ ztm.poznan.pl##^#PopUP
 !#if !cap_user_stylesheet
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:style(visibility: hidden !important;)
 purepc.pl##+js(nano-remove-elements-onready.js, .cookiesinfo)
+sportowefakty.wp.pl##body[class] > *:style(filter: none !important;)
+sportowefakty.wp.pl##+js(overlay-buster.js)
+!sportowefakty.wp.pl##html:style(overflow-y: visible !important; height: auto !important;)
 !#endif
 !#if cap_user_stylesheet
+~www.wp.pl,wp.pl##body > #app ~ noscript + div:not([id])[class], body > iframe + iframe + div:not([id])[class]
+~www.wp.pl,wp.pl##html, html > body:style(overflow: visible !important;)
+~www.wp.pl,wp.pl,portal.abczdrowie.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,pudelek.pl,portal.abczdrowie.pl##body > *:style(filter: none !important;)
+forum.dobreprogramy.pl##body > div:not([id]):not([class*="modal"])[class]:nth-last-child(-n+2):nth-last-of-type(-n+2)
+forum.dobreprogramy.pl,homebook.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,pudelek.pl,portal.abczdrowie.pl##html:style(overflow-y: visible !important; height: auto !important;)
+fotoblogia.pl,gadzetomania.pl,homebook.pl,komorkomania.pl,pudelek.pl,portal.abczdrowie.pl##body > div:not([id])[class]:last-child:last-of-type
+sportowefakty.wp.pl##body > iframe ~ script + div:not([id])[class]
+
 !#endif
 !#if !env_mobile
 azure.microsoft.com###main:style(padding-top: 88px !important;)
-!#endif
-!#if ext_ublock
-sportowefakty.wp.pl##body > iframe ~ script + div:not([id])[class]
-sportowefakty.wp.pl##body > *:style(filter: none !important;)
-sportowefakty.wp.pl##html:style(overflow-y: visible !important; height: auto !important;)
-sportowefakty.wp.pl##+js(overlay-buster.js)
 !#endif
 !#if !ext_ublock
 4fun.tv$$#cModal
