@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 7eW5hcNDGkpKLHG2XRFkQg
+! Checksum: mLXT3c0kGlcyEPIFleuCWw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.1.4
-! Last modified: Mon, 01 Apr 2019, 23:00 UTC+02
+! Version: 2019.4.2.1
+! Last modified: Tue, 02 Apr 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.1.4 aktualizacja: pon, 01 kwi 2019, 23:00 UTC+02
+! v.2019.4.2.1 aktualizacja: wto, 02 kwi 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -113,7 +113,7 @@ americanexpress.com###cookie_Header
 amix.pl###policy
 ampero.pl,zdrovit.pl,apdmarket.pl,cos.pl,czesci-samochodowe.wroclaw.pl,demarko-trailers.com,instytutksiazki.pl,jangar.pl,muzeumslaskie.pl,sklepdlaplastykow.pl,smswietochlowice.pl,storm24.pl,bobryk.pl,buty-wolka.pl,leclerc-bielany.pl,sklep.intert.pl,lampyilampki.pl,lampytanie.pl,gitara-sklep.pl###popup
 amundi.pl,biodiv.gdos.gov.pl,chojnice24.pl###disclaimer
-andrychow.eu,wielkopolska.travel,kujawy.info##.pea_cook_wrapper
+andrychow.eu,wielkopolska.travel,kujawy.info,gazetkipromocyjne.net##.pea_cook_wrapper
 anmar-pl.com##.reveal-modal[data-cookie], .demo_store.woocommerce-store-notice
 answers.ea.com##.cookie_content
 anton-paar.com###ap-cookie-policy
@@ -955,7 +955,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com,goleniowska.com###cookies-message-container
 low-medium-voltage.siemens.pl##.PopupDiv
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
@@ -1028,6 +1028,7 @@ michalgrabarski.eu###ccc-icon
 michal.kosmulski.org###ustawaCiasteczkowa
 microsoft.com,office.com###uhfCookieAlert
 mielec.pl##.footer_cookieinfo
+migora.pl###topInfoContainer1 > #topInfo1
 milenium.pl##.cookie_acceptation
 millymally.pl###js-xcookies
 milmag.pl###layCookieAlert
@@ -2118,6 +2119,7 @@ pl###cookiesPolicyPopup:not(body):not(html)
 pl###cookiesPolicy:not(body):not(html)
 pl###cookiesPopup:not(body):not(html)
 pl###cookiesStatement:not(body):not(html)
+pl###cookiesTab:not(body):not(html)
 pl###cookiesText:not(body):not(html)
 pl###cookiesWindow:not(body):not(html)
 pl###cookiesagree:not(body):not(html)
@@ -2706,8 +2708,8 @@ gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section):not(.fade)
 gtv.com.pl#@##panel_cookie_dol:not(body):not(html)
 gtv.com.pl#@#.panel_cookie:not(body):not(html)
 lomza.pl#@##komunikat-cookie:not(body):not(html)
+migora.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
 naekranie.pl#@##polityka-cookies:not(body):not(html)
-opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
 orange.pl#@##cookies-info:not(body):not(html)
 pikio.pl#@##cookie-policy:not(body):not(html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
