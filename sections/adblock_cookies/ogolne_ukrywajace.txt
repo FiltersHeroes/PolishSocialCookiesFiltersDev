@@ -8,8 +8,8 @@ org,pl##amp-consent
 org,pl###amp-user-notification1:not(body):not(html)
 pl##aside[class*="Cookie"]:not(body):not(html)
 pl##aside[class*="cookie"]:not(body):not(html)
-pl##body > div[class^="app_gdpr"]
-pl##body > .rcc-panel.group
+pl##div[class^="app_gdpr"]
+pl##.rcc-panel.group:not(body):not(html)
 pl##div#cookiepopupdiv:not(body):not(html)
 pl##div#footer-cookies:not(body):not(html)
 pl##div[class^="pea_cook_wrapper"]:not(body):not(html)
