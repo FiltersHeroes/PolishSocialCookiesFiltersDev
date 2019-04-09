@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: W5rnXpG6BMvVA+/ycQXBQQ
+! Checksum: e41T0tzTkGvy9SRWkvD3WQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.9.1
-! Last modified: Tue, 09 Apr 2019, 03:00 UTC+02
+! Version: 2019.4.9.2
+! Last modified: Tue, 09 Apr 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.9.1 aktualizacja: wto, 09 kwi 2019, 03:00 UTC+02
+! v.2019.4.9.2 aktualizacja: wto, 09 kwi 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -168,6 +168,7 @@ avioner.pl,hotpay.pl,playtube.pl#?#.alert-success.alert:-abp-contains(cookies)
 avon.pl##.CookieSection
 azjatyckibazar.com,rpo.pomorskie.eu,forte.com.pl,mustasz.com,agatabielen.com,pantuniestal.com,edwardorlovski.com,sofly.club,bladii.shoplo.com,zaffiro.shop###cookiesinfo
 azure.microsoft.com###cookie-prompt
+bacca.pl###CookieLawInfoPlugin
 badaniaprenatalne.pl###stb-14718
 badaniapsychologiczne.net###kopageBarCookies
 badoo.com###page-cookie-notification
@@ -1603,6 +1604,7 @@ testigo.pl###cp_wrap
 testujemy.biedronka.pl##.qucki-box
 tewa-sensors.com###cherry-cookie-banner
 thule.com##.cookie-consent-box
+ticketco.events###tcCookiesMessage
 ticketos.pl###prywatnosc
 tlcpolska.pl###dni-notifications
 tlp.is,panasonic-electric-works.com##.cookiepolicy
