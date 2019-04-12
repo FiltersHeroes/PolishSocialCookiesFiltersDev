@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 0qVOTnx4B5P77uvEkAL8Iw
+! Checksum: 2QQSetab7hJo/GP0ZLfVhw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.11.3
-! Last modified: Thu, 11 Apr 2019, 23:00 UTC+02
+! Version: 2019.4.12.1
+! Last modified: Fri, 12 Apr 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.11.3 aktualizacja: czw, 11 kwi 2019, 23:00 UTC+02
+! v.2019.4.12.1 aktualizacja: pią, 12 kwi 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -405,6 +405,7 @@ pl##.addthis_button_wykop
 pl##.article__likes
 pl##.article__likes-title
 pl##.art__social-footer__container
+pl##.atomsNavigationFooterSocialmedia__button[data-event-params="link_img=facebook"] > svg
 pl##.at-svc-facebook
 pl##.at-svc-google_plusone_share
 pl##.at-svc-linkedin
@@ -1522,6 +1523,8 @@ e-kca.pl##a[href="http://www.facebook.com/sklepkca"]
 e-kominki24h.pl##.widgets, .footer-hehe > span:nth-of-type(8)
 e-korepetycje.net##.footer-top-left > ul > li
 e-korepetycje.net#?#section.bg-white:-abp-contains(Dołącz do naszej społeczności!)
+e-lokalne.pl##.linkgc a[href*="facebook.com"]
+e-lokalne.pl#?#.box-nieb:-abp-has(a[href*="facebook"] ~ a[href*="twitter"])
 e-madame.pl###facebook-1
 e-madame.pl##.sfsi_plus.widget-item
 e-manufaktura.com###fx-social
@@ -1956,6 +1959,7 @@ jedz-bezpiecznie.pl##a[href="https://www.facebook.com/groups/pracawmotoryzacji/"
 jedz-bezpiecznie.pl###wys, a > img[src^="foto/elementy/social-media-"]
 jeja.pl##a[href="https://www.facebook.com/jejapl"], a[href="https://www.instagram.com/jeja.pl/"]
 jeja.pl##.icon-m-box > .fsh
+jestemfit.pl##div.col-xs-12.col-sm-3.col-md-3.col-lg-3:nth-of-type(3) > .footer__section
 jestrudo.pl##div.boomapps_vccolumn.col-lg-4:nth-of-type(2) > .style-light.uncol > .uncoltable > .no-block-padding.boomapps_vccolumn > .uncont > .icon-box
 jestrudo.pl##.single-internal-gutter.boomapps_vccolumn.col-lg-8.column_child.align_center.pos-center.pos-top
 jezuici.pl##.et_pb_with_border.et_pb_text_8.et_pb_text_align_left.et_pb_bg_layout_dark.et_pb_module.et_pb_text
@@ -2468,6 +2472,7 @@ narcyz.com.pl###bottom-socialmedia
 narew.info,tarnowska.tv,naszrynek.pl##.sbuttons > li:nth-of-type(-n+4)
 nastopy.pl##.leftSlide > .fb-wrap
 naszaprzychodnia.com.pl##footer .fbcontact .col-md-4
+naszekielce.com###block-block-405
 naszekwatery.pl##.right_window_button
 naszpradnik.pl##.menu-social-fb
 naszswiat.net##.t3-footnav #Mod233, .t3-footnav #Mod234
@@ -2575,6 +2580,7 @@ oktawave.com###footer-content .text-center.col-xs-12.col-sm-4, #footer-contact .
 olczak.info##table:nth-of-type(1) > tbody > tr > td:nth-of-type(4) > a > img, table:nth-of-type(1) > tbody > tr > td:nth-of-type(4) > f:nth-of-type(2) > f > a > img
 oldcamera.pl###twitter-follow-3
 oleole.pl##.footer-contact-box > .box-left > a.footer-elem:nth-of-type(2), .footer-contact-box > .box-right > a.footer-elem:nth-of-type(2)
+olesnica24.com##.social > li:not(.rss)
 olgasmile.com##.social > li:nth-child(-n+3)
 olivegreenthemovie.com##footer > .footer_1 > .section_footer_container
 olsztyn24.com###right_1 > .zakladka1
@@ -3486,6 +3492,7 @@ tv.eurosport.pl##.share-buttons-container
 twardepierniki.pl##.socialmedia-panels
 twojahistoria.pl##.footer-fixed
 twojapogoda.pl##.ico-ig
+twojatv.info###slidepanel-facebook
 twojeradio.fm##.footer-global > .wrapper > h5:nth-of-type(3), .footer-global > .wrapper > ul:nth-of-type(3)
 twojogrodek.pl###actionWAButton
 twojradom.pl##li.c-navi-socials__item
