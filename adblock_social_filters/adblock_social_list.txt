@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 7gkyeKt+I6O3um38kXJqIw
+! Checksum: fzJEzcQrGgfRXhaWjJ+UjQ
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.13.2
-! Last modified: Sat, 13 Apr 2019, 14:37 UTC+00
+! Version: 2019.4.13.3
+! Last modified: Sat, 13 Apr 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.13.2 aktualizacja: sob., 13 kwi 2019, 14:37 UTC+00
+! v.2019.4.13.3 aktualizacja: sob, 13 kwi 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -1607,7 +1607,7 @@ fonopolis.pl##.wce_sociallinks
 footroll.pl##.likebox-facebook
 footsteps.city##.footer-nav-row
 forbot.pl##h3:nth-of-type(11)
-fordata.pl##div[class$="_footerNewsletter"] > .haszesc:nth-of-type(3), div[class$="_footerSocial"]
+fordata.pl##div[class$="_footerNewsletter"] > .haszesc:nth-child(5):nth-of-type(3), div[class$="_footerSocial"]
 fordogtrainers.pl##div.horizontal-module.col-xs-12.col-sm-6.col-md-2:nth-of-type(1) > .module-cont
 forsal.pl##.widget-fbLike-box
 forumfajerwerki.pl##a[href^="http://www.facebook.com/strzelamywsylwestra"]
@@ -1900,7 +1900,6 @@ insomnia.pl##.facebook_inso
 instyle.co.uk##.facebook.social-button
 instyle.co.uk##.google.social-button
 instyle.co.uk##.twitter.social-button
-instytutnoble.pl###text-9
 integra.com.pl###facebook\ hidden-xs\ hidden-sm\ hidden-md
 intellect.pl##.right > .head
 interferie.pl##.GP
@@ -2085,11 +2084,13 @@ krainaekozabawek.pl##.likebox_content
 krakow.pl##.spolczne > .spolecz > li:nth-child(-n+3)
 kramp.com##.footer-top__menu-social
 kreatorium.com##.footer-widgets > .block > #text-18 > .textwidget > p:nth-of-type(4) > a > img
+kreatywniniewidzialni.pl##a[href="https://www.facebook.com/kreatywniniewidzialni/"], a[href="https://twitter.com/Niewidzialni1"]
 kreskowki.tv##.footer-left.col-md-3:nth-of-type(3)
 kresy.com###lewa > ul:nth-of-type(2)
 kresy.pl##.uniset-mm-icon-facebook, .uniset-mm-icon-twitter
 krknews.pl##.widget_facebook_page_plugin_widget
 krokdozdrowia.com##.floating.share > .buttons, [class*="amp-social-share"]
+krokdozdrowia.com##.widget-social-networks
 kropleinternetu.biz##address > .list-1
 krosnice.pl##a[href="https://www.facebook.com/cets.krosnice/"]
 kryptopomocnik.pl##.widget-do-etfw
@@ -2208,7 +2209,7 @@ macademiangirl.com##.footer-instagram-wrapper, .header-info-text
 maciejowka.org##.copyrights .wpv-first-level a:nth-of-type(-n+2) > .icon
 maciej.je##.meta-container
 maciej.je##.share-content
-magazynbasista.pl,psblog.pl,szymkiewicz.pl,tablety.pl###text-9
+magazynbasista.pl,psblog.pl,szymkiewicz.pl,tablety.pl,prestizkoszalin.pl,instytutnoble.pl###text-9
 magazynfakty.pl#?#.site-title:-abp-contains(Facebook)
 magazynt3.pl##.fly-soc-head
 magazynvip.pl##article > h3
@@ -2579,6 +2580,7 @@ ogloszenioteka.pl#?#div.article.lfloat:-abp-contains(Zapraszamy na nasz profil n
 ogrodnik-amator.pl##a[href="http://www.facebook.com/pages/ogrodnik-amatorpl/459365410789108"]
 ogrzewania.pl##.modFBWidget
 oirplodz.pl##.icons-content > a > .ico-box
+okiemdietetyka.pl##.aisa-instagram-feed, .aisa-social-three > li:nth-child(-n+5), .aisa-social-two > li:nth-child(-n+4)
 oko.press##.PageLike
 oko.press##.top-bar-social-share > .facebook, .top-bar-social-share > .tweet
 oktawave.com###footer-content .text-center.col-xs-12.col-sm-4, #footer-contact .main-row.row > .col-xs-12.col-sm-4
@@ -3219,6 +3221,7 @@ sofotel.pl###push_wysuwane_fb, #push_wysuwane_gp
 sohost.pl##.naglowek-dol-menu-facebook
 sokolow.pl###boxes-box-header_social_links
 sokol.wp.pl##.page > .articles > .list > .logo--test
+sokpol.com.pl##.rwdhide
 solarisbus.com##.c-list--social.c-list
 soleibabe.pl###widget_shop6, .social-conteiner
 solidworks.pl###socials-ico
@@ -3497,8 +3500,7 @@ tvp.info##.am-article__facebook, .am-article__twitter, .am-article__gplus
 tvp.info##.info-article__social
 tvp.info##.nav__fake--social > .facebook, .nav__fake--social > .gplus, .nav__fake--social > .twitter
 tvp.pl##.section-facebook
-tvp.pl,tvp.info##.facebook-paragraph
-tvp.pl,tvp.info##.news-tags__social
+tvp.pl,tvp.info##.facebook-paragraph, .news-tags__social
 tvwlodawa.pl##.youtube-widget
 tv.eurosport.pl##.share-buttons-container
 twardepierniki.pl##.socialmedia-panels
