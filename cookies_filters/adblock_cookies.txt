@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: KyXQVbMfyebigkChfqP0cw
+! Checksum: nEgTOiOjAJi/7atJlTSEJg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.13.2
-! Last modified: Sat, 13 Apr 2019, 19:00 UTC+02
+! Version: 2019.4.13.3
+! Last modified: Sat, 13 Apr 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.13.2 aktualizacja: sob, 13 kwi 2019, 19:00 UTC+02
+! v.2019.4.13.3 aktualizacja: sob, 13 kwi 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -219,6 +219,7 @@ bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
 bingospa.pl,iperfumy.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
+biosmaak.nl##.woodmart-cookies-popup
 bip.chorzow.eu,andrespol.bip.cc,ug.tomaszow.maz.bip.cc,polishexpress.co.uk,koniecpol.info,goganet.com,belgia.net,polskieligi.net,prawo-mieszkaniowe.info,oblicz.to,nysa.eu,netpolska.com,madameedith.com,stskurier.com,zabart.com,ciasta.net,tfkable.com,emcconsultant.eu,zlomowisko.info,wader.toys###cookies-message
 bip.gmina.mielec.pl,bip.kamiennagora.tensoft.pl###div_akceptacja
 bip.izabelin.pl,aspsklep.pl,klublifestyle.pl,sgurp.pl,zwolenpowiat.pl,gckis.trzebnica.pl,florexpol.eu,enerpol.pl###fancybox-wrap, #fancybox-overlay
@@ -371,6 +372,7 @@ dcg.wroclaw.pl,skionline.pl,trentino.pl###popup_tlo
 debesis.pl###ip-cookie-bar
 decathlon.pl###tc_privacy
 decoliving.pl,intymna.pl###wymagania_sklepu_alert
+decyduj.online##body > div[id] > div[class*="rodo-popup"]
 deichmann.com##.open.clearfix.module.newsflash
 delicjapolska.pl,www.bi-polska.pl###cooboo
 deloitte.com##.cookie-container
@@ -589,6 +591,7 @@ forumdermatologiczne.pl,forumstomatologiczne.pl,forumneurologiczne.pl,forumpedia
 forumlekarza.pl###cpolicy_wrap
 forumplay.pl,forum-kredytowe.pl###navbar_notice_6
 forumplay.pl,forum.joomla.pl###notices
+forumrowerowe.org##.ckg
 forums.linuxmint.com##.cookiebanner
 forumtransportu.pl##table.glowna:nth-of-type(1) > tbody > tr > td
 forum-bron.pl###phpbb_announcement[style="background-color:#f0eae1"]
@@ -723,7 +726,7 @@ hipotekadlaciebie.com,srodkidlafirm.com##.CTcookie-container
 histmag.org,cochrane.org###cookie-warning
 hitachi.eu###cookie-compliance
 hi-tec.com.pl##DIV[style="width: 882px; padding: 10px; margin: 3px auto; text-align: center; color: #BABABA"]
-hoegert.com,mobbingwpracy.com,pimot.eu,mm-gazeta.de,fakty.nl,rynek.de###ca_banner
+hoegert.com,mobbingwpracy.com,pimot.eu,mm-gazeta.de,fakty.nl,rynek.de,alemeksyk.eu###ca_banner
 hoga.pl###warning
 hokej.net###cookies_box
 holidaycheck.pl###infoCloseableBoxContainer
@@ -956,6 +959,7 @@ lodz.pl,ago.pl,mamoo.pl,askopolska.pl,papercast.pl,indigo-nails.com###banner_coo
 logistics.dhl##.c-cookie-disclaimer
 logitech.com##.explicit_consent.privacy_prompt
 lokalna24.pl#?##jm-right .custom > table:-abp-contains(RODO)
+lokalnyrolnik.pl###cdk-overlay-0
 lomianki.pl###splash
 londynek.net##.jd-rodo, .jd-rodo-2
 loterialaciate.pl##.bg
@@ -1825,6 +1829,7 @@ zosiaikevin.pl###novem-slot
 zrzutka.pl##.plicy
 zsme.pl###kokies
 zsme.pl#?#form > center > table > tbody > tr:-abp-has(td:nth-of-type(2) > input)
+ztloczni.pl##.modulesden-cookies-bar
 zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
@@ -2721,7 +2726,6 @@ pl##[id^="topInfo"]:not(body):not(html)
 ! Blokowanie elementów po zastosowaniu generichide
 auto-swiat.pl###termsPopup
 blogspot.com###cookieChoiceInfo
-eskago.pl##div[class^="app_gdpr"]
 istotne.pl##.notification-info.notification
 minecraftpolska.net##.cookieinfo
 mybank.pl##.ciasteczka
