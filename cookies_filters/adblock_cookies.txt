@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: nEgTOiOjAJi/7atJlTSEJg
+! Checksum: g1Som956Sisiy9MyuTIHgw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.13.3
-! Last modified: Sat, 13 Apr 2019, 23:00 UTC+02
+! Version: 2019.4.14.1
+! Last modified: Sun, 14 Apr 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.13.3 aktualizacja: sob, 13 kwi 2019, 23:00 UTC+02
+! v.2019.4.14.1 aktualizacja: nie, 14 kwi 2019, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -290,7 +290,7 @@ cafago.com,tomtop.com##.m_privacy_statement
 capap.gugik.gov.pl,gispartner.pl,geotec.pl###saycookie
 capgemini.com##.section__cookies
 capri-lublin.pl###mod98
-carfax.eu,croatia.hr,sadeczanin.info,kghm.com,gliwice.eu,boca.com,kwestiasmaku.com,rc.fm,prestashop.com,dexcom.com,adaware.com,naszekielce.com###sliding-popup
+carfax.eu,croatia.hr,sadeczanin.info,kghm.com,gliwice.eu,boca.com,kwestiasmaku.com,rc.fm,prestashop.com,dexcom.com,adaware.com,naszekielce.com,accent-bikes.com,paszport.info###sliding-popup
 cavallonero.pl,golembiewscy.pl,sztukalakierowania.pl,sztukawyciszania.pl,perfectclima.pl,puller.com.pl,mikroznakowanie.pl,sprawdzhistorie.pl,zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl###infobx
 ccc.eu###cookiesModal
 ccleaner.com,deezer.com,ibood.com,shop.lego.com##.cookie-banner
@@ -375,7 +375,7 @@ decoliving.pl,intymna.pl###wymagania_sklepu_alert
 decyduj.online##body > div[id] > div[class*="rodo-popup"]
 deichmann.com##.open.clearfix.module.newsflash
 delicjapolska.pl,www.bi-polska.pl###cooboo
-deloitte.com##.cookie-container
+deloitte.com,netcompany.com##.cookie-container
 delonghi.com###eucookielawcontainer
 delphiautoparts.com###region-notifications
 denley.pl##.ck-popup.cookiepopup
@@ -992,6 +992,7 @@ mamaplus.pl###ue-cookie-warning
 manusite.pl##div[style="width:960px;height:100px;background:#0F0F0F;font-size:15px;text-align:center;padding:10px auto;"]
 maratony24.pl##div#privacyPolicy
 marekjuraszek.pl,tluszczak.pl###ml_wrapper
+marinbikes.com##.banner-gdpr
 marketing.org.pl###art_173_22032013_ukryj
 masz.eu,wikar.com.pl##.popupContent
 matematykainnegowymiaru.pl##.popup_cookie_contener_main
@@ -1131,7 +1132,6 @@ neonet.pl,neo24.pl##.rodo-info__content, .rodo-info__overlay
 neo-net.com.pl##div[id^="cp"][style^="position: fixed;"]
 net4car.pl###notice_messages
 net2000.pl##div[id].jquery-notify-bar
-netcompany.com##.cookie-content
 netflix.com###cookie-disclosure
 netpolska.com###privacy-policy-container
 nettg.pl##.fade
@@ -1240,7 +1240,6 @@ parkwodny.pl,szkolymedyczne.eu,srodaslaska.pl##.ppsPopupShell, #ppsPopupBgOverla
 parp.gov.pl###howdydo-wrapper
 pasazer.com##.info_cookie
 passa.media.pl##.popup, .popup-overlay
-paszport.info###sliding-popupt
 paypal.com###gdprCookieBanner
 pbspolska.eu##.wpgdprc-consent-bar.wpgdprc
 pcprwiecbork.pl##.mlab-modal
@@ -1259,6 +1258,7 @@ pg.edu.pl###pg-message-cookie
 philips.pl##.dot-cc-container, .dot-body-overlay
 phoenixcontact.com###infoBoxFrame
 phrasal-verbs.pl##body > div[style="display: block; width: 100%; height: 18px; padding: 4px 0px 10px 0px; margin-bottom: 10px; color: #676767; font-size: 11px; background-color: #fafafa; text-align: center;"]
+piekarniabialogon.pl###spu-418, #spu-bg-418
 piekni.pl##.cookie-notice-accept
 piltza37.pl##footer > div#fb
 pipelife.com###coo
@@ -1435,6 +1435,7 @@ romance-tv.pl##.ce_rsce_tao_fixed_note.fixed-note
 rondel.pl###rondelpl_cookies
 rosja.pl###cookframe
 routex.com###ca_alert
+rower.com.pl###cookies_request
 rozwojowiec.pl###fixedBar
 rps.ms.gov.pl###MS
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl###pd-modal
@@ -2106,6 +2107,7 @@ pl###cookiePolisyInfo:not(body):not(html)
 pl###cookieSignpost:not(body):not(html)
 pl###cookieSign:not(body):not(html)
 pl###cookieView:not(body):not(html)
+pl###cookieWarningLayout:not(body):not(html)
 pl###cookieWarningMessage:not(body):not(html)
 pl###cookieWarning:not(body):not(html)
 pl###cookieWrapper:not(body):not(html)
@@ -2444,6 +2446,7 @@ pl##.cookiesBanner:not(body):not(html)
 pl##.cookiesBar:not(body):not(html)
 pl##.cookiesBox:not(body):not(html)
 pl##.cookiesInfo:not(body):not(html)
+pl##.cookiesNavMessage:not(body):not(html)
 pl##.cookiesNotificationOuter:not(body):not(html)
 pl##.cookiesNotification:not(body):not(html)
 pl##.cookiesWrapper:not(body):not(html)
@@ -2492,6 +2495,7 @@ pl##.cookie-compliance-message:not(body):not(html)
 pl##.cookie-compliance:not(body):not(html)
 pl##.cookie-consent-dialogue:not(body):not(html)
 pl##.cookie-consent:not(body):not(html)
+pl##.cookie-container:not(body):not(html)
 pl##.cookie-container_:not(body):not(html)
 pl##.cookie-disclaimer:not(body):not(html)
 pl##.cookie-hint:not(body):not(html)
@@ -2501,6 +2505,7 @@ pl##.cookie-info-bar:not(body):not(html)
 pl##.cookie-info-container:not(body):not(html)
 pl##.cookie-info:not(body):not(html)
 pl##.cookie-law:not(body):not(html):not(.post-content)
+pl##.cookie-layer:not(body):not(html)
 pl##.cookie-message:not(body):not(html)
 pl##.cookie-monster:not(body):not(html)
 pl##.cookie-msg-box:not(body):not(html)
