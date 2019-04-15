@@ -82,6 +82,7 @@ hbogo.pl##.banner-overlay
 hbogo.pl,cbdzoe.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
 hm.com##.modaloverlay:has(#gdpr-modal)
 hm.com##.modal-open, .modal-open body:style(position: static !important; overflow-y: auto !important;)
+homebook.pl##body > div:not([id])[class]:last-child:last-of-type:matches-css(z-index: 1000000)
 ikea.com###cookieMsgBlock
 ikea.com##.has-cookie .main-header-wrap:style(top: 0 !important;)
 indbuildcraft.pl##.modal-overlay, #modal_cookies
@@ -190,7 +191,6 @@ smazymy.com###wmpci-popup-wrp
 smazymy.com##.wmpci-popup-open, .wmpci-popup-open body:style(overflow: auto !important;)
 sonymobile.com##.bnw-module.header[style="margin-top: 80px;"]:style(margin-top: 0 !important;)
 ssl.dobreprogramy.pl,www.dobreprogramy.pl##body > div:not([id])[class]:last-of-type:matches-css(z-index: 1000000)
-homebook.pl##body > div:not([id])[class]:last-child:last-of-type:matches-css(z-index: 1000000)
 szpitalnawrzesinie.pl###gafancybox-overlay122
 teatrpolski.waw.pl##.fancybox-overlay:has(#privacyPolicy)
 telepizza.pl##.navbar:style(margin-top: 0 !important;)
