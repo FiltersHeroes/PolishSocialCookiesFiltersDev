@@ -1,11 +1,11 @@
-! Checksum: /SrtbMcN6Ibgv7ofMKy31Q
+! Checksum: JmL+CRv37OVFeWSx62g8XQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.13.2
-! Last modified: Sat, 13 Apr 2019, 23:00 UTC+02
+! Version: 2019.4.15.1
+! Last modified: Mon, 15 Apr 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.13.2 aktualizacja: sob, 13 kwi 2019, 23:00 UTC+02
+! v.2019.4.15.1 aktualizacja: pon, 15 kwi 2019, 19:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -206,6 +206,8 @@ serwis.currenda.pl##div:style(margin-top: auto !important;)
 sklepdlalekarza.com##.basicLightbox
 sklep.ptwp.pl##.window
 skyscrapercity.com##.fc-consent-root
+smazymy.com###wmpci-popup-wrp
+smazymy.com##.wmpci-popup-open, .wmpci-popup-open body:style(overflow: auto !important;)
 sonymobile.com##.bnw-module.header[style="margin-top: 80px;"]:style(margin-top: 0 !important;)
 ssl.dobreprogramy.pl,www.dobreprogramy.pl,homebook.pl##body > div:not([id])[class]:last-child:last-of-type:matches-css(z-index: 1000000)
 szpitalnawrzesinie.pl###gafancybox-overlay122
