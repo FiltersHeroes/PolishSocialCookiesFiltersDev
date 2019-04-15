@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: /tp9OtFJdLGCb3nnSYOkVQ
+! Checksum: qOM8qoUbWBldp/yC1ks2AQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.15.2
-! Last modified: Mon, 15 Apr 2019, 19:00 UTC+02
+! Version: 2019.4.15.3
+! Last modified: Mon, 15 Apr 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.15.2 aktualizacja: pon, 15 kwi 2019, 19:00 UTC+02
+! v.2019.4.15.3 aktualizacja: pon, 15 kwi 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -64,7 +64,7 @@ adocean-global.com##div.cookies-flex
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl,zs1mm.edu.pl,zs1mm.home.pl##body > div[style*="position"][style*="relative"]:not([id]):not([class])
 adwokatura.katowice.pl###cookieInfCont
-aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com,ipa-katowice.org,ftt.roto-frank.com##.cc_banner-wrapper > .cc_banner
+aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com,ipa-katowice.org,ftt.roto-frank.com,filehippo.com##.cc_banner-wrapper > .cc_banner
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
 aforyzmy-cytaty.pl#?#.alert:-abp-contains(cookies)
 afryka.org##body > div[style="background: #911515;"]:nth-of-type(1)
@@ -431,6 +431,7 @@ durszlak.pl##.shadow.privacy-layer
 duszniki.eu###CookiesInstro
 dvbsklep.pl,naturo.pl##[id^="simple-modal"]
 dvdmax.pl,punkt44.pl###alertTop
+dziary.com,lvlup.pro,przegladlokalny.eu,sklep.piast-gliwice.eu###cookiePolicy
 dziennikwschodni.pl,wykop.pl,niskarata.org##.rodo-alert
 dzis.tv##div#regulaminWrap
 dzwignice.info#?#body > div:first-of-type:-abp-has(a[href$="/polityka-prywatnosci"])
@@ -928,6 +929,7 @@ laserhouse.pl##.LASERWrapper
 laskonline.pl,bskrasnosielc.pl,rarlab.com###cookiewarning > div:nth-of-type(1)
 lasy.gov.pl,bip.kielce.eu,wrota-swietokrzyskie.pl##.popup-alert-notice
 lbn.pl###ciastko
+lechia.pl###rodo-wrapper
 leclerc.com.pl##div#tekst
 leddo.pl,zdp.poznan.pl##.rodo-block
 legalsite.pl###message-1
@@ -978,9 +980,7 @@ lubliniak.com.pl##DIV[style="background: #fff; padding: 5px; text-align: center;
 lukasfinanse.pl###strap
 lunch24.com##body > #__next > div[class=""] > div[class][direction="up"][style^="transform"]
 luqam.com###cookiesFlyInBox
-luxprodukt.pl,otohurt.pl###bar_bottom_cookie
 lvbet.pl###js-cookie-popup
-lvlup.pro,przegladlokalny.eu,dziary.com###cookiePolicy
 lwowecki.info,dkl24.pl###cookies_accepted
 lyconet.com###cookie-box
 madreklama.com##.style2
@@ -1052,7 +1052,6 @@ mirjan24.pl##.cookieslaw
 mirjan24.pl###window_overlay
 missplanner.pl##.page--notification
 mistama.com,sklep.agro-plus.com.pl###change_terms_message
-miumag.pl###cookie-widget
 mixmedia.pl##div#cook_info
 mi.com##.J_agreeCookieModal, .top-notify
 mmtv.pl###policyInfo
@@ -2044,6 +2043,7 @@ pl###avt-cookie-popup:not(body):not(html)
 pl###band-cookies:not(body):not(html)
 pl###banner-cookies:not(body):not(html)
 pl###barritaloca:not(body):not(html)
+pl###bar_bottom_cookie:not(body):not(html)
 pl###blockPopupInformation:not(body):not(html)
 pl###cadre_alert_cookies:not(body):not(html)
 pl###catapult-cookie-bar:not(body):not(html)
@@ -2263,6 +2263,7 @@ pl###cookie-terms:not(body):not(html)
 pl###cookie-warning:not(body):not(html)
 pl###cookie-warn-wrapper:not(body):not(html)
 pl###cookie-warn:not(body):not(html)
+pl###cookie-widget:not(body):not(html)
 pl###cookie-window:not(body):not(html)
 pl###cookie-wrapper:not(body):not(html)
 pl###cookie:not(body):not(html):not(a)
