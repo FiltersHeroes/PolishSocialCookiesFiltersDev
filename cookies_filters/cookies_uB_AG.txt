@@ -1,11 +1,11 @@
-! Checksum: xDWIrawz6AVMhYUUcVVGzQ
+! Checksum: 7iydaWrXyY8K74NHRliviw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.16.1
-! Last modified: Tue, 16 Apr 2019, 03:00 UTC+02
+! Version: 2019.4.16.2
+! Last modified: Tue, 16 Apr 2019, 16:30 UTC+00
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.16.1 aktualizacja: wto, 16 kwi 2019, 03:00 UTC+02
+! v.2019.4.16.2 aktualizacja: wt., 16 kwi 2019, 16:30 UTC+00
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -86,6 +86,7 @@ fiskars.pl##.desktop:style(top: 0 !important;)
 galeriaslendzinskich.pl,powiat-zyrardowski.pl##.fancybox-overlay
 galopuje.pl##+js(abort-current-inline-script.js, $, RODOCOOKIE)
 generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
+giantfabryczna.pl,liv-cycling.com###cookiePopupModal, .modal-backdrop
 gitara-sklep.pl##body:style(padding-top: 0 !important;)
 google.com,google.pl##body > #lb > div[id^="_"][class]
 google.com,google.pl##div[class][role="dialog"] > #cnsp > div[class][aria-live="polite"]
@@ -154,7 +155,7 @@ nauka.rocks##.ct-ultimate-gdpr-cookie-topPanel-padding:style(padding-top: 0 !imp
 neon24.pl##+js(abort-on-property-read.js, Service.cookieMonster)
 obpon.pl##.menu-flashmessages:style(top: 0 !important;)
 obywatel.gov.pl###modal-rodo, .modal-backdrop
-obywatel.gov.pl,m.24jgora.pl,e-sochaczew.pl,multimediago.pl,dane.gov.pl,24wroclaw.pl,zwolen.pl,wrzesnia.info.pl,ceres.pl,komugroup.eu,gry.lotto.pl,printoteka.pl,olesnica24.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+obywatel.gov.pl,m.24jgora.pl,e-sochaczew.pl,multimediago.pl,dane.gov.pl,24wroclaw.pl,zwolen.pl,wrzesnia.info.pl,ceres.pl,komugroup.eu,gry.lotto.pl,printoteka.pl,olesnica24.com,giantfabryczna.pl,liv-cycling.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
 olesnica24.com###popModal, .modal-backdrop
