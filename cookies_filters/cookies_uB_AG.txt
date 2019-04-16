@@ -1,11 +1,11 @@
-! Checksum: QNakbe1vWV3btr/XSK2s5A
+! Checksum: xDWIrawz6AVMhYUUcVVGzQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.15.2
-! Last modified: Mon, 15 Apr 2019, 23:00 UTC+02
+! Version: 2019.4.16.1
+! Last modified: Tue, 16 Apr 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.15.2 aktualizacja: pon, 15 kwi 2019, 23:00 UTC+02
+! v.2019.4.16.1 aktualizacja: wto, 16 kwi 2019, 03:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -83,7 +83,6 @@ filmweb.pl##body.rodo #header:style(position: relative !important;)
 filmweb.pl##.rodo:style(position: static !important; overflow: auto !important;)
 filmweb.pl##.rodo__overlay
 fiskars.pl##.desktop:style(top: 0 !important;)
-forum.dobreprogramy.pl##body > div:not([id]):not([class*="modal"])[class]:nth-last-child(-n+3):nth-last-of-type(-n+3):matches-css(z-index: 1000000)
 galeriaslendzinskich.pl,powiat-zyrardowski.pl##.fancybox-overlay
 galopuje.pl##+js(abort-current-inline-script.js, $, RODOCOOKIE)
 generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
@@ -102,7 +101,6 @@ hbogo.pl##.banner-overlay
 hbogo.pl,cbdzoe.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
 hm.com##.modaloverlay:has(#gdpr-modal)
 hm.com##.modal-open, .modal-open body:style(position: static !important; overflow-y: auto !important;)
-homebook.pl##body > div:not([id])[class]:last-child:last-of-type:matches-css(z-index: 1000000)
 ikea.com###cookieMsgBlock
 ikea.com##.has-cookie .main-header-wrap:style(top: 0 !important;)
 indbuildcraft.pl##.modal-overlay, #modal_cookies
@@ -210,7 +208,6 @@ skyscrapercity.com##.fc-consent-root
 smazymy.com###wmpci-popup-wrp
 smazymy.com##.wmpci-popup-open, .wmpci-popup-open body:style(overflow: auto !important;)
 sonymobile.com##.bnw-module.header[style="margin-top: 80px;"]:style(margin-top: 0 !important;)
-ssl.dobreprogramy.pl,www.dobreprogramy.pl##body > div:not([id])[class]:last-of-type:matches-css(z-index: 1000000)
 szpitalnawrzesinie.pl###gafancybox-overlay122
 teatrpolski.waw.pl##.fancybox-overlay:has(#privacyPolicy)
 telepizza.pl##.navbar:style(margin-top: 0 !important;)
@@ -450,10 +447,13 @@ ztm.poznan.pl##^#PopUP
 !autostrada-a2.pl##^#rodo-box, #cookielaw-box
 !#endif
 !#if !cap_user_stylesheet
+forum.dobreprogramy.pl##body > div:not([id]):not([class*="modal"])[class]:nth-last-child(-n+3):nth-last-of-type(-n+3):matches-css(z-index: 1000000)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:style(visibility: hidden !important;)
+homebook.pl##body > div:not([id])[class]:last-child:last-of-type:matches-css(z-index: 1000000)
 purepc.pl##+js(nano-remove-elements-onready.js, .cookiesinfo)
 sportowefakty.wp.pl##body[class] > *:style(filter: none !important;)
 sportowefakty.wp.pl##+js(overlay-buster.js)
+ssl.dobreprogramy.pl,www.dobreprogramy.pl##body > div:not([id])[class]:last-of-type:matches-css(z-index: 1000000)
 !sportowefakty.wp.pl##html:style(overflow-y: visible !important; height: auto !important;)
 !#endif
 !#if cap_user_stylesheet
