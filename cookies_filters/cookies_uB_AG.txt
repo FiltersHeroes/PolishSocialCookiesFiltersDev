@@ -1,11 +1,11 @@
-! Checksum: 7iydaWrXyY8K74NHRliviw
+! Checksum: cM/WkvRDESkYJSFmo/GuJg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.16.2
-! Last modified: Tue, 16 Apr 2019, 16:30 UTC+00
+! Version: 2019.4.17.1
+! Last modified: Wed, 17 Apr 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.16.2 aktualizacja: wt., 16 kwi 2019, 16:30 UTC+00
+! v.2019.4.17.1 aktualizacja: śro, 17 kwi 2019, 15:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -96,7 +96,6 @@ google.com,google.pl##jsl > #consent-bump > .widget-consent
 google.com,google.pl###main > #body ~ #footer > div[id] > div[id] > #fbar > .fbar > #cnsi > g-dialog > div[id^="_"][class^=" "]
 google.com,google.pl###main > #lb > div[id^="_"][class] > div[class*="__overlay"]:not([id])
 google.com,google.pl###main > #lb > div[id^="_"][class] > div[class*="__"]:has(iframe[src^="https://consent.google.com"])
-google.com,google.pl###main > #lb > div[id^="_"][class^=" "]
 haloursynow.pl,warsztat.pl,hdtv-sat.eu##.modal-open:style(padding-right: 0 !important;)
 hbogo.pl##.banner-overlay
 hbogo.pl,cbdzoe.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
@@ -251,6 +250,7 @@ zozsuchabeskidzka.pl###mpc-modal-4-1
 zsgarwolin.pl##.mfp-content:has(#cadre_alert_cookies)
 zsgarwolin.pl##.mfp-ready.mfp-bg
 zwolen.pl###g_toplayer, .modal-backdrop
+!google.com,google.pl###main > #lb > div[id^="_"][class^=" "]
 !play.google.com###gba:style(height: 60px !important;)
 !
 !
