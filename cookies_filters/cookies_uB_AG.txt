@@ -1,11 +1,11 @@
-! Checksum: cM/WkvRDESkYJSFmo/GuJg
+! Checksum: NIhQg2bVx/qI/xLRTRmzSg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.17.1
-! Last modified: Wed, 17 Apr 2019, 15:00 UTC+02
+! Version: 2019.4.18.1
+! Last modified: Thu, 18 Apr 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.17.1 aktualizacja: śro, 17 kwi 2019, 15:00 UTC+02
+! v.2019.4.18.1 aktualizacja: czw, 18 kwi 2019, 03:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -448,7 +448,7 @@ ztm.poznan.pl##^#PopUP
 !autostrada-a2.pl##^#rodo-box, #cookielaw-box
 !#endif
 !#if !cap_user_stylesheet
-forum.dobreprogramy.pl##body > div:not([id]):not([class*="modal"])[class]:nth-last-child(-n+3):nth-last-of-type(-n+3):matches-css(z-index: 1000000)
+forum.dobreprogramy.pl##body > div:not([id]):not([class*="modal"])[class]:nth-last-child(-n+4):nth-last-of-type(-n+4):matches-css(z-index: 1000000)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:style(visibility: hidden !important;)
 homebook.pl##body > div:not([id])[class]:last-child:last-of-type:matches-css(z-index: 1000000)
 purepc.pl##+js(nano-remove-elements-onready.js, .cookiesinfo)
@@ -461,7 +461,7 @@ ssl.dobreprogramy.pl,www.dobreprogramy.pl##body > div:not([id])[class]:last-of-t
 ~www.wp.pl,wp.pl##body > #app ~ noscript + div:not([id])[class], body > iframe + iframe + div:not([id])[class]
 ~www.wp.pl,wp.pl##html, html > body:style(overflow: visible !important;)
 ~www.wp.pl,wp.pl,portal.abczdrowie.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,pudelek.pl,portal.abczdrowie.pl##body > *:style(filter: none !important;)
-forum.dobreprogramy.pl##body > div:not([id]):not([class*="modal"])[class]:nth-last-child(-n+3):nth-last-of-type(-n+3)
+forum.dobreprogramy.pl##body > div:not([id]):not([class*="modal"])[class]:nth-last-child(-n+4):nth-last-of-type(-n+4)
 forum.dobreprogramy.pl,homebook.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,pudelek.pl,portal.abczdrowie.pl##html:style(overflow-y: visible !important; height: auto !important;)
 fotoblogia.pl,gadzetomania.pl,homebook.pl,komorkomania.pl,pudelek.pl,portal.abczdrowie.pl##body > div:not([id])[class]:last-child:last-of-type
 sportowefakty.wp.pl##body > iframe ~ script + div:not([id])[class]
