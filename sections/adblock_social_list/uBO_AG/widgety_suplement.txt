@@ -17,4 +17,4 @@ rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !import
 waw4free.pl###spolecznosci:style(height: auto !important;)
 werandafamily.com##+js(remove-attr.js, href, .instagram-item > .link-block)
 wp.pl##.article > [class]:has(> [class] > .fb-like)
-www.dobreprogramy.pl###phContent_SocialControlBottom_socialBox > .social__group_like.social__group:if-not(#phContent_SocialControlBottom_btnBookmark)
+www.dobreprogramy.pl###phContent_SocialControlBottom_socialBox > .social__group_like.social__group:not(:has(#phContent_SocialControlBottom_btnBookmark))
