@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 9vM/dGadr06NOkfpeiegLQ
+! Checksum: 4yWsO1B1P97WX1ZPNGC74g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.20.2
-! Last modified: Sat, 20 Apr 2019, 15:00 UTC+02
+! Version: 2019.4.21.1
+! Last modified: Sun, 21 Apr 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.20.2 aktualizacja: sob, 20 kwi 2019, 15:00 UTC+02
+! v.2019.4.21.1 aktualizacja: nie, 21 kwi 2019, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1791,7 +1791,7 @@ www.nfz-zielonagora.pl###statementWrapper
 www.o2.pl##._2_S1s
 www.plus.pl###rodo-popup-overlay
 www.promise.com.pl##.ui-front
-www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div[class] > div[class*=" "] > form > div[style^="opacity"], .EUCookieNotice
+www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > div[class] > div[class*=" "] > form > div[style^="opacity"], .EUCookieNotice
 www.rmf24.pl###pl_cookies.pl-cookies
 www.select.pl##.cookiepop
 www.simex.pl###CookiesInfoDiv
