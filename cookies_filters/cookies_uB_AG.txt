@@ -1,11 +1,11 @@
-! Checksum: NIhQg2bVx/qI/xLRTRmzSg
+! Checksum: SYCeuvX43OJxQpDGefNRsA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.18.1
-! Last modified: Thu, 18 Apr 2019, 03:00 UTC+02
+! Version: 2019.4.22.1
+! Last modified: Mon, 22 Apr 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.18.1 aktualizacja: czw, 18 kwi 2019, 03:00 UTC+02
+! v.2019.4.22.1 aktualizacja: pon, 22 kwi 2019, 19:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -166,7 +166,7 @@ ostrzegamy.online##body.rodo-locked, html.rodo-locked:style(overflow: auto !impo
 ostrzegamy.online##.rodo-popup, .rodo-overlay
 otwarteklatki.pl###popup-gdpr, .popup-overlay
 otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
-paczkomaty.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style="padding-right: 17px;"])
+paczkomaty.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$=" px;"]:not([style*="; "])
 paczkomaty.pl##.modal:has(app-regulations-modal > .modal-header > .modal-title:has-text(RODO)), .modal-backdrop
 panattonieurope.com###image-popup.txt-popup, #image-popup-bg
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important;)
@@ -273,7 +273,7 @@ budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm,twojeankiety.pl,dalmierze.pl,poszalu.pl,victoriassecret.pl,mdkkolbuszowa.pl##.modal-open:style(overflow: auto !important;)
 cenapaliw.pl###CBCookieMsg, .modal-backdrop
 chelmonline.pl###myModal, .modal-backdrop
-chelmonline.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style="padding-right: 17px;"])
+chelmonline.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$=" px;"]:not([style*="; "])
 dalmierze.pl###Widget3, .modal-backdrop
 domhouse.pl##+js(abort-current-inline-script.js, $, rodo)
 dworzec.kielce.pl###gafancybox-overlay97
