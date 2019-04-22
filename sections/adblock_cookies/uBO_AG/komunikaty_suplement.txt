@@ -146,7 +146,7 @@ ostrzegamy.online##body.rodo-locked, html.rodo-locked:style(overflow: auto !impo
 ostrzegamy.online##.rodo-popup, .rodo-overlay
 otwarteklatki.pl###popup-gdpr, .popup-overlay
 otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
-paczkomaty.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style="padding-right: 17px;"])
+paczkomaty.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$=" px;"]:not([style*="; "])
 paczkomaty.pl##.modal:has(app-regulations-modal > .modal-header > .modal-title:has-text(RODO)), .modal-backdrop
 panattonieurope.com###image-popup.txt-popup, #image-popup-bg
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important;)
