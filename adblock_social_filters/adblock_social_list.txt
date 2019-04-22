@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: R2hfwG0x0s9qSQRD3rNXsw
+! Checksum: mXIjyiQEYZAzYasdevn9MA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.21.1
-! Last modified: Sun, 21 Apr 2019, 15:00 UTC+02
+! Version: 2019.4.22.1
+! Last modified: Mon, 22 Apr 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.21.1 aktualizacja: nie, 21 kwi 2019, 15:00 UTC+02
+! v.2019.4.22.1 aktualizacja: pon, 22 kwi 2019, 03:00 UTC+02
 !
 !
 ! Popupy
@@ -1483,7 +1483,7 @@ emt-systems.pl##.top-main > li:nth-of-type(13), .social.footer-menu
 em.kielce.pl###socialico > ul, .module_prawa:nth-of-type(1), .module_prawa:nth-of-type(4)
 enderchest.pl##.desktop > li:nth-of-type(2)
 endo.pl##footer .col-xl-4.col-md-4.col-xs-12 > h3
-eneba.com##footer[class] > div[class] > div[class]:nth-of-type(2) > div:nth-of-type(2)
+eneba.com#?#div#app > footer > div > div > div:-abp-contains(Obserwuj)
 enelsport.pl##div.page:nth-of-type(2) > div.width-25.column:nth-of-type(3), .quick-insta, .quick-fb
 energetyka24.com,cyberdefence24.pl,defence24.pl,space24.pl,infosecurity24.pl##.header-bottom-social
 energetyka24.com,infosecurity24.pl,defence24.pl,cyberdefence24.pl,space24.pl##.mt-30.right-news-module
@@ -4256,6 +4256,7 @@ www.dobreprogramy.pl#@#img[alt="Twitter"]
 www.dobreprogramy.pl#@#.social_bottom
 www.dobreprogramy.pl#@#.social_top
 www.dobreprogramy.pl#@#.social__button
+www.dobreprogramy.pl#@#.social__icon
 www.instalki.pl#@#img[alt="Facebook"]
 @@/googleplus-$image,domain=www.wirtualnemedia.pl
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
