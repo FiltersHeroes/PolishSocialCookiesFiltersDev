@@ -41,6 +41,7 @@ cupsell.pl##.tingle-modal
 dane.gov.pl##.modal-backdrop
 dane.gov.pl##.modal-dialog:has-text(RODO)
 dobreprogramy.pl,homebook.pl##+js(addEventListener-defuser.js, message, e.origin)
+dobreprogramy.pl,homebook.pl##+js(setTimeout-defuser.js, message:"Not responding", 3000)
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
@@ -231,4 +232,3 @@ zozsuchabeskidzka.pl###mpc-modal-4-1
 zsgarwolin.pl##.mfp-content:has(#cadre_alert_cookies)
 zsgarwolin.pl##.mfp-ready.mfp-bg
 zwolen.pl###g_toplayer, .modal-backdrop
-dobreprogramy.pl,homebook.pl##+js(setTimeout-defuser.js, message:"Not responding", 3000)
