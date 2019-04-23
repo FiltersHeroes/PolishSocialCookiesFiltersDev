@@ -1,11 +1,11 @@
-! Checksum: uk9QcLjZXXu3yXfbCHDbBA
+! Checksum: QoBqeyBWUeZLwo8UW0GcbQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.23.2
-! Last modified: Tue, 23 Apr 2019, 15:00 UTC+02
+! Version: 2019.4.23.3
+! Last modified: Tue, 23 Apr 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,13 +14,13 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.23.2 aktualizacja: wto, 23 kwi 2019, 15:00 UTC+02
+! v.2019.4.23.3 aktualizacja: wto, 23 kwi 2019, 19:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
-7ryb.pl,etransport.pl##.modals.dimmer
-7ryb.pl,etransport.pl##body.dimmed:style(overflow: auto !important;)
+7ryb.pl,etransport.pl,hrkgame.com##.modals.dimmer
+7ryb.pl,etransport.pl,hrkgame.com##.dimmed:style(overflow: auto !important;)
 abcalkoholu.pl##.cookielaw:style(padding-top: 0 !important;)
 abczdrowie.pl,autokult.pl,dobramama.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,jejswiat.pl,kafeteria.pl,kafeteria.tv,komorkomania.pl,luxlux.pl,medycyna24.pl,mixer.pl,money.pl,nocowanie.pl,o2.pl,open.fm,parenting.pl,pinger.pl,pogodnie.pl,pudelek.pl,pytamy.pl,samosia.pl,smog.pl,snobka.pl,testwiedzy.pl,~sportowefakty.wp.pl,wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, :setTimeout)
 adexemplum.com,fastdeal.pl,zsgarwolin.pl,gtv.com.pl,teoria.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
@@ -255,6 +255,7 @@ zozsuchabeskidzka.pl###mpc-modal-4-1
 zsgarwolin.pl##.mfp-content:has(#cadre_alert_cookies)
 zsgarwolin.pl##.mfp-ready.mfp-bg
 zwolen.pl###g_toplayer, .modal-backdrop
+!hrkgame.com##gdpr.ui, .dimmer.ui
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂 - specjalne instrukcje
