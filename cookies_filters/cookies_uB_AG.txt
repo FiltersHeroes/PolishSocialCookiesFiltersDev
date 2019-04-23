@@ -1,11 +1,11 @@
-! Checksum: V1Wr2aG8X5yyxhQ/4vOUhQ
+! Checksum: rhQBNmVV3UmcRPbigpbx8A
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.22.3
-! Last modified: Mon, 22 Apr 2019, 23:00 UTC+02
+! Version: 2019.4.23.1
+! Last modified: Tue, 23 Apr 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.22.3 aktualizacja: pon, 22 kwi 2019, 23:00 UTC+02
+! v.2019.4.23.1 aktualizacja: wto, 23 kwi 2019, 03:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -60,6 +60,9 @@ cupsell.pl##.tingle-enabled:style(position: static !important; overflow: auto !i
 cupsell.pl##.tingle-modal
 dane.gov.pl##.modal-backdrop
 dane.gov.pl##.modal-dialog:has-text(RODO)
+dobrapogoda24.pl###rodo-modal, .modal-backdrop
+dobrapogoda24.pl##+js(remove-attr.js, class, body[class="modal-open"])
+dobrapogoda24.pl##.modal-open:style(overflow: auto !important;)
 dobreprogramy.pl,homebook.pl##+js(addEventListener-defuser.js, message, e.origin)
 dobreprogramy.pl,homebook.pl##+js(setTimeout-defuser.js, message:"Not responding", 3000)
 dobrzemieszkaj.pl###axn
