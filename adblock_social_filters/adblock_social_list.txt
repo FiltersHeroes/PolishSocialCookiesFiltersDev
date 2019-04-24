@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: +qGphpUx0w93mqa5EaX6iw
+! Checksum: ooej0L7x+YHznhb1vy/b8A
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.23.1
-! Last modified: Tue, 23 Apr 2019, 19:00 UTC+02
+! Version: 2019.4.24.1
+! Last modified: Wed, 24 Apr 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.23.1 aktualizacja: wto, 23 kwi 2019, 19:00 UTC+02
+! v.2019.4.24.1 aktualizacja: śro, 24 kwi 2019, 03:00 UTC+02
 !
 !
 ! Popupy
@@ -918,9 +918,8 @@ autofakty.pl##.social-bar-widget, .nav-social-wrap
 autogespot.pl##li.px1
 autogielda.pl##.cs-social-media
 autoklub.pl###fb_like_box
-autokult.pl,fotoblogia.pl,komorkomania.pl##.icon-mail
-autokult.pl,fotoblogia.pl,komorkomania.pl##.post-article-links__header
-autokult.pl,fotoblogia.pl,komorkomania.pl##.social-links--author
+autokult.pl,fotoblogia.pl,komorkomania.pl##.icon-mail, .post-article-links__header, .social-links--author
+autokult.pl,fotoblogia.pl,komorkomania.pl,fitness.wp.pl##.grid-item__social.grid-item
 automobilista.com.pl##.twinsbox
 autonom.pl,domowa.pizza,dowbit.pl,techfresh.pl,multikop.pl,nflix.pl###custom_html-3
 autorskielegalnie.pl###text-10, #menu-menu-2-dol > .menu-item-644.menu-item-object-custom.menu-item-type-custom.menu-item, .menu-item-620.menu-item-object-custom.menu-item-type-custom.menu-item
@@ -2029,6 +2028,7 @@ kasprowiczanie.com##a[href="http://www.facebook.com/kasprowiczanie"] > #link
 kastu.pl##.footer-block-social
 katalogmarzen.pl##.bottom-box.content-box > .container > .row > div.col-xs-12.col-sm-12.col-md-6:nth-of-type(1)
 katolicka.pl###block-block-24, .view-footer
+katoobywatel.katowice.eu##.fw__widget--social
 katowice24.info##.rst-list-social > li:nth-of-type(-n+3)
 katowicedzis.pl,waszaturystyka.pl##.g-social
 kaufland.pl##.g-layout-columns--2.g-layout-columns.g-row > div.g-col-2.g-col-spacing.g-col:nth-of-type(1)
