@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 3m9/iyAHJV2pqIQofKYuGQ
+! Checksum: EF4Rl86y/KMUXnEP/2FtUA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.24.1
-! Last modified: Wed, 24 Apr 2019, 03:00 UTC+02
+! Version: 2019.4.24.2
+! Last modified: Wed, 24 Apr 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.24.1 aktualizacja: śro, 24 kwi 2019, 03:00 UTC+02
+! v.2019.4.24.2 aktualizacja: śro, 24 kwi 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -200,7 +200,7 @@ belutti.com##.fk-cookies
 bershka.com##.modalWarnContainer
 beskidy.news##.js-cookies.c-cookies
 beskidzkapilka.pl##.messageinfo
-bethesda.net#?#app > visor-alert[class] > div[class] > div[class] > div[class]:-abp-has(a[href="/pl/document/cookie-policy"])
+bethesda.net#?#visor-alert > div > div > div:last-child:-abp-has(a[href="/pl/document/cookie-policy"])
 betsson.com###MsgAreaBottom
 bialoleka.waw.pl###img_98
 bialoleka.waw.pl###popup-bg
@@ -293,7 +293,7 @@ cafago.com,tomtop.com##.m_privacy_statement
 capap.gugik.gov.pl,gispartner.pl,geotec.pl###saycookie
 capgemini.com##.section__cookies
 capri-lublin.pl###mod98
-carfax.eu,croatia.hr,sadeczanin.info,kghm.com,gliwice.eu,boca.com,kwestiasmaku.com,rc.fm,prestashop.com,dexcom.com,adaware.com,naszekielce.com,accent-bikes.com,paszport.info,sp27.kielce.eu###sliding-popup
+carfax.eu,croatia.hr,sadeczanin.info,kghm.com,gliwice.eu,boca.com,kwestiasmaku.com,rc.fm,prestashop.com,dexcom.com,adaware.com,naszekielce.com,accent-bikes.com,paszport.info,sp27.kielce.eu,swiecie.eu###sliding-popup
 cavallonero.pl,golembiewscy.pl,sztukalakierowania.pl,sztukawyciszania.pl,perfectclima.pl,puller.com.pl,mikroznakowanie.pl,sprawdzhistorie.pl,zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl###infobx
 ccc.eu###cookiesModal
 ccleaner.com,deezer.com,ibood.com,shop.lego.com##.cookie-banner
@@ -523,7 +523,7 @@ ewl.com.pl###bezzo-cookies-bar
 expander.net.pl###info-cookie-2013
 expansa.pl,www.promise.com.pl##.ui-resizable
 extraserv.pl##div#uwaga
-extraswiecie.pl,modr.pl##.region-gdpr
+extraswiecie.pl,modr.pl,swiecie.eu##.region-gdpr
 ey.com##.cookienotification
 ezakupy.tesco.pl###privacyInnerContainer
 e-amur.com###cookieinf
@@ -986,8 +986,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com,goleniowska.com,visitwroclaw.eu,czarnkow.info,suwalki.info,zsgoreczyno.eu,koronakaszub.eu###cookies-message-container
-low-medium-voltage.siemens.pl##.PopupDiv
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com,goleniowska.com,visitwroclaw.eu,czarnkow.info,suwalki.info,zsgoreczyno.eu,koronakaszub.eu,amico.market###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubimyczytac.pl###TB_window, #TB_overlay
@@ -1070,6 +1069,7 @@ mirjan24.pl##.cookieslaw
 mirjan24.pl###window_overlay
 missplanner.pl##.page--notification
 mistama.com,sklep.agro-plus.com.pl###change_terms_message
+mitsubishielectric.com##.cookie-hint
 mixmedia.pl##div#cook_info
 mi.com##.J_agreeCookieModal, .top-notify
 mmtv.pl###policyInfo
@@ -1508,7 +1508,7 @@ shop-dent.pl##div.black_overlay
 showmax.com#?##___gatsby > div > div:-abp-contains(cookie)
 sick.com##.cookie_law
 siemens.com##.nts-notification-cookie, .cookiesnotification
-siemens.pl###c-info
+siemens.pl###c-info, body > .PopupDiv
 sieradz.com.pl,zdunskawola24.pl###polityka-2
 simplesurance.pl###_s-cookie-notification-container
 sitn.pl#?#body > div:-abp-has(#cookie-close)
@@ -1568,6 +1568,7 @@ sprint.pl##.cookieElement
 spsk2-szczecin.pl###spsk2ct
 sso.epf.org.pl,rejestr.io##.Cookie--bottom.Cookie
 stalowemiasto.pl##.header-parent > .container > .slot-1280px.slot
+starachowice.eu##.cookiesAlert##.cookiesAlert
 starbucks.pl###allow_message
 starcom-ntt.com.pl##.ciasteczkowy
 starterek.pl###rodo_form
