@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: fw48eeRrzxQiKotyMePx1g
+! Checksum: YVce5T92TSejO8KfCWRlQQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.24.3
-! Last modified: Wed, 24 Apr 2019, 23:00 UTC+02
+! Version: 2019.4.25.1
+! Last modified: Thu, 25 Apr 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.24.3 aktualizacja: śro, 24 kwi 2019, 23:00 UTC+02
+! v.2019.4.25.1 aktualizacja: czw, 25 kwi 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -570,7 +570,7 @@ festo.com###eucp_container
 fhunetcom.pl###notice-alert
 fiatklubpolska.pl#?##navbar_notice_1.restore > center:nth-of-type(1):-abp-contains(cookies)
 filman.cc###cookies > div
-filmyonline.tv,mettosport.eu,spidersweb.pl,vanessa.fm,skawina.eu###moove_gdpr_cookie_info_bar
+filmyonline.tv,mettosport.eu,spidersweb.pl,vanessa.fm,skawina.eu,podemski.info###moove_gdpr_cookie_info_bar
 filoma.org###app-confirm-dialog
 finanse.rankomat.pl,sowafinansowa.pl,komorkomat.pl,wakacyjnapolisa.pl,wypowiadamoc.pl,autoumowa.pl##.r-cookie-bar
 finansowysupermarket.pl,faktykaliskie.pl###policy-popup
@@ -761,6 +761,7 @@ htc.com##.cookie-consent-container
 huawei.com,huaweipolska.pl##.huawei-cookie
 humanoffice.pl###cookie_cointer
 hurtownia-24.pl###roar-alert-wrap  > #roar-alert.roar-alert
+hurtownia-kosmetyczna.org,tatuum.com###cookie_law_informations
 husqvarna.com##.c-fnd-cookie-acceptance
 hydrem-online.com###bookingLayer
 iab.org.pl,iabpolska.pl###wpca-wrapper
@@ -1622,7 +1623,6 @@ talbud.pl,termgaz.pl###cook_woyt
 targeo.pl#?#body > div[style^="position: absolute;"]:not([id]):not([class]):-abp-contains(plików cookie)
 tatra.pl##.cookies-2-overlay, .popup-cookies-2
 tatuaze-wzory.com###showcookie
-tatuum.com###cookie_law_informations
 tcz.pl###dynamic-load-rodo, #dynamic-loading-rodo
 teatr-capitol.pl###spu-4768, #spu-bg-4768
 techpedia.pl##.skyf1
@@ -1642,6 +1642,7 @@ tewa-sensors.com###cherry-cookie-banner
 thule.com##.cookie-consent-box
 ticketco.events###tcCookiesMessage
 ticketos.pl###prywatnosc
+tkmaxx.pl##.pane-views-social-media-channels-block
 tlcpolska.pl###dni-notifications
 tlp.is,panasonic-electric-works.com##.cookiepolicy
 tmf-group.com###CookieAlert_CookiePanel
