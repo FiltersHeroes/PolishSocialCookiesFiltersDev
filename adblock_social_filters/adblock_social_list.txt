@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: qATWVqXVWcm0bfvhlloF7g
+! Checksum: WF8DZXlvwktq0djPV6i4kw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.25.2
-! Last modified: Thu, 25 Apr 2019, 23:00 UTC+02
+! Version: 2019.4.26.1
+! Last modified: Fri, 26 Apr 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.25.2 aktualizacja: czw, 25 kwi 2019, 23:00 UTC+02
+! v.2019.4.26.1 aktualizacja: pią, 26 kwi 2019, 15:00 UTC+02
 !
 !
 ! Popupy
@@ -2789,9 +2789,7 @@ platforma.org##.footer-column-social
 platontv.pl###edge > .edge-icons > .edge-icon
 playergames.pl###itc-fbrightblock
 play.pl##.columns.box:nth-of-type(6)
-plejada.pl##.whatsapp
-plejada.pl###content-share-top > .fb_share
-plejada.pl###socialBlock
+plejada.pl##.whatsapp, #content-share-top > .fb_share, .social-container > .social, .shareBarBox > .social
 plk-sa.pl##.boxFacebook, .boxTwitter, .boxYoutube
 plk.pl##.social, .col-sm-12.col-md-6.col-lg-3.col-xl-3 > h3:nth-of-type(1)
 plotek.pl##.likepage, .quizModule-sociall
@@ -2976,8 +2974,8 @@ prostoomuzyce.pl,urania.edu.pl###block-block-18
 prostozmostu.pl##.at_flat_counter
 pruszczgdanski.pl##a[href="http://www.facebook.com/gminapruszczgdanski"]
 przedawnione.pl##.social > .s_link
-przedsiebiorcy.eu##article > h3:-abp-contains(Udostępnij)
 przedsiebiorcy.eu##.fa-facebook, .fa-twitter, .mf-soc-sh
+przedsiebiorcy.eu#?#article > h3:-abp-contains(Udostępnij)
 przedsiebiorcza.com###fbw_id-2, #text-5, #pinterest_rss_widget-5, .author-social-profile > .author-icons > [class]:not(.wordpress)
 przedszkoledzierzgon.pl###panel
 przegladbaltycki.pl###rum_sst_tab
@@ -3103,8 +3101,7 @@ rmf24.pl##.i2.el1.logo, .i3.el2.logo, .i4.el4.logo, .recommend
 rmf.fm##a[href="http://plus.google.com/111421310920233185523/posts"], a[href="http://twitter.com/rmf_fm"], a[href="http://www.facebook.com/rmf24"], a[href="http://www.facebook.com/rmffm"], a[href="http://www.youtube.com/radiormf"]
 rmf.fm###footer-icon-facebook, #footer-icon-googleplus, #footer-icon-instagram, #footer-icon-twitter, #footer-icon-youtube, #new-footer-icon-instagram
 roadtripbus.pl##ul > .widget-block:nth-of-type(2)
-robojet.pl##div.col-sm-3:nth-of-type(1) > .content-element > .footer-title, div.col-sm-3:nth-of-type(1) > .content-element > .footer-title ~ p > a > img, .footer-links > .footer-links > li > a
-robojet.pl##.slide-out-div
+robojet.pl##div.col-sm-3:nth-of-type(1) > .content-element > .footer-title, div.col-sm-3:nth-of-type(1) > .content-element > .footer-title ~ p > a > img, .footer-links > .footer-links > li > a, .slide-out-div
 rojax.pl#?#div.banerek:-abp-has(> a[href^="https://www.facebook.com/pages/PHU-ROJAX/296979873645429"])
 rokicki.pl###menuRight > .f
 roland-gazeta.pl##.jj_sl_google, .jj_sl_linkedin
@@ -3337,7 +3334,7 @@ sprzet-dyskotekowy.pl##.AW_socialSquares > a
 sps24.pl###baner187
 stacja7.pl###icon-google-plus
 stacja7.pl##.navbar-nav-right-social
-starachowice.eu###sp-bottom-logo .sp-module-content > .custom > ul > li:nth-of-type(n+2):nth-of-type(-n+3)
+starachowice.eu##sp-bottom-logo .fa
 stardadaj.pl###social-fixed
 staresiolkowice.pl##.barcelona-widget-social-counter
 starkl.pl###soc-net-footer, li:nth-of-type(3) > h2:nth-of-type(3)
