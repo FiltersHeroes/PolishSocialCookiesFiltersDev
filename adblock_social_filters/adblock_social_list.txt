@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: WF8DZXlvwktq0djPV6i4kw
+! Checksum: TwajCT39YHdmwc2DKqwhXQ
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.26.1
-! Last modified: Fri, 26 Apr 2019, 15:00 UTC+02
+! Version: 2019.4.26.2
+! Last modified: Fri, 26 Apr 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.26.1 aktualizacja: pią, 26 kwi 2019, 15:00 UTC+02
+! v.2019.4.26.2 aktualizacja: pią, 26 kwi 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -1741,6 +1741,7 @@ glos.pl##.widget.social_center
 gls-group.eu##.linkedin
 glusi.tv###text-21
 glyskincare.eu#?#.news.columns.twelve:-abp-contains(nas na Instagramie)
+gminainowroclaw.eu##a > img[src$="/youtube_logo.svg"]
 gminamakow.info##.jm-social
 gminamoszczenica.eu,polonika.at,sedzia.net,sp5kcr.eu,radioznin.fm##.pwebbox-plugin-facebook_page_plugin
 gminasiedlce.pl##a[href="https://www.facebook.com/ugsiedlce"] > img
@@ -2293,7 +2294,7 @@ masz.eu###topFacebook
 masz.gliwice.pl##.col-social-icons.col > .footer-h4
 matchpro.pl##.fb-1.box-1
 matematyka.pisz.pl###ikonkaFb
-materialybudowlanekrokowa.pl,sklep.hart-metale.pl,sklep.akces-plexi.pl,uzdrowiska-klodzkie.pl,uzdrowiska-pgu.pl,www.hanbud.com.pl,oknajachimczak.com##.kac-sm-panel
+materialybudowlanekrokowa.pl,sklep.hart-metale.pl,sklep.akces-plexi.pl,uzdrowiska-klodzkie.pl,uzdrowiska-pgu.pl,www.hanbud.com.pl,oknajachimczak.com,mckenzie.pl##.kac-sm-panel
 matfiz24.pl##.media-spolecznosciowe
 matshop.pl##a[href="https://instagram.com/matshoppl"]
 matshop.pl##a[href="https://twitter.com/Matshoppl"]
@@ -2431,6 +2432,7 @@ moneygrabbing.co.uk##.sh-widget-socialv2-list
 money.wp.pl##.socialMediaDeksktop
 monikahonory.pl#?#.vc_row-has-fill.vc_row-fluid.wpb_row.vc_row:-abp-contains(Dołącz do społeczności Zupomaniaków)
 monocerus.pl##a[href="https://www.facebook.com/monoceruspl/"]
+monsieur-cuisine.com###footer .container > div.row:nth-of-type(2) > div.col-md-4:nth-of-type(2)
 monsterbike.eu##footer .strona > .stopka > a:nth-of-type(2)
 moremoi.com##.footer-menu .col-xs-12.col-md-2.col-sm-4.col-lg-offset-1.col-lg-2
 mormoni.pl##.pf-footer__social
@@ -4257,7 +4259,6 @@ motormag.pl#@#.nav--social
 narew.info#@#.sbuttons
 naszpradnik.pl#@#.menu-social
 nowawarszawa.pl#@#.share-container
-pokoleniesmart.pl#@#.post-share-container
 rawlplug.com#@##socialNetworks
 rta24.eu,stw24.pl#@#.social-bottom
 rynek-kolejowy.pl#@#.socialIcons
@@ -4277,7 +4278,6 @@ www.instalki.pl#@#img[alt="Facebook"]
 @@/googleplus-$image,domain=www.wirtualnemedia.pl
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
 @@/social_media_$domain=mazury.travel
-@@||dre.pl/templates/yoo_everest/warp/js/social.js$script
 @@||filoma.org/static/images/facebook.jpg
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
