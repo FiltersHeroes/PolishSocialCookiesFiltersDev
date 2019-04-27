@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: i+vICe7HbU200kPKkryczg
+! Checksum: zPy27Zd+woaJR2ICgl3Y0w
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.26.3
-! Last modified: Fri, 26 Apr 2019, 23:00 UTC+02
+! Version: 2019.4.27.1
+! Last modified: Sat, 27 Apr 2019, 19:37 UTC+00
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.26.3 aktualizacja: pią, 26 kwi 2019, 23:00 UTC+02
+! v.2019.4.27.1 aktualizacja: sob., 27 kwi 2019, 19:37 UTC+00
 !
 !
 ! Popupy
@@ -741,6 +741,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 4keepers.pl##.sklepfanpage, a[href="https://www.facebook.com/4Keepers/"] > .item-img
 4kolkainietylko.pl,kryptoraport.pl###do-etfw-2
 4kom.pl##.contact_social_media
+4lapki.eu##a[href^="http://www.facebook.com/bielsko4lapki/"] > img, a[href^="https://twitter.com/Bielsko4Lapki"] > img
 4lifedirect.pl##body > .container div.white.header4:nth-of-type(1), a > img[src="/Content/uploaded/images/fcbk.png"]
 4run.pl##.headerSocial, .footerSocialMedia
 5el.pl##.widget_black_studio_tinymce.uk-panel:nth-of-type(3)
@@ -1418,6 +1419,7 @@ earlymath.pl##aside > div:nth-of-type(3) > a > img
 ebilet.pl##.second-col
 ebizpro.pl##.contact-block--footer.contact-block
 ebutik.pl###footer_socials
+eccotravel.eu###metkaFB
 echo24.tv##.hide-mobile.social
 echotygodnik.info##.pinterest, .linkedin
 ecoblik.pl##.td-footer-wrapper div.td-pb-span4:nth-of-type(2)
@@ -1519,6 +1521,7 @@ euromasz.pl##div.tg-footer-column-3:nth-of-type(2) > #custom_html-30
 euroobuwie.pl##div.col-xs-12.col-md-4.menu_button_wrapper:nth-of-type(n+2):nth-of-type(-n+3)
 euroobuwie.pl##.footer_links_sub > .icon_link.dark_blue.button3_sub
 europarl.europa.eu##.ep_sociallinks
+europa.eu###block-bean-find-a-social-media-account
 europeanquality.eu##.menu__soc.menu__list
 europodroze.pl##.header_bottom > .phone > a > img
 eurostudent.pl##.mainheader-buttons-facebook
@@ -2021,6 +2024,7 @@ kalendarzefirmowe24.pl###socb
 kalendarzrolnikow.pl##.bt-fc
 kaliber.pl##.topHeader-social
 kamen.com.pl##.header_contener_navigation_socials
+kamienieczabkowicki.eu##.topbar-right > a:nth-of-type(-n+4)
 kamilianie.eu###pre-header-social > ul > li
 kamira90.blogspot.com###HTML5, #HTML6
 kamira90.blogspot.com,mylittlewhitehome.blogspot.com,kesinails.pl###HTML4
@@ -3116,6 +3120,7 @@ romantycznyweekend.eu,strona.euro-net.pl,maxforpower.pl##.musli
 romet.pl##.ct_w_footer_socials
 ronet.com.pl##.sliding-zam-fb, .sliding-zam-yt
 rooader.pl##img[src="/files/image/facebook_2015_logo_detail.png"]
+rosebelle.pl#?##footer > div:-abp-has(h3:-abp-contains(Śledź nas na Instagramie))
 rosenthal.pl###wysuwany_blog, #wysuwany_div
 rowerowy.biz###box_facebook
 rowery-elektryczne.pl###youtube-widget, #footer-links > p:nth-of-type(1)
@@ -4048,6 +4053,9 @@ zygzaksnow.pl###ppfacebook
 ||kolejedolnoslaskie.pl/wp-content/uploads/2018/05/Twitter-Copy-color.svg
 ||kreskowka.pl/gfx/facebookslider.png
 ||kryptoraport.pl/wp-content/themes/magazon/assets/images/category-heading-bg.png
+||krzywcza.eu/images/spolecznosciowe/32x32/bl.png
+||krzywcza.eu/images/spolecznosciowe/32x32/fb.png
+||krzywcza.eu/images/spolecznosciowe/32x32/nk.jpg
 ||krzyzowki.info/images_krzyzowki/fbutton.jpg
 ||lechpils.pl/resources/images/ico-yt.png
 ||lexlabor.pl/templates/gfx/cech/facebook.png
@@ -4108,6 +4116,8 @@ zygzaksnow.pl###ppfacebook
 ||podsluchane.pl/sdb-fb.png
 ||podsluchane.pl/sdb-tt.png
 ||podsluchane.pl/sdb-yt.png
+||poloniagrecka.eu/images/stories/program_eu/edukacja_integracja_logo.png
+||poloniagrecka.eu/images/stories/program_eu/lekcje_integracji_logo.png
 ||posir.pl/posir2011/data/FB__logo2.png
 ||prbbudomal.pl/grafika/fb-grey.png
 ||programatory.com/grafika/facebook-TOMSAD/FACEbook-TOMSAD.jpg
