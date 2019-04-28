@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: GyoFQUrvruXzYsgS0KYscQ
+! Checksum: hkpXWXjVcgkM8wGpVZvTYw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.28.2
-! Last modified: Sun, 28 Apr 2019, 19:00 UTC+02
+! Version: 2019.4.28.3
+! Last modified: Sun, 28 Apr 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.28.2 aktualizacja: nie, 28 kwi 2019, 19:00 UTC+02
+! v.2019.4.28.3 aktualizacja: nie, 28 kwi 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -1323,6 +1323,7 @@ dinfo.pl##.noopslikebox
 direct-sender.com###footer .col-lg-5.col-md-12.item
 direct-sender.com###section-fb > .polecane, #section-8 > .container > .row > div.col-lg-6:nth-of-type(2)
 direct.money.pl##.main-footer__social-media
+discordapp.com##li[class*="listItemSocialMedia"]
 discoverychannel.pl###top-bar
 disco-polo.info##div.simple-panel:nth-of-type(6)
 disco-polo.info##.youtubelogo-section
@@ -3492,26 +3493,19 @@ tekstowo.pl##.teledysk-right > .social > .link-sl
 teleguru.pl##.social-media
 telepizza.pl##.foot_wrap > .row > .hhh > a:not([class]) > img[class^="iimg"]
 telepolis.pl,tlp.is##.big-socials-facebook, .big-socials-twitter
-telewizjaleszno.pl###comp-ilarw1nk, #comp-ij0fuucb
-telewizjaleszno.pl##.vlog-actions-social-list.vlog-soc-menu
-telewizjarepublika.pl###menu-top > ul > li:nth-of-type(6)
-telewizjarepublika.pl##.mainpage-row:nth-of-type(9) > .mainpage-column-right > .bar
-telewizjatvt.pl###menu-item-117
-telewizjatvt.pl###menu-item-118
-telewizjatvt.pl##.ft_sc0.col-sm-4.col-md-15
+telewizjaleszno.pl###comp-ilarw1nk, #comp-ij0fuucb, .vlog-actions-social-list.vlog-soc-menu
+telewizjarepublika.pl###menu-top > ul > li:nth-of-type(6), .mainpage-row:nth-of-type(9) > .mainpage-column-right > .bar
+telewizjatvt.pl###menu-item-117, #menu-item-118, .ft_sc0.col-sm-4.col-md-15
 telewizja.us.edu.pl###bottom-content > #widgets
-telko.in##ul > li > .tip[data-tip="TELKO.in na Twiterze"]
-telko.in##.social li:nth-of-type(2)
+telko.in##ul > li > .tip[data-tip="TELKO.in na Twiterze"], .social li:nth-of-type(2)
 telmor.pl##.other-site-yt, .other-site-fb, .other-site-in, .other-site-blog
 temi.pl##.moduletable:nth-of-type(2)
 teneryfa24.pl###dol > table > tbody > tr > td:nth-of-type(3) > h4, a > img[src="img/google.png"]
 tenit.com.pl##li.social:nth-of-type(n+1)
 teraz-wilanow.pl#?#.sidebar:-abp-has(#text-3)
 teresin.pl##div.col-md-3.col-xs-6:nth-of-type(4) > address
-teresin.pl###logofb
-termedia.pl##.pageSharer
-termedia.pl##a[href="https://twitter.com/MenedzerZdrowia"]
-termedia.pl##a[href="https://www.facebook.com/MenedzerZdrowia"]
+teresin.pl###logofb, .pageSharer
+termedia.pl##a[href="https://twitter.com/MenedzerZdrowia"], a[href="https://www.facebook.com/MenedzerZdrowia"]
 termgaz.pl###widget_social
 testergier.pl###custom_html-6
 testhub.pl##.sh-share-item-twitter, .sh-share-item-instagram, .sh-share-item-youtube, .sh-share-item-facebook
@@ -3554,8 +3548,7 @@ tradingjam.pl##.twitter-timeline-profile, #twitter-timeline-profile-2
 tradus.com##.inline-list.app-footer__social > li:nth-child(-n+2)
 traftu.pl##.social > span
 translate.google.com,translate.google.pl###gt-blog, #gt-gplus, #gt-promo-lr, .goog-toolbar-separator, .share-translation-button
-transport-publiczny.pl##.naglowek
-transport-publiczny.pl##.wiadomoscSocialBig, .wiadomoscSocial
+transport-publiczny.pl##.naglowek, .wiadomoscSocialBig, .wiadomoscSocial
 transylwania.com##.right-modal
 traseo.pl##.fb-like-box-container
 travelbit.pl##a > [src="https://www.travelbit.pl/wp-content/uploads/2013/10/fb-01.png"]
@@ -3594,8 +3587,7 @@ tvn24bis.pl##.title-wrapper > .social, .fbClassicBox, .forum-header-box > h3
 tvpogranicze.pl##.sbuttons > li:nth-child(-n+2)
 tvpolsat.info##.fa-youtube-play, .fa-instagram, .fa-facebook, .fa-twitter
 tvpuls.pl##.block-menu-menu-social-footer.block-menu.block > .menu > .leaf:not(.last)
-tvp.info##.am-article__facebook, .am-article__twitter, .am-article__gplus
-tvp.info##.info-article__social
+tvp.info##.am-article__facebook, .am-article__twitter, .am-article__gplus, .info-article__social
 tvp.info##.nav__fake--social > .facebook, .nav__fake--social > .gplus, .nav__fake--social > .twitter
 tvp.pl##.section-facebook
 tvp.pl,tvp.info##.facebook-paragraph, .news-tags__social
@@ -3758,28 +3750,22 @@ wilanow-palac.pl###facebook, #youtube, #vimeo, #tripAdvisor
 winers.pl###text-3, .sc_columns
 winiary.pl##a[href="https://www.facebook.com/Winiary"]
 winiary.pl##a[href="https://www.instagram.com/winiary"]
-wiocha.pl##.absurdsharediv
-wiocha.pl##img[src="http://img.wiocha.pl/img/facelog.jpg"]
+wiocha.pl##.absurdsharediv, img[src="http://img.wiocha.pl/img/facelog.jpg"]
 wirtualnemedia.pl##.middle-icon, .last-menu.menu-footer-3
 wispol.eu##.slide_button
 witow-ski.pl##.wk-icon-facebook, .uk-icon-button
 wiwa.info.pl##a[href^="https://www.facebook.com/WIWAINFOPL/"], a[href^="http://www.youtube.com/watch?v=8Khj2ZexkIM"]
 wizaz.pl###socialize-right-side
 wizzair.com##.sitemap__wrapper--footer.container > .row > div.gr-3:nth-of-type(3) > .heading--5
-wkforum.pl##a[href="http://facebook.com/warszawskikokss"]
-wkforum.pl##a[href="http://instagram.com/warszawskikoks/"]
-wkforum.pl##a[href="http://youtube.com/user/WarszawskiKoks"]
-wlaczoszczedzanie.pl##a[href="https://pl.pinterest.com/wlaczoszczedzanie/"] > .fm-icon
-wlaczoszczedzanie.pl##a[href="https://twitter.com/LukasPajak"] > .fm-icon
-wlaczoszczedzanie.pl##a[href="https://www.facebook.com/wlaczoszczedzanie/"] > .fm-icon
-wlaczoszczedzanie.pl##a[href^="https://www.youtube.com/channel/UCEO8Mm72kk79BtIHoEAOlXQ/playlists"] > .fm-icon
+wkforum.pl##a[href="http://facebook.com/warszawskikokss"], a[href="http://instagram.com/warszawskikoks/"], a[href="http://youtube.com/user/WarszawskiKoks"]
+wlaczoszczedzanie.pl##a[href="https://pl.pinterest.com/wlaczoszczedzanie/"] > .fm-icon, a[href="https://twitter.com/LukasPajak"] > .fm-icon
+wlaczoszczedzanie.pl##a[href="https://www.facebook.com/wlaczoszczedzanie/"] > .fm-icon, a[href^="https://www.youtube.com/channel/UCEO8Mm72kk79BtIHoEAOlXQ/playlists"] > .fm-icon
 wlkp24.info##.box-outline.wpb_content_element.wpb_text_column, a[href="http://twitter.com/wlkp24info"], div.top-menu-blue-box:nth-of-type(1)
 wmeritum.pl##.last.one_half
 wmrowisku.pl,mojawww.com,press.pl##.share
 wneiz.pl##.logo-facebook_sprite, .logo-youtube_sprite
 wnet.fm##.fa-youtube-play.fa, .fa-twitter.fa, .fa-facebook.fa, #menu-item-8042, #menu-item-8044, #menu-item-8033
-wnp.pl###menu1 > .social
-wnp.pl##.social > li:nth-child(-n+4):nth-child(n+2)
+wnp.pl###menu1 > .social, .social > li:nth-child(-n+4):nth-child(n+2)
 wnt.com##.footer-content div.col-xs-12.col-sm-6.col-md-4:nth-of-type(3) > div:nth-of-type(1)
 woda.com.pl###footer > nav > div > .module-social
 wojas.pl##.sv-fb-0
