@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: gTVk5KcRJ94xtd6GGVUI3Q
+! Checksum: Xm0ZyXBg3FIvXNXEbLRJ+g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.30.2
-! Last modified: Tue, 30 Apr 2019, 19:00 UTC+02
+! Version: 2019.4.30.3
+! Last modified: Tue, 30 Apr 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.30.2 aktualizacja: wto, 30 kwi 2019, 19:00 UTC+02
+! v.2019.4.30.3 aktualizacja: wto, 30 kwi 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -670,7 +670,7 @@ germany.travel##.cookie-snippet
 getmailbird.com###navbar-cookie
 gft.com##.cookie-hint__inner
 giercownia.pl,maxior.pl,tekstowo.pl,zblogowani.pl,pajerosport.pl,misjatravel.pl###ci-info-box
-gigabyte.pl###policy-div
+gigabyte.pl,pl.aorus.com###policy-div
 gih.grajewo.pl#?##fancybox-wrap:-abp-contains(RODO)
 gih.grajewo.pl,naszamlawa.pl,pupgrodziskwlkp.pl###fancybox-overlay
 gismeteo.pl##.cookies-banner
@@ -1526,7 +1526,7 @@ showmax.com#?##___gatsby > div > div:-abp-contains(cookie)
 sick.com##.cookie_law
 siemens.com##.nts-notification-cookie, .cookiesnotification
 siemens.pl###c-info, body > .PopupDiv
-siemianowice.pl##body > div:not([id]):not([class]):nth-of-type(1) > div[style^="background: rgb(30, 42, 75) none repeat scroll 0% 0%;"]:not([id]):not([class])
+siemianowice.pl##body > div:not([id]):not([class]):nth-of-type(1) > div[style^="background:#1e2a4b;"]:not([id]):not([class])
 sieradz.com.pl,zdunskawola24.pl###polityka-2
 simplesurance.pl###_s-cookie-notification-container
 sitn.pl#?#body > div:-abp-has(#cookie-close)
