@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: IShSd6uMla9W1W70WkmX7w
+! Checksum: fsLsE/2pOasef6pipxA7tA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.1.1
-! Last modified: Wed, 01 May 2019, 03:00 UTC+02
+! Version: 2019.5.1.2
+! Last modified: Wed, 01 May 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.1.1 aktualizacja: śro, 01 maj 2019, 03:00 UTC+02
+! v.2019.5.1.2 aktualizacja: śro, 01 maj 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -397,6 +397,7 @@ developers.google.com##.devsite-notification-eu-cookie
 developer.android.com,tensorflow.org##devsite-snackbar[type^="cookie-notification"]
 devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
 dia.com.pl,pkfpolska.pl,pkfszkolenia.pl###S_cookies
+dictionary.cambridge.org##body > .banner.notification
 dict.leo.org,www.leo.org,mojewypieki.com##.as-oil[data-qa="oil-Layer"] > .as-oil-content-overlay
 diecezjaplocka.pl###modalKlauzulaInformacyjna
 dieta.pl,jestemfit.pl##.cookies__std
@@ -1106,7 +1107,7 @@ monedo.pl##.wr-notification-panel, .Notifications
 monese.com##.cookie-popover
 monitoring.krakow.pios.gov.pl,powietrze.katowice.wios.gov.pl##.a-footer
 monocerus.pl###fafikciastka
-monsterbike.eu,polbox.tv,slovake.eu##.cc-banner
+monsterbike.eu,polbox.tv,slovake.eu,pl.weber##.cc-banner
 monsterpolska.pl###interMsgsW, #m-popup-softgate, .browserAlertHolder
 mord.krakow.pl##span[onclick="location.href='http://mord.krakow.pl/ogloszenia/a,36,pliki-cookie.html'"]
 morele.net###cookieBoxWrapper, #cookie_box
@@ -1987,7 +1988,7 @@ zysk.com.pl###pageUpperInfo
 ||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-pracujpl_0.jpg
 ||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-you-tube_0.jp
 ||spolecznosci.mgr.consensu.org/js/cmp.stable.min.js$script,domain=sadistic.pl|garnek.pl|wypracowania.pl
-||static.quantcast.mgr.consensu.org/*/cmpui-banner.js$domain=memy.pl|pwn.pl|translatica.pl|tv.eurosport.pl|krokdozdrowia.com
+||static.quantcast.mgr.consensu.org/*/cmpui-banner.js$domain=memy.pl|pwn.pl|translatica.pl|tv.eurosport.pl|krokdozdrowia.com|elle.pl
 ||static.quantcast.mgr.consensu.org/*/cmpui-popup.js$domain=cybersport.pl|royalad.pl
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-notification.js
