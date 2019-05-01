@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: fsLsE/2pOasef6pipxA7tA
+! Checksum: xqDzIbtwQXmqcBN5ryPCEQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.1.2
-! Last modified: Wed, 01 May 2019, 19:00 UTC+02
+! Version: 2019.5.1.3
+! Last modified: Wed, 01 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.1.2 aktualizacja: śro, 01 maj 2019, 19:00 UTC+02
+! v.2019.5.1.3 aktualizacja: śro, 01 maj 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -65,7 +65,7 @@ adocean-global.com##div.cookies-flex
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl,zs1mm.edu.pl,zs1mm.home.pl##body > div[style*="position"][style*="relative"]:not([id]):not([class])
 adwokatura.katowice.pl###cookieInfCont
-aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com,ipa-katowice.org,ftt.roto-frank.com,filehippo.com,punkt.media,parafiabrzezinka.eu##.cc_banner-wrapper > .cc_banner
+aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com,ipa-katowice.org,ftt.roto-frank.com,filehippo.com,punkt.media,parafiabrzezinka.eu,tw-db.info##.cc_banner-wrapper > .cc_banner
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
 aforyzmy-cytaty.pl#?#.alert:-abp-contains(cookies)
 afryka.org##body > div[style="background: #911515;"]:nth-of-type(1)
@@ -298,7 +298,7 @@ cafago.com,tomtop.com##.m_privacy_statement
 capap.gugik.gov.pl,gispartner.pl,geotec.pl###saycookie
 capgemini.com##.section__cookies
 capri-lublin.pl###mod98
-carfax.eu,croatia.hr,sadeczanin.info,kghm.com,gliwice.eu,boca.com,kwestiasmaku.com,rc.fm,prestashop.com,dexcom.com,adaware.com,naszekielce.com,accent-bikes.com,paszport.info,sp27.kielce.eu,swiecie.eu###sliding-popup
+carfax.eu,croatia.hr,sadeczanin.info,kghm.com,gliwice.eu,boca.com,kwestiasmaku.com,rc.fm,prestashop.com,dexcom.com,adaware.com,naszekielce.com,accent-bikes.com,paszport.info,kielce.eu,swiecie.eu###sliding-popup
 cavallonero.pl,golembiewscy.pl,sztukalakierowania.pl,sztukawyciszania.pl,perfectclima.pl,puller.com.pl,mikroznakowanie.pl,sprawdzhistorie.pl,zywiec.com.pl,heineken.com.pl,mazda.warszawa.pl###infobx
 ccc.eu###cookiesModal
 ccleaner.com,deezer.com,ibood.com,shop.lego.com##.cookie-banner
@@ -983,7 +983,7 @@ lifepointspanel.com##.cookie_banner_notification
 lightbox.pl##.cookies-bottom
 limango-outlet.pl##.lilayout-header-cookiebar
 limango.pl##.floating_notification
-limanowa.in,parkerpen.com,narew.info,debica24.eu,radiomalbork.fm,pl.toshibatec.eu,tarnowska.tv,katowice.eu,olesnica24.com,slaskie.travel,muzeum.rypin.eu,cooltura24.co.uk,smc.eu###cookiesdirective
+limanowa.in,parkerpen.com,narew.info,debica24.eu,radiomalbork.fm,pl.toshibatec.eu,tarnowska.tv,katowice.eu,olesnica24.com,slaskie.travel,muzeum.rypin.eu,cooltura24.co.uk,smc.eu,tvdami.eu###cookiesdirective
 linkedin.com###artdeco-global-alert-container > artdeco-global-alert[severity="notice"]
 linkedin.com###global-alert-queue > .alert, #notice-cookie-policy, .global-alert
 linuxiarz.pl###colophon
@@ -1276,6 +1276,7 @@ pasazer.com##.info_cookie
 passa.media.pl##.popup, .popup-overlay
 paypal.com###gdprCookieBanner
 pbspolska.eu##.wpgdprc-consent-bar.wpgdprc
+pb.pl##.qc-cmp-ui-container
 pcprwiecbork.pl##.mlab-modal
 pc.net.sosnowiec.pl###stopka > div[style*="position"][style*="absolute"]
 pebx.pl###Notices
@@ -1997,7 +1998,7 @@ zysk.com.pl###pageUpperInfo
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||twoje-seriale.pl/cookies.html$subdocument
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bankier.pl|bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|softpedia.com|sztuka-architektury.pl|stars.pl|kochamyzwierzaki.pl|przyslijprzepis.pl|krokdozdrowia.com|gazetarumska.pl|mojegotowanie.pl
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bankier.pl|bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|softpedia.com|sztuka-architektury.pl|stars.pl|kochamyzwierzaki.pl|przyslijprzepis.pl|krokdozdrowia.com|gazetarumska.pl|mojegotowanie.pl|senior.pl
 ||vox.pl/modal/rodo$xmlhttprequest
 ||wieczorpomorze.pl/wp-content/themes/colormag/js/magnific-popup/jquery.magnific-popup.min.js
 ||www.aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
@@ -2583,6 +2584,8 @@ pl##.cookie.bottom.jb:not(body):not(html)
 pl##.cookie_acceptance:not(body):not(html), .cookie_acceptance_background:not(body):not(html)
 pl##.cookie_acept:not(body):not(html)
 pl##.cookie_agree:not(body):not(html)
+pl##.cookie_cont:not(body):not(html)
+pl##.cookie_div:not(body):not(html)
 pl##.cookie_header:not(body):not(html)
 pl##.cookie_info:not(body):not(html)
 pl##.cookie_notice:not(body):not(html)
