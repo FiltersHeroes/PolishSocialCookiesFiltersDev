@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: tn/WEfxMBQnWchlPCuLHjQ
+! Checksum: WdBVIX0ocIROmIfOghx3mA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.4.30.2
-! Last modified: Tue, 30 Apr 2019, 23:00 UTC+02
+! Version: 2019.5.1.1
+! Last modified: Wed, 01 May 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.4.30.2 aktualizacja: wto, 30 kwi 2019, 23:00 UTC+02
+! v.2019.5.1.1 aktualizacja: śro, 01 maj 2019, 03:00 UTC+02
 !
 !
 ! Popupy
@@ -1696,6 +1696,7 @@ galopuje.pl##a[href^="https://plus.google.com/u/0/+galopuje/"]
 gamedot.pl##.icon-twitch, .icon-steam-logo
 gampre.pl##.icon-youtube-play
 ganjamafiashop.com##.social-block-header, .social-block-container
+gardenbx.pl#?#.fusion-column-wrapper > .title.fusion-title > h3:-abp-contains(Dołącz do nas)
 garett.com.pl##.bottom-footer > div.footer-col:nth-of-type(3)
 garmin.com##.gf__social
 garneczki.pl##.footer__col--social
@@ -2742,6 +2743,7 @@ pascal.pl###section_specialServices > .rowTitle.row > .col-md-12 > .pageTitle
 pasja-informatyki.pl###slide-out-div
 patelnie-tytanowe.pl##.instatitle, .snapwidget-widget
 pato.pl###nasza_klasa_side_bar
+patrzladnie.pl##.widget_cs_social_widget.footer-widget-col
 pay-card.pl##a[href="https://www.youtube.com/channel/UCIrQBYCQhV8RCvPZ5YlZywQ"]
 pay-card.pl##.et_pb_section_6
 pay.google.com##.youtube.social--icon
@@ -3171,6 +3173,7 @@ sadownictwo.com.pl##div.widthFull.isotopeGrid-item, .width4.isotopeGrid-item
 sadownictwo.com.pl###socialBox > a:nth-child(-n+5)
 sadurscy.pl##.widget_vanda_facebook_page, .widget_vanda_socialize
 sadurscy.pl,niestatystyczny.pl##.null-instagram-feed
+saffa.shoplo.com##.navbar-nav.nav > li:nth-of-type(n+7):nth-of-type(-n+9)
 sagameble-sklep.pl##footer div.col-md-4.col-sm-6.col-xs-12:nth-of-type(3)
 sagana.pl##.fx-join-us
 saga.info.pl##div.col-sm-3:nth-of-type(2) > ul > li > table, #facebook_side
@@ -3264,6 +3267,7 @@ sklep.eltron.pl##a[href="https://twitter.com/Eltronpl"]
 sklep.eltron.pl##a[href="https://www.facebook.com/EltronWroclaw"]
 sklep.eltron.pl##a[href="https://www.youtube.com/c/EltronWroclaw"]
 sklep.eltron.pl##.in > b
+sklep.gardenbx.pl##.bottom-footer #wtyczki > p
 sklep.granna.pl##.cms-links > ul > .last > span:not(:nth-of-type(2))
 sklep.grupazpr.pl##.tab_promo
 sklep.gry-online.pl##.icon-offset-left > .hdr-open
@@ -3891,7 +3895,6 @@ yetiforce.com##.left.jj_sl_navigation > li > a, .footer-mini-right.sppb-col-md-6
 youtube.com###header-links a[rel^="me"][href^="/"]:not([href*="youtube.com"])
 youtube.com###primary-links > a[href*="facebook.com"], #primary-links > a[href*="instagram.com"], #primary-links > a[href*="twitter.com"], #primary-links > a[href*="snapchat.com"]
 youtube.com###secondary-links > a[href*="facebook.com"], #secondary-links > a[href*="instagram.com"], #secondary-links > a[href*="twitter.com"], #secondary-links > a[href*="snapchat.com"]
-youtube.com###secondary-links > a[title="Facebook"]
 yuliyababich.eu###AnimalPanel table td > span:nth-of-type(n+6):nth-of-type(-n+9)
 yves-rocher.pl##div.service__column:nth-of-type(2) > div.service__box:nth-of-type(3)
 zaadoptujfaceta.pl##.clearfix.fleft:nth-of-type(1)
@@ -3980,6 +3983,7 @@ zwrotzalot.pl##a[href^="https://www.facebook.com/zwrotzalot/"]
 zygzaksnow.pl###ppfacebook
 !e-lazienki.pl,urzadzone.pl,e-dach.pl,e-instalacje.pl,e-sciany.pl,e-okna.pl,e-ogrodek.pl,e-izolacje.pl,e-mieszkanie.pl##.like
 !wakacje.pl###rightTabs
+!youtube.com###secondary-links > a[title="Facebook"]
 !
 !
 ! Specyficzne reguły blokujące
