@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: YzOeDAJasqAF7Eljx+r39A
+! Checksum: WZ5NFwYKkKQACtF8n8McjA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.1.3
-! Last modified: Wed, 01 May 2019, 23:00 UTC+02
+! Version: 2019.5.4.1
+! Last modified: Sat, 04 May 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.1.3 aktualizacja: śro, 01 maj 2019, 23:00 UTC+02
+! v.2019.5.4.1 aktualizacja: sob, 04 maj 2019, 03:00 UTC+02
 !
 !
 ! Popupy
@@ -46,6 +46,7 @@ kuchniawedwoje.pl,black-friday.pl,zatrzymujacczas.pl,e-przepisykulinarne.pl,funf
 limonkowy.com##.ui-widget-overlay, .ui-dialog
 madameedith.com###spu-33734, #spu-bg-33734
 malywrednymis.pl###ppsPopupBgOverlay
+mpolska24.pl###before-leave-window
 nawiedzone.pl,polskieszosy.pl,swiatfilmikow.pl##[data-title="Social Form - Popup #02"]
 nowosci-mp3.eu###pop-slap, .bg-pop-over
 nportal.no###fb-overlay
@@ -80,6 +81,7 @@ wakacjezprocentem.pl##.overlay
 winicjatywa.pl##h2:nth-of-type(3)
 yt360.pl,emcconsultant.eu###ouibounce-modal
 zakazany-humor.pl##.snp-pop-111-wrap, .snp-pop-111-overlay
+zmianywzyciu.pl###popup_facebook
 zuch.media###spu-10366, #spu-bg-10366
 /wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
@@ -1584,6 +1586,7 @@ faie.pl###gwSocialmedia
 fakro.pl##div.col-sm-6.col-md-3.footer-col:nth-of-type(4)
 faktykonopne.pl###custom_html-12
 faktyoswiecim.pl###mzine_instagram-2, #mzine_social_media-2
+faktyozywnosci.pl###text-14
 fakty.nl##.bialy.width-30.user11 > .moduletable
 fakty.plportal.pl###block-block-10
 fama.org.pl###text-4, #text-3, #text-5, .null-instagram-feed, .widget_ci_twitter_widget
@@ -3903,6 +3906,7 @@ zadluzenia.com##.footer > .container > .row > div.col-sm-3:nth-of-type(4)
 zadluzenia.com##.social-logos
 zadowolenie.pl##.m-socialIcons
 zagranie.com##.social_links_style2, #twitter-timeline-profile-4
+zakumaj.pl##[href="https://www.facebook.com/zakumajpl"]
 zalajkowane.pl##.pu_facebook_widget
 zalando-lounge.pl#?#div.Section_horizontal_2Vo2n:-abp-contains(Znajdziesz nas na)
 zalando.pl##a[href="https://www.facebook.com/zalando.polska"]
@@ -3949,6 +3953,7 @@ zlotyaniol.pl##.bl
 zlotygron.pl##.fb_button, .site_social > a > img
 zmianynaziemi.pl##.service-links--pl-wykop, .service-links--pl-sledzik
 zmianywzyciu.pl###facebook_edge
+zmianywzyciu.pl##.desktop_only.fr > h4
 zmpd.pl###formularz_na_skroty > a[target] > img
 zmpd.pl#?#div[id^="wpis_"]:-abp-has(div[onclick*="https://www.facebook.com/ZMPDwPolsce"])
 zmpd.pl#?#div[id^="wpis_"]:-abp-has(div[onclick*="https://www.youtube.com/user/ZMPD"])
