@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: WZ5NFwYKkKQACtF8n8McjA
+! Checksum: 1TLemLwTsh+77zkCbjqGqQ
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.4.1
-! Last modified: Sat, 04 May 2019, 03:00 UTC+02
+! Version: 2019.5.4.2
+! Last modified: Sat, 04 May 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.4.1 aktualizacja: sob, 04 maj 2019, 03:00 UTC+02
+! v.2019.5.4.2 aktualizacja: sob, 04 maj 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -2783,6 +2783,7 @@ photonrobot.com##.qodef-social-icon-widget, .qodef-social-share-holder
 piaseczno.eu#?#.td_block_widget.td_block_text_with_title.td_block_wrap:-abp-contains(Obserwuj)
 pico-projector.pl#?#[id^="fws_"].vc_row-fluid.wpb_row:-abp-contains(Znajdź nas na Facebook)
 piewca.pl###facebookwidgetplus-2
+pij-wode.pl##.dt-social-icons
 pilotpen.pl##.plt-Footer_social_list, .plt-Footer_title, .plt-Header_tools
 pionki24.pl###like-box
 piotripawel.pl##.affix.fx-menu > a
@@ -3906,7 +3907,7 @@ zadluzenia.com##.footer > .container > .row > div.col-sm-3:nth-of-type(4)
 zadluzenia.com##.social-logos
 zadowolenie.pl##.m-socialIcons
 zagranie.com##.social_links_style2, #twitter-timeline-profile-4
-zakumaj.pl##[href="https://www.facebook.com/zakumajpl"]
+zakumaj.pl##a[href="https://www.facebook.com/zakumajpl"]
 zalajkowane.pl##.pu_facebook_widget
 zalando-lounge.pl#?#div.Section_horizontal_2Vo2n:-abp-contains(Znajdziesz nas na)
 zalando.pl##a[href="https://www.facebook.com/zalando.polska"]
@@ -4313,6 +4314,8 @@ youtube.com#@##secondary-links
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
 @@/social_media_$domain=mazury.travel
 @@||filoma.org/static/images/facebook.jpg
+@@||gamingsociety.pl/wp-content/themes/Newspaper-child/images/facebook.png
+@@||gamingsociety.pl/wp-content/themes/Newspaper-child/images/google.png
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
 @@||meczyki.pl/images/twitter_blank.gif
