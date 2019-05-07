@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: CC0aN7M/l//rWeBqI30KLw
+! Checksum: TxxDJfKRCTEUjfQWmO3j6A
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.6.2
-! Last modified: Mon, 06 May 2019, 23:00 UTC+02
+! Version: 2019.5.7.1
+! Last modified: Tue, 07 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.6.2 aktualizacja: pon, 06 maj 2019, 23:00 UTC+02
+! v.2019.5.7.1 aktualizacja: wto, 07 maj 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -289,7 +289,7 @@ busfor.pl##.cookie-attantion
 business.mytaxi.com#?#body > div > span > div:-abp-contains(🍪)
 buty-smile.pl###closePopUp
 buyblo.com###plugin-agree-Plugin
-buziak.pl,kochlik.pl,nowaostroleka.pl,webd.pl###cffc
+buziak.pl,kochlik.pl,nowaostroleka.pl,webd.pl,buziak.nl###cffc
 bydgoszcznastart.pl,kpzpn.pl##.polityka-prywatnosci
 byinsomnia.com###v-cookielaw
 bytzbiorowy.pl,www.pro-tech.bydgoszcz.pl,slupsk.pl###easyNotification
@@ -334,6 +334,7 @@ cire.pl###ramka_ciasteczka_info
 civitas.edu.pl###cronox-cookie-notice
 ckiw-dobieszkow.ohp.pl###eDcPopupBox
 ckmir.com.pl#?#p:-abp-contains(cookie)
+ck-czestochowa.pl,relpol.pl,polskie-cmentarze.pl,powiat-zielonogorski.pl###powiadomiony
 clearchannel.com.pl,sokolka.com.pl,mpwik.com.pl###rodoPopup
 clineo.pl###floatingFB
 cmg24.pl##.RODO
@@ -1468,7 +1469,6 @@ redbullmobile.pl###more1
 reflex.com.pl###cookiesdiv
 refunder.pl#?#.bg-white:-abp-has([href="/warunki#cookies"])
 reklamawwindzie.net##.panel_cookie
-relpol.pl,polskie-cmentarze.pl,ck-czestochowa.pl###powiadomiony
 renault.pl##.ccpane
 rentis.pl##.cdk-overlay-container
 repostuj.pl##.jumbotron
@@ -1869,6 +1869,7 @@ zalando-lounge.pl##[class^="CookieConsent_cookie-consent_"]
 zalando.pl##.z-navicat-header-cookieBar
 zalecane.pl##.cookie_popup_bottom
 zara.com###popup-announcements
+zarnow.eu##.cookieContainer
 zarzadzanieprojektami.org###cookinfo
 zaufanekliniki.pl#?#.alert-error.alert:-abp-contains(cookies)
 zawodykonne.com###cookie-akcept
