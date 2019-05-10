@@ -1,11 +1,11 @@
-! Checksum: +ATt42s6N4E7W+MZgT++ew
+! Checksum: AMYZzF2PlazzYXHZBH2nWA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.9.1
-! Last modified: Thu, 09 May 2019, 19:00 UTC+02
+! Version: 2019.5.10.1
+! Last modified: Fri, 10 May 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.9.1 aktualizacja: czw, 09 maj 2019, 19:00 UTC+02
+! v.2019.5.10.1 aktualizacja: pią, 10 maj 2019, 19:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -39,7 +39,7 @@ aquapark.wroc.pl###header:style(top: 0 !important;)
 archiwum.rp.pl,info.rp.pl,konik-online.pl,bloombergbusinessweek.pl##body:style(margin-top: 0 !important;)
 atat.pl,elektryka-atat.pl,chemia-atat.pl,oswietlenie-atat.pl,zywnosc-atat.pl##.gdprModal
 atat.pl,elektryka-atat.pl,chemia-atat.pl,oswietlenie-atat.pl,zywnosc-atat.pl##.overflow-hidden:style(overflow: auto !important;)
-autokult.pl,dobramama.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,jejswiat.pl,kafeteria.pl,kafeteria.tv,komorkomania.pl,luxlux.pl,medycyna24.pl,m.domodi.pl,mixer.pl,money.pl,nocowanie.pl,o2.pl,open.fm,parenting.pl,pinger.pl,pogodnie.pl,pudelek.pl,pytamy.pl,samosia.pl,smog.pl,snobka.pl,testwiedzy.pl,~sportowefakty.wp.pl,wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, :setTimeout)
+autokult.pl,dobramama.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,jejswiat.pl,kafeteria.pl,kafeteria.tv,komorkomania.pl,luxlux.pl,medycyna24.pl,m.domodi.pl,mixer.pl,money.pl,nocowanie.pl,o2.pl,open.fm,parenting.pl,pinger.pl,pogodnie.pl,pudelek.pl,pytamy.pl,samosia.pl,smog.pl,snobka.pl,testwiedzy.pl,~pilot.wp.pl,~sportowefakty.wp.pl,wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, :setTimeout)
 auto-czesci-lipiec.pl###mAll
 auto-czesci-lipiec.pl,mkidn.gov.pl,puma.com,paczkomaty.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 baptysci.pl###gafancybox-overlay559
@@ -459,14 +459,10 @@ ztm.poznan.pl##^#PopUP
 !autostrada-a2.pl##^#rodo-box, #cookielaw-box
 !#endif
 !#if !cap_user_stylesheet
+abczdrowie.pl,sportowefakty.wp.pl##body[class] > *:style(filter: none !important;)
+abczdrowie.pl,sportowefakty.wp.pl##+js(overlay-buster.js)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:style(visibility: hidden !important;)
 purepc.pl##+js(nano-remove-elements-onready.js, .cookiesinfo)
-sportowefakty.wp.pl##body[class] > *:style(filter: none !important;)
-sportowefakty.wp.pl##+js(overlay-buster.js)
-!forum.dobreprogramy.pl##body > div:not([id]):not([class*="modal"])[class]:nth-last-child(-n+4):nth-last-of-type(-n+4):matches-css(z-index: 1000000)
-!homebook.pl##body > div:not([id])[class]:last-child:last-of-type:matches-css(z-index: 1000000)
-!sportowefakty.wp.pl##html:style(overflow-y: visible !important; height: auto !important;)
-!ssl.dobreprogramy.pl,www.dobreprogramy.pl##body > div:not([id])[class]:last-of-type:matches-css(z-index: 1000000)
 !#endif
 !#if cap_user_stylesheet
 ~www.wp.pl,wp.pl##body > #app ~ noscript + div:not([id])[class], body > iframe + iframe + div:not([id])[class]
