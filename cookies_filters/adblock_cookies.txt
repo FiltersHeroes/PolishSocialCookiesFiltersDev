@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 98/JdAscpIxvsW7Ylupniw
+! Checksum: vzLkq78KPf0e+VcZdz87Qw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.10.2
-! Last modified: Fri, 10 May 2019, 23:00 UTC+02
+! Version: 2019.5.11.1
+! Last modified: Sat, 11 May 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.10.2 aktualizacja: pią, 10 maj 2019, 23:00 UTC+02
+! v.2019.5.11.1 aktualizacja: sob, 11 maj 2019, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -179,7 +179,7 @@ bacca.pl###CookieLawInfoPlugin
 badaniaprenatalne.pl###stb-14718
 badaniapsychologiczne.net###kopageBarCookies
 badoo.com###page-cookie-notification
-bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,kropka.audio,kryminalni24.info,lowiczanin.info,roztocze.net,skiparkmagura.eu,wiskitki.org,wnet.fm,domjozefa.tv,wifi-spot.net,toiowo.eu,rolland.tech,bysewo-kolor.eu,niniwa.org,dojczland.info,infomiasto.eu,kamienskie.info,sklep.co-unity.eu,dobremiejsce.org,deynn.blog,pomozity.org,retrotech.blog,getlevel.info,dziendobry.catering,zkaszub.info,ruah.eu,europeanquality.eu,nawakacje.eu,obiektywny.eu,baronphotography.eu,arbeitlandia.eu,mbp-brzeziny.eu,biancs.eu,udanyprezent.eu,pink.land,warsawexpo.eu,rozwojmiasta.plock.eu###cookie-notice
+bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,kropka.audio,kryminalni24.info,lowiczanin.info,roztocze.net,skiparkmagura.eu,wiskitki.org,wnet.fm,domjozefa.tv,wifi-spot.net,toiowo.eu,rolland.tech,bysewo-kolor.eu,niniwa.org,dojczland.info,infomiasto.eu,kamienskie.info,sklep.co-unity.eu,dobremiejsce.org,deynn.blog,pomozity.org,retrotech.blog,getlevel.info,dziendobry.catering,zkaszub.info,ruah.eu,europeanquality.eu,nawakacje.eu,obiektywny.eu,baronphotography.eu,arbeitlandia.eu,mbp-brzeziny.eu,biancs.eu,udanyprezent.eu,pink.land,warsawexpo.eu,rozwojmiasta.plock.eu,hempking.eu###cookie-notice
 baldowski.pl,label-magazine.com##.moduleCookiesBox
 balex.eu,kupzegarek.com,picodi.com,starysacz.info,ono24.info,wikidot.com,infobeskidy.eu##.cookie-alert
 balladine.com,nails.silcare.com,ochnik.com,mistama.com,basspolska.com,swiatpaneli.com,pl.coccodrillo.eu###cookies_message
@@ -317,6 +317,7 @@ cepelia.com.pl,sandecja.tv,mcksokol.pl,muzeum.sacz.pl,sandecja.org###overflow-co
 certum.pl###spu-3634, #spu-bg-3634
 challengeme.gg###gdpr-modal, .reveal-modal-bg
 chamsko.pl##div[class^="cookies"]
+charaktery.eu,rarlab.com###cookiewarning
 charlizemystery.com,mjakmrowka.pl##.cookie-empty
 chceauto.pl##.cookue
 chirurgia.plastyczna.eu##.cookie-info-cont
@@ -964,7 +965,6 @@ lak-auto.pl###windowcookie > #innercookie
 lampy.pl##.dnt-dialog
 lancia.pl###cl-banner
 laserhouse.pl##.LASERWrapper
-laskonline.pl,bskrasnosielc.pl,rarlab.com###cookiewarning > div:nth-of-type(1)
 lasy.gov.pl,bip.kielce.eu,wrota-swietokrzyskie.pl##.popup-alert-notice
 lbn.pl###ciastko
 lechia.pl###rodo-wrapper
@@ -1902,6 +1902,7 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
+!laskonline.pl,bskrasnosielc.pl###cookiewarning > div:nth-of-type(1)
 !www.reddit.com#?##SHORTCUT_FOCUSABLE_DIV > div > form:-abp-contains(cookies)
 !
 !
@@ -1933,7 +1934,6 @@ zysk.com.pl###pageUpperInfo
 ||bramka-proxy.pl/themes/default/cookies.js
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=legalcakes.com|satkurier.pl
 ||cdnjs.cloudflare.com/ajax/libs/fancybox/*/*s/jquery.fancybox.min.*s$script,stylesheet,domain=wiemy.to
-||cdn.digitrust.mgr.consensu.org/1/cmp.complete.bundle.js$domain=m.demotywatory.pl
 ||cdn.inaudium.com/js/adtctr.js
 ||ciasteczka.eu/cookiesEU-latest.min.js
 ||ciasteczka.org.pl/cookies/cookies*$script
@@ -2003,9 +2003,6 @@ zysk.com.pl###pageUpperInfo
 ||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-instagram.jpg
 ||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-pracujpl_0.jpg
 ||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-you-tube_0.jp
-||spolecznosci.mgr.consensu.org/js/cmp.stable.min.js$script,domain=sadistic.pl|garnek.pl|wypracowania.pl
-||static.quantcast.mgr.consensu.org/*/cmpui-banner.js$domain=memy.pl|pwn.pl|translatica.pl|tv.eurosport.pl|krokdozdrowia.com|elle.pl
-||static.quantcast.mgr.consensu.org/*/cmpui-popup.js$domain=cybersport.pl|royalad.pl
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-notification.js
 ||tinder.com/static/build/chunks/CookiePolicyBanner-*.js
@@ -2013,7 +2010,7 @@ zysk.com.pl###pageUpperInfo
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||twoje-seriale.pl/cookies.html$subdocument
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bankier.pl|bleepingcomputer.com|computerworld.pl|internetstandard.pl|pcworld.pl|softpedia.com|sztuka-architektury.pl|stars.pl|kochamyzwierzaki.pl|przyslijprzepis.pl|krokdozdrowia.com|gazetarumska.pl|mojegotowanie.pl|senior.pl
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pl|bleepingcomputer.com|softpedia.com|krokdozdrowia.com
 ||vox.pl/modal/rodo$xmlhttprequest
 ||wieczorpomorze.pl/wp-content/themes/colormag/js/magnific-popup/jquery.magnific-popup.min.js
 ||www.aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
