@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: vhIUh8fRc469RI8O9iANPw
+! Checksum: 1K/hQT1ucjAWKJPpG3PO1g
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.10.2
-! Last modified: Fri, 10 May 2019, 23:00 UTC+02
+! Version: 2019.5.11.1
+! Last modified: Sat, 11 May 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.10.2 aktualizacja: pią, 10 maj 2019, 23:00 UTC+02
+! v.2019.5.11.1 aktualizacja: sob, 11 maj 2019, 15:00 UTC+02
 !
 !
 ! Popupy
@@ -1727,6 +1727,8 @@ gc2.pl##li:nth-of-type(2) > .scrolly, #three, .container > .alt.box > .uniform.r
 gdanskrebiechowo.pl,zbiorkom.pl#?#table td > p > .news:-abp-contains(na serwisach społecznościowych)
 gdnexpress.pl##.header-right > ul > li:nth-of-type(-n+2) > a
 gdynia.pl##.widget-text-block > div > .social > li:nth-child(-n+5)
+gdziepolek.pl#?#.content-section > .body > .m-b-25:-abp-has(> .fb-like)
+gdziepolek.pl#?#.content-section > .body > .m-t-40:-abp-contains(Polub nasz profil)
 gemlord.pl##div.k_footcol:nth-of-type(3)
 gemre.com.pl##img[alt="Google plus"]
 gemre.com.pl##img[alt="Tumblr"]
@@ -2113,6 +2115,7 @@ kongresobywatelski.pl##a[href="https://twitter.com/Obywatelski"], a[href="https:
 konikpolski.trz.pl##a > img[src$="/facebook.png"]
 konik-online.pl###fb_rozwin
 konin24.info##.text-right.help-box > p, .text-right.help-box > a
+konopnysklep.com.pl##.footer-newsletter-social
 konsalnet.pl###facebook, #linkedin
 konsolowe.info###ct-social-8
 konstantinkanin.com###text-7, .cresta-facebook-messenger-box
