@@ -1,11 +1,11 @@
-! Checksum: 4Shcbd12mD5IO+pCKJISCw
+! Checksum: EpScQagfXRW/oWbdNMkj4Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.11.4
-! Last modified: Sat, 11 May 2019, 19:00 UTC+02
+! Version: 2019.5.12.1
+! Last modified: Sun, 12 May 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.11.4 aktualizacja: sob, 11 maj 2019, 19:00 UTC+02
+! v.2019.5.12.1 aktualizacja: nie, 12 maj 2019, 15:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -155,7 +155,7 @@ mzk-torun.pl###fancybox-container-2:has(#policy_elem)
 m.24jgora.pl,24wroclaw.pl###rodoModal, .modal-backdrop
 m.autocentrum.pl##html.menu-active:style(overflow: auto !important;)
 m.autocentrum.pl##.hello-rodo
-m.domodi.pl,www.wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, :setTimeout)
+m.domodi.pl,mixer.pl,nocowanie.pl,pinger.pl,pogodnie.pl,pytamy.pl,samosia.pl,snobka.pl,www.wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, :setTimeout)
 m.filmweb.pl##body.rodo[style^="padding-top:"]:style(padding-top: 0 !important;)
 nastyku.pl###ns_cookie_accepted
 nauka.rocks##.ct-ultimate-gdpr-cookie-topPanel-padding:style(padding-top: 0 !important;)
