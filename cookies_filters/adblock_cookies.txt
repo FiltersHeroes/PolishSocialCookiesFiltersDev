@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 8tjpD7Y7TybiETDl4FXX4g
+! Checksum: lcksOuyhLuF4pRRCZ+mfdQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.12.3
-! Last modified: Sun, 12 May 2019, 19:00 UTC+02
+! Version: 2019.5.12.4
+! Last modified: Sun, 12 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.12.3 aktualizacja: nie, 12 maj 2019, 19:00 UTC+02
+! v.2019.5.12.4 aktualizacja: nie, 12 maj 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -458,7 +458,7 @@ dzis.tv##div#regulaminWrap
 dzwignice.info#?#body > div:first-of-type:-abp-has(a[href$="/polityka-prywatnosci"])
 e24cloud.com##div#FullBox
 earlystage.pl###cookie-beam
-easyjet.com,sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu##.cookie-consent
+easyjet.com,sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu,lovoo.com##.cookie-consent
 easypaste.org,halogorlice.info,nasze-kino.eu,forum.swiateczne.info,eco-driving.info,pl.bab.la,radioexpert.net,themasterteacher.tv,fakty.nl,slupno.eu,knyszynska.eu,isokolka.eu##.cc-window[aria-label="cookieconsent"], .cc-revoke
 ebay.pl###gdpr-banner, .gh-banner
 ebizneskrokpokroku.pl###notification-bar
@@ -1589,6 +1589,7 @@ solartime.pl###sticky-notify
 solidarni2010.pl##div#kom
 solidarnosckatowice.pl##body > div:not([class]):not([id]) > div[style^="position: absolute;"]
 solid-szkolenia.pl##.ga-cookies-message
+solven.pl###cookies-alerts
 sonymobile.com##.fullbleed-response[data-module="sony-survey-client"][style]
 sosnowiec.pl###topBar_MainCover
 soundcloud.com,blyskawicznakorekta.pl##.announcements
@@ -1681,6 +1682,7 @@ tewa-sensors.com###cherry-cookie-banner
 thule.com##.cookie-consent-box
 ticketco.events###tcCookiesMessage
 ticketos.pl###prywatnosc
+tinder.com#?#div[class="Pos(f) Start(0) End(0) Z(90210) Bxsh($bxsh-4-way-spread) B(0) Bgc(#fff) C($c-secondary)"]:-abp-contains(Tinder wykorzystuje pliki cookie do analizowania ruchu na stronie)
 tkmaxx.pl##.pane-views-social-media-channels-block
 tlcpolska.pl###dni-notifications
 tlp.is,panasonic-electric-works.com##.cookiepolicy
@@ -1944,6 +1946,7 @@ zysk.com.pl###pageUpperInfo
 ||cmp.dreamlab.pl/static/cmp.complete.bundle.js
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
 ||confero.pl/js/cookies2013$script
+||consentmanager.mgr.consensu.org/delivery/cmp.min.js$script,domain=opinie24.pl
 ||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|java.com|reebok.pl|garmin.com|leagueoflegends.com
 ||consent.truste.com/get?name=notice.js$script
 ||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|nespresso.com|oracle.com|origin.com|wd.com|weather.com|wunderground.com|xerox.com|signify.com|meethue.com|support.wdc.com
@@ -2008,12 +2011,11 @@ zysk.com.pl###pageUpperInfo
 ||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-you-tube_0.jp
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-notification.js
-||tinder.com/static/build/chunks/CookiePolicyBanner-*.js
 ||tspodbeskidzie.pl/js/vendor/cookiebox.min.js
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||twoje-seriale.pl/cookies.html$subdocument
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pl|bleepingcomputer.com|softpedia.com|krokdozdrowia.com
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pl|bleepingcomputer.com|krokdozdrowia.com|softpedia.com
 ||vox.pl/modal/rodo$xmlhttprequest
 ||wieczorpomorze.pl/wp-content/themes/colormag/js/magnific-popup/jquery.magnific-popup.min.js
 ||www.aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
