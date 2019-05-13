@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: lcksOuyhLuF4pRRCZ+mfdQ
+! Checksum: KiMNbDrJ9afZuVe0qNUIkA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.12.4
-! Last modified: Sun, 12 May 2019, 23:00 UTC+02
+! Version: 2019.5.13.1
+! Last modified: Mon, 13 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.12.4 aktualizacja: nie, 12 maj 2019, 23:00 UTC+02
+! v.2019.5.13.1 aktualizacja: pon, 13 maj 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -148,6 +148,7 @@ ascar-rent.pl###hellobar
 asklepios.pl##.cookies_show
 assecods.pl###spu-22991, #spu-bg-22991
 astar.czest.pl##.lean-overlay
+asta-bud.pl###beta_layer
 ataniej.pl###einfo
 atcdevelopment.pl,ginekolog-darlowo.pl,lek-med.pl###zgoda
 atlas-roslin.pl##.tytul > span
@@ -1799,6 +1800,7 @@ woobykids.com###cookie-law-bar
 wp.pl,~www.wp.pl,~poczta.wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 wrobelekelemelek.com###cboxOverlay, #cboxWrapper
 wroclawfashionoutlet.com##.via-notification--cookie
+wscars.pl##div[jsmodel][data-sitename]:not([id]):not([class]) ~ div[jsmodel]:not([id]):not([class]) > div[data-cookie-path="/"][class*=" "][style^="transform"]:not([id])
 wsedno24.pl###mordern_adbar_wrap
 wseit.edu.pl##.modal-dialog, #welcome
 wskaznikizrp.stat.gov.pl,sdg.stat.gov.pl##table[id$="gridStopka"] > tbody > .ui-panelgrid-even.ui-widget-content > .ui-panelgrid-cell
