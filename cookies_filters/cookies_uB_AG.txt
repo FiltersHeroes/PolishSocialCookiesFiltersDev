@@ -1,11 +1,11 @@
-! Checksum: /mGxNaWGpOs8jSitW/QCUQ
+! Checksum: LhicOnYy3MrnRXvcsReLhA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.13.1
-! Last modified: Mon, 13 May 2019, 23:00 UTC+02
+! Version: 2019.5.15.1
+! Last modified: Wed, 15 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.13.1 aktualizacja: pon, 13 maj 2019, 23:00 UTC+02
+! v.2019.5.15.1 aktualizacja: śro, 15 maj 2019, 23:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -107,7 +107,8 @@ haloursynow.pl,warsztat.pl,hdtv-sat.eu##.modal-open:style(padding-right: 0 !impo
 hbogo.pl##.banner-overlay
 hbogo.pl,cbdzoe.pl##body:style(overflow: auto !important; padding-right: 0 !important;)
 hm.com##.modaloverlay:has(#gdpr-modal)
-hm.com##.modal-open, .modal-open body:style(position: static !important; overflow-y: auto !important;)
+hm.com##.modal-open body:style(position: static !important;)
+hm.com##.modal-open:style(overflow-y: auto !important;)
 ikea.com###cookieMsgBlock
 ikea.com##.has-cookie .main-header-wrap:style(top: 0 !important;)
 indbuildcraft.pl##.modal-overlay, #modal_cookies
