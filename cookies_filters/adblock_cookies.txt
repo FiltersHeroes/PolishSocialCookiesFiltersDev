@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: XSBirY1FL9RAeCzHUtAL9Q
+! Checksum: JS4m/9nWaQot0Sb9DTBKyA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.14.2
-! Last modified: Tue, 14 May 2019, 15:00 UTC+02
+! Version: 2019.5.15.1
+! Last modified: Wed, 15 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.14.2 aktualizacja: wto, 14 maj 2019, 15:00 UTC+02
+! v.2019.5.15.1 aktualizacja: śro, 15 maj 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -142,7 +142,7 @@ archiwum.allegro.pl##div[data-box-name="cookie.policy.bar"]
 arcyfotka.pl,doniczki-poznan.pl,koraliki.pl,nck.gov.pl,kupbilet.pl,microhost.pl,postrabbit.pl#?#.alert-warning.alert:-abp-contains(cookie)
 areatour.pl,dacter.pl,dlapacjenta.pl,marbo-sport.pl,radentortodonta.pl,uni-tech.pl##div#topbar
 arg.gdynia.pl,rankinglekarzy.pl,finai.pl##div > .info
-arkady.info,krzysztonjan.com###notice_bar
+arkady.info,krzysztonjan.com,twojaapteka.eu###notice_bar
 arnicaapteka.pl,kappahl.com##.warning
 artim.com.pl#?#td[valign="top"] > div[webpartid].ms-WPbody:-abp-contains(pliki cookies)
 ascar-rent.pl###hellobar
@@ -181,7 +181,7 @@ bacca.pl###CookieLawInfoPlugin
 badaniaprenatalne.pl###stb-14718
 badaniapsychologiczne.net###kopageBarCookies
 badoo.com###page-cookie-notification
-bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,kropka.audio,kryminalni24.info,lowiczanin.info,roztocze.net,skiparkmagura.eu,wiskitki.org,wnet.fm,domjozefa.tv,wifi-spot.net,toiowo.eu,rolland.tech,bysewo-kolor.eu,niniwa.org,dojczland.info,infomiasto.eu,kamienskie.info,sklep.co-unity.eu,dobremiejsce.org,deynn.blog,pomozity.org,retrotech.blog,getlevel.info,dziendobry.catering,zkaszub.info,ruah.eu,europeanquality.eu,nawakacje.eu,obiektywny.eu,baronphotography.eu,arbeitlandia.eu,mbp-brzeziny.eu,biancs.eu,udanyprezent.eu,pink.land,warsawexpo.eu,rozwojmiasta.plock.eu,hempking.eu###cookie-notice
+bajeczki.org,cdax.online,doradztwoprawne.org,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,eveline.eu,farmacja.net,ferguson-digital.eu,festiwaldobregosmaku.eu,filmowo.co,kropka.audio,kryminalni24.info,lowiczanin.info,roztocze.net,skiparkmagura.eu,wiskitki.org,wnet.fm,domjozefa.tv,wifi-spot.net,toiowo.eu,rolland.tech,bysewo-kolor.eu,niniwa.org,dojczland.info,infomiasto.eu,kamienskie.info,sklep.co-unity.eu,dobremiejsce.org,deynn.blog,pomozity.org,retrotech.blog,getlevel.info,dziendobry.catering,zkaszub.info,ruah.eu,europeanquality.eu,nawakacje.eu,obiektywny.eu,baronphotography.eu,arbeitlandia.eu,mbp-brzeziny.eu,biancs.eu,udanyprezent.eu,pink.land,warsawexpo.eu,rozwojmiasta.plock.eu,hempking.eu,projarch.eu###cookie-notice
 baldowski.pl,label-magazine.com##.moduleCookiesBox
 balex.eu,kupzegarek.com,picodi.com,starysacz.info,ono24.info,wikidot.com,infobeskidy.eu,lo1.lublin.eu##.cookie-alert
 balladine.com,nails.silcare.com,ochnik.com,mistama.com,basspolska.com,swiatpaneli.com,pl.coccodrillo.eu###cookies_message
@@ -473,7 +473,6 @@ echosonda.pl###cookie_i
 ecobagnetwork.eu,kuvert.com.pl###gdpr-cookie-message
 economist.com##div#ec-message-1
 eco.atman.pl,kreskoweczki.pl,groj.pl,marketing-news.pl,www.obozytenisowe.pl###gbpl_oba
-ec.europa.eu###cookie-consent-banner
 edukacja.rybnik.eu,polskaekologia.org,siemiatycze.eu##.cookieWarning
 edupage.org##.eu-cookie-panel
 edutorial.pl,kerrisgroup.com###wmpci-popup-wrp
@@ -535,6 +534,7 @@ etipolam.com.pl##.ico-wrapper
 etroniks.pl,trojmiejskaperfumeria.pl###st_notification_1
 eurid.eu###cookie-notification-content
 euro26.pl###popup, #fade
+europa.eu###cookie-consent-banner
 europlytki.pl###cookies-info-container
 eurostyl.com.pl###euroCookieInfo
 eu.alcatelmobile.com##.cookiebar
@@ -1014,7 +1014,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com,goleniowska.com,visitwroclaw.eu,czarnkow.info,suwalki.info,zsgoreczyno.eu,koronakaszub.eu,amico.market,raczkowski.eu,iwaniska.eu,mensahome.eu,x-moto.eu###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com,goleniowska.com,visitwroclaw.eu,czarnkow.info,suwalki.info,zsgoreczyno.eu,koronakaszub.eu,amico.market,raczkowski.eu,iwaniska.eu,mensahome.eu,x-moto.eu,julstar.eu,wagrowiec.eu###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubimyczytac.pl###TB_window, #TB_overlay
