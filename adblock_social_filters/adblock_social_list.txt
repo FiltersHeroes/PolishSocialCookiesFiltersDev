@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 9FLkY221DBXGEMPRQjHQ9w
+! Checksum: UMIp6qoOuWTNZ2t7Q7H/qA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.16.1
-! Last modified: Thu, 16 May 2019, 03:00 UTC+02
+! Version: 2019.5.16.2
+! Last modified: Thu, 16 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.16.1 aktualizacja: czw, 16 maj 2019, 03:00 UTC+02
+! v.2019.5.16.2 aktualizacja: czw, 16 maj 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -862,6 +862,7 @@ apostol.pl##.footer_links > a[href="http://www.facebook.pl/apostolpl"]
 appki.com.pl,autonom.pl,domtuiteraz.eu,paczka-wiedzy.pl,multigaming.pl,e-marketingprawniczy.pl###text-7
 applemobile.pl,pdaclub.pl##.google-plus
 aptekacentrumzdrowia.pl#?#footer .opening-hours.col-md-4:-abp-contains(Obserwuj nas na)
+apteka-band.eu##div[data-hook="social-sharing"] > a
 apteka-band.eu###SITE_FOOTERinlineContent-gridContainer .font_7
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href="http://www.facebook.pl"] > img
 aptekigemini.pl##header .nav > li:nth-of-type(5)
@@ -1120,6 +1121,8 @@ bursztynowa.pl##.footer-top section.col-xs-12.col-sm-4:nth-of-type(2)
 businesstraveller.pl##.widget:nth-of-type(1) > h4
 business-english.com.pl##.contact > header > h3, .contact > p, .contact >  .icons > li:nth-of-type(1)
 buslapidus.pl##.wdi_instagram_widget, #custom_html-2, #sfsi-widget-3
+busy-kielce.eu,busy-wroclaw.eu,busy-krk.pl#?#footer > div > div:nth-of-type(2) > p:nth-of-type(1):-abp-contains(Znajdź nas na)
+busy-krk.pl##footer > div > div:nth-of-type(2) > p:nth-of-type(2) > a[target="_blank"]
 butylukow.pl,korob.pl,melbo.pl,ozonee.pl###tws_i_1
 buu.pl###footer > div.omega.alpha.grid_24:nth-of-type(5), div.omega.alpha.grid_24:nth-of-type(4) p:nth-of-type(5)
 buzzfeed.com##.tweet_share
@@ -1536,6 +1539,7 @@ euroobuwie.pl##.footer_links_sub > .icon_link.dark_blue.button3_sub
 europacentralna.eu###footer div.col-12:nth-of-type(4)
 europarl.europa.eu##.ep_sociallinks
 europa.eu###block-bean-find-a-social-media-account
+europa.eu###eu-social
 europa.eu###ye-follow-links
 europeanquality.eu##.menu__soc.menu__list
 europodroze.pl##.header_bottom > .phone > a > img
@@ -1596,6 +1600,7 @@ fakro.pl##div.col-sm-6.col-md-3.footer-col:nth-of-type(4)
 faktykonopne.pl###custom_html-12
 faktyoswiecim.pl###mzine_instagram-2, #mzine_social_media-2
 faktyozywnosci.pl###text-14
+fakty.interia.pl#?#.tile-magazine:-abp-has(> a[href="https://www.facebook.com/FaktyINTERIA"])
 fakty.nl##.bialy.width-30.user11 > .moduletable
 fakty.plportal.pl###block-block-10
 fama.org.pl###text-4, #text-3, #text-5, .null-instagram-feed, .widget_ci_twitter_widget
@@ -1949,6 +1954,7 @@ infoplanet.pl##.left-fixed, .footer-fanpages, .footer-header
 inforail.pl,transinfo.pl,infobus.pl,infotram.pl,infobike.pl,infoair.pl,infoship.pl##.dolaczFB
 inforfk.pl###facebookFixed
 inforlex.pl##.follow
+informacja-turystyczna.starachowice.eu#?#.item-440:-abp-has(> a[href="https://www.youtube.com/user/umstarachowice"])
 infosecurity24.pl##.card-social
 infostrefa.com##.notifications
 info.ceneo.pl##.footer #text-8
