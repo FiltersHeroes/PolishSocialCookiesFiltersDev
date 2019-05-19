@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 03TB1rankNcVBRl6Jh7sjQ
+! Checksum: mC6OE6jF0RzwuZNpjs0j7w
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.19.2
-! Last modified: Sun, 19 May 2019, 19:00 UTC+02
+! Version: 2019.5.19.3
+! Last modified: Sun, 19 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.19.2 aktualizacja: nie, 19 maj 2019, 19:00 UTC+02
+! v.2019.5.19.3 aktualizacja: nie, 19 maj 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -526,7 +526,7 @@ epuap.gov.pl##.footer-info
 epuap.gov.pl,webcamera.pl###rodo-modal
 erboristeriamagentina.it###blultpdfbanner
 ergokantor.pl###popups__
-erhem.pl,e-metalzbyt.pl###popupContact
+erhem.pl,e-metalzbyt.pl,pks-debica.pl###popupContact
 eservice.pl###zwcc
 esklep-sbs.pl###cibMessage
 espritgames.com###easy-cookies-policy-main-wrapper
@@ -1445,6 +1445,7 @@ przelewy24.pl,zlotyaniol.pl###policy_container
 psd2-pdev.bskadzidlo.pl##.cdk-overlay-container
 pstryczki.eu###topInfoContainer0
 psychiatria-poradnie.pl,rc.fm,odpady.zgrp.pl,gazeta.us.edu.pl###popup-message-window, #popup-message-background
+ptep.pl##.rodo_popup
 pttk.katowice.pl###cookBox
 publio.pl###cookie-agreement
 puk.elk.pl###AgreeCookieMsg
@@ -1526,6 +1527,7 @@ samnaprawiam.com##.gdprcookie
 samouczek.info,aranzujemy.pl,kobieceporady.pl##.gdpr
 samsonite.pl##div.cookies-dialog, .ui-widget-overlay
 samsung.com##.cm-cookie-geo
+sandecja.pl###rodoPolicy
 santatracker.google.com##santa-notice
 savicki.pl##.accept-rodo
 sawataxi.pl##.w_news
@@ -1686,6 +1688,7 @@ telefonylodz.com###iqitcookielaw
 telegazeta.pl##.tvp-covl-bg, .tvp-covl
 telewizjarepublika.pl###swsmodal, #swsoverlay
 termedia.pl###acceptCookiesId
+termodomplus.pl##.tgdprc_cookie_notice_popup
 tesa.com##.legal-message-wrapper
 tesco.pl##.gdpr-cookies-inside
 testhub.pl##.sh-page-notice
@@ -1695,7 +1698,6 @@ tewa-sensors.com###cherry-cookie-banner
 thule.com##.cookie-consent-box
 ticketco.events###tcCookiesMessage
 ticketos.pl###prywatnosc
-tinder.com#?##content > span > .App > div[class*="Start"]:-abp-contains(pliki cookie)
 tkmaxx.pl##.pane-views-social-media-channels-block
 tlcpolska.pl###dni-notifications
 tlp.is,panasonic-electric-works.com##.cookiepolicy
@@ -2403,6 +2405,7 @@ pl###eu_cookie_notify:not(body):not(html)
 pl###evideCookiesNotify:not(body):not(html)
 pl###gdprHeader:not(body):not(html)
 pl###gdpr_banner:not(body):not(html)
+pl###gdpr_info:not(body):not(html)
 pl###gm-cookies:not(body):not(html)
 pl###hw_cookie_law:not(body):not(html)
 pl###icc_message:not(body):not(html)
