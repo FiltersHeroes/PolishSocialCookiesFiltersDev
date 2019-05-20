@@ -1,11 +1,11 @@
-! Checksum: sfroPfZiqAL6rAz5qSXTBw
+! Checksum: uhNvQzcr4RyIFee8iYrF1A
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.20.1
-! Last modified: Mon, 20 May 2019, 15:00 UTC+02
+! Version: 2019.5.20.2
+! Last modified: Mon, 20 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.20.1 aktualizacja: pon, 20 maj 2019, 15:00 UTC+02
+! v.2019.5.20.2 aktualizacja: pon, 20 maj 2019, 23:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -90,6 +90,7 @@ filmweb.pl##body.rodo #header:style(position: relative !important;)
 filmweb.pl##.rodo:style(position: static !important; overflow: auto !important;)
 filmweb.pl##.rodo__overlay
 fiskars.pl##.desktop:style(top: 0 !important;)
+forum.dobreprogramy.pl,m.domodi.pl,mixer.pl,nocowanie.pl,pinger.pl,pogodnie.pl,pytamy.pl,samosia.pl,snobka.pl,testwiedzy.pl,www.wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, :setTimeout)
 galeriaslendzinskich.pl,powiat-zyrardowski.pl##.fancybox-overlay
 galopuje.pl##+js(abort-current-inline-script.js, $, RODOCOOKIE)
 generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
@@ -157,7 +158,6 @@ mzk-torun.pl###fancybox-container-2:has(#policy_elem)
 m.24jgora.pl,24wroclaw.pl###rodoModal, .modal-backdrop
 m.autocentrum.pl##html.menu-active:style(overflow: auto !important;)
 m.autocentrum.pl##.hello-rodo
-m.domodi.pl,mixer.pl,nocowanie.pl,pinger.pl,pogodnie.pl,pytamy.pl,samosia.pl,snobka.pl,testwiedzy.pl,www.wp.pl##+js(addEventListener-defuser.js, DOMContentLoaded, :setTimeout)
 m.filmweb.pl##body.rodo[style^="padding-top:"]:style(padding-top: 0 !important;)
 m.youtube.com##body[modal-open-body]:style(position: static !important;)
 m.youtube.com##.consent-bump-lightbox
