@@ -1,11 +1,11 @@
-! Checksum: iKisHYpsXj+JsshpCCZd6g
+! Checksum: UpdeaTMt4sI6cGrGjSUNfQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.21.1
-! Last modified: Tue, 21 May 2019, 15:00 UTC+02
+! Version: 2019.5.21.2
+! Last modified: Tue, 21 May 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.21.1 aktualizacja: wto, 21 maj 2019, 15:00 UTC+02
+! v.2019.5.21.2 aktualizacja: wto, 21 maj 2019, 19:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -31,8 +31,6 @@ airdron-polska.pl,paralympic.org.pl,manageronline.pl##+js(nano-remove-elements-o
 airdron-polska.pl,paralympic.org.pl,manageronline.pl##.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
 albeco.com.pl###content:style(filter: none !important;)
 albeco.com.pl###pol-background, #pol-c
-allani.pl,domodi.pl,forum.dobreprogramy.pl,homebook.pl##+js(addEventListener-defuser.js, message, e.origin)
-allani.pl,domodi.pl,forum.dobreprogramy.pl,homebook.pl##+js(setTimeout-defuser.js, message:"Not responding", 3000)
 analizy.pl##.nl_rodo, .ui-widget-overlay
 analizy.pl,mago.com,edupolis.pl##html:style(overflow: auto !important;)
 andrychow.eu,candeo.pl,defra.pl,fdds.pl,gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,manageronline.pl,pedzledomakijazu.com,powiat.limanowski.pl,przegladpolityczny.pl,zgrp.pl##.popmake-overlay[data-popmake*="cookies"]
