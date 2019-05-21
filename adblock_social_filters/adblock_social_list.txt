@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: qa8SngagMHMlSQl7J37V0A
+! Checksum: ESBla8RHbxm0BkvtHEbCDA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.21.3
-! Last modified: Tue, 21 May 2019, 19:00 UTC+02
+! Version: 2019.5.21.4
+! Last modified: Tue, 21 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.21.3 aktualizacja: wto, 21 maj 2019, 19:00 UTC+02
+! v.2019.5.21.4 aktualizacja: wto, 21 maj 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -2045,7 +2045,8 @@ joomla.pl###user21
 jsystems.pl##a[href="https://pl-pl.facebook.com/JSystems.szkolenia/"]
 jsystems.pl##h4:nth-of-type(2)
 jsystems.pl##ul:nth-of-type(2) > li > [href="blog/index.html"]
-jurajska.pl##.sitemap__map__item__title > a[href^="https://www.instagram.com/jurajska"], .sitemap__map__item__title > [href^="https://www.facebook.com/Jurajska"]
+jurajska.pl##.sitemap__map__item__title > a[href^="https://www.instagram.com/jurajska"], .sitemap__map__item__title > a[href^="https://www.facebook.com/Jurajska"]
+jurajska.pl#?#.sitemap__map__group.sitemap__map__group--2:-abp-has(a[href^="https://www.instagram.com/jurajska"], a[href^="https://www.facebook.com/Jurajska"])
 juvenia2000.pl###sidePanel
 kabeltv.pl##.sidebar-widget:nth-of-type(3)
 kadantiscam.netlify.com##.facebook
@@ -3237,6 +3238,7 @@ salaterka.pl##div.widget-item:nth-of-type(16)
 salonmeblowy.net.pl##.icoPlus.fl, .icoPlus.fl + .ml20.fl
 salonydenon.pl###slideYT
 salsaclasica.pl##.headerfb, .clickfb
+saluber.pl###social_networks-3
 samequizy.pl##.hidemobile.col-3:nth-of-type(1)
 samoloty.pl##.custom > p:nth-of-type(n+2):nth-of-type(-n+3)
 samouczek.info##div.small-12.columns:nth-of-type(3) > ul.no-bullet:nth-of-type(1) > li:nth-of-type(3)
