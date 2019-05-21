@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: oJMxIWKp+O4PnGpaqJDgmA
+! Checksum: WB3o1bZVjNg7UToeM9dRpQ
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.20.3
-! Last modified: Mon, 20 May 2019, 23:00 UTC+02
+! Version: 2019.5.21.1
+! Last modified: Tue, 21 May 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.20.3 aktualizacja: pon, 20 maj 2019, 23:00 UTC+02
+! v.2019.5.21.1 aktualizacja: wto, 21 maj 2019, 03:00 UTC+02
 !
 !
 ! Popupy
@@ -2799,6 +2799,7 @@ pct24.pl,psz24.info,pp24.info.pl##.socialtop, .socmed
 pdasite.pl###text-11, #text-3
 pebx.pl##.bigFooterCol--col3.bigFooterCol
 pecetowicz.pl##.ipsGrid_span2
+pecetowicz.pl##.ipsList_reset > li.ipsBox.ipsWidget_vertical.ipsWidget:nth-of-type(3)
 pelnytalerz.com###HTML14, #HTML15, #HTML9, #HTML21, a[href="https://www.instagram.com/pelnytalerz/"], a[href="https://pl.pinterest.com/pelnytalerz/boards/"], a[href="https://plus.google.com/u/0/b/107157351569050975572/107157351569050975572/posts"], a[href="https://www.bloglovin.com/blogs/pelny-talerz-18812639"]
 pensjonatgranada.pl##.zobacznas
 pepco.pl#?#div.col-sm-6.col-md-3.col-xs-12.grid-item:-abp-contains(DOŁĄCZ DO NAS)
@@ -4391,9 +4392,10 @@ freshfile.pl,naekranie.pl#@#.facebook
 konto.wpolityce.pl#@#.facebook:not([data-id*=videos])
 linuxportal.pl#@#a.like
 patrz.pl#@#.likes
+pecetowicz.pl#@#.fa-twitter.fa
+pecetowicz.pl,samequizy.pl,swiatebookow.pl#@#.fa-facebook-official.fa
 polityczek.pl#@##twitter
 rkb.pl#@#.fb-top
-samequizy.pl,swiatebookow.pl#@#.fa-facebook-official.fa
 shinden.pl#@#.fa-youtube-play.fa
 swiatebookow.pl#@#.facebook-button
 tvpuls.pl#@#.block-menu-menu-social-footer.block-menu.block > .menu
