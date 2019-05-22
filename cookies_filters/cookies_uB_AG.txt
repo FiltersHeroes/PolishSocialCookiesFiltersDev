@@ -1,11 +1,11 @@
-! Checksum: UpdeaTMt4sI6cGrGjSUNfQ
+! Checksum: L5gVZSPORWfZqvMgCkW25w
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.21.2
-! Last modified: Tue, 21 May 2019, 19:00 UTC+02
+! Version: 2019.5.22.1
+! Last modified: Wed, 22 May 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.21.2 aktualizacja: wto, 21 maj 2019, 19:00 UTC+02
+! v.2019.5.22.1 aktualizacja: śro, 22 maj 2019, 15:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -243,8 +243,8 @@ vod.naekranie.pl,samasz.pl,mzbm.tychy.pl##.modal-open:style(overflow: auto !impo
 wagrowczanie.pl##.showRodo
 wakacje.pl###__next > div > div > div[class]:not([id]):has(> div > button):has-text(Administratorem)
 webhelp.pl###wrapper:style(margin-top: auto !important;)
-wpolityce.pl##.rhododendron-body-with-popup:style(overflow: auto !important;)
-wpolityce.pl##.rhododendron-popup, .rhododendron-popup-overlay
+wgospodarce.pl,wpolityce.pl##.rhododendron-body-with-popup:style(overflow: auto !important;)
+wgospodarce.pl,wpolityce.pl##.rhododendron-popup, .rhododendron-popup-overlay
 wrzesnia.info.pl###rodo, .modal-backdrop
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
