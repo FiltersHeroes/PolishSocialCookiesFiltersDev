@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: vmJgWl2VppZu9LZ0enTCCA
+! Checksum: PkASpza3cVt6lJhh+QE8wA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.24.1
-! Last modified: Fri, 24 May 2019, 15:00 UTC+02
+! Version: 2019.5.24.2
+! Last modified: Fri, 24 May 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.24.1 aktualizacja: pią, 24 maj 2019, 15:00 UTC+02
+! v.2019.5.24.2 aktualizacja: pią, 24 maj 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1278,6 +1278,7 @@ orientshop.com.pl,tapenda.pl###ciacha
 originals24.pl###wcookie
 orle-gniazdo.pl,portalpszczelarski.pl,strefaczasu.pl##.Cooker
 orliman.pl##.c-info
+orpha.net###addCookieBarInfo
 ortograf.pl###ns-rodo-popup-one
 orzeczenia.ms.gov.pl###cookieInfoHeader
 oskolaf.pl###modal-info
@@ -1643,6 +1644,7 @@ stradivarius.com###cookiesWarn
 stroer.pl##.popUpWrap
 strona.euro-net.pl##.komunikatciasteczka
 stronghold.net.pl###ci_info
+studentbeans.com##div[data-react-class="Components.CookieBanner"]
 stukstuk.pl###tws_s_100001
 stylownik.com##.cpolicy
 stypendia.sejmik.kielce.pl##.mod_pa_sci
@@ -1740,7 +1742,6 @@ tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvs.pl##.RodoNotyfication
 twitch.tv##.butterBar, .toast-manager__container
 twitter.com##.eu-cookie-notice
-twitter.com##.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
 twojahistoria.pl###rodo-info
 twojeankiety.pl###notkaCookies
 twoje-miasto.pl##.tmCookieBox
@@ -1779,6 +1780,7 @@ warsztatywyobrazni.com.pl##body > div[align="center"] > div[style^="text-align"]
 wars.pl###spu-1773, #spu-bg-1773
 wayup.pl###rodoMsg
 wbp.poznan.pl##.kmw_cookies
+wcz.waw.pl###topBarContainer > .region-topbar.region > .block-block.block
 weather.com##.lite-msg-parent
 webcover.eu###box-polityka-pr
 webdev20.pl###top_message
@@ -1929,6 +1931,7 @@ zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
 !laskonline.pl,bskrasnosielc.pl###cookiewarning > div:nth-of-type(1)
+!twitter.com##.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
 !www.reddit.com#?##SHORTCUT_FOCUSABLE_DIV > div > form:-abp-contains(cookies)
 !
 !
@@ -2235,6 +2238,7 @@ pl###cookieprivacy:not(body):not(html)
 pl###cookiesAlert:not(body):not(html)
 pl###cookiesBar:not(body):not(html)
 pl###cookiesBox:not(body):not(html)
+pl###cookiesContainer:not(body):not(html)
 pl###cookiesDiv:not(body):not(html)
 pl###cookiesEU-box:not(body):not(html)
 pl###cookiesInfoBox1:not(body):not(html)
