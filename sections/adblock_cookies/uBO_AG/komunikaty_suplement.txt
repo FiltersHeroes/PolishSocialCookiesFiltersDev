@@ -42,9 +42,9 @@ dane.gov.pl##.modal-backdrop
 dane.gov.pl##.modal-dialog:has-text(RODO)
 ddz24.eu###cookie-law-info-bar, .cli-modal-backdrop
 ddz24.eu##.cli-barmodal-open:style(overflow: auto !important;)
-dobrapogoda24.pl,repostuj.pl###rodo-modal, .modal-backdrop
 dobrapogoda24.pl##+js(remove-attr.js, class, body[class="modal-open"])
 dobrapogoda24.pl##.modal-open:style(overflow: auto !important;)
+dobrapogoda24.pl,repostuj.pl###rodo-modal, .modal-backdrop
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
@@ -154,8 +154,8 @@ ostrzegamy.online##body.rodo-locked, html.rodo-locked:style(overflow: auto !impo
 ostrzegamy.online##.rodo-popup, .rodo-overlay
 otwarteklatki.pl###popup-gdpr, .popup-overlay
 otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
-paczkomaty.pl,repostuj.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
 paczkomaty.pl##.modal:has(app-regulations-modal > .modal-header > .modal-title:has-text(RODO)), .modal-backdrop
+paczkomaty.pl,repostuj.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
 panattonieurope.com###image-popup.txt-popup, #image-popup-bg
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important;)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important;)
