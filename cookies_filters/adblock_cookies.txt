@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 9Stm37IVNEXJzOMCNReeFA
+! Checksum: vmJgWl2VppZu9LZ0enTCCA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.22.2
-! Last modified: Wed, 22 May 2019, 23:00 UTC+02
+! Version: 2019.5.24.1
+! Last modified: Fri, 24 May 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.22.2 aktualizacja: śro, 22 maj 2019, 23:00 UTC+02
+! v.2019.5.24.1 aktualizacja: pią, 24 maj 2019, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -646,6 +646,7 @@ fotojoker.pl##div#floatDiv
 fotokoc.eu##body > .coonfirm
 fotokurier.eu###pcUsingCookies
 fotonegatyw.com###fx-modal-1
+franciszkanskie.pl##.cookie__container
 freestyle.abbott##header > .cookie
 fsmm.pl###cookieinfoboxitems
 fuchs.com,nike.com###cookieBanner
@@ -2639,6 +2640,7 @@ pl##.cookie_info:not(body):not(html)
 pl##.cookie_notice:not(body):not(html)
 pl##.cookie_policy:not(body):not(html):not(#Content):not(#page)
 pl##.cookie_popup:not(body):not(html)
+pl##.cookie_wrapper:not(body):not(html)
 pl##.cookwarning:not(body):not(html)
 pl##.cp1CookieBanner:not(body):not(html)
 pl##.cp-cookie-bar:not(body):not(html)
