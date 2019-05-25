@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: pkys/veiCJ5fM1Ka1Lo7Yw
+! Checksum: acMmekeGGiopVF+/BqC8+g
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.24.3
-! Last modified: Fri, 24 May 2019, 23:00 UTC+02
+! Version: 2019.5.25.1
+! Last modified: Sat, 25 May 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.24.3 aktualizacja: pią, 24 maj 2019, 23:00 UTC+02
+! v.2019.5.25.1 aktualizacja: sob, 25 maj 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -3953,6 +3953,7 @@ www.rossmann.pl###footer > .row:nth-of-type(4)
 www.rp.pl##.btn--icon.btn--light
 www.rybnik.eu##.social.list-inline > li:nth-child(-n+4)
 www.studentnews.pl##nobr:nth-of-type(7), nobr:nth-of-type(8)
+www.trans-bus.eu#?#.wsite-section-elements:nth-of-type(1) > div:nth-of-type(1):-abp-contains(polub nas)
 www.tyskie.pl##.main-nav > li:nth-of-type(3)
 www.tytan.pl##.top_part > .social
 www.t-mobilebankowe.pl##.social-header-nav
@@ -4081,6 +4082,7 @@ zuch.media#?#.fw-section-position-back.auto.fw_theme_bg_color_1.fw-main-row-cust
 zuzelend.com###login_facebook
 zvami.tv,cooltura24.co.uk,echotygodnik.info##.facebook, .google, .twitter, .instagram, .youtube
 zwiedzam-stadiony.eu##.instagal_widget
+zwolen24.pl##div > a > img[src="images/index_t.png"], div > a > img[src="images/index_f.png"]
 zwrotzalot.pl##a[href^="https://www.facebook.com/zwrotzalot/"]
 zygzaksnow.pl###ppfacebook
 !e-lazienki.pl,urzadzone.pl,e-dach.pl,e-instalacje.pl,e-sciany.pl,e-okna.pl,e-ogrodek.pl,e-izolacje.pl,e-mieszkanie.pl##.like
@@ -4211,6 +4213,7 @@ zygzaksnow.pl###ppfacebook
 ||naekranie.pl/wp-content/plugins/socialfans-counter/assets/js/socialfans-script.js
 ||natatry.pl/images/icon-insta.png
 ||nekla.eu/images/portal/fb-right.png
+||newsbook.pl/wp-content/uploads/*/*/fb-300x30.png
 ||news.androidlista.pl/wp-content/themes/tema/gplusicon.jpg
 ||nitrofilm.pl/public/naglowki/gdzie-jestesmy-pl.gif
 ||nk.pl/fajne/widget$third-party
