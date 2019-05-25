@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 5HeWr+8PSgzaWhZYGW0GtA
+! Checksum: /zItIU3PVxV0UuJxCSjjjg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.25.1
-! Last modified: Sat, 25 May 2019, 19:00 UTC+02
+! Version: 2019.5.25.2
+! Last modified: Sat, 25 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.25.1 aktualizacja: sob, 25 maj 2019, 19:00 UTC+02
+! v.2019.5.25.2 aktualizacja: sob, 25 maj 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -427,7 +427,7 @@ dobrefinanse.co.uk##.gdpr-box
 dobregniazdka.pl,luxmarket.pl###rodo_container
 dobrymechanik.pl##.small.navbar-fixed-bottom
 doceniajnieoceniaj.pl###msgprivacy
-dogizycka.pl,dojaroslawca.pl,domragowa.pl,helskipolwysep.pl,kursnamikolajki.pl,visiton.pl,kartuzy.pl,pks-leszno.pl##.rstboxes > #rstbox_1
+dogizycka.pl,dojaroslawca.pl,helskipolwysep.pl,visiton.pl,kartuzy.pl,pks-leszno.pl##.rstboxes > #rstbox_1
 dolce-gusto.pl###nimgrowler
 dollarro.com###pnlCookiebanner
 dolnyslask.travel##.cl-banner
@@ -1236,6 +1236,7 @@ o2.pl##.zyHor, #app-inner ._1Arb2
 obligacjeskarbowe.pl##.js-cookie-rodo.cookie-rodo
 obpon.pl###rodo-notice, #shadow-overlay
 ociasteczkach.pl###ociasteczkach
+oculus.com##div[data-cookiebanner="banner"]
 odjechani.com.pl###akceptacja-odjechani, .guest_warn
 odleglosci.pl,tabele-kalorii.pl###komunikat-pp-dol
 odo24.pl##.rodo-body
@@ -1726,6 +1727,7 @@ trakt.tv##.sncmp-app_gdpr
 transatlantyk.org,ump.edu.pl###app-cookie-bar
 transfergo.com##.gdpr-consent
 translate.google.pl##[style*="#userData"]
+trans-bus.eu,weebly.com###kb-container.kb-container
 trasa.info###cookemessagehandler
 travelplanet.pl###cookie--info-wrapper
 trejdoo.com###td-alert
@@ -1790,7 +1792,6 @@ webdev20.pl###top_message
 webprojekt.biz###ppc
 web-booking.mytaxi.com#?#body > div > div > div:-abp-contains(🍪)
 web.skype.com#?#.info.notification:-abp-contains(cookie)
-weebly.com,trans-bus.eu###kb-container.kb-container
 weekendfm.pl##.rodo_out
 wegetarianie.pl##td[align="center"][height="22"]
 weidemann.de###tx_shortcutscookiedisclaimer
