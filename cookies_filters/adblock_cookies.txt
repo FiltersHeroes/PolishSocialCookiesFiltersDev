@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: YluRvK9c7XVx4bht3ARPRw
+! Checksum: as4KKSrcnb44bByOA3pJxQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.26.1
-! Last modified: Sun, 26 May 2019, 19:00 UTC+02
+! Version: 2019.5.27.1
+! Last modified: Mon, 27 May 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.26.1 aktualizacja: nie, 26 maj 2019, 19:00 UTC+02
+! v.2019.5.27.1 aktualizacja: pon, 27 maj 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -537,7 +537,7 @@ estore.fanuc.eu###cookie-footer
 etam.pl##.cookiesettingsmanager
 eteacher.pl,starmann.pl,speedtest.com.pl,speedtest.pl,wirtualis.pl,ettoi.pl###info_container
 eternityproject.pl##div.newsbar
-ethnostudio.eu,interlumen.com,kegel-aj.com,sprzetjezdziecki.com,meble-jarocin.com,madys.eu###InfoCookie
+ethnostudio.eu,interlumen.com,kegel-aj.com,sprzetjezdziecki.com,meble-jarocin.com,madys.eu,drukowanie.net###InfoCookie
 etipolam.com.pl##.ico-wrapper
 etroniks.pl,trojmiejskaperfumeria.pl###st_notification_1
 eurid.eu###cookie-notification-content
@@ -2498,6 +2498,7 @@ pl###ws_cookie_layer:not(body):not(html)
 pl###x13pmcookiebar:not(body):not(html)
 pl###xcookies:not(body):not(html)
 pl###xrootCookieRules:not(body):not(html)
+pl###zgoda.sekcja-ciasteczka:not(body):not(html)
 pl##.COOKIE_PRIVACY_CONT:not(body):not(html)
 pl##.CTcookie-container:not(body):not(html)
 pl##.CookieAlert:not(body):not(html)
