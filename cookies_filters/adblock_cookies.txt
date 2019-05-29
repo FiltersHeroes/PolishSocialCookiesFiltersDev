@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: p6pOa0qLZSrmtEprkNmP4w
+! Checksum: hvpwYznUqUkTvHk6EbpeVA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.28.3
-! Last modified: Tue, 28 May 2019, 23:00 UTC+02
+! Version: 2019.5.29.1
+! Last modified: Wed, 29 May 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.28.3 aktualizacja: wto, 28 maj 2019, 23:00 UTC+02
+! v.2019.5.29.1 aktualizacja: śro, 29 maj 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -251,6 +251,7 @@ biznesoferty.pl###cookies-message-n
 biznes-firma.pl,ebroker.pl,opinie24.pl##.rodo_cookies_popup
 blablacar.pl##.CookieBanner-wrapper
 blackpearlszczecin.pl##.policy-cookies
+blikomania.pl##.Cookie--base.Cookie--bottom.Cookie
 blog4u.pl##DIV[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blogasek.pl###j_all > div[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
@@ -468,7 +469,7 @@ dzwignice.info#?#body > div:first-of-type:-abp-has(a[href$="/polityka-prywatnosc
 e24cloud.com##div#FullBox
 earlystage.pl###cookie-beam
 easyjet.com,sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu,lovoo.com##.cookie-consent
-easypaste.org,halogorlice.info,nasze-kino.eu,forum.swiateczne.info,eco-driving.info,pl.bab.la,radioexpert.net,themasterteacher.tv,fakty.nl,slupno.eu,knyszynska.eu,isokolka.eu##.cc-window[aria-label="cookieconsent"], .cc-revoke
+easypaste.org,halogorlice.info,nasze-kino.eu,forum.swiateczne.info,eco-driving.info,pl.bab.la,radioexpert.net,themasterteacher.tv,fakty.nl,slupno.eu,knyszynska.eu,isokolka.eu,powiatowa.info##.cc-window[aria-label="cookieconsent"], .cc-revoke
 ebay.pl###gdpr-banner, .gh-banner
 ebizneskrokpokroku.pl###notification-bar
 eblik.pl#?#.page_content_info:-abp-has(#cookie_info_max)
@@ -2682,6 +2683,7 @@ pl##.notice_notice_cookies:not(body):not(html)
 pl##.notification--cookie-alert:not(body):not(html)
 pl##.notification--cookie:not(body):not(html)
 pl##.optanon-alert-box-wrapper:not(body):not(html)
+pl##.page-cookies:not(body):not(html)
 pl##.page-wrap--cookie-permission:not(body):not(html)
 pl##.panel_cookie:not(body):not(html)
 pl##.penci-wrap-gprd-law:not(body):not(html)
