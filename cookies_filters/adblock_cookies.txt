@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: hvpwYznUqUkTvHk6EbpeVA
+! Checksum: sNVjS0DU+4ue8axH3dNQgw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.29.1
-! Last modified: Wed, 29 May 2019, 19:00 UTC+02
+! Version: 2019.5.29.2
+! Last modified: Wed, 29 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.29.1 aktualizacja: śro, 29 maj 2019, 19:00 UTC+02
+! v.2019.5.29.2 aktualizacja: śro, 29 maj 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1822,7 +1822,7 @@ wlkp24.info###itro_popup, #itro_opaco
 wnt.com###trackerBanner
 wodociagi-kalisz.pl###white2
 wodociagi.krakow.pl##.cookieMessages
-wp.pl,~www.wp.pl#?#body > #app > div > span:not([class]):not([id]) > div[class]:not([id]):-abp-contains(cookie)
+wp.pl,~www.wp.pl#?#body > #app > div > span:not([class]):not([id]) > div[class]:not([id]):-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 wp.pl,~www.wp.pl,~poczta.wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 wrobelekelemelek.com###cboxOverlay, #cboxWrapper
 wroclawfashionoutlet.com##.via-notification--cookie
