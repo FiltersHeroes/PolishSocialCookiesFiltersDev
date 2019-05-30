@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: bLU6tBbHyBFZ01yg5yBvmA
+! Checksum: K6pjl1NHG2s8h86qvJFicg
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.29.2
-! Last modified: Wed, 29 May 2019, 23:00 UTC+02
+! Version: 2019.5.30.1
+! Last modified: Thu, 30 May 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.29.2 aktualizacja: śro, 29 maj 2019, 23:00 UTC+02
+! v.2019.5.30.1 aktualizacja: czw, 30 maj 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -1402,6 +1402,7 @@ drogerium.pl,formotiva.pl##.socialsy
 drogerium.pl,formotiva.pl###frontpage-instafeed
 drogowskazykariery.pl##.image-wrap > a[href="https://www.facebook.com/nzsorg/"], .image-wrap > a[href="https://www.instagram.com/nzsorg/"]
 drogowskazykariery.pl##.module_column_5-11-2.module_column_2.tb_5_column.module_column.third.col4-1.tb-column
+dronexpert.eu###wysZakladki
 dron.pl##.widget-area-7, .widget-area-8, .widget-area-9
 drukcyfrowygamma.pl##.partners > div
 drweb-av.pl##.TAIL-social > div > h3, .TAIL-social > div > p > a
@@ -3376,6 +3377,7 @@ sklep.krosno.com.pl##a[href="https://fb.com/krosno.glass"]
 sklep.legia.com###hw_cookie_law
 sklep.mieloch.pl##.clearfix.col-md-2.hidden-sm.hidden-xs.top_icons_wrapper
 sklep.mieloch.pl##.tile_icons.col-sm-6.col-xs-12
+sklep.milicon.eu###fbBox, #instaBox
 sklep.mizar.com.pl,taktutanio.pl###wysZakladki > #pierwsza.zaklwys
 sklep.platinet.pl##div.fbox:nth-of-type(1) > .t, div.fbox:nth-of-type(1) > .t2
 sklep.polbit.com##.kac-sm-block
@@ -3403,6 +3405,7 @@ slodkastrona.com###Profile1
 slodkieokruszki.pl###text-11
 sloworegionu.pl##img[src="/imagess/111_1/8/facebook.png"]
 sls.info.pl###widget-1
+slubice.tv##.social > li:not(.rss)
 slusarczyk-bmw.pl###musli > li:nth-child(-n+2)
 sluzby-ratownicze.pl###menu-social-menu-items
 sluzby-ratownicze.pl,ochrona24.info##.covernews_social_contacts_widget.covernews-widget.widget
@@ -4163,6 +4166,7 @@ zygzaksnow.pl###ppfacebook
 ||forumsamochodowe.pl/js/jquery.cookie.js
 ||forum.blogowicz.info/img/czat-blogger-polska.png
 ||forum.blogowicz.info/templates/SubHyTySz/images/blogger_icon_profile.gif
+||fotmar.eu/UserFiles/site/facebook.png
 ||gameplay.pl/im/fb15.png
 ||gazetaswietojanska.org/layout/ico/YT3.png
 ||gazetaswietojanska.org/layout/ico/fbbw2.png
@@ -4238,6 +4242,7 @@ zygzaksnow.pl###ppfacebook
 ||m.lm.pl/gfx/instagram.png
 ||naekranie.pl/wp-content/plugins/socialfans-counter/assets/js/socialfans-script.js
 ||natatry.pl/images/icon-insta.png
+||navcomm.eu/modules/themeconfigurator/img/*_777x142facebookpl.jpg
 ||nekla.eu/images/portal/fb-right.png
 ||newsbook.pl/wp-content/uploads/*/*/fb-300x30.png
 ||news.androidlista.pl/wp-content/themes/tema/gplusicon.jpg
@@ -4385,6 +4390,7 @@ technowinki.onet.pl##.sidebarItem:nth-of-type(6)
 tvn24.pl##a[href="http://www.tvn24.pl/tvn24-tvn-meteo-tvn-warszawa-w-serwisach-spolecznosciowych,503979,s.html"]
 tvn24.pl##.button_email, .fbClassicBox, .funpageTitleStyle, .shareContainerTop
 tvn24.pl##.htmlBox:nth-of-type(8), .htmlBox:nth-of-type(10), .htmlBox:nth-of-type(30), .htmlBox:nth-of-type(31), .side-info
+tvn24.pl##.social-icon
 tvnturbo.pl,tvn.pl##.socialPanel, .facebook_share, .gplus_share, .twitter_share, .socialFeedbackFooter, .header-card-social-item
 uwaga.tvn.pl##.insta-widget
 uwaga.tvn.pl##.section-social
