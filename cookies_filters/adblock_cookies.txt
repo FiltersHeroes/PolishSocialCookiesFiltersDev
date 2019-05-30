@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: sNVjS0DU+4ue8axH3dNQgw
+! Checksum: mYq6+cmkECSiSjFN2PiPjA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.5.29.2
-! Last modified: Wed, 29 May 2019, 23:00 UTC+02
+! Version: 2019.5.30.1
+! Last modified: Thu, 30 May 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.5.29.2 aktualizacja: śro, 29 maj 2019, 23:00 UTC+02
+! v.2019.5.30.1 aktualizacja: czw, 30 maj 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -626,6 +626,7 @@ ford-esklep.pl###box_alert
 foreca.pl###ckieconsent
 forma.czest.pl##.cookieMonster
 fors.pl,pks.zary.pl,webelite.pl###infobar
+forumdarczyncow.pl##.cookies-info-bar
 forumdermatologiczne.pl,forumstomatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,psychiatria.pl##.ui-dialog[aria-describedby="ajaxDialogrodopopup"], .ui-widget-overlay
 forumlekarza.pl###cpolicy_wrap
 forumplay.pl,forum-kredytowe.pl###navbar_notice_6
@@ -1434,6 +1435,7 @@ pratia.com,swiat-zdrowia.pl###NeucaCookieDialog
 prezencik.eu###cookies_message
 prgm.pl###Layer25
 prgok.pl###top_i
+pricelesso.pl###popUp2, .mask
 prideshop.pl,queer.pl##.box-rodo
 primary-justpay.digitalvirgo.pl##coll-cookie-info
 profilki.pl#?#div.centering.tile:-abp-has(img[src="/img/lay/maskotka_ciastko.png"])
@@ -1741,7 +1743,7 @@ trizer.pl##.ft__cookies
 trojmiasto.pl,sleeptime.pl###rodo_info
 trovit.pl###welcomebar-wrapper
 truckstore.com##.tso-popup-footer, .tso-popup-overlay
-ttv.pl,tvn24.pl###msgLayer
+ttv.pl###msgLayer
 tugazeta.pl###komunikat_ciastka
 turio.com.pl##.cookie-info-dlg
 tuz.pl###for-cookies-container
@@ -2858,9 +2860,11 @@ pl##[id^="topInfo"]:not(body):not(html)
 ! Blokowanie elementów po zastosowaniu generichide
 auto-swiat.pl###termsPopup
 blogspot.com###cookieChoiceInfo
+go.tvn24.pl##.rodo-notice
 istotne.pl##.notification-info.notification
 minecraftpolska.net##.cookieinfo
 mybank.pl##.ciasteczka
+tvn24.pl###msgLayer
 wzory-cv.com##.gatewayBar
 !
 !
