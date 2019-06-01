@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: umL9P2VSzTGXvClLkq59eQ
+! Checksum: 74NisevEwSLkIG9RxREJgQ
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.1.1
-! Last modified: Sat, 01 Jun 2019, 15:00 UTC+02
+! Version: 2019.6.1.2
+! Last modified: Sat, 01 Jun 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,10 +17,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.1.1 aktualizacja: sob, 01 cze 2019, 15:00 UTC+02
+! v.2019.6.1.2 aktualizacja: sob, 01 cze 2019, 19:00 UTC+02
 !
 !
 ! Popupy
+akwarysta.eu,pinka.pl###colorbox, #cboxOverlay
 bazarek-deco.com.pl###NewsPop
 beskidy.news##.c-pop-up
 dementuj.pl,fifek.pl,psychiczni.pl###ips-popup, #ips-popup-wrapper
@@ -53,7 +54,6 @@ nportal.no###fb-overlay
 okiemturysty.pl##.div_box0
 pelnytalerz.com###fbox-background
 pierwsze-kroki.com###spu-26, #spu-bg-26
-pinka.pl###colorbox, #cboxOverlay
 pislamizacja.pl##.ulp-window
 pl###facebook-popup
 pl###fb-fan-pop
@@ -800,6 +800,7 @@ akma.pl##.footer-default-three
 akpolbaby.pl###footerBadzNaBiezaco
 aktywnadietetyka.blogspot.com,maturkazpolskiego.blogspot.com###Image1
 aktywnie.olsztyn.eu###block-block-8
+akwarysta.eu###Mod111 > .ja-box-ct > .custom > *:nth-child(n+6):nth-child(-n+11)
 alebilet.pl##.widget:nth-child(n+3)
 aleeko.pl##.footer-column a[href="https://blog.aleeko.pl"]
 alekinoplus.pl###FBRight
@@ -1456,6 +1457,7 @@ echotygodnik.info##.pinterest, .linkedin
 ecoblik.pl##.td-footer-wrapper div.td-pb-span4:nth-of-type(2)
 ecoflores.eu##.ribbon, .bezpieczenstwo.s-grid-3
 ecojob.pl##div.still.single-out:nth-of-type(n+4):nth-of-type(-n+5)
+ecovacs.com##.eco-iw-footer > .eco-iw-email > .box-right
 eco-way.pl###top_menu .clearfix.text-right.vertical-center.col-md-4.col-sm-4.col-xs-14.fn-textblock > .pull-right > a
 edgp.gazetaprawna.pl##div[class^="footer__follow"]
 edukacja.rybnik.eu##div.box:nth-of-type(6)
@@ -4118,6 +4120,8 @@ zwiedzam-stadiony.eu##.instagal_widget
 zwolen24.pl##div > a > img[src="images/index_t.png"], div > a > img[src="images/index_f.png"]
 zwrotzalot.pl##a[href^="https://www.facebook.com/zwrotzalot/"]
 zygzaksnow.pl###ppfacebook
+!akwarysta.eu###Mod111 > .ja-box-ct > .custom > hr:nth-of-type(n+2):nth-of-type(-n+3)
+!akwarysta.eu###Mod111 > .ja-box-ct > .custom > p:nth-of-type(n+5):nth-of-type(-n+8)
 !e-lazienki.pl,urzadzone.pl,e-dach.pl,e-instalacje.pl,e-sciany.pl,e-okna.pl,e-ogrodek.pl,e-izolacje.pl,e-mieszkanie.pl##.like
 !wakacje.pl###rightTabs
 !youtube.com###secondary-links > a[title="Facebook"]
