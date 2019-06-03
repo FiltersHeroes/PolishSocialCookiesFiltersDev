@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: TUUVNDrYXbgM55ZGqG1Zag
+! Checksum: FG8oOrn2vC2LxGkKRjcGTw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.1.2
-! Last modified: Sat, 01 Jun 2019, 19:00 UTC+02
+! Version: 2019.6.3.1
+! Last modified: Mon, 03 Jun 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.1.2 aktualizacja: sob, 01 cze 2019, 19:00 UTC+02
+! v.2019.6.3.1 aktualizacja: pon, 03 cze 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2032,6 +2032,7 @@ zysk.com.pl###pageUpperInfo
 ||paypass.pl/themes/paypass/js/cookies.js$script
 ||phufart.pl/info_o_cookie_utf8.js$script
 ||pikio.pl/desktop/static/js/jscookie.js$script
+||pino.pl/app/static/global/files/cookie-alert.js
 ||pks-sa.eu/media/system/js/cookie.js
 ||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
 ||pl/wp-content/plugins/eu-cookie-law-wp-cookie-law/$script
@@ -2161,6 +2162,7 @@ pl###barritaloca:not(body):not(html)
 pl###bar_bottom_cookie:not(body):not(html)
 pl###blockPopupInformation:not(body):not(html)
 pl###box_cookie:not(body):not(html)
+pl###box_cookie_info:not(body):not(html)
 pl###cadre_alert_cookies:not(body):not(html)
 pl###catapult-cookie-bar:not(body):not(html)
 pl###ca_banner:not(body):not(html)
