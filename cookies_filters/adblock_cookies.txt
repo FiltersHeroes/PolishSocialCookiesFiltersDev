@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: lmpsjlzlmttDuB5VYbUnjA
+! Checksum: V3ZpRVUUY1+Z0uymEQmVAA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.4.2
-! Last modified: Tue, 04 Jun 2019, 19:00 UTC+02
+! Version: 2019.6.4.3
+! Last modified: Tue, 04 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.4.2 aktualizacja: wto, 04 cze 2019, 19:00 UTC+02
+! v.2019.6.4.3 aktualizacja: wto, 04 cze 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -913,6 +913,7 @@ kartunsy.pl###ait-infobar
 kartuzy.info##div#page_top_topbar2
 kawasaki.pl###Panel_Cookies
 kazar.com#?#.bottom-data:-abp-has(.cookie-info)
+kca.nick.com.pl##section.module-container ~ div > .page-overlay > .page-overlay_wrapper
 kentype.pl##div#ciasteczka-box
 kepno.pl###dhtml_popup
 kiep.pl,milanos.pl,kreskowki.tv###rodo-pop
@@ -2364,7 +2365,7 @@ pl###cookie-info:not(body):not(html)
 pl###cookie-law-bar:not(body):not(html)
 pl###cookie-law-container:not(body):not(html)
 pl###cookie-law-info-again:not(body):not(html)
-pl###cookie-law-info-bar:not(body):not(html)
+pl###cookie-law-info-bar:not(body):not(html):not(.cli-bar-popup):not(.cli-modal-content)
 pl###cookie-law-message:not(body):not(html)
 pl###cookie-law:not(body):not(html)
 pl###cookie-line:not(body):not(html)
@@ -2903,6 +2904,7 @@ pikio.pl#@##cookie-policy:not(body):not(html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
 tychy.geminipark.pl#@#.privacy-policy:not(body):not(html)
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
+!wiadomosci-lodz.pl#@##cookie-law-info-bar:not(body):not(html)
 @@/js/CookieInfo.js$script,domain=cyrk-zalewski.com.pl|topschool.pl|porno720.pl
 @@/js/jquery.cookie.min.js$domain=rozklad.pkp.pl|rozklad-pkp.pl|telepizza.pl|pokatne.pl|moric.pl|hotto.pl
 @@/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$domain=escaperooms.pl|xboxarcade.pl|3dwpraktyce.pl|tvs.pl|przegladbaltycki.pl|wypowiadamoc.pl|gazetabilgoraj.pl|ittechblog.pl|rozterkistartuperki.pl|publolek.pl|trendywturystyce.pl|ekstrastats.pl|dermed.pl
