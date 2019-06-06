@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: mbR92Ua7/vbEdblPmJ8jKw
+! Checksum: /Tp85uRYom/ln2tGXpja7g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.6.1
-! Last modified: Thu, 06 Jun 2019, 03:00 UTC+02
+! Version: 2019.6.6.2
+! Last modified: Thu, 06 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.6.1 aktualizacja: czw, 06 cze 2019, 03:00 UTC+02
+! v.2019.6.6.2 aktualizacja: czw, 06 cze 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1356,6 +1356,7 @@ player.pl##.cBox
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
 play.google.com,books.google.pl###gb > div[style*="background-color"]
 pl.aleteia.org##.qc-cmp-ui-content, #qcCmpUi
+pl.aptoide.com##.cookie-notification-holder
 pl.chili.tv###_evh-ric
 pl.delfi.lt,joemonster.org,strawpoll.me,styl.fm,mistrzowie.org,fotka.com##body > div[class^="app_gdpr"]
 pl.depositphotos.com##._notification
@@ -1792,6 +1793,7 @@ vivus.pl#?##app > div > div > div[class]:-abp-has(.cnt)
 voxel.pl###block-rodo-rodo-block
 vuch.pl##.gdpr-cookie-bar
 wacetob.com.pl###container > div[style*="position"][style*="fixed"]:not([id]):not([class])
+wakacje.pl##div[class="klrijf-0 gmjIou"]
 wakacyjnipiraci.pl###tarteaucitronAlertBig
 wapteka.pl##.coo
 warka.com.pl###rodo_env
