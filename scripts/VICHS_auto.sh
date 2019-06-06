@@ -8,8 +8,6 @@ aktualna_godzina=$(date +"%H")
 cd $sciezka/..
 
 if [ "$CI" = "true" ]; then
-    git config --global user.email "PolishJarvis@int.pl"
-    git config --global user.name "PolishJarvis"
     if [[ "$aktualna_godzina" == "13" ]]; then
     ost_plik=$(git log --since="5 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
     else
