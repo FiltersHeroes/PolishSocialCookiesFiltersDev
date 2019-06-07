@@ -1,11 +1,11 @@
-! Checksum: wUHI3HRW1HddYS7cPEGrKQ
+! Checksum: 4SoWT6iMto1GYta5Ps1ZqQ
 ! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Social Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Social - Supplement
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.3.1
-! Last modified: Mon, 03 Jun 2019, 19:00 UTC+02
+! Version: 2019.6.7.1
+! Last modified: Fri, 07 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.3.1 aktualizacja: pon, 03 cze 2019, 19:00 UTC+02
+! v.2019.6.7.1 aktualizacja: pią, 07 cze 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -94,8 +94,7 @@ f.kafeteria.pl###ipsLayout_mainArea > .ipsList_inline > li > .cShareLink
 purepc.pl##.right.article-options
 wp.pl##.liketag, .wpsocials--buttons:style(visibility: hidden !important;)
 wp.pl,~www.wp.pl###app > div > table > tbody > tr:nth-child(1) > td > div > div > div > div > div > div > div > article > div > div > div > div[hidden]:style(position: absolute !important; left: -3000px !important;)
-zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta
-:style(visibility: hidden !important;)
+zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta:style(visibility: hidden !important;)
 !#endif
 !#if !cap_html_filtering
 azjatyckibazar.com##+js(remove-attr.js, href, .slides > li[data-duration] > a[href="http://facebook.com/azjatyckibazar"])
