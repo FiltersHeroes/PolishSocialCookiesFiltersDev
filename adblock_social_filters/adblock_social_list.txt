@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: d+J+21jR/bmUrOUcVo/yHw
+! Checksum: AOgjruiPWnSKmXfLC2ga6g
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.9.1
-! Last modified: Sun, 09 Jun 2019, 03:00 UTC+02
+! Version: 2019.6.9.2
+! Last modified: Sun, 09 Jun 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.9.1 aktualizacja: nie, 09 cze 2019, 03:00 UTC+02
+! v.2019.6.9.2 aktualizacja: nie, 09 cze 2019, 15:00 UTC+02
 !
 !
 ! Popupy
@@ -4395,7 +4395,8 @@ applemobile.pl###text-2
 bigbrother.tvn.pl###footer > .footer-container > div.footer-col:nth-of-type(4)
 businessinsider.com.pl##.socialButtons, a[href="https://twitter.com/BiPolska/"], a[href="https://www.facebook.com/BIPolska/"], a[href="https://www.linkedin.com/company/business-insider-polska"]
 cccteam.onet.pl###social-bar, .container--social, a[href="/#social"]
-dziendobry.tvn.pl##.detail__container_video.detail__container.container > .share_video.share > .share__item_fb.share__item, .share__item_g.share__item, .share__item_twitter.share__item, .top__post > a[href="https://www.facebook.com/DzienDobryTVN/videos/1775247319205224/"], .share:nth-of-type(8), .foot-wrap:nth-of-type(2) > .foot-box:nth-of-type(1), .foot-wrap:nth-of-type(2) > .foot-box:nth-of-type(2)
+dziendobry.tvn.pl###js-socials > a:not(:nth-of-type(3)), .footer .footer__media
+dziendobry.tvn.pl##.share__item_fb.share__item, .share__item_g.share__item, .share__item_twitter.share__item, .top__post > a[href^="https://www.facebook.com/DzienDobryTVN/"], .share:nth-of-type(8), .foot-wrap:nth-of-type(2) > .foot-box:nth-of-type(1), .foot-wrap:nth-of-type(2) > .foot-box:nth-of-type(2)
 eskago.pl##.social1.box
 fakty.tvn24.pl###dailyNewsBox
 fakt.pl##.socialButtons
