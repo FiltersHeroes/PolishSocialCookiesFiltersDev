@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: C9LmICqPk4M8H0wcHI8u7w
+! Checksum: goyTfj7ure21YvGd0GH40g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.9.1
-! Last modified: Sun, 09 Jun 2019, 15:00 UTC+02
+! Version: 2019.6.9.2
+! Last modified: Sun, 09 Jun 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.9.1 aktualizacja: nie, 09 cze 2019, 15:00 UTC+02
+! v.2019.6.9.2 aktualizacja: nie, 09 cze 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -193,6 +193,7 @@ balex.eu,kupzegarek.com,picodi.com,starysacz.info,ono24.info,wikidot.com,infobes
 balladine.com,nails.silcare.com,ochnik.com,mistama.com,basspolska.com,swiatpaneli.com,pl.coccodrillo.eu,ksiazki-medyczne.eu###cookies_message
 balluff.com,tidal.com##.cookie-info
 bambino.dzidziusiowo.pl##.section--cookies
+banggood.com##.cookie-tip
 bankier.pl###smart-cmp-host
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
 bankowoscprywatna.pkobp.pl###pko-cookie-rodo
@@ -410,7 +411,7 @@ deloitte.com,netcompany.com##.cookie-container
 delonghi.com###eucookielawcontainer
 delphiautoparts.com###region-notifications
 denley.pl##.ck-popup.cookiepopup
-denso.com,pl.gearbest.com,internationalpaper.com,gorlice.tv##.cookiePolicy
+denso.com,pl.gearbest.com,internationalpaper.com,gorlice.tv,gearbest.com##.cookiePolicy
 developers.google.com##.devsite-notification-eu-cookie
 developer.android.com,tensorflow.org##devsite-snackbar[type^="cookie-notification"]
 devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
@@ -1378,6 +1379,7 @@ pl.msi.com###ccc-notify
 pl.mytaxi.com##.cookie-overlay
 pl.next-jobs24.com###container, #container_tmp
 pl.pinterest.com##.outerCookieBar
+pl.pinterest.com#?#button[type="button"].noButtonStyles:-abp-has(> div:-abp-contains(Prywatność))
 pl.reddit.com,old.reddit.com###eu-cookie-policy
 pl.sputniknews.com###cookieContainer
 pl.thermaltake.com###gdprcode2
