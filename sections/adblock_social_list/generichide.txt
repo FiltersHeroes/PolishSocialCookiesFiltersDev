@@ -19,8 +19,8 @@ istotne.pl###social_buttons, .icon_twitter, .icon_facebook, .icon_google_plus, .
 kalendarz.onet.pl,poczta.onet.pl##.ico-facebook
 konkret24.tvn24.pl##.share-container > .share-container__icon-wrapper > .share-container__modes:not(.share-container__modes--copy-link), .socials
 kontakty.onet.pl##.icon-basic-menu-facebook
-kulturalnemedia.pl##.td-header-menu-social
-kulturalnemedia.pl##.td-social-sharing-button:not(.td-social-mail)
+kulturalnemedia.pl##.td-header-menu-social, .td-social-sharing-button:not(.td-social-mail)
+
 medonet.pl##.socialBox
 mmorpg.org.pl##.footer__top > .socials > a[href="https://twitter.com/grymmorpg"], .footer__top > .socials > a[href="https://www.facebook.com/mmoplaya"], .footer__top > .socials > a[href="https://www.youtube.com/themmorpglive"], .pink.socials > a[href="https://twitter.com/grymmorpg"], .pink.socials > a[href="https://www.facebook.com/mmoplaya"], .pink.socials > a[href="https://www.youtube.com/themmorpglive"]
 m.onet.pl##.fbShare, .newsItem > .shareButton
@@ -42,20 +42,20 @@ sniadaniezkadra.onet.pl###col-id-15
 sport.tvn24.pl##.htmlBox
 swojadroga.onet.pl##.page-foot-social
 sympatia.onet.pl##.findUs
-technowinki.onet.pl##a[href="https://www.youtube.com/user/KomputerSwiatOnline"]
-technowinki.onet.pl##.sidebarItem:nth-of-type(6)
-tvn24.pl##a[href="http://www.tvn24.pl/tvn24-tvn-meteo-tvn-warszawa-w-serwisach-spolecznosciowych,503979,s.html"]
+technowinki.onet.pl##a[href="https://www.youtube.com/user/KomputerSwiatOnline"], .sidebarItem:nth-of-type(6)
+
+tvn24.pl##a[href^="http://www.tvn24.pl/tvn24-tvn-meteo-tvn-warszawa-w-serwisach-spolecznosciowych"]
 tvn24.pl##.button_email, .fbClassicBox, .funpageTitleStyle, .shareContainerTop
-tvn24.pl##.htmlBox:nth-of-type(8), .htmlBox:nth-of-type(10), .htmlBox:nth-of-type(30), .htmlBox:nth-of-type(31), .side-info
-tvn24.pl##.social-icon
-tvnturbo.pl,tvn.pl##.socialPanel, .facebook_share, .gplus_share, .twitter_share, .socialFeedbackFooter, .header-card-social-item
-uwaga.tvn.pl##.insta-widget, .section-social
-uwaga.tvn.pl##.socialmedia > ul > .youtube
+tvn24.pl##.htmlBox:nth-of-type(8), .htmlBox:nth-of-type(10), .htmlBox:nth-of-type(30), .htmlBox:nth-of-type(31), .side-info, .social-icon
+
+tvnturbo.pl,tvn.pl,~www.tvn.pl##.socialPanel, .facebook_share, .gplus_share, .twitter_share, .socialFeedbackFooter, .header-card-social-item
+uwaga.tvn.pl##.insta-widget, .section-social, .socialmedia > ul > .youtube
+
 vod.pl##.v_shortTwShare, .v_shortFbShare
 wbi.onet.pl##.contentShareLeft
 webcamera.pl###footerbar div.col-md-3.col-sm-6:nth-of-type(4) > h2, .social, .floating-box-facebook
 www.tvn24.pl##.htmlBox:nth-of-type(26), .htmlBox:nth-of-type(27)
-www.tvn.pl##.footer-col:nth-of-type(4) > .footer-heading:nth-of-type(1), .footer-media, .open-modal, .detail-fb, .detail-gp, .detail-tw, .ds-fb, .ds-gp, .ds-tw
+www.tvn.pl##.footer-media, .open-modal, .detail-fb, .detail-gp, .detail-tw, .ds-fb, .ds-gp, .ds-tw, .footer-col:nth-of-type(4) > .footer-heading:nth-of-type(1)
 wzory-cv.com##.shareStackItem
 yafud.pl###strona > center, .extBox
 zapytaj.onet.pl##.or, .share-container
