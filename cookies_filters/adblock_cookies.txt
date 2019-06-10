@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: GYvCRhPrmc4YxDiGb4vuag
+! Checksum: EGmA+3KAwrwIY47BnNEe5g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.9.3
-! Last modified: Sun, 09 Jun 2019, 23:00 UTC+02
+! Version: 2019.6.10.1
+! Last modified: Mon, 10 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.9.3 aktualizacja: nie, 09 cze 2019, 23:00 UTC+02
+! v.2019.6.10.1 aktualizacja: pon, 10 cze 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1689,6 +1689,7 @@ sykomat.com.pl###adimo-cookie
 synology.com###cookies_header
 systemair.com###gdprdialog.gdpr-message, .reveal-modal-bg
 system.t-mobilebankowe.pl#?##app > div[class]:not([id]) > div[class]:not([id]):last-child > div[class]:not([id]):-abp-contains(cookies)
+szajna.pl##.fwp-cookis
 szansa-annopol.pl##.cookies-msg-wrapper
 szczecinek.com###__cmcmedia_upid_26
 szczepimy.com.pl##.cookiesalert
@@ -2444,6 +2445,7 @@ pl###gm-cookies:not(body):not(html)
 pl###hw_cookie_law:not(body):not(html)
 pl###icc_message:not(body):not(html)
 pl###ics-pp-cookies-accept:not(body):not(html)
+pl###infocookies:not(body):not(html)
 pl###infocookie:not(body):not(html)
 pl###informations-cookies:not(body):not(html)
 pl###info-cookies-banner:not(body):not(html)
