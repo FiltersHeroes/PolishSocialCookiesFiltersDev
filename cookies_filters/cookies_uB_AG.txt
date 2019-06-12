@@ -1,11 +1,11 @@
-! Checksum: 8pF2J6bKO7dUIvavnKoMrw
+! Checksum: GfdnEqMuyHb8dq4leO5Fog
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.12.1
-! Last modified: Wed, 12 Jun 2019, 19:00 UTC+02
+! Version: 2019.6.12.2
+! Last modified: Wed, 12 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.12.1 aktualizacja: śro, 12 cze 2019, 19:00 UTC+02
+! v.2019.6.12.2 aktualizacja: śro, 12 cze 2019, 23:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -80,6 +80,7 @@ dropbox.com##.embedded-app.IndexRebrandPage.top-notification-bar:style(margin-to
 dropbox.com##.top-notification-bar-container + .preview-box .react-file-viewer, .embedded-app.IndexRebrandPage.top-notification-bar .RebrandNavigation-container:style(top: 0 !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
 edupolis.pl###sgpb-popup-dialog-main-div-wrapper, .sg-popup-overlay
+e-sochaczew.pl,paczkomaty.pl,repostuj.pl,wedkuje.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
 e-sochaczew.pl,wedkuje.pl##RODOCOOKIE, .modal-backdrop
 e-sochaczew.pl,wedkuje.pl##+js(abort-current-inline-script.js, SendAccept2, RODOCOOKIE)
 fabrykacukiernika.pl##.rodo-on:style(overflow: auto !important;)
@@ -178,7 +179,6 @@ ostrzegamy.online##.rodo-popup, .rodo-overlay
 otwarteklatki.pl###popup-gdpr, .popup-overlay
 otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
 paczkomaty.pl##.modal:has(app-regulations-modal > .modal-header > .modal-title:has-text(RODO)), .modal-backdrop
-paczkomaty.pl,repostuj.pl,wedkuje.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
 panattonieurope.com###image-popup.txt-popup, #image-popup-bg
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important;)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important;)
