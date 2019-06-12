@@ -60,6 +60,7 @@ dropbox.com##.embedded-app.IndexRebrandPage.top-notification-bar:style(margin-to
 dropbox.com##.top-notification-bar-container + .preview-box .react-file-viewer, .embedded-app.IndexRebrandPage.top-notification-bar .RebrandNavigation-container:style(top: 0 !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
 edupolis.pl###sgpb-popup-dialog-main-div-wrapper, .sg-popup-overlay
+e-sochaczew.pl,paczkomaty.pl,repostuj.pl,wedkuje.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
 e-sochaczew.pl,wedkuje.pl##RODOCOOKIE, .modal-backdrop
 e-sochaczew.pl,wedkuje.pl##+js(abort-current-inline-script.js, SendAccept2, RODOCOOKIE)
 fabrykacukiernika.pl##.rodo-on:style(overflow: auto !important;)
@@ -158,7 +159,6 @@ ostrzegamy.online##.rodo-popup, .rodo-overlay
 otwarteklatki.pl###popup-gdpr, .popup-overlay
 otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
 paczkomaty.pl##.modal:has(app-regulations-modal > .modal-header > .modal-title:has-text(RODO)), .modal-backdrop
-e-sochaczew.pl,paczkomaty.pl,repostuj.pl,wedkuje.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
 panattonieurope.com###image-popup.txt-popup, #image-popup-bg
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important;)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important;)
