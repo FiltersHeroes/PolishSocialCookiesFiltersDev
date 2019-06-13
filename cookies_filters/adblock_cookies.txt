@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: GRV3pH4PtyUy64vwPSZiHQ
+! Checksum: ac3Klfba8DEUvGR8Mt/OYg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.12.3
-! Last modified: Wed, 12 Jun 2019, 23:00 UTC+02
+! Version: 2019.6.13.1
+! Last modified: Thu, 13 Jun 2019, 19:01 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.12.3 aktualizacja: śro, 12 cze 2019, 23:00 UTC+02
+! v.2019.6.13.1 aktualizacja: czw, 13 cze 2019, 19:01 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1136,6 +1136,7 @@ mirjan24.pl###window_overlay
 missplanner.pl##.page--notification
 mistama.com,sklep.agro-plus.com.pl###change_terms_message
 mitsubishielectric.com##.cookie-hint
+mittendrin.pl##.bpcms-cookie-bar
 mixmedia.pl##div#cook_info
 mi.com##.J_agreeCookieModal, .top-notify
 mmtv.pl###policyInfo
@@ -1194,6 +1195,7 @@ mzdik.pl###webDataTime > span
 mzkzg.org##.cookies-container
 m.benchmark.pl###private-policy-popup
 m.facebook.com,touch.facebook.com###header-notices
+m.pl.aliexpress.com###amp-notification
 naekranie.pl,~vod.naekranie.pl###modal-rodo-info
 nakanapie.pl##div.sticker
 nanodatex.pl###cookis-box
@@ -1974,6 +1976,7 @@ zysk.com.pl###pageUpperInfo
 /whcookies.js$domain=pl
 /wp-content/plugins/mm-extensions/assets/js/info-popup.js$domain=koty.pl|psy.pl
 /wp-content/plugins/wp-modal-popup-with-cookie-integration/*$script,stylesheet,domain=edutorial.pl
+/zgody/css/rodo-popup-n.css$stylesheet
 ||ad.ipolska.pl/cookies/cookiecheck.js$script,domain=wielodzietni.org
 ||akademiareissa.pl/jquery.cg.rodo.modal.js
 ||apteki24.waw.pl/info_cook.js
@@ -2002,6 +2005,7 @@ zysk.com.pl###pageUpperInfo
 ||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|nespresso.com|oracle.com|origin.com|wd.com|weather.com|wunderground.com|xerox.com|signify.com|meethue.com|support.wdc.com
 ||cookiebanner.eu/js/cookiebanner.min.js
 ||cookieq.com^$third-party
+||cookies.aptelink.pl/nc.js
 ||cookies.komputerswiat.pl/checkCookie$script
 ||cookie.avt.pl/cookie-noscript
 ||cookie.bortos.pl/*cookie*.js$script
