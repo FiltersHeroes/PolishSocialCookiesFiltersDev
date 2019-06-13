@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: llc2dQw2vnZi74JxurRhyg
+! Checksum: +M91PCbT/LDolRE6F+bC1Q
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.13.1
-! Last modified: Thu, 13 Jun 2019, 19:01 UTC+02
+! Version: 2019.6.13.2
+! Last modified: Thu, 13 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.13.1 aktualizacja: czw, 13 cze 2019, 19:01 UTC+02
+! v.2019.6.13.2 aktualizacja: czw, 13 cze 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -741,7 +741,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 2xme.pl##.footer__block--flex.footer__block, .media__second
 3dom.pro##.division-size-50.division-box-2.division-box
 3mk.pl###text-8
-3mk.pl,400.pl,ccnews.pl##.cresta-facebook-messenger-box
+3mk.pl,400.pl,ccnews.pl,netyou.pl##.cresta-facebook-messenger-box
 3obieg.pl###text-7, .smart-youtube
 4dd.pl##.list-12 > li
 4fun.tv##.mt-4.mb-3.justify-content-center.d-flex, .mt-5.row > div.col-md-4:nth-child(-n+2)
@@ -1137,6 +1137,7 @@ brzydale.pl###lizyt, .facebook-kolo, .youtube-kolo, .instagram-kolo
 bucki.pro##.Intro > .Social
 budimex-nieruchomosci.pl###blog, #pinterest
 budnet.pl##.widget_budnet_right
+budujemydom.pl##.c-social-item
 budujemy.eostroleka.pl##.aside-elem:nth-of-type(8)
 budujmase.pl##.vc_col-sm-3.vc_column_container.wpb_column:nth-of-type(4) > .wpex-clr.vc_column-inner
 buff.pl##footer > .container.row.menu_banners3_wrapper
@@ -3100,6 +3101,7 @@ prawo-mamy.pl##.widget_facebook-widget.widget
 prbbudomal.pl##.nav-social-media
 premium.pl##a[href^="http://www.facebook.pl/share.php"]
 prestashop.com##.footer-shares
+presta-portal.pl###likebox_content
 prestigio.pl##.community > .footer-menu-block
 prezencik.eu###social > a:not([href="/newsletter/add"])
 prezeska.pl##div.section-box.widget:nth-of-type(1)
@@ -3893,6 +3895,7 @@ wearmedicine.com###socialMediaIcons
 webcamera.pl##.instagram-box
 webinsider.pl###monarchwidget-2
 webio.pl##li.nav-item:nth-of-type(n+5):nth-of-type(-n+6) > .nav-link
+webkod.pl###fb-web-link-button
 webserwer.pl###panels > ul > li:nth-of-type(4) > a > img
 weck.com.pl##ul:nth-of-type(4)
 weddingdream.com##.td-footer-page > .tdc-row > .vc_row > .vc_column:nth-of-type(3)
@@ -4030,6 +4033,8 @@ www.premier.gov.pl##.fr > .fr > .fr > li
 www.promocyjni.pl##.socials-float
 www.provident.pl##footer > .copyright-container  .row .col-xs-12 > div > div > p:nth-of-type(6) > a[target="_blank"]
 www.publio.pl##.facebook-page-widget
+www.pzu.pl##.footer div.col-md-4:nth-of-type(3) > h4
+www.pzu.pl##.footer div.col-md-4:nth-of-type(3) > .row > div.col-xs-12:nth-of-type(2) > .menu_list
 www.pzw.org.pl###body_widget_youtube
 www.risreklamy.pl,mobbingwpracy.com,www.up.krakow.pl##.jj_sl_navigation
 www.rossmann.pl##a[href="https://www.instagram.com/RossmannPL/"]
@@ -4097,6 +4102,7 @@ zalando.pl##.z-navigation-footer_subFooterIcons.z-navigation-footer_subFooterIco
 zamalozarabiam.pl###fb_tab
 zaniczka.pl##.col-sm-3.col-md-3.col-lg-3.fusion-column:nth-of-type(1)
 zapachove.interia.pl##.article-pagelike, .is-bottom.article-social
+zapiexy.pl##a[href="https://www.instagram.com/zapiexy_widok19/"], a[href^="https://pl.tripadvisor.com/Restaurant_Review-"][href$="Zapiexy_Luxusowe-Warsaw_Mazovia_Province_Central_Poland.html"]
 zapinamypasy.pl##.share-media
 zapiskizeswiata.pl###HTML2, #HTML3
 zarabiam.com###sidebar_block > .tborder:nth-of-type(1)
