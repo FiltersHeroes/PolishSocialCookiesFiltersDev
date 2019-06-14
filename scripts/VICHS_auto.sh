@@ -5,7 +5,7 @@ sciezka=$(dirname "$0")
 
 aktualna_godzina=$(date +"%H")
 
-cd $sciezka/..
+cd "$sciezka"/..
 
 if [ "$CI" = "true" ]; then
     if [[ "$aktualna_godzina" == "13" ]]; then
@@ -47,5 +47,5 @@ done
 
 
 if [ "$lista" ]; then
-    $sciezka/VICHS.sh $lista
+    "$sciezka"/VICHS.sh "$lista"
 fi
