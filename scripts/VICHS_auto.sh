@@ -5,13 +5,13 @@ sciezka=$(dirname "$0")
 
 aktualna_godzina=$(date +"%H")
 
-cd "$sciezka"/..
+cd "$sciezka"/.. || exit
 
 if [ "$CI" = "true" ]; then
     if [[ "$aktualna_godzina" == "13" ]]; then
-    ost_plik=$(git log --since="5 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
+        ost_plik=$(git log --since="5 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
     else
-    ost_plik=$(git log --since="3 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
+        ost_plik=$(git log --since="3 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
     fi
 else
     ost_plik=$(git diff -z --name-only | xargs -0)
@@ -47,5 +47,5 @@ done
 
 
 if [ "$lista" ]; then
-    "$sciezka"/VICHS.sh "$lista"
+    "$sciezka"/VICHS.sh $lista
 fi
