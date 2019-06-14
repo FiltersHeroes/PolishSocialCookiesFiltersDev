@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: I320E+LJ49O7nEfD8Q1lQg
+! Checksum: mXHuXq+Q0CG3CUeTVqMgMg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.13.2
-! Last modified: Thu, 13 Jun 2019, 23:00 UTC+02
+! Version: 2019.6.14.1
+! Last modified: Fri, 14 Jun 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.13.2 aktualizacja: czw, 13 cze 2019, 23:00 UTC+02
+! v.2019.6.14.1 aktualizacja: pią, 14 cze 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -69,6 +69,7 @@ adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,np
 adwokatura.katowice.pl###cookieInfCont
 aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com,ipa-katowice.org,ftt.roto-frank.com,filehippo.com,punkt.media,parafiabrzezinka.eu,tw-db.info,techsklep.eu,eurolines.de,malopolskie-media.info##.cc_banner-wrapper > .cc_banner
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
+aero7.pl,icube.pl,loveair.pl###ci-rodo
 aforyzmy-cytaty.pl#?#.alert:-abp-contains(cookies)
 afryka.org##body > div[style="background: #911515;"]:nth-of-type(1)
 aftermarket-benefit.pl###zgodaCookies
@@ -391,6 +392,7 @@ czluchow.com.pl##table:nth-of-type(1) > tbody > tr > td > p:nth-of-type(1)
 c-and-a.com##.cookie-note
 c.mi.com##.privacy_agreement
 daciakatowice.pl,nazaruk.pl##.fixedInfo
+daemon-tools.cc##.cookies_banner
 daewooforum.pl##.back > table:not(.bodyline):nth-of-type(1)
 daiglob.pl###NRodo2018
 danepubliczne.gov.pl##.flash-messages
@@ -819,7 +821,6 @@ iab.org.pl,iabpolska.pl###wpca-wrapper
 ias24.eu##.cookies-msg
 icar.pl###icarcookies
 icppc.pl###wptbheadline1
-icube.pl,loveair.pl###ci-rodo
 idcgames.com##.avisolegal_p
 ideau.pl##.cookie__info
 ids.q8.com###calibr8-cookie-compliance
