@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: mXHuXq+Q0CG3CUeTVqMgMg
+! Checksum: INul3JqjkF0ac9Sdscx6Ow
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.14.1
-! Last modified: Fri, 14 Jun 2019, 19:00 UTC+02
+! Version: 2019.6.14.2
+! Last modified: Fri, 14 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.14.1 aktualizacja: pią, 14 cze 2019, 19:00 UTC+02
+! v.2019.6.14.2 aktualizacja: pią, 14 cze 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -677,7 +677,7 @@ galaxy-centrum.pl###gdpr-window
 gamedot.pl##.policy_warning
 gameplay.pl##div#CP_box
 gameplay.pl,tvgry.pl,gry-online.pl##.cookie-alert-2018-c
-gamerhash.com,szukajka.tv,wizzair.com,styl.fm##.cookie-policy
+gamerhash.com,szukajka.tv,wizzair.com,styl.fm,inijob.com##.cookie-policy
 gaming.youtube.com###notification-footer
 gamisport.pl###nextcreBotDialog
 gardinia.pl,ogradzamy.pl,mactronic.pl##body > div[id*="cookie"]
@@ -1799,6 +1799,7 @@ virustotal.com,virustotalcloud.appspot.com###euConsent
 vivaldi.com###cookiemsg
 vivrehome.pl###notification__consent
 vivus.pl#?##app > div > div > div[class]:-abp-has(.cnt)
+vodflix.tv##.tibrr-cookie-consent-container
 voxel.pl###block-rodo-rodo-block
 vuch.pl##.gdpr-cookie-bar
 wacetob.com.pl###container > div[style*="position"][style*="fixed"]:not([id]):not([class])
@@ -1978,7 +1979,7 @@ zysk.com.pl###pageUpperInfo
 /whcookies.js$domain=pl
 /wp-content/plugins/mm-extensions/assets/js/info-popup.js$domain=koty.pl|psy.pl
 /wp-content/plugins/wp-modal-popup-with-cookie-integration/*$script,stylesheet,domain=edutorial.pl
-/zgody/css/rodo-popup-n.css$stylesheet
+/zgody/css/rodo-popup-n.css$domain=gruparmf.pl|rmf.fm|rmfmaxxx.pl|rmfclassic.pl
 ||ad.ipolska.pl/cookies/cookiecheck.js$script,domain=wielodzietni.org
 ||akademiareissa.pl/jquery.cg.rodo.modal.js
 ||apteki24.waw.pl/info_cook.js
