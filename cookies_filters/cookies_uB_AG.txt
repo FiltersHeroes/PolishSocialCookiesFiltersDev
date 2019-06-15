@@ -1,11 +1,11 @@
-! Checksum: GfdnEqMuyHb8dq4leO5Fog
+! Checksum: pafkEFytwB+lCM1hYENnOg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.12.2
-! Last modified: Wed, 12 Jun 2019, 23:00 UTC+02
+! Version: 2019.6.15.1
+! Last modified: Sat, 15 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.12.2 aktualizacja: śro, 12 cze 2019, 23:00 UTC+02
+! v.2019.6.15.1 aktualizacja: sob, 15 cze 2019, 23:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -33,8 +33,8 @@ albeco.com.pl###content:style(filter: none !important;)
 albeco.com.pl###pol-background, #pol-c
 analizy.pl##.nl_rodo, .ui-widget-overlay
 analizy.pl,mago.com,edupolis.pl##html:style(overflow: auto !important;)
-andrychow.eu,candeo.pl,defra.pl,fdds.pl,gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,manageronline.pl,pedzledomakijazu.com,powiat.limanowski.pl,przegladpolityczny.pl,zgrp.pl##.popmake-overlay[data-popmake*="cookies"]
-andrychow.eu,candeo.pl,defra.pl,fdds.pl,gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,manageronline.pl,pedzledomakijazu.com,powiat.limanowski.pl,przegladpolityczny.pl,zgrp.pl##.pum-open:style(overflow: auto !important;)
+andrychow.eu,candeo.pl,defra.pl,fdds.pl,gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,manageronline.pl,pedzledomakijazu.com,powiat.limanowski.pl,przegladpolityczny.pl,zgrp.pl,informatorium.ksiaznica.torun.pl##.popmake-overlay[data-popmake*="cookies"]
+andrychow.eu,candeo.pl,defra.pl,fdds.pl,gazetabilgoraj.pl,koleje-wielkopolskie.com.pl,manageronline.pl,pedzledomakijazu.com,powiat.limanowski.pl,przegladpolityczny.pl,zgrp.pl,informatorium.ksiaznica.torun.pl##.pum-open:style(overflow: auto !important;)
 appsource.microsoft.com##.cookieBanner:style(visibility: hidden !important;)
 aquapark.wroc.pl###header:style(top: 0 !important;)
 archiwum.rp.pl,info.rp.pl,konik-online.pl,bloombergbusinessweek.pl##body:style(margin-top: 0 !important;)
