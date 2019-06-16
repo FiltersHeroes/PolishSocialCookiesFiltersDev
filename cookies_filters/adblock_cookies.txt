@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ZNrlNiqWqoX94ZvdfWLPFA
+! Checksum: fq7Toa4Hdou39lzOyDi/MA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.16.2
-! Last modified: Sun, 16 Jun 2019, 15:00 UTC+02
+! Version: 2019.6.16.3
+! Last modified: Sun, 16 Jun 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.16.2 aktualizacja: nie, 16 cze 2019, 15:00 UTC+02
+! v.2019.6.16.3 aktualizacja: nie, 16 cze 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -497,7 +497,7 @@ echosonda.pl###cookie_i
 ecobagnetwork.eu,kuvert.com.pl###gdpr-cookie-message
 economist.com##div#ec-message-1
 eco.atman.pl,kreskoweczki.pl,groj.pl,marketing-news.pl,www.obozytenisowe.pl###gbpl_oba
-edukacja.rybnik.eu,polskaekologia.org,siemiatycze.eu##.cookieWarning
+edukacja.rybnik.eu,polskaekologia.org,siemiatycze.eu,medialubuskie.eu##.cookieWarning
 edupage.org##.eu-cookie-panel
 edutorial.pl,kerrisgroup.com###wmpci-popup-wrp
 eecpoland.eu##.cookie-bar2
@@ -1316,6 +1316,7 @@ ospace.com.pl###private-police.private-police
 ostrowiecnr1.pl###iopp
 otolaryngolodzy24.pl,prow.lubelskie.pl,rogowskidevelopment.pl###rodo-policy
 otwarte.eu###accept-cookie-box
+outlook.live.com#?#.ms-Modal:-abp-contains(Kontynuuj przeglądanie witryny)
 owczarska.eu###cadre_alert_cookies
 owocowydom.pl,weck.com.pl###popup2
 pafere.org##.dialog.ginger_banner
@@ -1817,6 +1818,7 @@ wars.pl###spu-1773, #spu-bg-1773
 wayup.pl###rodoMsg
 wbp.poznan.pl##.kmw_cookies
 wcz.waw.pl###topBarContainer > .region-topbar.region > .block-block.block
+weathermap.netatmo.com##cookie-banner > #cookie-banner > .cookie-warning
 weather.com##.lite-msg-parent
 webcover.eu###box-polityka-pr
 webdev20.pl###top_message
@@ -2006,9 +2008,9 @@ zysk.com.pl###pageUpperInfo
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
 ||confero.pl/js/cookies2013$script
 ||consentmanager.mgr.consensu.org/delivery/cmp.min.js$script,domain=opinie24.pl
-||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|java.com|reebok.pl|garmin.com|leagueoflegends.com
+||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|garmin.com|java.com|leagueoflegends.com|reebok.pl
 ||consent.truste.com/get?name=notice.js$script
-||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|nespresso.com|oracle.com|origin.com|wd.com|weather.com|wunderground.com|xerox.com|signify.com|meethue.com|support.wdc.com
+||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|meethue.com|nespresso.com|oracle.com|origin.com|signify.com|support.wdc.com|wd.com|weather.com|wunderground.com|xerox.com
 ||cookiebanner.eu/js/cookiebanner.min.js
 ||cookieq.com^$third-party
 ||cookies.aptelink.pl/nc.js
