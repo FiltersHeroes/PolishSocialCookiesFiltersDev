@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 8oUuJF9b278Z18dS5i88Ew
+! Checksum: hf8qQCR94JOlE1ZReOib/A
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.17.1
-! Last modified: Mon, 17 Jun 2019, 19:00 UTC+02
+! Version: 2019.6.17.2
+! Last modified: Mon, 17 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.17.1 aktualizacja: pon, 17 cze 2019, 19:00 UTC+02
+! v.2019.6.17.2 aktualizacja: pon, 17 cze 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -966,6 +966,7 @@ azure.microsoft.com##nav.medium-3.column
 az.pl##div.o-page-footer__column:nth-of-type(3) > ul.o-footer-list:nth-of-type(1)
 b2btrade.eu###footer > div:nth-of-type(6) > a.left
 b365.pl###box_custom36
+babi-kacik.eu,webinsider.pl##.widget_monarchwidget.widget
 babyfizjo.pl,kdi.pl,wkom.pl,znadniemna.pl###wkomimg > a
 baccata.com.pl##a.footer_soc_icon:nth-of-type(-n+2)
 bacca.pl###MenuWidget-3
@@ -2213,6 +2214,7 @@ kosmiczneujawnienie.com##.fusion-column-wrapper > div.imageframe-align-center:nt
 kosmonautyka.pl,profcomputer.pl##tr:nth-of-type(3)
 koszalininfo.pl,niezatapialni.com,fury-zone.com,dobremoce.pl###text-4
 koszulki-polska.pl##.link-follow
+koszulkolandia.com###social > a:not([href="/newsletter/add"])
 koszulkowo.com##.icon-wrapper--facebook
 koszulkowo.com##.sec--foot__info__row__box:nth-of-type(2) > .main-title
 koszyki.com##.findus
@@ -3568,6 +3570,7 @@ studiojogapark.pl##.hidden-xs[style^="position:fixed;"] > p:nth-of-type(1)
 studiokosmetyki.com##.icon-social_facebook_square
 studiomanilov.eu#?#.builder-parallax-scrolling.clearfix.module_row.themify_builder_row:-abp-contains(Dołączam do grupy)
 subiektywnieofinansach.pl##.et-social-instagram
+sugarrrsoup.blogspot.com###Image3, #Image4, #Image5
 sukniesabe.pl##.social_instagram
 superauto24.com##div.smframe:nth-of-type(9), div.smframe:nth-of-type(10)
 superauto24.com##.home > .cr > .params > div.smframe:nth-of-type(11)
@@ -3757,6 +3760,7 @@ turystyka.torun.pl###carousel_list_bottom > li:-abp-has([href^="http://www.faceb
 tutek.pl#?#.footer .col-6:first-of-type:-abp-has(> #sow-editor-2 > .so-widget-sow-editor)
 tuzdrowie.pl##.tr-facebook
 tu.swinoujscie.pl###jr_insta_slider-4
+tvcsw.info###rum_sst_tab
 tvdami.eu##.sbuttons > li:nth-of-type(-n+2)
 tvgry.pl##.mnu-ico-fb, .mnu-ico-yt, .mnu-ico-tw, .tvgry-main-right-promo
 tvmalbork.pl##a[href="/facebook"]
@@ -3899,7 +3903,6 @@ wbpg.org.pl##div:nth-of-type(3) > .field__label
 wearmedicine.com##.socialMediaFooter
 wearmedicine.com###socialMediaIcons
 webcamera.pl##.instagram-box
-webinsider.pl###monarchwidget-2
 webio.pl##li.nav-item:nth-of-type(n+5):nth-of-type(-n+6) > .nav-link
 webkod.pl###fb-web-link-button
 webserwer.pl###panels > ul > li:nth-of-type(4) > a > img
@@ -4287,6 +4290,8 @@ zygzaksnow.pl###ppfacebook
 ||lib.onet.pl/fblike/v5/fb-popover.js$script
 ||linguajob.pl/_tpl/_img/facebook_slider.png
 ||lomianki.pl/lomianki2/new_layout/facebook.png
+||luban.pl/upload/baner/twitter-1.png
+||luban.pl/upload/baner/youtube-1.png
 ||lunch24.com/facebook-white.png
 ||lunch24.com/instagram-white.png
 ||maclife.pl/Modules/mod.main/images/icons/icon-footer-google.png
