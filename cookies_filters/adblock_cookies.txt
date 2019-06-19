@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: QtFRthEzWETTag/ZsqGMlg
+! Checksum: RG72mdpX2abdMlr9iXUXcw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.19.1
-! Last modified: Wed, 19 Jun 2019, 15:00 UTC+02
+! Version: 2019.6.19.2
+! Last modified: Wed, 19 Jun 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.19.1 aktualizacja: śro, 19 cze 2019, 15:00 UTC+02
+! v.2019.6.19.2 aktualizacja: śro, 19 cze 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -77,7 +77,7 @@ afryka.org##body > div[style="background: #911515;"]:nth-of-type(1)
 aftermarket-benefit.pl###zgodaCookies
 aftermarket.pl###part-cookies
 agencjagazeta.pl,sklep.genos.com.pl,panoramafirm.pl###rodoLayer
-agmar.com,altimi.com,superstacja.tv,fiufiu.co,inwex.eu,fibaro.com,opoczno.eu,portal.legnica.eu###cookie-info
+agmar.com,altimi.com,superstacja.tv,fiufiu.co,inwex.eu,fibaro.com,opoczno.eu,portal.legnica.eu,bioenergiadlaregionu.eu###cookie-info
 agropolska.pl,miastograf.pl##.ui-dialog[aria-describedby], .ui-widget-overlay
 agrozakupy.pl###ms-cookie-policy
 agusto.pl###st_notification_3
@@ -448,7 +448,7 @@ doceniajnieoceniaj.pl###msgprivacy
 dolce-gusto.pl###nimgrowler
 dollarro.com###pnlCookiebanner
 dolnyslask.travel##.cl-banner
-dombud.eu,kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu,hikoki-narzedzia.pl,rockwellautomation.com,cropp.com,sklep-tvsat.com,ganjamafiashop.com,laroxy.com,giftmaker.eu,navcomm.eu,gorke.eu###cookieNotice
+dombud.eu,kameleonbutik.com,rebelelectro.com,giorre.com,mojeinstalacje.com,zeskory.com,spacetronik.eu,hikoki-narzedzia.pl,rockwellautomation.com,cropp.com,sklep-tvsat.com,ganjamafiashop.com,laroxy.com,giftmaker.eu,navcomm.eu,gorke.eu,zbiornikinadeszczowke.com###cookieNotice
 domd.pl###cookie-info-popup
 domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
 domesta.com.pl###CookiesWarningPopup
@@ -1149,7 +1149,8 @@ mmtv.pl###policyInfo
 mniammniam.com##.mm-cookies
 mniamspinka.pl##body > div > .alert-box
 mobile.de###consentBanner, div[class^="cookie-banner"]
-mobile.twitter.com##.r-gvpnoh.r-eps6nq.r-13qz1uu
+mobile.twitter.com#?##react-root > div > div > div > div > div:-abp-contains(cookie)
+mobile.twitter.com#?##react-root > div > div > div > main > div > div > div:-abp-contains(cookie)
 mobilitytrends.pl,mobilitynews.pl,techtradeshow.pl##.politic-cookie
 mobilne-miasto.org###c-box
 moda-pol.com###cookie.cookies
@@ -1294,6 +1295,7 @@ onlineradiobox.com###alert_cookies
 online.sbrbank.pl###pnlFooter
 opac.wimbp.zgora.pl##div#alertboxsec_c, div#alertboxsec_mask
 opel.pl##.q-silent-consent.q-legal-notification
+open.spotify.com##[aria-live="polite"]:not(style)
 operon.pl##.rodoModal
 opineo.pl,skapiec.pl##div#uclaInfo
 opoka.tv,ekskluzywnymenel.com###eu-cookie-bar
@@ -1946,6 +1948,7 @@ zarnow.eu##.cookieContainer
 zarzadzanieprojektami.org###cookinfo
 zaufanekliniki.pl#?#.alert-error.alert:-abp-contains(cookies)
 zawodykonne.com###cookie-akcept
+zbiornikinadeszczowke.com##.fancybox-overlay
 zdrowastrona.pl##.cookiesMsg
 zdrowiewkrakowie.pl##body > div[style]:not([id]):not([class]):nth-of-type(2)
 zegarkiipasja.pl###fcx-cookie-consent
