@@ -140,8 +140,6 @@ m.autocentrum.pl##html.menu-active:style(overflow: auto !important;)
 m.autocentrum.pl##.hello-rodo
 m.filmweb.pl##body.rodo[style^="padding-top:"]:style(padding-top: 0 !important;)
 m.youtube.com##body[modal-open-body]:style(position: static !important;)
-youtube.com###yt-consent-dialog, #yt-dialog-bg
-youtube.com##.yt-dialog-active:style(overflow: auto !important;)
 m.youtube.com##.consent-bump-lightbox
 nastyku.pl###ns_cookie_accepted
 nauka.rocks##.ct-ultimate-gdpr-cookie-topPanel-padding:style(padding-top: 0 !important;)
@@ -239,6 +237,8 @@ www.g2a.com##.noscroll:style(position: static !important; overflow: auto !import
 www.pekao.com.pl##body.is-reveal-open:style(overflow: auto !important; width: unset !important;)
 www.pekao.com.pl##.reveal-overlay:has(#gdpr-popup)
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px !important;)
+youtube.com###yt-consent-dialog, #yt-dialog-bg
+youtube.com##.yt-dialog-active:style(overflow: auto !important;)
 zakopane.info,tuwroclaw.com###pd-modal, .modal-backdrop
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
 zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
