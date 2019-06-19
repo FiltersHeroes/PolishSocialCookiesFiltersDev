@@ -1,11 +1,11 @@
-! Checksum: 0GxGIa6To8/zdUrsZn90yA
+! Checksum: dZO/HQmlOxvtEEMlCiHhqw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.18.1
-! Last modified: Tue, 18 Jun 2019, 15:00 UTC+02
+! Version: 2019.6.19.1
+! Last modified: Wed, 19 Jun 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.18.1 aktualizacja: wto, 18 cze 2019, 15:00 UTC+02
+! v.2019.6.19.1 aktualizacja: śro, 19 cze 2019, 15:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -257,6 +257,8 @@ www.g2a.com##.noscroll:style(position: static !important; overflow: auto !import
 www.pekao.com.pl##body.is-reveal-open:style(overflow: auto !important; width: unset !important;)
 www.pekao.com.pl##.reveal-overlay:has(#gdpr-popup)
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px !important;)
+youtube.com###yt-consent-dialog, #yt-dialog-bg
+youtube.com##.yt-dialog-active:style(overflow: auto !important;)
 zakopane.info,tuwroclaw.com###pd-modal, .modal-backdrop
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
 zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
