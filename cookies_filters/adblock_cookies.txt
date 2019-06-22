@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: t1+AGdog6Wsta/ld6hK+Gw
+! Checksum: un0Qst0KEVWqWfOSY6ms7w
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.22.3
-! Last modified: Sat, 22 Jun 2019, 19:00 UTC+02
+! Version: 2019.6.22.4
+! Last modified: Sat, 22 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.22.3 aktualizacja: sob, 22 cze 2019, 19:00 UTC+02
+! v.2019.6.22.4 aktualizacja: sob, 22 cze 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -271,7 +271,7 @@ blog-pozyczoneiniebieskie.pl###cookie_info_container
 bluecity.pl##.gp-gdpr__belt
 bmc-switzerland.pl,bisset.pl##.tab2-rodo-bar
 bobrowniki.tv###cookie_policy_popup
-bocian.org.pl,siteor.pl##.jGrowl-notification
+bocian.org.pl,siteor.pl,gsmonline.pl,wiif.nowybip.pl,zuromin.ibip.net.pl,fakturownia.pl,sugester.pl,attipas.pl,msport.lavinaplatform.com##.jGrowl-notification
 bodyfit.pl,januszebiznesu.pl,proszynski.pl,seriale.co,zarmen.pl###komunikat
 bogatyelblag.pl###storageMessage
 bonart.com.pl###cookie_kom
@@ -489,7 +489,7 @@ dzwignice.info#?#body > div:first-of-type:-abp-has(a[href$="/polityka-prywatnosc
 e24cloud.com##div#FullBox
 earlystage.pl###cookie-beam
 easyjet.com,sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu,lovoo.com##.cookie-consent
-easypaste.org,halogorlice.info,nasze-kino.eu,forum.swiateczne.info,eco-driving.info,pl.bab.la,radioexpert.net,themasterteacher.tv,fakty.nl,slupno.eu,knyszynska.eu,isokolka.eu,powiatowa.info##.cc-window[aria-label="cookieconsent"], .cc-revoke
+easypaste.org,halogorlice.info,nasze-kino.eu,forum.swiateczne.info,eco-driving.info,pl.bab.la,radioexpert.net,themasterteacher.tv,fakty.nl,slupno.eu,knyszynska.eu,isokolka.eu,powiatowa.info,byczdrowym.info##.cc-window[aria-label="cookieconsent"], .cc-revoke
 ebay.pl###gdpr-banner, .gh-banner
 ebizneskrokpokroku.pl###notification-bar
 eblik.pl#?#.page_content_info:-abp-has(#cookie_info_max)
@@ -772,8 +772,6 @@ groupon.pl##div#jOftLayer
 grupazywiec.pl###apollo-bar
 gry.lotto.pl###cookie__note
 gsbk.pl,klinika.krakow.pl###ci
-gsmonline.pl##div[id*="jGrowl"][class*="bottom-right"]
-gsmonline.pl,wiif.nowybip.pl,zuromin.ibip.net.pl,fakturownia.pl,sugester.pl,attipas.pl###jGrowl
 gsm-grodzisk.pl,wkd.com.pl,hotelpanorama.pl,zdrowemiasto.pl###_mo
 gtbicycles.pl,cannondalebikes.pl###cookie_eu_bar
 gtlodz.eu##.cookies-bullshit
@@ -1661,6 +1659,7 @@ speedtest.pl###container_vsm
 spolem.bialystok.pl###popup-announcement-wrap, #popup-announcement-overlay
 sportraw.pl##div[id^="tws"]:not(.toplayerSpecialClass), #topLayerBackDrop
 sportsdirect.com###divCookieAcceptance
+sportsevents365.pl##.header-GDPR-desktop, .header-GDPR-mobile
 spotify.com###js-message-bar-cookie-notice
 spotter.pl###pp_alert
 spot-a-shop.pl##.popup-notification.mild
@@ -2306,6 +2305,7 @@ pl###cookiesPopup:not(body):not(html)
 pl###cookiesStatement:not(body):not(html)
 pl###cookiesTab:not(body):not(html)
 pl###cookiesText:not(body):not(html)
+pl###cookiesWarning:not(body):not(html)
 pl###cookiesWindow:not(body):not(html)
 pl###cookiesWrap:not(body):not(html)
 pl###cookiesagree:not(body):not(html)
