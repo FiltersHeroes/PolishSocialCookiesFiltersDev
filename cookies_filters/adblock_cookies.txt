@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ejKLxR0iiJqGMcBjkskjuQ
+! Checksum: t1+AGdog6Wsta/ld6hK+Gw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.22.2
-! Last modified: Sat, 22 Jun 2019, 15:00 UTC+02
+! Version: 2019.6.22.3
+! Last modified: Sat, 22 Jun 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.22.2 aktualizacja: sob, 22 cze 2019, 15:00 UTC+02
+! v.2019.6.22.3 aktualizacja: sob, 22 cze 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1386,7 +1386,7 @@ pl.investing.com##.consentBarWrapper
 pl.isilines.com##.wrapper-banner-rgpd
 pl.jooble.org,twitch.tv##.gdpr-consent-banner
 pl.kruk.eu##.cookie-agreement
-pl.meteox.com,pl.sat24.com,zelmer.pl,earlymath.pl###cookie-message
+pl.meteox.com,pl.sat24.com###cookie-message
 pl.mitsubishielectric.com##.pc_scsmod-cookie_alert
 pl.mouser.com###gdprBar
 pl.msi.com###ccc-notify
@@ -2402,6 +2402,7 @@ pl###cookie-law-info-bar:not(body):not(html):not(.cli-bar-popup):not(.cli-modal-
 pl###cookie-law-message:not(body):not(html)
 pl###cookie-law:not(body):not(html)
 pl###cookie-line:not(body):not(html)
+pl###cookie-message:not(body):not(html)
 pl###cookie-modal:not(body):not(html)
 pl###cookie-monster-san:not(body):not(html)
 pl###cookie-monster:not(body):not(html)
@@ -2448,6 +2449,7 @@ pl###cookie_layer:not(body):not(html)
 pl###cookie_message:not(body):not(html)
 pl###cookie_notice:not(body):not(html)
 pl###cookie_policy_popup:not(body):not(html)
+pl###cookie_pupup_confirm:not(body):not(html)
 pl###cookie_top_info:not(body):not(html)
 pl###cookie_wall:not(body):not(html)
 pl###cookie_warning:not(body):not(html)
