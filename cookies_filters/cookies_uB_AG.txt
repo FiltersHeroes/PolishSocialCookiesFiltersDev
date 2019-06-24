@@ -1,11 +1,11 @@
-! Checksum: 0aPP2Glj5hs3MkA73mxSNA
+! Checksum: 2zhHKJ2mMaqHxldZ78yfJQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.21.1
-! Last modified: Fri, 21 Jun 2019, 19:00 UTC+02
+! Version: 2019.6.24.1
+! Last modified: Mon, 24 Jun 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.21.1 aktualizacja: pią, 21 cze 2019, 19:00 UTC+02
+! v.2019.6.24.1 aktualizacja: pon, 24 cze 2019, 15:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -322,8 +322,6 @@ lipinscy.pl###popRodoInfoContent, .modal-backdrop
 listymikolaja.pl##.fancybox-overlay:has(#popup_rodo_layer)
 listymikolaja.pl,swiat-whisky.sklep.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
 listymikolaja.pl,swiat-whisky.sklep.pl##.fancybox-margin:style(margin-right: 0 !important;)
-lovekrakow.pl##.modal-open:style(position: static !important; overflow: auto !important;)
-lovekrakow.pl,muzyczneradio.pl###modal-rodo, .modal-backdrop
 moja.biedronka.pl##.modal-komunikat.modal
 moja.biedronka.pl##.showpopup:style(overflow: auto !important;)
 money.pl##+js(nano-remove-elements-onready.js, .rodo-popup)
@@ -403,7 +401,7 @@ academy.asseco.pl##^#politykaPrywatnosciModal
 ac.com.pl##^#modalRodoInfo
 akamai.com##^.notification--warning
 alltube.tv,alltube.pl,mistravel.pl##^#rodo-popup
-autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl##^#rodo
+autakrajowe.com.pl,lovekrakow.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl##^#rodo
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,tvwalbrzych.pl,pytanieomieszkanie.pl,buddyzm.info.pl,pzsnstart.eu,whatannawears.com##^.popmake-overlay
 bioagris.pl##^#policy-accept-div
 born2be.pl,renee.pl##^.rules-modal
@@ -431,11 +429,11 @@ ideafairplay.pl##^#modal-privacy
 itmarket.pl##^.modal
 lipinscy.pl##^#popRodoInfoContent
 listymikolaja.pl##^#popup_rodo_layer
-lovekrakow.pl,muzyczneradio.pl##^#modal-rodo
 moja.biedronka.pl##^div.modal.modal-komunikat
 moja.biedronka.pl##^style:has-text(body.showpopup)
 motobanda.pl##^#rodo
 muzeumazji.pl##^script:has-text(doRODO)
+muzyczneradio.pl##^#modal-rodo
 natura2000.gdos.gov.pl##^#apla-banner
 norgips.pl##^#cookiemodal
 ogloszenia.plock.pl##^#dialog-rodo
@@ -487,7 +485,7 @@ academy.asseco.pl$$#politykaPrywatnosciModal
 ac.com.pl$$#modalRodoInfo
 akamai.com$$.notification--warning
 alltube.tv,alltube.pl,mistravel.pl$$#rodo-popup
-autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl$$#rodo
+autakrajowe.com.pl,lovekrakow.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl$$#rodo
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,tvwalbrzych.pl,pytanieomieszkanie.pl,buddyzm.info.pl,pzsnstart.eu,whatannawears.com$$.popmake-overlay
 bioagris.pl$$#policy-accept-div
 brieftip.pl,kaliber.pl#?#.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
@@ -516,7 +514,6 @@ ideafairplay.pl$$#modal-privacy
 itmarket.pl$$.modal
 lipinscy.pl$$#popRodoInfoContent
 listymikolaja.pl$$#popup_rodo_layer
-lovekrakow.pl$$#modal-rodo
 moja.biedronka.pl$$div.modal.modal-komunikat
 moja.biedronka.pl$$style[tag-content="body.showpopup"]
 motobanda.pl$$#rodo
