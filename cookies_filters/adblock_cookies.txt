@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ef3W1UZ6WEzBK4z9Hy5E2g
+! Checksum: R3f2YQRxHFFOv4sggUbThA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.24.2
-! Last modified: Mon, 24 Jun 2019, 19:00 UTC+02
+! Version: 2019.6.24.3
+! Last modified: Mon, 24 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.24.2 aktualizacja: pon, 24 cze 2019, 19:00 UTC+02
+! v.2019.6.24.3 aktualizacja: pon, 24 cze 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -279,6 +279,7 @@ bonart.com.pl###cookie_kom
 booking.com,gazetalokalna.com###cookie_warning
 bookmaster.com.pl,centrumkurierskie.pl##.ci-min.ci-container.ci-data
 booksy.com###cookie-policy-2
+books.google.pl,play.google.com###gb > div[style*="background-color"]
 borelioza.vegie.pl###menubar > center
 bosch-do-it.com,bosch-garden.com###CookieManagerDialog
 bosch.pl##.O-CookieLaw
@@ -1376,7 +1377,6 @@ pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.a
 planetamarvel.net##.pea_cook_wrapper
 player.pl##.cBox
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
-play.google.com,books.google.pl###gb > div[style*="background-color"]
 pl.aleteia.org##.qc-cmp-ui-content, #qcCmpUi
 pl.aptoide.com##.cookie-notification-holder
 pl.chili.tv###_evh-ric
@@ -1900,7 +1900,7 @@ www.daftrucks.pl##.page-overlay
 www.dxracerkrzesla.pl###cookies-confirm
 www.ea.com##ea-truste-consent-bar
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
-www.google.pl,www.google.com###main > #cnt > #rcnt > div.col > #center_col > #taw > div > #epbar
+www.google.com,www.google.pl###epbar
 www.gumtree.com,wordpress.com##.gdpr-banner
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hays.pl,hays-response.pl###header-msg
@@ -2488,6 +2488,7 @@ pl###gm-cookies:not(body):not(html)
 pl###hw_cookie_law:not(body):not(html)
 pl###icc_message:not(body):not(html)
 pl###ics-pp-cookies-accept:not(body):not(html)
+pl###id-cookiewarn:not(body):not(html)
 pl###infocookies:not(body):not(html)
 pl###infocookie:not(body):not(html)
 pl###informations-cookies:not(body):not(html)
