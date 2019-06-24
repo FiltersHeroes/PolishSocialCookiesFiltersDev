@@ -1,11 +1,11 @@
-! Checksum: 2zhHKJ2mMaqHxldZ78yfJQ
+! Checksum: vpWfDg7aji0oX32686M61g
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.24.1
-! Last modified: Mon, 24 Jun 2019, 15:00 UTC+02
+! Version: 2019.6.24.2
+! Last modified: Mon, 24 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.24.1 aktualizacja: pon, 24 cze 2019, 15:00 UTC+02
+! v.2019.6.24.2 aktualizacja: pon, 24 cze 2019, 23:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -255,6 +255,8 @@ wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 www.g2a.com##.modal-options--cookie
 www.g2a.com##.noscroll:style(position: static !important; overflow: auto !important;)
+www.google.pl,www.google.com###promos > div[style^="background"]
+www.google.pl,www.google.com##.srp #searchform[style^="top: 50px"]:style(top: 20px !important;)
 www.pekao.com.pl##body.is-reveal-open:style(overflow: auto !important; width: unset !important;)
 www.pekao.com.pl##.reveal-overlay:has(#gdpr-popup)
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px !important;)
