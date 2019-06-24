@@ -209,8 +209,6 @@ tlumacz-in.pl##.jconfirm:has(.jconfirm-scrollpane)
 tme.eu##html[style]:style(overflow: auto !important;)
 tme.eu###popup_container, #popup_overlay
 translate.google.pl###gba:style(height: 60px !important;)
-www.google.pl,www.google.com###promos > div[style^="background"]
-www.google.pl,www.google.com##.srp #searchform[style^="top: 50px"]:style(top: 20px !important;)
 trendyopticians.pl###bpr_rodo-info
 trendyopticians.pl##.bpr_body[style]:style(overflow: auto !important; background-position-x: 50% !important;)
 trendyradio.pl###fancybox-container-1:has(#rodo_1)
@@ -237,6 +235,8 @@ wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 www.g2a.com##.modal-options--cookie
 www.g2a.com##.noscroll:style(position: static !important; overflow: auto !important;)
+www.google.pl,www.google.com###promos > div[style^="background"]
+www.google.pl,www.google.com##.srp #searchform[style^="top: 50px"]:style(top: 20px !important;)
 www.pekao.com.pl##body.is-reveal-open:style(overflow: auto !important; width: unset !important;)
 www.pekao.com.pl##.reveal-overlay:has(#gdpr-popup)
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px !important;)
