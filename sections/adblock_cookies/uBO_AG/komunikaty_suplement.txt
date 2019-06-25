@@ -77,7 +77,7 @@ generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
 giantfabryczna.pl,liv-cycling.com###cookiePopupModal, .modal-backdrop
 gitara-sklep.pl##body:style(padding-top: 0 !important;)
 google.com,google.pl##body > #lb > div[id^="_"][class]
-google.com,google.pl##div[class][role="dialog"] > #cnsp > div[class][aria-live="polite"]
+google.com,google.pl##div[class][role="dialog"] > #cnsp:has(> div[class][aria-live="polite"])
 google.com,google.pl##html.nsc:style(overflow-y: visible !important;)
 google.com,google.pl##html:not(.nsc) > body.nsc:style(position: static !important; overflow-y: visible !important;)
 google.com,google.pl##jsl > #consent-bump > .widget-consent
