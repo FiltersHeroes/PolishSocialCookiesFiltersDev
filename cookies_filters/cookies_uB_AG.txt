@@ -1,11 +1,11 @@
-! Checksum: vpWfDg7aji0oX32686M61g
+! Checksum: rBflEWJMU6ntMtetUA28xw
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.24.2
-! Last modified: Mon, 24 Jun 2019, 23:00 UTC+02
+! Version: 2019.6.26.1
+! Last modified: Wed, 26 Jun 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.24.2 aktualizacja: pon, 24 cze 2019, 23:00 UTC+02
+! v.2019.6.26.1 aktualizacja: śro, 26 cze 2019, 03:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -97,7 +97,7 @@ generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
 giantfabryczna.pl,liv-cycling.com###cookiePopupModal, .modal-backdrop
 gitara-sklep.pl##body:style(padding-top: 0 !important;)
 google.com,google.pl##body > #lb > div[id^="_"][class]
-google.com,google.pl##div[class][role="dialog"] > #cnsp > div[class][aria-live="polite"]
+google.com,google.pl##div[class][role="dialog"] > #cnsp:has(> div[class][aria-live="polite"])
 google.com,google.pl##html.nsc:style(overflow-y: visible !important;)
 google.com,google.pl##html:not(.nsc) > body.nsc:style(position: static !important; overflow-y: visible !important;)
 google.com,google.pl##jsl > #consent-bump > .widget-consent
