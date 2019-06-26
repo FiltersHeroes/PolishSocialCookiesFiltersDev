@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: Wri89cbfY66fDy/uKv49Bg
+! Checksum: W1Jzrcv5YUGJEAS4ncF0fA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.26.1
-! Last modified: Wed, 26 Jun 2019, 03:00 UTC+02
+! Version: 2019.6.26.2
+! Last modified: Wed, 26 Jun 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.26.1 aktualizacja: śro, 26 cze 2019, 03:00 UTC+02
+! v.2019.6.26.2 aktualizacja: śro, 26 cze 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -768,6 +768,7 @@ gplshop.pl##.slot--cookies
 gr4cze.pl###custom_html-16
 grafoteka.pl###info-container
 gragra.pl###WGsswwfyyt
+gramwzielone.pl##.bottom-cookies
 grawipol.pl,kopland.pl###message-bar
 greenlux.pl###pawelix_banner
 greenmousestudio.com,jarmula.com###cookie-warn-wrapper
@@ -869,7 +870,7 @@ inpay.pl##.ckcontent
 inpoland.net.pl##.inpoland-privacy, .inpoland-modal-background
 insert.com.pl###privacyAndCookiePolicy
 instagram.com#?#.lOPC8:-abp-has(a[href="/legal/cookies/"])
-instytutlogopedyczny.pl,gastromaniacy.pl###flash-msg
+instytutlogopedyczny.pl,gastromaniacy.pl,sggik.pl###flash-msg
 interpolska.pl###onisoftcookie
 intymna.pl###sb_bottom_float
 investmap.pl##.popup-back, .popup-rodo
@@ -1527,6 +1528,7 @@ radiopik.pl##div#hmonit
 radiorodzina.kalisz.pl##.module-abovebox
 radiozet.pl,antyradio.pl,radiostacja.pl,meloradio.pl,azorek.pl,planeta.fm,chillizet.pl##div[class^="app_cmpAppGdpr"]
 radissonblu.com,secure.showmax.com,hm.com,4kdownload.com,man.eu##.cookie-notification
+radlin.pl###saycookie
 radom24.pl##div#ciasteczka-info
 raiffeisenpolbank.com###valid_cookie_message
 rajapack.pl###barre__cookie.barre__cookie
@@ -1621,6 +1623,7 @@ sieradz.com.pl,zdunskawola24.pl###polityka-2
 sig.pl##.cookie-alert__wrapper
 simplesurance.pl###_s-cookie-notification-container
 sindbad.pl##app-cookie-info
+sipma.pl##.cookiekomunikat
 sitn.pl#?#body > div:-abp-has(#cookie-close)
 six-payment-services.com#?#.warning.state:-abp-has(.system-notification-text:-abp-contains(cookie))
 skijumping.pl###modalGdpr
