@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: D7VMa3+ln4r1aC9LyYJ6oA
+! Checksum: OpKNrtKAD5SEeqZM2A3P0Q
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.28.2
-! Last modified: Fri, 28 Jun 2019, 15:00 UTC+02
+! Version: 2019.6.28.3
+! Last modified: Fri, 28 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.28.2 aktualizacja: pią, 28 cze 2019, 15:00 UTC+02
+! v.2019.6.28.3 aktualizacja: pią, 28 cze 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -56,7 +56,7 @@ aclari.pl###licence-agreement
 acronis.com##.cookies-notification
 activ-investment.eu,hegos.eu,tagen.tv,dlawas.info,pisanka.eu,swietarodzina.eu,sukcesja.eu###cookiesEU-box
 adblockplus.org,convertcase.net,lulek.tv,tme.eu###cookiebar
-adbl.eu,polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com,widzewtomy.net,japrzedsiebiorca.biz,konstytucjabiznesu.biz,doradcarestrukturyzacyjny.info,sandraspa.eu,centrum.fm,elektrykapradnietyka.com,platinet.eu,spece.it,wolnekonopie.org,domowa.pizza,skup-laptopow.com,alkalicznystylzycia.com,pl.xiaomitoday.it,moneygrabbing.co.uk,jakzalozycfirmenaukrainie.com,inwestycjebudowlane.biz,domkorkowy.com,secowarwick.com,leczeniekomorkamimacierzystymi.com,mammarzenie.org,turysta.org,tyniec.tv,zabieganamama.com,imielski.net,kolnet.eu,photonrobot.com,poid.eu,e-chorzow.com,rta24.eu,proveg.com,tarnobrzeskie.eu,sciezkimojegoswiata.com,muzeumzabawek.eu,rosebelle.eu,jasam.eu,sklep.sztukawyboru.eu,mypresents.eu,arhn.eu,langsteiner.eu,stalmielec.com,cybsecurity.org,prezentydlaniego.eu,filozofuj.eu,krakowpost.com###cookie-law-info-bar, #cookie-law-info-again
+adbl.eu,polskiobserwator.de,www.smartpolak.co.uk,patentujemy.com,widzewtomy.net,japrzedsiebiorca.biz,konstytucjabiznesu.biz,doradcarestrukturyzacyjny.info,sandraspa.eu,centrum.fm,elektrykapradnietyka.com,platinet.eu,spece.it,wolnekonopie.org,domowa.pizza,skup-laptopow.com,alkalicznystylzycia.com,pl.xiaomitoday.it,moneygrabbing.co.uk,jakzalozycfirmenaukrainie.com,inwestycjebudowlane.biz,domkorkowy.com,secowarwick.com,leczeniekomorkamimacierzystymi.com,mammarzenie.org,turysta.org,tyniec.tv,zabieganamama.com,imielski.net,kolnet.eu,photonrobot.com,poid.eu,e-chorzow.com,rta24.eu,proveg.com,tarnobrzeskie.eu,sciezkimojegoswiata.com,muzeumzabawek.eu,rosebelle.eu,jasam.eu,sklep.sztukawyboru.eu,mypresents.eu,arhn.eu,langsteiner.eu,stalmielec.com,cybsecurity.org,prezentydlaniego.eu,filozofuj.eu,krakowpost.com,news-polska.com###cookie-law-info-bar, #cookie-law-info-again
 addnature.pl##.cookieHeader
 addons.prestashop.com,e-manufaktura.com,starecegly.com,sklep.polbit.com,kolonieiobozy.net,rolkom.net,sklep.grupamagnum.eu,shopgadget.eu,poradnikbudowlany.eu,meczelive.tv,pilz.com,szlakwokoltatr.eu,starosadeckie.info,mirka.com,kolorowyswiat.org,iteeshop.eu,bip.mzkzg.org,atramentowka.com,sklepy-cynamonowe.eu,sygic.com,batteryguru.eu,maciuszek.com,myamber.eu,wzorniki.eu,jagodzianka.eu,bingospa.eu,sklep.esanatoria.eu,opakowaniaozdobne24.eu,busy-kielce.eu,busy-wroclaw.eu,wyczesani.com,gardenoffood.com,wifiki.eu,kalarepa.eu###cookie
 addthis.com,ibm.com,java.com,lighting.philips.pl,meethue.com,nespresso.com,oracle.com,signify.com,wd.com##.truste_box_overlay, .truste_overlay, .privacy-policy-toast
@@ -525,7 +525,7 @@ ekosalus.pl,podlogi24.net##.welcomebar
 ekosalus.pl,podlogi24.net,szarakomorka.pl###DIVwelcome
 ekoserwis.poznan.pl,studiorolety.pl##.content-head-information
 ekstraklasa.org###cookiesPolicy
-eku24.net,ele24.net##.plg_system_eprivacy_message
+eku24.net,ele24.net,ezg24.net##.plg_system_eprivacy_message
 elcavo.eu###wcookie_info
 eldom.eu,iletutego.eu,agro-bis.eu,prawniktorun.eu###cookie-alert
 elektroda.pl##div#top2
@@ -1075,7 +1075,7 @@ luqam.com###cookiesFlyInBox
 luxexpress.eu###luxCookie
 lvbet.pl###js-cookie-popup
 lwowecki.info,dkl24.pl###cookies_accepted
-lyconet.com###cookie-box
+lyconet.com,ogloszeniowa.net###cookie-box
 madreklama.com##.style2
 magazynsuplement.us.edu.pl###cookies-eu
 magazyn-hamag.pl##.notify-popup
@@ -1471,6 +1471,7 @@ poznan.travel##.cookieWarningBox
 pozyczkowy-portal.pl###gdprc
 pracatobie.pl###coocieDiv
 pracownieorange.pl###cookies-monit
+pracuj.pl###kansas-header > ._2e1qOM
 pragma.pl##.pra-cookie-info
 prakreacja.pl##.rm-cookies-belt
 praktiker.pl##div.info_c_box
@@ -1933,6 +1934,7 @@ www.o2.pl##._2_S1s
 www.plus.pl###rodo-popup-overlay
 www.promise.com.pl##.ui-front
 www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > div[class] > div[class*=" "] > form > div[style^="opacity"], .EUCookieNotice
+www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > style + div > div > form > div[style*="---toaster-indicator-color:#24A0ED;"]
 www.rmf24.pl###pl_cookies.pl-cookies
 www.select.pl##.cookiepop
 www.simex.pl###CookiesInfoDiv
@@ -2163,7 +2165,7 @@ cookie-law-popup.js$domain=pl
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
 com###msccBanner:not(body):not(html)
 com##.is-ready.is-shown.cnil-banner:not(body):not(html)
-com,eu,pl###cookie-notice:not(body):not(html)
+com,eu,pl###cookie-notice:not(body):not(html
 com,pl##.cc-revoke:not(body):not(html)
 com,pl##.cc-window[aria-label*="consent"]:not(body):not(html)
 org,pl##amp-consent
@@ -2382,6 +2384,7 @@ pl###cookies_box:not(body):not(html)
 pl###cookies_compliance:not(body):not(html)
 pl###cookies_container:not(body):not(html)
 pl###cookies_content:not(body):not(html)
+pl###cookies_div:not(body):not(html)
 pl###cookies_info:not(body):not(html)
 pl###cookies_inf:not(body):not(html)
 pl###cookies_law:not(body):not(html)
@@ -2491,6 +2494,7 @@ pl###eu-cookie-bar-notification:not(body):not(html)
 pl###eu-cookie-bar:not(body):not(html)
 pl###eu-cookie-law:not(body):not(html)
 pl###eu-law:not(body):not(html)
+pl###eu_cookie_consent:not(body):not(html)
 pl###eu_cookie_notify:not(body):not(html)
 pl###evideCookiesNotify:not(body):not(html)
 pl###gdprHeader:not(body):not(html)
@@ -2530,6 +2534,7 @@ pl###notice_bar:not(body):not(html)
 pl###notifyCookie:not(body):not(html)
 pl###notifycookies:not(body):not(html)
 pl###nw_cookie_alert_box:not(body):not(html)
+pl###okCookie:not(body):not(html)
 pl###onyx_cookiesinfo_bar:not(body):not(html)
 pl###optanon-minimize-wrapper:not(body):not(html)
 pl###optanon:not(body):not(html)
