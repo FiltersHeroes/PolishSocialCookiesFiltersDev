@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: 5JQoCdYogSipyeyLKzyknA
+! Checksum: 4ACCu+bL/rbvrvGZnQDnrA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.28.1
-! Last modified: Fri, 28 Jun 2019, 15:00 UTC+02
+! Version: 2019.6.28.2
+! Last modified: Fri, 28 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.28.1 aktualizacja: pią, 28 cze 2019, 15:00 UTC+02
+! v.2019.6.28.2 aktualizacja: pią, 28 cze 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -1841,7 +1841,7 @@ glusi.tv###text-21
 glyskincare.eu#?#.news.columns.twelve:-abp-contains(nas na Instagramie)
 gminainowroclaw.eu##a > img[src$="/youtube_logo.svg"]
 gminamakow.info##.jm-social
-gminamoszczenica.eu,polonika.at,sedzia.net,sp5kcr.eu,radioznin.fm##.pwebbox-plugin-facebook_page_plugin
+gminamoszczenica.eu,polonika.at,sedzia.net,sp5kcr.eu,radioznin.fm,wolamieszkancow.org##.pwebbox-plugin-facebook_page_plugin
 gminasiedlce.pl##a[href="https://www.facebook.com/ugsiedlce"] > img
 gmina.kolobrzeg.pl##.banery_wysuwane > div.noprint.pole-banerowe:nth-of-type(n+2):nth-of-type(-n+3)
 gniezno24.com,pankanapka.pl,zsz.pisz.pl,strefa-zakupowa.pl###likeboxbluestandardleft
@@ -3111,6 +3111,7 @@ portal.lellek.pl##a[href="/lel/batony/343,Lellek-Facebook.html"]
 poselbrynkus.pl##div#ssba-classic-2
 poselbrynkus.pl#?#h2:-abp-contains(Facebook)
 posir.pl##.bot_cont:nth-of-type(5)
+posrednik.pl##.jm-footer > div.span4:nth-of-type(3)
 potegapasji.pl###et_recent_tweets-3, #et_social_followers-3
 potplayerclub.pl###sfsi-plus-widget-2
 pot.gov.pl,polska.travel###icons
@@ -3130,6 +3131,7 @@ pracownia4.wordpress.com###menu > ul > .widget_text.widget:nth-of-type(n+7):nth-
 pracowniastylova.pl###spolecznosc
 pracownia.org.pl##._container-3 > ._col-2 > p:nth-of-type(1), .bordered > ._container-3 > ._col-2 > .image-link
 pracujwunii.pl#?#.tile-wrapper_E4.tile-wrapper:-abp-contains(Odwiedź nas na FB!)
+pracuj.pl###kansas-footer .footerMaIpqf
 pralniaiprasowalniadlaciebie.pl##[alt="Google+ Social Icon"]
 prawdaobiektywna.pl###top-social-menu, #column-right .article
 prawdaobiektywna.pl##.article > h2
