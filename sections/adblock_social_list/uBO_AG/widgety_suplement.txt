@@ -10,6 +10,7 @@ dziennikbaltycki.pl,expressilustrowany.pl,dziennikpolski24.pl,polskatimes.pl,exp
 englishcollege.pl##.bannerdol > a[href="fb.html"]:style(visibility: hidden !important;)
 freshfile.pl##.facebook, .google:style(visibility: hidden !important;)
 giritoffset.pl##+js(remove-attr.js, href, .jcarousel-item > a[href^="https://www.facebook.com/reklamatorregionalny"])
+jbzdy.*##.btn-send-messenger
 naklejkolandia.pl##+js(remove-attr.js, href, #sliderBox ul > li > a[href^="https://www.facebook.com/notes/naklejkolandiapl/"])
 odkryjpomorze.pl##+js(nano-remove-elements-onready.js, map[name="Map"] > area:nth-of-type(1))
 odkryjpomorze.pl##+js(remove-attr.js, href, map[name="Map"] > area:nth-of-type(1))
@@ -19,4 +20,3 @@ rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !import
 waw4free.pl###spolecznosci:style(height: auto !important;)
 werandafamily.com##+js(remove-attr.js, href, .instagram-item > .link-block)
 wp.pl##.article > [class]:has(> [class] > .fb-like)
-jbzdy.*##.btn-send-messenger
