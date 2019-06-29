@@ -1,11 +1,11 @@
-! Checksum: AqslqPd9W0asdINUGSaEKQ
+! Checksum: f1DSB45lr9wn8crPr0Q10g
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.26.2
-! Last modified: Wed, 26 Jun 2019, 19:00 UTC+02
+! Version: 2019.6.29.1
+! Last modified: Sat, 29 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.26.2 aktualizacja: śro, 26 cze 2019, 19:00 UTC+02
+! v.2019.6.29.1 aktualizacja: sob, 29 cze 2019, 23:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -334,11 +334,13 @@ norgips.pl###cookiemodal
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 okazik.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 okazik.pl##.mfp-wrap, .mfp-bg
+opolak.pl##body[style]:style(overflow: auto !important;)
+opolak.pl##.rodo, .rodo_layer
 pamiatki.pl###hw_cookie_law
 pl.dow.com##html, body:style(position: static !important; overflow: visible !important;)
 pl.dow.com##.cookie-notify
 polski-tenis.pl###rodo
-porcelana.com.pl##+js(abort-on-property-read.js, alert, cookies)
+porcelana.com.pl##+js(abort-on-property-read.js, alert)
 poszalu.pl###gdpr-modal, .modal-backdrop
 powiatslubicki.pl##+js(abort-current-inline-script.js, jQuery, #myModal)
 profeto.pl###modal-rodo-main, .modal-backdrop
@@ -412,7 +414,7 @@ budownictwo.pl##^#rodoLayer
 cenapaliw.pl##^#CBCookieMsg
 chelmonline.pl,powiatslubicki.pl##^#myModal
 dalmierze.pl##^#Widget3
-domhouse.pl,gdansk.pl,gokf.gda.pl,stadionenerga.pl,rowerowygdansk.pl##^.rodo
+domhouse.pl,gdansk.pl,gokf.gda.pl,stadionenerga.pl,rowerowygdansk.pl,opolak.pl##^.rodo
 dworzec.kielce.pl##^script:has-text(.popup-aholic97)
 easyprotect.pl##^.popup-aholic227
 ekobiuro24.pl##^#dialog-agreement
@@ -441,6 +443,7 @@ norgips.pl##^#cookiemodal
 ogloszenia.plock.pl##^#dialog-rodo
 okazik.pl##^script:has-text(#cookie-dialog)
 openpli.org##^script:has-text(gdpr-accepted)
+opinie.news##^script:has-text(pliki cookie)
 pamiatki.pl##^#hw_cookie_law
 pasjagolebie.pl##^.popmake-overlay[data-popmake*="cookies"]
 pl.dow.com##^.cookie-notify
@@ -498,7 +501,7 @@ dalmierze.pl$$#Widget3
 domhouse.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
 domhouse.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 domhouse.pl##.fancybox-overlay[tag-content="RODO"]
-domhouse.pl,gdansk.pl,gokf.gda.pl,stadionenerga.pl,rowerowygdansk.pl$$.rodo
+domhouse.pl,gdansk.pl,gokf.gda.pl,stadionenerga.pl,rowerowygdansk.pl,opolak.pl$$.rodo
 dworzec.kielce.pl$$script[tag-content=".popup-aholic97"]
 easyprotect.pl$$.popup-aholic227
 ekobiuro24.pl$$#dialog-agreement
@@ -526,6 +529,7 @@ norgips.pl$$#cookiemodal
 ogloszenia.plock.pl$$#dialog-rodo
 okazik.pl$$script[tag-content="#cookie-dialog"]
 openpli.org$$script[tag-content="gdpr-accepted"]
+opinie.news$$script:has-text[tag-content="pliki cookie"]
 pamiatki.pl$$#hw_cookie_law
 pl.dow.com$$.cookie-notify
 porcelana.com.pl$$script[tag-content="plików cookies"]
