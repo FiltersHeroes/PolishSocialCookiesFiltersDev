@@ -38,8 +38,6 @@ fnglob.pl###modal, .modal-backdrop
 forums.openpli.org##+js(abort-current-inline-script.js, euReadCookie)
 fryzomania.pl,pro-sprzet.pl,happydental.pl###myWorning, .modal-backdrop
 gdansk.pl,gokf.gda.pl,stadionenerga.pl,rowerowygdansk.pl##.rodo, .modal-backdrop
-opolak.pl##.rodo, .rodo_layer
-opolak.pl##body[style]:style(overflow: auto !important;)
 halowawa.pl,infostrow.pl,dlawas.info###rodo-modal
 homedesign.pl##.popmake-overlay[data-popmake*="rodo"]
 infoplanet.pl,craftserve.pl,motobanda.pl,autakrajowe.com.pl###rodo, .modal-backdrop
@@ -58,6 +56,8 @@ norgips.pl###cookiemodal
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 okazik.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 okazik.pl##.mfp-wrap, .mfp-bg
+opolak.pl##body[style]:style(overflow: auto !important;)
+opolak.pl##.rodo, .rodo_layer
 pamiatki.pl###hw_cookie_law
 pl.dow.com##html, body:style(position: static !important; overflow: visible !important;)
 pl.dow.com##.cookie-notify
