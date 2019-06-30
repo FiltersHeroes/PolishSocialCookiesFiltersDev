@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: krchPUDjs0ItTr2lIFdJRg
+! Checksum: f+edODqO8oUcyRQ0xOiExQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.29.2
-! Last modified: Sat, 29 Jun 2019, 23:00 UTC+02
+! Version: 2019.6.30.1
+! Last modified: Sun, 30 Jun 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.29.2 aktualizacja: sob, 29 cze 2019, 23:00 UTC+02
+! v.2019.6.30.1 aktualizacja: nie, 30 cze 2019, 03:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2008,6 +2008,7 @@ zysk.com.pl###pageUpperInfo
 ! Specyficzne reguły blokujące
 !||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|garmin.com|java.com|leagueoflegends.com|reebok.pl
 !||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|meethue.com|nespresso.com|oracle.com|origin.com|signify.com|support.wdc.com|wd.com|weather.com|xerox.com
+!||opinie.news/media/plg_system_eprivacy/js/*$script,~third-party
 /ajax/privacy_popup$xmlhttprequest,domain=pl|debica24.eu|narew.info|zvami.tv
 /filer_-_cookie_disclaimer_ny/$file/accept_cookies.js$script,domain=pl
 /images/cookie.png$domain=loteriainpost.pl|somatgold.pl|loteriaburn.pl|loteriavelvet.pl|kubusszkola.pl|zmienfutro.pl
@@ -2085,7 +2086,6 @@ zysk.com.pl###pageUpperInfo
 ||nike.com/*/script.js?assets=nike.gadget.CookieSettingsManager&loaded=nike.exp.global.Ad*nike.ScriptLoade$script
 ||odrowaz24.pl/wp-content/plugins/sintra-gdpr/*$script
 ||odrowaz24.pl/wp-content/plugins/wp-gdpr-compliance/*$script
-||opinie.news/media/plg_system_eprivacy/js/*$script,~third-party
 ||ose.gov.pl/rest/public/consent/cookies-body/pl$xmlhttprequest
 ||paypass.pl/themes/paypass/js/cookies.js$script
 ||phufart.pl/info_o_cookie_utf8.js$script
@@ -2160,6 +2160,8 @@ cookie-law-popup.js$domain=pl
 /js/cookieinfo.js
 /js/info_o_cookie.js
 /js/polityka_cookies.js$script
+/media/plg_system_cookieconfirm$script
+/media/plg_system_eprivacy$script
 /plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$script,domain=pl
 /rodo.js$script
 /savecookie.js$script
