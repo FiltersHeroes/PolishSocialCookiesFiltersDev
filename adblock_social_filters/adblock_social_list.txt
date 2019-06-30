@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: BvYwDTCCdlxXVfG3JwnSDQ
+! Checksum: TNXhkpOIdwm9fEb5ikvyfQ
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.30.1
-! Last modified: Sun, 30 Jun 2019, 15:00 UTC+02
+! Version: 2019.6.30.2
+! Last modified: Sun, 30 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.30.1 aktualizacja: nie, 30 cze 2019, 15:00 UTC+02
+! v.2019.6.30.2 aktualizacja: nie, 30 cze 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -739,7 +739,11 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 !
 !
 ! Specyficzne reguły ukrywające
+~www.dlastudenta.pl,dlastudenta.pl###socialbars
+~www.eska.pl,eska.pl##.footer > .box:nth-of-type(6), .footer > .box:nth-of-type(7)
 ~www.wp.pl,wp.pl##.facebook-share, .tweeter-share
+~www.wp.pl,wp.pl#?#div:-abp-has(> div > strong:-abp-contains(Podziel się))
+~www.wp.pl,wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has(> div[class] > div[class] > span > svg > path)
 2plus3d.pl###menuItem_facebook
 2xme.pl##.footer__block--flex.footer__block, .media__second
 3dom.pro##.division-size-50.division-box-2.division-box
@@ -1398,7 +1402,6 @@ djoles.com,polskamafia.pl,megataxi.pl,twojaanglia.eu###fpw_widget
 dkms.pl###block-menu-menu-b-d-na-bie-co
 dkpraga.pl##.sdb-social > li:nth-of-type(-n+3)
 dkwadrat.pl##a[href="http://www.facebook.com/DKwadrat"] > img
-dlastudenta.pl,~www.dlastudenta.pl###socialbars
 dla-nas-dla-was.blogspot.com##gadget-dock > .gadget-item:nth-of-type(1), #gadget-dock > .gadget-item:nth-of-type(2), #gadget-dock > .gadget-item:nth-of-type(4), #gadget-dock > .gadget-item:nth-of-type(5), #gadget-dock > .gadget-item:nth-of-type(7)
 dnagdansk.com###facebookdna
 doba.pl###column-startowa-three > .bar-header:nth-of-type(8)
@@ -1433,6 +1436,7 @@ dorzeczy.pl,wprost.pl##.youtube-button
 dotd.pl##.likebox_content
 douglas.pl##.rd__col--md-push-6.rd__col--md-6.rd__col--sm-12.rd__col > .rd__footer__block
 download.net.pl###social-tools
+doz.pl##.mobile-links__social
 do-kamienia.pl##a[href^="https://www.facebook.com/dokamienia"]
 drama-online.pl,niezlomni.com##.widget_facebook
 dreamjump.pl##.footer > div > .row > .icons > span, .footer > div > .row > .icons > a[class]:not([id])
@@ -1583,7 +1587,6 @@ esaliens.pl###footer div.col-sm-3.col-xs-6:nth-of-type(4)
 esanok.pl##a[href="https://plus.google.com/107271755903127035054"], div.col-lg-6:nth-of-type(1) > .list-inline > li.list-inline-item:nth-child(-n+2)
 eset.com##.nav-social-profiles
 eska.pl##.hot_temat_cont:nth-of-type(28) > .m-bottom30.goth_l.title, .goth_l.polub
-eska.pl,~www.eska.pl##.footer > .box:nth-of-type(6), .footer > .box:nth-of-type(7)
 eska.tv##.social.box
 esthetic.com.pl###ssb-btn-0, #ssb-btn-1
 eswinoujscie.pl##.td-instagram-element, .td-footer-instagram-title, .td_block_instagram
@@ -4022,8 +4025,6 @@ word.olsztyn.pl##a[href="https://www.facebook.com/Warmia-i-Mazury-Zdrowe-%C5%BCy
 word.olsztyn.pl##a[href^="https://www.youtube.com/playlist"]
 wprost.pl##.soc-buttons-box
 wpr.pl##.col-lg-1 > div:nth-of-type(1) > strong
-wp.pl,~www.wp.pl#?#div:-abp-has(> div > strong:-abp-contains(Podziel się))
-wp.pl,~www.wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has(> div[class] > div[class] > span > svg > path)
 wrobelekelemelek.com###likebox_1
 wroclaw.pl##.ck_social_media > h3, .ck_mobile_social_icon_1, .ck_mobile_social_icon_4, .ck_mobile_social_icon_5, .ck_mobile_social_icon_6, .ck_mobile_social_icon_7
 wrozka.com.pl##.contact_content td:nth-of-type(n+2)
