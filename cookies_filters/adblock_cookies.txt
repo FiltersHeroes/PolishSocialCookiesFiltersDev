@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: f+edODqO8oUcyRQ0xOiExQ
+! Checksum: I8nppWUqu6+Fj7FBvyKGhw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.30.1
-! Last modified: Sun, 30 Jun 2019, 03:00 UTC+02
+! Version: 2019.6.30.2
+! Last modified: Sun, 30 Jun 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,10 +18,13 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.30.1 aktualizacja: nie, 30 cze 2019, 03:00 UTC+02
+! v.2019.6.30.2 aktualizacja: nie, 30 cze 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
+~vod.naekranie.pl,naekranie.pl###modal-rodo-info
+~www.wp.pl,~poczta.wp.pl,wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
+~www.wp.pl,wp.pl#?#body > #app > div > span:not([class]):not([id]) > div[class]:not([id]):-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,xtb.com,feriogaj.com,koszyki.com,muzo.fm,cedc.com,edeklaracje.info,studiuje.eu,skierniewice.eu,diagprog4.com,tebrizsesi.com,evertourist.com,prymus.info,answear.com,telesystem-world.com,fokus.tv,nowa.tv,rowertour.com,eska.tv,voxmusic.tv,odpady.chorzow.eu,gdansk.pl,nasze.fm,koneser.eu,informacja-turystyczna.starachowice.eu###cookies
 3dom.pro,bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com,stolmot.com,anmur.eu,trecnutrition.com,koszulkomat.eu,f1experiences.com,gamet.eu,telko.in,makoblog.com,inkubatorkultury.eu,chorzow.eu,avenidapoznan.com,eastbook.eu,booksy.com,pkpcargo.com,sapphiretech.com,bibliotekacyfrowa.eu,radiopark.fm##.cookies
 3mpolska.pl,logitechg.com,bosch-professional.com,logitech.com,command.pl###__tealiumGDPRecModal
@@ -1220,7 +1223,6 @@ mzkzg.org##.cookies-container
 m.benchmark.pl###private-policy-popup
 m.facebook.com,touch.facebook.com###header-notices
 m.pl.aliexpress.com###amp-notification
-naekranie.pl,~vod.naekranie.pl###modal-rodo-info
 nakanapie.pl##div.sticker
 nanodatex.pl###cookis-box
 napad.pl###pp-cookies-container
@@ -1886,8 +1888,6 @@ wlkp24.info###itro_popup, #itro_opaco
 wnt.com###trackerBanner
 wodociagi-kalisz.pl###white2
 wodociagi.krakow.pl##.cookieMessages
-wp.pl,~www.wp.pl#?#body > #app > div > span:not([class]):not([id]) > div[class]:not([id]):-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
-wp.pl,~www.wp.pl,~poczta.wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 wrobelekelemelek.com###cboxOverlay, #cboxWrapper
 wroclawfashionoutlet.com##.via-notification--cookie
 wscars.pl##div[jsmodel][data-sitename]:not([id]):not([class]) ~ div[jsmodel]:not([id]):not([class]) > div[data-cookie-path="/"][class*=" "][style^="transform"]:not([id])
