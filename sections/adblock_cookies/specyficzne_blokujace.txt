@@ -1,6 +1,6 @@
 !||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|garmin.com|java.com|leagueoflegends.com|reebok.pl
 !||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|meethue.com|nespresso.com|oracle.com|origin.com|signify.com|support.wdc.com|wd.com|weather.com|xerox.com
-!||opinie.news/media/plg_system_eprivacy/js/*$script,~third-party
+!||opinie.news/media/plg_system_eprivacy/js/$script,~third-party
 /ajax/privacy_popup$xmlhttprequest,domain=pl|debica24.eu|narew.info|zvami.tv
 /filer_-_cookie_disclaimer_ny/$file/accept_cookies.js$script,domain=pl
 /images/cookie.png$domain=loteriainpost.pl|somatgold.pl|loteriaburn.pl|loteriavelvet.pl|kubusszkola.pl|zmienfutro.pl
@@ -34,7 +34,7 @@
 ||cdnjs.cloudflare.com/ajax/libs/fancybox/*/*s/jquery.fancybox.min.*s$script,stylesheet,domain=wiemy.to
 ||cdn.inaudium.com/js/adtctr.js
 ||ciasteczka.eu/cookiesEU-latest.min.js
-||ciasteczka.org.pl/cookies/cookies*$script
+||ciasteczka.org.pl/cookies/cookies$script
 ||ciasteczkowapolityka.pl/getscript$script
 ||cmp.dreamlab.pl/static/cmp.complete.bundle.js
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
@@ -49,7 +49,7 @@
 ||cookie.bortos.pl/*cookie*.js$script
 ||ctm.gdynia.pl/js/alertbox.js
 ||dlastudenta.pl/cookie/cookie_set.js$script,~third-party,domain=~www.dlastudenta.pl
-||dlastudenta.pl/cookie/upd/*$xmlhttprequest,~third-party,domain=~www.dlastudenta.pl
+||dlastudenta.pl/cookie/upd/$xmlhttprequest,~third-party,domain=~www.dlastudenta.pl
 ||dziennikelblaski.pl/js/rodo-wm.js
 ||eurocookie.galilcloud.wixapps.net/pages/widget/views/widget.html
 ||eurocookie.galilcloud.wixapps.net/popup$subdocument
@@ -72,12 +72,12 @@
 ||lovekrakow.pl/ajax/rodo
 ||lubiegrac.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
 ||metpartner.pl/cookie/info_cookie.js$script
-||msecnd.net/Unilever/panels/generic/PanelPrzepisy.htm?consent*$subdocument
+||msecnd.net/Unilever/panels/generic/PanelPrzepisy.htm?consent$subdocument
 ||newonce.net/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||nike.com/*CookieSettingsManager$xmlhttprequest
 ||nike.com/*/script.js?assets=nike.gadget.CookieSettingsManager&loaded=nike.exp.global.Ad*nike.ScriptLoade$script
-||odrowaz24.pl/wp-content/plugins/sintra-gdpr/*$script
-||odrowaz24.pl/wp-content/plugins/wp-gdpr-compliance/*$script
+||odrowaz24.pl/wp-content/plugins/sintra-gdpr/$script
+||odrowaz24.pl/wp-content/plugins/wp-gdpr-compliance/$script
 ||ose.gov.pl/rest/public/consent/cookies-body/pl$xmlhttprequest
 ||paypass.pl/themes/paypass/js/cookies.js$script
 ||phufart.pl/info_o_cookie_utf8.js$script
@@ -122,9 +122,9 @@
 ||www.odszkodowania-torun.pl/wp-content/plugins/wp-cookies-alert/style.css
 ||www.pryzmat.com.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||www.serialowa.pl/wpr/wp-content/plugins/popup-maker/assets/css/site.min.css
-||www.swiatksiazki.pl/customer/account/infoAgreement/*$xmlhttprequest
+||www.swiatksiazki.pl/customer/account/infoAgreement/$xmlhttprequest
 ||www.tamizo.pl/js/jquery.cookiesinfo.js$script
-||www.twojapogoda.pl/rodo/*$xmlhttprequest
+||www.twojapogoda.pl/rodo/$xmlhttprequest
 ||www.vectra.pl/img/icns/ico-yt-footer.png
 ||www.wio.org.pl/js/cookie_warning.js$script
 ||www.wroclaw.pl/portal/themes/js/script-rodo.min.js
