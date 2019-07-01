@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: TNXhkpOIdwm9fEb5ikvyfQ
+! Checksum: dJXnI6pEuRUrTe0zMBhKTA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.6.30.2
-! Last modified: Sun, 30 Jun 2019, 23:00 UTC+02
+! Version: 2019.7.1.1
+! Last modified: Mon, 01 Jul 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.6.30.2 aktualizacja: nie, 30 cze 2019, 23:00 UTC+02
+! v.2019.7.1.1 aktualizacja: pon, 01 lip 2019, 03:00 UTC+02
 !
 !
 ! Popupy
@@ -1216,6 +1216,7 @@ centrum.fm,miechow.eu,patriot24.net,niemiecki.co,mojtelefon.info,oakandberry.com
 cenyrolnicze.pl##.bd-imagestyles[alt*="nas"]
 certyficate.it###pre-header-social
 cert.orange.pl###twitterHover
+cert.orange.pl##.social, .share
 cesario.pl,moodconcept.pl###ssb-btn-0
 cewe.pl##.sidebar-link:nth-of-type(n+4):nth-of-type(-n+6) > .sidebar-icon
 ch24.pl###text-6 > .widget-title, .social > li:not(:nth-of-type(4))
@@ -2523,6 +2524,7 @@ mikolow.eu##.check-channels.footer-box > .data > h1, .check-channels.footer-box 
 milanos.pl##.col-xs-12.col-sm-6.col-md-34:nth-of-type(4)
 milanos.pl##.row:nth-of-type(n+8):nth-of-type(-n+9)
 mileycyrus.pl##a[href="https://www.facebook.com/mileyraycyruspoland/"], a[href="https://twitter.com/MCUpdatesPoland"]
+millemiglia.wp.pl##.socials
 millihome.pl###box_custom49
 milmag.pl##.sidebarShare
 miloohome.pl##a[href="https://www.facebook.com/miloohome"]
@@ -4611,4 +4613,6 @@ tvpuls.pl#@#.block-menu-menu-social-footer.block-menu.block > .menu
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka Origin i AdGuarda, by użytkownicy nie musieli jej subskrybować
+!#if (!adguard_ext_android_cb && !adguard_ext_safari && !adguard_app_ios)
 !#include social_filters_uB_AG.txt
+!#endif
