@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 09aKCR8Wda8CrNmQ35gayg
+! Checksum: pnJloLyHR0kOudGTJPm87g
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.1.1
-! Last modified: Mon, 01 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.1.2
+! Last modified: Mon, 01 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,13 +18,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.1.1 aktualizacja: pon, 01 lip 2019, 19:00 UTC+02
+! v.2019.7.1.2 aktualizacja: pon, 01 lip 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
 ~vod.naekranie.pl,naekranie.pl###modal-rodo-info
-~www.wp.pl,~poczta.wp.pl,wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
-~www.wp.pl,wp.pl#?#body > #app > div > span:not([class]):not([id]) > div[class]:not([id]):-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,xtb.com,feriogaj.com,koszyki.com,muzo.fm,cedc.com,edeklaracje.info,studiuje.eu,skierniewice.eu,diagprog4.com,tebrizsesi.com,evertourist.com,prymus.info,answear.com,telesystem-world.com,fokus.tv,nowa.tv,rowertour.com,eska.tv,voxmusic.tv,odpady.chorzow.eu,gdansk.pl,nasze.fm,koneser.eu,informacja-turystyczna.starachowice.eu###cookies
 3dom.pro,bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com,stolmot.com,anmur.eu,trecnutrition.com,koszulkomat.eu,f1experiences.com,gamet.eu,telko.in,makoblog.com,inkubatorkultury.eu,chorzow.eu,avenidapoznan.com,eastbook.eu,booksy.com,pkpcargo.com,sapphiretech.com,bibliotekacyfrowa.eu,radiopark.fm##.cookies
 3mpolska.pl,logitechg.com,bosch-professional.com,logitech.com,command.pl###__tealiumGDPRecModal
@@ -1508,6 +1506,7 @@ przedszkolowo.pl###cookie-agree-bar
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 przelewy24.pl,zlotyaniol.pl###policy_container
 psd2-pdev.bskadzidlo.pl##.cdk-overlay-container
+psprices.com###pg-gdpr
 pstryczki.eu###topInfoContainer0
 psychiatria-poradnie.pl,rc.fm,odpady.zgrp.pl,gazeta.us.edu.pl###popup-message-window, #popup-message-background
 ptep.pl##.rodo_popup
@@ -2008,9 +2007,8 @@ zysk.com.pl###pageUpperInfo
 !
 !
 ! Specyficzne reguły blokujące
-!||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|garmin.com|java.com|leagueoflegends.com|reebok.pl
-!||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|meethue.com|nespresso.com|oracle.com|origin.com|signify.com|support.wdc.com|wd.com|weather.com|xerox.com
 !||opinie.news/media/plg_system_eprivacy/js/$script,~third-party
+!||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
 /ajax/privacy_popup$xmlhttprequest,domain=pl|debica24.eu|narew.info|zvami.tv
 /filer_-_cookie_disclaimer_ny/$file/accept_cookies.js$script,domain=pl
 /images/cookie.png$domain=loteriainpost.pl|somatgold.pl|loteriaburn.pl|loteriavelvet.pl|kubusszkola.pl|zmienfutro.pl
@@ -2119,7 +2117,6 @@ zysk.com.pl###pageUpperInfo
 ||tspodbeskidzie.pl/js/vendor/cookiebox.min.js
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||twoje-seriale.pl/cookies.html$subdocument
-||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pl|bleepingcomputer.com|krokdozdrowia.com|softpedia.com
 ||vox.pl/modal/rodo$xmlhttprequest
 ||wieczorpomorze.pl/wp-content/themes/colormag/js/magnific-popup/jquery.magnific-popup.min.js
