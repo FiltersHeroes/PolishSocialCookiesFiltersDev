@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: Eiaxbnk93GBvxr5ZGkSgZA
+! Checksum: FMhn33SOpBJAS/sGl2Hckw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.4.2
-! Last modified: Thu, 04 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.4.3
+! Last modified: Thu, 04 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.4.2 aktualizacja: czw, 04 lip 2019, 19:00 UTC+02
+! v.2019.7.4.3 aktualizacja: czw, 04 lip 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -1800,6 +1800,7 @@ gazetamiedzyszkolna.pl###advanced_text-3
 gazetapowiatowa.pl##.box-author
 gazetapraca.pl##.external_link_other[href="https://www.facebook.com/MGsolutionsapt/"]
 gazetaprawna.pl##a[href="https://www.facebook.com/gazetaprawnapl"], a[href="http://plus.google.com/+gazetaprawna"], a[href="http://twitter.com/gazetaprawnapl"], .iconSocial, .socialIco
+gazetaspoleczna.pl##.right > li:nth-of-type(3)
 gazeta-olawa.pl#?#.vc_row-fluid.wpb_row.vc_row > .vc_column_container.wpb_column:-abp-contains(ZNAJDŹ NAS)
 gazeta-optyka.pl##div.grid-v.width100.grid-box:nth-of-type(4) > .deepest.mod-box.module
 gazetka.be##a[href="http://www.facebook.com/Gazetka.be"]
@@ -1840,6 +1841,7 @@ globalne-archiwum.pl,naziemna.info##.easy-facebook-like-box_box
 globenergia.pl##.fa-youtube-square, .fa-linkedin-square
 gloskoninski.pl##.footer-widgets-2, .footer-widgets-3
 gloswojewodzki.pl###HTML22, #HTML46, #HTML47
+glos.live###header .clear.faico > li
 glos.live##.col-1-6 > .faico > li
 glos.pl##.widget.social_center
 gls-group.eu##.linkedin
@@ -4027,6 +4029,7 @@ wok.walbrzych.pl##.sb-instagram-widget, a[href="https://www.facebook.com/walbrzy
 wolkom.pl##.footer_portal
 wolna-polska.pl###text-41 > .widget-title
 wolnemedia.net#?#ul > h3:-abp-contains(społecznościowych)
+wolsztyn24.pl#?#body > div > div > table[style][border] > tbody > tr > td:nth-of-type(1):-abp-contains(Znajdz nas i obserwuj!)
 wolt.com##div[class*="Footer__socialsColumn"] > div[class^="Footer__socialsRow"] > a[class^="SocialsButton"]
 word.olsztyn.pl##a[href="https://www.facebook.com/Warmia-i-Mazury-Zdrowe-%C5%BCycie-czysty-zysk-1741781486134765/"]
 word.olsztyn.pl##a[href^="https://www.youtube.com/playlist"]
