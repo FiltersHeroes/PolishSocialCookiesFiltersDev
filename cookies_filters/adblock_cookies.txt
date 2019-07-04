@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: PCy6IwF+eBeQpD/2EjBkRg
+! Checksum: 5LsqjR21jT3NDAAVTa/fZQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.4.1
-! Last modified: Thu, 04 Jul 2019, 15:00 UTC+02
+! Version: 2019.7.4.2
+! Last modified: Thu, 04 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.4.1 aktualizacja: czw, 04 lip 2019, 15:00 UTC+02
+! v.2019.7.4.2 aktualizacja: czw, 04 lip 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -236,7 +236,7 @@ biblioteka.nowaruda.pl###ucore_ciasteczka
 biblioteka.teatrnn.pl##body > div[style="text-align:center;"]:nth-of-type(1)
 biblioteki.org,ministerstwogadzetow.com,swmarcin-jarocin.com,ufs.pt,ksiegarniainternetowa.co.uk,polskaksiegarniainternetowa.eu,studio-znet.com,ejournals.eu,ksiegarniainternetowa.de###cookiesBar
 bieganieuskrzydla.pl###js-site-cookie
-bieganski.org,grupaazoty.com##.cookies_kontener
+bieganski.org,grupaazoty.com,requiem-records.com##.cookies_kontener
 biegniepodleglosci.pl###cf-cookie-banner
 bielsko.info##.cookie_policy
 bierhalle.pl###rstbox_5, #overlay_rstbox_5
@@ -1828,6 +1828,7 @@ um.lubawka.eu##.cookie_info
 unilink.pl##.windov_front_new_text
 upc.pl##.dmg-cookie-info
 ups-zasilacze.pl###pp2
+urzedow.pl##.no_cookies
 userstyles.org##.NotificationLine
 vectra.pl##.l-cookies
 vents-group.pl###akceptacja-rodo
