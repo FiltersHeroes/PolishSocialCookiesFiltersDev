@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: KBFJl3NV9eY53jGDaHGuFA
+! Checksum: aoyiCWxNs5atm9scLF3A1g
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.3.1
-! Last modified: Wed, 03 Jul 2019, 15:00 UTC+02
+! Version: 2019.7.4.1
+! Last modified: Thu, 04 Jul 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.3.1 aktualizacja: śro, 03 lip 2019, 15:00 UTC+02
+! v.2019.7.4.1 aktualizacja: czw, 04 lip 2019, 15:00 UTC+02
 !
 !
 ! Popupy
@@ -740,6 +740,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 ! Specyficzne reguły ukrywające
 ~www.dlastudenta.pl,dlastudenta.pl###socialbars
 ~www.eska.pl,eska.pl##.footer > .box:nth-of-type(6), .footer > .box:nth-of-type(7)
+~www.fandom.com,fandom.com###FacebookWnd, .media.Social.DSWBox
 ~www.wp.pl,wp.pl##.facebook-share, .tweeter-share
 ~www.wp.pl,wp.pl#?#div:-abp-has(> div > strong:-abp-contains(Podziel się))
 ~www.wp.pl,wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has(> div[class] > div[class] > span > svg > path)
