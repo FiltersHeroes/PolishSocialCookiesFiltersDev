@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: 5LsqjR21jT3NDAAVTa/fZQ
+! Checksum: w1fD38eAxLi9FjDmlwMSFA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.4.2
-! Last modified: Thu, 04 Jul 2019, 23:00 UTC+02
+! Version: 2019.7.5.1
+! Last modified: Fri, 05 Jul 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.4.2 aktualizacja: czw, 04 lip 2019, 23:00 UTC+02
+! v.2019.7.5.1 aktualizacja: pią, 05 lip 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2985,6 +2985,7 @@ pikio.pl#@##cookie-policy:not(body):not(html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
 tychy.geminipark.pl#@#.privacy-policy:not(body):not(html)
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
+zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 !wiadomosci-lodz.pl#@##cookie-law-info-bar:not(body):not(html)
 @@/js/CookieInfo.js$script,domain=cyrk-zalewski.com.pl|topschool.pl|porno720.pl
 @@/js/jquery.cookie.min.js$domain=rozklad.pkp.pl|rozklad-pkp.pl|telepizza.pl|pokatne.pl|moric.pl|hotto.pl
