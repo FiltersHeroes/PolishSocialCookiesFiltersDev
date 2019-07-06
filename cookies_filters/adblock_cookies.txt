@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ZMRA9phnWW/uHjenl6W+lw
+! Checksum: jhsmbbaF+aPBHDSDjzbvUQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.5.2
-! Last modified: Fri, 05 Jul 2019, 23:00 UTC+02
+! Version: 2019.7.6.1
+! Last modified: Sat, 06 Jul 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.5.2 aktualizacja: pią, 05 lip 2019, 23:00 UTC+02
+! v.2019.7.6.1 aktualizacja: sob, 06 lip 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -107,7 +107,7 @@ aliexpress.com###j-aliexpress-notice
 alipaczka.pl###bottom-charm
 alkoholeswiata.com##.notice-cookie
 allani.pl##.information-obligation-popup
-allbox.tv,dzikowiec.info,expert-tvsat.com###cookiescript_injected
+allbox.tv,dzikowiec.info,expert-tvsat.com,dating-services-singles.com###cookiescript_injected
 allegro.pl##div[data-box-name="cookie policy"]
 allekoszyk.pl##div > .ng-scope[ng-if="cookieinfo == false"]
 alles-bhp.pl###contGlowny > div[style*="position"][style*="fixed"]:not([id]):not([class])
@@ -801,7 +801,6 @@ hebe.pl##.rodo-popup_popup
 heineken.com.pl###infobx2
 helios.pl##.ban-rodo
 helio.pl,jastrzebieonline.pl,darnatury.pl###rodo_popup
-helskipolwysep.pl,visiton.pl,kartuzy.pl,pks-leszno.pl##.rstboxes > #rstbox_1
 herbaciani.pl##DIV[style="float:right; padding-top:20px; padding-bottom:20px; width:100%; font-size:12px; background:#ddd; color:#333; text-align:center; margin-bottom:10px;"]
 heroes-online.com###cookieNotificationBanner
 heuristic.pl###cboxContent, #cboxOverlay
@@ -1506,7 +1505,6 @@ prosto.pl###id-rules
 prowly.com##.pr-cookie-policy
 pruszczgdanski.pl##.tm-footer > .uk-panel
 pruszkow.pl##.js-rodo-info
-przedszkolakowo.pl##body > div[id][style*="position"][style*="fixed"]:not([class])
 przedszkolowo.pl###cookie-agree-bar
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 przelewy24.pl,zlotyaniol.pl###policy_container
@@ -1841,6 +1839,7 @@ vigo.com.pl##.au-cookie-flex
 vinci-play.com##.vinci--cookie--info.container-fluid
 vinted.pl##.c-cell--default.c-cell--primary.c-cell--wide.c-cell
 virustotal.com,virustotalcloud.appspot.com###euConsent
+visiton.pl,kartuzy.pl,pks-leszno.pl##.rstboxes > #rstbox_1
 vivaldi.com###cookiemsg
 vivrehome.pl###notification__consent
 vivus.pl#?##app > div > div > div[class]:-abp-has(.cnt)
