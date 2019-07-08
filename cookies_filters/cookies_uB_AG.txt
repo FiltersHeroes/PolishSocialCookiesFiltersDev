@@ -1,11 +1,11 @@
-! Checksum: FJxqBVYaDShp1wFdvlgURw
+! Checksum: v0GFWtVkI3jLi3NgWtajmg
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.5.1
-! Last modified: Fri, 05 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.8.1
+! Last modified: Mon, 08 Jul 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,14 +14,14 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.5.1 aktualizacja: pią, 05 lip 2019, 19:00 UTC+02
+! v.2019.7.8.1 aktualizacja: pon, 08 lip 2019, 19:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 7ryb.pl,etransport.pl,hrkgame.com##.modals.dimmer
 7ryb.pl,etransport.pl,hrkgame.com##.dimmed:style(overflow: auto !important;)
-24wroclaw.pl,ceres.pl,dane.gov.pl,e-sochaczew.pl,giantfabryczna.pl,gry.lotto.pl,komugroup.eu,liv-cycling.com,m.24jgora.pl,multimediago.pl,obywatel.gov.pl,olesnica24.com,printoteka.pl,tvdami.eu,tvgo.orange.pl,wrzesnia.info.pl,zwolen.pl,repostuj.pl,wedkuje.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+24wroclaw.pl,ceres.pl,dane.gov.pl,e-sochaczew.pl,giantfabryczna.pl,gry.lotto.pl,komugroup.eu,liv-cycling.com,m.24jgora.pl,multimediago.pl,obywatel.gov.pl,olesnica24.com,printoteka.pl,tvdami.eu,tvgo.orange.pl,wrzesnia.info.pl,zwolen.pl,repostuj.pl,wedkuje.pl,panoramafirm.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 abcalkoholu.pl##.cookielaw:style(padding-top: 0 !important;)
 adexemplum.com,gtv.com.pl,teoria.pl,fastdeal.pl,wsd.salwatorianie.eu##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
 adexemplum.com,gtv.com.pl,teoria.pl,fastdeal.pl,zsgarwolin.pl,wsd.salwatorianie.eu##html:style(overflow: auto !important; margin-right: 0 !important;)
@@ -146,6 +146,8 @@ mirjan24.pl##body.compensate-for-scrollbar:style(overflow: auto !important;)
 mirjan24.pl###fancybox-container-1:has(#gdpr)
 mirjan24.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
 mkidn.gov.pl###myModal
+motofaktor.pl##.rodo
+motofaktor.pl##.noScroll:style(overflow: auto !important;)
 msn.com##body.uhf .head, body.uhf #maincontent, body.uhf #foot:style(transform: unset !important;)
 msn.com###precontent:style(margin-top: 8rem !important;)
 msn.com##.head:style(margin-top: 0 !important;)
@@ -180,6 +182,7 @@ otwarteklatki.pl###popup-gdpr, .popup-overlay
 otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
 paczkomaty.pl##.modal:has(app-regulations-modal > .modal-header > .modal-title:has-text(RODO)), .modal-backdrop
 panattonieurope.com###image-popup.txt-popup, #image-popup-bg
+panoramafirm.pl###modal-rodolayer
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important;)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important;)
 pkw.gov.pl###rodo_wiadomosc
