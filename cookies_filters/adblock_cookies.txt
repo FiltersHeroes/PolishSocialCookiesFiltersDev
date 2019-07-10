@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: KC3acXEloCE/sxVL9PywrQ
+! Checksum: KOADJjBD8MjgKC3R9l2HZg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.10.2
-! Last modified: Wed, 10 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.10.3
+! Last modified: Wed, 10 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.10.2 aktualizacja: śro, 10 lip 2019, 19:00 UTC+02
+! v.2019.7.10.3 aktualizacja: śro, 10 lip 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -760,6 +760,7 @@ goldenline.pl###profiling-agreement
 golfparkspoland.pl###infoCookieWrapper
 gomez.pl##.window-police
 goodgifts.eu###cookie-law-container
+goodie.pl###main-container > .ax  > #header ~ .l3
 goodie.pl##.FooterComponent ~ div[class]:not([id])
 goodlookin.pl##div > div > div > .toplayaa
 google.com,google.pl##.widget-consent-dialog
@@ -2958,6 +2959,7 @@ minecraftpolska.net##.cookieinfo
 mybank.pl##.ciasteczka
 tvn24.pl###msgLayer
 wzory-cv.com##.gatewayBar
+xboxforum.pl##.notice--cookie
 !
 !
 ! Bugi Prebake
