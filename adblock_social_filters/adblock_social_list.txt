@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: zvkUo9SwcRu2qnbTdYczsg
+! Checksum: +/O+zjAdpqBaM8FPwerqqQ
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.9.1
-! Last modified: Tue, 09 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.10.1
+! Last modified: Wed, 10 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.9.1 aktualizacja: wto, 09 lip 2019, 19:00 UTC+02
+! v.2019.7.10.1 aktualizacja: śro, 10 lip 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -1881,7 +1881,7 @@ gostynin.info##.uk-visible\@s.uk-iconnav > li
 gotujmy.pl##.cf.inner > div:nth-of-type(3) > h3
 gotujzmaka.blogspot.com##a[href="http://gotujzmaka.blogspot.com/p/polub-mnie-na-facebooku.html"]
 gpsnadzor.pl##.navbar.social > .icons > li:nth-of-type(n+3):nth-of-type(-n+5)
-gpw.pl##.flexToRight > a:nth-of-type(odd):nth-of-type(-n+3)
+gpw.pl,gpwcatalyst.pl,newconnect.pl##footer > .flex > .flexToRight > a:nth-of-type(odd):nth-of-type(-n+3)
 gr4cze.pl,faktykonopne.pl###custom_html-12
 gr4cze.pl,jemyinietyjemy.pl###custom_html-13
 grafiterka.pl###footer_icons > a > img
@@ -3594,6 +3594,7 @@ sygnaturazdrowia.pl##.col-sm-3.col-md-3.col-lg-3.fusion-column:nth-of-type(3)
 szachownica.com.pl##.home-social-container
 szczecin.uw.gov.pl###header-icons > a:nth-of-type(n+4):nth-of-type(-n+5) > img
 szczekaopada.pl##footer #box
+szczepienia.pzh.gov.pl###float_yt_plugin
 szczepimy.com.pl##.sp-fb, .sp-gp
 szerokadroga.pl##iframe[src^="https://zblogowani.pl/widget/obserwuj"]
 szerokadroga.pl##.gum_home_sidebar.gum_widget.widget:nth-of-type(2)
@@ -3962,10 +3963,12 @@ wszystko.pl##.sm-iblock.like
 www.aligato.pl##.soc-link
 www.astar.czest.pl##.tdm-social-wrapper
 www.astar.czest.pl#?#td_block_title.td_block_wrap > .td-block-title > .td-pulldown-size:-abp-contains(Obserwuj nas)
+www.bankmillennium.pl##.footer__bottom .footer__bottom--icon-links > a:not([class*="goodie"])
 www.cen.gda.pl##.header-right-widget.widget_text.header-widget, #text-10 > .textwidget > .old-footer-title, #text-10 .textwidget > span.fa-stack.qode_icon_shortcode > a
 www.coreldraw.com##ul.ft-social-list
 www.cyfrowypolsat.pl##div.foot:nth-of-type(4) > ul > li:nth-of-type(3)
 www.decobazaar.com##.social > a[class*="b"]
+www.dekoria.pl###wall_264.wall, #footr_sm_icons
 www.djakdesign.pl,reklamy-arek.blogspot.com,zapiskizeswiata.pl###HTML3
 www.dobreprogramy.pl##div.col:nth-of-type(3) > .list > li.list__item:nth-of-type(n+2)
 www.dobreprogramy.pl###phContentLeft_SocialControl_socialBox, #phContent_SocialControl_SocialControlMain_socialBox
@@ -4016,6 +4019,7 @@ www.rossmann.pl##a[href="https://www.instagram.com/RossmannPL/"]
 www.rossmann.pl###footer > .row:nth-of-type(4)
 www.rp.pl##.btn--icon.btn--light
 www.rybnik.eu##.social.list-inline > li:nth-child(-n+4)
+www.santanderconsumer.pl##.menu > .goldenline, .menu > .blog
 www.studentnews.pl##nobr:nth-of-type(7), nobr:nth-of-type(8)
 www.trans-bus.eu#?#.wsite-section-elements:nth-of-type(1) > div:nth-of-type(1):-abp-contains(polub nas)
 www.tyskie.pl##.main-nav > li:nth-of-type(3)
@@ -4443,6 +4447,7 @@ webcamera.pl###footerbar div.col-md-3.col-sm-6:nth-of-type(4) > h2, .social, .fl
 www.tvn24.pl##.htmlBox:nth-of-type(26), .htmlBox:nth-of-type(27)
 www.tvn.pl##.footer-media, .open-modal, .detail-fb, .detail-gp, .detail-tw, .ds-fb, .ds-gp, .ds-tw, .footer-col:nth-of-type(4) > .footer-heading:nth-of-type(1)
 wzory-cv.com##.shareStackItem
+xboxforum.pl#?#.notices:-abp-has(a[href="https://www.youtube.com/channel/UCTTcPdi6MbeTg4geB6TaqPA"])
 yafud.pl###strona > center, .extBox
 zapytaj.onet.pl##.or, .share-container
 zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta
@@ -4462,7 +4467,7 @@ freshandnatural.pl#@##social_block
 greencanoe.pl,tanie-loty.com.pl#@#.social-links
 iab.org.pl#@#.menu-social-buttons
 influencer.pl#@#.socials
-kadantiscam.netlify.com#@#.social-icon
+kadantiscam.netlify.com,www.pkobp.pl#@#.social-icon
 kingowiec.pl#@#.socialmedia
 lublin112.pl#@##social-icon
 medycyna24.pl,wp.pl,~www.wp.pl#@#.share-links
@@ -4490,6 +4495,7 @@ www.dobreprogramy.pl#@#.social_top
 www.dobreprogramy.pl#@#.social__button
 www.dobreprogramy.pl#@#.social__icon
 www.instalki.pl#@#img[alt="Facebook"]
+www.pkobp.pl#@#.footer-top__social
 youtube.com#@##secondary-links
 @@/googleplus-$image,domain=www.wirtualnemedia.pl
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
