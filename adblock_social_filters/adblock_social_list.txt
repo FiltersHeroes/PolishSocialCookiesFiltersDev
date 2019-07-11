@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: +/O+zjAdpqBaM8FPwerqqQ
+! Checksum: bBI3n6jtJNc31rAVmglnSw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.10.1
-! Last modified: Wed, 10 Jul 2019, 23:00 UTC+02
+! Version: 2019.7.11.1
+! Last modified: Thu, 11 Jul 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.10.1 aktualizacja: śro, 10 lip 2019, 23:00 UTC+02
+! v.2019.7.11.1 aktualizacja: czw, 11 lip 2019, 03:00 UTC+02
 !
 !
 ! Popupy
@@ -745,7 +745,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 ~www.fandom.com,fandom.com###FacebookWnd, .media.Social.DSWBox
 ~www.wp.pl,wp.pl##.facebook-share, .tweeter-share
 ~www.wp.pl,wp.pl#?#div:-abp-has(> div > strong:-abp-contains(Podziel się))
-~www.wp.pl,wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has(> div[class] > div[class] > span > svg > path)
+~www.wp.pl,wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has(> div[class] > div[class] > span > svg > path
 2plus3d.pl###menuItem_facebook
 2xme.pl##.footer__block--flex.footer__block, .media__second
 3dom.pro##.division-size-50.division-box-2.division-box
@@ -3365,6 +3365,7 @@ sfd.pl##a[href="https://www.facebook.com/groups/1930328057252019/"], .homepage-s
 shareinfo.pl###text-22 > .widget-title
 shield.nvidia.pl###socialMedia-desktop
 shoper.pl##.socialmedia-icons
+shopgold.pl###BocznyFb
 showmag.info###text-23 > .textwidget > a > .mnky-font-icon, #text-23 > .textwidget > span
 showmax.com##a[href="https://www.facebook.com/ShowmaxPolska/"], a[href="https://www.youtube.com/channel/UCAXN0lacUZWkBE7bQUFK2VQ"]
 siatka.org###bottom-col
