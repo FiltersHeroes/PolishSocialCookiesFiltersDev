@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: NKzbqeYzx0Z6wvuMFkGVYg
+! Checksum: gaB9Scd8CNImMkumbcA7Cw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.11.2
-! Last modified: Thu, 11 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.11.3
+! Last modified: Thu, 11 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.11.2 aktualizacja: czw, 11 lip 2019, 19:00 UTC+02
+! v.2019.7.11.3 aktualizacja: czw, 11 lip 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -3672,6 +3672,7 @@ thebookshop.pl###sid64 > .box_content > .box_bg.custom_html
 themuba.com##.banner-share
 thenews.pl###ctl00_ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_SecondColumn_A_ctl07_ContentDiv > ul > li:nth-child(-n+2)
 thinkapple.pl##.find-us-header > .find-us-icons-header.find-us-icons > li > a
+thinkapple.pl#?#ul.find-us-icons-author > li:-abp-has(> a > .fa-twitter)
 thinkpoint.pl##.custom-contact__content__element__fab
 ticker.pl##p > a[href="https://plus.google.com/117832143136999927708/about"]
 tidal.com##.text-align-intermediate.font-size-intermediate > a[class]:nth-of-type(-n+3) > .tidal-icon
