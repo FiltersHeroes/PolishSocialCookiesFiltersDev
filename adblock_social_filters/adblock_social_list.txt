@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: gaB9Scd8CNImMkumbcA7Cw
+! Checksum: 1GxjHLA9pKC0y6BTRIOP5g
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.11.3
-! Last modified: Thu, 11 Jul 2019, 23:00 UTC+02
+! Version: 2019.7.12.1
+! Last modified: Fri, 12 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.11.3 aktualizacja: czw, 11 lip 2019, 23:00 UTC+02
+! v.2019.7.12.1 aktualizacja: pią, 12 lip 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -1047,6 +1047,7 @@ bet-at-home.com##.teaser-social-media
 bezmiesnymiesny.pl##div > .shb-icon-facebook.shb-icon, div > .shb-icon-instagram-circle
 bezmiesnymiesny.pl##.instagram-gallery-carousel-item > div.instagram-gallery-row > .instagram-gallery-widget-item > figure:hover > figcaption
 bezokularow.pl##.social > a[href^="https://plus.google.com/"]
+bezpieczenstwo.chorzow.eu##.social--list
 bezpieczny.blog###custom_html-3 > div > a:not(:last-child)
 bezprawaanirusz.pl,blog-spadkowy.pl,czaspracykierowcow.pl,japrzedsiebiorca.biz,leszekbloch.pl,niemarozwoduwkosciele.pl,odroczenie-kary.pl,podatki-dla-prawnika.pl,pozeworozwodblog.pl,prawodlalekarza.pl,rejestracjaspolkiwdelaware.pl,rozwodprzedsiebiorcy.pl,spkomandytowa.pl,stanprawnynieruchomosci.pl,warunki-zabudowy.com.pl,wroblewski-adwokat.pl,wyrobymedyczneokiemtemidy.pl,zakonczeniedzialalnosci.pl###social > a[id]:not([href*="/feed/"])
 bezprawnik.pl##.columns.show-for-large.large-1 > p:nth-of-type(2)
@@ -2011,6 +2012,7 @@ ihaa.pl##.social.container > .f-row > .rightside.f-grid-4
 ikrotoszyn.pl##.facebookfield
 ilewicz.pl##.aam_fb_stick
 ilo.pl###Mod122
+ilza.pl##.icon_stopka > div.pole-banerowe:nth-of-type(2)
 imagazine.pl##.icons > a:nth-of-type(n+2)
 imielski.net##.flo-footer-area-2-type-b__social-links-wrap
 inbook.pl##a[href="http://plus.google.com/u/0/105997578854872087403/posts"]
@@ -2063,7 +2065,7 @@ invimed.pl,opornografii.pl##.header__tools-social
 inwestujwmyjnie.pl##.row:nth-of-type(1) > .small-block-grid-1 > .bottom:nth-of-type(3)
 inwestycje.pl##.ico-foot-facebook, .ico-foot-twitter
 inzynieria.com##.cd-nav-social.list-inline > li:nth-of-type(-n+5), .nav-social-top > li:nth-of-type(-n+5)
-iotwock.info,lowicz24.eu,szczecinek.com,zambrow.org##.c-navi-socials, .c-footer-socials__list
+iotwock.info,lowicz24.eu,szczecinek.com,zambrow.org,ikrakow.info,sejny.net##.c-navi-socials, .c-footer-socials__list
 ipa-katowice.org##.gkColorFb.gkIcon
 ipa-katowice.org###gkBottom4 > .gkCols6 > div.gkmod-3.box:nth-of-type(2)
 ipla.tv##.box__social.social-list
@@ -2254,6 +2256,7 @@ kreskowki.tv#?#.right-side-bar > div.panel:nth-of-type(1):-abp-has(.fb-wrap)
 kresy.com###lewa > ul:nth-of-type(2)
 kresy.pl##.uniset-mm-icon-facebook, .uniset-mm-icon-twitter
 krknews.pl##.widget_facebook_page_plugin_widget
+krobia.pl##.yt_button
 krokdozdrowia.com##.floating.share > .buttons, [class*="amp-social-share"]
 krokdozdrowia.com##.widget-social-networks
 kropleinternetu.biz##address > .list-1
@@ -2302,6 +2305,7 @@ laracroft.pl##center > a[href="http://www.facebook.com/WorldOfTombRaider"] > img
 lasery.pl##.ce_t4c_social_icons, .t4c_social_list
 lastinn.info##a[href="https://www.facebook.com/LastInn/"] > img
 last.fm##.footer-top-col:nth-of-type(5)
+lasy.gov.pl##a[href="http://www.youtube.com/user/LasyPanstwowe"]
 lawendowykredens.pl##.footer-static > div.col-sms-12:nth-of-type(2)
 lazienkiportal.pl###fb_box
 lazienki-krolewskie.pl#?#.grid-25:-abp-has(.polub-nas)
@@ -2481,6 +2485,7 @@ mewe.com##.nav-socials
 mgotuje.pl,niestatystyczny.pl,prostowsmak.com##.solopine_facebook_widget.widget
 mgotuje.pl,prostowsmak.com##.solopine_social_widget.widget
 mhk.pl###bloggerTop, #facebookTop, #instagramTop, #twitterTop, a[href="http://blog.mhk.pl"]
+miastociechocinek.com###ban_facebook, #ban_youtube
 miastodzieci.pl##.container > .pull-left > a
 miastogier.pl##.dropdown > li.right:nth-of-type(9)
 miastograf.pl##.social-icon-links
@@ -2563,6 +2568,7 @@ mojswiatmodeli.pl##.rightcol > .box_custom.box:nth-of-type(n+4):nth-of-type(-n+5
 mojtelefon.info##.daily, .google
 moj-kawalek-podlogi.pl###text-6
 moj-sen.net##.fblikelink
+mok.zory.pl##.stopka_linki_ikonka > .pole-banerowe a[class$="_like_link"]
 molly.pl###globalWrapper > #bottom-boxes > .box-left ~ .box-center
 mol.pl,plportal.pl###block-block-7
 mondaynews.pl##.pre-footer-internal-social
@@ -2773,7 +2779,7 @@ oferteo.pl##.container-socialmedia .col-sm-4.col-md-5.col-lg-6, .container-socia
 ofertypromocje.pl###linkiPortalu
 ogladaj-legalne.pl###redTopBox > #findAs
 ogloszenia.trojmiasto.pl###actions-bar-facebook-button
-ogloszenioteka.pl#?#div.article.lfloat:-abp-contains(Zapraszamy na nasz profil na Facebooku.)
+ogloszenioteka.pl#?#div.article.lfloat:-abp-contains(Zapraszamy na nasz profil na Facebooku)
 ogrodnik-amator.pl##a[href="http://www.facebook.com/pages/ogrodnik-amatorpl/459365410789108"]
 ogrzewania.pl##.modFBWidget
 oirplodz.pl##.icons-content > a > .ico-box
@@ -2827,6 +2833,7 @@ osworld.pl##.td-social-wrap-64.td-social-wrap.td_block_wrap > .block-title
 osworld.pl##.td-s-s-64-meetup
 oszczedzarka.co.uk##.row > .engine-block.small-12.large-3 > center > a > img, .textwidget > p > img[src="/img/ico/skype.png"]
 otodom.pl##footer div.item:nth-of-type(4) > ul > li:nth-of-type(2)
+ototorun.pl#?#.l-news__content p > strong:-abp-contains(Polub nas na Facebooku)
 otwarteklatki.pl##.section-channels
 otwarte.eu###footer-container > .clwhite.margt40.text-right.pull-right.upper, li.visible-lg.visible-md:nth-of-type(n+6)
 outhorn.com##footer #custom776
@@ -3161,7 +3168,7 @@ publicat.pl##.share, .box-id-7.box.col-xs-12.col-sm-3.col-md-3
 publicrelations.pl##footer .icons-list > a
 publolek.pl##.footer-widget-1.widget-column, .info-box > div:nth-of-type(2) > a
 puccini.pl##.pcn_footer_menu_items > .pcn_footer_social
-puccini.pl#?#.page > .col1-layout.main-container:-abp-contains(na instagramie.)
+puccini.pl#?#.page > .col1-layout.main-container:-abp-contains(na instagramie)
 puch-kotlowski.pl###widget-15
 pudelek.pl###o2FBFanbox, .aside-youtube-channel, .header-fb-link
 pudelek.pl##.like-box-wrap
@@ -3671,7 +3678,7 @@ tfkable.com##a.lIn:nth-of-type(-n+2)
 thebookshop.pl###sid64 > .box_content > .box_bg.custom_html
 themuba.com##.banner-share
 thenews.pl###ctl00_ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_SecondColumn_A_ctl07_ContentDiv > ul > li:nth-child(-n+2)
-thinkapple.pl##.find-us-header > .find-us-icons-header.find-us-icons > li > a
+thinkapple.pl##.find-us-header > .find-us-icons-header > li > a
 thinkapple.pl#?#ul.find-us-icons-author > li:-abp-has(> a > .fa-twitter)
 thinkpoint.pl##.custom-contact__content__element__fab
 ticker.pl##p > a[href="https://plus.google.com/117832143136999927708/about"]
@@ -4008,6 +4015,7 @@ www.my-mobile.pl##.widget_text.widget
 www.nacjonalista.pl##.widget_text.widget, .top-twitter, .top-facebook, .top-youtube
 www.opera.com##.social > li > a > img
 www.pila.pl###kontakt .col-md-5.col-xs-12
+www.pisz.pl##.slider_button
 www.pkobp.pl##.icon-goldenline.social-icon--goldenline.social-icon
 www.politycznyislam.info##.wpb_start_animation.wpb_bottom-to-top.wpb_animate_when_almost_visible.wpb_content_element.wpb_text_column:nth-of-type(3)
 www.polityka.pl##.hiddenOnMobile.header-share-links, #md-footer_social, .md-sharethis-toolbox-floatingbutton_fb, .wykopTo.md-sharethis-toolbox-floatingbutton_wykop
