@@ -2484,7 +2484,7 @@ radiosud.pl##.sud-i-facebook, .sud-i-gplus
 radiosygnaly.pl#?#div[class^="et_pb_button"]:-abp-contains(/INSTAGRAM|FACEBOOK/)
 radioszczecin.pl##.boxext
 radiotczew.pl##li:nth-of-type(1) > a[href="https://twitter.com/radiotczew"], li:nth-of-type(2) > a[href="http://www.facebook.com/RadioTczew"]
-radiotczew.pl##.sbuttons. > li:nth-of-type(n+3):nth-of-type(-n+4) > a
+radiotczew.pl##.sbuttons > li:nth-of-type(n+3):nth-of-type(-n+4) > a
 radiovia.com.pl###footer > div > div > div > p.text-center:nth-of-type(1)
 radiowarszawa.com.pl##.wp-side-menu > .wp-side-menu-item
 radio-goldap.com.pl###footer .hidden-xs.hidden-sm.col-md-3.col-sm-6.col-xs-12 > h2
@@ -2778,7 +2778,7 @@ sport.tvp.pl##.news-socials__wrapper > a:nth-of-type(-n+2)
 spot-a-shop.pl##div.pure-u-1.pure-u-md-1-5:nth-of-type(1) > div.mb-2:nth-of-type(1)
 sprawnymarketing.pl##.fb-customerchat, .fb_dialog_advanced
 sprawy-karne.biz.pl###sow-editor-2 > .so-widget-sow-editor > .textwidget > p:nth-of-type(10), #sow-editor-4 > .so-widget-sow-editor > .textwidget > p:nth-of-type(10), #sow-editor-5 > .so-widget-sow-editor > .textwidget > p:nth-of-type(7)
-spreadshirt.pl##div.col-12:nth-of-type(2) > ul > li:nth-child(-n+4):not(nth-child(3))
+spreadshirt.pl##div.col-12:nth-of-type(2) > ul > li:nth-child(-n+4):not(:nth-child(3))
 spreadshirt.pl##.order-lg-3.col-lg-2.col-md-3.col-12.ft-social > div > .row > div.col-12:nth-of-type(1)
 sprzet-dyskotekowy.pl##.AW_socialSquares > a
 sps24.pl###baner187
