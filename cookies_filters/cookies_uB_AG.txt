@@ -1,11 +1,11 @@
-! Checksum: yD2YQryINYNEIfkxVRQ1OQ
+! Checksum: GjVMVkfBGmvgRNWSZh94FQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.15.1
-! Last modified: Mon, 15 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.15.2
+! Last modified: Mon, 15 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.15.1 aktualizacja: pon, 15 lip 2019, 19:00 UTC+02
+! v.2019.7.15.2 aktualizacja: pon, 15 lip 2019, 23:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -296,7 +296,7 @@ belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics
 bioagris.pl###policy-accept-div, .modal-backdrop
 bmw-motorrad.pl##.cookielayer
 bmw-motorrad.pl##+js(nano-remove-elements-onready.js, .cookielayer)
-bmw-motorrad.pl##.mnm-nsc body.deactivated:style(height: initial !important; overflow: auto !important;)
+bmw-motorrad.pl##.mnm-nsc body.deactivated:style(overflow: auto !important;)
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 brieftip.pl,kaliber.pl###cookieModal, .modal-backdrop
 brieftip.pl,kaliber.pl##+js(nano-remove-elements-onready.js, #cookieModal)
