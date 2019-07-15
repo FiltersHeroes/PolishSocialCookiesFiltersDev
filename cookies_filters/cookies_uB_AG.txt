@@ -1,11 +1,11 @@
-! Checksum: IHFQRsF5zk7/i4mr7lR6qw
+! Checksum: yD2YQryINYNEIfkxVRQ1OQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.13.1
-! Last modified: Sat, 13 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.15.1
+! Last modified: Mon, 15 Jul 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.13.1 aktualizacja: sob, 13 lip 2019, 19:00 UTC+02
+! v.2019.7.15.1 aktualizacja: pon, 15 lip 2019, 19:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -294,6 +294,9 @@ autakrajowe.com.pl,optimalg.com##.modal-open:style(overflow: auto !important; ma
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,homedesign.pl,pasjagolebie.pl,tvwalbrzych.pl,pytanieomieszkanie.pl,buddyzm.info.pl,pzsnstart.eu,whatannawears.com##.pum-open:style(overflow: auto !important;)
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,pasjagolebie.pl,tvwalbrzych.pl,pytanieomieszkanie.pl,buddyzm.info.pl,pzsnstart.eu,whatannawears.com,sp112.waw.pl##.popmake-overlay[data-popmake*="cookies"]
 bioagris.pl###policy-accept-div, .modal-backdrop
+bmw-motorrad.pl##.cookielayer
+bmw-motorrad.pl##+js(nano-remove-elements-onready.js, .cookielayer)
+bmw-motorrad.pl##.mnm-nsc body.deactivated:style(height: initial !important; overflow: auto !important;)
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 brieftip.pl,kaliber.pl###cookieModal, .modal-backdrop
 brieftip.pl,kaliber.pl##+js(nano-remove-elements-onready.js, #cookieModal)
@@ -419,6 +422,7 @@ alltube.tv,alltube.pl,mistravel.pl,laziska.com.pl,m-ce.pl,mojbytom.pl,mojegliwic
 autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl##^#rodo
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,tvwalbrzych.pl,pytanieomieszkanie.pl,buddyzm.info.pl,pzsnstart.eu,whatannawears.com##^.popmake-overlay
 bioagris.pl##^#policy-accept-div
+bmw-motorrad.pl##^.cookielayer
 born2be.pl,renee.pl##^.rules-modal
 brieftip.pl,kaliber.pl##^#cookieModal
 budownictwo.pl##^#rodoLayer
@@ -504,6 +508,7 @@ alltube.tv,alltube.pl,mistravel.pl,laziska.com.pl,m-ce.pl,mojbytom.pl,mojegliwic
 autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl$$#rodo
 belsat.eu,mobilet.pl,marfafashion.com,petrodom.pl,masterleasing.pl,eurologistics.pl,wybielanie.pl,poznan.ap.gov.pl,wsb.net.pl,tvwalbrzych.pl,pytanieomieszkanie.pl,buddyzm.info.pl,pzsnstart.eu,whatannawears.com$$.popmake-overlay
 bioagris.pl$$#policy-accept-div
+bmw-motorrad.pl$$.cookielayer
 brieftip.pl,kaliber.pl#?#.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 brieftip.pl,kaliber.pl$$#cookieModal
 cenapaliw.pl$$#CBCookieMsg
