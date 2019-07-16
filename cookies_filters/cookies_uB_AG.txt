@@ -1,11 +1,11 @@
-! Checksum: GjVMVkfBGmvgRNWSZh94FQ
+! Checksum: 5OJfq9G//EZCWza5ajNliA
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.15.2
-! Last modified: Mon, 15 Jul 2019, 23:00 UTC+02
+! Version: 2019.7.16.1
+! Last modified: Tue, 16 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.15.2 aktualizacja: pon, 15 lip 2019, 23:00 UTC+02
+! v.2019.7.16.1 aktualizacja: wto, 16 lip 2019, 23:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -74,8 +74,8 @@ domisad.pl##.show-message #top-nav:style(height: auto !important;)
 dragon.com.pl###modal-rodo, .iziModal-overlay
 dragon.com.pl##.iziModal-isOverflow:style(overflow: visible !important;)
 drogeriapigment.pl##.fancybox-overlay:has(#potwierdzamrodo)
-drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,galeriaslendzinskich.pl,sklepdlalekarza.com##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
-drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,galeriaslendzinskich.pl,sklepdlalekarza.com##html.fancybox-margin:style(margin-right: 0 !important;)
+drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,galeriaslendzinskich.pl,sklepdlalekarza.com,wiemy.to##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
+drogeriapigment.pl,bip.badkowo.ug.gov.pl,bip.powiat.poznan.pl,teatrpolski.waw.pl,szpitalnawrzesinie.pl,powiat-zyrardowski.pl,tureckisklep.pl,galeriaslendzinskich.pl,sklepdlalekarza.com,wiemy.to##html.fancybox-margin:style(margin-right: 0 !important;)
 dropbox.com##.embedded-app.IndexRebrandPage.top-notification-bar:style(margin-top: -51px !important;)
 dropbox.com##.top-notification-bar-container + .preview-box .react-file-viewer, .embedded-app.IndexRebrandPage.top-notification-bar .RebrandNavigation-container:style(top: 0 !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
@@ -255,6 +255,7 @@ wakacje.pl###__next > div > div > div[class]:not([id]):has(button):has-text(Admi
 webhelp.pl###wrapper:style(margin-top: auto !important;)
 wgospodarce.pl,wpolityce.pl##.rhododendron-body-with-popup:style(overflow: auto !important;)
 wgospodarce.pl,wpolityce.pl##.rhododendron-popup, .rhododendron-popup-overlay
+wiemy.to##.fancybox-overlay-fixed.fancybox-overlay[style]:has-text(RODO)
 wrzesnia.info.pl###rodo, .modal-backdrop
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
@@ -484,6 +485,7 @@ tvasta.pl##^#infoModal
 twojeankiety.pl##^.polPriv
 ustawlige.com,ustawmundial.weszlo.com##^#privacy-modal
 victoriassecret.pl##^script:has-text(cookie-)
+wiemy.to##^#banner:has(#popuplink):has(#inline:has-text(RODO))
 wtk.pl##^#GDPR-modal
 wyceniono.pl##^script:has-text(.cookie-ok)
 zdajmyrazem.pl##^#gdprModal
@@ -573,6 +575,7 @@ tvasta.pl$$#infoModal
 twojeankiety.pl$$.polPriv
 ustawlige.com,ustawmundial.weszlo.com$$#privacy-modal
 victoriassecret.pl$$script[tag-content="cookie-"]
+wiemy.to$$#banner[tag-content="RODO"]
 wtk.pl$$#GDPR-modal
 wyceniono.pl$$script[tag-content=".cookie-ok"]
 zdajmyrazem.pl$$#gdprModal
