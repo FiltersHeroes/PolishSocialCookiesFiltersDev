@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: EXpGLd23TiV0kgi0HVDBiw
+! Checksum: 6iPgoZhMHeQ4Xb+RipbjMw
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.16.1
-! Last modified: Tue, 16 Jul 2019, 15:00 UTC+02
+! Version: 2019.7.16.2
+! Last modified: Tue, 16 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.16.1 aktualizacja: wto, 16 lip 2019, 15:00 UTC+02
+! v.2019.7.16.2 aktualizacja: wto, 16 lip 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -55,7 +55,7 @@ nawiedzone.pl,polskieszosy.pl,swiatfilmikow.pl##[data-title="Social Form - Popup
 nowosci-mp3.eu###pop-slap, .bg-pop-over
 nportal.no###fb-overlay
 okiemturysty.pl##.div_box0
-onkyo.pl##div#dwbox-bkg, div#dwbox-box:nth-of-type(19)
+onkyo.pl##div#dwbox-bkg, div#dwbox-box
 pelnytalerz.com###fbox-background
 pierwsze-kroki.com###spu-26, #spu-bg-26
 pl###facebook-popup
@@ -1297,6 +1297,7 @@ consil.com.pl##.footerbar > div.col-md-6.col-sm-6 > ul > li:nth-of-type(-n+3) > 
 consumer.huawei.com##.gtm-social.cbg-inline
 cookup.pl##.instagram-container
 coopervision.pl##.social-icons__container, li.cv-callout-menu__item > .cv-callout-menu__icon--facebook
+cordis.europa.eu,remington-europe.com,rylko.com##.fa-instagram.fa
 cosdlazdrowia.pl##.col-lg-2.col-md-2.col-sm-6.col-xs-12:nth-of-type(4) > .footer-block
 cosinus.pl###yt_icon, #instagram_icon
 cosinus.pl,hotelforumlublin.pl###google_icon
@@ -3265,7 +3266,7 @@ reklamacjatowaru.pl###text-42
 release24.pl##div:nth-of-type(2) > div > ul > li:nth-of-type(3)
 release24.pl###rightwindow > div:nth-of-type(2) > div > ul > li:nth-of-type(4)
 rembowscy.pl##.mcb-item-marrudp0p
-remington-europe.com##.fa-instagram.fa, .fa-pinterest.fa, .fa-youtube-play.fa, .hide-on-mobile.title
+remington-europe.com##.fa-pinterest.fa, .fa-youtube-play.fa, .hide-on-mobile.title
 renderer.apester.com,www.dobreprogramy.pl,www.pcworld.pl##[class^="StyledShareProviderButtons"].ProviderIcons, [class^="StyledShareProviderButtons"].ProvidersText
 renee.pl##.store-contact-content > .social-content
 rentndrive.eu###element_83, #element_84:not(.google-plus), #element_85
@@ -3314,7 +3315,7 @@ runeat.pl##.line:nth-of-type(5), .widget:nth-of-type(4)
 runexpert.pl##a[href="https://www.facebook.com/RunExpert"]
 rusin-ski.pl##.socials-title
 russ.uwm.edu.pl##.vc_icon_element-inner
-rylko.com##.fa-facebook-official, .fa-instagram.fa
+rylko.com##.fa-facebook-official
 rynekinfrastruktury.pl##.sledzNasContainer > .naglowek > .tekst
 rynekinfrastruktury.pl,rynek-lotniczy.pl##.sledzNasContainerStopka > .naglowek > .tekst, .wiadomoscSocial, .wiadomoscSocialBig
 rynekinwestycji.pl#?#.site-title:-abp-contains(FACEBOOK)
@@ -4525,6 +4526,7 @@ youtube.com#@##secondary-links
 @@/googleplus-$image,domain=www.wirtualnemedia.pl
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
 @@/social_media_$domain=mazury.travel
+@@||europa.eu/webtools/services/sbkm/images/share.png$image,domain=cordis.europa.eu
 @@||filoma.org/static/images/facebook.jpg
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
