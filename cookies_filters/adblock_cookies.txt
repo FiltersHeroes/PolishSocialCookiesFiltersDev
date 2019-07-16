@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: NzLJdrknxxJQ8g1Xep9xCw
+! Checksum: 8/8zggaB+aid+KoR9VA/Bw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.15.3
-! Last modified: Mon, 15 Jul 2019, 23:00 UTC+02
+! Version: 2019.7.16.1
+! Last modified: Tue, 16 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.15.3 aktualizacja: pon, 15 lip 2019, 23:00 UTC+02
+! v.2019.7.16.1 aktualizacja: wto, 16 lip 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -201,7 +201,7 @@ badoo.com###page-cookie-notification
 bajeczki.org,deynn.blog,dobremiejsce.org,dojczland.info,domjozefa.tv,doradztwoprawne.org,dziendobry.catering,e-niemcy.de,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,farmacja.net,filmowo.co,getlevel.info,kamienskie.info,kropka.audio,kryminalni24.info,lowiczanin.info,niniwa.org,pink.land,pomozity.org,retrotech.blog,rolland.tech,roztocze.net,wifi-spot.net,wiskitki.org,wnet.fm,zkaszub.info,wringu.net,itvwisla.tv,luzyce.info,tvcsw.info,sekrety-zdrowia.org,fundacjawolnosci.org,lipnik.org,ekocykl.org,expertum.de,kooperation-ohne-grenzen.de,bezpieczny.blog,icelandnews.is,opinie.co###cookie-notice
 baldowski.pl,label-magazine.com##.moduleCookiesBox
 balex.eu,kupzegarek.com,picodi.com,starysacz.info,ono24.info,wikidot.com,infobeskidy.eu,lo1.lublin.eu,welcome2poland.eu,ciekawe.org##.cookie-alert
-balladine.com,nails.silcare.com,ochnik.com,mistama.com,basspolska.com,swiatpaneli.com,pl.coccodrillo.eu,ksiazki-medyczne.eu,koszulkolandia.com,prezencik.eu###cookies_message
+balladine.com,nails.silcare.com,ochnik.com,mistama.com,basspolska.com,swiatpaneli.com,pl.coccodrillo.eu,ksiazki-medyczne.eu,koszulkolandia.com,prezencik.eu,sklep.charaktery.eu###cookies_message
 balluff.com,tidal.com,elblag.net,dvb.de##.cookie-info
 bambino.dzidziusiowo.pl##.section--cookies
 banggood.com##.cookie-tip
@@ -387,6 +387,7 @@ contentstream.pl,niezlasztuka.net###cookie-banner
 copart.de##.cookie-policymsg
 copernicusfestival.com,naukaireligia.pl,filozofiawnauce.pl,copernicuscenter.edu.pl###block-block-31
 copyrightpolska.pl###cookie-ack
+cordis.europa.eu##cookies-consent
 costacoffee.pl##.notification-global
 cqb.pl###overlay_cookies
 credit-suisse.com##.mod_cookie_policy
@@ -1178,7 +1179,6 @@ mniamspinka.pl##body > div > .alert-box
 mobile.de###consentBanner, div[class^="cookie-banner"]
 mobile.lebara.com##.cookie-component
 mobile.twitter.com#?##react-root > div > div > div > div > div:-abp-contains(cookie)
-mobile.twitter.com#?##react-root > div > div > div > main > div > div > div:-abp-contains(cookie)
 mobilitytrends.pl,mobilitynews.pl,techtradeshow.pl##.politic-cookie
 mobilne-miasto.org###c-box
 moda-pol.com###cookie.cookies
@@ -1823,6 +1823,7 @@ tymrazemglosuje.eu###cookiespolicymessage
 udemy.com##[data-module-id="eu-cookie-message"]
 uk.ign.com##div#policyNotice
 um.jaslo.pl,adeste.eu##.cp-info-bar
+unifiedfactory.com###cookie-div
 unilink.pl##.windov_front_new_text
 upc.pl##.dmg-cookie-info
 ups-zasilacze.pl###pp2
@@ -2008,9 +2009,11 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
+!mobile.twitter.com#?##react-root > div > div > div > main > div > div > div:-abp-contains(cookie)
 !
 !
 ! Specyficzne reguły blokujące
+!||cdnjs.cloudflare.com/ajax/libs/fancybox/*/jquery.fancybox.min.$script,stylesheet,domain=wiemy.to
 !||opinie.news/media/plg_system_eprivacy/js/$script,~third-party
 /ajax/privacy_popup$xmlhttprequest,domain=pl|debica24.eu|narew.info|zvami.tv
 /filer_-_cookie_disclaimer_ny/$file/accept_cookies.js$script,domain=pl
@@ -2042,7 +2045,6 @@ zysk.com.pl###pageUpperInfo
 ||a.wpimg.pl/a/i/stg/wpjslib-chunk-notification.js
 ||bramka-proxy.pl/themes/default/cookies.js
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=legalcakes.com|satkurier.pl
-||cdnjs.cloudflare.com/ajax/libs/fancybox/*/*s/jquery.fancybox.min.*s$script,stylesheet,domain=wiemy.to
 ||ciasteczka.eu/cookiesEU-latest.min.js
 ||ciasteczka.org.pl/cookies/cookies$script
 ||ciasteczkowapolityka.pl/getscript$script
