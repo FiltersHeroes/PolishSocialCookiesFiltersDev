@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: mBljRyPayKO6mIzHn0uYMw
+! Checksum: th7iVjbpwUFxpHNDLMsEGQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.17.1
-! Last modified: Wed, 17 Jul 2019, 15:00 UTC+02
+! Version: 2019.7.17.2
+! Last modified: Wed, 17 Jul 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.17.1 aktualizacja: śro, 17 lip 2019, 15:00 UTC+02
+! v.2019.7.17.2 aktualizacja: śro, 17 lip 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -70,7 +70,7 @@ adm-media.pl,kociadolina.pl##.policy
 adobe.com,merixstudio.pl##.message
 adocean-global.com##div.cookies-flex
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
-adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl,zs1mm.edu.pl,zs1mm.home.pl##body > div[style*="position"][style*="relative"]:not([id]):not([class])
+adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl,zs1mm.edu.pl,zs1mm.home.pl,wordlist.eu##body > div[style*="position"][style*="relative"]:not([id]):not([class])
 adwokatura.katowice.pl###cookieInfCont
 aeg-powertools.eu,pl.kingofsat.net,godzina.info,bolec.info,osiedle-chelmonskiego.pl.tl,pons.com,languagetool.org,forum.optymalizacja.com,wiha.com,dystans.org,konin24.info,euautomation.com,ipa-katowice.org,ftt.roto-frank.com,filehippo.com,punkt.media,parafiabrzezinka.eu,tw-db.info,techsklep.eu,eurolines.de,malopolskie-media.info,europeana.eu,baldauf-kaese.de,sachsen-tourismus.de,esize.me##.cc_banner-wrapper > .cc_banner
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
@@ -2013,11 +2013,9 @@ zysk.com.pl###pageUpperInfo
 !
 ! Specyficzne reguły blokujące
 /ajax/privacy_popup$xmlhttprequest,domain=pl|debica24.eu|narew.info|zvami.tv
-/filer_-_cookie_disclaimer_ny/$file/accept_cookies.js$script,domain=pl
 /images/cookie.png$domain=loteriainpost.pl|somatgold.pl|loteriaburn.pl|loteriavelvet.pl|kubusszkola.pl|zmienfutro.pl
 /includes/infocookies.js$domain=wici.info
 /informationbar.js$domain=stowarzyszenie-dyrektorow.pl|zgkim.zgora.pl
-/js/jquery.cookie.min.js$script,domain=pl
 /libraries/js/jquery.tipsy.cookie.js$domain=kierunkowy.com
 /pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
 /pp-t-a-c.js$domain=bmi-online.pl|dieta.pl|domzdrowia.pl|fabrykasily.pl|fora.pl|toplista.pl|torrent.top-100.pl|odkrzychadoronaldo.pl|forum-kulturystyka.pl|swistak.pl|trizer.pl|jestemfit.pl
@@ -2049,6 +2047,7 @@ zysk.com.pl###pageUpperInfo
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
 ||confero.pl/js/cookies2013$script
 ||consentmanager.mgr.consensu.org/delivery/cmp.min.js$script,domain=opinie24.pl
+||consent.cookiebot.com/*/cc.js$script,domain=wienerberger.pl
 ||consent.truste.com/get?name=notice.js$script
 ||cookiebanner.eu/js/cookiebanner.min.js
 ||cookieq.com^$third-party
@@ -2158,8 +2157,10 @@ cookie-law-popup.js$domain=pl
 /cookie-terms.
 /cookie_msg.js$script
 /cookie_notify/*
+/filer_-_cookie_disclaimer_ny/$file/accept_cookies.js$script,domain=pl
 /js/cookieinfo.js
 /js/info_o_cookie.js
+/js/jquery.cookie.min.js$script,domain=pl
 /js/polityka_cookies.js$script
 /media/plg_system_cookieconfirm$script,domain=pl
 /media/plg_system_eprivacy$script,domain=pl
