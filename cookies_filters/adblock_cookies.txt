@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: nUqtgU5EH6H/9pOZWQeMCQ
+! Checksum: sSypghItLkqAWojCpL4c6w
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.18.1
-! Last modified: Thu, 18 Jul 2019, 15:00 UTC+02
+! Version: 2019.7.18.2
+! Last modified: Thu, 18 Jul 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.18.1 aktualizacja: czw, 18 lip 2019, 15:00 UTC+02
+! v.2019.7.18.2 aktualizacja: czw, 18 lip 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -27,7 +27,7 @@
 ~www.wp.pl,wp.pl#?#body > #app > div > span:not([class]):not([id]) > div[class]:not([id]):-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,xtb.com,feriogaj.com,koszyki.com,muzo.fm,cedc.com,edeklaracje.info,studiuje.eu,skierniewice.eu,diagprog4.com,evertourist.com,prymus.info,answear.com,telesystem-world.com,fokus.tv,nowa.tv,rowertour.com,eska.tv,voxmusic.tv,odpady.chorzow.eu,gdansk.pl,nasze.fm,koneser.eu,informacja-turystyczna.starachowice.eu###cookies
 3dom.pro,bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com,stolmot.com,anmur.eu,trecnutrition.com,koszulkomat.eu,f1experiences.com,gamet.eu,telko.in,makoblog.com,inkubatorkultury.eu,chorzow.eu,avenidapoznan.com,eastbook.eu,booksy.com,pkpcargo.com,sapphiretech.com,bibliotekacyfrowa.eu,radiopark.fm,maamstyle.com##.cookies
-3mpolska.pl,logitechg.com,bosch-professional.com,logitech.com,command.pl###__tealiumGDPRecModal
+3mpolska.pl,logitechg.com,bosch-professional.com,logitech.com,command.pl,vacansoleil.pl###__tealiumGDPRecModal
 3s.pl,franciszkanskie.pl,antyweb.pl,norauto.pl,grupakety.com,olimpijski.pl,softon.pl,ingtechpoland.com,kultura.krasnik.eu,brolerserwis.pl,spedycje.pl,kancelaria-szip.pl,pelion.eu,karmy.com.pl###privacy
 4fstore.com,autogielda.pl,auto-czesci-lipiec.pl,mix4kids.tv,dreammachines.pl,fotosik.pl,haloursynow.pl,warsztat.pl,jelenia.tv,leo.pl,interprojekt.pl,aclari.pl,diecezjaplocka.pl,e-konkursy.info,funduszpomerania.pl,goldenline.pl,naratunek.org,oskolaf.pl,panoramafirm.pl,pulawy.eu,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,swiatpodlog.com.pl,wseit.edu.pl,zabierzow.org.pl,skijumping.pl##.modal-backdrop
 4hifi.pl,advatus.pl,tylkodywan.pl,ip-sa.pl##.myModal-box
@@ -216,6 +216,7 @@ batida.pl###top-closable-message
 baumit.pl##.pro-cookie-layout
 baza-krs.pl,markoweszyby.pl,moja-grecja.pl,swiat-czekolady.com.pl,kzkgop.com.pl,rj.metropoliaztm.pl,upolujebooka.pl#?#.alert-info.alert:-abp-contains(cookies)
 bbcpolska.com##body > iframe
+bcweb.pl###cookieopened
 bdi.com.pl##.ultra_modules_ad_acceptation_b
 bdl.lasy.gov.pl###infoDiv
 beautikon.com,e-lakiernik.net,helikon-tex.com,imready.eu,lancerto.com###notice-cookie-block
@@ -225,6 +226,7 @@ bechtle.com##.neo-footer__cookieBar
 bejeans.pl,hael.pl###js-cookienotice
 belutti.com##.fk-cookies
 bershka.com##.modalWarnContainer
+beskidlive.pl##.mod_fantastic_facebook_sidebar, .li-googleplus, .li-facebook
 beskidy.news##.js-cookies.c-cookies
 beskidzkapilka.pl##.messageinfo
 bethesda.net#?#visor-alert > div > div > div:last-child:-abp-has(a[href="/pl/document/cookie-policy"])
@@ -1079,7 +1081,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com,goleniowska.com,visitwroclaw.eu,czarnkow.info,suwalki.info,zsgoreczyno.eu,koronakaszub.eu,amico.market,raczkowski.eu,iwaniska.eu,mensahome.eu,x-moto.eu,julstar.eu,wagrowiec.eu,camprest.com,krzysztof-bus.eu,transportnews.eu,transportnews.tk,fotmar.eu,allpaka.eu,wici.info,lessmess.storage,reporterzy.info,gazetaswietojanska.org,master-sport.de,opoczno.info,ikrakow.info,sejny.net,goryonline.com###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com,goleniowska.com,visitwroclaw.eu,czarnkow.info,suwalki.info,zsgoreczyno.eu,koronakaszub.eu,amico.market,raczkowski.eu,iwaniska.eu,mensahome.eu,x-moto.eu,julstar.eu,wagrowiec.eu,camprest.com,krzysztof-bus.eu,transportnews.eu,transportnews.tk,fotmar.eu,allpaka.eu,wici.info,lessmess.storage,reporterzy.info,gazetaswietojanska.org,master-sport.de,opoczno.info,ikrakow.info,sejny.net,goryonline.com,staypoland.com###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubawka.eu##.cookie_info
@@ -1154,7 +1156,6 @@ meteo.org.pl##.f > .em
 meteo.waw.pl###cookies-note
 metis.pl###wndCookies
 mggp.com.pl##.navbar-inverse, .navbar.navbar-fixed-bottom
-miastodzieci.pl##.gdpr-cookie-notice
 miastokobiet.pl###edgtf-back-to-top
 miastons.pl##[id^="overflow"]
 michalgrabarski.eu###ccc-icon
@@ -2013,6 +2014,7 @@ zysk.com.pl###pageUpperInfo
 !
 ! Specyficzne reguły blokujące
 /ajax/privacy_popup$xmlhttprequest,domain=pl|debica24.eu|narew.info|zvami.tv
+/gdpr/CookieConsent$xmlhttprequest,~third-party,domain=kayak.pl
 /images/cookie.png$domain=loteriainpost.pl|somatgold.pl|loteriaburn.pl|loteriavelvet.pl|kubusszkola.pl|zmienfutro.pl
 /includes/infocookies.js$domain=wici.info
 /informationbar.js$domain=stowarzyszenie-dyrektorow.pl|zgkim.zgora.pl
@@ -2764,6 +2766,7 @@ pl##.eu-cookie-panel:not(body):not(html)
 pl##.footerCookieNotice:not(body):not(html)
 pl##.footer-cookies:not(body):not(html)
 pl##.footer__cookies:not(body):not(html)
+pl##.gdpr-cookie-notice:not(body):not(html)
 pl##.gdpr-privacy-bar:not(body):not(html)
 pl##.ginger_banner-wrapper:not(body):not(html)
 pl##.head-page-information:not(body):not(html)
@@ -2790,6 +2793,7 @@ pl##.panel_cookie:not(body):not(html)
 pl##.penci-wrap-gprd-law:not(body):not(html)
 pl##.plg_system_eprivacy_module:not(body):not(html)
 pl##.policy-box:not(body):not(html)
+pl##.popup-cookie:not(body):not(html)
 pl##.privacybanner_notice:not(body):not(html)
 pl##.privacy-container:not(body):not(html):not(.content-container)
 pl##.privacy-info:not(body):not(html)
