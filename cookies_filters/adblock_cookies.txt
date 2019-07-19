@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ObVnpcUmsoaYej/0RYhGBA
+! Checksum: iWTiMF+BC0zGqo8UsFnxQw
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.18.3
-! Last modified: Thu, 18 Jul 2019, 23:00 UTC+02
+! Version: 2019.7.19.1
+! Last modified: Fri, 19 Jul 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.18.3 aktualizacja: czw, 18 lip 2019, 23:00 UTC+02
+! v.2019.7.19.1 aktualizacja: pią, 19 lip 2019, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1736,7 +1736,7 @@ swiatpodlog.com.pl###giodo
 swidnica24.pl##div#policyBox
 swietnafirma.pl###cMess
 swietokrzyskie.pro##.cookieNotification
-swps.pl##[data-cookie-name="cookiesDirective"], #cpnb_warningBoxBgOverlay
+swps.pl##div[data-cookie-name^="cookies"], #cpnb_warningBoxBgOverlay
 sykomat.com.pl###adimo-cookie
 synology.com###cookies_header
 systemair.com###gdprdialog.gdpr-message, .reveal-modal-bg
