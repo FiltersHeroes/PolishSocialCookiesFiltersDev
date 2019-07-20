@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: l3bEdkK/y15SHEmeyAAGHQ
+! Checksum: jAk1gEGT+2uIqLNBxo+JsA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.20.1
-! Last modified: Sat, 20 Jul 2019, 15:00 UTC+02
+! Version: 2019.7.20.2
+! Last modified: Sat, 20 Jul 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.20.1 aktualizacja: sob, 20 lip 2019, 15:00 UTC+02
+! v.2019.7.20.2 aktualizacja: sob, 20 lip 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -501,7 +501,7 @@ durszlak.pl##.shadow.privacy-layer
 duszniki.eu###CookiesInstro
 dvbsklep.pl,naturo.pl##[id^="simple-modal"]
 dvdmax.pl,punkt44.pl###alertTop
-dworek.eu,sklep-rolnicze.eu,sowlofficial.com,trejdoo.com,sieradz.eu###cookieinfo
+dworek.eu,sklep-rolnicze.eu,sowlofficial.com,trejdoo.com,sieradz.eu,mooodstudio.com,designbyanka.com###cookieinfo
 dworzec.eu##.layer-message-container
 dziary.com,lvlup.pro,przegladlokalny.eu,sklep.piast-gliwice.eu,pomorskie.eu###cookiePolicy
 dziennikwschodni.pl,prsa.pl,polskieradio.pl,polskieradio24.pl,ticketclub.pl##.rodo-modal
@@ -597,6 +597,7 @@ eu.community.samsung.com###custom-header-cookie
 everhome.pl,gda.pl,yogenfruz.pl##.shotimoo
 ever.eu,ziaja.com###cookies-info
 ewl.com.pl###bezzo-cookies-bar
+exactsystems.pl##.js-cookies-popup.c__popup-cookies
 expander.net.pl###info-cookie-2013
 expansa.pl,www.promise.com.pl##.ui-resizable
 extraserv.pl##div#uwaga
@@ -1083,7 +1084,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com,goleniowska.com,visitwroclaw.eu,czarnkow.info,suwalki.info,zsgoreczyno.eu,koronakaszub.eu,amico.market,raczkowski.eu,iwaniska.eu,mensahome.eu,x-moto.eu,julstar.eu,wagrowiec.eu,camprest.com,krzysztof-bus.eu,transportnews.eu,transportnews.tk,fotmar.eu,allpaka.eu,wici.info,lessmess.storage,reporterzy.info,gazetaswietojanska.org,master-sport.de,opoczno.info,ikrakow.info,sejny.net,goryonline.com,staypoland.com###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com,goleniowska.com,visitwroclaw.eu,czarnkow.info,suwalki.info,zsgoreczyno.eu,koronakaszub.eu,amico.market,raczkowski.eu,iwaniska.eu,mensahome.eu,x-moto.eu,julstar.eu,wagrowiec.eu,camprest.com,krzysztof-bus.eu,transportnews.eu,transportnews.tk,fotmar.eu,allpaka.eu,wici.info,lessmess.storage,reporterzy.info,gazetaswietojanska.org,master-sport.de,opoczno.info,ikrakow.info,sejny.net,goryonline.com,staypoland.com,medianarodowe.com###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubawka.eu##.cookie_info
@@ -1401,7 +1402,7 @@ pipelife.com###coo
 pizzahut.pl###ph-cookies
 pizzaportal.pl,pl.chili.com##.react-cookie-banner
 pkn.net.pl##.lity-inline.lity-opened.lity
-pkobp.pl,pkopte.pl,pkotfi.pl###pko-cookie-rodo, .pko-cookie-rodo, .rodo-not-small-modal, .cookie-rodo
+pkobp.pl,pkopte.pl,pkotfi.pl###pko-cookie-rodo, .pko-cookie-rodo, .cookie-rodo, .rodo-not-small-modal
 pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.aPad
 player.pl##.cBox
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
@@ -1789,6 +1790,7 @@ toll-collect.de##.cookie-banner-portlet-wrapper
 tominet.com.pl,polonika.at#?#table:-abp-has(#cookieMessageText)
 tooba.pl,twojogrodek.pl##.cookie-rodo-dialog
 torkusa.com,tork.pl##.headerMessage
+torsluzewiec.pl###gdpr-info-container
 toshiba-tv.com###CookieDiv.Cookies
 toshiba.semicon-storage.com###cookies_container
 totalbet.pl##.cookiesComponent
