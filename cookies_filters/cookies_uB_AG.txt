@@ -1,11 +1,11 @@
-! Checksum: NYu3ZbfdcE9c7kZ17SLNhQ
+! Checksum: yVzEElpXIT3M8Kaqa/N/0w
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.20.2
-! Last modified: Sat, 20 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.20.3
+! Last modified: Sat, 20 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.20.2 aktualizacja: sob, 20 lip 2019, 19:00 UTC+02
+! v.2019.7.20.3 aktualizacja: sob, 20 lip 2019, 23:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -323,7 +323,7 @@ empik.com##.modal-backdrop
 eobuwie.com.pl##.no-scroll:style(overflow: auto !important;)
 eobuwie.com.pl##.popup:has(.permissions-form)
 eurologistics.pl,wybielanie.pl,pzsnstart.eu##.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
-e-hotelarz.pl###modal-rodo, .modal-backdrop
+e-hotelarz.pl,muzyczneradio.pl###modal-rodo, .modal-backdrop
 e-legnickie.pl##body.jconfirm-noscroll:style(overflow: auto !important;)
 e-legnickie.pl##.jconfirm:has-text(cookies)
 farmacja.pl##div.rodo-modal
