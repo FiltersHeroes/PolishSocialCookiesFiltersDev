@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: iWTiMF+BC0zGqo8UsFnxQw
+! Checksum: l3bEdkK/y15SHEmeyAAGHQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.19.1
-! Last modified: Fri, 19 Jul 2019, 15:00 UTC+02
+! Version: 2019.7.20.1
+! Last modified: Sat, 20 Jul 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.19.1 aktualizacja: pią, 19 lip 2019, 15:00 UTC+02
+! v.2019.7.20.1 aktualizacja: sob, 20 lip 2019, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -231,6 +231,7 @@ beskidy.news##.js-cookies.c-cookies
 beskidzkapilka.pl##.messageinfo
 bethesda.net#?#visor-alert > div > div > div:last-child:-abp-has(a[href="/pl/document/cookie-policy"])
 betsson.com###MsgAreaBottom
+bezpieczny.pl##.remodal-wrapper, .remodal-overlay
 bialoleka.waw.pl###img_98
 bialoleka.waw.pl###popup-bg
 bianchistore.de##.page-wrap--cookie-permission
@@ -503,7 +504,7 @@ dvdmax.pl,punkt44.pl###alertTop
 dworek.eu,sklep-rolnicze.eu,sowlofficial.com,trejdoo.com,sieradz.eu###cookieinfo
 dworzec.eu##.layer-message-container
 dziary.com,lvlup.pro,przegladlokalny.eu,sklep.piast-gliwice.eu,pomorskie.eu###cookiePolicy
-dziennikwschodni.pl,prsa.pl,polskieradio.pl,polskieradio24.pl##.rodo-modal
+dziennikwschodni.pl,prsa.pl,polskieradio.pl,polskieradio24.pl,ticketclub.pl##.rodo-modal
 dziennikwschodni.pl,wykop.pl,niskarata.org##.rodo-alert
 dzis.tv##div#regulaminWrap
 dzwignice.info#?#body > div:first-of-type:-abp-has(a[href$="/polityka-prywatnosci"])
@@ -925,7 +926,7 @@ jcubic.pl##.cookie-baner
 jednoslad.pl###arvlbdata > p
 jedz-bezpiecznie.pl#?#body > table > tbody > tr > td > table > tbody > tr:nth-of-type(1) > td:-abp-contains(wszystkoociasteczkach)
 jelenia.pl###alert-blue
-jelenia.tv,radiowroclaw.pl,radioram.pl,radiogdansk.pl,tanibus.com###rodoModal
+jelenia.tv,radiowroclaw.pl,radioram.pl,radiogdansk.pl,tanibus.com,ticketclub.pl###rodoModal
 jelonka.com,walbrzyszek.com##.prywatnosc
 jula.pl##.g-cookie__box
 junak.com.pl###wrapper > .toplayer
@@ -943,6 +944,7 @@ kalendarzrolnikow.pl,lpwiksa.pl,hopea.eu,kpcen-torun.edu.pl###colorbox, #cboxOve
 kalendarzswiat.pl###consent_box_wrapper
 kalinowo.pl###rodoModal, #backDrop
 kalisz.pl###showHideDiv
+kalkulator-oc-ac.mubi.pl#?#div#root > div[class] > header  ~ div[class]:not([id]):-abp-contains(plików cookies)
 kalkulator.wakacyjnapolisa.pl,rankomat.pl##.rank-cookie-bar
 kapucyni.pl###mod_ppcookies
 karmimypsiaki.pl##div#ciasteczkaInfoContainer
@@ -1399,8 +1401,7 @@ pipelife.com###coo
 pizzahut.pl###ph-cookies
 pizzaportal.pl,pl.chili.com##.react-cookie-banner
 pkn.net.pl##.lity-inline.lity-opened.lity
-pkobp.pl##.rodo-not-small-modal, .cookie-rodo
-pkobp.pl,pkopte.pl###pko-cookie-rodo, .pko-cookie-rodo
+pkobp.pl,pkopte.pl,pkotfi.pl###pko-cookie-rodo, .pko-cookie-rodo, .rodo-not-small-modal, .cookie-rodo
 pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.aPad
 player.pl##.cBox
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
@@ -1596,6 +1597,7 @@ saabotage.pl##.overall
 sachsen.de###xcm-bar
 sadowocowy.pl###container > div:nth-of-type(1)
 sagameble-sklep.pl##.sg-cookies
+saleswww.proama.pl###rodoModal, .modal-backdrop
 salonmeblowy.net.pl###nfpolicy
 samnaprawiam.com##.gdprcookie
 samouczek.info,aranzujemy.pl,kobieceporady.pl##.gdpr
@@ -1821,6 +1823,7 @@ twojeankiety.pl###notkaCookies
 twoje-miasto.pl##.tmCookieBox
 twojtenis.pl###cookie_accepter
 tygodnikpowszechny.pl###top_head
+tygodniksiedlecki.com##.rodo-bg
 tylkohity.pl##.cm_open
 tymrazemglosuje.eu###cookiespolicymessage
 udemy.com##[data-module-id="eu-cookie-message"]
