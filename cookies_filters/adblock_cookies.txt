@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: LOeSZeRyXWd3zBjorp+MqA
+! Checksum: IiNQAGx3zfvWzSxYxUt4yA
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.21.3
-! Last modified: Sun, 21 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.21.4
+! Last modified: Sun, 21 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.21.3 aktualizacja: nie, 21 lip 2019, 19:00 UTC+02
+! v.2019.7.21.4 aktualizacja: nie, 21 lip 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -26,7 +26,7 @@
 ~www.wp.pl,~poczta.wp.pl,wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 ~www.wp.pl,wp.pl#?#body > #app > div > span:not([class]):not([id]) > div[class]:not([id]):-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 2x45.info,alltube.tv,nasze-kino.tv,imperiaonline.org,kolniak24.eu,barfnyswiat.org,lot.com,vod.internetowa.ws,lumarte.eu,radiokampus.fm,bip.konin.eu,bip.piaseczno.eu,business.link,mojewypieki.com,plantatekst.info,xtb.com,feriogaj.com,koszyki.com,muzo.fm,cedc.com,edeklaracje.info,studiuje.eu,skierniewice.eu,diagprog4.com,evertourist.com,prymus.info,answear.com,telesystem-world.com,fokus.tv,nowa.tv,rowertour.com,eska.tv,voxmusic.tv,odpady.chorzow.eu,gdansk.pl,nasze.fm,koneser.eu,informacja-turystyczna.starachowice.eu###cookies
-3dom.pro,bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com,stolmot.com,anmur.eu,trecnutrition.com,koszulkomat.eu,f1experiences.com,gamet.eu,telko.in,makoblog.com,inkubatorkultury.eu,chorzow.eu,avenidapoznan.com,eastbook.eu,booksy.com,pkpcargo.com,sapphiretech.com,bibliotekacyfrowa.eu,radiopark.fm,maamstyle.com##.cookies
+3dom.pro,bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com,stolmot.com,anmur.eu,trecnutrition.com,koszulkomat.eu,f1experiences.com,gamet.eu,telko.in,makoblog.com,inkubatorkultury.eu,chorzow.eu,avenidapoznan.com,eastbook.eu,booksy.com,pkpcargo.com,sapphiretech.com,bibliotekacyfrowa.eu,radiopark.fm,maamstyle.com,katowice-airport.com##.cookies
 3mpolska.pl,logitechg.com,bosch-professional.com,logitech.com,command.pl,vacansoleil.pl###__tealiumGDPRecModal
 3s.pl,franciszkanskie.pl,antyweb.pl,norauto.pl,grupakety.com,olimpijski.pl,softon.pl,ingtechpoland.com,kultura.krasnik.eu,brolerserwis.pl,spedycje.pl,kancelaria-szip.pl,pelion.eu,karmy.com.pl###privacy
 4fstore.com,autogielda.pl,auto-czesci-lipiec.pl,mix4kids.tv,dreammachines.pl,fotosik.pl,haloursynow.pl,warsztat.pl,jelenia.tv,leo.pl,interprojekt.pl,aclari.pl,diecezjaplocka.pl,e-konkursy.info,funduszpomerania.pl,goldenline.pl,naratunek.org,oskolaf.pl,panoramafirm.pl,pulawy.eu,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,swiatpodlog.com.pl,wseit.edu.pl,zabierzow.org.pl,skijumping.pl##.modal-backdrop
@@ -493,6 +493,7 @@ douglas.pl##.rd__cookie-bar
 downdetector.pl##.evidon-consent-button
 dowozy.pl,e-kolo.pl,tubamarek.pl,tubagliwic.pl,gieldarolna.pl,minecraft.org.pl,tubawyszkowa.pl,tubaostrowa.pl,tubachorzowa.pl,pracownia.org.pl,ptbs.pl,terramar.pl,nastopy.pl.karpmax.pl,jpd.com.pl##.rodo
 dreamjump.pl##.CookieMonster
+driverpack.io##.GdprBanner__bg
 dronexpert.eu,ethnostudio.eu,interlumen.com,kegel-aj.com,sprzetjezdziecki.com,meble-jarocin.com,madys.eu,drukowanie.net,avmarket.eu###InfoCookie
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
 drumshop.pl###cookiesblock-wrapper
@@ -512,7 +513,7 @@ dzis.tv##div#regulaminWrap
 dzwignice.info#?#body > div:first-of-type:-abp-has(a[href$="/polityka-prywatnosci"])
 e24cloud.com##div#FullBox
 earlystage.pl###cookie-beam
-easyjet.com,sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu,lovoo.com##.cookie-consent
+easyjet.com,sonymobile.com,pl.milwaukeetool.eu,pl.ryobitools.eu,qnapclub.eu,lovoo.com,getbybus.com##.cookie-consent
 easypaste.org,halogorlice.info,nasze-kino.eu,forum.swiateczne.info,eco-driving.info,pl.bab.la,radioexpert.net,themasterteacher.tv,fakty.nl,slupno.eu,knyszynska.eu,isokolka.eu,powiatowa.info,byczdrowym.info,fiuka.de,spreewald.de,zanzu.de,polishteam.ru##.cc-window[aria-label="cookieconsent"], .cc-revoke
 ebay.pl###gdpr-banner, .gh-banner
 ebizneskrokpokroku.pl###notification-bar
@@ -753,6 +754,7 @@ gih.grajewo.pl,naszamlawa.pl,pupgrodziskwlkp.pl###fancybox-overlay
 gismeteo.pl##.cookies-banner
 gkn.pl##div#gora0
 gkstychy.info###coookie
+global-rent-a-car.com###module-cookies
 glogow-info.pl,glogow.info.pl##.wrapper > table:nth-of-type(1)[style="margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: -6px;"]
 glogow.info.pl,glogow-info.pl##.info1, .tloinfo1
 glos24.pl##DIV[style="border: 1px solid #fcce00; background: #fcfc9a; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 2px 4px #bbb; -webkit-box-shadow:0 2px 4px #bbb; -khtml-box-shadow: 0 2px 4px #bbb; box-shadow:0 2px 4px #bbb; width: 700px; font: normal 12px/1.6em verdana; color: #505050;"]
@@ -1942,6 +1944,7 @@ www.gumtree.com,wordpress.com##.gdpr-banner
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hays.pl,hays-response.pl###header-msg
 www.hertz.com.pl##[class^="lb-"]
+www.hertz.pl###light-box-1
 www.hotelbb.pl###be-modal-content-disclaimer
 www.ifon.pl##.region-top.region
 www.insp.waw.pl###divbox
@@ -2820,6 +2823,7 @@ pl##.regional-cookie-warning:not(body):not(html)
 pl##.ribbon-_cookie:not(body):not(html)
 pl##.showCookieInformation:not(body):not(html)
 pl##.skryptdocookies:not(body):not(html)
+pl##.t3-cookie-notice:not(body):not(html)
 pl##.tibrr-cookie-consent-container:not(body):not(html)
 pl##.tplis-cl-cookies:not(body):not(html)
 pl##.viacomcookiebar-extended:not(body):not(html)
