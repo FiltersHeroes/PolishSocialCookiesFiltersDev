@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: FnRLof9jxETIunyjcELKNw
+! Checksum: VHZ+jkt0/9ExTmvzYIXVEg
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.26.1
-! Last modified: Fri, 26 Jul 2019, 15:00 UTC+02
+! Version: 2019.7.26.2
+! Last modified: Fri, 26 Jul 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.26.1 aktualizacja: pią, 26 lip 2019, 15:00 UTC+02
+! v.2019.7.26.2 aktualizacja: pią, 26 lip 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -644,7 +644,7 @@ fdb.pl###consent
 fedex.com#?#fedex-alert:-abp-contains(cookie)
 felgdent.com###COOKIE_DIV
 feromony.pl###btmcks
-ferpay.com##.cookieinfo
+ferpay.com,nomoreransom.org##.cookieinfo
 feryster.pl###cookie-accpet
 festo.com###eucp_container
 fhunetcom.pl###notice-alert
