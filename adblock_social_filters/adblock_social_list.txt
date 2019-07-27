@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: NmTVYp9nqkaVh3kzuuacww
+! Checksum: Wtyz8qzZvM4DKPvSWHbyuA
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.27.2
-! Last modified: Sat, 27 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.27.3
+! Last modified: Sat, 27 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.27.2 aktualizacja: sob, 27 lip 2019, 19:00 UTC+02
+! v.2019.7.27.3 aktualizacja: sob, 27 lip 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -235,7 +235,6 @@ pl##.tweetShare
 pl##.tweet.item
 pl##.twico.icon
 pl##.twit
-pl##.twitter
 pl##.twitterIco
 pl##.vimeo
 pl##.wykop
@@ -736,7 +735,7 @@ pl##.zobacz-nas
 pl##._--facebook.site-footer__bottom-nav__item
 pl##.__xX20facebook
 pl##[id^="nk_fajne"]
-pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
+pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_likes, .insta_likes
 !pl##.fb.small.button
 !
 !
@@ -4221,8 +4220,8 @@ zygzaksnow.pl###ppfacebook
 !
 !
 ! Specyficzne reguły blokujące
-public/assets//baner-yt-sklep.png$image,domain=sklep5438865.homesklep.pl
 /followusontwitterlogo.jpg$domain=riskcompliance.pl
+/public/assets//baner-yt-sklep.png$image,domain=sklep5438865.homesklep.pl
 /themes/fbLogo.jpg$image,domain=rynekinfrastruktury.pl|rynek-lotniczy.pl
 /themes/twLogo.jpg$image,domain=rynekinfrastruktury.pl|rynek-lotniczy.pl
 /vbanner/facebookock.jpg$domain=ockopolelubelskie.pl
