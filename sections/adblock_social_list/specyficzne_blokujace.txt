@@ -191,12 +191,12 @@
 ||tpi.com.pl/themes/img/footer-yt-icon.png
 ||transport-publiczny.pl/themes/Udostepnij.png
 ||tvpodhale.info/templates/grafika/facebook.png
-||tvpolsat.info/themes/tvpolsatinfo/images/inicon.png
-||tvpolsat.info/themes/tvpolsatinfo/images/twicon.png
-||tvpolsat.info/themes/tvpolsatinfo/images/yticon.png
+/\/themes\/tvpolsatinfo\/images\/(in|twt|yt)icon\.png/$image,domain=tvpolsat.info
+
+
 ||twardogora.pl/uploads/pub/img_files/img_52/f_find.png
-||ujot.fm/player/image/fb.png
-||ujot.fm/player/image/tt.png
+/\/player\/image\/(fb|tt)\.png/$image,domain=ujot.fm
+
 /\/fileadmin\/ce\/img\/tmi\_(facebook|goldenline|linkedin|twitter)\_\.png/$image,domain=utrzymanieruchu.pl
 
 
@@ -212,11 +212,11 @@
 ||wolnemedia.net/obrazki/nk.png
 ||wolnemedia.net/obrazki/vk.png
 ||wolnemedia.net/obrazki/wykop.png
-||wolnemedia.net/social-1.gif
-||wolnemedia.net/social-2.gif
-||wolnemedia.net/social-3.gif
-||wolnemedia.net/social-4.gif
-||wolnemedia.net/social-5.gif
+/\/social\-[1-5]{1}\.gif/$image,domain=wolnemedia.net
+
+
+
+
 ||word.olsztyn.pl/img/poznaj_region.png
 ||wsensie.pl/images/twetter_icon.png
 ||wsensie.tv/images/twetter_icon.png
