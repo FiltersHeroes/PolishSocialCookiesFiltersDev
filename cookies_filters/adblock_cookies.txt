@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: ziPbGkrGjZz2Y9Nl9AaOFw
+! Checksum: jIfxTF9HO95zVW9uY+U8qQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe DEV
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: Cookies
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.28.3
-! Last modified: Sun, 28 Jul 2019, 23:00 UTC+02
+! Version: 2019.7.29.1
+! Last modified: Mon, 29 Jul 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.28.3 aktualizacja: nie, 28 lip 2019, 23:00 UTC+02
+! v.2019.7.29.1 aktualizacja: pon, 29 lip 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -781,6 +781,7 @@ goodgifts.eu###cookie-law-container
 goodie.pl###main-container > .ax  > #header ~ .l3
 goodie.pl##.FooterComponent ~ div[class]:not([id])
 goodlookin.pl##div > div > div > .toplayaa
+google.com,google.pl###epbar
 google.com,google.pl##.widget-consent-dialog
 goout.net,rma.asus-europe.eu##.cookieBar
 gopr.org,lca.pl###popupDiv
@@ -1946,7 +1947,6 @@ www.daftrucks.pl##.page-overlay
 www.dxracerkrzesla.pl###cookies-confirm
 www.ea.com##ea-truste-consent-bar
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
-www.google.com,www.google.pl###epbar
 www.gumtree.com,wordpress.com##.gdpr-banner
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hays.pl,hays-response.pl###header-msg
