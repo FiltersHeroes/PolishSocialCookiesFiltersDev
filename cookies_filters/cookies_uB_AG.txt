@@ -1,11 +1,11 @@
-! Checksum: wA8mobwMJM7VqJaupbvAiw
+! Checksum: A6kc5X59MKAbspax0Qpi7A
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.28.1
-! Last modified: Sun, 28 Jul 2019, 19:00 UTC+02
+! Version: 2019.7.29.1
+! Last modified: Mon, 29 Jul 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.28.1 aktualizacja: nie, 28 lip 2019, 19:00 UTC+02
+! v.2019.7.29.1 aktualizacja: pon, 29 lip 2019, 23:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -27,8 +27,8 @@ adexemplum.com,gtv.com.pl,teoria.pl,fastdeal.pl,wsd.salwatorianie.eu##.mfp-ready
 adexemplum.com,gtv.com.pl,teoria.pl,fastdeal.pl,zsgarwolin.pl,wsd.salwatorianie.eu##html:style(overflow: auto !important; margin-right: 0 !important;)
 agrosystems.pl##.modal-rodo
 agrosystems.pl,radioexpress.pl,nastyku.pl##body:style(overflow: auto !important;)
-airdron-polska.pl,paralympic.org.pl,manageronline.pl##+js(nano-remove-elements-onready.js, .popmake-overlay[data-popmake*="cookies"])
-airdron-polska.pl,paralympic.org.pl,manageronline.pl##.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
+airdron-polska.pl,paralympic.org.pl,manageronline.pl,komputerytriton.pl##+js(nano-remove-elements-onready.js, .popmake-overlay[data-popmake*="cookies"])
+airdron-polska.pl,paralympic.org.pl,manageronline.pl,komputerytriton.pl##.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
 albeco.com.pl###content:style(filter: none !important;)
 albeco.com.pl###pol-background, #pol-c
 analizy.pl##.nl_rodo, .ui-widget-overlay
