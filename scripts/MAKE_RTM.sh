@@ -14,7 +14,7 @@ ost_zmieniony_plik=$(git diff -z --name-only | xargs -0)
 if [ "$CI" = "true" ] ; then
     cd ..
     git clone git@github.com:hawkeye116477/polish-ads-filter.git
-    cd ./PolishSocialCookiesFiltersDev
+    cd $sciezka/..
 fi
 
 for j in $ost_zmieniony_plik; do
@@ -24,15 +24,15 @@ for j in $ost_zmieniony_plik; do
     fi
 
     if [[ "$j" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
-        cp -r ./PolishSocialCookiesFiltersDev/cookies_filters/cookies_uB_AG.txt ../polish-ads-filter/cookies_filters/
+        cp -r ./cookies_filters/cookies_uB_AG.txt ../polish-ads-filter/cookies_filters/
     fi
 
     if [[ "$j" == "adblock_social_filters/adblock_social_list.txt"* ]]; then
-        cp -r ./PolishSocialCookiesFiltersDev/adblock_social_filters/adblock_social_list.txt ../polish-ads-filter/adblock_social_filters/
+        cp -r ./adblock_social_filters/adblock_social_list.txt ../polish-ads-filter/adblock_social_filters/
     fi
 
     if [[ "$j" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
-        cp -r ./PolishSocialCookiesFiltersDev/adblock_social_filters/social_filters_uB_AG.txt ../polish-ads-filter/adblock_social_filters/
+        cp -r ./adblock_social_filters/social_filters_uB_AG.txt ../polish-ads-filter/adblock_social_filters/
     fi
 
 done
