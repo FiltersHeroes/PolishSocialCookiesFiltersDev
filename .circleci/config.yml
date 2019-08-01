@@ -8,10 +8,10 @@ jobs:
     - run: ./scripts/VICHS_auto.sh
   RTM:
     docker:
-  - image: polishfiltersteam/rtm_image:latest
-  steps:
-  - checkout
-  - run: ./scripts/MAKE_RTM.sh
+    - image: polishfiltersteam/rtm_image:latest
+    steps:
+    - checkout
+    - run: ./scripts/MAKE_RTM.sh
 workflows:
   version: 2
   workflow:
