@@ -14,7 +14,7 @@ ost_zmieniony_plik=$(git diff -z --name-only | xargs -0)
 if [ "$CI" = "true" ] ; then
     cd ..
     git clone git@github.com:hawkeye116477/polish-ads-filter.git
-    cd $sciezka/..
+    cd ./project
 fi
 
 for j in $ost_zmieniony_plik; do
