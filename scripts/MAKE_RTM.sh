@@ -103,6 +103,10 @@ git push https://"PolishJarvis":"${GH_TOKEN}"@"${GIT_SLUG}" HEAD:master > /dev/n
 hub pull-request -f -b MajkiIT:master -m "Update $lista ($today_date)
 
 *Bip*, *bup*, wynik końcowy, RTM, *bip*!" > /dev/null 2>&1
+cd ..
+git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
+cd ./PolishAnnoyanceFilters
+./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
 else
 echo "Czy chcesz teraz wysłać do gita zmienione pliki?"
 select yn in "Tak" "Nie"; do
