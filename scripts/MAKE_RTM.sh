@@ -100,9 +100,10 @@ today_date=$(date +"%Y%m%d")
 if [ "$CI" = "true" ]; then
 GIT_SLUG=$(git ls-remote --get-url | sed "s|https://||g" | sed "s|git@||g" | sed "s|:|/|g")
 git push https://"PolishJarvis":"${GH_TOKEN}"@"${GIT_SLUG}" HEAD:master > /dev/null 2>&1
+echo "Wait"
 hub pull-request -m "Update $lista ($today_date)
 
-*Bip*, *bup*, wynik końcowy, RTM, *bip*!" > /dev/null 2>&1
+*Bip*, *bup*, wynik końcowy, RTM, *bip*!"
 else
 echo "Czy chcesz teraz wysłać do gita zmienione pliki?"
 select yn in "Tak" "Nie"; do
