@@ -7,11 +7,15 @@ sciezka=$(dirname "$0")
 
 cd $sciezka/..
 
+if [ "$CI" = "true" ]; then
+. $sciezka/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
+else
 . $sciezka/VICHS.sh $i
+fi
 
 ost_zmieniony_plik=$(git diff -z --name-only | xargs -0)
 
-if [ "$CI" = "true" ] ; then
+if [ "$CI" = "true" ]; then
     cd ..
     git clone git@github.com:hawkeye116477/polish-ads-filter.git
     cd ./project
