@@ -103,7 +103,7 @@ git push https://"PolishJarvis":"${GH_TOKEN}"@"${GIT_SLUG}" HEAD:master > /dev/n
 echo "Wait"
 hub pull-request -f -m "Update $lista ($today_date)
 
-*Bip*, *bup*, wynik końcowy, RTM, *bip*!" > /dev/null 2>&1
+*Bip*, *bup*, wynik końcowy, RTM, *bip*!"
 else
 echo "Czy chcesz teraz wysłać do gita zmienione pliki?"
 select yn in "Tak" "Nie"; do
