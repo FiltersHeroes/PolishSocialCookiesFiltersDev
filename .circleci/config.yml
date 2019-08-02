@@ -10,8 +10,8 @@ jobs:
     docker:
     - image: polishfiltersteam/rtm_image:latest
     steps:
+    - add_ssh_keys
     - checkout
-    - run: ./scripts/MAKE_RTM.sh
 workflows:
   version: 2
   workflow:
