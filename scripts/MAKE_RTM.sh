@@ -5,88 +5,46 @@ RTM_MODE="true"
 # Sciezka to miejsce, w którym znajduje się skrypt
 sciezka=$(dirname "$0")
 
-cd $sciezka/..
+cd "$sciezka/".. || exit
 
 if [ "$CI" = "true" ]; then
-. $sciezka/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
+    PSCD=project
 else
-. $sciezka/VICHS.sh $i
+    PSCD=PolishSocialCookiesFiltersDev
 fi
 
-ost_zmieniony_plik=$(git diff -z --name-only | xargs -0)
+cd ..
 
 if [ "$CI" = "true" ]; then
-    cd ..
     git clone git@github.com:hawkeye116477/polish-ads-filter.git
-    cd ./project
 fi
 
-for j in $ost_zmieniony_plik; do
+cp -r ./"$PSCD"/sections/ ./polish-ads-filter/
+cp -r ./"$PSCD"/templates/ ./polish-ads-filter/
+cp -r ./"$PSCD"/scripts/VICHS.sh ./polish-ads-filter/scripts/
+cp -r ./"$PSCD"/scripts/VICHS.config ./polish-ads-filter/scripts/
 
-    if [[ "$j" == "cookies_filters/adblock_cookies.txt"* ]]; then
-        cp -r ./cookies_filters/adblock_cookies.txt ../polish-ads-filter/cookies_filters/
-    fi
+cd ./polish-ads-filter || exit
 
-    if [[ "$j" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
-        cp -r ./cookies_filters/cookies_uB_AG.txt ../polish-ads-filter/cookies_filters/
-    fi
+. ./scripts/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
 
-    if [[ "$j" == "adblock_social_filters/adblock_social_list.txt"* ]]; then
-        cp -r ./adblock_social_filters/adblock_social_list.txt ../polish-ads-filter/adblock_social_filters/
-    fi
+if [ "$CI" = "true" ]; then
+    git remote add upstream git@github.com:MajkiIT/polish-ads-filter.git
+    git fetch upstream
+fi
 
-    if [[ "$j" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
-        cp -r ./adblock_social_filters/social_filters_uB_AG.txt ../polish-ads-filter/adblock_social_filters/
-    fi
-
-done
-
-cd ../polish-ads-filter
-ost_zmieniony_plik_RTM=$(git diff -z --name-only | xargs -0)
-
+ost_zmieniony_plik_RTM=$(git diff --stat origin/master upstream/master -z --name-only | xargs -0)
 for k in $ost_zmieniony_plik_RTM; do
-    if [[ "$k" == "adblock_social_filters/adblock_social_list.txt"* ]]; then
+    if [[ "$k" == "adblock_social_filters/adblock_social_list.txt"* ]] || [[ "$k" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
         if [[ "$lista" != *" 👍"* ]] ;then
             lista+=" "👍
         fi
-        wersja="$(grep -oP "(?<=! Version: )[^ ]+" $k)"
-        git add adblock_social_filters/adblock_social_list.txt
-        git commit -m "Update 👍 to version $wersja
-
-Co-authored-by: krystian3w <35370833+krystian3w@users.noreply.github.com>"
     fi
 
-    if [[ "$k" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
-        if [[ "$lista" != *" 👍"* ]] ;then
-            lista+=" "👍
-        fi
-        wersja="$(grep -oP "(?<=! Version: )[^ ]+" $k)"
-        git add adblock_social_filters/social_filters_uB_AG.txt
-        git commit -m "Update 👍 - Supplement to version $wersja
-
-Co-authored-by: krystian3w <35370833+krystian3w@users.noreply.github.com>"
-    fi
-
-    if [[ "$k" == "cookies_filters/adblock_cookies.txt"* ]]; then
+    if [[ "$k" == "cookies_filters/adblock_cookies.txt"* ]] || [[ "$k" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
         if [[ "$lista" != *" 🍪"* ]] ;then
             lista+=" "🍪
         fi
-        wersja="$(grep -oP "(?<=! Version: )[^ ]+" $k)"
-        git add cookies_filters/adblock_cookies.txt
-        git commit -m "Update 🍪 to version $wersja
-
-Co-authored-by: krystian3w <35370833+krystian3w@users.noreply.github.com>"
-    fi
-
-    if [[ "$k" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
-        if [[ "$lista" != *" 🍪"* ]] ;then
-            lista+=" "🍪
-        fi
-        wersja="$(grep -oP "(?<=! Version: )[^ ]+" $k)"
-        git add cookies_filters/cookies_uB_AG.txt
-        git commit -m "Update 🍪 - Supplement to version $wersja
-
-Co-authored-by: krystian3w <35370833+krystian3w@users.noreply.github.com>"
     fi
 done
 
@@ -96,28 +54,27 @@ fi
 
 today_date=$(date +"%Y%m%d")
 
-# Wysyłanie zmienionych plików do repozytorium git
+# Wysyłanie PR do upstream
 if [ "$CI" = "true" ]; then
-GIT_SLUG=$(git ls-remote --get-url | sed "s|https://||g" | sed "s|git@||g" | sed "s|:|/|g")
-git push https://"PolishJarvis":"${GH_TOKEN}"@"${GIT_SLUG}" HEAD:master > /dev/null 2>&1
 hub pull-request -f -b MajkiIT:master -m "Update $lista ($today_date)
 
 *Bip*, *bup*, wynik końcowy, RTM, *bip*!" > /dev/null 2>&1
 cd ..
 git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
-cd ./PolishAnnoyanceFilters
+cd ./PolishAnnoyanceFilters || exit
 ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
 else
-echo "Czy chcesz teraz wysłać do gita zmienione pliki?"
+echo "Czy chcesz teraz wysłać PR do upstream?"
 select yn in "Tak" "Nie"; do
     case $yn in
         Tak )
-        git push
         printf "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): "
-        read roz_opis
+        read -r roz_opis
         hub pull-request -m "Update $lista ($today_date)
 
         ${roz_opis}"
+        cd ../PolishAnnoyanceFilters || exit
+        ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
         break;;
         Nie ) break;;
 esac
