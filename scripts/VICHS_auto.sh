@@ -49,6 +49,18 @@ for i in $ost_plik; do
         fi
     fi
 
+    if [[ "$i" == "sections/adblock_social_list/popupy.txt"* ]]; then
+        if [[ "$PAF" != "true" ]]; then
+            PAF="true"
+        fi
+    fi
+
+    if [[ "$i" == "sections/adblock_social_list/uBO_AG/popupy"* ]]; then
+        if [[ "$PAF" != "true" ]]; then
+            PAF_supp="true"
+        fi
+    fi
+
 done
 
 
@@ -58,4 +70,22 @@ fi
 
 if [ "$lista_g" ]; then
     FORCED="true" "$sciezka"/VICHS.sh $lista_g
+fi
+
+cd ..
+
+if [ "$CI" = "true" ]; then
+    if [ "$PAF" ] || [ "$PAF_supp" ]; then
+        cd ..
+        git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
+    fi
+fi
+
+cd ./PolishAnnoyanceFilters || exit
+
+if [ "$PAF" ] && [ ! "$PAF_supp" ]; then
+    ./scripts/VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
+elif [ "$PAF_supp" ]; then
+    cd ..
+    FORCED="true" ./scripts/VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
 fi
