@@ -28,6 +28,28 @@ cd ./polish-ads-filter || exit
 
 . ./scripts/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
 
+ost_plik=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq))
+
+for i in $ost_plik; do
+
+    if [[ "$i" != "cookies_filters/adblock_cookies.txt"* ]] && [[ "$i" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
+        if [[ "$lista_g" != *" cookies_filters/adblock_cookies.txt"* ]]; then
+            lista_g+=" "cookies_filters/adblock_cookies.txt
+        fi
+    fi
+
+    if [[ "$i" != "adblock_social_filters/adblock_social_list.txt"* ]] && [[ "$i" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
+        if [[ "$lista_g" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
+            lista_g+=" "adblock_social_filters/adblock_social_list.txt
+        fi
+    fi
+
+done
+
+if [ "$lista_g" ]; then
+    . FORCED="true" ./scripts/VICHS.sh $lista_g
+fi
+
 if [ "$CI" = "true" ]; then
     git remote add upstream git@github.com:MajkiIT/polish-ads-filter.git
     git fetch upstream
