@@ -72,20 +72,22 @@ if [ "$lista_g" ]; then
     FORCED="true" "$sciezka"/VICHS.sh $lista_g
 fi
 
-cd ..
+if [ "$PAF" ] || [ "$PAF_supp" ]; then
+    cd ..
+fi
 
 if [ "$CI" = "true" ]; then
     if [ "$PAF" ] || [ "$PAF_supp" ]; then
-        cd ..
         git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
     fi
 fi
 
-cd ./PolishAnnoyanceFilters || exit
+if [ "$PAF" ] || [ "$PAF_supp" ]; then
+    cd ./PolishAnnoyanceFilters || exit
+fi
 
 if [ "$PAF" ] && [ ! "$PAF_supp" ]; then
     ./scripts/VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
 elif [ "$PAF_supp" ]; then
-    cd ..
     FORCED="true" ./scripts/VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
 fi
