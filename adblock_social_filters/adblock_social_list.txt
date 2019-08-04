@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: ute9fK3Ez4RtPrH95iYrFw
+! Checksum: H0laMiIxK1t/8QRowDVgOg
 ! Title: Polskie Filtry Społecznościowe DEV
 ! Polish Social Filters DEV
 ! Codename: Social
@@ -7,8 +7,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.4.3
-! Last modified: Sun, 04 Aug 2019, 19:00 UTC+02
+! Version: 2019.8.4.4
+! Last modified: Sun, 04 Aug 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.4.3 aktualizacja: nie, 04 sie 2019, 19:00 UTC+02
+! v.2019.8.4.4 aktualizacja: nie, 04 sie 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -3556,6 +3556,7 @@ sonomedico.pl##.nav-facebook
 sosen-blog.pl###header-image .site-branding-header > .header-button-left, #text-23, #text-40
 sowlofficial.com###instagram, .zawartosc > .guziki > a
 sparta.com.pl##footer > .containers > div.top.row:nth-of-type(1)
+spece.it##.social-links > li:nth-of-type(-n+2)
 specgear.com.pl,wyciskarki.pl,skottuning.com,presta-portal.pl###likebox_content
 specshop.pl###menu_buttons > div.menu_button_wrapper:nth-of-type(1) > a > img
 specshop.pl###social-platforms
@@ -4573,7 +4574,7 @@ eurosport.interia.pl,muzyka.interia.pl,fakty.interia.pl,pomponik.pl#@#.article-s
 eurosport.interia.pl,muzyka.interia.pl,fakty.interia.pl,pomponik.pl#@#.article-social-buttons
 eurosport.interia.pl,muzyka.interia.pl,fakty.interia.pl,pomponik.pl#@#.share-link
 freshandnatural.pl#@##social_block
-greencanoe.pl,tanie-loty.com.pl#@#.social-links
+greencanoe.pl,tanie-loty.com.pl,spece.it#@#.social-links
 iab.org.pl#@#.menu-social-buttons
 influencer.pl#@#.socials
 kadantiscam.netlify.com,www.pkobp.pl#@#.social-icon
@@ -4593,6 +4594,8 @@ nowawarszawa.pl#@#.share-container
 rawlplug.com#@##socialNetworks
 rynek-kolejowy.pl#@#.socialIcons
 solojuve.com#@##socialWrapper
+spece.it#@#.social-tooltip
+spece.it#@#[title^="Follow us on "]
 tabletowo.pl#@#.social_icon
 tabletowo.pl#@#.top-social
 tvgry.pl,gameplay.pl#@#.social-16
