@@ -28,7 +28,7 @@ cd ./polish-ads-filter || exit
 
 . ./scripts/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
 
-ost_plik=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq))
+ost_plik=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
 
 for i in $ost_plik; do
 
