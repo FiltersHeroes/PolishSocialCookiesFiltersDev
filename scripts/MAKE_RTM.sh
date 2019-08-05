@@ -77,9 +77,9 @@ hub pull-request -b MajkiIT:master -m "Update $lista ($today_date)
 
 *Bip*, *bup*, wynik końcowy, RTM, *bip*!"
 cd ..
-# git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
-# cd ./PolishAnnoyanceFilters || exit
-# ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
+cd ./PolishAnnoyanceFilters || exit
+./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
 else
 echo "Czy chcesz teraz wysłać PR do upstream?"
 select yn in "Tak" "Nie"; do
