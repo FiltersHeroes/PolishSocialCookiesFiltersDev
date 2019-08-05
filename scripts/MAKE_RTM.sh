@@ -50,13 +50,7 @@ if [ "$lista_g" ]; then
     . FORCED="true" ./scripts/VICHS.sh $lista_g
 fi
 
-if [ "$CI" = "true" ]; then
-    git remote add upstream git@github.com:MajkiIT/polish-ads-filter.git
-    git fetch upstream
-fi
-
-ost_zmieniony_plik_RTM=$(git diff --stat origin/master upstream/master -z --name-only | xargs -0)
-for k in $ost_zmieniony_plik_RTM; do
+for k in $ost_plik; do
     if [[ "$k" == "adblock_social_filters/adblock_social_list.txt"* ]] || [[ "$k" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
         if [[ "$lista" != *" 👍"* ]] ;then
             lista+=" "👍
@@ -78,13 +72,14 @@ today_date=$(date +"%Y%m%d")
 
 # Wysyłanie PR do upstream
 if [ "$CI" = "true" ]; then
-hub pull-request -f -b MajkiIT:master -m "Update $lista ($today_date)
+echo "Wysyłanie PR..."
+hub pull-request -b MajkiIT:master -m "Update $lista ($today_date)
 
-*Bip*, *bup*, wynik końcowy, RTM, *bip*!" > /dev/null 2>&1
+*Bip*, *bup*, wynik końcowy, RTM, *bip*!"
 cd ..
-git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
-cd ./PolishAnnoyanceFilters || exit
-./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+# git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
+# cd ./PolishAnnoyanceFilters || exit
+# ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
 else
 echo "Czy chcesz teraz wysłać PR do upstream?"
 select yn in "Tak" "Nie"; do
