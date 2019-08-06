@@ -1,11 +1,11 @@
-! Checksum: A6kc5X59MKAbspax0Qpi7A
+! Checksum: XehLuCTEnR1t+4TJhYh8ZQ
 ! Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish GDPR-Cookies Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Cookies - supplement
 ! Collaborators: MajkiIT, F4z, hawkeye116477
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.7.29.1
-! Last modified: Mon, 29 Jul 2019, 23:00 UTC+02
+! Version: 2019.8.6.1
+! Last modified: Tue, 06 Aug 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -14,7 +14,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.7.29.1 aktualizacja: pon, 29 lip 2019, 23:00 UTC+02
+! v.2019.8.6.1 aktualizacja: wto, 06 sie 2019, 19:00 UTC+02
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -249,7 +249,6 @@ tureckisklep.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#conditions
 tuzdrowie.pl###popupModal, .modal-backdrop
 tvgo.orange.pl##body > div[role="dialog"]:not([id]):not([class]):has(.rodo-wrapper)
 tv.pudelek.pl,gryonline.wp.pl##+js(set-constant.js, wp_no_consent_screen, true)
-twitter.com##.topbar-spacer:style(padding-top: 0 !important;)
 ugb.pl##+js(abort-current-inline-script.js, alert, RODO)
 umig.olkusz.pl###gafancybox-overlay174
 umig.olkusz.pl##.gafancybox-lock > body, .gafancybox-lock:style(overflow: auto !important;)
@@ -287,6 +286,7 @@ zsgarwolin.pl##.mfp-content:has(#cadre_alert_cookies)
 zsgarwolin.pl##.mfp-ready.mfp-bg
 zwolen.pl###g_toplayer, .modal-backdrop
 !hrkgame.com##gdpr.ui, .dimmer.ui
+!twitter.com##.topbar-spacer:style(padding-top: 0 !important;)
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂 - specjalne instrukcje
