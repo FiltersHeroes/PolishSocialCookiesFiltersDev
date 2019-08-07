@@ -47,7 +47,9 @@ for i in $ost_plik; do
 done
 
 if [ "$lista_g" ]; then
-    . FORCED="true" ./scripts/VICHS.sh $lista_g
+    FORCED="true"
+    . ./scripts/VICHS.sh $lista_g
+    unset FORCED
 fi
 
 for k in $ost_plik; do
@@ -79,7 +81,11 @@ hub pull-request -b MajkiIT:master -m "Update $lista ($today_date)
 cd ..
 git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
 cd ./PolishAnnoyanceFilters || exit
-./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+if [ "$lista_g" == "cookies_filters/cookies_uB_AG.txt"* ]; then
+    FORCED="true"
+fi
+. ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+unset FORCED
 else
 echo "Czy chcesz teraz wysłać PR do upstream?"
 select yn in "Tak" "Nie"; do
@@ -91,7 +97,7 @@ select yn in "Tak" "Nie"; do
 
         ${roz_opis}"
         cd ../PolishAnnoyanceFilters || exit
-        ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+        . ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
         break;;
         Nie ) break;;
 esac
