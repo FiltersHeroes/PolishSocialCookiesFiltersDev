@@ -19,32 +19,28 @@ fi
 
 for i in $ost_plik; do
 
-    if [[ "$i" == "sections/adblock_cookies"* ]]; then
+    if [[ "$i" == "sections/adblock_cookies"* ]] && [[ "$i" != "sections/adblock_cookies/uBO_AG"* ]]; then
         if [[ "$lista" != *" cookies_filters/adblock_cookies.txt"* ]]; then
             lista+=" "cookies_filters/adblock_cookies.txt
         fi
     fi
 
     if [[ "$i" == "sections/adblock_cookies/uBO_AG"* ]]; then
-        if [[ "$lista" != *" cookies_filters/cookies_uB_AG.txt"* ]]; then
+        if [[ "$lista" != *" cookies_filters/cookies_uB_AG.txt"* ]] && [[ "$lista" != *" cookies_filters/adblock_cookies.txt"* ]]; then
             lista+=" "cookies_filters/cookies_uB_AG.txt
-        fi
-        if [[ "$lista" != *" cookies_filters/adblock_cookies.txt"* ]] && [[ "$lista_g" != *" cookies_filters/adblock_cookies.txt"* ]]; then
             lista_g+=" "cookies_filters/adblock_cookies.txt
         fi
     fi
 
-    if [[ "$i" == "sections/adblock_social_list"* ]]; then
+    if [[ "$i" == "sections/adblock_social_list"* ]] && [[ "$i" == "sections/adblock_social_list/uBO_AG"* ]]; then
         if [[ "$lista" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
             lista+=" "adblock_social_filters/adblock_social_list.txt
         fi
     fi
 
     if [[ "$i" == "sections/adblock_social_list/uBO_AG"* ]]; then
-        if [[ "$lista" != *" adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
+        if [[ "$lista" != *" adblock_social_filters/social_filters_uB_AG.txt"* ]] && [[ "$lista" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
             lista+=" "adblock_social_filters/social_filters_uB_AG.txt
-        fi
-        if [[ "$lista" != *" adblock_social_filters/adblock_social_list.txt"* ]] && [[ "$lista_g" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
             lista_g+=" "adblock_social_filters/adblock_social_list.txt
         fi
     fi
@@ -65,11 +61,13 @@ done
 
 
 if [ "$lista" ]; then
-    "$sciezka"/VICHS.sh $lista
+    . "$sciezka"/VICHS.sh $lista
 fi
 
 if [ "$lista_g" ]; then
-    FORCED="true" "$sciezka"/VICHS.sh $lista_g
+    FORCED="true"
+    . "$sciezka"/VICHS.sh $lista_g
+    unset FORCED
 fi
 
 if [ "$PAF" ] || [ "$PAF_supp" ]; then
@@ -87,7 +85,9 @@ if [ "$PAF" ] || [ "$PAF_supp" ]; then
 fi
 
 if [ "$PAF" ] && [ ! "$PAF_supp" ]; then
-    ./scripts/VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
+    . ./scripts/VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
 elif [ "$PAF_supp" ]; then
-    FORCED="true" ./scripts/VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
+    FORCED="true"
+    . ./scripts/VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
+    unset FORCED
 fi
