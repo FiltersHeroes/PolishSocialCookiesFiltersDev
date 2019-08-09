@@ -1,7 +1,5 @@
 #!/bin/bash
 
-RTM_MODE="true"
-
 # Sciezka to miejsce, w którym znajduje się skrypt
 sciezka=$(dirname "$0")
 
@@ -26,30 +24,28 @@ cp -r ./"$PSCD"/scripts/VICHS.config ./polish-ads-filter/scripts/
 
 cd ./polish-ads-filter || exit
 
-. ./scripts/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
+RTM_MODE="true" ./scripts/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
 
 ost_plik=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
 
-for i in $ost_plik; do
+function search() {
+    echo "$ost_plik" | grep "$1"
+}
 
-    if [[ "$i" != "cookies_filters/adblock_cookies.txt"* ]] && [[ "$i" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
-        if [[ "$lista_g" != *" cookies_filters/adblock_cookies.txt"* ]]; then
-            lista_g+=" "cookies_filters/adblock_cookies.txt
-        fi
+if [ -z $(search "cookies_filters/adblock_cookies.txt") ] && [ ! -z $(search "cookies_filters/cookies_uB_AG.txt") ]; then
+    if [[ "$lista_g" != *" cookies_filters/adblock_cookies.txt"* ]]; then
+        lista_g+=" "cookies_filters/adblock_cookies.txt
     fi
+fi
 
-    if [[ "$i" != "adblock_social_filters/adblock_social_list.txt"* ]] && [[ "$i" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
-        if [[ "$lista_g" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
-            lista_g+=" "adblock_social_filters/adblock_social_list.txt
-        fi
+if [ -z $(search "adblock_social_filters/adblock_social_list.txt") ] && [ ! -z $(search "adblock_social_filters/social_filters_uB_AG.txt") ]; then
+    if [[ "$lista_g" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
+        lista_g+=" "adblock_social_filters/adblock_social_list.txt
     fi
-
-done
+fi
 
 if [ "$lista_g" ]; then
-    FORCED="true"
-    . ./scripts/VICHS.sh $lista_g
-    unset FORCED
+    RTM_MODE="true" FORCED="true" ./scripts/VICHS.sh $lista_g
 fi
 
 for k in $ost_plik; do
@@ -82,10 +78,10 @@ cd ..
 git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
 cd ./PolishAnnoyanceFilters || exit
 if [ "$lista_g" == "cookies_filters/cookies_uB_AG.txt"* ]; then
-    FORCED="true"
+    FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+else
+    ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
 fi
-. ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
-unset FORCED
 else
 echo "Czy chcesz teraz wysłać PR do upstream?"
 select yn in "Tak" "Nie"; do
@@ -97,7 +93,11 @@ select yn in "Tak" "Nie"; do
 
         ${roz_opis}"
         cd ../PolishAnnoyanceFilters || exit
-        . ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+        if [ "$lista_g" == "cookies_filters/cookies_uB_AG.txt"* ]; then
+            FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+        else
+            ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+        fi
         break;;
         Nie ) break;;
 esac
