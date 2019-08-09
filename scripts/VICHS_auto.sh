@@ -17,57 +17,55 @@ else
     ost_plik=$(git diff -z --name-only | xargs -0)
 fi
 
-for i in $ost_plik; do
+function search() {
+    echo "$ost_plik" | grep "$1"
+}
 
-    if [[ "$i" == "sections/adblock_cookies"* ]] && [[ "$i" != "sections/adblock_cookies/uBO_AG"* ]]; then
-        if [[ "$lista" != *" cookies_filters/adblock_cookies.txt"* ]]; then
-            lista+=" "cookies_filters/adblock_cookies.txt
-        fi
+if [ ! -z $(search "sections/adblock_cookies") ] && [ -z $(search "sections/adblock_cookies/uBO_AG") ]; then
+    if [[ "$lista" != *" cookies_filters/adblock_cookies.txt"* ]]; then
+        lista+=" "cookies_filters/adblock_cookies.txt
     fi
+fi
 
-    if [[ "$i" == "sections/adblock_cookies/uBO_AG"* ]]; then
-        if [[ "$lista" != *" cookies_filters/cookies_uB_AG.txt"* ]] && [[ "$lista" != *" cookies_filters/adblock_cookies.txt"* ]]; then
-            lista+=" "cookies_filters/cookies_uB_AG.txt
-            lista_g+=" "cookies_filters/adblock_cookies.txt
-        fi
+if [ ! -z $(search "sections/adblock_cookies/uBO_AG") ]; then
+    if [[ "$lista" != *" cookies_filters/cookies_uB_AG.txt"* ]] && [[ "$lista" != *" cookies_filters/adblock_cookies.txt"* ]]; then
+        lista+=" "cookies_filters/cookies_uB_AG.txt
+        lista_g+=" "cookies_filters/adblock_cookies.txt
     fi
+fi
 
-    if [[ "$i" == "sections/adblock_social_list"* ]] && [[ "$i" != "sections/adblock_social_list/uBO_AG"* ]]; then
-        if [[ "$lista" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
-            lista+=" "adblock_social_filters/adblock_social_list.txt
-        fi
+if [ ! -z $(search "sections/adblock_social_list") ] && [ -z $(search "sections/adblock_social_list/uBO_AG") ]; then
+    if [[ "$lista" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
+        lista+=" "adblock_social_filters/adblock_social_list.txt
     fi
+fi
 
-    if [[ "$i" == "sections/adblock_social_list/uBO_AG"* ]]; then
-        if [[ "$lista" != *" adblock_social_filters/social_filters_uB_AG.txt"* ]] && [[ "$lista" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
-            lista+=" "adblock_social_filters/social_filters_uB_AG.txt
-            lista_g+=" "adblock_social_filters/adblock_social_list.txt
-        fi
+if [ ! -z $(search "sections/adblock_social_list/uBO_AG") ]; then
+    if [[ "$lista" != *" adblock_social_filters/social_filters_uB_AG.txt"* ]] && [[ "$lista" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
+        lista+=" "adblock_social_filters/social_filters_uB_AG.txt
+        lista_g+=" "adblock_social_filters/adblock_social_list.txt
     fi
+fi
 
-    if [[ "$i" == "sections/adblock_social_list/popupy.txt"* ]]; then
-        if [[ "$PAF" != "true" ]]; then
-            PAF="true"
-        fi
+if [ ! -z $(search "sections/adblock_social_list/popupy.txt") ]; then
+    if [[ "$PAF" != "true" ]]; then
+        PAF="true"
     fi
+fi
 
-    if [[ "$i" == "sections/adblock_social_list/uBO_AG/popupy"* ]]; then
-        if [[ "$PAF" != "true" ]]; then
-            PAF_supp="true"
-        fi
+if [ ! -z $(search "sections/adblock_social_list/uBO_AG/popupy") ]; then
+    if [[ "$PAF_supp" != "true" ]]; then
+        PAF_supp="true"
     fi
-
-done
+fi
 
 
 if [ "$lista" ]; then
-    . "$sciezka"/VICHS.sh $lista
+    "$sciezka"/VICHS.sh $lista
 fi
 
 if [ "$lista_g" ]; then
-    FORCED="true"
-    . "$sciezka"/VICHS.sh $lista_g
-    unset FORCED
+    FORCED="true" "$sciezka"/VICHS.sh $lista_g
 fi
 
 if [ "$PAF" ] || [ "$PAF_supp" ]; then
@@ -85,9 +83,7 @@ if [ "$PAF" ] || [ "$PAF_supp" ]; then
 fi
 
 if [ "$PAF" ] && [ ! "$PAF_supp" ]; then
-    . ./scripts/VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
+    ./scripts/VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
 elif [ "$PAF_supp" ]; then
-    FORCED="true"
-    . ./scripts/VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
-    unset FORCED
+    FORCED="true" ./scripts/VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
 fi
