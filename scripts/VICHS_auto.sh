@@ -32,7 +32,7 @@ for i in $ost_plik; do
         fi
     fi
 
-    if [[ "$i" == "sections/adblock_social_list"* ]] && [[ "$i" == "sections/adblock_social_list/uBO_AG"* ]]; then
+    if [[ "$i" == "sections/adblock_social_list"* ]] && [[ "$i" != "sections/adblock_social_list/uBO_AG"* ]]; then
         if [[ "$lista" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
             lista+=" "adblock_social_filters/adblock_social_list.txt
         fi
