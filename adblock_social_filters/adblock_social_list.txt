@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.10.1
-! Last modified: Sat, 10 Aug 2019, 15:00 UTC+02
+! Version: 2019.8.10.2
+! Last modified: Sat, 10 Aug 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.10.1 aktualizacja: sob, 10 sie 2019, 15:00 UTC+02
+! v.2019.8.10.2 aktualizacja: sob, 10 sie 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -783,6 +783,7 @@ accent-bikes.com###right_icons
 accu-chek.pl###accuchek-facebook
 adanakebab.pl##.facebook-with-icon
 adapter.pl##.fb-nav-link
+adata.com###footer > div > div > div:nth-of-type(4)
 addnature.pl,bikester.pl##.footer .row > div.col-md-3:nth-of-type(1)
 adguard.com##.footer__icons-title--social
 adnan.pl##.footer > .container.userfooter > .row > p > a > img
@@ -1899,6 +1900,7 @@ golfpl.com,strefawolnejprasy.pl##a[href^="http://digg.com/submit"]
 goodair.pl##.tve_social_items
 goodgift.pl##div[id^="wysuwane"]
 goodluckclub.pl###sdo > li:nth-of-type(n+4)
+goodram.com###footer_menu_social
 google.com##.standard-footer__bar__social-icons
 gorlice.pl##.sdbar-btn-facebook, .sdbar-btn-youtube, .sdbar-btn-twitter
 gorskiedomki.pl##.rev_slider_wrapper a[href="https://www.facebook.com/borszowka"]
@@ -3098,7 +3100,6 @@ polskaekologia.org###object > .social, #block-block-28
 polskainstitutet.se##.newsBottom > .share, div.field:nth-of-type(3) > .fieldTitleRight
 polskaizbabranzypogrzebowej.pl##.social.column--1-4
 polskawoda.com.pl#?#.fp-section.section-5.section > h2:-abp-contains(/Bądźmy w.*kontakcie/)
-polskibus.com###footer-more
 polskicaravaning.pl##a > img[src="layout/youtube-logo.png"]
 polskiedrogi-tv.pl###text-36, #text-47
 polskieligi.net###social_networks
@@ -4267,6 +4268,7 @@ zyciestolicy.com.pl##.hm-share
 zygzaksnow.pl###ppfacebook
 z-hotel.com###menu-item-868
 !daciakatowice.pl##.fixedFB
+!polskibus.com###footer-more
 !roland-gazeta.pl##.jj_sl_google, .jj_sl_linkedin
 !www.dobreprogramy.pl#?#.author-social-links > a:-abp-has(> svg:not(.feather-link))
 !
@@ -4628,6 +4630,7 @@ www.instalki.pl#@#img[alt="Facebook"]
 www.pkobp.pl#@#.footer-top__social
 youtube.com#@##secondary-links
 @@/googleplus-$image,domain=www.wirtualnemedia.pl
+@@/images/fb-login.jpg$domain=mediaexpert.pl
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
 @@/modules/mod_je_social/images/social.png$image,domain=www.roland-gazeta.pl
 @@/social_media_$domain=mazury.travel
