@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.10.2
-! Last modified: Sat, 10 Aug 2019, 23:00 UTC+02
+! Version: 2019.8.11.1
+! Last modified: Sun, 11 Aug 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.10.2 aktualizacja: sob, 10 sie 2019, 23:00 UTC+02
+! v.2019.8.11.1 aktualizacja: nie, 11 sie 2019, 03:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -28,8 +28,9 @@
 3dom.pro,bip.gliwice.eu,diamante-wear.com,ims.fm,warszawa.promenada.com,profit-plus.eu,kiddabadam.com,mg-pmm.com,naszefutrzaki.eu,secretdelivery.pl,mateuszgrzesiak.com,stolmot.com,anmur.eu,trecnutrition.com,koszulkomat.eu,f1experiences.com,gamet.eu,telko.in,makoblog.com,inkubatorkultury.eu,chorzow.eu,avenidapoznan.com,eastbook.eu,booksy.com,pkpcargo.com,sapphiretech.com,bibliotekacyfrowa.eu,radiopark.fm,maamstyle.com,katowice-airport.com,dpm.eu##.cookies
 3mpolska.pl,logitechg.com,bosch-professional.com,logitech.com,command.pl,vacansoleil.pl,cisco.com###__tealiumGDPRecModal
 3s.pl,franciszkanskie.pl,antyweb.pl,norauto.pl,grupakety.com,olimpijski.pl,softon.pl,ingtechpoland.com,kultura.krasnik.eu,brolerserwis.pl,spedycje.pl,kancelaria-szip.pl,pelion.eu,karmy.com.pl###privacy
-4fstore.com,autogielda.pl,auto-czesci-lipiec.pl,mix4kids.tv,dreammachines.pl,fotosik.pl,haloursynow.pl,warsztat.pl,jelenia.tv,leo.pl,interprojekt.pl,aclari.pl,diecezjaplocka.pl,e-konkursy.info,funduszpomerania.pl,goldenline.pl,naratunek.org,oskolaf.pl,panoramafirm.pl,pulawy.eu,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,swiatpodlog.com.pl,wseit.edu.pl,zabierzow.org.pl,skijumping.pl,junkers.pl##.modal-backdrop
+4fstore.com,autogielda.pl,auto-czesci-lipiec.pl,mix4kids.tv,dreammachines.pl,fotosik.pl,haloursynow.pl,warsztat.pl,jelenia.tv,leo.pl,interprojekt.pl,aclari.pl,diecezjaplocka.pl,e-konkursy.info,funduszpomerania.pl,goldenline.pl,naratunek.org,oskolaf.pl,panoramafirm.pl,pulawy.eu,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,swiatpodlog.com.pl,wseit.edu.pl,zabierzow.org.pl,skijumping.pl,junkers.pl,bosch-industrial.com##.modal-backdrop
 4hifi.pl,advatus.pl,tylkodywan.pl,ip-sa.pl##.myModal-box
+4ip.pl###ccontainer
 4kdownload.com,radissonblu.com,secure.showmax.com,hm.com,man.eu##.cookie-notification
 4lapki.eu,jarek-kefir.org,wordpress.com,rowery.org,czechofil.com,szukajacslonca.com,muzykoholicy.com,rebe1scum.com,ekskluzywnymenel.com,ninawum.com,torun24.tv,kuchniaubietki.home.blog###eu-cookie-law
 4lifedirect.pl##.cookie-window
@@ -292,7 +293,11 @@ bookmaster.com.pl,centrumkurierskie.pl,ck1.pl##.ci-min.ci-container.ci-data
 booksy.com###cookie-policy-2
 books.google.pl,play.google.com###gb > div[style*="background-color"]
 borelioza.vegie.pl###menubar > center
+bosch-automotive-catalog.com##div.mcd-cookie-manager-layer
+bosch-automotive.com###cookieInformation
 bosch-do-it.com,bosch-garden.com###CookieManagerDialog
+bosch-extra.pl,extra-program.pl###boschCookieSettings
+bosch-industrial.com,junkers.pl###cookielaw
 bosch.pl##.O-CookieLaw
 bose.pl###privacy-message-bar
 bossoftoys.pl###modal-rulescheck
@@ -1225,7 +1230,7 @@ mord.krakow.pl##span[onclick="location.href='http://mord.krakow.pl/ogloszenia/a,
 morele.net###cookieBoxWrapper, #cookie_box
 mosir.elblag.eu,oksir.eu###cac
 mos.gov.pl##div#textcook
-motofocus.pl###privacy-policy-bar
+motofocus.pl,truckfocus.pl###privacy-policy-bar
 motohid.pl###simple-modal-overlay, #simple-modal
 motomoto.pl###itlbox
 motonotes.pl##div[style="background-color:black; width=100%; height:25px; color:white; position:absolute"]
@@ -2049,6 +2054,8 @@ zysk.com.pl###pageUpperInfo
 ! Specyficzne reguły blokujące
 !||pcworld.pl/www/js/sp/messaging.js
 /ajax/privacy_popup$xmlhttprequest,domain=pl|debica24.eu|narew.info|zvami.tv
+/cookie*/bosch-privacy-settings-*.min.js$script,domain=www.bosch.pl|bosch-professional.com
+/dc-cookie-privacy-settings.min.js$script,domain=www.boschrexroth.com
 /gdpr/CookieConsent$xmlhttprequest,~third-party,domain=kayak.pl
 /images/cookie.png$domain=loteriainpost.pl|somatgold.pl|loteriavelvet.pl|zmienfutro.pl
 /includes/infocookies.js$domain=wici.info
@@ -2247,6 +2254,7 @@ pl###Cookies:not(body):not(html)
 pl###CybotCookiebotDialog:not(body):not(html)
 pl###DIVcookies:not(body):not(html)
 pl###InfoCookie:not(body):not(html)
+pl###MainCookies:not(body):not(html)
 pl###SCK > .SCK_Banner:not(body):not(html)
 pl###WP-cookie-info:not(body):not(html)
 pl###acceptCookies:not(body):not(html)
@@ -2344,7 +2352,7 @@ pl###cookiefy_bar:not(body):not(html)
 pl###cookieinfo1:not(body):not(html)
 pl###cookieinfo:not(body):not(html)
 pl###cookielaw-box:not(body):not(html)
-pl###cookielaw:not(body):not(html)
+pl###cookielaw:not(body):not(html):not(.fade):not(.modal)
 pl###cookiemonster:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html)
 pl###cookiemonster_popup:not(body):not(html) + #document_modal
