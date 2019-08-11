@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.11.2
-! Last modified: Sun, 11 Aug 2019, 15:00 UTC+02
+! Version: 2019.8.11.3
+! Last modified: Sun, 11 Aug 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.11.2 aktualizacja: nie, 11 sie 2019, 15:00 UTC+02
+! v.2019.8.11.3 aktualizacja: nie, 11 sie 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -123,7 +123,7 @@ allsporter.com##.cookies-ct
 allview.pl###modalGDPR.modalGDPR
 almamarket.pl,kozy.pl,www.sygnity.pl,aukso.pl###claw
 almatur.pl,portaltatrzanski.pl###rododiv
-aluzja.gorzow.pl,artgos.pl,ck.przemysl.pl,diagmed.info.pl,hostgrafia.pl,mojawww.com,osrodek-terapii.com,puch-kotlowski.pl,sls.info.pl,swiatdeski.pl,tomiicars.com.pl,treningkrakow.pl,vagaru.pl,wikar.pl,bsmuszyna.com##div[class]:not([id]) > aside.type-10.widget, section[class]:not([id]) > aside.type-10.widget, div[class]:not([id]) > div[id].type-10.widget > aside.type-10.widget
+aluzja.gorzow.pl,artgos.pl,ck.przemysl.pl,diagmed.info.pl,hostgrafia.pl,mojawww.com,osrodek-terapii.com,puch-kotlowski.pl,sls.info.pl,swiatdeski.pl,tomiicars.com.pl,treningkrakow.pl,vagaru.pl,wikar.pl,bsmuszyna.com,slawex.net.pl##div[class]:not([id]) > aside.type-10.widget, section[class]:not([id]) > aside.type-10.widget, div[class]:not([id]) > div[id].type-10.widget > aside.type-10.widget
 al.to,x-kom.pl,combat.pl###popup-cookie
 amarone.pl###bannerMSG
 amazon.de###desktop-cookie-disclosure
@@ -223,6 +223,7 @@ beautikon.com,e-lakiernik.net,helikon-tex.com,imready.eu,lancerto.com,sklep.tref
 bebio.pl##.rodo-canvas-wrapper
 becek.pl###preloadm-rodo, #preloadb
 bechtle.com##.neo-footer__cookieBar
+behance.net,pl.fotolia.com,helpx.adobe.com,stock.adobe.com,www.adobe.com,rexona.com,vmware.com,www.knorr.pl,www.unilever.pl,przepisy.pl###_evidon_banner
 bejeans.pl,hael.pl###js-cookienotice
 belutti.com##.fk-cookies
 bershka.com##.modalWarnContainer
@@ -1105,7 +1106,7 @@ lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
-lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com,goleniowska.com,visitwroclaw.eu,czarnkow.info,suwalki.info,zsgoreczyno.eu,koronakaszub.eu,amico.market,raczkowski.eu,iwaniska.eu,mensahome.eu,x-moto.eu,julstar.eu,wagrowiec.eu,camprest.com,krzysztof-bus.eu,transportnews.eu,transportnews.tk,fotmar.eu,allpaka.eu,wici.info,lessmess.storage,reporterzy.info,gazetaswietojanska.org,master-sport.de,opoczno.info,ikrakow.info,sejny.net,goryonline.com,staypoland.com,medianarodowe.com###cookies-message-container
+lowicz24.eu,zajefajna.com,szczecinek.com,iotwock.info,zambrow.org,tanidrut.com,budmax.eu,astronomia24.com,server-pps.com,dacpol.eu,zuu.systems,inzynieria.com,ontrack.com,integracja.org,nadarzyn.tv,yuliyababich.eu,psychologiazycia.com,goleniowska.com,visitwroclaw.eu,czarnkow.info,suwalki.info,zsgoreczyno.eu,koronakaszub.eu,amico.market,raczkowski.eu,iwaniska.eu,mensahome.eu,x-moto.eu,julstar.eu,wagrowiec.eu,camprest.com,krzysztof-bus.eu,transportnews.eu,transportnews.tk,fotmar.eu,allpaka.eu,wici.info,lessmess.storage,reporterzy.info,gazetaswietojanska.org,master-sport.de,opoczno.info,ikrakow.info,sejny.net,goryonline.com,staypoland.com,medianarodowe.com,pdinetwork.net###cookies-message-container
 lsisoftware.pl,smartpage.pl##.noty_message
 lubawa.pl##.top_alert
 lubawka.eu##.cookie_info
@@ -1437,7 +1438,6 @@ pl.depositphotos.com##._notification
 pl.dst.roto-frank.com##.occ-inline
 pl.ecco.com,circleci.com###cookiebanner
 pl.farnell.com###mktg_Cookie_Wrap
-pl.fotolia.com,helpx.adobe.com,stock.adobe.com,www.adobe.com,rexona.com,vmware.com,www.knorr.pl,www.unilever.pl,behance.net###_evidon_banner
 pl.godaddy.com###privacy_widget:not(body):not(html)
 pl.gravatar.com##.custom-cookie-banner
 pl.hama.com###privacyOptionsCookieOptIn-bottom
@@ -1650,6 +1650,7 @@ semex.pl,zmkowalczyk.pl###r-overlay
 sempire.pl##.bottom-bar
 sempreinfo.pl###ccm-cookiesDisclosure
 senetic.pl###rodoBar
+seni24.pl##.cp-popup, .cp-popup-overlay
 seriale.co###player_warn
 seriea.pl,kadra.pl,ligapolska.pl,goal.pl,primeradivision.pl###viewCookies, #viewCookiesClose
 serwiskorporacyjny.carrefour.pl,solarisbus.com,vw-group.pl##.l-sec--cookies.l-sec
@@ -2066,10 +2067,10 @@ zysk.com.pl###pageUpperInfo
 /rhododendron/css/rhododendron-popup.css$domain=abctygodnik.pl|wpolsce.pl
 /rodo-agreement-popup/rodo-agreement-popup.min.js$domain=gremimedia.pl|rpkom.pl|zw.com.pl
 /whcookiesutf.js$domain=pl|apteka-vita.eu
-/whcookies.js$domain=pl|lessmess.storage
+/whcookies.js$domain=pl|lessmess.storage|pdinetwork.net
 /wp-content/plugins/mm-extensions/assets/js/info-popup.js$domain=koty.pl|psy.pl
 /wp-content/plugins/wp-modal-popup-with-cookie-integration/*$script,stylesheet,domain=edutorial.pl
-/zgody/css/rodo-popup-n.css$domain=gruparmf.pl|rmf.fm|rmfmaxxx.pl|rmfclassic.pl
+/zgody/css/rodo-popup-n.css$domain=gruparmf.pl|rmf.fm|rmfmaxxx.pl|rmfclassic.pl|rmf24.pl
 ||ad.ipolska.pl/cookies/cookiecheck.js$script,domain=wielodzietni.org
 ||akademiareissa.pl/jquery.cg.rodo.modal.js
 ||apteki24.waw.pl/info_cook.js
@@ -2639,6 +2640,7 @@ pl###subserviceCookiesBar:not(body):not(html)
 pl###szCookiePolicy:not(body):not(html)
 pl###theCookie:not(body):not(html)
 pl###thecookie:not(body):not(html)
+pl###tlscookieseu-bar:not(body):not(html)
 pl###top-cookie-wrapper:not(body):not(html)
 pl###ue-cookie-notify:not(body):not(html)
 pl###v-cookielaw:not(body):not(html)
