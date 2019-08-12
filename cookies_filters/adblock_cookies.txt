@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.11.4
-! Last modified: Sun, 11 Aug 2019, 23:00 UTC+02
+! Version: 2019.8.12.1
+! Last modified: Mon, 12 Aug 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.11.4 aktualizacja: nie, 11 sie 2019, 23:00 UTC+02
+! v.2019.8.12.1 aktualizacja: pon, 12 sie 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -602,6 +602,7 @@ etroniks.pl,trojmiejskaperfumeria.pl###st_notification_1
 etsy.com##div[data-gdpr-consent-prompt], div[data-etsy-promo-cookie-expires]
 eurid.eu###cookie-notification-content
 euro26.pl###popup, #fade
+eurobudowa.pl###informacja-o-cookies
 europa.eu###cookie-consent-banner
 europlytki.pl###cookies-info-container
 eurostyl.com.pl###euroCookieInfo
@@ -846,6 +847,7 @@ hipotekadlaciebie.com,srodkidlafirm.com##.CTcookie-container
 histmag.org,cochrane.org###cookie-warning
 hitachi.eu###cookie-compliance
 hi-tec.com.pl##DIV[style="width: 882px; padding: 10px; margin: 3px auto; text-align: center; color: #BABABA"]
+hmb.pl##.box-ui.cookie-notice-ui
 hoga.pl###warning
 hokej.net###cookies_box
 holidaycheck.pl###infoCloseableBoxContainer
@@ -2568,6 +2570,7 @@ pl###gdpr_banner:not(body):not(html)
 pl###gdpr_info:not(body):not(html)
 pl###gm-cookies:not(body):not(html)
 pl###hw_cookie_law:not(body):not(html)
+pl###iCookieWarning:not(body):not(html)
 pl###icc_message:not(body):not(html)
 pl###ics-pp-cookies-accept:not(body):not(html)
 pl###id-cookiewarn:not(body):not(html)
