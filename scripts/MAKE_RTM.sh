@@ -21,6 +21,7 @@ cp -r ./"$PSCD"/sections/ ./polish-ads-filter/
 cp -r ./"$PSCD"/templates/ ./polish-ads-filter/
 cp -r ./"$PSCD"/scripts/VICHS.sh ./polish-ads-filter/scripts/
 cp -r ./"$PSCD"/scripts/VICHS.config ./polish-ads-filter/scripts/
+cp -r ./"$PSCD"/scripts/FOP.py ./polish-ads-filter/scripts/
 
 cd ./polish-ads-filter || exit
 
