@@ -38,7 +38,7 @@ else
     ost_plik=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
 fi
 
-if [ ! -z $(search "sections/adblock_social_list/popupy.txt") ]; then
+if [ ! -z $(search "sections/adblock_social_list/popupy.txt") ] || [ ! -z $(search "sections/adblock_social_list/popupy_ogolne.txt") ]; then
     if [[ "$PAF" != "true" ]]; then
         PAF="true"
     fi
