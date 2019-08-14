@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.14.1
-! Last modified: Wed, 14 Aug 2019, 03:00 UTC+02
+! Version: 2019.8.14.2
+! Last modified: Wed, 14 Aug 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.14.1 aktualizacja: śro, 14 sie 2019, 03:00 UTC+02
+! v.2019.8.14.2 aktualizacja: śro, 14 sie 2019, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -77,7 +77,6 @@ adobe.com,merixstudio.pl##.message
 adocean-global.com##div.cookies-flex
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl,zs1mm.edu.pl,zs1mm.home.pl,wordlist.eu##body > div[style*="position"][style*="relative"]:not([id]):not([class])
-adwokatura.katowice.pl###cookieInfCont
 aeg-powertools.eu,baldauf-kaese.de,bolec.info,dystans.org,esize.me,euautomation.com,eurolines.de,europeana.eu,filehippo.com,forum.optymalizacja.com,ftt.roto-frank.com,godzina.info,ipa-katowice.org,konin24.info,languagetool.org,malopolskie-media.info,osiedle-chelmonskiego.pl.tl,parafiabrzezinka.eu,pl.kingofsat.net,pons.com,punkt.media,sachsen-tourismus.de,techsklep.eu,tw-db.info,wiha.com##.cc_banner-wrapper > .cc_banner
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
 aero7.pl,icube.pl,loveair.pl###ci-rodo
@@ -399,7 +398,6 @@ cinamoon.pl,ministerstworeklamy.pl,ok-kredyt.pl,radiotaxitg.pl,szkoleniapartner.
 cinema3d.pl##rodo-modal
 circleci.com,pl.ecco.com###cookiebanner
 circlek.pl###cookieboxM
-cire.pl###ramka_ciasteczka_info
 civitas.edu.pl###cronox-cookie-notice
 ckiw-dobieszkow.ohp.pl###eDcPopupBox
 ckmir.com.pl#?#p:-abp-contains(cookie)
@@ -626,7 +624,6 @@ etsy.com##div[data-gdpr-consent-prompt], div[data-etsy-promo-cookie-expires]
 ettoi.pl,wirtualis.pl###info_content
 eurid.eu###cookie-notification-content
 euro26.pl###popup, #fade
-eurobudowa.pl###informacja-o-cookies
 europarl.europa.eu,interpretacje-podatkowe.org,slowhop.com,wszystkodokuchni.eu,www.tesco.com###cookie-policy
 europa.eu###cookie-consent-banner
 europlytki.pl###cookies-info-container
@@ -697,7 +694,6 @@ filoma.org###app-confirm-dialog
 finnair.com##.cookie-consent-wrapper > .consent-popup
 firecash.org,fundacjabos.pl,grupaeurocash.pl,payup.pl,pbg-sa.pl,regionwielkopolska.pl###info
 firmamazur.pl,mazurcompany.com###cookies-glass
-firmy4u.pl###infociasteczka
 firmymiesne.pl##[aria-describedby="rodo-dialog"], .ui-widget-overlay
 firmy.lu###privacy_info_overlay, #privacy_info_content
 fitbox4you.pl###kopageBar
@@ -987,7 +983,6 @@ jazzfestiwal.kck.com.pl###system-message > .fade.message.notice > ul > li
 jazzsoul.pl,ksiegarnienaukowe.pl###globalMessage
 jcubic.pl##.cookie-baner
 jednoslad.pl###arvlbdata > p
-jedz-bezpiecznie.pl#?#body > table > tbody > tr > td > table > tbody > tr:nth-of-type(1) > td:-abp-contains(wszystkoociasteczkach)
 jelenia.pl###alert-blue
 jelenia.tv,radiogdansk.pl,radioram.pl,radiowroclaw.pl,tanibus.com,ticketclub.pl###rodoModal
 jelonka.com,walbrzyszek.com##.prywatnosc
@@ -1009,7 +1004,6 @@ kalisz.pl###showHideDiv
 kalkulator-oc-ac.mubi.pl#?#div#root > div[class] > header ~ div[class]:not([id]):-abp-contains(plików cookies)
 kalkulator.wakacyjnapolisa.pl,rankomat.pl##.rank-cookie-bar
 kapucyni.pl###mod_ppcookies
-karmimypsiaki.pl##div#ciasteczkaInfoContainer
 karpacz-bus.pl#?#body > table:nth-of-type(1):-abp-has(.txtprywatnosc)
 karpacz.pl###popupBody, #popupContainer
 kartonwork.pl,luszczyce.pl##body > div > div[style*="position"][style*="fixed"]
@@ -1019,7 +1013,6 @@ kartuzy.pl,pks-leszno.pl,visiton.pl##.rstboxes > #rstbox_1
 kawasaki.pl###Panel_Cookies
 kazar.com#?#.bottom-data:-abp-has(.cookie-info)
 kca.nick.com.pl##section.module-container ~ div > .page-overlay > .page-overlay_wrapper
-kentype.pl##div#ciasteczka-box
 kepno.pl###dhtml_popup
 kiep.pl,kreskowki.tv,milanos.pl###rodo-pop
 kierunekspozywczy.pl,krsystem.pl,wislaportal.pl##.cook
@@ -1166,6 +1159,7 @@ mamadha.pl,maxonactive.pl###page-cookie-bar
 mamaplus.pl###ue-cookie-warning
 manusite.pl##div[style="width:960px;height:100px;background:#0F0F0F;font-size:15px;text-align:center;padding:10px auto;"]
 maratony24.pl##div#privacyPolicy
+marczewski.pl,michal.kosmulski.org###ustawaCiasteczkowa
 marekjuraszek.pl,tluszczak.pl###ml_wrapper
 marinbikes.com##.banner-gdpr
 marketing.org.pl###art_173_22032013_ukryj
@@ -1215,7 +1209,6 @@ mggp.com.pl##.navbar-inverse, .navbar.navbar-fixed-bottom
 miastokobiet.pl###edgtf-back-to-top
 miastons.pl##[id^="overflow"]
 michalgrabarski.eu###ccc-icon
-michal.kosmulski.org###ustawaCiasteczkowa
 microsoft.com,office.com###uhfCookieAlert
 miedzlegnica.eu###cookie-wrapper
 mielec.pl##.footer_cookieinfo
@@ -1579,6 +1572,7 @@ pullandbear.com###modalAceptCookies
 pupgrodziskwlkp.pl##.cookies_bar
 pupgrodziskwlkp.pl#?##fancybox-wrap:-abp-has(img[src="/ckeditor_assets/pictures/197/content_informacja_rodo.png"])
 pupilexpert.pl###selly-cookies
+pupillo.pl###tloPopUp, #oknoPopUp
 pushpushgo.com##.ppg-cookies
 pwik.wolomin.pl###oknoModal
 pw.edu.pl##.lb-overlay, .lb-wrapper
@@ -1596,7 +1590,6 @@ radiohit.net.pl##.RODOframe
 radiomerkury.pl##div#privacyPolicyBox
 radiopik.pl##div#hmonit
 radiorodzina.kalisz.pl##.module-abovebox
-radom24.pl##div#ciasteczka-info
 raiffeisenpolbank.com###valid_cookie_message
 rajapack.pl###barre__cookie.barre__cookie
 ramboll.pl##.infoboxHolder
@@ -1759,7 +1752,6 @@ store.playstation.com###privacy-header
 strabag.pl###dsgvo
 stradivarius.com###cookiesWarn
 stroer.pl##.popUpWrap
-strona.euro-net.pl##.komunikatciasteczka
 stronghold.net.pl###ci_info
 studentbeans.com##div[data-react-class="Components.CookieBanner"]
 stukstuk.pl###tws_s_100001
@@ -1850,7 +1842,6 @@ trizer.pl##.ft__cookies
 trovit.pl###welcomebar-wrapper
 truckstore.com##.tso-popup-footer, .tso-popup-overlay
 ttv.pl###msgLayer
-tugazeta.pl###komunikat_ciastka
 tulodz.pl###modalCookies
 turio.com.pl##.cookie-info-dlg
 tuz.pl###for-cookies-container
@@ -2307,6 +2298,7 @@ pl###cookieConsent:not(body):not(html)
 pl###cookieContent:not(body):not(html)
 pl###cookieControl:not(body):not(html)
 pl###cookieDisclaimer:not(body):not(html)
+pl###cookieInfCont:not(body):not(html)
 pl###cookieInfoBar:not(body):not(html)
 pl###cookieInfoBox:not(body):not(html)
 pl###cookieInfoContent:not(body):not(html)
@@ -2889,7 +2881,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###Ciastka:not(body):not(html)
 ###CookieKomunikat:not(body):not(html)
 ###EUCookie:not(body):not(html)
-###InformacjaOCookies
+###InformacjaOCookies:not(body):not(html)
 ###Informacja_o_ciasteczkach:not(body):not(html)
 ###Qookie:not(body):not(html)
 ###ZATAKIEUSTAWYPOWINNIZAMYKAC:not(body):not(html)
@@ -2898,6 +2890,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###ciacho:not(body):not(html)
 ###ciacho_bar:not(body):not(html)
 ###ciasteczkaInfo:not(body):not(html)
+###ciasteczka-box:not(body):not(html)
 ###ciasteczka-komunikat:not(body):not(html)
 ###ciasteczka:not(body):not(html)
 ###ciasteczka_info:not(body):not(html)
@@ -2906,6 +2899,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###ciastka:not(body):not(html)
 ###ciastka_wiadomosc:not(body):not(html)
 ###ciastkodivf:not(body):not(html)
+###ciastkodiv:not(body):not(html)
 ###ciastko_alert:not(body):not(html)
 ###ciastoWarstwa:not(body):not(html)
 ###cnpl_v01:not(body):not(html)
@@ -2930,9 +2924,14 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###ecl-notice:not(body):not(html)
 ###eurociastko:not(body):not(html)
 ###hideMe:not(body):not(html)
+###infociasteczka:not(body):not(html)
 ###informacjaOCiasteczkach:not(body):not(html)
+###informacja-o-cookies:not(body):not(html)
+###informacja_ciastka:not(body):not(html)
 ###informacja_cookie:not(body):not(html)
 ###informacja_o_ciasteczkach:not(body):not(html)
+###informacja_o_cookies:not(body):not(html)
+###informacja_o_cookie:not(body):not(html)
 ###info_c_box:not(body):not(html)
 ###jqmCookieMonster:not(body):not(html)
 ###js_popup_cookies:not(body):not(html)
@@ -2967,6 +2966,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###polityka_ciastek:not(body):not(html)
 ###polityka_cookies:not(body):not(html)
 ###polityka_prywatnosci:not(body):not(html)
+###ramka_ciasteczka_info:not(body):not(html)
 ###rodoAlert:not(body):not(html)
 ###rodoNotificationWrapper:not(body):not(html)
 ###rodoinfo:not(body):not(html):not(span)
