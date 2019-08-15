@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.14.3
-! Last modified: Wed, 14 Aug 2019, 23:00 UTC+02
+! Version: 2019.8.15.1
+! Last modified: Thu, 15 Aug 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.14.3 aktualizacja: śro, 14 sie 2019, 23:00 UTC+02
+! v.2019.8.15.1 aktualizacja: czw, 15 sie 2019, 03:00 UTC+02
 !
 !
 ! Popupy
@@ -741,7 +741,6 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_l
 !
 !
 ! Specyficzne reguły ukrywające
-~www.wp.pl,wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has(> div[class] > div[class] > span > svg > path)
 2plus3d.pl###menuItem_facebook
 2xme.pl##.footer__block--flex.footer__block, .media__second
 3dom.pro##.division-size-50.division-box-2.division-box
@@ -1435,6 +1434,7 @@ dieroten.pl###foot-menu > .dark.col-sm-12.col-md-3
 digitalassets.pl##div.widget:nth-of-type(n+4):nth-of-type(-n+5)
 digitalsignage.is##.icon-twitter-full
 digitalvirgo.pl##a > img[src$="/img/linked_icon.png"]
+dimedic.eu##.hp__social
 dinfo.pl,tint.pl##.noopslikebox
 diprocon.pl##.page-header > .contact > div
 direct-sender.com###footer .col-lg-5.col-md-12.item
@@ -1691,6 +1691,7 @@ e-dach.pl,e-instalacje.pl,e-izolacje.pl,e-lazienki.pl,e-mieszkanie.pl,e-ogrodek.
 e-dewocjonalia.eu#?##extra_baner > .f-row > div.f-grid-4:nth-of-type(3):-abp-contains(Facebook)
 e-forma.pl,primadent.com.pl,sluzby-ur.pl,wilanow-palac.pl###youtube
 e-glamour.pl##.Social--footer.Social
+e-gorniak.com#?#.home-teaser:-abp-has( > p:first-child:last-child > iframe[src*="://embed.spotify.com/follow/"])
 e-hotelarz.pl##a[href="https://twitter.com/Hotelarz_pl"], a[href^="https://www.facebook.com/miesiecznikhotelarz"]
 e-infonet.pl##a[href="https://plus.google.com/103615133488436531908"]
 e-kca.pl##a[href="http://plus.google.com/112246936900220613632"]
@@ -4054,6 +4055,7 @@ wprost.pl##.soc-buttons-box
 wpr.pl##.col-lg-1 > div:nth-of-type(1) > strong
 wp.pl,~www.wp.pl##.facebook-share, .tweeter-share
 wp.pl,~www.wp.pl#?#div:-abp-has( > div > strong:-abp-contains(Podziel się))
+wp.pl,~www.wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has( > div[class] > div[class] > span > svg > path)
 wrobelekelemelek.com###likebox_1
 wroclaw.pl##.ck_social_media > h3, .ck_mobile_social_icon_1, .ck_mobile_social_icon_4, .ck_mobile_social_icon_5, .ck_mobile_social_icon_6, .ck_mobile_social_icon_7
 wrozka.com.pl##.contact_content td:nth-of-type(n+2)
