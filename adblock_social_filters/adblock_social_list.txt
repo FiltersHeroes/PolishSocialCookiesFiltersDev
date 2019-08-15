@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.15.1
-! Last modified: Thu, 15 Aug 2019, 03:00 UTC+02
+! Version: 2019.8.15.2
+! Last modified: Thu, 15 Aug 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.15.1 aktualizacja: czw, 15 sie 2019, 03:00 UTC+02
+! v.2019.8.15.2 aktualizacja: czw, 15 sie 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -1632,6 +1632,7 @@ epione.pl,nowywyszkowiak.pl,soniadraga.pl###FacebookWidget
 epiotrkow.pl##.sboxr
 epiotrkow.pl##div.wcontl:nth-of-type(5) > h1
 epiotrkow.pl##.wcontl:nth-of-type(2), .wcontl:nth-of-type(6) > h1
+epoznan.pl##.boxesList__items > div > div:nth-of-type(1) > div > a[target="_blank"]
 erasmusu.com###footer div.inline.col-fourth:nth-of-type(3) > ul > li:nth-of-type(n+4):nth-of-type(-n+7)
 eredaktor.pl###text-5, #nav_menu-4, #toolbare-sm
 ergomeble.pl###widget-instagram
@@ -1983,7 +1984,7 @@ gumtree.pl##.icon-seo-facebook, .icon-seo-gmailplus, .icon-seo-twitter, .icon-se
 guzik.konin.pl##a[href="https://pl-pl.facebook.com/GUZIK.systemy.informatyczne/"]
 guzik.konin.pl##.widget_text.social.widget-bottom.uk-panel-box.uk-panel
 gymeltoro.pl##.bean-social1
-hacienda.pl##.social > li:nth-of-type(-n+3)
+hacienda.pl,koscierzyna24.info##.social > li:nth-of-type(-n+3)
 hack.pl,przesylarka.pl,repozytorium.fn.org.pl,spoleczenstwo.plportal.pl###block-block-11
 hallyustarnews.pl###media_image-3, #media_image-4
 halogorlice.info###sp-bottom3
@@ -3761,6 +3762,7 @@ teraz.pl##footer div:nth-of-type(4) > ul
 teresin.pl##div.col-md-3.col-xs-6:nth-of-type(4) > address
 teresin.pl###logofb, .pageSharer
 termedia.pl##a[href="https://twitter.com/MenedzerZdrowia"], a[href="https://www.facebook.com/MenedzerZdrowia"]
+termedia.pl##.headCenter > div:nth-of-type(n+2):nth-of-type(-n+3) > button
 termgaz.pl###widget_social
 testhub.pl##.sh-share-item-twitter, .sh-share-item-instagram, .sh-share-item-youtube, .sh-share-item-facebook
 tfkable.com##a.lIn:nth-of-type(-n+2)
