@@ -74,7 +74,7 @@ if [ "$CI" = "true" ]; then
 echo "Wysyłanie PR..."
 hub pull-request -b MajkiIT:master -m "Update $lista ($today_date)
 
-*Bip*, *bup*, wynik końcowy, RTM, *bip*!"
+Siema, siema Ziemia!"
 cd ..
 git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
 cd ./PolishAnnoyanceFilters || exit
