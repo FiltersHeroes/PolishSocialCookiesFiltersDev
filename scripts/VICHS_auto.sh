@@ -7,7 +7,7 @@ aktualna_godzina=$(date +"%H")
 
 cd "$sciezka"/.. || exit
 
-LANG="pl_PL.UTF-8" "$sciezka"/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
+"$sciezka"/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
 
 ost_plik=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
 
@@ -52,11 +52,11 @@ fi
 
 
 if [ "$lista" ]; then
-    LANG="pl_PL.UTF-8" "$sciezka"/VICHS.sh $lista
+    "$sciezka"/VICHS.sh $lista
 fi
 
 if [ "$lista_g" ]; then
-    LANG="pl_PL.UTF-8" FORCED="true" "$sciezka"/VICHS.sh $lista_g
+    FORCED="true" "$sciezka"/VICHS.sh $lista_g
 fi
 
 if [ "$PAF" ] || [ "$PAF_supp" ]; then
@@ -74,7 +74,7 @@ if [ "$PAF" ] || [ "$PAF_supp" ]; then
 fi
 
 if [ "$PAF" ] && [ ! "$PAF_supp" ]; then
-    LANG="pl_PL.UTF-8" ./scripts/VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
+    ./scripts/VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
 elif [ "$PAF_supp" ]; then
-    LANG="pl_PL.UTF-8" FORCED="true" ./scripts/VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
+    FORCED="true" ./scripts/VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
 fi
