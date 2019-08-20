@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.20.2
-! Last modified: Tue, 20 Aug 2019, 15:00 UTC+02
+! Version: 2019.8.20.3
+! Last modified: Tue, 20 Aug 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.20.2 aktualizacja: wto, 20 sie 2019, 15:00 UTC+02
+! v.2019.8.20.3 aktualizacja: wto, 20 sie 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -30,7 +30,7 @@
 4hifi.pl,advatus.pl,ip-sa.pl,tylkodywan.pl##.myModal-box
 4ip.pl###ccontainer
 4kdownload.com,hm.com,man.eu,radissonblu.com,secure.showmax.com##.cookie-notification
-4lapki.eu,czechofil.com,ekskluzywnymenel.com,jarek-kefir.org,kuchniaubietki.home.blog,muzykoholicy.com,ninawum.com,rebe1scum.com,rowery.org,szukajacslonca.com,torun24.tv,wordpress.com###eu-cookie-law
+4lapki.eu,czechofil.com,ekskluzywnymenel.com,jarek-kefir.org,kuchniaubietki.home.blog,muzykoholicy.com,ninawum.com,programistka.com,rebe1scum.com,rowery.org,szukajacslonca.com,torun24.tv,wordpress.com###eu-cookie-law
 4lifedirect.pl##.cookie-window
 4lomza.pl,ubojnia-skad.pl###komunikat_rodo
 4myart.eu###xcookies
@@ -1181,7 +1181,7 @@ mazda.pl##div[class^="mxp-main-cookie-panel-container-"]
 mazowia.eu#?##dymek239:-abp-has(a[href$="rodo.html"])
 mazurkas.com.pl##.block_cooe_popup
 mbp.dzierzoniow.pl###block-vbanner-popup
-mcdonalds.pl###cookies_message_info
+mcdonalds.pl###cookies_message_info, .cookie-messages
 mckp.uj.edu.pl###cookie_filter
 mc-2.pl###_COOKIE-PPN
 mdkgal.edu.pl##[data-nclose-cookie]
