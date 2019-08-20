@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.20.1
-! Last modified: Tue, 20 Aug 2019, 03:00 UTC+02
+! Version: 2019.8.20.2
+! Last modified: Tue, 20 Aug 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.20.1 aktualizacja: wto, 20 sie 2019, 03:00 UTC+02
+! v.2019.8.20.2 aktualizacja: wto, 20 sie 2019, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -663,6 +663,7 @@ e-podroznik.pl##.biscuits-usage
 e-promar.pl,lafe.pl,promib.pl###cInfo
 e-reporter.pl,inianie.pl,myhome.pl,newsbook.pl,pragroup.pl,sochaczewianin.pl###wpfront-notification-bar
 e-restauracja.com###cookies-accept
+e-seminaria.pl,idg.com.pl###cookie-info-rodo
 e-stacjapaliw.pl,polskijubiler.pl###myPopup
 e-swietokrzyskie.kielce.eu##div#belka_dolna
 e-wiklinowy-sklep.pl##.cookiesPolicyInfo
@@ -1288,6 +1289,7 @@ muzeum-radom.pl###rodo-information
 muzyczneradio.pl###cookie-accep
 muzykabezkabli.pl###tstar-cookie-info
 myadventure.com.pl###nXDOC.yel-popup-main-wrapper
+mydhl.express.dhl##.cookies-policy
 mynewsdesk.com###accept-page-cookies
 myob.pl###warning-popup
 myownconference.pl##.co-ag
@@ -1907,6 +1909,7 @@ waze.com##.wz-cc-container
 wbp.poznan.pl##.kmw_cookies
 wcz.waw.pl###topBarContainer > .region-topbar.region > .block-block.block
 weathermap.netatmo.com##cookie-banner > #cookie-banner > .cookie-warning
+weather.com###teconsent
 weather.com##.lite-msg-parent
 webcover.eu###box-polityka-pr
 webdev20.pl###top_message
@@ -2052,8 +2055,6 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
-!elica.com,gitlab.com###CybotCookiebotDialog
-!storytel.pl###cookieWall
 !
 !
 ! Specyficzne reguły blokujące
@@ -2778,7 +2779,7 @@ pl##.cookie-compliance-desk:not(body):not(html)
 pl##.cookie-compliance-message:not(body):not(html)
 pl##.cookie-compliance:not(body):not(html)
 pl##.cookie-consent-dialogue:not(body):not(html)
-pl##.cookie-consent:not(body):not(html)
+pl##.cookie-consent:not(body):not(html):not(.paragraph)
 pl##.cookie-container:not(body):not(html)
 pl##.cookie-container_:not(body):not(html)
 pl##.cookie-disclaimer:not(body):not(html)
@@ -3061,6 +3062,7 @@ gdansk.pl,gokf.gda.pl#@##cookies:not(body):not(html):not(.section):not(.fade)
 gry.pl#@#div[class^="app_gdpr"]
 gtv.com.pl#@##panel_cookie_dol:not(body):not(html)
 gtv.com.pl#@#.panel_cookie:not(body):not(html)
+hbogo.pl#@#.cookie-consent:not(body):not(html):not(.paragraph)
 lomza.pl#@##komunikat-cookie:not(body):not(html)
 migora.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
 naekranie.pl#@##polityka-cookies:not(body):not(html)
