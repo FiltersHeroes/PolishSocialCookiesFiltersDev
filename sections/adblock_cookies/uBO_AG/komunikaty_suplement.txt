@@ -98,8 +98,6 @@ google.com,google.pl###main > #body ~ #footer > div[id] > div[id] > #fbar > .fba
 google.com,google.pl###main > #lb > div[id^="_"][class] > div[class*="__overlay"]:not([id])
 google.com,google.pl###main > #lb > div[id^="_"][class] > div[class*="__"]:has(iframe[src^="https://consent.google.com"])
 gryonline.wp.pl,tv.pudelek.pl##+js(set-constant.js, wp_no_consent_screen, true)
-hbogo.pl##body:not(.hbo-sdk--playing):style(overflow: auto !important; padding-right: 0 !important;)
-hbogo.pl##.banner-overlay
 hendi.pl##.modal__outer--rodo, .modal--open
 hm.com##.modaloverlay:has(#gdpr-modal)
 hm.com##.modal-open body:style(position: static !important;)
@@ -267,5 +265,3 @@ zozsuchabeskidzka.pl###mpc-modal-4-1
 zsgarwolin.pl##.mfp-content:has(#cadre_alert_cookies)
 zsgarwolin.pl##.mfp-ready.mfp-bg
 zwolen.pl###g_toplayer, .modal-backdrop
-!hrkgame.com##gdpr.ui, .dimmer.ui
-!twitter.com##.topbar-spacer:style(padding-top: 0 !important;)
