@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.22.2
-! Last modified: Thu, 22 Aug 2019, 23:00 UTC+02
+! Version: 2019.8.23.1
+! Last modified: Fri, 23 Aug 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,12 +17,12 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.22.2 aktualizacja: czw, 22 sie 2019, 23:00 UTC+02
+! v.2019.8.23.1 aktualizacja: pią, 23 sie 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has( > div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
-2x45.info,adainfo24.eu,alltube.tv,answear.com,barfnyswiat.org,bip.konin.eu,bip.piaseczno.eu,business.link,cedc.com,diagprog4.com,edeklaracje.info,eska.tv,evertourist.com,feriogaj.com,fokus.tv,gdansk.pl,imperiaonline.org,informacja-turystyczna.starachowice.eu,kolniak24.eu,koneser.eu,koszyki.com,lampy24.net,lot.com,lumarte.eu,mojewypieki.com,muzo.fm,nasze-kino.tv,nasze.fm,nowa.tv,odpady.chorzow.eu,plantatekst.info,portalodo.com,prymus.info,radiokampus.fm,rowertour.com,skierniewice.eu,studiuje.eu,telesystem-world.com,vod.internetowa.ws,voxmusic.tv,xtb.com###cookies
+2x45.info,adainfo24.eu,alltube.tv,answear.com,atriumsystem.eu,barfnyswiat.org,bip.konin.eu,bip.piaseczno.eu,business.link,cedc.com,diagprog4.com,edeklaracje.info,eska.tv,evertourist.com,feriogaj.com,fokus.tv,gdansk.pl,imperiaonline.org,informacja-turystyczna.starachowice.eu,kolniak24.eu,koneser.eu,koszyki.com,lampy24.net,lot.com,lumarte.eu,mojewypieki.com,muzo.fm,nasze-kino.tv,nasze.fm,nowa.tv,odpady.chorzow.eu,plantatekst.info,portalodo.com,prymus.info,radiokampus.fm,rowertour.com,skierniewice.eu,studiuje.eu,telesystem-world.com,vod.internetowa.ws,voxmusic.tv,xtb.com###cookies
 3dom.pro,anmur.eu,avenidapoznan.com,bibliotekacyfrowa.eu,bip.gliwice.eu,booksy.com,chorzow.eu,diamante-wear.com,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kiddabadam.com,koszulkomat.eu,maamstyle.com,makoblog.com,mateuszgrzesiak.com,mg-pmm.com,naszefutrzaki.eu,pkpcargo.com,profit-plus.eu,radiopark.fm,sapphiretech.com,secretdelivery.pl,stolmot.com,telko.in,trecnutrition.com,warszawa.promenada.com##.cookies
 3mpolska.pl,bosch-professional.com,cisco.com,command.pl,logitech.com,logitechg.com,vacansoleil.pl###__tealiumGDPRecModal
 3s.pl,antyweb.pl,brolerserwis.pl,franciszkanskie.pl,grupakety.com,ingtechpoland.com,kancelaria-szip.pl,karmy.com.pl,kultura.krasnik.eu,norauto.pl,olimpijski.pl,pelion.eu,softon.pl,spedycje.pl###privacy
@@ -280,7 +280,7 @@ bip.kielce.eu,lasy.gov.pl,wrota-swietokrzyskie.pl##.popup-alert-notice
 bip.marciszow.pl###cookiesWarning
 bip.org.pl,plocman.pl###dialog-rodo
 bip.sejmik.kielce.pl##.pa_sci
-bip.skomlin.akcessnet.net,historyk.eu,instytuty.drirenaeris.com,konstancin24.eu,konwerter.net,kupujemy.to,sklep.milicon.eu###cookie_info
+bip.skomlin.akcessnet.net,citymeble.com,historyk.eu,instytuty.drirenaeris.com,konstancin24.eu,konwerter.net,kupujemy.to,sklep.milicon.eu###cookie_info
 bisset.pl,bmc-switzerland.pl##.tab2-rodo-bar
 bitcomputer.pl,teletrade-dj.pl###pp
 bitmarket24.pl###notifications
@@ -1349,6 +1349,7 @@ noblehealth.pl##.cookie-promotion
 nokaut.pl###GDPRModal
 nokia.com,vertedrzwi.eu##.cookie_container
 nomi.pl##div#Messenger-Special
+nonsensopedia.org##.mw-cookiewarning-container
 nordglass.pl##.rodoBox--visible.rodoBox
 norwegian.com#?#.alert:-abp-has(.cookie-disclaimer)
 nova-farm.com##.cookie_consent
