@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.24.1
-! Last modified: Sat, 24 Aug 2019, 03:00 UTC+02
+! Version: 2019.8.24.2
+! Last modified: Sat, 24 Aug 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.24.1 aktualizacja: sob, 24 sie 2019, 03:00 UTC+02
+! v.2019.8.24.2 aktualizacja: sob, 24 sie 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -627,6 +627,7 @@ etipolam.com.pl##.ico-wrapper
 etroniks.pl,trojmiejskaperfumeria.pl###st_notification_1
 etsy.com##div[data-gdpr-consent-prompt], div[data-etsy-promo-cookie-expires]
 ettoi.pl,wirtualis.pl###info_content
+eura7.com,wzorcowniawloclawek.com###cookie-info-layer
 eurid.eu###cookie-notification-content
 euro26.pl###popup, #fade
 europarl.europa.eu,interpretacje-podatkowe.org,slowhop.com,wszystkodokuchni.eu,www.tesco.com###cookie-policy
@@ -730,7 +731,7 @@ forumtransportu.pl##table.glowna:nth-of-type(1) > tbody > tr > td
 forum-bron.pl###phpbb_announcement[style="background-color:#f0eae1"]
 forum-kredytowe.pl,forumplay.pl###navbar_notice_6
 forum-kulturystyka.pl###fk-terms
-forum.dobreprogramy.pl#?#body > div[class]:not([id]):-abp-contains(Kliknij tutaj i zmień swoje ustawienia prywatności)
+forum.dobreprogramy.pl,wp.pl#?#body > div[class]:not([id]):-abp-contains(Kliknij tutaj i zmień swoje ustawienia prywatności)
 forum.dziennikwschodni.pl###cookiePolicyPopup > div > p
 forum.joomla.pl,forumplay.pl###notices
 forum.minepedia.pl##div#notice
@@ -1871,6 +1872,7 @@ tvs.pl##.RodoNotyfication
 twitch.tv##.butterBar, .toast-manager__container
 twitter.com##.eu-cookie-notice
 twojeankiety.pl###notkaCookies
+twojesoczewki.com###cookie_wrap
 twoje-miasto.pl##.tmCookieBox
 twojtenis.pl###cookie_accepter
 tygodnikpowszechny.pl###top_head
@@ -2012,7 +2014,6 @@ wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
 wymiana-pieca.pl###cmbox
 wypozyczalniasamochodowwarszawa.pl###can_use_cookies
-wzorcowniawloclawek.com###cookie-info-layer
 xaa.pl###ic
 xiaomi.com###cookie-usage-notify
 xtaxi7.biz.tm###policy-modal
