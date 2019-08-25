@@ -25,7 +25,7 @@ cp -r ./"$PSCD"/scripts/FOP.py ./polish-ads-filter/scripts/
 
 cd ./polish-ads-filter || exit
 
-RTM_MODE="true" ./scripts/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
+RTM="true" ./scripts/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
 
 ost_plik=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
 
@@ -46,7 +46,7 @@ if [ -z $(search "adblock_social_filters/adblock_social_list.txt") ] && [ ! -z $
 fi
 
 if [ "$lista_g" ]; then
-    RTM_MODE="true" FORCED="true" ./scripts/VICHS.sh $lista_g
+    RTM="true" FORCED="true" ./scripts/VICHS.sh $lista_g
 fi
 
 for k in $ost_plik; do
