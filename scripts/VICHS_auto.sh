@@ -9,33 +9,32 @@ cd "$sciezka"/.. || exit
 
 "$sciezka"/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
 
-ost_plik=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
+last_file=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
 
 function search() {
-    echo "$ost_plik" | grep "$1"
+    grep "$1" <<< "$last_file"
 }
 
-if [ -z $(search "cookies_filters/adblock_cookies.txt") ] && [ ! -z $(search "cookies_filters/cookies_uB_AG.txt") ]; then
-    if [[ "$lista_g" != *" cookies_filters/adblock_cookies.txt"* ]]; then
-        lista_g+=" "cookies_filters/adblock_cookies.txt
+function addListToVarIfAnotherListUpdated() {
+    if [[ -z $(search "$1") ]] && [[ -n $(search "$2") ]]; then
+        if ! grep -q "$1" <<< "$MAIN_FILTERLIST"; then
+            MAIN_FILTERLIST+=" "$1
+        fi
     fi
-fi
+}
 
-if [ -z $(search "adblock_social_filters/adblock_social_list.txt") ] && [ ! -z $(search "adblock_social_filters/social_filters_uB_AG.txt") ]; then
-    if [[ "$lista_g" != *" cookies_filters/adblock_cookies.txt"* ]]; then
-        lista_g+=" "cookies_filters/adblock_cookies.txt
-    fi
-fi
+addListToVarIfAnotherListUpdated "cookies_filters/adblock_cookies.txt" "cookies_filters/cookies_uB_AG.txt"
+addListToVarIfAnotherListUpdated "adblock_social_filters/adblock_social_list.txt" "adblock_social_filters/social_filters_uB_AG.txt"
 
 
 if [ "$CI" = "true" ]; then
     if [[ "$aktualna_godzina" == "13" ]]; then
-        ost_plik=$(git log --since="5 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
+        last_file=$(git log --since="5 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
     else
-        ost_plik=$(git log --since="3 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
+        last_file=$(git log --since="3 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
     fi
 else
-    ost_plik=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
+    last_file=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
 fi
 
 if [ ! -z $(search "sections/adblock_social_list/popupy.txt") ] || [ ! -z $(search "sections/adblock_social_list/popupy_ogolne.txt") ]; then
@@ -55,8 +54,8 @@ if [ "$lista" ]; then
     "$sciezka"/VICHS.sh $lista
 fi
 
-if [ "$lista_g" ]; then
-    FORCED="true" "$sciezka"/VICHS.sh $lista_g
+if [ "$MAIN_FILTERLIST" ]; then
+    FORCED="true" "$sciezka"/VICHS.sh $MAIN_FILTERLIST
 fi
 
 if [ "$PAF" ] || [ "$PAF_supp" ]; then
