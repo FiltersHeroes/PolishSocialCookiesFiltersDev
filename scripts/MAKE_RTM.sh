@@ -22,6 +22,7 @@ cp -r ./"$PSCD"/templates/ ./polish-ads-filter/
 cp -r ./"$PSCD"/scripts/VICHS.sh ./polish-ads-filter/scripts/
 cp -r ./"$PSCD"/scripts/VICHS.config ./polish-ads-filter/scripts/
 cp -r ./"$PSCD"/scripts/FOP.py ./polish-ads-filter/scripts/
+cp -r ./"$PSCD"/scripts/wiadomosci_powitalne.txt ./polish-ads-filter/scripts/
 
 cd ./polish-ads-filter || exit
 
@@ -33,20 +34,20 @@ function search() {
     echo "$ost_plik" | grep "$1"
 }
 
-if [ -z $(search "cookies_filters/adblock_cookies.txt") ] && [ ! -z $(search "cookies_filters/cookies_uB_AG.txt") ]; then
+if [[ -z $(search "cookies_filters/adblock_cookies.txt") ]] && [[ -n $(search "cookies_filters/cookies_uB_AG.txt") ]]; then
     if [[ "$lista_g" != *" cookies_filters/adblock_cookies.txt"* ]]; then
         lista_g+=" "cookies_filters/adblock_cookies.txt
     fi
 fi
 
-if [ -z $(search "adblock_social_filters/adblock_social_list.txt") ] && [ ! -z $(search "adblock_social_filters/social_filters_uB_AG.txt") ]; then
+if [[ -z $(search "adblock_social_filters/adblock_social_list.txt") ]] && [[ -n $(search "adblock_social_filters/social_filters_uB_AG.txt") ]]; then
     if [[ "$lista_g" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
         lista_g+=" "adblock_social_filters/adblock_social_list.txt
     fi
 fi
 
 if [ "$lista_g" ]; then
-    RTM="true" FORCED="true" ./scripts/VICHS.sh $lista_g
+    RTM="true" FORCED="true" ./scripts/VICHS.sh "$lista_g"
 fi
 
 for k in $ost_plik; do
@@ -68,17 +69,17 @@ if [[ "$lista" == *" 🍪"* ]] && [[ "$lista" == *" 👍"* ]]; then
 fi
 
 today_date=$(date +"%Y%m%d")
-
+powitanie=$(shuf -n 1 ./scripts/wiadomosci_powitalne.txt)
 # Wysyłanie PR do upstream
 if [ "$CI" = "true" ]; then
 echo "Wysyłanie PR..."
 hub pull-request -b MajkiIT:master -m "Update $lista ($today_date)
 
-Siemson! Jest może @xxcriticxx?"
+$powitanie"
 cd ..
 git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
 cd ./PolishAnnoyanceFilters || exit
-if [ "$lista_g" == "cookies_filters/cookies_uB_AG.txt"* ]; then
+if [[ "$lista_g" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
     FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
 else
     ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
@@ -94,7 +95,7 @@ select yn in "Tak" "Nie"; do
 
         ${roz_opis}"
         cd ../PolishAnnoyanceFilters || exit
-        if [ "$lista_g" == "cookies_filters/cookies_uB_AG.txt"* ]; then
+        if [[ "$lista_g" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
             FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
         else
             ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
