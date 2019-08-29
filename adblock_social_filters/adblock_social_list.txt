@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.8.29.0
-! Last modified: Thu, 29 Aug 2019, 03:00 UTC+02
+! Version: 2019.8.29.1
+! Last modified: Thu, 29 Aug 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.8.29.0 aktualizacja: czw, 29 sie 2019, 03:00 UTC+02
+! v.2019.8.29.1 aktualizacja: czw, 29 sie 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -2799,6 +2799,7 @@ newfloor.pl###real_facebook_display > #fsbbox1 > #fsbbox2 > img
 newonce.net##h5.h5:nth-of-type(2)
 newonce.net##.container-top__social
 newonce.net##.footer-desktop__social-wrapper
+newonce.radio##.sidenav-social-link:not([data-w-id]), div.footer__inner-container:nth-of-type(4)
 newsletter2go.pl##.n2go-footer_socials
 newsrm.tv###footer > div > ul > li > a
 newstyling.pl###footer > #footer-icon > a[id^="fico"]
@@ -3066,6 +3067,7 @@ plushbezlimitu.pl##.socials-row
 plus.pl##.mobile-hide.column.large-3.medium-6.small-12
 pl-pl.fitatu.com##.fitatu-footer__social
 pl-store.acer.com##.praxis-social-links
+pl.000webhost.com##.social
 pl.aleteia.org###footer-socials-follow, #top-socials-follow
 pl.aleteia.org##.oas_box, .shareBarPreText
 pl.aorus.com##.index_social
@@ -4614,6 +4616,7 @@ sport.tvn24.pl##.htmlBox
 swojadroga.onet.pl##.page-foot-social
 sympatia.onet.pl##.findUs
 technowinki.onet.pl##a[href="https://www.youtube.com/user/KomputerSwiatOnline"], .sidebarItem:nth-of-type(6)
+topfilmiki.pl###advanced_popular_videos-3, .count-cm.video-toolbar-item
 tvn24.pl##a[href^="http://www.tvn24.pl/tvn24-tvn-meteo-tvn-warszawa-w-serwisach-spolecznosciowych"], a[href*="http://www.tvn24.pl/internet-hi-tech-media,40/snapchat-tvn24-pl"] img
 tvn24.pl##.fbClassicBox, .funpageTitleStyle
 tvn24.pl##.htmlBox:nth-of-type(8), .htmlBox:nth-of-type(10), .htmlBox:nth-of-type(30), .htmlBox:nth-of-type(31), .side-info, .social-icon
@@ -4643,7 +4646,7 @@ eurosport.interia.pl,fakty.interia.pl,muzyka.interia.pl,pomponik.pl#@#.article-s
 eurosport.interia.pl,fakty.interia.pl,muzyka.interia.pl,pomponik.pl#@#.share-link
 freshandnatural.pl#@##social_block
 gameplay.pl,tvgry.pl#@#.social-16
-greencanoe.pl,spece.it,tanie-loty.com.pl#@#.social-links
+greencanoe.pl,newonce.radio,spece.it,tanie-loty.com.pl#@#.social-links
 iab.org.pl#@#.menu-social-buttons
 influencer.pl#@#.socials
 kadantiscam.netlify.com,www.pkobp.pl#@#.social-icon
