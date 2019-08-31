@@ -37,6 +37,7 @@ function search() {
 if [[ -z $(search "cookies_filters/adblock_cookies.txt") ]] && [[ -n $(search "cookies_filters/cookies_uB_AG.txt") ]]; then
     if [[ "$lista_g" != *" cookies_filters/adblock_cookies.txt"* ]]; then
         lista_g+=" "cookies_filters/adblock_cookies.txt
+        cookies="true"
     fi
 fi
 
@@ -79,7 +80,7 @@ $powitanie"
 cd ..
 git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
 cd ./PolishAnnoyanceFilters || exit
-if [[ "$lista_g" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
+if [ "$cookies" ]; then
     FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
 else
     ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
@@ -95,7 +96,7 @@ select yn in "Tak" "Nie"; do
 
         ${roz_opis}"
         cd ../PolishAnnoyanceFilters || exit
-        if [[ "$lista_g" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
+        if [ "$cookies" ]; then
             FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
         else
             ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
