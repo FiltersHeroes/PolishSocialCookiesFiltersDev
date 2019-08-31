@@ -34,21 +34,25 @@ function search() {
     echo "$ost_plik" | grep "$1"
 }
 
+function addListToVarIfAnotherListUpdated() {
+    if [[ -z $(search "$1") ]] && [[ -n $(search "$2") ]]; then
+        if ! grep -q "$1" <<< "$MAIN_FILTERLIST"; then
+            MAIN_FILTERLIST+=" "$1
+        fi
+    fi
+}
+
+addListToVarIfAnotherListUpdated "cookies_filters/adblock_cookies.txt" "cookies_filters/cookies_uB_AG.txt"
+addListToVarIfAnotherListUpdated "adblock_social_filters/adblock_social_list.txt" "adblock_social_filters/social_filters_uB_AG.txt"
+
 if [[ -z $(search "cookies_filters/adblock_cookies.txt") ]] && [[ -n $(search "cookies_filters/cookies_uB_AG.txt") ]]; then
     if [[ "$lista_g" != *" cookies_filters/adblock_cookies.txt"* ]]; then
-        lista_g+=" "cookies_filters/adblock_cookies.txt
         cookies="true"
     fi
 fi
 
-if [[ -z $(search "adblock_social_filters/adblock_social_list.txt") ]] && [[ -n $(search "adblock_social_filters/social_filters_uB_AG.txt") ]]; then
-    if [[ "$lista_g" != *" adblock_social_filters/adblock_social_list.txt"* ]]; then
-        lista_g+=" "adblock_social_filters/adblock_social_list.txt
-    fi
-fi
-
-if [ "$lista_g" ]; then
-    RTM="true" FORCED="true" ./scripts/VICHS.sh "$lista_g"
+if [ "$MAIN_FILTERLIST" ]; then
+    RTM="true" FORCED="true" ./scripts/VICHS.sh $MAIN_FILTERLIST
 fi
 
 for k in $ost_plik; do
