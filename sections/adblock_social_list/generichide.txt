@@ -1,19 +1,6 @@
 agency.tvn.pl###menuIcons > .first, .second
 animezone.pl##div.desktop.panel-default.panel:nth-of-type(1)
 applemobile.pl###text-2
-pilot.wp.pl#?#div > h4 ~ ul ~ h4:nth-of-type(2):-abp-contains(Więcej informacji)
-/seo_section_social_media_*_icon_*$domain=pilot.wp.pl,image
-video.wp.pl##.social
-millemiglia.wp.pl##.socials
-fitness.wp.pl##.link-gplus, .link-instagram
-moneyv.wp.pl##div[data-st-area$="_FB"]
-money.wp.pl##.socialMediaDeksktop
-wp.pl,~www.wp.pl##.facebook-share, .tweeter-share
-wp.pl,~www.wp.pl#?#div:-abp-has( > div > strong:-abp-contains(Podziel się))
-wp.pl,~www.wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has( > div[class] > div[class] > span > svg > path)
-sokol.wp.pl##.page > .articles > .list > .logo--test
-sportowefakty.wp.pl##a[href="https://twitter.com/SportoweFaktyPL"], a[href="https://www.facebook.com/SportoweFakty"]
-sportowefakty.wp.pl##.fatfooter__panel--observe.fatfooter__panel, .rendered.observe_rss.observe__button.observe__part, .liketag
 bigbrother.tvn.pl###footer > .footer-container > div.footer-col:nth-of-type(4)
 businessinsider.com.pl##.socialButtons, a[href="https://twitter.com/BiPolska/"], a[href="https://www.facebook.com/BIPolska/"], a[href="https://www.linkedin.com/company/business-insider-polska"]
 cccteam.onet.pl###social-bar, .container--social, a[href="/#social"]
@@ -24,6 +11,7 @@ fakty.tvn24.pl###dailyNewsBox
 fakt.pl##.socialBtnBg
 fakt.pl##.socialButtons
 filmweb.pl##.articleShareFB, .fb-share-button
+fitness.wp.pl##.link-gplus, .link-instagram
 forum.purepc.pl##.cShareLink
 forum.shinden.pl##.sharePage.infoBlock.section > .secondaryContent, .social > a[href="#"]
 gameplanet.onet.pl##.footer__socials, .header__socials, .social-bar
@@ -36,7 +24,10 @@ konkret24.tvn24.pl##.share-container > .share-container__icon-wrapper > .share-c
 kontakty.onet.pl##.icon-basic-menu-facebook
 kulturalnemedia.pl##.td-header-menu-social, .td-social-sharing-button:not(.td-social-mail)
 medonet.pl##.socialBox
+millemiglia.wp.pl,sklep.fakt.pl##.socials
 mmorpg.org.pl##.footer__top > .socials > a[href="https://twitter.com/grymmorpg"], .footer__top > .socials > a[href="https://www.facebook.com/mmoplaya"], .footer__top > .socials > a[href="https://www.youtube.com/themmorpglive"], .pink.socials > a[href="https://twitter.com/grymmorpg"], .pink.socials > a[href="https://www.facebook.com/mmoplaya"], .pink.socials > a[href="https://www.youtube.com/themmorpglive"]
+moneyv.wp.pl##div[data-st-area$="_FB"]
+money.wp.pl##.socialMediaDeksktop
 m.onet.pl##.fbShare, .newsItem > .shareButton
 noizz.pl##.contentShareButtons, .articleShare, .socialProfiles, .socialButtons, .socialMiniBox, .social > .icon
 onet100.vod.pl###socialIcons, .o_footSection3
@@ -45,6 +36,7 @@ onet.pl##.fbpageplugin.widget, .widgetFollowUs, .fb_share, .tw_share, .whatsapp,
 onet.pl##.shareBarBox > .social-share
 onet.pl#?#p.hyphenate:-abp-contains(Polub)
 pclab.pl##.social-links, .social-container
+pilot.wp.pl#?#div > h4 ~ ul ~ h4:nth-of-type(2):-abp-contains(Więcej informacji)
 poczta.onet.pl##.icon-ico_menu_facebook
 porady.sympatia.onet.pl##div.cell.medium-6.small-24:nth-of-type(3)
 potplayerclub.pl##.social-icon-wrapper, .social-icon-wrapper-pie
@@ -52,8 +44,10 @@ programtv.onet.pl##.contentShareFacebook, .contentShareTwitter, .contentShareGoo
 przegladsportowy.pl##.tw_share, .in, .socials
 purepc.pl##.soc_fbc
 shinden.pl##.przycisk.btnfa, .fansub-ad-info
-sklep.fakt.pl##.socials
 sniadaniezkadra.onet.pl###col-id-15
+sokol.wp.pl##.page > .articles > .list > .logo--test
+sportowefakty.wp.pl##a[href="https://twitter.com/SportoweFaktyPL"], a[href="https://www.facebook.com/SportoweFakty"]
+sportowefakty.wp.pl##.fatfooter__panel--observe.fatfooter__panel, .rendered.observe_rss.observe__button.observe__part, .liketag
 sport.tvn24.pl##.htmlBox
 swojadroga.onet.pl##.page-foot-social
 sympatia.onet.pl##.findUs
@@ -65,9 +59,13 @@ tvn24.pl##.fbClassicBox, .funpageTitleStyle
 tvn24.pl##.htmlBox:nth-of-type(8), .htmlBox:nth-of-type(10), .htmlBox:nth-of-type(30), .htmlBox:nth-of-type(31), .side-info, .social-icon
 tvn.pl,tvnturbo.pl,~www.tvn.pl##.socialPanel, .facebook_share, .gplus_share, .twitter_share, .socialFeedbackFooter, .header-card-social-item
 uwaga.tvn.pl##.insta-widget, .section-social, .socialmedia > ul > .youtube
+video.wp.pl##.social
 vod.pl##.v_shortTwShare, .v_shortFbShare
 wbi.onet.pl##.contentShareLeft
 webcamera.pl###footerbar div.col-md-3.col-sm-6:nth-of-type(4) > h2, .social, .floating-box-facebook
+wp.pl,~www.wp.pl##.facebook-share, .tweeter-share
+wp.pl,~www.wp.pl#?#div:-abp-has( > div > strong:-abp-contains(Podziel się))
+wp.pl,~www.wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has( > div[class] > div[class] > span > svg > path)
 www.tvn24.pl##.htmlBox:nth-of-type(26), .htmlBox:nth-of-type(27)
 www.tvn.pl##.footer-media, .open-modal, .detail-fb, .detail-gp, .detail-tw, .ds-fb, .ds-gp, .ds-tw, .footer-col:nth-of-type(4) > .footer-heading:nth-of-type(1)
 wzory-cv.com##.shareStackItem
@@ -76,3 +74,4 @@ yafud.pl###strona > center, .extBox
 zapytaj.onet.pl##.or, .share-container
 zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta
 !tvnmeteo.tvn24.pl##.socialMediaContainer
+/seo_section_social_media_*_icon_*$image,domain=pilot.wp.pl
