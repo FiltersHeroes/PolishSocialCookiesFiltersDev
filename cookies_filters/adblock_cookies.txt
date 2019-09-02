@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.1.2
-! Last modified: Sun, 01 Sep 2019, 23:00 UTC+02
+! Version: 2019.9.2.0
+! Last modified: Mon, 02 Sep 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -17,7 +17,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.1.2 aktualizacja: nie, 01 wrz 2019, 23:00 UTC+02
+! v.2019.9.2.0 aktualizacja: pon, 02 wrz 2019, 03:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -210,7 +210,7 @@ auto-sam.pl###politykaScript
 auto.com.pl,auto.pl,dziel-pasje.pl##.cookie-information-container
 avaaz.org##.gdpr-block-privacy
 avans.pl,electro.pl##.is-cookies
-avast.com,outride.rs,pay.google.com,pl.depositphotos.com,salzburg.info,trustpilot.com##.cookie-bar:not(body):not(html)
+avast.com,benevet.ch,hidemyass.com,ifmglobalfunds.com,ifmpl.com,outride.rs,pay.google.com,pl.depositphotos.com,salzburg.info,trustpilot.com##.cookie-bar:not(body):not(html)
 avatradepolska.pl##.accept-cookie-block
 avioner.pl,hotpay.pl,playtube.pl#?#.alert-success.alert:-abp-contains(cookies)
 avmarket.eu,delllow.com,dronexpert.eu,drukowanie.net,ethnostudio.eu,interlumen.com,kegel-aj.com,madys.eu,meble-jarocin.com,sprzetjezdziecki.com###InfoCookie
@@ -246,7 +246,7 @@ behance.net,helpx.adobe.com,pl.fotolia.com,przepisy.pl,rexona.com,stock.adobe.co
 bejeans.pl,hael.pl###js-cookienotice
 belriso.com,jogobella.com,milk-tiger.com,monte.com,zott-dairy.com,zottarella.com##.cookieControl
 belutti.com##.fk-cookies
-benemedo.com##.fucking-eu-cookies
+benemedo.com##div[class$="-eu-cookies"]
 bershka.com##.modalWarnContainer
 beskidlive.pl##.mod_fantastic_facebook_sidebar, .li-googleplus, .li-facebook
 beskidy.news##.js-cookies.c-cookies
@@ -886,7 +886,6 @@ helpfind.pl##.cookie-privacy-box
 herbaciani.pl##DIV[style="float:right; padding-top:20px; padding-bottom:20px; width:100%; font-size:12px; background:#ddd; color:#333; text-align:center; margin-bottom:10px;"]
 heroes-online.com###cookieNotificationBanner
 heuristic.pl###cboxContent, #cboxOverlay
-hidemyass.com,ifmglobalfunds.com,ifmpl.com##.cookie-bar
 hihonor.com###cookie_tip_
 hihonor.com##.cookie-notices
 hillsvet.pl##[class*="ui-widget"]
@@ -2076,9 +2075,6 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
-!benemedo.com##.fucking-eu-cookies
-!forum.dobreprogramy.pl,wp.pl#?#body > div[class]:not([id]):-abp-contains(Kliknij tutaj i zmień swoje ustawienia prywatności)
-!lajfy.com##.fucking-eu-cookies
 !
 !
 ! Specyficzne reguły blokujące
