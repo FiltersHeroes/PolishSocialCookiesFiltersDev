@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.2.2
-! Last modified: Mon, 02 Sep 2019, 23:00 UTC+02
+! Version: 2019.9.3.0
+! Last modified: Tue, 03 Sep 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.2.2 aktualizacja: pon, 02 wrz 2019, 23:00 UTC+02
+! v.2019.9.3.0 aktualizacja: wto, 03 wrz 2019, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1204,6 +1204,7 @@ mediamarkt.pl###site_container > .clearfix
 mediam.eu,szkolawbrusie.pl###panel_popup
 mediasystems.pl##body > div > div[style*="position"][style*="relative;"]:not([id]):not([class])
 media-tech.eu,polskimarket.nl###topInfoContainer1
+media.pl.canalplus.com,prowly.com##.pr-cookie-policy
 medpolonia.pl###bannerPopup
 medpytania.pl,mymedic.pl,prawdaobiektywna.pl,www.biomedical.pl###mcpc
 meetup.com##[class*="_cookieBanner-module_cookieBanner"]
@@ -1321,7 +1322,7 @@ naprzedwiosniu.waw.pl###zf--alerts-panel
 nastopy.pl##.mask
 naturo.pl###simple-modal, #simple-modal-overlay
 nck.pl,u-jazdowski.pl###cookieterms
-ncplus.pl,ncplusgo.pl##.js-messages
+ncplusgo.pl##.js-messages
 ndn.com.pl##.rodo-info, .rodo-overlayer
 nec-display-solutions.com###privacyHint.privacy-hint
 nefal.tv###mnd-cookie-bar
@@ -1585,7 +1586,6 @@ projektydomfort.pl###cookie_informacja
 projekt-parking.com###RodoModal
 promocodius.com###reminder
 prosto.pl###id-rules
-prowly.com##.pr-cookie-policy
 pruszczgdanski.pl##.tm-footer > .uk-panel
 pruszkow.pl##.js-rodo-info
 przedszkolowo.pl###cookie-agree-bar
