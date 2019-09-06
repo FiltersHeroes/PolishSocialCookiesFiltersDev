@@ -1499,7 +1499,9 @@ podrozezmamaitata.com##.penci-gprd-law
 podworko.nivea.pl###PrivacyPolicyCookie
 pod-okapnikiem.com##.CookieMessageBox
 pogodynka.pl###accept
-poki.pl#?#div > div > div:-abp-contains(cookie)
+poki.pl###app-root > footer[class]:not([id]) ~ aside[class]:not([id]):nth-of-type(1):nth-last-of-type(1)
+!poki.pl#?#aside:-abp-has( > h2:-abp-contains(Uwaga))
+!poki.pl#?#aside:-abp-has( > p:-abp-contains(zgodę))
 polandtrade.pl###cb
 poland-transport.eu##.cookiesInfo
 poland.arcelormittal.com##.bwscookie
