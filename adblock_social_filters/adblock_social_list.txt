@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.4.0
-! Last modified: Wed, 04 Sep 2019, 23:00 UTC+02
+! Version: 2019.9.6.0
+! Last modified: Fri, 06 Sep 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.4.0 aktualizacja: śro, 04 wrz 2019, 23:00 UTC+02
+! v.2019.9.6.0 aktualizacja: pią, 06 wrz 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -1043,6 +1043,8 @@ bazarynek.pl##center > center:nth-of-type(2), center > center:nth-of-type(3), ce
 bdsklep.pl##.m-footer_socialmedia
 beautikon.com##div.grid12-3.mobile-grid:nth-of-type(4)
 beautyduty.pl###footer #text-5
+bebetalent.pl#?#h3.hometitle:nth-of-type(3):-abp-contains(Instagram)
+bebetalent.pl,eurobusnysa.pl##.widget_kadence_social.widget
 beck.pl##.footer-column > #text-5
 bednarek.com.pl##.social_icons_rwd
 begio.pl,chinytolubie.pl,haart.pl,refreszing.pl##.penci_social_widget
@@ -1075,7 +1077,7 @@ bialymotylek.pl###socialproof-container
 biblioteka.gliwice.pl#?#div.vc_row-fluid.wpb_row.vc_row:nth-of-type(6) div.vc_col-has-fill.vc_col-sm-2.vc_column_container.wpb_column:nth-of-type(-n+5) div.vc_column-inner:-abp-has( > div > div > div > a)
 biedronka.pl##.see-fb
 bieganieuskrzydla.pl##.c-social-stack > a
-bieganieuskrzydla.pl,filmyfantastyczne.pl,grynaprzegladarke.net,histografy.pl,historykon.pl,pomar.pl,roweroweporady.pl,tyna.info.pl,ujot.fm,vivio.pl,wulkanista.pl###text-2
+bieganieuskrzydla.pl,filmyfantastyczne.pl,grynaprzegladarke.net,histografy.pl,historykon.pl,kamilafrontino.com,pomar.pl,roweroweporady.pl,tyna.info.pl,ujot.fm,vivio.pl,wulkanista.pl###text-2
 bielskiedrogi.pl###block-block-1
 bielsko-biala.pl##.ikona-facebook, .ikona-youtube
 bielsko.info,czecho.pl,pless.pl,tychy.info##.fb-share-button-static, .kol2 > .small.pasek-white, .kol3 > .small.pasek-white
@@ -1662,7 +1664,6 @@ et.com.pl###footer > p:nth-of-type(2) > a > img
 eulerhermes.pl###ICI-footerSocial, .ICI_linkedin, .ICI_google, .ICI_youtube
 euro26.pl###fbLikeright
 eurobank.pl##.last.f-div > .bold
-eurobusnysa.pl##.widget_kadence_social.widget
 eurobus.pl#?#.text-center.sp-column:-abp-contains(LAJKUJ)
 eurocent.opole.pl###Mod115 p:nth-of-type(2) > .icons > a, .head-top > .custom > p > .icons > a
 euromasz.pl##div.tg-footer-column-3:nth-of-type(2) > #custom_html-30
@@ -2550,6 +2551,7 @@ mbp.opole.pl##.footer-cols-wrapper > .panel-grid-cell:nth-of-type(n+3) > .panel-
 mdkkolbuszowa.pl##A[href^="https://www.facebook.com/mdk.kolbuszowa"], A[href="https://www.youtube.com/channel/UC0R0ALL8IyLcRn8SMTe3iOw"]
 mdk.opole.pl##.visit_us
 meblerajo.pl,x-moto.eu###x13facebookbox
+meblewroblewski.eu##.slide-out-div
 meblezet.com###footer > .row > .col-sm-3.col-xs-12.footer-block
 meble-4you.pl###wr_foot_social
 meble-wanat.pl##.social__wrapper
@@ -4068,6 +4070,8 @@ wiemy.to##.clearfix.sidebar-block:nth-of-type(3) > .sea.colheader
 wienerberger.pl##.social-sharing-overlay > h3
 wierszykolandia.pl##.art-sidebar2.art-layout-cell > div.art-block.art-box:nth-of-type(2)
 wierzbowyjar.pl###menu-item-335
+wieteska.net##.footer-icon > li:nth-of-type(-n+5)
+wieteska.net##.header-icon > li:nth-of-type(-n+2)
 wifi-spot.net##.facebook_header_icon
 wifi-spot.net#?#.middle.col_footer:-abp-has(.recent-facebook-posts)
 wiha.com###cnt_main_footer_address > a[class^="social_media"]
