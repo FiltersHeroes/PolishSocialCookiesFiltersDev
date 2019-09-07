@@ -1,8 +1,5 @@
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 7ryb.pl,etransport.pl,hrkgame.com##.modals.dimmer
-corbby.com.pl###tlight:has(> .termspopupcontainer)
-corbby.com.pl###tfade:has(+ #tlight:has(> .termspopupcontainer))
-corbby.com.pl##html[style^="overflow"]:style(overflow: auto !important;)
 7ryb.pl,etransport.pl,hrkgame.com##.dimmed:style(overflow: auto !important;)
 24wroclaw.pl,bosch-easycontrol.com,ceres.pl,dane.gov.pl,e-sochaczew.pl,giantfabryczna.pl,gry.lotto.pl,komugroup.eu,liv-cycling.com,m.24jgora.pl,multimediago.pl,obywatel.gov.pl,olesnica24.com,panoramafirm.pl,printoteka.pl,repostuj.pl,tvdami.eu,tvgo.orange.pl,wedkuje.pl,wrzesnia.info.pl,zwolen.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 24wroclaw.pl,m.24jgora.pl###rodoModal, .modal-backdrop
@@ -53,6 +50,9 @@ claas.pl##.fancybox-lock:style(overflow: auto !important;margin-right: 0 !import
 claas.pl##.fancybox-overlay:has(.cookieHint)
 computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##html.sp-message-open:style(overflow: auto !important; position: static !important;)
 computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##[class^="sp_veil"], [id^="sp_message_panel"]
+corbby.com.pl##html[style^="overflow"]:style(overflow: auto !important;)
+corbby.com.pl###tfade:has( + #tlight:has( > .termspopupcontainer))
+corbby.com.pl###tlight:has( > .termspopupcontainer)
 cupsell.pl##.tingle-enabled:style(position: static !important; overflow: auto !important;)
 cupsell.pl##.tingle-modal
 dane.gov.pl##.modal-backdrop
