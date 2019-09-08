@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.8.0
-! Last modified: Sun, 08 Sep 2019, 15:00 UTC+02
+! Version: 2019.9.8.1
+! Last modified: Sun, 08 Sep 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.8.0 aktualizacja: nie, 08 wrz 2019, 15:00 UTC+02
+! v.2019.9.8.1 aktualizacja: nie, 08 wrz 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -447,6 +447,8 @@ pl##.btn_social_twiter
 pl##.btn_social_youtube
 pl##.b_like
 pl##.comments__likes
+pl##.componentsArticleTools > a[class*="facebook"]
+pl##.componentsArticleTools > a[class*="twitter"]
 pl##.c-footer-socials__list
 pl##.c-navi-socials
 pl##.dodaj_do
@@ -1554,7 +1556,6 @@ dzieckoifigura.pl##.iscwp-insta-grid.side-widget
 dzieckowpodrozy.pl###sidebar-left > #text-6
 dziejesienapodkarpaciu.pl##.col-md-3.widget-col:nth-of-type(2)
 dzieje.pl##.youTube, .m5 > .block-title
-dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,ekstramagazyn.pl,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gratka.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,to.com.pl,wspolczesna.pl##.componentsArticleTools > a[class]:nth-of-type(-n+2)
 dziennikwschodni.pl##span.single-news__meta-button:nth-of-type(1)
 dziennikwschodni.pl##.read-us-widget__social-item:nth-of-type(-n+2), div.footer__group:nth-of-type(4)
 dziennik.com##.icon-twt
@@ -1570,6 +1571,8 @@ ebilet.pl##.second-col
 ebizpro.pl##.contact-block--footer.contact-block
 ebutik.pl###footer_socials
 eccotravel.eu###metkaFB
+echodnia.eu##.atomsNavigationFooterSocialmedia__button[data-event-params="link_img=facebook"] > svg
+echodnia.eu,naszemiasto.pl##.atomsArticleFootTools__icons
 ecoblik.pl##.td-footer-wrapper div.td-pb-span4:nth-of-type(2)
 ecoflores.eu##.ribbon, .bezpieczenstwo.s-grid-3
 ecojob.pl##div.still.single-out:nth-of-type(n+4):nth-of-type(-n+5)
@@ -2805,7 +2808,6 @@ naszahistoria.pl,plus.dziennikbaltycki.pl,plus.dzienniklodzki.pl,plus.dziennikza
 naszaprzychodnia.com.pl##footer .fbcontact .col-md-4
 naszekielce.com###block-block-405
 naszekwatery.pl##.right_window_button
-naszemiasto.pl##.atomsArticleFootTools__icons
 naszpradnik.pl##.menu-social-fb
 naszswiat.net##.t3-footnav #Mod233, .t3-footnav #Mod234
 natemat.de##.author-icons > li > a:not([href*="//natemat.de/"])
