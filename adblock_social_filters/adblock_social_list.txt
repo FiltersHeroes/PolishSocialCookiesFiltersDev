@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.7.1
-! Last modified: Sat, 07 Sep 2019, 19:00 UTC+02
+! Version: 2019.9.8.0
+! Last modified: Sun, 08 Sep 2019, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.7.1 aktualizacja: sob, 07 wrz 2019, 19:00 UTC+02
+! v.2019.9.8.0 aktualizacja: nie, 08 wrz 2019, 15:00 UTC+02
 !
 !
 ! Popupy
@@ -770,6 +770,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_l
 24zabrze.pl###vce_social_menu
 24.pl,blog.comperialead.pl,fight24.pl,kobietydokodu.pl,kreator-modymeskiej.pl,lososwkuchni.pl,mama-kreatywna.pl,moj-kawalek-podlogi.pl,ps4life.pl###text-6
 40ton.net##.clearfix.sidebar-box:nth-of-type(4)
+48media.pl##.fb-right
 80dni.pl##.pt-followers, .share-icons-container
 100pompek.pl,biegaj40minut.pl,miesniebrzucha.pl,miesnienog.pl,podciaganie.pl,treningaerobowy.pl,treningrozciagania.pl###block-wruchublocks-facebook
 147.com.pl##.right.sidebar > #text-19
@@ -903,6 +904,7 @@ apteka-leki.pl##.ps-social
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href="http://www.facebook.pl"] > img
 aptekigemini.pl##header .nav > li:nth-of-type(5)
 apynews.pl##.navbar-right-custom, .menu-icon
+apynews.pl##.social-share-buttons, .facebook-custom-likes
 aquahost.pl##.DuoSlider > .SocialFB_DS
 aquamelior.pl##.menu-ig, .menu-yt, .menu-fb
 aquapark.lodz.pl##.box > .section-header.ce-header, div.grid-phone-add-gutter-bottom.col-6--phone.col-6--tablet.col-3:nth-of-type(2)
@@ -2779,6 +2781,7 @@ myphone.pl##div.stayInContact__item:nth-of-type(1)
 mzk-ostrow.com.pl##p:nth-child(n+59)
 mzk-ostrow.com.pl##.rightpane p:nth-of-type(n+52):nth-of-type(-n+58)
 mzk-torun.pl###s5_drop_down_container
+m.beszamel.se.pl###big_socials.row
 m.se.pl##.social.row
 nadarzyn.tv##.facebook_fixed
 naekranie.pl###social-fans, .addthis_responsive_sharing, .msg-share, .title-p, .tw-share
@@ -4744,6 +4747,7 @@ youtube.com#@##secondary-links
 @@/modules/mod_je_social/images/social.png$image,domain=www.roland-gazeta.pl
 @@/social_media_$domain=mazury.travel
 @@/static/images/facebook.jpg$image,domain=filoma.org
+@@||apynews.pl/assets/ranking-facebook.jpg$image
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
 @@||meczyki.pl/images/twitter_blank.gif
