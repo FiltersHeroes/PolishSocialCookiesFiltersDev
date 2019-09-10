@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.9.0
-! Last modified: Mon, 09 Sep 2019, 23:00 UTC+02
+! Version: 2019.9.10.0
+! Last modified: Tue, 10 Sep 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.9.0 aktualizacja: pon, 09 wrz 2019, 23:00 UTC+02
+! v.2019.9.10.0 aktualizacja: wto, 10 wrz 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -1648,6 +1648,7 @@ enelsport.pl##div.page:nth-of-type(2) > div.width-25.column:nth-of-type(3), .qui
 eneris.pl,wste.edu.pl##.social_menu
 enfamil.pl##.float-app:nth-of-type(3), .float-fb:nth-of-type(4)
 enova.pl##.ipb-layout__footer-row-socials
+enumizmatyczny.pl###fb_slider
 envelo.pl##.envelo-facebook, .envelo-twitter, .envelo-gplus, .envelo-in, .envelo-instagram
 epaka.pl##.footerCol3.footerCol
 epione.pl,nowywyszkowiak.pl,soniadraga.pl###FacebookWidget
@@ -4049,6 +4050,7 @@ wachtyrz.eu##a[href="https://facebook.com/wachtyrz"]
 wadowice24.pl##a[href*="https://www.facebook.com/adamexpodolsze"]
 wadowice24.pl##a[href="/Google+"], a[href="https://twitter.com/wadowice24"], a[href="https://www.youtube.com/user/Wadowice24pl"], a[href="https://pl-pl.facebook.com/wadowice24"]
 wago.com##.wg-footer__socials
+wagrowiec-wydarzeniazostatniejchwili.pl#?#.entry-content:-abp-has( > .dpsp-share-text)
 wagrowiec.eu###header-top-1 > a.icon:nth-of-type(n+3):nth-of-type(-n+7), #footer #f-col4
 wakacje.pl##div[class][style^="position: fixed;"] > div > a[aria-label="Wakacje.pl facebook"]
 wakacyjnipiraci.pl##a[href="https://www.wakacyjnipiraci.pl/pages/whatsapp"]
@@ -4757,6 +4759,7 @@ youtube.com#@##secondary-links
 @@/social_media_$domain=mazury.travel
 @@/static/images/facebook.jpg$image,domain=filoma.org
 @@||apynews.pl/assets/ranking-facebook.jpg$image
+@@||enumizmatyczny.pl/modules/hifacebookconnect/views/img/icons/$image
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
 @@||meczyki.pl/images/twitter_blank.gif
