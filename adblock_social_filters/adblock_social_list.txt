@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.12.0
-! Last modified: Thu, 12 Sep 2019, 19:00 UTC+02
+! Version: 2019.9.12.1
+! Last modified: Thu, 12 Sep 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.12.0 aktualizacja: czw, 12 wrz 2019, 19:00 UTC+02
+! v.2019.9.12.1 aktualizacja: czw, 12 wrz 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -1087,6 +1087,7 @@ bielskiedrogi.pl###block-block-1
 bielsko-biala.pl##.ikona-facebook, .ikona-youtube
 bielsko.info,czecho.pl,pless.pl,tychy.info##.fb-share-button-static, .kol2 > .small.pasek-white, .kol3 > .small.pasek-white
 bieszczadzka24.pl##.social > a:nth-of-type(2) > img
+bigstarshoes.pl##.container.userfooter > .row > p
 bigstar.pl##footer > section ma-accordion-item:nth-of-type(3)
 bikeboard.pl##div.home-box.col-md-4:nth-of-type(10)
 bikeworld.pl##div.col:nth-of-type(4) > .footer-box > h3
@@ -1768,8 +1769,8 @@ fcbarca.com##.article-text-content:nth-of-type(6)
 fcraft.pl###sidebar_index > .tborder:nth-of-type(3)
 fdb.pl##.footer .text-right.col-md-3.col-xs-6 > .text-uppercase, .footer .text-right.col-md-3.col-xs-6 > .list-inline, footer .text-md-right.col-md-3.col-6 > .text-uppercase, footer .text-md-right.col-md-3.col-6 > .list-inline
 fefaq.pl###contact.contact
-fenii.pl###x13facebookbox
-fenii.pl##.instafeed-container
+fenii.pl,lepampuch.pl##.instafeed-container
+fenii.pl,meblerajo.pl,x-moto.eu###x13facebookbox
 feriogaj.com##a[href^="https://web.facebook.com/CHFerioGaj/"]
 ferpay.com##.menu-block.row > div.col-sm-3.col-xs-6:nth-of-type(5)
 ferrariwarszawa.com,zapinamypasy.pl##.share-media
@@ -2455,7 +2456,6 @@ lencze.eu##.item-185
 lenovozone.pl##.social > li:nth-of-type(5) > a[href^="https://www.linkedin.com/company/lenovo"], .social-right-widget
 lenovo.com##.m-footerSocial__Icon:not(.footerForumsIcon)
 leoexpress.com##footer ul > li > a[target="_blank"]
-lepampuch.pl##.instafeed-container
 lessmess.storage##.widget-twitter.slideout-widget, .widget-gplus-2.slideout-widget, .widget-facebook-2.slideout-widget
 lexus-lodz.pl##.klgzcO.sc-bwzfXH.eEkqxO.TopSegment__Wrapper-e5f0wf-0 > .loYbST.sc-htpNat > a
 lex.pl##.contact-section-block-3
@@ -2580,7 +2580,6 @@ mbank.pl##.fr.community
 mbp.opole.pl##.footer-cols-wrapper > .panel-grid-cell:nth-of-type(n+3) > .panel-cell-style.footer-col
 mdkkolbuszowa.pl##A[href^="https://www.facebook.com/mdk.kolbuszowa"], A[href="https://www.youtube.com/channel/UC0R0ALL8IyLcRn8SMTe3iOw"]
 mdk.opole.pl##.visit_us
-meblerajo.pl,x-moto.eu###x13facebookbox
 meblewroblewski.eu,sklep-smile.pl##.slide-out-div
 meblezet.com###footer > .row > .col-sm-3.col-xs-12.footer-block
 meble-4you.pl###wr_foot_social
@@ -3032,6 +3031,8 @@ pascal.pl###section_specialServices > .rowTitle.row > .col-md-12 > .pageTitle
 patelnie-tytanowe.pl##.instatitle, .snapwidget-widget
 patiomeble.eu##.last_social a[href="http://instagram.com/patiomeble"]
 pato.pl###nasza_klasa_side_bar
+patronite.pl#?#.wc h3:has-text(/^Udostępnij$/)
+patronite.pl#?#.wc .center > .center:-abp-contains(/^Pomóż, udostępniając/)
 patrzladnie.pl##.widget_cs_social_widget.footer-widget-col
 pay-card.pl##a[href="https://www.youtube.com/channel/UCIrQBYCQhV8RCvPZ5YlZywQ"]
 pay-card.pl##.et_pb_section_6
@@ -4085,6 +4086,7 @@ waw4free.pl##div.social, a[href^="https://plus.google.com/share"], a[href^="http
 wbpg.org.pl##div:nth-of-type(3) > .field__label
 wearmedicine.com##.socialMediaFooter
 wearmedicine.com###socialMediaIcons
+wearmedicine.com##.home-splash__social-wrap
 weather.com##.SocialMediaShareButton .icon-share-circle
 webcamera.pl##.instagram-box
 webio.pl##li.nav-item:nth-of-type(n+5):nth-of-type(-n+6) > .nav-link
