@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.14.1
-! Last modified: Sat, 14 Sep 2019, 15:00 UTC+02
+! Version: 2019.9.14.2
+! Last modified: Sat, 14 Sep 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.14.1 aktualizacja: sob, 14 wrz 2019, 15:00 UTC+02
+! v.2019.9.14.2 aktualizacja: sob, 14 wrz 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -3031,7 +3031,7 @@ pascal.pl###section_specialServices > .rowTitle.row > .col-md-12 > .pageTitle
 patelnie-tytanowe.pl##.instatitle, .snapwidget-widget
 patiomeble.eu##.last_social a[href="http://instagram.com/patiomeble"]
 pato.pl###nasza_klasa_side_bar
-patronite.pl#?#.wc h3:has-text(/^Udostępnij$/)
+patronite.pl#?#.wc h3:-abp-contains(/^Udostępnij$/)
 patronite.pl#?#.wc .center > .center:-abp-contains(/^Pomóż, udostępniając/)
 patrzladnie.pl##.widget_cs_social_widget.footer-widget-col
 pay-card.pl##a[href="https://www.youtube.com/channel/UCIrQBYCQhV8RCvPZ5YlZywQ"]
@@ -3407,6 +3407,8 @@ ravanson.pl##.jm-footer.jm-flexiblock.row-fluid > div.span4:nth-of-type(3)
 ravelo.pl##.footersocialicons
 rckik.wroclaw.pl###panel_yt, #panel_fb, #panel_tw
 rc.fm###instagramrc
+realmadryt.pl##div.social-container--item:nth-of-type(n+2):nth-of-type(-n+4)
+realmadryt.pl##.social-share-widget > .social-share-widget--header
 realmadryt.pl#?#.bg:-abp-contains(dołącz)
 rebe1scum.com,szukajacslonca.com##.widget_wpcom_instagram_widget
 recea.pl##.container > .f-row > div.f-grid-6:nth-of-type(2)
@@ -4732,12 +4734,12 @@ eurosport.interia.pl,fakty.interia.pl,muzyka.interia.pl,pomponik.pl#@#.article-s
 eurosport.interia.pl,fakty.interia.pl,muzyka.interia.pl,pomponik.pl#@#.share-link
 freshandnatural.pl#@##social_block
 gameplay.pl,tvgry.pl#@#.social-16
-greencanoe.pl,spece.it,tanie-loty.com.pl#@#.social-links
+greencanoe.pl,spece.it,tanie-loty.com.pl,www.x-kom.pl#@#.social-links
 iab.org.pl#@#.menu-social-buttons
 influencer.pl#@#.socials
 kadantiscam.netlify.com,www.pkobp.pl#@#.social-icon
 kingowiec.pl#@#.socialmedia
-komputerswiat.pl,onet.pl,tvn24bis.pl#@#.social-container
+komputerswiat.pl,onet.pl,realmadryt.pl,tvn24bis.pl#@#.social-container
 kosapopatelni.pl#@#.bdaia-social-io
 kosapopatelni.pl#@#.widget-social-links
 lublin112.pl#@##social-icon
@@ -4771,6 +4773,7 @@ www.dobreprogramy.pl#@#.social__button
 www.dobreprogramy.pl#@#.social__icon
 www.instalki.pl#@#img[alt="Facebook"]
 www.pkobp.pl#@#.footer-top__social
+www.x-kom.pl#@#.social-bar
 youtube.com#@##secondary-links
 @@/googleplus-$image,domain=www.wirtualnemedia.pl
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
