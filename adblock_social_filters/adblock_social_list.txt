@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.14.2
-! Last modified: Sat, 14 Sep 2019, 19:00 UTC+02
+! Version: 2019.9.14.3
+! Last modified: Sat, 14 Sep 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.14.2 aktualizacja: sob, 14 wrz 2019, 19:00 UTC+02
+! v.2019.9.14.3 aktualizacja: sob, 14 wrz 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -1720,6 +1720,8 @@ ezamosc.pl,jablonka.info,punkt.media###gkSocialMenu
 e-biznes.pl##.x-main > div.content.entry-content:nth-of-type(1)
 e-dach.pl,e-instalacje.pl,e-izolacje.pl,e-lazienki.pl,e-mieszkanie.pl,e-ogrodek.pl,e-okna.pl,e-sciany.pl,urzadzone.pl##.bottomBox > .group.layout > a[href^="https://www.facebook.com/"]
 e-dewocjonalia.eu#?##extra_baner > .f-row > div.f-grid-4:nth-of-type(3):-abp-contains(Facebook)
+e-forma.pl###instafeed-container
+e-forma.pl#?#.zobacztakze > a[href*="://facebook.com/"]:-abp-has( > img)
 e-forma.pl,primadent.com.pl,sluzby-ur.pl,wilanow-palac.pl###youtube
 e-glamour.pl##.Social--footer.Social
 e-gorniak.com#?#.home-teaser:-abp-has( > p:first-child:last-child > iframe[src*="://embed.spotify.com/follow/"])
