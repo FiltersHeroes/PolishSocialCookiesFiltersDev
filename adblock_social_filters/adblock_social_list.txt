@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.15.1
-! Last modified: Sun, 15 Sep 2019, 19:00 UTC+02
+! Version: 2019.9.15.2
+! Last modified: Sun, 15 Sep 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.15.1 aktualizacja: nie, 15 wrz 2019, 19:00 UTC+02
+! v.2019.9.15.2 aktualizacja: nie, 15 wrz 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -1037,6 +1037,7 @@ barbelo.com.pl###topmenuright > li:not(:nth-of-type(1))
 barokko.pl,efutro.com.pl,importmania.pl,sewel.pl###tws_i_2
 bartek.com.pl,vexel-fashion.pl##.contacts.row, .side-block-icon
 bartoszkrawczykdemczuk.pl,szybkanauka.pro##.follow_me.widget
+bartoszmankowski.com##.footer-col > #nav_menu-4, #copyright-menu > li:nth-of-type(-n+4)
 basenymineralne.pl##.foo-bot
 basiasmoter.pl###HTML1 .fa-pinterest-p, #HTML1 .fa-heart, .footter_icons
 batcave.com.pl,booklips.pl,cdn.ug.edu.pl,craftportal.pl,damagier.pl,darodnatury.pl,david-durden.pl,doktorania.pl,fama.org.pl,glodnapolka.pl,kwadranszpodkopem.com,magnapolonia.org,nono-store.pl,pdasite.pl,portal.region.info.pl,prokapitalizm.pl,promocje.msi.com,ps4life.pl,swiatdronow.pl,swingwithme.pl,swobodnie.eu,vivio.pl,winers.pl,wrodzinie.pl,www.wizytowka.be###text-3
@@ -4228,6 +4229,7 @@ www.my-mobile.pl##a[href="https://www.facebook.com/mymobilepl"]
 www.my-mobile.pl##.widget_text.widget
 www.nacjonalista.pl##.widget_text.widget, .top-twitter, .top-facebook, .top-youtube
 www.o2.pl#?#div[class] > div[class] > a > div > div > div > div:-abp-has( > div > span > svg[width][height])
+www.o2.pl#?##stream > div > div[data-st-area*="Stream"] > div > div[class]:not([id]):-abp-has( > a[href*="social"])
 www.opera.com##.social > li > a > img
 www.pcworld.pl##.navbar-right.navbar-nav.nav li.nav-item:nth-of-type(3)
 www.pila.pl###kontakt .col-md-5.col-xs-12
