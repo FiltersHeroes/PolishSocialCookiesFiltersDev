@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.15.2
-! Last modified: Sun, 15 Sep 2019, 23:00 UTC+02
+! Version: 2019.9.16.0
+! Last modified: Mon, 16 Sep 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.15.2 aktualizacja: nie, 15 wrz 2019, 23:00 UTC+02
+! v.2019.9.16.0 aktualizacja: pon, 16 wrz 2019, 03:00 UTC+02
 !
 !
 ! Popupy
@@ -4228,7 +4228,9 @@ www.metropoliaztm.pl##.nav-link > .fa-twitter.fab
 www.my-mobile.pl##a[href="https://www.facebook.com/mymobilepl"]
 www.my-mobile.pl##.widget_text.widget
 www.nacjonalista.pl##.widget_text.widget, .top-twitter, .top-facebook, .top-youtube
-www.o2.pl#?#div[class] > div[class] > a > div > div > div > div:-abp-has( > div > span > svg[width][height])
+www.o2.pl##div[class][title="polubienia"], div[class][title="polubienia"] + div
+www.o2.pl#?#div[class][data-st-area*="Quote-Content"] div[class] > div[class]:-abp-has( > span[class][icon] > svg[width][height])
+www.o2.pl#?##grid > div[class][data-st-area*="Quotes"] a[href*="/cytat/"] div[class] > div[class]:-abp-has( > span[class][icon] > svg[width][height])
 www.o2.pl#?##stream > div > div[data-st-area*="Stream"] > div > div[class]:not([id]):-abp-has( > a[href*="social"])
 www.opera.com##.social > li > a > img
 www.pcworld.pl##.navbar-right.navbar-nav.nav li.nav-item:nth-of-type(3)
