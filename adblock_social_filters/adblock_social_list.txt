@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.16.1
-! Last modified: Mon, 16 Sep 2019, 15:00 UTC+02
+! Version: 2019.9.16.2
+! Last modified: Mon, 16 Sep 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.16.1 aktualizacja: pon, 16 wrz 2019, 15:00 UTC+02
+! v.2019.9.16.2 aktualizacja: pon, 16 wrz 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -751,7 +751,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_l
 3mk.pl,400.pl,ccnews.pl,konstantinkanin.com,netyou.pl##.cresta-facebook-messenger-box
 3mk.pl,aletorcik.pl,blogujmy24.pl,info.ceneo.pl,magnapolonia.org,moj-kawalek-podlogi.pl,pannaannabiega.pl,phunetcom.pl,wroclawskiejedzenie.pl###text-8
 3obieg.pl##.smart-youtube
-3obieg.pl,appki.com.pl,autonom.pl,calkiemzdrowo.pl,domtuiteraz.eu,e-marketingprawniczy.pl,konstantinkanin.com,multigaming.pl,paczka-wiedzy.pl###text-7
+3obieg.pl,appki.com.pl,autonom.pl,calkiemzdrowo.pl,domtuiteraz.eu,e-marketingprawniczy.pl,fundacjaoriflame.pl,konstantinkanin.com,multigaming.pl,paczka-wiedzy.pl###text-7
 4dd.pl##.list-12 > li
 4fun.tv##.mt-4.mb-3.justify-content-center.d-flex, .mt-5.row > div.col-md-4:nth-child(-n+2)
 4kdownload.com##.community__item:not([class*="feed"])
@@ -996,6 +996,8 @@ auto-swiat.pl##.fb_share, .version4.bigVersion.onet_ustPlugin_addthis > .box2, .
 avaldihome.pl##footer#footer .row > div.col-xs-12.col-sm-12.col-md-6.col-lg-3:nth-of-type(3)
 avast.com##.social-icons > a.bi-link:nth-child(-n+5)
 avlab.pl##li:nth-child(-n+3) > .ext
+avon-24.pl##a[href="https://www.facebook.com/lsavonkasia/"] > img
+avon.pl###FooterSocialMediaColumn
 awa24.pl##.right_soc
 awans-bhp.pl##.icon_bar_google.icon_bar, .icon_bar_fb.icon_bar, .icon_box > a[href="https://www.facebook.com/awansbhp/"]
 awf.edu.pl##.sprite-fb.sprite, .sprite-yt.sprite
@@ -1514,7 +1516,7 @@ doradcapodatkowy.pl###bottom-5 > .moduletable > .custom > .pdcorrect.col-lg-12.c
 doradcapodatkowy.pl##.moduletable .pdcorrect.col-lg-5.col-md-5.col-sm-12.col-xs-12 > p:nth-of-type(2)
 dorzeczy.pl,wprost.pl##.youtube-button
 dotd.pl,krainaekozabawek.pl##.likebox_content
-douglas.pl##.rd__col--md-push-6.rd__col--md-6.rd__col--sm-12.rd__col > .rd__footer__block
+douglas.pl##.rd__footer > .rd__container > div.rd__row:nth-of-type(2) > .rd__col:nth-of-type(1) > .rd__footer__block
 download.net.pl###social-tools
 doz.pl##.mobile-links__social
 do-kamienia.pl##a[href^="https://www.facebook.com/dokamienia"]
@@ -4366,6 +4368,7 @@ zorganizowana.com##.APTFIN_by_TAP.widget
 zorganizowana.com##.APTFPIN_by_TAP.widget
 zorganizowana.com##.widget_bttk_facebook_page_widget.widget
 zpp.net.pl##.widgets_left
+zprp.pl###text-html-widget-12
 zrozumboryska.cba.pl###stopka-d
 zrzutka.pl##.chip-shares-container
 zsme.pl##center > table:nth-of-type(3) tr:nth-of-type(1) > td:nth-of-type(3) > table > tbody > tr:nth-of-type(n+5):nth-of-type(-n+9)
