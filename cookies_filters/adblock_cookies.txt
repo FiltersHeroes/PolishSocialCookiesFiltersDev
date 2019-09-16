@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.16.1
-! Last modified: Mon, 16 Sep 2019, 19:00 UTC+02
+! Version: 2019.9.16.2
+! Last modified: Mon, 16 Sep 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.16.1 aktualizacja: pon, 16 wrz 2019, 19:00 UTC+02
+! v.2019.9.16.2 aktualizacja: pon, 16 wrz 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1949,6 +1949,7 @@ weather.com###teconsent
 weather.com##.lite-msg-parent
 webcover.eu###box-polityka-pr
 webdev20.pl###top_message
+webmade.org###wp-cookies-icon
 webprojekt.biz###ppc
 web-booking.mytaxi.com#?#body > div > div > div:-abp-contains(🍪)
 web.skype.com#?#.info.notification:-abp-contains(cookie)
@@ -3098,6 +3099,7 @@ xboxforum.pl##.notice--cookie
 games.softgames.com#@#.as-oil[data-qa="oil-Layer"]:not(body):not(html)
 gg.pl#@#body > div:nth-of-type(2) > div
 gg.pl#@#.pum[data-popmake*="cookie-policy"]:not(body):not(html)
+javappa.com#@#.ng-scope[ng-controller="CookieCtrl"]
 !
 !
 ! Wyjątki
