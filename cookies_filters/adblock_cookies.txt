@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.17.1
-! Last modified: Tue, 17 Sep 2019, 15:00 UTC+02
+! Version: 2019.9.17.2
+! Last modified: Tue, 17 Sep 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.17.1 aktualizacja: wto, 17 wrz 2019, 15:00 UTC+02
+! v.2019.9.17.2 aktualizacja: wto, 17 wrz 2019, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -517,6 +517,7 @@ dobregniazdka.pl,luxmarket.pl###rodo_container
 dobrymechanik.pl##.small.navbar-fixed-bottom
 doceniajnieoceniaj.pl###msgprivacy
 doktorania.pl,printexpress.pl##.cookie-first-window
+dolcar.auto.pl,jackvision.pl,mleczarze.pl###jz-popup, #jz-overlay.blur
 dolce-gusto.pl###nimgrowler
 dollarro.com###pnlCookiebanner
 dolnyslask.travel##.cl-banner
@@ -998,7 +999,6 @@ ixon.cloud###privacyConsent
 izabela-bus.eu,woobykids.com###cookie-law-bar
 izone.pl##.mm-page > div[style*="height: 80px"]
 jabra.pl###jbr-consent-track
-jackvision.pl,mleczarze.pl###jz-popup, #jz-overlay.blur
 jajco.pl##div[id*="n-cookies-notification"]
 jakikredyt.pl##.popup--open
 jakuby.eu###w357_cpnb
@@ -1601,6 +1601,7 @@ promocodius.com###reminder
 prosto.pl###id-rules
 pruszczgdanski.pl##.tm-footer > .uk-panel
 pruszkow.pl##.js-rodo-info
+przedsiebiorcy.eu##.mf-cookie-container
 przedszkolowo.pl###cookie-agree-bar
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 przelewy24.pl,zlotyaniol.pl###policy_container
