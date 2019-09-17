@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.17.0
-! Last modified: Tue, 17 Sep 2019, 03:00 UTC+02
+! Version: 2019.9.17.1
+! Last modified: Tue, 17 Sep 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.17.0 aktualizacja: wto, 17 wrz 2019, 03:00 UTC+02
+! v.2019.9.17.1 aktualizacja: wto, 17 wrz 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -51,6 +51,7 @@ linuxporady.pl,pskrk.com,sebucja.pl,skomplikowane.pl###exitpopup-modal
 madameedith.com###spu-33734, #spu-bg-33734
 malywrednymis.pl###ppsPopupBgOverlay
 mpolska24.pl###before-leave-window
+nawakacje.eu##.ays-fpl-modals
 nawiedzone.pl,polskieszosy.pl,swiatfilmikow.pl##[data-title="Social Form - Popup #02"]
 nowosci-mp3.eu###pop-slap, .bg-pop-over
 nportal.no###fb-overlay
@@ -1139,6 +1140,7 @@ blogmtb.pl###HTML3 > .title, .roll1, .roll2, .roll3
 blogojciec.pl###ppsPopupShell_100_859245, #ppsPopupBgOverlay
 blogspot.com,blokada.org,comel-it.com,przedsiebiorcy.eu,tvpolsat.info##.fa-facebook
 blog.bloomboard.co##.social_icons_widget
+blog.cochlear.com##.tw-social-icon
 blog.eobuwie.com.pl##.instagram-size-small.instagram-pics
 blog.invimed.pl##.nfb-fb, .nfb-yt
 blog.meskiegacie.pl##.tg-first-footer-widget > #nav_menu-7
@@ -1420,6 +1422,7 @@ dalchemyskincare.com##.socialhead
 damagier.pl###blog_subscription-2
 damianparol.com###menu-item-103, #menu-item-104, #menu-item-503
 damianparol.com,ekspedyt.org,forum-oddluzanie.pl,ogloszenia.legiobiznes.pl,oldcamera.pl,przemocnc.pl##.simplesocialbuttons
+damiko.eu,solnemiasto.eu##.SN-Facebook-Like
 dancecontrol.pl###text-4 > .textwidget > a:nth-of-type(n+2):nth-of-type(-n+4)
 danrol-sklep.pl,elixirzdrowia.pl,mpec.olsztyn.pl,saluti.pl###fb-widget
 dareni.pl##a[href^="https://www.facebook.com/firaneczki"]
@@ -2389,6 +2392,9 @@ krosnice.pl##a[href="https://www.facebook.com/cets.krosnice/"]
 kruczek.pl###menu-item-16323, #menu-item-16324, #menu-item-16325,#menu-item-16326
 kryptowaluty.info.pl###text-46 > .textwidget > .su-divider-style-default.su-divider, #sfsi-widget-3, #footer-widgets
 krypto.net.pl###bunyad-social-3
+krytykakulinarna.com##div.sidebar-widget:nth-of-type(4)
+krytykakulinarna.com#?#div.sidebar-widget:-abp-has(h6:-abp-contains(/społecz/i)) > hr
+krytykakulinarna.com#?#.sidebar-widget > h6:-abp-contains(/społecz/i)
 krytykapolityczna.pl###menu-item-166280
 krytykapolityczna.pl###menu-socjale-w-naglowku
 krytykapolityczna.pl##.essb-block.essb-like-facebook, .essb-block.essb-like-twitter, .post-date-area > .textwidget > .vc_empty_space
@@ -2779,6 +2785,7 @@ music99.pl##section:nth-of-type(1) > header > .fa-twitter.icon
 music99.pl###footer .contact > .icons
 mustasz.com##.contact > li:nth-of-type(-n+2)
 mutyzm.org.pl##.circle.icon-social_facebook
+muzeaskansenowskie.eu##footer .wpb_content_element.wpb_text_column > .wpb_wrapper > div
 muzeumslaskie.pl##div.col-sm-18.col-md-6.col-lg-6:nth-of-type(4) > nav.c_footer__nav:nth-of-type(2)
 muzeumwp.pl###tool > table > tbody > tr > td:nth-of-type(2) > table > tbody
 muzeum.com.pl###text-18
@@ -3117,6 +3124,7 @@ planszowkiwedwoje.pl##a[href="https://www.instagram.com/planszowkiwedwoje/"], a[
 platforma.org,superprezenty.pl##.footer-column-social
 platontv.pl###edge > .edge-icons > .edge-icon
 playergames.pl###itc-fbrightblock
+playstation.com#?#.bg-style-desktop-inline.pg_sec_overflow.center-align-heading.page-section.backgroundMidSilver:-abp-has(.social-icons)
 play.pl##.columns.box:nth-of-type(6)
 plejada.pl##.whatsapp, #content-share-top > .fb_share, .social-container > .social, .shareBarBox > .social
 plemiona.pl##.social-media-icons-container
@@ -3675,7 +3683,6 @@ sokpol.com.pl##.rwdhide
 solarisbus.com##.c-list--social.c-list
 solar.bruk-bet.pl###menu-dodatkowe-menu > .menu-item-icon:nth-of-type(-n+4)
 solidworks.pl###socials-ico
-solnemiasto.eu##.SN-Facebook-Like
 solpol.pl##a[href="https://www.facebook.com/SolPol-265651737527218"], a[href="https://twitter.com/Solpol_pl"]
 soniadraga.pl###TwitterWidget
 sonomedico.pl##.nav-facebook
@@ -3762,6 +3769,7 @@ studentbeans.com##.single-offer > .single-offer__details + aside > ul > li:nth-o
 studioatrium.pl###tool-fbook
 studiojogapark.pl##.hidden-xs[style^="position:fixed;"] > p:nth-of-type(1)
 studiokosmetyki.com##.icon-social_facebook_square
+studiokosmetyki.com##.icon-social_googleplus_square
 studiomanilov.eu#?#.builder-parallax-scrolling.clearfix.module_row.themify_builder_row:-abp-contains(Dołączam do grupy)
 subiektywnieofinansach.pl##.et-social-instagram
 sugarrrsoup.blogspot.com###Image3, #Image4, #Image5
@@ -4055,6 +4063,7 @@ vesbopoland.pl##.footer-contact-socials
 vetpol.org.pl##.mainSocial.moduletable
 viagogo.pl##.cWht.pbl.m.t:nth-of-type(2), #ftrSocial
 vices.eu##footer div.col-xs-12.col-sm-12.col-md-12.col-lg-3.layout-column:nth-of-type(4)
+vices.eu##.info_footer_thirst
 vice.com##.site-header__social-icon
 vice.com##.titlebar__icons__social
 vidaron.pl##.youtube.panel-icon
@@ -4115,6 +4124,7 @@ wegeguru.pl#?##kontakt h3.mt-20:-abp-contains(Instagram)
 wegemaluch.pl###susnettwitterright
 wege-warszawa.pl##.header-social, #text-5 > .textwidget > table
 wejherowo.pl###_socials
+weneedmore.space###media_image-3
 werandafamily.com##.instagram-description > div > .btn-sm
 werandafamily.com##.instagram-item > .link-block > .overlay > .figure-content-hover
 werandafamily.com##.instagram-item > .link-block > .overlay:after
