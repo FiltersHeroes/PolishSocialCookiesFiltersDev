@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.16.2
-! Last modified: Mon, 16 Sep 2019, 23:00 UTC+02
+! Version: 2019.9.17.0
+! Last modified: Tue, 17 Sep 2019, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.16.2 aktualizacja: pon, 16 wrz 2019, 23:00 UTC+02
+! v.2019.9.17.0 aktualizacja: wto, 17 wrz 2019, 03:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1874,6 +1874,7 @@ toshiba-tv.com###CookieDiv.Cookies
 toshiba.semicon-storage.com###cookies_container
 totalbet.pl##.cookiesComponent
 tp-link.com###divCookieUsedNote
+tradus.com##div[data-site-notification-cookie-name]
 traffic.naviexpert.pl##.MuiDialog-root
 trafica.eu,wodbud.eu###q-cookie-box
 traftu.pl##.unconfirmed.opt-in-splash
@@ -2065,6 +2066,7 @@ zarzadzanieprojektami.org###cookinfo
 zaufanekliniki.pl#?#.alert-error.alert:-abp-contains(cookies)
 zawodykonne.com###cookie-akcept
 zbiornikinadeszczowke.com##.fancybox-overlay
+zbp.pl##.c-Cookies
 zdrowastrona.pl##.cookiesMsg
 zdrowiewkrakowie.pl##body > div[style]:not([id]):not([class]):nth-of-type(2)
 zegarkiipasja.pl###fcx-cookie-consent
