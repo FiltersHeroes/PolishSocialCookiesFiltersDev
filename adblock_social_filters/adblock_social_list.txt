@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.18.2
-! Last modified: Wed, 18 Sep 2019, 23:00 UTC+02
+! Version: 2019.9.19.0
+! Last modified: Thu, 19 Sep 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.18.2 aktualizacja: śro, 18 wrz 2019, 23:00 UTC+02
+! v.2019.9.19.0 aktualizacja: czw, 19 wrz 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -1026,6 +1026,7 @@ bajkowyzakatek.eu###sidebar > #HTML1
 bajm.pl##.icons > a[href^="https://www.facebook.com/BAJMpage/"]
 balladine.com###widgetFb
 balneokosmetyki.pl,przyslijprzepis.pl##.top-fb
+balomania.eu##.sk_social_icons_list > .sk_social_icon:not(.icon_skype)
 balujemy.eostroleka.pl##.module:nth-of-type(9)
 bambino-sklep.pl###fico, #gico
 bananki.pl,onetech.pl###gplus
@@ -1749,6 +1750,7 @@ e-madame.pl##.sfsi_plus.widget-item
 e-manufaktura.com,e-pasmanteria.pl,nebulus.pl###fx-social
 e-megasport.com###banner2 > div > a.last
 e-moko.pl###header > [class^="fb"]
+e-neko.pl##.est-tab-type.est-content-slider
 e-pingpong.pl###flybutton
 e-podlogidrzwi.pl##.fb_logo
 e-sochaczew.pl##a[href^="https://plus.google.com/u/0/100895888893863910318/"]
@@ -1827,6 +1829,7 @@ flarrow.pl##.td-ss-main-sidebar > div:nth-of-type(3)
 flarrow.pl,sitemag.pl##.td-instagram-element, .td-instagram-header
 flashscore.pl##.selfPromo__box--social
 florexpol.eu###facebook-find-box
+floribunda.pl###footer div.item:nth-of-type(3)
 fly4free.pl##.slide-box--facebook.slide-box
 fly.pl##li.social.hidden-sm.hidden-xs:nth-child(-n+4)
 fokusfashion.com,kupbuty.com###tws_a_0
@@ -4177,6 +4180,7 @@ wizaz.pl###socialize-right-side
 wizzair.com##.sitemap__wrapper--footer.container > .row > div.gr-3:nth-of-type(3) > .heading--5
 wkforum.pl##a[href="http://facebook.com/warszawskikokss"], a[href="http://instagram.com/warszawskikoks/"], a[href="http://youtube.com/user/WarszawskiKoks"]
 wklejto.pl##.login_choose > a > img[src="/gfx/fbico26x26.png"]
+wkruk.pl##.header__top__social, .footer_bottom_social
 wlaczoszczedzanie.pl##a[href="https://pl.pinterest.com/wlaczoszczedzanie/"] > .fm-icon, a[href="https://twitter.com/LukasPajak"] > .fm-icon
 wlaczoszczedzanie.pl##a[href="https://www.facebook.com/wlaczoszczedzanie/"] > .fm-icon, a[href^="https://www.youtube.com/channel/UCEO8Mm72kk79BtIHoEAOlXQ/playlists"] > .fm-icon
 wlkp24.info##.box-outline.wpb_content_element.wpb_text_column, a[href="http://twitter.com/wlkp24info"], div.top-menu-blue-box:nth-of-type(1)
@@ -4669,6 +4673,9 @@ z-hotel.com###menu-item-868
 ||wsensie.tv/images/twetter_icon.png
 ||www.computer-alliance.pl/wp-content/uploads/2018/12/fsocial*.png
 ||www.dabrowatar.pl/wp-content/uploads/2016/01/FacebookLogoPL1dabrowatar_pl.png
+||www.farm-market.eu/wp-content/themes/*/images/fIcon.png
+||www.farm-market.eu/wp-content/themes/*/images/gIcon.png
+||www.farm-market.eu/wp-content/themes/*/images/ytIcon.png
 ||www.portalspozywczy.pl/images/2018/icons/fb-gr.png
 ||www.portalspozywczy.pl/images/2018/icons/insta-gr.png
 ||www.portalspozywczy.pl/images/2018/icons/tw-gr.png
