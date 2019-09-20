@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.20.0
-! Last modified: Fri, 20 Sep 2019, 03:00 UTC+02
+! Version: 2019.9.20.1
+! Last modified: Fri, 20 Sep 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,12 +18,12 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.20.0 aktualizacja: pią, 20 wrz 2019, 03:00 UTC+02
+! v.2019.9.20.1 aktualizacja: pią, 20 wrz 2019, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
 2x45.info,adainfo24.eu,alltube.tv,answear.com,atriumsystem.eu,barfnyswiat.org,bip.konin.eu,bip.piaseczno.eu,business.link,cedc.com,diagprog4.com,edeklaracje.info,eska.tv,evertourist.com,feriogaj.com,fokus.tv,gdansk.pl,imperiaonline.org,informacja-turystyczna.starachowice.eu,kolniak24.eu,koneser.eu,koszyki.com,lampy24.net,lot.com,lumarte.eu,mojewypieki.com,muzo.fm,nasze-kino.tv,nasze.fm,nowa.tv,odpady.chorzow.eu,plantatekst.info,portalodo.com,prymus.info,radiokampus.fm,rowertour.com,skierniewice.eu,studiuje.eu,telesystem-world.com,vod.internetowa.ws,voxmusic.tv,xtb.com###cookies
-3dom.pro,anmur.eu,avenidapoznan.com,bibliotekacyfrowa.eu,bip.gliwice.eu,booksy.com,budmat.com,chorzow.eu,corab.eu,diamante-wear.com,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kiddabadam.com,kler.eu,koszulkomat.eu,maamstyle.com,makoblog.com,mateuszgrzesiak.com,media-tech.eu,mg-pmm.com,naszefutrzaki.eu,pkpcargo.com,profit-plus.eu,radiopark.fm,sapphiretech.com,secretdelivery.pl,stolmot.com,telko.in,trecnutrition.com,warszawa.promenada.com,wearmedicine.com##.cookies
+3dom.pro,anmur.eu,avenidapoznan.com,bibliotekacyfrowa.eu,bip.gliwice.eu,booksy.com,budmat.com,chorzow.eu,corab.eu,diamante-wear.com,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kiddabadam.com,kler.eu,koszulkomat.eu,maamstyle.com,makoblog.com,mateuszgrzesiak.com,media-tech.eu,mg-pmm.com,naszefutrzaki.eu,pkpcargo.com,profit-plus.eu,radiopark.fm,sapphiretech.com,secretdelivery.pl,smarttrans.eu,stolmot.com,telko.in,trecnutrition.com,warszawa.promenada.com,wearmedicine.com##.cookies
 3mpolska.pl,bosch-professional.com,cisco.com,command.pl,logitech.com,logitechg.com,vacansoleil.pl###__tealiumGDPRecModal
 3s.pl,antyweb.pl,brolerserwis.pl,franciszkanskie.pl,grupakety.com,ingtechpoland.com,kancelaria-szip.pl,karmy.com.pl,kultura.krasnik.eu,norauto.pl,olimpijski.pl,pelion.eu,softon.pl,spedycje.pl###privacy
 4fstore.com,aclari.pl,auto-czesci-lipiec.pl,autogielda.pl,bosch-industrial.com,diecezjaplocka.pl,dreammachines.pl,e-konkursy.info,fotosik.pl,funduszpomerania.pl,goldenline.pl,haloursynow.pl,interprojekt.pl,jelenia.tv,junkers.pl,leo.pl,mix4kids.tv,naratunek.org,oskolaf.pl,panoramafirm.pl,pulawy.eu,rybnik.com.pl,skijumping.pl,slaskibiznes.pl,swiatpodlog.com.pl,tuwodzislaw.pl,warsztat.pl,wseit.edu.pl,zabierzow.org.pl##.modal-backdrop
@@ -217,6 +217,7 @@ avioner.pl,hotpay.pl,playtube.pl#?#.alert-success.alert:-abp-contains(cookies)
 avmarket.eu,delllow.com,dronexpert.eu,drukowanie.net,ethnostudio.eu,interlumen.com,kegel-aj.com,madys.eu,meble-jarocin.com,sprzetjezdziecki.com###InfoCookie
 avon.pl##.CookieSection
 azure.microsoft.com###cookie-prompt
+babytvchannel.info###cookieStandart
 baby.nivea.pl##.policy-info, .privacy-policy-change
 bacca.pl###CookieLawInfoPlugin
 badaniaprenatalne.pl###stb-14718
@@ -2113,7 +2114,7 @@ zysk.com.pl###pageUpperInfo
 /informationbar.js$domain=stowarzyszenie-dyrektorow.pl|zgkim.zgora.pl
 /libraries/js/jquery.tipsy.cookie.js$domain=kierunkowy.com
 /pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
-/pp-t-a-c.js$domain=bmi-online.pl|dieta.pl|domzdrowia.pl|fabrykasily.pl|fora.pl|forum-kulturystyka.pl|jestemfit.pl|odkrzychadoronaldo.pl|swistak.pl|toplista.pl|torrent.top-100.pl|trizer.pl
+/pp-t-a-c.js$domain=bmi-online.pl|dieta.pl|domzdrowia.pl|fabrykasily.pl|fora.pl|forum-kulturystyka.pl|jestemfit.pl|listastron.pl|odkrzychadoronaldo.pl|swistak.pl|top-100.pl|toplista.pl|trizer.pl
 /rhododendron/css/rhododendron-popup.css$domain=abctygodnik.pl|wpolsce.pl
 /rodo-agreement-popup/rodo-agreement-popup.min.js$domain=gremimedia.pl|rpkom.pl|zw.com.pl
 /whcookiesutf.js$domain=apteka-vita.eu|pl
