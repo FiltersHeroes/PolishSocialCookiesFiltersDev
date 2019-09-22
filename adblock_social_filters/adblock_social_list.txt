@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.9.22.0
-! Last modified: Sun, 22 Sep 2019, 03:00 UTC+02
+! Version: 2019.9.22.1
+! Last modified: Sun, 22 Sep 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.9.22.0 aktualizacja: nie, 22 wrz 2019, 03:00 UTC+02
+! v.2019.9.22.1 aktualizacja: nie, 22 wrz 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -828,6 +828,7 @@ akcjasos.pl###left-right-top > .yt-position-inner > div.moduletable:nth-of-type(
 akma.pl##.footer-default-three
 akpolbaby.pl###footerBadzNaBiezaco
 aktywnadietetyka.blogspot.com,maturkazpolskiego.blogspot.com,sieradztomy.pl###Image1
+aktywnedzieciaki.info###fb-icon
 aktywnie.olsztyn.eu###block-block-8
 akwarysta.eu###Mod111 > .ja-box-ct > .custom > *:nth-child(n+6):nth-child(-n+11)
 alebilet.pl##.widget:nth-child(n+3)
@@ -1531,6 +1532,7 @@ drama-online.pl,niezlomni.com##.widget_facebook
 dreamjump.pl##.footer > div > .row > .icons > span, .footer > div > .row > .icons > a[class]:not([id])
 dreamlandstory.com###section-4 > .container > .cta > a > img, .container > .bannerButtons > a:nth-of-type(3)
 dreamland.net.pl###sidebar-moduly > a > img[src="gfx/fb.png"]
+dreamtours.pl##.footer-container ul:nth-of-type(1) > .col3
 dressinn.com##.redesPie:nth-of-type(4)
 drewnianaroza.pl###fixed-social
 dre.pl##img[src="/images/F_icon.svg"]
@@ -1781,6 +1783,7 @@ fandom.com,~www.fandom.com###FacebookWnd, .media.Social.DSWBox
 fandroid.com.pl##.btAccentIconWidget.btIconWidget:nth-of-type(1), .widget-incredibbble-social-counter
 fantasy.ekstraklasa.org##div:nth-child(-n+2) > .featured-box-primary.featured-box.game-box
 fantoma.pl###sc-ico-1
+fashionpost.pl##.soc > li:not(:nth-of-type(4)) > .ir:not(.ico_search)
 fcbarca.com##.article-text-content:nth-of-type(6)
 fcraft.pl###sidebar_index > .tborder:nth-of-type(3)
 fdb.pl##.footer .text-right.col-md-3.col-xs-6 > .text-uppercase, .footer .text-right.col-md-3.col-xs-6 > .list-inline, footer .text-md-right.col-md-3.col-6 > .text-uppercase, footer .text-md-right.col-md-3.col-6 > .list-inline
@@ -2403,6 +2406,7 @@ krokdozdrowia.com##.floating.share > .buttons, [class*="amp-social-share"]
 krokdozdrowia.com##.widget-social-networks
 kropleinternetu.biz##address > .list-1
 krosnice.pl##a[href="https://www.facebook.com/cets.krosnice/"]
+krosno.com.pl##.insta-title, .insta-items
 kruczek.pl###menu-item-16323, #menu-item-16324, #menu-item-16325,#menu-item-16326
 kryptowaluty.info.pl###text-46 > .textwidget > .su-divider-style-default.su-divider, #sfsi-widget-3, #footer-widgets
 krypto.net.pl###bunyad-social-3
@@ -3646,7 +3650,6 @@ sklep.granna.pl##.cms-links > ul > .last > span:not(:nth-of-type(2))
 sklep.grupazpr.pl##.tab_promo
 sklep.gry-online.pl##.icon-offset-left > .hdr-open
 sklep.jelp.pl###baner3
-sklep.krosno.com.pl##a[href="https://fb.com/krosno.glass"]
 sklep.legia.com###hw_cookie_law
 sklep.lemoniade.pl###footer div.col-md-6.col-xs-12.col:nth-of-type(2)
 sklep.mieloch.pl##.clearfix.col-md-2.hidden-sm.hidden-xs.top_icons_wrapper
@@ -4678,7 +4681,10 @@ z-hotel.com###menu-item-868
 ||wolnemedia.net/social-4.gif
 ||wolnemedia.net/social-5.gif
 ||word.olsztyn.pl/img/poznaj_region.png
+||wsensie.pl/images/tt_wsensie.png
 ||wsensie.pl/images/twetter_icon.png
+||wsensie.pl/images/vimeo_wsensie.png
+||wsensie.pl/images/yt_wsensie.png
 ||wsensie.tv/images/twetter_icon.png
 ||www.computer-alliance.pl/wp-content/uploads/2018/12/fsocial*.png
 ||www.dabrowatar.pl/wp-content/uploads/2016/01/FacebookLogoPL1dabrowatar_pl.png
@@ -4695,6 +4701,7 @@ z-hotel.com###menu-item-868
 ||zd24.pl/modules/mod_susnet_likebox/css/style.css
 ||zpazurem.pl/images/layout/icons/fb-medium.png
 ||zpazurem.pl/images/layout/icons/printerest-medium.png
+||zsp2.edu.pl/graphics/fb.png
 !
 !
 ! Blokowanie elementów po zastosowaniu generichide
