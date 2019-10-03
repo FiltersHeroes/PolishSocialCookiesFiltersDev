@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.10.1.1
-! Last modified: Tue, 01 Oct 2019, 19:00 UTC+02
+! Version: 2019.10.3.0
+! Last modified: Thu, 03 Oct 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.10.1.1 aktualizacja: wto, 01 paź 2019, 19:00 UTC+02
+! v.2019.10.3.0 aktualizacja: czw, 03 paź 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -4299,6 +4299,8 @@ www.o2.pl#?##grid > div[class][data-st-area*="Quotes"] a[href*="/cytat/"] div[cl
 www.o2.pl#?##stream > div > div[data-st-area*="Stream"] > div > div[class]:not([id]):-abp-has( > a[href*="social"])
 www.opera.com##.social > li > a > img
 www.pcworld.pl##.navbar-right.navbar-nav.nav li.nav-item:nth-of-type(3)
+www.philips.pl##.p-social-wrapper
+www.philips.pl#?#div.p-l-one-quarter.p-grid-item:nth-of-type(4):-abp-contains(Podłącz mnie)
 www.pila.pl###kontakt .col-md-5.col-xs-12
 www.pisz.pl##.slider_button
 www.pkobp.pl##.icon-goldenline.social-icon--goldenline.social-icon
