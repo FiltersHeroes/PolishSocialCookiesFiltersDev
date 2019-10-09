@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.10.9.1
-! Last modified: Wed, 09 Oct 2019, 19:00 UTC+02
+! Version: 2019.10.9.2
+! Last modified: Wed, 09 Oct 2019, 23:01 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.10.9.1 aktualizacja: śro, 09 paź 2019, 19:00 UTC+02
+! v.2019.10.9.2 aktualizacja: śro, 09 paź 2019, 23:01 UTC+02
 !
 !
 ! Popupy
@@ -4245,6 +4245,7 @@ word.olsztyn.pl##a[href^="https://www.youtube.com/playlist"]
 worldcam.pl##li > a[href="https://www.facebook.com/worldcampl/"]
 wprost.pl##.soc-buttons-box
 wpr.pl##.col-lg-1 > div:nth-of-type(1) > strong
+wp.pl,~www.wp.pl##table[class]:not([id]) > tbody > tr > td[class] > div[class] > div[class] > div[class] + a[class][href*="facebook.com/"][href*="wp"]
 wrobelekelemelek.com###likebox_1
 wroclaw.pl##.ck_social_media > h3, .ck_mobile_social_icon_1, .ck_mobile_social_icon_4, .ck_mobile_social_icon_5, .ck_mobile_social_icon_6, .ck_mobile_social_icon_7
 wrozka.com.pl##.contact_content td:nth-of-type(n+2)
