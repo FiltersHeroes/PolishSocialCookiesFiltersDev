@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.10.11.0
-! Last modified: Fri, 11 Oct 2019, 03:00 UTC+02
+! Version: 2019.10.11.1
+! Last modified: Fri, 11 Oct 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.10.11.0 aktualizacja: pią, 11 paź 2019, 03:00 UTC+02
+! v.2019.10.11.1 aktualizacja: pią, 11 paź 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -1863,6 +1863,7 @@ forumfajerwerki.pl##a[href^="http://www.facebook.com/strzelamywsylwestra"]
 forumfajerwerki.pl##.__xXfacebook
 forumrowerowe.org##.col.ftcol:nth-of-type(4)
 forumsamochodowe.pl###fb_g_like
+forum-ekonomiczne.pl##footer > div > div > div > div.pos-top:nth-of-type(4)
 forum.android.com.pl##.cSignInTeaser_right
 forum.blogowicz.info##a[href="http://url.blogowicz.info/LubieTo"], a[href="http://url.blogowicz.info/gplus"]
 forum.blogowicz.info##.podzielsie, #facebook-badge, #googleplus-badge, .column-sidebar-inner > div:nth-of-type(3), #gfr > div:nth-of-type(-n+2), #facebook2, .imp:nth-of-type(n+5):nth-of-type(-n+6), #gfr > div:nth-of-type(3) > div:nth-child(n+3), .firstPostd > hr:nth-of-type(3)
@@ -1972,6 +1973,7 @@ globenergia.pl,questus.pl##.fa-linkedin-square
 glosbe.com##.footer-row > nav.footer-column:nth-of-type(3)
 gloskoninski.pl##.footer-widgets-2, .footer-widgets-3
 gloswojewodzki.pl###HTML22, #HTML46, #HTML47
+gloszabrza24.pl##.rightcolumn > div.moduletable:nth-of-type(3)
 glos.live###header .clear.faico > li
 glos.live##.col-1-6 > .faico > li
 glos.pl##.widget.social_center
@@ -2184,7 +2186,7 @@ infomech.pl##.social_ico
 infoplanet.pl##.aside-header
 infoplanet.pl##.left-fixed, .footer-fanpages, .footer-header
 inforfk.pl###facebookFixed
-inforlex.pl##.follow
+inforlex.pl,interaktywnapolska.pl##.follow
 informacja-turystyczna.starachowice.eu#?#.item-440:-abp-has( > a[href="https://www.youtube.com/user/umstarachowice"])
 infosecurity24.pl##.card-social
 infostrefa.com##.notifications
@@ -2254,6 +2256,7 @@ jakrobicmarketing.pl###twitter-follow-2, #gcz_facebook_page_like-2, .share-butto
 jak-zdobyc-dziewczyne.pl#?##scroll3:-abp-contains(Fanów na FB)
 jak-zdobyc-dziewczyne.pl#?#.right > ul:-abp-contains(społecznościowych)
 jak.tv##footer .pull-right.list-inline.list-unstyled > li:nth-of-type(-n+4)
+janczyk.pl##p > a[href*="facebook.com/janczykwieslaw"] > img[src$="face.png"]
 janniezbedny.pl###social_gp
 janod.pl###instagram_zone, #instagram_footer
 janod.pl##.flr > .flr > a > img
@@ -4200,6 +4203,7 @@ wiadomosci.olsztyn.pl###execphp-19
 wici.info##.col3 > div.block:nth-of-type(3)
 widzewlodz.pl###logowanie > div > .vtip:nth-child(-n+2)
 wiedzoholik.pl##.c-social-link
+wieliczka.eu##.hbtn-fb.hbtn
 wiemy.to##.clearfix.sidebar-block:nth-of-type(3) > .sea.colheader
 wienerberger.pl##.social-sharing-overlay > h3
 wierszykolandia.pl##.art-sidebar2.art-layout-cell > div.art-block.art-box:nth-of-type(2)
