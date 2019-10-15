@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.10.14.0
-! Last modified: Mon, 14 Oct 2019, 19:00 UTC+02
+! Version: 2019.10.15.0
+! Last modified: Tue, 15 Oct 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.10.14.0 aktualizacja: pon, 14 paź 2019, 19:00 UTC+02
+! v.2019.10.15.0 aktualizacja: wto, 15 paź 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -785,6 +785,7 @@ accent-bikes.com###right_icons
 accu-chek.pl###accuchek-facebook
 ach-te-internety.pl,banita.travel.pl,jaworzno.pl,jdc24.pl,polishclub.org,szybkaprzemiana.pl,testergier.pl##.widget_sfp_page_plugin_widget
 adainfo24.eu##.social > div.icon:nth-of-type(1)
+adams.com.pl##.footer-container > .item:nth-of-type(5) > .moduleta
 adanakebab.pl##.facebook-with-icon
 adapter.pl##.fb-nav-link
 adata.com###footer > div > div > div:nth-of-type(4)
@@ -1635,6 +1636,7 @@ ekoenergia24.eu###topNav li:nth-of-type(-n+2)
 ekologia.pl##.linkWykop, .bi2.bottom-item
 ekologiczny.pl,hotspray.pl,moto125.pl,pstryczki.eu,sklephormann.pl,tylkostylowe.pl,wodna-kraina.pl###widget_shop1
 ekonomik.olsztyn.pl###facebook_head
+ekookna.pl##div.icos__wrapper:nth-of-type(1), div.icos__wrapper:nth-of-type(4)
 eko-central.pl,otomoto.pl,pkl.pl,sklep.widzew.com,superubezpieczenia.pl,uzywanygwarantowany.pl##.social-network
 eksiazki.az.pl##a[href="http://facebook.com/eksiazki"], .subscribe > a[href="https://plus.google.com/+Eksiążkiplus"], .subscribe > a[href="https://twitter.com/e_ksiazki"], .subscribe > a[href="http://www.youtube.com/c/Eksiążkiplus"]
 eksiazki.az.pl##div.box:nth-of-type(2) > h5
@@ -3075,7 +3077,7 @@ palestyna24.pl##.TwitterTweets
 palestyna24.pl##.widget_text.widget:nth-of-type(3)
 pamiatki.pl##.dvs-facebook, .ath_mega-menu__l1--right:nth-of-type(n+4) > .ath_mega-menu__l1__link
 panattonieurope.com##.social-youtube-square
-panelex.pl####wysuwany_div3, #wysuwany_div4, #wysuwany_div5
+panelex.pl###wysuwany_div3, #wysuwany_div4, #wysuwany_div5
 pangrono.pl##div.widget_custom_html.widget.widget_text, .widget_youtube-channel, .widget_like_box_facbook
 pannaannabiega.pl##.socheader > .social_label, .text-right.zl_socicon > .social_label
 pan.olsztyn.pl##.footer-widget.col-sm-4:nth-of-type(1)
@@ -3231,9 +3233,7 @@ pogodynka.pl###head_facebook
 pogradajmy.pl###invitation > .mcb-section-inner.section_wrapper > .clearfix.move-up.valign-top.one.mcb-wrap.wrap
 poid.eu##.button_social_group
 poinformowani.pl###ArticleShare
-poki.pl##a[href="https://www.facebook.com/Poki"], a[href="https://twitter.com/poki"], a[href="https://www.youtube.com/poki"]
-poki.pl##div > div > header > div > div > div > a[href="https://www.facebook.com/Poki/"]
-poki.pl##div > div > header > div > div > div > a[href="https://www.youtube.com/poki"]
+poki.pl##a[href^="https://www.facebook.com/Poki"], a[href^="https://twitter.com/poki"], a[href^="https://www.youtube.com/poki"]
 poki.pl#?#nav:-abp-contains(Visit Poki on)
 pokoleniesmart.pl##.widget_hfsocialfollowerscounterwidget, .hf-network
 polako.eu##.acx-fsmi-social-icons-desc
@@ -3993,7 +3993,6 @@ to.com.pl##.componentsArticleTools__button, .atomsNavigationFooterSocialmedia__b
 tpay.com##div.col-sm-6.col-md-3:nth-of-type(4) > .widget.widget-2
 tradingjam.pl##.twitter-timeline-profile, #twitter-timeline-profile-2
 tradus.com##.app-footer__social
-tradus.com##.inline-list.app-footer__social > li:nth-child(-n+2)
 traftu.pl##.social > span
 traino.pl#?#.sppb-container-inner > .sppb-row > div.sppb-col-sm-4:nth-of-type(-n+2):-abp-contains(/Facebook|Twitter/)
 transferwise.com##.footer div.row:nth-of-type(1) > div.text-md-left:nth-of-type(4)
@@ -4114,7 +4113,7 @@ urzadskarbowy24.pl###lsi_widget-2 > .widget-title
 urz.pl##a.btn-default.button[href="https://www.facebook.com/SSURz"]
 useme.eu##.links.row > .pull-right > a
 usg.com.pl##.panelfb
-uslugistolarskie.eu##.uk-navbar-right > ul > li:nth-of-type(1
+uslugistolarskie.eu##.uk-navbar-right > ul > li:nth-of-type(1)
 ustawlige.com###menu-item-91
 ustron.pl##div > div > a > .mdi-youtube-play
 ustron.pl##.mdi-facebook, .mdi-instagram
@@ -4145,6 +4144,7 @@ vigo-ortho.pl##footer div.four:nth-of-type(4) > .editable
 vipzakopane.pl##.c-header-nav__links--social
 vistula.edu.pl###vistula-social
 vitasport.pl##.menu_contact_social
+vitopolska.com##a.c-fixed-buttons__button:nth-of-type(1)
 vivaldi.start.me##section:nth-of-type(5)
 vivaldi.start.me###widget-10621594
 viva.pl##.icon-facebook-black
@@ -4494,6 +4494,7 @@ z-hotel.com###menu-item-868
 !fenii.pl##.instagram-feed
 !polskibus.com###footer-more
 !roland-gazeta.pl##.jj_sl_google, .jj_sl_linkedin
+!tradus.com##.inline-list.app-footer__social > li:nth-child(-n+2)
 !www.dobreprogramy.pl#?#.author-social-links > a:-abp-has(> svg:not(.feather-link))
 !
 !
@@ -4673,6 +4674,7 @@ z-hotel.com###menu-item-868
 ||pwik.gliwice.pl/images/ig-logo.svg
 ||radionewsletter.pl/pics/fb_rnl.png
 ||redbullmobile.pl/sites/default/files/face.png
+||rops.torun.pl/pliki/grafika/facebook.png
 ||rtvpixelagd.pl/media/wysiwyg/ikony/fb_ikona-min.jpg
 ||rynek-kolejowy.pl/themes/fb.png
 ||rynek-kolejowy.pl/themes/fbmiddle.png
