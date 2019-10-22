@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.10.22.0
-! Last modified: Tue, 22 Oct 2019, 19:00 UTC+02
+! Version: 2019.10.22.1
+! Last modified: Tue, 22 Oct 2019, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.10.22.0 aktualizacja: wto, 22 paź 2019, 19:00 UTC+02
+! v.2019.10.22.1 aktualizacja: wto, 22 paź 2019, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -4507,6 +4507,7 @@ zwrotzalot.pl##a[href^="https://www.facebook.com/zwrotzalot/"]
 zw.lt##footer .grid-4 > .category-title
 zycieczestochowy.pl##.top-icons > li:nth-of-type(3)
 zyciestolicy.com.pl##.hm-share
+zyciezpsem.pl##.social_nav
 zygzaksnow.pl###ppfacebook
 z-hotel.com###menu-item-868
 !4fun.tv##.mt-4.mb-3.justify-content-center.d-flex, .mt-5.row > div.col-md-4:nth-child(-n+2)
@@ -4930,6 +4931,7 @@ www.x-kom.pl#@#.social-bar
 youtube.com#@##secondary-links
 @@/googleplus-$image,domain=www.wirtualnemedia.pl
 @@/images/fb_$domain=gmclan.org
+@@/images/youtube_$domain=wiwa.info.pl
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
 @@/img/*youtube.jpg$domain=teamquest.pl
 @@/modules/mod_je_social/images/social.png$image,domain=www.roland-gazeta.pl
