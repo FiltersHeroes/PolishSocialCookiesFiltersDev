@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.10.23.0
-! Last modified: Wed, 23 Oct 2019, 19:00 UTC+02
+! Version: 2019.10.26.0
+! Last modified: Sat, 26 Oct 2019, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.10.23.0 aktualizacja: śro, 23 paź 2019, 19:00 UTC+02
+! v.2019.10.26.0 aktualizacja: sob, 26 paź 2019, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -675,6 +675,7 @@ pl##.socializer-gplus-share
 pl##.socializer-twitter
 pl##.socials-bar
 pl##.socials_foot
+pl##.social .twitter
 pl##.social-fb
 pl##.social-float-bar
 pl##.social-gp
@@ -1357,7 +1358,7 @@ comparic.pl##a[href="https://twitter.com/comparic"], .sfm-has-child-menu.sfm-men
 comparic.pl#?#.g-single:-abp-contains(Dołącz do naszej grupy)
 compensa.pl##.footer div.footer__members-item:nth-of-type(n+6):nth-of-type(-n+7), .footer-container > .container-fluid > .row > div.col-xs-12:nth-of-type(3)
 computer-alliance.pl##a[href="https://www.facebook.com/computer.alliance.ltd/"]
-comtv.pl,dell24.pl,mediasystem-tdi.pl,nieprzegap.com,polskanamorzu.pl###musli
+comtv.pl,dell24.pl,dlabydgoszczy.pl,mediasystem-tdi.pl,nieprzegap.com,polskanamorzu.pl###musli
 concordiaubezpieczenia.pl##a[href="//www.facebook.com/ConcordiaUbezpieczenia/"]
 confero.pl##a.confero_social_icon:nth-child(-n+4)
 congee.pl##.col-sm-12.col-md-3.newsletter_facebook
@@ -1508,6 +1509,7 @@ djoles.com,megataxi.pl,polskamafia.pl,twojaanglia.eu,wochenblatt.pl###fpw_widget
 dkms.pl###block-menu-menu-b-d-na-bie-co
 dkpraga.pl##.sdb-social > li:nth-of-type(-n+3)
 dkwadrat.pl##a[href="http://www.facebook.com/DKwadrat"] > img
+dlabydgoszczy.pl,maxforpower.pl,romantycznyweekend.eu,strona.euro-net.pl##.musli
 dlahandlu.pl##.box-3 > div.marginT2x.bordered.header-1:nth-of-type(1)
 dlastudenta.pl,~www.dlastudenta.pl###socialbars
 dla-nas-dla-was.blogspot.com##gadget-dock > .gadget-item:nth-of-type(1), #gadget-dock > .gadget-item:nth-of-type(2), #gadget-dock > .gadget-item:nth-of-type(4), #gadget-dock > .gadget-item:nth-of-type(5), #gadget-dock > .gadget-item:nth-of-type(7)
@@ -1866,11 +1868,14 @@ fly.pl##li.social.hidden-sm.hidden-xs:nth-child(-n+4)
 fokusfashion.com,kupbuty.com###tws_a_0
 foldruk.media.pl###socialmedia-top
 fonopolis.pl##.wce_sociallinks
+foodjobs.pl###tw-slider, #li-slider
 footroll.pl##.likebox-facebook
 footsteps.city##.footer-nav-row
 forbot.pl##h3:nth-of-type(11)
 fordata.pl##div[class$="_footerNewsletter"] > .haszesc:nth-child(5):nth-of-type(3), div[class$="_footerSocial"]
 fordogtrainers.pl##div.horizontal-module.col-xs-12.col-sm-6.col-md-2:nth-of-type(1) > .module-cont
+forte.com.pl###forte-new-social-menu
+forte.com.pl##.instagram_contenerm, .linked_in_contener
 fortnitepolska.pl,overwatch.pl,polscygracze.pl##.mks_button_small
 forumfajerwerki.pl##a[href^="http://www.facebook.com/strzelamywsylwestra"]
 forumfajerwerki.pl##.__xXfacebook
@@ -2642,7 +2647,6 @@ matshop.pl##a[href="https://instagram.com/matshoppl"]
 matshop.pl##a[href="https://twitter.com/Matshoppl"]
 matshop.pl##a[href="https://www.facebook.com/Matshoppl"]
 matshop.pl##a[href="https://www.youtube.com/user/MelanzAlcoTeam"]
-maxforpower.pl,romantycznyweekend.eu,strona.euro-net.pl##.musli
 max-led.pl##.ins-footer .hidden-sm.hidden-xs.col-md-3.col-sm-6.col-xs-12
 mazakzabawki.pl##a.commercial_button2:nth-of-type(3)
 mazda.pl##footer .row--gutters.row > div.col-lrg-3:nth-of-type(4)
@@ -2653,6 +2657,7 @@ mbank.pl##.fr.community
 mbp.opole.pl##.footer-cols-wrapper > .panel-grid-cell:nth-of-type(n+3) > .panel-cell-style.footer-col
 mdkkolbuszowa.pl##A[href^="https://www.facebook.com/mdk.kolbuszowa"], A[href="https://www.youtube.com/channel/UC0R0ALL8IyLcRn8SMTe3iOw"]
 mdk.opole.pl##.visit_us
+meble88.pl###top-nav > .hamburger-menu > ul > li:nth-of-type(7)
 meblewroblewski.eu,sklep-smile.pl##.slide-out-div
 meblezet.com###footer > .row > .col-sm-3.col-xs-12.footer-block
 meble-4you.pl###wr_foot_social
