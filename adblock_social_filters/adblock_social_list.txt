@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.10.26.0
-! Last modified: Sat, 26 Oct 2019, 19:00 UTC+02
+! Version: 2019.10.26.1
+! Last modified: Sat, 26 Oct 2019, 23:01 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.10.26.0 aktualizacja: sob, 26 paź 2019, 19:00 UTC+02
+! v.2019.10.26.1 aktualizacja: sob, 26 paź 2019, 23:01 UTC+02
 !
 !
 ! Popupy
@@ -892,7 +892,7 @@ animes.pl##div:nth-of-type(2) > .button, #ougcannbars_bar_1, .register:nth-of-ty
 anime-centrum.pl##.button-social-1
 ankadziedzic.pl##.td-footer-wrapper .td_block_instagram
 anmar-pl.com##div.left.widget-handle.module:nth-of-type(2)
-annalotan.pl,bananki.pl,bptour.pl,bramy-aga.pl,cannamos.pl,dwmed.pl,e-forma.pl,eitca.pl,encje.odjechani.com.pl,fryzjerskie.com,gkstychy.info,gorlice.tv,gotujwstylueko.pl,iopen.pl,jwc.pl,konsalnet.pl,lark.com.pl,myfloor.pl,nabudowe24.pl,paradashop24.pl,pracawgdansku.com.pl,reagujratuj.pl,rze.pl,sklep.precio.pl,sklep5438865.homesklep.pl,univision24.pl,widzewiak.pl,wilanow-palac.pl,wsliwinski.pl,www.mbank.pl,www.sellsmart.pl,zielarnia24.pl,zm.org.pl,zycie.pl,zyciepabianic.pl###facebook
+annalotan.pl,bananki.pl,bptour.pl,bramy-aga.pl,cannamos.pl,dwmed.pl,e-forma.pl,eitca.pl,encje.odjechani.com.pl,fryzjerskie.com,gkstychy.info,gorlice.tv,gotujwstylueko.pl,iopen.pl,jwc.pl,konsalnet.pl,lark.com.pl,maikpol.pl,myfloor.pl,nabudowe24.pl,paradashop24.pl,pracawgdansku.com.pl,reagujratuj.pl,rze.pl,sklep.precio.pl,sklep5438865.homesklep.pl,univision24.pl,widzewiak.pl,wilanow-palac.pl,wsliwinski.pl,www.mbank.pl,www.sellsmart.pl,zielarnia24.pl,zm.org.pl,zycie.pl,zyciepabianic.pl###facebook
 annapoplawska.pl##.qodef-footer-top
 annapoplawska.pl#?#div.qodef-grid-section.qodef-section.vc_row-fluid.wpb_row.vc_row:-abp-has(a[href*="facebook.com"] > img)
 anna-urbanska.pl###sfsi-widget-4
@@ -1413,6 +1413,7 @@ cumulus.pl##.Content .intro > .appName
 cvdopracy.pl##div.col-12-xs.col-6-sm.col-2:nth-of-type(4) > h3:nth-of-type(2), ul > li > a[href="https://www.facebook.com/CVdopracy"]
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##.header-bottom-social
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##.mt-30.right-news-module
+cybersecforum.eu##.sm-icons > a
 cybersport.pl##div.sidebar-widget:nth-child(n+12)
 cybersport.pl##.footer-right-top
 cybex-online.com#?#.Container-item div[class="u-md-marginBottom60 u-sm-marginBottom60"]:-abp-contains(ŚLEDŹ NAS)
@@ -2770,7 +2771,7 @@ modile.pl##.footer-bg.footer__info-inner > div > .col-md-5.unvisible.footer-colu
 moico.pl##.conSocialLinks
 mojaholandia.nl##.tbr-social
 mojaniderlandia.pl##.fbConnect
-mojanorwegia.pl##.left > h3
+mojaniderlandia.pl,mojanorwegia.pl###mnFooter > div > .left > h3
 mojaolesnica.pl##.mainright > div.tabela:nth-of-type(9)
 mojawww.com###socialFoot > span
 moja-ostroleka.pl##.odslony > tbody > tr > td:nth-of-type(3)
@@ -3336,6 +3337,7 @@ portalzp.pl##.spoleczna_stopka
 portal.abczdrowie.pl##.fb-container
 portal.bikeworld.pl##.sidebar > .panel:nth-of-type(1), .sidebar > .panel:nth-of-type(4)
 portal.lellek.pl##a[href="/lel/batony/343,Lellek-Facebook.html"]
+porta.com.pl##.social_bttn_pinterest_wrapper
 poselbrynkus.pl##div#ssba-classic-2
 poselbrynkus.pl#?#h2:-abp-contains(Facebook)
 posir.pl##.bot_cont:nth-of-type(5)
@@ -4528,6 +4530,7 @@ z-hotel.com###menu-item-868
 !
 ! Specyficzne reguły blokujące
 /followusontwitterlogo.jpg$domain=riskcompliance.pl
+/konsedo_new/facebook_k_l.jpg$domain=dadas.home.pl
 /public/assets//baner-yt-sklep.png$image,domain=sklep.precio.pl|sklep5438865.homesklep.pl
 /themes/fbLogo.jpg$image,domain=rynek-lotniczy.pl|rynekinfrastruktury.pl
 /themes/twLogo.jpg$image,domain=rynek-lotniczy.pl|rynekinfrastruktury.pl
