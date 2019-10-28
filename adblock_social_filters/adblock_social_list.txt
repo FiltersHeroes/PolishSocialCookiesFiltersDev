@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.10.27.1
-! Last modified: Sun, 27 Oct 2019, 22:00 UTC+01
+! Version: 2019.10.28.0
+! Last modified: Mon, 28 Oct 2019, 23:17 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.10.27.1 aktualizacja: nie, 27 paź 2019, 22:00 UTC+01
+! v.2019.10.28.0 aktualizacja: pon, 28 paź 2019, 23:17 UTC+01
 !
 !
 ! Popupy
@@ -973,7 +973,7 @@ atcdevelopment.pl##a[href*="www.facebook.com/SRODMIESCIEodnowa"] > img, a[href="
 aten.com###footer .col_two_third > .col_last.col_one_third > .widget > h4
 atnel.pl###trigger1
 atrakcjekrynicy.pl###stopka_ikony
-atriumshop.eu,czterylapysklep.com,diagcar.eu,kameleonbutik.com,motoklinika.com,spacetronik.eu###facebook_block
+atriumshop.eu,czterylapysklep.com,diagcar.eu,kameleonbutik.com,motoklinika.com,spacetronik.eu,swieczka.eu###facebook_block
 atriumsystem.eu##.box-social-media.box
 atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com#?#section > .container-fluid:-abp-has( > h2:-abp-contains(Instagram))
 atrium-felicity.pl,atrium-koszalin.pl##.ico-foursquare.ico, .ico-new-instagram.ico-new, #header_link_fb_mobile, #header_link_4sq_mobile, #header_link_instagram_mobile
@@ -1210,6 +1210,7 @@ brand.ceo##.social-notification
 breakplan.pl##nav.bottom:nth-of-type(2)
 brg.gda.pl##.fb-url
 brieftip.pl###menu-item-8192, .format-standard.status-publish.type-post.post > footer
+briefz.pl##li.socialsharing_mb_wrapper_item > i:not([class*="Mail"])
 brita.pl##.social-media-container
 britneyspears.pl,solidarnoscarimr.pl###right
 brooklynbutik.pl##.block > a[href="https://www.instagram.com/brooklynbutik/tagged/"] > img
@@ -1273,11 +1274,12 @@ cbdremedium.pl,clover.net.pl,ekipatonosi.pl,wksklep.pl##.shb-header-social, .shb
 ccc.eu##.is-socialMenu, .c-menu_item [data-analytics-settings*="Obserwuj nas"], .c-menu_item [data-analytics-settings*="Facebook"], .c-menu_item [data-analytics-settings*="Instagram"], .c-menu_item [data-analytics-settings*="Youtube"]
 cdahd.pl##.rdt, .social-share-round
 cdax.pl##p:nth-of-type(4)
-cdn.ug.edu.pl,eredaktor.pl,fashionvoyager.pl,hayes.com.pl,kt24.pl,metalgearsolid.pl,moj-kawalek-podlogi.pl,sklep.sztukawyboru.eu,wrodzinie.pl,wspomagamy.pl###text-5
+cdn.ug.edu.pl,eredaktor.pl,fashionvoyager.pl,hayes.com.pl,kt24.pl,metalgearsolid.pl,moj-kawalek-podlogi.pl,sklep.sztukawyboru.eu,szklomal.eu,wrodzinie.pl,wspomagamy.pl###text-5
 cdp.pl##.fmenu-col.col4
 cede.pl###tweeter
 cena33.pl##.shop-social > ul > li > a:not([href="#"])
 ceneo.pl##.sm-link
+cenka.pl##.social-cenka
 cenowarka.pl###fb-btn-img
 centrumcyfrowe.pl##div.fl.w120.minimenu:nth-child(n+3):nth-child(-n+5)
 centrumdialogu.com##.bd-layoutbox-3 > .bd-container-inner > a:not(:last-of-type)
@@ -1431,7 +1433,7 @@ czerwonak.pl###fb-root
 czerwonak.pl,infobowling.pl,szkola-jazdy.pl,zikom.pl###fb-side-like
 czescidobmw.pl##.facebook-plugin
 czestochowskie24.pl###text-32, .item-youtube
-czestochowskie24.pl,detektywprawdy.pl,greencanoe.pl###text-13
+czestochowskie24.pl,detektywprawdy.pl,greencanoe.pl,szklomal.eu###text-13
 czterylapysklep.com,okiemrolnika.pl,rynek.de,zdmikp.bydgoszcz.pl###likeboxbluestandardright
 czytamyetykiety.pl##.socialki
 c-and-a.com##.util-add-margin-bottom.col-md-4.col-xs-12:nth-of-type(3)
@@ -1945,6 +1947,7 @@ gazeo.pl##.yt-blue
 gazetabaltycka.pl##.share > ul > li:nth-of-type(-n+12)
 gazetalubuska.pl###prawa-kolumna > .blok:nth-of-type(n+5):nth-of-type(-n+7):not(:nth-of-type(6))
 gazetamiedzyszkolna.pl###advanced_text-3
+gazetamikolowska.eu,telewizjapiotrkow.pl##.jslikeboxsidebarinner
 gazetapowiatowa.pl##.box-author
 gazetapraca.pl##.external_link_other[href="https://www.facebook.com/MGsolutionsapt/"]
 gazetaprawna.pl##a[href="https://www.facebook.com/gazetaprawnapl"], a[href="http://plus.google.com/+gazetaprawna"], a[href="http://twitter.com/gazetaprawnapl"], .iconSocial, .socialIco
@@ -3285,6 +3288,7 @@ polscygracze.pl##.bb-post-share-box, .share-toggle, .social.social-footer > ul >
 polskaekologia.org###object > .social, #block-block-28
 polskainstitutet.se##.newsBottom > .share, div.field:nth-of-type(3) > .fieldTitleRight
 polskaizbabranzypogrzebowej.pl##.social.column--1-4
+polskaszkolaleuven.eu##a[href="https://polskaszkolaleuven.eu/blog-2/"] > img
 polskawoda.com.pl#?#.fp-section.section-5.section > h2:-abp-contains(/Bądźmy w.*kontakcie/)
 polska.travel,pot.gov.pl###icons
 polskicaravaning.pl##a > img[src="layout/youtube-logo.png"]
@@ -3962,7 +3966,6 @@ teleguru.pl##.social-media
 telepizza.pl##.foot_wrap > .row > .hhh > a:not([class]) > img[class^="iimg"]
 telepolis.pl,tlp.is##.big-socials-facebook, .big-socials-twitter
 telewizjaleszno.pl###comp-ilarw1nk, #comp-ij0fuucb, .vlog-actions-social-list.vlog-soc-menu
-telewizjapiotrkow.pl##.jslikeboxsidebarinner
 telewizjarepublika.pl###menu-top > ul > li:nth-of-type(6), .mainpage-row:nth-of-type(9) > .mainpage-column-right > .bar
 telewizjatvt.pl###menu-item-117, #menu-item-118, .ft_sc0.col-sm-4.col-md-15
 telewizja.us.edu.pl###bottom-content > #widgets
@@ -4108,7 +4111,6 @@ ubieranki.eu##.socialMini
 ubraniak.pl##p > a[href*="facebook.com/Ubraniak/"] > img
 ubucentrum.net##a[href="http://www.facebook.com/ubucentrum"] > img
 uctok.com##.fbie
-ulotki.net###likeboxblueiconright
 um24.pl##.m-kontakt.navbar-nav.nav > li:nth-child(n+2)
 umcs.pl##.layout-follow .col-lg-6.col-md-5 > .iblocks-30.iblocks, .layout-follow .col-lg-5.col-md-6 > .iblocks-30.iblocks > .iblock:nth-of-type(-n+2)
 umed.pl##.socjale-gora > ul > li:nth-child(n+2)
@@ -4901,11 +4903,12 @@ interia.pl,pomponik.pl,~www.interia.pl#@#.article-social
 interia.pl,pomponik.pl,~www.interia.pl#@#.article-social-buttons
 interia.pl,pomponik.pl,~www.interia.pl#@#.share-link
 janssenmed.pl#@#.footer-social
-kadantiscam.netlify.com,www.pkobp.pl#@#.social-icon
+kadantiscam.netlify.com,naszesprawy.eu,www.pkobp.pl#@#.social-icon
 kingowiec.pl#@#.socialmedia
 komputerswiat.pl,onet.pl,realmadryt.pl,tvn24bis.pl#@#.social-container
 kosapopatelni.pl#@#.bdaia-social-io
 kosapopatelni.pl#@#.widget-social-links
+login.aliexpress.com#@#.sns-btns
 lublin112.pl#@##social-icon
 medycyna24.pl,wp.pl,~www.wp.pl#@#.share-links
 miedzyrzecz.biz#@#.td_block_social_counter
