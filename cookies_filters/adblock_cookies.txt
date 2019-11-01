@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.11.1.0
-! Last modified: Fri, 01 Nov 2019, 02:00 UTC+01
+! Version: 2019.11.1.1
+! Last modified: Fri, 01 Nov 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.11.1.0 aktualizacja: pią, 01 lis 2019, 02:00 UTC+01
+! v.2019.11.1.1 aktualizacja: pią, 01 lis 2019, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1506,7 +1506,7 @@ piekarniabialogon.pl###spu-418, #spu-bg-418
 piekne-anioly.org##.sqs-cookie-banner-v2
 piekni.pl##.cookie-notice-accept
 piening-montage.de###privacyWrapper
-pilot.wp.pl#?##gatsby-focus-wrapper > div > div:empty + div[class]:-abp-contains(cookies)
+pilot.wp.pl#?##gatsby-focus-wrapper > div[class*="sc-"] > div[class^="sc-"]:-abp-contains(cookies)
 pipelife.com###coo
 pizzahut.pl###ph-cookies
 pizzaportal.pl,pl.chili.com##.react-cookie-banner
