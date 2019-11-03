@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.11.2.1
-! Last modified: Sat, 02 Nov 2019, 18:00 UTC+01
+! Version: 2019.11.3.0
+! Last modified: Sun, 03 Nov 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.11.2.1 aktualizacja: sob, 02 lis 2019, 18:00 UTC+01
+! v.2019.11.3.0 aktualizacja: nie, 03 lis 2019, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -156,6 +156,7 @@ pl##.facebook-popup
 ! Ogólne reguły ukrywające
 com,pl##.pwebbox.pwebbox-plugin-facebook_page_plugin
 com,pl##.pwebbox.pweb-theme-fbnavy:not(.pwebbox-plugin-facebook_page_plugin)
+elektro-outlet.net##.fb-messengermessageus
 pl##.FBButton
 pl##.Facebook
 pl##.Instagram
@@ -2906,6 +2907,7 @@ najlepszewkuchni.pl##footer div:nth-of-type(4)
 najmeble.pl###mpcth_header_socials
 najtanszeogrzewanie.pl##.slide-out-div, .sslide
 namasce.pl###facebook-like-box-2, #jr_insta_slider-2, .post-share
+namit.pl##footer .row > div > .bd-column.bd-layoutcolumn-111
 nananana.pl###instagram-label, .jr-insta-thumb
 nananana.pl##.menu-item > a[href="https://instagram.com/nananana.pl/"], .menu-item > a[href="https://www.facebook.com/NanaNanapl-539273176512214/"]
 nanarty.info##.btn-share-social, .menu_social_sidebar.menu.nav, .mn-social.menu_vertical.sp-column
@@ -3734,6 +3736,7 @@ sklep.eltron.pl##a[href="https://twitter.com/Eltronpl"]
 sklep.eltron.pl##a[href="https://www.facebook.com/EltronWroclaw"]
 sklep.eltron.pl##a[href="https://www.youtube.com/c/EltronWroclaw"]
 sklep.eltron.pl##.in > b
+sklep.esanatoria.eu###fbpptab
 sklep.gardenbx.pl##.bottom-footer #wtyczki > p
 sklep.granna.pl##.cms-links > ul > .last > span:not(:nth-of-type(2))
 sklep.grupazpr.pl##.tab_promo
@@ -3846,6 +3849,7 @@ starachowice.eu###sp-bottom-logo .sp-module-content > .custom > ul > li:nth-of-t
 stardadaj.pl###social-fixed
 staresiolkowice.pl##.barcelona-widget-social-counter
 starkl.pl###soc-net-footer, li:nth-of-type(3) > h2:nth-of-type(3)
+starosadeckie.info##.novelty_widget_social_icons.widget
 stars-impresariat.pl##.contact-summary-part-buttons > .grey.button.big:nth-of-type(2)
 stars.pl##footer.row > .mainfooter > .mainfooter-colLeft
 start24.pl##a[href="http://blog.start24.pl"], a[href="https://www.facebook.com/START24/"]
@@ -4746,6 +4750,7 @@ z-hotel.com###menu-item-868
 ||scrabblemania.pl/SliderFaceBookGooglePlusOne/plus1_slide.png
 ||serwiswloclawek.pl/wp-content/uploads/*/*/logo-fb.png
 ||sklepjubilerski.com/gfx/fb.jpg
+||sklep.grupamagnum.eu/public/assets/my/ikonkaMessenger.png
 ||smac.pl/wp-content/uploads/2014/11/fb.png
 ||smarkacz.pl/images/gfx/ins2.png
 ||sp33.olsztyn.pl/wp-content/uploads/2017/12/fanpage.jpg
