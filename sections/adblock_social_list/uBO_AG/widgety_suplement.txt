@@ -13,11 +13,6 @@ e-nobi.pl###social:style(height: auto !Important;)
 freshfile.pl##.facebook, .google:style(visibility: hidden !important;)
 giritoffset.pl##+js(remove-attr.js, href, .jcarousel-item > a[href^="https://www.facebook.com/reklamatorregionalny"])
 jbzdy.*,jbzd.*##.btn-send-messenger
-www.kuzniazdrowia.pl##.icon_facebook, .icon_instagram:style(visibility: hidden !important;)
-www.kuzniazdrowia.pl#@#.icon_facebook
-www.kuzniazdrowia.pl#@#.icon_instagram
-www.kuzniazdrowia.pl#@#a[title="Facebook"]
-www.kuzniazdrowia.pl#@#a[title="Instagram"]
 meblomag.eu##+js(nano-remove-elements-onready.js, map[name="Map4"] > area:nth-of-type(1))
 meblomag.eu##+js(remove-attr.js, href, map[name="Map4"] > area:nth-of-type(1))
 muza.com.pl###facebook:style(visibility: hidden !important;)
@@ -35,3 +30,8 @@ weather.com##.SocialMediaShareButton:style(pointer-events: none; position: unset
 werandafamily.com##+js(remove-attr.js, href, .instagram-item > .link-block)
 wp.pl##.article > [class]:has( > [class] > .fb-like)
 www.adres-ip.pl##.s1.sidebar > .sidebar-content > .group.sidebar-top > p:style(visibility: hidden !important;)
+www.kuzniazdrowia.pl##.icon_facebook, .icon_instagram:style(visibility: hidden !important;)
+www.kuzniazdrowia.pl#@#a[title="Facebook"]
+www.kuzniazdrowia.pl#@#a[title="Instagram"]
+www.kuzniazdrowia.pl#@#.icon_facebook
+www.kuzniazdrowia.pl#@#.icon_instagram
