@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.11.7.1
-! Last modified: Thu, 07 Nov 2019, 22:00 UTC+01
+! Version: 2019.11.8.0
+! Last modified: Fri, 08 Nov 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.11.7.1 aktualizacja: czw, 07 lis 2019, 22:00 UTC+01
+! v.2019.11.8.0 aktualizacja: pią, 08 lis 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -227,6 +227,7 @@ bambino.dzidziusiowo.pl##.section--cookies
 banggood.com##.cookie-tip
 bankier.pl###smart-cmp-host
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
+bankmillennium.pl##.top-page-cookies
 bardotti.pl##.wpmui-popup
 bartix.pl,ddwlkp.pl,pch24.info,pmi24.info,pnt24.info,pob24.info,pzl24.info###menusDiv
 batida.pl###top-closable-message
@@ -766,7 +767,7 @@ forum.naziemna.info###cookies-m
 forum.optymalizacja.com,prestashop.com,sat-4-all.com###elGuestTerms
 forum.vwgolf.pl##iframe[src="cookie.html"]
 forum.zarabianie24.net##div[style="font-family: Tahoma; margin-bottom: 6px; padding: 5px; font-size: 10px; color: rgb(0, 0, 0); background-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-color: black; border-bottom-style: solid; "]
-fostertravel.pl##.ft-rodo-html-banner
+fostertravel.pl,wycieczki.tanie-loty.com.pl##.ft-rodo-html-banner
 fotka.com,joemonster.org,mistrzowie.org,pl.delfi.lt,strawpoll.me,styl.fm##body > div[class^="app_gdpr"]
 foto4u.pl,fotoprint.pl,smakizycia.pl,zoover.pl###info-bar
 fotojoker.pl##div#floatDiv
@@ -1053,6 +1054,7 @@ kartonwork.pl,luszczyce.pl##body > div > div[style*="position"][style*="fixed"]
 kartunsy.pl###ait-infobar
 kartuzy.info##div#page_top_topbar2
 kawasaki.pl###Panel_Cookies
+kayak.pl##div[id$="gdpr"][class*="gdpr"]
 kazar.com#?#.bottom-data:-abp-has(.cookie-info)
 kca.nick.com.pl##section.module-container ~ div > .page-overlay > .page-overlay_wrapper
 kepno.pl###dhtml_popup
@@ -1629,7 +1631,7 @@ przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 przelewy24.pl,zlotyaniol.pl###policy_container
 przepisyjoli.com##.CookieModalContainer
 przepisyjoli.com##.GdprModalContainer
-psd2-pdev.bskadzidlo.pl,rentis.pl##.cdk-overlay-container
+psd2-pdev.bskadzidlo.pl,rentis.pl,www.kayak.pl##.cdk-overlay-container
 psprices.com###pg-gdpr
 pstryczki.eu###topInfoContainer0
 ptep.pl##.rodo_popup
@@ -2241,7 +2243,7 @@ zysk.com.pl###pageUpperInfo
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||twoje-seriale.pl/cookies.html$subdocument
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|krokdozdrowia.com|krzyzowka.net|mytastepol.com|najnowsze-wiadomosci.eu|newonce.radio|pl|softpedia.com|synonim.net|time.is
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|krokdozdrowia.com|krzyzowka.net|mytastepol.com|najnowsze-wiadomosci.eu|newonce.radio|pl|pl.bab.la|softpedia.com|synonim.net|time.is
 ||vox.pl/modal/rodo$xmlhttprequest
 ||wieczorpomorze.pl/wp-content/themes/colormag/js/magnific-popup/jquery.magnific-popup.min.js
 ||www.aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
@@ -3138,6 +3140,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
 ! Bugi Kiboke
+@@/gdpr/cookieconsent.$domain=www.kayak.pl
 @@||lec.com.pl/wp-content/plugins/cookie-message/js/custom.js
 @@||nf.pl/js/libs/cookiesDirective.js$script
 !
