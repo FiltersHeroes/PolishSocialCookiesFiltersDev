@@ -1686,8 +1686,8 @@ korr.pl##a[href="http://www.facebook.com/pages/KORR/512135138801101"], a[href^="
 korsokolbuszowskie.pl##.sbuttons > li:nth-of-type(5)
 korsokolbuszowskie.pl,oakandberry.com##.in
 korsosanockie.pl##.sbuttons > li:nth-of-type(4)
-korso.pl##.sbuttons > li:nth-of-type(3)
-korso.pl##.sbuttons.list-inline.list-unstyled > li:nth-of-type(4)
+korso.pl##.sbuttons > li:nth-of-type(n+3):nth-of-type(-n+4)
+korso24.pl##.sbuttons > li:nth-of-type(-n+3)
 kosapopatelni.pl##.bdaia-io-url-instagram
 kosapopatelni.pl,weneedmore.space###media_image-3
 kosmetykizameryki.pl##.insta-top
@@ -2784,7 +2784,7 @@ radiosud.pl##.sud-i-facebook, .sud-i-gplus
 radiosygnaly.pl#?#div[class^="et_pb_button"]:-abp-contains(/INSTAGRAM|FACEBOOK/)
 radioszczecin.pl##.boxext
 radiotczew.pl##li:nth-of-type(1) > a[href="https://twitter.com/radiotczew"], li:nth-of-type(2) > a[href="http://www.facebook.com/RadioTczew"]
-radiotczew.pl##.sbuttons > li:nth-of-type(n+3):nth-of-type(-n+4) > a
+radiotczew.pl##.sbuttons > li:nth-of-type(n+3):nth-of-type(-n+4)
 radiovia.com.pl###footer > div > div > div > p.text-center:nth-of-type(1)
 radiowarszawa.com.pl##.wp-side-menu > .wp-side-menu-item
 radio-goldap.com.pl###footer .hidden-xs.hidden-sm.col-md-3.col-sm-6.col-xs-12 > h2
