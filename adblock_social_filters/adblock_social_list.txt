@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.11.10.0
-! Last modified: Sun, 10 Nov 2019, 02:00 UTC+01
+! Version: 2019.11.10.1
+! Last modified: Sun, 10 Nov 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.11.10.0 aktualizacja: nie, 10 lis 2019, 02:00 UTC+01
+! v.2019.11.10.1 aktualizacja: nie, 10 lis 2019, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -969,8 +969,7 @@ astronomia24.com##.googleplusBtn, .youtubeBtn, .footer-icons > a[href="https://p
 astronomiaamatorska.pl#?#table.news:nth-of-type(2):-abp-contains(na serwisach społecznościowych:)
 astroweb.pl##.col-md-8 > div:nth-of-type(4)
 astroweb.pl,przewodnikduchowy.pl##.well:nth-of-type(1)
-aszdziennik.pl,innpoland.pl,mamadu.pl,natemat.pl##a[href*="/natematpl"] > img[src^="/static/media/"]
-aszdziennik.pl,innpoland.pl,mamadu.pl,natemat.pl##.art__body__instagram-container
+aszdziennik.pl,dadhero.pl,innpoland.pl,mamadu.pl,natemat.pl##.art__body__instagram-container, .art__conclusion__share
 atarashii.pl###container > table:nth-of-type(2) > tbody > tr > td:nth-of-type(3)
 atcdevelopment.pl##a[href*="www.facebook.com/SRODMIESCIEodnowa"] > img, a[href="https://twitter.com/ATC_Development"] > img
 aten.com###footer .col_two_third > .col_last.col_one_third > .widget > h4
@@ -2783,6 +2782,12 @@ mng.gda.pl##section.section-opaque > .container-vertical-middle.container-fullwi
 mnwr.pl##.bottom-menu-lvl-2__sm > .footer-sm-2
 mobbingwpracy.com,www.risreklamy.pl,www.up.krakow.pl##.jj_sl_navigation
 mobilevikings.pl##.footer-other.columns > div.col-6-12:nth-of-type(1)
+mobile.aszdziennik.pl##a[href*="/aszdziennik" i] > img[src^="/static/media/"]
+mobile.aszdziennik.pl,mobile.dadhero.pl,mobile.innpoland.pl,mobile.mamadu.pl,mobile.natemat.pl#?##article-body > div:last-of-type:-abp-contains(Znajdź nas na)
+mobile.dadhero.pl##a[href*="/dadheropl" i] > img[src^="/static/media/"]
+mobile.innpoland.pl##a[href*="/innpoland" i] > img[src^="/static/media/"]
+mobile.mamadu.pl##a[href*="/mamadupl" i] > img[src^="/static/media/"]
+mobile.natemat.pl##a[href*="/natematpl" i] > img[src^="/static/media/"]
 mobilitytrends.pl##.footer_social_link:nth-of-type(4)
 mobilne-miasto.org###go-twitter, #go-facebook, #go-linkedin
 mocak.pl##.mocak-social-links
