@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.11.15.1
-! Last modified: Fri, 15 Nov 2019, 22:00 UTC+01
+! Version: 2019.11.16.0
+! Last modified: Sat, 16 Nov 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.11.15.1 aktualizacja: pią, 15 lis 2019, 22:00 UTC+01
+! v.2019.11.16.0 aktualizacja: sob, 16 lis 2019, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1142,6 +1142,7 @@ leclerc.com.pl##div#tekst
 leddo.pl,zdp.poznan.pl##.rodo-block
 legalsite.pl###message-1
 legia.com###cook-wrapper
+legia.com#?##root > div > #real-content > div[class^="jss"]:last-of-type:-abp-contains(cookies)
 legionisci.com,odkrywamyzakryte.com###ez-cookie-dialog-wrapper
 legoland.de##.alertbar
 lego.com###GFSticky
