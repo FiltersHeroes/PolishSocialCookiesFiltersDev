@@ -1,9 +1,7 @@
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 7ryb.pl,etransport.pl,hrkgame.com##.modals.dimmer
-empik.com##.cookies-accept, .modal-backdrop
-empik.com##+js(nano-remove-elements-onready.js, .cookies-accept)
 7ryb.pl,etransport.pl,hrkgame.com##.dimmed:style(overflow: auto !important;)
-24wroclaw.pl,bosch-easycontrol.com,ceres.pl,dane.gov.pl,e-sochaczew.pl,giantfabryczna.pl,gry.lotto.pl,handluj.com,komugroup.eu,liv-cycling.com,m.24jgora.pl,multimediago.pl,obywatel.gov.pl,olesnica24.com,panoramafirm.pl,printoteka.pl,repostuj.pl,tvdami.eu,tvgo.orange.pl,wedkuje.pl,wrzesnia.info.pl,zwolen.pl,empik.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+24wroclaw.pl,bosch-easycontrol.com,ceres.pl,dane.gov.pl,e-sochaczew.pl,empik.com,giantfabryczna.pl,gry.lotto.pl,handluj.com,komugroup.eu,liv-cycling.com,m.24jgora.pl,multimediago.pl,obywatel.gov.pl,olesnica24.com,panoramafirm.pl,printoteka.pl,repostuj.pl,tvdami.eu,tvgo.orange.pl,wedkuje.pl,wrzesnia.info.pl,zwolen.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 24wroclaw.pl,m.24jgora.pl###rodoModal, .modal-backdrop
 abcalkoholu.pl##.cookielaw:style(padding-top: 0 !important;)
 adexemplum.com,fastdeal.pl,gtv.com.pl,teoria.pl,wsd.salwatorianie.eu##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
@@ -80,6 +78,8 @@ echo24.tv##.on-top:style(top: 0 !important;)
 edupolis.pl###sgpb-popup-dialog-main-div-wrapper, .sg-popup-overlay
 elevensports.pl,hendi.pl,ipla.tv##.no-scroll:style(overflow: auto !important;)
 elevensports.pl,ipla.tv##.rodo-rules-modal
+empik.com##+js(nano-remove-elements-onready.js, .cookies-accept)
+empik.com##.cookies-accept, .modal-backdrop
 e-sochaczew.pl,paczkomaty.pl,repostuj.pl,wedkuje.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
 e-sochaczew.pl,wedkuje.pl##RODOCOOKIE, .modal-backdrop
 e-sochaczew.pl,wedkuje.pl##+js(abort-current-inline-script.js, SendAccept2, RODOCOOKIE)
