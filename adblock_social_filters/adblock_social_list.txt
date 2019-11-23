@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.11.22.0
-! Last modified: Fri, 22 Nov 2019, 02:00 UTC+01
+! Version: 2019.11.23.0
+! Last modified: Sat, 23 Nov 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.11.22.0 aktualizacja: pią, 22 lis 2019, 02:00 UTC+01
+! v.2019.11.23.0 aktualizacja: sob, 23 lis 2019, 02:00 UTC+01
 !
 !
 ! Popupy
@@ -3488,7 +3488,9 @@ puccini.pl##.pcn_footer_menu_items > .pcn_footer_social
 puccini.pl#?#.page > .col1-layout.main-container:-abp-contains(na instagramie)
 puch-kotlowski.pl###widget-15
 pudelek.pl###o2FBFanbox, .aside-youtube-channel, .header-fb-link
+pudelek.pl###page_header > a:nth-of-type(-n+3), #page_header > nav > div:nth-of-type(2) > a:nth-of-type(-n+3)
 pudelek.pl##.like-box-wrap
+pudelek.pl#?##page_footer > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2):-abp-contains(Bądź na bieżąco)
 pulshr.pl##li:nth-of-type(1) > a[href="https://www.facebook.com/pulsHR"]
 pulshr.pl##.box-1 > .v2
 pulsmedycyny.pl###LinkArea\:NavHeader > li:nth-of-type(-n+3), .npb-js-tabs > a[href="#npb-tab-twitter"]
@@ -4243,6 +4245,7 @@ vice.com##.titlebar__icons__social
 vidaron.pl##.youtube.panel-icon
 videotesty.pl##footer li.column:nth-of-type(3)
 video.wp.pl,wideo.wp.pl#?#article div[class^="sc-"]:-abp-has( > button + div:-abp-contains(/^Podziel się$/))
+video.wp.pl,wideo.wp.pl#?#button[class]:-abp-has( > svg[color*="socialFacebook"])
 viessmann.pl##.vi_footer__social_list
 vigo-ortho.pl##footer div.four:nth-of-type(4) > .editable
 vipzakopane.pl##.c-header-nav__links--social
@@ -4895,6 +4898,8 @@ applemobile.pl###text-2
 bigbrother.tvn.pl###footer > .footer-container > div.footer-col:nth-of-type(4)
 businessinsider.com.pl##.socialButtons, a[href="https://twitter.com/BiPolska/"], a[href="https://www.facebook.com/BIPolska/"], a[href="https://www.linkedin.com/company/business-insider-polska"]
 cccteam.onet.pl###social-bar, .container--social, a[href="/#social"]
+dobreprogramy.pl##a[href^="https://twitter.com/share"]
+dobreprogramy.pl##a[href^="http://www.facebook.com/share.php"]
 dziendobry.tvn.pl###js-socials > a:not(:nth-of-type(3)), .footer .footer__media
 dziendobry.tvn.pl##.share__item_fb.share__item, .share__item_g.share__item, .share__item_twitter.share__item, .top__post > a[href^="https://www.facebook.com/DzienDobryTVN/"], .share:nth-of-type(8), .foot-wrap:nth-of-type(2) > .foot-box:nth-of-type(1), .foot-wrap:nth-of-type(2) > .foot-box:nth-of-type(2)
 eskago.pl##.social1.box
