@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.11.25.1
-! Last modified: Mon, 25 Nov 2019, 22:00 UTC+01
+! Version: 2019.11.26.0
+! Last modified: Tue, 26 Nov 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.11.25.1 aktualizacja: pon, 25 lis 2019, 22:00 UTC+01
+! v.2019.11.26.0 aktualizacja: wto, 26 lis 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -1515,6 +1515,7 @@ discoverychannel.pl,tlcpolska.pl,tvnstyle.pl##.inputMedia > .youtubeButton, .inp
 disco-polo.info##div.simple-panel:nth-of-type(6)
 disco-polo.info##.youtubelogo-section
 distribevorbico.pl##.footer__columns > .grid > div:nth-of-type(5)
+di.com.pl##img[src*="/pic/social/"][src$=".gif"]
 di.com.pl#?#ul > li:-abp-has(a[href$="/kanaly.html"])
 djfoxer.pl###footer > .icons > li > a
 dji-ars.pl##.footer-help-right > .footer-help-slogan
@@ -3265,7 +3266,7 @@ pl.aleteia.org##.oas_box, .shareBarPreText
 pl.aorus.com##.index_social
 pl.canalplus.com##.findUs
 pl.chili.com##div.col-sm-3.col-xs-12:nth-of-type(4) > div.imageCont.pageFooter__section:nth-of-type(1)
-pl.cyberrescue.me##p.bigger > strong:-abp-has(a[href*="://www.facebook.com/"])
+pl.cyberrescue.me#?#p.bigger > strong:-abp-has(a[href*="://www.facebook.com/"])
 pl.delfi.lt##footer > .container > div.mb30.footer-row:nth-of-type(1)
 pl.delfi.lt##.header .header-expand div.col-xs-3:nth-of-type(1)
 pl.depositphotos.com##ul.footer__list:nth-of-type(2), .footer__part-title-follow-us
@@ -3387,6 +3388,7 @@ porcelaindoll.pl##.rst-social-menu, .fully-footer-social
 porozmawiajmyoit.pl##.widget_qode_instagram_widget
 porozmawiajmy.tv##center:nth-of-type(4)
 porscheinterauto.pl##a[href="https://www.facebook.com/PorscheInterAutoPL/"], .c-article > .o-container.c-section > .o-flex-gaps.o-flex-md > div:nth-of-type(1)
+portalhodowcy.pl##.kac-sm-panel > ul:nth-of-type(n+3):nth-of-type(-n+4)
 portalkryminalny.pl##.art > .row > div > .pull-right:nth-last-of-type(1)
 portalkujawski.pl###sp-right1
 portalmmo.pl##.nv-ico-fb, .soc-icons > li:nth-of-type(2)
@@ -4990,6 +4992,7 @@ avast.com,szkolymedyczne.eu,tenit.com.pl,upflix.pl#@#.social-icons
 biznes.interia.pl#@#.social-socialButtons
 edunews.pl#@#.custom-social-buttons
 enfamil.pl#@#.float-shop
+epicdrama.pl,naszpradnik.pl#@#.menu-social
 freshandnatural.pl#@##social_block
 gameplay.pl,tvgry.pl#@#.social-16
 greencanoe.pl,spece.it,tanie-loty.com.pl,www.x-kom.pl#@#.social-links
@@ -5015,7 +5018,6 @@ motormag.pl#@#.nav--social
 naekranie.pl#@#.sharingButton
 naekranie.pl#@#.social-buttons
 narew.info#@#.sbuttons
-naszpradnik.pl#@#.menu-social
 nowawarszawa.pl#@#.share-container
 oknonawagrowiec.pl#@#div[id^="penci-social-counter-"]
 oknonawagrowiec.pl#@#.fa-rss
