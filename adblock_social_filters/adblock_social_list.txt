@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.11.28.0
-! Last modified: Thu, 28 Nov 2019, 22:00 UTC+01
+! Version: 2019.11.29.0
+! Last modified: Fri, 29 Nov 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.11.28.0 aktualizacja: czw, 28 lis 2019, 22:00 UTC+01
+! v.2019.11.29.0 aktualizacja: pią, 29 lis 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -971,7 +971,10 @@ astronomia24.com##.googleplusBtn, .youtubeBtn, .footer-icons > a[href="https://p
 astronomiaamatorska.pl#?#table.news:nth-of-type(2):-abp-contains(na serwisach społecznościowych:)
 astroweb.pl##.col-md-8 > div:nth-of-type(4)
 astroweb.pl,przewodnikduchowy.pl##.well:nth-of-type(1)
+aszdziennik.pl##a[href*="/aszdziennik" i] > img[src^="/static/media/"]
+aszdziennik.pl,dadhero.pl,innpoland.pl,mamadu.pl,medianarodowe.com,natemat.pl###fbinvite
 aszdziennik.pl,dadhero.pl,innpoland.pl,mamadu.pl,natemat.pl##.art__body__instagram-container, .art__conclusion__share
+aszdziennik.pl,dadhero.pl,innpoland.pl,mamadu.pl,natemat.pl#?##article-body > div:last-of-type:-abp-contains(Znajdź nas na)
 atarashii.pl###container > table:nth-of-type(2) > tbody > tr > td:nth-of-type(3)
 atcdevelopment.pl##a[href*="www.facebook.com/SRODMIESCIEodnowa"] > img, a[href="https://twitter.com/ATC_Development"] > img
 aten.com###footer .col_two_third > .col_last.col_one_third > .widget > h4
@@ -1449,6 +1452,7 @@ czytamyetykiety.pl##.socialki
 c-and-a.com##.util-add-margin-bottom.col-md-4.col-xs-12:nth-of-type(3)
 dacter.pl##.stopka a[href="https://www.facebook.com/dacter.akcesoria"]
 dada.pl,globenergia.pl,imagazine.pl,niedziela.pl,pct24.pl,pp24.info.pl,psz24.info,pultusk24.pl,teatrslaski.art.pl##.fa-youtube-square
+dadhero.pl##a[href*="/dadheropl" i] > img[src^="/static/media/"]
 daemon-tools.cc##.feedback > .footer-link-col > h3
 dailyvibes.pl##[aria-label="Social bar"]
 dailyvibes.pl#?#.font_2 > span > span > span:-abp-contains(nas:)
@@ -2240,7 +2244,7 @@ infostrefa.com##.notifications
 info.wiara.pl##.txt__social
 inianie.pl###main-article > .share
 innogy.pl#?#div#footer > .row > .grid-12 > .fluid.container.component:-abp-contains(Spotkajmy się!)
-innpoland.pl,mamadu.pl,medianarodowe.com,natemat.pl###fbinvite
+innpoland.pl##a[href*="/innpoland" i] > img[src^="/static/media/"]
 inpay.pl##.column.wide.six
 insert.com.pl###RL
 insignia-club.pl###phpbb_announcement > div > img[src$="fotosik.pl/288/4f975613289d27b5.png"], #phpbb_announcement > div > .postlink[href*="facebook"]
@@ -2649,6 +2653,7 @@ malopolskie-media.info###jsn-pos-right > .lightbox-2:nth-of-type(1)
 maltec.pl##.clearfix.communities
 maltec.pl,warsawdowntown.pl##.footer_top
 malywrednymis.pl##.penci_pinterest_widget.widget
+mamadu.pl##a[href*="/mamadupl" i] > img[src^="/static/media/"]
 mamadu.pl,natemat.pl##.footer__box__list--social
 mamaplus.pl##div.fl-l > .soc-hover
 mama-kreatywna.pl##.Pinterest.widget
@@ -2798,12 +2803,6 @@ mng.gda.pl##section.section-opaque > .container-vertical-middle.container-fullwi
 mnwr.pl##.bottom-menu-lvl-2__sm > .footer-sm-2
 mobbingwpracy.com,www.risreklamy.pl,www.up.krakow.pl##.jj_sl_navigation
 mobilevikings.pl##.footer-other.columns > div.col-6-12:nth-of-type(1)
-mobile.aszdziennik.pl##a[href*="/aszdziennik" i] > img[src^="/static/media/"]
-mobile.aszdziennik.pl,mobile.dadhero.pl,mobile.innpoland.pl,mobile.mamadu.pl,mobile.natemat.pl#?##article-body > div:last-of-type:-abp-contains(Znajdź nas na)
-mobile.dadhero.pl##a[href*="/dadheropl" i] > img[src^="/static/media/"]
-mobile.innpoland.pl##a[href*="/innpoland" i] > img[src^="/static/media/"]
-mobile.mamadu.pl##a[href*="/mamadupl" i] > img[src^="/static/media/"]
-mobile.natemat.pl##a[href*="/natematpl" i] > img[src^="/static/media/"]
 mobilitytrends.pl##.footer_social_link:nth-of-type(4)
 mobilne-miasto.org###go-twitter, #go-facebook, #go-linkedin
 mocak.pl##.mocak-social-links
@@ -2957,6 +2956,7 @@ naszekwatery.pl##.right_window_button
 naszpradnik.pl##.menu-social-fb
 naszswiat.net##.t3-footnav #Mod233, .t3-footnav #Mod234
 natemat.de##.author-icons > li > a:not([href*="//natemat.de/"])
+natemat.pl##a[href*="/natematpl" i] > img[src^="/static/media/"]
 naturalnieniebanalnie.pl##.hestia-contact-form-col > .card-contact.card
 naukaitechnologie.plportal.pl###block-block-12
 naukatolubie.pl##.ffwd_info.widget
@@ -4506,6 +4506,7 @@ wzp.pl###rslider-face
 xboxarcade.pl##div#widget_text.widget:nth-of-type(2)
 xboxarcade.pl##div#widget_text.widget:nth-of-type(3), #widget_media_video
 xboxforum.pl##.primary.floatingItem, .xbSocialLogins
+xboxforum.pl##.shareButtons-button:not([class*="mail"]):not([class*="link"])
 xc.com.pl##footer .clearfix.bd-joomlaposition-6
 xiaomi.eu##.uix_extendedFooterRow > div.block:nth-of-type(4)
 xlomza.pl##.uk-visible\@m.uk-margin-right.uk-navbar-right
