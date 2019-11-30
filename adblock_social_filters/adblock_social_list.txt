@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.11.30.2
-! Last modified: Sat, 30 Nov 2019, 18:00 UTC+01
+! Version: 2019.11.30.3
+! Last modified: Sat, 30 Nov 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.11.30.2 aktualizacja: sob, 30 lis 2019, 18:00 UTC+01
+! v.2019.11.30.3 aktualizacja: sob, 30 lis 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -4376,7 +4376,7 @@ word.olsztyn.pl##a[href^="https://www.youtube.com/playlist"]
 worldcam.pl##li > a[href="https://www.facebook.com/worldcampl/"]
 wprost.pl##.soc-buttons-box
 wpr.pl##.col-lg-1 > div:nth-of-type(1) > strong
-wp.pl,~www.wp.pl##table[class]:not([id]) > tbody > tr > td[class] > div[class] > div[class] > div[class] + a[class][href*="facebook.com/"][href*="wp"]
+wp.pl,~www.wp.pl#?##app > div > table[class]:not([id]) td[class] div[class] ~ a[class]:-abp-has( > figure > span > svg)
 wrobelekelemelek.com###likebox_1
 wroclaw.pl##.ck_social_media > h3, .ck_mobile_social_icon_1, .ck_mobile_social_icon_4, .ck_mobile_social_icon_5, .ck_mobile_social_icon_6, .ck_mobile_social_icon_7
 wrotatczewa.pl##div.dotter_right:nth-of-type(1) > .content > .article > div > a:nth-of-type(-n+3)
