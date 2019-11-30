@@ -14,7 +14,7 @@ fi
 cd ..
 
 if [ "$CI" = "true" ]; then
-    git clone git@github.com:hawkeye116477/polish-ads-filter.git
+    git clone -b RTM --single-branch git@github.com:hawkeye116477/polish-ads-filter.git
 fi
 
 cp -r ./"$PSCD"/sections/ ./polish-ads-filter/
