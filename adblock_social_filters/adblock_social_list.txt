@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.11.30.0
-! Last modified: Sat, 30 Nov 2019, 02:00 UTC+01
+! Version: 2019.11.30.1
+! Last modified: Sat, 30 Nov 2019, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.11.30.0 aktualizacja: sob, 30 lis 2019, 02:00 UTC+01
+! v.2019.11.30.1 aktualizacja: sob, 30 lis 2019, 14:00 UTC+01
 !
 !
 ! Popupy
@@ -1102,6 +1102,7 @@ bezpieczenstwo.chorzow.eu##.social--list
 bezpieczny.blog###custom_html-3 > div > a:not(:last-child)
 bezprawaanirusz.pl,blog-spadkowy.pl,japrzedsiebiorca.biz,leszekbloch.pl,niemarozwoduwkosciele.pl,odroczenie-kary.pl,podatki-dla-prawnika.pl,pozeworozwodblog.pl,prawodlalekarza.pl,rejestracjaspolkiwdelaware.pl,rozwodprzedsiebiorcy.pl,spkomandytowa.pl,stanprawnynieruchomosci.pl,warunki-zabudowy.com.pl,wroblewski-adwokat.pl,wyrobymedyczneokiemtemidy.pl,zakonczeniedzialalnosci.pl###social > a[id]:not([href*="/feed/"])
 bezprawnik.pl##.columns.show-for-large.large-1 > p:nth-of-type(2)
+bezprzeplacania.pl###sfsi-plus-widget-2
 beztajemnic.pwn.pl###menu-item-50
 bezwypadkowy.net##li.schide:nth-child(n+2):nth-child(-n+4), .jf_sidebuttons, .rt-grid-3:nth-of-type(3)
 bialaowca.pl##.sidebar-box-menu > a:nth-of-type(1)
@@ -5057,6 +5058,7 @@ youtube.com#@##secondary-links
 @@||apis.google.com/js/platform.js$domain=lemonmind.com
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
+@@||letyshops.com/build/core/images/fb-white.*.png$image
 @@||meczyki.pl/images/twitter_blank.gif
 @@||muza.com.pl/img/facebook.$image
 @@||rytmynatury.pl/wp-content/plugins/easy-facebook-likebox/
