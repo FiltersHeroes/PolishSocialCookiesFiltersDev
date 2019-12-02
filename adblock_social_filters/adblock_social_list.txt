@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.12.2.0
-! Last modified: Mon, 02 Dec 2019, 18:00 UTC+01
+! Version: 2019.12.2.1
+! Last modified: Mon, 02 Dec 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.12.2.0 aktualizacja: pon, 02 gru 2019, 18:00 UTC+01
+! v.2019.12.2.1 aktualizacja: pon, 02 gru 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -959,7 +959,7 @@ artykulymodelarskie.pl###blocklinkb > ul > .last_item > a[style]
 art-comp24.pl###likebox-box
 asilo.pl##.navigation__social-icons > li.navigation__icon:nth-of-type(4)
 asilo.pl,isw.entra.pl##.btn-toolbar > .btn-footer-ico.btn:nth-of-type(n+5):nth-of-type(-n+6)
-asplaneta.pl###facebook_widget
+asplaneta.pl,mobilkarm.pl###facebook_widget
 asport.pl##.find-us-on
 asta24.pl##.fb_inner, .margin40.box:nth-of-type(2), .text-center.margin40
 asta-bud.pl###g_plus
@@ -1412,7 +1412,7 @@ crolove.pl###text-47
 crowdmedia.pl###aptf_widget-4
 crowdmedia.pl,performance360.pl##.herald-soc-nav
 cryptodemy.pl##.td-pb-row:nth-of-type(2) > .td-pb-span4:nth-of-type(2), .td-with-like.td-post-sharing-bottom.td-post-sharing
-cryptodemy.pl,epainfo.pl,kosmicznapropaganda.pl,magyazyn.pl,movieway.pl,ochrona24.info,odkrywamyzakryte.com,retronagazie.eu##.widget_fbw_id
+cryptodemy.pl,epainfo.pl,kosmicznapropaganda.pl,magyazyn.pl,movieway.pl,ochrona24.info,odkrywamyzakryte.com,pol-news24.pl,retronagazie.eu,znajdownik.pl##.widget_fbw_id
 cryptonews.pl,finanseodkuchni.pl,garneczki.pl##.barcelona-widget-social-media-icons
 cryptoprofit.pl###sidebar > #media_image-7 > a > img, .left-slider.featured-area > #sidebar > .widget > a > img
 cryptoprofit.pl##.coin-telegram, .coin-facebook, .coin-twitter, .coin-reddit
@@ -2115,6 +2115,7 @@ guzik.konin.pl##.widget_text.social.widget-bottom.uk-panel-box.uk-panel
 gymeltoro.pl##.bean-social1
 hacienda.pl,koscierzyna24.info##.social > li:nth-of-type(-n+3)
 hack.pl,przesylarka.pl,repozytorium.fn.org.pl,spoleczenstwo.plportal.pl###block-block-11
+haftpasja.pl##.menu-content > li.level-1:nth-of-type(8)
 hallyustarnews.pl###media_image-3, #media_image-4
 halogorlice.info###sp-bottom3
 halogorlice.info##.social > li:nth-child(-n+4)
@@ -2947,7 +2948,7 @@ nanarty.info##.btn-share-social, .menu_social_sidebar.menu.nav, .mn-social.menu_
 nanarty.info#?#.clearfix[id^="sppb-addon-"]:-abp-contains(Dołącz do nas)
 napad.pl##.footerBottom-inner > ul > li > a[target]
 narcyz.com.pl###bottom-socialmedia
-nasienna.pl##.sm-youtube
+nasienna.pl,wiktormeble.pl##.sm-youtube
 nastopy.pl##.leftSlide > .fb-wrap
 naszahistoria.pl,plus.dziennikbaltycki.pl,plus.dzienniklodzki.pl,plus.dziennikzachodni.pl,plus.echodnia.eu,plus.expressbydgoski.pl,plus.gazetakrakowska.pl,plus.gazetalubuska.pl,plus.gazetawroclawska.pl,plus.gloswielkopolski.pl,plus.gp24.pl,plus.kurierlubelski.pl,plus.nowiny24.pl,plus.nowosci.com.pl,plus.nto.pl,plus.polskatimes.pl,plus.pomorska.pl,plus.poranny.pl,plus.to.com.pl,plus.wspolczesna.pl,tygodnikits.pl##.listaIkon > li > .ikona
 naszaprzychodnia.com.pl##footer .fbcontact .col-md-4
@@ -3370,7 +3371,6 @@ polsl.pl##tr:nth-of-type(5) > .shortcutsLink:nth-of-type(2)
 polszczyzna.pl##.eltdf-icon-shortcode, .textwidget > h4
 polvision.com##.foot_search_share
 polygamia.pl###polysocial, #sidebar-footer-top, #menu-submenu-1 a[href="https://www.youtube.com/user/polygamiapl"], .sharepostHome
-pol-news24.pl##.widget_fbw_id.covernews-widget.widget
 pomagam.pl##.og-share.bg-color-fb.btn-icon-inherit.btn, .tweet.bg-color-tw.btn-icon-inherit.btn.js-twt, div.col-6.col-md-3:nth-of-type(3) > .list > .links > li:nth-child(-n+4)
 pomocnamyszka.pl##.open-social-links
 pomoc.ipla.tv##.nav--social.nav
