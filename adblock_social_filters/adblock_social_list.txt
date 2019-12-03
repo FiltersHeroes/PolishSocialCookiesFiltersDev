@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.12.3.0
-! Last modified: Tue, 03 Dec 2019, 02:00 UTC+01
+! Version: 2019.12.3.1
+! Last modified: Tue, 03 Dec 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.12.3.0 aktualizacja: wto, 03 gru 2019, 02:00 UTC+01
+! v.2019.12.3.1 aktualizacja: wto, 03 gru 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -262,6 +262,7 @@ pl##img[src="/p/logo-g+.png"]
 pl##img[src="/p/logo-tw.png"]
 pl##img[src="/p/logo-vm.png"]
 pl##img[src="/p/logo-yt.png"]
+pl##li > .twitter
 pl##vce_social_menu
 pl###PQSharingSidebar
 pl###SocialFooter
@@ -1211,7 +1212,7 @@ bonavita.pl###followers
 bonprix.pl##.col-xs-offset-0.col-xs-12.col-sm-offset-1.col-sm-5
 booklips.pl,ustyle.pl###text-15
 bookmaster.com.pl##.social-comm-container
-booksy.com##.footer__top > .container > .row > .col-md-4
+booksy.com#?#footer a:-abp-has(svg > g[id*="Social"])
 born86.pl###portal_main > .duzyna1, #portal_main > .peepodpis, .instashow-gallery.instashow
 bosch-industrial.com##.footerActionYoutube
 bosch-prasa.pl##.WitrynaBoxSocialLinks
@@ -2656,7 +2657,7 @@ malopolskie-media.info###jsn-pos-right > .lightbox-2:nth-of-type(1)
 maltec.pl##.clearfix.communities
 maltec.pl,warsawdowntown.pl##.footer_top
 malywrednymis.pl##.penci_pinterest_widget.widget
-mamadu.pl##a[href*="/mamadupl" i] > img[src^="/static/media/"]
+mamadu.pl##a[href*="/mamadupl" i] > img[src^="/static/media/"], a[href*="/mamadu.pl" i] > img[src^="/static/media/"]
 mamadu.pl,natemat.pl##.footer__box__list--social
 mamaplus.pl##div.fl-l > .soc-hover
 mama-kreatywna.pl##.Pinterest.widget
@@ -4013,11 +4014,12 @@ tabletowo.pl###menu-item-347652
 tablica-rejestracyjna.pl###fbutton-container
 tadar.pl###csocial-facebook, #csocial-googleplus, #roy_facebook_block
 tago.com.pl##.float-social
-tajemnice-swiata.pl##[href="https://www.facebook.com/Tajemnice-%C5%9Awiata-1655637548024566/"]
+tajemnice-swiata.pl##a[href="https://www.facebook.com/Tajemnice-%C5%9Awiata-1655637548024566/"]
 tajlex.pl###foot_4
 takaposciel.pl##.sm-fb
 tally-weijl.com##.fr-social-media-block
 tamron.eu###c7886, #c26665, footer div.col-sm-4:nth-of-type(3) > p
+taniaksiazka.pl##.YouTube
 taniejdladomu.pl##footgroup6
 tanie-loty.com.pl##.social-links > li:nth-child(-n+5)
 tan.io###social-main
