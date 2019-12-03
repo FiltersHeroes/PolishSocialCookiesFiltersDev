@@ -76,7 +76,7 @@ powitanie=$(shuf -n 1 ./scripts/wiadomosci_powitalne.txt)
 # Wysyłanie PR do upstream
 if [ "$CI" = "true" ]; then
 echo "Wysyłanie PR..."
-hub pull-request -b MajkiIT:master -h hawkeye116477:RTM -r krystian3w -l cookies,social -m "Update $lista ($today_date)
+hub pull-request -b MajkiIT:master -m "Update $lista ($today_date)
 
 $powitanie"
 cd ..
