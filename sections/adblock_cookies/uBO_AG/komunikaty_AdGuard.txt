@@ -28,6 +28,9 @@ e-legnickie.pl$$script[tag-content="polityka-cookies"]
 farmacja.pl##[style^="filter: blur"]:style(filter: none !important;)
 farmacja.pl,radiobielsko.pl,webprojekt.biz$$script[tag-content="rodo"]
 ferguson-digital.eu$$#cookie-notice
+filmboxlive.com##.mobox-active:style(overflow-y: auto !important;)
+filmboxlive.com##.mobox-wrapper:has(.cookie-policy-popup)
+filmboxlive.com##.mobox-wrapper:style(overflow: auto !important;)
 fnglob.pl$$#modal
 fryzomania.pl,happydental.pl,pro-sprzet.pl$$#myWorning
 galopuje.pl###RODOCOOKIE, .modal-backdrop
@@ -77,6 +80,3 @@ ztm.poznan.pl$$#PopUP
 !eobuwie.com.pl$$script[tag-content="technologii cookies"]
 !homedesign.pl$$.popmake-overlay[data-popmake*="rodo"] #Działa dopiero po odświeżeniu?
 !pasjagolebie.pl$$.popmake-overlay[data-popmake*="cookies"]
-filmboxlive.com##.mobox-wrapper:has(.cookie-policy-popup)
-filmboxlive.com##.mobox-active:style(overflow-y: auto !important;)
-filmboxlive.com##.mobox-wrapper:style(overflow: auto !important;)
