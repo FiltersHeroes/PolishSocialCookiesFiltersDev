@@ -12,7 +12,7 @@
 !#if !cap_html_filtering
 @include komunikaty_bez_html
 !#if ext_ublock
-@include komunikaty_bez_html_dodatkowe_specjalne_instrukcje
+@include komunikaty_bez_html_uBO
 !#endif
 !#endif
 !#if cap_html_filtering
