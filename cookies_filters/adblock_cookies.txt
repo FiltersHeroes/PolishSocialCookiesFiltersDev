@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.12.9.2
-! Last modified: Mon, 09 Dec 2019, 18:00 UTC+01
+! Version: 2019.12.9.3
+! Last modified: Mon, 09 Dec 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.12.9.2 aktualizacja: pon, 09 gru 2019, 18:00 UTC+01
+! v.2019.12.9.3 aktualizacja: pon, 09 gru 2019, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2323,6 +2323,7 @@ pl##aside[class*="Cookie"]:not(body):not(html)
 pl##aside[class*="cookie"]:not(body):not(html)
 pl##div#cookiepopupdiv:not(body):not(html)
 pl##div#footer-cookies:not(body):not(html)
+pl##div.cookieKontener:not(body):not(html)
 pl##div[class^="app_gdpr"]
 pl##div[class^="pea_cook_wrapper"]:not(body):not(html)
 pl##div[id^="cookemessage"]:not(body):not(html)
