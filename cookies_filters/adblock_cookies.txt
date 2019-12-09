@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.12.8.1
-! Last modified: Sun, 08 Dec 2019, 22:00 UTC+01
+! Version: 2019.12.9.0
+! Last modified: Mon, 09 Dec 2019, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.12.8.1 aktualizacja: nie, 08 gru 2019, 22:00 UTC+01
+! v.2019.12.9.0 aktualizacja: pon, 09 gru 2019, 02:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2718,8 +2718,8 @@ pl###prettyCookie_message:not(body):not(html)
 pl###privacyCookiesPolicyMessageContainer:not(body):not(html)
 pl###privacyInfo:not(body):not(html)
 pl###privacy-notice:not(body):not(html)
-pl###privacy-policy:not(body):not(html)
-pl###privacy_policy:not(body):not(html)
+pl###privacy-policy:not(body):not(html):not(.container)
+pl###privacy_policy:not(body):not(html):not(.container)
 pl###privacy_policy_bar:not(body):not(html)
 pl###pronamic_cookie_holder:not(body):not(html)
 pl###q-cookie-box:not(body):not(html)
@@ -3179,7 +3179,6 @@ orange.pl#@##cookies-info:not(body):not(html)
 pikio.pl#@##cookie-policy:not(body):not(html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
 sklep-domwhisky.pl#@#.rodo-popup:not(body):not(html):not([style="display: block;"])
-tychy.geminipark.pl#@#.privacy-policy:not(body):not(html)
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 @@/js/CookieInfo.js$script,domain=cyrk-zalewski.com.pl|porno720.pl|topschool.pl
