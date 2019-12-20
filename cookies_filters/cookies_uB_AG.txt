@@ -176,6 +176,8 @@ mzk-torun.pl###fancybox-container-2:has(#policy_elem)
 m.autocentrum.pl##html.menu-active:style(overflow: auto !important;)
 m.autocentrum.pl##.hello-rodo
 m.filmweb.pl##body.rodo[style^="padding-top:"]:style(padding-top: 0 !important;)
+m.leroymerlin.pl##body.drawer-is-open, body.ReactModal__Body--open:style(overflow: auto !important;)
+m.leroymerlin.pl##.ReactModalPortal:has-text(Polityka prywatności)
 m.youtube.com##body[modal-open-body]:style(position: static !important;)
 m.youtube.com##.consent-bump-lightbox
 nastyku.pl###ns_cookie_accepted
