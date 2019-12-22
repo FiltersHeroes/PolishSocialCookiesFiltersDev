@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.12.22.0
-! Last modified: Sun, 22 Dec 2019, 18:00 UTC+01
+! Version: 2019.12.22.1
+! Last modified: Sun, 22 Dec 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.12.22.0 aktualizacja: nie, 22 gru 2019, 18:00 UTC+01
+! v.2019.12.22.1 aktualizacja: nie, 22 gru 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -2077,6 +2077,7 @@ goodram.com###footer_menu_social
 google.com##.standard-footer__bar__social-icons
 goral.info.pl###custom_html-18
 gorlice.pl##.sdbar-btn-facebook, .sdbar-btn-youtube, .sdbar-btn-twitter
+gorno.pl##.menu-wysuwane-1-poziom > li:nth-of-type(6)
 gorskiedomki.pl##.rev_slider_wrapper a[href="https://www.facebook.com/borszowka"]
 goryiludzie.pl##.field-name-field-website, #left-panel, .columns.eight
 gosetti.pl##.ion-logo-facebook
@@ -2111,6 +2112,7 @@ gremimedia.pl##.button--social-icon.button
 greywizard.com##.gw-footer__social, .gw-social-widget
 gromgroup.pl##.soc-right
 gromgroup.pl,silesiasa.pl###social-fixed-box
+grono.pl##a[href="https://www.facebook.com/gronoshipping"] > img
 groupon.pl##div.footer-links.ls-footer-sitemap-col:nth-of-type(4) > .footer-link-headline
 grudziadz.pl##.header_nav_items > li.header_nav_item:nth-of-type(7)
 grupaazoty.com##.top_menu_twitter_icon, .top_menu[href="http://blog.grupaazoty.com/"], div.top_menu_line:nth-of-type(6), div.top_menu_line:nth-of-type(4), div.top_menu_line:nth-of-type(2)
@@ -2961,6 +2963,9 @@ mzk-ostrow.com.pl##.rightpane p:nth-of-type(n+52):nth-of-type(-n+58)
 mzk-torun.pl###s5_drop_down_container
 m.beszamel.se.pl###big_socials.row
 m.interia.pl##.article-social
+m.niedziela.pl##a > .mdi-facebook-box.mdi
+m.niedziela.pl##a > .mdi-twitter-box.mdi
+m.niedziela.pl##a > .mdi-youtube.mdi
 m.se.pl##.social.row
 nadarzyn.tv##.facebook_fixed
 naekranie.pl###social-fans, .addthis_responsive_sharing, .msg-share, .title-p, .tw-share
@@ -4280,8 +4285,9 @@ useme.eu##.links.row > .pull-right > a
 usg.com.pl##.panelfb
 uslugistolarskie.eu##.uk-navbar-right > ul > li:nth-of-type(1)
 ustawlige.com###menu-item-91
-ustron.pl##div > div > a > .mdi-youtube-play
-ustron.pl##.mdi-facebook, .mdi-instagram
+ustron.pl##a > .mdi-facebook.mdi
+ustron.pl##a > .mdi-instagram.mdi
+ustron.pl##a > .mdi-youtube-play.mdi
 ustyle.pl##.instagram_strgl
 uti.pl##a[href="https://www.facebook.com/utipl/"], .elementor-widget-heading.elementor-widget.elementor-element-huayyaq.elementor-element
 uzdrowiskowespa.pl##.footer > .row > div > a > img
