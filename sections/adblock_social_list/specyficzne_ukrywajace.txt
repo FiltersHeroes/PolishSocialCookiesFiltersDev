@@ -2789,7 +2789,10 @@ pudelek.pl#?##page_footer > div:nth-of-type(1) > div:nth-of-type(1) > div > div:
 
 o2.pl#?#footer[class] div[class]:-abp-has(> span[class]:-abp-contains(Bądź na bieżąco))
 o2.pl,pudelek.pl#?#aside[class][role="complementary"] div[class]:-abp-has(> div >.fb-like)
+o2.pl,pudelek.pl#?#article div:not([role="complementary"]) div[class]:-abp-has(> div >.fb-like)
 o2.pl#?#div[class][data-st-area="st-article-reactions"] div[class]:nth-of-type(5):-abp-has(> button[class][shape="circle"])
+o2.pl##article div:not([data-st-area="st-article-reactions"]) div[class]:nth-of-type(3):-abp-has(> button[class][shape="circle"])
+
 
 pulshr.pl##li:nth-of-type(1) > a[href="https://www.facebook.com/pulsHR"]
 pulshr.pl##.box-1 > .v2
