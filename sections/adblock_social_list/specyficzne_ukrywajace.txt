@@ -2786,6 +2786,11 @@ pudelek.pl###o2FBFanbox, .aside-youtube-channel, .header-fb-link
 pudelek.pl###page_header > a:nth-of-type(-n+3), #page_header > nav > div:nth-of-type(2) > a:nth-of-type(-n+3)
 pudelek.pl##.like-box-wrap
 pudelek.pl#?##page_footer > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2):-abp-contains(Bądź na bieżąco)
+
+o2.pl#?#footer[class] div[class]:-abp-has(> span[class]:-abp-contains(Bądź na bieżąco))
+o2.pl,pudelek.pl#?#aside[class][role="complementary"] div[class]:-abp-has(> div >.fb-like)
+o2.pl#?#div[class][data-st-area="st-article-reactions"] div[class]:nth-of-type(5):-abp-has(> button[class][shape="circle"])
+
 pulshr.pl##li:nth-of-type(1) > a[href="https://www.facebook.com/pulsHR"]
 pulshr.pl##.box-1 > .v2
 pulsmedycyny.pl###LinkArea\:NavHeader > li:nth-of-type(-n+3), .npb-js-tabs > a[href="#npb-tab-twitter"]
