@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.12.25.1
-! Last modified: Wed, 25 Dec 2019, 18:00 UTC+01
+! Version: 2019.12.25.2
+! Last modified: Wed, 25 Dec 2019, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.12.25.1 aktualizacja: śro, 25 gru 2019, 18:00 UTC+01
+! v.2019.12.25.2 aktualizacja: śro, 25 gru 2019, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -3544,7 +3544,7 @@ pudelek.pl##div[data-st-area="st-article-reactions"] > div > div:nth-of-type(2) 
 pudelek.pl###o2FBFanbox, .aside-youtube-channel, .header-fb-link
 pudelek.pl###page_header > a:nth-of-type(-n+3), #page_header > nav > div:nth-of-type(2) > a:nth-of-type(-n+3)
 pudelek.pl##.like-box-wrap
-pudelek.pl#?##page_footer > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2):-abp-contains(Bądź na bieżąco)
+pudelek.pl#?##page_footer > div > div > div > div[class]:nth-of-type(2):-abp-contains(Bądź na bieżąco)
 pulshr.pl##li:nth-of-type(1) > a[href="https://www.facebook.com/pulsHR"]
 pulshr.pl##.box-1 > .v2
 pulsmedycyny.pl###LinkArea\:NavHeader > li:nth-of-type(-n+3), .npb-js-tabs > a[href="#npb-tab-twitter"]
