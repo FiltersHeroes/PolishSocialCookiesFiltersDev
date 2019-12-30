@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2019.12.29.0
-! Last modified: Sun, 29 Dec 2019, 02:00 UTC+01
+! Version: 2019.12.30.0
+! Last modified: Mon, 30 Dec 2019, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2019.12.29.0 aktualizacja: nie, 29 gru 2019, 02:00 UTC+01
+! v.2019.12.30.0 aktualizacja: pon, 30 gru 2019, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -3032,7 +3032,6 @@ newtonmedia.pl##.col-twitter.col-md-offset-1.col-md-6, .col-md-offset-1.col-md-8
 newyorker.de##.invisible-area > .nav-divider:nth-of-type(2)
 new.kolejedolnoslaskie.eu##.img-list > li:nth-of-type(1)
 nextbike.pl##a[href="https://www.instagram.com/nextbike_pl/"]
-ngage.com.pl##.widget-md-social.widget
 nibyblog.pl###rss > ul > li:nth-of-type(2)
 nicolefashion.pl##.section-banner-6.section-banner.banner, .section-banner-7.section-banner.banner
 nicolefashion.pl##.widget-group.widget-banners-group.widget-1.widget
@@ -4341,7 +4340,7 @@ wadowice24.pl##a[href="/Google+"], a[href="https://twitter.com/wadowice24"], a[h
 wago.com##.wg-footer__socials
 wagrowiec-wydarzeniazostatniejchwili.pl#?#.entry-content:-abp-has( > .dpsp-share-text)
 wagrowiec.eu###header-top-1 > a.icon:nth-of-type(n+3):nth-of-type(-n+7), #footer #f-col4
-wakacje.pl##div[class][style^="position: fixed;"] > div > a[aria-label="Wakacje.pl facebook"]
+wakacje.pl###rightTabs > .rightFacebook
 wakacyjnipiraci.pl##a[href="https://www.wakacyjnipiraci.pl/pages/whatsapp"]
 wakacyjnipiraci.pl##.footer__icon--fb, .footer__icon--tw, .footer__icon--gp
 wakacyjnipiraci.pl##.widget--facebook, .widget-whatsapp__broadcast
@@ -4357,7 +4356,7 @@ warsztatpodrozy.com##a[href="https://www.facebook.com/WarsztatPodrozy/"], a[href
 warsztatywyobrazni.com.pl##a[href="https://www.facebook.com/wwyobrazni/"] > img
 waszaedukacja.pl##.footer3 > h3:nth-of-type(1), #udostepnij
 wavepc.pl##.mh-footer-4, .mh_magazine_facebook_page
-waw4free.pl##div.social, a[href^="https://plus.google.com/share"], a[href^="https://twitter.com/share"], a[href^="https://www.facebook.com/sharer/sharer.php"], #spolecznosci > a[href="https://www.facebook.com/waw4free"]
+waw4free.pl##div.footer-box:not(:nth-of-type(2)) > .social, #spolecznosci > a[title^="fanpage"], #spolecznosci > a[title$="Instagramie"]
 wbpg.org.pl##div:nth-of-type(3) > .field__label
 wearmedicine.com##.socialMediaFooter
 wearmedicine.com###socialMediaIcons
