@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.4.1
-! Last modified: Sat, 04 Jan 2020, 22:00 UTC+01
+! Version: 2020.1.5.0
+! Last modified: Sun, 05 Jan 2020, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2019 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.4.1 aktualizacja: sob, 04 sty 2020, 22:00 UTC+01
+! v.2020.1.5.0 aktualizacja: nie, 05 sty 2020, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -3174,6 +3174,7 @@ oszczedzarka.co.uk##.row > .engine-block.small-12.large-3 > center > a > img, .t
 otodom.pl##footer div.item:nth-of-type(4) > ul > li:nth-of-type(2)
 ototorun.pl#?#.l-news__content p > strong:-abp-contains(Polub nas na Facebooku)
 otoz.pl##.footer-odwiedz
+otube.pl###belt div.text-right.col-sm-6:nth-of-type(1)
 otwarteklatki.pl##.section-channels
 otwarte.eu###footer-container > .clwhite.margt40.text-right.pull-right.upper, li.visible-lg.visible-md:nth-of-type(n+6)
 outhorn.com##footer #custom776
@@ -4714,6 +4715,9 @@ z-hotel.com###menu-item-868
 /followusontwitterlogo.jpg$domain=riskcompliance.pl
 /konsedo_new/facebook_k_l.jpg$domain=dadas.home.pl
 /public/assets//baner-yt-sklep.png$image,domain=sklep.precio.pl|sklep5438865.homesklep.pl
+/static/media/facebook_square_black$image,domain=aszdziennik.pl|dadhero.pl|innpoland.pl|mamadu.pl|natemat.pl
+/static/media/instagram_black$image,domain=aszdziennik.pl|dadhero.pl|innpoland.pl|mamadu.pl|natemat.pl
+/static/media/twitter_black$image,domain=aszdziennik.pl|dadhero.pl|innpoland.pl|mamadu.pl|natemat.pl
 /themes/fbLogo.jpg$image,domain=rynek-lotniczy.pl|rynekinfrastruktury.pl
 /themes/twLogo.jpg$image,domain=rynek-lotniczy.pl|rynekinfrastruktury.pl
 /vbanner/facebookock.jpg$domain=ockopolelubelskie.pl
