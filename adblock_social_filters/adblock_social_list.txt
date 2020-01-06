@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.5.1
-! Last modified: Sun, 05 Jan 2020, 22:00 UTC+01
+! Version: 2020.1.6.0
+! Last modified: Mon, 06 Jan 2020, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.5.1 aktualizacja: nie, 05 sty 2020, 22:00 UTC+01
+! v.2020.1.6.0 aktualizacja: pon, 06 sty 2020, 14:00 UTC+01
 !
 !
 ! Popupy
@@ -24,7 +24,6 @@ akwarysta.eu,dobrewychowanie.pl,pinka.pl###colorbox, #cboxOverlay
 beskidy.news##.c-pop-up
 black-friday.pl,cryptoprofit.pl,e-przepisykulinarne.pl,funfashion.pl,kucharenka.pl,kuchniawedwoje.pl,magazyninformacyjny.pl,tele-wizja.ru,wielkopolskamagazyn.pl,zatrzymujacczas.pl###ffbp, #ffbp-bg
 chrzescijanin.pl###spu-6691, #spu-bg-6691
-dementuj.pl,fifek.pl,psychiczni.pl###ips-popup, #ips-popup-wrapper
 dziennik-polityczny.com###dz-popup-follow-us
 ebizpro.pl###itro_opaco, #itro_popup
 eitalia.pl###facebox, #facebox_overlay
@@ -33,6 +32,7 @@ emcconsultant.eu,yt360.pl###ouibounce-modal
 eradon.pl###overlay-wrapper, #modal-overlay
 esensja.pl###FBox
 e-iglaki.pl###szkolenie-message
+fifek.pl,psychiczni.pl###ips-popup, #ips-popup-wrapper
 forum.grywamtu.pl###pop-slap[data-hello-text], .bg-pop-over
 forum.joomla.pl###fancybox-overlay, #fancybox-wrap
 galeriaveneda.com.pl###popup
@@ -1507,7 +1507,6 @@ dellpoint.pl##a[href="https://www.youtube.com/user/dellpointpl/"]
 delphiautoparts.com###block-footersociallinks
 deltashop.pl,media-tech.eu##.footer-informations div.nav-container:nth-of-type(3)
 deltashop.pl,soleibabe.pl###widget_shop6
-dementuj.pl,fifek.pl,hulaka.pl###float_facebook_box
 denimbox.pl###sociealmedia
 deon.pl##.socialIkonki, .sl > li:nth-child(-n+4), .wyszukiwarka-buttons > a[href="http://www.facebook.com/pages/DEONpl/100521419989551"], .wyszukiwarka-buttons > a[href="http://www.youtube.com/user/portalDEONpl"]
 dermaquest.pl##div.footer_column:nth-of-type(6)
@@ -1868,6 +1867,7 @@ ferso.org,lazienkiportal.pl###fb_box
 festiwalbiegowy.pl###block-block-52 > fieldset > legend
 festiwaldobregosmaku.eu,highlab.pl###custom_html-4
 festiwalinspiracji.pl#?#div.tzSpace_default.vc_row-fluid.wpb_row.vc_row:-abp-contains(OBSERWUJ NAS NA FACEBOOKU)
+fifek.pl,hulaka.pl###float_facebook_box
 fight24.pl##div:nth-of-type(3) > h2:nth-of-type(1)
 fightershop.pl##.bigMedia > .container > .row, .findUs > div.nav-header:nth-of-type(1)
 fightershop.pl,modele-centrum.pl,pcoutlet.pl,plumeria.sklep.pl,sklep-muzyczny.com.pl,soleibabe.pl,ubraniak.pl,wellsamed.pl##.social-conteiner
@@ -3406,6 +3406,7 @@ polskieradio.com##.post-widget.widget:nth-of-type(4) > .title-section > h1
 polskihurtworld.eu##.tgsocial
 polskikoszyk.pl##.footer-content .circle
 polskikoszyk.pl##.footer-content .row div:nth-of-type(n+2):nth-of-type(-n+5) > .circle
+polski-dubbing.pl##.header-youtube
 polsky.tv##.menu-icons > div.menuItemWrap:nth-of-type(n+2):nth-of-type(-n+4)
 polsl.pl##tr:nth-of-type(1) > .shortcutsImg:nth-of-type(1)
 polsl.pl##tr:nth-of-type(1) > .shortcutsImg:nth-of-type(4)
