@@ -55,6 +55,6 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka Origin i AdGuarda, by użytkownicy nie musieli jej subskrybować
-!#if (!adguard_ext_android_cb && !adguard_ext_safari && !adguard_app_ios)
+!#if (!adguard_ext_android_cb && !adguard_app_ios)
 !#include cookies_uB_AG.txt
 !#endif
