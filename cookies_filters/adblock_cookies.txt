@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.8.1
-! Last modified: Wed, 08 Jan 2020, 18:00 UTC+01
+! Version: 2020.1.8.2
+! Last modified: Wed, 08 Jan 2020, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.8.1 aktualizacja: śro, 08 sty 2020, 18:00 UTC+01
+! v.2020.1.8.2 aktualizacja: śro, 08 sty 2020, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -991,6 +991,7 @@ inchcape.pl##.cookieinfo_bar
 independentdigital.lnk.to###modal.lnk-c-modal
 info24.rzeszow.pl##.ja-box-right.column.ja-box-wrap
 infoaudio.pl,infomusic.pl,obiektyspa.com###privacy-alert, #privacy-alert-blur
+infobus.eu,notowania.kpodr.pl##div[id^="layer"][style]
 infocredit-online.pl###modal-warper
 infogliwice.pl,nauka.rocks,webniusy.com###ct-ultimate-gdpr-cookie-popup
 infoludek.pl##div.infcook
@@ -1418,7 +1419,6 @@ nomi.pl##div#Messenger-Special
 nonsa.pl,nonsensopedia.org##.mw-cookiewarning-container
 nordglass.pl##.rodoBox--visible.rodoBox
 norwegian.com#?#.alert:-abp-has(.cookie-disclaimer)
-notowania.kpodr.pl###layer1a
 nova-farm.com##.cookie_consent
 nowa.tv###mpc_cookie_intro
 noweprzetargi.pl###dcach, #txt
