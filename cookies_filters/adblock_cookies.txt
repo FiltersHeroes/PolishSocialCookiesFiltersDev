@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.8.2
-! Last modified: Wed, 08 Jan 2020, 22:00 UTC+01
+! Version: 2020.1.9.0
+! Last modified: Thu, 09 Jan 2020, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.8.2 aktualizacja: śro, 08 sty 2020, 22:00 UTC+01
+! v.2020.1.9.0 aktualizacja: czw, 09 sty 2020, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -737,7 +737,7 @@ figowesmaki.pl###cpBox
 filman.cc###cookies > div
 filmyonline.tv,mettosport.eu,podemski.info,prze.eu,rallypl.com,skawina.eu,spidersweb.pl,vanessa.fm###moove_gdpr_cookie_info_bar
 filoma.org###app-confirm-dialog
-filoma.org,interprojekt.pl,naekranie.pl,polskiprawnik.pl,www.hotelbb.pl,yes.pl##.reveal-modal-bg
+filoma.org,interprojekt.pl,polskiprawnik.pl,www.hotelbb.pl,yes.pl##.reveal-modal-bg
 finnair.com##.cookie-consent-wrapper > .consent-popup
 firecash.org,fundacjabos.pl,grupaeurocash.pl,payup.pl,pbg-sa.pl,regionwielkopolska.pl###info
 firmamazur.pl,mazurcompany.com###cookies-glass
@@ -1369,7 +1369,6 @@ m.benchmark.pl###private-policy-popup
 m.facebook.com#?##viewport > div:nth-of-type(1):-abp-has( > a:-abp-contains(cookie))
 m.facebook.com,touch.facebook.com###header-notices
 m.pl.aliexpress.com###amp-notification
-naekranie.pl,~vod.naekranie.pl###modal-rodo-info
 nakanapie.pl##div.sticker
 nanodatex.pl###cookis-box
 napad.pl###pp-cookies-container
@@ -3169,6 +3168,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 ! Bugi Kiboke
 epson.pl#@#.notification.cookies
+naekranie.pl#@##modal-rodo-info
 rp.pl#@##rodo-popup
 teb.pl,technikum.pl#@##cookieModal:not(.countryCookieModalContainer)
 volcano.pl#@##cookiesModal
@@ -3189,6 +3189,7 @@ gtv.com.pl#@#.panel_cookie:not(body):not(html)
 hbogo.pl#@#.cookie-consent:not(body):not(html):not(.paragraph)
 lomza.pl#@##komunikat-cookie:not(body):not(html)
 migora.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
+naekranie.pl#@##modal-rodo-info:not(body):not(html):not(.fade):not(.reveal-modal)
 naekranie.pl#@##polityka-cookies:not(body):not(html)
 orange.pl#@##cookies-info:not(body):not(html)
 parkiet.com,rp.pl#@##rodo-popup:not(body):not(html):not(.fade):not(.modal)
