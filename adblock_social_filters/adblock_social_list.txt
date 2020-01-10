@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.9.0
-! Last modified: Thu, 09 Jan 2020, 22:00 UTC+01
+! Version: 2020.1.10.0
+! Last modified: Fri, 10 Jan 2020, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.9.0 aktualizacja: czw, 09 sty 2020, 22:00 UTC+01
+! v.2020.1.10.0 aktualizacja: pią, 10 sty 2020, 02:00 UTC+01
 !
 !
 ! Popupy
@@ -1083,6 +1083,7 @@ batida.pl##p.ssmw-width-20.ssmw-center.ssmw-button-container.ssmw-simple
 batorygdynia.com.pl##.soc_ico
 batteryguru.eu###footgroup12 > ul
 bavaria24.pl,pinkbox.com.pl###fbwidget
+bazafirm.org,darmowyskin.pl,motywujemy24.pl,szybkanauka.pro,wgrane.pl##.fb_iframe_widget
 bazarowo.pl##div.banner:nth-of-type(2)
 bazarynek.pl##center > center:nth-of-type(2), center > center:nth-of-type(3), center:nth-of-type(5), center:nth-of-type(6)
 bdsklep.pl##.m-footer_socialmedia
@@ -1487,7 +1488,6 @@ danrol-sklep.pl,elixirzdrowia.pl,mpec.olsztyn.pl,rynek-ksiazki.pl,saluti.pl###fb
 dareni.pl##a[href^="https://www.facebook.com/firaneczki"]
 darkarea.pl##.google_1_right
 darkplanet.pl##.visible-desktop.block-title:nth-of-type(9) > h2
-darmowyskin.pl,motywujemy24.pl,szybkanauka.pro,wgrane.pl##.fb_iframe_widget
 dar-med.eu##.fooWidgets > a.btIconWidget
 david-durden.pl##.widget_et_social_followers
 dawneklodzko.pl#?#div#three-lght:-abp-has( > h4:-abp-contains(Facebook))
@@ -2127,6 +2127,8 @@ grupaazoty.com##.top_menu_twitter_icon, .top_menu[href="http://blog.grupaazoty.c
 grupahatak.pl#?#body > div.content[role="main"]:nth-of-type(10):-abp-contains(Facebooku)
 grupaimage.eu,wnet.fm##.fa-facebook.fa, .fa-twitter.fa
 grupapietrzak.pl##.ytlogo
+grupa-icea.pl##.bottom-icea-footer .text-xl-left.col-xl-6
+grupa-icea.pl##.header-info-content-prawa
 grymel.pl###sc_behind
 grywalizacja24.pl###wpfb-facebook
 gry-online.pl##a[href="https://twitter.com/golpl"], a[href="https://www.facebook.com/golpl"]
@@ -3270,6 +3272,7 @@ photonrobot.com##.qodef-social-icon-widget, .qodef-social-share-holder
 piaseczno.eu#?#.td_block_widget.td_block_text_with_title.td_block_wrap:-abp-contains(Obserwuj)
 pibuya.pl#?#.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper:-abp-contains(Social Media)
 pico-projector.pl#?#[id^="fws_"].vc_row-fluid.wpb_row:-abp-contains(Znajdź nas na Facebook)
+pierwszynamapie.pl###media_image-2
 pietro-wyzej.pl##li.nav-item--icon.nav-item:nth-of-type(n+9):nth-of-type(-n+10)
 piewca.pl###facebookwidgetplus-2
 pij-wode.pl##.dt-social-icons
@@ -4431,6 +4434,7 @@ wiwa.info.pl##a[href^="https://www.facebook.com/WIWAINFOPL/"], a[href^="http://w
 wizaz.pl###socialize-right-side
 wizzair.com##.sitemap__wrapper--footer.container > .row > div.gr-3:nth-of-type(3) > .heading--5
 wkforum.pl##a[href="http://facebook.com/warszawskikokss"], a[href="http://instagram.com/warszawskikoks/"], a[href="http://youtube.com/user/WarszawskiKoks"]
+wklejto.pl##.col-right > div:nth-of-type(2):not([class])
 wklejto.pl##.login_choose > a > img[src="/gfx/fbico26x26.png"]
 wkruk.pl##.header__top__social, .footer_bottom_social
 wlaczoszczedzanie.pl##a[href="https://pl.pinterest.com/wlaczoszczedzanie/"] > .fm-icon, a[href="https://twitter.com/LukasPajak"] > .fm-icon
@@ -4716,6 +4720,7 @@ z-hotel.com###menu-item-868
 !wp.pl,~www.wp.pl#?#div[class] > button + div:-abp-contains(/^Podziel się$/)
 !wp.pl,~www.wp.pl#?#div[class] > button:-abp-has(+ div:-abp-contains(/^Podziel się$/))
 !www.dobreprogramy.pl#?#.author-social-links > a:-abp-has(> svg:not(.feather-link))
+||biodent.biz/wp-content/uploads/2018/06/fb.png$image
 !
 !
 ! Specyficzne reguły blokujące
@@ -4764,6 +4769,7 @@ z-hotel.com###menu-item-868
 ||europa.eu/european-union/sites/europaeu/files/instagram-icon-logo_small.png
 ||europa.eu/european-union/sites/europaeu/files/logo-facebook_small.png
 ||e-skladnica.pl/public/assets/przyciski/info.png
+||facebook.com/plugins/like.php?href=http*%3A%2F%2F*.pl%2F$subdocument,domain=pl
 ||facebook.com/widgets/like.php?href=http://gustaf.pl/opis/$subdocument
 ||facetaria.pl/img/cms/facetaria_FB.svg
 ||facetaria.pl/img/cms/facetaria_Tw.svg
