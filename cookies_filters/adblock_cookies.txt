@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.10.0
-! Last modified: Fri, 10 Jan 2020, 02:00 UTC+01
+! Version: 2020.1.10.1
+! Last modified: Fri, 10 Jan 2020, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.10.0 aktualizacja: pią, 10 sty 2020, 02:00 UTC+01
+! v.2020.1.10.1 aktualizacja: pią, 10 sty 2020, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -195,6 +195,7 @@ attrader.pl,teatrpalladium.com##.cppa
 audiocomplex.pl###starless-cookie
 audioteka.com##.anonymousToSConsent_mask
 audiovideo.com.pl###win_cookie
+aura.pl###dataProcessingStorageAndCookies
 austeria.eu,klementynka.eu,radiorpl.fm###cookiesDiv
 austria.info##.header-notification
 auto4free.pl###js-cookieBanner
@@ -749,6 +750,7 @@ fit-kids.pl,kuriergarwolinski.pl,sopocki-zdroj.pl,waxclinic.pl###rodoInfo
 fit.pl##.rodo-show
 fiveoclock.eu,nessi-sport.com,oko.press,pl-pl.segway.com,pl.tradingview.com,tapicer-pulawy.eu,worldcam.live##.cookie-message
 fivesport.pl###rodo_delivery_container, .rodo_background
+flixbus.pl##div[class^="CookieBox-module__notification__"]
 flordent.pl,sekretypiekna.net,szpot.pl##.ba_cookie_bar
 florexpol.eu###cookieMsg
 flyordie.pl###eucc
@@ -1265,6 +1267,7 @@ mega-kino.pl,skutecznie.tv###dc-cnb-container
 meloradio.pl##.cookie-giodo
 memoinfo.pl,pingpong.com.pl##body > div:nth-of-type(6)
 memorialhenrykapuzonia.pl###sc
+mercbus.pl###simplemodal-container, #simplemodal-overlay
 mercedes-benz-trucks.com##.cookielayer
 mercedes-benz.com###cLayer, #cPageOverlay
 mercedes-benz.com,mercedes-benz.pl###emb-cp-dialog
@@ -1353,6 +1356,7 @@ multiplay.pl,razemztoba.pl##.inform
 muscat.pl##.c-cookie-belt
 musicexpert.pl,recepturybonifratrow.pl###x13popup-container, #x13popup-cover
 musicexpress.pl##.rodo-info
+muszkieter.pl###rl_modals, #rl_modals_overlay
 muve.pl##.f-find-box
 muzeum-radom.pl###rodo-information
 muzyczneradio.pl###cookie-accep
@@ -1430,6 +1434,7 @@ nvidia.com###cookiePolicy-layer
 nysa.eu###img_77, #popup-bg
 o2.pl##.zyHor, #app-inner ._1Arb2
 obligacjeskarbowe.pl##.js-cookie-rodo.cookie-rodo
+obozymlodziezowe.pl#?#header ~ div > div > div[class^="jss"]:last-child:-abp-contains(cookies)
 obpon.pl###rodo-notice, #shadow-overlay
 ociasteczkach.pl###ociasteczkach
 oculus.com##div[data-cookiebanner="banner"]
@@ -1558,6 +1563,7 @@ pl.mitsubishielectric.com##.pc_scsmod-cookie_alert
 pl.mouser.com###gdprBar
 pl.mytaxi.com##.cookie-overlay
 pl.next-jobs24.com###container, #container_tmp
+pl.omio.com##div[class*="GoEuroLayout-content"][class*="main"] > div[id] > div > div[class^="pe_"]
 pl.pinterest.com##.outerCookieBar
 pl.pinterest.com#?#button[type="button"].noButtonStyles:-abp-has( > div:-abp-contains(Prywatność))
 pl.primo.com##.e-cookie
@@ -2147,12 +2153,9 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
 !poki.pl#?#aside:-abp-has( > h2:-abp-contains(Uwaga))
 !poki.pl#?#aside:-abp-has( > p:-abp-contains(zgodę))
-!zakupycodzienne.carrefour.pl##div[role="alertdialog"]
-!zakupycodzienne.carrefour.pl#?#div[class]:not([id])[role="dialog"]:-abp-contains(cookies)
 !
 !
 ! Specyficzne reguły blokujące
-!||pcworld.pl/www/js/sp/messaging.js
 /ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info|pl|zvami.tv
 /cookie*/bosch-privacy-settings-*.min.js$script,domain=bosch-professional.com|www.bosch.pl
 /cookie.js$script,domain=iap.pl|iaw.pl|pks-sa.eu|sacz.pl
@@ -2193,6 +2196,7 @@ zysk.com.pl###pageUpperInfo
 ||ciasteczkowapolityka.pl/getscript$script
 ||cmp.dreamlab.pl/static/cmp.complete.bundle.js
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
+||cmp.*.pl/$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
 ||confero.pl/js/cookies2013$script
 ||consentmanager.mgr.consensu.org/delivery/cmp.min.js$script,domain=opinie24.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
