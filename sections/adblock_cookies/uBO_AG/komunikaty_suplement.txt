@@ -1,6 +1,9 @@
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 7ryb.pl,etransport.pl,hrkgame.com##.modals.dimmer
 7ryb.pl,etransport.pl,hrkgame.com##.dimmed:style(overflow: auto !important;)
+barbara.net.pl##.modal:has-text(RODO)
+barbara.net.pl##.modal-backdrop
+barbara.net.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 24wroclaw.pl,bosch-easycontrol.com,ceres.pl,dane.gov.pl,e-sochaczew.pl,empik.com,giantfabryczna.pl,gry.lotto.pl,handluj.com,komugroup.eu,liv-cycling.com,m.24jgora.pl,multimediago.pl,naekranie.pl,obywatel.gov.pl,olesnica24.com,panoramafirm.pl,printoteka.pl,repostuj.pl,tvdami.eu,tvgo.orange.pl,wedkuje.pl,wrzesnia.info.pl,zwolen.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 24wroclaw.pl,m.24jgora.pl###rodoModal, .modal-backdrop
 abcalkoholu.pl##.cookielaw:style(padding-top: 0 !important;)
@@ -51,8 +54,8 @@ ckl.pl,dlahandlu.pl,eecpoland.eu,farmer.pl,frsih.pl,horecatrends.pl,housemarket.
 ckl.pl,dlahandlu.pl,eecpoland.eu,farmer.pl,frsih.pl,housemarket.pl,infodent24.pl,mckkatowice.pl,portalsamorzadowy.pl,portalspozywczy.pl,promocjada.pl,propertydesign.pl,propertynews.pl,ptwp.pl,pulshr.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,spodekkatowice.pl,wnp.pl##.windowOpen:style(overflow: auto !important;)
 claas.pl##.fancybox-lock:style(overflow: auto !important;margin-right: 0 !important;)
 claas.pl##.fancybox-overlay:has(.cookieHint)
-computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##html.sp-message-open:style(overflow: auto !important; position: static !important;)
-computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##[class^="sp_veil"], [id^="sp_message_panel"]
+!computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##html.sp-message-open:style(position: static !important; overflow: auto !important;)
+!computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##[class^="sp_veil"], [id^="sp_message_panel"]
 corbby.com.pl##html[style^="overflow"]:style(overflow: auto !important;)
 corbby.com.pl###tfade:has( + #tlight:has( > .termspopupcontainer))
 corbby.com.pl###tlight:has( > .termspopupcontainer)
