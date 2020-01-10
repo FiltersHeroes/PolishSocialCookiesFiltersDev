@@ -1,4 +1,3 @@
-||cmp.*.pl/$~third-party,script,domain=computerworld.pl|idg.pl|pcworld.pl|internetstandard.pl|cxo.pl
 /ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info|pl|zvami.tv
 /cookie*/bosch-privacy-settings-*.min.js$script,domain=bosch-professional.com|www.bosch.pl
 /cookie.js$script,domain=iap.pl|iaw.pl|pks-sa.eu|sacz.pl
@@ -39,6 +38,7 @@
 ||ciasteczkowapolityka.pl/getscript$script
 ||cmp.dreamlab.pl/static/cmp.complete.bundle.js
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
+||cmp.*.pl/$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
 ||confero.pl/js/cookies2013$script
 ||consentmanager.mgr.consensu.org/delivery/cmp.min.js$script,domain=opinie24.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
