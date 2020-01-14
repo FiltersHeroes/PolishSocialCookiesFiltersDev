@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.13.0
-! Last modified: Mon, 13 Jan 2020, 02:00 UTC+01
+! Version: 2020.1.14.0
+! Last modified: Tue, 14 Jan 2020, 22:01 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.13.0 aktualizacja: pon, 13 sty 2020, 02:00 UTC+01
+! v.2020.1.14.0 aktualizacja: wto, 14 sty 2020, 22:01 UTC+01
 !
 !
 ! Popupy
@@ -2405,6 +2405,8 @@ kamilianie.eu###pre-header-social > ul > li
 kamira90.blogspot.com,moje-bubble.blogspot.com,pozycjeobowiazkowe.pl,swedish-princesses.pl###HTML5
 kanal10.pl##div.yt-socialbt
 kancelaria.obligo.pl###footer .widget-contact.widget
+kanga.exchange##footer a[href*="/KangaExchange"], footer a[href*="/kanga.exchange"]
+kanga.exchange#?##root > div > div > div:-abp-has(#facebook + #twitter + #telegram + #vkontakte)
 kantor.com.pl##.dnd_follow_us > .top_social_icon
 kapral-car.pl##.absolute-fb.wpb_content_element, .icons-socials-homepage, .o-firmie.tabela p:nth-of-type(4) > strong
 karmimypsiaki.pl##.footer div.mrg-top-40.col-md-4:nth-of-type(2)
@@ -2981,9 +2983,6 @@ mzk-ostrow.com.pl##.rightpane p:nth-of-type(n+52):nth-of-type(-n+58)
 mzk-torun.pl###s5_drop_down_container
 m.beszamel.se.pl###big_socials.row
 m.interia.pl##.article-social
-m.niedziela.pl##a > .mdi-facebook-box.mdi
-m.niedziela.pl##a > .mdi-twitter-box.mdi
-m.niedziela.pl##a > .mdi-youtube.mdi
 m.se.pl##.social.row
 nadarzyn.tv##.facebook_fixed
 naekranie.pl###social-fans, .addthis_responsive_sharing, .msg-share, .title-p, .tw-share
@@ -3051,6 +3050,9 @@ nextbike.pl##a[href="https://www.instagram.com/nextbike_pl/"]
 nibyblog.pl###rss > ul > li:nth-of-type(2)
 nicolefashion.pl##.section-banner-6.section-banner.banner, .section-banner-7.section-banner.banner
 nicolefashion.pl##.widget-group.widget-banners-group.widget-1.widget
+niedziela.pl##a > .mdi-facebook-box.mdi
+niedziela.pl##a > .mdi-twitter-box.mdi
+niedziela.pl##a > .mdi-youtube.mdi
 niepoprawni.pl###pop1twon, #pop1gpon, #pop1yton, #pop1fbon, #pop1nkon
 nieruchomosci.arkei.pl###przyciski > span, #btn_face, #btn_youtube, #btn_twitter, #btn_in
 nietylkopasta.pl###text-49, #sidebar-instagram
