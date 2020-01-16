@@ -1,7 +1,7 @@
 2plus3d.pl###menuItem_facebook
 2xme.pl##.footer__block--flex.footer__block, .media__second
 galiciajewishmuseum.org##.social
-histmag.org#?##article > div[class$="border-box"] > div[class$="border-box"] > a:-abp-contains(/Facebook|Twitter|Instagram/)
+histmag.org#?##article > div[class$="border-box"] > div[class$="border-box"] > a:-abp-contains(/^(Facebook|Twitter|Instagram)$/)
 liberglob.pl###text-10
 3dom.pro##.division-size-50.division-box-2.division-box
 3dom.pro,alo.com.pl,e-vox.pl,kiddabadam.com,naturalo.pl,urwisydwa.sklep.pl##footer.footer-container div .center.section-title > span
@@ -247,7 +247,7 @@ atriumshop.eu,czterylapysklep.com,diagcar.eu,kameleonbutik.com,motoklinika.com,s
 atriumsystem.eu##.box-social-media.box
 atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com#?#section > .container-fluid:-abp-has( > h2:-abp-contains(Instagram))
 atrium-felicity.pl,atrium-koszalin.pl##.ico-foursquare.ico, .ico-new-instagram.ico-new, #header_link_fb_mobile, #header_link_4sq_mobile, #header_link_instagram_mobile
-atrium-felicity.pl,atrium-koszalin.pl#?#.footer-icons-box > .icon:-abp-contains(/Facebook|Foursquare|Instagram/)
+atrium-felicity.pl,atrium-koszalin.pl#?#.footer-icons-box > .icon:-abp-contains(/(Facebook|Foursquare|Instagram)/)
 at-outlet.pl,menland.pl##.social-profiles-info
 audiodelic.pl##.style-color-632047-bg .icon-box.icon-box-top.icon-inline
 audioteka.com##.page-foot__col:nth-of-type(4)
@@ -2723,7 +2723,7 @@ portalkujawski.pl###sp-right1
 portalmmo.pl##.nv-ico-fb, .soc-icons > li:nth-of-type(2)
 portalpszczelarski.pl##.element.col-2-7:nth-of-type(2)
 portalspozywczy.pl##.tabs-2.tabs > .navi > a:nth-of-type(-n+4)
-portalspozywczy.pl#?#.tabs-2.tabs > .panes > .one:-abp-contains(/Facebook|LinkedIn/)
+portalspozywczy.pl#?#.tabs-2.tabs > .panes > .one:-abp-contains(/(Facebook|LinkedIn)/)
 portaltatrzanski.com##.moduletable.m-d
 portalzp.pl##.spoleczna_stopka
 portal.abczdrowie.pl##.fb-container
@@ -2891,7 +2891,7 @@ radiorekord.pl##li:nth-of-type(3) > h3
 radiorodzina.kalisz.pl##.fh-socials
 radiosochaczew.pl##a[href="https://www.facebook.com/radiosochaczew/"], a[href="https://www.youtube.com/channel/UC9FUE-N_UZkoFC0Gi9Ytecw"]
 radiosud.pl##.sud-i-facebook, .sud-i-gplus
-radiosygnaly.pl#?#div[class^="et_pb_button"]:-abp-contains(/INSTAGRAM|FACEBOOK/)
+radiosygnaly.pl#?#div[class^="et_pb_button"]:-abp-contains(/(INSTAGRAM|FACEBOOK)/)
 radioszczecin.pl##.boxext
 radiotczew.pl##li:nth-of-type(1) > a[href="https://twitter.com/radiotczew"], li:nth-of-type(2) > a[href="http://www.facebook.com/RadioTczew"]
 radiovia.com.pl###footer > div > div > div > p.text-center:nth-of-type(1)
@@ -3429,7 +3429,7 @@ titanaxe.com##.page-footer-social
 tkchopin.pl##.sm-panel
 tkn24.pl###header #bottomboxj
 tlcpolska.pl##.menu-header-links-container
-tmproject.com.pl#?#.vc_column-inner > .wpb_wrapper:-abp-contains(/INSTAGRAM|MEDIA SPOŁECZNOŚCIOWE/)
+tmproject.com.pl#?#.vc_column-inner > .wpb_wrapper:-abp-contains(/(INSTAGRAM|MEDIA SPOŁECZNOŚCIOWE)/)
 tm-serwis.pomorze.pl##.fblogin
 tnt-tv.pl##.global_share
 together-razem.org##.item-222
@@ -3452,7 +3452,7 @@ tpay.com##div.col-sm-6.col-md-3:nth-of-type(4) > .widget.widget-2
 tradingjam.pl##.twitter-timeline-profile, #twitter-timeline-profile-2
 tradus.com##.app-footer__social
 traftu.pl##.social > span
-traino.pl#?#.sppb-container-inner > .sppb-row > div.sppb-col-sm-4:nth-of-type(-n+2):-abp-contains(/Facebook|Twitter/)
+traino.pl#?#.sppb-container-inner > .sppb-row > div.sppb-col-sm-4:nth-of-type(-n+2):-abp-contains(/(Facebook|Twitter)/)
 transferwise.com##.footer div.row:nth-of-type(1) > div.text-md-left:nth-of-type(4)
 translate.google.com,translate.google.pl###gt-blog, #gt-gplus, #gt-promo-lr, .goog-toolbar-separator, .share-translation-button
 transport-publiczny.pl##.naglowek, .wiadomoscSocialBig, .wiadomoscSocial
@@ -3983,7 +3983,7 @@ zygzaksnow.pl###ppfacebook
 z-hotel.com###menu-item-868
 !4fun.tv##.mt-4.mb-3.justify-content-center.d-flex, .mt-5.row > div.col-md-4:nth-child(-n+2)
 !atrium-biala.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com##.ico-foursquare.ico, .ico-new-instagram.ico-new, #header_link_fb_mobile, #header_link_4sq_mobile, #header_link_instagram_mobile
-!atrium-biala.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com#?#.footer-icons-box > .icon:-abp-contains(/Facebook|Foursquare|Instagram/)
+!atrium-biala.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com#?#.footer-icons-box > .icon:-abp-contains(/(Facebook|Foursquare|Instagram)/)
 !daciakatowice.pl##.fixedFB
 !fenii.pl##.instagram-feed
 !polskibus.com###footer-more
