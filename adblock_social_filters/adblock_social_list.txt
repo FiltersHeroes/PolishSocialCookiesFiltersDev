@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.19.1
-! Last modified: Sun, 19 Jan 2020, 14:00 UTC+01
+! Version: 2020.1.19.2
+! Last modified: Sun, 19 Jan 2020, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.19.1 aktualizacja: nie, 19 sty 2020, 14:00 UTC+01
+! v.2020.1.19.2 aktualizacja: nie, 19 sty 2020, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -2923,6 +2923,7 @@ money.pl##div.hHoybr.uo0cnn-0 > a
 money.pl##div.sc-1ajosl-0 > a.sc-1ajosl-1
 money.pl##div[data-st-area$="_FB"]
 money.pl#?#article[class] div[class] img + button:-abp-has( > span:-abp-contains(/^Podziel się$/))
+monier.pl#?##col-right > div[id^="c"]:-abp-has(a[href*="youtube.com"] > img[src*="yt"], a[href*="facebook.com"] > img[src*="fb"])
 monikahonory.pl#?#.vc_row-has-fill.vc_row-fluid.wpb_row.vc_row:-abp-contains(Dołącz do społeczności Zupomaniaków)
 monocerus.pl##a[href="https://www.facebook.com/monoceruspl/"]
 monsieur-cuisine.com###footer .container > div.row:nth-of-type(2) > div.col-md-4:nth-of-type(2)
@@ -4145,6 +4146,7 @@ tatra.pl###mnu-kontakt > span:nth-of-type(1)
 tatromaniak.pl##.btn-join, div:nth-of-type(2) > a[href="https://spolecznosc.tatromaniak.pl/"], .text--light.CTA, .feed
 tatryski.pl##div.sidebutton:nth-of-type(10), div.col-md-12.col-sm-6.col-xs-12:nth-of-type(2)
 tb-polska.pl##.customtab-lewa > ul > li:nth-of-type(-n+2)
+tb-polska.pl##.floating-links > div:nth-of-type( + n+3)
 tchibo.pl##.l-tp-footer-gray .g-tp-column--half.g-tp-column
 tcz.pl##a[href="http://www.facebook.com/tczewtczpl"]
 tcz.pl##div[id] > a[href^="https://www.youtube.com/user/tczpl"]
