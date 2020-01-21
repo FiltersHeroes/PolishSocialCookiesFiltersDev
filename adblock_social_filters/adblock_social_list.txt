@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.20.0
-! Last modified: Mon, 20 Jan 2020, 22:00 UTC+01
+! Version: 2020.1.21.0
+! Last modified: Tue, 21 Jan 2020, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.20.0 aktualizacja: pon, 20 sty 2020, 22:00 UTC+01
+! v.2020.1.21.0 aktualizacja: wto, 21 sty 2020, 02:00 UTC+01
 !
 !
 ! Popupy
@@ -159,7 +159,6 @@ pl##.facebook-popup
 ! Ogólne reguły ukrywające
 com,pl##.pwebbox.pwebbox-plugin-facebook_page_plugin
 com,pl##.pwebbox.pweb-theme-fbnavy:not(.pwebbox-plugin-facebook_page_plugin)
-elektro-outlet.net##.fb-messengermessageus
 pl##.FBButton
 pl##.Facebook
 pl##.Instagram
@@ -467,7 +466,7 @@ pl##.facebook-plain-control
 pl##.facebook-small
 pl##.facebook-solid-control
 pl##.facebook-toolbar
-pl##.facebook:not([data-id*=videos]):not(.connect)
+pl##.facebook:not([data-id*="videos"]):not(.connect)
 pl##.facebook_bg1
 pl##.facebook_color
 pl##.facebook_like
@@ -1339,7 +1338,7 @@ cewe.pl##.sidebar-link:nth-of-type(n+4):nth-of-type(-n+6) > .sidebar-icon
 ch24.pl###text-6 > .widget-title, .social > li:not(:nth-of-type(4))
 challengeme.gg##footer .text-right.media-links, .twitter-news
 chamskie.pl##.widget-fanbox
-change.shop.pl##.fb-messengermessageus
+change.shop.pl,elektro-outlet.net##.fb-messengermessageus
 change.shop.pl,multibook.pl,starecegly.com###box_facebooklike
 channel9.msdn.com##.reddit
 channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,echotygodnik.info,filmaster.com,gls-group.eu,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.com,nerwica.com,pl.futbol24.com,podstacja.com,radiomalbork.fm,sadzonkiborowki.com,siatka.org,slonskyradio.eu,stoprocent.com,swmarcin-jarocin.com,wejherowo24.info,woblink.com,zvami.tv##.facebook
@@ -3016,7 +3015,6 @@ mzk-ostrow.com.pl##p:nth-child(n+59)
 mzk-ostrow.com.pl##.rightpane p:nth-of-type(n+52):nth-of-type(-n+58)
 mzk-torun.pl###s5_drop_down_container
 m.beszamel.se.pl###big_socials.row
-m.interia.pl##.article-social
 m.interia.pl##.article-social.is-bottom
 m.se.pl##.social.row
 nadarzyn.tv##.facebook_fixed
@@ -5199,6 +5197,7 @@ miedzyrzecz.biz#@#.td_social_type
 motormag.pl#@##menu-social
 motormag.pl#@##social-navigation
 motormag.pl#@#.nav--social
+muzykazreklam.pl#@#.facebook-button
 naekranie.pl#@#.sharingButton
 naekranie.pl#@#.social-buttons
 narew.info#@#.sbuttons
@@ -5253,7 +5252,7 @@ allegro.pl,bilety-autokarowe.info.pl,kurnik.pl#@#.fb
 downdetector.pl#@#a[title="Instagram"]
 freshfile.pl#@#.google
 freshfile.pl,naekranie.pl#@#.facebook
-konto.wpolityce.pl#@#.facebook:not([data-id*=videos])
+konto.wpolityce.pl,muzykazreklam.pl#@#.facebook:not([data-id*="videos"]):not(.connect)
 linuxportal.pl#@#a.like
 patrz.pl#@#.likes
 pecetowicz.pl#@#.fa-twitter.fa
