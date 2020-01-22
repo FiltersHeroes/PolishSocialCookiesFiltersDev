@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.21.3
-! Last modified: Tue, 21 Jan 2020, 22:00 UTC+01
+! Version: 2020.1.22.0
+! Last modified: Wed, 22 Jan 2020, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.21.3 aktualizacja: wto, 21 sty 2020, 22:00 UTC+01
+! v.2020.1.22.0 aktualizacja: śro, 22 sty 2020, 02:00 UTC+01
 !
 !
 ! Popupy
@@ -882,6 +882,7 @@ allepaczki.pl##a[href*="facebook.com/allepaczki"]
 allrecipes.pl##.footer__links > div:nth-of-type(3)
 all-bielizna.pl###sid245
 altenberg.pl##.youtube_link, .instagram_link
+aluprof.eu##.sidebar__title, li.sidebar__link:nth-of-type(-n+3)
 am76.pl##.container.shop-footer .row > .text-center.col-md-6 > a > .fa-stack > .fa
 amberexpo.pl##body > div[style]:nth-of-type(n+3):nth-of-type(-n+4) > .handle_fb
 amica.pl##.amica-menu-social-media > a, .amica-footer-social-media-links > a
@@ -3541,6 +3542,7 @@ prawdaobiektywna.pl##.article > h2
 prawoautorskie.sewerynik.pl##.column-widget > .box-blue-gradient.box-right-menu
 prawoautorskie.sewerynik.pl##.footer-content-right
 prawodrogowe.pl##div:nth-of-type(4) > .img-responsive
+prawokonsumenckie.pl##footer > div > div > div:nth-of-type(4)
 prawowroclaw.edu.pl##.social_widget_icon
 prawo-mamy.pl##.widget_facebook-widget.widget
 prbbudomal.pl##.nav-social-media
@@ -5178,6 +5180,7 @@ alilove.pl,miedzyrzecz.biz#@#.td-social-icon-wrap
 avast.com,szkolymedyczne.eu,tenit.com.pl,upflix.pl#@#.social-icons
 bemares.pl#@#.social-media:not(html):not(body)
 biznes.interia.pl#@#.social-socialButtons
+dietetycy.org.pl#@#.post-share-container
 edunews.pl#@#.custom-social-buttons
 enfamil.pl#@#.float-shop
 freshandnatural.pl#@##social_block
