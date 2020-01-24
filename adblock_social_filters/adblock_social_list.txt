@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.24.0
-! Last modified: Fri, 24 Jan 2020, 02:00 UTC+01
+! Version: 2020.1.24.1
+! Last modified: Fri, 24 Jan 2020, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.24.0 aktualizacja: pią, 24 sty 2020, 02:00 UTC+01
+! v.2020.1.24.1 aktualizacja: pią, 24 sty 2020, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -4243,6 +4243,7 @@ toya24.pl##.container.menu_settings_bar > a > img
 toyotawola.pl##.topSecondaryNavigationFbLink, .fbFooterLink
 to.com.pl##.componentsArticleTools__button, .atomsNavigationFooterSocialmedia__button
 tpay.com##div.col-sm-6.col-md-3:nth-of-type(4) > .widget.widget-2
+tp-link.com##.tp-follow-social
 tradingjam.pl##.twitter-timeline-profile, #twitter-timeline-profile-2
 tradus.com##.app-footer__social
 traftu.pl##.social > span
@@ -4654,6 +4655,7 @@ wydawnictwopoznanskie.com##.home_jestesmy
 wykop.pl##.fb-slide
 wylecz.to##.footer__smm__pozdro_polish_filters_team
 wynagrodzenia.pl##.pull-right.community
+wynajem.pl##footer > .container > .row > div:nth-of-type(4) > h5
 wyprzedaze.uk##li.ruby-menu-social:nth-of-type(8), .rightSidebar > div.cardBox.box:nth-of-type(4)
 wysokienapiecie.pl##.is-offset-1-desktop.column.footer__supplement
 wzielonej.pl##div > a[href="http://www.facebook.com/wzielonej"] > img
@@ -4849,7 +4851,7 @@ z-hotel.com###menu-item-868
 ||europa.eu/european-union/sites/europaeu/files/instagram-icon-logo_small.png
 ||europa.eu/european-union/sites/europaeu/files/logo-facebook_small.png
 ||e-skladnica.pl/public/assets/przyciski/info.png
-||facebook.com/plugins/like.php?href=$subdocument
+||facebook.com/plugins/like.php?$subdocument
 ||facetaria.pl/img/cms/facetaria_FB.svg
 ||facetaria.pl/img/cms/facetaria_Tw.svg
 ||farm-market.eu/wp-content/themes/*/images/fIcon.png
@@ -5268,6 +5270,7 @@ freshfile.pl#@#.google
 freshfile.pl,naekranie.pl#@#.facebook
 konto.wpolityce.pl,muzykazreklam.pl#@#.facebook:not([data-id*="videos"]):not(.connect)
 linuxportal.pl#@#a.like
+media2.pl#@#.fa-facebook-square
 patrz.pl#@#.likes
 pecetowicz.pl#@#.fa-twitter.fa
 pecetowicz.pl,samequizy.pl,swiatebookow.pl#@#.fa-facebook-official.fa
