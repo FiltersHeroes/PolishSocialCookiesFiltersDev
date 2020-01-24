@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.24.1
-! Last modified: Fri, 24 Jan 2020, 18:00 UTC+01
+! Version: 2020.1.24.2
+! Last modified: Fri, 24 Jan 2020, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.24.1 aktualizacja: pią, 24 sty 2020, 18:00 UTC+01
+! v.2020.1.24.2 aktualizacja: pią, 24 sty 2020, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -2629,6 +2629,7 @@ lahtipro.pl##.stopkaKontakt > .contact-feed, .stopkaKontakt > .white
 lajt.co.uk##.ebFooter__headerLinks--lajt, .peTopbar__section--social
 laplander.pl##div.banner2_item > a[href="https://plus.google.com/+LaplanderPln"]
 laracroft.pl##center > a[href="http://www.facebook.com/WorldOfTombRaider"] > img, img[src="sitegfx/menu_fb.jpg"], img[src="sitegfx/tube.jpg"]
+laroche-posay.pl##.obj_socials
 lasery.pl##.ce_t4c_social_icons, .t4c_social_list
 lastinn.info##a[href="https://www.facebook.com/LastInn/"] > img
 last.fm##.footer-top-col:nth-of-type(5)
@@ -5243,6 +5244,7 @@ www.instalki.pl#@#img[alt="Facebook"]
 www.pkobp.pl#@#.footer-top__social
 www.x-kom.pl#@#.social-bar
 wydawnictwo.szaron.pl#@#.social-box
+wykop.pl#@#.social-list:not(html):not(body)
 youtube.com#@##secondary-links
 @@/dynamic_content/*_icon_google_play$image,domain=pilot.wp.pl
 @@/googleplus-$image,domain=www.wirtualnemedia.pl
