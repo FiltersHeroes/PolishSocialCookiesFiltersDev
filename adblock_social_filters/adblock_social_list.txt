@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.1.30.0
-! Last modified: Thu, 30 Jan 2020, 18:00 UTC+01
+! Version: 2020.1.30.1
+! Last modified: Thu, 30 Jan 2020, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.1.30.0 aktualizacja: czw, 30 sty 2020, 18:00 UTC+01
+! v.2020.1.30.1 aktualizacja: czw, 30 sty 2020, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -4539,7 +4539,11 @@ worldcam.pl##li > a[href="https://www.facebook.com/worldcampl/"]
 wozniki.pl##a[href="http://www.facebook.com/umwozniki"]
 wprost.pl##.soc-buttons-box
 wpr.pl##.col-lg-1 > div:nth-of-type(1) > strong
+wp.pl,~www.wp.pl#?#header + div > div > div > div > div > div:-abp-has( > p:-abp-contains(Podziel się))
+wp.pl,~www.wp.pl#?#header + div > div > div > div:-abp-has( > div > div > p:-abp-contains(na Facebooku))
 wp.pl,~www.wp.pl#?##app > div > table[class]:not([id]) td[class] div[class] ~ a[class]:-abp-has( > figure > span > svg)
+wp.pl,~www.wp.pl#?#.content div:-abp-has( > span[style="width:15px;height:15px;"] > svg > title)
+wp.pl,~www.wp.pl#?#.content > div > div > div > div > div > div > div > div:-abp-has( > div > div > p:-abp-contains(na Facebooku))
 wrobelekelemelek.com###likebox_1
 wroclaw.pl##.ck_social_media > h3, .ck_mobile_social_icon_1, .ck_mobile_social_icon_4, .ck_mobile_social_icon_5, .ck_mobile_social_icon_6, .ck_mobile_social_icon_7
 wrotatczewa.pl##div.dotter_right:nth-of-type(1) > .content > .article > div > a:nth-of-type(-n+3)
