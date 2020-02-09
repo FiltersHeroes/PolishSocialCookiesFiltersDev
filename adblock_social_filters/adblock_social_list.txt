@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.2.8.1
-! Last modified: Sat, 08 Feb 2020, 22:00 UTC+01
+! Version: 2020.2.9.0
+! Last modified: Sun, 09 Feb 2020, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.2.8.1 aktualizacja: sob, 08 lut 2020, 22:00 UTC+01
+! v.2020.2.9.0 aktualizacja: nie, 09 lut 2020, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -4430,6 +4430,8 @@ viva.pl##.icon-facebook-black
 vivio.pl##a.flagi:nth-of-type(n+6):nth-of-type(-n+8)
 vivus.pl#?##app ul + ul:last-child > li > a[target="_blank"]:-abp-has(svg)
 vobis.pl##.m-copyrights_info > a
+volcano.pl#?#section.section-text:-abp-contains(Znajdź nas w Social Media)
+volcano.pl#?#section.section-text:-abp-contains(Znajdź nas w Social Media) + .section-banners
 volkswagen.pl##.vw_m520_social_element
 vorek.pl##.dcont:nth-of-type(5)
 vorek.pl##.headcond:nth-of-type(4)
