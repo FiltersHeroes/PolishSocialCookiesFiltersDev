@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.2.12.1
-! Last modified: Wed, 12 Feb 2020, 14:00 UTC+01
+! Version: 2020.2.12.2
+! Last modified: Wed, 12 Feb 2020, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.2.12.1 aktualizacja: śro, 12 lut 2020, 14:00 UTC+01
+! v.2020.2.12.2 aktualizacja: śro, 12 lut 2020, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -2630,6 +2630,7 @@ kurier365.pl##.no-border.box
 kuriereuropejski.org###footer li > a[href="https://www.facebook.com/JEFpoland/"], #footer li > a[href="https://twitter.com/KEuropejski"]
 kuriereuropejski.org###share > li > a:not([href="#"]) > .fa, .share
 kuriergalicyjski.com###position3, #position4
+kurierpoludniowy.pl#?#body table[width="960"] td[valign="top"] table + table:-abp-has(iframe[src*="facebook.com"])
 kurjerzy.pl##.main__footer__container .row > .push-0\@tablet.gr-12\@tablet.push-8.gr-4
 kurkanielotka.pl##.share-recipe-btn, .single-meta-share, #custom_html-2, .author-social-links
 kutno.net.pl##header .left > a
@@ -3163,7 +3164,7 @@ o2.pl#?#div[class][data-st-area="st-article-reactions"] div[class]:nth-of-type(5
 o2.pl#?#footer[class] div[class]:-abp-has( > span[class]:-abp-contains(Bądź na bieżąco))
 o2.pl,pudelek.pl#?#article div:not([role="complementary"]) div[class]:-abp-has( > div > .fb-like)
 o2.pl,pudelek.pl#?#aside[role="complementary"] > div > div:-abp-has( > div > div.fb-like)
-oakandberry.com##.in
+oakandberry.com##.in:not(div):not([class*=" "])
 obcasy.pl##.widget_text.widget.td_block_template_1:nth-of-type(-n+2)
 oborniki.pl##.open-fb.hl-fb, .open-yt.hl-yt
 obserwatorfinansowy.pl##.pm-global-margin.pm-footer-ref
@@ -4475,6 +4476,7 @@ warsztatowski.com##.marki
 warsztatpodrozy.com##a[href="https://www.facebook.com/WarsztatPodrozy/"], a[href="https://www.instagram.com/warsztatpodrozy/"]
 warsztatywyobrazni.com.pl##a[href="https://www.facebook.com/wwyobrazni/"] > img
 waszaedukacja.pl##.footer3 > h3:nth-of-type(1), #udostepnij
+watra.pl##.addTo
 wavepc.pl##.mh-footer-4, .mh_magazine_facebook_page
 waw4free.pl##div.footer-box:not(:nth-of-type(2)) > .social, #spolecznosci > a[title^="fanpage"], #spolecznosci > a[title$="Instagramie"]
 wazcar.pl##.contact-icons > ul > li:nth-of-type(5)
