@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.2.17.1
-! Last modified: Mon, 17 Feb 2020, 22:00 UTC+01
+! Version: 2020.2.18.0
+! Last modified: Tue, 18 Feb 2020, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.2.17.1 aktualizacja: pon, 17 lut 2020, 22:00 UTC+01
+! v.2020.2.18.0 aktualizacja: wto, 18 lut 2020, 14:00 UTC+01
 !
 !
 ! Popupy
@@ -820,7 +820,6 @@ agencjagazeta.pl##article.mod_uzr6.mod:nth-of-type(2) > .body > ul > .n6.n5.n4.n
 agencjagazeta.pl##a[href^="https://twitter.com/agencjagazeta"]
 agkoperty.com.pl##.frontpage-contact.line > li:nth-of-type(3)
 agmarprzewozy.pl##.above-social, .sh-social
-agrafkasklep.com.pl,megazoologiczny.pl,vedion.pl###tws_i_100001, #tws_i_100002
 agraf-it.pl##.box-footer.tags_block
 agroalex.pl,ministerstwoksiazki.pl##.pc-social-sidebar
 agrobex.pl##.fb-tab
@@ -2843,6 +2842,7 @@ medonet.pl##.socials > li.item:nth-of-type(3)
 medpolonia.pl##.helper-yt
 meetup.com##.flex--noGutters > .flex-item--shrink, .event-share
 megazoologiczny.pl#?##footer_img:-abp-has(.find_us)
+megazoologiczny.pl,vedion.pl###tws_i_100001, #tws_i_100002
 melagu.pl##div[class*="footer"] > div > div > div > div > .sm-panel > a
 melagu.pl##.top-links-grid > div.ty-float-right:nth-of-type(1) > div > .sm-panel > a
 meloradio.pl###main-footer nav.active:nth-of-type(2) > ul > li:nth-of-type(-n+2)
