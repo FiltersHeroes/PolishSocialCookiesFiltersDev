@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.2.25.0
-! Last modified: Tue, 25 Feb 2020, 22:00 UTC+01
+! Version: 2020.2.26.0
+! Last modified: Wed, 26 Feb 2020, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.2.25.0 aktualizacja: wto, 25 lut 2020, 22:00 UTC+01
+! v.2020.2.26.0 aktualizacja: śro, 26 lut 2020, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1191,6 +1191,7 @@ licytacje.komornik.pl###sign_up, body > div[style*="margin-top: 100px"]
 lifepointspanel.com##.cookie_banner_notification
 lightbox.pl##.cookies-bottom
 limango-outlet.pl##.lilayout-header-cookiebar
+limango.pl###footer-container ~ div[class*="shop"]:last-of-type:not([style])
 limango.pl##.floating_notification
 linkedin.com###artdeco-global-alert-container > artdeco-global-alert[severity="notice"]
 linkedin.com###global-alert-queue > .alert, #notice-cookie-policy, .global-alert
