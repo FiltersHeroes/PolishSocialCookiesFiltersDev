@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.2.27.0
-! Last modified: Thu, 27 Feb 2020, 02:00 UTC+01
+! Version: 2020.2.28.0
+! Last modified: Fri, 28 Feb 2020, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.2.27.0 aktualizacja: czw, 27 lut 2020, 02:00 UTC+01
+! v.2020.2.28.0 aktualizacja: pią, 28 lut 2020, 02:00 UTC+01
 !
 !
 ! Popupy
@@ -752,6 +752,13 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_l
 !
 !
 ! Specyficzne reguły ukrywające
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article + div[class*=" "] > div[class] > div:not([class]) > div[class]:-abp-has( > div[class*=" "] > span > svg > [stroke="none"] > #PAKO_reakcje-Copy)
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article + div[class*=" "] > div[class] > div[class]:-abp-has( > div[class] > div[class] > div[class] > .fb-like)
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article > div[class] > .article--title + div[class] > div[class] > div[class]:-abp-has( > div[class] > strong[class]:-abp-contains(/^Podziel się$/))
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has( > div[class] > div[class] > span > svg > path)
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#.content a[href^="https://www.facebook.com/"] > div[class]:-abp-has( > div[class] > div[class] > .fb-like)
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#.content > div[class] > div[class] > div[class] > div[data-reactid] > div[class]:-abp-has( > div[class] > div[class] > .fb-like)
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#.content > div[class] > div[class] > div[class] > div[data-reactid] > div[class]:-abp-has( > div[class] > span > svg > [stroke="none"] > #PAKO_reakcje-Copy)
 2plus3d.pl###menuItem_facebook
 2xme.pl##.footer__block--flex.footer__block, .media__second
 3dom.pro##.division-size-50.division-box-2.division-box
@@ -3510,6 +3517,7 @@ polskaekologia.org###object > .social, #block-block-28
 polskainstitutet.se##.newsBottom > .share, div.field:nth-of-type(3) > .fieldTitleRight
 polskaizbabranzypogrzebowej.pl##.social.column--1-4
 polskaszkolaleuven.eu##a[href="https://polskaszkolaleuven.eu/blog-2/"] > img
+polskatimes.pl##.quiz-results-share
 polskatradycja.pl##.uk-grid > div > .uk-icon.uk-icon-button.el-link
 polskawoda.com.pl#?#.fp-section.section-5.section > h2:-abp-contains(/Bądźmy w.*kontakcie/)
 polska.travel,pot.gov.pl###icons
@@ -4598,12 +4606,6 @@ worldcam.pl##li > a[href="https://www.facebook.com/worldcampl/"]
 wozniki.pl##a[href="http://www.facebook.com/umwozniki"]
 wprost.pl##.soc-buttons-box
 wpr.pl##.col-lg-1 > div:nth-of-type(1) > strong
-wp.pl,~www.wp.pl#?##app header ~ div.content div:-abp-has( > div > div > p:-abp-contains(/^na Facebooku$/))
-wp.pl,~www.wp.pl#?##app header ~ div.content div:-abp-has( > div > span[style="width:15px;height:15px;"] > svg > title)
-wp.pl,~www.wp.pl#?##app .content article ~ div div p:-abp-contains(/^Podziel się opinią$/)
-wp.pl,~www.wp.pl#?##app .content article ~ div div:-abp-has( > div > div > p:-abp-contains(/^na Facebooku$/))
-wp.pl,~www.wp.pl#?##app .content article ~ div div:-abp-has( > span[style="width:15px;height:15px;"] > svg > title)
-wp.pl,~www.wp.pl#?##app > div > table[class]:not([id]) td[class] div[class] ~ a[class]:-abp-has( > figure > span > svg)
 wrobelekelemelek.com###likebox_1
 wroclaw.pl##.ck_social_media > h3, .ck_mobile_social_icon_1, .ck_mobile_social_icon_4, .ck_mobile_social_icon_5, .ck_mobile_social_icon_6, .ck_mobile_social_icon_7
 wrotatczewa.pl##div.dotter_right:nth-of-type(1) > .content > .article > div > a:nth-of-type(-n+3)
@@ -4866,8 +4868,6 @@ z-hotel.com###menu-item-868
 !polskibus.com###footer-more
 !roland-gazeta.pl##.jj_sl_google, .jj_sl_linkedin
 !tradus.com##.inline-list.app-footer__social > li:nth-child(-n+2)
-!wp.pl,~www.wp.pl#?#div[class] > button + div:-abp-contains(/^Podziel się$/)
-!wp.pl,~www.wp.pl#?#div[class] > button:-abp-has(+ div:-abp-contains(/^Podziel się$/))
 !www.dobreprogramy.pl#?#.author-social-links > a:-abp-has(> svg:not(.feather-link))
 !
 !
