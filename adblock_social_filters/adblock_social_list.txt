@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.2.29.0
-! Last modified: Sat, 29 Feb 2020, 14:00 UTC+01
+! Version: 2020.3.1.0
+! Last modified: Sun, 01 Mar 2020, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.2.29.0 aktualizacja: sob, 29 lut 2020, 14:00 UTC+01
+! v.2020.3.1.0 aktualizacja: nie, 01 mar 2020, 22:00 UTC+01
 !
 !
 ! Popupy
@@ -25,6 +25,7 @@ babymanager.pl###spu-2707, #spu-bg-2707
 beskidy.news##.c-pop-up
 black-friday.pl,cryptoprofit.pl,e-przepisykulinarne.pl,funfashion.pl,kucharenka.pl,kuchniawedwoje.pl,magazyninformacyjny.pl,tele-wizja.ru,wielkopolskamagazyn.pl,zatrzymujacczas.pl###ffbp, #ffbp-bg
 chrzescijanin.pl###spu-6691, #spu-bg-6691
+czasnawnetrze.pl##.waitbox
 dziennik-polityczny.com###dz-popup-follow-us
 ebizpro.pl###itro_opaco, #itro_popup
 eitalia.pl###facebox, #facebox_overlay
@@ -467,7 +468,7 @@ pl##.facebook-plain-control
 pl##.facebook-small
 pl##.facebook-solid-control
 pl##.facebook-toolbar
-pl##.facebook:not([data-id*="videos"]):not(.connect)
+pl##.facebook:not([data-id*="videos"]):not([class*="login"]):not(.connect)
 pl##.facebook_bg1
 pl##.facebook_color
 pl##.facebook_like
@@ -830,7 +831,7 @@ agencjagazeta.pl##a[href^="https://twitter.com/agencjagazeta"]
 agkoperty.com.pl##.frontpage-contact.line > li:nth-of-type(3)
 agmarprzewozy.pl##.above-social, .sh-social
 agraf-it.pl##.box-footer.tags_block
-agroalex.pl,ministerstwoksiazki.pl##.pc-social-sidebar
+agroalex.pl,karcher-apeks.pl,ministerstwoksiazki.pl##.pc-social-sidebar
 agrobex.pl##.fb-tab
 agrounia.pl##footer > .content > div.col:nth-of-type(2) > a > img
 agro-masz.eu##.topspace3.text-right > a > i
@@ -1117,7 +1118,7 @@ beardrust.pl###ssb-btn-0, #ssb-btn-1, #ssb-btn-2, #ssb-btn-3
 beautikon.com##div.grid12-3.mobile-grid:nth-of-type(4)
 beautyduty.pl###footer #text-5
 bebetalent.pl#?#h3.hometitle:nth-of-type(3):-abp-contains(Instagram)
-bebetalent.pl,eurobusnysa.pl##.widget_kadence_social.widget
+bebetalent.pl,domar.biz.pl,eurobusnysa.pl##.widget_kadence_social.widget
 beck.pl##.footer-column > #text-5
 bedekodzic.pl###footer > .social
 bednarek.com.pl##.social_icons_rwd
@@ -1614,8 +1615,8 @@ dolinaraby.pl##.bd-sidebararea-5 > .bd-textblock-3, .bd-sidebararea-5 > .bd-text
 dollarro.com##a[href="https://www.linkedin.com/company/dollarrocom"]
 dolnoslaska.policja.gov.pl,taniejdladomu.pl###facebookButton
 dom1n.com###media_image-41 > .widget-pad
+domar.biz.pl##.floating-menu > ul > li:nth-of-type(n+4):nth-of-type(-n+5)
 domczekolady.pl###menu-item-11685, .eltdf-footer-bottom-inner > div > div > .eltdf-icon-widget-holder
-domenasportowa.pl##a[href="https://plus.google.com/+PerfectSportDystrybucjasprz%C4%99tusportowegoWarszawa"], a[href="https://www.facebook.com/DomenaSportowaPl/"], a[href="https://www.instagram.com/domenasportowa/"], a[href="https://www.youtube.com/channel/UCj-A3y-rWIifEDuOm28qjAg"]
 domenasportowa.pl###menu5_wrap
 domhobbyogrod.pl##.toplayerSpecialClass + .toplayerSpecialClass
 domiporta.pl##.container > .justify-content-between.row > .col-md-3.col-12
@@ -1771,6 +1772,7 @@ elubaczow.com###text-34, #text-35
 elubaczow.com,inthecage.pl##.td-instagram-user
 eluban.pl,tczewska.pl##article > .row.article_summary > .text-left > .text-muted
 elwico.com.pl,imn.gliwice.pl,sklep.polbit.com##.kac-sm-block
+emarketing.pl##.footer-widgets > #black-studio-tinymce-13
 embryolisse.pl##div > div > a[href="https://embryolisse.pl/blog/"], #convertisinstagram
 emisja.tv##.header-signbtn
 emisja.tv##.person-social
@@ -2457,6 +2459,7 @@ jurajska.pl##.sitemap__map__item__title > a[href^="https://www.instagram.com/jur
 jurajska.pl#?#.sitemap__map__group.sitemap__map__group--2:-abp-has(a[href^="https://www.instagram.com/jurajska"], a[href^="https://www.facebook.com/Jurajska"])
 juvenia2000.pl###sidePanel
 kadimex.pl##.wb-facebook, .wb-youtube
+kaercher.com###footernav section:nth-of-type(4) > h6
 kajto.pl##.sidebar.span3
 kalendarzefirmowe24.pl###socb
 kalendarzrolnikow.pl##.bt-fc
@@ -2473,6 +2476,7 @@ kanga.exchange##footer a[href*="/KangaExchange"], footer a[href*="/kanga.exchang
 kanga.exchange#?##root > div > div > div:-abp-has(#facebook + #twitter + #telegram + #vkontakte)
 kantor.com.pl##.dnd_follow_us > .top_social_icon
 kapral-car.pl##.absolute-fb.wpb_content_element, .icons-socials-homepage, .o-firmie.tabela p:nth-of-type(4) > strong
+karchercenter-ocean.pl###facebook-left
 karmimypsiaki.pl##.footer div.mrg-top-40.col-md-4:nth-of-type(2)
 karnet.krakow.pl##.bar-facebook.bar
 karoseria.eu###menu-item-291, #menu-item-339
@@ -2840,6 +2844,7 @@ meblezet.com###footer > .row > .col-sm-3.col-xs-12.footer-block
 meble-4you.pl###wr_foot_social
 meble-wanat.pl##.social__wrapper
 meble.pl##.additional-info:nth-of-type(2)
+meble.pl##.mainFooter > .row-flex > div:nth-of-type(5)
 mebline.co.uk,mebline.nl##.moduletable_social
 mebline.nl##.social-news
 mebloteka.eu###Facebook_Messenger
@@ -4867,6 +4872,7 @@ z-hotel.com###menu-item-868
 !atrium-biala.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com##.ico-foursquare.ico, .ico-new-instagram.ico-new, #header_link_fb_mobile, #header_link_4sq_mobile, #header_link_instagram_mobile
 !atrium-biala.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com#?#.footer-icons-box > .icon:-abp-contains(/(Facebook|Foursquare|Instagram)/)
 !daciakatowice.pl##.fixedFB
+!domenasportowa.pl##a[href^="https://plus.google.com/+PerfectSportDystrybucja"], a[href="https://www.facebook.com/DomenaSportowaPl/"], a[href="https://www.instagram.com/domenasportowa/"], a[href="https://www.youtube.com/channel/UCj-A3y-rWIifEDuOm28qjAg"]
 !fenii.pl##.instagram-feed
 !polskibus.com###footer-more
 !roland-gazeta.pl##.jj_sl_google, .jj_sl_linkedin
@@ -4888,6 +4894,7 @@ z-hotel.com###menu-item-868
 ||adwokat-gostkowski.pl/img/socjal/*.jpg
 ||aksiazka.pl/img/site/facebook-icons.png
 ||aksiazka.pl/img/site/twitter-icons.png
+||alejasztuki.com/images/fecebook-logo.png
 ||apayo.pl/img/iko_fb.jpg
 ||apayo.pl/img/iko_gp.jpg
 ||arhelan.com.pl/templates/default/images/bottom_panel_FB.png
@@ -5164,7 +5171,6 @@ z-hotel.com###menu-item-868
 ||wsensie.pl/images/vimeo_wsensie.png
 ||wsensie.pl/images/yt_wsensie.png
 ||wsensie.tv/images/twetter_icon.png
-||www.alejasztuki.com/images/fecebook-logo.png
 ||xn--bolesawiec-e0b.pl/miasto/images/ikony/2018/2_IT.png$image
 ||xn--bolesawiec-e0b.pl/miasto/images/ikony/2018/6_nk.png$image
 ||zakupycodzienne.carrefour.pl/static/ui/socials-sprite.png
