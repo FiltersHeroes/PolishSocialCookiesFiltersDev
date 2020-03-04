@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.3.2.0
-! Last modified: Mon, 02 Mar 2020, 02:00 UTC+01
+! Version: 2020.3.4.0
+! Last modified: Wed, 04 Mar 2020, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.3.2.0 aktualizacja: pon, 02 mar 2020, 02:00 UTC+01
+! v.2020.3.4.0 aktualizacja: śro, 04 mar 2020, 02:00 UTC+01
 !
 !
 ! Popupy
@@ -4558,6 +4558,7 @@ wht.pl##.Box:nth-of-type(3)
 wiadomosci.com##.widget_weblizar_facebook_likebox
 wiadomosci.olsztyn.pl###execphp-19
 wiadomosci.ox.pl##.facebook_left_widget__side
+wiadomosci.radiozet.pl##.full__article__body > p > a[href="https://www.facebook.com/groups/1353156981456163/"] > b
 wici.info##.col3 > div.block:nth-of-type(3)
 widzewlodz.pl###logowanie > div > .vtip:nth-child(-n+2)
 wiedzoholik.pl##.c-social-link
@@ -4663,7 +4664,7 @@ www.gornikzabrze.pl##.layout-intro-footer-social
 www.granna.pl###top-box-social > a:not(:nth-of-type(2))
 www.hotfix.pl##.side-border-left > center > table:nth-of-type(17)
 www.ing.pl##.footer_icons > ul > li[class^="footer_icon_"]
-www.invado.pl##a[href="https://www.facebook.com/INVADO"] > img, a[href="https://www.linkedin.com/company/invado-sp-z-o-o-"] > img, a[href="https://www.instagram.com/otwieramy.marzenia.invadodrzwi/"] > img, a[href^="https://pl.pinterest.com/invadodrzwi/"] > img, a[href="https://www.youtube.com/user/InvadoPolska"] > img, a[href="https://www.invado.pl/blog/"] > img, a[href="http://bloginvado.pl/"] > img, a[href="https://www.INVADO.pl/blog/"] > img
+www.invado.pl##a[href="https://www.facebook.com/INVADO"] > img, a[href="https://www.linkedin.com/company/invado-sp-z-o-o-"] > img, a[href^="https://www.instagram.com/"] > img, a[href^="https://pl.pinterest.com/invadodrzwi/"] > img, a[href="https://www.youtube.com/user/InvadoPolska"] > img, a[href="https://www.invado.pl/blog/"] > img, a[href="http://bloginvado.pl/"] > img, a[href="https://www.INVADO.pl/blog/"] > img
 www.invado.pl##.widget_ws_fb_like_box.widget, .widget_gs_pin_profile_widget.widget, #media_image-2.widget_media_image.widget
 www.iwaszkiewiczipartnerzy.com###LnkBr0-9cd
 www.keller.com.pl###Mod111
