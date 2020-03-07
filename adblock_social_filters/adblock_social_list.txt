@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.3.4.0
-! Last modified: Wed, 04 Mar 2020, 02:00 UTC+01
+! Version: 2020.3.7.0
+! Last modified: Sat, 07 Mar 2020, 18:01 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.3.4.0 aktualizacja: śro, 04 mar 2020, 02:00 UTC+01
+! v.2020.3.7.0 aktualizacja: sob, 07 mar 2020, 18:01 UTC+01
 !
 !
 ! Popupy
@@ -2099,6 +2099,7 @@ gkstychy.info###twitter
 gliwice.eu###block-block-124 > p
 globalne-archiwum.pl,naziemna.info##.easy-facebook-like-box_box
 globenergia.pl,questus.pl##.fa-linkedin-square
+glos24.pl##div[class*="Articlestyles__ShareIcons-"] > div:not(:nth-of-type(7)) > .react-share__ShareButton
 glosbe.com##.footer-row > nav.footer-column:nth-of-type(3)
 gloskoninski.pl##.footer-widgets-2, .footer-widgets-3
 gloswojewodzki.pl###HTML22, #HTML46, #HTML47
@@ -2118,6 +2119,7 @@ gminamakow.info,kuppanauto.pl##.jm-social
 gminamoszczenica.eu,polonika.at,radioznin.fm,sedzia.net,sp5kcr.eu,wolamieszkancow.org##.pwebbox-plugin-facebook_page_plugin
 gminasiedlce.pl##a[href="https://www.facebook.com/ugsiedlce"] > img
 gmina.kolobrzeg.pl##.banery_wysuwane > div.noprint.pole-banerowe:nth-of-type(n+2):nth-of-type(-n+3)
+gmoto.pl##.newfooter .contact-subinfo.row > .col-sm-12 > .foot-h4
 gniezno24.com,pankanapka.pl,strefa-zakupowa.pl,zsz.pisz.pl###likeboxbluestandardleft
 gocreate.pl##a[href="https://www.facebook.com/Gocreate.Belchatow"]
 godealla.pl,wakacjezprocentem.pl##.footer-icons
@@ -2389,6 +2391,7 @@ irobot.pl##.m-footer__iconcontainer > a
 ir.pti.org.pl###menu-item-52, #menu-item-53
 isel.pl###ikonki > a > [src="grafika/facebook.png"]
 isl.pl##.quick-actions > a:nth-of-type(-n+2)
+ismserwis.pl##.nxs-icon-youtube, .nxs-icon-facebook
 isp.org.pl##div.cell:nth-of-type(2) > .mt-10.b-scl > div[class^="grid"] > div.cell.shrink
 itaxi.pl##.m_hidden.footer_section_1.footer_section > div.footer_box_one_six.footer_box:nth-of-type(3)
 ithardware.pl##.homepage-version.row:nth-of-type(5) > .hidden-xs.hidden-ms.hidden-sm.col-md-3:nth-of-type(3) > .widget:nth-of-type(1)
@@ -2782,6 +2785,7 @@ magazynvip.pl,przedsiebiorcy.eu##.mf-soc-sh
 magazynwiatr.pl ##.left_col > .partners
 magazyn.ceneo.pl##.js_share-btn-horizontal.lnd_share-horizontal.lnd_wrapper > div > table > tbody > tr, .lnd_anim-toDown > table > tbody > tr
 magiadzwieku.pl##.socialTabs-tab--facebook.socialTabs-tab
+maharmgoods.com##footer > div > div > div > div:nth-of-type(4)
 majbus.eu###slide-1-layer-10 > img
 majbus.eu#?#.fusion-row > .fusion-column-last.fusion-one-fourth:-abp-contains(FACEBOOK)
 majsterkowo.pl###text-9 > .widget-title
@@ -2827,6 +2831,7 @@ matshop.pl##a[href="https://instagram.com/matshoppl"]
 matshop.pl##a[href="https://twitter.com/Matshoppl"]
 matshop.pl##a[href="https://www.facebook.com/Matshoppl"]
 matshop.pl##a[href="https://www.youtube.com/user/MelanzAlcoTeam"]
+maxibike.pl##.footer > .row > div:nth-of-type(4) .title
 max-led.pl##.ins-footer .hidden-sm.hidden-xs.col-md-3.col-sm-6.col-xs-12
 mazakzabawki.pl##a.commercial_button2:nth-of-type(3)
 mazda.pl##footer .row--gutters.row > div.col-lrg-3:nth-of-type(4)
@@ -4010,6 +4015,7 @@ sklep.platinet.pl##div.fbox:nth-of-type(1) > .t, div.fbox:nth-of-type(1) > .t2
 sklep.royal-shop.pl###fg-social
 sklep.suez.pl##div.col-xs-1.col-md-1:nth-of-type(n+2):nth-of-type(-n+4) > img
 sklep.trefl.com##.footer-navigation__social
+sklep.zielonafabryka.pl##.row.bottom-footer > .container > .box_custom.box:last-child > p > a > img[src^="/public/assets/"]
 skm.pkp.pl#?#a.round-link:-abp-contains(Facebook)
 skomplikowane.pl##.herald-sidebar-right.col-md-3.col-lg-3.herald-sidebar
 skorzanemeble.eu##.zadzwon-top > a:nth-of-type(2)
@@ -4957,6 +4963,7 @@ z-hotel.com###menu-item-868
 ||gameplay.pl/im/fb15.png
 ||gazetaswietojanska.org/layout/ico/YT3.png
 ||gazetaswietojanska.org/layout/ico/fbbw2.png
+||glos24.pl/facebook.png$image
 ||glos24.pl/twitter.png
 ||gloskoninski.pl/wp-content/uploads/2017/09/twitter-1.png
 ||gloskoninski.pl/wp-content/uploads/2017/09/youtube-1.png
@@ -5182,6 +5189,7 @@ z-hotel.com###menu-item-868
 !
 !
 ! Blokowanie elementów po zastosowaniu generichide
+~poczta.wp.pl,wp.pl,~www.wp.pl##.facebook-share, .tweeter-share
 agency.tvn.pl###menuIcons > .first, .second
 animezone.pl##div.desktop.panel-default.panel:nth-of-type(1)
 applemobile.pl###text-2
@@ -5262,9 +5270,6 @@ vod.pl##.v_shortTwShare, .v_shortFbShare
 wbi.onet.pl##.contentShareLeft
 webcamera.pl###footerbar div.col-md-3.col-sm-6:nth-of-type(4) > h2
 webcamera.pl##.ico-social, .social, .floating-box-facebook
-wp.pl,~www.wp.pl##.facebook-share, .tweeter-share
-wp.pl,~www.wp.pl#?#div:-abp-has( > div > strong:-abp-contains(Podziel się))
-wp.pl,~www.wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has( > div[class] > div[class] > span > svg > path)
 www.tvn24.pl##.htmlBox:nth-of-type(26), .htmlBox:nth-of-type(27)
 www.tvn.pl##.footer-media, .open-modal, .detail-fb, .detail-gp, .detail-tw, .ds-fb, .ds-gp, .ds-tw, .footer-col:nth-of-type(4) > .footer-heading:nth-of-type(1)
 wzory-cv.com##.shareStackItem
@@ -5348,6 +5353,7 @@ youtube.com#@##secondary-links
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
 @@/modules/mod_je_social/images/social.png$image,domain=www.roland-gazeta.pl
 @@/social_media_$domain=mazury.travel
+@@/wp-content/plugins/fwdu3dcar/*$image,~third-party
 @@||apis.google.com/js/platform.js$domain=lemonmind.com
 @@||apis.google.com/js/platform.js$domain=olx.pl
 @@||cdn.whatnext.pl/uploads/*/*/integracja-facebook.jpg$image
