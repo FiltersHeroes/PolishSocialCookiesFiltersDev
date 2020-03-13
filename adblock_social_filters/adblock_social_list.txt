@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.3.12.0
-! Last modified: Thu, 12 Mar 2020, 02:00 UTC+01
+! Version: 2020.3.13.0
+! Last modified: Fri, 13 Mar 2020, 02:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.3.12.0 aktualizacja: czw, 12 mar 2020, 02:00 UTC+01
+! v.2020.3.13.0 aktualizacja: pią, 13 mar 2020, 02:00 UTC+01
 !
 !
 ! Popupy
@@ -1277,6 +1277,7 @@ brita.pl##.social-media-container
 britneyspears.pl,solidarnoscarimr.pl###right
 brodatyzbir.pl##.pk-share-buttons-wrap
 brooklynbutik.pl##.block > a[href="https://www.instagram.com/brooklynbutik/tagged/"] > img
+browsehappy.com,wordlist.eu###share
 browserwall.com##footer .row > div:nth-of-type(4)
 brw.com.pl###blok_139 > .menu
 brw.pl###blok_139
@@ -2093,6 +2094,7 @@ giantfabryczna.pl##footer div.col-xs-12.col-sm-6.col-md-3.col-lg-3:nth-of-type(3
 gieldaklasykow.pl###text-22
 gih.grajewo.pl###bip
 gim7olsztyn.ehost.pl##.sidebar2 > .Block:nth-of-type(2)
+girlonboard.pl##.link_socials
 girya.com.pl##.modal-body .product_ref, a[href="https://www.facebook.com/giryafitness/?fref=ts"], div.copy.container-fluid:nth-of-type(2) > .container > div.text-center.col-xs-12.col-md-6:nth-of-type(2)
 gitd.gov.pl##div.footer-row.row > div.col-lg-6.col-md-6:nth-of-type(2), #footer-social-icons, #side-social-icons
 github.com##.footer > div > div > ul > li > a[title^="GitHub on"]
@@ -4639,7 +4641,6 @@ wolnemedia.net#?#ul > h3:-abp-contains(społecznościowych)
 wolsztyn24.pl#?#body > div > div > table[style][border] > tbody > tr > td:nth-of-type(1):-abp-contains(Znajdz nas i obserwuj!)
 wolt.com##div[class*="Footer__socialsColumn"] > div[class^="Footer__socialsRow"] > a[class^="SocialsButton"]
 woodland.net.pl##.menu-top > ul > li:nth-of-type(n+4):nth-of-type(-n+5)
-wordlist.eu###share
 word.olsztyn.pl##a[href="https://www.facebook.com/Warmia-i-Mazury-Zdrowe-%C5%BCycie-czysty-zysk-1741781486134765/"]
 word.olsztyn.pl##a[href^="https://www.youtube.com/playlist"]
 worldcam.pl##li > a[href="https://www.facebook.com/worldcampl/"]
@@ -5374,6 +5375,7 @@ www.x-kom.pl#@#.social-bar
 wydawnictwo.szaron.pl#@#.social-box
 wykop.pl#@#.social-list:not(html):not(body)
 youtube.com#@##secondary-links
+!@@/images/*facebook.jpg$domain=filoma.org|instalki.pl
 #@#.cookie-bottom-layer
 #@#.js-cookie-light
 @@/dynamic_content/*_icon_google_play$image,domain=pilot.wp.pl
@@ -5384,8 +5386,7 @@ youtube.com#@##secondary-links
 @@/modules/mod_je_social/images/social.png$image,domain=www.roland-gazeta.pl
 @@/social_media_$domain=mazury.travel
 @@/wp-content/plugins/fwdu3dcar/*$image,~third-party
-@@||apis.google.com/js/platform.js$domain=lemonmind.com
-@@||apis.google.com/js/platform.js$domain=olx.pl
+@@||apis.google.com/js/platform.js$domain=lemonmind.com|olx.pl
 @@||cdn.whatnext.pl/uploads/*/*/integracja-facebook.jpg$image
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
