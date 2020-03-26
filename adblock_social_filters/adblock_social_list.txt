@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.3.26.0
-! Last modified: Thu, 26 Mar 2020, 02:00 UTC+01
+! Version: 2020.3.26.1
+! Last modified: Thu, 26 Mar 2020, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.3.26.0 aktualizacja: czw, 26 mar 2020, 02:00 UTC+01
+! v.2020.3.26.1 aktualizacja: czw, 26 mar 2020, 18:00 UTC+01
 !
 !
 ! Popupy
@@ -2696,6 +2696,7 @@ kuriereuropejski.org###footer li > a[href="https://www.facebook.com/JEFpoland/"]
 kuriereuropejski.org###share > li > a:not([href="#"]) > .fa, .share
 kuriergalicyjski.com###position3, #position4
 kurierpoludniowy.pl#?#body table[width="960"] td[valign="top"] table + table:-abp-has(iframe[src*="facebook.com"])
+kurierzamojski.pl#?#.td-footer-page .td-block-title:-abp-contains(Odwiedź nas)
 kurjerzy.pl##.main__footer__container .row > .push-0\@tablet.gr-12\@tablet.push-8.gr-4
 kurkanielotka.pl##.share-recipe-btn, .single-meta-share, #custom_html-2, .author-social-links
 kutno.net.pl##header .left > a
