@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.3.28.0
-! Last modified: Sat, 28 Mar 2020, 02:00 UTC+01
+! Version: 2020.3.28.1
+! Last modified: Sat, 28 Mar 2020, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.3.28.0 aktualizacja: sob, 28 mar 2020, 02:00 UTC+01
+! v.2020.3.28.1 aktualizacja: sob, 28 mar 2020, 14:00 UTC+01
 !
 !
 ! Popupy
@@ -2784,8 +2784,8 @@ lionteam.pl##.do-topbar-content-right > ul > li > a
 lipinscy.pl###facebook_zone
 listaserwerowmc.pl###menu_fb
 literackifestiwal.zakopane.eu##.pweb-theme-fbnavy
-littleforest.pl##.footer--blog__right > h2.font--alt:nth-of-type(2):-abp-has( > .footer--fb)
 littleforest.pl##.footer--fb
+littleforest.pl#?#.footer--blog__right > h2.font--alt:nth-of-type(2):-abp-has( > .footer--fb)
 littlethings.pl###title
 lkscommerceconlodz.pl##.footer-socials-unit
 loando.pl##.footer p.text-center, .footer h5.text-center
@@ -4684,6 +4684,7 @@ wilanow-palac.pl###facebook, #vimeo, #tripAdvisor
 winers.pl##.sc_columns
 winiary.pl##a[href="https://www.facebook.com/Winiary"]
 winiary.pl##a[href="https://www.instagram.com/winiary"]
+wins.pl#?#div.mb-5.styled-box:-abp-has( > .social-container)
 wiocha.pl##.absurdsharediv, img[src="http://img.wiocha.pl/img/facelog.jpg"]
 wirtualnemedia.pl##.middle-icon, .last-menu.menu-footer-3
 witow-ski.pl##.wk-icon-facebook, .uk-icon-button
