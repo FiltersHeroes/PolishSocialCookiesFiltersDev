@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.3.31.0
-! Last modified: Tue, 31 Mar 2020, 19:00 UTC+02
+! Version: 2020.3.31.1
+! Last modified: Tue, 31 Mar 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.3.31.0 aktualizacja: wto, 31 mar 2020, 19:00 UTC+02
+! v.2020.3.31.1 aktualizacja: wto, 31 mar 2020, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -1647,6 +1647,7 @@ doniczki-poznan.pl##.TwitterFeeds
 doosanbabcock.com##a.no-after:nth-of-type(n+4)
 doradcapodatkowy.pl###bottom-5 > .moduletable > .custom > .pdcorrect.col-lg-12.col-md-12.col-sm-12.col-xs-12 > .pdcorrect.col-lg-5.col-md-5.col-sm-12.col-xs-12
 doradcapodatkowy.pl##.moduletable .pdcorrect.col-lg-5.col-md-5.col-sm-12.col-xs-12 > p:nth-of-type(2)
+doradztwosadownicze.pl##.site-header__list--socials > li.site-header__list-item:nth-of-type(n+2):nth-of-type(-n+3)
 dorzeczy.pl,wprost.pl##.youtube-button
 dotd.pl,krainaekozabawek.pl##.likebox_content
 douglas.pl##.rd__footer > .rd__container > div.rd__row:nth-of-type(2) > .rd__col:nth-of-type(1) > .rd__footer__block
@@ -3114,6 +3115,7 @@ muscat.pl##.col-sm-12.footer-icons > div:nth-of-type(1)
 musclepower.pl###menu_banners3 .menu_button_wrapper:nth-child(-n+3)
 music99.pl##section:nth-of-type(1) > header > .fa-twitter.icon
 music99.pl###footer .contact > .icons
+music.apple.com##li[class*="share"]:nth-of-type(n+2):nth-of-type(-n+3) > button[class*="share"]
 mustasz.com##.contact > li:nth-of-type(-n+2)
 muszyna.pl##.footer-col-right > div.sp_size.footer-data-col:nth-of-type(2)
 mutyzm.org.pl##.circle.icon-social_facebook
@@ -3153,6 +3155,7 @@ naekranie.pl###social-fans, .addthis_responsive_sharing, .msg-share, .title-p, .
 nafrontendzie.pl##.left-wrapper > div.icon:nth-of-type(-n+2), .nozbe-header
 nagraniahipnotyczne.pl##.facebook-bookmark
 najblizejludzi.pl###contact.footer .col-xl-3
+najlepszekonto.pl##.share__label
 najlepszewkuchni.pl##footer div:nth-of-type(4)
 najmeble.pl###mpcth_header_socials
 najtanszeogrzewanie.pl##.slide-out-div, .sslide
@@ -4047,6 +4050,7 @@ silesion.pl##.js-sticky.floatingSocials > ul > li:nth-child(-n+4)
 silesion.pl##.sub-menu-btn-fb
 siligan.pl###widget_3, #widget_4
 silowniezewnetrzne.pl##.custom-fb
+sip.lex.pl##.wk-footer-nav-list-social
 sirt.pl##.social > a:not(:last-child)
 siteimpulse.com##.col-md-4.cols-5:nth-of-type(2)
 sitobiznes.pl##.soc-googleplus
