@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.3.31.1
-! Last modified: Tue, 31 Mar 2020, 23:00 UTC+02
+! Version: 2020.4.1.0
+! Last modified: Wed, 01 Apr 2020, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.3.31.1 aktualizacja: wto, 31 mar 2020, 23:00 UTC+02
+! v.2020.4.1.0 aktualizacja: śro, 01 kwi 2020, 03:00 UTC+02
 !
 !
 ! Popupy
@@ -3115,7 +3115,7 @@ muscat.pl##.col-sm-12.footer-icons > div:nth-of-type(1)
 musclepower.pl###menu_banners3 .menu_button_wrapper:nth-child(-n+3)
 music99.pl##section:nth-of-type(1) > header > .fa-twitter.icon
 music99.pl###footer .contact > .icons
-music.apple.com##li[class*="share"]:nth-of-type(n+2):nth-of-type(-n+3) > button[class*="share"]
+music.apple.com#?#.we-share__menu-content > .we-share__list > .we-share__list-item:-abp-has(button[class*="twitter"], button[class*="facebook"])
 mustasz.com##.contact > li:nth-of-type(-n+2)
 muszyna.pl##.footer-col-right > div.sp_size.footer-data-col:nth-of-type(2)
 mutyzm.org.pl##.circle.icon-social_facebook
