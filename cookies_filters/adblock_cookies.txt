@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.3.31.1
-! Last modified: Tue, 31 Mar 2020, 19:00 UTC+02
+! Version: 2020.4.1.0
+! Last modified: Wed, 01 Apr 2020, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.3.31.1 aktualizacja: wto, 31 mar 2020, 19:00 UTC+02
+! v.2020.4.1.0 aktualizacja: śro, 01 kwi 2020, 03:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -258,6 +258,8 @@ beskidlive.pl##.mod_fantastic_facebook_sidebar, .li-googleplus, .li-facebook
 beskidy.news##.js-cookies.c-cookies
 beskidzkapilka.pl##.messageinfo
 bethesda.net#?#visor-alert[name="visor-alert"] > div[class=""] > div > div:last-child:-abp-has( > a[href$="/cookie-policy"])
+betsson22.com##.bottom-snackbar.cookie-consent
+betsson22.com##.mat-snack-bar-container
 betsson.com###MsgAreaBottom
 bezpieczny.pl##.remodal-wrapper, .remodal-overlay
 bialoleka.waw.pl###img_98
@@ -1565,7 +1567,9 @@ piekni.pl##.cookie-notice-accept
 piening-montage.de###privacyWrapper
 pilot.wp.pl#?##gatsby-focus-wrapper > div[class] > div[class*="sc-"]:-abp-has( > div[class^="sc-"]:-abp-has(a[href="https://onas.wp.pl/poufnosc.html#cookies"]))
 pipelife.com###coo
+pizzahut.pl##li.ph-footer-navigation-header:-abp-contains(ZNAJDŹ PIZZA HUT)
 pizzahut.pl###ph-cookies
+pizzahut.pl#?#li.ph-footer-navigation-header:-abp-contains(ZNAJDŹ PIZZA HUT) ~ li.footer-icon
 pizzaportal.pl,pl.chili.com##.react-cookie-banner
 pkn.net.pl##.lity-inline.lity-opened.lity
 pkobp.pl,pkopte.pl,pkotfi.pl###pko-cookie-rodo, .pko-cookie-rodo, .cookie-rodo, .rodo-not-small-modal
@@ -1574,7 +1578,7 @@ player.pl##.cBox
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
 plusbank.pl##.coo_wrap
 pl.aleteia.org##.qc-cmp-ui-content, #qcCmpUi
-pl.aptoide.com##.cookie-notification-holder
+pl.aptoide.com##div[class*="cookie-notice__CookieNoticeWrapper-"]
 pl.chili.tv###_evh-ric
 pl.depositphotos.com##._notification
 pl.dst.roto-frank.com##.occ-inline
@@ -2197,6 +2201,7 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
+!pl.aptoide.com##.cookie-notification-holder
 !poki.pl#?#aside:-abp-has( > h2:-abp-contains(Uwaga))
 !poki.pl#?#aside:-abp-has( > p:-abp-contains(zgodę))
 !
