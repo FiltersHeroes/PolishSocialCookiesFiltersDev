@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.3.0
-! Last modified: Fri, 03 Apr 2020, 03:00 UTC+02
+! Version: 2020.4.3.1
+! Last modified: Fri, 03 Apr 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.3.0 aktualizacja: pią, 03 kwi 2020, 03:00 UTC+02
+! v.2020.4.3.1 aktualizacja: pią, 03 kwi 2020, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -835,7 +835,7 @@ agro-tom.eu,lubliniec.info,restauracjabiesiada.com###face-slider
 agusiq-torrents.pl###bottomstats > table.lista:nth-of-type(2)
 agusto.pl###easycontent_23
 agwerblog.pl##.instafollow, .footer-widget-inside.widget_text > .custom-html-widget.textwidget > ul
-agwerblog.pl,autonom.pl,domowa.pizza,dowbit.pl,gloskultury.pl,gr4cze.pl,inspro.org.pl,klassikauto.pl,moviesroom.pl,multikop.pl,nflix.pl,techfresh.pl,wielkahistoria.pl,zniczekmc.com.pl###custom_html-3
+agwerblog.pl,autonom.pl,domowa.pizza,dowbit.pl,gloskultury.pl,gr4cze.pl,inspro.org.pl,klassikauto.pl,moviesroom.pl,multikop.pl,nflix.pl,poprostupycha.com.pl,techfresh.pl,wielkahistoria.pl,zniczekmc.com.pl###custom_html-3
 agwerblog.pl,eloblog.pl,komputerowapasja.pl,reklamacjatowaru.pl###custom_html-7
 agwerblog.pl,haart.pl,imprezy-expn.pl,sportowyekspress.pl,yerbanot.com###custom_html-5
 ahh.sklep.pl##.container.userfooter > .row > p > span
@@ -894,6 +894,7 @@ allrecipes.pl##.footer__links > div:nth-of-type(3)
 all-bielizna.pl###sid245
 altenberg.pl##.youtube_link, .instagram_link
 aluprof.eu##.sidebar__title, li.sidebar__link:nth-of-type(-n+3)
+al.to,x-kom.pl##footer.social > .row h4
 al.to,x-kom.pl##footer[class*="footer"] > div[class]:nth-of-type(2) > div[class]:nth-of-type(1) > div > div > a[class][target="_blank"]:not([id])
 am76.pl##.container.shop-footer .row > .text-center.col-md-6 > a > .fa-stack > .fa
 amberexpo.pl##body > div[style]:nth-of-type(n+3):nth-of-type(-n+4) > .handle_fb
@@ -3793,6 +3794,7 @@ purina.pl##div[data-block-plugin-id*="nppe_base_community"]
 puritanpride.com.pl##.toggle-footer > p:nth-of-type(1) > a > img
 pychotka.pl##a > img[src="no10/ffan.png"]
 pyszne.pl##div.row:nth-of-type(1) > ul:nth-of-type(2)
+pyszne.pl##.footerdesktop.footer-nav
 pysznosci.pl##.g1-instagram-csstodo-boxed
 pzkfits.pl##.stopka_socjal
 pzlsedziszow.pl##div.container:nth-of-type(4) > .row > div.col-md-6.col-sm-12:nth-of-type(2), #footer-contact > .social
@@ -4047,7 +4049,7 @@ sieci.mgk.pl###socialer
 siecobywatelska.pl###widget-text-24
 siedlisko-pasieka.pl###ear_facebook
 siemens.com##div.col-lg-12.col-sm-6:nth-of-type(3)
-siepomaga.pl##.human-cause > .share > div > div:nth-of-type(-n+2)
+siepomaga.pl#?#.human-cause > .share > div > div:nth-of-type(-n+3):-abp-has(a:-abp-contains(/(Udostępnij|Tweetnij|Dodaj relację)/))
 sieradztomy.pl###Image6
 siglo.pl##a > img[src="images/layout/f.jpg"]
 signs.pl##.linkStrzalka
@@ -4428,6 +4430,7 @@ todoist.com##footer > section > div a[aria-label="Strona główna"] ~ p:first-of
 todoist.com##.td-footer a.td-icon.td-footer__logo
 together-razem.org##.item-222
 tolpa.pl###cookie-notification-block
+tomaszjakubiak.pl###tj-fb
 tomdruk.pl##.header_top_left > ul > li
 tomma.com.pl###facebook-floating-box
 toogoodtogo.pl##.bg-white.box-shadow > .some-icons, footer .row > div > div.mb-xl-3.mb-5:nth-of-type(3)
@@ -4895,6 +4898,7 @@ xn--wzr-wypowiedzenia-hyb.pl,xn--zgoszenie-sprzeday-n9c98i.pl,xn--zgoszenie-szko
 xperiasite.pl###fbox-background
 xtb.com##.js-social-media-aa
 xtreme-style.pl##a[href="https://www.facebook.com/sklepXTREME/"]
+x-kom.pl#?#.main-footer > .row + .row:-abp-has( ~ .row:last-child .social-icons)
 x-mobile.pl##.border.col-sm-4.col-md-2.col-lg-2 > .footer_box
 yetiforce.com##.left.jj_sl_navigation > li > a, .footer-mini-right.sppb-col-md-6 > a
 yope.me##.social a:not([href^="mailto:"])
