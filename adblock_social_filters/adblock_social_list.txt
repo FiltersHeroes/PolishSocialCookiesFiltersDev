@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.4.1
-! Last modified: Sat, 04 Apr 2020, 19:00 UTC+02
+! Version: 2020.4.4.4
+! Last modified: Sat, 04 Apr 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.4.1 aktualizacja: sob, 04 kwi 2020, 19:00 UTC+02
+! v.2020.4.4.4 aktualizacja: sob, 04 kwi 2020, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -247,6 +247,7 @@ pl##.vimeo
 pl##.wykop
 pl##.wykopButton
 pl##.wykopShareIcon
+pl##.youtube
 pl##.yt
 pl##.ytico.icon
 pl##.ytlbHead
@@ -478,6 +479,7 @@ pl##.fanpage.show-for-large-up.fb_fixed
 pl##.fa-facebook
 pl##.fa-facebook-official.fa
 pl##.fa-facebook-square
+pl##.fa-google-plus
 pl##.fa-google-plus-square.fa
 pl##.fa-instagram
 pl##.fa-linkedin.fa
@@ -844,7 +846,6 @@ aikoiemil.com,pozdrozkrld.com##.widget_youtube_subscriber
 airbnb.pl#?#footer div > ul > li > span > a[target="_blank"]:-abp-has(svg)
 airly.eu##div[class^="social-bar__SocialIcons-"]
 airly.eu##[class^="footer__SocialLinks"]
-airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,gls-group.eu,grene.pl,isl.pl,itaka.pl,karnet.krakow.pl,kwantowo.pl,lalorraine.pl,lexus-krakow.com.pl,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,niepodlegla.gov.pl,pap.pl,pingpong.bydgoszcz.pl,pogonszczecin.pl,rms.pl,skgd.pl,tczewska.pl,tvobiektyw.pl,tvswinoujscie.pl,wentylacja24.pl##.youtube
 ajgroup-pros.pl##.SocialBoard
 ajprodukty.pl##.footer_social-container
 aju.pl,alekosmos.pl,alilove.pl,banita.travel.pl,blogs.opera.com,buslapidus.pl,jezykowasilka.pl,moviesroom.pl,rytmynatury.pl,skgd.pl,skrivanek.pl,wei.org.pl,wnetrzeiogrod.pl,zaniczka.pl###custom_html-2
@@ -912,7 +913,7 @@ androidbeztajemnic.com,wypozyczalniafilmow.wordpress.com##.share-google-plus-1
 androidstuff.pl##.uk-text-right .uk-grid.uk-flex-right.uk-grid-small.uk-child-width-auto > div > a
 andrzejgrzyb.eu,kryptopomocnik.pl,radiogol.pl##.widget-do-etfw
 anetaduk.com##.icons > li:nth-child(-n+3)
-anetaduk.com,arcontact.pl,basiasmoter.pl,bezpiecznywtlumie.pl,blokada.org,ciechanowinaczej.pl,cocoshki.pl,eactive.pl,gsim.pl,izabelin24.pl,jakimasklad.pl,masz.gliwice.pl,mpolska24.pl,parkrozrywkizawada.pl,radiolodz.pl,schronisko-nowodwor.com.pl,trawnikproducent.pl,twojediy.pl,webinsider.pl##.fa-google-plus
+anetaduk.com,blokada.org##.fa-google-plus
 angielski-kazdego-dnia.pl##.social-icons-label, #easy_facebook_feed-2 > .title-bg-line.dkgreen.title-border
 angliapolska.pl##.spoleczno.module
 aniastarmach.pl###footer-instagram-section
@@ -1390,6 +1391,7 @@ chataskrzata.eu,czerwonak.pl,infobowling.pl,slet24.pl,szkola-jazdy.pl,zikom.pl##
 chatkazpiernika.pl###vdUnderFooter
 chemia-atat.pl,elektryka-atat.pl,oswietlenie-atat.pl,zywnosc-atat.pl##.footbg > .container > .col-md-4
 chemik-police.com###footer > .social, .youtube-cta
+chemik-police.com,cooltura24.co.uk,domnowoczesny.com,echotygodnik.info,gls-group.eu,lexus-krakow.com.pl,mojtelefon.info##.youtube
 chevan.pl##footer > div > div.text-center:nth-of-type(1)
 chillizet.pl##.share > .messanger.button, .like__us, #main-footer p.text-align__center.uppercase.footer__title
 chimmo.pl##a.footer-icon
@@ -4309,6 +4311,8 @@ swiatzlotasklep.pl###box_cusConBody_80
 swiat-szkla.pl###left > #left-in > div.moduletable:nth-of-type(5)
 swietarodzina.pila.pl##h4:nth-of-type(1) > a[href="https://www.facebook.com/ParafiaSwietejRodziny"], h4:nth-of-type(2) > a[href="https://twitter.com/#!/SwietaRodzina"], h4:nth-of-type(3) > a[href="http://www.youtube.com/user/OnlyThomasPL/videos"], h4:nth-of-type(4) > a[href="http://www.mixcloud.com/SwietaRodzina/"]
 swietarodzina.pila.pl##.page > .one_third > div.fancy_box:nth-of-type(5)
+swietawdomu.pl#?#.elementor-inner-column.elementor-column > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget-heading.elementor-widget:-abp-contains(/^Twitter$/)
+swietawdomu.pl#?#.elementor-inner-column.elementor-column > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget-heading.elementor-widget:-abp-contains(/^Twitter$/) + div + div
 swietokrzyskie.pro##.hdr_links1 > li:nth-of-type(n+3)
 swingwithme.pl###widget_sp_image-5
 swiss.com.pl##.social_icos
@@ -5023,6 +5027,8 @@ z-hotel.com###menu-item-868
 !roland-gazeta.pl##.jj_sl_google, .jj_sl_linkedin
 !tradus.com##.inline-list.app-footer__social > li:nth-child(-n+2)
 !www.dobreprogramy.pl#?#.author-social-links > a:-abp-has(> svg:not(.feather-link))
+!### airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,gls-group.eu,grene.pl,isl.pl,itaka.pl,karnet.krakow.pl,kwantowo.pl,lalorraine.pl,lexus-krakow.com.pl,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,niepodlegla.gov.pl,pap.pl,pingpong.bydgoszcz.pl,pogonszczecin.pl,rms.pl,skgd.pl,tczewska.pl,tvobiektyw.pl,tvswinoujscie.pl,wentylacja24.pl##.youtube
+!### anetaduk.com,arcontact.pl,basiasmoter.pl,bezpiecznywtlumie.pl,blokada.org,ciechanowinaczej.pl,cocoshki.pl,eactive.pl,gsim.pl,izabelin24.pl,jakimasklad.pl,masz.gliwice.pl,mpolska24.pl,parkrozrywkizawada.pl,radiolodz.pl,schronisko-nowodwor.com.pl,trawnikproducent.pl,twojediy.pl,webinsider.pl##.fa-google-plus
 !
 !
 ! Specyficzne reguły blokujące
