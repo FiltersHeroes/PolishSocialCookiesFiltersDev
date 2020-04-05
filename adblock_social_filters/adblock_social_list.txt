@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.4.4
-! Last modified: Sat, 04 Apr 2020, 23:00 UTC+02
+! Version: 2020.4.5.0
+! Last modified: Sun, 05 Apr 2020, 03:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.4.4 aktualizacja: sob, 04 kwi 2020, 23:00 UTC+02
+! v.2020.4.5.0 aktualizacja: nie, 05 kwi 2020, 03:00 UTC+02
 !
 !
 ! Popupy
@@ -247,7 +247,6 @@ pl##.vimeo
 pl##.wykop
 pl##.wykopButton
 pl##.wykopShareIcon
-pl##.youtube
 pl##.yt
 pl##.ytico.icon
 pl##.ytlbHead
@@ -846,6 +845,7 @@ aikoiemil.com,pozdrozkrld.com##.widget_youtube_subscriber
 airbnb.pl#?#footer div > ul > li > span > a[target="_blank"]:-abp-has(svg)
 airly.eu##div[class^="social-bar__SocialIcons-"]
 airly.eu##[class^="footer__SocialLinks"]
+airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,gls-group.eu,grene.pl,isl.pl,itaka.pl,karnet.krakow.pl,kwantowo.pl,lalorraine.pl,lexus-krakow.com.pl,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,niepodlegla.gov.pl,pap.pl,pingpong.bydgoszcz.pl,pogonszczecin.pl,rms.pl,skgd.pl,tczewska.pl,tvobiektyw.pl,tvswinoujscie.pl,wentylacja24.pl##.youtube
 ajgroup-pros.pl##.SocialBoard
 ajprodukty.pl##.footer_social-container
 aju.pl,alekosmos.pl,alilove.pl,banita.travel.pl,blogs.opera.com,buslapidus.pl,jezykowasilka.pl,moviesroom.pl,rytmynatury.pl,skgd.pl,skrivanek.pl,wei.org.pl,wnetrzeiogrod.pl,zaniczka.pl###custom_html-2
@@ -2772,6 +2772,7 @@ lenovo.com##.m-footerSocial__Icon:not(.footerForumsIcon)
 leoexpress.com##footer ul > li > a[target="_blank"]
 lepszytrener.pl##.social_black.btn
 lessmess.storage##.widget-twitter.slideout-widget, .widget-gplus-2.slideout-widget, .widget-facebook-2.slideout-widget
+letni.net##.oceanwp-social-menu
 lexus-lodz.pl##.klgzcO.sc-bwzfXH.eEkqxO.TopSegment__Wrapper-e5f0wf-0 > .loYbST.sc-htpNat > a
 lex.pl##.contact-section-block-3
 lfspareparts724.pl##.footer-sitemap > .row > div.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
@@ -3465,6 +3466,7 @@ pelplin.pl##.utility--facebook, .utility--youtube
 pensjonatgranada.pl##.zobacznas
 pepco.pl#?#div.col-sm-6.col-md-3.col-xs-12.grid-item:-abp-contains(DOŁĄCZ DO NAS)
 pepco.pl#?#div.col-xs-12.col-sm-6.col-md-3.grid-item:-abp-has(a[href="https://instagram.com/pepcopl/"])
+pepper.pl###footer > div:nth-of-type(2) > div:nth-of-type(1) > section:nth-of-type(4) a:not([href*="rss"])
 pepper.pl##.space--b-3.space--r-2.box--all-i:nth-of-type(1)
 pepsi.pl###socialBox
 perfekcyjnawdomu.pl##div.bok.box2:nth-of-type(2), .blsdk-follow
@@ -5027,7 +5029,6 @@ z-hotel.com###menu-item-868
 !roland-gazeta.pl##.jj_sl_google, .jj_sl_linkedin
 !tradus.com##.inline-list.app-footer__social > li:nth-child(-n+2)
 !www.dobreprogramy.pl#?#.author-social-links > a:-abp-has(> svg:not(.feather-link))
-!### airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,gls-group.eu,grene.pl,isl.pl,itaka.pl,karnet.krakow.pl,kwantowo.pl,lalorraine.pl,lexus-krakow.com.pl,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,niepodlegla.gov.pl,pap.pl,pingpong.bydgoszcz.pl,pogonszczecin.pl,rms.pl,skgd.pl,tczewska.pl,tvobiektyw.pl,tvswinoujscie.pl,wentylacja24.pl##.youtube
 !### anetaduk.com,arcontact.pl,basiasmoter.pl,bezpiecznywtlumie.pl,blokada.org,ciechanowinaczej.pl,cocoshki.pl,eactive.pl,gsim.pl,izabelin24.pl,jakimasklad.pl,masz.gliwice.pl,mpolska24.pl,parkrozrywkizawada.pl,radiolodz.pl,schronisko-nowodwor.com.pl,trawnikproducent.pl,twojediy.pl,webinsider.pl##.fa-google-plus
 !
 !
