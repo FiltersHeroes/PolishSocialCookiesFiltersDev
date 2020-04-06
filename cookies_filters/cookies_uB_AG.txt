@@ -113,15 +113,6 @@ galopuje.pl##+js(abort-current-inline-script.js, $, RODOCOOKIE)
 generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
 giantfabryczna.pl,liv-cycling.com###cookiePopupModal, .modal-backdrop
 gitara-sklep.pl##body:style(padding-top: 0 !important;)
-google.com,google.pl##body.QVCmK:style(position: static !important; overflow-y: visible !important;)
-google.com,google.pl##div[class][role="dialog"] > #cnsp:has( > div[class][aria-live="polite"]):xpath(../..)
-google.com,google.pl##header#gb + div[class^="gb"][data-cbh="consent.google.com"]
-google.com,google.pl##html.QVCmK:style(overflow-y: visible !important;)
-google.com,google.pl##html.gb_ea > body.gb_ea:style(height: auto !important;)
-google.com,google.pl##html.gb_ea:style(overflow-y: visible !important;)
-google.com,google.pl###lb > div[id^="_"]:has(#cnskc)
-google.com,google.pl###main > #lb > div:not([id]):not([class]):has(#cnsw > iframe[src*="://consent.google.com"])
-google.com,google.pl###main > #lb > div[id^="_"]:has(#cnsw > iframe[src*="://consent.google.com"])
 gryonline.wp.pl,tv.pudelek.pl##+js(set-constant.js, wp_no_consent_screen, true)
 handluj.com###rodo-message, .modal-backdrop
 hendi.pl##.modal__outer--rodo, .modal--open
@@ -300,6 +291,16 @@ wgospodarce.pl,wpolityce.pl##.rhododendron-popup, .rhododendron-popup-overlay
 wrzesnia.info.pl###rodo, .modal-backdrop
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
+www.google.com,www.google.pl##body.QVCmK:style(position: static !important; overflow-y: visible !important;)
+www.google.com,www.google.pl##div[class][role="dialog"] > #cnsp:has( > div[class][aria-live="polite"]):xpath(../..)
+www.google.com,www.google.pl##header#gb + div[class^="gb"][data-cbh="consent.google.com"]
+www.google.com,www.google.pl##html.QVCmK:style(overflow-y: visible !important;)
+www.google.com,www.google.pl##html.gb_ea > body.gb_ea:style(height: auto !important;)
+www.google.com,www.google.pl##html.gb_ea:style(overflow-y: visible !important;)
+www.google.com,www.google.pl###cnt.big > #lb:has(iframe[src*="://consent.google.com"])
+www.google.com,www.google.pl###lb > div[id^="_"]:has(#cnskc)
+www.google.com,www.google.pl###main > #lb > div:not([id]):not([class]):has(#cnsw > iframe[src*="://consent.google.com"])
+www.google.com,www.google.pl###main > #lb > div[id^="_"]:has(#cnsw > iframe[src*="://consent.google.com"])
 www.google.com,www.google.pl###promos > div[style^="background"]
 www.google.com,www.google.pl##.srp #searchform[style^="top: 50px"]:style(top: 20px !important;)
 www.kayak.pl##.cdk-global-scrollblock:style(position: static !important; overlow: auto !important;)
