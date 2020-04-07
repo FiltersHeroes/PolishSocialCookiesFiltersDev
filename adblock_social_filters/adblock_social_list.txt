@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.7.1
-! Last modified: Tue, 07 Apr 2020, 19:00 UTC+02
+! Version: 2020.4.7.2
+! Last modified: Tue, 07 Apr 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.7.1 aktualizacja: wto, 07 kwi 2020, 19:00 UTC+02
+! v.2020.4.7.2 aktualizacja: wto, 07 kwi 2020, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -127,6 +127,7 @@ pl##.facebook-popup
 /facebookf
 /facebookikona
 /facebook_white
+/fbpodklad.png
 /flickr_ico
 /f_fb.
 /f_tw.
@@ -159,6 +160,11 @@ pl##.facebook-popup
 !
 !
 ! Ogólne reguły ukrywające
+~pl##.kac-sm-blog:lang(pl)
+~pl##.kac-sm-fb:lang(pl)
+~pl##.kac-sm-gplus:lang(pl)
+~pl##.kac-sm-instagram:lang(pl)
+~pl##.kac-sm-youtube:lang(pl)
 com,pl##.pwebbox.pwebbox-plugin-facebook_page_plugin
 com,pl##.pwebbox.pweb-theme-fbnavy:not(.pwebbox-plugin-facebook_page_plugin)
 pl##.FBButton
@@ -398,6 +404,7 @@ pl###wysZakladki > #fb
 pl###wysZakladki > #gp
 pl###wysZakladki > #in
 pl###wysuwaneFB
+pl###wysuwane iframe[src*="facebook.com"]
 pl###wysuwane_fb
 pl###yYT
 pl###youtube_ikona
@@ -585,9 +592,12 @@ pl##.jm-facebook
 pl##.jm-google
 pl##.jm-twitter
 pl##.jm-youtube
+pl##.kac-sm-blog
 pl##.kac-sm-fb
 pl##.kac-sm-gplus
+pl##.kac-sm-instagram
 pl##.kac-sm-twitter
+pl##.kac-sm-youtube
 pl##.kanal-g
 pl##.kanal-yt
 pl##.likebox_1
@@ -994,7 +1004,6 @@ artimeno.pl##.slider1
 artlazienkowe.pl,skarbnicazycia.pl,veoveo.pl###widget_shop2
 artmuseum.pl##.fbk, .twt
 arturjablonski.com##.social-media-fluid, .like-container
-artykulydzieciece.pl,ckpodgorza.pl,consil.com.pl,dachyonline.pl,darmowe-torrenty.net,europedirect-katowice.pl,evacalor.pl,expander.net.pl,fabrykazabawek.eu,faxtel.com.pl,gckis.trzebnica.pl,hifiphilosophy.com,hotelpiotr-gorce.pl,madziafashion.blogspot.com,mgok-wielen.pl,mosir.org.pl,mtbiznes.pl,musicinfo.pl,naklejkolandia.pl,narzedziadiamentowe.com,poltext.pl,prawo-porady.pl,primadent.com.pl,pzszerm.pl,rajsmakosza.pl,schronisko.olsztyn.pl,skiny.pl,spartanshop.pl,tylkobalonem.pl,wader.toys,www.nmfmk.pl###wysuwane
 artykulymodelarskie.pl###blocklinkb > ul > .last_item > a[style]
 art-comp24.pl###likebox-box
 asgard.gifts##.copyrights > div > .row > .icons > a
@@ -1201,7 +1210,7 @@ bitcoin-online.pl##.social-color
 bithub.pl##.st-wykop, .st-steemit
 bitserwis.com.pl###node-490
 biuroprasowe.pl##.twt, .lin
-biurorachunkowe-swidnica.com.pl,e-planetazabawek.pl,emkatrans.com.pl,hurtowniachemiczna.com,jampol.eu,komlogo.pl,krainazabawy.pl,materialybudowlanekrokowa.pl,mckenzie.pl,meblesosnowe.eu,mebloteka.eu,oknajachimczak.com,petrusserwis.pl,sklep.akces-plexi.pl,sklep.audiofil.eu,sklep.hart-metale.pl,uzdrowiska-klodzkie.pl,uzdrowiska-pgu.pl,www.hanbud.com.pl##.kac-sm-panel
+biurorachunkowe-swidnica.com.pl##.kac-sm-panel
 biznes2biznes.com###zakladki > div:nth-of-type(5)
 biznesalert.pl##.telegram, a[href="https://telegram.me/biznesalertpl"]
 biznesfinder.pl,pkt.pl##.sharing-toolbox > ul > li:nth-child(-n+5)
@@ -1553,6 +1562,7 @@ danrol-sklep.pl,elixirzdrowia.pl,mpec.olsztyn.pl,rynek-ksiazki.pl,saluti.pl###fb
 dareni.pl##a[href^="https://www.facebook.com/firaneczki"]
 darkarea.pl##.google_1_right
 darkplanet.pl##.visible-desktop.block-title:nth-of-type(9) > h2
+darmowe-torrenty.net,europedirect-katowice.pl,fabrykazabawek.eu,hifiphilosophy.com,madziafashion.blogspot.com,narzedziadiamentowe.com,tylkobalonem.pl###wysuwane
 dar-med.eu##.fooWidgets > a.btIconWidget
 david-durden.pl##.widget_et_social_followers
 dawneklodzko.pl#?#div#three-lght:-abp-has( > h4:-abp-contains(Facebook))
@@ -2840,6 +2850,7 @@ lukowa.pl,ono24.info###tab
 lulek.tv#?#.s4:-abp-has(article > .social)
 lumarte.eu##a[href="https://www.instagram.com/lumarte_art_online/"]
 luxlux.pl##.fan-box
+luxmed.pl##.luxmed-footer-social
 luxuryexpo.pl,luxuryrealestate.pl##footer .col-2
 lvlup.pro##.footer-one.col-sm-12.col-xs-12.col-md-12.col-lg-3
 macademiangirl.com##.header-info-text
@@ -2902,6 +2913,7 @@ masz.eu###topFacebook
 masz.gliwice.pl##.col-social-icons.col > .footer-h4
 matchpro.pl##.fb-1.box-1
 matematyka.pisz.pl###ikonkaFb
+materialybudowlanekrokowa.pl##.rssocial-youtube-icon
 matfiz24.pl##.media-spolecznosciowe
 matshop.pl##a[href="https://instagram.com/matshoppl"]
 matshop.pl##a[href="https://twitter.com/Matshoppl"]
@@ -2917,6 +2929,8 @@ mazury.pl##.byt_social_widget
 maz.info.pl##div.scl:nth-of-type(n+3):nth-of-type(-n+4)
 mbank.pl##.fr.community
 mbp.opole.pl##.footer-cols-wrapper > .panel-grid-cell:nth-of-type(n+3) > .panel-cell-style.footer-col
+mckenzie.pl##.rssocial-facebook-icon
+mckenzie.pl##.rssocial-twitter-icon
 mdkkolbuszowa.pl##A[href^="https://www.facebook.com/mdk.kolbuszowa"], A[href="https://www.youtube.com/channel/UC0R0ALL8IyLcRn8SMTe3iOw"]
 mdk.opole.pl##.visit_us
 meble88.pl###top-nav > .hamburger-menu > ul > li:nth-of-type(7)
@@ -3138,6 +3152,7 @@ muscat.pl##.col-sm-12.footer-icons > div:nth-of-type(1)
 musclepower.pl###menu_banners3 .menu_button_wrapper:nth-child(-n+3)
 music99.pl##section:nth-of-type(1) > header > .fa-twitter.icon
 music99.pl###footer .contact > .icons
+musicinfo.pl###wysuwane .fb_iframe_widget
 music.apple.com#?#.we-share__menu-content > .we-share__list > .we-share__list-item:-abp-has(button[class*="twitter"], button[class*="facebook"])
 mustasz.com##.contact > li:nth-of-type(-n+2)
 muszyna.pl##.footer-col-right > div.sp_size.footer-data-col:nth-of-type(2)
@@ -3405,7 +3420,9 @@ otwarte.eu###footer-container > .clwhite.margt40.text-right.pull-right.upper, li
 outhorn.com##footer #custom776
 outsidewear.pl###ytbox
 overwatch.pl##.mks_button_medium
-owbaltyk.pl##.rssocial-facebook-icon, .rssocial-icon-youtube
+owbaltyk.pl##.rssocial-instagram-icon
+owbaltyk.pl##.rssocial-youtube-icon
+owbaltyk.pl,rozruch-startgum.pl##.rssocial-facebook-icon
 ox.pl##.navIcons__circle--fb, .navIcons__circle--yt
 oyakata.com.pl###Social > a[href="https://www.instagram.com/oyakatatomistrz"]
 ozonee.pl###menu_banners3 > .menu_button_wrapper > a
@@ -3958,7 +3975,6 @@ rowery-elektryczne.pl###youtube-widget, #footer-links > p:nth-of-type(1)
 rowinskabusinesscoaching.com##.widget-section.widget > .row > .container > a.widget-icon.widget
 royalcanin.pl##a[href="https://www.youtube.com/user/royalcaninpolska"] > img
 royalcanin.pl##.footer-col-3
-rozruch-startgum.pl##.rssocial-icon-facebook
 rozrywka.tvp.pl##a.article__icons-item:nth-of-type(-n+2)
 roztocze.net##.col-md-7.col-xs-12 > div:nth-of-type(1) > span:nth-of-type(-n+2), #facebook_count, .pdclear.col-md-12 > span:nth-of-type(5)
 rozwiazwezly.pl###Mod115, .module_social
@@ -5051,6 +5067,10 @@ z-hotel.com###menu-item-868
 !
 ! Specyficzne reguły blokujące
 /avlab*/img/bg_share.png$image,domain=avlab.pl
+/facebookgb.png$domain=schronisko.olsztyn.pl
+/fbpodklad1.png$domain=mosir.org.pl
+/fbpodklad2.png$domain=gckis.trzebnica.pl|musicinfo.pl
+/fbpodklad_v2.png$domain=rajsmakosza.pl
 /followusontwitterlogo.jpg$domain=riskcompliance.pl
 /konsedo_new/facebook_k_l.jpg$domain=dadas.home.pl
 /public/assets//baner-yt-sklep.png$image,domain=sklep.precio.pl|sklep5438865.homesklep.pl
