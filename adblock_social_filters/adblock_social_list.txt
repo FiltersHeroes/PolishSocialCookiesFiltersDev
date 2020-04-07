@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.6.3
-! Last modified: Mon, 06 Apr 2020, 23:00 UTC+02
+! Version: 2020.4.7.0
+! Last modified: Tue, 07 Apr 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.6.3 aktualizacja: pon, 06 kwi 2020, 23:00 UTC+02
+! v.2020.4.7.0 aktualizacja: wto, 07 kwi 2020, 15:00 UTC+02
 !
 !
 ! Popupy
@@ -817,6 +817,7 @@ adstone.pl##a[href="https://www.behance.net/adstoneteam"]
 adwokatura.katowice.pl,artgos.pl,bazarek.net.pl,buziak.nl,buziak.pl,enigmatech.eu,exponet.pl,fitandyummy.pl,gran.olsztyn.pl,kompilo.com,latarki.pl,spozywcza.lodz.pl,talbud.pl,technoo1.free.fr,turystykamlodziezowa.pl,wesoly-przedszkolak.pl,wicanders.pl###bossbyte_slide
 aerlingus.com##.col-xs-20pc.col
 afterweb.pl##.aw_header_social, .footer_top div.col-md-4:nth-of-type(2)
+afterweb.pl##.social_icons_footer, .szukaj-nas
 agapo.pl,sklep.mizar.com.pl,taktutanio.pl###wysZakladki > #pierwsza
 agataberry.pl##.alder_facebook_widget
 agat.eu##.facebook-slider-widget
@@ -1026,9 +1027,7 @@ atopik.pl#?##custom-text:-abp-has( > p > a > img[src="https://atopik.pl/img/cms/
 atrakcjekrynicy.pl###stopka_ikony
 atriumshop.eu,czterylapysklep.com,diagcar.eu,kameleonbutik.com,motoklinika.com,spacetronik.eu,swieczka.eu###facebook_block
 atriumsystem.eu##.box-social-media.box
-atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com#?#section > .container-fluid:-abp-has( > h2:-abp-contains(Instagram))
-atrium-felicity.pl,atrium-koszalin.pl##.ico-foursquare.ico, .ico-new-instagram.ico-new, #header_link_fb_mobile, #header_link_4sq_mobile, #header_link_instagram_mobile
-atrium-felicity.pl,atrium-koszalin.pl#?#.footer-icons-box > .icon:-abp-contains(/(Facebook|Foursquare|Instagram)/)
+atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com#?#section > .container-fluid:-abp-has( > h2:-abp-contains(Instagram))
 at-outlet.pl,menland.pl,walizkazabawek.pl##.social-profiles-info
 audiodelic.pl##.style-color-632047-bg .icon-box.icon-box-top.icon-inline
 audioteka.com##.page-foot__col:nth-of-type(4)
@@ -1188,7 +1187,6 @@ bioindygo.pl##.stopka_spolecznosci
 biokonopia.pl##.custom-header-area > a:nth-of-type(-n+4)
 biolindo.pl,ecco-verde.pl##.footer_tools--social
 biore.to,bydgoszcz.com,centrum.fm,fabrykazabawek.eu,miechow.eu,moaburger.com,mojtelefon.info,niemiecki.co,oakandberry.com,patriot24.net,sklep.piast-gliwice.eu,weblider.eu,wyborcza.biz##.fb
-biore.to,channel9.msdn.com,chemik-police.com,debica24.eu,domeny.pl,dzieje.pl,fakt.pl,gremont.pl,ksiegarnia.karta.org.pl,sejm.gov.pl,siatka.org,tvn24bis.pl,zw.lt##.twitter
 biore.to,echotygodnik.info##.pinterest, .linkedin
 biore.to,google.com##.gplus
 biore.to,naszwodzislaw.com##.instagram
@@ -1391,6 +1389,7 @@ change.shop.pl,elektro-outlet.net##.fb-messengermessageus
 change.shop.pl,multibook.pl,starecegly.com###box_facebooklike
 channel9.msdn.com##.reddit
 channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,echotygodnik.info,filmaster.com,galeria-pestka.com,gls-group.eu,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.com,nerwica.com,pl.futbol24.com,podstacja.com,radiomalbork.fm,sadzonkiborowki.com,siatka.org,sklep.chemianiemiecka-janpiox.pl,slonskyradio.eu,stoprocent.com,swmarcin-jarocin.com,wejherowo24.info,woblink.com,zvami.tv##.facebook
+channel9.msdn.com,chemik-police.com,debica24.eu,domeny.pl,fakt.pl,gremont.pl,sejm.gov.pl,siatka.org,tvn24bis.pl##.twitter
 charaktery.eu##.pdf_link
 chataalelipa.pl##.cal-social-media
 chataskrzata.eu,czerwonak.pl,infobowling.pl,slet24.pl,szkola-jazdy.pl,zikom.pl###fb-side-like
@@ -1605,7 +1604,6 @@ diprocon.pl##.page-header > .contact > div
 direct-sender.com###footer .col-lg-5.col-md-12.item
 direct-sender.com###section-fb > .polecane, #section-8 > .container > .row > div.col-lg-6:nth-of-type(2)
 direct.money.pl##.main-footer__social-media
-discopolomusic.pl,polsat.pl,polsat1.pl,polsat2.pl,polsatcafe.pl,polsatfilm.pl,polsatmusic.pl,polsatplay.pl,tv4.pl,tv6.com.pl##.comments-facebook
 discordapp.com##li[class*="listItemSocialMedia"]
 discoverychannel.pl###top-bar
 discoverychannel.pl,tlcpolska.pl,tvnstyle.pl##.inputMedia > .youtubeButton, .inputMedia > .tButton
@@ -1652,6 +1650,8 @@ domodi.pl##.dm-1of5.dm-gcf__item.dm-footer-section:nth-of-type(3)
 domodi.pl##.dm-footer-content .dm-1of3.dm-gcf__item.dm-footer-section
 domoplus.pl##footer div.col-md-3.col-sm-6.col-xs-12:nth-of-type(4)
 domtuiteraz.eu###sow-image-2
+domy-bartek.pl###fb
+domy-bartek.pl###in
 dom.aluprof.eu###cs-social-media
 doniczki-poznan.pl##.TwitterFeeds
 doosanbabcock.com##a.no-after:nth-of-type(n+4)
@@ -1942,7 +1942,6 @@ faktyozywnosci.pl,techpolska.pl###text-14
 fakty.nl##.bialy.width-30.user11 > .moduletable
 fakty.plportal.pl###block-block-10
 fama.org.pl###text-5, .widget_ci_twitter_widget
-fama.org.pl,mgotuje.pl,miejscawewroclawiu.pl,niestatystyczny.pl,prawo-mamy.pl,sadurscy.pl,szybkaprzemiana.pl,travelicious.pl##.null-instagram-feed
 familie.pl##.fi-facebook-1
 familijne.pl##.menu__yt, .menu__in, .sm-buttons, #sekcja-co-nowego.section--fb
 fanbook.store###facebookPanel
@@ -2418,7 +2417,6 @@ interaktywni.pro##.social-ico-box
 interferie.pl##.GP
 interia.pl,~www.interia.pl##.social-facebook-fanpage-below
 interia.pl,pomponik.pl#?#.brief-list-item:-abp-has( > .tile-magazine:-abp-has(a.tile-magazine-thumb[href*="//www.facebook.com"], a.tile-magazine-thumb[href*="//www.instagram.com"]))
-interlumen.com,kontaktowe.pl###gp
 intermarche.pl##.foot-links-list > li.foot-links-list__item:nth-of-type(3)
 interpretacje-podatkowe.org##a[title="Śledź nas na Google+"]
 interskills.pl##.right.span_3_of_12.col
@@ -2628,6 +2626,7 @@ konopnysklep.com.pl##.footer-newsletter-social
 konsalnet.pl###linkedin
 konsolowe.info###ct-social-8
 konsolowe.info##.menu-item .fa-twitter, .menu-item .fa-facebook-f
+kontaktowe.pl###gp
 kontakt-simon.com.pl##.social-media-navigation
 kopalniawiedzy.pl##.ui-helper-clearfix.box.articles:nth-of-type(4)
 koraliki.pl###footer div.col-sm-3:nth-of-type(1)
@@ -3241,6 +3240,7 @@ newonce.radio##div.footer__inner-container:nth-of-type(4)
 newonce.sport##.footer-desktop__right-side
 newonce.sport##.footer-mobile__social-wrapper
 newsletter2go.pl##.n2go-footer_socials
+newslubuski.pl##.twitter
 newsrm.tv###footer > div > ul > li > a
 newstyling.pl###footer > #footer-icon > a[id^="fico"]
 newsweek.pl##.articleSocials
@@ -4858,7 +4858,6 @@ www.pkobp.pl##.icon-goldenline.social-icon--goldenline.social-icon
 www.pluszaki.com###footer_secondary > .row > div.column:nth-of-type(4)
 www.plus.pl##footer .column > li:nth-of-type(1) > span
 www.politycznyislam.info##.wpb_start_animation.wpb_bottom-to-top.wpb_animate_when_almost_visible.wpb_content_element.wpb_text_column:nth-of-type(3)
-www.polityka.pl##.hiddenOnMobile.header-share-links, #md-footer_social, .md-sharethis-toolbox-floatingbutton_fb, .wykopTo.md-sharethis-toolbox-floatingbutton_wykop
 www.pol-skone.pl##.pi
 www.porta.com.pl##.section_social_media
 www.premier.gov.pl##.f4.fl > .clearfix > li
@@ -5039,8 +5038,8 @@ zyciestolicy.com.pl##.hm-share
 zyciezpsem.pl##.social_nav
 z-hotel.com###menu-item-868
 !4fun.tv##.mt-4.mb-3.justify-content-center.d-flex, .mt-5.row > div.col-md-4:nth-child(-n+2)
-!atrium-biala.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com##.ico-foursquare.ico, .ico-new-instagram.ico-new, #header_link_fb_mobile, #header_link_4sq_mobile, #header_link_instagram_mobile
-!atrium-biala.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com#?#.footer-icons-box > .icon:-abp-contains(/(Facebook|Foursquare|Instagram)/)
+!atrium-biala.pl,atrium-copernicus.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com##.ico-foursquare.ico, .ico-new-instagram.ico-new, #header_link_fb_mobile, #header_link_4sq_mobile, #header_link_instagram_mobile
+!atrium-biala.pl,atrium-copernicus.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com#?#.footer-icons-box > .icon:-abp-contains(/(Facebook|Foursquare|Instagram)/)
 !daciakatowice.pl##.fixedFB
 !domenasportowa.pl##a[href^="https://plus.google.com/+PerfectSportDystrybucja"], a[href="https://www.facebook.com/DomenaSportowaPl/"], a[href="https://www.instagram.com/domenasportowa/"], a[href="https://www.youtube.com/channel/UCj-A3y-rWIifEDuOm28qjAg"]
 !fenii.pl##.instagram-feed
