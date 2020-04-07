@@ -592,3 +592,13 @@ pl##[id^="nk_fajne"]
 pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_likes, .insta_likes, .tik-tok_likes
 !pl##.fb.small.button
 pl###wysuwane iframe[src*="facebook.com"]
+pl##.kac-sm-fb
+pl##.kac-sm-gplus
+pl##.kac-sm-youtube
+pl##.kac-sm-instagram
+pl##.kac-sm-blog
+~pl##.kac-sm-fb:lang(pl)
+~pl##.kac-sm-gplus:lang(pl)
+~pl##.kac-sm-youtube:lang(pl)
+~pl##.kac-sm-instagram:lang(pl)
+~pl##.kac-sm-blog:lang(pl)
