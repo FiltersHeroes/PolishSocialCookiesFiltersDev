@@ -5,6 +5,14 @@
 ~pl##.kac-sm-gplus:lang(pl)
 ~pl##.kac-sm-instagram:lang(pl)
 ~pl##.kac-sm-youtube:lang(pl)
+~pl##.mdi-facebook:lang(pl)
+~pl##.mdi-google-plus:lang(pl)
+~pl##.mdi-instagram:lang(pl)
+~pl##.mdi-skype:lang(pl)
+~pl##.social-conteiner [href*="plus.google.com"]:lang(pl)
+~pl##.social-conteiner [title="instagram"]:lang(pl)
+~pl##.social-conteiner [title="pinterest"]:lang(pl)
+~pl##.social-conteiner [title="youtube"]:lang(pl)
 com,pl##.pwebbox.pwebbox-plugin-facebook_page_plugin
 com,pl##.pwebbox.pweb-theme-fbnavy:not(.pwebbox-plugin-facebook_page_plugin)
 pl##.FBButton
@@ -469,6 +477,10 @@ pl##.mag_gplus220
 pl##.mag_twitter220
 pl##.main-footer-social
 pl##.mashicon-pinterest
+pl##.mdi-facebook
+pl##.mdi-google-plus
+pl##.mdi-instagram
+pl##.mdi-skype
 pl##.mobile-facebook
 pl##.mod.mod_sociallist.middle
 pl##.momizat-facebook
@@ -536,7 +548,10 @@ pl##.socializer-twitter
 pl##.socials-bar
 pl##.socials_foot
 pl##.social .twitter
-!pl##.social-conteiner > .social
+pl##.social-conteiner [href*="plus.google.com"]
+pl##.social-conteiner [title="instagram"]
+pl##.social-conteiner [title="pinterest"]
+pl##.social-conteiner [title="youtube"]
 pl##.social-fb
 pl##.social-float-bar
 pl##.social-gp
@@ -604,19 +619,4 @@ pl##.__xX20facebook
 pl##[id^="nk_fajne"]
 pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_likes, .insta_likes, .tik-tok_likes
 !pl##.fb.small.button
-pl##.mdi-facebook
-~pl##.mdi-facebook:lang(pl)
-pl##.mdi-google-plus
-~pl##.mdi-google-plus:lang(pl)
-pl##.mdi-skype
-~pl##.mdi-skype:lang(pl)
-pl##.mdi-instagram
-~pl##.mdi-instagram:lang(pl)
-pl##.social-conteiner [title="pinterest"]
-pl##.social-conteiner [title="instagram"]
-pl##.social-conteiner [href*="plus.google.com"]
-pl##.social-conteiner [title="youtube"]
-~pl##.social-conteiner [title="pinterest"]:lang(pl)
-~pl##.social-conteiner [title="instagram"]:lang(pl)
-~pl##.social-conteiner [href*="plus.google.com"]:lang(pl)
-~pl##.social-conteiner [title="youtube"]:lang(pl)
+!pl##.social-conteiner > .social
