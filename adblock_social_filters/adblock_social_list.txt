@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.8.0
-! Last modified: Wed, 08 Apr 2020, 03:00 UTC+02
+! Version: 2020.4.9.0
+! Last modified: Thu, 09 Apr 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.8.0 aktualizacja: śro, 08 kwi 2020, 03:00 UTC+02
+! v.2020.4.9.0 aktualizacja: czw, 09 kwi 2020, 15:00 UTC+02
 !
 !
 ! Popupy
@@ -160,6 +160,8 @@ pl##.facebook-popup
 !
 !
 ! Ogólne reguły ukrywające
+~pl###bossbyte_slide:lang(pl)
+~pl##.box_facebooklike_wrap:lang(pl)
 ~pl##.kac-sm-blog:lang(pl)
 ~pl##.kac-sm-fb:lang(pl)
 ~pl##.kac-sm-gplus:lang(pl)
@@ -280,6 +282,7 @@ pl###article-sidebar-action-facebook
 pl###athemes_social_icons-2
 pl###blip
 pl###block-fb-social-fb-likebox
+pl###bossbyte_slide
 pl###bossbyte_slide_front
 pl###boxFacebook
 pl###boxGoogleplusArt
@@ -450,6 +453,7 @@ pl##.block-menu-menu-social-footer.block-menu.block > .menu
 pl##.block-menu-menu-social-footer.block-menu.block > .block-title
 pl##.box3_faceMain
 pl##.box_btn_like
+pl##.box_facebooklike_wrap
 pl##.box_fb
 pl##.box_in
 pl##.box_tw
@@ -824,7 +828,6 @@ adnan.pl##.footer > .container.userfooter > .row > p > a > img
 adore.pl,savoyahome.pl###wtyczki
 adrenaline.pl,jejsklep.pl###links_footer_6
 adstone.pl##a[href="https://www.behance.net/adstoneteam"]
-adwokatura.katowice.pl,artgos.pl,bazarek.net.pl,buziak.nl,buziak.pl,enigmatech.eu,exponet.pl,fitandyummy.pl,gran.olsztyn.pl,kompilo.com,latarki.pl,spozywcza.lodz.pl,talbud.pl,technoo1.free.fr,turystykamlodziezowa.pl,wesoly-przedszkolak.pl,wicanders.pl###bossbyte_slide
 aerlingus.com##.col-xs-20pc.col
 afterweb.pl##.aw_header_social, .footer_top div.col-md-4:nth-of-type(2)
 afterweb.pl##.social_icons_footer, .szukaj-nas
@@ -879,7 +882,6 @@ alejasztuki.com##.art-footer div.art-layout-cell:nth-of-type(3)
 alekinoplus.pl,forum.ncplus.pl,forum.pl.canalplus.com###FBRight
 alekosmos.pl,batcave.com.pl,booklips.pl,boskapszczola.pl,cdn.ug.edu.pl,craftportal.pl,damagier.pl,david-durden.pl,doktorania.pl,fama.org.pl,glodnapolka.pl,kwadranszpodkopem.com,magnapolonia.org,malygeniusz.org,nono-store.pl,pdasite.pl,portal.region.info.pl,prokapitalizm.pl,promocje.msi.com,swiatdronow.pl,swingwithme.pl,swobodnie.eu,vivio.pl,winers.pl,wrodzinie.pl,www.wizytowka.be###text-3
 aleksandrow-lodzki.pl##.icons > .g.icon
-aleopakowania.pl,bliskonatury.pl,dekookna.pl,dvbsklep.pl,espozywczak.pl,fantoma.pl,gardenoffood.com,kolonieiobozy.net,metryicentymetry.pl,militarialodz.pl,mimari.com.pl,nieznany.pl,skuterymotocykle.pl##.box_facebooklike_wrap
 aleperfumeria.pl##.inst.box
 aletorcik.pl##.widget_wrt_social
 alfabet24.com.pl#?#.box-container-b:-abp-has(.box-obrazek-inner [href*="://www.facebook.com/"])
@@ -981,7 +983,6 @@ arch.telewizjarepublika.pl,ezamosc.pl##.box:nth-of-type(7)
 arcontact.pl###plusone-slider
 arenadesign.pl,cavaliada.pl##.instagram1
 arenadesign.pl,cavaliada.pl,fitexpo.com.pl,strefakibica.poznan.pl###ssb-btn-1, #ssb-btn-2
-arenadesign.pl,festiwal.mtp.pl,gamearena.pl,knieje.pl,retromotor.pl,specialdays.pl,sportexpo.mtp.pl,targimodypoznan.pl##.fb_likebox
 arenanarciarska.pl##.top-righ-icons > a[href="https://www.youtube.com/channel/UC6npr59Nw0NqXT0fCf6CTCQ"], #footer-icons > li:nth-of-type(2)
 arhn.eu###menu-socialize-social-icons-menu, footer > .site-inner > .right > .middle > .tooltipstered
 arimot.pl##div[id*="social-block"]
@@ -1544,7 +1545,6 @@ czytajrzeszow.pl#?#div[id] ~ div[class^="szablon_break_poziom"] ~ div[id] + div 
 czytamyetykiety.pl,lowicz24.eu##li.social
 c-and-a.com##.util-add-margin-bottom.col-md-4.col-xs-12:nth-of-type(3)
 dacter.pl##.stopka a[href="https://www.facebook.com/dacter.akcesoria"]
-dada.pl,globenergia.pl,imagazine.pl,niedziela.pl,pct24.pl,pp24.info.pl,psz24.info,pultusk24.pl,teatrslaski.art.pl##.fa-youtube-square
 dadhero.pl##a[href*="/dadheropl" i] > img[src^="/static/media/"]
 daemon-tools.cc##.feedback > .footer-link-col > h3
 dailyvibes.pl##[aria-label="Social bar"]
@@ -1876,6 +1876,7 @@ europodroze.pl##.header_bottom > .phone > a > img
 eurostudent.pl##.mainfooter-buttons-facebook
 eurostudent.pl##.mainheader-buttons-facebook
 eurostyl.com.pl##.social_baners
+eurotargetshow.pl##.singlePost__socialTitle
 euroticket.pl##div.row:nth-of-type(2) > div.chain-grid.col-md-4:nth-of-type(3) > center
 eurowizja.org##.footer-social-wrap
 euro.com.pl###comunity-links
@@ -1973,10 +1974,10 @@ ferrariwarszawa.com,zapinamypasy.pl##.share-media
 ferso.org,lazienkiportal.pl###fb_box
 festiwalbiegowy.pl###block-block-52 > fieldset > legend
 festiwalinspiracji.pl#?#div.tzSpace_default.vc_row-fluid.wpb_row.vc_row:-abp-contains(OBSERWUJ NAS NA FACEBOOKU)
+festiwal.mtp.pl,specialdays.pl##.fb_likebox
 fifek.pl,hulaka.pl###float_facebook_box
 fight24.pl##div:nth-of-type(3) > h2:nth-of-type(1)
 fightershop.pl##.bigMedia > .container > .row, .findUs > div.nav-header:nth-of-type(1)
-fightershop.pl,modele-centrum.pl,motocombo.pl,nbielizna.pl,pcoutlet.pl,plumeria.sklep.pl,sklep-muzyczny.com.pl,soleibabe.pl,ubraniak.pl,vanitysklep.pl,wellsamed.pl##.social-conteiner
 filing.pl##.like
 filman.cc###facebook-side
 filmowastolica.pl##footer > #sm
@@ -4388,6 +4389,7 @@ tan.io###social-main
 tapenda.pl###lewe_socjalki, #prawa_spolecznosciowki
 tapicer-pulawy.eu##a[href="https://www.facebook.com/ZakladTapicerskiSzymanekWieslaw/"]
 tarczynski.pl##.s_icon
+targimodypoznan.pl##.ssb-light-hover > *:not(#ssb-btn-0)
 targsmaku.pl##.fb-flayout-box-trigger
 tarnow.pl##.ik-facebook, .ik-twitter, .ik-instagram, .ik-youtube
 tato.net##.metka-fb
