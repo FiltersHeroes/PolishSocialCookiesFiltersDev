@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.11.0
-! Last modified: Sat, 11 Apr 2020, 03:00 UTC+02
+! Version: 2020.4.11.1
+! Last modified: Sat, 11 Apr 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.11.0 aktualizacja: sob, 11 kwi 2020, 03:00 UTC+02
+! v.2020.4.11.1 aktualizacja: sob, 11 kwi 2020, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -3492,7 +3492,7 @@ paybylink.pl##.footer-group > .s-list > li > a[href="https://www.facebook.com/ru
 pay-card.pl##a[href="https://www.youtube.com/channel/UCIrQBYCQhV8RCvPZ5YlZywQ"]
 pay-card.pl##.et_pb_section_6
 pay.google.com##.youtube.social--icon
-pbg-sa.pl###facebook_slider
+pbg-sa.pl,swiatkoralikow2.pl###facebook_slider
 pbkm.pl##.side-bar__item--instagram, .side-bar__item--facebook
 pbsbank.pl##a[href="http://www.youtube.com/user/PBSbank"]
 pbsbank.pl##a[href^="https://www.facebook.com/pages/PBS-Bank-Podkarpacki-Bank-Spoldzielczy/159144344145695"]
@@ -4354,6 +4354,7 @@ suponwroclaw.pl##.urlfacebook
 suponwroclaw.pl##.clearfix.sf-contener > div:nth-of-type(4)
 support.garmin.com##.sp__quick-links__social-links
 support.wdc.com##div.footer-upper:nth-of-type(4)
+surfshark.com##svg[class*="SocialIcon"]
 surgepolonia.pl###footer_contact_data > li:nth-of-type(1) > a
 swatka.pl##.user-block > .left
 swedish-princesses.pl###Image1.widget
@@ -5221,6 +5222,7 @@ z-hotel.com###menu-item-868
 ||lib.onet.pl/fblike/v5/fb-popover.js$script
 ||linguajob.pl/_tpl/_img/facebook_slider.png
 ||lomianki.pl/lomianki2/new_layout/facebook.png
+||londonharold.com/public/assets/instafollow*.jpg$image
 ||lookimg.com/app/themes/Peafowl/custom_hooks/facebook-logo.png
 ||lookimg.com/app/themes/Peafowl/custom_hooks/twitter.png
 ||luban.pl/upload/baner/twitter-1.png
