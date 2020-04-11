@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.11.0
-! Last modified: Sat, 11 Apr 2020, 15:00 UTC+02
+! Version: 2020.4.11.1
+! Last modified: Sat, 11 Apr 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.11.0 aktualizacja: sob, 11 kwi 2020, 15:00 UTC+02
+! v.2020.4.11.1 aktualizacja: sob, 11 kwi 2020, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1238,7 +1238,7 @@ lyconet.com,ogloszeniowa.net###cookie-box
 madreklama.com##.style2
 magazynsuplement.us.edu.pl###cookies-eu
 magazyn-hamag.pl##.notify-popup
-magazyn.allegro.pl##.pr-cookie-policy
+magazyn.allegro.pl,media.pl.canalplus.com,prowly.com##.pr-cookie-policy
 mag-sklep.pl##.b-popup-wrapper
 maleksiazki.pl##body > div[id][style*="position"][style*="fixed"]:not([class])
 mall.pl##.consent-panel
@@ -1276,7 +1276,6 @@ mediam.eu,szkolawbrusie.pl###panel_popup
 mediasystems.pl##body > div > div[style*="position"][style*="relative;"]:not([id]):not([class])
 media-tech.eu,polskimarket.nl###topInfoContainer1
 media.netflix.com#?##__next > div[class*="css-"]:nth-of-type(1):-abp-has( > button)
-media.pl.canalplus.com,prowly.com##.pr-cookie-policy
 medpolonia.pl###bannerPopup
 medpytania.pl,mymedic.pl,prawdaobiektywna.pl,www.biomedical.pl###mcpc
 meetup.com##[class*="_cookieBanner-module_cookieBanner"]
