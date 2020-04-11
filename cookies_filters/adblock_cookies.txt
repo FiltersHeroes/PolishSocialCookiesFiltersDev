@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.11.1
-! Last modified: Sat, 11 Apr 2020, 19:00 UTC+02
+! Version: 2020.4.11.2
+! Last modified: Sat, 11 Apr 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.11.1 aktualizacja: sob, 11 kwi 2020, 19:00 UTC+02
+! v.2020.4.11.2 aktualizacja: sob, 11 kwi 2020, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1165,6 +1165,7 @@ lahtipro.pl,profix.com.pl,proline-tools.com.pl,tryton-tools.pl###alert_bar
 lajfy.com##.eu-cookie
 lak-auto.pl###windowcookie > #innercookie
 lamoda.pl###app > footer[id] ~ .text-center.fixed
+lampywcentrum.pl##.amgdprcookie-bar-container
 lampy.pl##.dnt-dialog
 lancia.pl###cl-banner
 laserhouse.pl##.LASERWrapper
@@ -1344,6 +1345,7 @@ mojabudowa.pl###cookie_regulamin
 mojapogoda.com###IR
 mojavon.pl##.mpp-container > .mpp-popup
 mojehobby.pl##.message-footer-panel
+molkip.pl##.dialog-message.dialog-lightbox-message > .elementor-location-popup
 mondeoklubpolska.pl##li#navbar_notice_12
 monedo.pl##.NotificationBar
 monedo.pl##.wr-notification-panel, .Notifications
@@ -1916,6 +1918,7 @@ support.kaspersky.com###gdprbar
 support.satel.pl##.attention_wall
 support.ubi.com##.message--cookie.message
 sweetliving.pl###cookie-1.cookie
+swiatkoralikow2.pl,workstyle.pl##.config-messages
 swiatnauki.pl,wiz.pl###menu
 swiatpodlog.com.pl###giodo
 swidnica24.pl##div#policyBox
@@ -2095,7 +2098,6 @@ wodociagi-kalisz.pl###white2
 wodociagi.krakow.pl##.cookieMessages
 wola.waw.pl,www.zarr.com.pl###accept_cookie_wrapper, #accept_cookie_overlay
 wordpress.com,www.gumtree.com##.gdpr-banner
-workstyle.pl##.config-messages
 wortal.majsterkowicza.pl###eatthis > #et-text
 wotore.tv##.paper-client-privacy-agreement
 wrobelekelemelek.com###cboxOverlay, #cboxWrapper
