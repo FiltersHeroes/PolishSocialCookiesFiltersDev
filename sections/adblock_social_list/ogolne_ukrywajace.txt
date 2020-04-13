@@ -13,7 +13,6 @@
 ~pl##.social-conteiner [title="instagram"]:lang(pl)
 ~pl##.social-conteiner [title="pinterest"]:lang(pl)
 ~pl##.social-conteiner [title="youtube"]:lang(pl)
-pl##.widget_fbw_id
 com,pl##.pwebbox.pwebbox-plugin-facebook_page_plugin
 com,pl##.pwebbox.pweb-theme-fbnavy:not(.pwebbox-plugin-facebook_page_plugin)
 pl##.FBButton
@@ -109,6 +108,7 @@ pl##a.like
 pl##a[title="Click to share on Google+"]
 pl##a[title="Instagram"]
 pl##a[title="gplus"]
+pl##button[id*="componentsArticleFoot"][id*="Facebook"], button[id*="componentsArticleFoot"][id*="Twitter"]
 pl##div[id^="profilki_socialbuttons_"]
 pl##img[src="./images/icons/nk.png"]
 pl##img[src="/images/fb1.png"]
@@ -278,7 +278,6 @@ pl##.article__likes
 pl##.article__likes-title
 pl##.art__social-footer__container
 pl##.atomsArticleFootTools__icons > .atomsArticleFootTools__icon
-pl##button[id*="componentsArticleFoot"][id*="Facebook"], button[id*="componentsArticleFoot"][id*="Twitter"]
 pl##.atomsNavigationFooterSocialmedia__button[data-event-params="link_img=facebook"] > svg
 pl##.at-svc-facebook
 pl##.at-svc-google_plusone_share
@@ -605,6 +604,7 @@ pl##.vk-like-button
 pl##.widget_as_facebook_mem_likebox
 pl##.widget_bimber_widget_facebook_page
 pl##.widget_easy_facebook_page_plugin
+pl##.widget_fbw_id
 pl##.widget_likebox
 pl##.widget_weblizar_facebook_likebox
 pl##.wpsocial-shareBox.wpsocials
