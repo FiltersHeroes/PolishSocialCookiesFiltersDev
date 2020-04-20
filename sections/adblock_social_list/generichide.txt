@@ -2,7 +2,6 @@
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?##app header ~ div.content div:-abp-has( > div > span[style="width:15px;height:15px;"] > svg > title)
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article + div[class*=" "] > div[class] > div:not([class]) > div[class]:-abp-has( > div[class*=" "] > span > svg > [stroke="none"] > #PAKO_reakcje-Copy)
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article + div[class*=" "] > div[class] > div[class]:-abp-has( > div[class] > div[class] > div[class] > .fb-like)
-!~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article > div[class] > .article--title + div[class] > div[class] > div[class]:-abp-has( > div[class] > strong[class]:-abp-contains(/^Podziel się$/))
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has( > div[class] > div[class] > span > svg > path)
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#.content a[href^="https://www.facebook.com/"] > div[class]:-abp-has( > div[class] > div[class] > .fb-like)
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#.content > div[class] > div[class] > div[class] > div[data-reactid] > div[class]:-abp-has( > div[class] > div[class] > .fb-like)
@@ -96,4 +95,5 @@ xboxforum.pl#?#.notices:-abp-has(a[href="https://www.youtube.com/channel/UCTTcPd
 yafud.pl###strona > center, .extBox
 zapytaj.onet.pl##.or, .share-container
 zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta
+!~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article > div[class] > .article--title + div[class] > div[class] > div[class]:-abp-has( > div[class] > strong[class]:-abp-contains(/^Podziel się$/))
 !tvnmeteo.tvn24.pl##.socialMediaContainer
