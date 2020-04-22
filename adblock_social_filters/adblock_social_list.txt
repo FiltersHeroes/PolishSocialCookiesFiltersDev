@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.21.0
-! Last modified: Tue, 21 Apr 2020, 19:00 UTC+02
+! Version: 2020.4.22.0
+! Last modified: Wed, 22 Apr 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.21.0 aktualizacja: wto, 21 kwi 2020, 19:00 UTC+02
+! v.2020.4.22.0 aktualizacja: śro, 22 kwi 2020, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -174,6 +174,7 @@ pl##.facebook-popup
 ~pl##.mdi-google-plus:lang(pl)
 ~pl##.mdi-instagram:lang(pl)
 ~pl##.mdi-skype:lang(pl)
+~pl##.shb-header-social:lang(pl), .shb-footer-social:lang(pl)
 ~pl##.social-conteiner [href*="plus.google.com"]:lang(pl)
 ~pl##.social-conteiner [title="instagram"]:lang(pl)
 ~pl##.social-conteiner [title="pinterest"]:lang(pl)
@@ -693,6 +694,7 @@ pl##.share-tumblr
 pl##.share-tw
 pl##.share-twitter
 pl##.share-twitter-button
+pl##.shb-header-social, .shb-footer-social
 pl##.show-apple-social
 pl##.sh_facebook_art
 pl##.sh_gplus
@@ -938,6 +940,7 @@ allegro.pl##div[data-box-name^="Social"] > div > span
 allepaczki.pl##a[href*="facebook.com/allepaczki"]
 allrecipes.pl##.footer__links > div:nth-of-type(3)
 all-bielizna.pl###sid245
+alphavit.pl,avita.pl,house-party.pl,jokasklep.pl,lanex.com.pl,mojedekoracje.eu,presta-portal.pl,sklepdlaciebie.pl,skottuning.com,specgear.com.pl,wyciskarki.pl###likebox_content
 altenberg.pl##.youtube_link, .instagram_link
 alternatywne.pl,djoles.com,megataxi.pl,polskamafia.pl,twojaanglia.eu,wochenblatt.pl###fpw_widget
 aluprof.eu##.sidebar__title, li.sidebar__link:nth-of-type(-n+3)
@@ -1103,7 +1106,6 @@ auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshe
 auto-swiat.pl##.fb_share, .version4.bigVersion.onet_ustPlugin_addthis > .box2, .whitelistPremium > div:nth-of-type(4) > .version4.onet_ustPlugin_addthis, .imageWrapper > .socialButtons
 avaldihome.pl##footer#footer .row > div.col-xs-12.col-sm-12.col-md-6.col-lg-3:nth-of-type(3)
 avast.com##.social-icons > a.bi-link:nth-child(-n+5)
-avita.pl,house-party.pl,jokasklep.pl,lanex.com.pl,mojedekoracje.eu,presta-portal.pl,sklepdlaciebie.pl,skottuning.com,specgear.com.pl,wyciskarki.pl###likebox_content
 avlab.pl##li:nth-child(-n+3) > .ext
 avon-24.pl##a[href="https://www.facebook.com/lsavonkasia/"] > img
 avon.pl###FooterSocialMediaColumn
@@ -1235,7 +1237,6 @@ biore.to,echotygodnik.info##.pinterest, .linkedin
 biore.to,google.com##.gplus
 biore.to,naszwodzislaw.com##.instagram
 biotechnologia.pl,neonet.pl###facebook-trigger
-biskvit.pl,cbdremedium.pl,clover.net.pl,ekipatonosi.pl,ovczarnia.pl,uzbira.pl,wksklep.pl##.shb-header-social, .shb-footer-social
 bisnode.pl##footer .main-footer__bottom div.col:nth-of-type(1) > .main-footer__bottom-links
 bispol.pl##.footer-line > .row > div[class]:nth-of-type(4)
 bispol.pl##.icons-soc
@@ -3012,7 +3013,7 @@ media-tech.eu,sporto.com.pl,sprzetdragon.pl,zizako.pl###widget_shop4
 media.carrefour.pl##.footer__social__list
 medinfo.pl##.links-nav > li > a[href="https://www.facebook.com/PowszechnaInformacjaMedyczna/"]
 medme.pl##.medme__header__social
-mednova.pl###footer-content-social
+mednova.pl,novamed.pl###footer-content-social
 medonet.pl##.shareButtons > li.item:nth-of-type(1)
 medonet.pl##.socials > li.item:nth-of-type(3)
 medpolonia.pl##.helper-yt
@@ -4232,6 +4233,8 @@ sklep.gry-online.pl##.icon-offset-left > .hdr-open
 sklep.jelp.pl###baner3
 sklep.legia.com###hw_cookie_law
 sklep.lemoniade.pl###footer div.col-md-6.col-xs-12.col:nth-of-type(2)
+sklep.lorin.eu###footer div.column.wide.three:nth-of-type(3) > .header
+sklep.lorin.eu##.fb-widget-side
 sklep.mateuszciawlowski.pl###ishiheadercontactblock
 sklep.mieloch.pl##.clearfix.col-md-2.hidden-sm.hidden-xs.top_icons_wrapper
 sklep.mieloch.pl##.tile_icons.col-sm-6.col-xs-12
@@ -4540,6 +4543,7 @@ thinkpoint.pl##.custom-contact__content__element__fab
 ticker.pl##p > a[href="https://plus.google.com/117832143136999927708/about"]
 tidal.com##.text-align-intermediate.font-size-intermediate > a[class]:nth-of-type(-n+3) > .tidal-icon
 tiebreak.pl##.tbHeaderSocial
+tiffanie.pl##a[href="https://www.instagram.com/mat_lingerie/"] > img, a[href^="https://www.facebook.com/EkskluzywnaBieliznaMAT/"] > img
 tikkurila.pl#?#.content > div.row-fluid:-abp-has(a[href][target="_blank"][rel="group"] > div[data-alt][data-picture])
 tikkurila.pl#?#.content > .row-fluid > .span12:-abp-contains(Dołącz)
 tikkurila.pl#?#.content:-abp-has(h5:-abp-contains(Przyłącz))
@@ -5670,6 +5674,7 @@ youtube.com#@##secondary-links
 @@/wp-content/plugins/fwdu3dcar/*$image,~third-party
 @@||apis.google.com/js/platform.js$domain=lemonmind.com|olx.pl
 @@||cdn.whatnext.pl/uploads/*/*/integracja-facebook.jpg$image
+@@||google.*/logos/*/share-sprite.png$image,~third-party
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
 @@||meczyki.pl/images/twitter_blank.gif
