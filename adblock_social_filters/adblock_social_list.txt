@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.22.0
-! Last modified: Wed, 22 Apr 2020, 19:00 UTC+02
+! Version: 2020.4.23.0
+! Last modified: Thu, 23 Apr 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.22.0 aktualizacja: śro, 22 kwi 2020, 19:00 UTC+02
+! v.2020.4.23.0 aktualizacja: czw, 23 kwi 2020, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -3252,6 +3252,7 @@ mzk-ostrow.com.pl##p:nth-child(n+59)
 mzk-ostrow.com.pl##.rightpane p:nth-of-type(n+52):nth-of-type(-n+58)
 mzk-torun.pl###s5_drop_down_container
 m.beszamel.se.pl###big_socials.row
+m.demotywatory.pl##.demot-fbshare
 m.interia.pl##.article-social.is-bottom
 m.se.pl##.social.row
 nadarzyn.tv##.facebook_fixed
@@ -5382,6 +5383,7 @@ z-hotel.com###menu-item-868
 ||prbbudomal.pl/grafika/fb-grey.png
 ||programatory.com/grafika/facebook-TOMSAD/FACEbook-TOMSAD.jpg
 ||przelewy24.pl/themes/base/assets/img/LI-In-48px.png
+||przypadkiadama.com/facebook.png$image
 ||pswbp.pl/images/admin/logosy/twitter67.jpg
 ||pswbp.pl/images/admin/logosy/youtube_logo-round1.png
 ||ptakoutlet.pl/templates/ptakoutlet/images/insta-small.png
@@ -5506,6 +5508,8 @@ agency.tvn.pl###menuIcons > .first, .second
 animezone.pl##div.desktop.panel-default.panel:nth-of-type(1)
 applemobile.pl###text-2
 bigbrother.tvn.pl###footer > .footer-container > div.footer-col:nth-of-type(4)
+bravebeaver.pl###float-posts-nav
+bravebeaver.pl##.row_social_inpost
 businessinsider.com.pl##.socialButtons, a[href="https://twitter.com/BiPolska/"], a[href="https://www.facebook.com/BIPolska/"], a[href="https://www.linkedin.com/company/business-insider-polska"]
 cccteam.onet.pl###social-bar, .container--social, a[href="/#social"]
 dobreprogramy.pl##a[href*="twitter.com/share"], a[href*="facebook.com/share.php"]
@@ -5603,6 +5607,8 @@ avast.com,karointhekitchen.com,szkolymedyczne.eu,tenit.com.pl,upflix.pl#@#.socia
 bankier.pl,claudia.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,moto.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,ugotuj.to#@#.socialBar
 bemares.pl#@#.social-media:not(html):not(body)
 biznes.interia.pl#@#.social-socialButtons
+demotywatory.pl#@#.share-facebook
+demotywatory.pl#@#.share-widgets
 edunews.pl#@#.custom-social-buttons
 enfamil.pl#@#.float-shop
 freshandnatural.pl,sferazabawek.pl#@##social_block
