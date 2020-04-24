@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.23.0
-! Last modified: Thu, 23 Apr 2020, 19:00 UTC+02
+! Version: 2020.4.24.0
+! Last modified: Fri, 24 Apr 2020, 19:01 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.23.0 aktualizacja: czw, 23 kwi 2020, 19:00 UTC+02
+! v.2020.4.24.0 aktualizacja: pią, 24 kwi 2020, 19:01 UTC+02
 !
 !
 ! Popupy
@@ -4061,17 +4061,15 @@ runexpert.pl##a[href="https://www.facebook.com/RunExpert"]
 rusin-ski.pl##.socials-title
 russ.uwm.edu.pl##.vc_icon_element-inner
 rustykalneuchwyty.pl##.footer div.col-sm-3:nth-of-type(4) > .content-element
+ryanair.com##hp-connect-with-us
+ryanair.com##.discover-destination__social > div.h4:nth-of-type(1)
 rylko.com##.fa-facebook-official
 rynekinfrastruktury.pl##.sledzNasContainer > .naglowek > .tekst
 rynekinwestycji.pl#?#.site-title:-abp-contains(FACEBOOK)
 rynekpierwotny.pl##.fd-row.df.mb-lg > div.w20:nth-of-type(4) > .mb-lg.fwb.fs14, .fd-row.df.mb-lg > div.w20:nth-of-type(4) > .fd-row.df
-rynekzdrowia.pl###menu-1 .inline > li:nth-of-type(4)
-rynek-kolejowy.pl##span > a[href="https://www.linkedin.com/company/zesp%C3%B3%C5%82-doradc%C3%B3w-gospodarczych-tor-sp-z-o-o-"]
-rynek-kolejowy.pl##.podzielSieZeZnajomymiMale.podzielSieZeZnajomymi, .podzielSieZeZnajomymiDuze.podzielSieZeZnajomymi > .podzielSieIkony, .tekstPodzielSie, .rozdzieleniePodzielSieDalszaCzesc, .zawartoscBox > .tekst, .kolumna:nth-of-type(2), .naglowek > .tekst
-rynek-kolejowy.pl##.socialIcons > li:nth-child(-n+3)
-rynek-kolejowy.pl##.zawartoscBox > span > a[href="https://twitter.com/RynekKolejowy"], .zawartoscBox > span > a[href="https://www.facebook.com/RynekKolejowy"]
-rynek-lotniczy.pl,rynekinfrastruktury.pl##.sledzNasContainerStopka > .naglowek > .tekst, .wiadomoscSocial, .wiadomoscSocialBig
-rynek-turystyczny.pl##div > a[href="https://pl-pl.facebook.com/Rynek-Turystyczny-168042186554714/"]
+rynekzdrowia.pl###menu-1 .inline > li:nth-of-type(n+2):nth-of-type(-n+4)
+rynek-lotniczy.pl,rynekinfrastruktury.pl,transport-publiczny.pl##.wiadomoscSocialBig > .socialNaglowek
+rynek-turystyczny.pl##a[href*="facebook.com/Rynek-Turystyczny-"]
 rynek.de##.bd-column.bd-layoutcolumn-75 > .bd-vertical-align-wrapper > .bd-iconlink
 rytmynatury.pl###text-16
 rzeszow.dominikanie.pl##.wtitle
@@ -4594,7 +4592,6 @@ traftu.pl##.social > span
 traino.pl#?#.sppb-container-inner > .sppb-row > div.sppb-col-sm-4:nth-of-type(-n+2):-abp-contains(/(Facebook|Twitter)/)
 transferwise.com##.footer div.row:nth-of-type(1) > div.text-md-left:nth-of-type(4)
 translate.google.com,translate.google.pl###gt-blog, #gt-gplus, #gt-promo-lr, .goog-toolbar-separator, .share-translation-button
-transport-publiczny.pl##.naglowek, .wiadomoscSocialBig, .wiadomoscSocial
 transylwania.com##.right-modal
 traseo.pl##.fb-like-box-container
 travelbit.pl##a > [src="https://www.travelbit.pl/wp-content/uploads/2013/10/fb-01.png"]
@@ -4758,6 +4755,8 @@ vipzakopane.pl##.c-header-nav__links--social
 visit.olsztyn.eu##.top-blue > div > div[class]:nth-of-type(1)
 vistula.edu.pl###vistula-social
 vitasport.pl##.menu_contact_social
+vitberg.com##.uk-padding-remove-bottom.uk-section.uk-section-default div.uk-flex-auto:nth-of-type(4) > h1.uk-text-center.uk-h5:nth-of-type(1)
+vitberg.com##.uk-padding-remove-bottom.uk-section.uk-section-default .uk-grid.uk-flex-center.uk-grid-medium.uk-child-width-auto > div
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(1)
 vivaldi.start.me##section:nth-of-type(5)
 vivaldi.start.me###widget-10621594
@@ -5267,6 +5266,7 @@ z-hotel.com###menu-item-868
 ||hd-opinie.pl/wp-content/themes/hdopinie/images/rightcol_shadow.png$image
 ||hi-fi.com.pl/modules/mod_susnet_likebox/images/bluebutton.png
 ||hi-fi.com.pl/modules/mod_susnet_twitter/images/twitterbutton.png
+||home.pl/homepl*/image/face_*.png$image,domain=kupujzdomu.pl
 ||home.pl/static/img/www/footer_ico.png
 ||housemarket.pl/images/icons/nu-social/wykop.png
 ||ibe.edu.pl/images/ikony/YouTube-grey.png
@@ -5646,6 +5646,7 @@ pl.aliexpress.com#@#.sns-btns
 rawlplug.com#@##socialNetworks
 realme.com#@#.subscribe-container
 rynek-kolejowy.pl#@#.socialIcons
+rynek-lotniczy.pl,rynekinfrastruktury.pl,transport-publiczny.pl#@#.fbLikeBox
 socialpress.pl#@#.follow_us
 solojuve.com#@##socialWrapper
 spece.it#@#.social-tooltip
