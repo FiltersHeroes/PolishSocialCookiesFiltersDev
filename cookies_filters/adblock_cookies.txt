@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.26.0
-! Last modified: Sun, 26 Apr 2020, 03:01 UTC+02
+! Version: 2020.4.26.1
+! Last modified: Sun, 26 Apr 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.26.0 aktualizacja: nie, 26 kwi 2020, 03:01 UTC+02
+! v.2020.4.26.1 aktualizacja: nie, 26 kwi 2020, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -607,6 +607,7 @@ ecoxpress.pl###rodo-consent-bg-overlay
 eco.atman.pl,groj.pl,kreskoweczki.pl,marketing-news.pl,www.obozytenisowe.pl###gbpl_oba
 ecslupsk.pl###politics
 edimax.pl,fleetboard.pl,hbo.pl,patronite.pl###overlay
+eduelo.pl###purePopupWrap
 edukacja.rybnik.eu,medialubuskie.eu,polskaekologia.org,siemiatycze.eu##.cookieWarning
 edupage.org##.eu-cookie-panel
 edutorial.pl,kerrisgroup.com###wmpci-popup-wrp
@@ -2728,6 +2729,7 @@ pl###cookie_wall:not(body):not(html)
 pl###cookie_warning:not(body):not(html)
 pl###cross-dialog.crossDialog:not(body):not(html)
 pl###divCookie:not(body):not(html)
+pl###divOneTrustMainContainer
 pl###div_accept_cookies:not(body):not(html)
 pl###div_cookies_accept:not(body):not(html)
 pl###div_info_cookies:not(body):not(html)
