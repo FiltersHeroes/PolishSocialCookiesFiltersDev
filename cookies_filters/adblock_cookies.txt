@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.27.0
-! Last modified: Mon, 27 Apr 2020, 19:00 UTC+02
+! Version: 2020.4.27.1
+! Last modified: Mon, 27 Apr 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.27.0 aktualizacja: pon, 27 kwi 2020, 19:00 UTC+02
+! v.2020.4.27.1 aktualizacja: pon, 27 kwi 2020, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1184,9 +1184,7 @@ lechia.pl###rodo-wrapper
 leclerc.com.pl##div#tekst
 leddo.pl,zdp.poznan.pl##.rodo-block
 legalsite.pl###message-1
-legia.com###cook-wrapper
 legia.com#?##real-content > div[class]:not([class*="-"]):not([class*="_"]):-abp-contains(cookies)
-legia.com#?##root > div > #real-content > div[class^="jss"]:last-of-type:-abp-contains(cookies)
 legionisci.com,odkrywamyzakryte.com###ez-cookie-dialog-wrapper
 legoland.de##.alertbar
 lego.com###GFSticky
@@ -2220,6 +2218,8 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
+!legia.com###cook-wrapper
+!legia.com#?##root > div > #real-content > div[class^="jss"]:last-of-type:-abp-contains(cookies)
 !pl.aptoide.com##.cookie-notification-holder
 !poki.pl#?#aside:-abp-has( > h2:-abp-contains(Uwaga))
 !poki.pl#?#aside:-abp-has( > p:-abp-contains(zgodę))
