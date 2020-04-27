@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.26.1
-! Last modified: Sun, 26 Apr 2020, 19:00 UTC+02
+! Version: 2020.4.27.0
+! Last modified: Mon, 27 Apr 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.26.1 aktualizacja: nie, 26 kwi 2020, 19:00 UTC+02
+! v.2020.4.27.0 aktualizacja: pon, 27 kwi 2020, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -71,6 +71,7 @@ pracujwsprzedazy.pl###modal-social
 prezeska.pl##.pum
 prostowsmak.com###ffbp
 przedsiebiorcza.com###spu-2217, #spu-bg-2217
+radio7.pl###spu-9201, #spu-bg-9201
 radio111.pl##.modal[id], .modal-backdrop
 rzeszow4u.pl###myModal
 sledczy24.pl##.spu-bg, .spu-total-1
@@ -1439,7 +1440,7 @@ chamskie.pl##.widget-fanbox
 change.shop.pl,elektro-outlet.net##.fb-messengermessageus
 change.shop.pl,multibook.pl,starecegly.com###box_facebooklike
 channel9.msdn.com##.reddit
-channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,echotygodnik.info,filmaster.com,galeria-pestka.com,gls-group.eu,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.com,nerwica.com,pl.futbol24.com,podstacja.com,radiomalbork.fm,sadzonkiborowki.com,siatka.org,slonskyradio.eu,stoprocent.com,swmarcin-jarocin.com,wejherowo24.info,woblink.com,zvami.tv##.facebook
+channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,echotygodnik.info,filmaster.com,galeria-pestka.com,gls-group.eu,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,nerwica.com,pl.futbol24.com,podstacja.com,radiomalbork.fm,sadzonkiborowki.com,siatka.org,slonskyradio.eu,stoprocent.com,swmarcin-jarocin.com,wejherowo24.info,woblink.com,zvami.tv##.facebook
 channel9.msdn.com,chemik-police.com,debica24.eu,domeny.pl,fakt.pl,gremont.pl,newslubuski.pl,sejm.gov.pl,siatka.org,tvn24bis.pl##.twitter
 charaktery.eu##.pdf_link
 chataalelipa.pl##.cal-social-media
@@ -1810,7 +1811,6 @@ eecpoland.eu,frsih.pl##.stickSocial
 efashionstudio.pl##.section-banner-7.section-banner.banner, .section-banner-8.section-banner.banner, .widget-navigation.widget-15.widget
 ef.pl##.js-share-post, .cn-post-heading > .cn-social-logos-list, .cn-fat-footer__social
 egospodarka.pl##.lee-share.lee-box:nth-of-type(4) > .lee-ramka:nth-of-type(2)
-egoszafa.pl##.media-btns
 ehat.me###so_btn
 eholiday.pl##.aj-footer-occasion-form
 eholiday.pl##.show.go-to-top
@@ -2358,6 +2358,7 @@ henrykkania.pl##.b-stopka__social
 herbapol.com.pl##.new-social-footer-icons
 hermessk.pl,rywalbp.pl###sliding_box_submit
 hes.pl##a[href="https://www.facebook.com/hes.wroclaw/"]
+hexade.com,kety.pl###trigger3
 heyah.pl,paleosmak.pl##.likebox
 hfc.com.pl##.social-search-box > ul > li:nth-of-type(-n+3)
 hihonor.com##.social-media-lists
@@ -2633,6 +2634,7 @@ kazimierzdolny.pl##.mb--sm.tupper.header--sm.header--clean.header, .icon-gplus.l
 kbw.gov.pl##li.ico:nth-of-type(n+4):nth-of-type(-n+6)
 kelton.pl##img[src="/data/include/cms/fb.png"]
 kepno.pl##li.no-mini:nth-of-type(n+4)
+kety.pl###twittery > ul > li:nth-of-type(1)
 kfc.pl##.social-side
 kia.com##.sns
 kiczeraski.pl##.right > div:nth-of-type(3)
@@ -2836,7 +2838,9 @@ leclerc-bielany.pl##.rblikebox
 leclerc.rzeszow.pl##.slide_button
 lecnawakacje.pl##.classPageGenerator_default_bottom_socialMedia
 leftlane.pl##a[href="//www.youtube.com/c/LeftlanePl"], a[href="//www.instagram.com/leftlanepl/"], a[href="//web.facebook.com/leftlanepl/"]
+legia.com###navBar-container a[target="_blank"]:not([href*="legia.com/"]) > span
 legia.com###navBar-container > div > div:nth-of-type(2) > a > svg
+legia.com###root div#real-content ~ div section:-abp-has( > button:-abp-contains(social media))
 legia.net###first-col div.module:nth-of-type(7) > .module-header, #second-col div.module:nth-of-type(6) > .module-header
 legia.net###wydarzenie > div:nth-child(5)
 legimi.pl##.bookmarkFb
@@ -2950,7 +2954,9 @@ mamineskarby.pl###tulip_facebook-2, #ig-block-1
 mamkomputer.info##a[href="https://plus.google.com/+Interset24Plit/about"]
 mamopracuj.pl##.col-xs-6.col-sm-6.col-md-3 > .title
 mamotoja.pl##.find-us-footer
+mamprawowiedziec.pl##.fa-twitter.fab
 mamprawowiedziec.pl##.footer-row div.row:nth-of-type(2) > div:nth-of-type(2)
+mamprawowiedziec.pl##.footer-row > div:nth-of-type(1) > .text-uppercase
 mamsmartfona.pl##footer > .row > div.col:nth-of-type(4) > h3
 mango.pl##.fn-social > ul > li:nth-of-type(n+2)
 manta.com.pl##.col-md-6.news_left
@@ -3019,6 +3025,8 @@ mediarodzina.pl##.fSocial
 mediarun.com##.widget_jnews_facebook_page
 media-tech.eu,sporto.com.pl,sprzetdragon.pl,zizako.pl###widget_shop4
 media.carrefour.pl##.footer__social__list
+media.upc.pl##div[class*="pr-story-share--"] > div > div[class*="right"], div[class*="pr-story--share-s"]
+media.upc.pl##.pr-story--media-contact__social-icon
 medinfo.pl##.links-nav > li > a[href="https://www.facebook.com/PowszechnaInformacjaMedyczna/"]
 medme.pl##.medme__header__social
 mednova.pl,novamed.pl###footer-content-social
@@ -3286,6 +3294,7 @@ narzedziaokazje.pl##.navbar-nav > li.nav-item:nth-of-type(n+4):nth-of-type(-n+6)
 narzedzia-profesjonalne.com.pl##img[src="/userdata/banners/5.png"]
 narzedzia.pl##div.footeritem:nth-of-type(6) > h4
 nasienna.pl,wiktormeble.pl##.sm-youtube
+nask.pl##.footer-container__right_icons > li:nth-of-type(n+1):nth-of-type(-n+4)
 nastopy.pl##.leftSlide > .fb-wrap
 naszahistoria.pl,plus.dziennikbaltycki.pl,plus.dzienniklodzki.pl,plus.dziennikzachodni.pl,plus.echodnia.eu,plus.expressbydgoski.pl,plus.gazetakrakowska.pl,plus.gazetalubuska.pl,plus.gazetawroclawska.pl,plus.gloswielkopolski.pl,plus.gp24.pl,plus.kurierlubelski.pl,plus.nowiny24.pl,plus.nowosci.com.pl,plus.nto.pl,plus.polskatimes.pl,plus.pomorska.pl,plus.poranny.pl,plus.to.com.pl,plus.wspolczesna.pl,tygodnikits.pl##.listaIkon > li > .ikona
 naszaprzychodnia.com.pl##footer .fbcontact .col-md-4
@@ -3846,6 +3855,7 @@ profilki.pl#?#div.centering.tile:-abp-has(.fb-like-box)
 profilki.pl#?#div.centering.tile:-abp-has(.g-page)
 profim.pl##.button-instagram
 profim.pl##.button-youtube
+profinfo.pl##.right-fix-widget > a[href="https://www.facebook.com/profinfo/"]
 profinfo.pl##.widget-1.right-fix-widget
 profinfo.pl#?#div.clearfix.widget:nth-of-type(3) > .content:-abp-contains(Dołącz do nas)
 profi.pl##footer > .container > div.row:nth-of-type(2) > div:nth-of-type(4) > h4
@@ -4137,6 +4147,7 @@ semtec.pl###sociallinkstop > div > a > img[src^="data:image/png;base64,"]
 senat.gov.pl##.fabcebook
 sendgb.com##.si-linkedin, .si-youtube, .si-facebook, .si-twitter, .si-instagram
 seniorka-z-plecakiem.pl##.flownews-footer-social
+seniorplus.edu.pl###boczne_ikonki > a[href*="facebook"]
 senior.pl##.podziel_links
 senpai.com.pl##a[href="https://www.facebook.com/events/204364196983965/"]
 senuto.com##div.ee-inline-svg-wrapper > a.ee-inline-svg[href][target="_blank"] > svg
@@ -4226,7 +4237,6 @@ sklep.batida.pl##.mm_single-right-in
 sklep.batida.pl##.mm_single-right-inst
 sklep.batida.pl##.mm_single-right-pr
 sklep.batida.pl##.mm_single-right-yt
-sklep.chemianiemiecka-janpiox.pl##.modules.row > h4:nth-of-type(3)
 sklep.chomik.pl##.chomik-social-side
 sklep.chomik.pl##.menuFooterMulti.menuFooter > div > .row > div:nth-of-type(2) > div > div > div:nth-of-type(1)
 sklep.cornette.pl###ves-footer-center div:nth-of-type(4) > .custom.box > .box-heading
@@ -4649,6 +4659,7 @@ tvmalbork.pl##a[href="/facebook"]
 tvn24bis.pl##.button_email
 tvn24bis.pl##.title-wrapper > .social, .fbClassicBox, .forum-header-box > h3
 tvntl.pl##div.kolumna_prawa_widget:nth-of-type(1)
+tvokazje.pl##.Social_block
 tvpolice.com.pl##.header-social-box
 tvpolsat.info##.fa-youtube-play, .fa-instagram, .fa-twitter
 tvpuls.pl##.block-menu-menu-social-footer.block-menu.block > .menu > .leaf:not(.last)
@@ -5544,7 +5555,6 @@ gotowanie.onet.pl,magia.onet.pl###fb-panel
 gtaforum.pl###ipsLayout_sidebar.ipsLayout_sidebarright li.ipsBox.ipsWidget:nth-of-type(3), .iconButtons.ipsfocus_social
 istotne.pl###social_buttons, .icon_twitter, .icon_facebook, .icon_google_plus, .icon_youtube
 jbzd.cc,jbzdy.cc,jbzdy.co,jbzdy.com.pl,jbzdy.eu,jbzdy.pl##.btn-send-messenger, .fb-like
-kadantiscam.netlify.com##.social-share
 kalendarz.onet.pl,poczta.onet.pl##.ico-facebook
 komputerswiat.pl,przegladsportowy.pl##.fb_share
 konkret24.tvn24.pl##.share-container > .share-container__icon-wrapper > .share-container__modes:not(.share-container__modes--copy-link), .socials
@@ -5632,16 +5642,18 @@ greencanoe.pl,spece.it,tanie-loty.com.pl,www.x-kom.pl#@#.social-links
 hdtvpolska.com#@#.cactus-share-and-like
 iab.org.pl#@#.menu-social-buttons
 influencer.pl#@#.socials
-interia.pl,pomponik.pl,~styl.pl,~www.interia.pl#@#.article-social
-interia.pl,pomponik.pl,~styl.pl,~www.interia.pl#@#.article-social-buttons
-interia.pl,pomponik.pl,~styl.pl,~www.interia.pl#@#.share-link
+interia.pl,pomponik.pl,styl.pl,~www.interia.pl#@#.article-social
+interia.pl,pomponik.pl,styl.pl,~www.interia.pl#@#.article-social-buttons
+interia.pl,pomponik.pl,styl.pl,~www.interia.pl#@#.share-link
 janssenmed.pl,ksiegarnianatlomackiem.pl,motocombo.pl#@#.footer-social
-kadantiscam.netlify.com,naszesprawy.eu,www.pkobp.pl#@#.social-icon
+kadantiscam.netlify.app,naszesprawy.eu,www.pkobp.pl#@#.social-icon
 kingowiec.pl#@#.socialmedia
 komputerswiat.pl,onet.pl,realmadryt.pl,tvn24bis.pl#@#.social-container
 kosapopatelni.pl#@#.bdaia-social-io
 kosapopatelni.pl#@#.widget-social-links
 lublin112.pl#@##social-icon
+media.upc.pl#@#.bg-twitter
+media.upc.pl#@#.ion-social-twitter
 medycyna24.pl,wp.pl,~www.wp.pl#@#.share-links
 miedzyrzecz.biz#@#.td_block_social_counter
 miedzyrzecz.biz#@#.td_social_type
