@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.4.27.0
-! Last modified: Mon, 27 Apr 2020, 19:00 UTC+02
+! Version: 2020.4.27.1
+! Last modified: Mon, 27 Apr 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.4.27.0 aktualizacja: pon, 27 kwi 2020, 19:00 UTC+02
+! v.2020.4.27.1 aktualizacja: pon, 27 kwi 2020, 23:00 UTC+02
 !
 !
 ! Popupy
@@ -2839,10 +2839,10 @@ leclerc.rzeszow.pl##.slide_button
 lecnawakacje.pl##.classPageGenerator_default_bottom_socialMedia
 leftlane.pl##a[href="//www.youtube.com/c/LeftlanePl"], a[href="//www.instagram.com/leftlanepl/"], a[href="//web.facebook.com/leftlanepl/"]
 legia.com###navBar-container a[target="_blank"]:not([href*="legia.com/"]) > span
-legia.com###navBar-container > div > div:nth-of-type(2) > a > svg
 legia.com###root div#real-content ~ div section:-abp-has( > button:-abp-contains(social media))
 legia.net###first-col div.module:nth-of-type(7) > .module-header, #second-col div.module:nth-of-type(6) > .module-header
 legia.net###wydarzenie > div:nth-child(5)
+legia.net#?##second-col > .theiaStickySidebar > .sidebar-inner > div.module:-abp-contains(Facebook)
 legimi.pl##.bookmarkFb
 lejtmotyw.info###HTML23
 lekinfo24.pl##.positionRight.sliderBanner
@@ -5182,6 +5182,7 @@ zycieczestochowy.pl##.top-icons > li:nth-of-type(3)
 zyciestolicy.com.pl##.hm-share
 zyciezpsem.pl##.social_nav
 z-hotel.com###menu-item-868
+!legia.com###navBar-container > div > div:nth-of-type(2) > a > svg
 !o2.pl##.MeJdk.j7BWh
 !o2.pl##article div:not([data-st-area="st-article-reactions"]) div[class]:nth-of-type(3):-abp-has( > button[class][shape="circle"])
 !o2.pl###app-inner .fmSAv
