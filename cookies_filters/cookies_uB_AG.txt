@@ -397,7 +397,6 @@ norgips.pl###cookiemodal
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 okazik.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 okazik.pl##.mfp-wrap, .mfp-bg
-opinie.news##+js(set-constant.js, confirm, trueFunc)
 opolak.pl##body[style]:style(overflow: auto !important;)
 opolak.pl##.rodo, .rodo_layer
 pamiatki.pl###hw_cookie_law
@@ -457,7 +456,6 @@ filmboxlive.com###cookiePolicy.cookie-policy-popup
 filmboxlive.com##+js(remove-attr, class, .mobox.cookie-policy-popup)
 kaliber.pl###cookieModal:remove()
 openpli.org##body > div:not([id]):not([class])
-opinie.news##.plg_system_eprivacy_accepted > p > .plg_system_eprivacy_reconsider
 rynek-turystyczny.pl###modal-rodo:remove()
 !#endif
 !#endif
@@ -513,7 +511,6 @@ norgips.pl##^#cookiemodal
 ogloszenia.plock.pl##^#dialog-rodo
 okazik.pl##^script:has-text(#cookie-dialog)
 openpli.org##^script:has-text(gdpr-accepted)
-opinie.news##^script:has-text(pliki cookie)
 pamiatki.pl##^#hw_cookie_law
 pl.asseco.com##^footer ~ a.animatedModal:has-text(Open)
 pl.asseco.com##^footer ~ #animatedModal:has(h5 > a[href="/polityka-prywatnosci/"])
@@ -611,7 +608,6 @@ norgips.pl$$#cookiemodal
 ogloszenia.plock.pl$$#dialog-rodo
 okazik.pl$$script[tag-content="#cookie-dialog"]
 openpli.org$$script[tag-content="gdpr-accepted"]
-opinie.news$$script[tag-content="pliki cookie"]
 pamiatki.pl$$#hw_cookie_law
 pl.asseco.com$$footer ~ a.animatedModal[tag-content="Open"]
 pl.asseco.com$$footer ~ #animatedModal[tag-content="Polityce prywatności"]
