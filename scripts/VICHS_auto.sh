@@ -29,7 +29,7 @@ addListToVarIfAnotherListUpdated "adblock_social_filters/adblock_social_list.txt
 
 if [ "$CI" = "true" ]; then
     if [[ "$aktualna_godzina" == "13" ]]; then
-        last_file=$(git log --since="5 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
+        last_file=$(git log --since="15 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
     else
         last_file=$(git log --since="3 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
     fi
