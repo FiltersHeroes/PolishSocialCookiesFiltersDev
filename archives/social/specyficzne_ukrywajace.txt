@@ -2,6 +2,14 @@ biskvit.pl,cbdremedium.pl,clover.net.pl,ekipatonosi.pl,ovczarnia.pl,uzbira.pl,wk
 cryptodemy.pl,epainfo.pl,kosmicznapropaganda.pl,kosmonauta.net,magyazyn.pl,movieway.pl,ochrona24.info,odkrywamyzakryte.com,pol-news24.pl,retronagazie.eu,znajdownik.pl##.widget_fbw_id
 cud.rzeszow.pl###pwebbox104, .youtube
 doradcasmaku.pl,vectra.pl##.find-us
+
+wp.pl,~www.wp.pl#?##app header ~ div.content div:-abp-has( > div > div > p:-abp-contains(/^na Facebooku$/))
+wp.pl,~www.wp.pl#?##app header ~ div.content div:-abp-has( > div > span[style="width:15px;height:15px;"] > svg > title)
+wp.pl,~www.wp.pl#?##app .content article ~ div div p:-abp-contains(/^Podziel się opinią$/)
+wp.pl,~www.wp.pl#?##app .content article ~ div div:-abp-has( > div > div > p:-abp-contains(/^na Facebooku$/))
+wp.pl,~www.wp.pl#?##app .content article ~ div div:-abp-has( > span[style="width:15px;height:15px;"] > svg > title)
+wp.pl,~www.wp.pl#?##app > div > table[class]:not([id]) td[class] div[class] ~ a[class]:-abp-has( > figure > span > svg)
+
 drogerium.pl###footer > div > div[class] > div[class]:nth-of-type(4) > div[class] > a[class] > img, #frontpage-instafeed
 ets2mods.com###pwebbox137_toggler
 kodi.org.pl##.pweb-theme-fbnavy
