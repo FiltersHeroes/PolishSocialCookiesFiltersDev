@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.11.1
-! Last modified: Mon, 11 May 2020, 23:00 UTC+02
+! Version: 2020.5.12.0
+! Last modified: Tue, 12 May 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.11.1 aktualizacja: pon, 11 maj 2020, 23:00 UTC+02
+! v.2020.5.12.0 aktualizacja: wto, 12 maj 2020, 15:00 UTC+02
 !
 !
 ! Popupy
@@ -2045,6 +2045,7 @@ filing.pl##.like
 filman.cc###facebook-side
 filmowastolica.pl##footer > #sm
 filmozercy.com##.c-panel-social__list > .c-panel-social__item:nth-of-type(-n+4)
+filmweb.pl##.newsSocialSection
 filmweb.pl##.sitemap__socialLogos
 film.com.pl,smaki.pl##.header-art-share
 film.com.pl,smaki.pl##.tumblr-button
@@ -3975,6 +3976,7 @@ quick-app.eu##.icon-bar > a
 quiosque.pl###static-block-home-facebook
 quizme.pl###mks_author_widget-4
 quizme.pl,quizowa.pl###slidebox
+qulinarna.com##[href^="https://www.facebook.com/qulinarna/"]
 q-meble.eu##.podKreska > .right > a, .right > .contact > a:nth-of-type(n+3):nth-of-type(-n+5)
 racing-planet.pl###socials_block
 racjonalista.pl##td:nth-of-type(2) > .rtab > tbody
