@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.12.0
-! Last modified: Tue, 12 May 2020, 23:00 UTC+02
+! Version: 2020.5.13.0
+! Last modified: Wed, 13 May 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.12.0 aktualizacja: wto, 12 maj 2020, 23:00 UTC+02
+! v.2020.5.13.0 aktualizacja: śro, 13 maj 2020, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -79,6 +79,7 @@ adobe.com,merixstudio.pl##.message
 adocean-global.com##div.cookies-flex
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
 adrenaline.pl,jejsklep.pl###tws_i_100000
+adresowo.pl,ciekawostkihistoryczne.pl,fotosik.pl,sportzona.pl,trojmiasto.pl,twojahistoria.pl###rodo-info
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl,wordlist.eu,zs1mm.edu.pl,zs1mm.home.pl##body > div[style*="position"][style*="relative"]:not([id]):not([class])
 aeg-powertools.eu,baldauf-kaese.de,bolec.info,dystans.org,esize.me,euautomation.com,eurolines.de,europeana.eu,filehippo.com,forum.optymalizacja.com,ftt.roto-frank.com,godzina.info,ipa-katowice.org,konin24.info,languagetool.org,malopolskie-media.info,osiedle-chelmonskiego.pl.tl,parafiabrzezinka.eu,pl.kingofsat.net,pons.com,punkt.media,sachsen-tourismus.de,techsklep.eu,tw-db.info,wiha.com##.cc_banner-wrapper > .cc_banner
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
@@ -418,7 +419,6 @@ chroma.pl##div[class^="CookiesInfo---container---"]
 chrzanow.pl,powiat-chrzanowski.pl###pdo-info-overlay
 ciam.pl,szczecin.eu###privacy-info
 ciechocinek.biz,gniewkowo.eu,kantor.aliorbank.pl,ki24.info,nizanskie.info###cookies-wrapper
-ciekawostkihistoryczne.pl,fotosik.pl,sportzona.pl,trojmiasto.pl,twojahistoria.pl###rodo-info
 cinamoon.pl,ministerstworeklamy.pl,ok-kredyt.pl,radiotaxitg.pl,szkoleniapartner.pl###messagePopup
 cinema3d.pl##rodo-modal
 cineman.pl,tv-trwam.pl##div[class^="CookiePolicyInfo__container"]
@@ -553,6 +553,7 @@ domnowoczesny.com,grupapsb.com.pl##.popup-container
 domodi.pl##.dm-cookie-message
 domoplus.pl,kuchniaplus.pl,miniminiplus.pl,teletoonplus.pl###cpb.rodoLayer
 domowladni.pl###domo-cookies-policy
+domsary.eu###policy-cookies-info-panel
 domydziecka.org###cookies_box_info
 domzdrowia.pl,mgr.farm###cookie_notice
 doosanbabcock.com###notice-bar
@@ -1537,7 +1538,7 @@ ospace.com.pl###private-police.private-police
 ostrowiecnr1.pl###iopp
 ostrowmaz.com###cookies_notification
 otodom.pl##div[class*="CookiesBar"]:nth-of-type(2)
-otolaryngolodzy24.pl,prow.lubelskie.pl,rogowskidevelopment.pl###rodo-policy
+otolaryngolodzy24.pl,prow.lubelskie.pl,rogowskidevelopment.pl,stanlab.eu###rodo-policy
 otwarte.eu###accept-cookie-box
 outlook.live.com#?#.ms-Modal:-abp-contains(Kontynuuj przeglądanie witryny)
 owocowydom.pl,weck.com.pl###popup2
@@ -1784,6 +1785,7 @@ rumia.eu###box-cookies
 ryanair.com###cookie-popup.cookie-popup
 rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl###pd-modal
 rybomania.pl###cookies_widget
+rylko.com#?#.alert:-abp-has(a[href*="/ochrona-danych-osobowych"])
 rymer.org###info_bottom
 r.pl###cookiesModal.rodo-alert
 saabotage.pl##.overall
@@ -3250,6 +3252,8 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
 ! Bugi Kiboke
+eurogamer.pl#@##optanon
+eurogamer.pl#@#.optanon-alert-box-wrapper
 lektury.gov.pl#@#.cookies-box:not(body):not(html)
 motocombo.pl#@##topInfoContainer0
 multikino.pl#@#.cookie-msg-box
@@ -3264,6 +3268,8 @@ wins.pl#@#.cookie-container:not(body):not(html)
 allegro.pl,pikio.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
 epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not([id*="main"])
+eurogamer.pl#@##optanon:not(body):not(html)
+eurogamer.pl#@#.optanon-alert-box-wrapper:not(body):not(html)
 f5.pl#@#.cookies-popup:not(body):not(html)
 forguides.pl#@#.box_in
 gdansk.pl,gokf.gda.pl,wins.pl#@##cookies:not(body):not(html):not(.section):not(.fade)
