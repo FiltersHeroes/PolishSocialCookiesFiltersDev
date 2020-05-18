@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.18.0
-! Last modified: Mon, 18 May 2020, 15:00 UTC+02
+! Version: 2020.5.18.1
+! Last modified: Mon, 18 May 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.18.0 aktualizacja: pon, 18 maj 2020, 15:00 UTC+02
+! v.2020.5.18.1 aktualizacja: pon, 18 maj 2020, 19:00 UTC+02
 !
 !
 ! Popupy
@@ -194,7 +194,6 @@ pl##.facebookThis
 pl##.facebookactivity
 pl##.facebooks
 pl##.fa.icon
-pl##.fb
 pl##.fbButton
 pl##.fbLikebtn
 pl##.fbLink
@@ -1067,6 +1066,8 @@ atcdevelopment.pl##a[href*="www.facebook.com/SRODMIESCIEodnowa"] > img, a[href="
 aten.com###footer .col_two_third > .col_last.col_one_third > .widget > h4
 aternos.org##.social > a > i:not([class*="github"]):not([class*="teamspeak"])
 atik.pl,hurtowniarolnicza.pl,pascal.pl,swiatzlotasklep.pl###fb-slide-gfx
+atmgrupa.pl##.left-sidebar-widget:nth-of-type(-n+4)
+atmgrupa.pl##.post-social-media
 atnel.pl###trigger1
 atopik.pl#?##custom-text:-abp-has( > p > a > img[src="https://atopik.pl/img/cms/f_logo_RGB-Blue_58.png"])
 atrakcjekrynicy.pl###stopka_ikony
@@ -3758,6 +3759,7 @@ podlaskie.eu###odwiedz_nas
 podnorenami.pl###foot td.tbl_3:nth-of-type(2) > a:nth-of-type(-n+7)
 podroze.se.pl##.likeme
 podstadionem.pl##.social-a
+podyplomie.pl##.navbar ~ .container ~ .section > .container > .row > div:nth-of-type(2) > .form-flex
 podyplomie.pl##.section .offset-xl-1.col-lg-6 > .form-flex:nth-of-type(1)
 pogodynka.pl##a[href*="//www.facebook.com/pages/Pogodynkapl/"] > img
 pogodynka.pl###head_facebook
@@ -4036,6 +4038,7 @@ radioplus.pl###footer > div.col:nth-of-type(5) > .DosisExtraBold
 radiopoznan.fm##div.col-xs-12.col-sm-6.col-md-3:nth-of-type(4) > p:nth-of-type(2)
 radiopoznan.fm##.col-xs-12.col-sm-6.col-md-3:nth-of-type(4) > h4:nth-of-type(1)
 radiopoznan.fm##.rm-footer-social, .footer-social-media-header
+radiopoznan.fm##.social-icon:not(.rmIcon-search)
 radioprofeto.pl##.iconsMenu > a:not(:nth-of-type(4)), .m4.menu > .title, .m4.menu > ul > li:not(:nth-of-type(4))
 radiorekord.pl##li:nth-of-type(3) > h3
 radiorodzina.kalisz.pl##.fh-socials
@@ -5766,7 +5769,7 @@ interia.pl,pomponik.pl,styl.pl,~www.interia.pl#@#.article-social
 interia.pl,pomponik.pl,styl.pl,~www.interia.pl#@#.article-social-buttons
 interia.pl,pomponik.pl,styl.pl,~www.interia.pl#@#.share-link
 janssenmed.pl,ksiegarnianatlomackiem.pl,motocombo.pl#@#.footer-social
-kadantiscam.netlify.app,naszesprawy.eu,pkobp.pl#@#.social-icon
+kadantiscam.netlify.app,naszesprawy.eu,pkobp.pl,radiopoznan.fm#@#.social-icon
 kingowiec.pl#@#.socialmedia
 komputerswiat.pl,onet.pl,realmadryt.pl,tvn24bis.pl#@#.social-container
 kosapopatelni.pl#@#.bdaia-social-io
@@ -5838,11 +5841,9 @@ youtube.com#@##secondary-links
 !
 !
 ! Wyjątki
-allegro.pl,bilety-autokarowe.info.pl,kurnik.pl,nbox24.pl#@#.fb
 downdetector.pl#@#a[title="Instagram"]
 freshfile.pl#@#.google
-freshfile.pl,naekranie.pl#@#.facebook
-konto.wpolityce.pl,muzykazreklam.pl#@#.facebook:not([data-id*="videos"]):not(.connect)
+freshfile.pl,konto.wpolityce.pl,muzykazreklam.pl,naekranie.pl#@#.facebook:not([data-id*="videos"]):not(.connect)
 linuxportal.pl#@#a.like
 media2.pl#@#.fa-facebook-square
 patrz.pl#@#.likes
