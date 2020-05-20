@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.19.0
-! Last modified: Tue, 19 May 2020, 19:00 UTC+02
+! Version: 2020.5.20.0
+! Last modified: Wed, 20 May 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.19.0 aktualizacja: wto, 19 maj 2020, 19:00 UTC+02
+! v.2020.5.20.0 aktualizacja: śro, 20 maj 2020, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3255,16 +3255,13 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
 ! Bugi Kiboke
+eurogamer.pl#@##cookie-preferences
+eurogamer.pl#@##onetrust-consent-sdk
 eurogamer.pl#@##optanon
-eurogamer.pl#@#.optanon-alert-box-wrapper
-lektury.gov.pl#@#.cookies-box:not(body):not(html)
-motocombo.pl#@##topInfoContainer0
 multikino.pl#@#.cookie-msg-box
-multikino.pl#@#.cookie-msg:not(body):not(html)
 pl#@#.ccc-widget:not(body):not(html)
 volcano.pl#@##cookiesModal
-wins.pl#@#.cookie-container:not(body):not(html)
-@@||consent.cookiefirst.com$domain=swietawdomu.pl
+@@||cdn.cookielaw.org/scripttemplates/*$script,domain=eurogamer.pl
 !
 !
 ! Wyjątki
