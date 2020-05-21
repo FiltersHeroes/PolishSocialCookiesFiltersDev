@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.20.0
-! Last modified: Wed, 20 May 2020, 23:00 UTC+02
+! Version: 2020.5.21.0
+! Last modified: Thu, 21 May 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.20.0 aktualizacja: śro, 20 maj 2020, 23:00 UTC+02
+! v.2020.5.21.0 aktualizacja: czw, 21 maj 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -792,7 +792,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_l
 3dom.pro##.division-size-50.division-box-2.division-box
 3dom.pro,abarta.pl,bedziepieklo.pl,centrumhandlowerobi.pl,e-vox.pl,gardenflora.pl,greenfelix.eu,kubolek.pl,mbmeganarzedzia.pl,motogron.com,narzedziowy24.eu,naturalo.pl,pasmanteria.eu,ss24.pl,thebookshop.pl,tkaninyflorentine.pl,wik-tor.pl#?#.footer-container div .center.section-title > span:-abp-contains(Znajdziesz nas na)
 3dom.pro,anmur.eu##.top-bar li:nth-of-type(n+3) > .link
-3mk.pl,400.pl,ccnews.pl,konstantinkanin.com,netyou.pl##.cresta-facebook-messenger-box
+3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl##.cresta-facebook-messenger-box
 3mk.pl,aletorcik.pl,blogujmy24.pl,doradca.tv,info.ceneo.pl,magnapolonia.org,moj-kawalek-podlogi.pl,pannaannabiega.pl,phunetcom.pl,polska.sumy.ua,wroclawskiejedzenie.pl###text-8
 3obieg.pl##.smart-youtube
 3obieg.pl,appki.com.pl,autonom.pl,calkiemzdrowo.pl,domtuiteraz.eu,e-marketingprawniczy.pl,konstantinkanin.com,multigaming.pl,paczka-wiedzy.pl,popradio.pl###text-7
@@ -1173,6 +1173,7 @@ bdsklep.pl##.m-footer_socialmedia
 beardrust.pl###ssb-btn-0, #ssb-btn-1, #ssb-btn-2, #ssb-btn-3
 beautikon.com##div.grid12-3.mobile-grid:nth-of-type(4)
 beautyduty.pl###footer #text-5
+beautyinspiration.pl###footer .widget.last.widget-3
 bebetalent.pl#?#h3.hometitle:nth-of-type(3):-abp-contains(Instagram)
 bebetalent.pl,domar.biz.pl,eurobusnysa.pl##.widget_kadence_social.widget
 beck.pl##.footer-column > #text-5
@@ -1933,6 +1934,8 @@ eska.pl,~www.eska.pl##.footer > .box:nth-of-type(6), .footer > .box:nth-of-type(
 eska.tv##.social.box
 espritshop.pl###footer-snapchat
 esprit.com.pl###top-fb-yt-ig, #dol6w > a > img
+essilor.pl##.icon--facebook, .icon--instagram, .icon--youtube
+estheticon.pl##div.footer--nover.footer--item:nth-of-type(3) > h3.footer--title:nth-of-type(2)
 esthetic.com.pl###ssb-btn-0, #ssb-btn-1
 eswinoujscie.pl,kochamwroclaw.pl,mmarocks.pl,rzeszow-news.pl##.td-instagram-element, .td-footer-instagram-title
 etam.pl##.shareFooter
@@ -2718,6 +2721,10 @@ klasykami.pl##.cherry-instagram_widget
 klasykami.pl##.row-edge.row:nth-of-type(n+8)
 klett.pl,kolorowyswiat.org##.ytIcon
 klimacold.com.pl###ssb-btn-3
+klinikamagnuccy.pl###top-bar-social-alt > a:nth-of-type(n+3):nth-of-type(-n+4)
+klinikamiracki.pl##.uk-grid-small .uk-icon.uk-icon-link.el-link
+klinikamurano.com##.icon-facebook
+klinikamurano.com##.instagram.widget-instagram.slideout-widget
 klodzko.pl,labradoor.pl##.mod_fantastic_facebook_sidebar
 klonowypark.pl###belka_facebook2
 klucz.net###labelSocial, .vklogo
@@ -2747,6 +2754,7 @@ komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org#?#div > a[href*="facebo
 komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org#?#div > a[href*="facebook.com/komputerswiat" i]:-abp-has(img)
 komputerytychy.pl##.col-md-12:nth-of-type(4) > .panel-default.panel
 komputery-pc.info###Mod107
+komputronik.pl###footer a[class$="social-link"]:not([title^="Komputronik"])
 komunikacjapabianice.pl#?#td:nth-of-type(5) > table:nth-of-type(17):-abp-contains(Facebook:)
 kom-ster.pl##a > img[src="/images/like-it.png"]
 konecki24.pl##.np-aside-social-wrapper
@@ -3091,6 +3099,7 @@ media.carrefour.pl##.footer__social__list
 media.upc.pl##div[class*="pr-story-share--"] > div > div[class*="right"], div[class*="pr-story--share-s"]
 media.upc.pl##.pr-story--media-contact__social-icon
 medinfo.pl##.links-nav > li > a[href="https://www.facebook.com/PowszechnaInformacjaMedyczna/"]
+medipment.pl##.custom-footer > .container > .row > div:nth-of-type(5)
 medme.pl##.medme__header__social
 mednova.pl,novamed.pl###footer-content-social
 medonet.pl##.shareButtons > li.item:nth-of-type(1)
@@ -3416,6 +3425,8 @@ new.kolejedolnoslaskie.eu##.img-list > li:nth-of-type(1)
 nexelo.pl###jestesmy_na
 nexis.pl##main > .icon-bar
 nextbike.pl##a[href="https://www.instagram.com/nextbike_pl/"]
+nextday.pl###footer div.one-third.column:nth-of-type(2) > .widget
+nextday.pl##.fa-behance-square.fa
 nibyblog.pl###rss > ul > li:nth-of-type(2)
 nicolefashion.pl##.section-banner-6.section-banner.banner, .section-banner-7.section-banner.banner
 nicolefashion.pl##.widget-group.widget-banners-group.widget-1.widget
@@ -3547,6 +3558,7 @@ opoczno.eu###footer-page #block-1
 opolskibiznes.pl##a[href="https://facebook.com/OpolskiBiznesPL"]
 oprawiamy.pl##.stop3 > span > .content > a:nth-of-type(-n+3), .stop3 > span > .icons > a > img
 optijob.pl###contact > .container > div.col-sm-4:nth-of-type(2)
+optyk-okulista.pl###button-in
 oracle.com##.cw21social
 orange.pl##footer ul li a[title^="Zobacz nasz profil na "]
 orange.pl##.opl-footer-for-poc__social-link:not([href*="orange.pl"]), .opl-footer--social-link
@@ -4899,6 +4911,7 @@ video.wp.pl,wideo.wp.pl#?#button[class]:-abp-has( > svg[color*="socialFacebook"]
 viessmann.pl##.vi_footer__social_list
 vigo-ortho.pl##footer div.four:nth-of-type(4) > .editable
 vipzakopane.pl##.c-header-nav__links--social
+virtu.com.pl##.main-menu > ul > li:nth-of-type(7)
 visit.olsztyn.eu##.top-blue > div > div[class]:nth-of-type(1)
 vistula.edu.pl###vistula-social
 vitasport.pl##.menu_contact_social
@@ -5777,6 +5790,7 @@ zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .
 !
 ! Bugi Fanboy's Social Blocking List
 4kdownload.com#@#.footer__col--community
+afrodytasalon.pl#@#.fl-social-icons
 alilove.pl#@#.footer-social-wrap
 alilove.pl,miedzyrzecz.biz#@#.td-social-icon-wrap
 avast.com,karointhekitchen.com,szkolymedyczne.eu,tenit.com.pl,upflix.pl#@#.social-icons
@@ -5845,6 +5859,7 @@ tajemnice-swiata.pl#@#.mh-social-icons
 tvn24bis.pl#@#.button_email
 tvp.info#@#.social-article
 t-mobile.pl#@#.socialMedia
+uroda.in#@#.fa-facebook-square
 wsqn.pl#@#.social_bookmarks
 wydawnictwo.szaron.pl#@#.social-box
 wykop.pl#@#.social-list:not(html):not(body)
