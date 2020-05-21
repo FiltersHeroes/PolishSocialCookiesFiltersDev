@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.20.1
-! Last modified: Wed, 20 May 2020, 23:00 UTC+02
+! Version: 2020.5.21.0
+! Last modified: Thu, 21 May 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.20.1 aktualizacja: śro, 20 maj 2020, 23:00 UTC+02
+! v.2020.5.21.0 aktualizacja: czw, 21 maj 2020, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2073,7 +2073,7 @@ voxel.pl###block-rodo-rodo-block
 vuch.pl##.gdpr-cookie-bar
 wacetob.com.pl###container > div[style*="position"][style*="fixed"]:not([id]):not([class])
 wago.com##.js-wg-cookie.wg-cookie
-wakacje.pl##div[class="klrijf-0 gmjIou"]
+wakacje.pl#?##__next > div[class^="sc-"] > div:not([class]):not([id]) > div[class^="sc-"]:-abp-has( > div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"] > p[class^="sc-"] > a[href="https://www.wakacje.pl/politykaprywatnosci.html"])
 wapteka.pl##.coo
 warka.com.pl###rodo_env
 warszawa.oei.org.pl###cook-cont
@@ -3236,6 +3236,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 !
 !
 ! Blokowanie elementów po zastosowaniu generichide
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#body > #app > div > span:not([class]):not([id]) > div[class]:not([id]):-abp-has( > div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has( > div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 auto-swiat.pl###termsPopup
 blogspot.com###cookieChoiceInfo
@@ -3246,7 +3247,6 @@ jbzd.cc,jbzdy.cc,jbzdy.co,jbzdy.eu##body > div[class^="app_gdpr"]
 minecraftpolska.net##.cookieinfo
 mybank.pl##.ciasteczka
 tvn24.pl###msgLayer
-wp.pl,~www.wp.pl#?#body > #app > div > span:not([class]):not([id]) > div[class]:not([id]):-abp-has( > div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 wzory-cv.com##.gatewayBar
 xboxforum.pl##.notice--cookie
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=jbzd.cc|jbzdy.cc|jbzdy.co|jbzdy.eu
