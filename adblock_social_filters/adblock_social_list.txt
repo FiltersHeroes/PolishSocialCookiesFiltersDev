@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.22.0
-! Last modified: Fri, 22 May 2020, 15:00 UTC+02
+! Version: 2020.5.23.0
+! Last modified: Sat, 23 May 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.22.0 aktualizacja: pią, 22 maj 2020, 15:00 UTC+02
+! v.2020.5.23.0 aktualizacja: sob, 23 maj 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1077,6 +1077,7 @@ atriumshop.eu,czterylapysklep.com,diagcar.eu,kameleonbutik.com,motoklinika.com,s
 atriumsystem.eu##.box-social-media.box
 atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com#?#section > .container-fluid:-abp-has( > h2:-abp-contains(Instagram))
 at-outlet.pl,menland.pl,mikesport.pl,walizkazabawek.pl,zico-bike.pl##.social-profiles-info
+auchandirect.pl##.footer-links div.grid:nth-of-type(4) > ul > li:nth-of-type(n+5):nth-of-type(-n+6)
 audiodelic.pl##.style-color-632047-bg .icon-box.icon-box-top.icon-inline
 audioteka.com##.page-foot__col:nth-of-type(4)
 audiotrendt.com.pl###yt-box
@@ -1291,7 +1292,7 @@ blog.eobuwie.com.pl##.instagram-size-small.instagram-pics
 blog.invimed.pl##.nfb-fb, .nfb-yt
 blog.meskiegacie.pl##.tg-first-footer-widget > #nav_menu-7
 blog.nazwa.pl##.sociale, .stopka
-blog.siegnijpozdrowie.org,ewaszalkowska.com,invoicer.blogspot.com,kuchniamagdaleny.pl,lifebymarcelka.pl,planszowkiwedwoje.pl,reklamy-arek.blogspot.com,swedish-princesses.pl,wegannerd.blogspot.com,wszystkocopolskie.blogspot.com,www.djakdesign.pl###HTML1
+blog.siegnijpozdrowie.org,ewaszalkowska.com,invoicer.blogspot.com,kuchniamagdaleny.pl,lifebymarcelka.pl,planszowkiwedwoje.pl,reklamy-arek.blogspot.com,swedish-princesses.pl,wegannerd.blogspot.com,wszystkiemojebziki.pl,wszystkocopolskie.blogspot.com,www.djakdesign.pl###HTML1
 blog.spacetronik.eu###facebook-2, #social_v2-2
 blog.spotawheel.pl##.widget--social.widget
 blog.swiatbaterii.pl##.aspexifbsidebox
@@ -1790,7 +1791,7 @@ dyskusja.biz##.social-bar-half
 dzdn.pl###menu-menu-glowne > #menu-item-1138
 dzieciakiwdomu.pl###apsc_widget-3, #text-6, #google_plus_follow_box-3, #null-instagram-feed-2, #pw_profile_widget-2
 dzieciakwszkole.pl##footer a > [src="/data/include/img/links/1542278774.png"]
-dziecieceinspiracje.pl,ewaszalkowska.com,kulinarnamaniusia.pl,moje-bubble.blogspot.com,nadrapaku.pl,patabloguje.pl,recenzjezpazurem.pl,reklamy-arek.blogspot.com,w10inspiracjidookolaswiata.pl,wielopokoleniowo.pl,www.djakdesign.pl,zapiskizeswiata.pl###HTML2
+dziecieceinspiracje.pl,ewaszalkowska.com,kulinarnamaniusia.pl,moje-bubble.blogspot.com,nadrapaku.pl,patabloguje.pl,recenzjezpazurem.pl,reklamy-arek.blogspot.com,w10inspiracjidookolaswiata.pl,wielopokoleniowo.pl,wszystkiemojebziki.pl,www.djakdesign.pl,zapiskizeswiata.pl###HTML2
 dziecislonca.org#?#.lb1:-abp-has(ul[aria-label="Social bar"])
 dzieckoifigura.pl##center:nth-of-type(1) > strong, #center:nth-of-type(2) > a[href="https://www.facebook.com/dzieckoifigura/"], #custom_html-35, #custom_html-42, #custom_html-45
 dzieckoifigura.pl###custom_html-38 center:nth-of-type(2) > a:nth-of-type(1)
@@ -2138,6 +2139,8 @@ forum.ncplus.pl,forum.pl.canalplus.com###GooglePRight
 forum.optometria.info.pl##.footer-subscribe
 forum.pasja-informatyki.pl##div.qam-footer-col:nth-of-type(1)
 forum.pl.canalplus.com###YoutubeRight
+forum.puppylinux.pl###sys_facebook40
+forum.puppylinux.pl###sys_twitter40
 fotoblogia.pl,jejswiat.pl,smaczneblogi.pl##.link-gplus, .link-instagram
 fotografwdrodze.pl##.sidebar > div.widget_text.widget:nth-of-type(8)
 fotokulinarnie.pl##.fb-page-panel, .like-header, .instagram-wrap, .instagram-header
@@ -5074,6 +5077,7 @@ wsps.pl##.gkGridElement:nth-of-type(3) > .gkPhoto.custom
 wsse-poznan.pl###pwebbox265_toggler, #pwebbox266_toggler, #pwebbox267_toggler
 wszelkieprzepisy.pl###foot > .container > div.span2:nth-of-type(3), #foot > .container > .span3 > div.section:nth-of-type(3) > a
 wszelkieprzepisy.pl###likeup
+wszystkiemojebziki.pl###HTML252
 wszystkotujest.pl##.is
 wszystko.pl##.sm-iblock.like
 wtd.up.poznan.pl###block-block-14
@@ -5846,7 +5850,6 @@ oknonawagrowiec.pl#@#.fa-rss
 oknonawagrowiec.pl#@#.penci-social__item
 pkobp.pl#@#.footer-top__social
 pl.aliexpress.com#@#.sns-btns
-radiolodz.pl#@#.share_icons
 rawlplug.com#@##socialNetworks
 realme.com#@#.subscribe-container
 ryanair.com#@#.discover-destination__social
