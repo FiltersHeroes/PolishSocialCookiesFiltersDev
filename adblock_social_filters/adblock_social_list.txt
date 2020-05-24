@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.24.0
-! Last modified: Sun, 24 May 2020, 19:00 UTC+02
+! Version: 2020.5.24.1
+! Last modified: Sun, 24 May 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.24.0 aktualizacja: nie, 24 maj 2020, 19:00 UTC+02
+! v.2020.5.24.1 aktualizacja: nie, 24 maj 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -57,7 +57,7 @@ medonet.pl##.facebookLikePopup
 medonet.pl##.withFPU:before
 mpolska24.pl###before-leave-window
 mtv24.tv###mdfb
-nawakacje.eu##.ays-fpl-modals
+nawakacje.eu,rytmynatury.pl##.ays-fpl-modals
 nawiedzone.pl,polskieszosy.pl,swiatfilmikow.pl##[data-title="Social Form - Popup #02"]
 nowosci-mp3.eu###pop-slap, .bg-pop-over
 nportal.no###fb-overlay
@@ -4202,6 +4202,7 @@ rynekzdrowia.pl###menu-1 .inline > li:nth-of-type(n+2):nth-of-type(-n+4)
 rynek-lotniczy.pl,rynekinfrastruktury.pl,transport-publiczny.pl##.wiadomoscSocialBig > .socialNaglowek
 rynek-turystyczny.pl##a[href*="facebook.com/Rynek-Turystyczny-"]
 rynek.de##.bd-column.bd-layoutcolumn-75 > .bd-vertical-align-wrapper > .bd-iconlink
+rytmynatury.pl###custom_html-18
 rytmynatury.pl###text-16
 rzeszow.dominikanie.pl##.wtitle
 rzetelnafirma.pl##a[href="https://pl-pl.facebook.com/RzetelnaFirma"].lg
