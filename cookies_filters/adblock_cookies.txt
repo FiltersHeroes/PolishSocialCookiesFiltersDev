@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.25.0
-! Last modified: Mon, 25 May 2020, 19:00 UTC+02
+! Version: 2020.5.25.1
+! Last modified: Mon, 25 May 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.25.0 aktualizacja: pon, 25 maj 2020, 19:00 UTC+02
+! v.2020.5.25.1 aktualizacja: pon, 25 maj 2020, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -482,6 +482,7 @@ c-and-a.com##.cookie-note
 c.mi.com##.privacy_agreement
 daemon-tools.cc##.cookies_banner
 daewooforum.pl##.back > table:not(.bodyline):nth-of-type(1)
+dagma.pl,immergas.pl,www.eset.pl###cookie-layer
 daiglob.pl###NRodo2018
 danepubliczne.gov.pl##.flash-messages
 danrol-sklep.pl,fly-sky.pl,galeriaveneda.com.pl###miPlugin-cookie-info
@@ -576,7 +577,7 @@ drumshop.pl###cookiesblock-wrapper
 drzwioknabramy.eu,meblezet.com,skottuning.com,spacetronik.eu###x13pmcookiebar
 dr-natura.eu,ekskluzywnymenel.com,opoka.tv###eu-cookie-bar
 dstreet.pl###ToplayerConsent, #ToplayerCover
-duka.com,dukapolska.com,legnica.pl,onlinekredyty.pl,zory.dlawas.pl###popupdiv
+duka.com,dukapolska.com,legnica.pl,onlinekredyty.pl###popupdiv
 durszlak.pl##.shadow.privacy-layer
 duszniki.eu###CookiesInstro
 dvbsklep.pl,naturo.pl##[id^="simple-modal"]
@@ -1008,7 +1009,6 @@ ile.liter.pl##div[id^="liter"].top-header
 ilo.pl###tohd
 ilza.com.pl###rodoMain
 imagazine.pl,moviesroom.pl##.overlay-rules
-immergas.pl,www.eset.pl###cookie-layer
 impactchallenge.withgoogle.com,medtronic.com,natgeotv.com###cookieBar
 impekao24.pl###rodo-popup-wrapper, #rodo-cookie-shadow-cover
 in4.pl##div.subheader
