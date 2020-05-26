@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.26.0
-! Last modified: Tue, 26 May 2020, 15:00 UTC+02
+! Version: 2020.5.26.1
+! Last modified: Tue, 26 May 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.26.0 aktualizacja: wto, 26 maj 2020, 15:00 UTC+02
+! v.2020.5.26.1 aktualizacja: wto, 26 maj 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -970,6 +970,8 @@ angliapolska.pl##.spoleczno.module
 aniastarmach.pl###footer-instagram-section
 aniastarmach.pl,sniadaniedajemoc.pl##.site-socials
 animalcity.pl##a[href="http://www.facebook.com/AnimalCity.co"]
+animalistka.pl##.post-buttons > div[class]:nth-of-type(n+2):nth-of-type(-n+3)
+animalistka.pl##.socials-sidebar
 anime24.pl##.panel:nth-of-type(3)
 animeon.pl##.sb-facebook
 animes.pl##div:nth-of-type(2) > .button, #ougcannbars_bar_1, .register:nth-of-type(3)
@@ -2053,6 +2055,7 @@ fantoma.pl###sc-ico-1
 fasardi.com##.cdz-social-listing > li:not(.email)
 fashionpost.pl##.soc > li:not(:nth-of-type(4)) > .ir:not(.ico_search)
 fcbarca.com##.article-text-content:nth-of-type(6)
+fcmarket.com.pl##.newsletter_facebook
 fcraft.pl###sidebar_index > .tborder:nth-of-type(3)
 fdb.pl##.footer .text-right.col-md-3.col-xs-6 > .text-uppercase, .footer .text-right.col-md-3.col-xs-6 > .list-inline, footer .text-md-right.col-md-3.col-6 > .text-uppercase, footer .text-md-right.col-md-3.col-6 > .list-inline
 fefaq.pl###contact.contact
@@ -2301,6 +2304,8 @@ goodgift.pl##div[id^="wysuwane"]
 goodluckclub.pl###sdo > li:nth-of-type(n+4)
 goodram.com###footer_menu_social
 google.com##.standard-footer__bar__social-icons
+google.com,google.pl##.ddlmdsb-Fb > .facebookButton
+google.com,google.pl##.ddlmdsb-Fb > .twitterButton
 goral.info.pl,rytmynatury.pl###custom_html-18
 gorlice.pl##.sdbar-btn-facebook, .sdbar-btn-youtube, .sdbar-btn-twitter
 gorno.pl##.menu-wysuwane-1-poziom > li:nth-of-type(6)
