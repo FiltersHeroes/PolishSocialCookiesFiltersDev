@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.26.1
-! Last modified: Tue, 26 May 2020, 19:00 UTC+02
+! Version: 2020.5.28.0
+! Last modified: Thu, 28 May 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.26.1 aktualizacja: wto, 26 maj 2020, 19:00 UTC+02
+! v.2020.5.28.0 aktualizacja: czw, 28 maj 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1611,6 +1611,7 @@ czestochowskie24.pl,detektywprawdy.pl,greencanoe.pl,szklomal.eu###text-13
 czterylapysklep.com,okiemrolnika.pl,rynek.de,zdmikp.bydgoszcz.pl###likeboxbluestandardright
 czytajrzeszow.pl#?#div[id] ~ div[class^="szablon_break_poziom"] ~ div[id] + div > div:not(:empty):nth-of-type(-n+7):-abp-has( > a[target="_blank"] > img[src^="img/ico_"][src$="_off.png"])
 czytamyetykiety.pl,lowicz24.eu##li.social
+c-and-a.com##.footer__bg-02 > .container
 c-and-a.com##.util-add-margin-bottom.col-md-4.col-xs-12:nth-of-type(3)
 dacter.pl##.stopka a[href="https://www.facebook.com/dacter.akcesoria"]
 dadhero.pl##a[href*="/dadheropl" i] > img[src^="/static/media/"]
@@ -1643,6 +1644,8 @@ dd-print.pl##.socialmedia_small
 deagostini.com#?#div:nth-of-type(3) > .box-standard.item:-abp-has(.community)
 debiutplus.pl###text-5 .textwidget > .widget-title > p
 decathlon.pl##.ct-socials
+decoliving.pl,intymna.pl,ohso.pl###opis_zakladka_right1
+decoliving.pl,intymna.pl,ohso.pl###sg-social-inline-block
 decolux.com.pl###footer > .row .title_block
 decora.pl##.elementor-widget-container a:not([href*="decora.pl"]) > img[src*="/social"]
 decora.pl##.fa-linkedin.fab
@@ -1661,6 +1664,7 @@ dellpoint.pl##.userfooter > .row > p > a
 delphiautoparts.com###block-footersociallinks
 deltashop.pl,media-tech.eu##.footer-informations div.nav-container:nth-of-type(3)
 deltashop.pl,nbielizna.pl,soleibabe.pl###widget_shop6
+denley.pl###socials_footer > a:nth-of-type(-n+2)
 deon.pl##.socialIkonki, .sl > li:nth-child(-n+4), .wyszukiwarka-buttons > a[href="http://www.facebook.com/pages/DEONpl/100521419989551"], .wyszukiwarka-buttons > a[href="http://www.youtube.com/user/portalDEONpl"]
 dermaquest.pl##div.footer_column:nth-of-type(6)
 designbyanka.com##.home__seeAlso > *:not(.swiper-container-horizontal), div.bottom__item:nth-of-type(-n+2)
@@ -2553,6 +2557,7 @@ intertranspks.com.pl###footer .last.widget-column
 interviewme.pl##.Socials__Link--Facebook, .Socials__Link--Instagram, .circle-line--sm
 interviewme.pl##.footer__sm__wrapper
 intibs.pl##.social > ul > li:nth-of-type(-n+2)
+intimissimi.com##.follow-us-footer-box
 invado.pl##ul#nav.main-nav-items:after
 invimed.pl,opornografii.pl##.header__tools-social
 inwestujwmyjnie.pl##.row:nth-of-type(1) > .small-block-grid-1 > .bottom:nth-of-type(3)
@@ -3342,11 +3347,10 @@ myjki.com##.login-fb, .login-google
 myloveshabby.blogspot.com###HTML2 > .widget-content
 mynaszlaku.pl##.socicon-facebook, .socicon-twitter, .socicon-instagram, .socicon-youtube.socicon, .socicon-google, #zoom-social-icons-widget-2 > .footer-widget-inside > .widget-title
 myotym.pl##footer div.columns.medium-2.large-2:nth-of-type(3)
-myownconference.pl##a[href="https://plus.google.com/u/0/+МоиКонференции/posts"]
-myownconference.pl##a[href="https://twitter.com/myownconference"]
 myownconference.pl##a[href="https://vk.com/myownconference"]
 myownconference.pl##a[href="https://www.facebook.com/myconference/"]
-myownconference.pl##a[href="https://www.youtube.com/channel/UC2safZpWs0HHjM3aJx2FTqA"]
+myownconference.pl##a[href="https://www.facebook.com/webinary.elearning/"]
+myownconference.pl##a[href="https://www.youtube.com/channel/UCndy-BPOseV-afmLcYWLTjg"]
 myownconference.pl##a[href^="https://www.linkedin.com/company/4865021"]
 myphone.pl##.clearGroup.fLeft
 myphone.pl##div.stayInContact__item:nth-of-type(1)
@@ -4858,6 +4862,7 @@ umlub.pl##ul > li > a[href="https://www.facebook.com/UMLub24"]
 um.bielawa.pl##.moduletablespolecz1
 um.jaworzno.pl###mainSocials > ul > li:not(:nth-of-type(4))
 undergroundpassion.pl##div#socialitem:nth-of-type(2)
+undiz.com##.list-share-ft
 unia-sklep.pl##.pinterest-top
 unia-sklep.pl#?#.et_pb_section_9 > .et_pb_row_8:-abp-contains(na facebooku)
 unia.pl#?#.et_pb_section_5 > .et_pb_row_11.et_pb_row:-abp-contains(na facebooku)
