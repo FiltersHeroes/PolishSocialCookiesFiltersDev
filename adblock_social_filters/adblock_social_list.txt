@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.5.28.1
-! Last modified: Thu, 28 May 2020, 19:00 UTC+02
+! Version: 2020.5.29.0
+! Last modified: Fri, 29 May 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.5.28.1 aktualizacja: czw, 28 maj 2020, 19:00 UTC+02
+! v.2020.5.29.0 aktualizacja: pią, 29 maj 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -895,7 +895,7 @@ airly.eu##[class^="footer__SocialLinks"]
 airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,gls-group.eu,grene.pl,isl.pl,itaka.pl,karnet.krakow.pl,kwantowo.pl,lalorraine.pl,lexus-krakow.com.pl,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,niepodlegla.gov.pl,pap.pl,pingpong.bydgoszcz.pl,pogonszczecin.pl,rms.pl,skgd.pl,tczewska.pl,tvobiektyw.pl,tvswinoujscie.pl,wentylacja24.pl,wloclawek.pl##.youtube
 ajgroup-pros.pl##.SocialBoard
 ajprodukty.pl##.footer_social-container
-aju.pl,alekosmos.pl,alilove.pl,banita.travel.pl,blogs.opera.com,buslapidus.pl,jezykowasilka.pl,moviesroom.pl,rytmynatury.pl,skgd.pl,skrivanek.pl,wei.org.pl,wnetrzeiogrod.pl,zaniczka.pl###custom_html-2
+aju.pl,alekosmos.pl,alilove.pl,banita.travel.pl,blogs.opera.com,buslapidus.pl,jezykowasilka.pl,moviesroom.pl,rytmynatury.pl,skgd.pl,skrivanek.pl,supermarket-online.pl,wei.org.pl,wnetrzeiogrod.pl,zaniczka.pl###custom_html-2
 akademia.nask.pl###fb-ico
 akces.pro###footer > .footer-keep-connected .icons
 akcjasos.pl###left-right-top > .yt-position-inner > div.moduletable:nth-of-type(2) > p:nth-of-type(n+8):nth-of-type(-n+9) > a, #left-right-top > .yt-position-inner > div.moduletable:nth-of-type(3)
@@ -1715,6 +1715,7 @@ doba.pl,przedszkoledzierzgon.pl###panel
 dobregniazdka.pl##.navblock__social-icons > li
 dobremiejsce.org##.fw-top-bar-social, .fw-footer-social
 dobremiejsce.org##.opes-wp-social-tab
+dobreprogramy.pl,www.dobreprogramy.pl##div[class*="social"] > a[title^="Odwiedź na"]
 dobresofty.pl##.circle-share-container
 dobroni.pl##.sociale-index
 dobropolski.com##.bot-social
@@ -3995,6 +3996,7 @@ prostoomuzyce.pl,urania.edu.pl###block-block-18
 prostozmostu.pl##.at_flat_counter
 prowly.com##.pr-story--share-sapce-none
 proxima.pl##.bigSocials
+pro.zapodaj.net###box_fb
 pruszczgdanski.pl##a[href="http://www.facebook.com/gminapruszczgdanski"]
 pryskaj.pl##.fx-facebook
 pryskaj.pl##.fx-youtube
@@ -4402,6 +4404,8 @@ sklep.zielonafabryka.pl##.row.bottom-footer > .container > .box_custom.box:last-
 skm.pkp.pl#?#a.round-link:-abp-contains(Facebook)
 skoda-auto.pl#?#div.original-collumn > div:-abp-has( > .gtm-hometile.tile-content:-abp-contains(/(FACEBOOK|YOUTUBE|INSTAGRAM)/))
 skomplikowane.pl##.herald-sidebar-right.col-md-3.col-lg-3.herald-sidebar
+skorzana.com##footer .menu_buttons2
+skorzana.com##header #menu_buttons2
 skorzanemeble.eu##.zadzwon-top > a:nth-of-type(2)
 skorzecin.pl###mod208
 skript.pl###elNavSecondary_33 > a[href="https://www.facebook.com/skriptpl"]
@@ -5117,7 +5121,6 @@ www.deichmann.com###services-follow > .img-text-link > a:not([href*="shoelove"])
 www.dekoria.pl###wall_264.wall, #footr_sm_icons
 www.dobreprogramy.pl##div.col:nth-of-type(3) > .list > li.list__item:nth-of-type(n+2)
 www.dobreprogramy.pl###phContentLeft_SocialControl_socialBox, #phContent_SocialControl_SocialControlMain_socialBox
-www.dobreprogramy.pl##.author-social-links > a[title^="Odwiedź na"]
 www.dobreprogramy.pl##.dl-social > .fb-cta
 www.dobreprogramy.pl##.social__group_share.social__group, .social__item
 www.dobreprogramy.pl#?##sidebar > .text-center:-abp-has(.fb_iframe_widget.fb-page)
