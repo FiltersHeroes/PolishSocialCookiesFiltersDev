@@ -35,7 +35,7 @@ odkryjpomorze.pl##map[name="Map"] > area:nth-of-type(1):remove()
 plejada.pl##.detailContentWrapper .contentShareLeft .fb_share:style(background: #0000 !important;)
 pl.pandora.net###socialMediaFooter .leftMediaLinkFooter:style(visibility: hidden)
 pollena.com.pl##body > h5:before:style(content: "Podążaj za nami:"; position: relative; left: 102px; background: white; color: white;)
-pomponik.pl##+js(nano-remove-elements-onready.js, a[class="share-link is-facebook"])
+
 pomponik.pl##^a[class="share-link is-facebook"]
 porta.com.pl##article > div.blog_article_socials:style(max-width: unset !important;)
 realmadryt.pl##.social-share-widget > .social-share-widget__input:style(border-top: 0 !important;)
@@ -49,7 +49,7 @@ scigacz.pl##div#main-footer:style(color: #0000 !important; font-size: 0 !importa
 shop.huawei.com##div.J_anchors:last-of-type > a.J_anchor[style*="width:59px; height:5"]:style(pointer-events: none !important; background: #fff !important;)
 skuter-krakow.pl###home_container_right > div:nth-of-type(1):empty:style(background: #fff !important;)
 um.kielce.pl##map > area[alt="Facebook"]:remove()
-um.kielce.pl#$?#map > area[alt="Facebook"] { remove: true; }
+
 waw4free.pl###spolecznosci:style(height: auto !important;)
 weather.com##.SocialMediaShareButton:style(pointer-events: none; position: unset !important;)
 werandafamily.com##+js(remove-attr.js, href, .instagram-item > .link-block)
