@@ -380,7 +380,7 @@ e-legnickie.pl##body.jconfirm-noscroll:style(overflow: auto !important;)
 e-legnickie.pl##.jconfirm:has-text(cookies)
 farmacja.pl##div.rodo-modal
 farmacja.pl##+js(abort-current-inline-script.js, jQuery, .rodo-modal)
-fnglob.pl###modal, .modal-backdrop
+fnglob.pl,polska6.pl###modal, .modal-backdrop
 forums.openpli.org##+js(abort-current-inline-script.js, euReadCookie)
 fryzomania.pl,happydental.pl,pro-sprzet.pl###myWorning, .modal-backdrop
 gdansk.pl,gokf.gda.pl,rowerowygdansk.pl,stadionenerga.pl##.rodo, .modal-backdrop
@@ -415,6 +415,7 @@ pl.asseco.com###animatedModal:has(h5 > a[href="/polityka-prywatnosci/"])
 pl.asseco.com##.body-overlay
 pl.dow.com##html, body:style(position: static !important; overflow: visible !important;)
 pl.dow.com##.cookie-notify
+polska6.pl###modal:remove()
 polski-tenis.pl###rodo
 porcelana.com.pl##+js(abort-on-property-read.js, alert)
 poszalu.pl###gdpr-modal, .modal-backdrop
@@ -503,7 +504,7 @@ farmacja.pl##^div.rodo-modal
 farmacja.pl##^script:has-text(rodo)
 ferguson-digital.eu##^#cookie-notice
 filmboxlive.com##^.mobox.cookie-policy-popup
-fnglob.pl##^#modal
+fnglob.pl,polska6.pl##^#modal
 fryzomania.pl,happydental.pl,pro-sprzet.pl##^#myWorning
 homedesign.pl##^.popmake-overlay[data-popmake*="rodo"]
 ideafairplay.pl##^#modal-privacy
@@ -599,7 +600,7 @@ ferguson-digital.eu$$#cookie-notice
 filmboxlive.com##.mobox-active:style(overflow-y: auto !important;)
 filmboxlive.com##.mobox-wrapper:has(.cookie-policy-popup)
 filmboxlive.com##.mobox-wrapper:style(overflow: auto !important;)
-fnglob.pl$$#modal
+fnglob.pl,polska6.pl$$#modal
 fryzomania.pl,happydental.pl,pro-sprzet.pl$$#myWorning
 galopuje.pl###RODOCOOKIE, .modal-backdrop
 galopuje.pl,sklepbiker.pl##.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
@@ -622,6 +623,7 @@ pamiatki.pl$$#hw_cookie_law
 pl.asseco.com$$footer ~ a.animatedModal[tag-content="Open"]
 pl.asseco.com$$footer ~ #animatedModal[tag-content="Polityce prywatności"]
 pl.dow.com$$.cookie-notify
+polska6.pl#$?#modal { remove: true; }
 porcelana.com.pl$$script[tag-content="plików cookies"]
 poszalu.pl,sklep.visionexpress.pl$$#gdpr-modal
 powiatslubicki.pl###myModal, .modal-backdrop
