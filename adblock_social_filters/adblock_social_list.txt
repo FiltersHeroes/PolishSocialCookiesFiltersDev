@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.3.0
-! Last modified: Wed, 03 Jun 2020, 15:00 UTC+02
+! Version: 2020.6.3.1
+! Last modified: Wed, 03 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.3.0 aktualizacja: śro, 03 cze 2020, 15:00 UTC+02
+! v.2020.6.3.1 aktualizacja: śro, 03 cze 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -83,6 +83,7 @@ taktutanio.pl###tloPopUp, #oknoPopUp
 telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 topnaj.pl###dgd_scrollbox-2656
 travelicious.pl##.flpl-front-locker-outerwarp
+tvkrosno.pl###efbl_popup
 vpnmentor.com##.share-blog-modal
 winicjatywa.pl##h2:nth-of-type(3)
 womanadvice.pl###facebook_modal, #dark_popup
@@ -1277,6 +1278,7 @@ bkslublin.pl##div.moduletablesponsorzy:nth-of-type(4) > p:nth-of-type(6), div.mo
 blachotrapez.eu##.part, .scl
 blackdoghouse.pl##.instagram-widget
 blasty.pl##.ips_image_share
+blik.cupsell.pl##a.social:not(:nth-of-type(3))
 blinkee.city##.section-footer-social
 blink.pl##div.col-md-2:nth-of-type(1) > p:nth-of-type(1)
 blip.pl##.footer-nav.fluid-200.col-xs-6.col-md-2:nth-of-type(4)
@@ -2602,6 +2604,7 @@ jadisco.pl##h2 > a[href="https://twitter.com/Wonziu"]
 jadisco.pl##.fa-twitch
 jadisco.pl##.jd-twitter-widget
 jadlonomia.com##.socialGroup
+jadlonomia.com###BottomFollow
 jagiellonia.org##a[href="https://www.youtube.com/channel/UCAK6LXnd78Lt0yN_-ARI8pQ"]
 jagodnik.pl##a[href="https://twitter.com/jagodnik_pl"]
 jaion.pl###text-29
@@ -3243,6 +3246,7 @@ mojaholandia.nl##.tbr-social
 mojaniderlandia.pl##.fbConnect
 mojaniderlandia.pl,mojanorwegia.pl###mnFooter > div > .left > h3
 mojaolesnica.pl##.mainright > div.tabela:nth-of-type(9)
+mojaszkola.pl#?#p > strong > span:-abp-contains(/^ZNAJDZIESZ NAS TEŻ NA:$/)
 mojawww.com###socialFoot > span
 moja-ostroleka.pl##.odslony > tbody > tr > td:nth-of-type(3)
 mojedziecikreatywnie.pl##.smartlib-social-buttons-list
@@ -3528,6 +3532,7 @@ ock.gov.pl,straz.gov.pl##.i-fb, .i-tw
 oculino.com##.site-social-icons-facebook, .site-social-icons-googleplus, .site-social-icons-youtube
 oculus.com#?##page-footer ul > li[id] > a[class^="_"]:-abp-has(i[class^="social"])
 oczymlekarze.pl##.divider.item-161
+odbiory.pl##li:nth-of-type(-n+4) > .uk-icon.uk-icon-button
 odebractelefon.pl##.pageMiddleContent > div > a[href="https://www.facebook.com/shouldianswer/"]
 odkrywamyzakryte.com##.td-social-style-2.footer-social-wrap
 odnowa.jezuici.pl##.tab-youtube, .tab-facebbok
@@ -3673,6 +3678,7 @@ patiomeble.eu##.last_social a[href="http://instagram.com/patiomeble"]
 patronite.pl#?#.tabs__content h3.text-center:-abp-contains(/^Udostępnij$/)
 patronite.pl#?#.tabs__content p.text-center:-abp-contains(/^Pomóż, udostępniając/)
 patrzladnie.pl##.widget_cs_social_widget.footer-widget-col
+patyna.pl###footer .textwidget > div > h3:nth-of-type(1)
 paybylink.pl##.footer-group > .s-list > li > a[href="https://www.facebook.com/rushpaypl"]
 pay-card.pl##a[href="https://www.youtube.com/channel/UCIrQBYCQhV8RCvPZ5YlZywQ"]
 pay-card.pl##.et_pb_section_6
@@ -5552,9 +5558,14 @@ z-hotel.com###menu-item-868
 ||mkn-moto.pl/images/t1.png
 ||mlodeasyparkietow.pl/wp-content/themes/mapa/images/f.png
 ||mobbingwpracy.com/media/mod_social_slider
+||mojacukrzyca.org/grafika/logo/20170801/facebook.gif$image
+||mojacukrzyca.org/grafika/logo/20170801/instagram.gif$image
 ||mojacukrzyca.org/grafika/logo/20170801/nk.gif
 ||mojacukrzyca.org/grafika/logo/20170801/snapchat.gif
+||mojacukrzyca.org/grafika/logo/20170801/twitter.gif$image
 ||mojacukrzyca.org/grafika/logo/20170801/youtube.gif
+||mojaszkola.pl/images/banners/facebook.jpg$image
+||mojaszkola.pl/images/banners/youtube.jpg$image
 ||mondeoklubpolska.pl/gfx/MondeoTube.jpg$image
 ||mondeoklubpolska.pl/gfx/nk.jpg$image
 ||musclepower.pl/data/gfx/bookmarklets/googleplus1_1_cms.png
@@ -5906,6 +5917,7 @@ rynek-kolejowy.pl#@#.socialIcons
 rynek-lotniczy.pl,rynekinfrastruktury.pl,transport-publiczny.pl#@#.fbLikeBox
 socialpress.pl#@#.follow_us
 solojuve.com#@##socialWrapper
+sosnowe-zacisze.pl#@#.tm-social-icons
 spece.it#@#.social-tooltip
 spece.it#@#[title^="Follow us on "]
 tabletowo.pl#@#.social_icon
