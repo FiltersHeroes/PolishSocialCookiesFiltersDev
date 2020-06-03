@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.3.0
-! Last modified: Wed, 03 Jun 2020, 15:00 UTC+02
+! Version: 2020.6.3.1
+! Last modified: Wed, 03 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.3.0 aktualizacja: śro, 03 cze 2020, 15:00 UTC+02
+! v.2020.6.3.1 aktualizacja: śro, 03 cze 2020, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -247,6 +247,7 @@ bcweb.pl###cookieopened
 bdi.com.pl##.ultra_modules_ad_acceptation_b
 bdl.lasy.gov.pl###infoDiv
 beautikon.com,e-lakiernik.net,helikon-tex.com,imready.eu,lancerto.com,pl-store.acer.com,sklep.trefl.com###notice-cookie-block
+beautyart.pl###header-bar
 bebio.pl##.rodo-canvas-wrapper
 becek.pl###preloadm-rodo, #preloadb
 bechtle.com##.neo-footer__cookieBar
@@ -628,6 +629,7 @@ eitc.online###cookiesbaner
 ekko.com.pl###messagePo
 ekliniki.pl,sklepbiegacza.pl,znak.pl##body > div[style]:not([id]):not([class]):nth-of-type(1)
 ekobud.com.pl###cookieLayer
+ekocell.pl###noticeLayer, #darkBg
 ekoenergy.org###cp_popup
 ekologia.pl###cookie-agree
 ekonomika.pl##.divascookies
@@ -1492,6 +1494,7 @@ obozymlodziezowe.pl#?#header ~ div > div > div[class^="jss"]:last-child:-abp-con
 obpon.pl###rodo-notice, #shadow-overlay
 ociasteczkach.pl###ociasteczkach
 oculus.com##div[data-cookiebanner="banner"]
+odbiory.pl##.uk-position-relative.uk-section-primary.uk-section
 odjechani.com.pl###akceptacja-odjechani, .guest_warn
 odleglosci.pl,tabele-kalorii.pl###komunikat-pp-dol
 odo24.pl##.rodo-body
@@ -1724,6 +1727,7 @@ przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 przelewy24.pl,zlotyaniol.pl###policy_container
 przepisyjoli.com##.CookieModalContainer
 przepisyjoli.com##.GdprModalContainer
+przp.pl##.module-abovebox
 psd2-pdev.bskadzidlo.pl,rentis.pl##html:not([class*="scrollblock"]) .cdk-overlay-container
 psprices.com###pg-gdpr
 pstryczki.eu###topInfoContainer0
