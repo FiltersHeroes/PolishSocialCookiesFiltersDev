@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.4.1
-! Last modified: Thu, 04 Jun 2020, 23:00 UTC+02
+! Version: 2020.6.5.0
+! Last modified: Fri, 05 Jun 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.4.1 aktualizacja: czw, 04 cze 2020, 23:00 UTC+02
+! v.2020.6.5.0 aktualizacja: pią, 05 cze 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2201,6 +2201,7 @@ galeria-pestka.com,galerialeszno.pl,galeriatwierdzazamosc.pl,wzorcowniawloclawek
 galeria.skytower.pl##a[href*="facebook.com/SkyTowerNajwyzszyPunktNaMapieWroclawia/"] > img, a[href="https://www.instagram.com/sky_tower_wroclaw/"] > img
 galopuje.pl##a[href^="https://plus.google.com/u/0/+galopuje/"]
 gamedot.pl##.icon-twitch, .icon-steam-logo
+gamerweb.pl##.zox-post-soc-flip, .zox-top-soc-wrap, .zox-foot-soc-list
 gamivo.com##div.d-flex:-abp-has( > a.product-info__share-button)
 gamivo.com##.default-footer > .options > .row > div.col-sm-auto:nth-of-type(2) > .links
 gampre.pl,teatrlalek.olsztyn.pl,wschodnik.pl##.icon-youtube-play
@@ -4542,6 +4543,7 @@ spreadshirt.pl##.order-lg-3.col-lg-2.col-md-3.col-12.ft-social > div > .row > di
 sprzet-dyskotekowy.pl##.AW_socialSquares > a
 sps24.pl###baner187
 srodmiescie.warszawa.pl##.nk-share, .wykop-share, .gg-share
+ssangyong.pl##.facebook-big
 ssl24.pl,strefa.fm##.fbook
 stacja7.pl###icon-google-plus
 stacja7.pl##.navbar-nav-right-social
@@ -5046,6 +5048,7 @@ werandafamily.com##.instagram-description > div > .btn-sm
 werandafamily.com##.instagram-item > .link-block > .overlay > .figure-content-hover
 werandafamily.com##.instagram-item > .link-block > .overlay:after
 werit.eu#?##middle-gray:-abp-has(#social)
+westwingnow.pl##[class^="Social__StyledSocial-"] > a:nth-child(-n+3)
 wgmedia.eu##.wg-icon
 wgospodarce.pl##.widget--social-media
 wgrane.pl##a[href="https://plus.google.com/116736883242244683796"]
@@ -5926,6 +5929,8 @@ spece.it#@#[title^="Follow us on "]
 tabletowo.pl#@#.social_icon
 tabletowo.pl#@#.top-social
 tajemnice-swiata.pl#@#.mh-social-icons
+tekstowo.pl#@#.btn-fb
+tekstowo.pl#@#.fb-button
 telepolis.pl#@#.social-media-icons
 tvn24bis.pl#@#.button_email
 tvp.info#@#.social-article
@@ -5959,6 +5964,7 @@ youtube.com#@##secondary-links
 @@||silvermet.eu/wp-content/plugins/arscode-social-slider/lionbars/*$script
 @@||startme.com/assets/google-icon-*.svg$image,domain=start.me
 @@||start.me/packs/media/images/google-icon-$image
+@@||static.westwingnow.pl/bella/Svgs-Pinterest.bundle.*.js
 @@||wielkopolska.tv/wp-content/plugins/*/content/$image
 @@||zapytaj.onet.pl/images/fb-login-btn.png$image,domain=zapytaj.onet.pl
 @@||zaufanatrzeciastrona.pl/wp-content/plugins/subscribe-connect-follow-widget/images/32px/rss.png
