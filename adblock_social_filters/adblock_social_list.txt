@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.5.2
-! Last modified: Fri, 05 Jun 2020, 23:00 UTC+02
+! Version: 2020.6.6.0
+! Last modified: Sat, 06 Jun 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.5.2 aktualizacja: pią, 05 cze 2020, 23:00 UTC+02
+! v.2020.6.6.0 aktualizacja: sob, 06 cze 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -837,6 +837,7 @@ aaparatysluchowe.com##.wpfm-menu-link
 aba-sport.pl##.footer-bookmarklets
 abcksiegarnia.pl,aliensgroup.pl,aptekadomlekow.pl,drewlandia.com.pl,e-drogeria.com,e-zikoapteka.pl,gwp.pl,starterzy.pl,sweetdecor.pl,szybkikoszyk.pl,tastestore.pl,www.krzysztonjan.com###side_widget
 abcmotoru.com.pl###Info-box-wrap-7180
+abcsurf.pl##.modFooter_Social
 abstrawear.com##footer > div > .row > div:nth-of-type(3)
 accent-bikes.com###right_icons
 accu-chek.pl###accuchek-facebook
@@ -1115,6 +1116,7 @@ auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshe
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > .chips
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > div.title:nth-of-type(1)
 auto-swiat.pl##.fb_share, .version4.bigVersion.onet_ustPlugin_addthis > .box2, .whitelistPremium > div:nth-of-type(4) > .version4.onet_ustPlugin_addthis, .imageWrapper > .socialButtons
+auto-swiat.pl,biore.to,bydgoszcz.com,centrum.fm,fabrykazabawek.eu,komputerswiat.pl,macris.com.pl,miechow.eu,moaburger.com,mojtelefon.info,niemiecki.co,oakandberry.com,patriot24.net,reypol.com.pl,sklep.piast-gliwice.eu,weblider.eu,wyborcza.biz,ztkruszwica.pl##.fb
 avaldihome.pl##footer#footer .row > div.col-xs-12.col-sm-12.col-md-6.col-lg-3:nth-of-type(3)
 avast.com##.social-icons > a.bi-link:nth-child(-n+5)
 avlab.pl##li:nth-child(-n+3) > .ext
@@ -1247,7 +1249,6 @@ biokonopia.pl##.custom-header-area > a:nth-of-type(-n+4)
 biolindo.pl,ecco-verde.pl##.footer_tools--social
 biolumed.pl##div[class*="Footer"] .widget_text > h4
 biolumed.pl##.fooWidgets > .btIconWidget
-biore.to,bydgoszcz.com,centrum.fm,fabrykazabawek.eu,macris.com.pl,miechow.eu,moaburger.com,mojtelefon.info,niemiecki.co,oakandberry.com,patriot24.net,reypol.com.pl,sklep.piast-gliwice.eu,weblider.eu,wyborcza.biz,ztkruszwica.pl##.fb
 biore.to,echotygodnik.info##.pinterest, .linkedin
 biore.to,google.com##.gplus
 biore.to,naszwodzislaw.com##.instagram
@@ -4334,6 +4335,7 @@ showmax.com##a[href="https://www.facebook.com/ShowmaxPolska/"], a[href="https://
 siatka.org###bottom-col
 sieci.mgk.pl###socialer
 siecobywatelska.pl###widget-text-24
+siecprzedsiebiorczychkobiet.pl##.instagram-bar
 siedlisko-pasieka.pl###ear_facebook
 siemens.com##div.col-lg-12.col-sm-6:nth-of-type(3)
 siepomaga.pl#?#.human-cause > .share > div > div:nth-of-type(-n+3):-abp-has(a:-abp-contains(/(Udostępnij|Tweetnij|Dodaj relację)/))
@@ -4711,7 +4713,6 @@ techmot.com.pl###right > div.content:nth-of-type(2), #right > img[src="/images/b
 technikalia.pl###widget_shop8
 technowinki24.pl#?#.site-title:-abp-contains(Face)
 tekstowo.pl##.fb-panel
-tekstowo.pl##.teledysk-right > .social > .link-sl
 teleguru.pl##.social-media
 telepizza.pl##.foot_wrap > .row > .hhh > a:not([class]) > img[class^="iimg"]
 telepolis.pl,tlp.is##.big-socials-facebook, .big-socials-twitter
@@ -4783,6 +4784,7 @@ tomma.com.pl###facebook-floating-box
 toogoodtogo.pl##.bg-white.box-shadow > .some-icons, footer .row > div > div.mb-xl-3.mb-5:nth-of-type(3)
 tooway.pl##.contact2, .contact5
 topgal-plecaki.pl###social-panels > #fbstripe
+toptun.pl###YouTube
 top-potential.pl##.et_pb_social_media_follow_0, .et_pb_text_4
 torebunia.pl##.fb-login-button
 tormet.com.pl###fb_plugin
@@ -5930,8 +5932,6 @@ spece.it#@#[title^="Follow us on "]
 tabletowo.pl#@#.social_icon
 tabletowo.pl#@#.top-social
 tajemnice-swiata.pl#@#.mh-social-icons
-tekstowo.pl#@#.btn-fb
-tekstowo.pl#@#.fb-button
 telepolis.pl#@#.social-media-icons
 tvn24bis.pl#@#.button_email
 tvp.info#@#.social-article
