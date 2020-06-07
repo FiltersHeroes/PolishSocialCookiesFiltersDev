@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.7.0
-! Last modified: Sun, 07 Jun 2020, 15:00 UTC+02
+! Version: 2020.6.7.1
+! Last modified: Sun, 07 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.7.0 aktualizacja: nie, 07 cze 2020, 15:00 UTC+02
+! v.2020.6.7.1 aktualizacja: nie, 07 cze 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1552,7 +1552,7 @@ cookup.pl##.instagram-container
 cooltura24.co.uk,echotygodnik.info,zvami.tv##.facebook, .google, .twitter, .instagram
 coopervision.pl##.social-icons__container, li.cv-callout-menu__item > .cv-callout-menu__icon--facebook
 corab.eu##.box-social-media
-cordis.europa.eu,remington-europe.com,rylko.com##.fa-instagram.fa
+cordis.europa.eu,remington-europe.com,rylko.com##.fa-instagram
 cosdlazdrowia.pl##.col-lg-2.col-md-2.col-sm-6.col-xs-12:nth-of-type(4) > .footer-block
 cosinus.pl###yt_icon, #instagram_icon
 cosinus.pl,hotelforumlublin.pl###google_icon
@@ -2399,7 +2399,6 @@ hacienda.pl,koscierzyna24.info##.social > li:nth-of-type(-n+3)
 hackintosh.com.pl###sidebar > div.syndicate.sidebar-content:nth-of-type(5) > h4
 hack.pl,przesylarka.pl,repozytorium.fn.org.pl,spoleczenstwo.plportal.pl###block-block-11
 haftpasja.pl##.menu-content > li.level-1:nth-of-type(8)
-hallyustarnews.pl###media_image-3, #media_image-4
 halogorlice.info###sp-bottom3
 halogorlice.info##.social > li:nth-child(-n+4)
 hamptons.pl###pinterest-likebox, #gplus-likebox, #instagram-likebox
@@ -4899,6 +4898,7 @@ tytus.edu.pl##a[href="https://www.facebook.com/Hr.Tytus/"]
 uap.edu.pl###footer #text-2
 uber.com,ubereats.com##a[href*="www.facebook.com/uber"], a[href*="twitter.com/uber"], a[href*="instagram.com/uber"], a[href*="linkedin.com/company/1815218"], footer div > a[href*="www.youtube.com/channel"]
 ubieranki.eu##.socialMini
+ubisoft.com##.promo--channels
 ubraniak.pl##p > a[href*="facebook.com/Ubraniak/"] > img
 ubucentrum.net##a[href="http://www.facebook.com/ubucentrum"] > img
 uctok.com##.fbie
@@ -5110,6 +5110,7 @@ wloczkiwarmii.pl###ravelry-box
 wloczkiwarmii.pl##.kc-likebox
 wmeritum.pl##.last.one_half
 wneiz.pl##.logo-facebook_sprite, .logo-youtube_sprite
+wnet.fm##.fa-instagram
 wnet.fm##.fa-youtube-play.fa, #menu-item-8042, #menu-item-8044, #menu-item-8033
 wnt.com##.footer-content div.col-xs-12.col-sm-6.col-md-4:nth-of-type(3) > div:nth-of-type(1)
 woblink.com###footer .apps > div:nth-of-type(2) > .column-heading
@@ -5937,7 +5938,6 @@ spece.it#@#[title^="Follow us on "]
 tabletowo.pl#@#.social_icon
 tabletowo.pl#@#.top-social
 tajemnice-swiata.pl#@#.mh-social-icons
-telepolis.pl#@#.social-media-icons
 tvn24bis.pl#@#.button_email
 tvp.info#@#.social-article
 t-mobile.pl#@#.socialMedia
