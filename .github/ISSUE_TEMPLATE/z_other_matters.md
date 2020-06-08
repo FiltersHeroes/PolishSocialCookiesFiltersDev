@@ -33,7 +33,7 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 **Używane filtry:**
 1. EasyList
 2. Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
-3. Polskie Filtry Elementów Irytujących
+3. 
 4.
 5.
 

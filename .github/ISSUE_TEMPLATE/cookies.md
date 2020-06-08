@@ -19,10 +19,10 @@ Thanks for reporting!
 **Używane filtry:** <!--Filter lists-->
 1. EasyList
 2. Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
-3. Polskie Filtry RODO-Ciasteczkowe
-4. 
+3. I don't care about cookies
+4. Polskie Filtry RODO-Ciasteczkowe
 5. 
-
+6. 
 
 ### Link bezpośredni (opcjonalny) <!--Direct link (optional)-->
 <!--
