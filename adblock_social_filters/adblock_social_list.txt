@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.7.2
-! Last modified: Sun, 07 Jun 2020, 23:00 UTC+02
+! Version: 2020.6.8.0
+! Last modified: Mon, 08 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,12 +16,12 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.7.2 aktualizacja: nie, 07 cze 2020, 23:00 UTC+02
+! v.2020.6.8.0 aktualizacja: pon, 08 cze 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
 ! Popupy
-akwarysta.eu,dobrewychowanie.pl,pinka.pl###colorbox, #cboxOverlay
+akwarysta.eu,dobrewychowanie.pl,kochamzyc.pl,pinka.pl###colorbox, #cboxOverlay
 babymanager.pl###spu-2707, #spu-bg-2707
 beskidy.news##.c-pop-up
 black-friday.pl,cryptoprofit.pl,e-przepisykulinarne.pl,funfashion.pl,kucharenka.pl,kuchniawedwoje.pl,magazyninformacyjny.pl,tele-wizja.ru,wielkopolskamagazyn.pl,zatrzymujacczas.pl###ffbp, #ffbp-bg
@@ -950,6 +950,7 @@ alphavit.pl,athleticsport.pl,avita.pl,house-party.pl,jokasklep.pl,lanex.com.pl,l
 alpro.com###ela_header_socialNav, #ela_footer_socialNav
 altenberg.pl##.youtube_link, .instagram_link
 alternatywne.pl,djoles.com,megataxi.pl,twojaanglia.eu,wochenblatt.pl###fpw_widget
+aluna.eu##.social
 aluprof.eu##.sidebar__title, li.sidebar__link:nth-of-type(-n+3)
 al.to,x-kom.pl##footer.social > .row h4
 al.to,x-kom.pl##footer[class*="footer"] > div[class]:nth-of-type(2) > div[class]:nth-of-type(1) > div > div > a[class][target="_blank"]:not([id])
@@ -1116,7 +1117,7 @@ auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshe
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > .chips
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > div.title:nth-of-type(1)
 auto-swiat.pl##.fb_share, .version4.bigVersion.onet_ustPlugin_addthis > .box2, .whitelistPremium > div:nth-of-type(4) > .version4.onet_ustPlugin_addthis, .imageWrapper > .socialButtons
-auto-swiat.pl,biore.to,bydgoszcz.com,centrum.fm,duzekubki.pl,fabrykazabawek.eu,komputerswiat.pl,macris.com.pl,miechow.eu,moaburger.com,mojtelefon.info,niemiecki.co,oakandberry.com,patriot24.net,reypol.com.pl,sklep.piast-gliwice.eu,weblider.eu,wyborcza.biz,ztkruszwica.pl##.fb
+auto-swiat.pl,biore.to,bydgoszcz.com,centrum.fm,duzekubki.pl,fabrykazabawek.eu,komputerswiat.pl,macris.com.pl,miechow.eu,moaburger.com,mojtelefon.info,niemiecki.co,oakandberry.com,patriot24.net,reypol.com.pl,sklep.piast-gliwice.eu,splacepark.pl,weblider.eu,wyborcza.biz,ztkruszwica.pl##.fb
 avaldihome.pl##footer#footer .row > div.col-xs-12.col-sm-12.col-md-6.col-lg-3:nth-of-type(3)
 avast.com##.social-icons > a.bi-link:nth-child(-n+5)
 avlab.pl##li:nth-child(-n+3) > .ext
@@ -2860,6 +2861,7 @@ krytykakulinarna.com#?#.sidebar-widget > h6:-abp-contains(/społecz/i)
 krytykapolityczna.pl###menu-item-166280
 krytykapolityczna.pl###menu-socjale-w-naglowku
 krytykapolityczna.pl##.essb-block.essb-like-facebook, .essb-block.essb-like-twitter, .post-date-area > .textwidget > .vc_empty_space
+kryzysowa.pl##div.m-footer__col:nth-of-type(3)
 krzysztofadamek.pl#?#.vc_row-fluid.wpb_row.vc_row:-abp-contains(Instagram Feed)
 krzysztofwojczal.pl###aptf_widget-3
 kserotechnik.com##div.span3.moduletable:nth-of-type(3)
@@ -3620,6 +3622,7 @@ oscarrak.pl##.lets_social_count.clearfix
 osiemstop.pl###subheader_box .mks_ico
 oskko.net##td > a[href="https://plus.google.com/+oskko"]
 oskko.net#?#span.style18:nth-of-type(2):-abp-contains(Dołącz do nas na:)
+osrodekaneta.pl##.widget_vmagazine_facebook_like.widget
 ostatniatawerna.pl##.module-about.widget
 ostrowmaz.com##.nk-tab
 ostry-sklep.pl##.social-conteiner-outer
@@ -5118,6 +5121,7 @@ wneiz.pl##.logo-facebook_sprite, .logo-youtube_sprite
 wnet.fm##.fa-youtube-play.fa, #menu-item-8042, #menu-item-8044, #menu-item-8033
 wnt.com##.footer-content div.col-xs-12.col-sm-6.col-md-4:nth-of-type(3) > div:nth-of-type(1)
 woblink.com###footer .apps > div:nth-of-type(2) > .column-heading
+woblink.com##.apps > div:nth-of-type(2)
 woda.com.pl###footer > nav > div > .module-social
 wojas.pl##.sv-fb-0
 wok.walbrzych.pl##.sb-instagram-widget, a[href="https://www.facebook.com/walbrzyskiosrodekkultury/"]
@@ -5636,6 +5640,7 @@ z-hotel.com###menu-item-868
 ||pollena.com.pl/img/cms/instagram.jpg$image
 ||poloniagrecka.eu/images/stories/program_eu/edukacja_integracja_logo.png
 ||poloniagrecka.eu/images/stories/program_eu/lekcje_integracji_logo.png
+||polygamia.pl/wp-content/themes/polygamia/img/google_big.png$image
 ||portalspozywczy.pl/images/2018/icons/fb-gr.png
 ||portalspozywczy.pl/images/2018/icons/insta-gr.png
 ||portalspozywczy.pl/images/2018/icons/tw-gr.png
