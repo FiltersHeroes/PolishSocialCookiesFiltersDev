@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.8.1
-! Last modified: Mon, 08 Jun 2020, 23:00 UTC+02
+! Version: 2020.6.9.0
+! Last modified: Tue, 09 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.8.1 aktualizacja: pon, 08 cze 2020, 23:00 UTC+02
+! v.2020.6.9.0 aktualizacja: wto, 09 cze 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -41,6 +41,7 @@ forum.joomla.pl###fancybox-overlay, #fancybox-wrap
 galeriaveneda.com.pl###popup
 generacjasmart.pl##.mcwidget-overlay
 godealla.pl,wakacjezprocentem.pl##.overlay
+greenelka.pl###cfblb_modal
 growbox.pl###pf_bg, .pf_sub
 haart.pl,serialowy.info##.wph-modal
 investjourney.pl###spu-4030, #spu-bg-4030
@@ -2366,6 +2367,7 @@ greenpolska.com###secondary > #fbw_id-2
 greinplast.pl##.f_box2.col-sm-6.col-xs-7 > p.text-center, .f_box2.col-sm-6.col-xs-7 > div.icob.text-center > a
 gremimedia.pl##.button--social-icon.button
 greywizard.com##.gw-footer__social, .gw-social-widget
+gromada.pl##.panel-social-hld
 gromgroup.pl##.soc-right
 gromgroup.pl,silesiasa.pl###social-fixed-box
 grono.pl##a[href="https://www.facebook.com/gronoshipping"] > img
@@ -5417,7 +5419,6 @@ z-hotel.com###menu-item-868
 !o2.pl##._3GW9W.j7BWh, ._3GW9W._2wIiL, ._3XhCb
 !o2.pl#?#div[class][data-st-area="st-article-reactions"] div[class]:nth-of-type(5):-abp-has( > button[class][shape="circle"])
 !partyflowers.pl##.astra-widget-social-profiles
-||genway.pl/images/frontend/theme/whitegen/social/youtube.png
 !
 !
 ! Specyficzne reguły blokujące
@@ -5509,6 +5510,7 @@ z-hotel.com###menu-item-868
 ||gameplay.pl/im/fb15.png
 ||gazetaswietojanska.org/layout/ico/YT3.png
 ||gazetaswietojanska.org/layout/ico/fbbw2.png
+||genway.pl/images/frontend/theme/whitegen/social/youtube.png
 ||glos24.pl/facebook.png$image
 ||glos24.pl/twitter.png
 ||gloskoninski.pl/wp-content/uploads/2017/09/twitter-1.png
