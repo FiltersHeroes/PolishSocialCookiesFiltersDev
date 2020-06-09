@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.8.1
-! Last modified: Mon, 08 Jun 2020, 23:00 UTC+02
+! Version: 2020.6.9.0
+! Last modified: Tue, 09 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.8.1 aktualizacja: pon, 08 cze 2020, 23:00 UTC+02
+! v.2020.6.9.0 aktualizacja: wto, 09 cze 2020, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -135,6 +135,7 @@ almamarket.pl,aukso.pl,kozy.pl,www.sygnity.pl###claw
 almatur.pl,portaltatrzanski.pl###rododiv
 aluzja.gorzow.pl,artgos.pl,bsmuszyna.com,ck.przemysl.pl,diagmed.info.pl,hostgrafia.pl,interauto.krakow.pl,mojawww.com,osrodek-terapii.com,puch-kotlowski.pl,slawex.net.pl,sls.info.pl,swiatdeski.pl,tomiicars.com.pl,treningkrakow.pl,vagaru.pl,wikar.pl#?#.widget.type-10:-abp-contains(/c(ookie|iastecz)/i)
 al.to,combat.pl,x-kom.pl###popup-cookie
+al.to,combat.pl,x-kom.pl#?##app-TopBar > div[class^="sc-"] > div[class^="sc-"]:-abp-has( ~ header):-abp-has(a[href="/cookies"])
 amarone.pl###bannerMSG
 amazon.de###desktop-cookie-disclosure
 ambermarine.pl###a-cookie
