@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.11.2
-! Last modified: Thu, 11 Jun 2020, 23:01 UTC+02
+! Version: 2020.6.12.0
+! Last modified: Fri, 12 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.11.2 aktualizacja: czw, 11 cze 2020, 23:01 UTC+02
+! v.2020.6.12.0 aktualizacja: pią, 12 cze 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -47,6 +47,7 @@ haart.pl,serialowy.info##.wph-modal
 investjourney.pl###spu-4030, #spu-bg-4030
 justjoin.it##.join-fb-popup
 kamira90.blogspot.com###fbox-background, #fbox-close
+karmiepsiaki.pl###fb-back
 karmiepsiaki.pl###fb-exit
 kawiarniany.pl##.sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
@@ -5995,6 +5996,7 @@ youtube.com#@##secondary-links
 @@||start.me/packs/media/images/google-icon-$image
 @@||static.westwingnow.pl/bella/Svgs-Pinterest.bundle.*.js
 @@||wielkopolska.tv/wp-content/plugins/*/content/$image
+@@||www.facebook.com/plugins/page.php$domain=topplant.pl
 @@||zapytaj.onet.pl/images/fb-login-btn.png$image,domain=zapytaj.onet.pl
 @@||zaufanatrzeciastrona.pl/wp-content/plugins/subscribe-connect-follow-widget/images/32px/rss.png
 !
