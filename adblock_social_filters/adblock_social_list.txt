@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.12.0
-! Last modified: Fri, 12 Jun 2020, 19:00 UTC+02
+! Version: 2020.6.12.1
+! Last modified: Fri, 12 Jun 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.12.0 aktualizacja: pią, 12 cze 2020, 19:00 UTC+02
+! v.2020.6.12.1 aktualizacja: pią, 12 cze 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -38,6 +38,7 @@ e-iglaki.pl###szkolenie-message
 fifek.pl###ips-popup, #ips-popup-wrapper
 forum.grywamtu.pl###pop-slap[data-hello-text], .bg-pop-over
 forum.joomla.pl###fancybox-overlay, #fancybox-wrap
+fotoprzyroda.pl###sosinvision_popup
 galeriaveneda.com.pl###popup
 generacjasmart.pl##.mcwidget-overlay
 godealla.pl,wakacjezprocentem.pl##.overlay
@@ -52,6 +53,7 @@ karmiepsiaki.pl###fb-exit
 kawiarniany.pl##.sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
 klasek.pl###spu-bg, #spu-main
+kobiecyhumor.pl,telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 konstantinkanin.com##.hustle-show
 limonkowy.com##.ui-widget-overlay, .ui-dialog
 linuxporady.pl,pskrk.com,sebucja.pl,skomplikowane.pl###exitpopup-modal
@@ -62,6 +64,7 @@ medonet.pl##.withFPU:before
 mpolska24.pl###before-leave-window
 mtv24.tv###mdfb
 nawakacje.eu,rytmynatury.pl##.ays-fpl-modals
+nawiedzone.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 nawiedzone.pl,polskieszosy.pl,swiatfilmikow.pl##[data-title="Social Form - Popup #02"]
 nowosci-mp3.eu###pop-slap, .bg-pop-over
 nportal.no###fb-overlay
@@ -83,7 +86,6 @@ rzeszow4u.pl###myModal
 sledczy24.pl##.spu-bg, .spu-total-1
 spozywo.pl##.facebook-overlay
 taktutanio.pl###tloPopUp, #oknoPopUp
-telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 topnaj.pl###dgd_scrollbox-2656
 travelicious.pl##.flpl-front-locker-outerwarp
 tvkrosno.pl###efbl_popup
@@ -840,6 +842,7 @@ aba-sport.pl##.footer-bookmarklets
 abcksiegarnia.pl,aliensgroup.pl,aptekadomlekow.pl,drewlandia.com.pl,e-drogeria.com,e-zikoapteka.pl,gwp.pl,starterzy.pl,sweetdecor.pl,szybkikoszyk.pl,tastestore.pl,www.krzysztonjan.com###side_widget
 abcmotoru.com.pl###Info-box-wrap-7180
 abcsurf.pl##.modFooter_Social
+abrakadabra.sklep.pl##.social a:not([href*="newsletter"])
 abstrawear.com##footer > div > .row > div:nth-of-type(3)
 accent-bikes.com###right_icons
 accu-chek.pl###accuchek-facebook
@@ -1122,6 +1125,7 @@ auto-swiat.pl##.fb_share, .version4.bigVersion.onet_ustPlugin_addthis > .box2, .
 auto-swiat.pl,biore.to,bydgoszcz.com,centrum.fm,duzekubki.pl,fabrykazabawek.eu,fakt.pl,komputerswiat.pl,macris.com.pl,miechow.eu,moaburger.com,mojtelefon.info,niemiecki.co,oakandberry.com,patriot24.net,reypol.com.pl,sklep.piast-gliwice.eu,splacepark.pl,weblider.eu,wyborcza.biz,ztkruszwica.pl##.fb
 avaldihome.pl##footer#footer .row > div.col-xs-12.col-sm-12.col-md-6.col-lg-3:nth-of-type(3)
 avast.com##.social-icons > a.bi-link:nth-child(-n+5)
+avisplacezabaw.pl,zygzaksnow.pl##.social
 avlab.pl##li:nth-child(-n+3) > .ext
 avon-24.pl##a[href="https://www.facebook.com/lsavonkasia/"] > img
 avon.pl###FooterSocialMediaColumn
@@ -1545,6 +1549,7 @@ computer-alliance.pl##a[href="https://www.facebook.com/computer.alliance.ltd/"]
 comtv.pl,dell24.pl,dlabydgoszczy.pl,katowicetv.eu,mediasystem-tdi.pl,nieprzegap.com,polskanamorzu.pl###musli
 com.web.silcare.com###ue + div.limpad.toppad.w3-row:nth-of-type(8) > div > p
 concordiaubezpieczenia.pl##a[href="//www.facebook.com/ConcordiaUbezpieczenia/"]
+concordiaubezpieczenia.pl##.sm_widget
 confero.pl##a.confero_social_icon:nth-child(-n+4)
 congee.pl##.col-sm-12.col-md-3.newsletter_facebook
 consil.com.pl##.footerbar > div.col-md-6.col-sm-6 > ul > li:nth-of-type(-n+3) > a > img
@@ -3115,6 +3120,7 @@ matshop.pl##a[href="https://instagram.com/matshoppl"]
 matshop.pl##a[href="https://twitter.com/Matshoppl"]
 matshop.pl##a[href="https://www.facebook.com/Matshoppl"]
 matshop.pl##a[href="https://www.youtube.com/user/MelanzAlcoTeam"]
+maxbus.com.pl##.our-facebook
 maxibike.pl##.footer > .row > div:nth-of-type(4) .title
 max-led.pl##.ins-footer .hidden-sm.hidden-xs.col-md-3.col-sm-6.col-xs-12
 mazakzabawki.pl##a.commercial_button2:nth-of-type(3)
@@ -3177,6 +3183,7 @@ merkurymarket.pl##li > a[href="http://www.instagram.com/merkurymarketpl/"]
 merlin.pl##.b-footer-icon-facebook
 merlin.pl##.grid__col--quarter.b-footer__in-touch.grid__col > .b-footer__title
 mesco.com.pl##a[href="https://www.linkedin.com/company/1967436/"]
+metaltech.com.pl###top_bar > .social > .googleplus
 meteo.org.pl##.f > div:nth-of-type(2), .s
 metrobikes.pl###box_wce_social
 metropoliabydgoska.pl##.mt-column:nth-of-type(3)
@@ -3301,6 +3308,7 @@ money.pl##div[data-st-area$="_FB"]
 money.pl#?#article[class] div[class] img + button:-abp-has( > span:-abp-contains(/^Podziel się$/))
 monier.pl#?##col-right > div[id^="c"]:-abp-has(a[href*="youtube.com"] > img[src*="yt"], a[href*="facebook.com"] > img[src*="fb"])
 monikahonory.pl#?#.vc_row-has-fill.vc_row-fluid.wpb_row.vc_row:-abp-contains(Dołącz do społeczności Zupomaniaków)
+monitoring-system.pl##.yt-icon
 monocerus.pl##a[href="https://www.facebook.com/monoceruspl/"]
 monsieur-cuisine.com###footer .container > div.row:nth-of-type(2) > div.col-md-4:nth-of-type(2)
 monsterbike.eu##footer .strona > .stopka > a:nth-of-type(2)
@@ -3738,6 +3746,8 @@ pepco.pl#?#div.col-sm-6.col-md-3.col-xs-12.grid-item:-abp-contains(DOŁĄCZ DO N
 pepco.pl#?#div.col-xs-12.col-sm-6.col-md-3.grid-item:-abp-has(a[href="https://instagram.com/pepcopl/"])
 pepper.pl###footer > div:nth-of-type(2) > div:nth-of-type(1) > section:nth-of-type(4) a:not([href*="rss"])
 pepper.pl##.space--b-3.space--r-2.box--all-i:nth-of-type(1)
+pepsieliot.com##.soc-buttons > a:nth-of-type(-n+5)
+pepsieliot.com##.soc-slider
 pepsi.pl###socialBox
 perfectlines.eu##a.top_link:nth-of-type(1)
 perfekcyjnawdomu.pl##div.bok.box2:nth-of-type(2), .blsdk-follow
@@ -5983,6 +5993,7 @@ youtube.com#@##secondary-links
 @@/wp-content/plugins/fwdu3dcar/*$image,~third-party
 @@||apis.google.com/js/platform.js$domain=lemonmind.com|olx.pl
 @@||cdn.whatnext.pl/uploads/*/*/integracja-facebook.jpg$image
+@@||facebook.com/plugins/page.php$subdocument,domain=topplant.pl
 @@||facebook.com/v2.0/plugins/like.php$subdocument,domain=e-biznes.pl
 @@||google.*/logos/*/share-sprite.png$image,~third-party
 @@||icons.*.com/icons/*/facebook-icon.png$image,domain=konto.onet.pl
@@ -5996,7 +6007,6 @@ youtube.com#@##secondary-links
 @@||start.me/packs/media/images/google-icon-$image
 @@||static.westwingnow.pl/bella/Svgs-Pinterest.bundle.*.js
 @@||wielkopolska.tv/wp-content/plugins/*/content/$image
-@@||www.facebook.com/plugins/page.php$domain=topplant.pl
 @@||zapytaj.onet.pl/images/fb-login-btn.png$image,domain=zapytaj.onet.pl
 @@||zaufanatrzeciastrona.pl/wp-content/plugins/subscribe-connect-follow-widget/images/32px/rss.png
 !
