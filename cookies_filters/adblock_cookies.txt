@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.13.0
-! Last modified: Sat, 13 Jun 2020, 23:00 UTC+02
+! Version: 2020.6.15.0
+! Last modified: Mon, 15 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.13.0 aktualizacja: sob, 13 cze 2020, 23:00 UTC+02
+! v.2020.6.15.0 aktualizacja: pon, 15 cze 2020, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1225,8 +1225,7 @@ licytacje.komornik.pl###sign_up, body > div[style*="margin-top: 100px"]
 lifepointspanel.com##.cookie_banner_notification
 lightbox.pl##.cookies-bottom
 limango-outlet.pl##.lilayout-header-cookiebar
-limango.pl###footer-container ~ div[class*="shop"]:last-of-type:not([style])
-limango.pl##.floating_notification
+limango.pl###footer-container ~ div[class*="shop"]:last-of-type:not([style]), .floating_notification
 linkedin.com###artdeco-global-alert-container > artdeco-global-alert[severity="notice"]
 linkedin.com###global-alert-queue > .alert, #notice-cookie-policy, .global-alert
 linkhouse.pl##.popup_wrapper, .popup_background
@@ -1274,6 +1273,7 @@ malwaretips.com,xiaomi.eu##.notice--cookie
 malybelgrad.pl##.june2018cookies
 mamadha.pl,maxonactive.pl###page-cookie-bar
 mamaplus.pl###ue-cookie-warning
+mango.pl##div[class^="cookieMonster-wrapper-"]
 manusite.pl##div[style="width:960px;height:100px;background:#0F0F0F;font-size:15px;text-align:center;padding:10px auto;"]
 maratony24.pl##div#privacyPolicy
 marczewski.pl,michal.kosmulski.org###ustawaCiasteczkowa
