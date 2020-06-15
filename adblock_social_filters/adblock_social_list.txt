@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.14.1
-! Last modified: Sun, 14 Jun 2020, 19:00 UTC+02
+! Version: 2020.6.15.0
+! Last modified: Mon, 15 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.14.1 aktualizacja: nie, 14 cze 2020, 19:00 UTC+02
+! v.2020.6.15.0 aktualizacja: pon, 15 cze 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1679,7 +1679,7 @@ dekoret.pl###FACEBOOKBUTTON
 dekornik.pl##.instalink-medium.instalink-loading.instalink-image-size-small.instalink-user.instalink
 deliciousbox.pl###footer > div.s-box:nth-of-type(3) > p > a > img
 delikatesy.pl##.ft_item:nth-of-type(3)
-delimano.pl,dormeo.pl,topshop.pl,walkmaxx.pl##.fn-social
+delimano.pl,dormeo.pl,topshop.pl,walkmaxx.pl##.fn-social, .fnSocial
 dellpoint.pl##.userfooter > .row > p > a
 delphiautoparts.com###block-footersociallinks
 deltashop.pl,media-tech.eu##.footer-informations div.nav-container:nth-of-type(3)
@@ -3093,7 +3093,7 @@ mamprawowiedziec.pl##.fa-twitter.fab
 mamprawowiedziec.pl##.footer-row div.row:nth-of-type(2) > div:nth-of-type(2)
 mamprawowiedziec.pl##.footer-row > div:nth-of-type(1) > .text-uppercase
 mamsmartfona.pl##footer > .row > div.col:nth-of-type(4) > h3
-mango.pl##.fn-social > ul > li:nth-of-type(n+2)
+mango.pl##.fnSocial li:nth-of-type(n+3):nth-of-type(-n+4)
 manta.com.pl##.col-md-6.news_left
 marbo-sport.pl##a[href^="https://www.facebook.com/Marbo.Sport.Sprzet.Do.Silowni/"]
 mareklibre.blogspot.com###LinkList1 > .widget-content > ul > li:nth-of-type(n+2):nth-of-type(-n+5)
@@ -4255,6 +4255,7 @@ rooader.pl##img[src="/files/image/facebook_2015_logo_detail.png"]
 rosebelle.pl#?##footer > div:-abp-has(h3:-abp-contains(Śledź nas na Instagramie))
 rosenthal.pl###wysuwany_blog, #wysuwany_div
 rossmann.pl##.social__label
+rovus.pl##.footer-lower div.links:nth-of-type(3)
 rowerek.pl##a .icon-google-plus
 rowerowy.biz###box_facebook
 rowerowy.com##.mdi-facebook-box.mdi
