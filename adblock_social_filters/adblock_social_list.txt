@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.17.0
-! Last modified: Wed, 17 Jun 2020, 19:00 UTC+02
+! Version: 2020.6.17.1
+! Last modified: Wed, 17 Jun 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.17.0 aktualizacja: śro, 17 cze 2020, 19:00 UTC+02
+! v.2020.6.17.1 aktualizacja: śro, 17 cze 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1481,7 +1481,7 @@ change.shop.pl,elektro-outlet.net,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-me
 change.shop.pl,multibook.pl,starecegly.com###box_facebooklike
 channel9.msdn.com##.reddit
 channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,echotygodnik.info,filmaster.com,galeria-pestka.com,gls-group.eu,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,nerwica.com,pl.futbol24.com,podstacja.com,radiomalbork.fm,sadzonkiborowki.com,siatka.org,slonskyradio.eu,stoprocent.com,swmarcin-jarocin.com,wejherowo24.info,woblink.com,zvami.tv##.facebook
-channel9.msdn.com,chemik-police.com,debica24.eu,domeny.pl,fakt.pl,gremont.pl,newslubuski.pl,nowakonfederacja.pl,sejm.gov.pl,siatka.org,tvn24bis.pl##.twitter
+channel9.msdn.com,chemik-police.com,debica24.eu,domeny.pl,fakt.pl,gremont.pl,markoweobuwie.com.pl,newslubuski.pl,nowakonfederacja.pl,sejm.gov.pl,siatka.org,tvn24bis.pl##.twitter
 charaktery.eu##.pdf_link
 chataalelipa.pl##.cal-social-media
 chataskrzata.eu,czerwonak.pl,infobowling.pl,sklepblawatny24.pl,slet24.pl,szkola-jazdy.pl,zikom.pl###fb-side-like
@@ -3111,6 +3111,7 @@ marketerplus.pl##a[href="https://www.linkedin.com/company/marketer-"]
 marketingibiznes.pl##.hellobar
 marketingprzykawie.pl##.pageHeaderSocialMenu > ul > li:nth-of-type(-n+4)
 marketpsb.pl,psbprobud.pl###FacebookFlyBox.FlyBoxFB
+markoweobuwie.com.pl#@##social_block
 markoweszyby.pl###left > .moduletable
 marta-gotuje.pl###menu-navigation .pipdigicons-instagram, #menu-navigation .pipdigicons-pinterest, .pipdig_widget_facebook
 mar-grawer.pl##.bd-icon.bd-icon-24, .bd-content-element.bd-textblock-28
@@ -3857,7 +3858,7 @@ pl.lovoo.com##.responsive-footer > .container-responsive-lg > .o-grid > .o-grid_
 pl.pons.com##.span4:nth-of-type(3) > h4
 pl.primo.com##footer .p-imagetext-tb:nth-of-type(3)
 pl.tommy.com###olapic_specific_widget
-pl.tommy.com##.--connect.footer__list-title
+pl.tommy.com##.\-\-connect.footer__list-title
 pl.tradingview.com##.tv-footer__column--socials:nth-of-type(2)
 pl.vivre.eu,vivrehome.pl##div.footer__utility-col:nth-of-type(4) > .footer__utility-title
 pl.vpnmentor.com##.last.part-wrap, .article-thanks-wrap, .side-follow-wrap
@@ -5092,7 +5093,6 @@ webcamera.pl##.instagram-box
 webinary.comarch.pl###sector-footer .row > p:nth-of-type(2) > strong
 webio.pl##li.nav-item:nth-of-type(n+5):nth-of-type(-n+6) > .nav-link
 webkod.pl###fb-web-link-button
-webserwer.pl###panels > ul > li:nth-of-type(4) > a > img
 webserwer.pl###panels > ul > li:nth-of-type(n+4):nth-of-type(-n+5)
 weck.com.pl##ul:nth-of-type(4)
 weddingdream.com##.td-footer-page > .tdc-row > .vc_row > .vc_column:nth-of-type(3)
