@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.17.1
-! Last modified: Wed, 17 Jun 2020, 23:00 UTC+02
+! Version: 2020.6.18.0
+! Last modified: Thu, 18 Jun 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.17.1 aktualizacja: śro, 17 cze 2020, 23:00 UTC+02
+! v.2020.6.18.0 aktualizacja: czw, 18 cze 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -900,6 +900,7 @@ aikoiemil.com,pozdrozkrld.com##.widget_youtube_subscriber
 airbnb.pl#?#footer div > ul > li > span > a[target="_blank"]:-abp-has(svg)
 airly.eu##div[class^="social-bar__SocialIcons-"]
 airly.eu##[class^="footer__SocialLinks"]
+airly.eu#?#button[aria-label*="Floating"]:-abp-has([class*="social-bar__StyledShareIcon-"])
 airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,gls-group.eu,grene.pl,isl.pl,itaka.pl,karnet.krakow.pl,kwantowo.pl,lalorraine.pl,lexus-krakow.com.pl,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,niepodlegla.gov.pl,nowakonfederacja.pl,pap.pl,pingpong.bydgoszcz.pl,pogonszczecin.pl,rms.pl,skgd.pl,tczewska.pl,tvobiektyw.pl,tvswinoujscie.pl,wentylacja24.pl,wloclawek.pl##.youtube
 ajgroup-pros.pl##.SocialBoard
 ajprodukty.pl##.footer_social-container
@@ -2763,6 +2764,7 @@ kimbino.pl##.footer-icons > a
 kimovil.com###user-sidebar
 kingowiec.pl##.BoxMedia
 kingsong.pl##.social > a:nth-of-type(n+3):nth-of-type(-n+4)
+kinguin.net##footer .icons div.col-sm:nth-of-type(2)
 king-poligrafia.pl###kontakt-slider, #google-slider
 kinkyowl.pl##.tipi-i-facebook, .tipi-i-twitter, .tipi-i-instagram
 kinopolskamuzyka.pl##.footer_right > li:nth-of-type(2)
@@ -5047,6 +5049,7 @@ viva.pl##.icon-facebook-black
 vivio.pl##a.flagi:nth-of-type(n+6):nth-of-type(-n+8)
 vivus.pl#?##app ul + ul:last-child > li > a[target="_blank"]:-abp-has(svg)
 vobis.pl##.m-copyrights_info > a
+vod.naekranie.pl##.nav-bottom figure.iconBox-md-size:nth-of-type(n+2):nth-of-type(-n+4)
 volcano.pl#?#section.section-text:-abp-contains(Znajdź nas w Social Media)
 volcano.pl#?#section.section-text:-abp-contains(Znajdź nas w Social Media) + .section-banners
 volkswagen.pl##.vw_m520_social_element
