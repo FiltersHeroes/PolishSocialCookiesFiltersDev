@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.18.0
-! Last modified: Thu, 18 Jun 2020, 15:00 UTC+02
+! Version: 2020.6.18.1
+! Last modified: Thu, 18 Jun 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.18.0 aktualizacja: czw, 18 cze 2020, 15:00 UTC+02
+! v.2020.6.18.1 aktualizacja: czw, 18 cze 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -83,6 +83,7 @@ przedsiebiorcza.com###spu-2217, #spu-bg-2217
 radio7.pl###spu-9201, #spu-bg-9201
 radio111.pl##.modal[id], .modal-backdrop
 rzeszow4u.pl###myModal
+sklepikdzieciecy.pl###oknoPopUp, #tloPopUp
 sledczy24.pl##.spu-bg, .spu-total-1
 spozywo.pl##.facebook-overlay
 taktutanio.pl###tloPopUp, #oknoPopUp
@@ -892,7 +893,7 @@ agro-tom.eu,lubliniec.info,restauracjabiesiada.com###face-slider
 agusiq-torrents.pl###bottomstats > table.lista:nth-of-type(2)
 agusto.pl###easycontent_23
 agwerblog.pl##.instafollow, .footer-widget-inside.widget_text > .custom-html-widget.textwidget > ul
-agwerblog.pl,autonom.pl,domowa.pizza,dowbit.pl,gloskultury.pl,gr4cze.pl,inspro.org.pl,klassikauto.pl,moviesroom.pl,multikop.pl,nflix.pl,polscyfanieurowizji.pl,techfresh.pl,wielkahistoria.pl,zniczekmc.com.pl###custom_html-3
+agwerblog.pl,autonom.pl,domowa.pizza,dowbit.pl,gloskultury.pl,gr4cze.pl,inspro.org.pl,klassikauto.pl,moviesroom.pl,multikop.pl,nflix.pl,polscyfanieurowizji.pl,pp.ceneo.pl,techfresh.pl,wielkahistoria.pl,zniczekmc.com.pl###custom_html-3
 agwerblog.pl,eloblog.pl,komputerowapasja.pl,reklamacjatowaru.pl###custom_html-7
 ahh.sklep.pl##.container.userfooter > .row > p > span
 aidcom.eu##.message.social, .facebook.social
@@ -1463,6 +1464,7 @@ centrumjp2.pl##.fa-facebook-f.fa
 centrumkomputerowe.eu###imFooter > div, #imHeader > div:nth-of-type(4)
 centrumparis.pl##.social_footer_2
 centrumrowerowe.pl##footer div.item:nth-of-type(3)
+centrumwindows.pl##.tile_fb
 centrumxp.pl##footer div.col-inline-mobile-12.col-inline-portable-6.col-inline-2.col-inline:nth-of-type(4)
 centrum-gracza.pl##.widget:nth-of-type(2) > .widget-title, .col-md-4.col-sm-12
 cenyrolnicze.pl##.bd-imagestyles[alt*="nas"]
@@ -3486,6 +3488,7 @@ nespresso.com##.ProductDetailsSocialMedias__list
 netbiel.pl##.smartlib-horizontal-list.smartlib-layout-list > li > a
 netcredit.pl##footer > .container > .row > div.mt-3.col-md-3.col-12:nth-of-type(2)
 netfan.pl##a[href="https://netfan.pl/partners/youtube.php"] > img, a[href="https://netfan.pl/partners/nk.php"] > img
+netto.pl##.footer__social-medias li
 newfloor.pl###real_facebook_display > #fsbbox1 > #fsbbox2 > img
 newonce.net##h5.h5:nth-of-type(2)
 newonce.net##.footer-desktop__social-wrapper
@@ -5222,7 +5225,7 @@ www.dekoria.pl###wall_264.wall, #footr_sm_icons
 www.dobreprogramy.pl##div.col:nth-of-type(3) > .list > li.list__item:nth-of-type(n+2)
 www.dobreprogramy.pl##div[class*="social"] > a[title^="Odwiedź na"]
 www.dobreprogramy.pl###phContentLeft_SocialControl_socialBox, #phContent_SocialControl_SocialControlMain_socialBox
-www.dobreprogramy.pl##.dl-social > .fb-cta, .fb_iframe_widget.fb-page
+www.dobreprogramy.pl##.dl-social > .fb-cta, .fb_iframe_widget, .fb-page
 www.dobreprogramy.pl##.social__group_share.social__group, .social__item
 www.dobreprogramy.pl#?##sidebar > .text-center:-abp-has(.fb_iframe_widget.fb-page)
 www.ea.com##ea-social-links
@@ -5279,6 +5282,7 @@ www.publio.pl##.facebook-page-widget
 www.pzu.pl##.footer div.col-md-4:nth-of-type(3) > h4
 www.pzu.pl##.footer div.col-md-4:nth-of-type(3) > .row > div.col-xs-12:nth-of-type(2) > .menu_list
 www.pzw.org.pl###body_widget_youtube
+www.radiozet.pl##li.radiozet-footer__socials__item
 www.rossmann.pl##a[href="https://www.instagram.com/RossmannPL/"]
 www.rossmann.pl###footer > .row:nth-of-type(4)
 www.rp.pl##.btn--icon.btn--light
