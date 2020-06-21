@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.21.0
-! Last modified: Sun, 21 Jun 2020, 15:00 UTC+02
+! Version: 2020.6.21.1
+! Last modified: Sun, 21 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.21.0 aktualizacja: nie, 21 cze 2020, 15:00 UTC+02
+! v.2020.6.21.1 aktualizacja: nie, 21 cze 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -3556,6 +3556,7 @@ nowosci-mp3.eu##.news-facebook
 nowymarketing.pl##.link-tw, .link-li
 nowyobywatel.pl###fb-livebox, #w-sieci
 nportal.no##.blue.bar:nth-of-type(8), .social-right-column, .blue.bar:nth-of-type(4)
+ntl24.pl##div.kolumna_prawa_widget:nth-of-type(1)
 numizmatyczny.com###fbppiframe
 nuteczki.eu###FB_scrool
 nvidia.pl##.page-footer__social__label
@@ -4911,7 +4912,6 @@ tvklodzka.pl###f_social_icons
 tvmalbork.pl##a[href="/facebook"]
 tvn24bis.pl##.button_email
 tvn24bis.pl##.title-wrapper > .social, .fbClassicBox, .forum-header-box > h3
-tvntl.pl##div.kolumna_prawa_widget:nth-of-type(1)
 tvokazje.pl##.Social_block
 tvpolice.com.pl##.header-social-box
 tvpolsat.info##.fa-youtube-play, .fa-instagram, .fa-twitter
@@ -6023,6 +6023,7 @@ youtube.com#@##secondary-links
 @@/social_media_$domain=mazury.travel
 @@/wp-content/plugins/fwdu3dcar/*$image,~third-party
 @@||apis.google.com/js/platform.js$domain=lemonmind.com|olx.pl
+@@||apis.google.com/js/platform.js$domain=naruto.oasgames.com
 @@||cdn.whatnext.pl/uploads/*/*/integracja-facebook.jpg$image
 @@||facebook.com/plugins/page.php$subdocument,domain=topplant.pl
 @@||facebook.com/v2.0/plugins/like.php$subdocument,domain=e-biznes.pl
