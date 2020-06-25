@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.23.0
-! Last modified: Tue, 23 Jun 2020, 23:00 UTC+02
+! Version: 2020.6.25.0
+! Last modified: Thu, 25 Jun 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.23.0 aktualizacja: wto, 23 cze 2020, 23:00 UTC+02
+! v.2020.6.25.0 aktualizacja: czw, 25 cze 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2306,6 +2306,7 @@ globenergia.pl,questus.pl##.fa-linkedin-square
 glos24.pl##div[class*="Articlestyles__ShareIcons-"] > div:not(:nth-of-type(7)) > .react-share__ShareButton
 glosbe.com##.footer-row > nav.footer-column:nth-of-type(3)
 gloskoninski.pl##.footer-widgets-2, .footer-widgets-3
+gloskoninski.pl##.menu .img[class*="facebook"], .menu .img[class*="youtube"], .menu .img[class*="twitter"]
 glossyshop.pl,sklep.royal-shop.pl###fg-social
 gloswojewodzki.pl###HTML22, #HTML46, #HTML47
 gloszabrza24.pl##.rightcolumn > div.moduletable:nth-of-type(3)
@@ -2767,6 +2768,7 @@ kierunekchorwacja.pl##.first-col > div.box-like:nth-of-type(6)
 kierunekspozywczy.pl###sb-facebook
 kimbino.pl##.footer-icons > a
 kimovil.com###user-sidebar
+kingaparuzel.pl##.footer-insta
 kingowiec.pl##.BoxMedia
 kingsong.pl##.social > a:nth-of-type(n+3):nth-of-type(-n+4)
 kinguin.net##footer .icons div.col-sm:nth-of-type(2)
@@ -4308,6 +4310,7 @@ rynekinfrastruktury.pl##.sledzNasContainer > .naglowek > .tekst
 rynekinwestycji.pl#?#.site-title:-abp-contains(FACEBOOK)
 rynekpierwotny.pl##.fd-row.df.mb-lg > div.w20:nth-of-type(4) > .mb-lg.fwb.fs14, .fd-row.df.mb-lg > div.w20:nth-of-type(4) > .fd-row.df
 rynekzdrowia.pl###menu-1 .inline > li:nth-of-type(n+2):nth-of-type(-n+4)
+rynek-kolejowy.pl##.sledzNasTekst, .socialIcons > li:nth-of-type(-n+3)
 rynek-lotniczy.pl,rynekinfrastruktury.pl,transport-publiczny.pl##.wiadomoscSocialBig > .socialNaglowek
 rynek-turystyczny.pl##a[href*="facebook.com/Rynek-Turystyczny-"]
 rynek.de##.bd-column.bd-layoutcolumn-75 > .bd-vertical-align-wrapper > .bd-iconlink
@@ -5363,7 +5366,7 @@ x-mobile.pl##.border.col-sm-4.col-md-2.col-lg-2 > .footer_box
 yetiforce.com##.left.jj_sl_navigation > li > a, .footer-mini-right.sppb-col-md-6 > a
 yope.me##.social a:not([href^="mailto:"])
 youtube.com###primary-links > a[href*="facebook.com"], #primary-links > a[href*="fb.me"], #primary-links > a[href*="instagram.com"], #primary-links > a[href*="twitter.com"], #primary-links > a[href*="snapchat.com"], #primary-links > a[href*="twitch.tv"]
-youtube.com###secondary-links > a[href*="facebook.com"], #secondary-links > a[href*="fb.me"], #secondary-links > a[href*="instagram.com"], #secondary-links > a[href*="twitter.com"], #secondary-links > a[href*="snapchat.com"], #secondary-links > a[href*="twitch.tv"]
+youtube.com###secondary-links > a[href*="facebook.com"], #secondary-links > a[href*="fb.me"], #secondary-links > a[href*="instagram.com"], #secondary-links > a[href*="twitter.com"], #secondary-links > a[href*="snapchat.com"], #secondary-links > a[href*="twitch.tv"], #secondary-links > a[href*="pinterest.com"]
 yuliyababich.eu###AnimalPanel table td > span:nth-of-type(n+6):nth-of-type(-n+9)
 yves-rocher.pl##div.service__column:nth-of-type(2) > div.service__box:nth-of-type(3)
 yves-rocher.pl##.l-footer__services div.service__column:nth-of-type(2) > div.service__box:nth-of-type(4)
