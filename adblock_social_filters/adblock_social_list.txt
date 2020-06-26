@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.25.1
-! Last modified: Thu, 25 Jun 2020, 19:00 UTC+02
+! Version: 2020.6.26.0
+! Last modified: Fri, 26 Jun 2020, 15:01 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.25.1 aktualizacja: czw, 25 cze 2020, 19:00 UTC+02
+! v.2020.6.26.0 aktualizacja: pią, 26 cze 2020, 15:01 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -3098,6 +3098,7 @@ malopolska.pl##.twitter-stream
 malopolskie-media.info###jsn-pos-right > .lightbox-2:nth-of-type(1)
 maltec.pl##.clearfix.communities
 maltec.pl,warsawdowntown.pl##.footer_top
+malygosc.pl##.social-list > *
 mamadu.pl##a[href*="/mamadupl" i] > img[src^="/static/media/"], a[href*="/mamadu.pl" i] > img[src^="/static/media/"]
 mamadu.pl,natemat.pl##.footer__box__list--social
 mamaplus.pl##div.fl-l > .soc-hover
@@ -5995,6 +5996,7 @@ komputerswiat.pl,onet.pl,realmadryt.pl,tvn24bis.pl#@#.social-container
 kosapopatelni.pl#@#.bdaia-social-io
 kosapopatelni.pl#@#.widget-social-links
 lublin112.pl#@##social-icon
+malygosc.pl,wykop.pl#@#.social-list:not(html):not(body)
 media.upc.pl#@#.bg-twitter
 media.upc.pl#@#.ion-social-twitter
 medycyna24.pl,wp.pl,~www.wp.pl#@#.share-links
@@ -6031,7 +6033,6 @@ t-mobile.pl#@#.socialMedia
 uroda.in#@#.fa-facebook-square
 wsqn.pl#@#.social_bookmarks
 wydawnictwo.szaron.pl#@#.social-box
-wykop.pl#@#.social-list:not(html):not(body)
 x-kom.pl#@#.social-bar
 youtube.com#@##secondary-links
 #@#.cookie-bottom-layer
