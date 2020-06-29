@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.28.1
-! Last modified: Sun, 28 Jun 2020, 19:00 UTC+02
+! Version: 2020.6.29.0
+! Last modified: Mon, 29 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.28.1 aktualizacja: nie, 28 cze 2020, 19:00 UTC+02
+! v.2020.6.29.0 aktualizacja: pon, 29 cze 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2189,9 +2189,11 @@ forum.grywamtu.pl#?#li.ipsSpacer_bottom.ipsBox.cForumRow:nth-of-type(1) > .ipsAr
 forum.home.pl##a > img[src$="/home.pl-posluchaj.JPG"]
 forum.home.pl##.prefooter-block-02 > h6, .prefooter-column-two
 forum.komputerswiat.pl###socialLinks
+forum.komputerswiat.pl##.topic_share a:not([id*="print"]):not([id*="email"]):not([id*="download"])
 forum.ncplus.pl,forum.pl.canalplus.com###GooglePRight
 forum.optometria.info.pl##.footer-subscribe
 forum.pasja-informatyki.pl##div.qam-footer-col:nth-of-type(1)
+forum.pclab.pl##.cShareLink:not(.cShareLink_email)
 forum.pl.canalplus.com###YoutubeRight
 forum.puppylinux.pl###sys_facebook40
 forum.puppylinux.pl###sys_twitter40
@@ -2761,7 +2763,7 @@ kawalek-nieba.pl###wpbs_slider
 kawaly.tja.pl###graf_googleplus, #graf_tweeter, #div_wysuwany_facebook, #div_wysuwany_googleplus
 kawiarniatychy.pl###home-insta
 kazimierzdolny.pl##.mb--sm.tupper.header--sm.header--clean.header, .icon-gplus.link--rounded
-kbw.gov.pl##li.ico:nth-of-type(n+4):nth-of-type(-n+6)
+kbw.gov.pl,pkw.gov.pl##.availability_social_box > ul > li:nth-of-type(n+3):nth-of-type(-n+5)
 kelton.pl##img[src="/data/include/cms/fb.png"]
 kepno.pl##li.no-mini:nth-of-type(n+4)
 kety.pl###twittery > ul > li:nth-of-type(1)
@@ -2795,6 +2797,7 @@ klasykami.pl##.cherry-instagram_widget
 klasykami.pl##.row-edge.row:nth-of-type(n+8)
 klett.pl,kolorowyswiat.org##.ytIcon
 klimacold.com.pl###ssb-btn-3
+klimatyzacja.pl###footer > div
 klinikamagnuccy.pl###top-bar-social-alt > a:nth-of-type(n+3):nth-of-type(-n+4)
 klinikamiracki.pl##.uk-grid-small .uk-icon.uk-icon-link.el-link
 klinikamurano.com##.icon-facebook
@@ -3720,6 +3723,7 @@ panattonieurope.com##.social-youtube-square
 panelex.pl###wysuwany_div3, #wysuwany_div4, #wysuwany_div5
 pangrono.pl##div.widget_custom_html.widget.widget_text, .widget_youtube-channel
 pannaannabiega.pl##.socheader > .social_label, .text-right.zl_socicon > .social_label
+panpomidor.pl,popbookownik.pl##.td-footer-instagram-container
 panwybierak.pl##.footer__contact-social
 pan.olsztyn.pl##.footer-widget.col-sm-4:nth-of-type(1)
 papurazzi.pl##.socialeFooter
@@ -3990,7 +3994,6 @@ pompaspeak.pl##div.row:nth-of-type(2) > .span12 > .thumbnails > li.span3:nth-of-
 pompaspeak.pl##div.row:nth-of-type(2) > .span12 > .thumbnails > li.span3:nth-of-type(4) > .thumbnail
 pompateam.pl##div.col-sm-5.col-md-5.col-lg-5:nth-of-type(4)
 ponadograniczeniami.org#?#.et_pb_section:-abp-contains(Bądź z nami na bieżąco)
-popbookownik.pl##.td-footer-instagram-container
 popkulturysci.pl##.awac-wrapper
 popvinyl.pl##.bg-instagram.btn
 porabka.pl##[id^="right-slider0"]
@@ -5016,6 +5019,7 @@ upominki24.pl##.item-16.item > .in > .description > p > a[href="https://www.face
 urania.edu.pl##a[href="https://www.facebook.com/UraniaPA"]
 urania.edu.pl##a[href="https://www.instagram.com/Urania1919"]
 urania.edu.pl##p > a[href="https://twitter.com/UraniaPA"]
+urbanek.com.pl###menu-item-492
 urbanforms.org##.footer-info > div > .link-small > li:nth-of-type(3)
 urbnews.pl##.footer-1
 urbnews.pl##.sb-widget:nth-of-type(3)
@@ -5238,6 +5242,7 @@ wszystko.pl##.sm-iblock.like
 wtd.up.poznan.pl###block-block-14
 wtp.waw.pl##.home-changes-facebook
 wtp.waw.pl##.home-social-media > li > a:not([href$="/feed/"])
+www.adobe.com##footer #gnav_709
 www.aligato.pl##.soc-link
 www.astar.czest.pl##.tdm-social-wrapper
 www.astar.czest.pl#?#td_block_title.td_block_wrap > .td-block-title > .td-pulldown-size:-abp-contains(Obserwuj nas)
@@ -5562,6 +5567,7 @@ z-hotel.com###menu-item-868
 ||dlahandlu.pl/images/2015/icons/fb.png
 ||dobredrzwi.net.pl/galleries/fb.png
 ||doktormarchewka.com/wp-content/uploads/2016/01/icon-cam.png
+||dom.pl/wp-content/themes/nowydom.pl/img/icon-5.png
 ||doxa.fm/wp-content/plugins/sn-facebook-like/js/retioSlider.min.js
 ||drogeriejasmin.pl/images/img/insta-icon.png
 ||dvbsklep.pl/public/assets/ico-yt.png
@@ -5778,6 +5784,7 @@ z-hotel.com###menu-item-868
 ||sportplaza.pl/user_files/images/ikona-stopka-6.png
 ||sportplaza.pl/user_files/images/ikona-stopka-7.png
 ||stalko.net.pl/obrazki/image/fb.jpg
+||staszekigraszkowski.pl/images/icons/facebook50.png
 ||static.abstore.pl/design/accounts/steven/img/bazowy/instagram*.png
 ||static.moliera2.com/data/*/insta*.jpg
 ||static.whatshelp.io/widget-send-button/js/init.js
@@ -6069,6 +6076,7 @@ youtube.com#@##secondary-links
 @@||start.me/packs/media/images/google-icon-$image
 @@||static.westwingnow.pl/bella/Svgs-Pinterest.bundle.*.js
 @@||wielkopolska.tv/wp-content/plugins/*/content/$image
+@@||www.instalki.pl/images/newsy/06-2020/facebook_logo_black.jpg$image,domain=www.instalki.pl
 @@||zapytaj.onet.pl/images/fb-login-btn.png$image,domain=zapytaj.onet.pl
 @@||zaufanatrzeciastrona.pl/wp-content/plugins/subscribe-connect-follow-widget/images/32px/rss.png
 !
