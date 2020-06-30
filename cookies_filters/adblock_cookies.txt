@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.6.30.0
-! Last modified: Tue, 30 Jun 2020, 15:00 UTC+02
+! Version: 2020.6.30.1
+! Last modified: Tue, 30 Jun 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.6.30.0 aktualizacja: wto, 30 cze 2020, 15:00 UTC+02
+! v.2020.6.30.1 aktualizacja: wto, 30 cze 2020, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -39,6 +39,7 @@
 4people.pl,emilbus.com.pl,marketingdlaludzi.pl###window_4cookies
 24jgora.pl###myModal_cookie
 24opole.pl###div_cookie_accept
+24opony.pl,inopony.pl##.easyNotificationBck
 40latki.pl###noty_bottom_layout_container
 40ton.net,aidcom.eu,axeprim.eu,babi-kacik.eu,baranowscy.eu,biblioteka-radkow.eu,blog.spacetronik.eu,capslook.eu,dorastajznami.org,dronefilmfestival.eu,dziennikarz24.eu,dzwola.eu,gorliceiokolice.eu,hazex.eu,kielczewo.eu.org,logopeda-lodz.eu,magnapolonia.org,mebloteka.eu,miedzyrzecz.biz,naklo.fm,naziemna.info,newsrm.tv,nowy-sacz.info,oszczedzarka.co.uk,pabianice.tv,perfumyfm.biz,piaseczno.eu,polako.eu,radioftb.net,rozmowy.eu,setcomp.net,settlersonlinewiki.eu,showmag.info,skwerwolnosci.eu,skymaster.de,sochaczew24.info,sp8obe.eu,szpitalepomorskie.eu,tyflopodcast.net,urbanium.eu,ustka24.info,zasiedzenie.net###catapult-cookie-bar
 60sekund.tytan.pl,airdron-polska.pl,defra.pl,denique.pl,komputerytriton.pl,lucatel.pl,mckplonsk.pl,medisept.pl,paralympic.org.pl,scottiego.com,serialowa.pl,szymoszkowa.pl##.popmake-overlay[data-popmake*="cookies"]
@@ -285,6 +286,7 @@ bieganski.org,grupaazoty.com,requiem-records.com##.cookies_kontener
 biegniepodleglosci.pl###cf-cookie-banner
 bielsko.info##.cookie_policy
 bierhalle.pl###rstbox_5, #overlay_rstbox_5
+bierhalle.pl###rstbox_15
 bigstar.pl##ma-cookies-law-info
 biker.wroclaw.pl###cookies_apl
 bike-parts-honda.pl,vanced.app###cookieConsent
@@ -631,7 +633,7 @@ egrafik.pl###cookies1
 eis.edu.pl,nadrodze.info,ortografiadladzieci.pl,tapenda.pl###ciacha
 eitc.online###cookiesbaner
 ekko.com.pl###messagePo
-ekliniki.pl,sklepbiegacza.pl,znak.pl##body > div[style]:not([id]):not([class]):nth-of-type(1)
+ekliniki.pl,go-market.pl,sklepbiegacza.pl,znak.pl##body > div[style]:not([id]):not([class]):nth-of-type(1)
 ekobud.com.pl###cookieLayer
 ekocell.pl###noticeLayer, #darkBg
 ekoenergy.org###cp_popup
@@ -648,6 +650,7 @@ elektroinstalacje.info,suchacz.eu###cookie-control
 elektroniksc.com.pl,motocykle-krakow.pl##.tpl-cookie-info-bar-widget
 elektroonline.pl###ccc-state
 elektrozysk.pl,fajka24.pl,krups.com.pl,laznianowa.pl,linuxportal.pl,lovela.pl,lstsoft.com.pl,magazynpracy.pl,matoga.com.pl,metro2033.pl,mjm.com.pl,mocnopomocni.pl,mol.pl,motonotes.pl,nano-carbon.pl,noclegi24h.pl,oferia.pl,offsklep.pl,personnelsolutions.pl,piekielni.pl,pis.org.pl,polomarket.pl,popkorn.pl,quer.pl,radiofama.com.pl,rckik.poznan.pl,reedukacja.pl,salonroman.pl,sanprobi-superformula.pl,siemianowice.pl,sklepbiegowy.com,sklepkoszykarza.pl,stopwariatom.pl,studentpotrafi.pl,swiat-agd.com.pl,szyj.pl,tge.com.pl,vas.com.pl,westgate.com.pl,wszystkotujest.pl,zgodafc.pl##body > div[style]:not([id]):not([class])
+elektro.info.pl##.zgody-popup
 elevensports.pl##.cookieNotice
 elita-magazyn.pl,profitechnika.pl,sadnowoczesny.pl,topagrar.pl,tygodnik-rolniczy.pl,warzywaiowoce.pl##.terms-cookies
 elka.pl,elka.tv,miedziowe.pl,miedziowe.tv###RODOZgoda
@@ -1040,7 +1043,6 @@ infostrefa.com,pap.pl###rodoWrapper
 info-car.pl##app-accept-cookies
 info-instal.com,kokardka.eu,pbspolska.eu##.wpgdprc-consent-bar.wpgdprc
 inksystem.pl##.fixed_bottom
-inopony.pl##.easyNotificationBck
 inoreader.com##.landing_promo_banner_top
 inpay.pl##.ckcontent
 inpoland.net.pl##.inpoland-privacy, .inpoland-modal-background
@@ -1078,6 +1080,7 @@ jak-ksiegowac.pl###message_wrap
 janssenmed.pl###eu-cookie-compliance-modal
 japierpapier.pl,popbookownik.pl##.wph-modal
 jarocin.poznan.lasy.gov.pl##div#aui_3_2_0_1203
+jawor24h.pl##.toast
 jazzfestiwal.kck.com.pl###system-message > .fade.message.notice > ul > li
 jazzsoul.pl,ksiegarnienaukowe.pl###globalMessage
 jcubic.pl##.cookie-baner
@@ -1571,6 +1574,7 @@ panasonic.com###notescookies
 panasonic.pl##div#CP_Layer
 pandahurt.pl##.panda_cookies_accept
 paneleogrodzeniowe-treza.com###treza-cookies
+papajohns.pl###app > div > .Layout_theme_primary > footer ~ div[style]
 pap.pl,popoznaniu.pl,stat.gov.pl,warszawa-pragapoludnie.sr.gov.pl###divcook
 parafiakomprachcice.eu###spu-570, .spu-bg
 parfumclub.pl##.gmt_gdpr
@@ -2273,7 +2277,7 @@ zysk.com.pl###pageUpperInfo
 /libraries/js/jquery.tipsy.cookie.js$domain=kierunkowy.com
 /pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
 /pp-t-a-c.js$domain=bmi-online.pl|dieta.pl|domzdrowia.pl|fabrykasily.pl|fora.pl|forum-kulturystyka.pl|jestemfit.pl|listastron.pl|najlepsze.net|odkrzychadoronaldo.pl|swistak.pl|top-100.pl|topka.pl|toplista.info|toplista.pl|trizer.pl
-/privacy/popup.js$script,domain=cdaction.pl|pcformat.pl
+/privacy/popup.js$script,domain=bauer.pl|cdaction.pl|pcformat.pl
 /rhododendron/css/rhododendron-popup.css$domain=abctygodnik.pl|wpolsce.pl
 /rodo-agreement-popup/rodo-agreement-popup.min.js$domain=gremimedia.pl|rpkom.pl|zw.com.pl
 /whcookiesutf.js$domain=apteka-vita.eu|pl
