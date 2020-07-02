@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.1.0
-! Last modified: Wed, 01 Jul 2020, 19:00 UTC+02
+! Version: 2020.7.2.0
+! Last modified: Thu, 02 Jul 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.1.0 aktualizacja: śro, 01 lip 2020, 19:00 UTC+02
+! v.2020.7.2.0 aktualizacja: czw, 02 lip 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1533,10 +1533,8 @@ ckzamek.pl##li.nav-up__item--square.nav-up__item:nth-of-type(4)
 ckziu.gliwice.pl,epione.pl,nowywyszkowiak.pl,sklep.inspirello.pl,soniadraga.pl###FacebookWidget
 ckz.pl##a[href="#"]:nth-of-type(n+2):nth-of-type(-n+3) > .use-hover.shortcode.icon, div[id*="wpv-column-"] > p > a[href="#"]:nth-of-type(1) > .use-hover.shortcode.icon
 claresa.pl##.boxGrzesSocial
-clevo-computer.com##.googlepluslink
-clevo-computer.com##.instagramlink
-clevo-computer.com##.whatsappbadge
 clevo-computer.com##a[id].kplngisd-button:not(#kplngisd-mail-button)
+clevo-computer.com##.googlepluslink, .instagramlink, .whatsappbadge
 click2go.pl#?#.fl-col-has-cols.fl-col-small.fl-col > .fl-node-content.fl-col-content:-abp-contains(Social Media)
 clineo.pl##.uk-flex-middle.uk-flex > .icon-facebook_icon
 clover.net.pl##footer > div > .columns > .column:nth-of-type(3) > .shb-footer-menu-label
@@ -1557,6 +1555,7 @@ comarch.pl##.sector-footer__definition-list--social-media
 comparic.pl##a[href="https://twitter.com/comparic"], .sfm-has-child-menu.sfm-menu-item-301294 > a[href="#"], .widget_text.widget.td_block_template_1:nth-of-type(5)
 comparic.pl#?#.g-single:-abp-contains(Dołącz do naszej grupy)
 compensa.pl##.footer div.footer__members-item:nth-of-type(n+6):nth-of-type(-n+7), .footer-container > .container-fluid > .row > div.col-xs-12:nth-of-type(3)
+computerworld.pl##.navbar-right.nav > li.nav-item:nth-of-type(n+2):nth-of-type(-n+5)
 computer-alliance.pl##a[href="https://www.facebook.com/computer.alliance.ltd/"]
 comtv.pl,dell24.pl,dlabydgoszczy.pl,katowicetv.eu,mediasystem-tdi.pl,nieprzegap.com,polskanamorzu.pl###musli
 com.web.silcare.com###ue + div.limpad.toppad.w3-row:nth-of-type(8) > div > p
@@ -6067,7 +6066,7 @@ youtube.com#@##secondary-links
 @@/dynamic_content/*_icon_google_play$image,domain=pilot.wp.pl
 @@/googleplus-$image,domain=wirtualnemedia.pl
 @@/images/microblog/emailButton.$image,domain=krotoszyn.pl|zlotoryjska.pl
-@@/images/*facebook.jpg$domain=filoma.org|instalki.pl
+@@/images/*facebook.jpg$domain=filoma.org
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
 @@/modules/mod_je_social/images/social.png$image,domain=roland-gazeta.pl
 @@/social_media_$domain=mazury.travel
@@ -6079,6 +6078,7 @@ youtube.com#@##secondary-links
 @@||facebook.com/v2.0/plugins/like.php$subdocument,domain=e-biznes.pl
 @@||google.*/logos/*/share-sprite.png$image,~third-party
 @@||icons.*.com/icons/*/facebook-icon.png$image,domain=konto.onet.pl
+@@||instalki.pl/images/newsy/$image,domain=www.instalki.pl
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
 @@||meczyki.pl/images/twitter_blank.gif
@@ -6089,7 +6089,6 @@ youtube.com#@##secondary-links
 @@||start.me/packs/media/images/google-icon-$image
 @@||static.westwingnow.pl/bella/Svgs-Pinterest.bundle.*.js
 @@||wielkopolska.tv/wp-content/plugins/*/content/$image
-@@||www.instalki.pl/images/newsy/06-2020/facebook_logo_black.jpg$image,domain=www.instalki.pl
 @@||zapytaj.onet.pl/images/fb-login-btn.png$image,domain=zapytaj.onet.pl
 @@||zaufanatrzeciastrona.pl/wp-content/plugins/subscribe-connect-follow-widget/images/32px/rss.png
 !
