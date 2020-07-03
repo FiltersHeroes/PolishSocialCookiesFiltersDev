@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.2.1
-! Last modified: Thu, 02 Jul 2020, 23:00 UTC+02
+! Version: 2020.7.3.0
+! Last modified: Fri, 03 Jul 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.2.1 aktualizacja: czw, 02 lip 2020, 23:00 UTC+02
+! v.2020.7.3.0 aktualizacja: pią, 03 lip 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -961,8 +961,8 @@ alpro.com###ela_header_socialNav, #ela_footer_socialNav
 altenberg.pl##.youtube_link, .instagram_link
 alternatywne.pl,djoles.com,megataxi.pl,twojaanglia.eu,wochenblatt.pl###fpw_widget
 aluprof.eu##.sidebar__title, li.sidebar__link:nth-of-type(-n+3)
+al.to,combat.pl,x-kom.pl##footer a[href*="facebook.com"], footer a[href*="instagram.com"], footer a[href*="youtube.com"], footer a[href*="twitter.com"]
 al.to,x-kom.pl##footer.social > .row h4
-al.to,x-kom.pl##footer[class*="footer"] > div[class]:nth-of-type(2) > div[class]:nth-of-type(1) > div > div > a[class][target="_blank"]:not([id])
 am76.pl##.container.shop-footer .row > .text-center.col-md-6 > a > .fa-stack > .fa
 amberexpo.pl##body > div[style]:nth-of-type(n+3):nth-of-type(-n+4) > .handle_fb
 amica.pl##.amica-menu-social-media > a, .amica-footer-social-media-links > a
@@ -2269,6 +2269,7 @@ gazetapowiatowa.pl##.box-author
 gazetapraca.pl##.external_link_other[href="https://www.facebook.com/MGsolutionsapt/"]
 gazetaprawna.pl##a[href="https://www.facebook.com/gazetaprawnapl"], a[href="http://plus.google.com/+gazetaprawna"], a[href="http://twitter.com/gazetaprawnapl"], .iconSocial, .socialIco
 gazetaspoleczna.pl##.right > li:nth-of-type(3)
+gazeta-mosina.pl###short_code_si_icon > a:not([href*="/rss"])
 gazeta-olawa.pl#?#.vc_row-fluid.wpb_row.vc_row > .vc_column_container.wpb_column:-abp-contains(ZNAJDŹ NAS)
 gazeta-optyka.pl##div.grid-v.width100.grid-box:nth-of-type(4) > .deepest.mod-box.module
 gazetka.be##a[href="http://www.facebook.com/Gazetka.be"]
@@ -4524,6 +4525,7 @@ sklep.milicon.eu###fbBox, #instaBox
 sklep.motormind.pl##.fbico
 sklep.orkan-tactical.pl###social > a:nth-of-type(-n+4)
 sklep.platinet.pl##div.fbox:nth-of-type(1) > .t, div.fbox:nth-of-type(1) > .t2
+sklep.polska-zbrojna.pl##footer > div > .row > div.col-md-4:nth-of-type(3)
 sklep.powermat.pl###social > .list-group > h5 > a[href="#"]
 sklep.sizeer.com##.b-footer_infoSocial
 sklep.suez.pl##div.col-xs-1.col-md-1:nth-of-type(n+2):nth-of-type(-n+4) > img
