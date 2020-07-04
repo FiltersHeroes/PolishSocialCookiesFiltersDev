@@ -2223,7 +2223,7 @@ lepszytrener.pl##.social_black.btn
 lesniow.pl##.socialTabs-tab--facebook
 lessmess.storage##.widget-twitter.slideout-widget, .widget-gplus-2.slideout-widget, .widget-facebook-2.slideout-widget
 letni.net##.oceanwp-social-menu
-lexus-lodz.pl##.klgzcO.sc-bwzfXH.eEkqxO.TopSegment__Wrapper-e5f0wf-0 > .loYbST.sc-htpNat > a
+lexus-lodz.pl##a .fa-twitter
 lex.pl##.contact-section-block-3
 leyraa.blogspot.com###HTML2 center > a:nth-of-type(n+2):nth-of-type(-n+7):not([href*="maxmodels.pl"]) > img
 lfspareparts724.pl##.footer-sitemap > .row > div.col-lg-3:nth-of-type(4)
@@ -4625,7 +4625,8 @@ zakumaj.pl##a[href="https://www.facebook.com/zakumajpl"]
 zakupycodzienne.carrefour.pl##button[class] ~ div[class] > div > div > a[class][target="_blank"]:empty:nth-of-type(-n+5)
 zakupywus.com##a[href^="https://www.facebook.com/Zakupy-w-US-"]
 zalajkowane.pl##.pu_facebook_widget
-zalando-lounge.pl#?#div.Section_horizontal_2Vo2n:-abp-contains(Znajdziesz nas na)
+zalando-lounge.pl#?#div[class*="Section_horizontal_"]:-abp-contains(Znajdziesz nas na)
+zalando-lounge.pl#?#div[class*="Footer_section_"]:-abp-has(div:-abp-contains(/^Znajdziesz nas na$/))
 zalando.pl##a[href="https://www.facebook.com/zalando.polska"]
 zalando.pl##.z-navigation-footer_subFooterIcons.z-navigation-footer_subFooterIconsSocial
 zamalozarabiam.pl###fb_tab
