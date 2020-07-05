@@ -201,3 +201,9 @@ storytel.pl###cookieWall
 bydgoskakartamiejska.com.pl,urbancard.pl,procognita.pl###cookie_directive_container
 !forum.dobreprogramy.pl,wp.pl#?#body > div[class]:not([id]):-abp-contains(Kliknij tutaj i zmień swoje ustawienia prywatności)
 !lajfy.com##.fucking-eu-cookies
+
+!legia.com###cook-wrapper
+!legia.com#?##root > div > #real-content > div[class^="jss"]:last-of-type:-abp-contains(cookies)
+!pl.aptoide.com##.cookie-notification-holder
+!poki.pl#?#aside:-abp-has( > h2:-abp-contains(Uwaga))
+!poki.pl#?#aside:-abp-has( > p:-abp-contains(zgodę))
