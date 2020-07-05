@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.5.0
-! Last modified: Sun, 05 Jul 2020, 15:00 UTC+02
+! Version: 2020.7.5.1
+! Last modified: Sun, 05 Jul 2020, 19:01 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.5.0 aktualizacja: nie, 05 lip 2020, 15:00 UTC+02
+! v.2020.7.5.1 aktualizacja: nie, 05 lip 2020, 19:01 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -821,8 +821,9 @@ foto4u.pl,fotoprint.pl,smakizycia.pl,zoover.pl###info-bar
 fotojoker.pl##div#floatDiv
 fotokoc.eu##body > .coonfirm
 fotokurier.eu###pcUsingCookies
-fotonegatyw.com###fx-modal-1
+fotonegatyw.com,pclider.pl##.fx-wrapper-modal[id^="fx-modal-"]
 fotoportal.poznan.pl#?#.info-bar:-abp-contains(cookies)
+fototapetyxl.pl##.ui-widget.ui-dialog, .ui-widget-overlay
 franciszkanskie.pl##.cookie__container
 freestyle.abbott##header > .cookie
 freightlink.pl##.cookies__accept-cookies
@@ -1925,6 +1926,7 @@ solven.pl###cookies-alerts
 sonymobile.com##.fullbleed-response[data-module="sony-survey-client"][style]
 sosnowiec.pl###topBar_MainCover
 soundcloud.com##.announcements
+sp34.waw.pl##.clause-top
 specialized.com##.eu-cookie-wrap
 specshop.pl##.blockUI
 specto.com.pl##.cookie-notice-ui
@@ -2063,6 +2065,7 @@ tulodz.pl###modalCookies
 turio.com.pl##.cookie-info-dlg
 tuz.pl###for-cookies-container
 tvkaura.pl##.wrapper
+tvonline.vectra.pl###root > div > footer ~ div[class^="sc-"]
 tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvs.pl##.RodoNotyfication
 twitch.tv##.butterBar, .toast-manager__container
@@ -2258,11 +2261,6 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
-!legia.com###cook-wrapper
-!legia.com#?##root > div > #real-content > div[class^="jss"]:last-of-type:-abp-contains(cookies)
-!pl.aptoide.com##.cookie-notification-holder
-!poki.pl#?#aside:-abp-has( > h2:-abp-contains(Uwaga))
-!poki.pl#?#aside:-abp-has( > p:-abp-contains(zgodę))
 !
 !
 ! Specyficzne reguły blokujące
@@ -3312,6 +3310,7 @@ zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 @@/js/CookieInfo.js$script,domain=cyrk-zalewski.com.pl|porno720.pl|topschool.pl
 @@/js/jquery.cookie.min.js$domain=hotto.pl|moric.pl|pokatne.pl|rozklad-pkp.pl|rozklad.pkp.pl|telepizza.pl
 @@/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$domain=3dwpraktyce.pl|dermed.pl|ekstrastats.pl|escaperooms.pl|gazetabilgoraj.pl|ittechblog.pl|przegladbaltycki.pl|publolek.pl|rozterkistartuperki.pl|trendywturystyce.pl|tvs.pl|wypowiadamoc.pl|xboxarcade.pl
+@@/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$domain=gieldykryptowalut.pl
 @@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
 @@||coinroom.com/Modules/UI/Cookie/Cookie.js
 @@||pracatobie.pl/jscripts/cookieLaws.js
