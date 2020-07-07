@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.6.1
-! Last modified: Mon, 06 Jul 2020, 23:00 UTC+02
+! Version: 2020.7.7.0
+! Last modified: Tue, 07 Jul 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.6.1 aktualizacja: pon, 06 lip 2020, 23:00 UTC+02
+! v.2020.7.7.0 aktualizacja: wto, 07 lip 2020, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3285,6 +3285,7 @@ volcano.pl#@##cookiesModal
 ! Wyjątki
 allegro.pl,pikio.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
+electrolux.pl#@#.CookieConsent:not(body):not(html)
 epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not([id*="main"])
 eurogamer.pl#@##optanon:not(body):not(html)
 eurogamer.pl#@#.optanon-alert-box-wrapper:not(body):not(html)
