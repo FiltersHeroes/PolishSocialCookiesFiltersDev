@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.8.0
-! Last modified: Wed, 08 Jul 2020, 15:01 UTC+02
+! Version: 2020.7.8.1
+! Last modified: Wed, 08 Jul 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.8.0 aktualizacja: śro, 08 lip 2020, 15:01 UTC+02
+! v.2020.7.8.1 aktualizacja: śro, 08 lip 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -905,7 +905,7 @@ airbnb.pl#?#footer div > ul > li > span > a[target="_blank"]:-abp-has(svg)
 airly.eu##div[class^="social-bar__SocialIcons-"]
 airly.eu##[class^="footer__SocialLinks"]
 airly.eu#?#button[aria-label*="Floating"]:-abp-has([class*="social-bar__StyledShareIcon-"])
-airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,gls-group.eu,grene.pl,isl.pl,itaka.pl,karnet.krakow.pl,kwantowo.pl,lalorraine.pl,lexus-krakow.com.pl,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,niepodlegla.gov.pl,nowakonfederacja.pl,pap.pl,pingpong.bydgoszcz.pl,pogonszczecin.pl,rms.pl,skgd.pl,tczewska.pl,tvobiektyw.pl,tvswinoujscie.pl,wentylacja24.pl,wloclawek.pl##.youtube
+airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,braclowiecka.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,gls-group.eu,grene.pl,isl.pl,itaka.pl,karnet.krakow.pl,kwantowo.pl,lalorraine.pl,lexus-krakow.com.pl,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,niepodlegla.gov.pl,nowakonfederacja.pl,pap.pl,pingpong.bydgoszcz.pl,pogonszczecin.pl,rms.pl,skgd.pl,tczewska.pl,tvobiektyw.pl,tvswinoujscie.pl,wentylacja24.pl,wloclawek.pl##.youtube
 ajgroup-pros.pl##.SocialBoard
 ajprodukty.pl##.footer_social-container
 aju.pl,alekosmos.pl,alilove.pl,banita.travel.pl,blogs.opera.com,buslapidus.pl,jezykowasilka.pl,littletownshoes.com,moviesroom.pl,rytmynatury.pl,skgd.pl,skrivanek.pl,supermarket-online.pl,wei.org.pl,wnetrzeiogrod.pl,zaniczka.pl###custom_html-2
@@ -3069,6 +3069,7 @@ littletownshoes.com##.jr-insta-slider.widget
 lkscommerceconlodz.pl##.footer-socials-unit
 loando.pl##.footer p.text-center, .footer h5.text-center
 localspots.pl#?#.overlays > div:not([class*="marker"]) > div:nth-of-type(1):-abp-has(button[class*="share"])
+log4.pl###topContent > a[href="https://www.facebook.com/logistyczny4/"]
 lokalnatelewizja.pl##.icon-fa-youtube
 lokalnatelewizja.pl##.sidebar > div.widget:nth-of-type(15)
 loloki.pl##.social-icon-wrapper-ver-book-page
@@ -3432,7 +3433,7 @@ musclepower.pl###menu_banners3 .menu_button_wrapper:nth-child(-n+3)
 music99.pl##section:nth-of-type(1) > header > .fa-twitter.icon
 music99.pl###footer .contact > .icons
 musicinfo.pl###wysuwane .fb_iframe_widget
-music.apple.com##li[data-test-context-menu-option="sharing-option"] > div.context-menu > ul > li.context-menu__option:nth-of-type(-n+2)
+music.apple.com##[data-test-context-menu-option="sharing-option"] li.context-menu__option:nth-of-type(-n+2)
 mustasz.com##.contact > li:nth-of-type(-n+2)
 muszyna.pl##.footer-col-right > div.sp_size.footer-data-col:nth-of-type(2)
 mutyzm.org.pl##.circle.icon-social_facebook
@@ -4849,6 +4850,7 @@ telepolis.pl,tlp.is##.big-socials-facebook, .big-socials-twitter
 teleprank.pl##section.PageFooter-section:nth-of-type(2) > .PageFooter-title
 telewizjaleszno.pl##.vlog-actions-social-list.vlog-soc-menu
 telewizjarepublika.pl###menu-top > ul > li:nth-of-type(6), .mainpage-row:nth-of-type(9) > .mainpage-column-right > .bar
+telewizjarepublika.pl##.sm-twitter
 telewizjatvt.pl###menu-item-117, #menu-item-118, .ft_sc0.col-sm-4.col-md-15
 telewizja.us.edu.pl###bottom-content > #widgets
 telko.in##ul > li > .tip[data-tip="TELKO.in na Twiterze"], .social li:nth-of-type(2)
@@ -5409,6 +5411,7 @@ wypozyczalniafilmow.wordpress.com###tertiary > div.widget-area:nth-of-type(2)
 wypozyczalniafilmow.wordpress.com##.share-google-plus-1
 wyprzedaze.uk##li.ruby-menu-social:nth-of-type(8), .rightSidebar > div.cardBox.box:nth-of-type(4)
 wysokienapiecie.pl##.is-offset-1-desktop.column.footer__supplement
+wysokieobcasy.pl##.fbShare
 wysokiewibracje.pl##.pencidesign_facebook_widget
 wzielonej.pl##div > a[href="http://www.facebook.com/wzielonej"] > img
 wzielonej.pl##.footer-widget-area div:nth-of-type(2) tr:nth-of-type(3) > td:nth-of-type(2)
@@ -5941,6 +5944,7 @@ forum.shinden.pl##.sharePage.infoBlock.section > .secondaryContent, .social > a[
 gameplanet.onet.pl##.footer__socials, .header__socials, .social-bar
 gotowanie.onet.pl,magia.onet.pl###fb-panel
 gtaforum.pl###ipsLayout_sidebar.ipsLayout_sidebarright li.ipsBox.ipsWidget:nth-of-type(3), .iconButtons.ipsfocus_social
+interia.pl##.footer-socials
 interia.pl,pomponik.pl##.is-facebook.share-link
 istotne.pl###social_buttons, .icon_twitter, .icon_facebook, .icon_google_plus, .icon_youtube
 jbzd.cc,jbzdy.cc,jbzdy.co,jbzdy.com.pl,jbzdy.pl##.btn-send-messenger, .fb-like
