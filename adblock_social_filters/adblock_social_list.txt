@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.12.1
-! Last modified: Sun, 12 Jul 2020, 19:01 UTC+02
+! Version: 2020.7.13.0
+! Last modified: Mon, 13 Jul 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.12.1 aktualizacja: nie, 12 lip 2020, 19:01 UTC+02
+! v.2020.7.13.0 aktualizacja: pon, 13 lip 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2081,7 +2081,7 @@ e-neko.pl##.est-tab-type.est-content-slider
 e-pingpong.pl###flybutton
 e-podlogidrzwi.pl##.fb_logo
 e-podlogidrzwi.pl##.left.sidebarLeft > div.box:nth-of-type(6)
-e-security.com.pl,sita.pl##.fb_iframe_widget.fb-customerchat, .fb_customer_chat_bubble_pop_in
+e-security.com.pl,peryskop.studio,sita.pl##.fb_iframe_widget.fb-customerchat, .fb_customer_chat_bubble_pop_in
 e-siedlce.com,ewaipiotr.pl,klassikauto.pl###text-17
 e-sochaczew.pl##a[href^="https://plus.google.com/u/0/100895888893863910318/"]
 e-sochaczew.pl,wedkuje.pl##.col-lg-8
@@ -3839,7 +3839,7 @@ perfekcyjnawdomu.pl##div.bok.box2:nth-of-type(2), .blsdk-follow
 perfumyfm.biz###et-secondary-nav > .menu-item:nth-of-type(4)
 perfumyfm.biz###footer-info > span > a > img
 perwoll.pl#?#.component-meta-tiles > .row > ul > li:nth-of-type(1):-abp-contains(Instagramie)
-peryskop.studio##div.colelem > a.shared_content[title], div.colelem > a.shared_content[title] + a.shared_content
+peryskop.studio##a[href="https://www.facebook.com/peryskop.gdansk/"][id], a[href="https://instagram.com/peryskop.studio/"][id]
 petycjeonline.com###left_vertical_ad
 petycjeonline.com##.col-md-6:nth-of-type(2)
 pe.szczecin.pl##.social-icons-f > .fa-facebook-f
@@ -4310,6 +4310,8 @@ renee.pl##.store-contact-content > .social-content
 reporterzy.info##.socialDiv, .artFooter
 resinet.pl,wispol.eu##.slide_button, .media_ico
 resztamamy.pl##.fb-like-box-rm
+resztamamy.pl##.tm-footer-social-menu
+resztamamy.pl##.tm-icon-menu.uk-hidden-small.uk-panel > .uk-subnav > li:nth-of-type(-n+3)
 resztamamy.pl##.tm-instagram-pics
 retailnet.pl##.footer-widget-3
 retne.eu###header-all > header + a[style]
@@ -5036,6 +5038,7 @@ tygodnik.tvp.pl##.am-article__social
 tyna.info.pl###widget_sp_image-39
 typeofweb.com###tp_widget_recent_tweets-2, #text-2 > .widget-title
 tytus.edu.pl##a[href="https://www.facebook.com/Hr.Tytus/"]
+t-mobile-trendy.pl##.socialsArticle-twitter
 uap.edu.pl###footer #text-2
 uber.com,ubereats.com##a[href*="www.facebook.com/uber"], a[href*="twitter.com/uber"], a[href*="instagram.com/uber"], a[href*="linkedin.com/company/1815218"], footer div > a[href*="www.youtube.com/channel"]
 ubieranki.eu##.socialMini
@@ -5561,6 +5564,7 @@ zycieczestochowy.pl##.top-icons > li:nth-of-type(3)
 zyciestolicy.com.pl##.hm-share
 zyciezpsem.pl##.social_nav
 z-hotel.com###menu-item-868
+!peryskop.studio##div.colelem > a.shared_content[title], div.colelem > a.shared_content[title] + a.shared_content
 ! partyflowers.pl##.astra-widget-social-profiles
 !
 !
