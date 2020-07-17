@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.17.0
-! Last modified: Fri, 17 Jul 2020, 15:00 UTC+02
+! Version: 2020.7.17.1
+! Last modified: Fri, 17 Jul 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.17.0 aktualizacja: pią, 17 lip 2020, 15:00 UTC+02
+! v.2020.7.17.1 aktualizacja: pią, 17 lip 2020, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2345,6 +2345,7 @@ zysk.com.pl###pageUpperInfo
 ||lenovozone.pl/frontend/js/sweetalert.min.js$script
 ||lovekrakow.pl/ajax/rodo
 ||lubiegrac.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
+||mojedane.edipresse.pl/tcf/cookie.js$script,domain=pl
 ||msecnd.net/Unilever/panels/generic/PanelPrzepisy.htm?consent$subdocument
 ||muza.com.pl/modules/rodoinfo/views/js/remodal.js$script,domain=muza.com.pl
 ||newonce.net/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
@@ -3279,6 +3280,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
 ! Bugi Kiboke
+doleasingu.com#@#body > #privacy[style*="display"]
 gadu-gadu.pl#@#.pum[data-popmake*="cookie-policy"]
 pl#@##catapult-cookie-bar
 pl#@#.ccc-widget:not(body):not(html)
