@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.18.0
-! Last modified: Sat, 18 Jul 2020, 19:00 UTC+02
+! Version: 2020.7.19.0
+! Last modified: Sun, 19 Jul 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.18.0 aktualizacja: sob, 18 lip 2020, 19:00 UTC+02
+! v.2020.7.19.0 aktualizacja: nie, 19 lip 2020, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -96,7 +96,7 @@ ago.pl,askopolska.pl,indigo-nails.com,lodz.pl,mamoo.pl,papercast.pl###banner_coo
 agropolska.pl,miastograf.pl##.ui-dialog[aria-describedby], .ui-widget-overlay
 agrozakupy.pl###ms-cookie-policy
 agro-bis.eu,eldom.eu,iletutego.eu,prawniktorun.eu###cookie-alert
-agusto.pl###st_notification_3
+agusto.pl,etroniks.pl,happytime.com.pl,mebags.pl,trojmiejskaperfumeria.pl##div[id^="st_notification_"][style*="display"]
 ag-complex.com.pl##.cookie__window
 ahrefs.com###iubenda-cs-banner
 airbnb.pl##div[data-veloute="cookie-disclaimer"]
@@ -692,7 +692,6 @@ etam.pl##.cookiesettingsmanager
 eteacher.pl,ettoi.pl,speedtest.com.pl,speedtest.pl,starmann.pl,wirtualis.pl###info_container
 eternityproject.pl##div.newsbar
 etipolam.com.pl##.ico-wrapper
-etroniks.pl,trojmiejskaperfumeria.pl###st_notification_1
 etsy.com##div[data-gdpr-consent-prompt], div[data-etsy-promo-cookie-expires]
 ettoi.pl,wirtualis.pl###info_content
 eura7.com,wzorcowniawloclawek.com###cookie-info-layer
@@ -984,6 +983,7 @@ hokej.net###cookies_box
 holidaycheck.pl###infoCloseableBoxContainer
 homebrewing.pl##.rodo-popupbox
 home.kpmg##.privacy-container
+home.pl##footer ~ div[class^="sc-"]
 home.pl,idea4you.eu,koty24.pl,psy24.pl###box_policies
 hondanews.eu###cookiesPolicyBanner, #cookies-cover
 hopea.eu,kalendarzrolnikow.pl,kpcen-torun.edu.pl,lpwiksa.pl###colorbox, #cboxOverlay
@@ -1306,7 +1306,6 @@ mcdonalds.pl###cookies_message_info, .cookie-messages
 mckp.uj.edu.pl###cookie_filter
 mc-2.pl###_COOKIE-PPN
 mdkgal.edu.pl##[data-nclose-cookie]
-mebags.pl###st_notification_2
 mebleciesielski.eu##.email-signup-fixed
 mebleswiata.eu##.obligation_info
 mediamarkt.pl###site_container > .clearfix
