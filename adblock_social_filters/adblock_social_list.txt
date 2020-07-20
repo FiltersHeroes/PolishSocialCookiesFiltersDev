@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.19.1
-! Last modified: Sun, 19 Jul 2020, 23:00 UTC+02
+! Version: 2020.7.20.0
+! Last modified: Mon, 20 Jul 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.19.1 aktualizacja: nie, 19 lip 2020, 23:00 UTC+02
+! v.2020.7.20.0 aktualizacja: pon, 20 lip 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -5273,7 +5273,7 @@ winiary.pl##a[href="https://www.facebook.com/Winiary"]
 winiary.pl##a[href="https://www.instagram.com/winiary"]
 wins.pl#?#div.mb-5.styled-box:-abp-has( > .social-container)
 wiocha.pl##.absurdsharediv, img[src="http://img.wiocha.pl/img/facelog.jpg"]
-wirtualnemedia.pl##.middle-icon, .last-menu.menu-footer-3
+wirtualnemedia.pl##.header .icon-right .middle-icon > *:not(span):not([href="/rss.html"]), .menu-footer-3.last-menu
 wiszniowka.pl##.instagram-section, a[href="https://www.facebook.com/Wiszniowka/"]
 witow-ski.pl##.wk-icon-facebook, .uk-icon-button
 wittchen.com##.instabox-naglowek
@@ -5585,6 +5585,7 @@ zuch.media##.fw-icon-title-top.fw-icon-title
 zuch.media##.widget_fw_instagram.fw-widget-instagram
 zuch.media#?#.fw-section-position-back.auto.fw_theme_bg_color_1.fw-main-row-custom:-abp-contains(BĄDŹMY W KONTAKCIE)
 zuzelend.com###login_facebook
+zwierciadlo.pl##.post.boksborder > a.boxappla:nth-of-type(1)
 zwierciadlo.pl##.social > .afb, .social > .ainsta, .social > .ayt
 zwolen24.pl##div > a > img[src="images/index_t.png"], div > a > img[src="images/index_f.png"]
 zwrotzalot.pl##a[href^="https://www.facebook.com/zwrotzalot/"]
@@ -6172,6 +6173,7 @@ youtube.com#@##secondary-links
 @@||start.me/packs/media/images/google-icon-$image
 @@||static.westwingnow.pl/bella/Svgs-Pinterest.bundle.*.js
 @@||wielkopolska.tv/wp-content/plugins/*/content/$image
+@@||wirtualnemedia.pl/new_wm_view/img/social/twitter.png$image,domain=www.wirtualnemedia.pl
 @@||zapytaj.onet.pl/images/fb-login-btn.png$image,domain=zapytaj.onet.pl
 @@||zaufanatrzeciastrona.pl/wp-content/plugins/subscribe-connect-follow-widget/images/32px/rss.png
 !
