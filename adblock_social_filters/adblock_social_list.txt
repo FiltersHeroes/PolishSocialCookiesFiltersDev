@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.20.0
-! Last modified: Mon, 20 Jul 2020, 19:00 UTC+02
+! Version: 2020.7.22.0
+! Last modified: Wed, 22 Jul 2020, 15:01 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.20.0 aktualizacja: pon, 20 lip 2020, 19:00 UTC+02
+! v.2020.7.22.0 aktualizacja: śro, 22 lip 2020, 15:01 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1860,6 +1860,8 @@ dzieckowpodrozy.pl###sidebar-left > #text-6
 dziejesienapodkarpaciu.pl##.col-md-3.widget-col:nth-of-type(2)
 dzieje.pl##.youTube, .m5 > .block-title
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl#?##narzedzia:-abp-has( > .facebook:only-child)
+dziennikprawny.pl##footer > div.container > div.row > div[class]:nth-of-type(3)
+dziennikprawny.pl#?#.list-inline:-abp-has( > .list-inline-item > .btn-social)
 dziennikwschodni.pl##span.single-news__meta-button:nth-of-type(1)
 dziennikwschodni.pl##.read-us-widget__social-item:nth-of-type(-n+2), div.footer__group:nth-of-type(4)
 dziennikzachodni.pl#?#div.component.componentsPromotionsPromoted:-abp-has( > h2[class*="header"]:-abp-contains(Bądź na bieżąco i obserwuj))
@@ -6140,6 +6142,7 @@ spece.it#@#[title^="Follow us on "]
 tabletowo.pl#@#.social_icon
 tabletowo.pl#@#.top-social
 tajemnice-swiata.pl#@#.mh-social-icons
+trojmiasto.pl#@#.share-icons
 tvn24bis.pl#@#.button_email
 t-mobile.pl#@#.socialMedia
 uroda.in#@#.fa-facebook-square
