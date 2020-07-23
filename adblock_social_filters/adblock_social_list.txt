@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.22.0
-! Last modified: Wed, 22 Jul 2020, 15:01 UTC+02
+! Version: 2020.7.23.0
+! Last modified: Thu, 23 Jul 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.22.0 aktualizacja: śro, 22 lip 2020, 15:01 UTC+02
+! v.2020.7.23.0 aktualizacja: czw, 23 lip 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1150,6 +1150,7 @@ aztecas.eu##.stopka > div[class*="stopka2"] > a:not([href$="/feed/"])
 azure.microsoft.com##nav.medium-3.column
 az.pl##div.o-page-footer__column:nth-of-type(3) > ul.o-footer-list:nth-of-type(1)
 b2btrade.eu###footer > div:nth-of-type(6) > a.left
+b2b.metal-bud.eu##.social-media-ui
 b365.pl###box_custom36
 babi-kacik.eu,medbestshop.eu,webinsider.pl,wroclife.pl##.widget_monarchwidget
 babyfizjo.pl,kdi.pl,wkom.pl,znadniemna.pl###wkomimg > a
@@ -1499,7 +1500,7 @@ chamskie.pl##.widget-fanbox
 change.shop.pl,elektro-outlet.net,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
 change.shop.pl,multibook.pl,starecegly.com###box_facebooklike
 channel9.msdn.com##.reddit
-channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,echotygodnik.info,filmaster.com,galeria-pestka.com,gls-group.eu,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,nerwica.com,pl.futbol24.com,podstacja.com,radiomalbork.fm,sadzonkiborowki.com,siatka.org,slonskyradio.eu,stoprocent.com,swmarcin-jarocin.com,wejherowo24.info,woblink.com,zvami.tv##.facebook
+channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,echotygodnik.info,filmaster.com,galeria-pestka.com,gls-group.eu,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,krokdozdrowia.com,nerwica.com,pl.futbol24.com,podstacja.com,radiomalbork.fm,sadzonkiborowki.com,siatka.org,slonskyradio.eu,stoprocent.com,swmarcin-jarocin.com,wejherowo24.info,woblink.com,zvami.tv##.facebook
 channel9.msdn.com,chemik-police.com,debica24.eu,domeny.pl,fakt.pl,gremont.pl,markoweobuwie.com.pl,newslubuski.pl,nowakonfederacja.pl,sejm.gov.pl,siatka.org,tvn24bis.pl##.twitter
 charaktery.eu##.pdf_link
 chataalelipa.pl##.cal-social-media
@@ -1810,6 +1811,7 @@ dreamjump.pl##.footer > div > .row > .icons > span, .footer > div > .row > .icon
 dreamlandstory.com###section-4 > .container > .cta > a > img, .container > .bannerButtons > a:nth-of-type(3)
 dreamland.net.pl###sidebar-moduly > a > img[src="gfx/fb.png"]
 dreamtours.pl##.footer-container ul:nth-of-type(1) > .col3
+drerowery.pl##.login-bar > a > img[src^="data:image/svg+xml;base64,"]
 dressinn.com##.redesPie:nth-of-type(4)
 drewniaki.com.pl##.userSocial
 drewnianaroza.pl###fixed-social
@@ -2924,6 +2926,7 @@ kresy.com###lewa > ul:nth-of-type(2)
 kresy.pl##.uniset-mm-icon-facebook, .uniset-mm-icon-twitter
 krknews.pl##.widget_facebook_page_plugin_widget
 krobia.pl##.yt_button
+krokdozdrowia.com##.pinterest
 krokdozdrowia.com##.floating.share > .buttons, [class*="amp-social-share"]
 krokdozdrowia.com##.widget-social-networks
 krolikarnia.mnw.art.pl###footer-page .description-block p > a:nth-of-type(n+2) img
@@ -3266,6 +3269,7 @@ merlin.pl##.b-footer-icon-facebook
 merlin.pl##.grid__col--quarter.b-footer__in-touch.grid__col > .b-footer__title
 mesco.com.pl##a[href="https://www.linkedin.com/company/1967436/"]
 mesco.com.pl##.gora-dane > a[href="https://www.facebook.com/mescoansys/"]
+metalbud.com#?#.content-box:-abp-has( > .container > .newsletter-button)
 metaltech.com.pl###top_bar > .social > .googleplus
 meteo.org.pl##.f > div:nth-of-type(2), .s
 metrobikes.pl###box_wce_social
@@ -4512,6 +4516,7 @@ silowniezewnetrzne.pl##.custom-fb
 silvermet.eu##.fblbLeft
 sip.lex.pl##.wk-footer-nav-list-social
 sirt.pl##.social > a:not(:last-child)
+sissel.com.pl###info-header > span.info:nth-of-type(n+4):nth-of-type(-n+5)
 siteimpulse.com##.col-md-4.cols-5:nth-of-type(2)
 siteimpulse.com##.social > li:not(.email)
 sitobiznes.pl##.soc-googleplus
@@ -6108,6 +6113,7 @@ kingowiec.pl#@#.socialmedia
 komputerswiat.pl,onet.pl,realmadryt.pl,tvn24bis.pl#@#.social-container
 kosapopatelni.pl#@#.bdaia-social-io
 kosapopatelni.pl#@#.widget-social-links
+krokdozdrowia.com#@##social-networks
 lublin112.pl#@##social-icon
 malygosc.pl,wykop.pl#@#.social-list:not(html):not(body)
 media.upc.pl#@#.bg-twitter
