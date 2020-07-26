@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.25.2
-! Last modified: Sat, 25 Jul 2020, 23:00 UTC+02
+! Version: 2020.7.26.0
+! Last modified: Sun, 26 Jul 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.25.2 aktualizacja: sob, 25 lip 2020, 23:00 UTC+02
+! v.2020.7.26.0 aktualizacja: nie, 26 lip 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1964,6 +1964,7 @@ elwico.com.pl,imn.gliwice.pl,sklep.polbit.com##.kac-sm-block
 emag24.pl##.belt-ico-fb
 emaga.eu###social > a:not([href*="allegro.pl"]):not([href*="/newsletter/add"])
 emarketing.pl##.footer-widgets > #black-studio-tinymce-13
+embros.pl###footer3 > div > .row > div:nth-of-type(4)
 embryolisse.pl##div > div > a[href="https://embryolisse.pl/blog/"], #convertisinstagram
 emisja.tv##.header-signbtn
 emisja.tv##.person-social
@@ -2426,6 +2427,7 @@ gra.fm##ul > .soc > a
 grechmoto.pl###sp-kontakt-adresy #sp-user4 h3:nth-of-type(1)
 grechmoto.pl##.jfab_main_btn
 greencanoe.pl##.fa-heart, .widget_cookbook_facebook.widget
+greencell.global##.al-footer-social
 greenfelix.eu##.top-bar .pull-left li:nth-of-type(n+3):nth-of-type(-n+4)
 greenpoint.pl###st_advanced_ma_24
 greenpolska.com###secondary > #fbw_id-2
@@ -4190,6 +4192,7 @@ przedsiebiorcy.eu#?#article > h3:-abp-contains(Udostępnij)
 przedsiebiorcza.com###fbw_id-2, #text-5, #pinterest_rss_widget-5, .author-social-profile > .author-icons > [class]:not(.wordpress)
 przegladbaltycki.pl,tvcsw.info###rum_sst_tab
 przegladpiaseczynski.pl###Mod106
+przelewy24.pl##.linkedin-button
 przelom.pl###sidebar > div.title:nth-of-type(6)
 przelom.pl###sidebar > hr:nth-of-type(5), #sidebar > div.title:nth-of-type(10)
 przenosne.pl##.sm_link
@@ -5624,8 +5627,16 @@ z-hotel.com###menu-item-868
 /static/media/facebook_square_black$image,domain=aszdziennik.pl|dadhero.pl|innpoland.pl|mamadu.pl|natemat.pl
 /static/media/instagram_black$image,domain=aszdziennik.pl|dadhero.pl|innpoland.pl|mamadu.pl|natemat.pl
 /static/media/twitter_black$image,domain=aszdziennik.pl|dadhero.pl|innpoland.pl|mamadu.pl|natemat.pl
-/themes/fbLogo.jpg$image,domain=rynek-lotniczy.pl|rynekinfrastruktury.pl
-/themes/twLogo.jpg$image,domain=rynek-lotniczy.pl|rynekinfrastruktury.pl
+/themes/Udostepnij.png$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
+/themes/fbLogo.jpg$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
+/themes/fbmiddle.png$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
+/themes/fb.png$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
+/themes/in321.png$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
+/themes/limiddle.png$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
+/themes/li.png$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
+/themes/ttmiddle.png$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
+/themes/tt.png$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
+/themes/twLogo.jpg$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
 /vbanner/facebookock.jpg$domain=ockopolelubelskie.pl
 ||adwokatgdynia.com/img/faceico.png
 ||adwokat-gostkowski.pl/img/socjal/*.jpg
@@ -5866,14 +5877,6 @@ z-hotel.com###menu-item-868
 ||ridex.pl/images/site/fb.png
 ||rops.torun.pl/pliki/grafika/facebook.png
 ||rtvpixelagd.pl/media/wysiwyg/ikony/fb_ikona-min.jpg
-||rynek-kolejowy.pl/themes/fb.png
-||rynek-kolejowy.pl/themes/fbmiddle.png
-||rynek-kolejowy.pl/themes/li.png
-||rynek-kolejowy.pl/themes/limiddle.png
-||rynek-kolejowy.pl/themes/tt.png
-||rynek-kolejowy.pl/themes/ttmiddle.png
-||rynek-lotniczy.pl/themes/Udostepnij.png
-||rynek-lotniczy.pl/themes/in321.png
 ||sadeczanin.info/sites/default/files/wykop.png
 ||sadownictwo.com.pl/edc_media/Manager/Ikony-aktualnosci/Twitter-index.jpg
 ||sandecja.org/media/Banners/sandecja_tv.jpg
@@ -5913,7 +5916,6 @@ z-hotel.com###menu-item-868
 ||toysbox.pl/gfx/cobi2/userfiles/_public/youtube-ico.png
 ||tpi.com.pl/themes/img/footer-gp-icon.png
 ||tpi.com.pl/themes/img/footer-yt-icon.png
-||transport-publiczny.pl/themes/Udostepnij.png
 ||tvpodhale.info/templates/grafika/facebook.png
 ||tvpolsat.info/themes/tvpolsatinfo/images/inicon.png
 ||tvpolsat.info/themes/tvpolsatinfo/images/twicon.png
