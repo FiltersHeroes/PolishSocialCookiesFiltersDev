@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.28.0
-! Last modified: Tue, 28 Jul 2020, 15:00 UTC+02
+! Version: 2020.7.29.0
+! Last modified: Wed, 29 Jul 2020, 19:01 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.28.0 aktualizacja: wto, 28 lip 2020, 15:00 UTC+02
+! v.2020.7.29.0 aktualizacja: śro, 29 lip 2020, 19:01 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -549,6 +549,7 @@ dkpraga.pl##.cookies-frame
 dlapilota.pl###gdpr-message-container
 dlawas.info,hegos.eu,pisanka.eu,sukcesja.eu,swietarodzina.eu,tagen.tv###cookiesEU-box
 dniwolne.eu###cookieWrapper
+dobrarelacja.pl#?#div[id^="elementor-popup-modal-"]:-abp-has(a[href*="/polityka-prywatnosci-i-cookies/"])
 dobrefinanse.co.uk##.gdpr-box
 dobregniazdka.pl,luxmarket.pl###rodo_container
 dobrymechanik.pl##.small.navbar-fixed-bottom
@@ -1302,6 +1303,7 @@ mazowia.eu#?##dymek239:-abp-has(a[href$="rodo.html"])
 mazurkas.com.pl##.block_cooe_popup
 mazury24.eu###privModal
 mbp.dzierzoniow.pl###block-vbanner-popup
+mbp.szczecin.pl##.jet-popup
 mcdonalds.pl###cookies_message_info, .cookie-messages
 mckp.uj.edu.pl###cookie_filter
 mc-2.pl###_COOKIE-PPN
