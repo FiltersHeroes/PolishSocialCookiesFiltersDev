@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.7.29.1
-! Last modified: Wed, 29 Jul 2020, 19:01 UTC+02
+! Version: 2020.7.30.0
+! Last modified: Thu, 30 Jul 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.7.29.1 aktualizacja: śro, 29 lip 2020, 19:01 UTC+02
+! v.2020.7.30.0 aktualizacja: czw, 30 lip 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1180,7 +1180,7 @@ banita.travel.pl##.vce-author-links > a:nth-of-type(3)
 bankmillennium.pl##.footer__bottom--icon-links > li:nth-child(n+2)
 bankmillennium.pl##.o-btn--twitter, .o-btn--youtube, .o-btn--linkedin
 bankobranie.blogspot.com###sideSocial > .social > li:nth-child(-n+4), #logoSocial > .social > li:nth-child(-n+4)
-bankrutemjestem.pl,dochodzeniewierzytelnosci.pl,intercyza-blog.pl,inwestycjebudowlane.biz,jakzalozycfirmenaukrainie.com,jakzwolnicpracownika.pl,latam-dronem.pl,naratunekkreatywnym.pl,patrykzbroja.pl,pozewzfaktury.pl,prawnikdlakonsumenta.pl,prawo-autorskie-blog.pl,prawonaplacubudowy.pl,przedsiebiorcawsadzie.pl,wdrodzedokancelarii.pl,zadowolonypacjent.pl,zarzadwspolcezoo.pl##.social > a[class]:not([href*="/feed/"])
+bankrutemjestem.pl,bialekolnierzyki.com.pl,dochodzeniewierzytelnosci.pl,intercyza-blog.pl,inwestycjebudowlane.biz,jakzalozycfirmenaukrainie.com,jakzwolnicpracownika.pl,latam-dronem.pl,naratunekkreatywnym.pl,patrykzbroja.pl,pozewzfaktury.pl,prawnikdlakonsumenta.pl,prawo-autorskie-blog.pl,prawonaplacubudowy.pl,przedsiebiorcawsadzie.pl,spjawna.pl,wdrodzedokancelarii.pl,zadowolonypacjent.pl,zarzadwspolcezoo.pl##.social > a[class]:not([href*="/feed"])
 bank-wbs.pl##.galeria_wiersz
 baptysci.pl##.uk-icon-facebook-official
 barbelo.com.pl###topmenuright > li:not(:nth-of-type(1))
@@ -1235,7 +1235,7 @@ bezmiesnymiesny.pl##.instagram-gallery-carousel-item > div.instagram-gallery-row
 bezokularow.pl##.social > a[href^="https://plus.google.com/"]
 bezpieczenstwo.chorzow.eu##.social--list
 bezpieczny.blog###custom_html-3 > div > a:not(:last-child)
-bezprawaanirusz.pl,blog-spadkowy.pl,japrzedsiebiorca.biz,leszekbloch.pl,niemarozwoduwkosciele.pl,odroczenie-kary.pl,podatki-dla-prawnika.pl,pozeworozwodblog.pl,prawodlalekarza.pl,rejestracjaspolkiwdelaware.pl,rozwodprzedsiebiorcy.pl,spkomandytowa.pl,stanprawnynieruchomosci.pl,warunki-zabudowy.com.pl,wroblewski-adwokat.pl,wyrobymedyczneokiemtemidy.pl,zakonczeniedzialalnosci.pl###social > a[id]:not([href*="/feed/"])
+bezprawaanirusz.pl,blog-spadkowy.pl,elzbietaliberda.pl,japrzedsiebiorca.biz,leszekbloch.pl,niemarozwoduwkosciele.pl,odroczenie-kary.pl,podatki-dla-prawnika.pl,pozeworozwodblog.pl,prawodlalekarza.pl,rejestracjaspolkiwdelaware.pl,rozwodprzedsiebiorcy.pl,spkomandytowa.pl,stanprawnynieruchomosci.pl,warunki-zabudowy.com.pl,wroblewski-adwokat.pl,wyrobymedyczneokiemtemidy.pl,zakonczeniedzialalnosci.pl,zobraczkaczybez.pl###social > a[id]:not([href*="/feed"])
 bezprawnik.pl##.columns.show-for-large.large-1 > p:nth-of-type(2)
 bezprzeplacania.pl,potplayerclub.pl###sfsi-plus-widget-2
 beztajemnic.pwn.pl###menu-item-50
@@ -3406,6 +3406,8 @@ money.pl#?#article[class] div[class] img + button:-abp-has( > span:-abp-contains
 money.pl,moneyv.wp.pl##footer a[href*="facebook.com"], footer a[href*="twitter.com"]
 monier.pl#?##col-right > div[id^="c"]:-abp-has(a[href*="youtube.com"] > img[src*="yt"], a[href*="facebook.com"] > img[src*="fb"])
 monikahonory.pl#?#.vc_row-has-fill.vc_row-fluid.wpb_row.vc_row:-abp-contains(Dołącz do społeczności Zupomaniaków)
+monitor-press.com##li.mainMenuParentBtn:nth-of-type(n+6):nth-of-type(-n+7)
+monitor-press.com#?#.jlgroupprocustom:-abp-has([id*="fbgroup"])
 monocerus.pl##a[href="https://www.facebook.com/monoceruspl/"]
 monsieur-cuisine.com###footer .container > div.row:nth-of-type(2) > div.col-md-4:nth-of-type(2)
 monsterbike.eu##footer .strona > .stopka > a:nth-of-type(2)
@@ -4127,6 +4129,7 @@ pozycjoneria.com###footer > #stopka_ikonki
 pozyczkomat-lodz.pl##.head_socials
 pphu-galkowski.pl#?#article > span:-abp-contains(NASZE FILMY)
 pphu-galkowski.pl#?#p:nth-of-type(5) > span > strong:-abp-has(a[href="https://www.youtube.com/channel/UCZ6F7e_4fQ1OGQKRovPLjaQ"])
+pracedyplomowe.edu.pl###menu2 > div[valign="bottom"][align="right"]
 pracownia4.wordpress.com###menu > ul > .widget_text.widget:nth-of-type(n+7):nth-of-type(-n+9)
 pracowniastylova.pl###spolecznosc
 pracownia-janik.com.pl##.custom-footer .row > div.col-sm-4:nth-of-type(3)
@@ -5681,6 +5684,8 @@ z-hotel.com###menu-item-868
 ||cocacola.com.pl/content/dam/journey/pl/pl/private/homepage-art/CC_twitter.png
 ||computer-alliance.pl/wp-content/uploads/2018/12/fsocial*.png
 ||connect.facebook.net/en_US/sdk/xfbml.customerchat.js$domain=salonroman.pl
+||co-slychac.pl/loga_menu/fejsbuk.png
+||co-slychac.pl/loga_menu/jutjup.png
 ||cryptodemy.pl/wp-content/uploads/2018/01/cryptodemy-sidebanner-fb-v2-copy-2.png
 ||ctm.gdynia.pl/pics/like.png
 ||dabrowatar.pl/wp-content/uploads/2016/01/FacebookLogoPL1dabrowatar_pl.png
@@ -5943,8 +5948,8 @@ z-hotel.com###menu-item-868
 ||utrzymanieruchu.pl/fileadmin/ce/img/tmi_goldenline_.png
 ||utrzymanieruchu.pl/fileadmin/ce/img/tmi_linkedin_.png
 ||utrzymanieruchu.pl/fileadmin/ce/img/tmi_twitter_.png
-||vitakraft.pl/fileadmin/templates/images/socialmedia/vk_facebook.png$image
-||vitakraft.pl/fileadmin/templates/images/socialmedia/vk_instagram.png$image
+||vitakraft.pl/fileadmin/templates/images/socialmedia/vk_facebook.png
+||vitakraft.pl/fileadmin/templates/images/socialmedia/vk_instagram.png
 ||vlnika.cz/static/_user/css/css_img/fb-*.png
 ||vlnika.cz/static/_user/css/css_img/pinterest-*.png
 ||waran.pl/wp-content/uploads/2018/02/f1.png
