@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.8.2.0
-! Last modified: Sun, 02 Aug 2020, 15:00 UTC+02
+! Version: 2020.8.3.0
+! Last modified: Mon, 03 Aug 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.8.2.0 aktualizacja: nie, 02 sie 2020, 15:00 UTC+02
+! v.2020.8.3.0 aktualizacja: pon, 03 sie 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2599,6 +2599,8 @@ ihaa.pl##.social.container > .f-row > .rightside.f-grid-4
 iiyama-sklep.pl##.ikony-socjal
 iiyama.com##div.col-xs-f-6[class*="social"]
 ikea.com##li.footer__horizontal-list-item--social
+ikea.com##li.hnf-horizontal-list-item--social
+ikea.com##.hnf-share-to-socialmedia__link-wrapper:not([class*="copy-to-clipboard"])
 ikrakow.info,iotwock.info,lowicz24.eu,sejny.net,szczecinek.com,zambrow.org##.c-navi-socials, .c-footer-socials__list
 ikrotoszyn.pl##.facebookfield
 ilewicz.pl##.aam_fb_stick
@@ -4216,6 +4218,8 @@ psboy.pl##.footer > .fl
 psprices.com##.fa-vk, a[href="https://vk.com/psprices"], a[href="https://www.facebook.com/PSPricescom-PL-1013336435411612"]
 psur.pl###sidebar > div:nth-of-type(4)
 psychologiazycia.com##.buttonfb
+psychowiedza.com##.cesis_share_box > [class*="cesis_share_"]:not([class*="_mail"]), .share_ctn > h3
+psychowiedza.com#?#.vc_column-inner .cesis_icon_paragraph_ctn[id]:-abp-has( > a[href*="facebook.com"]
 publicat.pl##.share, .box-id-7.box.col-xs-12.col-sm-3.col-md-3
 publicrelations.pl##footer .icons-list > a
 publolek.pl##.footer-widget-1.widget-column, .info-box > div:nth-of-type(2) > a
@@ -5328,6 +5332,7 @@ wojas.pl##.sv-fb-0
 wok.walbrzych.pl##.sb-instagram-widget, a[href="https://www.facebook.com/walbrzyskiosrodekkultury/"]
 wolkom.pl##.footer_portal
 wolna-polska.pl###text-41 > .widget-title
+wolnelektury.pl#?#.annoy-banner_top.annoy-banner:-abp-has( > a[href*="youtube.com/channel/"]:nth-last-of-type(2):nth-of-type(1))
 wolnemedia.net#?#ul > h3:-abp-contains(społecznościowych)
 wolsztyn24.pl#?#body > div > div > table[style][border] > tbody > tr > td:nth-of-type(1):-abp-contains(Znajdz nas i obserwuj!)
 wolt.com##div[class*="Footer__socialsColumn"] > div[class^="Footer__socialsRow"] > a[class^="SocialsButton"]
@@ -5565,6 +5570,7 @@ zegarkiipasja.pl##.gl-white-background:nth-of-type(4)
 zegarkiipasja.pl##.m-t-20.m-b-20.col-sm-6.col-xs-12
 zegarkiipasja.pl##.top-menu > .hidden-xs
 zegarownia.pl##.page-footer__social-media
+zenbox.pl###footer div[class]:nth-of-type(2) div[class]:nth-of-type(3) div[class]:nth-of-type(2) > p
 zenox.pl##.facebookWidget
 zepter.pl##.zone-top-facebook
 zeropln.antyweb.pl##.xs\:mb-8.xs\:items-center.xs\:flex.xs\:mr-0.xs\:w-full.text-center.mr-8.w-24
