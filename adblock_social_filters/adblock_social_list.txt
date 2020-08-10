@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.8.7.0
-! Last modified: Fri, 07 Aug 2020, 23:00 UTC+02
+! Version: 2020.8.10.0
+! Last modified: Mon, 10 Aug 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.8.7.0 aktualizacja: pią, 07 sie 2020, 23:00 UTC+02
+! v.2020.8.10.0 aktualizacja: pon, 10 sie 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1221,6 +1221,8 @@ bel-pol.pl###footer_info > a.mega_anchor:nth-of-type(n+2):nth-of-type(-n+5)
 benchmark.pl##footer > .ft-panel > div > .ft-see-more, .um-fb, .um-twitter, .um-yt, .um-instagram
 benchmark.pl##.authorship-social > li
 berge.pl###footer .ApRawHtml.block > .title_block
+besite.pl##div.contact__elem.col-sm-4:nth-of-type(3)
+besite.pl##.contact-brief__fb
 beskidy.news##.js-fb-page.c-fb-page
 beskidzka-akademia.pl##.footer-medium .contact-us-widget
 beskidzkie.com##.et_pb_row_1-4_1-2_1-4.et_pb_row_fullwidth.et_pb_row_9.et_pb_row
@@ -2610,7 +2612,7 @@ ilex-poznan.pl###social_foot
 ilo.pl###Mod122
 ilustris.pl##nav.footer-col:nth-of-type(1) > ul > li:nth-of-type(n+4):nth-of-type(-n+5)
 ilza.pl##.icon_stopka > div.pole-banerowe:nth-of-type(2)
-imagazine.pl##.icons > a:nth-of-type(n+2)
+imagazine.pl###author .icons > a:nth-of-type(n+2), #author .icons > a[href^="http://twitter.com/"]:nth-of-type(1)
 imielski.net##.flo-footer-area-2-type-b__social-links-wrap
 inbook.pl##a[href="http://plus.google.com/u/0/105997578854872087403/posts"]
 inbook.pl##a[href="http://www.facebook.com/InBookpl"]
@@ -3261,6 +3263,8 @@ mediarodzina.pl##.fSocial
 mediarun.com##.widget_jnews_facebook_page
 media-tech.eu,sporto.com.pl,sprzetdragon.pl,zizako.pl###widget_shop4
 media.carrefour.pl##.footer__social__list
+media.traficar.pl##.flex--right > .pr-story--share-text
+media.traficar.pl,prowly.com##.pr-story--share-sapce-none
 media.upc.pl##div[class*="pr-story-share--"] > div > div[class*="right"], div[class*="pr-story--share-s"]
 media.upc.pl##.pr-story--media-contact__social-icon
 medinfo.pl##.links-nav > li > a[href="https://www.facebook.com/PowszechnaInformacjaMedyczna/"]
@@ -4199,7 +4203,6 @@ propertynews.pl##.foot > .inline > li:nth-of-type(-n+2), .foot > h3
 prosportowy.pl##.pos-footer-top
 prostoomuzyce.pl,urania.edu.pl###block-block-18
 prostozmostu.pl##.at_flat_counter
-prowly.com##.pr-story--share-sapce-none
 proxima.pl##.bigSocials
 pro.zapodaj.net###box_fb
 pruszczgdanski.pl##a[href="http://www.facebook.com/gminapruszczgdanski"]
@@ -4684,6 +4687,7 @@ softmm.com.pl##.row.footer > .container.userfooter > .row > p
 sohost.pl##.naglowek-dol-menu-facebook
 soisk-me.pl##.cw-social-mod-title-ac, .cw-social-mod-icons-custom-example > li:not(:nth-of-type(11))
 sokolow.pl###boxes-box-header_social_links
+sokolow.pl#?#.paragraph--view-mode-default.paragraph--type-block.paragraph:-abp-has(.block__header:-abp-contains(SPOTKAJMY SIĘ W SIECI))
 sokpol.com.pl##.rwdhide
 solarisbus.com##.c-list--social.c-list
 solar.bruk-bet.pl###menu-dodatkowe-menu > .menu-item-icon:nth-of-type(-n+4)
@@ -5922,8 +5926,12 @@ z-hotel.com###menu-item-868
 ||sklep.romet.pl/gfx/sklep/userfiles/_public/instagram_min.png
 ||slet.pl/wp-content/uploads/2015/05/YT_slet*.png
 ||slet.pl/wp-content/uploads/2015/05/fb_slet*.png
+||slimbrowser.net/images/facebookx16.png
+||slimbrowser.net/images/youtube16.gif
 ||smac.pl/wp-content/uploads/2014/11/fb.png
 ||smarkacz.pl/images/gfx/ins2.png
+||sokolow.pl/sites/default/files/paragraphs/icon-fb_*.png
+||sokolow.pl/sites/default/files/paragraphs/icon-inst_*.png
 ||sp33.olsztyn.pl/wp-content/uploads/2017/12/fanpage.jpg
 ||spark.edu.pl/wp-content/uploads/2020/03/social-vimeo.png
 ||sportplaza.pl/user_files/images/ikona-stopka-6.png
