@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.8.12.0
-! Last modified: Wed, 12 Aug 2020, 19:00 UTC+02
+! Version: 2020.8.13.0
+! Last modified: Thu, 13 Aug 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.8.12.0 aktualizacja: śro, 12 sie 2020, 19:00 UTC+02
+! v.2020.8.13.0 aktualizacja: czw, 13 sie 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -188,9 +188,9 @@ pl##.facebook-popup
 ~pl##.mdi-google-plus:lang(pl)
 ~pl##.mdi-instagram:lang(pl)
 ~pl##.mdi-skype:lang(pl)
+~pl##.pwebbox.pwebbox-plugin-facebook_page_plugin:lang(pl)
+~pl##.pwebbox.pweb-theme-fbnavy:not(.pwebbox-plugin-facebook_page_plugin):lang(pl)
 ~pl##.shb-header-social:lang(pl), .shb-footer-social:lang(pl)
-com,pl##.pwebbox.pwebbox-plugin-facebook_page_plugin
-com,pl##.pwebbox.pweb-theme-fbnavy:not(.pwebbox-plugin-facebook_page_plugin)
 pl##.FBButton
 pl##.Facebook
 pl##.Instagram
@@ -670,6 +670,8 @@ pl##.okl_tw.okl
 pl##.pie.login > ul
 pl##.post-like-us
 pl##.post_likes
+pl##.pwebbox.pwebbox-plugin-facebook_page_plugin
+pl##.pwebbox.pweb-theme-fbnavy:not(.pwebbox-plugin-facebook_page_plugin)
 pl##.qticon-facebook
 pl##.qticon-twitter
 pl##.qticon-youtube
@@ -791,9 +793,6 @@ pl##._--facebook.site-footer__bottom-nav__item
 pl##.__xX20facebook
 pl##[id^="nk_fajne"]
 pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_likes, .insta_likes, .tik-tok_likes
-!pl##.fb.small.button
-!pl##.btn-in
-!pl##.social-conteiner > .social
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1506,7 +1505,7 @@ chamskie.pl##.widget-fanbox
 change.shop.pl,elektro-outlet.net,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
 change.shop.pl,multibook.pl,starecegly.com###box_facebooklike
 channel9.msdn.com##.reddit
-channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,echotygodnik.info,filmaster.com,galeria-pestka.com,gls-group.eu,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,krokdozdrowia.com,nerwica.com,pl.futbol24.com,podstacja.com,radiomalbork.fm,sadzonkiborowki.com,siatka.org,slonskyradio.eu,stoprocent.com,swmarcin-jarocin.com,wejherowo24.info,woblink.com,zvami.tv##.facebook
+channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,echotygodnik.info,filmaster.com,galeria-pestka.com,gls-group.eu,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,krokdozdrowia.com,limanowa.in,nerwica.com,pl.futbol24.com,podstacja.com,radiomalbork.fm,sadzonkiborowki.com,siatka.org,slonskyradio.eu,stoprocent.com,swmarcin-jarocin.com,wejherowo24.info,woblink.com,zvami.tv##.facebook
 channel9.msdn.com,chemik-police.com,debica24.eu,domeny.pl,fakt.pl,gremont.pl,markoweobuwie.com.pl,newslubuski.pl,nowakonfederacja.pl,sejm.gov.pl,siatka.org,tvn24bis.pl##.twitter
 charaktery.eu##.pdf_link
 chataalelipa.pl##.cal-social-media
@@ -1719,6 +1718,7 @@ dellpoint.pl##.userfooter > .row > p > a
 delphiautoparts.com###block-footersociallinks
 deltashop.pl,media-tech.eu##.footer-informations div.nav-container:nth-of-type(3)
 deltashop.pl,nbielizna.pl,soleibabe.pl###widget_shop6
+demotywatory.pl##a[href="https://instagram.com/demotywatorypl/"]
 denley.pl###socials_footer > a:nth-of-type(-n+2)
 deon.pl##.socialIkonki, .sl > li:nth-child(-n+4), .footer-right__social-media, .mega-menu__social-media
 dermaquest.pl##div.footer_column:nth-of-type(6)
@@ -1801,6 +1801,8 @@ domowystomatolog.pl###tws_s_100001
 domtuiteraz.eu###sow-image-2
 domy-bartek.pl###in
 dom.aluprof.eu###cs-social-media
+donald.pl##button.react-share__ShareButton:nth-of-type(-n+2)
+donald.pl##footer > div > div > a:nth-of-type(-n+3)
 doniczki-poznan.pl##.TwitterFeeds
 doosanbabcock.com##a.no-after:nth-of-type(n+4)
 doradcapodatkowy.pl###bottom-5 > .moduletable > .custom > .pdcorrect.col-lg-12.col-md-12.col-sm-12.col-xs-12 > .pdcorrect.col-lg-5.col-md-5.col-sm-12.col-xs-12
@@ -4752,6 +4754,7 @@ stacja7.pl###icon-google-plus
 stacja7.pl##.navbar-nav-right-social
 stalko.net.pl##.box_loga > .div_loga > .fwg
 stalmielec.com###text-21 > .textwidget > a:nth-of-type(n+2):nth-of-type(-n+5) > img
+stankowscybialach.pl##.elementor-icon-list-icon > .fa-facebook-f.fab
 stanleyjeans.com.pl##.block-footer-information > div.col-sm-3:nth-of-type(4) > h4
 stanmed24.pl###projects
 starachowice.eu##sp-bottom-logo .fa
@@ -4908,6 +4911,7 @@ tchibo.pl##.l-tp-footer-gray .g-tp-column--half.g-tp-column
 tcz.pl##a[href="http://www.facebook.com/tczewtczpl"]
 tcz.pl##div[id] > a[href^="https://www.youtube.com/user/tczpl"]
 tdm-electronics.com##.vc_row-flex.vc_row-o-equal-height.vc_row-fluid.vc_inner.wpb_row.vc_row > div.vc_col-has-fill.vc_col-sm-4.vc_column_container.wpb_column:nth-of-type(3)
+teamquest.pl##.socia_l-box-btn
 teamviewer.com##.wd-tv-footer-social
 teatralny.pl##.fbCorner
 teatrateneum.pl##.portal-icon1, .portal-icon2, .portal-icon3
@@ -5198,6 +5202,7 @@ vidaron.pl##.youtube.panel-icon
 videotesty.pl##footer li.column:nth-of-type(3)
 video.wp.pl,wideo.wp.pl#?#article div[class^="sc-"]:-abp-has( > button + div:-abp-contains(/^Podziel się$/))
 video.wp.pl,wideo.wp.pl#?#button[class]:-abp-has( > svg[color*="socialFacebook"])
+viennahouse.com##.footer-container__socialmedia
 viessmann.pl##.vi_footer__social_list
 vigo-ortho.pl##footer div.four:nth-of-type(4) > .editable
 villacarpatia.com##.face_book, div:nth-of-type(2) > .blog_box
@@ -6205,6 +6210,7 @@ socialpress.pl#@#.follow_us
 sosnowe-zacisze.pl#@#.tm-social-icons
 spece.it#@#.social-tooltip
 spece.it#@#[title^="Follow us on "]
+styl.fm#@#.article__share
 tabletowo.pl#@#.social_icon
 tabletowo.pl#@#.top-social
 tajemnice-swiata.pl#@#.mh-social-icons
