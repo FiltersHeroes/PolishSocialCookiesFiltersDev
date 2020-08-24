@@ -320,7 +320,7 @@ wrzesnia.info.pl###rodo, .modal-backdrop
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 www.google.com,www.google.pl##body.QVCmK:style(position: static !important; overflow-y: visible !important;)
-www.google.com,www.google.pl##div[class][role="dialog"] > #cnsp:has( > div[class][aria-live="polite"]):xpath(../..)
+www.google.com,www.google.pl##div[class][role="dialog"] > #cnsp:has( > div[class][aria-live="polite"]):upward(2)
 www.google.com,www.google.pl##header#gb + div[class^="gb"][data-cbh="consent.google.com"]
 www.google.com,www.google.pl##html.QVCmK:style(overflow-y: visible !important;)
 www.google.com,www.google.pl##html.gb_ea > body.gb_ea:style(height: auto !important;)
