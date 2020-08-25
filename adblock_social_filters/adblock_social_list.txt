@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.8.24.0
-! Last modified: Mon, 24 Aug 2020, 23:00 UTC+02
+! Version: 2020.8.25.0
+! Last modified: Tue, 25 Aug 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.8.24.0 aktualizacja: pon, 24 sie 2020, 23:00 UTC+02
+! v.2020.8.25.0 aktualizacja: wto, 25 sie 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -63,6 +63,7 @@ limonkowy.com##.ui-widget-overlay, .ui-dialog
 linuxporady.pl,pskrk.com,sebucja.pl,skomplikowane.pl###exitpopup-modal
 madameedith.com###spu-33734, #spu-bg-33734
 mamachemik.pl##.sfsi_outr_div
+mirafaber.pl,poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 mpolska24.pl###before-leave-window
 mtv24.tv###mdfb
 naszamlawa.pl###spu-bg-75900, #spu-75900
@@ -78,7 +79,6 @@ petronews.pl##.pps-full-screen.pps-popup, .b-modal
 pierwsze-kroki.com###spu-26, #spu-bg-26
 podrogach.pl###popup_container
 politykazdrowotna.com##.modal-footer
-poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 pracujwsprzedazy.pl###modal-social
 prezeska.pl##.pum
 prostowsmak.com###ffbp
@@ -3358,6 +3358,7 @@ mintos.com##.footer-top div.footer-column:nth-of-type(5)
 mintshost.pl##.c-white.col-md-3 > p:nth-of-type(1)
 miodowko.pl##.main-footer td.td_srodek:nth-of-type(5), td.td_srodek:nth-of-type(1) > ul > li:nth-of-type(13)
 miodowymlyn.pl##.provized_social_float
+mirafaber.pl###divBottomRight a:nth-of-type(1)
 miroslawzelent.pl,pasja-informatyki.pl###slide-out-div
 misericordia.pl###panel-puls
 misjatravel.pl##.fb_url
