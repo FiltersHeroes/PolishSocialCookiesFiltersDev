@@ -79,9 +79,8 @@ corbby.com.pl###tlight:has( > .termspopupcontainer)
 cupsell.pl##.tingle-enabled:style(position: static !important; overflow: auto !important;)
 cupsell.pl##.tingle-modal
 dane.gov.pl##.modal-dialog:has-text(RODO)
-ddz24.eu,konecki24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-lodz.pl###cookie-law-info-bar, .cli-modal-backdrop, .cli-popupbar-overlay
 ddz24.eu,konecki24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-lodz.pl###cli-modal-backdrop, #cookie-law-info-bar:remove()
-
+ddz24.eu,konecki24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-lodz.pl###cookie-law-info-bar, .cli-modal-backdrop, .cli-popupbar-overlay
 ddz24.eu,konecki24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-lodz.pl##.cli-barmodal-open:style(overflow: auto !important;)
 delikarta.pl###cookieModal
 delikarta.pl,dobrapogoda24.pl,lektury.gov.pl,mzbm.tychy.pl,samasz.pl##.modal-open:style(overflow: auto !important;)
@@ -103,8 +102,8 @@ echo24.tv##.on-top:style(top: 0 !important;)
 edupolis.pl###sgpb-popup-dialog-main-div-wrapper, .sg-popup-overlay
 elevensports.pl,hendi.pl,ipla.tv##.no-scroll:style(overflow: auto !important;)
 elevensports.pl,ipla.tv##.rodo-rules-modal
-empik.com##.cookies-accept:remove()
 empik.com##.cookies-accept, .modal-backdrop
+empik.com##.cookies-accept:remove()
 epicdrama.pl##.ui-modal[id^="modal_cookie"]
 epicdrama.pl,odrabiamy.pl,patronite.pl##.blur:style(filter: none !important;)
 e-sochaczew.pl,paczkomaty.pl,repostuj.pl,wedkuje.pl##+js(ra, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
