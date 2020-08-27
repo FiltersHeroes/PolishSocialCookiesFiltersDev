@@ -14,7 +14,7 @@ ads.allegro.pl###main div[class]:has(a[href*="/regulaminy/polityka-plikow-cookie
 agrosystems.pl##.modal-rodo
 agrosystems.pl,blizejciebie.pl,indbuildcraft.pl,kaliszak.pl,kbw.gov.pl,kruger.pl,matopat24.pl,mazury.travel,muzeumwspolczesne.pl,nastyku.pl,panattonieurope.com,pkw.gov.pl,porcelana.pl,praca.antyweb.pl,prawdaobiektywna.pl,pum.edu.pl,radioexpress.pl,seni24.pl,skyscrapercity.com,zeropln.antyweb.pl##body:style(overflow: auto !important;)
 airdron-polska.pl,gadu-gadu.pl,gg.pl,komputerytriton.pl,manageronline.pl,paralympic.org.pl##.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
-airdron-polska.pl,komputerytriton.pl,manageronline.pl,paralympic.org.pl##+js(nano-remove-elements-onready.js, .popmake-overlay[data-popmake*="cookies"])
+airdron-polska.pl,komputerytriton.pl,manageronline.pl,paralympic.org.pl##.popmake-overlay[data-popmake*="cookies"]:remove()
 albeco.com.pl###content:style(filter: none !important;)
 albeco.com.pl###pol-background, #pol-c
 aluna.eu,pureveg.pl##html:style(padding-bottom: 0 !important;)
@@ -80,8 +80,8 @@ cupsell.pl##.tingle-enabled:style(position: static !important; overflow: auto !i
 cupsell.pl##.tingle-modal
 dane.gov.pl##.modal-dialog:has-text(RODO)
 ddz24.eu,konecki24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-lodz.pl###cookie-law-info-bar, .cli-modal-backdrop, .cli-popupbar-overlay
-ddz24.eu,konecki24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-lodz.pl##+js(nano-remove-elements-onready.js, #cli-modal-backdrop)
-ddz24.eu,konecki24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-lodz.pl##+js(nano-remove-elements-onready.js, #cookie-law-info-bar)
+ddz24.eu,konecki24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-lodz.pl###cli-modal-backdrop, #cookie-law-info-bar:remove()
+
 ddz24.eu,konecki24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-lodz.pl##.cli-barmodal-open:style(overflow: auto !important;)
 delikarta.pl###cookieModal
 delikarta.pl,dobrapogoda24.pl,lektury.gov.pl,mzbm.tychy.pl,samasz.pl##.modal-open:style(overflow: auto !important;)
@@ -103,7 +103,7 @@ echo24.tv##.on-top:style(top: 0 !important;)
 edupolis.pl###sgpb-popup-dialog-main-div-wrapper, .sg-popup-overlay
 elevensports.pl,hendi.pl,ipla.tv##.no-scroll:style(overflow: auto !important;)
 elevensports.pl,ipla.tv##.rodo-rules-modal
-empik.com##+js(nano-remove-elements-onready.js, .cookies-accept)
+empik.com##.cookies-accept:remove()
 empik.com##.cookies-accept, .modal-backdrop
 epicdrama.pl##.ui-modal[id^="modal_cookie"]
 epicdrama.pl,odrabiamy.pl,patronite.pl##.blur:style(filter: none !important;)
