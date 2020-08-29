@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.8.28.0
-! Last modified: Fri, 28 Aug 2020, 15:00 UTC+02
+! Version: 2020.8.29.0
+! Last modified: Sat, 29 Aug 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.8.28.0 aktualizacja: pią, 28 sie 2020, 15:00 UTC+02
+! v.2020.8.29.0 aktualizacja: sob, 29 sie 2020, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -375,7 +375,6 @@ budimex-nieruchomosci.pl,zoliborzkrasinskiego.pl###komRodo
 bugwie.com,forum-bron.pl,virtual-it.pl,wesclan.com.pl##.cookie-box
 buliba.pl###tooltip-hook
 bumble.com##.js-cookie-notification
-burbonik.pl###cliSettingsPopup
 burze.dzis.net###zasady_info
 busfor.pl##.cookie-attantion
 business.free-now.com,business.mytaxi.com##body > div > span > div[class^="CookieBanner"]
@@ -2725,6 +2724,7 @@ pl###cookie-info:not(body):not(html)
 pl###cookie-law-bar:not(body):not(html)
 pl###cookie-law-container:not(body):not(html)
 pl###cookie-law-info-again:not(body):not(html)
+pl###cookie-law-info-bar ~ #cookie-law-info-again ~ #cliSettingsPopup
 pl###cookie-law-info-bar:not(body):not(html):not(.cli-bar-popup):not(.cli-modal-content)
 pl###cookie-law-message:not(body):not(html)
 pl###cookie-law:not(body):not(html)
