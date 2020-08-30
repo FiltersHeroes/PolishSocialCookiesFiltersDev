@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.8.30.0
-! Last modified: Sun, 30 Aug 2020, 19:00 UTC+02
+! Version: 2020.8.30.1
+! Last modified: Sun, 30 Aug 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.8.30.0 aktualizacja: nie, 30 sie 2020, 19:00 UTC+02
+! v.2020.8.30.1 aktualizacja: nie, 30 sie 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -5139,6 +5139,7 @@ tv.eurosport.pl##.share-buttons-container
 tv.gniezno.pl###rightCol > span.lTitle:nth-of-type(2)
 twardepierniki.pl##.socialmedia-panels
 twist.com##section + footer > div > div > h2, section + footer > div > div > h2 + ul
+twitch.tv#?#div[data-a-target="share-balloon"] p:-abp-contains(/^(Twitter|Facebook|VK|Reddit)$/)
 twojahistoria.pl##.footer-fixed
 twojapogoda.pl##.ico-ig
 twojatv.info###slidepanel-facebook
@@ -6262,7 +6263,7 @@ oknonawagrowiec.pl#@#.penci-social__item
 pkobp.pl#@#.footer-top__social
 planeta.pl,radiozet.pl,~www.radiozet.pl#@#.social-share
 pl.aliexpress.com#@#.sns-btns
-pl.delfi.lt#@#.social-button
+pl.delfi.lt,twitch.tv#@#.social-button
 radio.lublin.pl#@#.fa-spotify
 rawlplug.com#@##socialNetworks
 realme.com#@#.subscribe-container
