@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.3.0
-! Last modified: Thu, 03 Sep 2020, 15:00 UTC+02
+! Version: 2020.9.3.1
+! Last modified: Thu, 03 Sep 2020, 23:01 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.3.0 aktualizacja: czw, 03 wrz 2020, 15:00 UTC+02
+! v.2020.9.3.1 aktualizacja: czw, 03 wrz 2020, 23:01 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -981,6 +981,7 @@ amso.pl,bemisie.pl##.bookmarklets_big
 amtech.pl##footer #sppb-addon-1552054886602, footer #sppb-addon-1552055017470
 amw.com.pl##.footer-top__box > div.col-xs-12.col-mx-5
 analizy.pl##.footer-icons > ul > li:nth-child(-n+7)
+anauk.net###my-tab
 androidstuff.pl##.uk-text-right .uk-grid.uk-flex-right.uk-grid-small.uk-child-width-auto > div > a
 andrzejgrzyb.eu,kryptopomocnik.pl,radiogol.pl##.widget-do-etfw
 anetaduk.com##.icons > li:nth-child(-n+3)
@@ -1571,7 +1572,11 @@ coccodrillo.eu###socialFlyBox
 cocomoda.pl##h4:nth-of-type(2), .banner_small_right, .icons_footer_top
 codeme.pl##div.v-box-footer:nth-of-type(3)
 codeme.pl##.v-top-bar > .v-left
+codetwo.pl###polub-nas
+codetwo.pl##.fejs-bg
 codetwo.pl##.follow > h4, .follow > a[title]
+codetwo.pl##.footer__nopadding.footer__menu-box > h4
+codetwo.pl##.footer__nopadding.footer__menu-box > h4 ~ a:nth-of-type(-n+4)
 codojedzenia.pl###text-39
 codzienniefit.pl##.owl-stage
 coinforum.pl##div.statistics.sidebar-widget:nth-of-type(1)
@@ -3302,6 +3307,7 @@ medonetmarket.pl##.ftr-find-us, .ftr-find-us ~ a:not([href*="mailto:"])
 medonet.pl##.shareButtons > li.item:nth-of-type(1)
 medonet.pl##.socials > li.item:nth-of-type(3)
 medpolonia.pl##.helper-yt
+medycyna.anauk.net##a[href^="http://www.google.com/ig/adde"], a[href="http://www.blip.pl/"]
 meetup.com##.flex--noGutters > .flex-item--shrink, .event-share
 megazoologiczny.pl#?##footer_img:-abp-has(.find_us)
 megazoologiczny.pl,vedion.pl###tws_i_100001, #tws_i_100002
@@ -5421,6 +5427,7 @@ wolnelektury.pl#?#.annoy-banner_top.annoy-banner:-abp-has( > a[href*="youtube.co
 wolnemedia.net#?#ul > h3:-abp-contains(społecznościowych)
 wolsztyn24.pl#?#body > div > div > table[style][border] > tbody > tr > td:nth-of-type(1):-abp-contains(Znajdz nas i obserwuj!)
 wolt.com##div[class*="Footer__socialsColumn"] > div[class^="Footer__socialsRow"] > a[class^="SocialsButton"]
+wolt.com##ol[class^="SocialsColumn__socialRow___"]
 woodland.net.pl##.menu-top > ul > li:nth-of-type(n+4):nth-of-type(-n+5)
 word.olsztyn.pl##a[href="https://www.facebook.com/Warmia-i-Mazury-Zdrowe-%C5%BCycie-czysty-zysk-1741781486134765/"]
 word.olsztyn.pl##a[href^="https://www.youtube.com/playlist"]
@@ -5945,6 +5952,7 @@ z-hotel.com###menu-item-868
 ||nk.pl/fajne/widget$third-party
 ||ochodzita.com.pl/img/face_ico.jpg
 ||ock.olsztyn.pl/resources/site/images/i-fb.png
+||ohydne.pl/images/icon_tt.png
 ||olimpiasport.pl/gfx/sm_*_iko.png
 ||orland.com.pl/images/logos/znajdz-nas-na-fb.png
 ||otopodhale.pl/_images/facebook_background.png
@@ -6240,6 +6248,7 @@ dobreprogramy.pl#@#.social_bottom
 dobreprogramy.pl#@#.social_top
 dobreprogramy.pl#@#.social__button
 dobreprogramy.pl#@#.social__icon
+doladowaniaenergetyczne.pl#@#.icon-google
 edunews.pl#@#.custom-social-buttons
 enfamil.pl#@#.float-shop
 gameplay.pl,tvgry.pl#@#.social-16
@@ -6338,8 +6347,9 @@ youtube.com#@##secondary-links
 !
 !
 ! Wyjątki
-account.tvn.pl,freshfile.pl,konto.wpolityce.pl,muzykazreklam.pl,naekranie.pl,nowaruda24.pl,telepolis.pl#@#.facebook:not([data-id*="videos"]):not([class*="login"]):not(.connect)
+account.tvn.pl,codetwo.pl,freshfile.pl,konto.wpolityce.pl,muzykazreklam.pl,naekranie.pl,nowaruda24.pl,telepolis.pl#@#.facebook:not([data-id*="videos"]):not([class*="login"]):not(.connect)
 appleworld.pl#@#.fa-facebook
+doladowaniaenergetyczne.pl#@#.icon-facebook
 downdetector.pl#@#a[title="Instagram"]
 freshfile.pl#@#.google
 linuxportal.pl#@#a.like
