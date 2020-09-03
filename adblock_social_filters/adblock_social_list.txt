@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.1.0
-! Last modified: Tue, 01 Sep 2020, 19:00 UTC+02
+! Version: 2020.9.3.0
+! Last modified: Thu, 03 Sep 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.1.0 aktualizacja: wto, 01 wrz 2020, 19:00 UTC+02
+! v.2020.9.3.0 aktualizacja: czw, 03 wrz 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -933,7 +933,7 @@ aleeko.pl##.footer-column a[href="https://blog.aleeko.pl"]
 alejasztuki.com##.art-footer div.art-layout-cell:nth-of-type(3)
 alejesmaku.pl##.footer_as_button2
 alekinoplus.pl,forum.ncplus.pl,forum.pl.canalplus.com###FBRight
-alekosmos.pl,batcave.com.pl,booklips.pl,boskapszczola.pl,cdn.ug.edu.pl,craftportal.pl,damagier.pl,david-durden.pl,doktorania.pl,fama.org.pl,glodnapolka.pl,kwadranszpodkopem.com,magnapolonia.org,malygeniusz.org,nono-store.pl,pdasite.pl,portal.region.info.pl,prokapitalizm.pl,promocje.msi.com,swiatdronow.pl,swingwithme.pl,swobodnie.eu,vivio.pl,winers.pl,wrodzinie.pl,www.wizytowka.be###text-3
+alekosmos.pl,batcave.com.pl,booklips.pl,boskapszczola.pl,cdn.ug.edu.pl,craftportal.pl,damagier.pl,david-durden.pl,doktorania.pl,fama.org.pl,glodnapolka.pl,kocialapka.org.pl,kwadranszpodkopem.com,magnapolonia.org,malygeniusz.org,nono-store.pl,pdasite.pl,portal.region.info.pl,prokapitalizm.pl,promocje.msi.com,swiatdronow.pl,swingwithme.pl,swobodnie.eu,vivio.pl,winers.pl,wrodzinie.pl,www.wizytowka.be###text-3
 aleksandrow-lodzki.pl##.icons > .g.icon
 aleperfumeria.pl##.inst.box
 alerabat.com##.m-footer__section--facebook
@@ -1881,6 +1881,7 @@ dziejesienapodkarpaciu.pl##.col-md-3.widget-col:nth-of-type(2)
 dzieje.pl###block-serwisyspolecznoscioweaplikacje > div > ul > li:not(:nth-of-type(4))
 dzieje.pl##.youTube, .m5 > .block-title
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl#?##narzedzia:-abp-has( > .facebook:only-child)
+dzienniknaukowy.pl##a[href="https://www.facebook.com/dziennik.naukowy/"] > img
 dziennikprawny.pl##footer > div.container > div.row > div[class]:nth-of-type(3)
 dziennikprawny.pl#?#.list-inline:-abp-has( > .list-inline-item > .btn-social)
 dziennikwschodni.pl##span.single-news__meta-button:nth-of-type(1)
@@ -3029,6 +3030,7 @@ kurier365.pl##.no-border.box
 kuriereuropejski.org###footer li > a[href="https://www.facebook.com/JEFpoland/"], #footer li > a[href="https://twitter.com/KEuropejski"]
 kuriereuropejski.org###share > li > a:not([href="#"]) > .fa, .share
 kuriergalicyjski.com###position3, #position4
+kuriergmin.pl,panpomidor.pl,popbookownik.pl,uptone.pl##.td-footer-instagram-container
 kurierpoludniowy.pl#?#body table[width="960"] td[valign="top"] table + table:-abp-has(iframe[src*="facebook.com"])
 kurierzamojski.pl#?#.td-footer-page .td-block-title:-abp-contains(Odwiedź nas)
 kurjerzy.pl##.main__footer__container .row > .push-0\@tablet.gr-12\@tablet.push-8.gr-4
@@ -3313,6 +3315,7 @@ merida.com.pl##.info-strip-box-link-yt
 merkurymarket.pl##a[href="https://www.facebook.com/Merkury-Market-357827440910146/"]
 merkurymarket.pl##li > a[href="http://www.instagram.com/merkurymarketpl/"]
 merlin.pl##.b-footer-icon-facebook
+merlin.pl##.b-footer-icon-instagram
 merlin.pl##.grid__col--quarter.b-footer__in-touch.grid__col > .b-footer__title
 mesco.com.pl##a[href="https://www.linkedin.com/company/1967436/"]
 mesco.com.pl##.gora-dane > a[href="https://www.facebook.com/mescoansys/"]
@@ -3662,6 +3665,7 @@ nieruchomosci.arkei.pl###przyciski > span, #btn_face, #btn_youtube, #btn_twitter
 nietylkopasta.pl###text-49, #sidebar-instagram
 nietylkopasta.pl##.uk-width-large-1-4.bh-sidebar-right > .widget-text.uk-panel:nth-of-type(1)
 nietylkopasta.pl##.widget-ws_fb_like_box, #dbx_light, .uk-icon-button
+niezalezna.pl###puszczatvSM
 niezlomni.com,prawdaobiektywna.pl###hwm
 nieznany-numer.pl##.titleRwd:nth-of-type(5)
 nightwish.pl##.sidebar div.boxNoPadding.box:nth-of-type(1), .sidebar section.boxNoPadding
@@ -3853,7 +3857,6 @@ panattonieurope.com##.social-youtube-square
 panelex.pl###wysuwany_div3, #wysuwany_div4, #wysuwany_div5
 pangrono.pl##div.widget_custom_html.widget.widget_text, .widget_youtube-channel
 pannaannabiega.pl##.socheader > .social_label, .text-right.zl_socicon > .social_label
-panpomidor.pl,popbookownik.pl,uptone.pl##.td-footer-instagram-container
 pantuniestal.com##.tgm-footer-social
 panwybierak.pl##.footer__contact-social
 pan.olsztyn.pl##.footer-widget.col-sm-4:nth-of-type(1)
@@ -5937,6 +5940,7 @@ z-hotel.com###menu-item-868
 ||newsbook.pl/wp-content/uploads/*/*/fb-300x30.png
 ||news.androidlista.pl/wp-content/themes/tema/gplusicon.jpg
 ||niemczyk.pl/img/fa1.jpg
+||niezalezna.pl/images/png/facebook.png
 ||nitrofilm.pl/public/naglowki/gdzie-jestesmy-pl.gif
 ||nk.pl/fajne/widget$third-party
 ||ochodzita.com.pl/img/face_ico.jpg
