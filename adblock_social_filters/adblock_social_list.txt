@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.7.0
-! Last modified: Mon, 07 Sep 2020, 19:05 UTC+02
+! Version: 2020.9.7.1
+! Last modified: Mon, 07 Sep 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.7.0 aktualizacja: pon, 07 wrz 2020, 19:05 UTC+02
+! v.2020.9.7.1 aktualizacja: pon, 07 wrz 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -911,7 +911,7 @@ airly.eu#?#button[aria-label*="Floating"]:-abp-has([class*="social-bar__StyledSh
 airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,braclowiecka.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,gls-group.eu,grene.pl,homedoctor.pl,isl.pl,itaka.pl,karnet.krakow.pl,kwantowo.pl,lalorraine.pl,lexus-krakow.com.pl,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,niepodlegla.gov.pl,nowakonfederacja.pl,pap.pl,pingpong.bydgoszcz.pl,pogonszczecin.pl,rms.pl,skgd.pl,tczewska.pl,tvobiektyw.pl,tvswinoujscie.pl,wentylacja24.pl,wloclawek.pl,wp.mil.pl,zstiomeritum.edu.pl##.youtube
 ajgroup-pros.pl##.SocialBoard
 ajprodukty.pl##.footer_social-container
-aju.pl,alekosmos.pl,alilove.pl,banita.travel.pl,blogs.opera.com,buslapidus.pl,jezykowasilka.pl,littletownshoes.com,moviesroom.pl,rytmynatury.pl,skgd.pl,skrivanek.pl,supermarket-online.pl,wei.org.pl,wnetrzeiogrod.pl,zaniczka.pl###custom_html-2
+aju.pl,alekosmos.pl,alilove.pl,banita.travel.pl,blogs.opera.com,buslapidus.pl,jezykowasilka.pl,littletownshoes.com,moviesroom.pl,rytmynatury.pl,skgd.pl,skrivanek.pl,supermarket-online.pl,towartojesc.pl,wei.org.pl,wnetrzeiogrod.pl,zaniczka.pl###custom_html-2
 akademia.nask.pl###fb-ico
 akces.pro###footer > .footer-keep-connected .icons
 akcjasos.pl###left-right-top > .yt-position-inner > div.moduletable:nth-of-type(2) > p:nth-of-type(n+8):nth-of-type(-n+9) > a, #left-right-top > .yt-position-inner > div.moduletable:nth-of-type(3)
@@ -2034,6 +2034,7 @@ essilor.pl##.icon--facebook, .icon--instagram, .icon--youtube
 estheticon.pl##div.footer--nover.footer--item:nth-of-type(3) > h3.footer--title:nth-of-type(2)
 eswinoujscie.pl,kochamwroclaw.pl,mmarocks.pl,rzeszow-news.pl##.td-instagram-element, .td-footer-instagram-title
 etam.pl##.shareFooter
+etoto.pl###social_stopka
 etsy.com###footer .col-lg-2.hide-md.hide-sm.hide-xs.mb-xs-2
 etsy.com##.footer-redesign li > a[href^="/pl/social-tracking?network"]
 et.com.pl###footer > p:nth-of-type(2) > a > img
@@ -4028,6 +4029,7 @@ pl.farnell.com###footer .col-xs-3 > a
 pl.genesis-zone.com##.social-media__icon-item
 pl.geofumadas.com###connect-ah .m-block.sm.alignright > ul > li > a
 pl.isilines.com##.social-links-fixed
+pl.johnnybet.com##.article-share-links
 pl.khanacademy.org##a[aria-label^="Śledź nas na"], a[aria-label^="Dołącz do nas na"]
 pl.khanacademy.org##div[class^="socialMediaContainer"]
 pl.kruk.eu###sociale-footer
@@ -5072,7 +5074,6 @@ tortytorty.pl###top-menu > li:nth-of-type(n+5), #contact > .content > p:nth-of-t
 tosieoplaca.pl##.et_section_regular.et_pb_section_6.et_pb_section
 total.com.pl##p:nth-of-type(2)
 totylkoteoria.pl##.top-comment-widget-menu, #Image2
-towartojesc.pl###custom_html-2
 toya24.pl##header > div > .menu_settings_bar > a > img
 toya24.pl##.container.menu_settings_bar > a > img
 toyotawola.pl##.topSecondaryNavigationFbLink, .fbFooterLink
