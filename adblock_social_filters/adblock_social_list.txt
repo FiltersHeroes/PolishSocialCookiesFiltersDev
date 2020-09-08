@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.7.1
-! Last modified: Mon, 07 Sep 2020, 23:00 UTC+02
+! Version: 2020.9.8.0
+! Last modified: Tue, 08 Sep 2020, 23:01 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.7.1 aktualizacja: pon, 07 wrz 2020, 23:00 UTC+02
+! v.2020.9.8.0 aktualizacja: wto, 08 wrz 2020, 23:01 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1176,6 +1176,7 @@ bajm.pl##.icons > a[href^="https://www.facebook.com/BAJMpage/"]
 balladine.com###widgetFb
 balneokosmetyki.pl,przyslijprzepis.pl##.top-fb
 balomania.eu##.sk_social_icons_list > .sk_social_icon:not(.icon_skype)
+balterio.com,pergo.pl,quick-step.com.pl##a[data-selector="open-cookie-popup"]
 baltyk.com##.ulsocialmedia
 balujemy.eostroleka.pl##.module:nth-of-type(9)
 bambino-sklep.pl###fico, #gico
@@ -1370,6 +1371,7 @@ bolix.pl##.homepage-contact-info-box > .__content > p:nth-of-type(1)
 bolt.eu###footer .float-md-right a > img
 bomameble.eu###lerto_wysuwane
 bonavita.pl###followers
+bona-ppetit.pl,mckenzie.pl,owbaltyk.pl,rozruch-startgum.pl##.rssocial-facebook-icon
 bonduelle.pl###menu-menu-stopka > #menu-item-24
 bonprix.pl##.col-xs-offset-0.col-xs-12.col-sm-offset-1.col-sm-5
 bonturystyczny.polska.travel##.footer-parallax div[class]:nth-of-type(4)
@@ -2068,6 +2070,8 @@ euro.com.pl###footer-contact > .column > #footer-icons > a:not([class]):not(.js-
 euro.com.pl###footer-contact > .column > .footer-icons > a:not([class]):not(.js-migam-open)
 eveline.eu,groman.pl##.ig
 eventforyou.com.pl##a > .fab-instagram, a > .fab-twitter-square, a > .fab-facebook-square
+eventmanagement.pl,nm.pl##.znajdz-nas
+eventmanagement.pl,nm.pl,o-m.pl##.logo-socials
 evertiq.pl###foot > ul > li:nth-of-type(3)
 evertourist.com##.contact-fb
 ewaipiotr.pl##.zeen_facebook_like_box
@@ -2396,6 +2400,7 @@ gmina.kolobrzeg.pl##.banery_wysuwane > div.noprint.pole-banerowe:nth-of-type(n+2
 gmoto.pl##.newfooter .contact-subinfo.row > .col-sm-12 > .foot-h4
 gniezno24.com,pankanapka.pl,strefa-zakupowa.pl,zsz.pisz.pl###likeboxbluestandardleft
 gocreate.pl##a[href="https://www.facebook.com/Gocreate.Belchatow"]
+gofin.pl,kalkulatory.gofin.pl##.facebook-baner
 gogolow-narty.pl##div.col-md-4:nth-of-type(1)
 gog.com##.footer-microservice-socials
 gog.com#?#.order-article__btn._dropdown + .order-message__separator:-abp-contains(ORAZ)
@@ -2663,6 +2668,7 @@ innogy.pl#?#div#footer > .row > .grid-12 > .fluid.container.component:-abp-conta
 innpoland.pl##a[href*="/innpoland" i] > img[src^="/static/media/"]
 inpay.pl##.column.wide.six
 insert.com.pl###RL
+insert.com.pl##.social-Insert
 insignia-club.pl###phpbb_announcement > div > img[src$="fotosik.pl/288/4f975613289d27b5.png"], #phpbb_announcement > div > .postlink[href*="facebook"]
 insomnia.pl##.facebook_inso
 instalki.pl###main > #right > div.only_mobile:nth-of-type(10)
@@ -2736,7 +2742,7 @@ jakitydzien.pl#?#ul:-abp-has( > li > a[href="https://facebook.com/jakitydzien"])
 jaknajwiecej.pl,statystyczny.pl##.sfsi.widget
 jakrobicmarketing.pl###twitter-follow-2, #gcz_facebook_page_like-2, .share-buttons
 jaktodaleko.pl##.navbar-follow-btn.button
-jaktodaleko.pl##.powerkit_instagram_widget
+jaktodaleko.pl,kasiapszonicka.pl##.powerkit_instagram_widget
 jak-zdobyc-dziewczyne.pl#?##scroll3:-abp-contains(Fanów na FB)
 jak-zdobyc-dziewczyne.pl#?#.right > ul:-abp-contains(społecznościowych)
 jak.tv##footer .pull-right.list-inline.list-unstyled > li:nth-of-type(-n+4)
@@ -2793,7 +2799,6 @@ kalbi.pl###fbKalbi
 kalendarzefirmowe24.pl###socb
 kalendarzrolnikow.pl##.bt-fc
 kaliber.pl##.topHeader-social
-kalkulatory.gofin.pl##.facebook-baner
 kalwariameble.eu##.elementor-icon-list-item a[href="https://www.facebook.com/kalwariameble.eu"]
 kamami.pl###ssbtn2
 kamen.com.pl##.header_contener_navigation_socials
@@ -2823,6 +2828,7 @@ karta.org.pl##.link-media:not(.link-email)
 kartuzy.info,szydlowiecki.eu##.c-footer-socials__list
 kasastefczyka.pl###footer > div > div.col:nth-of-type(3) > div
 kasianafali.pl###HTML3, #Image4
+kasiapszonicka.pl##.pk-share-buttons-total
 kasprowiczanie.com##a[href="http://www.facebook.com/kasprowiczanie"] > #link
 kastor-bike.pl,pstryczki.eu###widget_shop5
 kastu.pl##.footer-block-social
@@ -3095,6 +3101,7 @@ legimi.pl##.bookmarkFb
 lejtmotyw.info###HTML23
 lekinfo24.pl##.positionRight.sliderBanner
 lemonmind.com##.socialElements
+lemonpixel.pl###footer > .col1_3Wrap.wrap > div.col1_3:nth-of-type(2)
 lenartowiczclinic.pl##footer > div > .row > .text-right > h2
 lencze.eu##.item-185
 lenovozone.pl##.social > li:nth-of-type(5) > a[href^="https://www.linkedin.com/company/lenovo"], .social-right-widget
@@ -3266,7 +3273,6 @@ mbank.pl##.fr.community
 mbp.opole.pl##.footer-cols-wrapper > .panel-grid-cell:nth-of-type(n+3) > .panel-cell-style.footer-col
 mbp.szczecin.pl#?#.elementor-inner-column.elementor-element[data-settings*="background"][data-settings*="classic"] > .elementor-element-populated.elementor-column-wrap:-abp-has(h4:-abp-contains(/^Bądź na bieżąco$/))
 mckenzie.pl##.rssocial-twitter-icon
-mckenzie.pl,owbaltyk.pl,rozruch-startgum.pl##.rssocial-facebook-icon
 mdkkolbuszowa.pl##A[href^="https://www.facebook.com/mdk.kolbuszowa"], A[href="https://www.youtube.com/channel/UC0R0ALL8IyLcRn8SMTe3iOw"]
 mdk.opole.pl##.visit_us
 meble88.pl###top-nav > .hamburger-menu > ul > li:nth-of-type(7)
@@ -3843,7 +3849,6 @@ oyakata.com.pl###Social > a[href="https://www.instagram.com/oyakatatomistrz"]
 ozogtomczykowski.pl##div.footer-col-left:nth-of-type(1) > .footer-tytul, div.footer-col-left:nth-of-type(1) > div:nth-of-type(1)
 ozonee.pl###menu_banners3 > .menu_button_wrapper > a
 o-m.pl###T1, .znajdz-nas
-o-m.pl##.logo-socials
 paatal.pl###footer_links #menu_buttons3
 pabianice.tv##.header-search-wrapper > div.home-icon:nth-of-type(-n+2)
 paclan.pl#?#.bottomboxes:-abp-contains(Złap nas w sieci)
@@ -3947,6 +3952,7 @@ philips.pl##.p-footer-social
 photonrobot.com##.qodef-social-icon-widget, .qodef-social-share-holder
 phpcodex.com##.nk_widget
 piaggio-polska.pl##a[class*="ion-social-"]
+piaseckigagala.pl##.links > a[href*="linkedin.com/"]
 piaseczno.eu#?#.td_block_widget.td_block_text_with_title.td_block_wrap:-abp-contains(Obserwuj)
 pibuya.pl#?#.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper:-abp-contains(Social Media)
 pico-projector.pl#?#[id^="fws_"].vc_row-fluid.wpb_row:-abp-contains(Znajdź nas na Facebook)
@@ -4076,6 +4082,7 @@ poki.pl##a[href^="https://www.facebook.com/Poki"], a[href^="https://twitter.com/
 poki.pl#?#nav:-abp-contains(Visit Poki on)
 pokoleniesmart.pl##.widget_hfsocialfollowerscounterwidget, .hf-network
 polako.eu##.acx-fsmi-social-icons-desc
+polcolorit.pl###mainbar > div:nth-of-type(1) > p:nth-of-type(5):-abp-has(a[href*="facebook.com/ceramikamarconi/"] > img)
 polemi.co.uk###left > .moduletable:nth-of-type(2)
 polgrill.pl##.bigsocialblock__item
 policja.pl,slaska.policja.gov.pl###social > li:nth-child(n+2)
@@ -5017,6 +5024,7 @@ terrymoda.pl##.aFB
 tesco.pl##.cp-recipe-container-bottom > div.bottom-box:nth-of-type(2)
 testhub.pl##.sh-share-item-twitter, .sh-share-item-instagram, .sh-share-item-youtube, .sh-share-item-facebook
 testujemyjedzenie.pl##a[href="https://www.facebook.com/TestujemyJedzeniePL/"] > img
+testujzpasja.pl###gatsby-focus-wrapper ul[class*="footer__FooterMenuWrapper-"] > li:nth-of-type(-n+3)
 tfkable.com##a.lIn:nth-of-type(-n+2)
 tg.shop###fb-link, #insta-link
 thebookshop.pl###sid64 > .box_content > .box_bg.custom_html
