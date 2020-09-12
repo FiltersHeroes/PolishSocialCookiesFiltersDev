@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.11.0
-! Last modified: Fri, 11 Sep 2020, 19:00 UTC+02
+! Version: 2020.9.12.0
+! Last modified: Sat, 12 Sep 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.11.0 aktualizacja: pią, 11 wrz 2020, 19:00 UTC+02
+! v.2020.9.12.0 aktualizacja: sob, 12 wrz 2020, 19:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2175,6 +2175,7 @@ feriogaj.com##a[href^="https://web.facebook.com/CHFerioGaj/"]
 ferpay.com##.menu-block.row > div.col-sm-3.col-xs-6:nth-of-type(5)
 ferrariwarszawa.com,zapinamypasy.pl##.share-media
 ferso.org,lazienkiportal.pl###fb_box
+feryster.pl###left-footer > .profile
 festiwalbiegowy.pl###block-block-52 > fieldset > legend
 festiwalinspiracji.pl#?#div.tzSpace_default.vc_row-fluid.wpb_row.vc_row:-abp-contains(OBSERWUJ NAS NA FACEBOOKU)
 festiwal.mtp.pl,specialdays.pl##.fb_likebox
@@ -2681,6 +2682,7 @@ integra.com.pl###facebook\ hidden-xs\ hidden-sm\ hidden-md
 intellect.pl##.right > .head
 interaktywni.pro##.social-ico-box
 interferie.pl##.GP
+interia.pl###videos .player-videos__infoblock-share
 interia.pl,~www.interia.pl##.social-facebook-fanpage-below
 interia.pl,pomponik.pl#?#.brief-list-item:-abp-has( > .tile-magazine:-abp-has(a.tile-magazine-thumb[href*="//www.facebook.com"], a.tile-magazine-thumb[href*="//www.instagram.com"]))
 intermarche.pl##.foot-links-list > li.foot-links-list__item:nth-of-type(3)
@@ -4159,6 +4161,8 @@ pompaspeak.pl##div.row:nth-of-type(2) > .span12 > .thumbnails > li.span3:nth-of-
 pompateam.pl##div.col-sm-5.col-md-5.col-lg-5:nth-of-type(4)
 ponadograniczeniami.org#?#.et_pb_section:-abp-contains(Bądź z nami na bieżąco)
 popkulturysci.pl##.awac-wrapper
+popler.tv###ikony div[id$="ikona"]
+popler.tv##.bok_facebook
 popvinyl.pl##.bg-instagram.btn
 porabka.pl##[id^="right-slider0"]
 poradnikhandlowca.com.pl##a[class*="-"][class$="__social-link"]
@@ -5118,7 +5122,9 @@ triny.pl##.c-social-list
 tritontools.com##footer div.row:nth-of-type(1) .spacer-top-lg
 trofeasportowe.com##footer a[href^="https://www.facebook.com/Trofea-Sportowe-"]
 trojmiejskaperfumeria.pl###easycontent_6 > .title_block > .title_block_inner, .social_wrap > .fto-facebook, .social_wrap > .fto-instagram-1, .social_wrap > .fto-gplus-squared
+trojmiejska.com##.rt_fb_like_box.footer_block
 trovit.pl##.share_friends
+truplus.pl##.footer-contact__social
 truso.tv##.gp
 trwarszawa.pl##li > a > .ti-facebook, li > a > .ti-youtube
 trybawaryjny.pl##.widget_text.col-4.widget:nth-of-type(3)
