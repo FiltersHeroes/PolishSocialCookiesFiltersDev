@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.12.1
-! Last modified: Sat, 12 Sep 2020, 23:00 UTC+02
+! Version: 2020.9.13.0
+! Last modified: Sun, 13 Sep 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.12.1 aktualizacja: sob, 12 wrz 2020, 23:00 UTC+02
+! v.2020.9.13.0 aktualizacja: nie, 13 wrz 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2261,7 +2261,7 @@ forum.komputerswiat.pl##.topic_share a:not([id*="print"]):not([id*="email"]):not
 forum.ncplus.pl,forum.pl.canalplus.com###GooglePRight
 forum.optometria.info.pl##.footer-subscribe
 forum.pasja-informatyki.pl##div.qam-footer-col:nth-of-type(1)
-forum.pclab.pl,forum.purepc.pl##.cShareLink:not(.cShareLink_email)
+forum.pclab.pl,forum.purepc.pl,hdtvpolska.com##.cShareLink:not(.cShareLink_email)
 forum.pl.canalplus.com###YoutubeRight
 forum.puppylinux.pl###sys_facebook40
 forum.puppylinux.pl###sys_twitter40
@@ -2980,7 +2980,8 @@ krakow.pl##div.footer__tiles__item:nth-of-type(3)
 krakow.pl##.spolczne > .spolecz > li:nth-child(-n+4)
 kramp.com##.footer-top__menu-social
 krasnystaw.eu##.footer__media
-kreatorium.com##.footer-widgets > .block > #text-18 > .textwidget > p:nth-of-type(4) > a > img
+kreatorium.com###top_bar .last
+kreatorium.com##.footer-widgets #text-18 > .textwidget > p:nth-of-type(4) > a > img
 kreatywniniewidzialni.pl##a[href="https://www.facebook.com/kreatywniniewidzialni/"], a[href="https://twitter.com/Niewidzialni1"]
 kreskowki.tv##div.footer-left.col-md-3:nth-of-type(3)
 kreskowki.tv#?#.right-side-bar > div.panel:nth-of-type(1):-abp-has(.fb-wrap)
@@ -3711,6 +3712,7 @@ norauto.pl,urwis.pl,zadowolenie.pl##.m-copyrights_social
 nordvpn.com##.Footer__menu.row > div.col-sm-3.col-xs-12:nth-of-type(4) > div.p-sm-0.p-3:nth-of-type(2)
 norwegian.com,nvidia.com##.page-footer__social
 noskinoski.pl##.footer__aside-item--social
+notube.net###bottom > .container > .row > div[class]:nth-of-type(4)
 nowaatlantyda.com##.milkit_widget_social.widget
 nowaatlantyda.com##.site-follow-label
 nowakonfederacja.pl##.icons-facebook-letter-logo, .icons-twitter-black-shape, .icons-youtube-symbol
@@ -5182,8 +5184,8 @@ tvp.info##.am-article__facebook, .am-article__twitter, .am-article__gplus, .info
 tvp.info##.nav__fake--social > .facebook, .nav__fake--social > .gplus, .nav__fake--social > .twitter
 tvp.info##.socials-big__media > div:not([class$="mail"])
 tvp.info,tvp.pl##.facebook-paragraph, .news-tags__social
-tvp.pl##.navigation__socialWrapper
-tvp.pl##.section-facebook
+tvp.pl##.navigation__socialWrapper, .section-facebook
+tvp.pl##.navigation__socials a:not([href*="mailto:"]):not([href*="rss"])
 tvregionalna.pl##footer tr:nth-of-type(2) > td:nth-of-type(1)
 tvsudecka.pl##.article_summary.row > .col-sm-6:nth-of-type(1) > h5
 tvswietokrzyska.pl##.item-social-icons, .gkmod-1 .gkCols > div:nth-of-type(4)
@@ -5759,6 +5761,7 @@ zwierciadlo.pl##.post.boksborder > a.boxappla:nth-of-type(1)
 zwierciadlo.pl##.social > .afb, .social > .ainsta, .social > .ayt
 zwolen24.pl##div > a > img[src="images/index_t.png"], div > a > img[src="images/index_f.png"]
 zwrotzalot.pl##a[href^="https://www.facebook.com/zwrotzalot/"]
+zw.com.pl##.list_share > li a:not([href*="drukuj"]):not([href*="wyslij"]):not([href*="/temat/"])
 zw.lt##footer .grid-4 > .category-title
 zycieczestochowy.pl##.top-icons > li:nth-of-type(3)
 zyciestolicy.com.pl##.hm-share
@@ -6299,6 +6302,7 @@ enfamil.pl#@#.float-shop
 gameplay.pl,tvgry.pl#@#.social-16
 greencanoe.pl,spece.it,tanie-loty.com.pl,x-kom.pl#@#.social-links
 hdtvpolska.com#@#.cactus-share-and-like
+hdtvpolska.com,komputerswiat.pl,pclab.pl,purepc.pl#@#.cShareLink
 iab.org.pl#@#.menu-social-buttons
 instalki.pl#@#img[alt="Facebook"]
 interia.pl,pomponik.pl,styl.pl,~www.interia.pl#@#.article-social
@@ -6362,11 +6366,14 @@ wsqn.pl#@#.social_bookmarks
 wydawnictwo.szaron.pl#@#.social-box
 x-kom.pl#@#.social-bar
 youtube.com#@##secondary-links
+zw.com.pl#@##share_bottom
+zw.com.pl#@#.list_share
 #@#.cookie-bottom-layer
 #@#.js-cookie-light
 @@/dynamic_content/*_icon_google_play$image,domain=pilot.wp.pl
 @@/googleplus-$image,domain=wirtualnemedia.pl
 @@/images/microblog/emailButton.$image,domain=krotoszyn.pl|zlotoryjska.pl
+@@/images/social/mail_niebieski$image,domain=tvp.pl
 @@/images/*facebook.jpg$domain=filoma.org
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
 @@/modules/mod_je_social/images/social.png$image,domain=roland-gazeta.pl
