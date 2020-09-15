@@ -208,6 +208,8 @@ m.leroymerlin.pl##body.drawer-is-open, body.ReactModal__Body--open:style(overflo
 m.leroymerlin.pl##.ReactModalPortal:has-text(Polityka prywatności)
 m.youtube.com##body[modal-open-body]:style(position: static !important;)
 m.youtube.com##.consent-bump-lightbox
+m.youtube.com##.consent-bump-lightbox:remove()
+youtube.com###consent-bump, .opended:remove()
 naekranie.pl###modal-rodo-info.show, .modal-backdrop
 nastyku.pl###ns_cookie_accepted
 nauka.rocks##.ct-ultimate-gdpr-cookie-topPanel-padding:style(padding-top: 0 !important;)
