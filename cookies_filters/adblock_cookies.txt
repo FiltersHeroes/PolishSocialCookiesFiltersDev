@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.17.0
-! Last modified: Thu, 17 Sep 2020, 19:00 UTC+02
+! Version: 2020.9.17.1
+! Last modified: Thu, 17 Sep 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.17.0 aktualizacja: czw, 17 wrz 2020, 19:00 UTC+02
+! v.2020.9.17.1 aktualizacja: czw, 17 wrz 2020, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2080,7 +2080,7 @@ traftu.pl##.unconfirmed.opt-in-splash
 trakt.tv##.sncmp-app_gdpr
 transatlantyk.org,ump.edu.pl###app-cookie-bar
 transfergo.com##.gdpr-consent
-translate.google.com,translate.google.pl##header ~ div[data-cbh="consent.google.com"]
+translate.google.com,translate.google.pl##div[data-cbh^="consent.google."]
 translate.google.pl##[style*="#userData"]
 trans-bus.eu,weebly.com###kb-container.kb-container
 trasa.info###cookemessagehandler
