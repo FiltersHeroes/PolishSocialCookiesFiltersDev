@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.16.0
-! Last modified: Wed, 16 Sep 2020, 20:03 UTC+02
+! Version: 2020.9.17.0
+! Last modified: Thu, 17 Sep 2020, 19:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.16.0 aktualizacja: śro, 16 wrz 2020, 20:03 UTC+02
+! v.2020.9.17.0 aktualizacja: czw, 17 wrz 2020, 19:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1105,6 +1105,7 @@ jednoslad.pl###arvlbdata > p
 jelenia.pl###alert-blue
 jelonka.com,walbrzyszek.com##.prywatnosc
 joemonster.org,mistrzowie.org###sd-cmp
+jogapiekna.com,magazynsuplement.us.edu.pl###cookies-eu
 johnsoncontrols.com##.universalcookiedisclaimer
 jula.pl##.g-cookie__box
 junak.com.pl###wrapper > .toplayer
@@ -1285,7 +1286,6 @@ luxexpress.eu###luxCookie
 lvbet.pl###js-cookie-popup
 lyconet.com,ogloszeniowa.net###cookie-box
 madreklama.com##.style2
-magazynsuplement.us.edu.pl###cookies-eu
 magazyn-hamag.pl##.notify-popup
 magazyn.allegro.pl,media.pl.canalplus.com,prowly.com##.pr-cookie-policy
 mag-sklep.pl##.b-popup-wrapper
@@ -1424,6 +1424,7 @@ mpolska24.pl##div[class^="infoBox"]
 mp.pl###toptop
 mragowo24.info##.r-p-a
 mrowka.com.pl#?#.popup-container:-abp-has(.popup-button-agree)
+mshop.huawei.com###cookie_notices
 msn.com###conditionalbanner, .euBanner
 mtech.pl###content_jquery_bottom
 mtm-info.pl###etisoA
@@ -1940,6 +1941,7 @@ smazymy.com##.footer__cookies
 smsapi.pl##.cookie-agreement-bar
 smwarmia.pl###spmask
 smwarmia.pl#?##boxes:-abp-has( > #dialog img[src*="danych-osobowych"])
+smycze.lublin.pl,twojsklep.com.pl###privacy-pop-up
 snapchat.com###cookiePopupContainer
 snt.pl###sntc-close
 socialwifi.com##.cookielaw-banner
@@ -2078,6 +2080,7 @@ traftu.pl##.unconfirmed.opt-in-splash
 trakt.tv##.sncmp-app_gdpr
 transatlantyk.org,ump.edu.pl###app-cookie-bar
 transfergo.com##.gdpr-consent
+translate.google.com,translate.google.pl##header ~ div[data-cbh="consent.google.com"]
 translate.google.pl##[style*="#userData"]
 trans-bus.eu,weebly.com###kb-container.kb-container
 trasa.info###cookemessagehandler
