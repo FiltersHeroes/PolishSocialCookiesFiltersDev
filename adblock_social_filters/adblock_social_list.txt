@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.17.0
-! Last modified: Thu, 17 Sep 2020, 19:00 UTC+02
+! Version: 2020.9.17.1
+! Last modified: Thu, 17 Sep 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.17.0 aktualizacja: czw, 17 wrz 2020, 19:00 UTC+02
+! v.2020.9.17.1 aktualizacja: czw, 17 wrz 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -805,7 +805,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_l
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl##.cresta-facebook-messenger-box
 3mk.pl,aletorcik.pl,blogujmy24.pl,doradca.tv,info.ceneo.pl,magnapolonia.org,moj-kawalek-podlogi.pl,pannaannabiega.pl,phunetcom.pl,polska.sumy.ua,wroclawskiejedzenie.pl###text-8
 3obieg.pl##.smart-youtube
-3obieg.pl,appki.com.pl,autonom.pl,calkiemzdrowo.pl,domtuiteraz.eu,e-marketingprawniczy.pl,konstantinkanin.com,multigaming.pl,paczka-wiedzy.pl,popradio.pl###text-7
+3obieg.pl,akademiawitalnosci.pl,appki.com.pl,autonom.pl,calkiemzdrowo.pl,domtuiteraz.eu,e-marketingprawniczy.pl,konstantinkanin.com,multigaming.pl,paczka-wiedzy.pl,popradio.pl###text-7
 3xk.pl##.footer_contact div.ft_sec:nth-of-type(2)
 4dd.pl##.list-12 > li
 4fun.tv##div > a[href*="instagram.com/4fun.tv/"]
@@ -964,6 +964,7 @@ all-bielizna.pl###sid245
 alphavit.pl,athleticsport.pl,avita.pl,house-party.pl,jokasklep.pl,lanex.com.pl,lidia.pl,mojedekoracje.eu,presta-portal.pl,sklepdlaciebie.pl,skottuning.com,specgear.com.pl,wyciskarki.pl###likebox_content
 alpro.com###ela_header_socialNav, #ela_footer_socialNav
 altenberg.pl##.youtube_link, .instagram_link
+alter24.pl###custom_html-8
 alternatywne.pl,djoles.com,megataxi.pl,twojaanglia.eu,wochenblatt.pl###fpw_widget
 aluprof.eu##.sidebar__title, li.sidebar__link:nth-of-type(-n+3)
 al.to,combat.pl,x-kom.pl##footer a[href*="facebook.com"], footer a[href*="instagram.com"], footer a[href*="youtube.com"], footer a[href*="twitter.com"]
@@ -3153,6 +3154,7 @@ ligaakademicka.pl##.qodef-btn[href="https://www.facebook.com/LigaAkademicka/"], 
 ligamistrzow.com###fb-adv, #twitter-adv
 lightinthebox.com##.join-our-community
 lightonline.pl,nestle.media.pl##.socialNetwork
+likefb.pl##.jas-social > .facebook-f
 limango.pl##.lilayout-footer-column-social
 lincoln.edu.pl##.top-facebook
 lincoln.edu.pl,ustron.pl##a > .mdi-facebook.mdi
@@ -6406,6 +6408,7 @@ zw.com.pl#@#.list_share
 @@||instalki.pl/images/youtube-
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
+@@||likefb.pl/wp-content/uploads/*/twittericon.png
 @@||meczyki.pl/images/twitter_blank.gif
 @@||muza.com.pl/img/facebook.$image
 @@||news.astronet.pl/wp-content/themes/warta/img/social-media-icons.png$image,domain=news.astronet.pl
