@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.21.0
-! Last modified: Mon, 21 Sep 2020, 19:00 UTC+02
+! Version: 2020.9.24.0
+! Last modified: Thu, 24 Sep 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.21.0 aktualizacja: pon, 21 wrz 2020, 19:00 UTC+02
+! v.2020.9.24.0 aktualizacja: czw, 24 wrz 2020, 15:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2028,6 +2028,7 @@ szybkanauka.pro#?##tve_editor:-abp-contains(cookies)
 takeda.com##.cookie__wrapper
 tamron.eu###cookieInfobox
 targeo.pl#?#body > div[style^="position: absolute;"]:not([id]):not([class]):-abp-contains(plików cookie)
+tarnogorski.info###cliSettingsPopup
 tatra.pl##.cookies-2-overlay, .popup-cookies-2
 tatuaze-wzory.com###showcookie
 taxo-acc.pl##.snackbar-container
@@ -2216,7 +2217,7 @@ www.ea.com##ea-truste-consent-bar
 www.google.com,www.google.pl##body > div[class*=" "]:not([id]) > c-wiz > div[jscontroller] > div[class][jsname][data-ved][style="display: block;"]
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.google.com,www.google.pl###gb > div[class][style^="background"]
-www.google.com,www.google.pl#?##center_col > #taw > div > .med + div:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"])
+www.google.com,www.google.pl#?##center_col #taw > div > .med + div:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"]),
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hertz.com.pl##[class^="lb-"]
 www.hertz.pl###light-box-1
