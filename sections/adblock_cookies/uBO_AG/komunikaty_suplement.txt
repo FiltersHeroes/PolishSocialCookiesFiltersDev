@@ -1,4 +1,3 @@
-foursquare.com##^.cookieBanner ~ script:has-text(Cookies.CookieBanner)
 foursquare.com##+js(set, fourSq.cookies.CookieBanner, noopFunc)
 pl.tripadvisor.com##span[data-test-name="consent"]:upward(1)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
