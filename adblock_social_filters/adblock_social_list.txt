@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.24.0
-! Last modified: Thu, 24 Sep 2020, 19:00 UTC+02
+! Version: 2020.9.26.0
+! Last modified: Sat, 26 Sep 2020, 23:01 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.24.0 aktualizacja: czw, 24 wrz 2020, 19:00 UTC+02
+! v.2020.9.26.0 aktualizacja: sob, 26 wrz 2020, 23:01 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -798,6 +798,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_l
 ~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 2plus3d.pl###menuItem_facebook
 2xme.pl##.footer__block--flex.footer__block, .media__second
+3dfilamenty.com##.fx-social
 3dom.pro##.division-size-50.division-box-2.division-box
 3dom.pro,abarta.pl,bedziepieklo.pl,centrumhandlowerobi.pl,e-vox.pl,gardenflora.pl,greenfelix.eu,kubolek.pl,mbmeganarzedzia.pl,motogron.com,narzedziowy24.eu,naturalo.pl,pasmanteria.eu,ss24.pl,thebookshop.pl,tkaninyflorentine.pl,upominki24.pl,wik-tor.pl#?#.footer-container div .center.section-title > span:-abp-contains(Znajdziesz nas na)
 3dom.pro,anmur.eu##.top-bar li:nth-of-type(n+3) > .link
@@ -901,6 +902,7 @@ agwerblog.pl,eloblog.pl,komputerowapasja.pl,reklamacjatowaru.pl,zakreconywegeobi
 ahh.sklep.pl##.container.userfooter > .row > p > span
 aidcom.eu##.message.social, .facebook.social
 aikoiemil.com,pozdrozkrld.com##.widget_youtube_subscriber
+airbnb.pl##footer ul > li > a > svg[aria-label^="Przejdź do"]
 airbnb.pl#?#footer div > ul > li > span > a[target="_blank"]:-abp-has(svg)
 airly.eu##div[class^="social-bar__SocialIcons-"]
 airly.eu##[class^="footer__SocialLinks"]
@@ -1374,7 +1376,12 @@ bolec.info##table.tlo0:nth-of-type(1) > tbody > tr:nth-of-type(10) > td:nth-of-t
 boleslawiec.tv##.sidebar > div.widget.row:nth-of-type(3)
 boleslawiec.tv,bydgoszcz.com,eluban.pl,halogorlice.info,jaw.com.pl,jawor.tv,koscierzyna24.info,lokalna.news,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,olesnica24.com,regatv.pl,sandomierztv.pl,slubice.tv,starachowice.pl,swiebodzin.tv,telewizjazary.pl,truso.tv,tv-kwidzyn.pl,tvmorag.pl,wielkabrytaniaonline.co.uk##.social > li:not(.rss)
 bolix.pl##.homepage-contact-info-box > .__content > p:nth-of-type(1)
+bolt.eu##a[href="https://business.facebook.com/BoltPL/"], a[href="https://twitter.com/Boltapp/"], a[href="https://www.instagram.com/bolt_poland/"], a[href="https://www.linkedin.com/company/bolt-eu/"]
 bolt.eu###footer .float-md-right a > img
+bolt.eu##.icon-facebook-with-circle
+bolt.eu##.icon-instagram-with-circle
+bolt.eu##.icon-linkedin-with-circle
+bolt.eu##.icon-twitter-with-circle
 bomameble.eu###lerto_wysuwane
 bonavita.pl###followers
 bona-ppetit.pl,mckenzie.pl,owbaltyk.pl,rozruch-startgum.pl##.rssocial-facebook-icon
@@ -1571,8 +1578,9 @@ claresa.pl##.boxGrzesSocial
 claudia.pl##.sidebar-box-social-icon.sidebar-box
 claudia.pl#?#.col-12 > h3:-abp-contains(Zainspiruj się)
 claudia.pl,webcamera.pl##.instagram-box
+clevo-computer.com##.whatsappbadge
 clevo-computer.com##a[id].kplngisd-button:not(#kplngisd-mail-button)
-clevo-computer.com##.googlepluslink, .instagramlink, .whatsappbadge
+clevo-computer.com##.googlepluslink, .instagramlink
 click2go.pl#?#.fl-col-has-cols.fl-col-small.fl-col > .fl-node-content.fl-col-content:-abp-contains(Social Media)
 clineo.pl##.uk-flex-middle.uk-flex > .icon-facebook_icon
 clipconverter.cc###toptext > span.right, #toptext > a.right:nth-of-type(-n+2)
@@ -1621,6 +1629,7 @@ cosinus.pl###yt_icon, #instagram_icon
 cosinus.pl,hotelforumlublin.pl###google_icon
 cottonina.pl#?##wrapper > section.l-section:-abp-has(a#instagram-widget)
 cottonina.pl#?##wrapper > section.l-section:-abp-has(h2 > i.fa-instagram)
+couchsurfing.com##.footer-icons > section.footer-block
 cowsierscipiszczy.pl##.wpf-sbtn, .wpf-sb-buttons
 cozahistoria.pl###menu-item-87, #menu-item-88, #menu-item-89
 cracovia.pl##.socialFixBox
@@ -2108,6 +2117,7 @@ exerim.pl##.socialSubscribe, #sidebar > article:nth-of-type(2) > h3
 expander.pl##.footer-contact > h3.footer__header:nth-of-type(2)
 expansa.pl##.spolecznosciowki
 experiencecorner.com###fb-fixed-btn, .fb-messengermessageus
+exploringaround.pl##.ecp-button
 expressilustrowany.pl###boks-facebook
 exsites.pl,konsoleigry.pl##div.block:nth-of-type(4)
 extrasport.pl#?#div.item.product > .thumbnail:-abp-has(img[src*="/thumb_13-fb.jpg"])
@@ -3335,6 +3345,8 @@ meble.pl##.mainFooter > .row-flex > div:nth-of-type(5)
 mebline.co.uk,mebline.nl##.moduletable_social
 mebline.nl##.social-news
 mebloteka.eu###Facebook_Messenger
+mechatronikadlawszystkich.pl##li.nav__social-item
+mechatronikadlawszystkich.pl##.js-cake.c__cake
 media2.pl##a[href*="feedly.com"]
 media2.pl##a[href="https://twitter.com/media2pl"]
 media2.pl##a[href="https://www.facebook.com/media2pl/"]
@@ -3491,6 +3503,7 @@ mojejaslo.pl#?#.td-footer-wrap .tds-title:-abp-contains(SOCIAL MEDIA)
 mojejaslo.pl#?#.td-pb-span4.tdc-column.vc_column_container.vc_column:-abp-has(.td_social_type)
 mojemydelko.pl##a[href="https://plus.google.com/107264627679426462744/posts"]
 mojeppk.pl##.social-social-container
+mojeuslugi.pl##footer div > a[class*="bg-orange"]:nth-of-type(-n+3)
 mojewypieki.com###home_fb_plugin
 moje-bubble.blogspot.com###PlusBadge2
 mojkufelek.pl###text-6 tr a > img
@@ -4117,6 +4130,8 @@ pl.primo.com##footer .p-imagetext-tb:nth-of-type(3)
 pl.tommy.com###olapic_specific_widget
 pl.tommy.com##.\-\-connect.footer__list-title
 pl.tradingview.com##.tv-footer__column--socials:nth-of-type(2)
+pl.tripadvisor.com##footer a[title="Facebook"]
+pl.tripadvisor.com##footer a[title="Twitter"]
 pl.vivre.eu,vivrehome.pl##div.footer__utility-col:nth-of-type(4) > .footer__utility-title
 pl.vpnmentor.com##.last.part-wrap, .article-thanks-wrap, .side-follow-wrap
 pl.waterdrop.com##div.Footer__Block--text:nth-of-type(3)
@@ -4197,7 +4212,6 @@ polskieligi.net###social_networks
 polskieradio24.pl##.menu-ext-social
 polskieradio.com##.post-widget.widget:nth-of-type(4) > .title-section > h1
 polskikoszyk.pl##.footer-content .circle
-polskikoszyk.pl##.footer-content .row div:nth-of-type(n+2):nth-of-type(-n+5) > .circle
 polskiprzemysl.com.pl###fb-liked
 polski-dubbing.pl##.header-youtube
 polsky.tv##.menu-icons > div.menuItemWrap:nth-of-type(n+2):nth-of-type(-n+4)
@@ -5319,6 +5333,9 @@ upflix.pl##.social-icons > a.ico-o:nth-of-type(3)
 upflix.pl##.so-f, .so-t, .so-w
 upolujebooka.pl##.footer > .col-xs-12.col-sm-12.col-md-3
 upominki24.pl##.item-16.item > .in > .description > p > a[href="https://www.facebook.com/upominki24pl/"]
+upsteam.eu##.footer td.wsite-multicol-col:nth-of-type(1) > h2.wsite-content-title:nth-of-type(2)
+upsteam.eu##.footer td.wsite-multicol-col:nth-of-type(1) > h2.wsite-content-title:nth-of-type(2) ~ div table a
+upsteam.eu##.footer > .wsite-footer.wsite-elements > div:not([id]):not([class]):nth-of-type(2) > .wsite-multicol > .wsite-multicol-table-wrap > .wsite-multicol-table > .wsite-multicol-tbody > .wsite-multicol-tr > td.wsite-multicol-col:nth-of-type(1)
 urania.edu.pl##a[href="https://www.facebook.com/UraniaPA"]
 urania.edu.pl##a[href="https://www.instagram.com/Urania1919"]
 urania.edu.pl##p > a[href="https://twitter.com/UraniaPA"]
@@ -5519,7 +5536,6 @@ wmeritum.pl##.last.one_half
 wneiz.pl##.logo-facebook_sprite, .logo-youtube_sprite
 wnet.fm##.fa-youtube-play.fa, #menu-item-8042, #menu-item-8044, #menu-item-8033
 wnt.com##.footer-content div.col-xs-12.col-sm-6.col-md-4:nth-of-type(3) > div:nth-of-type(1)
-woblink.com###footer .apps > div:nth-of-type(2) > .column-heading
 woblink.com##.apps > div:nth-of-type(2)
 woda.com.pl###footer > nav > div > .module-social
 wojas.pl##.sv-fb-0
@@ -6364,6 +6380,7 @@ bankier.pl,claudia.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.p
 bemares.pl#@#.social-media:not(html):not(body)
 biznes.interia.pl#@#.social-socialButtons
 chillizet.pl#@#.share-content
+couchsurfing.com#@#.mod-social
 cyberpunk.sklep.pl,freshandnatural.pl,sferazabawek.pl#@##social_block
 demotywatory.pl#@#.share-facebook
 demotywatory.pl#@#.share-widgets
