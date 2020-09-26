@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.9.24.1
-! Last modified: Thu, 24 Sep 2020, 19:00 UTC+02
+! Version: 2020.9.26.0
+! Last modified: Sat, 26 Sep 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.9.24.1 aktualizacja: czw, 24 wrz 2020, 19:00 UTC+02
+! v.2020.9.26.0 aktualizacja: sob, 26 wrz 2020, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -27,7 +27,7 @@
 3dom.pro,anmur.eu,avenidapoznan.com,bibliotekacyfrowa.eu,bimobject.com,bip.gliwice.eu,budmat.com,budujemy.to,chorzow.eu,corab.eu,diamante-wear.com,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kiddabadam.com,kler.eu,koszulkomat.eu,kup.pl.canalplus.com,maamstyle.com,makoblog.com,mateuszgrzesiak.com,media-tech.eu,mg-pmm.com,motogron.com,narzedzia.cz,naszefutrzaki.eu,pkpcargo.com,prochnik.com,profit-plus.eu,radiopark.fm,rocks-jeans.com,sapphiretech.com,secretdelivery.pl,stolmot.com,telko.in,tg.shop,trecnutrition.com,warszawa.promenada.com,wearmedicine.com##.cookies
 3mpolska.pl,bosch-professional.com,cisco.com,command.pl,e.huawei.com,logitech.com,logitechg.com,post-it.pl,vacansoleil.pl###__tealiumGDPRecModal
 3s.pl,antyweb.pl,brolerserwis.pl,franciszkanskie.pl,grupakety.com,ingtechpoland.com,kancelaria-szip.pl,karmy.com.pl,kultura.krasnik.eu,norauto.pl,olimpijski.pl,pelion.eu,softon.pl,spedycje.pl###privacy
-4fstore.com,aclari.pl,auto-czesci-lipiec.pl,autogielda.pl,bosch-industrial.com,diecezjaplocka.pl,dreammachines.pl,e-konkursy.info,fotosik.pl,funduszpomerania.pl,generali.pl,goldenline.pl,haloursynow.pl,interprojekt.pl,janssenmed.pl,jelenia.tv,junkers.pl,kkm.ztm.kielce.pl,leo.pl,mazury24.eu,musicexpress.pl,mylead.global,naratunek.org,opiniolog.com,oskolaf.pl,panoramafirm.pl,pulawy.eu,rybnik.com.pl,saleswww.proama.pl,skijumping.pl,slaskibiznes.pl,swiatopon.info,swiatpodlog.com.pl,tuwodzislaw.pl,warsztat.pl,wseit.edu.pl,zabierzow.org.pl##.modal-backdrop
+4fstore.com,aclari.pl,auto-czesci-lipiec.pl,autogielda.pl,bosch-industrial.com,diecezjaplocka.pl,dreammachines.pl,e-konkursy.info,fotosik.pl,funduszpomerania.pl,goldenline.pl,haloursynow.pl,interprojekt.pl,janssenmed.pl,junkers.pl,kkm.ztm.kielce.pl,leo.pl,mazury24.eu,musicexpress.pl,mylead.global,naratunek.org,opiniolog.com,oskolaf.pl,panoramafirm.pl,pulawy.eu,rybnik.com.pl,saleswww.proama.pl,skijumping.pl,slaskibiznes.pl,swiatopon.info,swiatpodlog.com.pl,tuwodzislaw.pl,warsztat.pl,wseit.edu.pl,zabierzow.org.pl##.modal-backdrop
 4geek.co###small-terminal
 4hifi.pl,advatus.pl,ip-sa.pl,tylkodywan.pl##.myModal-box
 4ip.pl###ccontainer
@@ -99,6 +99,7 @@ agro-bis.eu,eldom.eu,iletutego.eu,prawniktorun.eu###cookie-alert
 agusto.pl,etroniks.pl,happytime.com.pl,mebags.pl,trojmiejska.com,trojmiejskaperfumeria.pl##div[id^="st_notification_"][style*="display"]
 ag-complex.com.pl##.cookie__window
 ahrefs.com###iubenda-cs-banner
+airbnb.pl##div[data-testid="main-cookies-banner-container"]
 airbnb.pl##div[data-veloute="cookie-disclaimer"]
 aircon.panasonic.eu,ecreo.eu,mazury.com,pl.vivre.eu,polemi.co.uk,rybnik.eu,tbnpolska.tv,ztm.lublin.eu##.cc-cookies
 airkiosk.lot.com##.mf-modal-overlay, .mf-modal-iframe
@@ -875,7 +876,6 @@ gdziewpolsce.pl##body > div > .cookie-alert-content
 geekbuying.com,geekbuying.pl##.gdpr-cookie
 geers.pl##.ConsentWrapper
 generali.pl##div#cLayer
-generali.pl,jelenia.tv,radiogdansk.pl,radioram.pl,radiowroclaw.pl,saleswww.proama.pl,tanibus.com,ticketclub.pl###rodoModal
 generatorkodowkreskowych.pl,kalendarz-roku-szkolnego.edu.pl###cn
 generator.blulink.pl##.privatepolicy
 genetico.pl##body > div[class][style*="position"][style*="fixed"]:not([id])
@@ -1396,6 +1396,7 @@ mojapogoda.com###IR
 mojavon.pl##.mpp-container > .mpp-popup
 mojbank.pl##.uk-notification-message
 mojehobby.pl##.message-footer-panel
+mojeuslugi.pl##.footer ~ div.text-center.fixed
 molkip.pl##.dialog-message.dialog-lightbox-message > .elementor-location-popup
 mondeoklubpolska.pl##li#navbar_notice_12
 monedo.pl##.NotificationBar
@@ -1643,6 +1644,7 @@ pkn.net.pl##.lity-inline.lity-opened.lity
 pkobp.pl,pkopte.pl,pkotfi.pl###pko-cookie-rodo, .pko-cookie-rodo, .cookie-rodo, .rodo-not-small-modal
 pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.aPad
 placowka.znanylekarz.pl##.footer-container-wrapper #footer-baner[style*="fixed"]
+platanhouse.com.pl,radiogdansk.pl,radioram.pl,radiowroclaw.pl,ticketclub.pl###rodoModal:not([style*="padding-right"])
 player.pl##.cBox
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
 play.pl##.cookies-mine
@@ -1674,7 +1676,9 @@ pl.pog.com###policy-validation.policy-validation
 pl.primo.com##.e-cookie
 pl.sputniknews.com###cookieContainer
 pl.thermaltake.com###gdprcode2
+pl.tripadvisor.com##span[data-test-name="consent"]
 pl.tripadvisor.com##.ppr_priv_document_cookie_banner
+pl.trip.com###use-cookie
 pl.twich.tv##div#noty_bottomCenter_layout_container
 pl.yahoo.com##div#mediafpwave3-wshade
 pmw.net.pl###note-holder
@@ -2000,6 +2004,7 @@ stylownik.com##.cpolicy
 sudafed.pl,vcms.eu###cookies-alert
 sulky-burel.pl###info_cookies_master
 sunandsnow.pl##.popup-cookies
+supermenu.com.pl###spu-553
 super-nowa.pl###syl-cookie-monster
 super-siodemka.pl###div-cookie-acceptance
 support.kaspersky.com###gdprbar
@@ -2220,7 +2225,7 @@ www.ea.com##ea-truste-consent-bar
 www.google.com,www.google.pl##body > div[class*=" "]:not([id]) > c-wiz > div[jscontroller] > div[class][jsname][data-ved][style="display: block;"]
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.google.com,www.google.pl###gb > div[class][style^="background"]
-www.google.com,www.google.pl#?##center_col #taw > div > .med + div:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"]),
+www.google.com,www.google.pl#?##center_col #taw > div > .med + div:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"])
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hertz.com.pl##[class^="lb-"]
 www.hertz.pl###light-box-1
