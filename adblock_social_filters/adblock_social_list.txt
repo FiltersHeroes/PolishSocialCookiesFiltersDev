@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.10.10.0
-! Last modified: Sat, 10 Oct 2020, 19:00 UTC+02
+! Version: 2020.10.11.0
+! Last modified: Sun, 11 Oct 2020, 15:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.10.10.0 aktualizacja: sob, 10 paź 2020, 19:00 UTC+02
+! v.2020.10.11.0 aktualizacja: nie, 11 paź 2020, 15:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1915,6 +1915,7 @@ dzieje.pl###block-serwisyspolecznoscioweaplikacje > div > ul > li:not(:nth-of-ty
 dzieje.pl##.youTube, .m5 > .block-title
 dziendobry.tvn.pl##.socline
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl#?##narzedzia:-abp-has( > .facebook:only-child)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,gp24.pl,kurierlubelski.pl,naszahistoria.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,to.com.pl,tygodnikits.pl,wspolczesna.pl#?#.componentsPromotionsPromoted:-abp-has(a[href*="facebook.com/"])
 dzienniknaukowy.pl##a[href="https://www.facebook.com/dziennik.naukowy/"] > img
 dziennikprawny.pl##footer > div.container > div.row > div[class]:nth-of-type(3)
 dziennikprawny.pl#?#.list-inline:-abp-has( > .list-inline-item > .btn-social)
@@ -1977,7 +1978,7 @@ ekologia.pl##.linkWykop, .bi2.bottom-item
 ekonomik.olsztyn.pl###facebook_head
 ekookna.pl##div.icos__wrapper:nth-of-type(1), div.icos__wrapper:nth-of-type(4)
 ekoteka.pl##.footer__address__social > a
-eko-central.pl,otomoto.pl,pkl.pl,sklep.widzew.com,superubezpieczenia.pl,uzywanygwarantowany.pl##.social-network
+eko-central.pl,pkl.pl,sklep.widzew.com,superubezpieczenia.pl,uzywanygwarantowany.pl##.social-network
 eksiazki.az.pl##a[href="http://facebook.com/eksiazki"], .subscribe > a[href="https://plus.google.com/+Eksiążkiplus"], .subscribe > a[href="https://twitter.com/e_ksiazki"], .subscribe > a[href="http://www.youtube.com/c/Eksiążkiplus"]
 eksiazki.az.pl##div.box:nth-of-type(2) > h5
 eksiegarnia.pl##div.e_right_dol:nth-of-type(10) a.e_right_dol_link:nth-of-type(1) > p
@@ -3918,6 +3919,7 @@ osworld.pl##.td-social-wrap-64.td-social-wrap.td_block_wrap > .block-title
 osworld.pl##.td-s-s-64-meetup
 oszczedzarka.co.uk##.row > .engine-block.small-12.large-3 > center > a > img, .textwidget > p > img[src="/img/ico/skype.png"]
 otodom.pl##footer div.item:nth-of-type(4) > ul > li:nth-of-type(2)
+otomoto.pl##footer a[href*="https://www.facebook.com/otomotopl" i]
 ototorun.pl#?#.l-news__content p > strong:-abp-contains(Polub nas na Facebooku)
 otoz.pl##.footer-odwiedz
 otube.pl###belt div.text-right.col-sm-6:nth-of-type(1)
@@ -4603,6 +4605,7 @@ rylko.com##.fa-facebook-official
 rynekinfrastruktury.pl##.sledzNasContainer > .naglowek > .tekst
 rynekinwestycji.pl#?#.site-title:-abp-contains(FACEBOOK)
 rynekpierwotny.pl##.fd-row.df.mb-lg > div.w20:nth-of-type(4) > .mb-lg.fwb.fs14, .fd-row.df.mb-lg > div.w20:nth-of-type(4) > .fd-row.df
+rynekpierwotny.pl##.footer div[class]:nth-of-type(5) > h4:nth-of-type(1), .footer div[class]:nth-of-type(5) > h4:nth-of-type(1) + div:nth-of-type(1)
 rynekzdrowia.pl###menu-1 .inline > li:nth-of-type(n+2):nth-of-type(-n+4)
 rynek-kolejowy.pl##.sledzNasTekst, .socialIcons > li:nth-of-type(-n+3)
 rynek-lotniczy.pl,rynekinfrastruktury.pl,transport-publiczny.pl##.wiadomoscSocialBig > .socialNaglowek
