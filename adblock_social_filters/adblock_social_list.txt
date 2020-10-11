@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.10.11.1
-! Last modified: Sun, 11 Oct 2020, 19:00 UTC+02
+! Version: 2020.10.11.2
+! Last modified: Sun, 11 Oct 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.10.11.1 aktualizacja: nie, 11 paź 2020, 19:00 UTC+02
+! v.2020.10.11.2 aktualizacja: nie, 11 paź 2020, 23:00 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -800,7 +800,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"], .facebook_l
 2xme.pl##.footer__block--flex.footer__block, .media__second
 3dfilamenty.com##.fx-social
 3dom.pro##.division-size-50.division-box-2.division-box
-3dom.pro,abarta.pl,bedziepieklo.pl,centrumhandlowerobi.pl,e-vox.pl,gardenflora.pl,greenfelix.eu,kubolek.pl,mbmeganarzedzia.pl,motogron.com,narzedziowy24.eu,naturalo.pl,pasmanteria.eu,sowaksiazki.pl,ss24.pl,thebookshop.pl,tkaninyflorentine.pl,upominki24.pl,wik-tor.pl#?#.footer-container div .center.section-title > span:-abp-contains(Znajdziesz nas na)
+3dom.pro,abarta.pl,bedziepieklo.pl,centrumhandlowerobi.pl,e-vox.pl,gardenflora.pl,graszki.pl,greenfelix.eu,kubolek.pl,mbmeganarzedzia.pl,motogron.com,narzedziowy24.eu,naturalo.pl,pasmanteria.eu,sowaksiazki.pl,ss24.pl,thebookshop.pl,tkaninyflorentine.pl,upominki24.pl,wik-tor.pl#?#.footer-container div .center.section-title > span:-abp-contains(Znajdziesz nas na)
 3dom.pro,anmur.eu##.top-bar li:nth-of-type(n+3) > .link
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
 3mk.pl,aletorcik.pl,blogujmy24.pl,doradca.tv,info.ceneo.pl,magnapolonia.org,moj-kawalek-podlogi.pl,pannaannabiega.pl,phunetcom.pl,polska.sumy.ua,wroclawskiejedzenie.pl###text-8
@@ -852,6 +852,7 @@ abcsurf.pl##.modFooter_Social
 abrakadabra.sklep.pl##.social a:not([href*="newsletter"])
 accent-bikes.com###right_icons
 accu-chek.pl###accuchek-facebook
+acer.com##.praxis-social-links
 ach-te-internety.pl,aikoiemil.com,banita.travel.pl,jaworzno.pl,jdc24.pl,polishclub.org,szybkaprzemiana.pl,testergier.pl##.widget_sfp_page_plugin_widget
 active.sklep.pl##.footer--social-block
 activsport.eu,bludshop.com,budujmy.eu,ene-due.eu,m-shop.eu,muppetshop.eu,sklepmoto.eu,wentsystem.com###tws_i_0
@@ -2505,7 +2506,7 @@ grajtanio.pl##.likebox_tab
 gralandia.pl,gralandia.tv###nk_prawa
 gram.pl##.socialistic-links a:nth-child(-n+5)
 granicenauki.pl###block-block-28
-graszki.pl,gronek-gry.pl,laserland.com.pl,sklepsportowy.pila.pl,slodkiehobby.pl###slide_panel46
+graszki.pl,laserland.com.pl,sklepsportowy.pila.pl,slodkiehobby.pl###slide_panel46
 gravit.pl##.main-footer li.col-md-3.col-sm-3.col-xs-12:nth-of-type(4) > label:nth-of-type(2)
 grawerowanie.org.pl##.last.widget_inner
 gra.fm##ul > .soc > a
@@ -2721,6 +2722,7 @@ infoplanet.pl##.left-fixed, .footer-fanpages, .footer-header
 inforfk.pl###facebookFixed
 inforlex.pl,interaktywnapolska.pl##.follow
 informacja-turystyczna.starachowice.eu#?#.item-440:-abp-has( > a[href="https://www.youtube.com/user/umstarachowice"])
+informer.com##.wrapper_social, .footer_social
 infosecurity24.pl##.card-social
 infostrefa.com##.notifications
 info.wiara.pl##.txt__social
@@ -4980,7 +4982,6 @@ stokrotka.pl###Media_społecznościowe
 stolicazdrowia.pl##.mh_magazine_facebook_page, #text-15
 stopnadwadze.pl###bottom-bar
 stoprocent.com###social-sticky
-store.acer.com##.praxis-social-links
 storytel.com###footerComponent > div > div:nth-of-type(2), a[href="https://www.facebook.com/storytelPL"], a[href="https://instagram.com/storytel.pl"]
 stozekwisla.pl##.col-xs-12.col-sm-7
 strabag.pl##map + img[usemap][width="20"], a[href="https://www.linkedin.com/company/strabag/"], a[href="https://www.youtube.com/channel/UCSqPxrKPd9gEFCyFYuj4Dhw/videos"]
@@ -5187,9 +5188,6 @@ tinypic.pl##.media-toolbox:nth-of-type(4)
 tipply.pl##.fb-toggle
 tiptopol.pl###block-stopkasocialmedia
 titanaxe.com##.page-footer-social
-titiriti.pl##.ww_image_wrapper > a[href="https://www.facebook.com/titiritipl/"]
-titiriti.pl##.ww_image_wrapper > a[href="https://www.instagram.com/titiriti.pl/"]
-titiriti.pl##.ww_image_wrapper > a[href^="https://www.youtube.com/channel/"]
 tja.pl###graf_fb, #graf_googleplus, #div_wysuwany_facebook
 tja.pl###graf_stopka a[href*="https://plus.google.com/"]
 tja.pl##.gl_podziel_sie_google, .gl_podziel_sie_twitter, .gl_podziel_sie_fb
