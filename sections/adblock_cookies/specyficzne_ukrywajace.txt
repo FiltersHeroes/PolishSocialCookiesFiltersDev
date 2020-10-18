@@ -1578,7 +1578,9 @@ ostrowmaz.com###cookies_notification
 otodom.pl##div[class*="CookiesBar"]:nth-of-type(2)
 otolaryngolodzy24.pl,prow.lubelskie.pl,rogowskidevelopment.pl,stanlab.eu###rodo-policy
 otwarte.eu###accept-cookie-box
-outlook.live.com#?#.ms-Modal:-abp-contains(Kontynuuj przeglądanie witryny)
+!outlook.live.com#?#.ms-Modal:-abp-contains(Kontynuuj przeglądanie witryny)
+outlook.live.com#?#.ms-Layer:-abp-has(> .ms-Layer-content> [role="dialog"] a[href="https://privacy.microsoft.com/privacystatement"])
+!eurogamer.pl##.onetrust-pc-dark-filter, #onetrust-banner-sdk
 owocowydom.pl,weck.com.pl###popup2
 paintballmarket.pl###cookies-consent-container
 paker.co.uk###cookie-information
