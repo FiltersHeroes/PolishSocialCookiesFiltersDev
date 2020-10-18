@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.10.18.0
-! Last modified: Sun, 18 Oct 2020, 19:00 UTC+02
+! Version: 2020.10.18.1
+! Last modified: Sun, 18 Oct 2020, 23:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.10.18.0 aktualizacja: nie, 18 paź 2020, 19:00 UTC+02
+! v.2020.10.18.1 aktualizacja: nie, 18 paź 2020, 23:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -862,7 +862,7 @@ gamerhash.com,inijob.com,styl.fm,szukajka.tv,wizzair.com##.cookie-policy
 gamisport.pl###nextcreBotDialog
 gardinia.pl,mactronic.pl,ogradzamy.pl##body > div[id*="cookie"]
 garneczki.pl##.cookieframe
-garwolin.pl###accept_cookie_wrapper, #accept_cookie_overlay
+garwolin.pl,wola.waw.pl,www.zarr.com.pl###accept_cookie_wrapper, #accept_cookie_overlay
 garwolin.spolem.org.pl#?##colorbox:-abp-has(#rodo_width_hotfix)
 gastromaniacy.pl,idhosting.pl,instytutlogopedyczny.pl,sggik.pl###flash-msg
 gastrowypozyczalnia.pl###popup1
@@ -1258,7 +1258,7 @@ limango.pl###footer-container ~ div[class*="shop"]:last-of-type:not([style]), .f
 linkedin.com###artdeco-global-alert-container > artdeco-global-alert[severity="notice"]
 linkedin.com###global-alert-queue > .alert, #notice-cookie-policy, .global-alert
 linkhouse.pl##.popup_wrapper, .popup_background
-linktransport.eu##.vm-cookies
+linktransport.eu,radpol.eu##.vm-cookies
 linuxiarz.pl###colophon
 live-streaming.pl##.row-cookie
 lmbruss.pl,sklep.alablaboratoria.pl,telesystem-world.com###cover
@@ -1287,7 +1287,7 @@ lubliniec.info##.ustawaCookie
 lukasfinanse.pl###strap
 lunch24.com##body > #__next > div[class=""] > div[class][direction="up"][style^="transform"]
 luqam.com###cookiesFlyInBox
-lutomiersk.info##.cookies-msg-wrapper
+lutomiersk.info,szansa-annopol.pl##.cookies-msg-wrapper
 luxexpress.eu###luxCookie
 lvbet.pl###js-cookie-popup
 lyconet.com,ogloszeniowa.net###cookie-box
@@ -1813,7 +1813,6 @@ radiogol.pl##.hustle-modal-message
 radiohit.net.pl##.RODOframe
 radiomerkury.pl##div#privacyPolicyBox
 radiopik.pl##div#hmonit
-radpol.eu##.vm-cookies
 raiffeisenpolbank.com###valid_cookie_message
 rajapack.pl###barre__cookie.barre__cookie
 rakuten.tv##.nav__cookies
@@ -2035,7 +2034,6 @@ synology.com###cookies_header
 systemair.com###gdprdialog.gdpr-message, .reveal-modal-bg
 system.t-mobilebankowe.pl#?##app > div[class]:not([id]):last-child > div[class]:not([id]):-abp-contains(pliki cookies)
 szajna.pl##.fwp-cookis
-szansa-annopol.pl##.cookies-msg-wrapper
 szczecinek.com###__cmcmedia_upid_26
 szczepimy.com.pl##.cookiesalert
 szklomal.eu###spu-71777, .spu-bg
@@ -2206,7 +2204,6 @@ wlkp24.info###itro_popup, #itro_opaco
 wnt.com###trackerBanner
 wodociagi-kalisz.pl###white2
 wodociagi.krakow.pl##.cookieMessages
-wola.waw.pl,www.zarr.com.pl###accept_cookie_wrapper, #accept_cookie_overlay
 wordpress.com,www.gumtree.com##.gdpr-banner
 wortal.majsterkowicza.pl###eatthis > #et-text
 wotore.tv##.paper-client-privacy-agreement
