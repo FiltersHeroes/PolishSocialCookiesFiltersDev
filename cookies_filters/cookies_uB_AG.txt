@@ -160,6 +160,8 @@ ikea.com##.has-cookie .main-header-wrap:style(top: 0 !important;)
 indbuildcraft.pl##.modal-overlay, #modal_cookies
 innogy.pl##html.cookie-wall-active body:style(overflow: auto !important;)
 innogy.pl###cookie-wall-container
+instagram.com##body[style*="overflow: hidden;"]:style(overflow-y: scroll !important;)
+instagram.com##div[role="presentation"]:has( > div[role="dialog"] h3 ~ div > a[href="/legal/cookies/"])
 instagram.com###react-root > section > nav div[class][style^="height: 1"][style$="px;"]:style(height: 48px !important;)
 intermarche.pl##body.showCookie .sec--head:style(top: 0 !important;)
 intermarche.pl##body.showCookie .sec--menu-popup:style(top: 117px !important;)
