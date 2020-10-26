@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.10.24.0
-! Last modified: Sat, 24 Oct 2020, 15:00 UTC+02
+! Version: 2020.10.26.0
+! Last modified: Mon, 26 Oct 2020, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.10.24.0 aktualizacja: sob, 24 paź 2020, 15:00 UTC+02
+! v.2020.10.26.0 aktualizacja: pon, 26 paź 2020, 22:00 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -2428,6 +2428,7 @@ girlonboard.pl##.link_socials
 girya.com.pl##.modal-body .product_ref, a[href="https://www.facebook.com/giryafitness/?fref=ts"], div.copy.container-fluid:nth-of-type(2) > .container > div.text-center.col-xs-12.col-md-6:nth-of-type(2)
 gitd.gov.pl##div.footer-row.row > div.col-lg-6.col-md-6:nth-of-type(2), #footer-social-icons, #side-social-icons
 github.com##.footer > div > div > ul > li > a[title^="GitHub on"]
+give.thunderbird.net##.footer-links__header
 gizchina.com.pl##.vw-social-icons
 gksjastrzebie.com##.sppb-addon-social-media
 gkstychy.info###twitter
@@ -4679,6 +4680,7 @@ salonmeblowy.net.pl##.icoPlus.fl, .icoPlus.fl + .ml20.fl
 salonydenon.pl###slideYT
 salsaclasica.pl##.headerfb, .clickfb
 saluber.pl###social_networks-3
+samequizy.pl##.shares
 samequizy.pl##.hidemobile.col-3:nth-of-type(1)
 samoloty.pl##.custom > p:nth-of-type(n+2):nth-of-type(-n+3)
 samsung.com###footer div[class^="gb-footer-"][class$="__sns"]
@@ -5455,6 +5457,7 @@ viagogo.pl##.cWht.pbl.m.t:nth-of-type(2), #ftrSocial
 viamedica.pl##.social-stopka
 vibez.pl##a[href="https://www.facebook.com/vibezpl"]
 vibez.pl###Insta
+vibez.pl###main > section > section > nav ~ div
 vica.pl##.block-social-links
 vices.eu##footer div.col-xs-12.col-sm-12.col-md-12.col-lg-3.layout-column:nth-of-type(4)
 vices.eu##.info_footer_thirst
@@ -5682,6 +5685,7 @@ www.dobreprogramy.pl##div.col:nth-of-type(3) > .list > li.list__item:nth-of-type
 www.dobreprogramy.pl##div[class*="social"] > a[title^="Odwiedź na"]
 www.dobreprogramy.pl###phContentLeft_SocialControl_socialBox, #phContent_SocialControl_SocialControlMain_socialBox
 www.dobreprogramy.pl##.dl-social > .fb-cta, .fb-page
+www.dobreprogramy.pl##.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i]
 www.dobreprogramy.pl##.social__group_share.social__group, .social__item
 www.dobreprogramy.pl#?##sidebar > .text-center:-abp-has(.fb_iframe_widget.fb-page)
 www.dobreprogramy.pl#?#.author-social-links:-abp-has( > a[title*="facebook"]:first-of-type:nth-last-of-type(2) + a[title*="twiter"]:last-of-type:nth-of-type(2))
