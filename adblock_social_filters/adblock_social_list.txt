@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.11.4.0
-! Last modified: Wed, 04 Nov 2020, 22:00 UTC+01
+! Version: 2020.11.8.0
+! Last modified: Sun, 08 Nov 2020, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.11.4.0 aktualizacja: śro, 04 lis 2020, 22:00 UTC+01
+! v.2020.11.8.0 aktualizacja: nie, 08 lis 2020, 22:00 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -6545,6 +6545,7 @@ malygosc.pl,wykop.pl#@#.social-list:not(html):not(body)
 media.upc.pl#@#.bg-twitter
 media.upc.pl#@#.ion-social-twitter
 medycyna24.pl,wp.pl,~www.wp.pl#@#.share-links
+meskiegacie.pl#@#[class^="social_button_"]
 miedzyrzecz.biz#@#.td_block_social_counter
 miedzyrzecz.biz#@#.td_social_type
 motormag.pl#@##menu-social
