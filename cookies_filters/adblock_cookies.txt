@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.11.9.0
-! Last modified: Mon, 09 Nov 2020, 14:00 UTC+01
+! Version: 2020.11.10.0
+! Last modified: Tue, 10 Nov 2020, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.11.9.0 aktualizacja: pon, 09 lis 2020, 14:00 UTC+01
+! v.2020.11.10.0 aktualizacja: wto, 10 lis 2020, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -80,7 +80,7 @@ adguard.com##.sticky-bar--cookie
 adidas.pl,ea.com,garmin.com,leagueoflegends.com,nespresso.com,reebok.pl,weather.com,xerox.com###consent_blackbar
 adidas.pl,reebook.pl##div[class^="cookie_consent_bar___"]
 adm-media.pl,kociadolina.pl##.policy
-adobe.com,behance.net,dell.com,eu.crucial.com,ge.com,intel.pl,lipton.com,mtv.pl,pl.fotolia.com,przepisy.pl,rexona.com,unileverfoodsolutions.pl,vmware.com,www.knorr.pl,www.unilever.pl##div#_evidon_banner.evidon-banner
+adobe.com,behance.net,dell.com,eu.crucial.com,ge.com,intel.pl,lipton.com,mtv.pl,pl.fotolia.com,przepisy.pl,rexona.com,unileverfoodsolutions.pl,vmware.com,www.knorr.pl,www.unilever.pl##div#_evidon_banner.evidon-banner:lang(pl)
 adobe.com,merixstudio.pl##.message
 adocean-global.com##div.cookies-flex
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
@@ -589,7 +589,7 @@ doradcasmaku.pl###cookies_popup
 dosukcesu.pl,poznajgwiazde.pl,slowkaangielskie.pl,uniaeuropejska.org###wizjo-cookies
 dotsport.pl##.cookie-nav
 douglas.pl##.rd__cookie-bar
-downdetector.pl##.evidon-consent-button
+downdetector.pl##.evidon-consent-button:lang(pl)
 dowozy.pl,e-kolo.pl,gieldarolna.pl,jpd.com.pl,madlen.pl,minecraft.org.pl,nastopy.pl.karpmax.pl,pracownia.org.pl,ptbs.pl,terramar.pl,tubachorzowa.pl,tubagliwic.pl,tubamarek.pl,tubaostrowa.pl,tubawyszkowa.pl##.rodo
 dreamjump.pl##.CookieMonster
 dreammachines.pl###qkies_info
@@ -2267,6 +2267,7 @@ www.ifon.pl##.region-top.region
 www.insp.waw.pl###divbox
 www.ipkobiznes.pl#?##layout > div > div.svg > div > div:first-child:-abp-contains(cookies)
 www.joe.pl###j_all > div:nth-of-type(3)
+www.lenovo.com##div#_evidon-barrier-wrapper:lang(pl)
 www.lidl.pl##header.page__header > div[class] > .notification
 www.lifescan.pl###simplemodal-overlay
 www.lifescan.pl##.simplemodal-wrap
