@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.11.10.0
-! Last modified: Tue, 10 Nov 2020, 18:00 UTC+01
+! Version: 2020.11.11.0
+! Last modified: Wed, 11 Nov 2020, 18:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.11.10.0 aktualizacja: wto, 10 lis 2020, 18:00 UTC+01
+! v.2020.11.11.0 aktualizacja: śro, 11 lis 2020, 18:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2381,8 +2381,8 @@ zysk.com.pl###pageUpperInfo
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=legalcakes.com|satkurier.pl
 ||ciasteczka.eu/cookiesEU-latest.min.js
 ||ciasteczka.org.pl/cookies/cookies$script
+||cmp*.*.pl/*.js|$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
-||cmp.*.pl/$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
 ||confero.pl/js/cookies2013$script
 ||consentmanager.mgr.consensu.org/delivery/cmp.min.js$script,domain=opinie24.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
