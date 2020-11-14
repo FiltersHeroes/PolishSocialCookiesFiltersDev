@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.11.11.0
-! Last modified: Wed, 11 Nov 2020, 18:00 UTC+01
+! Version: 2020.11.14.0
+! Last modified: Sat, 14 Nov 2020, 14:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.11.11.0 aktualizacja: śro, 11 lis 2020, 18:00 UTC+01
+! v.2020.11.14.0 aktualizacja: sob, 14 lis 2020, 14:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -335,6 +335,7 @@ blogasek.pl###j_all > div[style="width:100%;float:left;padding:3px 0;background-
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
 blog-pozyczoneiniebieskie.pl###cookie_info_container
 bluecity.pl##.gp-gdpr__belt
+bluegames.pl##.notification-wrapper-bottom.notification-wrapper
 bluestilo.com##ma-cookie-law-info
 bobrowniki.tv###cookie_policy_popup
 bodyfit.pl,proszynski.pl,seriale.co,zarmen.pl###komunikat
@@ -418,6 +419,7 @@ centrumklima.pl###cookieCKdiv
 centrumpilkarskie.pl##div.jqibox
 centrumreklamy.com,imperiumreklamy.com,zielonymail.com###CookieInfoBlock
 centrumwloczek.pl###coocieConsent
+centrumxp.pl###cookiesPolicyAccept
 centrum-marino.com,optegra.com.pl,wroclaw.pl###cookie_zgoda
 cenum.pl##.cssmessage
 cepelia.com.pl,mcksokol.pl,muzeum.sacz.pl,sandecja.org,sandecja.tv###overflow-content
@@ -2525,6 +2527,7 @@ org,pl###amp-user-notification1:not(body):not(html)
 pl##aside[class*="Cookie"]
 pl##aside[class*="cookie"]
 pl##div.cookieKontener
+pl##div#cook
 pl##div#cookiepopupdiv
 pl##div#footer-cookies
 pl##div[class^="app_gdpr"]
