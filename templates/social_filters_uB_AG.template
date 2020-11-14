@@ -38,6 +38,9 @@
 !
 ! Ulepszenia CSS
 @include ulepszenia_CSS
+!#if !env_mobile
+@include ulepszenia_CSS_niemobilne
+!#endif
 !
 !
 ! Bugi AdGuarda
