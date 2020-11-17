@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.11.15.2
-! Last modified: Sun, 15 Nov 2020, 22:01 UTC+01
+! Version: 2020.11.17.0
+! Last modified: Tue, 17 Nov 2020, 22:00 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.11.15.2 aktualizacja: nie, 15 lis 2020, 22:01 UTC+01
+! v.2020.11.17.0 aktualizacja: wto, 17 lis 2020, 22:00 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -134,6 +134,7 @@ allegro.pl##div[data-box-name="cookie policy"]
 allekoszyk.pl##div > .ng-scope[ng-if="cookieinfo == false"]
 allertec.pl,mojeoczy.pl,polprazol.pl##body > footer ~ div[style^="width: 100%; height: 100%"]:not([id]):not([class])
 alles-bhp.pl###contGlowny > div[style*="position"][style*="fixed"]:not([id]):not([class])
+alles.pl#?#.alert:-abp-contains(ciasteczek)
 allianz.pl##.region-disclaimer-component
 allpaka.eu,amico.market,artexhome.eu,astronomia24.com,budmax.eu,camprest.com,czarnkow.info,dacpol.eu,ekoenergia24.eu,fotmar.eu,gazetaswietojanska.org,goleniowska.com,goryonline.com,ikrakow.info,integracja.org,inzynieria.com,iotwock.info,iwaniska.eu,julstar.eu,koronakaszub.eu,krzysztof-bus.eu,lessmess.storage,lowicz24.eu,master-sport.de,medianarodowe.com,mensahome.eu,nadarzyn.tv,ontrack.com,opoczno.info,pdinetwork.net,psychologiazycia.com,raczkowski.eu,reporterzy.info,sejny.net,server-pps.com,staypoland.com,suwalki.info,szczecinek.com,tanidrut.com,transportnews.eu,transportnews.tk,visitwroclaw.eu,wagrowiec.eu,wici.info,x-moto.eu,yuliyababich.eu,zajefajna.com,zambrow.org,zsgoreczyno.eu,zuu.systems###cookies-message-container
 allsporter.com##.cookies-ct
@@ -395,6 +396,7 @@ busradar.pl###cookie-content-container
 buty-smile.pl###closePopUp
 buyblo.com###plugin-agree-Plugin
 buziak.nl,buziak.pl,evai.pl,kochlik.pl,nowaostroleka.pl,webd.pl###cffc
+bwa.katowice.pl##.a-cookies
 byczdrowym.info,easypaste.org,eco-driving.info,erasmus-entrepreneurs.eu,fakty.nl,fiuka.de,forum.swiateczne.info,halogorlice.info,isokolka.eu,knyszynska.eu,megacennik.eu,nasze-kino.eu,pl.bab.la,polishteam.ru,powiatowa.info,radioexpert.net,slupno.eu,spreewald.de,themasterteacher.tv,zanzu.de##.cc-window[aria-label="cookieconsent"], .cc-revoke
 bydgoszcznastart.pl,kpzpn.pl##.polityka-prywatnosci
 bydgoszcz.com,cooltura24.co.uk,debica24.eu,getruck.eu,halogorlice.info,kaercher.com,katowice.eu,koscierzyna24.info,limanowa.in,muzeum.rypin.eu,narew.info,olesnica24.com,parkerpen.com,pl.toshibatec.eu,radiomalbork.fm,samochody-poleasingowe.eu,slaskie.travel,slubice.tv,smc.eu,tarnowska.tv,truso.tv,tvdami.eu,wejherowo24.info,wielkabrytaniaonline.co.uk###cookiesdirective
