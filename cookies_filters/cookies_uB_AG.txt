@@ -472,6 +472,8 @@ moja.biedronka.pl##.showpopup:style(overflow: auto !important;)
 muzeumazji.pl###rodo-info
 muzeumazji.pl##+js(acis, $, doRODO)
 muzeumazji.pl##.blur:style(filter: none !important;)
+neucamed.pl##+js(rc, cookiesactive, body.cookiesactive)
+neucamed.pl##.cookiesactive header.main:style(margin-top: 0 !important;)
 norgips.pl###cookiemodal
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 okazik.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
@@ -564,6 +566,7 @@ moja.biedronka.pl##^div.modal.modal-komunikat
 moja.biedronka.pl##^style:has-text(body.showpopup)
 muzeumazji.pl##^script:has-text(doRODO)
 natura2000.gdos.gov.pl##^#apla-banner
+neucamed.pl##^.cookies-alert
 norgips.pl##^#cookiemodal
 ogloszenia.plock.pl##^#dialog-rodo
 okazik.pl##^script:has-text(#cookie-dialog)
@@ -647,6 +650,7 @@ moja.biedronka.pl$$div.modal.modal-komunikat
 moja.biedronka.pl$$style[tag-content="body.showpopup"]
 muzeumazji.pl$$script[tag-content="doRODO"]
 natura2000.gdos.gov.pl$$#apla-banner
+neucamed.pl$$.cookies-alert
 norgips.pl$$#cookiemodal
 ogloszenia.plock.pl$$#dialog-rodo
 okazik.pl$$script[tag-content="#cookie-dialog"]
