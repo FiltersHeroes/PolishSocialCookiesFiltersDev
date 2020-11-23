@@ -1095,7 +1095,7 @@ investmap.pl##.popup-back, .popup-rodo
 ioki.pl,lubartow24.pl##.bg-warning
 iom.pl###cooker
 ipolska24.pl###cookie_policy
-ipos.pl#?##gatsby-focus-wrapper > div + div.is-opened:-abp-has(a[href*="/polityka-prywatnosci"])
+ipos.pl#?##gatsby-focus-wrapper > div[class*="css-"] ~ div[class*="css-"]:-abp-has(a[href*="/polityka-prywatnosci"])
 irebu.pl###COOKIE
 isms.pl###skel-panels-pageWrapper > div[name="cookie_info"]
 isok.gov.pl##.message_div_cookie
@@ -1372,8 +1372,9 @@ megasat.tv##.ep-cookies-bar
 megataxi.pl##body > div > div[style*="position"][style*="fixed"]:not([id]):not([class])
 mega-com.eu###footer-information
 mega-kino.pl,skutecznie.tv###dc-cnb-container
-megiw.pl##body > div:not([id]):not([class]) > div[style*="position"][style*="fixed"]:not([id]):not([class])
+megiw.pl,megiw4sauna.pl,megiw4garden.pl##body > div:not([id]):not([class]) > div[style*="position"][style*="fixed"]:not([id]):not([class])
 meloradio.pl##.cookie-giodo
+notus.pl###bancook
 memoinfo.pl,pingpong.com.pl##body > div:nth-of-type(6)
 memorialhenrykapuzonia.pl###sc
 mercbus.pl###simplemodal-container, #simplemodal-overlay
