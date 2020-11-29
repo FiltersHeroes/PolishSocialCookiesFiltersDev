@@ -277,6 +277,7 @@ paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important;)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important;)
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
 pl##aside p > a[href*="cookies.php"], aside p > a[href*="polityka-prywatnosci.htm"]:upward(.type-10.widget:not([id]))
+pl##.alert > a[href="./content/polityka-cookies"] ~ a[href="./content/polityka-prywatnosci"]:upward(.alert)
 pl##.module-abovebox p > a[href*="/polityka"][href$="-cookies.html"]:upward(.module-abovebox[style^="position: fixed;"])
 pl.aptoide.com##div[class*="cookie-notice__CookieNoticeWrapper-"]
 pl.kruk.eu##.cookie-agreement
