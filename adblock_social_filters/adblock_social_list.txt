@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.11.30.0
-! Last modified: Mon, 30 Nov 2020, 22:07 UTC+01
+! Version: 2020.12.1.0
+! Last modified: Tue, 01 Dec 2020, 18:07 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.11.30.0 aktualizacja: pon, 30 lis 2020, 22:07 UTC+01
+! v.2020.12.1.0 aktualizacja: wto, 01 gru 2020, 18:07 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -965,6 +965,7 @@ alkoholeswiata.com##div.span6:nth-of-type(1) > .row > div.fadeUp.span3:nth-of-ty
 alkoholeswiata.com###collapse4 > p
 alleceny.pl,mamsmartfona.pl##footer > .row > div.col:nth-of-type(4)
 allegro.pl##a[href="https://www.facebook.com/allegro"], a[href="https://www.instagram.com/allegropl"], a[href="https://www.linkedin.com/company/grupa-allegro"], a[href="https://www.pinterest.com/allegropl"], a[href="https://www.youtube.com/allegro"], a[href="https://www.linkedin.com/company/allegro-pl"]
+allegro.pl##div[data-box-name="allegro.socialButtons"]
 allegro.pl##div[data-box-name^="Social"] > div > span
 allepaczki.pl##a[href*="facebook.com/allepaczki"]
 alles.pl##footer > div > div > div > .text-lg-center > h4
@@ -5182,6 +5183,7 @@ swiatoze.pl##.pk-social-links-items, .powerkit_facebook_fanpage_widget
 swiatoze.pl##.sm-list > li > a
 swiatoze.pl##.textwidget > div:nth-of-type(2)
 swiatrolnika.info##div.ikonySpol
+swiatrolnika.info###dolaczdonas
 swiatzlotasklep.pl###box_cusConBody_80
 swiatzwierzat.pl,techgame.pl###mobile-share
 swiatzwierzat.pl,techgame.pl###share-media
@@ -5777,6 +5779,7 @@ wtk.pl##.tooltip-news-share-container > div[class*="icon"]:nth-of-type(-n+2)
 wtp.waw.pl##.home-changes-facebook
 wtp.waw.pl##.home-social-media > li > a:not([href$="/feed/"])
 wwwlosy.pl###menu-item-1544
+www-dobreprogramy-pl.cdn.ampproject.org##a.social
 www.adobe.com##footer #gnav_709
 www.aligato.pl##.soc-link
 www.astar.czest.pl##.tdm-social-wrapper
@@ -5834,6 +5837,7 @@ www.o2.pl##div[class][title="polubienia"], div[class][title="polubienia"] + div
 www.o2.pl#?#div[class][data-st-area*="Quote-Content"] div[class] > div[class]:-abp-has( > span[class][icon] > svg[width][height])
 www.o2.pl#?##grid > div[class][data-st-area*="Quotes"] a[href*="/cytat/"] div[class] > div[class]:-abp-has( > span[class][icon] > svg[width][height])
 www.o2.pl#?##stream > div > div[data-st-area*="Stream"] > div > div[class]:not([id]):-abp-has( > a[href*="social"])
+www.odsluchane.eu##.footer .column > .t-flex
 www.onet.pl##div[data-gtm-social]
 www.onet.pl#?#div[class^="_"] > span[class^="_"]:-abp-contains(Podziel się tym artykułem)
 www.opera.com##.social > li > a > img
@@ -6500,6 +6504,7 @@ businessinsider.com.pl##.socialButtons, a[href="https://twitter.com/BiPolska/"],
 cccteam.onet.pl###social-bar, .container--social, a[href="/#social"]
 dayz.pl###aptf_slider_widget-2
 dayz.pl###text-10
+dobreprogramy.pl##amp-social-share.sharer
 dobreprogramy.pl##a[href*="twitter.com/share"], a[href*="facebook.com/share.php"]
 dziendobry.tvn.pl###js-socials > a:not(:nth-of-type(3)), .footer .footer__media
 dziendobry.tvn.pl##.share__item_fb.share__item, .share__item_g.share__item, .share__item_twitter.share__item, .top__post > a[href^="https://www.facebook.com/DzienDobryTVN/"], .share:nth-of-type(8), .foot-wrap:nth-of-type(2) > .foot-box:nth-of-type(1), .foot-wrap:nth-of-type(2) > .foot-box:nth-of-type(2)
