@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.11.30.1
-! Last modified: Mon, 30 Nov 2020, 22:07 UTC+01
+! Version: 2020.12.1.0
+! Last modified: Tue, 01 Dec 2020, 18:07 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.11.30.1 aktualizacja: pon, 30 lis 2020, 22:07 UTC+01
+! v.2020.12.1.0 aktualizacja: wto, 01 gru 2020, 18:07 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1393,6 +1393,7 @@ marsell24.eu##.cm-notification-container
 masz.eu,wikar.com.pl##.popupContent
 matematykainnegowymiaru.pl##.popup_cookie_contener_main
 mat-dom.pl##.info_rodo
+maximedia.pl###cookiesinformation
 maxpremiumburgers.pl###main .infoBanner
 mazda.pl##div[class^="mxp-main-cookie-panel-container-"]
 mazowia.eu#?##dymek239:-abp-has(a[href$="rodo.html"])
@@ -3495,7 +3496,8 @@ viennahouse.com#@##cookies-panel
 viennahouse.com#@##cookie-box
 volcano.pl#@##cookiesModal
 @@/wp-content/plugins/cookie-law-info/public/*$stylesheet
-@@||bitner.com.pl/plugins/cookiebar/jquery.cookiebar.js
+@@||bitner.com.pl/*/jquery.cookiebar.js
+@@||shinden.pl/*/jquery.cookiebar.js
 !
 !
 ! Wyjątki
