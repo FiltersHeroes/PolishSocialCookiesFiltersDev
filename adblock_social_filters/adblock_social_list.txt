@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.12.2.0
-! Last modified: Wed, 02 Dec 2020, 22:07 UTC+01
+! Version: 2020.12.5.0
+! Last modified: Sat, 05 Dec 2020, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.12.2.0 aktualizacja: śro, 02 gru 2020, 22:07 UTC+01
+! v.2020.12.5.0 aktualizacja: sob, 05 gru 2020, 18:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -2506,6 +2506,7 @@ gmoto.pl##.newfooter .contact-subinfo.row > .col-sm-12 > .foot-h4
 gniezno24.com,pankanapka.pl,strefa-zakupowa.pl,zsz.pisz.pl###likeboxbluestandardleft
 gocreate.pl##a[href="https://www.facebook.com/Gocreate.Belchatow"]
 gofin.pl##.facebook-baner
+gogalaxy.com##.glx-footer__socials
 gogolow-narty.pl##div.col-md-4:nth-of-type(1)
 gog.com##.footer-microservice-socials
 gog.com#?#.order-article__btn._dropdown + .order-message__separator:-abp-contains(ORAZ)
@@ -3290,8 +3291,8 @@ lightinthebox.com##.join-our-community
 lightonline.pl,nestle.media.pl##.socialNetwork
 likefb.pl##.jas-social > .facebook-f
 limango.pl##.lilayout-footer-column-social
-lincoln.edu.pl##.top-facebook
 lincoln.edu.pl,ustron.pl##a > .mdi-facebook.mdi
+lincoln.edu.pl,warka24.pl##.top-facebook
 lionteam.pl##.do-topbar-content-right > ul > li > a
 lipinscy.pl###facebook_zone
 listaserwerowmc.pl###menu_fb
@@ -3339,6 +3340,7 @@ lukaszrosicki.pl##.sticky.bar
 lukowa.pl,ono24.info,tomplast.com.pl###tab
 lulek.tv#?#.s4:-abp-has(article > .social)
 lumarte.eu##a[href="https://www.instagram.com/lumarte_art_online/"]
+lumex.pl##.social-cart
 luxlux.pl##.fan-box
 luxmed.pl##.luxmed-footer-social
 luxuryexpo.pl,luxuryrealestate.pl##footer .col-2
@@ -3528,6 +3530,7 @@ migrenoweboleglowy.pl##.textwidget a[href^="https://www.facebook.com/Modus-Centr
 mihata.pl##.cb-top-social > a[href^="https://plus.google.com/"]
 mikolow.eu##.check-channels.footer-box > .data > h1, .check-channels.footer-box > .data > .icons
 mikrobit.pl###facebookContainer
+mikroskala.eu##span > a[href^="https://www.facebook.com/Mikroskala/"]
 milanos.pl##.col-xs-12.col-sm-6.col-md-34:nth-of-type(4)
 milanos.pl##.row:nth-of-type(n+8):nth-of-type(-n+9)
 mila.pl##.blue-bg
@@ -3623,8 +3626,11 @@ moncredo.pl###youtube-icon, #instagram-icon
 mondaynews.pl##.pre-footer-internal-social
 mondeoklubpolska.pl###widgetlist_column2 > li:nth-of-type(2)
 moneygrabbing.co.uk##.sh-widget-socialv2-list
+money.pl##a[href="https://www.facebook.com/portal.Moneypl"], a[href="https://twitter.com/money_pl"], [href="https://plus.google.com/+moneypl"]
 money.pl##div[data-st-area$="_FB"]
+money.pl##div[data-st-area="st-gallery-reactions"] > div > div:nth-of-type(2)
 money.pl#?#article[class] div[class] img + button:-abp-has( > span:-abp-contains(/^Podziel się$/))
+money.pl#?#aside[role="complementary"] > div > div > div:-abp-has( ~ #fb-like-btn)
 money.pl,moneyv.wp.pl##footer a[href*="facebook.com"], footer a[href*="twitter.com"]
 monier.pl#?##col-right > div[id^="c"]:-abp-has(a[href*="youtube.com"] > img[src*="yt"], a[href*="facebook.com"] > img[src*="fb"])
 monikahonory.pl#?#.vc_row-has-fill.vc_row-fluid.wpb_row.vc_row:-abp-contains(Dołącz do społeczności Zupomaniaków)
@@ -4313,6 +4319,7 @@ polgrill.pl##.bigsocialblock__item
 policja.pl,slaska.policja.gov.pl###social > li:nth-child(n+2)
 policja.waw.pl##div.box-white:nth-of-type(4) > .pion.bannery > div.item:nth-of-type(n+3):nth-of-type(-n+5)
 policja.waw.pl##.footer-content > ul > li:nth-of-type(1)
+polishbrief.pl##.below-key-news
 polishexpress.co.uk##.ebFooter__headerLinks--pe
 polishexpress.co.uk##.mainfooter_bottom_social
 polityczek.pl##.Menu.moduletable
@@ -4697,6 +4704,7 @@ ritlabs.com##footer .right-aside.col-md-4 > h5
 rksrakow.pl##.mfindus.container
 rmf24.pl##.i2.el1.logo, .i3.el2.logo, .i4.el4.logo, .recommend
 rmfclassic.pl##li.footer-box:nth-of-type(5)
+rmfclassic.pl#?#.item:-abp-has(a[href="http://www.facebook.com/rmfclassic"])
 rmfmaxxx.pl##.opts > a:nth-of-type(2)
 rmf.fm##a[href="http://plus.google.com/111421310920233185523/posts"], a[href="http://twitter.com/rmf_fm"], a[href="http://www.facebook.com/rmf24"], a[href="http://www.facebook.com/rmffm"], a[href="http://www.youtube.com/radiormf"]
 rmf.fm###footer-icon-facebook, #footer-icon-googleplus, #footer-icon-instagram, #footer-icon-twitter, #footer-icon-youtube, #new-footer-icon-instagram
@@ -5184,6 +5192,7 @@ swiatoze.pl##.sm-list > li > a
 swiatoze.pl##.textwidget > div:nth-of-type(2)
 swiatrolnika.info##div.ikonySpol
 swiatrolnika.info###dolaczdonas
+swiatwiedzy.pl##.social--component
 swiatzlotasklep.pl###box_cusConBody_80
 swiatzwierzat.pl,techgame.pl###mobile-share
 swiatzwierzat.pl,techgame.pl###share-media
@@ -5754,6 +5763,8 @@ wpolityce.pl##footer a[href="https://twitter.com/wpolityce_pl"], footer a[href="
 wpolityce.pl##[id*="LinkArea"] > .article-sm__item--title, .js-facebook-share.article-sm__item--fb, .js-twitter.article-sm__item--twitter
 wprost.pl##.soc-buttons-box
 wpr.pl##.col-lg-1 > div:nth-of-type(1) > strong
+wrc.net.pl##.sledznas
+wrc.net.pl##.socials > a:not(.szukaj)
 wrobelekelemelek.com###likebox_1
 wroclaw.pl##.ck_social_media > h3, .ck_mobile_social_icon_1, .ck_mobile_social_icon_4, .ck_mobile_social_icon_5, .ck_mobile_social_icon_6, .ck_mobile_social_icon_7
 wrotatczewa.pl##div.dotter_right:nth-of-type(1) > .content > .article > div > a:nth-of-type(-n+3)
@@ -6078,6 +6089,8 @@ z-hotel.com###menu-item-868
 /fbpodklad2.png$domain=gckis.trzebnica.pl|musicinfo.pl
 /fbpodklad_v2.png$domain=rajsmakosza.pl
 /followusontwitterlogo.jpg$domain=riskcompliance.pl
+/ico-yt.png$domain=eska.pl
+/insta-ico.png$domain=eska.pl
 /konsedo_new/facebook_k_l.jpg$domain=dadas.home.pl
 /public/assets//baner-yt-sklep.png$image,domain=sklep.precio.pl|sklep5438865.homesklep.pl
 /skins/user/rwd_shoper_2/images/user/fb.png$image,domain=uzdrowiskowespa.pl
@@ -6605,7 +6618,7 @@ aldi.pl#@#.icon--share
 alilove.pl#@#.footer-social-wrap
 alilove.pl,miedzyrzecz.biz#@#.td-social-icon-wrap
 avast.com,karointhekitchen.com,szkolymedyczne.eu,tenit.com.pl,upflix.pl#@#.social-icons
-axa.pl,influencer.pl#@#.socials
+axa.pl,influencer.pl,wrc.net.pl#@#.socials
 bankier.pl,claudia.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,moto.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,ugotuj.to,wyborcza.pl#@#.socialBar
 bemares.pl#@#.social-media:not(html):not(body)
 biznes.interia.pl#@#.social-socialButtons
