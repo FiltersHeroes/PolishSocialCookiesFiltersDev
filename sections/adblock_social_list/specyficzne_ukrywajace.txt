@@ -1,6 +1,18 @@
 wrc.net.pl##.sledznas
 wrc.net.pl##.socials > a:not(.szukaj)
 
+rmfclassic.pl#?#.item:-abp-has(a[href="http://www.facebook.com/rmfclassic"])
+lumex.pl##.social-cart
+money.pl##div[data-st-area="st-gallery-reactions"] > div > div:nth-of-type(2)
+money.pl#?#aside[role="complementary"] > div > div > div:-abp-has(~ #fb-like-btn)
+money.pl##a[href="https://www.facebook.com/portal.Moneypl"], a[href="https://twitter.com/money_pl"], [href="https://plus.google.com/+moneypl"]
+swiatwiedzy.pl##.social--component
+warka24.pl##.top-facebook
+polishbrief.pl##.below-key-news
+gogalaxy.com##.glx-footer__socials
+mikroskala.eu##span > a[href^="https://www.facebook.com/Mikroskala/"]
+
+
 ~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 2plus3d.pl###menuItem_facebook
 2xme.pl##.footer__block--flex.footer__block, .media__second
