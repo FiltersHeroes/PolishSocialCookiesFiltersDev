@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.12.5.1
-! Last modified: Sat, 05 Dec 2020, 22:08 UTC+01
+! Version: 2020.12.6.0
+! Last modified: Sun, 06 Dec 2020, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.12.5.1 aktualizacja: sob, 05 gru 2020, 22:08 UTC+01
+! v.2020.12.6.0 aktualizacja: nie, 06 gru 2020, 18:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -5473,6 +5473,7 @@ twitch.tv#?#div[data-a-target="share-balloon"] p:-abp-contains(/^(Twitter|Facebo
 twojahistoria.pl##.footer-fixed
 twojapogoda.pl##.ico-ig
 twojatv.info###slidepanel-facebook
+twojekwiaty.pl##.ft-social-wrap
 twojeradio.fm##.footer-global > .wrapper > h5:nth-of-type(3), .footer-global > .wrapper > ul:nth-of-type(3)
 twojesoczewki.com###header .facebook, #header .instagram
 twojezwierzaki.org##footer div.col-sm-12.col-xs-6.col-400-12:nth-of-type(2)
@@ -6656,7 +6657,6 @@ interia.pl,pomponik.pl,styl.pl,~www.interia.pl#@#.share-link
 ithardware.pl#@#.post-sharing
 janssenmed.pl,ksiegarnianatlomackiem.pl,motocombo.pl#@#.footer-social
 jezuici.pl#@#.et-extra-social-icons
-joemonster.org#@#.socialContainer
 kadantiscam.netlify.app,naszesprawy.eu,pkobp.pl,radiopoznan.fm#@#.social-icon
 kei.pl#@#.social_icons
 kingowiec.pl#@#.socialmedia
