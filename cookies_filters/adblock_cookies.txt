@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.12.5.1
-! Last modified: Sat, 05 Dec 2020, 22:08 UTC+01
+! Version: 2020.12.6.0
+! Last modified: Sun, 06 Dec 2020, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.12.5.1 aktualizacja: sob, 05 gru 2020, 22:08 UTC+01
+! v.2020.12.6.0 aktualizacja: nie, 06 gru 2020, 18:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -83,7 +83,7 @@ adguard.com##.sticky-bar--cookie
 adidas.pl,ea.com,garmin.com,leagueoflegends.com,nespresso.com,reebok.pl,weather.com,xerox.com###consent_blackbar
 adidas.pl,reebook.pl##div[class^="cookie_consent_bar___"]
 adm-media.pl,intellect.pl,kociadolina.pl##.policy
-adobe.com,behance.net,dell.com,eu.crucial.com,ge.com,intel.pl,lipton.com,mtv.pl,pl.fotolia.com,przepisy.pl,rexona.com,unileverfoodsolutions.pl,vmware.com,www.knorr.pl,www.unilever.pl##div#_evidon_banner.evidon-banner:lang(pl)
+adobe.com,behance.net,dell.com,eu.crucial.com,ge.com,intel.pl,lipton.com,mtv.pl,pl.fotolia.com,przepisy.pl,rexona.com,vmware.com,www.knorr.pl##div#_evidon_banner.evidon-banner:lang(pl)
 adobe.com,merixstudio.pl##.message
 adocean-global.com##div.cookies-flex
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
@@ -1015,6 +1015,7 @@ grafoteka.pl###info-container
 gragra.pl###WGsswwfyyt
 gramwzielone.pl##.bottom-cookies
 gram.pl###cookie-box-container-inner
+gratyzchaty.pl###wymog_uee
 grawipol.pl,kopland.pl###message-bar
 greenlux.pl###pawelix_banner
 greenmousestudio.com,jarmula.com###cookie-warn-wrapper
@@ -2099,10 +2100,7 @@ sp34.waw.pl##.clause-top
 specialized.com##.eu-cookie-wrap
 specshop.pl##.blockUI
 specto.com.pl##.cookie-notice-ui
-speedtest.net##.alert-container
-speedtest.net##.notification-container
-speedtest.net##.privacy-update
-speedtest.pl###container_vsm
+speedtest.net,www.lenovo.com##div#_evidon-barrier-wrapper:lang(pl)
 spolem.bialystok.pl###popup-announcement-wrap, #popup-announcement-overlay
 spolem.olawa.pl##.dialog-lightbox-message.dialog-message
 sportraw.pl##div[id^="tws"]:not(.toplayerSpecialClass), #topLayerBackDrop
@@ -2385,7 +2383,6 @@ www.ifon.pl##.region-top.region
 www.insp.waw.pl###divbox
 www.ipkobiznes.pl#?##layout > div > div.svg > div > div:first-child:-abp-contains(cookies)
 www.joe.pl###j_all > div:nth-of-type(3)
-www.lenovo.com##div#_evidon-barrier-wrapper:lang(pl)
 www.lidl.pl##header.page__header > div[class] > .notification
 www.lifescan.pl###simplemodal-overlay
 www.lifescan.pl##.simplemodal-wrap
@@ -2459,6 +2456,10 @@ ztloczni.pl##.modulesden-cookies-bar
 zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
+!speedtest.net##.alert-container
+!speedtest.net##.notification-container
+!speedtest.net##.privacy-update
+!speedtest.pl###container_vsm
 !
 !
 ! Specyficzne reguły blokujące
