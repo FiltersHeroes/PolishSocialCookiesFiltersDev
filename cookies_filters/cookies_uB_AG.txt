@@ -417,7 +417,7 @@ ztm.gda.pl###acceptRodo, .modal-backdrop
 !carrefour.pl##.MuiDialog-root:has( > .MuiDialog-container > div[class]:not([id])[role="dialog"]:has-text(cookies))
 !computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##html.sp-message-open:style(position: static !important; overflow: auto !important;)
 !computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##[class^="sp_veil"], [id^="sp_message_panel"]
-/^https\:\/\/(www\.)?youtube(-nocookie)?.com\/embed\//$3p,frame,object,redirect=click2load.html,domain=pinger.pl
+/^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
 !
 !
