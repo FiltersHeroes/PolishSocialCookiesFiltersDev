@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.12.8.0
-! Last modified: Tue, 08 Dec 2020, 14:08 UTC+01
+! Version: 2020.12.9.0
+! Last modified: Wed, 09 Dec 2020, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.12.8.0 aktualizacja: wto, 08 gru 2020, 14:08 UTC+01
+! v.2020.12.9.0 aktualizacja: śro, 09 gru 2020, 18:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2397,7 +2397,7 @@ www.ea.com##ea-truste-consent-bar
 www.google.com,www.google.pl##body > div[class*=" "]:not([id]) > c-wiz > div[jscontroller] > div[class][jsname][data-ved][style="display: block;"]
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.google.com,www.google.pl###gb > div[class][style^="background"]
-www.google.com,www.google.pl#?##taw div[id][style*="block"]:-abp-has( > a[href*="/policies/technologies/cookies"])
+www.google.com,www.google.pl#?##taw div[id][style*="block"]:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"])
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hertz.com.pl##[class^="lb-"]
 www.hertz.pl###light-box-1
