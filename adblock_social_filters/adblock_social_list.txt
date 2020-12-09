@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.12.7.0
-! Last modified: Mon, 07 Dec 2020, 22:08 UTC+01
+! Version: 2020.12.9.0
+! Last modified: Wed, 09 Dec 2020, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.12.7.0 aktualizacja: pon, 07 gru 2020, 22:08 UTC+01
+! v.2020.12.9.0 aktualizacja: śro, 09 gru 2020, 18:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -3397,6 +3397,7 @@ maltec.pl##.clearfix.communities
 maltec.pl,warsawdowntown.pl##.footer_top
 maluchy.pl##.lineFB
 maluchy.pl#?##right-column > div.best_photo.widget:-abp-contains(Fanpage)
+malwarebytes.com##.close-soc
 malygosc.pl##.social-list > *
 mamadu.pl##a[href*="/mamadupl" i] > img[src^="/static/media/"], a[href*="/mamadu.pl" i] > img[src^="/static/media/"]
 mamadu.pl,natemat.pl##.footer__box__list--social
