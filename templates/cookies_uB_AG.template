@@ -24,6 +24,11 @@
 !#if cap_user_stylesheet
 @include komunikaty_style_uzytkownika
 !#endif
+!#if ext_ublock
+!#if cap_user_stylesheet
+@include komunikaty_uBO
+!#endif
+!#endif
 !#if !env_mobile
 @include komunikaty_niemobilne
 !#endif
