@@ -1,3 +1,13 @@
+kruszywapolskie.pl##.sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+kruszywapolskie.pl##.sgpb-overflow-hidden, .sgpb-overflow-hidden-body:style(overflow: auto !important; height: auto !important;)
+gmina-aleksandrow.pl###g_toplayer
+gmina-aleksandrow.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+lgd-wieruszow.pl###myModal, .modal-backdrop
+lgd-wieruszow.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##div[class*="didomi-consent-popup__"]
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##.didomi-popup-open:style(overflow: auto !important;)
+
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important;)
@@ -223,7 +233,9 @@ mistravel.pl###rodo-popup, .modal-backdrop
 mkidn.gov.pl###myModal
 motofaktor.pl##.noScroll:style(overflow: auto !important;)
 msn.com##body.uhf .head, body.uhf #maincontent, body.uhf #foot:style(transform: unset !important;)
-msn.com###precontent:style(margin-top: 8rem !important;)
+msn.com##body:not(.a) div.head ~ #precontent:style(margin-top: 8rem !important;)
+msn.com##body:not(.fullscreen) #precontent:style(margin-top: 11.8rem !important;)
+msn.com###onetrust-consent-sdk:lang(pl)
 msn.com##.head:style(margin-top: 0 !important;)
 multikino.pl##div.cookie-msg
 multikino.pl##html[style] > body[style]:style(position: static !important;)
