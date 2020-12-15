@@ -56,8 +56,8 @@ fi
 
 for k in $ost_plik; do
     if [[ "$k" == "adblock_social_filters/adblock_social_list.txt"* ]] || [[ "$k" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
-        if [[ "$lista" != *" 👍"* ]] ;then
-            lista+=" "👍
+        if [[ "$lista" != *" 👍🏻"* ]] ;then
+            lista+=" "👍🏻
         fi
     fi
 
@@ -68,8 +68,8 @@ for k in $ost_plik; do
     fi
 done
 
-if [[ "$lista" == *" 🍪"* ]] && [[ "$lista" == *" 👍"* ]]; then
-    lista="🍪 & 👍"
+if [[ "$lista" == *" 🍪"* ]] && [[ "$lista" == *" 👍🏻"* ]]; then
+    lista="🍪 & 👍🏻"
 fi
 
 today_date=$(date +"%Y%m%d")
