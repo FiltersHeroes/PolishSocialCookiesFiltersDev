@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.12.15.1
-! Last modified: Tue, 15 Dec 2020, 22:08 UTC+01
+! Version: 2020.12.16.0
+! Last modified: Wed, 16 Dec 2020, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.12.15.1 aktualizacja: wto, 15 gru 2020, 22:08 UTC+01
+! v.2020.12.16.0 aktualizacja: śro, 16 gru 2020, 22:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -188,8 +188,8 @@ apteka-natura.eu,aptekaleki.co.uk,awangardashoes.com,bludshop.com,e-megasport.co
 arachnea.org##div.guestwarn
 aranzujemy.pl,kobieceporady.pl,samouczek.info,spacex.com.pl##.gdpr
 archiconnect.pl,biznesmeblowy.pl,lazienka.pl,mamkuchnie.pl,meble.com.pl,najlepszedomy.pl###axn
-architektura.info##.modal
 architektura.info##.cookies-warning
+architektura.info,vaillant.pl##.modal
 archiwalna.miasto.zgierz.pl#?#.ui-widget.ui-dialog:-abp-has(a[href*="polityka-prywatnosci"])
 archiwa.gov.pl,noria.pl###message_box
 archiwum.allegro.pl##div[data-box-name="cookie.policy.bar"]
@@ -524,6 +524,7 @@ cubus.com###EPDirectiveInfo
 cupsell.pl##.rodo-popup
 cyanmod.pl##.cm-message, .ipsfocus_globalMessage
 cyberbajt.pl##div#message0
+cyberpolicy.nask.pl###gdpr-info
 cybex-online.com##.CookieNote
 cybor-tech.com.pl##.cookie_privacy_info_bar
 cyfrowarepublika.pl,energoekspert.com.pl###system-message
@@ -3575,7 +3576,7 @@ volcano.pl#@##cookiesModal
 !
 ! Wyjątki
 allegro.pl,pikio.pl#@#[class*="cookie-policy"]:not(body):not(html)
-bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
+bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl,vaillant.pl#@##cookiewarning:not(body):not(html)
 dkms.pl#@#.cc-banner:not(body):not(html)
 dkms.pl#@#.cc-window[aria-label*="consent"]:not(body):not(html)
 electrolux.pl#@#.CookieConsent:not(body):not(html)
