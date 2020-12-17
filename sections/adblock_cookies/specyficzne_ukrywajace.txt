@@ -165,8 +165,10 @@ arachnea.org##div.guestwarn
 aranzujemy.pl,kobieceporady.pl,samouczek.info,spacex.com.pl##.gdpr
 archiconnect.pl,biznesmeblowy.pl,lazienka.pl,mamkuchnie.pl,meble.com.pl,najlepszedomy.pl###axn
 architektura.info##.cookies-warning
-architektura.info,vaillant.pl##.modal
+architektura.info##.modal
 archiwalna.miasto.zgierz.pl#?#.ui-widget.ui-dialog:-abp-has(a[href*="polityka-prywatnosci"])
+vaillant.pl##.modal:not(.modal--closable):not([class*="slide"]):not([class*="iframe"])
+!vaillant.pl#?#.modal:-abp-has(#cookiewarning)
 archiwa.gov.pl,noria.pl###message_box
 archiwum.allegro.pl##div[data-box-name="cookie.policy.bar"]
 archiwum.starostwolukow.pl,atcdevelopment.pl,ginekolog-darlowo.pl,lek-med.pl,mcm-milicz.pl###zgoda
