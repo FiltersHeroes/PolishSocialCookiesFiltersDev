@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2020.12.17.0
-! Last modified: Thu, 17 Dec 2020, 18:08 UTC+01
+! Version: 2020.12.22.0
+! Last modified: Tue, 22 Dec 2020, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2020 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2020.12.17.0 aktualizacja: czw, 17 gru 2020, 18:08 UTC+01
+! v.2020.12.22.0 aktualizacja: wto, 22 gru 2020, 18:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -6240,6 +6240,7 @@ z-hotel.com###menu-item-868
 /themes/tt.png$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
 /themes/twLogo.jpg$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
 /vbanner/facebookock.jpg$domain=ockopolelubelskie.pl
+_foobar.$domain= ~ example.com
 ||4prm.pl/*/facebook_menu$image
 ||aat.pl/sites/default/files/in_text_illustrations/Youtube_PL.jpg
 ||adwokatgdynia.com/img/faceico.png
