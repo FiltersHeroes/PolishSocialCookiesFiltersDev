@@ -424,3 +424,6 @@ ztm.gda.pl###acceptRodo, .modal-backdrop
 !computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##[class^="sp_veil"], [id^="sp_message_panel"]
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
+serialowa.pl##.popmake-overlay[data-popmake*="cookies"]
+serialowa.pl##html.pum-open:style(overflow: auto !important;)
+serialowa.pl##html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden]:style(padding-right: 0 !important;)
