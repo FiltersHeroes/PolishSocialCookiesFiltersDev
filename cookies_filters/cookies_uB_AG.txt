@@ -161,6 +161,7 @@ generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
 giantfabryczna.pl,liv-cycling.com###cookiePopupModal, .modal-backdrop
 gitara-sklep.pl##body:style(padding-top: 0 !important;)
 gmina-aleksandrow.pl###g_toplayer
+google.com,google.pl##+js(aeld, DOMContentLoaded, CONSENT)
 gryonline.wp.pl,tv.pudelek.pl##+js(set, wp_no_consent_screen, true)
 handluj.com,tarnobrzeg.info###rodo-message, .modal-backdrop
 hendi.pl##.modal__outer--rodo, .modal--open
@@ -651,6 +652,8 @@ autakrajowe.com.pl,craftserve.pl,infoplanet.pl,motobanda.pl,polski-tenis.pl$$#ro
 belsat.eu,buddyzm.info.pl,eurologistics.pl,homedesign.pl,masterleasing.pl,mobilet.pl,petrodom.pl,poznan.ap.gov.pl,sp112.waw.pl,sp18.lublin.eu,whatannawears.com,wsb.net.pl$$.popmake-overlay[tag-content="RODO"]
 bioagris.pl$$#policy-accept-div
 bmw-motorrad.pl$$.cookielayer
+bolec.info##body[style]:style(overflow: auto !important;)
+bolec.info##.fc-consent-root
 brieftip.pl,kaliber.pl#?#.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 brieftip.pl,kaliber.pl$$#cookieModal
 cenapaliw.pl$$#CBCookieMsg
@@ -720,4 +723,5 @@ wiemy.to$$#banner[tag-content="RODO"]
 wtk.pl$$#GDPR-modal
 zdajmyrazem.pl$$#gdprModal
 ztm.poznan.pl$$#PopUP
+@@||gawex.pl/assets/js/cookieinfo.js
 !#endif
