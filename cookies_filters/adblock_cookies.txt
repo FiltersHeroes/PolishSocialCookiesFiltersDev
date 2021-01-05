@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.1.4.0
-! Last modified: Mon, 04 Jan 2021, 14:08 UTC+01
+! Version: 2021.1.5.0
+! Last modified: Tue, 05 Jan 2021, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.1.4.0 aktualizacja: pon, 04 sty 2021, 14:08 UTC+01
+! v.2021.1.5.0 aktualizacja: wto, 05 sty 2021, 18:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2528,6 +2528,7 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 !
 !
 ! Specyficzne reguły blokujące
+!||assets.allegrostatic.com/opbox-rodo-consent-modal/$script,stylesheet,domain=allegro.pl
 /ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info|pl|zvami.tv
 /cookie*/bosch-privacy-settings-*.min.js$script,domain=bosch-professional.com|bosch.pl
 /cookie.js$script,domain=iap.pl|iaw.pl|pks-sa.eu|sacz.pl
@@ -2557,7 +2558,7 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 ||apteki24.waw.pl/info_cook.js
 ||architektura.info/extension/pucookies/design/base/stylesheets/pu_cookies.css
 ||artkomnet.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
-||assets.allegrostatic.com/opbox-rodo-consent-modal/$script,stylesheet,domain=allegro.pl
+||assets.allegrostatic.com/opbox-gdpr-consents/$script,stylesheet,domain=allegro.pl
 ||assets.goldenline.io/assets/user/rodoAgreement.*.js
 ||asus.com/cookienotice.json$xmlhttprequest
 ||asus.com/pl/cookienotice.json$xmlhttprequest
