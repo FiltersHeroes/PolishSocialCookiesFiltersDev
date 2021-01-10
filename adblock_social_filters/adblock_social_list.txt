@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.1.10.0
-! Last modified: Sun, 10 Jan 2021, 14:08 UTC+01
+! Version: 2021.1.10.1
+! Last modified: Sun, 10 Jan 2021, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.1.10.0 aktualizacja: nie, 10 sty 2021, 14:08 UTC+01
+! v.2021.1.10.1 aktualizacja: nie, 10 sty 2021, 22:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -1386,6 +1386,8 @@ blog.eduweb.pl##footer .mobile > ul ~ div > a:not([href*="/feed/"])
 blog.eduweb.pl##.desktop-shareIt > h5
 blog.eobuwie.com.pl##.instagram-size-small.instagram-pics
 blog.invimed.pl##.nfb-fb, .nfb-yt
+blog.lh.pl##.site-footer > div:nth-of-type(1) > div > div:nth-of-type(3) > .widget_custom_html
+blog.lh.pl,muzyczny-krakow.eu##.ct-social-box
 blog.meskiegacie.pl##.tg-first-footer-widget > #nav_menu-7
 blog.nazwa.pl##.sociale, .stopka
 blog.siegnijpozdrowie.org,ewaszalkowska.com,invoicer.blogspot.com,kuchniamagdaleny.pl,lifebymarcelka.pl,planszowkiwedwoje.pl,reklamy-arek.blogspot.com,swedish-princesses.pl,wegannerd.blogspot.com,wszystkiemojebziki.pl,wszystkocopolskie.blogspot.com,www.djakdesign.pl###HTML1
@@ -2007,8 +2009,8 @@ dziennikwschodni.pl##.read-us-widget__social-item:nth-of-type(-n+2), div.footer_
 dziennikzachodni.pl#?#div.component.componentsPromotionsPromoted:-abp-has( > h2[class*="header"]:-abp-contains(Bądź na bieżąco i obserwuj))
 dziennik-polityczny.com###dz-button-follow-us
 dziennik.com##.icon-twt
-dziennik.pl,forsal.pl,gazetaprawna.pl##.fbButtonObserve
-dziennik.pl,forsal.pl,gazetaprawna.pl##.widget-fbLike-box
+dziennik.pl,forsal.pl,gazetaprawna.pl,ikomunikaty.pl##.fbButtonObserve
+dziennik.pl,forsal.pl,gazetaprawna.pl,ikomunikaty.pl##.widget-fbLike-box
 dziewczynynapolitechniki.pl##.col-sm-2:nth-of-type(4)
 dzikabanda.pl##.instagram-pics, .navigation-has-menu.one-part.home-widget
 dzikimiod.pl###footer > .columns > div:nth-of-type(4) > h3
@@ -2487,8 +2489,8 @@ gazetamiedzyszkolna.pl###advanced_text-3
 gazetamikolowska.eu,miniregion.pl,telewizjapiotrkow.pl##.jslikeboxsidebarinner
 gazetapowiatowa.pl##.box-author
 gazetapraca.pl##.external_link_other[href="https://www.facebook.com/MGsolutionsapt/"]
-gazetaprawna.pl##a[href="https://www.facebook.com/gazetaprawnapl"], a[href="http://plus.google.com/+gazetaprawna"], a[href="http://twitter.com/gazetaprawnapl"], .iconSocial, .socialIco
 gazetaprawna.pl,ikomunikaty.pl##.socialListFooter
+gazetaprawna.pl,ikomunikaty.pl##a[href="https://www.facebook.com/gazetaprawnapl"], a[href="http://plus.google.com/+gazetaprawna"], a[href="http://twitter.com/gazetaprawnapl"], .iconSocial, .socialIco
 gazetaspoleczna.pl##.right > li:nth-of-type(3)
 gazeta-mosina.pl###short_code_si_icon > a:not([href*="/rss"])
 gazeta-olawa.pl#?#.vc_row-fluid.wpb_row.vc_row > .vc_column_container.wpb_column:-abp-contains(ZNAJDŹ NAS)
@@ -2522,12 +2524,14 @@ germany.travel##.item-social, li.divider:nth-of-type(8)
 getecom.pl##.btn__more--facebook.btn__more--footer
 getmailbird.com##.footer-top-social-medias
 getruck.eu###fb_panel
+gf24.pl#?#.td-pb-border-top.td_block_title.td_block_wrap > .td-block-title > .td-pulldown-size:-abp-contains(Bądź na bieżąco)
 gft.com##.b-socials--footer
 gg.pl##.bottom-bar__socials
 giacomo-design.com#?#.newsletter.cell.large-3 > div:-abp-has(.followup)
 giantfabryczna.pl##footer div.col-xs-12.col-sm-6.col-md-3.col-lg-3:nth-of-type(3)
 gieksainfo.pl##.wc-shortcodes-social-icons
 gieldaklasykow.pl###text-22
+gieldarolna.pl##footer .left > .inline > li > a > img
 giercownia.pl##.fb-box
 gih.grajewo.pl###bip
 gim7olsztyn.ehost.pl##.sidebar2 > .Block:nth-of-type(2)
@@ -3840,7 +3844,6 @@ muzyczneradio.pl##.widget-socials
 muzyczneradio.pl#?#.widget-title:-abp-contains(Znajdziesz nas)
 muzycznydolnyslask.pl###masthead .main-header__main-line > .main-header__widget-box a
 muzycznydolnyslask.pl##.aheto-socials
-muzyczny-krakow.eu##.ct-social-box
 muzyczny-krakow.eu##.site-footer > div > .ct-container > div:nth-of-type(2) > .widget_custom_html.ct-widget.widget_text
 muzykanawesela.pl###modal
 muzykazreklam.pl###topic-share
@@ -4220,6 +4223,7 @@ partyflowers.pl##.astra-widget-social-profiles-inner
 pasazer.com##.col:nth-of-type(4)
 pasazer.com##.website-menu > li > a[href="//www.facebook.com/przeloty"]
 pascal.pl###section_specialServices > .rowTitle.row > .col-md-12 > .pageTitle
+pasieka24.pl###Mod218
 pasmanteriagrochow.pl##.csc-textpic-imagewrap > ul > li.csc-textpic-image:nth-of-type(-n+2)
 pasmanteriapasja.pl##.facebooksocial
 pasmanteria-atlasek.pl##.nasa-cookie-notice-container
@@ -5560,6 +5564,7 @@ transfery.info##a > i.fab.media-icon
 translate.glosbe.com##nav.footer-column:nth-of-type(3)
 translate.google.com,translate.google.pl###gt-blog, #gt-gplus, #gt-promo-lr, .goog-toolbar-separator, .share-translation-button
 transylwania.com##.right-modal
+tranzystor.pl##.vl-top-right-header
 traseo.pl##.fb-like-box-container
 travelbit.pl##a > [src="https://www.travelbit.pl/wp-content/uploads/2013/10/fb-01.png"]
 travelplanet.pl##.sticker-socials
