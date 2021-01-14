@@ -2396,50 +2396,51 @@ wszelkieprzepisy.pl##.txc_cookie_infobox
 wszp.edu.pl###akcept_cookies
 wszystkoblisko.pl##.ueCookies
 wu.swps.edu.pl##div#Iagree
-www.aboutyou.pl###app > .cookieBannerActive > div[class*="cookieBannerContainer"]
-www.autocentrum.pl##.hello-rodo
-www.bbc.com###cookiePrompt
-www.bing.com###b_notificationContainer
-www.bing.com###t_cookieInfo, #t_termsInfo
-www.biurozplusem.pl##.top-left.sticky-queue
-www.casamundo.pl###cm_spa_components_messages_oil
-www.cmcmarkets.com###cmc-tracking-consent-form-step1
-www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
-www.daftrucks.pl##.page-overlay
-www.dxracerkrzesla.pl###cookies-confirm
-www.ea.com##ea-truste-consent-bar
+aboutyou.pl###app > .cookieBannerActive > div[class*="cookieBannerContainer"]
+autocentrum.pl##.hello-rodo
+bbc.com###cookiePrompt
+bing.com###b_notificationContainer
+bing.com###t_cookieInfo, #t_termsInfo
+biurozplusem.pl##.top-left.sticky-queue
+casamundo.pl###cm_spa_components_messages_oil
+cmcmarkets.com###cmc-tracking-consent-form-step1
+continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
+daftrucks.pl##.page-overlay
+dxracerkrzesla.pl###cookies-confirm
+ea.com##ea-truste-consent-bar
 www.google.com,www.google.pl##body > div[class*=" "]:not([id]) > c-wiz > div[jscontroller] > div[class][jsname][data-ved][style="display: block;"]
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.google.com,www.google.pl###gb > div[class][style^="background"]
 www.google.com,www.google.pl#?##taw div[id][style*="block"]:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"])
-www.halico.pl##.sqs-announcement-bar-custom-location
-www.hertz.com.pl##[class^="lb-"]
-www.hertz.pl###light-box-1
-www.hotelbb.pl###be-modal-content-disclaimer
-www.ifon.pl##.region-top.region
-www.insp.waw.pl###divbox
-www.ipkobiznes.pl#?##layout > div > div.svg > div > div:first-child:-abp-contains(cookies)
-www.joe.pl###j_all > div:nth-of-type(3)
-www.lidl.pl##header.page__header > div[class] > .notification
-www.lifescan.pl###simplemodal-overlay
-www.lifescan.pl##.simplemodal-wrap
-www.mercedes-benz.pl###emb-cp-overlay
-www.mp.pl###__next > footer + div[class^="sc-"]
-www.nfz-zielonagora.pl###statementWrapper
+halico.pl##.sqs-announcement-bar-custom-location
+hertz.com.pl##[class^="lb-"]
+hertz.pl###light-box-1
+hotelbb.pl###be-modal-content-disclaimer
+ifon.pl##.region-top.region
+insp.waw.pl###divbox
+ipkobiznes.pl#?##layout > div > div.svg > div > div:first-child:-abp-contains(cookies)
+joe.pl###j_all > div:nth-of-type(3)
+lidl.pl##header.page__header > div[class] > .notification
+lifescan.pl###simplemodal-overlay
+lifescan.pl##.simplemodal-wrap
+mercedes-benz.pl###emb-cp-overlay
+mp.pl###__next > footer + div[class^="sc-"]
+nfz-zielonagora.pl###statementWrapper
 www.o2.pl##._2_S1s
-www.plus.pl###rodo-popup-overlay
-www.promise.com.pl##.ui-front
-www.rmf24.pl###pl_cookies.pl-cookies
-www.select.pl##.cookiepop
-www.simex.pl###CookiesInfoDiv
-www.ssw-consulting.pl##.ui-pnotify
-www.stalagroup.pl##div.scl:nth-of-type(n+2):nth-of-type(-n+3)
-www.starterfirm.pl###sf-cookie-alert
-www.teamprevent.pl##.warnings
-www.tem.com.pl###block-block-29
-www.totalizator.pl##.rodo-information-overlay, .rodo-information-popup
-www.tupperware.pl##.topRibbon
-www.youtube.com###consent-bump, body > .opened[opened][style^="z-index"], .yt-consent-banner.yt-consent
+plus.pl###rodo-popup-overlay
+promise.com.pl##.ui-front
+rmf24.pl###pl_cookies.pl-cookies
+select.pl##.cookiepop
+simex.pl###CookiesInfoDiv
+ssw-consulting.pl##.ui-pnotify
+stalagroup.pl##div.scl:nth-of-type(n+2):nth-of-type(-n+3)
+starterfirm.pl###sf-cookie-alert
+teamprevent.pl##.warnings
+tem.com.pl###block-block-29
+totalizator.pl##.rodo-information-overlay, .rodo-information-popup
+tupperware.pl##.topRibbon
+youtube.com###consent-bump
+youtube.com##body > iron-overlay-backdrop.opened
 wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
 wypozyczalniasamochodowwarszawa.pl###can_use_cookies
@@ -2448,7 +2449,7 @@ xiaomi.com###cookie-usage-notify
 xn--szukamksiki-4kb16m.pl###privacy-alert
 yachtguru.pl###cl-c
 yes.pl###info-modal
-youtube.com###ticker
+!youtube.com#?#body:-abp-has(#consent-bump) > iron-overlay-backdrop
 zabierzow.org.pl###modal-rodo, .cook_wrap
 zadluzenia.com###CookiesInfo
 zagielmed.pl###cc_zagiel
