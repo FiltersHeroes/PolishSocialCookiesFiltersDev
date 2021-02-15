@@ -137,8 +137,6 @@ epicdrama.pl,odrabiamy.pl,patronite.pl##.blur:style(filter: none !important;)
 estyc.om##.body-no-scroll:style(position: static !important; overflow: auto !important; padding-right: 0 !important;)
 etsy.com###gdpr-single-choice-overlay
 e-sochaczew.pl,paczkomaty.pl,repostuj.pl,wedkuje.pl##+js(ra, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
-e-sochaczew.pl,wedkuje.pl##RODOCOOKIE, .modal-backdrop
-e-sochaczew.pl,wedkuje.pl##+js(acis, SendAccept2, RODOCOOKIE)
 e-urzad.grodzisk.pl,www.kayak.pl##.cdk-global-scrollblock:style(position: static !important; overlow: auto !important;)
 e-urzad.grodzisk.pl,www.kayak.pl##.cdk-overlay-container
 fabrykacukiernika.pl##.rodo-on:style(overflow: auto !important;)
@@ -158,7 +156,6 @@ foursquare.com##+js(set, fourSq.cookies.CookieBanner, noopFunc)
 g2a.com##.modal__curtain:has(div[class*="cookies"][class*="agreements"])
 g2a.com##.scroll_freeze:style(position: static !important; overflow: auto !important;)
 galeriaslendzinskich.pl,powiat-zyrardowski.pl##.fancybox-overlay
-galopuje.pl##+js(acis, $, RODOCOOKIE)
 generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
 giantfabryczna.pl,liv-cycling.com###cookiePopupModal, .modal-backdrop
 gitara-sklep.pl##body:style(padding-top: 0 !important;)
@@ -236,7 +233,6 @@ meetup.com###mupFooter:style(padding-bottom: 0 !important;)
 meteoblue.com##.gdpr_message
 meteoblue.com##.scroll_lock:style(overflow: auto !important;)
 mikroporady.pl##.mikroporady:style(padding-top: 0 !important;)
-militaria-hobby.eu,porcelana.com.pl##+js(aopr, alert)
 mirjan24.pl##body.compensate-for-scrollbar:style(overflow: auto !important;)
 mirjan24.pl###fancybox-container-1:has(#gdpr)
 mirjan24.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
@@ -318,6 +314,7 @@ polskikoszyk.pl##body.cookie .topbar:style(top: 0 !important;)
 polskikoszyk.pl##body.cookie .topsubbar:style(top: 57px !important;)
 poradykomputerowe.pl,portaloswiatowy.pl##.overlay-cookie
 poradykomputerowe.pl,portaloswiatowy.pl##.overlay-hidden-cookie:style(overflow: auto !important;)
+porcelana.com.pl##+js(aopr, alert)
 porcelana.pl##.modal-popup
 powiatslawno.pl##.gafancybox-overlay-fixed.gafancybox-overlay
 powiat-ostrowski.pl##.info
@@ -401,6 +398,8 @@ wapex.pl###mAll, .modal-backdrop
 webhelp.pl###wrapper:style(margin-top: auto !important;)
 webprojekt.biz###rodo, #screenMoire
 webprojekt.biz##.no-move:style(overflow: auto !important;)
+wedkuje.pl###RODOCOOKIE, .modal-backdrop
+wedkuje.pl##+js(acis, SendAccept2, RODOCOOKIE)
 wgospodarce.pl,wpolityce.pl##.rhododendron-body-with-popup:style(overflow: auto !important;)
 wgospodarce.pl,wpolityce.pl##.rhododendron-popup, .rhododendron-popup-overlay
 wit.edu.pl##.cd-header:style(padding-right: 0 !important;)
@@ -441,6 +440,8 @@ ztm.gda.pl###acceptRodo, .modal-backdrop
 !carrefour.pl##.MuiDialog-root:has( > .MuiDialog-container > div[class]:not([id])[role="dialog"]:has-text(cookies))
 !computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##html.sp-message-open:style(position: static !important; overflow: auto !important;)
 !computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##[class^="sp_veil"], [id^="sp_message_panel"]
+!galopuje.pl##+js(acis, $, RODOCOOKIE)
+!porcelana.com.pl##+js(acis, onload, plików cookies)
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
 !
