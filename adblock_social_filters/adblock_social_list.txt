@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.2.15.1
-! Last modified: Mon, 15 Feb 2021, 22:08 UTC+01
+! Version: 2021.2.17.0
+! Last modified: Wed, 17 Feb 2021, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.2.15.1 aktualizacja: pon, 15 lut 2021, 22:08 UTC+01
+! v.2021.2.17.0 aktualizacja: śro, 17 lut 2021, 22:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -849,7 +849,7 @@ pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_like
 20lat.interia.pl##.fb-share-btn
 24kurier.pl##.boxFilm.tMarg20.box:nth-of-type(2)
 24legnica.pl###socialStuff
-24opony.pl,antyweb.pl,auto-swiat.pl,biore.to,biuroprasowe.pl,blachownia.pl,bydgoszcz.com,centrum.fm,cocolita.pl,duzekubki.pl,ebexo.pl,fabrykazabawek.eu,fakt.pl,kalisz24.info.pl,komputerswiat.pl,lublin112.pl,macris.com.pl,miechow.eu,moaburger.com,mojanorwegia.pl,mojtelefon.info,mokis.info,ncn.gov.pl,niemiecki.co,oakandberry.com,optyk.klodzko.pl,p-programowanie.pl,patriot24.net,pieninyinfo.pl,portalmorski.pl,promopixel.pl,protonmail.com,przegladsportowy.pl,rdn.pl,reypol.com.pl,scandi-city.pl,sec.com.pl,sklep.piast-gliwice.eu,splacepark.pl,sprzedajemy.pl,ssl24.pl,strzelec.info,taniaksiazka.pl,weblider.eu,wrzesnia.powiat.pl,wyborcza.biz,zdrowekolorowe.pl,znak.com.pl,ztkruszwica.pl##.fb
+24opony.pl,antyweb.pl,audiofan24.pl,auto-swiat.pl,biore.to,biuroprasowe.pl,blachownia.pl,bydgoszcz.com,centrum.fm,cocolita.pl,duzekubki.pl,ebexo.pl,fabrykazabawek.eu,fakt.pl,kalisz24.info.pl,komputerswiat.pl,lublin112.pl,macris.com.pl,miechow.eu,moaburger.com,mojanorwegia.pl,mojtelefon.info,mokis.info,ncn.gov.pl,niemiecki.co,oakandberry.com,optyk.klodzko.pl,p-programowanie.pl,patriot24.net,pieninyinfo.pl,portalmorski.pl,promopixel.pl,protonmail.com,przegladsportowy.pl,rdn.pl,reypol.com.pl,scandi-city.pl,sec.com.pl,sklep.piast-gliwice.eu,splacepark.pl,sprzedajemy.pl,ssl24.pl,strzelec.info,taniaksiazka.pl,weblider.eu,wrzesnia.powiat.pl,wyborcza.biz,zdrowekolorowe.pl,znak.com.pl,ztkruszwica.pl##.fb
 24pr.pl##a[href="http://www.facebook.com/pages/24PR-Portal-PR/300082949728"]
 24zabrze.pl###vce_social_menu
 24.pl,adda.com.pl,blog.comperialead.pl,dziekujebylopyszne.pl,fight24.pl,kobietydokodu.pl,kreator-modymeskiej.pl,lifemanagerka.pl,lososwkuchni.pl,mama-kreatywna.pl,moj-kawalek-podlogi.pl,oliwowo.pl,victor.com.pl###text-6
@@ -1165,6 +1165,7 @@ atriumsystem.eu##.box-social-media.box
 atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com#?#section > .container-fluid:-abp-has( > h2:-abp-contains(Instagram))
 auchandirect.pl##.footer-links div.grid:nth-of-type(4) > ul > li:nth-of-type(n+5):nth-of-type(-n+6)
 audiodelic.pl##.style-color-632047-bg .icon-box.icon-box-top.icon-inline
+audiofan24.pl##.social li:nth-child(-n+3)
 audioteka.com##.page-foot__col:nth-of-type(4)
 audiotrendt.com.pl###yt-box
 audio.com.pl##.burger-menu__scl
@@ -2588,6 +2589,7 @@ gc2.pl##li:nth-of-type(2) > .scrolly, #three, .container > .alt.box > .uniform.r
 gdanskrebiechowo.pl,zbiorkom.pl#?#table td > p > .news:-abp-contains(na serwisach społecznościowych)
 gdnexpress.pl##.header-right > ul > li:nth-of-type(-n+2) > a
 gdynia.pl##.widget-text-block > div > .social > li:nth-child(-n+5)
+gdziejestdziecko.pl###footer .kol3.kol
 gdziepolek.pl#?#.content-section > .body > .m-b-25:-abp-has( > .fb-like)
 gdziepolek.pl#?#.content-section > .body > .m-t-40:-abp-contains(Polub nasz profil)
 geek.justjoin.it##.menu-icon-fb, .menu-icon-insta, .menu-icon-tw, .menu-icon-linkedin
@@ -3822,6 +3824,8 @@ mi-home.pl###newsletter_block_left > div:nth-of-type(3)
 mi.com##.span8.customer-relationship
 mjakmama24.pl,muratorplus.pl,poradnikzdrowie.pl##.big_socials_tw, .big_socials_gp, .big_socials_fb
 mkidn.gov.pl###ikonki
+mkm.szczecin.pl#?#.index-header ~ h3:-abp-has(a[href="https://www.facebook.com/SerwisKOMIS/"])
+mkm.szczecin.pl#?#.row .index-header:-abp-contains(Facebook)
 mkppogonsiedlce.pl##.page-item-4892, .page-item-4894, .page-item-4897, .page-item-5482
 mksbedzin.pl##.moto-widget-social-links.moto-widget, .moto-preset-3.moto-widget-image.moto-widget
 mlodytechnik.pl##.for-share-buttons
@@ -5794,6 +5798,7 @@ trofeasportowe.com##footer a[href^="https://www.facebook.com/Trofea-Sportowe-"]
 trojmiejskaperfumeria.pl###easycontent_6 > .title_block > .title_block_inner, .social_wrap > .fto-facebook, .social_wrap > .fto-instagram-1, .social_wrap > .fto-gplus-squared
 trojmiejska.com##.rt_fb_like_box.footer_block
 trovit.pl##.share_friends
+truckonline.pl##.headerSmedia a, .footerSmedia a
 truplus.pl##.footer-contact__social
 truso.tv##.gp
 trwarszawa.pl##li > a > .ti-facebook, li > a > .ti-youtube
@@ -6792,6 +6797,8 @@ z-hotel.com###menu-item-868
 ||skin79-sklep.pl/images/gfx/facebook.jpg
 ||skin79-sklep.pl/images/gfx/instagram.jpg
 ||sklepjubilerski.com/gfx/fb.jpg
+||sklep.cyfronika.com.pl/userdata/public/assets//facebook.png
+||sklep.cyfronika.com.pl/userdata/public/assets//twitter.JPG
 ||sklep.grupamagnum.eu/public/assets/my/ikonkaMessenger.png
 ||sklep.romet.pl/gfx/sklep/userfiles/_public/instagram_min.png
 ||slaskietrendy.pl/lubie_to.png
