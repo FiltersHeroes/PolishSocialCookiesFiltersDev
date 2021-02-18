@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.2.17.0
-! Last modified: Wed, 17 Feb 2021, 22:08 UTC+01
+! Version: 2021.2.18.0
+! Last modified: Thu, 18 Feb 2021, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.2.17.0 aktualizacja: śro, 17 lut 2021, 22:08 UTC+01
+! v.2021.2.18.0 aktualizacja: czw, 18 lut 2021, 22:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -201,6 +201,15 @@ pl##.facebook-popup
 ~pl##.pwebbox.pwebbox-plugin-facebook_page_plugin:lang(pl)
 ~pl##.pwebbox.pweb-theme-fbnavy:not(.pwebbox-plugin-facebook_page_plugin):lang(pl)
 ~pl##.shb-header-social:lang(pl), .shb-footer-social:lang(pl)
+~pl##.sm-panel .sm-blog:lang(pl)
+~pl##.sm-panel .sm-fb:lang(pl)
+~pl##.sm-panel .sm-gplus:lang(pl)
+~pl##.sm-panel .sm-instagram:lang(pl)
+~pl##.sm-panel .sm-insta:lang(pl)
+~pl##.sm-panel .sm-inst:lang(pl)
+~pl##.sm-panel .sm-twitter:lang(pl)
+~pl##.sm-panel .sm-tw:lang(pl)
+~pl##.sm-panel .sm-youtube:lang(pl)
 pl##.FBButton
 pl##.Facebook
 pl##.Instagram
@@ -733,6 +742,15 @@ pl##.sm-link--fb.sm-link
 pl##.sm-link--g.sm-link
 pl##.sm-link--p.sm-link
 pl##.sm-link--yt.sm-link
+pl##.sm-panel .sm-blog
+pl##.sm-panel .sm-fb
+pl##.sm-panel .sm-gplus
+pl##.sm-panel .sm-inst
+pl##.sm-panel .sm-insta
+pl##.sm-panel .sm-instagram
+pl##.sm-panel .sm-tw
+pl##.sm-panel .sm-twitter
+pl##.sm-panel .sm-youtube
 pl##.snap_icon
 pl##.snap_img
 pl##.socializer-fb-share
@@ -812,6 +830,7 @@ pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_like
 !
 !
 ! Specyficzne reguły ukrywające
+~pl##.sm-panel .sm-messenger:lang(pl)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 2plus3d.pl###menuItem_facebook
 2smaki.pl###text-35
@@ -2464,6 +2483,7 @@ fokusfashion.com,kupbuty.com###tws_a_0
 foldruk.media.pl###socialmedia-top
 followrap.com###wh-widget-send-button
 foodjobs.pl###tw-slider, #li-slider
+foodyas.com##footer .list-inline > li > a
 food.bolt.eu##.footer-section-right > .col > div:nth-of-type(1) > a
 footballmasters.pl,mamazen.pl##.socialwidgetmm
 footroll.pl##.likebox-facebook
@@ -3351,7 +3371,7 @@ krytykakulinarna.com#?#.sidebar-widget > h6:-abp-contains(/społecz/i)
 krytykapolityczna.pl###menu-item-166280
 krytykapolityczna.pl###menu-socjale-w-naglowku
 krytykapolityczna.pl##.essb-block.essb-like-facebook, .essb-block.essb-like-twitter, .post-date-area > .textwidget > .vc_empty_space
-kryzysowa.pl##div.m-footer__col:nth-of-type(3)
+kryzysowa.pl,pizzaprego.pl##div.m-footer__col:nth-of-type(3)
 krzewyozdobne.net##a[href^="https://www.facebook.com/Krzewy-ozdobne-net"] > img
 krzysztofadamek.pl#?#.vc_row-fluid.wpb_row.vc_row:-abp-contains(Instagram Feed)
 krzysztofwojczal.pl###aptf_widget-3
@@ -3862,6 +3882,7 @@ mojbank.pl###module-90 > div[id^="module-90"]:nth-of-type(1)
 mojedziecikreatywnie.pl##.smartlib-social-buttons-list
 mojegotowanie.pl##.sidebar-box-like-us
 mojegotowanie.pl##.top-menu-like-us
+mojeinstalacje.com##.ptssocial_link
 mojeinstalacje.com,sklepbrp.pl##.sm-panel-prawe
 mojejaslo.pl#?#.td-footer-wrap .tds-title:-abp-contains(SOCIAL MEDIA)
 mojejaslo.pl#?#.td-pb-span4.tdc-column.vc_column_container.vc_column:-abp-has(.td_social_type)
@@ -4051,7 +4072,7 @@ narcyz.shop,smieszneciuszki.pl##.text-2.sidebar
 narzedziaokazje.pl##.navbar-nav > li.nav-item:nth-of-type(n+4):nth-of-type(-n+6)
 narzedzia-profesjonalne.com.pl##img[src="/userdata/banners/5.png"]
 narzedzia.pl##div.footeritem:nth-of-type(6) > h4
-nasienna.pl,wiktormeble.pl##.sm-youtube
+nasienna.pl,wiktormeble.pl##.sm-panel .sm-youtube
 nask.pl##.footer-container__right_icons > li:nth-of-type(n+1):nth-of-type(-n+4)
 nastopy.pl##.leftSlide > .fb-wrap
 nasza9.com##.kontakt-right
@@ -4526,6 +4547,7 @@ pluszaki.com###footer_secondary > .row > div.column:nth-of-type(4)
 pluszowasowa.pl##footer .row > div:nth-of-type(3)
 plus.pl##footer .column > li:nth-of-type(1) > span
 plus.pl##.mobile-hide.column.large-3.medium-6.small-12
+pl##.sm-panel .sm-messenger
 pl-pl.fitatu.com##.fitatu-footer__social
 pl.admininfo.info##.hotwp-scroll-top
 pl.aleteia.org###footer-socials-follow, #top-socials-follow
@@ -5373,6 +5395,7 @@ sluzby-ratownicze.pl###menu-social-menu-items
 sluzby-ur.pl##.wysun_facebooka.fl
 smaczny.pl##a[href="https://www.facebook.com/smacznypl"]
 smakinatalerzu.pl###text-27
+smakoon.com##.welcomeFooter > h3, .welcomeFooter > p > a
 smakprostoty.pl###menu-bottom a.target:nth-child(n+2)
 smartage.pl##.widget_text.col-6.widget
 smartandart.pl##.contact-box-facebook
@@ -5622,7 +5645,7 @@ tago.com.pl##.float-social
 tajemnice-swiata.pl##a[href="https://www.facebook.com/Tajemnice-%C5%9Awiata-1655637548024566/"]
 tajfuny.pl#?#.elementor-widget-heading.elementor-widget > .elementor-widget-container > .elementor-heading-title:-abp-contains(Odwiedź naszego Instagrama)
 tajlex.pl###foot_4
-takaposciel.pl##.sm-fb
+takaposciel.pl##.sm-panel .sm-fb
 takemehome.pl##.widget_underwood-pro-social-media
 tally-weijl.com##.fr-social-media-block
 tamron.eu###c7886, #c26665, footer div.col-sm-4:nth-of-type(3) > p
@@ -5676,7 +5699,7 @@ telepolis.pl,tlp.is##.big-socials-facebook, .big-socials-twitter
 teleprank.pl##section.PageFooter-section:nth-of-type(2) > .PageFooter-title
 telewizjaleszno.pl##.vlog-actions-social-list.vlog-soc-menu
 telewizjarepublika.pl###menu-top > ul > li:nth-of-type(6), .mainpage-row:nth-of-type(9) > .mainpage-column-right > .bar
-telewizjarepublika.pl##.sm-twitter
+telewizjarepublika.pl##.sm-panel .sm-twitter
 telewizjatvt.pl###menu-item-117, #menu-item-118, .ft_sc0.col-sm-4.col-md-15
 telewizja.us.edu.pl###bottom-content > #widgets
 telko.in##ul > li > .tip[data-tip="TELKO.in na Twiterze"], .social li:nth-of-type(2)
@@ -6297,6 +6320,8 @@ x-kom.pl#?#.main-footer > .row + .row:-abp-has( ~ .row:last-child .social-icons)
 x-lander.com##.footer-menus > nav
 x-lander.com##.instagram-widget-container
 x-mobile.pl##.border.col-sm-4.col-md-2.col-lg-2 > .footer_box
+yellowpages.pl#?#dl > dt:-abp-contains(Konta społecznościowe)
+yellowpages.pl#?#dl > dt:-abp-contains(Konta społecznościowe) + dd
 yes2move.com##.icon-facebook.icon
 yes2move.com##.icon-instagram.icon
 yetiforce.com##.left.jj_sl_navigation > li > a, .footer-mini-right.sppb-col-md-6 > a
