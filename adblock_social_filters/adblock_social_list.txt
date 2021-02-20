@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.2.19.1
-! Last modified: Fri, 19 Feb 2021, 18:08 UTC+01
+! Version: 2021.2.20.0
+! Last modified: Sat, 20 Feb 2021, 14:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.2.19.1 aktualizacja: pią, 19 lut 2021, 18:08 UTC+01
+! v.2021.2.20.0 aktualizacja: sob, 20 lut 2021, 14:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -210,6 +210,7 @@ pl##.facebook-popup
 ~pl##.sm-panel .sm-twitter:lang(pl)
 ~pl##.sm-panel .sm-tw:lang(pl)
 ~pl##.sm-panel .sm-youtube:lang(pl)
+~polnapol.com.pl##ul[aria-label="Pasek społecznościowy"], ul[aria-label="Social Bar"]
 pl##.FBButton
 pl##.Facebook
 pl##.Instagram
@@ -1115,6 +1116,7 @@ arenadesign.pl,beardrust.pl,cavaliada.pl,esthetic.com.pl,fitexpo.com.pl,skrivane
 arenadesign.pl,beardrust.pl,cavaliada.pl,fitexpo.com.pl,goldenmarketing.pl,skrivanek.pl,strefakibica.poznan.pl###ssb-btn-2
 arenadesign.pl,cavaliada.pl##.instagram1
 arenanarciarska.pl##.top-righ-icons > a[href="https://www.youtube.com/channel/UC6npr59Nw0NqXT0fCf6CTCQ"], #footer-icons > li:nth-of-type(2)
+arena.pl##footer .MuiGrid-item > a[target="_blank"] > svg
 arhelan.pl##div > a[href="https://www.facebook.com/SklepyArhelan/"]
 arhn.eu###menu-socialize-social-icons-menu, footer > .site-inner > .right > .middle > .tooltipstered
 arimot.pl##div[id*="social-block"]
@@ -4659,6 +4661,7 @@ polishexpress.co.uk##.mainfooter_bottom_social
 polityczek.pl##.Menu.moduletable
 polityczek.pl###likeFB
 polityka.pl##.cg_article_toolbox_share, .cg_footer_share_icons
+polnapol.com.pl##ul[aria-label="Pasek społecznościowy"] > li:nth-of-type(n+2):nth-of-type(-n+4)
 polnews.co.uk###navmenu > .menu > .item148
 polomarket.pl##.top_menu > .yt2
 poloniawroclaw.pl##.ys-sidebar-btn-3, .ys-sidebar-btn-4
