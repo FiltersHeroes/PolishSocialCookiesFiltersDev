@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.2.20.0
-! Last modified: Sat, 20 Feb 2021, 14:08 UTC+01
+! Version: 2021.2.20.1
+! Last modified: Sat, 20 Feb 2021, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.2.20.0 aktualizacja: sob, 20 lut 2021, 14:08 UTC+01
+! v.2021.2.20.1 aktualizacja: sob, 20 lut 2021, 18:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -2915,7 +2915,7 @@ huee.in##.app-sidebar > .networks-list
 hulaj.eu#?#.custom-html-widget.textwidget > span:-abp-has( > a)
 hungryeyes.pl##.soszal
 hungryeyes.pl##h4.social.recipe-details-heading:nth-of-type(2)
-hurtowezakupy.com,sklep.centrum-ws.pl##.top_bar_item_list_item_social_media
+hurtowezakupy.com,sklep.centrum-ws.pl,upominki24.pl##.top_bar_item_list_item_social_media
 hurtowniasportowa.net##.findUs > a.pointer > .icon-facebook
 hurtownia-24.pl##img[src="/themes/default-bootstrap/img/footer-fb.png"]
 hurtownia-format.pl##.well.col-md-4 > .tytul
@@ -5540,7 +5540,6 @@ stat.gov.pl##.pos-3, .pos-4, .pos-5, .pos-6
 stawiszynski.org##ul.kiwi-floating-bar.rect.bottom
 stawiszynski.org##.widget_jupiterx_social.jupiterx-widget
 stepone.pl##.widget_wtrwidgetsocialicons.widget
-sterydy.link##div[id^="slide-12"]
 stili.pl##footer #menu_buttons3
 stili.pl###main_cms
 stokrotka.pl###Media_społecznościowe
@@ -7249,11 +7248,10 @@ zw.com.pl#@#.list_share
 !
 !
 ! Wyjątki
-account.tvn.pl,codetwo.pl,freshfile.pl,konto.wpolityce.pl,muzykazreklam.pl,naekranie.pl,nowaruda24.pl,telepolis.pl#@#.facebook:not([data-id*="videos"]):not([class*="login"]):not(.connect)
+account.tvn.pl,codetwo.pl,muzykazreklam.pl,naekranie.pl,nowaruda24.pl,telepolis.pl,wpolityce.pl#@#.facebook:not([data-id*="videos"]):not([class*="login"]):not(.connect)
 appleworld.pl#@#.fa-facebook
 doladowaniaenergetyczne.pl#@#.icon-facebook
 downdetector.pl,masterchef.tvn.pl#@#a[title="Instagram"]
-freshfile.pl#@#.google
 linuxportal.pl#@#a.like
 media2.pl#@#.fa-facebook-square
 patrz.pl#@#.likes
