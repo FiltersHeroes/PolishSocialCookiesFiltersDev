@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.2.21.0
-! Last modified: Sun, 21 Feb 2021, 22:08 UTC+01
+! Version: 2021.2.23.0
+! Last modified: Tue, 23 Feb 2021, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.2.21.0 aktualizacja: nie, 21 lut 2021, 22:08 UTC+01
+! v.2021.2.23.0 aktualizacja: wto, 23 lut 2021, 22:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -484,6 +484,7 @@ chreptiow.pl###pu620
 chroma.pl##div[class^="CookiesInfo---container---"]
 chronpesel.pl##.wh-cookieInfoBox
 chrzanow.pl,powiat-chrzanowski.pl###pdo-info-overlay
+chupachups.pl##.cookie-message-adv__outer
 ciam.pl,szczecin.eu###privacy-info
 ciechocinek.biz,gniewkowo.eu,kantor.aliorbank.pl,ki24.info,nizanskie.info###cookies-wrapper
 cinamoon.pl,ministerstworeklamy.pl,ok-kredyt.pl,radiotaxitg.pl,szkoleniapartner.pl###messagePopup
@@ -1188,6 +1189,8 @@ interpolska.pl###onisoftcookie
 intexpc.pl##.rodo-message
 intymna.pl###sb_bottom_float
 investmap.pl##.popup-back, .popup-rodo
+inwestinfo.pl###policyPanel
+inwestinfo.pl,megiw.pl,megiw4garden.pl,megiw4sauna.pl##body > div:not([id]):not([class]) > div[style*="position"][style*="fixed"]:not([id]):not([class])
 ioki.pl,leczna24.pl,lubartow24.pl##.bg-warning
 iom.pl###cooker
 ipkobiznes.pl#?##layout > div > div.svg > div > div:first-child:-abp-contains(cookies)
@@ -1487,7 +1490,6 @@ megasat.tv##.ep-cookies-bar
 megataxi.pl##body > div > div[style*="position"][style*="fixed"]:not([id]):not([class])
 mega-com.eu###footer-information
 mega-kino.pl,skutecznie.tv###dc-cnb-container
-megiw.pl,megiw4garden.pl,megiw4sauna.pl##body > div:not([id]):not([class]) > div[style*="position"][style*="fixed"]:not([id]):not([class])
 meloradio.pl##.cookie-giodo
 memoinfo.pl,pingpong.com.pl##body > div:nth-of-type(6)
 memorialhenrykapuzonia.pl###sc
@@ -3612,6 +3614,7 @@ volcano.pl#@##cookiesModal
 @@/wp-content/plugins/cookie-law-info/public/*$stylesheet
 @@||bitner.com.pl/*/jquery.cookiebar.js
 @@||sdk.privacy-center.org^$domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
+@@||sdk.privacy-center.org^$domain=filmweb.pl
 @@||shinden.pl/*/jquery.cookiebar.js
 !
 !
