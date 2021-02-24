@@ -1,10 +1,3 @@
-
-
-pepper.pl##.overflow--hidden:style(overflow: auto !important;)
-
-leki.pl##.rodo-modal
-leki.pl##[style*="filter"]:style(filter: none !important;)
-
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important;)
@@ -217,6 +210,8 @@ kruger.pl###rodo, .fader
 kruszywapolskie.pl##.sgpb-overflow-hidden, .sgpb-overflow-hidden-body:style(overflow: auto !important; height: auto !important;)
 kruszywapolskie.pl##.sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 lafe.pl##.cinfo:style(padding-bottom: 0 !important;)
+leki.pl##.rodo-modal
+leki.pl##[style*="filter"]:style(filter: none !important;)
 lektury.gov.pl##.cookies-box, .modal-backdrop
 lgd-wieruszow.pl###myModal, .modal-backdrop
 lnk.to,orcd.co,tix.to##.box-shadow.player-container[style]:style(opacity: 1 !important;)
@@ -298,6 +293,8 @@ panoramafirm.pl###modal-rodolayer
 patronite.pl##.modal--container:has-text(RODO)
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important;)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important;)
+pepper.pl##.cookies-message, .popover-cover
+pepper.pl##.overflow--hidden:style(overflow: auto !important;)
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
 pl##aside p > a[href*="cookies.php"], aside p > a[href*="polityka-prywatnosci.htm"]:upward(.type-10.widget:not([id]))
 pl##.alert > a[href*="/polityka-cookies"] ~ a[href*="/polityka"]:upward(.alert)
@@ -452,5 +449,3 @@ ztm.gda.pl###acceptRodo, .modal-backdrop
 !porcelana.com.pl##+js(acis, onload, plików cookies)
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
-pepper.pl##.cookies-message, .popover-cover
-
