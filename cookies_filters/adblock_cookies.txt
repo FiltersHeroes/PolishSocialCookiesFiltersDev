@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.2.23.0
-! Last modified: Tue, 23 Feb 2021, 22:08 UTC+01
+! Version: 2021.2.24.0
+! Last modified: Wed, 24 Feb 2021, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.2.23.0 aktualizacja: wto, 23 lut 2021, 22:08 UTC+01
+! v.2021.2.24.0 aktualizacja: śro, 24 lut 2021, 22:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -108,6 +108,7 @@ agmar.com,akademie.elring.de,altimi.com,bioenergiadlaregionu.eu,cdn.ampproject.o
 ago.pl,askopolska.pl,indigo-nails.com,lodz.pl,mamoo.pl,papercast.pl###banner_cookies_bullshit
 agropolska.pl,archiwalna.miasto.zgierz.pl,czarno-biale.pl,firmymiesne.pl,fototapetyxl.pl,komputerymarkowe.pl,lututowgmina.pl,miastograf.pl,omegasoft.pl,pizza-express.pl,pupbelchatow.pl,samsonite.pl,skm.pkp.pl,smart.com##.ui-widget-overlay
 agropolska.pl,miastograf.pl##.ui-dialog[aria-describedby]
+agrospec.pl,sklep.salvatti.pl,texasclub.pl##.configMessages
 agrozakupy.pl###ms-cookie-policy
 agro-bis.eu,eldom.eu,iletutego.eu,prawniktorun.eu###cookie-alert
 agusto.pl,etroniks.pl,happytime.com.pl,mebags.pl,modne-gniazdka.pl,sprecords.pl,trojmiejska.com,trojmiejskaperfumeria.pl##div[id^="st_notification_"][style*="display"]
@@ -358,6 +359,7 @@ bitmarket24.pl###notifications
 bitmaszyna.pl###wwelcome
 biurowy.sklep.pl##div > a[href$="/polityka-prywatnosci-cookies_s_5.html"] > img
 biurozplusem.pl##.top-left.sticky-queue
+biuro-info.pl##.ins-v-cookie-alert
 biuro-karier.ug.edu.pl,digitmedia.pl,iloveimg.com,konserwatyzm.pl,ksorletaczyzew.klubowo24.pl,szybko.pl,www.ilovepdf.com###toast-container
 bizin.pl###bottom-cookies
 biznesinfo.pl###loadCookiePolicy
@@ -1780,6 +1782,7 @@ otwarte.eu###accept-cookie-box
 outlook.live.com#?#.ms-Layer:-abp-has( > .ms-Layer-content > [role="dialog"] a[href="https://privacy.microsoft.com/privacystatement"])
 owfregata.com###POPUPS_ROOT
 owocowydom.pl,weck.com.pl###popup2
+pacsafe.pl##.demo-box
 paintballmarket.pl###cookies-consent-container
 paker.co.uk###cookie-information
 pakolorente.com###toplayer_styleadvisor
@@ -2164,7 +2167,6 @@ sklep.eltron.pl###communication
 sklep.genos.com.pl###rodoText
 sklep.legia.com###hw_cookie_law
 sklep.macmillan.pl##a > img[src^="/images/banners/cookies_b2"]
-sklep.salvatti.pl##.configMessages__footer.configMessages
 sklep.sizeer.com###js-cookieInfo
 sklep.tonerylublin.pl##.gdpr_holder
 skm.pkp.pl#?#.ui-dialog:-abp-has(#dialog-message-rodo)
@@ -2315,7 +2317,6 @@ testhub.pl##.sh-page-notice
 testigo.pl###cp_wrap
 testujemy.biedronka.pl##.qucki-box
 tewa-sensors.com###cherry-cookie-banner
-texasclub.pl##.configMessages
 thomann.de##.rs-cookie-consent
 thule.com##.cookie-consent-box
 ticketco.events###tcCookiesMessage
@@ -2427,6 +2428,7 @@ warszawa.oei.org.pl###cook-cont
 warszawa.rzgw.gov.pl##.cookies_law
 warsztatywyobrazni.com.pl##body > div[align="center"] > div[style^="text-align"] > div[style^="width"]
 wars.pl###spu-1773, #spu-bg-1773
+wasserman.eu##.ws-cookie-consent
 wayup.pl###rodoMsg
 waze.com##.wz-cc-container
 wczasy.esky.pl##.ftjs-infobar.ftn-infobar
@@ -3281,7 +3283,7 @@ pl##.cookies-eu:not(body):not(html)
 pl##.cookies-footer:not(body):not(html)
 pl##.cookies-info-container:not(body):not(html)
 pl##.cookies-info:not(body):not(html)
-pl##.cookies-message:not(body):not(html)
+pl##.cookies-message:not(body):not(html):not(.overflow--scrollY-raw)
 pl##.cookies-msg:not(body):not(html)
 pl##.cookies-notice:not(body):not(html)
 pl##.cookies-notify:not(body):not(html)
@@ -3598,6 +3600,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 al.to,combat.pl,x-kom.pl#@##app > div:first-child > div
 boomerang-tv.pl#@##onetrust-consent-sdk
 kpcen-torun.edu.pl#@##cookieModal:not(.countryCookieModalContainer):not(.idcac)
+pepper.pl#@#.cookies-message:not(body):not(html)
 pl#@##catapult-cookie-bar
 pl#@#.ccc-widget:not(body):not(html)
 pl#@#.cookie-msg-box
