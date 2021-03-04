@@ -104,7 +104,7 @@ agencjagazeta.pl,panoramafirm.pl,sklep.genos.com.pl###rodoLayer
 agmar.com,akademie.elring.de,altimi.com,bioenergiadlaregionu.eu,cdn.ampproject.org,fantasy.ekstraklasa.org,fibaro.com,fiufiu.co,inwex.eu,opoczno.eu,portal.legnica.eu,superstacja.tv###cookie-info
 ago.pl,askopolska.pl,indigo-nails.com,lodz.pl,mamoo.pl,papercast.pl###banner_cookies_bullshit
 agropolska.pl,archiwalna.miasto.zgierz.pl,czarno-biale.pl,firmymiesne.pl,fototapetyxl.pl,komputerymarkowe.pl,lututowgmina.pl,miastograf.pl,omegasoft.pl,pizza-express.pl,pupbelchatow.pl,samsonite.pl,skm.pkp.pl,smart.com##.ui-widget-overlay
-agropolska.pl,miastograf.pl##.ui-dialog[aria-describedby]
+agropolska.pl,miastograf.pl##.ui-widget.ui-dialog[aria-describedby]
 agrospec.pl,sklep.salvatti.pl,texasclub.pl##.configMessages
 agrozakupy.pl###ms-cookie-policy
 agro-bis.eu,eldom.eu,iletutego.eu,prawniktorun.eu###cookie-alert
@@ -544,7 +544,7 @@ cyberpolicy.nask.pl###gdpr-info
 cybex-online.com##.CookieNote
 cybor-tech.com.pl##.cookie_privacy_info_bar
 cyfrowarepublika.pl,energoekspert.com.pl###system-message
-czarno-biale.pl##.ui-dialog[aria-describedby="rodo-popup"]
+czarno-biale.pl##.ui-widget.ui-dialog[aria-describedby="rodo-popup"]
 czechtourism.com###eu_cookie
 czekoladacortez.pl,eljacht.pl,eurocent.opole.pl,garwolin-starostwo.pl,gniezno24.com,kukko.com,mania4x4.pl,only4music.com,orpeg.pl,proszkow.eu,techniline.com,trafokazje.eu,wrosip.pl,zoosafari.com.pl##.activebar-container
 czescidobmw.pl###container > div[onclick]
@@ -883,7 +883,7 @@ finnair.com##.cookie-consent-wrapper > .consent-popup
 firecash.org,fundacjabos.pl,grupaeurocash.pl,payup.pl,pbg-sa.pl,regionwielkopolska.pl###info
 firefighter-game.pl###ciasteczka2
 firmamazur.pl,mazurcompany.com###cookies-glass
-firmymiesne.pl##[aria-describedby="rodo-dialog"]
+firmymiesne.pl##.ui-widget.ui-dialog[aria-describedby="rodo-dialog"]
 fitbox4you.pl###kopageBar
 fitomento.com##.navbar-inner
 fit-kids.pl,kuriergarwolinski.pl,sopocki-zdroj.pl,waxclinic.pl###rodoInfo
@@ -905,8 +905,8 @@ foreca.pl###ckieconsent
 forma.czest.pl##.cookieMonster
 fors.pl,pks.zary.pl,webelite.pl###infobar
 forumdarczyncow.pl##.cookies-info-bar
-forumdermatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.pl##.ui-dialog[aria-describedby="ajaxDialogrodopopup"]
-forumdermatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.pl.ui-widget-overlay
+forumdermatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.pl##.ui-widget.ui-dialog[aria-describedby="ajaxDialogrodopopup"]
+forumdermatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.pl##.ui-widget-overlay
 forumlekarza.pl###cpolicy_wrap
 forumrowerowe.org##.ckg
 forums.linuxmint.com##.cookiebanner
@@ -1315,7 +1315,8 @@ konskowola.info.pl###privacy_info_overlay
 korepetycje.edu.pl,niania.pl##.cookies_message_bar
 koscian.net##.zgoda_popup
 kosmetyki.fr###nscookie
-koty.pl,psy.pl###infoPopup, .modal-backdrop
+koty.pl,psy.pl###infoPopup
+koty.pl,psy.pl##.modal-backdrop
 kozak.pl###cookie_inf_o
 kprlegionowo.pl###sb-container
 krakowairport.pl##.privacyPolicyPop
@@ -1337,9 +1338,10 @@ ksiaz-wlkp.pl#?##root footer ~ nav:-abp-has( > section > button)
 ksiegaimion.com###eucl-wrapper
 ksiegarnia.iaepan.vot.pl###sp-popup-126
 ksow.pl,wzp.pl###myrodoinfo
-ktomalek.pl##.ui-dialog[aria-describedby="cookies"]
-ktomalek.pl,mycielin.pl##.ui-front.ui-widget-overlay
+ktomalek.pl,lekarzebezkolejki.pl##.ui-widget.ui-dialog[aria-describedby="cookies"] ~ .ui-widget-overlay
+ktomalek.pl,lekarzebezkolejki.pl##.ui-widget.ui-dialog[aria-describedby="cookies"]
 kuchniapelnanagrod.pl##div#claw-prompt
+mycielin.pl##.ui-widget.ui-dialog
 kula.gov.pl,mkidn.gov.pl###pa
 kulki.info###welcome-box
 kulturalnysklep.pl###ctl00_cq_divText
@@ -1378,7 +1380,6 @@ legoland.de##.alertbar
 lego.com###GFSticky
 leier.pl###CookieLeier
 leifheitsklep.pl###cookieConfirmDiv
-lekarzebezkolejki.pl##.ui-widget.ui-dialog[aria-describedby="cookies"], .ui-widget.ui-dialog[aria-describedby="cookies"] ~ .ui-widget-overlay
 lekarz.znanylekarz.pl###footer-baner
 lekkoatletykadlakazdego.pl,personnelsolutions.pl##DIV[style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; opacity: 0.8; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 100001;"]
 lektury.gov.pl##message-box[storage-key="'cookies-accepted'"]
