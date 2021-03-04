@@ -213,6 +213,10 @@ kramp.com##.no-scroll:style(position: static !important; overflow: auto !importa
 kruger.pl###rodo, .fader
 kruszywapolskie.pl##.sgpb-overflow-hidden, .sgpb-overflow-hidden-body:style(overflow: auto !important; height: auto !important;)
 kruszywapolskie.pl##.sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+kupbilecik.pl###btn-cookies
+kupbilecik.pl##.remodal-wrapper:has(.cookie-container)
+kupbilecik.pl,pl.tommy.com##.remodal-is-locked:style(overflow: auto !important;)
+kupbilecik.pl,pl.tommy.com##.remodal-overlay
 lafe.pl##.cinfo:style(padding-bottom: 0 !important;)
 leki.pl##.rodo-modal
 leki.pl##[style*="filter"]:style(filter: none !important;)
@@ -225,6 +229,7 @@ lnk.to,orcd.co,tix.to##.slide-bar-container
 lomza.pl##html > body.polityka-cookies:style(margin-top: 0 !important; background-position: center 120px !important;)
 mago.com###yl-popup-wrapper-popupRodo, #yl-popup-shadow-popupRodo
 makro.pl##.cookie-law-modal
+maxkuchnie.pl##+js(acis, $, initRodoWindow();)
 maxpremiumburgers.pl##.infoBannerGdpr:style(margin-top: 0 !important;)
 mazury24.eu###privModal, .modal-backdrop
 mazury24.eu,odrabiamy.pl##.modal-open:style(position: static !important; overflow: auto !important;)
@@ -308,8 +313,6 @@ pl.kruk.eu##.cookie-agreement
 pl.kruk.eu##.cookie-open:style(position: static !important;)
 pl.tommy.com##div.remodal-wrapper:has(.cookie-notice)
 pl.tommy.com##.cookie-notice:style(visibility: hidden !important;)
-pl.tommy.com##.remodal-is-locked:style(overflow: auto !important;)
-pl.tommy.com##.remodal-overlay
 pl.tripadvisor.com##span[data-test-name="consent"]:upward(1)
 polskikoszyk.pl##body.cookie .layout-right-col:style(padding-top: 25px !important;)
 polskikoszyk.pl##body.cookie .menu-toggle, body.cookie .fixed-actions-mobile:style(top: 12px !important;)
