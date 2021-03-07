@@ -1,5 +1,4 @@
 ~pl##body > div#cookie[class=""]
-pl##div[id^="ck_dsclr"][class*="ck_dsclr"]
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
 ~pl###actionCooki:not(body):not(html):lang(pl)
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
@@ -18,6 +17,7 @@ pl##div#cookiepopupdiv
 pl##div#footer-cookies
 pl##div[class^="app_gdpr"]
 pl##div[class^="pea_cook_wrapper"]
+pl##div[id^="ck_dsclr"][class*="ck_dsclr"]
 pl##div[id^="cookemessage"]
 pl##iframe[class*="Cookie"]
 pl##iframe[class*="cookie"]
