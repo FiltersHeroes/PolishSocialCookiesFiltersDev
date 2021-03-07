@@ -1652,8 +1652,8 @@ news.adidas.com##.cookies-message
 news.google.com##div[style^="behavior:url(#default#homePage) url(#default#userData)"]
 newyorker.de,portal.kartaskup.pl##.cookieBanner
 new.org.pl##div[id^="cookie_popup"]
-new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div[class] > div[class*=" "] > form > div[style^="opacity"], .EUCookieNotice
-new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > style + div > div > form > div[style*="---toaster-indicator-color:#24A0ED;"]
+
+reddit.com###POPUP_CONTAINER ~ div > section > [style*="Toaster"]
 nfz-lodz.pl##.mfp-ready
 nfz-zielonagora.pl###statementWrapper
 nf.pl###rodonf-app-ux
