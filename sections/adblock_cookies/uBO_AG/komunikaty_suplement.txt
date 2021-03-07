@@ -118,7 +118,7 @@ ddz24.eu,konecki24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-l
 delikarta.pl###cookieModal
 dkms.pl##.cc-window-active:style(overflow: auto !important;)
 dkms.pl##.cc-window[aria-label]
-dobrapogoda24.pl##+js(ra, class, body[class="modal-open"])
+dobrapogoda24.pl##+js(ra, class, body[class="modal-open"] stay)
 dobrapogoda24.pl,repostuj.pl###rodo-modal, .modal-backdrop
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
@@ -148,8 +148,10 @@ empik.com##.cookies-accept:remove()
 epicdrama.pl##.ui-modal[id^="modal_cookie"]
 epicdrama.pl,odrabiamy.pl,patronite.pl##.blur:style(filter: none !important;)
 estyc.om##.body-no-scroll:style(position: static !important; overflow: auto !important; padding-right: 0 !important;)
+goldenline.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+goldenline.pl###profiling-agreement, .modal-backdrop
 etsy.com###gdpr-single-choice-overlay
-e-sochaczew.pl,paczkomaty.pl,repostuj.pl,wedkuje.pl##+js(ra, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
+e-sochaczew.pl,paczkomaty.pl,repostuj.pl,wedkuje.pl##+js(ra, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]), stay)
 e-urzad.grodzisk.pl,www.kayak.pl##.cdk-global-scrollblock:style(position: static !important; overlow: auto !important;)
 e-urzad.grodzisk.pl,www.kayak.pl##.cdk-overlay-container
 fabrykacukiernika.pl##.rodo-on:style(overflow: auto !important;)
@@ -249,7 +251,7 @@ mazury24.eu,odrabiamy.pl##.modal-open:style(position: static !important; overflo
 mazury.travel##.popup, .popup-overlay
 media.netflix.com###cookieAlert #mainContent:style(padding-top: 82px !important;)
 media.netflix.com###cookieAlert #mainHeader:style(top: -48px !important;)
-media.netflix.com##+js(ra, id, body[id="cookieAlert"])
+media.netflix.com##+js(ra, id, body[id="cookieAlert"], stay)
 meetup.com###mupFooter:style(padding-bottom: 0 !important;)
 meteoblue.com##.gdpr_message
 meteoblue.com##.scroll_lock:style(overflow: auto !important;)
