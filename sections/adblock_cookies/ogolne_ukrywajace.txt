@@ -11,6 +11,8 @@ org,pl###amp-user-notification1:not(body):not(html)
 pl##aside[class*="Cookie"]
 pl##aside[class*="cookie"]
 pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies_tlo"]:not([id]):not([class])
+pl##body:not(.cli-barmodal-open) #cookie-law-info-again
+pl##body:not(.cli-barmodal-open) #cookie-law-info-bar:not(.cli-bar-popup):not(.cli-modal-content)
 pl##div.cookieKontener
 pl##div#cook
 pl##div#cookiepopupdiv
@@ -277,8 +279,6 @@ pl###cookie-info-container:not(body):not(html)
 pl###cookie-info:not(body):not(html)
 pl###cookie-law-bar:not(body):not(html)
 pl###cookie-law-container:not(body):not(html)
-pl##body:not(.cli-barmodal-open) #cookie-law-info-again
-pl##body:not(.cli-barmodal-open) #cookie-law-info-bar:not(.cli-bar-popup):not(.cli-modal-content)
 pl###cookie-law-message:not(body):not(html)
 pl###cookie-law:not(body):not(html)
 pl###cookie-line:not(body):not(html)
