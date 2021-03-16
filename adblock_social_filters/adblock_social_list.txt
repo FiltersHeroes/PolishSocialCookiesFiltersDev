@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.3.15.0
-! Last modified: Mon, 15 Mar 2021, 14:08 UTC+01
+! Version: 2021.3.16.0
+! Last modified: Tue, 16 Mar 2021, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.3.15.0 aktualizacja: pon, 15 mar 2021, 14:08 UTC+01
+! v.2021.3.16.0 aktualizacja: wto, 16 mar 2021, 22:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -987,7 +987,7 @@ airbnb.pl#?#footer div > ul > li > span > a[target="_blank"]:-abp-has(svg)
 airly.eu##div[class^="social-bar__SocialIcons-"]
 airly.eu##[class^="footer__SocialLinks"]
 airly.eu#?#button[aria-label*="Floating"]:-abp-has([class*="social-bar__StyledShareIcon-"])
-airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,braclowiecka.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,generali.pl,gls-group.eu,gorlice.in,gorlice.tv,grene.pl,grupawsparcia.pl,homedoctor.pl,hrkgame.com,iautomatyka.pl,isl.pl,itaka.pl,jezuici.pl,jhi.pl,kalisz24.info.pl,karnet.krakow.pl,kruszyna.pl,kwantowo.pl,lalorraine.pl,laroche-posay.pl,lexus-krakow.com.pl,limanowa.in,lubelska.tv,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,muzeum.tychy.pl,niepodlegla.gov.pl,nowakonfederacja.pl,pap.pl,pingpong.bydgoszcz.pl,planeta-budowlana.pl,pogonszczecin.pl,rms.pl,rpo.malopolska.pl,sacz.in,sejm.gov.pl,shop.massdnm.com,skgd.pl,sklephonda.pl,tarnowska.tv,tczewska.pl,tipmedia.pl,tvdami.eu,tvobiektyw.pl,tvpogranicze.pl,tvswinoujscie.pl,tw.waw.pl,vidaron.pl,wentylacja24.pl,wiez.pl,winiary.pl,wloclawek.pl,wp.mil.pl,zstiomeritum.edu.pl##.youtube
+airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,braclowiecka.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,generali.pl,gls-group.eu,gorlice.in,gorlice.tv,grene.pl,grupawsparcia.pl,homedoctor.pl,hrkgame.com,iautomatyka.pl,isl.pl,itaka.pl,jezuici.pl,jhi.pl,kalisz24.info.pl,karnet.krakow.pl,kruszyna.pl,kwantowo.pl,lalorraine.pl,laroche-posay.pl,limanowa.in,lubelska.tv,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,muzeum.tychy.pl,niepodlegla.gov.pl,nowakonfederacja.pl,pap.pl,pingpong.bydgoszcz.pl,planeta-budowlana.pl,pogonszczecin.pl,rms.pl,rpo.malopolska.pl,sacz.in,sejm.gov.pl,shop.massdnm.com,skgd.pl,sklephonda.pl,tarnowska.tv,tczewska.pl,tipmedia.pl,tvdami.eu,tvobiektyw.pl,tvpogranicze.pl,tvswinoujscie.pl,tw.waw.pl,vidaron.pl,wentylacja24.pl,wiez.pl,winiary.pl,wloclawek.pl,wp.mil.pl,zstiomeritum.edu.pl##.youtube
 ajgroup-pros.pl##.SocialBoard
 ajk-opakowania.eu###fbIcon
 ajprodukty.pl##.footer_social-container
@@ -2921,6 +2921,8 @@ guzik.konin.pl##a[href="https://pl-pl.facebook.com/GUZIK.systemy.informatyczne/"
 guzik.konin.pl##.widget_text.social.widget-bottom.uk-panel-box.uk-panel
 gwarek.com.pl##a > div.face
 gymeltoro.pl##.bean-social1
+gyncentrum.pl###footer-about > .text-right .logo-hover
+gyncentrum.pl###goto-facebook
 hacienda.pl,koscierzyna24.info##.social > li:nth-of-type(-n+3)
 hackintosh.com.pl###sidebar > div.syndicate.sidebar-content:nth-of-type(5) > h4
 hack.pl,przesylarka.pl,repozytorium.fn.org.pl,spoleczenstwo.plportal.pl###block-block-11
@@ -3051,6 +3053,7 @@ icomfort.pl##.footer-1 > .upper > .container > .row > .col-md-2
 idcgames.com##.home-rrss, .rrss-footer
 ideabank.pl##.footer .col-md-5 > .title
 ideabank.pl##.footer > div.row:nth-of-type(1) > .columns.medium-10.large-10 > ul > li
+idealnewakacje.pl##a.mobile-menu-item[href*="facebook.com/"]
 idel.pl###footer .links
 idg.pl##ul:nth-of-type(2) > li, .footer_social_links > ul
 idg.pl,zoom.idg.com.pl##.social_con
@@ -3661,7 +3664,8 @@ lesniow.pl##.socialTabs-tab--facebook
 lessmess.storage##.widget-twitter.slideout-widget, .widget-gplus-2.slideout-widget, .widget-facebook-2.slideout-widget
 letni.net##.oceanwp-social-menu
 lewica2019.pl##.moduletable_sc
-lexus-lodz.pl##a .fa-twitter
+lexus-katowice.pl,lexus-krakow.com.pl,lexus-leszno.pl,lexus-lodz.pl,lexus-poznan.pl,lexus-szczecin.pl,lexus-trojmiasto.pl,lexus-warszawaradosc.pl,lexus-wroclaw.pl,lexuskrakow-zakopianska.pl,lexuswarszawa-pulawska.pl,lexuswarszawa-wola.pl,lexuswarszawa-zeran.pl##a[class*="TopSegment"][href*=".com/"][target]
+lexus-polska.pl##.c-social-networks__list
 lex.pl##.contact-section-block-3
 leyraa.blogspot.com###HTML2 center > a:nth-of-type(n+2):nth-of-type(-n+7):not([href*="maxmodels.pl"]) > img
 lfspareparts724.pl##.footer-sitemap > .row > div.col-lg-3:nth-of-type(4)
@@ -5710,6 +5714,7 @@ spidersweb.pl##footer .row > div.columns:nth-of-type(3)
 spidersweb.pl##.row > .columns.large-offset-1.large-11 > .margin-bottom35.single-about > .row > .show-for-large.columns.large-7 > .text-right.display-table.single-interactions > .display-table-cell > span:nth-child(n+2):nth-child(-n+3)
 spidersweb.pl##.social-media-frame
 spiewnik.wywrota.pl##.footer > .container > .row > div:nth-of-type(4) > .btn
+spis.gov.pl###footer-widgets > section:nth-child(2) a
 splendear.com##.bottom-footer div.col-6.col-md-4:nth-of-type(2)
 splot.info##.socials_widget_wrapper
 spodlady.com##.header-fb
