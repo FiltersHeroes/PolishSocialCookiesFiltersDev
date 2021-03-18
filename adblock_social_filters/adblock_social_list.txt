@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.3.16.0
-! Last modified: Tue, 16 Mar 2021, 22:08 UTC+01
+! Version: 2021.3.18.0
+! Last modified: Thu, 18 Mar 2021, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.3.16.0 aktualizacja: wto, 16 mar 2021, 22:08 UTC+01
+! v.2021.3.18.0 aktualizacja: czw, 18 mar 2021, 18:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -453,8 +453,6 @@ pl###wysZakladki > #fb
 pl###wysZakladki > #gp
 pl###wysZakladki > #in
 pl###wysZakladki > #pinte
-pl###wysZakladki > #tw
-pl###wysZakladki > #yt
 pl###wysuwaneFB
 pl###wysuwane iframe[src*="facebook.com"]
 pl###wysuwane_fb
@@ -1844,7 +1842,6 @@ creaton.pl,siniat.pl##.footer-content__social
 creaweb.pl###fb_all
 creepycorn.pl##p > a[href="https://www.facebook.com/sklepcreepycorn"]
 creepycorn.pl,domkorkowy.com,holender.info,ledco.pl,modini.pl,sklepdlalekarza.com,swiat-whisky.sklep.pl,unikatoweprezenty.pl,zabawkiprogresywne.pl,zbiornikinadeszczowke.com###fblike-box
-crmodus.pl##.kac-sm-youtube
 crn.pl##a.social-top-header:not(:nth-of-type(4))
 croatia.hr##.social-media-links--platforms > li:nth-of-type(-n+7)
 crolove.pl###blue-box
@@ -3694,6 +3691,7 @@ limango.pl##.lilayout-footer-column-social
 limpol.com##.messengerchat
 lincoln.edu.pl,ustron.pl##a > .mdi-facebook.mdi
 lincoln.edu.pl,warka24.pl##.top-facebook
+linux-magazine.pl##.link-footer-fb
 lionteam.pl##.do-topbar-content-right > ul > li > a
 lipinscy.pl###facebook_zone
 lispol.com##.facebookDV
@@ -4251,7 +4249,6 @@ narzedzia24na7.pl##footer li > [href^="https://www.facebook.com/Narz%C4%99dzia24
 narzedziaokazje.pl##.navbar-nav > li.nav-item:nth-of-type(n+4):nth-of-type(-n+6)
 narzedzia-profesjonalne.com.pl##img[src="/userdata/banners/5.png"]
 narzedzia.pl##div.footeritem:nth-of-type(6) > h4
-nasienna.pl,wiktormeble.pl##.sm-panel .sm-youtube
 nask.pl##.footer-container__right_icons > li:nth-of-type(n+1):nth-of-type(-n+4)
 nastopy.pl##.leftSlide > .fb-wrap
 nasza9.com##.kontakt-right
@@ -5922,7 +5919,6 @@ tago.com.pl##.float-social
 tajemnice-swiata.pl##a[href="https://www.facebook.com/Tajemnice-%C5%9Awiata-1655637548024566/"]
 tajfuny.pl#?#.elementor-widget-heading.elementor-widget > .elementor-widget-container > .elementor-heading-title:-abp-contains(Odwiedź naszego Instagrama)
 tajlex.pl###foot_4
-takaposciel.pl##.sm-panel .sm-fb
 takemehome.pl##.widget_underwood-pro-social-media
 tally-weijl.com##.fr-social-media-block
 tamron.eu###c7886, #c26665, footer div.col-sm-4:nth-of-type(3) > p
@@ -5977,7 +5973,6 @@ teleprank.pl##section.PageFooter-section:nth-of-type(2) > .PageFooter-title
 telerozrywka.pl##.s1.sidebar > .sidebar-content > .group.sidebar-top
 telewizjaleszno.pl##.vlog-actions-social-list.vlog-soc-menu
 telewizjarepublika.pl###menu-top > ul > li:nth-of-type(6), .mainpage-row:nth-of-type(9) > .mainpage-column-right > .bar
-telewizjarepublika.pl##.sm-panel .sm-twitter
 telewizjatvt.pl###menu-item-117, #menu-item-118, .ft_sc0.col-sm-4.col-md-15
 telewizja.us.edu.pl###bottom-content > #widgets
 telko.in##ul > li > .tip[data-tip="TELKO.in na Twiterze"], .social li:nth-of-type(2)
@@ -6059,6 +6054,7 @@ toptun.pl###YouTube
 top-growshop.pl##.social_icon_top
 top-potential.pl##.et_pb_social_media_follow_0, .et_pb_text_4
 torebunia.pl##.fb-login-button
+toreja.pl##a[id^="link"][href*=".com/"][target]
 tormet.com.pl###fb_plugin
 tortytorty.pl###top-menu > li:nth-of-type(n+5), #contact > .content > p:nth-of-type(4), .like-facebook
 tosieoplaca.pl##.et_section_regular.et_pb_section_6.et_pb_section
@@ -6267,7 +6263,6 @@ uslugiekosystemow.pl###text-5 .widget-title
 uslugistolarskie.eu##.uk-navbar-right > ul > li:nth-of-type(1)
 ustawlige.com###menu-item-91
 ustka.travel##.top-nav .href_icon
-ustron.pl##a > .mdi-instagram.mdi
 ustron.pl##a > .mdi-youtube-play.mdi
 ustyle.pl##.instagram_strgl
 uti.pl##a[href="https://www.facebook.com/utipl/"], .elementor-widget-heading.elementor-widget.elementor-element-huayyaq.elementor-element
