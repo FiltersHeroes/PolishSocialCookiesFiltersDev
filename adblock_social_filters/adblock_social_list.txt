@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.3.19.0
-! Last modified: Fri, 19 Mar 2021, 14:08 UTC+01
+! Version: 2021.3.20.0
+! Last modified: Sat, 20 Mar 2021, 14:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.3.19.0 aktualizacja: pią, 19 mar 2021, 14:08 UTC+01
+! v.2021.3.20.0 aktualizacja: sob, 20 mar 2021, 14:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -834,6 +834,7 @@ pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_like
 !
 !
 ! Specyficzne reguły ukrywające
+#@ >>>>>>>> https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt + specyficzne_ukrywajace.txt
 ~pl##.sm-panel .sm-messenger:lang(pl)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 2plus3d.pl###menuItem_facebook
@@ -6779,6 +6780,7 @@ z-hotel.com###menu-item-868
 !www.youtube.com#?#.iv-promo-collapsed.iv-promo.annotation-type-custom.annotation:-abp-contains(Polub nas na Facebooku)
 ! partyflowers.pl##.astra-widget-social-profiles
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
+#@ <<<<<<<< https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt + specyficzne_ukrywajace.txt
 !
 !
 ! Specyficzne reguły blokujące
