@@ -77,9 +77,7 @@ powitanie=$(shuf -n 1 ./scripts/wiadomosci_powitalne.txt)
 # Wysyłanie PR do upstream
 if [ "$CI" = "true" ]; then
 echo "Wysyłanie PR..."
-hub pull-request -b MajkiIT:master -m "Update $lista ($today_date)
-
-$powitanie"
+gh pr create -B MajkiIT:master --title "Update $lista ($today_date)" --body "$powitanie"
 cd ..
 git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
 cd ./PolishAnnoyanceFilters || exit
@@ -95,9 +93,7 @@ select yn in "Tak" "Nie"; do
         Tak )
         printf "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): "
         read -r roz_opis
-        hub pull-request -m "Update $lista ($today_date)
-
-        ${roz_opis}"
+        gh pr create --title "Update $lista ($today_date)" --body "${roz_opis}"
         cd ../PolishAnnoyanceFilters || exit
         if [ "$cookies" ]; then
             FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
