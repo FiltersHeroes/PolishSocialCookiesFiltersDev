@@ -2,7 +2,7 @@ igomedia.pl##.footer ul.links-list:nth-of-type(1)
 radioem.pl##.sIcons
 polandia.nl##.aXenSocialMedia
 polandia.nl##a[data-mfb-label="Facebook"]
-polandia.nl##.mfb-component__list li a[data-mfb-label="Facebook"]:upward(li):remove()
+
 polandia.nl#?#li.ipsWidget_vertical:-abp-has(iframe[src*="facebook.com/"])
 jagiellonski.pl##.social
 czarodziejewspomnien.pl###fount_top_floater
@@ -55,16 +55,6 @@ fashyas.com##footer .list-inline
 czasnabuty.pl##.contact_phone2
 czasnabuty.pl###commercial_button2
 
-edostawcze.pl##.popmake-overlay.pum-overlay.pum
-edostawcze.pl###openContactPopup
-vivo-shopping.com##.site-newsletter__content
-fashyas.com##footer div:nth-of-type(3)
-hihome.pl###fount_to_top
-agroperfekt.pl##.gotoup
-czasnabuty.pl#?##tws_i_0:-abp-has(#toplayer_newsletter_popup)
-czasnabuty.pl###edrone--main--wl--container
-czasnabuty.pl##+js(set, cnbtitle_ch, false)
-polsero.pl##.btn-up
 
 bielecki-maszyny.pl###footer a[href="https://www.facebook.com/BieleckiMaszyny/"]
 butyraj.pl##a[title="Facebook"]
@@ -1355,8 +1345,8 @@ drohiczyn.info###footer > ul > li:not(:first-child)
 dronexpert.eu###wysZakladki
 dron.pl##.widget-area-7, .widget-area-8, .widget-area-9
 drtusz.pl##.infoBoxContents a[href*=".com/"] > img[src*="ikony"]
-drtusz.pl#?#.infoBoxContents tr:has( > td > a[href*=".com/"][target])
-drtusz.pl#?#.infoBoxContents tr:has( > td > a[href*=".com/"][target]) + tr
+drtusz.pl#?#.infoBoxContents tr:-abp-has( > td > a[href*=".com/"][target])
+drtusz.pl#?#.infoBoxContents tr:-abp-has( > td > a[href*=".com/"][target]) + tr
 druczki.eu,sklep.maszynykrawieckie.eu###social a:not([href*="/newsletter/"])
 drukcyfrowygamma.pl##.partners > div
 drweb-av.pl##.TAIL-social > div > h3, .TAIL-social > div > p > a
