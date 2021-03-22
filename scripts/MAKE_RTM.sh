@@ -76,7 +76,7 @@ powitanie=$(shuf -n 1 ./scripts/wiadomosci_powitalne.txt)
 if [ "$CI" = "true" ]; then
 git clean -xdf
 echo "Wysyłanie PR..."
-gh pr create -B master -H RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$powitanie"
+gh pr create -B master -H hawkeye116477:RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$powitanie"
 cd ..
     if [ "$CIRCLECI" = "true" ]; then
         git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
