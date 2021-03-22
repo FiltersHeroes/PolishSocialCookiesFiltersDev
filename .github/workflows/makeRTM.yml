@@ -1,0 +1,16 @@
+name: Publikowanie wersji RTM
+
+on:
+    workflow_dispatch:
+
+jobs:
+    Aktualizacja:
+        runs-on: ubuntu-latest
+        container: polishfiltersteam/rtm_image:latest
+        steps:
+            - uses: actions/checkout@v2
+            - env:
+                GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+                GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: |
+                  ./scripts/MAKE_RTM.sh
