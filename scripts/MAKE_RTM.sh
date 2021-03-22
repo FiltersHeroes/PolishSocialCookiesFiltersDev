@@ -74,8 +74,9 @@ today_date=$(date +"%Y%m%d")
 powitanie=$(shuf -n 1 ./scripts/wiadomosci_powitalne.txt)
 # Wysyłanie PR do upstream
 if [ "$CI" = "true" ]; then
+git clean -xdf
 echo "Wysyłanie PR..."
-gh pr create -B master -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$powitanie"
+gh pr create -B master -H RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$powitanie"
 cd ..
     if [ "$CIRCLECI" = "true" ]; then
         git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
@@ -95,7 +96,7 @@ select yn in "Tak" "Nie"; do
         Tak )
         printf "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): "
         read -r roz_opis
-        gh pr create -B master -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "${roz_opis}"
+        gh pr create -B master -H RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "${roz_opis}"
         cd ../PolishAnnoyanceFilters || exit
         if [ "$cookies" ]; then
             FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
