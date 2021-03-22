@@ -14,7 +14,11 @@ fi
 cd ..
 
 if [ "$CI" = "true" ]; then
-    git clone -b RTM --single-branch git@github.com:hawkeye116477/polish-ads-filter.git
+    if [ "$CIRCLECI" = "true" ]; then
+        git clone -b RTM --single-branch git@github.com:hawkeye116477/polish-ads-filter.git
+    else
+        git clone -b RTM --single-branch https://github.com/hawkeye116477/polish-ads-filter.git
+    fi
 fi
 
 cp -r ./"$PSCD"/sections/ ./polish-ads-filter/
@@ -79,7 +83,11 @@ if [ "$CI" = "true" ]; then
 echo "Wysyłanie PR..."
 gh pr create -B master -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$powitanie"
 cd ..
-git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
+if [ "$CIRCLECI" = "true" ]; then
+    git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
+else
+    git clone https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters.git
+fi
 cd ./PolishAnnoyanceFilters || exit
 if [ "$cookies" ]; then
     FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
