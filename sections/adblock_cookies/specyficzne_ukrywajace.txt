@@ -90,7 +90,7 @@ agmar.com,akademie.elring.de,altimi.com,bioenergiadlaregionu.eu,cdn.ampproject.o
 ago.pl,askopolska.pl,indigo-nails.com,lodz.pl,mamoo.pl,papercast.pl###banner_cookies_bullshit
 agropolska.pl,archiwalna.miasto.zgierz.pl,czarno-biale.pl,firmymiesne.pl,forumdermatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,fototapetyxl.pl,komputerymarkowe.pl,lututowgmina.pl,miastograf.pl,omegasoft.pl,pizza-express.pl,psychiatria.pl,pupbelchatow.pl,samsonite.pl,skm.pkp.pl,smart.com##.ui-widget-overlay
 agropolska.pl,miastograf.pl##.ui-widget.ui-dialog[aria-describedby]
-agrospec.pl,sklep.salvatti.pl,texasclub.pl##.configMessages
+agrospec.pl,sklep.salvatti.pl,texasclub.pl#?#.configMessages:-abp-contains(/(cookies?|ciasteczka|rodo|gdpr)/i)
 agrozakupy.pl###ms-cookie-policy
 agro-bis.eu,eldom.eu,iletutego.eu,prawniktorun.eu###cookie-alert
 agro-mig.pl#?#.popup:-abp-has(a[href*="40"]:-abp-contains(Polityce prywatności))
@@ -747,7 +747,7 @@ ekspertbudowlany.pl,elektro.info.pl,izolacje.com.pl##.zgody-popup
 ekstraklasatrolls.pl##.cookie-header
 ekstraklasa.org###cookiesPolicy
 ekstraklasa.tv##div[class^="components-CookieNotice"]
-elabrick24.pl,haczykowo.pl,kopalniasrebra.com,kran.tychy.pl,sklep.kotrak.com,sklep.miodyapis.pl#?#.configMessages__footer.configMessages:-abp-contains(/(cookies?|ciasteczka|rodo|gdpr)/i)
+elabrick24.pl,haczykowo.pl,kopalniasrebra.com,kran.tychy.pl,sklep.kotrak.com,sklep.miodyapis.pl#?#.configMessages:-abp-contains(/(cookies?|ciasteczka|rodo|gdpr)/i)
 elauber.pl#?#.notifications-wrapper ~ div > div:-abp-has( > div > span ~ a[href="/cookies_policy"])
 elcavo.eu###wcookie_info
 elearning-fusion.pl#?#.hustle-slidein-position--south:-abp-has(a[href*="/polityka-cookies/"])
@@ -1908,7 +1908,7 @@ pkn.net.pl##.lity-inline.lity-opened.lity
 pkobp.pl,pkopte.pl,pkotfi.pl###pko-cookie-rodo, .pko-cookie-rodo, .cookie-rodo, .rodo-not-small-modal
 pksn.pl##.policy_popup
 pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.aPad
-pk.zem.com.pl,solarispobierowo.pl,toreja.pl##.live.oxy-modal-backdrop .ct-modal
+pk.zem.com.pl,solarispobierowo.pl,toreja.pl#?#.live.oxy-modal-backdrop .ct-modal:-abp-has(a[href="/polityka-prywatnosci/"])
 placowka.znanylekarz.pl##.footer-container-wrapper #footer-baner[style*="fixed"]
 platanhouse.com.pl,radiogdansk.pl,radioram.pl,radiowroclaw.pl,ticketclub.pl###rodoModal:not([style*="padding-right"])
 platan.pl###dialog1
@@ -1981,7 +1981,7 @@ polnord.pl###polCookieInfo
 polona.pl##cbn-cookies
 poloniagrecka.eu###cookieMessageOuter
 polonika.at,tominet.com.pl#?#table:-abp-has(#cookieMessageText)
-polsero.pl###menusDiv
+polsero.pl###menusDiv[style*="block"]
 polska-szkola.pl###activebar-container
 polskicaravaning.pl###myModalpol
 polskijubiler.pl##body > div:nth-of-type(1)[style="width: 90%; margin: 0 auto;"]
@@ -2010,7 +2010,7 @@ powiatgizycki.pl###spu-42611, #spu-bg-42611
 powiatkamienski.pl###infocookie
 powiatmyszkowski.pl##div[data-s^="cookies"]
 powiatnowotomyski.giportal.pl##.modal.ember-view
-powiat-gniezno.pl##body > #menusDiv
+powiat-gniezno.pl###menusDiv[style*="block"]
 powiat-miedzyrzecki.pl,word.waw.pl,wrota.lubuskie.pl###eKPC_Container
 powiat.elk.pl,sp.lubawa.pl#?#body > div:not([id]):not([class]):-abp-has(.nyroModalBg ~ .nyroModalCont)
 poxilina.com.pl###capa
@@ -2205,7 +2205,7 @@ selgros.pl###cookie_simple_overlay
 sellero.pl##.minimididesign-cookies
 selsey.pl##.cookie_alert_selsey
 semex.pl,zmkowalczyk.pl###r-overlay
-semhub.pl#?#.ct-modal:-abp-has(a[href="/polityka-prywatnosci/"])
+semhub.pl#?#.live.oxy-modal-backdrop .ct-modal:-abp-has(a[href="/polityka-prywatnosci/"])
 sempire.pl##.bottom-bar
 sempreinfo.pl###ccm-cookiesDisclosure
 semurai.pl##.proofly-cookie-notification-wrapper
@@ -2252,13 +2252,13 @@ sklep-domwhisky.pl###rodo-modal-all
 sklep-tosia.eu##.cookie-center
 sklep.audiopunkt.com.pl,talbud.pl,termgaz.pl###cook_woyt
 sklep.bialyklasztor.pl###growls
-sklep.budowniczy.com.pl#?#div.configMessages__footer.configMessages:-abp-contains(/(cookies?|ciasteczka|rodo|gdpr)/i)
+sklep.budowniczy.com.pl#?#.configMessages:-abp-contains(/(cookies?|ciasteczka|rodo|gdpr)/i)
 sklep.carrefour.pl##.components-cookie-law-basic
 sklep.eltron.pl###communication
 sklep.genos.com.pl###rodoText
 sklep.legia.com###hw_cookie_law
 sklep.macmillan.pl##a > img[src^="/images/banners/cookies_b2"]
-sklep.phalanxgames.pl,sklep.stalco.pl##.footer.config-messages
+sklep.phalanxgames.pl,sklep.stalco.pl#?#.footer.config-messages:-abp-contains(/(cookies?|ciasteczka|rodo|gdpr)/i)
 sklep.regalia.eu###iqitpopup
 sklep.regalia.eu###iqitpopup-overlay
 sklep.sizeer.com###js-cookieInfo
@@ -2288,8 +2288,8 @@ snapchat.com###cookiePopupContainer
 snt.pl###sntc-close
 socialwifi.com##.cookielaw-banner
 softpedia.com###cookienotif
-solarispobierowo.pl##.live.oxy-not-closable.bottom_left.oxy-modal-backdrop > .ct-modal
-solarisvilla.pl,vivalamer.pl##.oxy-not-closable.bottom_left.oxy-modal-backdrop
+solarispobierowo.pl#?#.live.oxy-modal-backdrop .ct-modal:-abp-has(a[href="/polityka-prywatnosci/"])
+solarisvilla.pl,vivalamer.pl#?#.live.oxy-modal-backdrop .ct-modal:-abp-has(a[href="/polityka-prywatnosci/"])
 solartime.pl###sticky-notify
 solidarni2010.pl##div#kom
 solidarnosckatowice.pl##body > div:not([id]):not([class]) > div[style^="position: absolute;"]
