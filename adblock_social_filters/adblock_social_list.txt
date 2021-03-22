@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.3.22.1
-! Last modified: Mon, 22 Mar 2021, 18:08 UTC+01
+! Version: 2021.3.22.2
+! Last modified: Mon, 22 Mar 2021, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.3.22.1 aktualizacja: pon, 22 mar 2021, 18:08 UTC+01
+! v.2021.3.22.2 aktualizacja: pon, 22 mar 2021, 22:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -95,6 +95,7 @@ sklepikdzieciecy.pl###oknoPopUp, #tloPopUp
 sledczy24.pl##.spu-bg, .spu-total-1
 spozywo.pl##.facebook-overlay
 taktutanio.pl###tloPopUp, #oknoPopUp
+technologzywnosciradzi.pl##.pum-overlay[data-popmake*='"slug":"facebook"']
 topnaj.pl###dgd_scrollbox-2656
 travelicious.pl##.flpl-front-locker-outerwarp
 tvkrosno.pl###efbl_popup
