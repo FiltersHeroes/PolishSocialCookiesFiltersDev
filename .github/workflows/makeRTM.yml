@@ -2,6 +2,9 @@ name: Publikowanie wersji RTM
 
 on:
     workflow_dispatch:
+    push:
+        tags:
+        - '*'
 
 jobs:
     Aktualizacja:
