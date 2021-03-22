@@ -11,6 +11,6 @@ jobs:
             - uses: actions/checkout@v2
             - env:
                 GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
-                GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                GH_TOKEN: ${{ secrets.PR_TOKEN }}
               run: |
                   ./scripts/MAKE_RTM.sh
