@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.3.22.0
-! Last modified: Mon, 22 Mar 2021, 14:08 UTC+01
+! Version: 2021.3.22.1
+! Last modified: Mon, 22 Mar 2021, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.3.22.0 aktualizacja: pon, 22 mar 2021, 14:08 UTC+01
+! v.2021.3.22.1 aktualizacja: pon, 22 mar 2021, 18:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -834,7 +834,6 @@ pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_like
 !
 !
 ! Specyficzne reguły ukrywające
-#@ >>>>>>>> https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt + specyficzne_ukrywajace.txt
 ~pl##.sm-panel .sm-messenger:lang(pl)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 2plus3d.pl###menuItem_facebook
@@ -1818,7 +1817,7 @@ comparic.pl#?#.g-single:-abp-contains(Dołącz do naszej grupy)
 compensa.pl##.footer div.footer__members-item:nth-of-type(n+6):nth-of-type(-n+7), .footer-container > .container-fluid > .row > div.col-xs-12:nth-of-type(3)
 computerworld.pl##.navbar-right.nav > li.nav-item:nth-of-type(n+2):nth-of-type(-n+5)
 computer-alliance.pl##a[href="https://www.facebook.com/computer.alliance.ltd/"]
-comtv.pl,dell24.pl,dlabydgoszczy.pl,katowicetv.eu,mediasystem-tdi.pl,nieprzegap.com,polskanamorzu.pl###musli
+comtv.pl,dell24.pl,dlabydgoszczy.pl,katowicetv.eu,mediasystem-tdi.pl,nieprzegap.com,oferta.turystyka.pl,polskanamorzu.pl###musli
 com.web.silcare.com###ue + div.limpad.toppad.w3-row:nth-of-type(8) > div > p
 concordiaubezpieczenia.pl##a[href="//www.facebook.com/ConcordiaUbezpieczenia/"]
 concordiaubezpieczenia.pl##.sm_widget
@@ -4713,6 +4712,7 @@ perkoz.com.pl##div:nth-of-type(2) h1.footer-title-rk:nth-of-type(2)
 perkoz.com.pl###footer .list-topbar
 perwoll.pl#?#.component-meta-tiles > .row > ul > li:nth-of-type(1):-abp-contains(Instagramie)
 peryskop.studio##a[href="https://www.facebook.com/peryskop.gdansk/"][id], a[href="https://instagram.com/peryskop.studio/"][id]
+petner.com.pl##.btShareColumn
 petner.com.pl###footer-container section .bt_bb_shape_circle.bt_bb_icon
 petycjeonline.com###left_vertical_ad
 petycjeonline.com##.col-md-6:nth-of-type(2)
@@ -5847,6 +5847,7 @@ stokrotka.pl###Media_społecznościowe
 stolicazdrowia.pl##.mh_magazine_facebook_page
 stopnadwadze.pl###bottom-bar
 stoprocent.com###social-sticky
+store.steampowered.com##a[onclick^="ShowShareDialog"]
 storytel.com###footerComponent > div > div:nth-of-type(2), a[href="https://www.facebook.com/storytelPL"], a[href="https://instagram.com/storytel.pl"]
 stowarzyszenie-impuls.eu##a[href^="https://www.facebook.com/Impuls-stowarzyszenie-promocji-kultury"] > img
 stozekwisla.pl##.col-xs-12.col-sm-7
@@ -6840,7 +6841,6 @@ z-hotel.com###menu-item-868
 !www.youtube.com#?#.iv-promo-collapsed.iv-promo.annotation-type-custom.annotation:-abp-contains(Polub nas na Facebooku)
 ! partyflowers.pl##.astra-widget-social-profiles
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
-#@ <<<<<<<< https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt + specyficzne_ukrywajace.txt
 !
 !
 ! Specyficzne reguły blokujące
