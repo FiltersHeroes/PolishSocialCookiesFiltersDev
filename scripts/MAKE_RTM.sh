@@ -1,15 +1,9 @@
 #!/bin/bash
 
-# Sciezka to miejsce, w którym znajduje się skrypt
-sciezka=$(dirname "$0")
+SCRIPT_PATH=$(dirname "$(realpath -s "$0")")
+MAIN_PATH=$(git -C "$SCRIPT_PATH" rev-parse --show-toplevel)
 
-cd "$sciezka/".. || exit
-
-if [ "$CI" = "true" ]; then
-    PSCD=project
-else
-    PSCD=PolishSocialCookiesFiltersDev
-fi
+cd "$MAIN_PATH" || exit
 
 cd ..
 
@@ -21,12 +15,12 @@ if [ "$CI" = "true" ]; then
     fi
 fi
 
-cp -r ./"$PSCD"/sections/ ./polish-ads-filter/
-cp -r ./"$PSCD"/templates/ ./polish-ads-filter/
-cp -r ./"$PSCD"/scripts/VICHS.sh ./polish-ads-filter/scripts/
-cp -r ./"$PSCD"/scripts/VICHS_upstream.config ./polish-ads-filter/scripts/
-cp -r ./"$PSCD"/scripts/FOP.py ./polish-ads-filter/scripts/
-cp -r ./"$PSCD"/scripts/wiadomosci_powitalne.txt ./polish-ads-filter/scripts/
+cp -r "$MAIN_PATH"/sections/ ./polish-ads-filter/
+cp -r "$MAIN_PATH"/templates/ ./polish-ads-filter/
+cp -r "$MAIN_PATH"/scripts/VICHS.sh ./polish-ads-filter/scripts/
+cp -r "$MAIN_PATH"/scripts/VICHS_upstream.config ./polish-ads-filter/scripts/
+cp -r "$MAIN_PATH"/scripts/FOP.py ./polish-ads-filter/scripts/
+cp -r "$MAIN_PATH"/scripts/wiadomosci_powitalne.txt ./polish-ads-filter/scripts/
 mv ./polish-ads-filter/scripts/VICHS_upstream.config ./polish-ads-filter/scripts/VICHS.config
 
 cd ./polish-ads-filter || exit
@@ -83,11 +77,11 @@ if [ "$CI" = "true" ]; then
 echo "Wysyłanie PR..."
 gh pr create -B master -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$powitanie"
 cd ..
-if [ "$CIRCLECI" = "true" ]; then
-    git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
-else
-    git clone https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters.git
-fi
+    if [ "$CIRCLECI" = "true" ]; then
+        git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
+    else
+        git clone https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters.git
+    fi
 cd ./PolishAnnoyanceFilters || exit
 if [ "$cookies" ]; then
     FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
