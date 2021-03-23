@@ -3,9 +3,7 @@
 SCRIPT_PATH=$(dirname "$(realpath -s "$0")")
 MAIN_PATH=$(git -C "$SCRIPT_PATH" rev-parse --show-toplevel)
 
-cd "$MAIN_PATH" || exit
-
-cd ..
+cd "$MAIN_PATH"/.. || exit
 
 if [ "$CI" = "true" ]; then
     if [ "$CIRCLECI" = "true" ]; then
@@ -25,17 +23,22 @@ mv ./polish-ads-filter/scripts/VICHS_upstream.config ./polish-ads-filter/scripts
 
 cd ./polish-ads-filter || exit
 
-RTM="true" ./scripts/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
+V_CHANGED_FILES_FILE="$MAIN_PATH"/../polish-ads-filter/V_CHANGED_FILES.txt
+if [ -f "$V_CHANGED_FILES_FILE" ]; then
+    rm -rf "$V_CHANGED_FILES_FILE"
+fi
 
-ost_plik=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
+RTM="true" SAVE_CHANGED_FN="true" ./scripts/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
+
+V_CHANGED_FILES=$(cat "$V_CHANGED_FILES_FILE")
 
 function search() {
-    echo "$ost_plik" | grep "$1"
+    echo "$V_CHANGED_FILES" | grep "$1"
 }
 
 function addListToVarIfAnotherListUpdated() {
     if [[ -z $(search "$1") ]] && [[ -n $(search "$2") ]]; then
-        if ! grep -q "$1" <<< "${MAIN_FILTERLIST[*]}"; then
+        if ! grep -q "$1" <<<"${MAIN_FILTERLIST[*]}"; then
             MAIN_FILTERLIST+=("$1")
         fi
     fi
@@ -52,15 +55,15 @@ if [ "${MAIN_FILTERLIST[*]}" ]; then
     RTM="true" FORCED="true" ./scripts/VICHS.sh "${MAIN_FILTERLIST[@]}"
 fi
 
-for k in $ost_plik; do
+for k in $V_CHANGED_FILES; do
     if [[ "$k" == "adblock_social_filters/adblock_social_list.txt"* ]] || [[ "$k" == "adblock_social_filters/social_filters_uB_AG.txt"* ]]; then
-        if [[ "$lista" != *" 👍🏻"* ]] ;then
+        if [[ "$lista" != *" 👍🏻"* ]]; then
             lista+=" "👍🏻
         fi
     fi
 
     if [[ "$k" == "cookies_filters/adblock_cookies.txt"* ]] || [[ "$k" == "cookies_filters/cookies_uB_AG.txt"* ]]; then
-        if [[ "$lista" != *" 🍪"* ]] ;then
+        if [[ "$lista" != *" 🍪"* ]]; then
             lista+=" "🍪
         fi
     fi
@@ -71,40 +74,41 @@ if [[ "$lista" == *" 🍪"* ]] && [[ "$lista" == *" 👍🏻"* ]]; then
 fi
 
 today_date=$(date +"%Y%m%d")
-powitanie=$(shuf -n 1 ./scripts/wiadomosci_powitalne.txt)
+#powitanie=$(shuf -n 1 ./scripts/wiadomosci_powitalne.txt)
 # Wysyłanie PR do upstream
 if [ "$CI" = "true" ]; then
-git clean -xdf
-echo "Wysyłanie PR..."
-gh pr create -B master -H hawkeye116477:RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$powitanie"
-cd ..
+    git clean -xdf
+    echo "Wysyłanie PR..."
+    gh pr create -B master -H hawkeye116477:RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$RTM_PR_MESSAGE"
+    cd ..
     if [ "$CIRCLECI" = "true" ]; then
         git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
     else
         git clone https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters.git
     fi
-cd ./PolishAnnoyanceFilters || exit
-if [ "$cookies" ]; then
-    FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+    cd ./PolishAnnoyanceFilters || exit
+    if [ "$cookies" ]; then
+        FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+    else
+        ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+    fi
 else
-    ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
-fi
-else
-echo "Czy chcesz teraz wysłać PR do upstream?"
-select yn in "Tak" "Nie"; do
-    case $yn in
-        Tak )
-        printf "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): "
-        read -r roz_opis
-        gh pr create -B master -H RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "${roz_opis}"
-        cd ../PolishAnnoyanceFilters || exit
-        if [ "$cookies" ]; then
-            FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
-        else
-            ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
-        fi
-        break;;
-        Nie ) break;;
-esac
-done
+    echo "Czy chcesz teraz wysłać PR do upstream?"
+    select yn in "Tak" "Nie"; do
+        case $yn in
+        Tak)
+            printf "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): "
+            read -r roz_opis
+            gh pr create -B master -H RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "${roz_opis}"
+            cd ../PolishAnnoyanceFilters || exit
+            if [ "$cookies" ]; then
+                FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+            else
+                ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+            fi
+            break
+            ;;
+        Nie) break ;;
+        esac
+    done
 fi

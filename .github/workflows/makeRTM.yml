@@ -1,19 +1,25 @@
-name: Publikowanie wersji RTM
+name: "Publikowanie wersji RTM"
 
 on:
-    workflow_dispatch:
-    push:
-        tags:
-        - '*'
+  workflow_dispatch:
+    inputs:
+      rtm_pr_message:
+        description: 'Wiadomość do PR'
+        required: true
+        default: "Witam szanownych panów! Czy chciał ktoś może 🍪 lub łyku ☕?"
+  push:
+    tags:
+      - "*"
 
 jobs:
-    Aktualizacja:
-        runs-on: ubuntu-latest
-        container: polishfiltersteam/rtm_image:latest
-        steps:
-            - uses: actions/checkout@v2
-            - env:
-                GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
-                GH_TOKEN: ${{ secrets.PR_TOKEN }}
-              run: |
-                  ./scripts/MAKE_RTM.sh
+  Aktualizacja:
+    runs-on: ubuntu-latest
+    container: polishfiltersteam/rtm_image:latest
+    steps:
+      - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # pin@v2.3.4
+      - env:
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+          GH_TOKEN: ${{ secrets.PR_TOKEN }}
+          RTM_PR_MESSAGE: ${{ github.event.inputs.rtm_pr_message }}
+        run: |
+          ONLY_TEST="true" ./scripts/MAKE_RTM.sh
