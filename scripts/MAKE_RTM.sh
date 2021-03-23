@@ -74,7 +74,11 @@ if [[ "$lista" == *" 🍪"* ]] && [[ "$lista" == *" 👍🏻"* ]]; then
 fi
 
 today_date=$(date +"%Y%m%d")
-#powitanie=$(shuf -n 1 ./scripts/wiadomosci_powitalne.txt)
+
+if [ ! "$RTM_PR_MESSAGE" ]; then
+    RTM_PR_MESSAGE=$(shuf -n 1 ./scripts/wiadomosci_powitalne.txt)
+fi
+
 # Wysyłanie PR do upstream
 if [ "$CI" = "true" ]; then
     git clean -xdf

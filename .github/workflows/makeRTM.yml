@@ -22,4 +22,4 @@ jobs:
           GH_TOKEN: ${{ secrets.PR_TOKEN }}
           RTM_PR_MESSAGE: ${{ github.event.inputs.rtm_pr_message }}
         run: |
-          ONLY_TEST="true" ./scripts/MAKE_RTM.sh
+          ./scripts/MAKE_RTM.sh
