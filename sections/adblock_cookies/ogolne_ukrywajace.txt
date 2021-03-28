@@ -21,6 +21,7 @@ pl##div[class^="app_gdpr"]
 pl##div[class^="pea_cook_wrapper"]
 pl##div[id^="ck_dsclr"][class*="ck_dsclr"]
 pl##div[id^="cookemessage"]
+pl##html:not([style*="overflow"]) #cadre_alert_cookies
 pl##iframe[class*="Cookie"]
 pl##iframe[class*="cookie"]
 pl##nav[class*="Cookie"]
@@ -67,7 +68,6 @@ pl###blockPopupInformation:not(body):not(html)
 pl###box_cookie:not(body):not(html)
 pl###box_cookie_info:not(body):not(html)
 pl###bv_cookie-law-info-bar:not(body):not(html)
-pl##html:not([style*="overflow"]) #cadre_alert_cookies
 pl###catapult-cookie-bar:not(body):not(html)
 pl###ca_banner:not(body):not(html)
 pl###cccwr:not(body):not(html)
@@ -562,7 +562,6 @@ pl##.cookies_warning:not(body):not(html)
 pl##.cookies__info:not(body):not(html)
 pl##.cookiewarning:not(body):not(html):not(.main)
 pl##.cookie-alert:not(body):not(html)
-
 pl##.cookie-bar2:not(body):not(html)
 pl##.cookie-bar:not(body):not(html)
 pl##.cookie-compliance-bar:not(body):not(html)
