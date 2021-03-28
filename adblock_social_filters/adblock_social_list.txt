@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.3.28.0
-! Last modified: Sun, 28 Mar 2021, 19:08 UTC+02
+! Version: 2021.3.28.1
+! Last modified: Sun, 28 Mar 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.3.28.0 aktualizacja: nie, 28 mar 2021, 19:08 UTC+02
+! v.2021.3.28.1 aktualizacja: nie, 28 mar 2021, 23:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -832,6 +832,7 @@ pl##.__xX20facebook
 pl##[id^="nk_fajne"]
 pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_likes, .yt_likes
+##.td-social-icon-wrap a:not([href*="feed" i]):not([href*="rss" i])
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3740,7 +3741,6 @@ lightonline.pl,nestle.media.pl##.socialNetwork
 likefb.pl##.jas-social > .facebook-f
 limango.pl##.lilayout-footer-column-social
 limpol.com##.messengerchat
-lincoln.edu.pl,ustron.pl##a > .mdi-facebook.mdi
 lincoln.edu.pl,warka24.pl##.top-facebook
 linux-magazine.pl##.link-footer-fb
 lionteam.pl##.do-topbar-content-right > ul > li > a
@@ -4011,7 +4011,6 @@ michalgellert.pl###menu-secondary-items
 michalkiewicz.pl###PRAWA > div.modul:nth-of-type(2)
 miedzlegnica.eu##.blog-container-2
 miedzyrzecz.biz##.td-social-boxed.td_block_social_counter > div > div:not(:nth-of-type(4)), .td_block_widget.td_block_social_counter > .td-social-list > .td_social_type:not(.td_social_rss)
-miedzyrzecz.biz##.td-social-icon-wrap
 miedzyrzec.info###facebook_panel
 miejska.info.pl###text-19.header-widget
 mieszkajwmiescie.pl##.conCN.col-sm-4
@@ -4865,12 +4864,7 @@ pl.vpnmentor.com##.last.part-wrap, .article-thanks-wrap, .side-follow-wrap
 pl.waterdrop.com##div.Footer__Block--text:nth-of-type(3)
 pl.waterdrop.com,sklep.kawa.pl##.Footer__Social
 pl.web.silcare.com###u80876
-pl.wix.com##a[href="https://instagram.com/wix/"]
-pl.wix.com##a[href="https://www.linkedin.com/company/wix.com"]
-pl.wix.com##a[href="http://plus.google.com/+Wix/posts"]
-pl.wix.com##a[href="http://www.facebook.com/wix"]
-pl.wix.com##a[href="http://www.twitter.com/wix"]
-pl.wix.com##ul[aria-label="Pasek społecznościowy"]
+pl.wix.com##a[href="https://instagram.com/wix/"], a[href="https://www.linkedin.com/company/wix.com"], a[href="http://plus.google.com/+Wix/posts"], a[href="http://www.facebook.com/wix"], a[href="http://www.twitter.com/wix"]
 pmi.org.pl###header_socials
 pnt.info.pl##a[href="#facebook"]
 pocisk.org##.right-panel-social, .two_half
@@ -6210,7 +6204,6 @@ tu.swinoujscie.pl###jr_insta_slider-4
 tu.swinoujscie.pl###themify-twitter-3.twitter
 tvgry.pl##.mnu-ico-fb, .mnu-ico-yt, .mnu-ico-tw, .tvgry-main-right-promo
 tvmalbork.pl##a[href="/facebook"]
-tvn24bis.pl##.button_email
 tvn24bis.pl##.title-wrapper > .social, .fbClassicBox, .forum-header-box > h3
 tvn24.pl##.share-container--fixed.share-container
 tvn.pl##.header-card-socials
@@ -7503,7 +7496,6 @@ addhost.pl#@#.retweet
 afrodytasalon.pl#@#.fl-social-icons
 aldi.pl#@#.icon--share
 alilove.pl#@#.footer-social-wrap
-alilove.pl,miedzyrzecz.biz#@#.td-social-icon-wrap
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,morele.net,motoria.pl,muzykazreklam.pl,sklep-presto.pl,ubieramy.pl#@#.facebook-button
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,morele.net,motoria.pl,sklep-presto.pl,ubieramy.pl#@#.facebook-container
 avast.com,karointhekitchen.com,szkolymedyczne.eu,tenit.com.pl,upflix.pl#@#.social-icons
@@ -7601,7 +7593,6 @@ teleskopy.pl#@#.fa-share
 tiktok.com#@#.follow-button
 tiktok.com#@#.share-header
 trojmiasto.pl#@#.share-icons
-tvn24bis.pl#@#.button_email
 tvp.pl#@#.header__socials
 t-mobile.pl#@#.socialMedia
 visitbydgoszcz.pl,wydawnictwo.szaron.pl#@#.social-box
@@ -7614,6 +7605,7 @@ zw.com.pl#@##share_bottom
 zw.com.pl#@#.list_share
 #@#.cookie-bottom-layer
 #@#.js-cookie-light
+#@#.td-social-icon-wrap
 @@/dynamic_content/*_icon_google_play$image,domain=pilot.wp.pl
 @@/googleplus-$image,domain=wirtualnemedia.pl
 @@/images/microblog/emailButton.$image,domain=krotoszyn.pl|zlotoryjska.pl
