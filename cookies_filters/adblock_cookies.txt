@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.3.28.1
-! Last modified: Sun, 28 Mar 2021, 23:08 UTC+02
+! Version: 2021.3.29.0
+! Last modified: Mon, 29 Mar 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.3.28.1 aktualizacja: nie, 28 mar 2021, 23:08 UTC+02
+! v.2021.3.29.0 aktualizacja: pon, 29 mar 2021, 23:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -284,7 +284,6 @@ baldowski.pl,label-magazine.com##.moduleCookiesBox
 balladine.com,basspolska.com,koszulkolandia.com,ksiazki-medyczne.eu,mistama.com,nails.silcare.com,ochnik.com,pl.coccodrillo.eu,planetadzwieku.com,prezencik.eu,sklep.charaktery.eu,swiatpaneli.com###cookies_message
 balluff.com,dvb.de,edrone.me,elblag.net,tidal.com##.cookie-info
 balterio.com,pergo.pl,quick-step.com.pl##a[data-selector="open-cookie-popup"]
-bambino.dzidziusiowo.pl##.section--cookies
 banggood.com##.cookie-tip
 bankier.pl###smart-cmp-host
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
@@ -557,7 +556,7 @@ copart.de##.cookie-policymsg
 copernicuscenter.edu.pl,copernicusfestival.com,filozofiawnauce.pl,naukaireligia.pl###block-block-31
 copyrightpolska.pl###cookie-ack
 cordis.europa.eu##cookies-consent
-cosmedicolight.pl,genetico.pl,kapitalnydom.p,podkarpackie.travel.pl,tksport.pl,um-swiecie.pl##body > div[class][style*="position"][style*="fixed"]:not([id])
+cosmedicolight.pl,genetico.pl,kapitalnydom.pl,podkarpackie.travel.pl,tksport.pl,um-swiecie.pl##body > div[class][style*="position"][style*="fixed"]:not([id])
 costacoffee.pl##.notification-global
 cowkrakowie.pl##.cookies--container
 cpb.pl,efaktury.org,merixstudio.pl,multikod.net.pl,multikody.pl,olekmotocykle.pl,ranking.net.pl,szukarka.net,twojliquid.pl###message
@@ -714,6 +713,7 @@ dyktanda.pl#?##modal:-abp-has(h3:-abp-contains(plików cookie))
 dzialoszyce.pl##footer ~ .modal-content
 dzialoszyn.pl,e-marcom.pl,garwolin.pl,gmina.pl,kierunekspozywczy.pl,krsystem.pl,laskarzew.pl,nowemiasto.pl,raczki.pl,wislaportal.pl,zwolen.pl###cook
 dziary.com,lvlup.pro,piast-gliwice.eu,pomorskie.eu,przegladlokalny.eu###cookiePolicy
+dzidziusiowo.pl##.section--cookies
 dzieciom.pl##.e-cookieBar
 dziennikwschodni.pl,niskarata.org,wykop.pl##.rodo-alert
 dziennikwschodni.pl,polskieradio.pl,polskieradio24.pl,prsa.pl,ticketclub.pl##.rodo-modal
@@ -1450,7 +1450,7 @@ lego.com###GFSticky
 leier.pl###CookieLeier
 leifheitsklep.pl###cookieConfirmDiv
 lekarz.znanylekarz.pl###footer-baner
-lekkoatletykadlakazdego.pl,personnelsolutions.pl##DIV[style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; opacity: 0.8; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 100001;"]
+lekkoatletykadlakazdego.pl,personnelsolutions.pl##DIV[style^="background"][style*="position: absolute"]
 lektury.gov.pl##message-box[storage-key="'cookies-accepted'"]
 lema15.pl,sklep.andrewex.com.pl,victoriadom.pl##.bar--cookies
 leoexpress.com##body > #__next > footer + div.sc-1oi3yor-0
