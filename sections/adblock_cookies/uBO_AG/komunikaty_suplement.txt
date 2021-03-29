@@ -169,7 +169,6 @@ gmina-aleksandrow.pl###g_toplayer
 goldenline.pl###profiling-agreement, .modal-backdrop
 goldenline.pl###react-portals:has(.cookie-modal)
 goldenline.pl,sklepyinfo.pl,www.thomas-krenn.com##body[style*="overflow"]:style(overflow: auto !important;)
-!google.com,google.pl##+js(aeld, DOMContentLoaded, CONSENT)
 gryonline.wp.pl,tv.pudelek.pl##+js(set, wp_no_consent_screen, true)
 handluj.com,tarnobrzeg.info###rodo-message, .modal-backdrop
 hendi.pl##.modal__outer--rodo, .modal--open
@@ -473,6 +472,7 @@ ztm.gda.pl###acceptRodo, .modal-backdrop
 !computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##html.sp-message-open:style(position: static !important; overflow: auto !important;)
 !computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##[class^="sp_veil"], [id^="sp_message_panel"]
 !galopuje.pl##+js(acis, $, RODOCOOKIE)
+!google.com,google.pl##+js(aeld, DOMContentLoaded, CONSENT)
 !porcelana.com.pl##+js(acis, onload, plików cookies)
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
