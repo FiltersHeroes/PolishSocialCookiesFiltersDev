@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.3.28.1
-! Last modified: Sun, 28 Mar 2021, 23:08 UTC+02
+! Version: 2021.3.29.0
+! Last modified: Mon, 29 Mar 2021, 15:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.3.28.1 aktualizacja: nie, 28 mar 2021, 23:08 UTC+02
+! v.2021.3.29.0 aktualizacja: pon, 29 mar 2021, 15:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -4218,7 +4218,7 @@ muscat.pl##.col-sm-12.footer-icons > div:nth-of-type(1)
 musclepower.pl###menu_banners3 .menu_button_wrapper:nth-child(-n+3)
 music99.pl##section:nth-of-type(1) > header > .fa-twitter.icon
 music99.pl###footer .contact > .icons
-music.apple.com##[data-test-context-menu-option="sharing-option"] li.context-menu__option:nth-of-type(-n+2)
+music.apple.com#?#.context-menu.context-menu--submenu > ul > li:nth-child(-n+2):-abp-contains(/(Twitter|Facebook)/)
 mustasz.com##.contact > li:nth-of-type(-n+2)
 muszyna.pl##.footer-col-right > div.sp_size.footer-data-col:nth-of-type(2)
 mutyzm.org.pl##.circle.icon-social_facebook
