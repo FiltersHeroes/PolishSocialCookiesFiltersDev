@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.3.29.0
-! Last modified: Mon, 29 Mar 2021, 23:08 UTC+02
+! Version: 2021.3.30.0
+! Last modified: Tue, 30 Mar 2021, 19:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.3.29.0 aktualizacja: pon, 29 mar 2021, 23:08 UTC+02
+! v.2021.3.30.0 aktualizacja: wto, 30 mar 2021, 19:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3440,7 +3440,7 @@ pl##.cookies-policy:not(body):not(html)
 pl##.cookies-popup:not(body):not(html)
 pl##.cookies-statement:not(body):not(html)
 pl##.cookies-warning:not(body):not(html)
-pl##.cookies:not(body):not(html):not(.wrapper):not(.popup-newsletter):not(#page):not(#container)
+pl##.cookies:not(body):not(html):not(.wrapper):not(.popup-newsletter):not(#page):not(#container):not(.js-cookies)
 pl##.cookies_block:not(body):not(html)
 pl##.cookies_header:not(body):not(html)
 pl##.cookies_info:not(body):not(html)
@@ -3750,16 +3750,18 @@ gg.pl#@#body > div:nth-of-type(2) > div
 ! Bugi Kiboke
 agrohandel.com.pl#@#.panel_cookie:not(body):not(html)
 al.to,combat.pl#@##app > div:first-child > div
-ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-again
-ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
+ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-again
+ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
 elementstore.pl#@##cookie-agree:not(button):not(.btn)
 goldenline.pl#@#.cookie-modal:not(body):not(html):not(.in):not(.mfp-hide)
 kpcen-torun.edu.pl,ranking.perspektywy.pl#@##cookieModal:not(.countryCookieModalContainer):not(.idcac)
 mediaexpert.pl#@#.c-alert.is-cookies:not(body):not(html)
+noweinwestycje.pl#@#.cookieBar:not(body):not(html)
 pl#@#body > div:not([id]):not([class])
 pl#@##catapult-cookie-bar
 pl#@#.ccc-widget:not(body):not(html)
 pl#@#.cookie-msg-box
+pl#@#.js-cookies:not(body):not(html)
 pl#@#.rodo-popup:not(body):not(html)
 pl.aptoide.com#@##__next div[class*="CookieNotice"]
 poradykomputerowe.pl,portaloswiatowy.pl#@#.container-cookie:not(body):not(html)
@@ -3768,6 +3770,7 @@ poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
 pracuj.pl#@#header > div:last-child:not([data-test])
 puratos.pl#@##cookieBannerModal
 ranking.perspektywy.pl#@##cookieModal ~ .modal-backdrop
+straganzdrowia.pl#@##cookie-law-info-bar ~ .cli-modal-backdrop
 tvp.pl#@#.tvp-cookie-overlay:not(body):not(html)
 volcano.pl#@##cookiesModal
 @@/wp-content/plugins/cookie-law-info/public/*$stylesheet
@@ -3801,6 +3804,7 @@ multikino.pl#@#.cookie-msg-box:not(body):not(html)
 multikino.pl#@#.cookie-msg:not(body):not(html)
 naekranie.pl#@##modal-rodo-info:not(body):not(html):not(.fade):not(.reveal-modal)
 naekranie.pl#@##polityka-cookies:not(body):not(html)
+noweinwestycje.pl#@#.cookieBar:not(body):not(html)
 orange.pl#@##cookies-info:not(body):not(html)
 ose.gov.pl#@#.cookies:not(body):not(html):not(.wrapper):not(.popup-newsletter):not(#page):not(#container)
 parkiet.com,rp.pl#@##rodo-popup:not(body):not(html):not(.fade):not(.modal)
