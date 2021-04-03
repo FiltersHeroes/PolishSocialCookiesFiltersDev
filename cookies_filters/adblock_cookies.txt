@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.3.31.0
-! Last modified: Wed, 31 Mar 2021, 15:08 UTC+02
+! Version: 2021.4.3.0
+! Last modified: Sat, 03 Apr 2021, 15:09 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.3.31.0 aktualizacja: śro, 31 mar 2021, 15:08 UTC+02
+! v.2021.4.3.0 aktualizacja: sob, 03 kwi 2021, 15:09 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1573,6 +1573,7 @@ mc-2.pl###_COOKIE-PPN
 mdkgal.edu.pl##[data-nclose-cookie]
 mebleswiata.eu##.obligation_info
 mediaexpert.pl##body:not(.is-bodyScrollDisabled) .is-cookies.c-footer_col
+mediaexpert.pl#?#.wrapper:-abp-has(.cookie-box)
 mediamarkt.pl###site_container > .clearfix
 mediam.eu,szkolawbrusie.pl###panel_popup
 mediasystems.pl##body > div > div[style*="position"][style*="relative"]:not([id]):not([class])
