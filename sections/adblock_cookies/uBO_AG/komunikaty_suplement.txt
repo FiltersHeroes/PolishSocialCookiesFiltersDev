@@ -443,6 +443,8 @@ wodapierrot.pl##.alertify
 wodapierrot.pl##html > body.ajs-no-overflow:style(overflow: auto !important;)
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
+www.google.com,www.google.pl##+js(acis, document.cookie, YES+)
+www.google.com,www.google.pl##+js(acis, navigator.userAgent, consentCookiePayload)
 www.google.com,www.google.pl##body.QVCmK:style(position: static !important; overflow-y: visible !important;)
 www.google.com,www.google.pl##div[class][role="dialog"] > #cnsp:has( > div[class][aria-live="polite"]):upward(2)
 www.google.com,www.google.pl##header#gb + div[class^="gb"][data-cbh="consent.google.com"]
