@@ -23,7 +23,7 @@ mv ./polish-ads-filter/scripts/VICHS_upstream.config ./polish-ads-filter/scripts
 
 cd ./polish-ads-filter || exit
 
-V_CHANGED_FILES_FILE="$MAIN_PATH"/../polish-ads-filter/V_CHANGED_FILES.txt
+V_CHANGED_FILES_FILE="$MAIN_PATH"/../polish-ads-filter/scripts/V_CHANGED_FILES.txt
 if [ -f "$V_CHANGED_FILES_FILE" ]; then
     rm -rf "$V_CHANGED_FILES_FILE"
 fi
