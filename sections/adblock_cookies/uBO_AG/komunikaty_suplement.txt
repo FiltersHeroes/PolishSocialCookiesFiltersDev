@@ -1,3 +1,12 @@
+metropoliaztm.pl###cookieModalCenter, #cookieModalCenter ~ .modal-backdrop
+metropoliaztm.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+metropoliaztm.pl##footer#footer > div > div > a[href="#"].text-danger
+
+eschenker.dbschenker.com###es-shell-overlay-container:has(es-privacy-modal):remove()
+eschenker.dbschenker.com##.es-shell-global-scrollblock:style(overflow-y: auto !important;)
+eschenker.dbschenker.com##[style*="pointer-events"][style*="none"]:style(pointer-events: auto !important;)
+eschenker.dbschenker.com##+js(ra, style, [style*="pointer-events"][style*="none"], stay)
+
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important;)
