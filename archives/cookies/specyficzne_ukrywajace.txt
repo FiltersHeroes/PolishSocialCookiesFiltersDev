@@ -1,3 +1,13 @@
+!maxkuchnie.pl###cboxOverlay
+!maxkuchnie.pl#?##colorbox:-abp-has(.COOKIE_PRIVACY_CONT)
+!speedtest.net##.alert-container
+!speedtest.net##.notification-container
+!speedtest.net##.privacy-update
+!speedtest.pl###container_vsm
+!vaillant.pl#?#.modal:-abp-has(#cookiewarning)
+!www.google.com,www.google.pl#?##center_col #taw > div > .med + div:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"])
+!youtube.com#?#body:-abp-has(#consent-bump) > iron-overlay-backdrop
+
 goodie.pl###main-container > .ax > #header ~ .l3
 goodie.pl##.FooterComponent ~ div[class]:not([id])
 
