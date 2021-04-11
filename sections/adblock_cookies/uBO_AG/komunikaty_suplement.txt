@@ -2,6 +2,9 @@ metropoliaztm.pl###cookieModalCenter, #cookieModalCenter ~ .modal-backdrop
 metropoliaztm.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 metropoliaztm.pl##footer#footer > div > div > a[href="#"].text-danger
 
+mediaexpert.pl##.modal.dialog-wrapper:has(h6:has-text(Polityka prywatności))
+mediaexpert.pl##body[style*="overflow"]:style(overflow-y: auto !important;)
+
 eschenker.dbschenker.com###es-shell-overlay-container:has(es-privacy-modal)
 eschenker.dbschenker.com##.es-shell-global-scrollblock:style(overflow-y: auto !important;)
 eschenker.dbschenker.com##[style*="pointer-events"][style*="none"]:style(pointer-events: auto !important;)
