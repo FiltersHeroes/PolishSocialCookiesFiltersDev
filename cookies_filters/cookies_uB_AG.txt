@@ -509,7 +509,7 @@ ztm.gda.pl###acceptRodo, .modal-backdrop
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):empty:matches-css(opacity: 0.7):remove()
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has( > span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"])
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has( > span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"]):remove()
-/^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html,domain=pinger.pl
+/^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
 !
 !
