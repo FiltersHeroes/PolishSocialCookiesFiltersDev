@@ -1,7 +1,7 @@
 ~pl##body > div#cookie[class=""]
 ##div.ciasteczkowy
 ###infoCiasteczek
-##div#cukiernia
+##body > script[src*="cukiernia"] ~ div#cukiernia
 ##div.polityka-prywatnosci
 ##div.boxzilla-polityka-prywatnosci
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
