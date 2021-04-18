@@ -1,9 +1,4 @@
 ~pl##body > div#cookie[class=""]
-##div.ciasteczkowy
-###infoCiasteczek
-##body > script[src*="cukiernia"] ~ div#cukiernia
-##div.polityka-prywatnosci
-##div.boxzilla-polityka-prywatnosci
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
 ~pl###actionCooki:not(body):not(html):lang(pl)
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
@@ -688,9 +683,13 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##DIV[style*="background:url(images/cookies_tlo.png)"]
 ##DIV[style*="url(layout/cookies.png)"]
 ##body > .plikicookies
+##body > script[src*="cukiernia"] ~ div#cukiernia
 ##ciasteczka:not(body):not(html)
 ##cookidiv:not(body):not(html)
+##div.ciasteczkowy
 ##div#wezcookie
+##div.boxzilla-polityka-prywatnosci
+##div.polityka-prywatnosci
 ###Ciasteczka:not(body):not(html)
 ###Ciastka:not(body):not(html)
 ###CookieKomunikat:not(body):not(html)
@@ -742,6 +741,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###ecl-notice:not(body):not(html)
 ###eurociastko:not(body):not(html)
 ###hideMe:not(body):not(html)
+###infoCiasteczek
 ###infociasteczka:not(body):not(html)
 ###infoprywatnosciciastka:not(body):not(html)
 ###informacjaOCiasteczkach:not(body):not(html)
