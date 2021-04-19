@@ -7,7 +7,7 @@
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
 ! Version: 2021.4.19.1
-! Last modified: Mon, 19 Apr 2021, 00:18 UTC+02
+! Last modified: Mon, 19 Apr 2021, 15:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.4.19.1 aktualizacja: pon, 19 kwi 2021, 00:18 UTC+02
+! v.2021.4.19.1 aktualizacja: pon, 19 kwi 2021, 15:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1454,7 +1454,7 @@ bibleserver.com##.bs-nav__menu-footer__social-bar__box > a > span
 bibliasmakow.pl##.one-of-three.unit
 biblioteka.gliwice.pl#?#div.vc_row-fluid.wpb_row.vc_row:nth-of-type(6) div.vc_col-has-fill.vc_col-sm-2.vc_column_container.wpb_column:nth-of-type(-n+5) div.vc_column-inner:-abp-has( > div > div > div > a)
 biblioteka.jelenia-gora.pl###kk-facebook-buttons
-biblioteka.rawicz.pl##td > [href*="facebook.com/pages/Rawicka-Biblioteka-Publiczna"] > img
+biblioteka.rawicz.pl##td > a[href*="facebook.com/pages/Rawicka-Biblioteka-Publiczna"] > img
 biedronka.pl##.see-fb
 bieganieuskrzydla.pl##.c-social-stack > a
 bielecki-maszyny.pl###footer a[href*="facebook.com/BieleckiMaszyny/"]
@@ -3055,7 +3055,7 @@ happytime.com.pl###rightbar_7
 happy-surfer.com##.row > .bii
 hardcorowo.pl,stskurier.com###fbLink
 harderfit.eu###top-menu > li:nth-last-of-type(-n+3) > a[href*=".com/"]
-harderfit.eu#?#span[style*="color"] > [href*=".com/"]:-abp-contains(/(FACEBOOK|INSTAGRAM|LINKEDIN)/)
+harderfit.eu#?#span[style*="color"] > a[href*=".com/"]:-abp-contains(/(FACEBOOK|INSTAGRAM|LINKEDIN)/)
 harmony.org.pl##a[href*="facebook.com/pages/Harmony-Biuro-rachunkowe/463505313706616"]
 harpersbazaar.com##.share-module--button-wrap-pinterest.share-module--button-wrap
 hbo.com##.footerMain-listSocial
@@ -3663,7 +3663,7 @@ krzysztofwojczal.pl###aptf_widget-3
 kserotechnik.com##div.span3.moduletable:nth-of-type(3)
 ksgornik.eu###ssb-btn-5
 ksgornik.eu#?#.container .border-wrapper:-abp-has( > div:-abp-has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="youtube.com/"]))
-ksiegarniadudziak.pl,ksiegarniaorbita.pl#?#.box-container-c > div.box-frame-shadow.box-frame:nth-of-type(1):-abp-has([href*="facebook.com/"])
+ksiegarniadudziak.pl,ksiegarniaorbita.pl#?#.box-container-c > div.box-frame-shadow.box-frame:nth-of-type(1):-abp-has(a[href*="facebook.com/"])
 ksiegarniaglobtrotera.pl##.pustaka-custom-css-social-icon
 ksiegarniainternetowa.co.uk##.rightside-3 > div.block-popular-tags.block
 ksiegarniasztuki.pl###lewa_k2 > .banery > a[href^="index.php"]
@@ -4236,7 +4236,7 @@ moncredo.pl###youtube-icon, #instagram-icon
 mondaynews.pl##.pre-footer-internal-social
 mondeoklubpolska.pl###widgetlist_column2 > li:nth-of-type(2)
 moneygrabbing.co.uk##.sh-widget-socialv2-list
-money.pl##a[href*="facebook.com/portal.Moneypl"], a[href*="twitter.com/money_pl"], [href*="plus.google.com/+moneypl"]
+money.pl##a[href*="facebook.com/portal.Moneypl"], a[href*="twitter.com/money_pl"], a[href*="plus.google.com/+moneypl"]
 money.pl##div[data-st-area$="_FB"]
 money.pl##div[data-st-area="st-gallery-reactions"] > div > div:nth-of-type(2)
 money.pl#?#article[class] div[class] img + button:-abp-has( > span:-abp-contains(/^Podziel się$/))
@@ -4410,7 +4410,7 @@ napieknewlosy.pl###footlink22
 napieknewlosy.pl###napieknewlosy_1.box_custom.resetcss.box
 narcyz.com.pl###bottom-socialmedia
 narcyz.shop,smieszneciuszki.pl##.text-2.sidebar
-narzedzia24na7.pl##footer li > [href*="facebook.com/Narz%C4%99dzia24na7p"]
+narzedzia24na7.pl##footer li > a[href*="facebook.com/Narz%C4%99dzia24na7p"]
 narzedziaokazje.pl##.navbar-nav > li.nav-item:nth-of-type(n+4):nth-of-type(-n+6)
 narzedzia-profesjonalne.com.pl##img[src="/userdata/banners/5.png"]
 narzedzia.pl##div.footeritem:nth-of-type(6) > h4
@@ -4868,7 +4868,7 @@ piaggio-polska.pl##a[class*="ion-social-"]
 piaseckigagala.pl##.links > a[href*="linkedin.com/"]
 piaseczno.eu#?#.td_block_widget.td_block_text_with_title.td_block_wrap:-abp-contains(Obserwuj)
 pibuya.pl#?#.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper:-abp-contains(Social Media)
-pieluszkarnia.pl##div[class*="platnosc"] > [href*=".com/"] > img
+pieluszkarnia.pl##div[class*="platnosc"] > a[href*=".com/"] > img
 pierwszynamapie.pl###media_image-2
 pietro-wyzej.pl##li.nav-item--icon.nav-item:nth-of-type(n+9):nth-of-type(-n+10)
 piewca.pl###facebookwidgetplus-2
@@ -4925,7 +4925,7 @@ platforma.org,superprezenty.pl##.footer-column-social
 platontv.pl###edge > .edge-icons > .edge-icon
 plawecki.org###bossbyte_slide
 playergames.pl###itc-fbrightblock
-playernotes.pl##[href*="facebook.com/playernotes/"]
+playernotes.pl##a[href*="facebook.com/playernotes/"]
 playhearthstone.com###socialFooterMount
 playnow.pl##.c-footer__icons.align-right.row > div > .btn
 playstation.com#?#.bg-style-desktop-inline.pg_sec_overflow.center-align-heading.page-section.backgroundMidSilver:-abp-has(.social-icons)
@@ -5343,7 +5343,7 @@ quick-app.eu##.icon-bar > a
 quiosque.pl###static-block-home-facebook
 quizme.pl###mks_author_widget-4
 quizme.pl,quizowa.pl###slidebox
-qulinarna.com##[href*="facebook.com/qulinarna/"]
+qulinarna.com##a[href*="facebook.com/qulinarna/"]
 q-meble.eu##.podKreska > .right > a, .right > .contact > a:nth-of-type(n+3):nth-of-type(-n+5)
 rachuneo.pl##.bm-footer__social
 rachunkowosc.com.pl##.footer_padding_lr > div.d_four:nth-of-type(4)
@@ -5729,7 +5729,7 @@ sklepbiegacza.pl##.footer_social_media > .footer__icon > a
 sklepbiegacza.pl##.footer__section--info .footer__header--center.footer__header
 sklepdekarza.pl,spodiglyinitki.pl##.widget-front
 sklepfarmera.pl##.nl
-sklepfarmera.pl#?#div.banner-icons:-abp-has([href*="facebook.com/"])
+sklepfarmera.pl#?#div.banner-icons:-abp-has(a[href*="facebook.com/"])
 sklepjubilerski.com##.lisiewski-footer-icons li.list-inline-item:nth-of-type(-n+4)
 sklepjunior.pl##.link_social
 sklepkawa.pl###fx-widgets
@@ -6347,7 +6347,7 @@ tulodz.pl##.article__footer__btn:not(.article__footer__btn--link)
 tulodz.pl##.section-bottom-social__box:not(.section-bottom-social__box--rss)
 turbotlumaczenia.pl##div.col-md-3.col-sm-6:nth-of-type(4) > .links-col.row
 turek.net.pl##.no-padding-left.l-footer--social-icons
-turystyka.torun.pl#?##carousel_list_bottom > li:-abp-has([href*="facebook.com/pages/Toru"])
+turystyka.torun.pl#?##carousel_list_bottom > li:-abp-has(a[href*="facebook.com/pages/Toru"])
 tutanota.com##section:last-of-type > div > div:nth-of-type(1) > div:nth-of-type(2) > a
 tutek.pl#?#.footer .col-6:first-of-type:-abp-has( > #sow-editor-2 > .so-widget-sow-editor)
 tuzdrowie.pl##.tr-facebook
@@ -6568,7 +6568,7 @@ vixon.pl###CustomWidget_8
 vmr.pl###info a[href*="/wmr" i] > span > svg
 vobis.pl##.m-copyrights_info > a
 vod.naekranie.pl##.nav-bottom figure.iconBox-md-size:nth-of-type(n+2):nth-of-type(-n+4)
-vogueswing.blogspot.com###HTML1 [href*="facebook.com/ubraniowelove"]
+vogueswing.blogspot.com###HTML1 a[href*="facebook.com/ubraniowelove"]
 volcano.pl#?#section.section-text:-abp-contains(Znajdź nas w Social Media)
 volcano.pl#?#section.section-text:-abp-contains(Znajdź nas w Social Media) + .section-banners
 volkswagen.pl##.vw_m520_social_element
@@ -6808,7 +6808,7 @@ www.pila.pl###kontakt .col-md-5.col-xs-12
 www.pisz.pl##.slider_button
 www.pzu.pl##.footer div.col-md-4:nth-of-type(3) > h4
 www.pzu.pl##.footer div.col-md-4:nth-of-type(3) > .row > div.col-xs-12:nth-of-type(2) > .menu_list
-www.swiatwakacji.pl##ul > li [href*="facebook.com/"]
+www.swiatwakacji.pl##ul > li a[href*="facebook.com/"]
 wxv.pl##div.col:nth-of-type(4) > h2
 wybielanie.pl##a[href*="pinterest.com/beyonddent/"], a[href*="youtube.com/user/beyonddent"]
 wyborcza.biz##.FB, .GPLUS, .foot-summary-buttons-share-face, .foot-summary-buttons-share-tweet
