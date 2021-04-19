@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.4.19.1
-! Last modified: Mon, 19 Apr 2021, 15:08 UTC+02
+! Version: 2021.4.19.2
+! Last modified: Mon, 19 Apr 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.4.19.1 aktualizacja: pon, 19 kwi 2021, 15:08 UTC+02
+! v.2021.4.19.2 aktualizacja: pon, 19 kwi 2021, 23:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -5098,9 +5098,9 @@ polsl.pl##tr:nth-of-type(5) > .shortcutsImg:nth-of-type(1)
 polsl.pl##tr:nth-of-type(5) > .shortcutsLink:nth-of-type(2)
 polszczyzna.pl##.eltdf-icon-shortcode, .textwidget > h4
 polvision.com##.foot_search_share
-polygamia.pl##button[title="Kliknij, aby udostępnić"]
 polygamia.pl###polysocial, #sidebar-footer-top, #menu-submenu-1 a[href*="youtube.com/user/polygamiapl"], .sharepostHome
 polygamia.pl#?##main-content div[class*=" "] > div[class*=" "][role="button"]:-abp-has( > div > svg[fill="none"][stroke-width="2"])
+polygamia.pl,www.dobreprogramy.pl##button[title="Kliknij, aby udostępnić"]
 pomagam.pl##.og-share.bg-color-fb.btn-icon-inherit.btn, .tweet.bg-color-tw.btn-icon-inherit.btn.js-twt, div.col-6.col-md-3:nth-of-type(3) > .list > .links > li:nth-child(-n+4)
 pomocdrogowa.info##div.text-center:nth-of-type(2) > a.f-icons
 pomocnamyszka.pl##.open-social-links
@@ -6789,14 +6789,7 @@ wwwlosy.pl###menu-item-1544
 www-dobreprogramy-pl.cdn.ampproject.org##a.social
 www.adobe.com##footer #gnav_709
 www.auchan.pl#?#.row.no-gutters.justify-center > .col-12:-abp-has( > .row.no-gutters.justify-center p.text-center:-abp-contains(/^ Śledź nas na portalach społecznościowych $/))
-www.dobreprogramy.pl##div.col:nth-of-type(3) > .list > li.list__item:nth-of-type(n+2)
-www.dobreprogramy.pl##div[class*="social"] > a[title^="Odwiedź na"]
-www.dobreprogramy.pl###phContentLeft_SocialControl_socialBox, #phContent_SocialControl_SocialControlMain_socialBox
-www.dobreprogramy.pl##.dl-social > .fb-cta, .fb-page
 www.dobreprogramy.pl##.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb_iframe_widget.fb-post iframe[src*="www.dobreprogramy.pl%"]
-www.dobreprogramy.pl##.social__group_share.social__group, .social__item
-www.dobreprogramy.pl#?##sidebar > .text-center:-abp-has(.fb_iframe_widget.fb-page)
-www.dobreprogramy.pl#?#.author-social-links:-abp-has( > a[title*="facebook"]:first-of-type:nth-last-of-type(2) + a[title*="twiter"]:last-of-type:nth-of-type(2))
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:nth-of-type(-n+2)
 www.google.com,www.google.pl##.chr-footer-social
 www.o2.pl##div[class][title="polubienia"], div[class][title="polubienia"] + div
@@ -7726,10 +7719,6 @@ couchsurfing.com#@#.mod-social
 demotywatory.pl#@#.share-widgets
 disqus.com###thread-share-bar
 dobreprogramy.pl#@#img[alt="Twitter"]
-dobreprogramy.pl#@#.social_bottom
-dobreprogramy.pl#@#.social_top
-dobreprogramy.pl#@#.social__button
-dobreprogramy.pl#@#.social__icon
 doladowaniaenergetyczne.pl#@#.icon-google
 duckduckgo.com#@#.footer__social-icon
 edunews.pl#@#.custom-social-buttons
@@ -7877,11 +7866,12 @@ media2.pl#@#.fa-facebook-square
 patrz.pl#@#.likes
 pecetowicz.pl#@#.fa-twitter.fa
 pecetowicz.pl,samequizy.pl,swiatebookow.pl#@#.fa-facebook-official.fa
-polityczek.pl#@##twitter
+polityczek.pl,www.dobreprogramy.pl#@##twitter
 rkb.pl#@#.fb-top
 shinden.pl#@#.fa-youtube-play.fa
 swiatebookow.pl#@#.facebook-button
 tvpuls.pl#@#.block-menu-menu-social-footer.block-menu.block > .menu
+www.dobreprogramy.pl#@##instagram
 @@/instagram_logo$domain=downdetector.pl
 @@||moja-ostroleka.pl/images/ico_gallery.png$image,domain=moja-ostroleka.pl
 !#safari_cb_affinity
