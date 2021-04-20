@@ -1,3 +1,10 @@
+www.dobreprogramy.pl#?#article#main-content ~ div:nth-child(2) > div:nth-child(2) > div:nth-child(2):-abp-has(> span:-abp-contains(/^Udostępnij$/))
+www.dobreprogramy.pl#?#article#main-content > div:nth-child(2) > div:first-child > div:last-child:-abp-has( > span:-abp-contains(/^Udostępnij$/))
+
+www.dobreprogramy.pl#?#article#main-content > div:nth-child(2) > div:first-child > div:first-child:-abp-has(> div[role="button"]:first-child ~ div[role="button"]:last-child > div:only-child > svg)
+
+
+
 ~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 2plus3d.pl###menuItem_facebook
 2smaki.pl###text-35
@@ -1642,8 +1649,7 @@ euroticket.pl##div.row:nth-of-type(2) > div.chain-grid.col-md-4:nth-of-type(3) >
 eurowizja.org,gizycko.info,miedzyrzecz.biz,tarnogorski.info##.footer-social-wrap
 euro-cart.eu,ztm.waw.pl##.page-social-media
 euro.com.pl###comunity-links
-euro.com.pl###footer-contact > .column > #footer-icons > a:not([class]):not(.js-migam-open)
-euro.com.pl###footer-contact > .column > .footer-icons > a:not([class]):not(.js-migam-open)
+euro.com.pl###footer-contact > .column > #footer-icons > a:not([class]), #footer-contact > .column > .footer-icons > a:not([class])
 eveline.eu,groman.pl##.ig
 eveline.pl##.social-find-us
 eventforyou.com.pl##a > .fab-instagram, a > .fab-twitter-square, a > .fab-facebook-square
@@ -3561,7 +3567,7 @@ narzedzia24na7.pl##footer li > a[href*="facebook.com/Narz%C4%99dzia24na7p"]
 narzedziaokazje.pl##.navbar-nav > li.nav-item:nth-of-type(n+4):nth-of-type(-n+6)
 narzedzia-profesjonalne.com.pl##img[src="/userdata/banners/5.png"]
 narzedzia.pl##div.footeritem:nth-of-type(6) > h4
-nask.pl##.footer-container__right_icons > li:nth-of-type(n+1):nth-of-type(-n+4)
+nask.pl##.footer-container__right_icons > li:nth-of-type(-n+4)
 nastopy.pl##.leftSlide > .fb-wrap
 nasza9.com##.kontakt-right
 naszahistoria.pl,plus.dziennikbaltycki.pl,plus.dzienniklodzki.pl,plus.dziennikzachodni.pl,plus.echodnia.eu,plus.expressbydgoski.pl,plus.gazetakrakowska.pl,plus.gazetalubuska.pl,plus.gazetawroclawska.pl,plus.gloswielkopolski.pl,plus.gp24.pl,plus.kurierlubelski.pl,plus.nowiny24.pl,plus.nowosci.com.pl,plus.nto.pl,plus.polskatimes.pl,plus.pomorska.pl,plus.poranny.pl,plus.to.com.pl,plus.wspolczesna.pl,tygodnikits.pl##.listaIkon > li > .ikona
@@ -4260,7 +4266,7 @@ popler.tv###ikony div[id$="ikona"]
 popler.tv##.bok_facebook
 popvinyl.pl##.bg-instagram.btn
 porabka.pl##[id^="right-slider0"]
-poradnikhandlowca.com.pl##a[class*="-"][class$="__social-link"]
+poradnikhandlowca.com.pl##a[class$="__social-link"]
 poradnikprzedsiebiorcy.pl##.col-md-6
 poradnikzdrowie.pl##.healthy_comm
 poradnik-seo.pl##.team-social, .contact-social
@@ -5599,7 +5605,7 @@ uniben.pl###fejs-btn
 unileverfoodsolutions.pl##.last-col.col-span-6 > .h4
 unilever.pl##.communication > .row > div.large-6.columns:nth-of-type(1)
 unilink.pl##.last_footer.container_footer_item > ul > li:nth-of-type(-n+2)
-unimot.pl##.menu_top__social-media > li:nth-of-type(n+1):nth-of-type(-n+5)
+unimot.pl##.menu_top__social-media > li:nth-of-type(-n+5)
 union-investment.pl##.bm-right.col-md-12
 unisono.eu##div.footer-box:nth-of-type(4) > .h4
 unisono.eu##div.footer-box:nth-of-type(4) > h4
