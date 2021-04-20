@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.4.19.1
-! Last modified: Mon, 19 Apr 2021, 00:18 UTC+02
+! Version: 2021.4.20.0
+! Last modified: Tue, 20 Apr 2021, 19:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.4.19.1 aktualizacja: pon, 19 kwi 2021, 00:18 UTC+02
+! v.2021.4.20.0 aktualizacja: wto, 20 kwi 2021, 19:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -260,7 +260,7 @@ auto4free.pl###js-cookieBanner
 autoaukcje.net##.popup_cookies
 autobaza.pl,automo.pl###rodo, .rodoButtonUp
 autocentrum.pl##.hello-rodo
-autodealer.pl,daciajaworzno.pl,daciakatowice.pl,daciaswietochlowice.pl,ferrarikatowice.pl,ferrariwarszawa.com,grupapietrzak.pl,katowice.alpinecars.com,maseratipietrzak.pl,nazaruk.pl,renaultjaworzno.pl,renaultkatowice.pl,renaultrybnik.pl,renaultswietochlowice.pl##.fixedInfo > fixedInfoContent
+autodealer.pl,daciajaworzno.pl,daciakatowice.pl,daciaswietochlowice.pl,ferrarikatowice.pl,ferrariwarszawa.com,katowice.alpinecars.com,nazaruk.pl,renaultjaworzno.pl,renaultkatowice.pl,renaultrybnik.pl,renaultswietochlowice.pl##.fixedInfo > fixedInfoContent
 autodna.pl##.privacy_policy-info
 autogespot.pl##div[class^="popup"]:not(.fancybox-margin)
 autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,galerialimonka.pl,komorkomania.pl,otabletach.pl,steplowski.net###cop
@@ -2815,7 +2815,7 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 !
 !
 ! Specyficzne reguły blokujące
-/ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info|pl|zvami.tv
+/ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info|zvami.tv
 /cookie*/bosch-privacy-settings-*.min.js$script,domain=bosch-professional.com|bosch.pl
 /cookie-banner-radio-$script,domain=felicity-lublin.pl
 /cookie.js$script,domain=iap.pl|iaw.pl|pks-sa.eu|sacz.pl
@@ -2828,14 +2828,13 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 /informationbar.js$domain=stowarzyszenie-dyrektorow.pl|zgkim.zgora.pl
 /jquery.cookiebar$domain=selgros.pl
 /libraries/js/jquery.tipsy.cookie.js$domain=kierunkowy.com
-/pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
-/pltk.js$script,domain=hrd.pl
-/pp-t-a-c.js$domain=najlepsze.net|pl|toplista.info
+/pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|hrd.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
+/pp-t-a-c.js$domain=najlepsze.net|toplista.info
 /privacy/popup.js$script,domain=bauer.pl|cdaction.pl|pcformat.pl
 /rhododendron/css/rhododendron-popup.css$domain=abctygodnik.pl|wpolsce.pl
 /rodo-agreement-popup/rodo-agreement-popup.min.js$domain=gremimedia.pl|rpkom.pl|zw.com.pl
-/whcookiesutf.js$domain=apteka-vita.eu|pl
-/whcookies.js$domain=artexhome.eu|lessmess.storage|pdinetwork.net|pl
+/whcookiesutf.js$domain=apteka-vita.eu
+/whcookies.js$domain=artexhome.eu|lessmess.storage|pdinetwork.net
 /wp-content/plugins/mm-extensions/assets/js/info-popup.js$domain=koty.pl|psy.pl
 /wp-content/plugins/wp-modal-popup-with-cookie-integration/*$script,stylesheet,domain=edutorial.pl
 /zgody/*/rodo$stylesheet,domain=gruparmf.pl|rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
@@ -2905,7 +2904,6 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 ||lenovozone.pl/frontend/js/sweetalert.min.js$script
 ||lovekrakow.pl/ajax/rodo
 ||lubiegrac.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
-||mojedane.edipresse.pl/tcf/cookie.js$script,domain=pl
 ||msecnd.net/Unilever/panels/generic/PanelPrzepisy.htm?consent$subdocument
 ||muza.com.pl/modules/rodoinfo/views/js/remodal.js$script,domain=muza.com.pl
 ||mypolacy.de/addons/checkRodoSettings$xmlhttprequest
@@ -2958,8 +2956,7 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||twoje-seriale.pl/cookies.html$subdocument
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vectra.pl/img/icns/ico-yt-footer.png
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|krokdozdrowia.com|krzyzowka.net|mytastepol.com|najnowsze-wiadomosci.eu|newonce.radio|pl|pl.bab.la|softpedia.com|synonim.net|time.is
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|krokdozdrowia.com|krzyzowka.net|mytastepol.com|najnowsze-wiadomosci.eu|newonce.radio|pl.bab.la|softpedia.com|synonim.net|time.is
 ||vox.pl/modal/rodo$xmlhttprequest
 ||wieczorpomorze.pl/wp-content/themes/colormag/js/magnific-popup/jquery.magnific-popup.min.js
 ||wins.pl/pages/getcookie$xmlhttprequest
@@ -2969,7 +2966,6 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 ||wyprawyrowerem.pl/wp-content/plugins/popup-builder/public/js/Popup.js
 ||zgody.infor.pl/build/assets/js/main.js
 ||ztm.kielce.pl/modules/mod_rppopup/js/jquery.gafancybox.min.js
-|||hokuspokus.pl/themes/webtheme/js/whrodo.js
 !
 !
 !
@@ -2977,6 +2973,7 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 cookie-law-popup.js$domain=pl
 /CookieAlert-latest.min.js$script
 /CookieLaw$script
+/ajax/privacy_popup$xmlhttprequest,domain=pl
 /component-CookieConsent.$script,domain=pl
 /cookieDisclaimer.js$script
 /cookieMonster.min.js$script
@@ -3002,10 +2999,16 @@ cookie-law-popup.js$domain=pl
 /libs/cukiernia/cukiernia.min.js$~third-party
 /media/plg_system_cookieconfirm$script,domain=pl
 /media/plg_system_eprivacy$script,domain=pl
+/pp-t-a-c.js$domain=pl
 /rodo.js$script
 /savecookie.js$script
+/whcookiesutf.js$domain=pl
+/whcookies.js$domain=pl
 ||cmp.dreamlab.pl^
 ||cmp.optad360.io^$domain=~cmp.optad360.io
+||hokuspokus.pl/themes/webtheme/js/whrodo.js
+||mojedane.edipresse.pl/tcf/cookie.js$script,domain=pl
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pl
 !
 !
 ! Ogólne reguły ukrywające
@@ -3689,6 +3692,7 @@ pl##.wrap-cookie-info:not(body):not(html)
 pl##[class*="cookie-policy"]:not(body):not(html)
 pl##[class^="box-cookie"]:not(body):not(html)
 pl##[id^="topInfo"]:not(body):not(html)
+!###ciasteczka_alert:not(body):not(html)
 ##.DolnaInformacjaCookie
 ##.slabowidzacyCookie
 ##DIV[style*="background:url(images/cookies_tlo.png)"]
@@ -3719,7 +3723,6 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###ciasteczka-box:not(body):not(html)
 ###ciasteczka-komunikat:not(body):not(html)
 ###ciasteczka:not(body):not(html)
-###ciasteczka_alert:not(body):not(html)
 ###ciasteczka_info:not(body):not(html)
 ###ciasteczka_tresc:not(body):not(html)
 ###ciasteczkowy_potwor:not(body):not(html)
