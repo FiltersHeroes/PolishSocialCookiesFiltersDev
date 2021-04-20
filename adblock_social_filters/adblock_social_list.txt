@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.4.19.2
-! Last modified: Mon, 19 Apr 2021, 23:08 UTC+02
+! Version: 2021.4.20.0
+! Last modified: Tue, 20 Apr 2021, 19:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.4.19.2 aktualizacja: pon, 19 kwi 2021, 23:08 UTC+02
+! v.2021.4.20.0 aktualizacja: wto, 20 kwi 2021, 19:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -26,7 +26,7 @@ android.com.pl##.social-popup
 babymanager.pl#?#.spu-bg:-abp-has( ~ .spu-box .fb-like-box)
 babymanager.pl#?#.spu-box:-abp-has(.fb-like-box)
 beskidy.news##.c-pop-up
-black-friday.pl,cryptoprofit.pl,e-przepisykulinarne.pl,funfashion.pl,kucharenka.pl,kuchniawedwoje.pl,magazyninformacyjny.pl,tele-wizja.ru,wielkopolskamagazyn.pl,zatrzymujacczas.pl###ffbp, #ffbp-bg
+black-friday.pl,cryptoprofit.pl,e-przepisykulinarne.pl,funfashion.pl,kucharenka.pl,kuchniawedwoje.pl,magazyninformacyjny.pl,prostowsmak.com,tele-wizja.ru,wielkopolskamagazyn.pl,zatrzymujacczas.pl###ffbp, #ffbp-bg
 czasnawnetrze.pl##.waitbox
 dreweks.eu###x13popup-container, #x13popup-cover
 dziennikparafialny.pl###itro_popup, #itro_opaco
@@ -54,13 +54,13 @@ haart.pl,serialowy.info##.wph-modal
 investjourney.pl,radio7.pl#?#.spu-bg:-abp-has( ~ .spu-box .spu-facebook)
 investjourney.pl,radio7.pl#?#.spu-box:-abp-has(.spu-facebook)
 justjoin.it##.join-fb-popup
-kamira90.blogspot.com###fbox-background, #fbox-close
+kamira90.blogspot.com,pelnytalerz.com,vetopedia.pl###fbox-background, #fbox-close
 karmiepsiaki.pl###fb-back
 karmiepsiaki.pl###fb-exit
 karmopedia.pl,przedsiebiorcza.com#?#.spu-bg:-abp-has( ~ .spu-box .spu-facebook-page)
 karmopedia.pl,przedsiebiorcza.com#?#.spu-box:-abp-has(.spu-facebook-page)
 karografia.pl###fb-popup
-kawiarniany.pl##.sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+kawiarniany.pl,nawiedzone.pl,polskieszosy.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
 klasek.pl###spu-bg, #spu-main
 kobiecyhumor.pl,telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
@@ -75,20 +75,17 @@ mpolska24.pl##.window
 mpolska24.pl###before-leave-window
 mtv24.tv###mdfb
 nawakacje.eu,rytmynatury.pl##.ays-fpl-modals
-nawiedzone.pl,polskieszosy.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 nawiedzone.pl,polskieszosy.pl##[data-title="Social Form - Popup #02"]
 nowosci-mp3.eu###pop-slap, .bg-pop-over
 nportal.no###fb-overlay
 okiemturysty.pl##.div_box0
 onkyo.pl##div#dwbox-bkg, div#dwbox-box
 ostry-sklep.pl##.rc-popups.box
-pelnytalerz.com,vetopedia.pl###fbox-background
 petronews.pl##.pps-full-screen.pps-popup, .b-modal
 podrogach.pl###popup_container
 politykazdrowotna.com##.modal-footer
 pracujwsprzedazy.pl###modal-social
 prezeska.pl##.pum
-prostowsmak.com###ffbp
 radio111.pl##.modal[id], .modal-backdrop
 rzeszow4u.pl###myModal
 sklepikdzieciecy.pl###oknoPopUp, #tloPopUp
@@ -110,15 +107,14 @@ zmianywzyciu.pl###popup_facebook
 !obcasy.pl##.spu-box, .spu-bg
 !pierwsze-kroki.com###spu-26, #spu-bg-26
 !zuch.media###spu-10366, #spu-bg-10366
+/compress/popupFacebook.js$domain=chamskie.pl|motywujemy24.pl
+/compress/popups/popupFacebook_normal.css$domain=chamskie.pl|motywujemy24.pl
 /wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=shareinfo.pl
 ||brytol.com/wp-content/plugins/auto-fb-popup/assets/remodal.min.js
-||chamskie.pl/compress/popupFacebook.js
-||chamskie.pl/compress/popups/popupFacebook_normal.css
 ||galeriabronowice.pl/templates/gb/js/fancybox/jquery.fancybox.js
 ||haart.pl/wp-content/plugins/popup-builder/public/js/Popup.js
 ||inffuse-fbpopup.appspot.com/widget.html
-||motywujemy24.pl/compress/popupFacebook.js
 ||prezeska.pl/wp-content/uploads/pum/pum-site-styles.css
 ||sat-charts.eu/js/fcbkpopup.js
 ||timeandwatches.pl/modules/mod_onscreen_facebook_likebox_popup/assets/js/jquery.colorbox-min.js
@@ -435,7 +431,6 @@ pl###social_block_mod
 pl###socjalmedia
 pl###tab-widget-fb
 pl###tab-widget-g
-pl###tw
 pl###twitter
 pl###twitter-container
 pl###twitter-wjsbox > .belt
@@ -2488,8 +2483,7 @@ euroticket.pl##div.row:nth-of-type(2) > div.chain-grid.col-md-4:nth-of-type(3) >
 eurowizja.org,gizycko.info,miedzyrzecz.biz,tarnogorski.info##.footer-social-wrap
 euro-cart.eu,ztm.waw.pl##.page-social-media
 euro.com.pl###comunity-links
-euro.com.pl###footer-contact > .column > #footer-icons > a:not([class]):not(.js-migam-open)
-euro.com.pl###footer-contact > .column > .footer-icons > a:not([class]):not(.js-migam-open)
+euro.com.pl###footer-contact > .column > #footer-icons > a:not([class]), #footer-contact > .column > .footer-icons > a:not([class])
 eveline.eu,groman.pl##.ig
 eveline.pl##.social-find-us
 eventforyou.com.pl##a > .fab-instagram, a > .fab-twitter-square, a > .fab-facebook-square
@@ -4414,7 +4408,7 @@ narzedzia24na7.pl##footer li > a[href*="facebook.com/Narz%C4%99dzia24na7p"]
 narzedziaokazje.pl##.navbar-nav > li.nav-item:nth-of-type(n+4):nth-of-type(-n+6)
 narzedzia-profesjonalne.com.pl##img[src="/userdata/banners/5.png"]
 narzedzia.pl##div.footeritem:nth-of-type(6) > h4
-nask.pl##.footer-container__right_icons > li:nth-of-type(n+1):nth-of-type(-n+4)
+nask.pl##.footer-container__right_icons > li:nth-of-type(-n+4)
 nastopy.pl##.leftSlide > .fb-wrap
 nasza9.com##.kontakt-right
 naszahistoria.pl,plus.dziennikbaltycki.pl,plus.dzienniklodzki.pl,plus.dziennikzachodni.pl,plus.echodnia.eu,plus.expressbydgoski.pl,plus.gazetakrakowska.pl,plus.gazetalubuska.pl,plus.gazetawroclawska.pl,plus.gloswielkopolski.pl,plus.gp24.pl,plus.kurierlubelski.pl,plus.nowiny24.pl,plus.nowosci.com.pl,plus.nto.pl,plus.polskatimes.pl,plus.pomorska.pl,plus.poranny.pl,plus.to.com.pl,plus.wspolczesna.pl,tygodnikits.pl##.listaIkon > li > .ikona
@@ -5117,7 +5111,7 @@ popler.tv###ikony div[id$="ikona"]
 popler.tv##.bok_facebook
 popvinyl.pl##.bg-instagram.btn
 porabka.pl##[id^="right-slider0"]
-poradnikhandlowca.com.pl##a[class*="-"][class$="__social-link"]
+poradnikhandlowca.com.pl##a[class$="__social-link"]
 poradnikprzedsiebiorcy.pl##.col-md-6
 poradnikzdrowie.pl##.healthy_comm
 poradnik-seo.pl##.team-social, .contact-social
@@ -6458,7 +6452,7 @@ uniben.pl###fejs-btn
 unileverfoodsolutions.pl##.last-col.col-span-6 > .h4
 unilever.pl##.communication > .row > div.large-6.columns:nth-of-type(1)
 unilink.pl##.last_footer.container_footer_item > ul > li:nth-of-type(-n+2)
-unimot.pl##.menu_top__social-media > li:nth-of-type(n+1):nth-of-type(-n+5)
+unimot.pl##.menu_top__social-media > li:nth-of-type(-n+5)
 union-investment.pl##.bm-right.col-md-12
 unisono.eu##div.footer-box:nth-of-type(4) > .h4
 unisono.eu##div.footer-box:nth-of-type(4) > h4
@@ -6790,6 +6784,9 @@ www-dobreprogramy-pl.cdn.ampproject.org##a.social
 www.adobe.com##footer #gnav_709
 www.auchan.pl#?#.row.no-gutters.justify-center > .col-12:-abp-has( > .row.no-gutters.justify-center p.text-center:-abp-contains(/^ Śledź nas na portalach społecznościowych $/))
 www.dobreprogramy.pl##.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb_iframe_widget.fb-post iframe[src*="www.dobreprogramy.pl%"]
+www.dobreprogramy.pl#?#article#main-content ~ div:nth-child(2) > div:nth-child(2) > div:nth-child(2):-abp-has( > span:-abp-contains(/^Udostępnij$/))
+www.dobreprogramy.pl#?#article#main-content > div:nth-child(2) > div:first-child > div:first-child:-abp-has( > div[role="button"]:first-child ~ div[role="button"]:last-child > div:only-child > svg)
+www.dobreprogramy.pl#?#article#main-content > div:nth-child(2) > div:first-child > div:last-child:-abp-has( > span:-abp-contains(/^Udostępnij$/))
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:nth-of-type(-n+2)
 www.google.com,www.google.pl##.chr-footer-social
 www.o2.pl##div[class][title="polubienia"], div[class][title="polubienia"] + div
@@ -7038,10 +7035,11 @@ z-hotel.com###menu-item-868
 /fbpodklad2.png$domain=gckis.trzebnica.pl|musicinfo.pl
 /fbpodklad_v2.png$domain=rajsmakosza.pl
 /followusontwitterlogo.jpg$domain=riskcompliance.pl
-/ico-yt.png$domain=eska.pl
+/ico-yt.png$domain=dvbsklep.pl|eska.pl|lechpils.pl
 /img/cms/face_1.png$image,domain=allemoda.eu
 /img/cms/insta_png.png$image,domain=allemoda.eu
 /img/cms/pin.png$image,domain=allemoda.eu
+/img/in.png$domain=galeriehandlowe.pl|kzbs.pl
 /insta-ico.png$domain=eska.pl
 /konsedo_new/facebook_k_l.jpg$domain=dadas.home.pl
 /public/assets//baner-yt-sklep.png$image,domain=sklep.precio.pl|sklep5438865.homesklep.pl
@@ -7060,6 +7058,8 @@ z-hotel.com###menu-item-868
 /themes/tt.png$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
 /themes/twLogo.jpg$image,domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
 /vbanner/facebookock.jpg$domain=ockopolelubelskie.pl
+/wp-content/uploads/*/*/fb.png$domain=biodent.biz|emkatrans.com.pl|glyskincare.pl|pks.poznan.pl|purebiologics.pl|smac.pl
+/wp-content/uploads/*/*/in.png$domain=glyskincare.pl|purebiologics.pl
 /zdjecia/ikonki/fb_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ||4prm.pl/*/facebook_menu$image
 ||6art.pl/youtube.png
@@ -7115,7 +7115,6 @@ z-hotel.com###menu-item-868
 ||bawimisie.pl/img/cms/instagram-icon_*.jpg
 ||belladayspa.pl/images/spolecznosciowe/fb.png
 ||biblioteka.rawicz.pl/face.jpg
-||biodent.biz/wp-content/uploads/*/*/fb.png
 ||biokur.pl/images/banners/facebook-logo*.png
 ||biokur.pl/images/banners/instagram-logo*.png
 ||biznesalert.pl/wp-content/themes/wpbootstrap_ba/images/telegram.png
@@ -7156,13 +7155,11 @@ z-hotel.com###menu-item-868
 ||dom.pl/wp-content/themes/nowydom.pl/img/icon-5.png
 ||doxa.fm/wp-content/plugins/sn-facebook-like/js/retioSlider.min.js
 ||drogeriejasmin.pl/images/img/insta-icon.png
-||dvbsklep.pl/public/assets/ico-yt.png
 ||dywany.dywilan.pl/styles/fb.png
 ||dziennikprawny.pl/assets/img/icons/wykop.png
 ||eactive.pl/wp-content/themes/eactive/images/facebox.png
 ||eecpoland.eu/images/icons/fb.png
 ||elensport.pl/gfx/sm_facebook_iko.png
-||emkatrans.com.pl/wp-content/uploads/*/*/fb.png
 ||escsa.pl/esc_data/theme/img/icons/fb-square.png
 ||esus-it.pl/data/include/cms/esus-it-stopka/fb-40px.png
 ||esus-it.pl/data/include/cms/esus-it-stopka/yt-30px.png
@@ -7180,8 +7177,7 @@ z-hotel.com###menu-item-868
 ||farm-market.eu/wp-content/themes/*/images/gIcon.png
 ||farm-market.eu/wp-content/themes/*/images/ytIcon.png
 ||festiwalbiegowy.pl/sites/default/files/upload/misc/fb-art.png
-||festiwalbiegowy.pl/sites/default/files/upload/misc/instagram_PNG10.png
-||festiwalbiegowy.pl/sites/default/files/upload/misc/instagram_PNG100.png
+||festiwalbiegowy.pl/sites/default/files/upload/misc/instagram_PNG1*.png
 ||festiwalbiegowy.pl/sites/default/files/upload/misc/twitter_318-136405.jpg
 ||festiwalbiegowy.pl/sites/default/files/upload/misc/youtube_logo_detail.png
 ||fight24.pl/fb.png
@@ -7196,7 +7192,6 @@ z-hotel.com###menu-item-868
 ||fuksiarz.pl/static/images/cms/fuksiarz/ikony/stopka-fb.png
 ||fuksiarz.pl/static/images/cms/fuksiarz/ikony/stopka-instagram.png
 ||fuksiarz.pl/static/images/cms/fuksiarz/ikony/stopka-twitter.png
-||galeriehandlowe.pl/img/in.png
 ||gameplay.pl/im/fb15.png
 ||gazetabaltycka.pl/wp-content/themes/gazetabaltycka/images/facebook.png
 ||gazetabaltycka.pl/wp-content/themes/gazetabaltycka/images/flickr.png
@@ -7213,8 +7208,6 @@ z-hotel.com###menu-item-868
 ||glos24.pl/twitter.png
 ||gloskoninski.pl/wp-content/uploads/*/*/twitter-1.png
 ||gloskoninski.pl/wp-content/uploads/*/*/youtube-1.png
-||glyskincare.pl/wp-content/uploads/*/*/fb.png
-||glyskincare.pl/wp-content/uploads/*/*/in.png
 ||gminadobrcz.pl/container/loga/facebook.png
 ||godne-polecenia.pl/grafika/facebook.png
 ||goldap.info/images/grafika_szablonu/0*/ikonka_yt_
@@ -7276,8 +7269,6 @@ z-hotel.com###menu-item-868
 ||kujawsko-pomorskie.pl/images/issuu.png
 ||kuratorium.opole.pl/wp-content/themes/kuratorium/images/facebook.png
 ||kwiaciarniasasanka.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/cubes/cubes_
-||kzbs.pl/img/in.png
-||lechpils.pl/resources/images/ico-yt.png
 ||lexlabor.pl/templates/gfx/cech/facebook.png
 ||lib.onet.pl/fblike/v5/fb-popover.js$script
 ||liderwalut.pl/assets_web/img/icons-socialmedia.jpg
@@ -7378,7 +7369,6 @@ z-hotel.com###menu-item-868
 ||perelki.net/fb/facebook_bg.png
 ||pionki24.pl/images/index_f.png
 ||pionki24.pl/images/index_t.png
-||pks.poznan.pl/wp-content/uploads/*/*/fb.png
 ||pk.edu.pl/templates/PK-Main/images/FooterFB.png
 ||pk.edu.pl/templates/PK-Main/images/FooterIN.png
 ||pk.edu.pl/templates/PK-Main/images/FooterINST.png
@@ -7417,8 +7407,6 @@ z-hotel.com###menu-item-868
 ||pswbp.pl/images/admin/logosy/youtube_logo-round1.png
 ||ptakoutlet.pl/templates/ptakoutlet/images/insta-small.png
 ||publicat.pl/sites/all/themes/publicat/img/components/rightsection_fb.png
-||purebiologics.pl/wp-content/uploads/*/*/fb.png
-||purebiologics.pl/wp-content/uploads/*/*/in.png
 ||purebiologics.pl/wp-content/uploads/*/*/tiwtter.png
 ||pwik.gliwice.pl/images/ig-logo.svg
 ||pyskatyzamsz.com/themes/default-bootstrap/img/INSTAICON.png
@@ -7457,7 +7445,6 @@ z-hotel.com###menu-item-868
 ||slimbrowser.net/images/facebookx16.png
 ||slimbrowser.net/images/youtube16.gif
 ||slubna-alejka.com.pl/public/assets/slubna-alejka/fb-button*.png
-||smac.pl/wp-content/uploads/*/*/fb.png
 ||smarkacz.pl/images/gfx/ins2.png
 ||sobkow.pl/asp/pliki/ikony_lewa_strona/facebook.jpg
 ||sokolow.pl/sites/default/files/paragraphs/icon-fb_*.png
@@ -7523,6 +7510,7 @@ z-hotel.com###menu-item-868
 ||utrzymanieruchu.pl/fileadmin/ce/img/tmi_goldenline_.png
 ||utrzymanieruchu.pl/fileadmin/ce/img/tmi_linkedin_.png
 ||utrzymanieruchu.pl/fileadmin/ce/img/tmi_twitter_.png
+||vectra.pl/img/icns/ico-yt-footer.png
 ||virtualmedia.pl/gfx/facebook.jpg
 ||vitakraft.pl/fileadmin/templates/images/socialmedia/vk_facebook.png
 ||vitakraft.pl/fileadmin/templates/images/socialmedia/vk_instagram.png
@@ -7637,7 +7625,7 @@ mmorpg.org.pl##.footer__top > .socials > a[href="https://twitter.com/grymmorpg"]
 moneyv.wp.pl##div[data-st-area$="_FB"]
 money.wp.pl##.socialMediaDeksktop
 muzyka.wp.pl##iframe[src^="http://www.facebook.com/plugins/like.php?"]
-m.onet.pl##.fbShare, .newsItem > .shareButton
+m.onet.pl##.newsItem > .shareButton
 naszamlawa.pl##span.td-social-icon-wrap
 naszamlawa.pl##.td-social-list > div[class*="td_social_"]:not([class$="rss"])
 noizz.pl##.contentShareButtons, .articleShare, .socialProfiles, .socialButtons, .socialMiniBox, .social > .icon
@@ -7739,7 +7727,7 @@ janssenmed.pl,ksiegarnianatlomackiem.pl,motocombo.pl#@#.footer-social
 jezuici.pl#@#.et-extra-social-icons
 kadantiscam.netlify.app,naszesprawy.eu,pkobp.pl,radiopoznan.fm#@#.social-icon
 kei.pl#@#.social_icons
-kingowiec.pl#@#.socialmedia
+kingowiec.pl,wiadomoscihandlowe.pl#@#.socialmedia:not(html):not(body)
 kosapopatelni.pl#@#.bdaia-social-io
 kosapopatelni.pl#@#.widget-social-links
 krokdozdrowia.com#@##social-networks
@@ -7800,7 +7788,6 @@ trojmiasto.pl#@#.share-icons
 tvp.pl#@#.header__socials
 t-mobile.pl#@#.socialMedia
 visitbydgoszcz.pl,wydawnictwo.szaron.pl#@#.social-box
-wiadomoscihandlowe.pl#@#.socialmedia:not(html):not(body)
 wsqn.pl#@#.social_bookmarks
 youtube.com#@##secondary-links
 zrzutka.pl#@#.icon_share
@@ -7817,7 +7804,7 @@ zw.com.pl#@#.list_share
 @@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
 @@/modules/mod_je_social/images/social.png$image,domain=roland-gazeta.pl
 @@/revolution_lightbox$image
-@@/social_media_$domain=mazury.travel
+@@/social_media_$domain=mazury.travel|nuorder.pl
 @@/tiktok/*/static/images/share-$image,domain=tiktok.com
 @@/wp-content/plugins/fwdu3dcar/*$image,~third-party
 @@||account.kaufland.com/user-ui-new/assets/img/social/$image,domain=account.kaufland.com
@@ -7844,7 +7831,6 @@ zw.com.pl#@#.list_share
 @@||meczyki.pl/images/twitter_blank.gif
 @@||muza.com.pl/img/facebook.$image
 @@||news.astronet.pl/wp-content/themes/warta/img/social-media-icons.png$image,domain=news.astronet.pl
-@@||nuorder.pl/assets/cache/images/miniatury/social-media/social_media_*.jpg$image,domain=www.nuorder.pl
 @@||philips.com/assets/img/Facebook.png$image,domain=accounts.philips.com
 @@||silvermet.eu/wp-content/plugins/arscode-social-slider/lionbars/$script
 @@||startme.com/assets/google-icon-*.svg$image,domain=start.me
@@ -7872,8 +7858,8 @@ shinden.pl#@#.fa-youtube-play.fa
 swiatebookow.pl#@#.facebook-button
 tvpuls.pl#@#.block-menu-menu-social-footer.block-menu.block > .menu
 www.dobreprogramy.pl#@##instagram
+@@/images/ico_gallery.png$image,domain=moja-ostroleka.pl
 @@/instagram_logo$domain=downdetector.pl
-@@||moja-ostroleka.pl/images/ico_gallery.png$image,domain=moja-ostroleka.pl
 !#safari_cb_affinity
 !
 !
