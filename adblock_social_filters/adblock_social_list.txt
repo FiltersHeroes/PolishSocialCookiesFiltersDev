@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.4.21.0
-! Last modified: Wed, 21 Apr 2021, 23:08 UTC+02
+! Version: 2021.4.23.0
+! Last modified: Fri, 23 Apr 2021, 19:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.4.21.0 aktualizacja: śro, 21 kwi 2021, 23:08 UTC+02
+! v.2021.4.23.0 aktualizacja: pią, 23 kwi 2021, 19:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1657,7 +1657,7 @@ budnet.pl##.widget_budnet_right
 budujemydom.pl,cozaile.pl,informatorbudownictwa.pl##.c-social-item
 budujemydom.pl,pwr.edu.pl##.find-us
 budujemy.eostroleka.pl##.aside-elem:nth-of-type(8)
-budujesz.pl##div.news-social-title:nth-child(1):not(:only-child)
+budujesz.pl##div.news-social-title:first-child:not(:only-child)
 budujmase.pl##.vc_col-sm-3.vc_column_container.wpb_column:nth-of-type(4) > .wpex-clr.vc_column-inner
 buff.pl##footer > .container.row.menu_banners3_wrapper
 bugo.pl##.contact_header_fb
@@ -5093,8 +5093,10 @@ polsl.pl##tr:nth-of-type(5) > .shortcutsLink:nth-of-type(2)
 polszczyzna.pl##.eltdf-icon-shortcode, .textwidget > h4
 polvision.com##.foot_search_share
 polygamia.pl###polysocial, #sidebar-footer-top, #menu-submenu-1 a[href*="youtube.com/user/polygamiapl"], .sharepostHome
-polygamia.pl#?##main-content div[class*=" "] > div[class*=" "][role="button"]:-abp-has( > div > svg[fill="none"][stroke-width="2"])
-polygamia.pl,www.dobreprogramy.pl##button[title="Kliknij, aby udostępnić"]
+polygamia.pl,www.dobreprogramy.pl##button[title="Kliknij, aby udostępnić"], a[title="Kliknij aby przejść do komentarzy"] ~ div[class] > div[class][role="button"]
+polygamia.pl,www.dobreprogramy.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class*=" "]:nth-child(2):-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
+polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):-abp-has( > div[class] > svg)
+polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class*=" "]:nth-child(2):-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
 pomagam.pl##.og-share.bg-color-fb.btn-icon-inherit.btn, .tweet.bg-color-tw.btn-icon-inherit.btn.js-twt, div.col-6.col-md-3:nth-of-type(3) > .list > .links > li:nth-child(-n+4)
 pomocdrogowa.info##div.text-center:nth-of-type(2) > a.f-icons
 pomocnamyszka.pl##.open-social-links
@@ -5363,7 +5365,7 @@ radiofest.pl##.top-contact-3
 radiofm-online.com##.rfb.ply-cont-item > a[href*="facebook.com/"]
 radiofoniakrakow.pl##.fbright
 radiogdansk.pl##.box-social-right
-radiojazz.fm###gkLogo ~ div:nth-child(2) > p:nth-child(1) > span:last-child > a[href*="i"][target="_blank"] > img[src*="i"]
+radiojazz.fm###gkLogo ~ div:nth-child(2) > p:first-child > span:last-child > a[href*="i"][target="_blank"] > img[src*="i"]
 radiojazz.fm##.gk-social
 radiokampus.fm##.socjalne
 radiolodz.pl##a[rel="me noopener"][target="blank"]
@@ -6509,7 +6511,7 @@ vela.net.pl##.footer-media
 velpa.pl###menu_buttons > .footer_links > li
 veluxshop.pl##.o-footerMenu > div.cell:nth-of-type(4) > div.m-footer__badges:nth-of-type(4) > p:nth-of-type(1)
 venezia.pl##.social_icons_title
-verseo.pl###footer > div:nth-child(2) > div.row > div:nth-child(1)
+verseo.pl###footer > div:nth-child(2) > div.row > div:first-child
 versus.com##div[class^="Footer__follow"]
 versus.com##div[class^="SocialButtons__socialButtons_"]
 versus.com##.icvs-versus_facebook_2, .icvs-versus_twitter_2
@@ -6784,10 +6786,6 @@ www-dobreprogramy-pl.cdn.ampproject.org##a.social
 www.adobe.com##footer #gnav_709
 www.auchan.pl#?#.row.no-gutters.justify-center > .col-12:-abp-has( > .row.no-gutters.justify-center p.text-center:-abp-contains(/^ Śledź nas na portalach społecznościowych $/))
 www.dobreprogramy.pl##.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb_iframe_widget.fb-post iframe[src*="www.dobreprogramy.pl%"]
-www.dobreprogramy.pl#?#article#main-content ~ div:nth-child(2) > div:nth-child(2) > div[class*=" "]:nth-child(2):-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
-www.dobreprogramy.pl#?#article#main-content > div:nth-child(2) > div:first-child > div:last-child:-abp-has( > span:-abp-contains(/^Udostępnij$/))
-www.dobreprogramy.pl#?#article#main-content > div:nth-child(2) > div:first-child > div[class*=" "]:first-child:-abp-has( > div[class*=" "][role="button"][tabindex="0"][aria-disabled="false"][tabindex="0"] > div > svg[stroke-linecap="round"] > circle)
-www.dobreprogramy.pl#?#article#main-content > div:nth-child(2) > div:first-child > div[class*=" "]:first-child:-abp-has( > div[role="button"]:first-child ~ div[role="button"]:last-child > div:only-child > svg)
 www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has(.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb_iframe_widget.fb-post iframe[src*="www.dobreprogramy.pl%"])
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:nth-of-type(-n+2)
 www.google.com,www.google.pl##.chr-footer-social
@@ -7023,6 +7021,7 @@ zyciezpsem.pl##.social_nav
 zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz Facebook)
 z-hotel.com###menu-item-868
 !dlahandlu.pl##.box-3 > div.marginT2x.bordered.header-1:nth-of-type(1)
+!polygamia.pl,www.dobreprogramy.pl#?##main-content div[class*=" "] > div[class*=" "][role="button"]:-abp-has( > div > svg[fill="none"][stroke-width="2"])
 !rynekzdrowia.pl###menu-1 .inline > li:nth-of-type(n+2):nth-of-type(-n+4)
 !www.youtube.com#?#.iv-promo-collapsed.iv-promo.annotation-type-custom.annotation:-abp-contains(Polub nas na Facebooku)
 ! partyflowers.pl##.astra-widget-social-profiles
@@ -7033,6 +7032,7 @@ z-hotel.com###menu-item-868
 /Content/Images/facebook.png$domain=ceneo.pl|jego-styl.pl|kraina-stylu.pl|wnetrza-ze-smakiem.pl
 /avlab*/img/bg_share.png$image,domain=avlab.pl
 /facebookgb.png$domain=schronisko.olsztyn.pl
+/facebook.svg$domain=agro-trade.pl|krolewskie.pl|lubliniec.starostwo.gov.pl
 /fbpodklad1.png$domain=mosir.org.pl
 /fbpodklad2.png$domain=gckis.trzebnica.pl|musicinfo.pl
 /fbpodklad_v2.png$domain=rajsmakosza.pl
@@ -7079,7 +7079,6 @@ z-hotel.com###menu-item-868
 ||agro-tom.eu/wp-content/uploads/20*/*/fb.png
 ||agro-tom.eu/wp-content/uploads/20*/*/logo-instagramu*.jpg
 ||agro-tom.eu/wp-content/uploads/20*/*/youtube.png
-||agro-trade.pl/images/icons/facebook.svg
 ||agro-trade.pl/images/icons/youtube.png
 ||aksiazka.pl/img/site/facebook-icons.png
 ||aksiazka.pl/img/site/twitter-icons.png
@@ -7283,7 +7282,6 @@ z-hotel.com###menu-item-868
 ||lookimg.com/app/themes/Peafowl/custom_hooks/twitter.png
 ||luban.pl/upload/baner/twitter-1.png
 ||luban.pl/upload/baner/youtube-1.png
-||lubliniec.starostwo.gov.pl/images/facebook.svg
 ||lumac.pl/templates/lumac/images/but_google.jpg
 ||lunch24.com/facebook-white.png
 ||lunch24.com/instagram-white.png
