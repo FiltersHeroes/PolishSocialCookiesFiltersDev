@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.4.24.1
-! Last modified: Sat, 24 Apr 2021, 19:08 UTC+02
+! Version: 2021.4.24.2
+! Last modified: Sat, 24 Apr 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.4.24.1 aktualizacja: sob, 24 kwi 2021, 19:08 UTC+02
+! v.2021.4.24.2 aktualizacja: sob, 24 kwi 2021, 23:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1001,7 +1001,7 @@ agro-trade.pl##.icon-social-icon-facebook
 agtom.eu#?##follow_block > div:-abp-contains(/(Facebooku|Grupa|YouTube)/)
 agusto.pl###easycontent_23
 agwerblog.pl##.instafollow, .footer-widget-inside.widget_text > .custom-html-widget.textwidget > ul
-agwerblog.pl,autonom.pl,ceneo.pl,domowa.pizza,dowbit.pl,gloskultury.pl,inspro.org.pl,klassikauto.pl,miastons.pl,moviesroom.pl,multikop.pl,nflix.pl,polscyfanieurowizji.pl,techfresh.pl,wielkahistoria.pl,zniczekmc.com.pl###custom_html-3
+agwerblog.pl,autonom.pl,ceneo.pl,domowa.pizza,dowbit.pl,gloskultury.pl,inspro.org.pl,klassikauto.pl,miastons.pl,moviesroom.pl,multikop.pl,nflix.pl,polscyfanieurowizji.pl,sledcza24.tv,techfresh.pl,wielkahistoria.pl,zniczekmc.com.pl###custom_html-3
 agwerblog.pl,eloblog.pl,komputerowapasja.pl,reklamacjatowaru.pl,zakreconywegeobiad.pl###custom_html-7
 ahh.sklep.pl##.container.userfooter > .row > p > span
 aidcom.eu##.message.social, .facebook.social
@@ -2409,7 +2409,7 @@ entra.pl#?#div.fusion-flip-box-wrapper:nth-of-type(3) > .fusion-flip-box:-abp-co
 enumizmatyczny.pl###fb_slider
 envelo.pl##.envelo-facebook, .envelo-twitter, .envelo-gplus, .envelo-in, .envelo-instagram
 epaka.pl##.footerCol3.footerCol
-epicgames.com#?##social_links ~ div > ul[class*="Links"] > li[class*="Links"]:-abp-has(a[href*="youtube.com"], a[href*="discord.gg"], a[href*="facebook.com"], a[href*="twitch.tv"], a[href*="twitter.com"], a[href*="instagram.com"])
+epicgames.com#?##social_links ~ div > ul[class*="Links"] > li[class*="Links"]:-abp-has(a[href*="youtube.com"], a[href*="discord.gg"]. [href*="discord.com"], a[href*="facebook.com"], a[href*="twitch.tv"], a[href*="twitter.com"], a[href*="instagram.com"])
 epiotrkow.pl##.sboxr
 epiotrkow.pl##div.wcontl:nth-of-type(5) > h1
 epiotrkow.pl##.wcontl:nth-of-type(2), .wcontl:nth-of-type(6) > h1
@@ -5843,6 +5843,7 @@ sk-sport.pl##.buttons3.footer_links
 slaskietargi.pl##.community
 slaskie.travel##.social-media-widget-display, .widget-LikeBox-slaskietravel
 slawomirambroziak.pl##li > a[href*="facebook.com/pages/slawomirambroziakpl/114501685327245"]
+sledcza24.tv###divBottomRight
 slepsksuwalki.pl##.content-area div.vc_col-sm-4.vc_column_container.wpb_column:nth-of-type(n+2):nth-of-type(-n+3)
 slepsksuwalki.pl#?#.site-footer .inline-block.vc_custom_heading:-abp-contains(Social media)
 slet.pl##.copyright_socials
@@ -6316,6 +6317,7 @@ trigar.pl##.userfooter div.span_1_of_4_ico.col:nth-of-type(4)
 triny.pl##.c-social-list
 tritontools.com##footer div.row:nth-of-type(1) .spacer-top-lg
 trofeasportowe.com##footer a[href*="facebook.com/Trofea-Sportowe-"]
+trojmiasto.tv##.share-wrapp-top
 trojmiejskaperfumeria.pl###easycontent_6 > .title_block > .title_block_inner, .social_wrap > .fto-facebook, .social_wrap > .fto-instagram-1, .social_wrap > .fto-gplus-squared
 trojmiejska.com##.rt_fb_like_box.footer_block
 trovit.pl##.share_friends
