@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.4.20.0
-! Last modified: Tue, 20 Apr 2021, 19:08 UTC+02
+! Version: 2021.4.24.0
+! Last modified: Sat, 24 Apr 2021, 19:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.4.20.0 aktualizacja: wto, 20 kwi 2021, 19:08 UTC+02
+! v.2021.4.24.0 aktualizacja: sob, 24 kwi 2021, 19:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3514,7 +3514,7 @@ pl##.cookieMonster:not(body):not(html)
 pl##.cookieNotice:not(body):not(html)
 pl##.cookieNotification:not(body):not(html)
 pl##.cookiePolicyNotice:not(body):not(html)
-pl##.cookiePolicy:not(body):not(html)
+pl##.cookiePolicy:not(.reveal):not(body):not(html)
 pl##.cookieTooltip:not(body):not(html)
 pl##.cookieWarningBox:not(body):not(html)
 pl##.cookieWarning:not(body):not(html)
@@ -3881,6 +3881,9 @@ agrohandel.com.pl#@#.panel_cookie:not(body):not(html)
 al.to,combat.pl#@##app > div:first-child > div
 ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-again
 ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
+elavon.pl#@#.acceptCookieButton:not(body):not(html)
+elavon.pl#@#.cookiePolicyMessage:not(body):not(html)
+elavon.pl#@#.cookiePolicy:not(.reveal):not(body):not(html)
 elementstore.pl#@##cookie-agree:not(button):not(.btn)
 goldenline.pl#@#.cookie-modal:not(body):not(html):not(.in):not(.mfp-hide)
 kpcen-torun.edu.pl,ranking.perspektywy.pl#@##cookieModal:not(.countryCookieModalContainer):not(.idcac)
@@ -3916,6 +3919,7 @@ allegro.pl,pikio.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl,vaillant.pl#@##cookiewarning:not(body):not(html)
 dkms.pl#@#.cc-banner:not(body):not(html)
 dkms.pl#@#.cc-window[aria-label*="consent"]:not(body):not(html)
+elavon.pl#@#.cookiePolicy:not(.reveal):not(body):not(html)
 electrolux.pl#@#.CookieConsent:not(body):not(html)
 epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not([id*="main"])
 eurogamer.pl#@##optanon:not(body):not(html)
