@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.4.23.0
-! Last modified: Fri, 23 Apr 2021, 19:08 UTC+02
+! Version: 2021.4.24.1
+! Last modified: Sat, 24 Apr 2021, 19:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.4.23.0 aktualizacja: pią, 23 kwi 2021, 19:08 UTC+02
+! v.2021.4.24.1 aktualizacja: sob, 24 kwi 2021, 19:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -6785,8 +6785,8 @@ wwwlosy.pl###menu-item-1544
 www-dobreprogramy-pl.cdn.ampproject.org##a.social
 www.adobe.com##footer #gnav_709
 www.auchan.pl#?#.row.no-gutters.justify-center > .col-12:-abp-has( > .row.no-gutters.justify-center p.text-center:-abp-contains(/^ Śledź nas na portalach społecznościowych $/))
-www.dobreprogramy.pl##.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i]
-www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has(.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i])
+www.dobreprogramy.pl##.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], iframe[src*="%2Fdobreprogramy%2Fposts%2F" i]
+www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has(.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], iframe[src*="%2Fdobreprogramy%2Fposts%2F" i])
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:nth-of-type(-n+2)
 www.google.com,www.google.pl##.chr-footer-social
 www.o2.pl##div[class][title="polubienia"], div[class][title="polubienia"] + div
