@@ -5930,9 +5930,10 @@ wwf.pl##.footer .hide_foot
 wwwlosy.pl###menu-item-1544
 www-dobreprogramy-pl.cdn.ampproject.org##a.social
 www.adobe.com##footer #gnav_709
+www.dobreprogramy.pl##iframe[src*="%2Fdobreprogramy%2Fposts%2F" i], iframe[src*="%2F305335630685%2Fposts%2F" i]
 www.auchan.pl#?#.row.no-gutters.justify-center > .col-12:-abp-has( > .row.no-gutters.justify-center p.text-center:-abp-contains(/^ Śledź nas na portalach społecznościowych $/))
-www.dobreprogramy.pl##.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], iframe[src*="%2Fdobreprogramy%2Fposts%2F" i]
-www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has(.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], iframe[src*="%2Fdobreprogramy%2Fposts%2F" i])
+www.dobreprogramy.pl##.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb-post.fb_iframe_widget[data-href*="/305335630685/posts/10158240483250686/" i]
+www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has(.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb-post.fb_iframe_widget[data-href*="/305335630685/posts/10158240483250686/" i], iframe[src*="%2Fdobreprogramy%2Fposts%2F" i], iframe[src*="%2F305335630685%2Fposts%2F" i])
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:nth-of-type(-n+2)
 www.google.com,www.google.pl##.chr-footer-social
 www.o2.pl##div[class][title="polubienia"], div[class][title="polubienia"] + div
