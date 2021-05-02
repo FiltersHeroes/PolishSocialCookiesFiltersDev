@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.4.28.2
-! Last modified: Wed, 28 Apr 2021, 23:08 UTC+02
+! Version: 2021.5.2.0
+! Last modified: Sun, 02 May 2021, 19:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.4.28.2 aktualizacja: śro, 28 kwi 2021, 23:08 UTC+02
+! v.2021.5.2.0 aktualizacja: nie, 02 maj 2021, 19:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1162,6 +1162,7 @@ apps.jeurissen.co##li.cjmd-biglinks__item:nth-of-type(-n+2)
 apress24.pl##footer .container > .row > div[class]:nth-of-type(2)
 apshop24.eu##.fixedSocial > a:nth-of-type(-n+2)
 aptekacentrumzdrowia.pl#?#footer .opening-hours.col-md-4:-abp-contains(Obserwuj nas na)
+aptekagemini.pl##.text-share-container > ul > li:nth-of-type(-n+3)
 aptekarzpolski.pl##.jeg_block_title > a[href*="facebook.com/AptekarzPolskiPismo/"]
 aptekarzpolski.pl#?#.theiaStickySidebar .jeg_block_heading_6.jeg_block_heading:-abp-contains(/Facebook|Twitter/)
 apteka-amica.pl##.left.sidebar > div.box:nth-of-type(n+5):nth-of-type(-n+8)
@@ -1788,7 +1789,7 @@ challengeme.gg##footer .text-right.media-links, .twitter-news
 chamskie.pl##.widget-fanbox
 change.shop.pl,elektro-outlet.net,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
 change.shop.pl,multibook.pl,starecegly.com###box_facebooklike
-channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,donashop.eu,dzwignice.info,e-pasaz.com,echotygodnik.info,filmaster.com,galeria-pestka.com,gls-group.eu,gorlice.tv,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,krokdozdrowia.com,kuponrabatowy.net,kwiaciarniaina.com,limanowa.in,lubelska.tv,nerwica.com,pl.futbol24.com,podstacja.com,prawo-budowlane.info,radiomalbork.fm,sadzonkiborowki.com,shop.massdnm.com,siatka.org,slonskyradio.eu,sluzebnosc.info,stoprocent.com,swmarcin-jarocin.com,tarnowska.tv,tvdami.eu,warsztatowiec.info,wejherowo24.info,woblink.com,zvami.tv##.facebook
+channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,donashop.eu,dzwignice.info,e-pasaz.com,echotygodnik.info,filmaster.com,galeria-pestka.com,gls-group.eu,gorlice.tv,hardreset.info,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,krokdozdrowia.com,kuponrabatowy.net,kwiaciarniaina.com,limanowa.in,lubelska.tv,nerwica.com,pl.futbol24.com,podstacja.com,prawo-budowlane.info,radiomalbork.fm,sadzonkiborowki.com,shop.massdnm.com,siatka.org,slonskyradio.eu,sluzebnosc.info,stoprocent.com,swmarcin-jarocin.com,tarnowska.tv,tvdami.eu,warsztatowiec.info,wejherowo24.info,woblink.com,zvami.tv##.facebook
 channel9.msdn.com,protonmail.com,protonvpn.com##.reddit
 charaktery.eu##.pdf_link
 chataalelipa.pl##.cal-social-media
@@ -1996,6 +1997,7 @@ cztbos.pl###tm-footer .slidecss
 czterylapysklep.com,okiemrolnika.pl,rynek.de,zdmikp.bydgoszcz.pl###likeboxbluestandardright
 czytajrzeszow.pl#?#div[id] ~ div[class^="szablon_break_poziom"] ~ div[id] + div > div:not(:empty):nth-of-type(-n+7):-abp-has( > a[target="_blank"] > img[src^="img/ico_"][src$="_off.png"])
 czytamyetykiety.pl,lowicz24.eu##li.social
+czyztak.pl##.footer .footer__sm > a:not([href*="patronite.pl/"])
 c-and-a.com##.footer__bg-02 > .container
 c-and-a.com##.util-add-margin-bottom.col-md-4.col-xs-12:nth-of-type(3)
 dabrowa-gornicza.pl##.footer > .right > #link-box > div:nth-of-type(1), .footer > .right > #link-box > a[href*="facebook.com/"]
@@ -2088,7 +2090,7 @@ devgaming.pl###devSocialButtons > a.devButton:nth-of-type(-n+2)
 dewelopart.pl##.yt-r, .in-r
 dewocjonalia-niedziela.pl###right_socials
 dexpol.com###panel, #panel2, #panel3
-deynn.blogspot.com,kamira90.blogspot.com,kesinails.pl,mylittlewhitehome.blogspot.com,reklamy-arek.blogspot.com,swedish-princesses.pl###HTML4
+deynn.blogspot.com,kamira90.blogspot.com,kesinails.pl,mylittlewhitehome.blogspot.com,reklamy-arek.blogspot.com,swedish-princesses.pl,techmaniachd.pl###HTML4
 dglnews.pl###media-spolecznosciowe
 diabdis.com##footer > section:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(4) > .row:nth-of-type(2)
 diagnozainternetu.pl###widget_text, .searchComIcons
@@ -2812,6 +2814,7 @@ garett.com.pl##.bottom-footer > div.footer-col:nth-of-type(3)
 garmin.com##.gf__social
 garneczki.pl##.footer__col--social
 gart.walbrzych.pl###head_info_social
+gastropaczka.pl##.footer > div > h2:nth-child(4):nth-of-type(2)
 gastro-pol.pl###bar-fb
 gastro.pl##.elementor-popup-modal.dialog-widget
 gazeo.pl##.yt-blue
@@ -3073,6 +3076,7 @@ happy-surfer.com##.row > .bii
 hardcorowo.pl,stskurier.com###fbLink
 harderfit.eu###top-menu > li:nth-last-of-type(-n+3) > a[href*=".com/"]
 harderfit.eu#?#span[style*="color"] > a[href*=".com/"]:-abp-contains(/(FACEBOOK|INSTAGRAM|LINKEDIN)/)
+hardreset.info##.contact > h3, .contact > h3 ~ a[href*=".com/"]
 harmony.org.pl##a[href*="facebook.com/pages/Harmony-Biuro-rachunkowe/463505313706616"]
 harpersbazaar.com##.share-module--button-wrap-pinterest.share-module--button-wrap
 hbo.com##.footerMain-listSocial
@@ -4978,6 +4982,7 @@ plk-sa.pl##.boxFacebook, .boxTwitter, .boxYoutube
 plk.pl##.col-sm-12.col-md-6.col-lg-3.col-xl-3 > h3:nth-of-type(1)
 plock.eu#?#li.ctaWrapper:nth-of-type(6):-abp-has( > a[href="pl/plock_na_facebooku.html"])
 plotek.pl##.likepage, .quizModule-sociall
+plotkibiznesowe.pl##.stream-item-above-header > a[href*="facebook.com/"] > img[src]
 plushbezlimitu.pl##.socials-row
 plustek.com##footer ~ aside > a
 pluszaki.com###footer_secondary > .row > div.column:nth-of-type(4)
@@ -5521,6 +5526,7 @@ retailnet.pl##.footer-widget-3
 retne.eu###header-all > header + a[style]
 retroage.net##.bg-grey-100.border-grey-200.border-1.section, .no-padding-sm-lg.col-xs-12.col-md-3
 retrolab.pl##.wiersz_fb
+retromedia.pl###lite-fb-chat
 retromtb.pl##td:nth-of-type(2) > table > tbody > tr > td:nth-of-type(2) > table > tbody > tr:nth-of-type(n+3) > td > div
 retronagazie.eu###sfsi-widget-5
 retrotech.blog##.magazine_plus_widget_social.widget
@@ -5541,6 +5547,7 @@ rmf.fm###footer-icon-facebook, #footer-icon-googleplus, #footer-icon-instagram, 
 rmf.fm###new-footer-icon-facebook, #new-footer-icon-youtube
 roadtripbus.pl##ul > .widget-block:nth-of-type(2)
 robojet.pl##div.col-sm-3:nth-of-type(1) > .content-element > .footer-title, div.col-sm-3:nth-of-type(1) > .content-element > .footer-title ~ p > a > img, .footer-links > .footer-links > li > a, .slide-out-div
+roborock-poland.pl##.nav__social-list
 rojax.pl#?#div.banerek:-abp-has( > a[href*="facebook.com/pages/PHU-ROJAX/296979873645429"])
 rokicki.pl###menuRight > .f
 roland-gazeta.pl##.jeSocial > span:nth-of-type(-n+3), .item-147, .item-185
@@ -6099,6 +6106,7 @@ superauto24.com##div.smframe:nth-of-type(9), div.smframe:nth-of-type(10)
 superauto24.com##.home > .cr > .params > div.smframe:nth-of-type(11)
 superkoszyk.pl,ustawlige.com##.menu-item-facebook
 supermedia.pl##.userfooter td:nth-of-type(2) a
+supermedia.pl##.userfooter > .row > p > span[style^="color"]
 supermemo.pl###block-block-42 > .content > h4, #profiles
 supersam-katowice.pl#?#div.project_details_item:-abp-has( > .project_details_item_title:-abp-contains(/^(Facebook|Instagram)$/))
 supertydzien.pl##.widget.row:nth-of-type(5) > .text-center.col-md-12, .widget.row:nth-of-type(6)
@@ -7534,6 +7542,8 @@ z-hotel.com###menu-item-868
 ||strusiakraina.pl/wp-content/uploads/2017/09/youtube-ikona.png
 ||strusiakraina.pl/wp-content/uploads/2018/07/facebook-ikona.png
 ||strusiakraina.pl/wp-content/uploads/2018/07/instagram-ikona.png
+||supermedia.pl/userdata/public/assets//facebook.jpg
+||supermedia.pl/userdata/public/assets//instagram.jpg
 ||sweetdecor.pl/img/ident/kody-grupa-fb
 ||swiatniki-gorne.pl/data/layout/www/facebook.png
 ||sylwa.eu/rerum/wp-content/uploads/20*/*/*Please-follow-us-on-Facebook-*.png
