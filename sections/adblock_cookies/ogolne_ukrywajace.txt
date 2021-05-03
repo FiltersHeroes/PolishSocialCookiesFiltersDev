@@ -680,11 +680,11 @@ pl##[id^="topInfo"]:not(body):not(html)
 !~montanacolors.com##.divcookie:not(body):not(html)
 ##.DolnaInformacjaCookie
 ##.slabowidzacyCookie
-##DIV[style*="background:url(images/cookies_tlo.png)"]
-##DIV[style*="url(layout/cookies.png)"]
+##div[style*="background:url(images/cookies_tlo.png)"]
+##div[style*="url(layout/cookies.png)"]
 ##body > .plikicookies
 ##body > script[src*="cukiernia"] ~ div#cukiernia
-##body > #ciastkowy
+##div#ciastkowy
 ##body > #_rodo
 ##ciasteczka:not(body):not(html)
 ##cookidiv:not(body):not(html)
