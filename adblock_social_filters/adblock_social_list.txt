@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.5.3.0
-! Last modified: Mon, 03 May 2021, 19:08 UTC+02
+! Version: 2021.5.3.1
+! Last modified: Mon, 03 May 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.5.3.0 aktualizacja: pon, 03 maj 2021, 19:08 UTC+02
+! v.2021.5.3.1 aktualizacja: pon, 03 maj 2021, 23:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -6371,6 +6371,8 @@ tranzystor.pl##.vl-top-right-header
 traseo.pl##.fb-like-box-container
 travelbit.pl##a > [src*="travelbit.pl/wp-content/uploads/2013/10/fb-01.png"]
 travelplanet.pl##.sticker-socials
+trec.pl##li > a[href="https://www.facebook.com/messages/t/sklepTrecPl"]
+trec.pl##.b-social-list > li
 trenerangielskiego.com###menu-item-2543, #menu-item-2544
 treningkrakow.pl###widget-10
 triathlonprzechlewo.pl###menu-triathlon-przechlewo-pl-1 > li:nth-child(7), .grve-social
