@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.5.3.0
-! Last modified: Mon, 03 May 2021, 19:08 UTC+02
+! Version: 2021.5.3.1
+! Last modified: Mon, 03 May 2021, 17:29 UTC+00
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.5.3.0 aktualizacja: pon, 03 maj 2021, 19:08 UTC+02
+! v.2021.5.3.1 aktualizacja: pon., 03 maj 2021, 17:29 UTC+00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -427,6 +427,7 @@ bluecity.pl##.gp-gdpr__belt
 bluegames.pl##.notification-wrapper-bottom.notification-wrapper
 bluestilo.com##ma-cookie-law-info
 blulink.pl##.privatepolicy
+bnpparibas.pl##div[class^="CookiesPopUp_popup-container"]
 bobrowniki.tv###cookie_policy_popup
 bodyfit.pl,proszynski.pl,seriale.co,woda.slupsk.pl,wodociagi.slupsk.pl,zarmen.pl###komunikat
 boehringer-ingelheim.pl##.it-eprivacy-banner.it-eprivacy-banner--bottom
@@ -598,6 +599,7 @@ cottonhouse.com.pl,jakubiak.com.pl,sorbona.edu.pl###ppc.ppc
 coverise.com##coverise-cookies
 cowkrakowie.pl##.cookies--container
 cpb.pl,efaktury.org,merixstudio.pl,multikod.net.pl,multikody.pl,olekmotocykle.pl,ranking.net.pl,szukarka.net,twojliquid.pl###message
+cp.mywebinar.com###admin > .topline
 cqb.pl###overlay_cookies
 credit-suisse.com##.mod_cookie_policy
 credstepfunds.pl,csir.pl,jasfbg.com.pl,rik.pl###ac_cookie_bar
@@ -1804,6 +1806,7 @@ mylead.global##body > #bnSect
 mylead.global,wsmochota.com.pl###rodo_modal
 mynewsdesk.com###accept-page-cookies
 myob.pl###warning-popup
+myownconference.pl##.cookie-body
 myownconference.pl##.co-ag
 mytastepol.com##.alert-cookiedisclaimer
 mzdik.pl###webDataTime > span
@@ -1909,6 +1912,7 @@ odleglosci.pl,tabele-kalorii.pl###komunikat-pp-dol
 odo24.pl##.rodo-body
 odsluchane.eu###app > .alert-flash.notification
 odtur.pl##.messages_bottom.messages
+odyseusz.msz.gov.pl###CookiesPolicyBox
 oees.pl###fm-pu-container
 oemautomatic.pl##.cookieAcceptanceComponent
 oetker.pl##.js-pd-main.pd-main
@@ -3729,6 +3733,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##body > .plikicookies
 ##body > script[src*="cukiernia"] ~ div#cukiernia
 ##body > #ciastkowy
+##body > #_rodo
 ##ciasteczka:not(body):not(html)
 ##cookidiv:not(body):not(html)
 ##div.ciasteczkowy

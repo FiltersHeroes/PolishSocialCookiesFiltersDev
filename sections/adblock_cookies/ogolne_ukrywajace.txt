@@ -1,5 +1,4 @@
 ~pl##body > div#cookie[class=""]
-##body > #_rodo
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
 ~pl###actionCooki:not(body):not(html):lang(pl)
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
@@ -686,6 +685,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##body > .plikicookies
 ##body > script[src*="cukiernia"] ~ div#cukiernia
 ##body > #ciastkowy
+##body > #_rodo
 ##ciasteczka:not(body):not(html)
 ##cookidiv:not(body):not(html)
 ##div.ciasteczkowy
