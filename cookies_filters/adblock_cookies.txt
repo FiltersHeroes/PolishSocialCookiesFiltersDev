@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.5.3.1
-! Last modified: Mon, 03 May 2021, 17:29 UTC+00
+! Version: 2021.5.3.2
+! Last modified: Mon, 03 May 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.5.3.1 aktualizacja: pon., 03 maj 2021, 17:29 UTC+00
+! v.2021.5.3.2 aktualizacja: pon, 03 maj 2021, 23:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1402,7 +1402,6 @@ karpacz-bus.pl#?#body > table:nth-of-type(1):-abp-has(.txtprywatnosc)
 karpacz.pl###popupBody, #popupContainer
 kartunsy.pl###ait-infobar
 kartuzy.info##div#page_top_topbar2
-katalogpes.rops-katowice.pl,noatun.com.pl,seirp.elblag.pl###ciastkowy
 katrinex.pl#?#p.tiny_wyrozn1.tekst_bialy > em:-abp-contains(Prawo telekomunikacyjne)
 katw.pl###__fr_cookie
 kawasaki.pl###Panel_Cookies
@@ -3728,18 +3727,18 @@ pl##[id^="topInfo"]:not(body):not(html)
 !~montanacolors.com##.divcookie:not(body):not(html)
 ##.DolnaInformacjaCookie
 ##.slabowidzacyCookie
-##DIV[style*="background:url(images/cookies_tlo.png)"]
-##DIV[style*="url(layout/cookies.png)"]
 ##body > .plikicookies
 ##body > script[src*="cukiernia"] ~ div#cukiernia
-##body > #ciastkowy
 ##body > #_rodo
 ##ciasteczka:not(body):not(html)
 ##cookidiv:not(body):not(html)
 ##div.ciasteczkowy
+##div#ciastkowy
 ##div#wezcookie
 ##div.boxzilla-polityka-prywatnosci
 ##div.polityka-prywatnosci
+##div[style*="background:url(images/cookies_tlo.png)"]
+##div[style*="url(layout/cookies.png)"]
 ###Ciasteczka:not(body):not(html)
 ###Ciastka:not(body):not(html)
 ###Informacja_o_ciasteczkach:not(body):not(html)
