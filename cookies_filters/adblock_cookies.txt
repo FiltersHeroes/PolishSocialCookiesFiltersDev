@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.5.3.2
-! Last modified: Mon, 03 May 2021, 23:08 UTC+02
+! Version: 2021.5.4.0
+! Last modified: Tue, 04 May 2021, 19:10 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.5.3.2 aktualizacja: pon, 03 maj 2021, 23:08 UTC+02
+! v.2021.5.4.0 aktualizacja: wto, 04 maj 2021, 19:10 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3723,8 +3723,6 @@ pl##.wrap-cookie-info:not(body):not(html)
 pl##[class*="cookie-policy"]:not(body):not(html)
 pl##[class^="box-cookie"]:not(body):not(html)
 pl##[id^="topInfo"]:not(body):not(html)
-!~mobil.abus.com###cookieChoiceInfo
-!~montanacolors.com##.divcookie:not(body):not(html)
 ##.DolnaInformacjaCookie
 ##.slabowidzacyCookie
 ##body > .plikicookies
@@ -3833,7 +3831,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
 ! Bugi Kiboke
-agrohandel.com.pl#@#.panel_cookie:not(body):not(html)
+agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 al.to,combat.pl#@##app > div:first-child > div
 ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-again
 ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
@@ -3841,11 +3839,15 @@ elavon.pl#@#.acceptCookieButton:not(body):not(html)
 elavon.pl#@#.cookiePolicyMessage:not(body):not(html)
 elavon.pl#@#.cookiePolicy:not(.reveal):not(body):not(html)
 elementstore.pl#@##cookie-agree:not(button):not(.btn)
+epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not([id*="main"])
 goldenline.pl#@#.cookie-modal:not(body):not(html):not(.in):not(.mfp-hide)
+gtv.com.pl#@##panel_cookie_dol
 kpcen-torun.edu.pl,ranking.perspektywy.pl#@##cookieModal:not(.countryCookieModalContainer):not(.idcac)
+lomza.pl#@##komunikat-cookie
 mediaexpert.pl#@#.c-alert.is-cookies:not(body):not(html)
 metropoliaztm.pl#@##cookieModalCenter
 metropoliaztm.pl#@##cookieModalCenter ~ .modal-backdrop
+naekranie.pl#@##polityka-cookies
 noweinwestycje.pl#@#.cookieBar:not(body):not(html)
 pl#@#body > div:not([id]):not([class])
 pl#@##catapult-cookie-bar
@@ -3859,6 +3861,7 @@ poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
 pracuj.pl#@#header > div:last-child:not([data-test])
 puratos.pl#@##cookieBannerModal
+puratos.pl#@#.cookie-banner:not(body):not(html)
 ranking.perspektywy.pl#@##cookieModal ~ .modal-backdrop
 straganzdrowia.pl#@##cookie-law-info-bar ~ .cli-modal-backdrop
 tvp.pl#@#.tvp-cookie-overlay:not(body):not(html)
@@ -3875,42 +3878,33 @@ volcano.pl#@##cookiesModal
 allegro.pl,pikio.pl#@#[class*="cookie-policy"]:not(body):not(html)
 biblioteka.wroc.pl#@#.cookie-notice-container:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl,vaillant.pl#@##cookiewarning:not(body):not(html)
-calvinklein.pl,pl.tommy.com#@#.cookie-notice:not(body):not(html):not(#wrapper):not(#footer)
+calvinklein.pl,pl.tommy.com#@#.cookie-notice:not(body):not(html):not(#footer):not(#wrapper)
 dkms.pl#@#.cc-banner:not(body):not(html)
 dkms.pl#@#.cc-window[aria-label*="consent"]:not(body):not(html)
 elavon.pl#@#.cookiePolicy:not(.reveal):not(body):not(html)
 electrolux.pl#@#.CookieConsent:not(body):not(html)
-epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not([id*="main"])
 eurogamer.pl#@##optanon:not(body):not(html)
 eurogamer.pl#@#.optanon-alert-box-wrapper:not(body):not(html)
 f5.pl#@#.cookies-popup:not(body):not(html)
-forguides.pl#@#.box_in
 gdansk.pl,gokf.gda.pl,wins.pl#@##cookies:not(body):not(html):not(.section):not(.fade)
 gry.pl,shinden.pl,wykop.pl#@#div[class^="app_gdpr"]
-gtv.com.pl#@##panel_cookie_dol:not(body):not(html)
 gtv.com.pl#@#.panel_cookie:not(body):not(html)
 hbogo.pl#@#.cookie-consent:not(body):not(html):not(.paragraph)
 kupbilecik.pl,wins.pl#@#.cookie-container:not(body):not(html)
-lektury.gov.pl#@#.cookies-box:not(body):not(html)
-lomza.pl#@##komunikat-cookie:not(body):not(html)
 migora.pl,motocombo.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
-multikino.pl#@#.cookie-msg-box:not(body):not(html)
-multikino.pl#@#.cookie-msg:not(body):not(html)
 naekranie.pl#@##modal-rodo-info:not(body):not(html):not(.fade):not(.reveal-modal)
-naekranie.pl#@##polityka-cookies:not(body):not(html)
 noweinwestycje.pl#@#.cookieBar:not(body):not(html)
 orange.pl#@##cookies-info:not(body):not(html)
-ose.gov.pl#@#.cookies:not(body):not(html):not(.wrapper):not(.popup-newsletter):not(#page):not(#container)
+ose.gov.pl#@#.cookies:not(body):not(html):not(#page):not(#container):not(.wrapper):not(.popup-newsletter):not(.js-cookies)
 parkiet.com,rp.pl#@##rodo-popup:not(body):not(html):not(.fade):not(.modal)
 pikio.pl#@##cookie-policy:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
 puratos.pl#@##cookieInfo:not(body):not(html)
-puratos.pl#@#.cookie-banner:not(body):not(html)
 sklep-domwhisky.pl#@#.rodo-popup:not(body):not(html):not([style="display: block;"])
 viasatexplore.pl,viasathistory.pl,viasatnature.pl#@#.privacy-policy:not(body):not(html)
-volcano.pl#@#aside[class*="cookie"]:not(body):not(html)
+volcano.pl#@#aside[class*="cookie"]
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 @@/js/jquery.cookie.min.js$domain=hotto.pl|moric.pl|pokatne.pl|rozklad-pkp.pl|rozklad.pkp.pl|telepizza.pl
