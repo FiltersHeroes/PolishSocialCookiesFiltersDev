@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.5.6.0
-! Last modified: Thu, 06 May 2021, 22:12 UTC+02
+! Version: 2021.5.6.1
+! Last modified: Thu, 06 May 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.5.6.0 aktualizacja: czw., 06 maj 2021, 20:10 UTC+00
+! v.2021.5.6.1 aktualizacja: czw, 06 maj 2021, 23:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -428,6 +428,7 @@ bluegames.pl##.notification-wrapper-bottom.notification-wrapper
 bluestilo.com##ma-cookie-law-info
 blulink.pl##.privatepolicy
 bnpparibas.pl##div[class^="CookiesPopUp_popup-container"]
+bnpparibas.pl###kg-cookie-content.kg-cookie-content
 bobrowniki.tv###cookie_policy_popup
 bodyfit.pl,proszynski.pl,seriale.co,woda.slupsk.pl,wodociagi.slupsk.pl,zarmen.pl###komunikat
 boehringer-ingelheim.pl##.it-eprivacy-banner.it-eprivacy-banner--bottom
@@ -1021,6 +1022,7 @@ fora.pl##body > div[style^="position: fixed;"] > div[style^="position:relative"]
 forbot.pl###ForbotCookies
 ford-esklep.pl###box_alert
 foreca.pl###ckieconsent
+forguides.pl###rodoShadow
 forma.czest.pl##.cookieMonster
 forumdarczyncow.pl##.cookies-info-bar
 forumdermatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.pl##.ui-widget.ui-dialog[aria-describedby="ajaxDialogrodopopup"]
@@ -1899,6 +1901,7 @@ nuorder.pl##.___ncn-container
 nutella.com###acookie
 nvidia.com###cookiePolicy-layer
 nysa.eu###img_77, #popup-bg
+nzozrevita.pl##.policyLayer
 o2.pl##.zyHor, #app-inner ._1Arb2
 obi.pl##.footer-bottom .disclaimer
 obligacjeskarbowe.pl##.js-cookie-rodo.cookie-rodo
