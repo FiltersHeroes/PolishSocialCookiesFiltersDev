@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.5.8.0
-! Last modified: Sat, 08 May 2021, 19:08 UTC+02
+! Version: 2021.5.9.0
+! Last modified: Sun, 09 May 2021, 19:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.5.8.0 aktualizacja: sob, 08 maj 2021, 19:08 UTC+02
+! v.2021.5.9.0 aktualizacja: nie, 09 maj 2021, 19:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -91,7 +91,7 @@ adidas.pl,ea.com,garmin.com,leagueoflegends.com,nespresso.com,reebok.pl,weather.
 adidas.pl,reebook.pl##div[class^="cookie_consent_bar___"]
 adjule.pl###alerts
 adm-media.pl,intellect.pl,kociadolina.pl,mrn.pl##.policy
-adobe.com,behance.net,dell.com,eu.crucial.com,ge.com,intel.pl,knorr.pl,lipton.com,mtv.pl,pl.fotolia.com,przepisy.pl,rexona.com,vmware.com##div#_evidon_banner.evidon-banner:lang(pl)
+adobe.com,behance.net,dell.com,eu.crucial.com,ge.com,intel.pl,knorr.pl,lipton.com,mtv.pl,pl.fotolia.com,przepisy.pl,rexona.com,vmware.com,www.playstation.com##div#_evidon_banner.evidon-banner:lang(pl)
 adobe.com,merixstudio.pl##.message
 adocean-global.com##div.cookies-flex
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
@@ -301,6 +301,7 @@ baldowski.pl,label-magazine.com##.moduleCookiesBox
 balladine.com,basspolska.com,koszulkolandia.com,ksiazki-medyczne.eu,mistama.com,nails.silcare.com,ochnik.com,pl.coccodrillo.eu,planetadzwieku.com,prezencik.eu,sklep.charaktery.eu,swiatpaneli.com###cookies_message
 balluff.com,dvb.de,edrone.me,elblag.net,tidal.com##.cookie-info
 balterio.com,pergo.pl,quick-step.com.pl##a[data-selector="open-cookie-popup"]
+bambino.pl,podworko.nivea.pl###PrivacyPolicyCookie
 banggood.com##.cookie-tip
 bankier.pl###smart-cmp-host
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
@@ -371,6 +372,7 @@ bilka.com.pl,krasnik-okna.pl##footer > div > #mod99
 billbook.com##app-cookies
 bimbi.pl##center > div[style*="background"] > center > table
 bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
+binance.com#?##__APP ~ div[class^="css-"]:-abp-has( > div > a[href="/pl/privacy"])
 bingospa.pl,notino.pl###gritter-notice-wrapper
 bing.com##div#thp_notf_div
 bing.com###b_notificationContainer
@@ -860,6 +862,7 @@ empik.com##.js-cookies-accept
 emt-systems.pl###rodoBG
 endoca.com##.gdpr-modal-notify
 eneba.com#?##app > div[class]:-abp-has( > div > h3:-abp-contains(/^Ciasteczka$/))
+eneba.com#?##app > main ~ div[class]:-abp-has( > h3:-abp-contains(/^Ciasteczka$/))
 engie-services.pl##.agreements
 enigmatis.pl###root > div:nth-of-type(1):not([id]):not([class])
 enjoyuk.pl###fanback
@@ -2119,7 +2122,6 @@ podlogiidrzwi.pl###foobar-message-1
 podrogach.pl###acceptCookieBox
 podrozezmamaitata.com##.penci-gprd-law
 podwawelem.eu#?#.rstbox.eb-dialog:-abp-has(a[href*="przetwarzamy-twoje-dane"], a[href*="polityka-cookies"])
-podworko.nivea.pl###PrivacyPolicyCookie
 poettinger.at##.mfp-ready.mfp-bg
 poettinger.at#?#.mfp-ready.mfp-wrap:-abp-has(a[onclick*="AcceptCookie()"])
 pogodynka.pl###accept
@@ -2778,7 +2780,6 @@ www.google.com,www.google.pl##body > div[class*=" "]:not([id]) > c-wiz > div[jsc
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.google.com,www.google.pl###gb > div[class][style^="background"]
 www.google.com,www.google.pl#?##taw div[id][style*="block"]:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"])
-www.playstation.com###_evidon_banner
 wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
 wypozyczalniasamochodowwarszawa.pl###can_use_cookies
