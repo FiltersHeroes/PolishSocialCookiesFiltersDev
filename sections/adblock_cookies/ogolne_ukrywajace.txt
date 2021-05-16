@@ -1,5 +1,4 @@
 ~pl##body > div#cookie[class=""]
-###kontenernacookie:not(body):not(html)
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
 ~pl###actionCooki:not(body):not(html):lang(pl)
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
@@ -714,6 +713,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###infociasteczka:not(body):not(html)
 ###infoprywatnosciciastka:not(body):not(html)
 ###komunikat-cookies:not(body):not(html)
+###kontenernacookie:not(body):not(html)
 ###korzystanieZCiateczek:not(body):not(html)
 ###kuki:not(body):not(html)
 ###modal-rodo-info:not(body):not(html):not(.fade):not(.reveal-modal)
