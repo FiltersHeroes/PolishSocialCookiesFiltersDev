@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.5.16.1
-! Last modified: Sun, 16 May 2021, 23:08 UTC+02
+! Version: 2021.5.19.0
+! Last modified: Wed, 19 May 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.5.16.1 aktualizacja: nie, 16 maj 2021, 23:08 UTC+02
+! v.2021.5.19.0 aktualizacja: śro, 19 maj 2021, 23:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -846,8 +846,9 @@ emocje.pro,steemit.com###CybotCookiebotDialog
 empik.com##.js-cookies-accept
 emt-systems.pl###rodoBG
 endoca.com##.gdpr-modal-notify
-eneba.com#?##app > div[class]:-abp-has( > div > h3:-abp-contains(/^Ciasteczka$/))
+eneba.com#?##app > div[class] > div[class]:-abp-has( > h3:-abp-contains(/^Ciasteczka$/))
 eneba.com#?##app > main ~ div[class]:-abp-has( > h3:-abp-contains(/^Ciasteczka$/))
+eneba.com#?##app > main > div[class] > div[class]:-abp-has( > h3:-abp-contains(/^Ciasteczka$/))
 engie-services.pl##.agreements
 enigmatis.pl###root > div:nth-of-type(1):not([id]):not([class])
 enjoyuk.pl###fanback
@@ -2003,8 +2004,8 @@ platan.pl###dialog1
 player.pl##.cBox
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
 plusbank.pl##.coo_wrap
-plushbezlimitu.pl##.modal-overlay
 plus.pl###rodo-popup-overlay
+plus.pl,plushbezlimitu.pl##.modal-overlay
 plywalnia.limanowska.pl###container > .ue
 pl.aleteia.org##.qc-cmp-ui-content, #qcCmpUi
 pl.chili.tv###_evh-ric
@@ -3740,6 +3741,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 ! Bugi Kiboke
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 al.to,combat.pl#@##app > div:first-child > div
+coca-cola.pl,toteraz.pl#@##onetrust-consent-sdk
 ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-again
 ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
 elavon.pl#@#.acceptCookieButton:not(body):not(html)
@@ -3772,7 +3774,6 @@ puratos.pl#@#.cookie-banner:not(body):not(html)
 ranking.perspektywy.pl#@##cookieModal ~ .modal-backdrop
 straganzdrowia.pl#@##cookie-law-info-bar ~ .cli-modal-backdrop
 toteraz.pl#@##cookie-preferences
-toteraz.pl#@##onetrust-consent-sdk
 tvp.pl#@#.tvp-cookie-overlay:not(body):not(html)
 volcano.pl#@##cookiesModal
 @@/wp-content/plugins/cookie-law-info/public/*$stylesheet
