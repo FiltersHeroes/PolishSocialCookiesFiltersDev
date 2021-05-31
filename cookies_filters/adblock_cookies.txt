@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.5.30.0
-! Last modified: Sun, 30 May 2021, 19:08 UTC+02
+! Version: 2021.5.31.0
+! Last modified: Mon, 31 May 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.5.30.0 aktualizacja: nie, 30 maj 2021, 19:08 UTC+02
+! v.2021.5.31.0 aktualizacja: pon, 31 maj 2021, 23:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -619,7 +619,7 @@ cyfrowarepublika.pl,energoekspert.com.pl###system-message
 czarno-biale.pl##.ui-widget.ui-dialog[aria-describedby="rodo-popup"]
 czasnazdrowie.fundacjabos.pl##.main > center:first-child > div[style*="background"]:first-child
 czechtourism.com###eu_cookie
-czekoladacortez.pl,eljacht.pl,eurocent.opole.pl,garwolin-starostwo.pl,gniezno24.com,kukko.com,mania4x4.pl,only4music.com,orpeg.pl,proszkow.eu,techniline.com,trafokazje.eu,wrosip.pl,zoosafari.com.pl##.activebar-container
+czekoladacortez.pl,eljacht.pl,eurocent.opole.pl,garwolin-starostwo.pl,gniezno24.com,kukko.com,mania4x4.pl,only4music.com,orpeg.pl,proszkow.eu,staraoliwa.pl,techniline.com,trafokazje.eu,wrosip.pl,zoosafari.com.pl##.activebar-container
 czescidobmw.pl###container > div[onclick]
 czesci.wanicki.pl###JScookieInfo
 czluchow.com.pl##table:nth-of-type(1) > tbody > tr > td > p:nth-of-type(1)
@@ -764,6 +764,7 @@ dziary.com,lvlup.pro,piast-gliwice.eu,pomorskie.eu,przegladlokalny.eu###cookiePo
 dzidziusiowo.pl##.section--cookies
 dzieciom.pl##.e-cookieBar
 dziekanat.ewspa.edu.pl#?#div.info:-abp-has( > a[href*="/cookies.html"])
+dzielnica6.krakow.pl##.cookiesAcceptance
 dziennikwschodni.pl,niskarata.org,wykop.pl##.rodo-alert
 dziennikwschodni.pl,polskieradio.pl,polskieradio24.pl,prsa.pl,ticketclub.pl##.rodo-modal
 dzwignice.info#?#body > div:first-of-type:-abp-has(a[href$="/polityka-prywatnosci"])
@@ -851,7 +852,7 @@ ematik.pl#?#table ~ table:-abp-has(td p > font > font > a[href*="faq_serwis"])
 emc-sa.pl,entertheroom.pl,girlsroom.pl,skionline.pl,trentino.pl###popup_rodo
 emeryturyirenty.pl,gofin.pl,kodeksspolek.pl,podatekvat.pl,poradnikksiegowego.pl,poradypodatkowe.pl,prawnik-rodzinny.pl,umowycywilnoprawne.pl,vademecumksiegowego.pl###formalAgreementModal, #modalBackdrop
 emito.net##.cookie-jar
-emocje.pro,steemit.com###CybotCookiebotDialog
+emocje.pro,hoyavision.com,steemit.com###CybotCookiebotDialog
 empik.com##.js-cookies-accept
 emt-systems.pl###rodoBG
 endoca.com##.gdpr-modal-notify
@@ -1059,6 +1060,7 @@ fundacjakornice.pl###cookit
 funduszpomerania.pl###eprivacyModal
 funnygames.pl###cmp-container-id
 furnitex.pl##.bottomWarning.container
+futbol.pl##.js-cp-box
 futu.pl###my-alert
 gaj-stal.com,polonia.nl###pasek
 galaxy-centrum.pl###gdpr-window
@@ -1259,6 +1261,7 @@ icmarketing.pl,kidsb2b.pl,weddingtradeshow.pl##div[data-editable="boxCookieNotif
 icppc.pl###wptbheadline1
 idcgames.com##.avisolegal_p
 ideau.pl##.cookie__info
+idea-invest.pl###rodoModal.rodo-modal
 ids.q8.com###calibr8-cookie-compliance
 id.sonyentertainmentnetwork.com###appnotice-contents
 id.sonyentertainmentnetwork.com###js-SIEWS1lib-header
@@ -1675,6 +1678,7 @@ micros.com.pl##.popup-wrapper
 miedzlegnica.eu###cookie-wrapper
 miejscepiastowe.pl##.info_24_tlo
 mielec.pl##.footer_cookieinfo
+mieszkanie.porowneo.pl,podroze.porowneo.pl#?##root > div[class^="sc-"]:nth-last-child(-n+2):-abp-has( > button ~ div > a[href*="rules=polityka_prywatnosci"])
 migora.pl###topInfoContainer1 > #topInfo1
 milenium.pl##.cookie_acceptation
 miles-and-more.com##.cookieusage__base
@@ -1946,6 +1950,8 @@ ostrorog.pl##.div_loader
 ostrowiecnr1.pl###iopp
 ostrowmaz.com###cookies_notification
 oswdamnica.edu.pl##.popup_background
+otoagent.pl##.gdpr-popup-blurred-background
+otoagent.pl##.gdpr-popup-container
 otodom.pl##div[class*="CookiesBar"]:nth-of-type(2)
 otolaryngolodzy24.pl,prow.lubelskie.pl,rogowskidevelopment.pl,stanlab.eu###rodo-policy
 otomotoprofi.pl##.grid.site-notification
@@ -2105,6 +2111,7 @@ pomoc.mysklep.pl###compliance
 pomorskie.eu###cookiesinfoPWU
 pomorskie.travel###cookiesInfoPOT
 popaopa.pl###popup-content
+porowneo.pl#?#footer > div[class^="sc-"]:nth-last-child(-n+2):-abp-has( > button ~ div > a[href*="rules=polityka_prywatnosci"])
 portale-randkowe-ranking.pl,valtra.pl##.disclaimer
 portalgorski.pl###aToolTip
 portalmorski.pl###clause-info, #clause-info-mobile > p
@@ -2287,6 +2294,7 @@ salonmeblowy.net.pl###nfpolicy
 salonydenon.pl##.tvcmscookies-notice
 salonynoma.pl##.alert-container.pp-alert-noma
 samnaprawiam.com##.gdprcookie
+samochod.porowneo.pl#?##root > #main-app-container > div[class^="sc-"]:nth-last-child(-n+2):-abp-has( > button ~ div > a[href*="rules=polityka_prywatnosci"])
 samsonite.pl##div.cookies-dialog
 samsung.com##.cm-cookie-geo
 sandecja.pl###rodoPolicy
@@ -2630,6 +2638,8 @@ visionoptyk.eu##.cookieArea
 visitbydgoszcz.pl###customFixed.message
 visitczechrepublic.com##.czt-cookie-bar
 visualnet.pl###banner-start
+vitra.com##a[class*="footerCookieSettings_"]
+vitra.com#?#.modal__wrapper:-abp-has(button[data-test-id="acceptAllCookieSettings"])
 vivaldi.com###cookiemsg
 vivrehome.pl###notification__consent
 vivus.pl###app > #outer-container + div[class^="c"]
@@ -3660,6 +3670,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##cookidiv:not(body):not(html)
 ##div.ciasteczkowy
 ##div#ciastkowy
+##div#shark-cookie.shark-cookie
 ##div#wezcookie
 ##div.boxzilla-polityka-prywatnosci
 ##div.polityka-prywatnosci
@@ -3770,10 +3781,14 @@ elavon.pl#@#.cookiePolicyMessage:not(body):not(html)
 elavon.pl#@#.cookiePolicy:not(.reveal):not(body):not(html)
 elementstore.pl#@##cookie-agree:not(button):not(.btn)
 epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not([id*="main"])
+fxpro.pl#@#.popup-cookies:not(body):not(html)
 goldenline.pl#@#.cookie-modal:not(body):not(html):not(.in):not(.mfp-hide)
 gtv.com.pl#@##panel_cookie_dol
 kpcen-torun.edu.pl,ranking.perspektywy.pl#@##cookieModal:not(.countryCookieModalContainer):not(.idcac)
 lomza.pl#@##komunikat-cookie
+mcdonalds.pl#@#body > .cookies[style*="display"]
+mcdonalds.pl#@#.cookies-container:not(body):not(html)
+mcdonalds.pl#@#.cookies-info:not(body):not(html)
 mediaexpert.pl#@#.c-alert.is-cookies:not(body):not(html)
 metropoliaztm.pl#@##cookieModalCenter
 metropoliaztm.pl#@##cookieModalCenter ~ .modal-backdrop
@@ -3799,6 +3814,7 @@ tvp.pl#@#.tvp-cookie-overlay:not(body):not(html)
 volcano.pl#@##cookiesModal
 @@/wp-content/plugins/cookie-law-info/public/*$stylesheet
 @@||bitner.com.pl/*/jquery.cookiebar.js
+@@||consent.cookiebot.com/uc.js$script,domain=lyko.com
 @@||iforbet.pl/resources/js/jquery.cookiebar.js
 @@||kawalekkodu.pl/bl-plugins/cookie-consent/js/advert.js
 @@||sdk.privacy-center.org^$domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
@@ -3822,11 +3838,13 @@ gry.pl,shinden.pl,wykop.pl#@#div[class^="app_gdpr"]
 gtv.com.pl#@#.panel_cookie:not(body):not(html)
 hbogo.pl#@#.cookie-consent:not(body):not(html):not(.paragraph)
 kupbilecik.pl,wins.pl#@#.cookie-container:not(body):not(html)
+mcdonalds.pl#@#.cookies-container:not(body):not(html)
+mcdonalds.pl#@#.cookies-info:not(body):not(html)
+mcdonalds.pl,ose.gov.pl#@#.cookies:not(body):not(html):not(#page):not(#container):not(.wrapper):not(.popup-newsletter):not(.js-cookies)
 migora.pl,motocombo.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
 naekranie.pl#@##modal-rodo-info:not(body):not(html):not(.fade):not(.reveal-modal)
 noweinwestycje.pl#@#.cookieBar:not(body):not(html)
 orange.pl#@##cookies-info:not(body):not(html)
-ose.gov.pl#@#.cookies:not(body):not(html):not(#page):not(#container):not(.wrapper):not(.popup-newsletter):not(.js-cookies)
 parkiet.com,rp.pl#@##rodo-popup:not(body):not(html):not(.fade):not(.modal)
 pikio.pl#@##cookie-policy:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
