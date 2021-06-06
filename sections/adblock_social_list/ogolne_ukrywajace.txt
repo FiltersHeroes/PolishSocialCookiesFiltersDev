@@ -378,7 +378,7 @@ pl##.footer-facebook-sign
 pl##.footer-forum
 pl##.footer-google
 pl##.footer-social-share-icons
-pl##.footer-social-wrap span
+!pl##.footer-social-wrap span
 pl##.footer-tube
 pl##.footer-twitter-sign
 pl##.footer-youtube
@@ -648,4 +648,4 @@ pl##[id^="nk_fajne"]
 pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_likes, .yt_likes
 ###menu-portale-spolecznosciowe
-##.td-social-icon-wrap a:not([href*="feed" i]):not([href*="rss" i])
+##.td-social-icon-wrap a:not([href*="feed" i]):not([href*="rss" i]):not([href^="mailto:"])
