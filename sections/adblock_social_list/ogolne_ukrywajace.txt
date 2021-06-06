@@ -1,6 +1,4 @@
 ~pl##li.top_bar_item_list_item_social_media:lang(pl)
-pl##a[href^="whatsapp://send"]
-pl##a[href^="fb-messenger://share/"]
 ~pl###bossbyte_slide:lang(pl)
 ~pl###wysZakladki > #fb:lang(pl)
 ~pl###wysZakladki > #gp:lang(pl)
@@ -118,6 +116,8 @@ pl##.wykopShareIcon
 pl##.ytico.icon
 pl##.ytlbHead
 pl##a.like
+pl##a[href^="fb-messenger://share/"]
+pl##a[href^="whatsapp://send"]
 pl##a[title="Click to share on Google+"]
 pl##a[title="Instagram"]
 pl##a[title="gplus"]
@@ -380,7 +380,6 @@ pl##.footer-facebook-sign
 pl##.footer-forum
 pl##.footer-google
 pl##.footer-social-share-icons
-!pl##.footer-social-wrap span
 pl##.footer-tube
 pl##.footer-twitter-sign
 pl##.footer-youtube
@@ -649,5 +648,6 @@ pl##.__xX20facebook
 pl##[id^="nk_fajne"]
 pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_likes, .yt_likes
+!pl##.footer-social-wrap span
 ###menu-portale-spolecznosciowe
 ##.td-social-icon-wrap a:not([href*="feed" i]):not([href*="rss" i]):not([href^="mailto:"])
