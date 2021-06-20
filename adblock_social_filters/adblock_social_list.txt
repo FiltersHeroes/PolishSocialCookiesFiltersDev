@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.6.16.0
-! Last modified: Wed, 16 Jun 2021, 23:08 UTC+02
+! Version: 2021.6.20.0
+! Last modified: Sun, 20 Jun 2021, 19:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.6.16.0 aktualizacja: śro, 16 cze 2021, 23:08 UTC+02
+! v.2021.6.20.0 aktualizacja: nie, 20 cze 2021, 19:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1020,7 +1020,7 @@ airbnb.pl#?#footer div > ul > li > span > a[target="_blank"]:-abp-has(svg)
 airly.eu##div[class^="social-bar__SocialIcons-"]
 airly.eu##[class^="footer__SocialLinks"]
 airly.eu#?#button[aria-label*="Floating"]:-abp-has([class*="social-bar__StyledShareIcon-"])
-airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,braclowiecka.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,generali.pl,gls-group.eu,gorlice.in,gorlice.tv,grene.pl,grupawsparcia.pl,homedoctor.pl,hrkgame.com,iautomatyka.pl,isl.pl,itaka.pl,jezuici.pl,jhi.pl,kalisz24.info.pl,karnet.krakow.pl,kruszyna.pl,kwantowo.pl,lalorraine.pl,laroche-posay.pl,limanowa.in,lubelska.tv,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,muzeum.tychy.pl,nasztomaszow.pl,niepodlegla.gov.pl,nowakonfederacja.pl,pap.pl,pingpong.bydgoszcz.pl,planeta-budowlana.pl,pogonszczecin.pl,polskieszlaki.pl,rms.pl,roltechagro.pl,rpo.malopolska.pl,sacz.in,sejm.gov.pl,shop.massdnm.com,skgd.pl,sklephonda.pl,tarnowska.tv,tczewska.pl,tipmedia.pl,tvdami.eu,tvobiektyw.pl,tvpogranicze.pl,tvswinoujscie.pl,tw.waw.pl,vidaron.pl,wentylacja24.pl,wiez.pl,winiary.pl,wloclawek.pl,wp.mil.pl,zstiomeritum.edu.pl##.youtube
+airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,braclowiecka.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,echotygodnik.info,familysklep.pl,generali.pl,gls-group.eu,gorlice.in,gorlice.tv,grene.pl,grupawsparcia.pl,homedoctor.pl,hrkgame.com,iautomatyka.pl,isl.pl,itaka.pl,jezuici.pl,jhi.pl,kalisz24.info.pl,karnet.krakow.pl,kruszyna.pl,kwantowo.pl,lalorraine.pl,laroche-posay.pl,limanowa.in,lubelska.tv,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,muzeum.tychy.pl,nasztomaszow.pl,niepodlegla.gov.pl,nowakonfederacja.pl,pap.pl,pingpong.bydgoszcz.pl,planeta-budowlana.pl,pogonszczecin.pl,polskieszlaki.pl,rms.pl,roltechagro.pl,rpo.malopolska.pl,sacz.in,sejm.gov.pl,shop.massdnm.com,skgd.pl,sklephonda.pl,tarnowska.tv,tczewska.pl,tipmedia.pl,tvdami.eu,tvobiektyw.pl,tvpogranicze.pl,tvswinoujscie.pl,tw.waw.pl,vidaron.pl,wentylacja24.pl,wiez.pl,winiary.pl,wloclawek.pl,wp.mil.pl,zstiomeritum.edu.pl##.youtube
 aisko.pl###siesoc.siesoc
 aisko.pl##.icon-only.top-menu-item.menu-item > a[href*=".com/"]
 aisko.pl##.top-menu-item.menu-item:not(.icon-only) > a[href*=".com/"]
@@ -2208,6 +2208,7 @@ domodi.pl##.dml-footer-social-media > span:nth-of-type(n+3):nth-of-type(-n+7)
 domodi.pl##.dm-1of5.dm-gcf__item.dm-footer-section:nth-of-type(3)
 domodi.pl##.dm-footer-content .dm-1of3.dm-gcf__item.dm-footer-section
 domoplus.pl##footer div.col-md-3.col-sm-6.col-xs-12:nth-of-type(4)
+domowa.tv##footer section nav section:last-child div:first-child > div > div > div:nth-child(n+3):nth-child(-n+4)
 domowefrytki.com#?#.site-footer .elementor-text-editor > p:-abp-contains(Profile Społecznościowe)
 domowemelodie.pl###ytnav, #fbnav
 domowe-wypieki.pl###sunfw-social-share
@@ -2763,6 +2764,9 @@ forbot.pl##h3:nth-of-type(11)
 fordata.pl##div[class$="_footerNewsletter"] > .haszesc:nth-child(5):nth-of-type(3), div[class$="_footerSocial"]
 fordogtrainers.pl##div.horizontal-module.col-xs-12.col-sm-6.col-md-2:nth-of-type(1) > .module-cont
 forexclub.pl##.count-youtube
+forpsi.pl##.subscribeInside
+forpsi.pl###main-footer .subitem > h3
+forpsi.pl###newsSlider .newsContainer > header
 forte.com.pl###forte-new-social-menu
 forte.com.pl##.instagram_contenerm, .linked_in_contener
 fortnitepolska.pl,overwatch.pl,polscygracze.pl##.mks_button_small
@@ -4289,6 +4293,7 @@ mittendrin.pl##.container-social.container
 mittendrin.pl#?#div.container-hader.container:-abp-contains(MEDIA SPOŁECZNOŚCIOWE)
 mixremedia.eu###box_cusConBody_73
 miyacosmetics.com###text-6 > .textwidget > a:not([style])
+mi-home.pl##li > a[href*="facebook.com/mihomepl/"]
 mi-home.pl##li.entry:nth-of-type(3)
 mi-home.pl###newsletter_block_left > div:nth-of-type(3)
 mi.com##.span8.customer-relationship
@@ -4661,6 +4666,7 @@ nintendoswitch.pl##.nav-social-wrapper, .foot-social-wrapper
 niskarata.org##div.footer-nav-group.col-sm-3:nth-of-type(4)
 nitrofilm.pl##div:nth-of-type(2) > div:nth-of-type(4), div:nth-of-type(2) > div:nth-of-type(5)
 niveapolska.pl##footer ~ .popup
+nivea.pl##.nx-share
 nivea.pl##.nx-social-icons
 njumobile.pl##li > .sun-orb
 noatun.com.pl###stopka a[href*="facebook.com/noatun.strony.internetowe"]
@@ -5151,6 +5157,7 @@ pl.waterdrop.com##div.Footer__Block--text:nth-of-type(3)
 pl.waterdrop.com,sklep.kawa.pl##.Footer__Social
 pl.web.silcare.com###u80876
 pl.wix.com##a[href*="instagram.com/wix/"], a[href*="linkedin.com/company/wix.com"], a[href*="plus.google.com/+Wix/posts"], a[href*="facebook.com/wix"], a[href*="twitter.com/wix"]
+pl.youtubers.me###sharer-side
 pmi.org.pl###header_socials
 pnt.info.pl##a[href="#facebook"]
 pocisk.org##.right-panel-social, .two_half
