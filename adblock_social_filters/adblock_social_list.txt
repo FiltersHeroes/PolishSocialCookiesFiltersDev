@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.6.20.1
-! Last modified: Sun, 20 Jun 2021, 23:08 UTC+02
+! Version: 2021.6.21.0
+! Last modified: Mon, 21 Jun 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.6.20.1 aktualizacja: nie, 20 cze 2021, 23:08 UTC+02
+! v.2021.6.21.0 aktualizacja: pon, 21 cze 2021, 23:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2227,6 +2227,7 @@ doniczki-poznan.pl##.TwitterFeeds
 doosanbabcock.com##a.no-after:nth-of-type(n+4)
 doradcapodatkowy.pl###bottom-5 > .moduletable > .custom > .pdcorrect.col-lg-12.col-md-12.col-sm-12.col-xs-12 > .pdcorrect.col-lg-5.col-md-5.col-sm-12.col-xs-12
 doradcapodatkowy.pl##.moduletable .pdcorrect.col-lg-5.col-md-5.col-sm-12.col-xs-12 > p:nth-of-type(2)
+doradcasmaku.pl##.other_options > .item_share_options
 doradztwosadownicze.pl##.site-header__list--socials > li.site-header__list-item:nth-of-type(n+2):nth-of-type(-n+3)
 dorzeczy.pl,wprost.pl##.youtube-button
 dotd.pl,krainaekozabawek.pl##.likebox_content
@@ -2251,7 +2252,7 @@ drewniaki.com.pl##.userSocial
 drewnianaroza.pl###fixed-social
 drewnolandia.pl##.footer-icons > a:nth-child(-n+2)
 dre.pl##img[src="/images/F_icon.svg"]
-dre.pl,drzwi-cal.pl,legionisci.com,magazyn.wp.pl,operatorzy.pl,press.pl##.socials
+dre.pl,drzwi-cal.pl,legionisci.com,magazyn.wp.pl,operatorzy.pl,porta.com.pl,press.pl##.socials
 driverm.webd.pl###sidebar > div.sidebar-box:nth-of-type(3)
 drogeriaestrella.pl,hanet.com.pl##.wce_social
 drogeriekoliber.pl###page-footer > .container > div.row:nth-of-type(1) > div:nth-of-type(3)
@@ -2785,7 +2786,6 @@ forum.android.com.pl##.cSignInTeaser_right
 forum.blogowicz.info##a[href*="url.blogowicz.info/LubieTo"], a[href*="url.blogowicz.info/gplus"]
 forum.blogowicz.info##.podzielsie, #facebook-badge, #googleplus-badge, .column-sidebar-inner > div:nth-of-type(3), #gfr > div:nth-of-type(-n+2), #facebook2, .imp:nth-of-type(n+5):nth-of-type(-n+6), #gfr > div:nth-of-type(3) > div:nth-child(n+3), .firstPostd > hr:nth-of-type(3)
 forum.budujemydom.pl##.ipsShareButton
-forum.budujemydom.pl#?#.cPostShareMenu > h5:-abp-contains(na innych)
 forum.grywamtu.pl#?#li.ipsSpacer_bottom.ipsBox.cForumRow:nth-of-type(1) > .ipsAreaBackground_reset.ipsDataList_zebra.ipsDataList_large.ipsDataList > li.ipsClearfix.ipsDataItem_responsivePhoto.ipsDataItem.cForumRow:nth-of-type(1):-abp-contains(Facebook)
 forum.home.pl##a > img[src$="/home.pl-posluchaj.JPG"]
 forum.home.pl##.prefooter-block-02 > h6, .prefooter-column-two
@@ -2841,6 +2841,7 @@ furgonetka.pl##.contact-social
 fusionmarketing.pl##.pr__social
 fxmag.pl##.Footer-social
 fxpro.pl,rudaslaska.pl##.socials-links
+f.kafeteria.pl,forum.budujemydom.pl,forum.komputerswiat.pl,forum.pclab.pl,forum.purepc.pl,hdtvpolska.com#?#.cPostShareMenu h5:-abp-contains(na innych)
 gadu-gadu.pl##footer div.footer__top--item.col-lg-2.col-sm-6:nth-of-type(4)
 gaggenau.com##.m-footerpagefunctionsfollow
 gait.pl##.zkm-facebook
@@ -7594,6 +7595,7 @@ z-hotel.com###menu-item-868
 ||ock.olsztyn.pl/resources/site/images/i-fb.png
 ||ohydne.pl/images/icon_tt.png
 ||olimpiasport.pl/gfx/sm_*_iko.png
+||optyktomaszow.pl/wp-content/uploads/20*/*/insta-icon.png
 ||orland.com.pl/images/logos/znajdz-nas-na-fb.png
 ||osprzet-sklep.pl/images/LinkedIn_logo_initials.png
 ||otopodhale.pl/_images/facebook_background.png
