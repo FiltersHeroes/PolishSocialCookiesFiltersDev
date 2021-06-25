@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.6.24.1
-! Last modified: Thu, 24 Jun 2021, 19:08 UTC+02
+! Version: 2021.6.25.0
+! Last modified: Fri, 25 Jun 2021, 15:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.6.24.1 aktualizacja: czw, 24 cze 2021, 19:08 UTC+02
+! v.2021.6.25.0 aktualizacja: pią, 25 cze 2021, 15:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -868,7 +868,7 @@ pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_like
 4mens.pl##.text_share
 4programmers.net##.footer-bubble a[href*="facebook.com/4programmers.net"]
 4run.pl##.headerSocial, .footerSocialMedia
-4szpaki.pl,at-outlet.pl,biustonoszedokarmienia.pl,menland.pl,mikesport.pl,nalepsze.pl,walizkazabawek.pl,zico-bike.pl##.social-profiles-info
+4szpaki.pl,at-outlet.pl,biustonoszedokarmienia.pl,cocolita.pl,menland.pl,mikesport.pl,nalepsze.pl,walizkazabawek.pl,zico-bike.pl##.social-profiles-info
 5el.pl##.widget_black_studio_tinymce.uk-panel:nth-of-type(3)
 5mindlazdrowia.pl##.footer-widget-2
 5mindlazdrowia.pl##.instagram-grid
@@ -1716,6 +1716,7 @@ busy.info.pl###contact-user-messenger-button
 busy.info.pl###footer > div:nth-of-type(1)
 butomaniak.pl,ecowybrane.pl,hjort-design.pl,keko.pl,kiwizoo.pl,modbis.pl,schuhfreak.iai-shop.com,skin-science.pl,sklepsmjsport.pl###links_footer_1
 butosklep.pl###menu_contact > #menu_buttons
+butyjana.pl##.bjSocialMedia
 butylukow.pl,dd-print.pl,eksperymentuj.pl,exactpair.com,korob.pl,melbo.pl,ozonee.pl,pepegi.eu,perfumeriainternetowa.pl,rosarosie.iai-shop.com,royalfashion.pl,sklepsmjsport.pl,woliniusz.pl###tws_i_1
 butynalata.pl##.facebook_banner
 butynalata.pl##.footer_links_facebook
@@ -1942,7 +1943,7 @@ cottonina.pl#?##wrapper > section.l-section:-abp-has(h2 > i.fa-instagram)
 couchsurfing.com##.footer-icons > section.footer-block
 cowsierscipiszczy.pl##.wpf-sbtn, .wpf-sb-buttons
 cowwilanowie.pl##div.search__socials:first-child
-cowzdrowiu.pl##.fa-instagram-square.fab
+cowzdrowiu.pl##.header-row .fab
 cozahistoria.pl###menu-item-87, #menu-item-88, #menu-item-89
 cracovia.pl##.socialFixBox
 craftboard.pl##a[href*="facebook.com/listaserwerowminecraft"]
@@ -2114,7 +2115,7 @@ deltashop.pl,nbielizna.pl,ploty-pergole.pl,soleibabe.pl###widget_shop6
 demotywatory.pl##a[href*="instagram.com/demotywatorypl/"]
 demotywatory.pl##.external-share
 demus-zegarki.pl##.cms_main_social
-denley.pl###socials_footer > a:nth-of-type(-n+2)
+denley.pl##.socials_footer_links
 deon.pl##.item-wykop
 deon.pl##.socialIkonki, .sl > li:nth-child(-n+4), .footer-right__social-media, .mega-menu__social-media
 dermaquest.pl##div.footer_column:nth-of-type(6)
@@ -2471,6 +2472,7 @@ enderchest.pl##.desktop > li:nth-of-type(2)
 endo.pl##footer .col-xl-4.col-md-4.col-xs-12 > h3
 eneba.com#?#div#app > footer > div > div > div:-abp-contains(Obserwuj)
 enelsport.pl##div.page:nth-of-type(2) > div.width-25.column:nth-of-type(3), .quick-insta, .quick-fb
+energylandia.pl##.el-social-footer, .floating-facebook-button
 eneris.pl,wste.edu.pl##.social_menu
 enfamil.pl##.float-app:nth-of-type(3), .float-fb:nth-of-type(4)
 enova.pl##.ipb-layout__footer-row-socials
@@ -2640,6 +2642,7 @@ f1experiences.com##.social-media-wrapper
 f1wm.pl##a[href*="facebook.com/pages/F1WMpl-Wyprzedz-Mnie/312906321837"]
 f1wm.pl##a[href*="twitter.com/F1WM"]
 f1.dziel-pasje.pl##.kf_social3 > li:not(:last-child)
+fabrykatanca.pl##.fa-youtube-square, #top-nav-social *
 facetnatalerzu.pl###HTML7
 facetnatalerzu.pl,kamira90.blogspot.com,moje-bubble.blogspot.com,pozycjeobowiazkowe.pl,swedish-princesses.pl###HTML5
 fachowydekarz.pl###social .site-follow
@@ -2831,6 +2834,7 @@ fundacjadominikana.org###sp-weather a[href] > img[src]
 fundacjajoannyradziwill.pl###custom_html-4 > .widget-title
 fundacjajoannyradziwill.pl##.fjr-social-menu
 fundacjakibica.pl,konik-online.pl,superkantor.pl###fb_rozwin
+fundacjaneuca.pl##.soc_widget
 fundacjapsom.pl###opes-wp-social-tab-yt
 fundacjawolnosci.org###menu-item-2742, #menu-item-2750, #menu-item-2752, #menu-item-2755
 funduszpomerania.pl##.custom > ul > li:nth-of-type(1)
@@ -3702,6 +3706,7 @@ koraliki.pl###footer div.col-sm-3:nth-of-type(1)
 kordialne.pl###right_sidebar_item-3 > .tborder:nth-of-type(1)
 korner.pl###custom_post_widget-2, #custom_post_widget-9
 korob.pl##a[href*="facebook.com/KOROB-330310557144075"]
+korona-kielce.pl##footer [href="https://www.tiktok.com/@korona.kielce"], footer [href="https://www.youtube.com/c/KoronaKielceOfficial"]
 korr.pl##a[href*="facebook.com/pages/KORR/512135138801101"], a[href*="youtube.com/user/KORRtunery"]
 kosapopatelni.pl##.bdaia-io-url-instagram
 kosapopatelni.pl,weneedmore.space###media_image-3
@@ -7307,6 +7312,10 @@ z-hotel.com###menu-item-868
 ||agro-tom.eu/wp-content/uploads/20*/*/logo-instagramu*.jpg
 ||agro-tom.eu/wp-content/uploads/20*/*/youtube.png
 ||agro-trade.pl/images/icons/youtube.png
+||akademiadietetyki.pl/dietetyk/wp-content/uploads/2019/01/facebook-logo-button-2.png
+||akademiadietetyki.pl/dietetyk/wp-content/uploads/2019/01/google-plus.png
+||akademiadietetyki.pl/dietetyk/wp-content/uploads/2019/01/pinterest-logotype-circle.png
+||akademiadietetyki.pl/dietetyk/wp-content/uploads/2019/01/youtube.png
 ||aksiazka.pl/img/site/facebook-icons.png
 ||aksiazka.pl/img/site/twitter-icons.png
 ||alejasztuki.com/images/fecebook-logo.png
