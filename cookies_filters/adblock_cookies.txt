@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.6.24.0
-! Last modified: Thu, 24 Jun 2021, 15:08 UTC+02
+! Version: 2021.6.25.0
+! Last modified: Fri, 25 Jun 2021, 15:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.6.24.0 aktualizacja: czw, 24 cze 2021, 15:08 UTC+02
+! v.2021.6.25.0 aktualizacja: pią, 25 cze 2021, 15:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -668,7 +668,7 @@ demeco.pl###copyrights > #foot_col_5
 demo.eskok.pl#?#article > table p:-abp-has(strong:-abp-contains(plików cookie))
 demo.kasastefczyka.pl#?#.artToRight:-abp-has(strong:-abp-contains(plików cookie))
 demo.ncbkf.pl###cookup
-denley.pl##.ck-popup.cookiepopup
+denley.pl##.dialog_wrapper_cookie, #dialog_cover
 denon.pl##.cookiestrip
 denso.com,gearbest.com,gorlice.tv,internationalpaper.com##.cookiePolicy
 dentalcare.pl,pampers.pl##.dc-cookie-consent
@@ -1454,6 +1454,7 @@ konskowola.info.pl###privacy_info_overlay
 korepetycje.edu.pl,niania.pl##.cookies_message_bar
 koscian.net##.zgoda_popup
 kosmetyki.fr###nscookie
+kotlet.tv##.global-wrapper > div[style*="background-color"]
 koty.pl,psy.pl###infoPopup
 kozak.pl###cookie_inf_o
 kprlegionowo.pl###sb-container
@@ -1505,6 +1506,7 @@ kzgw.gov.pl###jcemediabox-popup-page
 k-mag.pl#?##modals-container:-abp-contains(RODO)
 laboratoria.net#?##colorbox:-abp-has(#rodoPopupClose)
 laczynaspilka.pl##app-common-settings-rule
+lafaktoria.pl##.region-cookies
 lagardere-tr.pl###madcoders-cookies-info-bar-wrapper-back
 lagardere-tr.pl,wakacyjnipiraci.pl###tarteaucitronAlertBig
 lahtipro.pl,profix.com.pl,proline-tools.com.pl,tryton-tools.pl###alert_bar
@@ -1698,6 +1700,7 @@ mirjan24.pl###window_overlay
 mirpol-bis.pl##.message-popup-background
 missplanner.pl##.page--notification
 mistama.com,sklep.agro-plus.com.pl,sklepkrzyzanek.pl###change_terms_message
+mistrzbranzy.pl##.rodo-dialog-confirm, .rodo-dialog-confirm + .ui-widget-overlay
 mitsubishielectric.com##.cookie-hint
 mittendrin.pl##.bpcms-cookie-bar
 mixmedia.pl##div#cook_info
