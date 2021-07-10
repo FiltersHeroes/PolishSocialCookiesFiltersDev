@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.7.4.2
-! Last modified: Sun, 04 Jul 2021, 23:08 UTC+02
+! Version: 2021.7.10.0
+! Last modified: Sat, 10 Jul 2021, 15:53 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.7.4.2 aktualizacja: nie, 04 lip 2021, 23:08 UTC+02
+! v.2021.7.10.0 aktualizacja: sob., 10 lip 2021, 13:53 UTC+00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1884,6 +1884,8 @@ nvidia.com###cookiePolicy-layer
 nysa.eu###img_77, #popup-bg
 nzozrevita.pl##.policyLayer
 o2.pl##.zyHor, #app-inner ._1Arb2
+o13.pl,xio.pl###rodoModal
+o13.pl,xio.pl##.modal-backdrop
 obi.pl##.footer-bottom .disclaimer
 obligacjeskarbowe.pl##.js-cookie-rodo.cookie-rodo
 obozymlodziezowe.pl#?#header ~ div > div > div[class^="jss"]:last-child:-abp-contains(cookies)
@@ -2959,7 +2961,6 @@ oetker.*/static/js/privacy-dialog/
 !
 ! Ogólne reguły blokujące
 cookie-law-popup.js$domain=pl
-/CookieAlert-latest.min.js$script
 /CookieLaw$script
 /ajax/privacy_popup$xmlhttprequest,domain=pl
 /component-CookieConsent.$script,domain=pl
