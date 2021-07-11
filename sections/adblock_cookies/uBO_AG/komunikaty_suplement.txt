@@ -98,6 +98,8 @@ claas.pl##.fancybox-overlay:has(.cookieHint)
 club.galilea.com.pl###welcome, .modal-backdrop
 coca-cola.pl##html.ot-modal-open, html.ot-modal-open body:style(overflow: visible !important;)
 coca-cola.pl##.ot-modal-open #onetrust-consent-sdk
+contentstandard.pl,mobileclick.pl##body.rodoNoScroll:style(overflow-y: auto !important; height: auto !important;)
+contentstandard.pl,mobileclick.pl###rodoScreenBg
 corbby.com.pl##html[style^="overflow"]:style(overflow: auto !important;)
 corbby.com.pl###tfade:has( + #tlight:has( > .termspopupcontainer))
 corbby.com.pl###tlight:has( > .termspopupcontainer)
@@ -545,5 +547,3 @@ zyjzdrowo.info###vicky-cookiebox, .modal-backdrop
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has( > span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"]):remove()
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
-contentstandard.pl,mobileclick.pl###rodoScreenBg
-contentstandard.pl,mobileclick.pl##body.rodoNoScroll:style(overflow-y: auto !important; height: auto !important;)
