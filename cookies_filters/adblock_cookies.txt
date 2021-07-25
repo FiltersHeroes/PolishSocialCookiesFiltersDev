@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.7.23.0
-! Last modified: Fri, 23 Jul 2021, 23:08 UTC+02
+! Version: 2021.7.25.0
+! Last modified: Sun, 25 Jul 2021, 15:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.7.23.0 aktualizacja: pią, 23 lip 2021, 23:08 UTC+02
+! v.2021.7.25.0 aktualizacja: nie, 25 lip 2021, 15:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1379,7 +1379,7 @@ junak.com.pl###wrapper > .toplayer
 jung.de###language-redirection-layer
 jurajska.pl###app > section.modal
 justjoin.it##.cookies-footer
-justwatch.com##.consent-banner
+justwatch.com,twitch.tv##.consent-banner
 juventus-academy.rzeszow.pl#?#div[id^="avatar-full-"][id*="block"]:-abp-has(.artykul strong:-abp-contains(OCHRONA DANYCH OSOBOWYCH))
 jysk.pl,lovehairbarbershop.business.site,uzywana-muzyka.business.site###cookieDialog
 kabam.com##div#eu_privacy
@@ -2061,7 +2061,7 @@ pl.gravatar.com##.custom-cookie-banner
 pl.hama.com###privacyOptionsCookieOptIn-bottom
 pl.ingrammicro.eu###CookieConsentLayer
 pl.investing.com##.consentBarWrapper
-pl.jooble.org,twitch.tv##.gdpr-consent-banner
+pl.jooble.org##[data-test-name="_termsOfServices"][class^="GdprPopup_gdpr_consent_banner"]
 pl.kronospan-express.com##.cc-container
 pl.meteox.com,pl.sat24.com###cookie-message
 pl.mitsubishielectric.com##.pc_scsmod-cookie_alert
@@ -2617,7 +2617,6 @@ tvprofil.com##.gdpr-container
 tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvs.pl##.RodoNotyfication
 twinn.pl##table td div[class*="szablon_top"][class*="left"] > center
-twitch.tv##.butterBar, .toast-manager__container
 twitter.com##.eu-cookie-notice
 twojeankiety.pl###notkaCookies
 twojesoczewki.com###cookie_wrap
