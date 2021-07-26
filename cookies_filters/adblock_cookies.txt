@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.7.25.0
-! Last modified: Sun, 25 Jul 2021, 15:08 UTC+02
+! Version: 2021.7.26.0
+! Last modified: Mon, 26 Jul 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.7.25.0 aktualizacja: nie, 25 lip 2021, 15:08 UTC+02
+! v.2021.7.26.0 aktualizacja: pon, 26 lip 2021, 23:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -482,7 +482,7 @@ budmatauto.pl,dladealera.pl,grupapietrzak.pl,maseratipietrzak.pl##.fixedInfo
 bud-net.pl##body > table:first-child
 bugbird.pl,marstudio.pl,pracowniakresek.pl,website4you.com.pl###modal-agecheck
 bugwie.com,forum-bron.pl,virtual-it.pl##.cookie-box
-buk.ujk.edu.pl,bytzbiorowy.pl,pro-tech.bydgoszcz.pl,slupsk.pl###easyNotification
+buk.ujk.edu.pl,pro-tech.bydgoszcz.pl,slupsk.pl###easyNotification
 buliba.pl###tooltip-hook
 bumble.com##.js-cookie-notification
 bursa1.krakow.pl##.wb_cookie_policy
@@ -1750,6 +1750,7 @@ motofocus.pl,truckfocus.pl###privacy-policy-bar
 motointegrator.com###__next > div:not([id]):not([class]) > div[class] ~ section[class*="_"]
 motonotes.pl##div[style="background-color:black; width=100%; height:25px; color:white; position:absolute"]
 motorbiker.pl###my-welcome-message, #fvpp-blackout
+motorola.com###moto-cookies-container
 motorola.com##.gdpr-container-wrapper
 motospace.pl###popupwindow
 motospace.pl#?##dimmed:-abp-has( ~ #popupwindow)
@@ -1975,6 +1976,7 @@ otwarte.eu###accept-cookie-box
 outlook.live.com#?#.ms-Layer:-abp-has( > .ms-Layer-content > [role="dialog"] a[href="https://privacy.microsoft.com/privacystatement"])
 owfregata.com###POPUPS_ROOT
 owocowydom.pl,weck.com.pl###popup2
+pacific.org###cookieWarnLayer
 pacsafe.pl##.demo-box
 pai.info.pl,ssw-consulting.pl##.ui-pnotify
 paker.co.uk###cookie-information
@@ -2115,6 +2117,7 @@ polnord.pl###polCookieInfo
 polona.pl##cbn-cookies
 poloniagrecka.eu###cookieMessageOuter
 polonika.at,tominet.com.pl#?#table:-abp-has(#cookieMessageText)
+polskaligatenisa.pl##app-rodo
 polska-szkola.pl###activebar-container
 polskijubiler.pl##body > div:nth-of-type(1)[style="width: 90%; margin: 0 auto;"]
 polskiprawnik.pl###popup3
@@ -2354,6 +2357,7 @@ sew-eurodrive.pl##.mod-cookie-layer
 sferaplatinum.pl#?##page_content > div[class^="jss"] > div:not([id]):not([clas]) ~ div[class^="jss"]:-abp-has( > button[aria-label="Close"])
 sguni.pl,tksport.pl,um-swiecie.pl##.scbi
 shazam.com##div.policy-label
+ship24.com##app-accept-cookie
 shippuuden.pl##div#cookis-bg
 shoepassion.pl##.data_security_cookies
 shop-dent.pl##div.black_overlay
@@ -3776,14 +3780,14 @@ blogspot.com###cookieChoiceInfo
 diety.wp.pl##.rodo-popup
 go.tvn24.pl##.rodo-notice
 istotne.pl##.notification-info.notification
-jbzd.cc,jbzdy.cc,jbzdy.co##body > div[class^="app_gdpr"]
+jbzd.cc,jbzdy.cc,jbzdy.com.pl,jbzdy.pl#body > div[class^="app_gdpr"]
 minecraftpolska.net##.cookieinfo
 mybank.pl##.ciasteczka
 tvn24.pl###msgLayer
 web.archive.org###popup-cookies
 wzory-cv.com##.gatewayBar
 xboxforum.pl##.notice--cookie
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=jbzd.cc|jbzdy.cc|jbzdy.co
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=jbzd.cc|jbzdy.cc|jbzdy.com.pl|jbzdy.pl
 !
 !
 ! Bugi Prebake
