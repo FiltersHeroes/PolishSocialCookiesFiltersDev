@@ -7,7 +7,7 @@
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
 ! Version: 2021.8.1.1
-! Last modified: Sun, 01 Aug 2021, 21:09 UTC+02
+! Last modified: Sun, 01 Aug 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.8.1.1 aktualizacja: nie, 01 sie 2021, 21:09 UTC+02
+! v.2021.8.1.1 aktualizacja: nie, 01 sie 2021, 23:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -53,6 +53,8 @@ growbox.pl###pf_bg, .pf_sub
 haart.pl,serialowy.info##.wph-modal
 investjourney.pl,radio7.pl#?#.spu-bg:-abp-has( ~ .spu-box .spu-facebook)
 investjourney.pl,radio7.pl#?#.spu-box:-abp-has(.spu-facebook)
+itreseller.com.pl#?#.spu-bg:-abp-has( ~ .spu-box a[href*="linkedin.com/"])
+itreseller.com.pl#?#.spu-box:-abp-has(a[href*="linkedin.com/"])
 justjoin.it##.join-fb-popup
 kamira90.blogspot.com,pelnytalerz.com,vetopedia.pl###fbox-background, #fbox-close
 karmiepsiaki.pl###fb-back
