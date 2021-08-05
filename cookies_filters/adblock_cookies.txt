@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.8.2.0
-! Last modified: Mon, 02 Aug 2021, 23:08 UTC+02
+! Version: 2021.8.5.0
+! Last modified: Thu, 05 Aug 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.8.2.0 aktualizacja: pon, 02 sie 2021, 23:08 UTC+02
+! v.2021.8.5.0 aktualizacja: czw, 05 sie 2021, 23:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -886,7 +886,7 @@ ergokantor.pl###popups__
 erli.pl#?##root > div[class]:-abp-has( > div > div > h4:-abp-contains(o swojej prywatności))
 esa.nask.pl#?#.ReactModalPortal:-abp-has(.cookies-greetings)
 esklep.legutko.com.pl###event_banner
-esparto.pl,eventy-online.pl,seoheroes.pl##.notification-bar
+esparto.pl,eventy-online.pl,seoheroes.pl,yumisu.pl##.notification-bar
 espritgames.com###easy-cookies-policy-main-wrapper
 esprzedaz.com,shop.proenter.eu,wisteriagardens.eu###netgraf_cookie_alert
 estore.fanuc.eu###cookie-footer
@@ -2264,6 +2264,7 @@ rebalance.pl##.cookie-info_container
 recticelinsulation.com###js-cookie-alert.c-alert-cookie
 redark.pl##div[class*="cookiesPopup__PopupContainer"]
 redbullmobile.pl###more1
+reddit.com##div[class] > section:not([id]):not([class]) > div[style*="Toaster"]
 refarming.pl###consent-popup
 reflex.com.pl###cookiesdiv
 refunder.pl#?#.bg-white:-abp-has([href="/warunki#cookies"])
