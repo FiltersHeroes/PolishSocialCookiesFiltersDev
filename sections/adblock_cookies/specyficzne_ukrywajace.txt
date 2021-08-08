@@ -1,5 +1,5 @@
 metropoliaztm.pl##a[data-target="#cookieModalCenter"]
-izodom2000.pl##body > div[id^="elementor-popup-modal"].elementor-popup-modal:last-child
+izodom2000.pl#?#script ~ .elementor-popup-modal[id]:-abp-contains(/cookies?|rodo|gdpr|ciastecze?ka?/i)
 
 
 
@@ -707,7 +707,7 @@ domnet.pl,jakbudowac.pl##.dialog-fixed
 domnowoczesny.com,grupapsb.com.pl##.popup-container
 domodi.pl##.dm-cookie-message
 domoplus.pl,kuchniaplus.pl,miniminiplus.pl,teletoonplus.pl###cpb.rodoLayer
-domowa.tv,twojezdrowie.pl#?#script ~ .elementor-popup-modal[id]:-abp-contains(/cookie|rodo|gdpr|ciastecze?ka?/i)
+domowa.tv,twojezdrowie.pl#?#script ~ .elementor-popup-modal[id]:-abp-contains(/cookies?|rodo|gdpr|ciastecze?ka?/i)
 domowefrytki.com##.site-footer section:last-child .elementor-widget-text-editor .elementor-text-editor p[style*="center"]
 domowladni.pl###domo-cookies-policy
 domsary.eu###policy-cookies-info-panel
@@ -1715,7 +1715,7 @@ mojeuslugi.pl##.footer ~ div.text-center.fixed
 moje-dzialdowo.pl##footer ~ .v-dialog
 mok.rabka.pl#?##breadcrumbs:-abp-has(table td span a[href*="/Ciasteczko"] ~ a[href*="-ciasteczka"])
 molkip.pl##.dialog-message.dialog-lightbox-message > .elementor-location-popup
-molkip.pl#?#.elementor-popup-modal:-abp-contains(Polityce Prywatności)
+molkip.pl#?#script ~ .elementor-popup-modal[id]:-abp-contains(/cookies?|rodo|gdpr|ciastecze?ka?/i)
 molnlycke.pl##.footer ~ .notifications
 molnlycke.pl#?#.footer .tinymce > p:nth-of-type(2):-abp-has( > a[href*="/cookie-policy/"] ~ a[href*="/policies/"])
 mondeoklubpolska.pl##li#navbar_notice_12
@@ -2160,7 +2160,7 @@ prgm.pl###Layer25
 prgok.pl###top_i
 pricelesso.pl###popUp2, .mask
 prideshop.pl,queer.pl##.box-rodo
-print-me.pl##.elementor-popup-modal.dialog-widget
+print-me.pl#?#script ~ .elementor-popup-modal[id]:-abp-contains(/cookies?|rodo|gdpr|ciastecze?ka?/i)
 prk24.pl##.rk-cookie-overlay
 profilki.pl#?#div.centering.tile:-abp-has(img[src="/img/lay/maskotka_ciastko.png"])
 profkos.pl##.module-header_notice
