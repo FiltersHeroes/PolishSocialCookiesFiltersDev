@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.8.15.0
-! Last modified: Sun, 15 Aug 2021, 19:08 UTC+02
+! Version: 2021.8.15.1
+! Last modified: Sun, 15 Aug 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.8.15.0 aktualizacja: nie, 15 sie 2021, 19:08 UTC+02
+! v.2021.8.15.1 aktualizacja: nie, 15 sie 2021, 23:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -7165,6 +7165,7 @@ zakopane.pl##.bar-menu > ul > li:nth-of-type(-n+3)
 zakumaj.pl##a[href*="facebook.com/zakumajpl"]
 zakupersi.com###margines-dolny.error.bean-alert
 zakupywus.com##a[href*="facebook.com/Zakupy-w-US-"]
+zakupy.auchan.pl##div[class][style*="socialBlock"]
 zakupy.auchan.pl##.footer > .link-list-wrapper > div.link-list:nth-of-type(3)
 zalajkowane.pl##.pu_facebook_widget
 zalando-lounge.pl#?#div[class*="Footer_section_"]:-abp-has(div:-abp-contains(/^Znajdziesz nas na$/))
