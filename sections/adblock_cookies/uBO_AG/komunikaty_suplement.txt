@@ -1,4 +1,7 @@
 twitter.com##div[class*=" "] >div[class][dir="auto"]:has(> a[href*="twitter-cookies"][role="link"]) ~ div[role="button"]:upward(1)
+fundacjamare.pl##.cookies-modal
+fundacjamare.pl##.reveal-overlay:has(> .cookies-modal)
+fundacjamare.pl##.is-reveal-open:style(overflow: auto !important;)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important;)
