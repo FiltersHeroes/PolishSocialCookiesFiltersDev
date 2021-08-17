@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.8.17.0
-! Last modified: Tue, 17 Aug 2021, 15:08 UTC+02
+! Version: 2021.8.18.1
+! Last modified: Wed, 18 Aug 2021, 01:14 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.8.17.0 aktualizacja: wto, 17 sie 2021, 15:08 UTC+02
+! v.2021.8.18.1 aktualizacja: śro, 18 sie 2021, 01:14 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -127,6 +127,7 @@ ahrefs.com###iubenda-cs-banner
 airbnb.pl##div[data-testid="main-cookies-banner-container"]
 airbnb.pl##div[data-veloute="cookie-disclaimer"]
 aircon.panasonic.eu,ecreo.eu,mazury.com,pl.vivre.eu,polemi.co.uk,rybnik.eu,tbnpolska.tv,ztm.lublin.eu##.cc-cookies
+aircon.pl,zymetric.pl##.cookies-stn
 airkiosk.lot.com##.mf-modal-overlay, .mf-modal-iframe
 airly.eu##[class^="cookies-alert__Wrapper"]
 airly.eu,mydhl.express.dhl##.cookies-policy
@@ -207,7 +208,7 @@ aptekarski.com,magazyn.allegro.pl,media.pl.canalplus.com,prowly.com##.pr-cookie-
 aptekarzpolski.pl,opp-ostrow.pl###sgcolorbox.colorbox4
 aptekarzpolski.pl,opp-ostrow.pl##.sgcboxOverlayBg.sg-popup-overlay
 arachnea.org##div.guestwarn
-aranzujemy.pl,kobieceporady.pl,kosmogadka.pl,samouczek.info,spacex.com.pl##.gdpr
+aranzujemy.pl,kobieceporady.pl,kosmogadka.pl,pl.sputniknews.com,samouczek.info,spacex.com.pl##.gdpr
 archiconnect.pl,biznesmeblowy.pl,lazienka.pl,mamkuchnie.pl,meble.com.pl,najlepszedomy.pl###axn
 architektura.info##.modal
 architektura.info##.cookies-warning
@@ -1309,7 +1310,6 @@ infotex.com.pl##.info_cook_wrapper
 info-car.pl##app-accept-cookies
 info-instal.com,kokardka.eu,pbspolska.eu##.wpgdprc-consent-bar.wpgdprc
 info-kujawy.pl#?#div[class*="sidebar"] > div.art-block:-abp-has(h6:-abp-contains(plików cookie))
-info.wyborcza.pl###onetrust-consent-sdk
 inksystem.pl##.fixed_bottom
 inku.pl#?#div[id^="jet-popup-"].jet-popup:-abp-has(a[href*="/polityka-prywatnosci"])
 innovaconcept.pl###footer div[class*="Pane"][style*="background"]
@@ -2121,6 +2121,8 @@ polnord.pl###polCookieInfo
 polona.pl##cbn-cookies
 poloniagrecka.eu###cookieMessageOuter
 polonika.at,tominet.com.pl#?#table:-abp-has(#cookieMessageText)
+polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > div > div > p:-abp-contains(dostępu do plików cookie))
+polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
 polskaligatenisa.pl##app-rodo
 polska-szkola.pl###activebar-container
 polskijubiler.pl##body > div:nth-of-type(1)[style="width: 90%; margin: 0 auto;"]
@@ -2742,6 +2744,7 @@ www.google.com,www.google.pl##body > div[class*=" "]:not([id]) > c-wiz > div[jsc
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.google.com,www.google.pl###gb > div[class][style^="background"]
 www.google.com,www.google.pl#?##taw div[id][style*="block"]:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"])
+wyborcza.pl###onetrust-consent-sdk
 wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
 wypozyczalniasamochodowwarszawa.pl###can_use_cookies
@@ -2826,6 +2829,7 @@ oetker.*/static/js/privacy-dialog/
 /informationbar.js$domain=stowarzyszenie-dyrektorow.pl|zgkim.zgora.pl
 /jquery.cookiebar$domain=selgros.pl
 /libraries/js/jquery.tipsy.cookie.js$domain=kierunkowy.com
+/misc/cookie.js$domain=kurnik.pl
 /pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|hrd.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
 /pp-t-a-c.js$domain=najlepsze.net|toplista.info
 /privacy/popup.js$script,domain=bauer.pl|cdaction.pl|pcformat.pl
