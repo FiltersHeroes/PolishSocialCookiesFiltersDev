@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.8.15.0
-! Last modified: Sun, 15 Aug 2021, 19:08 UTC+02
+! Version: 2021.8.17.0
+! Last modified: Tue, 17 Aug 2021, 15:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.8.15.0 aktualizacja: nie, 15 sie 2021, 19:08 UTC+02
+! v.2021.8.17.0 aktualizacja: wto, 17 sie 2021, 15:08 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1721,8 +1721,6 @@ mniamspinka.pl##body > div > .alert-box
 mobidziennik.pl,wizja.net###floating-cookie-content, #floating-cookie-button
 mobile.de###consentBanner, div[class^="cookie-banner"]
 mobile.lebara.com##.cookie-component
-mobile.twitter.com#?##react-root > div > div > div > div > div:-abp-has(a[href$="/rules-and-policies/twitter-cookies"])
-mobile.twitter.com#?##react-root > div > div > div > main > div > div > div:-abp-has(a[href$="/rules-and-policies/twitter-cookies"])
 mobilitynews.pl,mobilitytrends.pl,techtradeshow.pl##.politic-cookie
 mobilne-miasto.org###c-box
 moda-pol.com###cookie.cookies
@@ -2627,7 +2625,6 @@ tvprofil.com##.gdpr-container
 tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvs.pl##.RodoNotyfication
 twinn.pl##table td div[class*="szablon_top"][class*="left"] > center
-twitter.com##.eu-cookie-notice
 twojeankiety.pl###notkaCookies
 twojesoczewki.com###cookie_wrap
 twoje-meble.eu##.bottom__cookie-block
