@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.8.18.1
-! Last modified: Wed, 18 Aug 2021, 15:08 UTC+02
+! Version: 2021.8.18.2
+! Last modified: Wed, 18 Aug 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.8.18.1 aktualizacja: śro, 18 sie 2021, 15:08 UTC+02
+! v.2021.8.18.2 aktualizacja: śro, 18 sie 2021, 23:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -756,6 +756,7 @@ pl##[id^="nk_fajne"]
 pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_likes, .yt_likes
 !pl##.footer-social-wrap span
+##.facebookPrzyczepiony
 ##section[aria-label="media społecznościowe"]
 ###menu-portale-spolecznosciowe
 ##.td-social-icon-wrap a:not([href*="feed" i]):not([href*="rss" i]):not([href^="mailto:" i])
@@ -5307,6 +5308,9 @@ polsl.pl##tr:nth-of-type(5) > .shortcutsLink:nth-of-type(2)
 polszczyzna.pl##.eltdf-icon-shortcode, .textwidget > h4
 polvision.com##.foot_search_share
 polygamia.pl###polysocial, #sidebar-footer-top, #menu-submenu-1 a[href*="youtube.com/user/polygamiapl"], .sharepostHome
+polygamia.pl,tech.wp.pl,www.dobreprogramy.pl##iframe[src*="%2Fdobreprogramy%2Fposts%2F" i], iframe[src*="%2F305335630685%2Fposts%2F" i]
+polygamia.pl,tech.wp.pl,www.dobreprogramy.pl##.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb-post.fb_iframe_widget[data-href*="/305335630685/posts/" i]
+polygamia.pl,tech.wp.pl,www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has(.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb-post.fb_iframe_widget[data-href*="/305335630685/posts/" i], iframe[src*="%2Fdobreprogramy%2Fposts%2F" i], iframe[src*="%2F305335630685%2Fposts%2F" i])
 polygamia.pl,www.dobreprogramy.pl##button[title="Kliknij, aby udostępnić"], a[title="Kliknij aby przejść do komentarzy"] ~ div[class] > div[class][role="button"]
 polygamia.pl,www.dobreprogramy.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
 polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):-abp-has( > div[class] > svg)
@@ -7086,9 +7090,6 @@ wwwlosy.pl###menu-item-1544
 www-dobreprogramy-pl.cdn.ampproject.org##a.social
 www.adobe.com##footer #gnav_709
 www.auchan.pl#?#.row.no-gutters.justify-center > .col-12:-abp-has( > .row.no-gutters.justify-center p.text-center:-abp-contains(/^ Śledź nas na portalach społecznościowych $/))
-www.dobreprogramy.pl##iframe[src*="%2Fdobreprogramy%2Fposts%2F" i], iframe[src*="%2F305335630685%2Fposts%2F" i]
-www.dobreprogramy.pl##.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb-post.fb_iframe_widget[data-href*="/305335630685/posts/" i]
-www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has(.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb-post.fb_iframe_widget[data-href*="/305335630685/posts/" i], iframe[src*="%2Fdobreprogramy%2Fposts%2F" i], iframe[src*="%2F305335630685%2Fposts%2F" i])
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:nth-of-type(-n+2)
 www.google.com,www.google.pl##.chr-footer-social
 www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^(Facebook|Twitter)$/)
