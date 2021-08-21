@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.8.18.2
-! Last modified: Wed, 18 Aug 2021, 23:08 UTC+02
+! Version: 2021.8.21.0
+! Last modified: Sat, 21 Aug 2021, 15:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.8.18.2 aktualizacja: śro, 18 sie 2021, 23:08 UTC+02
+! v.2021.8.21.0 aktualizacja: sob, 21 sie 2021, 15:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1192,7 +1192,7 @@ astronomia24.com##.googleplusBtn, .youtubeBtn, .footer-icons > a[href*="plus.goo
 astronomiaamatorska.pl#?#table.news:nth-of-type(2):-abp-contains(na serwisach społecznościowych:)
 astroweb.pl##.col-md-8 > div:nth-of-type(4)
 astroweb.pl,przewodnikduchowy.pl##.well:nth-of-type(1)
-asus.com##div[class^="Footer__communityListContainer__"]
+asus.com##div[class^="Footer__communityListContainer_"]
 asus.com###Community_menu
 aszdziennik.pl##a[href*="/aszdziennik" i] > img[src^="/static/media/"]
 aszdziennik.pl,dadhero.pl,innpoland.pl,mamadu.pl,medianarodowe.com,natemat.pl###fbinvite
@@ -4175,6 +4175,7 @@ mebloteka.eu###Facebook_Messenger
 mebsto.pl##footer > .container > .row > div.footerCol:nth-of-type(4)
 mechatronikadlawszystkich.pl##li.nav__social-item
 mechatronikadlawszystkich.pl##.js-cake.c__cake
+meczyki.pl##.fb.small.button
 media2.pl##a[href*="facebook.com/media2pl/"]
 media2.pl##a[href*="feedly.com"]
 media2.pl##a[href*="instagram.com/media2.pl"]
@@ -6187,6 +6188,7 @@ specshop.pl###social-platforms
 spedycje.pl###top_social
 speedtest.net##div.pure-u-1:nth-of-type(1) > ul.menu-footer:nth-of-type(2)
 spidersonline.pl###bottom_column
+spidersweb.pl##div[class^="PostSocialShare_socialShare_"]
 spidersweb.pl##footer .row > div.columns:nth-of-type(3)
 spidersweb.pl##.row > .columns.large-offset-1.large-11 > .margin-bottom35.single-about > .row > .show-for-large.columns.large-7 > .text-right.display-table.single-interactions > .display-table-cell > span:nth-child(n+2):nth-child(-n+3)
 spidersweb.pl##.social-media-frame
@@ -7041,7 +7043,7 @@ wolnelektury.pl#?#.annoy-banner_top.annoy-banner:-abp-has( > a[href*="youtube.co
 wolnemedia.net#?#ul > h3:-abp-contains(społecznościowych)
 wolsztyn24.pl#?#body > div > div > table[style][border] > tbody > tr > td:nth-of-type(1):-abp-contains(Znajdz nas i obserwuj!)
 wolt.com##div[class*="Footer__socialsColumn"] > div[class^="Footer__socialsRow"] > a[class^="SocialsButton"]
-wolt.com##ol[class^="SocialsColumn__socialRow___"]
+wolt.com##ol[class^="SocialsColumn__socialRow_"]
 woobykids.com##.social-foot-menu
 woodandcrafts.pl##.userfooter > .row > p > a > img
 woodland.net.pl##.menu-top > ul > li:nth-of-type(n+4):nth-of-type(-n+5)
@@ -8201,6 +8203,7 @@ zw.com.pl#@#.list_share
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
 @@||likefb.pl/wp-content/uploads/*/twittericon.png
 @@||managerka.com/wp-content/uploads/2020/08/Logo_FB.png
+@@||meczyki.pl/images/instagram_blank.gif
 @@||meczyki.pl/images/twitter_blank.gif
 @@||muza.com.pl/img/facebook.$image
 @@||news.astronet.pl/wp-content/themes/warta/img/social-media-icons.png$image,domain=news.astronet.pl
@@ -8223,6 +8226,7 @@ downdetector.pl,masterchef.tvn.pl#@#a[title="Instagram"]
 forguides.pl#@#.box_in
 linuxportal.pl#@#a.like
 make-cash.pl,pecetowicz.pl,samequizy.pl,swiatebookow.pl,xperiasite.pl#@#.fa-facebook-official.fa
+meczyki.pl#@#.instagram
 media2.pl#@#.fa-facebook-square
 patrz.pl#@#.likes
 pecetowicz.pl,xperiasite.pl#@#.fa-twitter.fa
