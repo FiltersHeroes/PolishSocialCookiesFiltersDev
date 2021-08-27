@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.8.22.0
-! Last modified: Sun, 22 Aug 2021, 15:08 UTC+02
+! Version: 2021.8.27.0
+! Last modified: Fri, 27 Aug 2021, 15:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.8.22.0 aktualizacja: nie, 22 sie 2021, 15:08 UTC+02
+! v.2021.8.27.0 aktualizacja: pią, 27 sie 2021, 15:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -111,6 +111,8 @@ zmianywzyciu.pl###popup_facebook
 !zuch.media###spu-10366, #spu-bg-10366
 /compress/popupFacebook.js$domain=chamskie.pl|motywujemy24.pl
 /compress/popups/popupFacebook_normal.css$domain=chamskie.pl|motywujemy24.pl
+/pum-site-scripts-$domain=topplant.pl
+/pum-site-scripts.$domain=topplant.pl
 /wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=shareinfo.pl
 ||brytol.com/wp-content/plugins/auto-fb-popup/assets/remodal.min.js
@@ -8191,7 +8193,6 @@ zw.com.pl#@#.list_share
 @@||doz.pl/skin/assets/bundle/default/images/svg/*-icon.svg$image,domain=doz.pl
 @@||doz.pl/skin/assets/doz/images/icons/btn-social-facebook.png
 @@||edupage.org/skins/templates/universal/images/social-icons.png
-@@||facebook.com/plugins/page.php$subdocument,domain=topplant.pl
 @@||facebook.com/v2.0/plugins/like.php$subdocument,domain=e-biznes.pl
 @@||farmer.pl/images/2018/icons/insta.png
 @@||farmer.pl/images/2018/icons/social2/yt.svg
