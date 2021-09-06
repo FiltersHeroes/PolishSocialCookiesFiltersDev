@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.9.6.1
-! Last modified: Mon, 06 Sep 2021, 23:08 UTC+02
+! Version: 2021.9.7.1
+! Last modified: Tue, 07 Sep 2021, 01:00 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.9.6.1 aktualizacja: pon, 06 wrz 2021, 23:08 UTC+02
+! v.2021.9.7.1 aktualizacja: wto, 07 wrz 2021, 01:00 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1361,6 +1361,7 @@ i-puzzle.pl##.euc
 jabra.pl###jbr-consent-track
 jadlonomia.com##.cbar-container
 jajco.pl##div[id*="n-cookies-notification"]
+jakaoferta.pl#?#div.moOptinForm[style*="position:"][style*="fixed"]:-abp-contains(Ciasteczka)
 jakikredyt.pl##.popup--open
 jakuby.eu###w357_cpnb
 jak-ksiegowac.pl###message_wrap
@@ -2130,8 +2131,8 @@ polnord.pl###polCookieInfo
 polona.pl##cbn-cookies
 poloniagrecka.eu###cookieMessageOuter
 polonika.at,tominet.com.pl#?#table:-abp-has(#cookieMessageText)
-polsatgo.pl,polsatgobox.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"] > p:first-child + p:last-child:-abp-contains(Wyrażam zgodę na przechowywanie))
-polsatgo.pl,polsatgobox.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
+polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"] > p:first-child + p:last-child:-abp-contains(Wyrażam zgodę na przechowywanie))
+polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
 polskaligatenisa.pl##app-rodo
 polska-szkola.pl###activebar-container
 polskijubiler.pl##body > div:nth-of-type(1)[style="width: 90%; margin: 0 auto;"]
@@ -2688,6 +2689,7 @@ vivrehome.pl###notification__consent
 vivus.pl###app > #outer-container + div[class^="c"]
 vmr.pl##.ck-cnt
 vodflix.tv##.tibrr-cookie-consent-container
+vod.warszawa.pl#?##root footer ~ div[class]:-abp-has(h2:-abp-contains(Szanujemy Twoją Prywatność))
 voxel.pl###block-rodo-rodo-block
 vtc360.pl#?#.ggskin_text.info[style*="bottom"] > div:-abp-has( > a[href="https://vulcan-tc.pl/privacy_policy"])
 vuch.pl##.gdpr-cookie-bar
