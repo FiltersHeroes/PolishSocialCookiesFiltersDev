@@ -14,12 +14,12 @@ fi
 
 cd "$MAIN_PATH" || exit
 
-V_CHANGED_FILES_FILE="$SCRIPT_PATH"/V_CHANGED_FILES.txt
+V_CHANGED_FILES_FILE="$MAIN_PATH"/changed_files/V_CHANGED_FILES.txt
 if [ -f "$V_CHANGED_FILES_FILE" ]; then
     rm -rf "$V_CHANGED_FILES_FILE"
 fi
 
-SAVE_CHANGED_FN="true" "$SCRIPT_PATH"/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
+VICHS_MAIN_PATH="$(pwd)" SAVE_CHANGED_FN="true" VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
 
 V_CHANGED_FILES=$(cat "$V_CHANGED_FILES_FILE")
 
@@ -52,7 +52,7 @@ if [[ -n $(search "sections/adblock_social_list/uBO_AG/popupy") ]]; then
 fi
 
 if [ "$MAIN_FILTERLIST" ]; then
-    FORCED="true" "$SCRIPT_PATH"/VICHS.sh "$MAIN_FILTERLIST"
+    VICHS_MAIN_PATH="$(pwd)" FORCED="true" VICHS.sh "$MAIN_FILTERLIST"
 fi
 
 if [ "$PAF" ] || [ "$PAF_supp" ]; then
@@ -68,9 +68,9 @@ if [ "$PAF" ] || [ "$PAF_supp" ]; then
 fi
 
 if [ "$PAF" ] && [ ! "$PAF_supp" ]; then
-    ./scripts/VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
+    VICHS_MAIN_PATH="$(pwd)" VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
 elif [ "$PAF_supp" ]; then
-    FORCED="true" ./scripts/VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
+    VICHS_MAIN_PATH="$(pwd)" FORCED="true" VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
 fi
 
 cd "$MAIN_PATH" || exit

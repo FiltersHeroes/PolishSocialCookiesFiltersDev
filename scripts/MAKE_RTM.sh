@@ -15,20 +15,18 @@ fi
 
 cp -r "$MAIN_PATH"/sections/ ./polish-ads-filter/
 cp -r "$MAIN_PATH"/templates/ ./polish-ads-filter/
-cp -r "$MAIN_PATH"/scripts/VICHS.sh ./polish-ads-filter/scripts/
 cp -r "$MAIN_PATH"/scripts/VICHS_upstream.config ./polish-ads-filter/scripts/
-cp -r "$MAIN_PATH"/scripts/FOP.py ./polish-ads-filter/scripts/
 cp -r "$MAIN_PATH"/scripts/wiadomosci_powitalne.txt ./polish-ads-filter/scripts/
 mv ./polish-ads-filter/scripts/VICHS_upstream.config ./polish-ads-filter/scripts/VICHS.config
 
 cd ./polish-ads-filter || exit
 
-V_CHANGED_FILES_FILE="$MAIN_PATH"/../polish-ads-filter/scripts/V_CHANGED_FILES.txt
+V_CHANGED_FILES_FILE="$MAIN_PATH"/../polish-ads-filter/changed_files/V_CHANGED_FILES.txt
 if [ -f "$V_CHANGED_FILES_FILE" ]; then
     rm -rf "$V_CHANGED_FILES_FILE"
 fi
 
-RTM="true" SAVE_CHANGED_FN="true" ./scripts/VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
+VICHS_MAIN_PATH="$(pwd)" RTM="true" SAVE_CHANGED_FN="true" VICHS.sh cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
 
 V_CHANGED_FILES=$(cat "$V_CHANGED_FILES_FILE")
 
@@ -52,7 +50,7 @@ if [[ -z $(search "cookies_filters/adblock_cookies.txt") ]] && [[ -n $(search "c
 fi
 
 if [ "${MAIN_FILTERLIST[*]}" ]; then
-    RTM="true" FORCED="true" ./scripts/VICHS.sh "${MAIN_FILTERLIST[@]}"
+    VICHS_MAIN_PATH="$(pwd)" RTM="true" FORCED="true" VICHS.sh "${MAIN_FILTERLIST[@]}"
 fi
 
 for k in $V_CHANGED_FILES; do
@@ -92,9 +90,9 @@ if [ "$CI" = "true" ]; then
     fi
     cd ./PolishAnnoyanceFilters || exit
     if [ "$cookies" ]; then
-        FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+        VICHS_MAIN_PATH="$(pwd)" FORCED="true" VICHS.sh ./PAF_supp.txt ./PPB.txt
     else
-        ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+        VICHS_MAIN_PATH="$(pwd)" VICHS.sh ./PAF_supp.txt ./PPB.txt
     fi
 else
     echo "Czy chcesz teraz wysłać PR do upstream?"
@@ -106,9 +104,9 @@ else
             gh pr create -B master -H RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "${roz_opis}"
             cd ../PolishAnnoyanceFilters || exit
             if [ "$cookies" ]; then
-                FORCED="true" ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+                VICHS_MAIN_PATH="$(pwd)" FORCED="true" VICHS.sh ./PAF_supp.txt ./PPB.txt
             else
-                ./scripts/VICHS.sh ./PAF_supp.txt ./PPB.txt
+                VICHS_MAIN_PATH="$(pwd)" VICHS.sh ./PAF_supp.txt ./PPB.txt
             fi
             break
             ;;
