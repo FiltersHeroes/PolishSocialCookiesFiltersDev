@@ -5,7 +5,7 @@ on: workflow_dispatch
 jobs:
   Aktualizacja:
     runs-on: ubuntu-latest
-    container: ghcr.io/polishfiltersteam/vichs_image:latest
+    container: ghcr.io/polishfiltersteam/vichs_image:2.26.6
     steps:
       - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # pin@v2.3.4
       - env:
