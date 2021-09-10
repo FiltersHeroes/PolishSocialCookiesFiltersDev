@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-    - image: polishfiltersteam/vichs_image:2.26.6
+    - image: polishfiltersteam/vichs_image:2.26.7
     steps:
     - checkout
     - run: ./scripts/build.sh

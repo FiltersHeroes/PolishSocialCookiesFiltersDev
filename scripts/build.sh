@@ -52,7 +52,7 @@ if [[ -n $(search "sections/adblock_social_list/uBO_AG/popupy") ]]; then
 fi
 
 if [ "$MAIN_FILTERLIST" ]; then
-    VICHS_MAIN_PATH="$(pwd)" FORCED="true" VICHS.sh "$MAIN_FILTERLIST"
+    FORCED="true" VICHS.sh "$MAIN_FILTERLIST"
 fi
 
 if [ "$PAF" ] || [ "$PAF_supp" ]; then
@@ -68,9 +68,9 @@ if [ "$PAF" ] || [ "$PAF_supp" ]; then
 fi
 
 if [ "$PAF" ] && [ ! "$PAF_supp" ]; then
-    VICHS_MAIN_PATH="$(pwd)" VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
+    VICHS.sh ./PPB.txt ./PAF_pop-ups.txt
 elif [ "$PAF_supp" ]; then
-    VICHS_MAIN_PATH="$(pwd)" FORCED="true" VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
+    FORCED="true" VICHS.sh ./PAF_pop-ups_supp.txt ./PPB.txt ./PAF_pop-ups.txt
 fi
 
 cd "$MAIN_PATH" || exit
