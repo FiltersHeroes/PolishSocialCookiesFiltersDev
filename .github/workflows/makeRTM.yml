@@ -14,7 +14,7 @@ on:
 jobs:
   Aktualizacja:
     runs-on: ubuntu-latest
-    container: polishfiltersteam/rtm_image:2.26.7
+    container: polishfiltersteam/rtm_image:2.26.8
     steps:
       - uses: actions/checkout@v2
       - env:
