@@ -1,5 +1,3 @@
-shopee.pl##footer div[class]:nth-child(4) > div[class] + ul li a[href*="facebook.com/"]:upward(div[class]:nth-child(4))
-
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > strong:has-text(/^Podziel się$/):upward(2)
 30minut.pl##.gora_ikony_nk, .gora_ikony_fb:style(visibility: hidden !important;)
 45minut.pl##+js(ra, href, .carousel-inner a[href="https://www.facebook.com/45minutpl"])
@@ -72,6 +70,7 @@ rynek-lotniczy.pl,rynekinfrastruktury.pl,transport-publiczny.pl##.wiadomoscSocia
 sadyogrody.pl##.twitter.social:upward(.active)
 scigacz.pl##div#main-footer > span.akonet:last-child:style(color: #606060 !important; font-size: 1.2rem !important;)
 scigacz.pl##div#main-footer:style(color: #0000 !important; font-size: 0 !important; width: calc(100% - 200px) !important; margin-left: 200px !important;)
+shopee.pl##footer div[class]:nth-child(4) > div[class] + ul li a[href*="facebook.com/"]:upward(div[class]:nth-child(4))
 shop.huawei.com##div.J_anchors:last-of-type > a.J_anchor[style*="width:59px; height:5"]:style(pointer-events: none !important; background: #fff !important;)
 sklep.bi-es.eu##+js(ra, href, #inst a[href*="instagram.com/"])
 skuter-krakow.pl###home_container_right > div:nth-of-type(1):empty:style(background: #fff !important;)
