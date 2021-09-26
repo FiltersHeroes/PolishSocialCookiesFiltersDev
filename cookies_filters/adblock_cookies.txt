@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.9.26.0
-! Last modified: Sun, 26 Sep 2021, 19:08 UTC+02
+! Version: 2021.9.26.1
+! Last modified: Sun, 26 Sep 2021, 22:51 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errors@certyficate.it
@@ -18,7 +18,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.9.26.0 aktualizacja: nie, 26 wrz 2021, 19:08 UTC+02
+! v.2021.9.26.1 aktualizacja: nie, 26 wrz 2021, 22:51 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -116,6 +116,7 @@ agencjagazeta.pl,panoramafirm.pl,sklep.genos.com.pl###rodoLayer
 agmar.com,akademie.elring.de,altimi.com,bioenergiadlaregionu.eu,cdn.ampproject.org,fantasy.ekstraklasa.org,fibaro.com,fiufiu.co,inwex.eu,opoczno.eu,portal.legnica.eu,superstacja.tv###cookie-info
 ago.pl,askopolska.pl,indigo-nails.com,lodz.pl,mamoo.pl,papercast.pl###banner_cookies_bullshit
 agromasz.com.pl,iqconnect.pl,mragowo24.info##.r-p-a
+agroplast.pl,epiora.pl,komputerprojekt.pl,laphard.pl,napieknewlosy.pl,ovczarnia.pl,planszostrefa.pl##.consents
 agropolska.pl,archiwalna.miasto.zgierz.pl,czarno-biale.pl,firmymiesne.pl,forumdermatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,fototapetyxl.pl,komputerymarkowe.pl,lututowgmina.pl,miastograf.pl,namyslo-landtechnik.pl,omegasoft.pl,pizza-express.pl,psychiatria.pl,pupbelchatow.pl,samsonite.pl,skm.pkp.pl,smart.com##.ui-widget-overlay
 agropolska.pl,miastograf.pl##.ui-widget.ui-dialog[aria-describedby]
 agrozakupy.pl###ms-cookie-policy
@@ -892,6 +893,7 @@ epuap.gov.pl,webcamera.pl###rodo-modal
 erasmusu.com###cookies_panel
 eredivisie.pl,goal.pl,kadra.pl,ligapolska.pl,primeradivision.pl,seriea.pl###viewCookies, #viewCookiesClose
 erejestracja.wizjav.pl#?#.el-dialog__wrapper:-abp-has(a[href*="wszystkoociasteczkach.pl"])
+ergohestia.pl,mtu.pl##div[id^="cookie"][id$="_outer"]
 ergokantor.pl###popups__
 erli.pl#?##root > div[class]:-abp-has( > div > div > h4:-abp-contains(o swojej prywatności))
 esa.nask.pl#?#.ReactModalPortal:-abp-has(.cookies-greetings)
@@ -1448,7 +1450,6 @@ komfort.pl###intro_row, #kt-cookies
 kominki.org###cookieMsg, #popup-policy
 kominy-panek.pl###system-message-container > #system-message
 kompan.pl###tx_cookies_showPermanent
-komputerprojekt.pl,laphard.pl,napieknewlosy.pl,planszostrefa.pl##.consents
 komputerprojekt.pl,laptopmarket.pl,polnox.pl##.consents__wrapper
 komputery-kalwaria.pl,oczamimlodych.pl##body > center:nth-of-type(1)
 komp-net.eu,odreklamy.pl,wiano.eu###xrootCookieRules
@@ -1702,6 +1703,7 @@ miastons.pl##[id^="overflow"]
 michalgrabarski.eu##div#cccwr
 microsoft.com,office.com###uhfCookieAlert
 micros.com.pl##.popup-wrapper
+midea.pl###text-4
 miedzlegnica.eu###cookie-wrapper
 miejscepiastowe.pl##.info_24_tlo
 mielec.pl##.footer_cookieinfo
@@ -2267,6 +2269,7 @@ rakuten.tv##.nav__cookies
 ramboll.pl##.infoboxHolder
 randkiprzezinternet.pl##.undefined.floating-box
 ranking.abczdrowie.pl#?##app > div > div > div > div:-abp-has(a[href="https://portal.abczdrowie.pl/strona/polityka-prywatnosci"])
+rankmath.com###mts_gdpr_popup
 rankomat.pl###rankomat-cookies-div
 ras.net.pl##.prvpmsg
 ratujtenczyn.org.pl#?##root > div[id] > .text > span:-abp-contains(plików cookie)
@@ -2381,6 +2384,8 @@ shazam.com##div.policy-label
 ship24.com##app-accept-cookie
 shippuuden.pl##div#cookis-bg
 shoepassion.pl##.data_security_cookies
+shopee.pl#?##main > div > div[class]:-abp-has( > div[class] > a[href*="help.shopee.pl"])
+shopee.pl#?#.app-container > div:-abp-has( > h4 ~ a[href*="help.shopee.pl"])
 shop-dent.pl##div.black_overlay
 shop.huawei.com###cookie_components
 shop.thgeyer-lab.com###cookienotification
@@ -2507,6 +2512,7 @@ store.playstation.com###privacy-header
 strabag-pfs.pl,strabag.pl###dsgvo
 stradivarius.com###cookiesWarn
 strazmiejska.um.wlocl.pl##body > marquee
+strefapd.pl#?#body > div.elementor-popup-modal:-abp-has(a[href*="/cookies/"])
 stroer.pl##.popUpWrap
 stronghold.net.pl###ci_info
 strzyzow.pl##.private_policy_cooke
@@ -2928,6 +2934,7 @@ oetker.*/static/js/privacy-dialog/
 ||lenovozone.pl/frontend/js/sweetalert.min.js$script
 ||lovekrakow.pl/ajax/rodo
 ||lubiegrac.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
+||midea.pl/wp-content/uploads/2015/01/cookie_img.png
 ||msecnd.net/Unilever/panels/generic/PanelPrzepisy.htm?consent$subdocument
 ||muza.com.pl/modules/rodoinfo/views/js/remodal.js$script,domain=muza.com.pl
 ||mypolacy.de/addons/checkRodoSettings$xmlhttprequest
@@ -2951,7 +2958,7 @@ oetker.*/static/js/privacy-dialog/
 ||pryzmat.com.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||ptwp.pl/fs/js/jquery.cookie.js$script,domain=4dd.pl
 ||radiopoznan.fm//homepage/privacyPolicy
-||retrotraktor.pl/grafika/cookies.jpg$image
+||retrotraktor.pl/grafika/cookies.jpg
 ||revolweb.pl/api/flash_msg.js$script
 ||rodo.agora.pl^$script
 ||rodo.rawlplug.com/wp-content/themes/rodo/popup/markups/modal-koelner.html$xmlhttprequest
@@ -3832,7 +3839,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 aion.eu#@#.cookies-notification:not(body)
 al.to,combat.pl#@##app > div:first-child > div
-bethesda.net,coca-cola.pl,sport.pl,toteraz.pl#@##onetrust-consent-sdk
+bethesda.net,coca-cola.pl,domiporta.pl,edziecko.pl,haps.pl,moto.pl,plotek.pl,sport.pl,toteraz.pl#@##onetrust-consent-sdk
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cliSettingsPopup
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-again
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
@@ -3886,7 +3893,7 @@ volcano.pl#@##cookiesModal
 !
 !
 ! Wyjątki
-allegro.pl,pikio.pl#@#[class*="cookie-policy"]:not(body):not(html)
+allegro.pl,pikio.pl,sklep.winkhaus.pl#@#[class*="cookie-policy"]:not(body):not(html)
 biblioteka.wroc.pl#@#.cookie-notice-container:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl,vaillant.pl#@##cookiewarning:not(body):not(html)
 calvinklein.pl,pl.tommy.com#@#.cookie-notice:not(body):not(html):not(#footer):not(#wrapper)
@@ -3917,8 +3924,8 @@ poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
 puratos.pl#@##cookieInfo:not(body):not(html)
 sklep-domwhisky.pl#@#.rodo-popup:not(body):not(html):not([style="display: block;"])
+sklep.winkhaus.pl,volcano.pl#@#aside[class*="cookie"]
 viasatexplore.pl,viasathistory.pl,viasatnature.pl#@#.privacy-policy:not(body):not(html)
-volcano.pl#@#aside[class*="cookie"]
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 @@/js/jquery.cookie.min.js$domain=hotto.pl|moric.pl|pokatne.pl|rozklad-pkp.pl|rozklad.pkp.pl|telepizza.pl
