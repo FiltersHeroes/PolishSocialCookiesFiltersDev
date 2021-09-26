@@ -1,8 +1,3 @@
-
-onet.pl##a[href*="twitter.com/intent/tweet?"]
-onet.pl##a[href*="facebook.com/sharer/sharer"]
-
-pl##a[href^="fb-messenger://share/"]
 ~masterchef.tvn.pl,tvn.pl,tvnturbo.pl,~www.tvn.pl##.socialPanel, .facebook_share, .gplus_share, .twitter_share, .socialFeedbackFooter, .header-card-social-item
 ~poczta.wp.pl,wp.pl,~www.wp.pl##.facebook-share, .tweeter-share
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#div[class] > div[class*=" "]:-abp-has( > span > svg > [stroke="none"] > #PAKO_reakcje-Copy)
@@ -66,12 +61,15 @@ naszamlawa.pl##.td-social-list > div[class*="td_social_"]:not([class$="rss"])
 noizz.pl##.contentShareButtons, .articleShare, .socialProfiles, .socialButtons, .socialMiniBox, .social > .icon
 onet100.vod.pl###socialIcons, .o_footSection3
 onet.pl##.fbShare
+onet.pl##a[href*="facebook.com/sharer/sharer"]
+onet.pl##a[href*="twitter.com/intent/tweet?"]
 onet.pl##.fbpageplugin.widget, .widgetFollowUs, .fb_share, .tw_share, .whatsapp, div[data-params*="facebook"]
 onet.pl##.shareBarBox > .social-share
 onet.pl#?#p.hyphenate:-abp-contains(Polub)
 onet.pl,~www.onet.pl##.page-share-wrap > .page-share, .share--block
 pclab.pl##.social-links, .social-container
 pilot.wp.pl#?#div > h4 ~ ul ~ h4:nth-of-type(2):-abp-contains(Więcej informacji)
+pl##a[href^="fb-messenger://share/"]
 poczta.onet.pl##.icon-ico_menu_facebook
 polski-sport.pl###td_social_sharing_article_bottom
 polski-sport.pl###td_social_sharing_article_top
