@@ -1,4 +1,5 @@
 ~pl##body > div#cookie[class=""]
+###wymog_uee:not(body):not(html)
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
 ~pl###actionCooki:not(body):not(html):lang(pl)
 ~pl###kopageBarCookies + div:lang(pl)
