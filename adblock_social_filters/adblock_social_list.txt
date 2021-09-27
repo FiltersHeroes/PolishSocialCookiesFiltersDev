@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.9.26.1
-! Last modified: Sun, 26 Sep 2021, 22:51 UTC+02
+! Version: 2021.9.27.0
+! Last modified: Mon, 27 Sep 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.9.26.1 aktualizacja: nie, 26 wrz 2021, 22:51 UTC+02
+! v.2021.9.27.0 aktualizacja: pon, 27 wrz 2021, 23:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -5115,7 +5115,7 @@ pepco.pl#?#div.col-xs-12.col-sm-6.col-md-3.grid-item:-abp-has(a[href*="instagram
 pepco.pl#?#.footer-nav .row p:-abp-contains(Znajdź nas na)
 pepegi.eu#?#.menu_button_wrapper:nth-of-type(2):-abp-has(a[href*="facebook.com/"], a[href*="twitter.com"])
 pepper.pl###footer > div:nth-of-type(2) > div:nth-of-type(1) > section:nth-of-type(4) a:not([href*="rss"])
-pepper.pl##.cept-banner a[href*="twitter.com/"]
+pepper.pl##.js-banner.aGrid[data-track*="twitter_banner"]
 pepper.pl##.space--b-3.space--r-2.box--all-i:nth-of-type(1)
 pepsieliot.com##.soc-buttons > a:nth-of-type(-n+5)
 pepsieliot.com##.soc-slider
