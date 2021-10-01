@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.9.27.0
-! Last modified: Mon, 27 Sep 2021, 23:08 UTC+02
+! Version: 2021.10.1.0
+! Last modified: Fri, 01 Oct 2021, 19:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
@@ -16,7 +16,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2021 Certyficate IT & Polish Filters Team
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.9.27.0 aktualizacja: pon, 27 wrz 2021, 23:08 UTC+02
+! v.2021.10.1.0 aktualizacja: pią, 01 paź 2021, 19:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -3896,6 +3896,7 @@ kulinarnastronamocy.pl##.stnsvn-social-icons
 kulinarne.info##div.p-3.col-md-4:nth-of-type(1) > div.text-center > a[href]:not([href$="/feed"])
 kulinarni.tvn.pl##.findUsText
 kul.pl##.left > ul > li:nth-of-type(2)
+kupbilecik.pl##a.btn[onclick*="pinterest.com"]
 kupbilet.pl##.tabslideFB
 kupbuty.com###menu_banners3
 kupiec.pl###footer h4 > a[href="#"], #footer .payment > ul
@@ -5143,6 +5144,7 @@ pfm.pl##div.footer-box:nth-of-type(3) > .footer-links
 pfrportal.pl##.site-footer .textwidget .col-sm-3
 pfr.pl##.top-bar__icons > .top-bar__icon, .footer__icons > .footer__icon
 pgd.pl##.footer__sm-icons
+pgnig.pl##.footer-menu-list-icons.footer-menu-list li a[href*=".com/"]
 philips.pl##.p-footer-social
 philips.pl##.p-social-wrapper
 philips.pl#?#div.p-l-one-quarter.p-grid-item:nth-of-type(4):-abp-contains(Podłącz mnie)
@@ -5380,6 +5382,9 @@ polskicaravaning.pl##a > img[src="layout/youtube-logo.png"]
 polskiebombki.pl###slide_left_fb_wrap
 polskiedrogi-tv.pl###text-36, #text-47
 polskieligi.net###social_networks
+polskiemarki.info##.multi-iconsfab-facebook-f.multi-icons-link
+polskiemarki.info##.multi-iconsfab-twitter.multi-icons-link
+polskiemarki.info##.multi-iconsfab-youtube.multi-icons-link
 polskiemarki.info,selgros24.pl##.fcb
 polskieradio24.pl##.menu-ext-social
 polskieradio.com##.post-widget.widget:nth-of-type(4) > .title-section > h1
@@ -5407,12 +5412,12 @@ polvision.com##.foot_search_share
 polygamia.pl###polysocial, #sidebar-footer-top, #menu-submenu-1 a[href*="youtube.com/user/polygamiapl"], .sharepostHome
 polygamia.pl,tech.wp.pl,www.dobreprogramy.pl##iframe[src*="%2Fdobreprogramy%2Fposts%2F" i], iframe[src*="%2F305335630685%2Fposts%2F" i]
 polygamia.pl,tech.wp.pl,www.dobreprogramy.pl##.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb-post.fb_iframe_widget[data-href*="/305335630685/posts/" i]
-polygamia.pl,tech.wp.pl,www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has(.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb-post.fb_iframe_widget[data-href*="/305335630685/posts/" i], iframe[src*="%2Fdobreprogramy%2Fposts%2F" i], iframe[src*="%2F305335630685%2Fposts%2F" i])
 polygamia.pl,www.dobreprogramy.pl##button[title="Kliknij, aby udostępnić"], a[title="Kliknij aby przejść do komentarzy"] ~ div[class] > div[class][role="button"]
 polygamia.pl,www.dobreprogramy.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
 polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button:-abp-has(svg)
 polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):-abp-has( > div[class] > svg)
 polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
+polygamia.pl,www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has(.fb-post.fb_iframe_widget[data-href*="/dobreprogramy/posts/" i], .fb-post.fb_iframe_widget[data-href*="/305335630685/posts/" i], iframe[src*="%2Fdobreprogramy%2Fposts%2F" i], iframe[src*="%2F305335630685%2Fposts%2F" i])
 pomagam.pl##.og-share.bg-color-fb.btn-icon-inherit.btn, .tweet.bg-color-tw.btn-icon-inherit.btn.js-twt, div.col-6.col-md-3:nth-of-type(3) > .list > .links > li:nth-child(-n+4)
 pomocdrogowa.info##div.text-center:nth-of-type(2) > a.f-icons
 pomocnamyszka.pl##.open-social-links
