@@ -5,11 +5,13 @@ MAIN_PATH=$(git -C "$SCRIPT_PATH" rev-parse --show-toplevel)
 
 cd "$MAIN_PATH"/.. || exit
 
+FORKED_REPO="PolishRoboDogForks/polish-ads-filter.git"
+
 if [ "$CI" = "true" ]; then
     if [ "$CIRCLECI" = "true" ]; then
-        git clone -b RTM --single-branch git@github.com:hawkeye116477/polish-ads-filter.git
+        git clone -b RTM --single-branch git@github.com:"$FORKED_REPO"
     else
-        git clone -b RTM --single-branch https://github.com/hawkeye116477/polish-ads-filter.git
+        git clone -b RTM --single-branch https://github.com/"$FORKED_REPO"
     fi
 fi
 
@@ -81,7 +83,7 @@ fi
 if [ "$CI" = "true" ]; then
     git clean -xdf
     echo "Wysyłanie PR..."
-    gh pr create -B master -H hawkeye116477:RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$RTM_PR_MESSAGE"
+    gh pr create -B master -H PolishRoboDogForks:RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$RTM_PR_MESSAGE"
     cd ..
     if [ "$CIRCLECI" = "true" ]; then
         git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
