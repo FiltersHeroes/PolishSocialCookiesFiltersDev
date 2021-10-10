@@ -1,5 +1,5 @@
 truestory.pl##+js(acis, realCookieBanner, atob)
-truestory.pl##body > div[id*="-"][class=""]:has([href="https://devowl.io/wordpress-real-cookie-banner/"])
+truestory.pl##body > div[id*="-"][class=""]:has(q[href*="/wordpress-real-cookie-banner/"])
 truestory.pl##html[style*="overflow"], body[style*="overflow"], body[data-rcb-previous-overflow]:style(overflow: auto !important;)
 
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
