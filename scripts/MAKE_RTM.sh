@@ -5,7 +5,7 @@ MAIN_PATH=$(git -C "$SCRIPT_PATH" rev-parse --show-toplevel)
 
 cd "$MAIN_PATH"/.. || exit
 
-FORKED_REPO="PolishRoboDogForks/polish-ads-filter.git"
+FORKED_REPO="PolishRoboDogHouse/polish-ads-filter.git"
 
 if [ "$CI" = "true" ]; then
     if [ "$CIRCLECI" = "true" ]; then
@@ -83,7 +83,7 @@ fi
 if [ "$CI" = "true" ]; then
     git clean -xdf
     echo "Wysyłanie PR..."
-    gh pr create -B master -H PolishRoboDogForks:RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$RTM_PR_MESSAGE"
+    gh pr create -B master -H PolishRoboDogHouse:RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$RTM_PR_MESSAGE"
     cd ..
     if [ "$CIRCLECI" = "true" ]; then
         git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
