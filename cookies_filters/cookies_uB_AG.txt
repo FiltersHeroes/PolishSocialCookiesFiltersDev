@@ -501,6 +501,10 @@ trendyopticians.pl##.bpr_body[style]:style(overflow: auto !important; background
 trendyradio.pl###fancybox-container-1:has(#rodo_1)
 trivagin.pl##html.overflow:style(overflow: auto !important;)
 trivagin.pl##.cookies-cont
+truestory.pl##body > div[id*="-"][class=""] + a[href*="/wordpress-real-cookie-banner/"]
+truestory.pl##body > div[id*="-"][class=""]:has(a[href*="/wordpress-real-cookie-banner/"])
+truestory.pl##html[style*="overflow"], body[style*="overflow"], body[data-rcb-previous-overflow]:style(overflow: auto !important;)
+truestory.pl##+js(acis, realCookieBanner, atob)
 tvgo.orange.pl##body > div[role="dialog"]:not([id]):not([class]):has(.rodo-wrapper)
 tvp.pl##.tvp-cookie-overlay
 tvp.pl##.tvp-cookie-scroll-lock:style(position: static !important; overflow: auto !important;)
