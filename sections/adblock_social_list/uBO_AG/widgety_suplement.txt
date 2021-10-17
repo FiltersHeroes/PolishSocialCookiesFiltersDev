@@ -1,6 +1,9 @@
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > strong:has-text(/^Podziel się$/):upward(2)
 30minut.pl##.gora_ikony_nk, .gora_ikony_fb:style(visibility: hidden !important;)
 45minut.pl##+js(ra, href, .carousel-inner a[href="https://www.facebook.com/45minutpl"])
+studiooptyczne44.pl##.swiper-slide a[href*="instagram.com/p/"] h2
+studiooptyczne44.pl##.swiper-slide a.btn[href*="instagram.com/p/"]
+studiooptyczne44.pl##+js(ra, href, .swiper-slide > a[href*="instagram.com/p/"][title], stay)
 abcfirany.pl##+js(ra, href, #BanneryAnimacjaPrzewijana > #scrlnr1 > a[href="https://abcfirany.pl/reklama-b-4.html"])
 adres-ip.pl##.s1.sidebar > .sidebar-content > .group.sidebar-top > p:style(visibility: hidden !important;)
 adstone.pl##.footer > div > #text-4 > .textwidget > p:after:style(content: "Jesteśmy na:" !important; position: absolute !important; margin-left: -100px !important; color: #fff !important; background: #fff !important;)
