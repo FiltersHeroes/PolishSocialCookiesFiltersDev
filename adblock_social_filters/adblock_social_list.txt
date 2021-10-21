@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.10.21.0
-! Last modified: Thu, 21 Oct 2021, 19:08 UTC+02
+! Version: 2021.10.21.1
+! Last modified: Thu, 21 Oct 2021, 23:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.10.21.0 aktualizacja: czw, 21 paź 2021, 19:08 UTC+02
+! v.2021.10.21.1 aktualizacja: czw, 21 paź 2021, 23:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -3271,8 +3271,11 @@ homebook.pl##.hb-footer__social
 homedoctor.pl,otomotoprofi.pl,tradus.com##.app-footer__social
 homekoncept.com.pl##.site-footer > .sidebar > .container > div.widget:last-child
 homeoffice360.pl###footerColumn2 > h3:nth-of-type(1), #footerColumn2 > a > img[src*="/xhtml/img/stopka_"]
-home.pl##div > a[title="Twitter"][target="_blank"], div > a[title="Youtube"][target="_blank"], div > a[title="Facebook"][target="_blank"]
+home.pl##footer a[title="Linkedin"]
+home.pl##footer a[title="Youtube"]
 home.pl##.o-page-footer__column:nth-of-type(5)
+home.pl,pl.tripadvisor.com##footer a[title="Facebook"]
+home.pl,pl.tripadvisor.com##footer a[title="Twitter"]
 homify.pl##.social-follow-links-box
 hondanews.eu###homepage-socialmedia.socialmedia-hub
 honda.pl##article:nth-of-type(2) > .footerHeading
@@ -5295,8 +5298,6 @@ pl.silvexcraft.eu###media_section
 pl.tommy.com###olapic_specific_widget
 pl.tommy.com##.\-\-connect.footer__list-title
 pl.tradingview.com##.tv-footer__column--socials:nth-of-type(2)
-pl.tripadvisor.com##footer a[title="Facebook"]
-pl.tripadvisor.com##footer a[title="Twitter"]
 pl.trustpilot.com##.brand-footer__social
 pl.usembassy.gov##.mo-social-links
 pl.vivre.eu,vivrehome.pl##div.footer__utility-col:nth-of-type(4) > .footer__utility-title
@@ -6316,6 +6317,7 @@ sparta.com.pl##footer > .containers > div.top.row:nth-of-type(1)
 speak-up.pl###FB
 speak-up.pl###YT
 spece.it##.social-links > li:nth-of-type(-n+2)
+speckable.pl##.ins-l-footer__col-newsletter
 specshop.pl###menu_buttons > div.menu_button_wrapper:nth-of-type(1) > a > img
 specshop.pl###social-platforms
 spedycje.pl###top_social
