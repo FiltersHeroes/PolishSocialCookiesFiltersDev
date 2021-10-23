@@ -129,7 +129,7 @@ dmd-biuro.pl##.ui-widget.ui-dialog:has(#dialog-agreement)
 dmd-biuro.pl,mediaexpert.pl,realme.com##body[style*="overflow"]:style(overflow-y: auto !important;)
 dm.pgi.gov.pl###ispmodal, .modal-backdrop, .jquery-modal
 dobrapogoda24.pl##+js(ra, class, body[class="modal-open"], stay)
-dobrapogoda24.pl,repostuj.pl###rodo-modal, .modal-backdrop
+dobrapogoda24.pl,repostuj.pl,bilety.mazowieckie.com.pl###rodo-modal, .modal-backdrop
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 doleasingu.com##main > header[style]:style(padding-right: 0 !important;)
@@ -584,3 +584,4 @@ zyjzdrowo.info###vicky-cookiebox, .modal-backdrop
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has( > span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"]):remove()
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
+bilety.mazowieckie.com.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
