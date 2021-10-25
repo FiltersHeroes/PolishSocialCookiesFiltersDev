@@ -1,8 +1,4 @@
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > strong:has-text(/^Podziel się$/):upward(2)
-welovekeratin.pl##.elementor-widget-pix-social-icons
-welovekeratin.pl##a[href*="instagram.com/we_love_keratin"] > i ~ span:upward(section)
-welovekeratin.pl##.pix-main-slider .carousel-cell:first-child img[src*="-instagram-"]:upward(.elementor-widget-container .pix-main-slider)
-
 30minut.pl##.gora_ikony_nk, .gora_ikony_fb:style(visibility: hidden !important;)
 45minut.pl##+js(ra, href, .carousel-inner a[href="https://www.facebook.com/45minutpl"])
 abcfirany.pl##+js(ra, href, #BanneryAnimacjaPrzewijana > #scrlnr1 > a[href="https://abcfirany.pl/reklama-b-4.html"])
@@ -88,6 +84,9 @@ valtra.pl##.aem-GridColumn a[href*="facebook.com/"] img:upward(.aem-GridColumn)
 valtra.pl##.aem-GridColumn .titleblock__heading:has-text(ŚLEDŹ)
 waw4free.pl###spolecznosci:style(height: auto !important;)
 weather.com##.SocialMediaShareButton:style(pointer-events: none; position: unset !important;)
+welovekeratin.pl##a[href*="instagram.com/we_love_keratin"] > i ~ span:upward(section)
+welovekeratin.pl##.elementor-widget-pix-social-icons
+welovekeratin.pl##.pix-main-slider .carousel-cell:first-child img[src*="-instagram-"]:upward(.elementor-widget-container .pix-main-slider)
 wp.pl##.article > [class]:has( > [class] > .fb-like)
 www.dobreprogramy.pl##div > div > div > svg + p:has-text(/Polub/i):upward(2)
 www.knorr.pl##:root > body .social-sharing, :root > body .social-sharing > *:style(display: block !important; visibility: hidden !important;)
