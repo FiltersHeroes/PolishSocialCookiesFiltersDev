@@ -849,8 +849,6 @@ emt-systems.pl###rodoBG
 encycolorpedia.pl,fdb.pl###consent
 endoca.com##.gdpr-modal-notify
 eneba.com#?##app > div[class] > div[class]:-abp-has( > p > a:-abp-contains(polityce prywatności))
-!eneba.com#?##app > main ~ div[class]:-abp-has( > p a:-abp-contains(polityce prywatności))
-!eneba.com#?##app > main > div[class] > div[class]:-abp-has( > p a:-abp-contains(polityce prywatności))
 engie-services.pl##.agreements
 enigmatis.pl###root > div:nth-of-type(1):not([id]):not([class])
 enjoyuk.pl###fanback
@@ -2823,3 +2821,5 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zyro.com##.zyro-cookies
+!eneba.com#?##app > main ~ div[class]:-abp-has( > p a:-abp-contains(polityce prywatności))
+!eneba.com#?##app > main > div[class] > div[class]:-abp-has( > p a:-abp-contains(polityce prywatności))
