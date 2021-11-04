@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.10.31.2
-! Last modified: Sun, 31 Oct 2021, 22:08 UTC+01
+! Version: 2021.11.4.0
+! Last modified: Thu, 04 Nov 2021, 14:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.10.31.2 aktualizacja: nie, 31 paź 2021, 22:08 UTC+01
+! v.2021.11.4.0 aktualizacja: czw, 04 lis 2021, 14:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -872,9 +872,7 @@ empik.com##.js-cookies-accept
 emt-systems.pl###rodoBG
 encycolorpedia.pl,fdb.pl###consent
 endoca.com##.gdpr-modal-notify
-eneba.com#?##app > div[class] > div[class]:-abp-has( > h3:-abp-contains(/^Ciasteczka$/))
-eneba.com#?##app > main ~ div[class]:-abp-has( > h3:-abp-contains(/^Ciasteczka$/))
-eneba.com#?##app > main > div[class] > div[class]:-abp-has( > h3:-abp-contains(/^Ciasteczka$/))
+eneba.com#?##app > div[class] > div[class]:-abp-has( > p > a:-abp-contains(polityce prywatności))
 engie-services.pl##.agreements
 enigmatis.pl###root > div:nth-of-type(1):not([id]):not([class])
 enjoyuk.pl###fanback
@@ -2847,6 +2845,8 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zyro.com##.zyro-cookies
+!eneba.com#?##app > main ~ div[class]:-abp-has( > p a:-abp-contains(polityce prywatności))
+!eneba.com#?##app > main > div[class] > div[class]:-abp-has( > p a:-abp-contains(polityce prywatności))
 !
 !
 ! Specyficzne reguły blokujące
