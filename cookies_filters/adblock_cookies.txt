@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.11.4.0
-! Last modified: Thu, 04 Nov 2021, 14:08 UTC+01
+! Version: 2021.11.4.1
+! Last modified: Thu, 04 Nov 2021, 23:05 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.11.4.0 aktualizacja: czw, 04 lis 2021, 14:08 UTC+01
+! v.2021.11.4.1 aktualizacja: czw, 04 lis 2021, 23:05 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -343,6 +343,7 @@ bethesda.net#?#visor-alert[name="visor-alert"] > div[class=""] > div > div:last-
 betsson22.com##.bottom-snackbar.cookie-consent
 betsson22.com##.mat-snack-bar-container
 betsson.com###MsgAreaBottom
+bezowsikow.pl,pirolam.pl,polopiryna.pl,polpharma.pl##.monit
 bezpieczny.pl##.remodal-wrapper, .remodal-overlay
 bialoleka.waw.pl###img_98
 bialoleka.waw.pl###popup-bg
@@ -2054,7 +2055,6 @@ pilot.wp.pl#?##gatsby-focus-wrapper > div[class] > div[class*="sc-"]:-abp-has( >
 pinterest.com##div[role="main"] > div[class] > div[data-test-id="unauthEuCookieBar"]
 pios.gov.pl,wios.gov.pl,wios.rzeszow.pl##.a-footer
 pipelife.com###coo
-pirolam.pl,polopiryna.pl,polpharma.pl##.monit
 pizzahut.pl###ph-cookies
 pizzahut.pl#?#body > #__next > div[class^="css-"] > div[class^="css-"] ~ div[class^="css-"]:last-child:-abp-has(img[alt="Cookies"][src^="/images/cookies"])
 pizzaportal.pl,pl.chili.com##.react-cookie-banner
@@ -3848,7 +3848,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 aion.eu#@#.cookies-notification:not(body)
 al.to,combat.pl#@##app > div:first-child > div
-bethesda.net,coca-cola.pl,domiporta.pl,edziecko.pl,haps.pl,moto.pl,plotek.pl,sport.pl,toteraz.pl#@##onetrust-consent-sdk
+avg.com,bethesda.net,coca-cola.pl,domiporta.pl,edziecko.pl,haps.pl,moto.pl,plotek.pl,sport.pl,toteraz.pl#@##onetrust-consent-sdk
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cliSettingsPopup
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-again
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
