@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.11.4.1
-! Last modified: Thu, 04 Nov 2021, 23:47 UTC+01
+! Version: 2021.11.9.0
+! Last modified: Tue, 09 Nov 2021, 14:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.11.4.1 aktualizacja: czw, 04 lis 2021, 23:47 UTC+01
+! v.2021.11.9.0 aktualizacja: wto, 09 lis 2021, 14:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -897,6 +897,7 @@ ergokantor.pl###popups__
 erli.pl#?##root > div[class]:-abp-has( > div > div > h4:-abp-contains(o swojej prywatności))
 esa.nask.pl#?#.ReactModalPortal:-abp-has(.cookies-greetings)
 esklep.legutko.com.pl###event_banner
+esky-pl.mozio.com#?##container > div ~ div:-abp-has( > div > span:-abp-contains(as cookies to))
 esparto.pl,eventy-online.pl,seoheroes.pl,yumisu.pl##.notification-bar
 espritgames.com###easy-cookies-policy-main-wrapper
 esprzedaz.com,shop.proenter.eu,wisteriagardens.eu###netgraf_cookie_alert
@@ -966,6 +967,7 @@ e-petrol.pl,uzdrowisko-wieniec.pl###statement
 e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
 e-podlaskie.eu###cookie-info-box
 e-podroznik.pl##.biscuits-usage
+e-podroznik.pl##.ep-cookies-info-wrapper
 e-promar.pl,lafe.pl,promib.pl###cInfo
 e-reporter.pl,inianie.pl,myhome.pl,newsbook.pl,pragroup.pl,sochaczewianin.pl###wpfront-notification-bar
 e-restauracja.com###cookies-accept
@@ -1622,6 +1624,7 @@ lutomiersk.info,szansa-annopol.pl,szpital.legnica.pl,tuczno.pl##.cookies-msg-wra
 luxexpress.eu###luxCookie
 lvbet.pl###js-cookie-popup
 lyconet.com,ogloszeniowa.net###cookie-box
+macpaw.com##.-social.footer-col > *:not(.footer-lang)
 madreklama.com##.style2
 magazyn-hamag.pl##.notify-popup
 mag-sklep.pl##.b-popup-wrapper
