@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.11.7.0
-! Last modified: Sun, 07 Nov 2021, 22:08 UTC+01
+! Version: 2021.11.12.0
+! Last modified: Fri, 12 Nov 2021, 14:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.11.7.0 aktualizacja: nie, 07 lis 2021, 22:08 UTC+01
+! v.2021.11.12.0 aktualizacja: pią, 12 lis 2021, 14:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -3223,6 +3223,7 @@ helendoron.pl##.soc-list
 helikon-tex.com##.m-image--sharing-links-white
 helio.pl##.search.navbar-form > a:nth-of-type(n+3):nth-of-type(-n+4)
 helloforma.com###find-us > .boxhead, #find-us > .innerbox
+helloprints.com.pl##.sk_social_icons_list
 hellozdrowie.pl##.fbCount
 hellozdrowie.pl##.wrapSocialBox
 hellozdrowie.pl##.single-post-side-shares-title
@@ -7284,6 +7285,7 @@ www.auchan.pl#?#.row.no-gutters.justify-center > .col-12:-abp-has( > .row.no-gut
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:nth-of-type(-n+2)
 www.google.com,www.google.pl##.chr-footer-social
 www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^(Facebook|Twitter)$/)
+www.google.com,www.google.pl#?##modal-dialog div[class*="-share-"] button[class*="-share-"]:-abp-has(img[src*="svg"])
 www.o2.pl##div[class][title="polubienia"], div[class][title="polubienia"] + div
 www.o2.pl#?#div[class][data-st-area*="Quote-Content"] div[class] > div[class]:-abp-has( > span[class][icon] > svg[width][height])
 www.o2.pl#?##grid > div[class][data-st-area*="Quotes"] a[href*="/cytat/"] div[class] > div[class]:-abp-has( > span[class][icon] > svg[width][height])
