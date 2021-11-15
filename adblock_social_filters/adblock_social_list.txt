@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.11.14.1
-! Last modified: Sun, 14 Nov 2021, 23:41 UTC+01
+! Version: 2021.11.15.0
+! Last modified: Mon, 15 Nov 2021, 14:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.11.14.1 aktualizacja: nie, 14 lis 2021, 23:41 UTC+01
+! v.2021.11.15.0 aktualizacja: pon, 15 lis 2021, 14:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -27,7 +27,7 @@ android.com.pl##.social-popup
 babymanager.pl#?#.spu-bg:-abp-has( ~ .spu-box .fb-like-box)
 babymanager.pl#?#.spu-box:-abp-has(.fb-like-box)
 beskidy.news##.c-pop-up
-black-friday.pl,cryptoprofit.pl,e-przepisykulinarne.pl,funfashion.pl,kucharenka.pl,kuchniawedwoje.pl,magazyninformacyjny.pl,prostowsmak.com,tele-wizja.ru,wielkopolskamagazyn.pl,zatrzymujacczas.pl###ffbp, #ffbp-bg
+black-friday.pl,cryptoprofit.pl,e-przepisykulinarne.pl,funfashion.pl,kucharenka.pl,kuchniawedwoje.pl,magazyninformacyjny.pl,prostowsmak.com,wielkopolskamagazyn.pl,zatrzymujacczas.pl###ffbp, #ffbp-bg
 czasnawnetrze.pl##.waitbox
 dreweks.eu###x13popup-container, #x13popup-cover
 dziennikparafialny.pl###itro_popup, #itro_opaco
@@ -3235,6 +3235,8 @@ hello-body.pl##.block-social-icons
 hello-body.pl#?#div.section-title-container.container:-abp-contains(na Instagramie)
 help.docplanner.com##.kb-footer__social
 henrykkania.pl##.b-stopka__social
+henwar.pl##.av-icon-char[href*="facebook.com/"]
+henwar.pl#?#.avia-builder-el-last.flex_column_div.av_one_third:-abp-has(.iconbox_content_title a[href*="facebook.com/"])
 herbapol.com.pl##.menu__icons > a[href*=".com/"][target="_blank"]
 herbapol.com.pl##.new-social-footer-icons
 hermesplus.pl##.custom_icon-facebook-box-line
@@ -5684,6 +5686,7 @@ puma.com##.p-footer-more > .p-footer-section-inner > .p-footer-section-title, .p
 pum.edu.pl##.crdocs__share__single:nth-of-type(-n+2)
 pupill.pl###social_follow
 puratos.pl##.p-footer-list-nav-horizontal--right.p-footer-list-nav-horizontal > li > a
+purepc.pl##.soc_tw
 purepc.pl##.soc_wk
 purepc.pl##.soc_yt
 purepc.pl#?#div.sidebox:nth-of-type(3):-abp-contains(na Facebooku)
@@ -8334,7 +8337,6 @@ laczynaspilka.pl#@#.share-sticky
 lublin112.pl#@##social-icon
 madameedith.com,tabletowo.pl#@#.top-social
 malygosc.pl,wykop.pl#@#.social-list:not(html):not(body)
-meble.do#@#.block-social
 meczyki.pl#@#.social-wrapper
 media.upc.pl#@#.bg-twitter
 media.upc.pl#@#.ion-social-twitter
