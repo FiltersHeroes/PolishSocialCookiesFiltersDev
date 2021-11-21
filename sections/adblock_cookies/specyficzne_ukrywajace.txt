@@ -1,9 +1,4 @@
-cire.pl#?##root > header ~ header ~ div[class*=" "]:-abp-has(>div p:first-child:-abp-contains(/plików cookie$/))
-cire.pl#?##root > header ~ header ~ div[class*=" "]:-abp-has(> div div:first-child:-abp-contains(/^Informacja na stronę$/))
-
-
 ~dm.pgi.gov.pl,pgi.gov.pl###ispmodal, .jquery-modal
-are.waw.pl##.top.ui-notificationbar
 1-st.com.pl,agrojd.com,agrospec.pl,allnet24.pl,arx.pl,aspel.com.pl,babysensepolska.pl,bhp.dozamel.pl,bikeman.pl,bosch.com.pl,comarch-esklep.pl,e-oazakrakow.pl,elabrick24.pl,esklep.brandvital.eu,estetiq.pl,galerialazienek.pl,haczykowo.pl,kopalniasrebra.com,kran.tychy.pl,ksiegarniarubikon.pl,oftadirect.pl,papier24h.pl,papieryczerpane.pl,sklep.abydos.pl,sklep.agro-eko.com.pl,sklep.balcamp.pl,sklep.benedetto.com.pl,sklep.budowniczy.com.pl,sklep.kotrak.com,sklep.kskd.pl,sklep.mebloart.eu,sklep.miodyapis.pl,sklep.phalanxgames.pl,sklep.rol-mech.pl,sklep.salvatti.pl,sklep.stalco.pl,sklep.tayama.pl,spawalniczy-sklep.pl,swiatkoralikow.pl,swiatkoralikow2.pl,texasclub.pl,tvprodukt.pl,workstyle.pl#?#div[class*="config"][class*="Messages" i]:-abp-contains(pliki cookies)
 2x45.info,adainfo24.eu,agromasa.com,alltube.tv,answear.com,atriumsystem.eu,barfnyswiat.org,bip.dzialdowo.eu,bip.gig.eu,bip.konin.eu,bip.piaseczno.eu,business.link,cedc.com,diagprog4.com,edeklaracje.info,eska.tv,evertourist.com,fachowiec.com,feriogaj.com,fokus.tv,gdansk.pl,gdzierodzic.info,grobla.net,imperiaonline.org,informacja-turystyczna.starachowice.eu,jezewo.eu,kolniak24.eu,koneser.eu,koszyki.com,lampy24.net,lot.com,lumarte.eu,mojewypieki.com,muzo.fm,nasze.fm,nowa.tv,odpady.chorzow.eu,plantatekst.info,portalodo.com,prymus.info,radiokampus.fm,rowertour.com,skierniewice.eu,studiuje.eu,telesystem-world.com,vodi.cc,voxmusic.tv,xtb.com,zamawiam.marchewkowepole.com###cookies
 3dom.pro,anmur.eu,aoc.com,avenidapoznan.com,bibliotekacyfrowa.eu,bimobject.com,bip.gliwice.eu,budmat.com,canalplus.com,chorzow.eu,corab.eu,damy-rade.info,diamante-wear.com,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kler.eu,koszulkomat.eu,maamstyle.com,mateuszgrzesiak.com,media-tech.eu,mg-pmm.com,motogron.com,narzedzia.cz,naszefutrzaki.eu,pkpcargo.com,prochnik.com,profit-plus.eu,radiopark.fm,rocks-jeans.com,sapphiretech.com,secretdelivery.pl,stolmot.com,telko.in,tg.shop,trecnutrition.com,warszawa.promenada.com,wearmedicine.com,yes2move.com##.cookies
@@ -206,6 +201,7 @@ arch.kpcen.pl###colorbox
 arch.kpcen.pl,laboratoria.net###cboxOverlay
 areatour.pl,dacter.pl,dlapacjenta.pl,marbo-sport.pl,radentortodonta.pl,uni-tech.pl##div#topbar
 arena.pl#?##__next > footer ~ .MuiPaper-root:-abp-has(a[href*="Polityka-Plik%C3%B3w-Cookies"].MuiLink-root)
+are.waw.pl,ebok.asta-net.pl,studia.gov.pl##.top.ui-notificationbar
 argentointernational.pl,bilera.pl,biurotech.net.pl,brewa.pl,dekavit.pl,gdanska1.pl,jesienna.mediaprod.com.pl,kalisz.caritas.pl,lanko.pl,letniskowo.pl,opiekun.kalisz.pl,parafia-slupia.pl,parafiachynowa.pl,przp.pl,radiorodzina.kalisz.pl,technikum.kalisz.pl,tygodnikkepinski.pl##.module-abovebox[style^="position: fixed;"]
 arg.gdynia.pl,finai.pl,rankinglekarzy.pl##div > .info
 arkady.info,e-drogeria.com,krzysztonjan.com###notice_bar
@@ -546,6 +542,8 @@ cineman.pl,mojeekino.pl,tv-trwam.pl##div[class^="CookiePolicyInfo__container"]
 cinkciarz.pl##.c-topbar--cookie
 circleci.com,pl.ecco.com###cookiebanner
 circlek.pl###cookieboxM
+cire.pl#?##root > header ~ header ~ div[class*=" "]:-abp-has( > div div:first-child:-abp-contains(/^Informacja na stronę$/))
+cire.pl#?##root > header ~ header ~ div[class*=" "]:-abp-has( > div p:first-child:-abp-contains(/plików cookie$/))
 citibank.pl##.new-cookie
 ciuchy.zizej.pl##footer ~ div[data-hook="optanon"]
 civitas.edu.pl###cronox-cookie-notice
@@ -776,7 +774,6 @@ ebay.pl###gdpr-banner, .gh-banner
 ebill.pl,racezone.pl,wrozbyonline.pl###sky-cookies
 ebizneskrokpokroku.pl###notification-bar
 eblik.pl#?#.page_content_info:-abp-has(#cookie_info_max)
-ebok.asta-net.pl,studia.gov.pl##.top.ui-notificationbar
 ebok.enea.pl##.page-footer-cookie-info
 ebok.jmdi.pl,nauka.gov.pl##.ui-notificationbar.top
 ebok.macrosat.pl,ebok.tkk.net.pl##.ui-widget.ui-notificationbar
