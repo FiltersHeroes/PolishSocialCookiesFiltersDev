@@ -399,6 +399,7 @@ pl###kopageBar > #kopageBarCookies:upward(1)
 pl##.alert > a[href*="/polityka-cookies"] ~ a[href*="/polityka"]:upward(.alert)
 pl##.module-abovebox p > a[href*="/polityka"][href$="-cookies.html"]:upward(.module-abovebox[style^="position: fixed;"])
 pl.aptoide.com##div[class*="cookie-notice__CookieNoticeWrapper-"]
+pl.canalplus.com###modal-overlayer-cookie-banner:remove()
 pl.kruk.eu##.cookie-agreement
 pl.kruk.eu##.cookie-open:style(position: static !important;)
 pl.nowystyl.com##html[style*="overflow:"]:style(overflow-y: auto !important;)
