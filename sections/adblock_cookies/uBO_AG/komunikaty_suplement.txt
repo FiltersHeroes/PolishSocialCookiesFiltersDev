@@ -392,6 +392,7 @@ pl###kopageBar > #kopageBarCookies:upward(1)
 pl##.alert > a[href*="/polityka-cookies"] ~ a[href*="/polityka"]:upward(.alert)
 pl##.module-abovebox p > a[href*="/polityka"][href$="-cookies.html"]:upward(.module-abovebox[style^="position: fixed;"])
 pl.aptoide.com##div[class*="cookie-notice__CookieNoticeWrapper-"]
+pl.canalplus.com###modal-overlayer-cookie-banner:remove()
 pl.kruk.eu##.cookie-agreement
 pl.kruk.eu##.cookie-open:style(position: static !important;)
 pl.nowystyl.com##html[style*="overflow:"]:style(overflow-y: auto !important;)
@@ -597,4 +598,3 @@ zyjzdrowo.info###vicky-cookiebox, .modal-backdrop
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has( > span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"]):remove()
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
-pl.canalplus.com###modal-overlayer-cookie-banner:remove()
