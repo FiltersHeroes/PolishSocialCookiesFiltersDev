@@ -599,4 +599,4 @@ zyjzdrowo.info###vicky-cookiebox, .modal-backdrop
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
 maxelektro.pl##.cookie-bg-wrapper
-maxelektro.pl##body:style(overflow: auto !important;)
+maxelektro.pl##body[style*="overflow"]:style(overflow: auto !important;)
