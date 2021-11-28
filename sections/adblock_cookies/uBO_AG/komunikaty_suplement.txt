@@ -287,6 +287,8 @@ lnk.to,orcd.co,tix.to##.slide-bar-container
 lomza.pl##html > body.polityka-cookies:style(margin-top: 0 !important; background-position: center 120px !important;)
 mago.com###yl-popup-wrapper-popupRodo, #yl-popup-shadow-popupRodo
 makro.pl##.cookie-law-modal
+maxelektro.pl##body[style*="overflow"]:style(overflow: auto !important;)
+maxelektro.pl##.cookie-bg-wrapper
 maxizoo.pl##body.no-scrolling:style(overflow: auto !important;)
 maxizoo.pl###cookie-banner.cookie-banner
 maxkuchnie.pl##+js(acis, $, initRodoWindow();)
@@ -598,5 +600,3 @@ zyjzdrowo.info###vicky-cookiebox, .modal-backdrop
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has( > span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"]):remove()
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
-maxelektro.pl##.cookie-bg-wrapper
-maxelektro.pl##body[style*="overflow"]:style(overflow: auto !important;)
