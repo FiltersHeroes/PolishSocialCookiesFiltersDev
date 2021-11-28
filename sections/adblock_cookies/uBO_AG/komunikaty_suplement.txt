@@ -2,6 +2,8 @@ memo-book.pl##.rodo-popup, .rodo-overlay
 memo-book.pl##body.rodo-locked, html.rodo-locked:style(overflow: auto !important;)
 memo-book.pl##body.rodo-locked #page-container > *:style(filter: none !important;)
 
+memo-book.pl##+js(rc, .rodo-locked, body\, html, stay)
+
 autohero.com###app ~ div[class*="backdrop_"], #app ~ div[class*="backdrop_"]
 autohero.com###app ~ div[class*="backdrop_"], #app ~ div[class*="backdrop_"] ~ div[class*="root"][role="dialog"]:-abp-contains(Używamy plików cookie)
 autohero.com##body[style]:style(overflow: auto !important; padding-right: 0 !important;)
