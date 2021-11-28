@@ -7,7 +7,7 @@
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
 ! Version: 2021.11.28.1
-! Last modified: Sun, 28 Nov 2021, 19:33 UTC+01
+! Last modified: Sun, 28 Nov 2021, 20:53 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.11.28.1 aktualizacja: nie, 28 lis 2021, 19:33 UTC+01
+! v.2021.11.28.1 aktualizacja: nie, 28 lis 2021, 20:53 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -397,7 +397,7 @@ bip.kielce.eu,lasy.gov.pl,wrota-swietokrzyskie.pl##.popup-alert-notice
 bip.marciszow.pl###cookiesWarning
 bip.org.pl,plocman.pl###dialog-rodo
 bip.sejmik.kielce.pl,e-pracownie.e-swietokrzyskie.pl,sip-rejestr.e-swietokrzyskie.pl##.pa_sci
-bip.skomlin.akcessnet.net,citymeble.com,historyk.eu,instytuty.drirenaeris.com,konstancin24.eu,konwerter.net,kupujemy.to,sklep.milicon.eu###cookie_info
+bip.skomlin.akcessnet.net,citymeble.com,historyk.eu,instytuty.drirenaeris.com,konstancin24.eu,konwerter.net,sklep.milicon.eu###cookie_info
 bip.um.slupsk.pl###pp > .cntr
 bip.um.szczytno.pl#?#.td_content_html p:-abp-has(span[style*="font"] > strong > span[style*="background-color"]:-abp-contains(/plików cookies/i))
 bip.zgorzelec.mserwer.pl##div > #footer
@@ -971,7 +971,7 @@ e-petrol.pl,uzdrowisko-wieniec.pl###statement
 e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
 e-podlaskie.eu###cookie-info-box
 e-podroznik.pl##.biscuits-usage
-e-podroznik.pl##.ep-cookies-info-wrapper
+e-podroznik.pl,hoper.pl##.ep-cookies-info-wrapper
 e-promar.pl,lafe.pl,promib.pl###cInfo
 e-reporter.pl,inianie.pl,myhome.pl,newsbook.pl,pragroup.pl,sochaczewianin.pl###wpfront-notification-bar
 e-restauracja.com###cookies-accept
@@ -1030,6 +1030,7 @@ fiveoclock.eu,nessi-sport.com,oko.press,pl-pl.segway.com,pl.tradingview.com,worl
 fivesport.pl###rodo_delivery_container, .rodo_background
 flixbus.pl##div[class^="CookieBox-module__notification_"]
 florexpol.eu###cookieMsg
+fly4free.pl##.qc-cmp2-container
 flyordie.pl###eucc
 fly.pl##div[data-cookiebar]
 fogo.pl##.bottom.shadow.foobar-wrapper.small-white-arrow
@@ -1622,7 +1623,6 @@ lubliniec.info##.ustawaCookie
 lukasfinanse.pl###strap
 lumac.pl###layer0a
 lumac.pl###layer1a
-lunch24.com##body > #__next > div[class=""] > div[class][direction="up"][style^="transform"]
 luqam.com###cookiesFlyInBox
 lurker.land##.uk-grid.uk-alert
 lutomiersk.info,szansa-annopol.pl,szpital.legnica.pl,tuczno.pl##.cookies-msg-wrapper
@@ -3937,6 +3937,7 @@ maxizoo.pl#@##cookie-banner:not(body):not(html)
 mcdonalds.pl#@#.cookies-container:not(body):not(html)
 mcdonalds.pl#@#.cookies-info:not(body):not(html)
 mcdonalds.pl,ose.gov.pl#@#.cookies:not(body):not(html):not(#page):not(#container):not(.wrapper):not(.popup-newsletter):not(.js-cookies)
+memo-book.pl,zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 migora.pl,motocombo.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
 naekranie.pl#@##modal-rodo-info:not(body):not(html):not(.fade):not(.reveal-modal)
 noweinwestycje.pl#@#.cookieBar:not(body):not(html)
@@ -3951,7 +3952,6 @@ sklep-domwhisky.pl#@#.rodo-popup:not(body):not(html):not([style="display: block;
 sklep.winkhaus.pl,volcano.pl#@#aside[class*="cookie"]
 viasatexplore.pl,viasathistory.pl,viasatnature.pl,winnicalidla.pl#@#.privacy-policy:not(body):not(html)
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
-zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 @@/jquery.cookie.min.js$domain=hotto.pl|merxpolska.pl|moric.pl|pokatne.pl|rozklad-pkp.pl|rozklad.pkp.pl|telepizza.pl
 @@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
 @@||coinroom.com/Modules/UI/Cookie/Cookie.js
