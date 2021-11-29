@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.11.29.0
-! Last modified: Mon, 29 Nov 2021, 14:08 UTC+01
+! Version: 2021.11.29.1
+! Last modified: Mon, 29 Nov 2021, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.11.29.0 aktualizacja: pon, 29 lis 2021, 14:08 UTC+01
+! v.2021.11.29.1 aktualizacja: pon, 29 lis 2021, 22:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -813,7 +813,7 @@ pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_like
 20lat.interia.pl##.fb-share-btn
 24kurier.pl##.boxFilm.tMarg20.box:nth-of-type(2)
 24kurier.pl##.social.container > .row > div:nth-of-type(1)
-24kurier.pl##.topbar [class^="icon"]:not(.icon_mail)
+24kurier.pl##.topbar a[class^="icon"]:not(.icon_mail)
 24legnica.pl###socialStuff
 24opony.pl,adleragro.pl,agrieko.pl,akademos.pl,antyweb.pl,audiofan24.pl,auto-swiat.pl,bhs-goleniow.pl,biuroprasowe.pl,blachownia.pl,bydgoszcz.com,centrum.fm,cocolita.pl,comperia.pl,duzekubki.pl,ebexo.pl,fabrykazabawek.eu,fakt.pl,galeriadomow.pl,grodzisknews.pl,gugik.gov.pl,inowroclaw.pl,jezykipaderewski.pl,kalisz24.info.pl,komputerswiat.pl,lublin112.pl,macris.com.pl,miechow.eu,moaburger.com,mojanorwegia.pl,mojtelefon.info,mokis.info,naklo.fm,ncn.gov.pl,niemiecki.co,nmedica.pl,oakandberry.com,optyk.klodzko.pl,p-programowanie.pl,patriot24.net,pieninyinfo.pl,portalmorski.pl,promopixel.pl,protonmail.com,protonvpn.com,przegladsportowy.pl,queer.pl,rdn.pl,reypol.com.pl,roltech.eu,scandi-city.pl,sec.com.pl,sklep.piast-gliwice.eu,sklepfarmera.pl,splacepark.pl,sprzedajemy.pl,ssl24.pl,strzelec.info,taniaksiazka.pl,wanicki.pl,weblider.eu,wrzesnia.powiat.pl,wyborcza.biz,zdrowekolorowe.pl,znak.com.pl,ztkruszwica.pl##.fb
 24pr.pl##a[href*="facebook.com/pages/24PR-Portal-PR/300082949728"]
@@ -5299,6 +5299,7 @@ pl.admininfo.info##.hotwp-scroll-top
 pl.akinator.com##.share-box .text-center:empty
 pl.akinator.com#?#.share-box > p:-abp-contains(Podziel)
 pl.aleteia.org##footer a[aria-label*="facebook"], footer a[aria-label*="instagram"], footer a[aria-label*="twitter"]
+pl.aleteia.org##header a[href*=".com/"][target="_self"]
 pl.aleteia.org###footer-socials-follow, #top-socials-follow
 pl.aleteia.org###root > aside div a[href*=".com/"][target="_self"]
 pl.aleteia.org##.oas_box, .shareBarPreText
