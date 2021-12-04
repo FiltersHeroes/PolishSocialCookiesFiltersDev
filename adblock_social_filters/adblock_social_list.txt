@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.12.1.0
-! Last modified: Wed, 01 Dec 2021, 14:08 UTC+01
+! Version: 2021.12.4.0
+! Last modified: Sat, 04 Dec 2021, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.12.1.0 aktualizacja: śro, 01 gru 2021, 14:08 UTC+01
+! v.2021.12.4.0 aktualizacja: sob, 04 gru 2021, 18:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -3036,6 +3036,7 @@ githubstatus.com##.footer a[href*="facebook.com/"]
 githubstatus.com##.footer a[href*="linkedin.com/"]
 githubstatus.com##.footer a[href*="twitter.com/"]
 githubstatus.com##.footer a[href*="youtube.com/"]
+github.com##h3 ~ details > summary:only-child
 github.com##.footer > div > div > ul > li > a[title^="GitHub on"]
 give.thunderbird.net##.footer-links__header
 gizchina.com.pl##.vw-social-icons
@@ -3513,6 +3514,7 @@ ithardware.pl##.title-area > .post-sharing > .list-inline > li:nth-of-type(-n+3)
 itholding.pl###footer #nav_menu-4
 iturek.net##.uk-grid.uk-grid-small.uk-child-width-auto
 itvm.pl,kwidzyn.pl##.td-instagram-wrap
+it.tarnow.pl##nav a[class*="ink--social"]:not([href*="/feed"])
 iwaszkiewiczipartnerzy.com##footer div[id^="LnkBr"]
 iwetto.com##.social > a > i
 izabawka.pl##.container.userfooter > .row > p:nth-of-type(1)
@@ -5964,6 +5966,7 @@ russ.uwm.edu.pl##.vc_icon_element-inner
 rustykalneuchwyty.pl##.footer div.col-sm-3:nth-of-type(4) > .content-element
 ryanair.com##hp-connect-with-us
 ryanair.com##.discover-destination__social > div.h4:nth-of-type(1)
+rybnik.com.pl,slaskibiznes.pl,tujastrzebie.pl,tuwodzislaw.pl,tuwroclaw.com,tuzory.pl##footer .tiles li.tile
 rybnik.eu##.social.list-inline > li:nth-child(-n+4)
 rydzowski.pl##.footer_scls
 rydzyna24.pl#?#.elementor-location-footer .elementor-heading-title:-abp-contains(Social Media)
@@ -6331,6 +6334,7 @@ smazymy.com##.footer div.column--half:nth-of-type(2)
 smgostyn.pl###youtubeHandler, #vimeoHandler
 smieszneciuszki.pl##.text-2.sidebar
 smieszneprezenty.com.pl##a[href*="facebook.com/pg/SmiesznySklepPl/posts/"] > img
+smsapi.pl##.footer__social-media-urls a:not([href*="apple"]):not([href*="play"]):not([href*="github"])
 sneakerpeeker.pl##footer.container a[href*="facebook.com/"]
 sneakerpeeker.pl###instaFeed
 sneakershop.pl###links_footer_3 > li > span, #links_footer_3 > li > .footer_links_sub > li:not(:nth-of-type(2))
@@ -8305,7 +8309,6 @@ account.kaufland.com,komputerswiat.pl,onet.pl,realmadryt.pl,tvn24bis.pl#@#.socia
 account.kaufland.com,x-kom.pl#@#.social-bar
 addhost.pl#@#.retweet
 afrodytasalon.pl#@#.fl-social-icons
-akinator.com#@#.share-box
 aldi.pl#@#.icon--share
 alilove.pl#@#.footer-social-wrap
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,morele.net,motoria.pl,muzykazreklam.pl,sklep-presto.pl,ubieramy.pl#@#.facebook-button
@@ -8408,6 +8411,7 @@ spece.it#@#[title^="Follow us on "]
 styl.fm#@#.article__share
 tabletowo.pl#@#.social_icon
 tajemnice-swiata.pl#@#.mh-social-icons
+tarnow.pl#@#.col-social
 tbitech.pl#@#.social-nav
 teleskopy.pl#@#.fa-share
 tiktok.com#@#.follow-button
