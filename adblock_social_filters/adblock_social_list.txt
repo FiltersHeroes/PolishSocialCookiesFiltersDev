@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.12.5.1
-! Last modified: Sun, 05 Dec 2021, 22:06 UTC+01
+! Version: 2021.12.6.0
+! Last modified: Mon, 06 Dec 2021, 14:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.12.5.1 aktualizacja: nie, 05 gru 2021, 22:06 UTC+01
+! v.2021.12.6.0 aktualizacja: pon, 06 gru 2021, 14:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -1530,6 +1530,7 @@ bkfwarszawa.com.pl##ul[id].rssocial-icons > li:nth-of-type(-n+2)
 bkslublin.pl##div.moduletablesponsorzy:nth-of-type(4) > p:nth-of-type(6), div.moduletablesponsorzy:nth-of-type(4) > p:nth-of-type(8)
 blachotrapez.eu##.part, .scl
 blackdoghouse.pl,dietyodbrokula.pl##.instagram-widget
+blackmagicdesign.com#?#.gf-socials > a:not([href*="/rss"])
 blasty.pl##.ips_image_share
 blik.com##.social-media-menu
 blik.com##.social-media-menu--footer
@@ -8330,6 +8331,7 @@ bankier.pl#@#.m-social-bar
 bankier.pl,claudia.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,moto.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,ugotuj.to,wyborcza.pl#@#.socialBar
 bemares.pl#@#.social-media:not(html):not(body)
 biznes.interia.pl#@#.social-socialButtons
+blackmagicdesign.com#@#.gf-socials
 chillizet.pl#@#.share-content
 com,eu,info,pl#@##social_block
 couchsurfing.com#@#.mod-social
