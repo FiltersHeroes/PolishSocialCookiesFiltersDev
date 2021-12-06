@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.12.6.0
-! Last modified: Mon, 06 Dec 2021, 14:08 UTC+01
+! Version: 2021.12.6.1
+! Last modified: Mon, 06 Dec 2021, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.12.6.0 aktualizacja: pon, 06 gru 2021, 14:08 UTC+01
+! v.2021.12.6.1 aktualizacja: pon, 06 gru 2021, 22:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -1276,6 +1276,7 @@ autoklub.pl###fb_like_box
 autokult.pl#?#article.article .article > figure.insert__default > .title:-abp-contains(na Instagramie)
 autokult.pl,fitness.wp.pl,fotoblogia.pl,komorkomania.pl,smaczneblogi.pl##.grid-item__social.grid-item
 autokult.pl,fotoblogia.pl,komorkomania.pl##.icon-mail, .post-article-links__header, .social-links--author.social-links
+autokult.pl,fotoblogia.pl,komorkomania.pl##.social-links.share-links > a:not([class*="comment"])
 autokult.pl,urzadzamy.pl##.instagram-media
 automarket.pl##.bottomMenu_largeColumn h4
 automobilista.com.pl,pali2razy.pl##.twinsbox
@@ -1977,7 +1978,7 @@ cryptodemy.pl##.td-pb-row:nth-of-type(2) > .td-pb-span4:nth-of-type(2), .td-with
 cryptonews.pl,finanseodkuchni.pl,garneczki.pl##.barcelona-widget-social-media-icons
 cryptoprofit.pl###sidebar > #media_image-7 > a > img, .left-slider.featured-area > #sidebar > .widget > a > img
 cryptoprofit.pl##.coin-telegram, .coin-facebook, .coin-twitter, .coin-reddit
-cryptoprofit.pl,emito.net,hotto.pl,miedzlegnica.eu,moraj.pl,polmotor.pl,przepisyjoli.com,uni.wroc.pl,wege-warszawa.pl,zgred.pl,zielonysklep.com##.header-social
+cryptoprofit.pl,emito.net,hotto.pl,miedzlegnica.eu,moraj.pl,murapol.pl,polmotor.pl,przepisyjoli.com,uni.wroc.pl,wege-warszawa.pl,zgred.pl,zielonysklep.com##.header-social
 csgo-skins.com###fb-page-button
 csim.pl##.menuPort > nav > ul > li > a[href*=".com/"]
 csi.pl#?#.site-footer__text > p:-abp-contains(Social media)
@@ -2033,7 +2034,7 @@ czeladz.pl##.i-yt
 czeladz.pl,ock.gov.pl,straz.gov.pl##.i-fb
 czerkawski.com.pl##.header-info-2 > div:nth-of-type(2), .stickyContainer
 czerwionka-leszczyny.pl###komunikacja.komunikacja
-czerwonak.pl,o-shop.com###fb-root
+czerwonak.pl###fb-root
 czescidobmw.pl##.facebook-plugin
 czesci.wanicki.pl##div.footer__col:nth-of-type(4)
 czeskieklimaty.pl###div_fb
@@ -2545,7 +2546,7 @@ eskarock.pl##.main-nav__socials
 eska.pl##.hot_temat_cont:nth-of-type(28) > .m-bottom30.goth_l.title, .goth_l.polub
 eska.pl##.type--facebook.element
 eska.pl,~www.eska.pl##.footer > .box:nth-of-type(6), .footer > .box:nth-of-type(7)
-eska.pl,eskarock.pl,onet.pl,senatkomorki.pl,viva.pl##.messenger
+eska.pl,eskarock.pl,senatkomorki.pl##.messenger
 eska.pl,poradnikzdrowie.pl##.fb__shareBox
 eska.tv##.social.box
 eskk.pl###footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > .footer-strong, #footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > .footer-strong ~ a
@@ -4850,6 +4851,7 @@ njumobile.pl##li > .sun-orb
 noatun.com.pl###stopka a[href*="facebook.com/"]
 noble-optic-house.pl##.blog_share
 nocowanie.pl##.page__footer .footer-content .footer-content__action > :nth-child(n+3):nth-child(-n+4)
+nocowanie.pl#?#.footer-content__action:-abp-contains(Obserwuj nas)
 nocowanie.pl,wschodnik.pl##.icon-gplus
 noir.pl##.menu_mid_link2 > li:nth-of-type(1)
 nono-store.pl##.fsi-social-icons-left, .fullwidth.stripecontainer
@@ -4926,6 +4928,7 @@ oees.pl##footer div.row:nth-of-type(2) > div.col-md-3.col-xs-6:nth-of-type(2)
 oetker.pl##footer a[href*="facebook.com/"], footer a[href*="instagram.com/"], footer a[href*="youtube.com/"]
 ofeminin.pl##.socialProfiles
 ofeminin.pl###socialIcons, .socialsBtns, .hdrScl, .ftrScl
+ofeminin.pl,onet.pl,~www.onet.pl##.formresult_share > .formresult_share_title
 oferteo.pl###rich-socials.rich-socials
 oferteo.pl##.container-socialmedia .col-sm-4.col-md-5.col-lg-6, .container-socialmedia .sm-box
 ofertypromocje.pl###linkiPortalu
@@ -4935,7 +4938,7 @@ ogloszeniarolnicze.com.pl##.footer-top .row > div.col-md-3:nth-of-type(4)
 ogloszenia.trojmiasto.pl###actions-bar-facebook-button
 ogloszenioteka.pl#?#div.article.lfloat:-abp-contains(Zapraszamy na nasz profil na Facebooku)
 ogrodnik-amator.pl##a[href*="facebook.com/pages/ogrodnik-amatorpl/459365410789108"]
-ogrod-marzen.pl,tipply.pl##.fb-toggle
+ogrod-marzen.pl##.fb-toggle
 ogrzewania.pl##.modFBWidget
 oiot.pl##.menu-icon-tw.menu-icon, .menu-icon-fb.menu-icon, .menu-icon-yt.menu-icon
 oirplodz.pl##.icons-content > a > .ico-box
@@ -4986,7 +4989,7 @@ onet.pl##div[class^="Authors_socialLinksWrap"]
 onet.pl##div[data-gtm-social]
 onet.pl##.social-container > .fb
 onet.pl#?#div[class^="_"] > span[class^="_"]:-abp-contains(Podziel się tym artykułem)
-onet.pl,~www.onet.pl##.formresult_share > .formresult_share_title
+onet.pl,viva.pl##.messenger
 onet.tv##.mvp-beam-social-buttons
 onexstore.pl##.footer-col--social
 onico.pl##div.footer-content__icons.large-3.column:nth-of-type(-n+3)
@@ -5079,6 +5082,7 @@ ozonee.pl###menu_banners3 > .menu_button_wrapper > a
 ozonemask.pl###text-32
 ozonowaniemieszkan.nets.pl#?#.elementor-widget > div:only-child > div.elementor-heading-title:only-child:-abp-contains(znajdź nas na)
 o-m.pl###T1
+o-shop.com###fb-root
 paatal.pl###footer_links #menu_buttons3
 paa.gov.pl##.pole-banerowe > a[href*="twitter.com/paatomistyki"]
 pabianice.tv##.header-search-wrapper > div.home-icon:nth-of-type(-n+2)
@@ -6160,6 +6164,7 @@ simplyyourself.online##.elementor-animation-shrink[href*="instagram.com"] > svg,
 simplyyourself.online#?#.elementor-widget-heading.elementor-widget.elementor-element > .elementor-widget-container > .elementor-size-default.elementor-heading-title:-abp-contains(mediach społecznościowych)
 sip.lex.pl##.footer-social-icons-col
 sip.lex.pl##.wk-footer-nav-list-social
+siriuspro.pl##a[href*="twitter.com/intent/tweet"]
 sirt.pl##.social > a:not(:last-child)
 sissel.com.pl###info-header > span.info:nth-of-type(n+4):nth-of-type(-n+5)
 siteimpulse.com##.col-md-4.cols-5:nth-of-type(2)
@@ -6741,6 +6746,7 @@ time.is##.adjustright > .social_buttons + div.tr
 tinder.com#?#.nav-section-title:-abp-has( + .nav-social)
 tinypic.pl##.media-toolbox:nth-of-type(4)
 tipmedia.pl#?#.widget:-abp-has(div[class*="heading"] > a[href*="facebook.com/tipmediapl/"])
+tipply.pl##.fb-toggle
 tiptopol.pl###block-stopkasocialmedia
 titanaxe.com##.page-footer-social
 tja.pl###graf_fb, #graf_googleplus, #div_wysuwany_facebook
@@ -7579,6 +7585,7 @@ zycietoprzygoda.pl##footer div[class^="platnosci"] a img
 zyciezpsem.pl##.social_nav
 zyro.com##.footer__socials-list
 zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz Facebook)
+!ofeminin.pl##.formresult_share
 ###chaty-channel-facebook_messenger
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 !
