@@ -1,6 +1,4 @@
 ~pl##body > div#cookie[class=""]
-##footer ~ .rodo
-###wrapper .rodo
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
 ~pl###actionCooki:not(body):not(html):lang(pl)
 ~pl###kopageBarCookies + div:lang(pl)
@@ -232,8 +230,8 @@ pl###cookies-policy:not(body):not(html)
 pl###cookies-politics:not(body):not(html)
 pl###cookies-popup:not(body):not(html)
 pl###cookies-warning:not(body):not(html)
-pl###cookies:not(body):not(html):not(.section):not(.fade) ~ #backdrop:empty
 pl###cookies:not(body):not(html):not(.section):not(.fade)
+pl###cookies:not(body):not(html):not(.section):not(.fade) ~ #backdrop:empty
 pl###cookies_accept:not(body):not(html):not(button)
 pl###cookies_allowed_message:not(body):not(html)
 pl###cookies_bar:not(body):not(html)
@@ -698,6 +696,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##div.polityka-prywatnosci
 ##div[style*="background:url(images/cookies_tlo.png)"]
 ##div[style*="url(layout/cookies.png)"]
+##footer ~ .rodo
 ###Ciasteczka:not(body):not(html)
 ###Ciastka:not(body):not(html)
 ###Informacja_o_ciasteczkach:not(body):not(html)
@@ -741,6 +740,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ###rodo-popup:not(body):not(html):not(.fade):not(.modal)
 ###rodo_all:not(body):not(html)
 ###stopka-polityka.stopka-polityka
+###wrapper .rodo
 ###wymog_uee:not(body):not(html)
 ###zgoda.sekcja-ciasteczka:not(body):not(html)
 ##.ciachbtm-wrap-container:not(body):not(html)
