@@ -1,10 +1,11 @@
 panattonieu.com###image-popup[class*="txt"], #image-popup-bg
 panattonieu.com##body[style*="overflow"]:style(overflow: auto !important;)
 
+filmweb.pl##+js(set, consentManagerIsOn, false)
+filmweb.pl##+js(set, rodo.checkIsDidomiConsent, noopFunc)
+
 um.warszawa.pl###popup-overlay.popup-overlay
 um.warszawa.pl##.hide-scroll:style(overflow: auto !important;)
-
-
 
 amica.pl##.popup__mask
 amica.pl##body[style]:style(position: static !important;)
