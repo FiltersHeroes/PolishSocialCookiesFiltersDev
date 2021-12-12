@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.12.6.1
-! Last modified: Mon, 06 Dec 2021, 22:08 UTC+01
+! Version: 2021.12.12.0
+! Last modified: Sun, 12 Dec 2021, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.12.6.1 aktualizacja: pon, 06 gru 2021, 22:08 UTC+01
+! v.2021.12.12.0 aktualizacja: nie, 12 gru 2021, 18:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -1824,6 +1824,7 @@ chcesieliczyc.pl##.footer-link--facebook
 chemia-atat.pl,elektryka-atat.pl,oswietlenie-atat.pl,zywnosc-atat.pl##.footbg > .container > .col-md-4
 chemik-police.com##.youtube-cta
 chevan.pl##footer > div > div.text-center:nth-of-type(1)
+chili24.pl##.fixedIcons a[href*=".com/"]
 chillizet.pl##.share > .messanger.button, .like__us, #main-footer p.text-align__center.uppercase.footer__title
 chimmo.pl##a.footer-icon
 chinskapatelnia.pl##.home-instagram.home-box, .home-youtube.home-box
@@ -8374,6 +8375,8 @@ jezuici.pl#@#.et-extra-social-icons
 kadantiscam.netlify.app,naszesprawy.eu,pkobp.pl,radiopoznan.fm#@#.social-icon
 kei.pl#@#.social_icons
 kingowiec.pl,wiadomoscihandlowe.pl#@#.socialmedia:not(html):not(body)
+klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet"]
+klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet?"]
 kosapopatelni.pl#@#.bdaia-social-io
 kosapopatelni.pl#@#.widget-social-links
 krokdozdrowia.com#@##social-networks
