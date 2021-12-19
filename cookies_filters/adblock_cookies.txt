@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.12.12.1
-! Last modified: Sun, 12 Dec 2021, 21:33 UTC+01
+! Version: 2021.12.19.0
+! Last modified: Sun, 19 Dec 2021, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2021 Certyficate IT
 ! Copyright © 2021 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.12.12.1 aktualizacja: nie, 12 gru 2021, 21:33 UTC+01
+! v.2021.12.19.0 aktualizacja: nie, 19 gru 2021, 22:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -992,7 +992,6 @@ faktykaliskie.pl,finansowysupermarket.pl###policy-popup
 falelokikoki.pl##.one-cookie-banner
 famemma.tv##.paper-privacy-agreement
 familiasa.pl###rodo-box
-fanclub.huaweipolska.pl##.popup-info, .popup-info-bg
 fandk.com.pl###block-block-6
 fansubs.pl##div[style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding: 10px; top: 0px; right: 0%; width: 94%; opacity: 1; margin-left: 2%; display: block; "]
 fantastyka.pl##div[style="text-align: center; padding: 15px; border-bottom: 2px solid #cc3300; background: url(obrazki/kwadrat-monit.png); font-size: 9pt;"]
@@ -3849,14 +3848,14 @@ blogspot.com###cookieChoiceInfo
 diety.wp.pl##.rodo-popup
 go.tvn24.pl##.rodo-notice
 istotne.pl##.notification-info.notification
-jbzd.cc,jbzdy.cc,jbzdy.com.pl,jbzdy.pl#body > div[class^="app_gdpr"]
+jbzdy.cc,jbzdy.com.pl,jbzdy.pl#body > div[class^="app_gdpr"]
 minecraftpolska.net##.cookieinfo
 mybank.pl##.ciasteczka
 tvn24.pl###msgLayer
 web.archive.org###popup-cookies
 wzory-cv.com##.gatewayBar
 xboxforum.pl##.notice--cookie
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=jbzd.cc|jbzdy.cc|jbzdy.com.pl|jbzdy.pl
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=jbzdy.cc|jbzdy.com.pl|jbzdy.pl
 !
 !
 ! Bugi Prebake
