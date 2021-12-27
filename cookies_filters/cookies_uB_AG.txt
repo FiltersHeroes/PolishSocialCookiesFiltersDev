@@ -597,6 +597,8 @@ zamowienia.gbl.waw.pl###login-modal, .modal-backdrop
 zawszepomorze.pl###zp-gtm-scripts-modal
 zawszepomorze.pl##.zp-gtm-scripts--blur:style(filter: none !important;)
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
+zlubaczowa.pl##html[style*="overflow"]:style(overflow: auto !important; height: unset !important;)
+zlubaczowa.pl##iframe#cmp-iframe
 zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important; overflow-y: visible !important;)
 zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 zozsuchabeskidzka.pl###mpc-modal-4-1
@@ -906,6 +908,8 @@ wiemy.to$$#banner[tag-content="RODO"]
 wtk.pl$$#GDPR-modal
 www.google.com,www.google.pl##^script[tag-content="consentCookiePayload"]
 zdajmyrazem.pl$$#gdprModal
+zlubaczowa.pl#%#//scriptlet('remove-attr, 'style', 'html[style*="overflow"][style*="important"]')
+zlubaczowa.pl#?#html[style*="overflow"][style*="important"]:style(overflow: auto !important; height: auto !important;)
 ztm.poznan.pl$$#PopUP
 @@||gawex.pl/assets/js/cookieinfo.js
 !#endif
