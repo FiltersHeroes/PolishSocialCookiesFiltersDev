@@ -6,18 +6,18 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2021.12.27.1
-! Last modified: Mon, 27 Dec 2021, 23:43 UTC+01
+! Version: 2022.1.2.1
+! Last modified: Sun, 02 Jan 2022, 23:34 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
 ! Redundant Checker => https://www.certyficate.it/redundant_checker/redundantRuleChecker.html
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
-! Copyright © 2021 Certyficate IT
-! Copyright © 2021 Filters Heroes
+! Copyright © 2022 Certyficate IT
+! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2021.12.27.1 aktualizacja: pon, 27 gru 2021, 23:43 UTC+01
+! v.2022.1.2.1 aktualizacja: nie, 02 sty 2022, 23:34 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -1060,7 +1060,7 @@ alphavit.pl,athleticsport.pl,avita.pl,jokasklep.pl,lanex.com.pl,lidia.pl,mojedek
 alpro.com###ela_header_socialNav, #ela_footer_socialNav
 altenberg.pl##.youtube_link, .instagram_link
 alter24.pl,livingonmyown.pl###custom_html-8
-alternatywne.pl,djoles.com,megataxi.pl,twojaanglia.eu,wochenblatt.pl###fpw_widget
+alternatywne.pl,djoles.com,megataxi.pl,wochenblatt.pl###fpw_widget
 aluprof.eu##.sidebar__title, li.sidebar__link:nth-of-type(-n+3)
 al.to,combat.pl,x-kom.pl##footer a[href*="facebook.com"], footer a[href*="instagram.com"], footer a[href*="youtube.com"], footer a[href*="twitter.com"]
 al.to,x-kom.pl##footer.social > .row h4
@@ -5305,7 +5305,6 @@ pks.bydgoszcz.pl###zak_yt
 pkwp.org##.tw-tab
 pkwp.org##.yt-tab
 pkw.gov.pl###header_ico li.ico:nth-of-type(n+4):nth-of-type(-n+6)
-pk.zem.com.pl,solarispobierowo.pl,toreja.pl##.navigation a.ct-link[id^="link"][href*=".com/"][target]
 placesandplants.com##footer div.col:nth-of-type(2) div.widget:nth-of-type(3), footer div.col:nth-of-type(2) div.widget:nth-of-type(1), footer div.col:nth-of-type(3) > div.widget:nth-of-type(1) > .widget-title, .socialMediaOnEveryPost
 planetagracza.pl,swiatoze.pl###text-2 > .widget-title
 planetarium.torun.pl###columns > #dol > #dol2
@@ -5947,7 +5946,6 @@ retrolab.pl##.wiersz_fb
 retromedia.pl###lite-fb-chat
 retromtb.pl##td:nth-of-type(2) > table > tbody > tr > td:nth-of-type(2) > table > tbody > tr:nth-of-type(n+3) > td > div
 retronagazie.eu###sfsi-widget-5
-retrotech.blog##.magazine_plus_widget_social
 retrotraktor.pl##.side-border-right > table:nth-of-type(1)
 riftcat.com###header-static > .topbar-social-icons > a
 rima-polska.pl##.footer-small-social > a:not([href*="mailto:"])
@@ -6413,6 +6411,7 @@ sokolow.pl#?#.paragraph--view-mode-default.paragraph--type-block.paragraph:-abp-
 sokpol.com.pl##.rwdhide
 solano-shop.com##.footer__find-us
 solarisbus.com##.c-list--social.c-list
+solarispobierowo.pl,toreja.pl##.navigation a.ct-link[id^="link"][href*=".com/"][target]
 solidworks.pl###socials-ico
 solid-gear.pl##.sidebar-fb
 solid.jobs##app-root > .footer > .row > div.footer-section:nth-of-type(1) > div > a
