@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.1.2.1
-! Last modified: Sun, 02 Jan 2022, 23:34 UTC+01
+! Version: 2022.1.3.0
+! Last modified: Mon, 03 Jan 2022, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.1.2.1 aktualizacja: nie, 02 sty 2022, 23:34 UTC+01
+! v.2022.1.3.0 aktualizacja: pon, 03 sty 2022, 22:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -576,6 +576,7 @@ ckiw-dobieszkow.ohp.pl###eDcPopupBox
 ckmir.com.pl#?#p:-abp-contains(cookie)
 ck-czestochowa.pl,jamyoni.org.pl,makeupmyday.pl,polityka-spoleczna.lubuskie.pl,polskie-cmentarze.pl,powiat-zielonogorski.pl,relpol.pl###powiadomiony
 clearchannel.com.pl,mpwik.com.pl,sokolka.com.pl###rodoPopup
+clea.pl,sguni.pl,tksport.pl,um-swiecie.pl##.scbi
 climateo.pl,wentylacja24.pl##.body-cookie
 cloud.huawei.com##.cookieTip
 cmcmarkets.com###cmc-tracking-consent-form-step1
@@ -2399,7 +2400,6 @@ serwis.currenda.pl##div#sign_up
 seszele.com.pl##iframe#cookfr
 sew-eurodrive.pl##.mod-cookie-layer
 sferaplatinum.pl#?##page_content > div[class^="jss"] > div:not([id]):not([clas]) ~ div[class^="jss"]:-abp-has( > button[aria-label="Close"])
-sguni.pl,tksport.pl,um-swiecie.pl##.scbi
 shazam.com##div.policy-label
 ship24.com##app-accept-cookie
 shippuuden.pl##div#cookis-bg
