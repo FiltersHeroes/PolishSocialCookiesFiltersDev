@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.1.3.0
-! Last modified: Mon, 03 Jan 2022, 22:08 UTC+01
+! Version: 2022.1.7.0
+! Last modified: Fri, 07 Jan 2022, 14:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.1.3.0 aktualizacja: pon, 03 sty 2022, 22:08 UTC+01
+! v.2022.1.7.0 aktualizacja: pią, 07 sty 2022, 14:08 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -734,6 +734,7 @@ domd.pl###cookie-info-popup
 domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
 domesta.com.pl###CookiesWarningPopup
 domfilmowy.pl##div[data-mesh-id^="SITE_FOOTER"] > div[data-mesh-id^="SITE_FOOTER"] > div > p + p > span:only-child
+dominospizza.pl##.cookies-visible:not(.popup-visible)
 domisad.pl##.message-cockies
 dommania.pl##.footer-max-width > .row > div[class]:nth-of-type(1) > :nth-child(n+3):nth-child(-n+4)
 domnet.pl,jakbudowac.pl##.dialog-fixed
@@ -1150,6 +1151,7 @@ glogow-info.pl,glogow.info.pl##.info1, .tloinfo1
 glogow-info.pl,glogow.info.pl##.wrapper > table:nth-of-type(1)[style="margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: -6px;"]
 glos24.pl##DIV[style="border: 1px solid #fcce00; background: #fcfc9a; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 2px 4px #bbb; -webkit-box-shadow:0 2px 4px #bbb; -khtml-box-shadow: 0 2px 4px #bbb; box-shadow:0 2px 4px #bbb; width: 700px; font: normal 12px/1.6em verdana; color: #505050;"]
 glos24.pl##body > div[style*="z-index: 999"]
+glosbe.com#?#body > .fixed:-abp-has([id*="cookieconsent"])
 glosbe.com,monsterbike.eu,pl.weber,polbox.tv,polsky.tv,slovake.eu##.cc-banner
 glosbe.com,tuv-nord.com###cookie-statement
 glos.tv##.cookieTooltip
@@ -3940,6 +3942,8 @@ bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl,vaillant.pl#@##coo
 calvinklein.pl,pl.tommy.com#@#.cookie-notice:not(body):not(html):not(#footer):not(#wrapper)
 dkms.pl#@#.cc-banner:not(body):not(html)
 dkms.pl#@#.cc-window[aria-label*="consent"]:not(body):not(html)
+dominospizza.pl#@#aside[class*="Cookie"]
+dominospizza.pl#@##cookie-message:not(body):not(html)
 elavon.pl#@#.cookiePolicy:not(.reveal):not(body):not(html)
 electrolux.pl#@#.CookieConsent:not(body):not(html)
 eurogamer.pl#@##optanon:not(body):not(html)
