@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.1.18.0
-! Last modified: Tue, 18 Jan 2022, 22:08 UTC+01
+! Version: 2022.1.18.1
+! Last modified: Tue, 18 Jan 2022, 22:44 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.1.18.0 aktualizacja: wto, 18 sty 2022, 22:08 UTC+01
+! v.2022.1.18.1 aktualizacja: wto, 18 sty 2022, 22:44 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -577,7 +577,7 @@ ckis-pruszcz.pl,grodzisk.pl,iaepan.edu.pl,parkwodny.pl,srodaslaska.pl,szkolymedy
 ckiw-dobieszkow.ohp.pl###eDcPopupBox
 ckmir.com.pl#?#p:-abp-contains(cookie)
 ck-czestochowa.pl,jamyoni.org.pl,makeupmyday.pl,polityka-spoleczna.lubuskie.pl,polskie-cmentarze.pl,powiat-zielonogorski.pl,relpol.pl###powiadomiony
-clearchannel.com.pl,mpwik.com.pl,sokolka.com.pl###rodoPopup
+clearchannel.com.pl,daliantrading.com.pl,mpwik.com.pl,sokolka.com.pl###rodoPopup
 clea.pl,sguni.pl,tksport.pl,um-swiecie.pl##.scbi
 climateo.pl,wentylacja24.pl##.body-cookie
 cloud.huawei.com##.cookieTip
@@ -618,7 +618,7 @@ credit-suisse.com##.mod_cookie_policy
 credstepfunds.pl,csir.pl,jasfbg.com.pl,rik.pl###ac_cookie_bar
 crimedistrict.com#?#body > div > div[style*="position"][style*="absolute"] > div[style*="float"][style*="left"]:-abp-has( ~ [style*="float"][style*="left"] > a[href*="cookie"] > img[src*="cookie"])
 crocs.pl###intercept
-cropp.com,dombud.eu,ganjamafiashop.com,giftmaker.eu,giorre.com,gorke.eu,hikoki-narzedzia.pl,kameleonbutik.com,laroxy.com,mojeinstalacje.com,navcomm.eu,rebelelectro.com,rockwellautomation.com,sklep-tvsat.com,spacetronik.eu,zbiornikinadeszczowke.com,zeskory.com###cookieNotice
+cropp.com,dombud.eu,ganjamafiashop.com,giftmaker.eu,giorre.com,gorke.eu,harposoftware.com,hikoki-narzedzia.pl,kameleonbutik.com,laroxy.com,mojeinstalacje.com,navcomm.eu,rebelelectro.com,rockwellautomation.com,sklep-tvsat.com,spacetronik.eu,zbiornikinadeszczowke.com,zeskory.com###cookieNotice
 cropp.com,ibood.com,ifm.com,pl.eurosportplayer.com##.cookie-notice
 crossweb.pl##.part-cook
 cs-puchatek.pl##.oregulaminie
@@ -763,7 +763,7 @@ dowozy.pl,e-kolo.pl,gieldarolna.pl,jpd.com.pl,madlen.pl,minecraft.org.pl,nastopy
 dpslubuczewo.pl,gastromaniacy.pl,idhosting.pl,instytutlogopedyczny.pl,sggik.pl###flash-msg
 dreamjump.pl##.CookieMonster
 dreammachines.pl###qkies_info
-dressler.com.pl,install-it.pl,selgros24.pl,wydawnictwoolesiejuk.pl,wydawnictwoswiatksiazki.pl##.overlay
+dressler.com.pl,install-it.pl,selgros24.pl,testuj.pl,wydawnictwoolesiejuk.pl,wydawnictwoswiatksiazki.pl##.overlay
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
 drtusz.pl###cookie_info_text
 drumshop.pl###cookiesblock-wrapper
@@ -1237,6 +1237,7 @@ hansgrohe.pl##div.cookie-bottom-layer
 hansgrohe.pl##div.js-cookie-light
 hapipozyczki.pl##.cookies-policy-warning
 harmonia-masaz.pl,kopel.pl,projan.com.pl,rynekpapierniczy.pl,winad-bus.pl,zgrzewarki.pl,zoo.torun.pl###cookie-rp
+harposoftware.com###cookieNoticeContent
 haszkod.pl###cookieshit
 hays-response.pl,hays.pl###header-msg
 hebe.pl##.rodo-popup_popup
@@ -1765,7 +1766,7 @@ modile.pl###marketing-popup
 mohito.com,superkoszyk.pl###widget-cookie-message
 mojabudowa.pl###cookie_regulamin
 mojavon.pl##.mpp-container > .mpp-popup
-mojeppk.pl###ppk-cx-webchat-chat-button
+mojeppk.pl#?##root #main ~ div[class*=" "]:-abp-has( > div > div > img[src*="Cookies."])
 mojeuslugi.pl##.footer ~ div.text-center.fixed
 moje-dzialdowo.pl##footer ~ .v-dialog
 mok.rabka.pl#?##breadcrumbs:-abp-has(table td span a[href*="/Ciasteczko"] ~ a[href*="-ciasteczka"])
@@ -3174,7 +3175,7 @@ pl###cookieBlock:not(body):not(html)
 pl###cookieBoxContainer:not(body):not(html)
 pl###cookieBoxWrapper:not(body):not(html)
 pl###cookieBox:not(body):not(html)
-pl###cookieConsent:not(body):not(html)
+pl###cookieConsent:not(body):not(html):not(.modal)
 pl###cookieContent:not(body):not(html)
 pl###cookieControl:not(body):not(html)
 pl###cookieDisclaimer:not(body):not(html)
