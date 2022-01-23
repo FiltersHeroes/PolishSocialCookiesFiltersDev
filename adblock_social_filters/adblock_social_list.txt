@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.1.23.0
-! Last modified: Sun, 23 Jan 2022, 18:08 UTC+01
+! Version: 2022.1.23.1
+! Last modified: Sun, 23 Jan 2022, 22:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.1.23.0 aktualizacja: nie, 23 sty 2022, 18:08 UTC+01
+! v.2022.1.23.1 aktualizacja: nie, 23 sty 2022, 22:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -1013,7 +1013,7 @@ alejapokoju83.pl,atalbaltica.pl,atalkliny.pl,atalmarina.pl,atalresidence.pl,atal
 alejasztuki.com##.art-footer div.art-layout-cell:nth-of-type(3)
 alejesmaku.pl##.footer_as_button2
 alekinoplus.pl,forum.ncplus.pl,forum.pl.canalplus.com###FBRight
-alekosmos.pl,batcave.com.pl,booklips.pl,boskapszczola.pl,carsense.pl,cdn.ug.edu.pl,craftportal.pl,damagier.pl,david-durden.pl,doktorania.pl,fama.org.pl,glodnapolka.pl,glyskincare.pl,jakpicwhisky.pl,kocialapka.org.pl,kwadranszpodkopem.com,madameedith.com,magnapolonia.org,malygeniusz.org,nono-store.pl,pdasite.pl,plusbiuro-police.pl,portal.region.info.pl,prokapitalizm.pl,promocje.msi.com,swiatdronow.pl,swingwithme.pl,swobodnie.eu,vivio.pl,winers.pl,wizytowka.be,wrodzinie.pl###text-3
+alekosmos.pl,batcave.com.pl,booklips.pl,boskapszczola.pl,carsense.pl,cdn.ug.edu.pl,craftportal.pl,damagier.pl,david-durden.pl,doktorania.pl,elektrostymulatory.net,fama.org.pl,glodnapolka.pl,glyskincare.pl,jakpicwhisky.pl,kocialapka.org.pl,kwadranszpodkopem.com,madameedith.com,magnapolonia.org,malygeniusz.org,nono-store.pl,pdasite.pl,plusbiuro-police.pl,portal.region.info.pl,prokapitalizm.pl,promocje.msi.com,swiatdronow.pl,swingwithme.pl,swobodnie.eu,vivio.pl,winers.pl,wizytowka.be,wrodzinie.pl###text-3
 aleksandrow-lodzki.pl##.icons > .g.icon
 aleokulary.com,bimbo.shop.pl,ekologiczny.pl,hotspray.pl,moto125.pl,sklephormann.pl,tylkostylowe.pl,wodna-kraina.pl###widget_shop1
 aleperfumeria.pl##.inst.box
@@ -1826,7 +1826,9 @@ ceramika-artystyczna.pl##.footer-box div:nth-of-type(4)
 certum.pl###social-panel
 certyficate.it###pre-header-social
 cert.orange.pl###twitterHover
+cert.pl##.sharebox
 cert.pl##section[id^="text-"]
+cert.pl,citroen.pl,dsautomobiles.pl,peugeot.pl,poradnikprzedsiebiorcy.pl,pyszne.pl,smogowicze.pl,swiatrolnika.info,tvn.pl##.socialmedia
 cewe.pl##.sg-cw-footer-sociallinks
 cewe.pl##.sidebar-link:nth-of-type(n+4):nth-of-type(-n+6) > .sidebar-icon
 cezal.lublin.pl,rebelelectro.com###footgroup4
@@ -1886,7 +1888,6 @@ ciop.pl##.justified.niebieski > a[href*="facebook.com/CIOPPIB/"] > img
 cisco.com##.dmc-follow-us
 citrix.com.pl##.ctx-follow-wrap > div, .ctx-follow-wrap > ul[class]
 citroen.pl##.column_50.columns:nth-of-type(2)
-citroen.pl,dsautomobiles.pl,peugeot.pl,poradnikprzedsiebiorcy.pl,pyszne.pl,smogowicze.pl,swiatrolnika.info,tvn.pl##.socialmedia
 cityboard.pl#?#.sppb-section > .sppb-row-container > .sppb-row > .sppb-col-md-4 > .sppb-column:-abp-contains(DOŁĄCZ)
 ciuchy.zizej.pl#?#main > section ~ section:-abp-contains(Cyknij fotkę)
 ciuchy.zizej.pl,csi.pl,dworska.pl,goodie.pl,lidl.pl,promocje.invado.pl,tv.mgsm.pl,wokularach.pl##footer a[href*="youtube.com/"]
@@ -2810,6 +2811,7 @@ finansenaobcasach.info###text-4 > .widgettitle
 finansowysupermarket.pl###fb-header
 finereader.pl,fundacjawolnosci.org,ustawlige.com,wnet.fm,yenn.eu##.menu-item a[href*="youtube.com/"]
 finexpert.pl,kadpol.pl##.facebook_zt
+finish.pl##.swiper-social
 finmarket.pl##span:nth-of-type(5)
 finnair.com##div.links-container.g-fourth-t-half:nth-of-type(4) > div.g-half:nth-of-type(1) > ul > li:nth-of-type(4), div.links-container.g-fourth-t-half:nth-of-type(4) > div.g-half:nth-of-type(2) ul > li
 fintechdigitalcongress.pl##.social-fx.twelve > .columns.two
@@ -3466,6 +3468,8 @@ infiniti.pl,nissan.pl,renault.pl##.last.col-3
 influencer.pl##.influ_social
 influencja.pl###stopka .text-right.kol_2
 infoair.pl,infobike.pl,infobus.pl,inforail.pl,infoship.pl,infotram.pl,transinfo.pl##.dolaczFB
+infobel.com,lokalny.infobel.pl##div.footer-box:nth-of-type(4)
+infobel.com,lokalny.infobel.pl##.footer-socials
 infogram.com##a[href*="facebook.com/infogramApp"]
 infogram.com##a[href*="linkedin.com/company/infogram"]
 infogram.com##a[href*="plus.google.com/+Infogram"]
@@ -4962,7 +4966,6 @@ o2.pl,pudelek.pl#?#article div:not([role="complementary"]) div[class]:-abp-has( 
 o2.pl,pudelek.pl#?#aside[role="complementary"] > div > div:-abp-has( > div > div.fb-like)
 oakandberry.com##.in:not(div):not([class*=" "])
 obcasy.pl##.widget_text.widget.td_block_template_1:nth-of-type(-n+2)
-obiecajmy.finish.pl##.swiper-social
 oborniki.pl##.open-fb.hl-fb, .open-yt.hl-yt
 obrusynawymiar.pl##.hook_footer > div > .title_block
 obserwatorfinansowy.pl##.pm-global-margin.pm-footer-ref
@@ -5409,6 +5412,7 @@ pl.foodsbrothers.pl##ul[aria-label="Pasek społecznościowy"], [data-hook="socia
 pl.forvo.com##.share > ul > li:not(:last-child)
 pl.genesis-zone.com##.social-media__icon-item
 pl.geofumadas.com###connect-ah .m-block.sm.alignright > ul > li > a
+pl.hisense.com##.console-foot-hs-social-group
 pl.howtopronounce.com##.socialShareIcons
 pl.iqos.com##.footer-secondary-link-menu > li.footer-list:nth-of-type(1)
 pl.johnnybet.com##.article-share-links
@@ -6047,6 +6051,7 @@ rozwojmiasta.plock.eu##.soc-icons > a[href*="facebook.com/Plock.rozwojmiasta"]
 ro.com.pl###footer_col2
 rpo-swietokrzyskie.pl##a[class^="ftr_social_fb"]
 rpo.lubelskie.pl##a[title^="Facebook ("], a[title^="Youtube ("], a[title^="Instagram ("]
+rp.pl##a.link .icon-linkedin
 rp.pl##.footer--socials
 rumia.eu##.ikonSocialMediaR
 runandonly.pl##.widget_ci-socials.group
