@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.1.22.1
-! Last modified: Sat, 22 Jan 2022, 22:08 UTC+01
+! Version: 2022.1.23.0
+! Last modified: Sun, 23 Jan 2022, 18:08 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.1.22.1 aktualizacja: sob, 22 sty 2022, 22:08 UTC+01
+! v.2022.1.23.0 aktualizacja: nie, 23 sty 2022, 18:08 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -1021,6 +1021,7 @@ alerabat.com##.m-footer__section--facebook
 aletorcik.pl##.widget_wrt_social
 alexander.com.pl##div.footer__col:nth-of-type(3)
 ale.pl##.facebook-wrapper
+ale.pl##.top-bar-top ul > li > a[href*=".com/"]
 alfabet24.com.pl#?#.box-container-b:-abp-has(.box-obrazek-inner a[href*="facebook.com/"])
 alfabravo.pl##.addresses > div > .row > div:nth-of-type(4)
 alfaparfmilano.com##.widget_the_social_links
@@ -3620,6 +3621,7 @@ jawor24h.pl#?#div.col-lg-3.col-md-4 div.mb-5:-abp-contains(Jesteśmy na)
 jawor-parkiet.pl##.bookmarkThisShare
 jawor-parkiet.pl###menur > div > div > a[href*=".com/"] > img
 jazzforum.com.pl##.menu_nav > a > img[src$="/images/uploads/doc/facebook-f.png"]
+jbzdy.cc,jbzdy.com.pl,jbzdy.pl##.btn-send-messenger, .fb-like
 jbzd.com.pl##.facebook-share
 jchost.pl###footer .forth-widget-area.col-lg-3.col-md-3.col-sm-12.col-xs-12 > .footer_widget.widget_text
 jdm-option.pl##a > .tweeter_logo.logotype, a > .vimeo_logo.logotype
@@ -5053,6 +5055,7 @@ onet.pl##div[class^="Authors_socialLinksWrap"]
 onet.pl##div[data-gtm-social]
 onet.pl##.social-container > .fb
 onet.pl#?#div[class^="_"] > span[class^="_"]:-abp-contains(Podziel się tym artykułem)
+onet.pl,plejada.pl##.whatsapp
 onet.pl,viva.pl##.messenger
 onet.tv##.mvp-beam-social-buttons
 onexstore.pl##.footer-col--social
@@ -5116,7 +5119,8 @@ oswiecim112.pl##.topbar_social > ul > li:nth-of-type(2)
 oswiecim.pl##.btn[href*="facebook.com/"], .btn[href*="youtube.com/"], .btn[href*="instagram.com/"], .btn[href*="twitter.com/"]
 osworld.pl##.td-social-wrap-64.td-social-wrap.td_block_wrap > .block-title
 osworld.pl##.td-s-s-64-meetup
-oszczedzarka.co.uk##.row > .engine-block.small-12.large-3 > center > a > img, .textwidget > p > img[src="/img/ico/skype.png"]
+oszczedzarka.co.uk##.row > .engine-block.small-12.large-3 > center > a > img
+oszczedzarka.co.uk.textwidget > p > img[src="/img/ico/skype.png"]
 oticon.pl###footer .section-one > .rich-text.component > .component-content
 otmetobuwie.pl##.dark_blue.button3_sub
 otoagent.pl##.layout__footer--socialsWrapper
@@ -5356,8 +5360,8 @@ playhearthstone.com###socialFooterMount
 playnow.pl##.c-footer__icons.align-right.row > div > .btn
 playstation.com#?#.bg-style-desktop-inline.pg_sec_overflow.center-align-heading.page-section.backgroundMidSilver:-abp-has(.social-icons)
 play.pl##.columns.box:nth-of-type(6)
+plejada.pl##content-share-top > .fb_share, .social-container > .social, .shareBarBox > .social
 plejada.pl##.tw_share
-plejada.pl##.whatsapp, #content-share-top > .fb_share, .social-container > .social, .shareBarBox > .social
 plemiona.pl##.social-media-icons-container
 plfoto.com###page_container > .content2 > #center > h3.headline:nth-of-type(3), #page_container > .content2 > #center > div#center_box_two:nth-of-type(3)
 plisomania.pl###menuToggleWrapperLeft
@@ -5372,6 +5376,7 @@ pluszaki.com###footer_secondary > .row > div.column:nth-of-type(4)
 pluszowasowa.pl##footer .row > div:nth-of-type(3)
 plus.pl##footer .column > li:nth-of-type(1) > span
 plus.pl##.mobile-hide.column.large-3.medium-6.small-12
+pl##a[href^="fb-messenger://share/"]
 pl##.sm-panel .sm-messenger
 pl-pl.fitatu.com##.fitatu-footer__social
 pl.admininfo.info##.hotwp-scroll-top
@@ -7212,7 +7217,8 @@ wakacje.pl##footer div > span ~ a[href*="wakacjepl"][target="_blank"]
 wakacje.pl###rightTabs > .rightFacebook
 wakacyjnipiraci.pl##a[href*="wakacyjnipiraci.pl/pages/whatsapp"]
 wakacyjnipiraci.pl##.footer__icon--fb, .footer__icon--tw, .footer__icon--gp
-wakacyjnipiraci.pl##.widget--facebook, .widget-whatsapp__broadcast
+wakacyjnipiraci.pl##.widget-whatsapp__broadcast
+wakacyjnipiraci.pl##.widget--facebook
 wakai.pl##a[href*="facebook.com/radioazja/"]
 wamiz.pl##.header-socialNetwork, .footer-socialNetwork
 wamiz.pl##.socialNetwork-title, .socialNetwork-title + div
@@ -8355,7 +8361,7 @@ interia.pl##.social-socialButtons
 interia.pl##.video-social
 interia.pl,pomponik.pl##.is-facebook.share-link
 istotne.pl###social_buttons, .icon_twitter, .icon_facebook, .icon_google_plus, .icon_youtube
-jbzdy.cc,jbzdy.com.pl,jbzdy.pl##.btn-send-messenger, .fb-like
+jbzdy.cc,jbzdy.com.pl,jbzdy.pl##.fb-like
 kalendarz.onet.pl,poczta.onet.pl##.ico-facebook
 komputerswiat.pl,przegladsportowy.pl##.fb_share
 konkret24.tvn24.pl##.share-container > .share-container__icon-wrapper > .share-container__modes:not(.share-container__modes--copy-link), .socials
@@ -8377,13 +8383,12 @@ onet100.vod.pl###socialIcons, .o_footSection3
 onet.pl##.fbShare
 onet.pl##a[href*="facebook.com/sharer/sharer"]
 onet.pl##a[href*="twitter.com/intent/tweet?"]
-onet.pl##.fbpageplugin.widget, .widgetFollowUs, .fb_share, .tw_share, .whatsapp, div[data-params*="facebook"]
+onet.pl##.fbpageplugin.widget, .widgetFollowUs, .fb_share, .tw_share, div[data-params*="facebook"]
 onet.pl##.shareBarBox > .social-share
 onet.pl#?#p.hyphenate:-abp-contains(Polub)
 onet.pl,~www.onet.pl##.page-share-wrap > .page-share, .share--block
 pclab.pl##.social-links, .social-container
 pilot.wp.pl#?#div > h4 ~ ul ~ h4:nth-of-type(2):-abp-contains(Więcej informacji)
-pl##a[href^="fb-messenger://share/"]
 poczta.onet.pl##.icon-ico_menu_facebook
 polski-sport.pl###td_social_sharing_article_bottom
 polski-sport.pl###td_social_sharing_article_top
