@@ -1,17 +1,4 @@
 2plus3d.pl###menuItem_facebook
-mam-serce.org##.ms-icon-social-media
-siepomaga.pl##li.sharing-share-modal-component__item:nth-of-type(-n+4)
-mbwesolek.pl##footer a[href*="facebook.com/"]
-mbwesolek.pl##header a[href*="facebook.com/"]
-mbwesolek.pl##header a[href*="instagram.com/"]
-solvano.pl##footer a[href*="facebook.com/"]
-
-lauraconti.pl##.insta-icon
-lauraconti.pl##.foot-socials-2
-
-raan-lighting.pl###header-box > .box:nth-last-child(1)
-
-forum.benchmark.pl###elFooterSocialLinks
 2smaki.pl###text-35
 2xme.pl##.footer__block--flex.footer__block, .media__second
 3dfilamenty.com,flowerexpress.pl##.fx-social
@@ -864,7 +851,7 @@ bomameble.eu###lerto_wysuwane
 bombkigepard.pl,wtd.up.poznan.pl###block-block-14
 bomm.pl##.text-center.links
 bonami.pl,ciuchy.zizej.pl,dworska.pl,goodie.pl,grobonet.com,kuchnieswiata.com.pl,mescomp.pl,promocje.invado.pl,rowerlubon.pl,shopee.pl,sklep.poshlady.pl,supermedia.pl,tv.mgsm.pl,wokularach.pl,zawszepomorze.pl##footer a[href*="instagram.com/"]
-bonami.pl,dworska.pl,e24cloud.com,fankakodowania.pl,goodie.pl,grobonet.com,ktomalek.pl,kuchnieswiata.com.pl,lekarzebezkolejki.pl,lidl.pl,mescomp.pl,niemchem.com,otoagent.pl,pergo24.pl,promocje.invado.pl,shopee.pl,sklep.poshlady.pl,studiooptyczne.tychy.pl,supermedia.pl,tv.mgsm.pl,viennalife.pl,wokularach.pl,zawszepomorze.pl,zenwire.eu##footer a[href*="facebook.com/"]
+bonami.pl,dworska.pl,e24cloud.com,fankakodowania.pl,goodie.pl,grobonet.com,ktomalek.pl,kuchnieswiata.com.pl,lekarzebezkolejki.pl,lidl.pl,mbwesolek.pl,mescomp.pl,niemchem.com,otoagent.pl,pergo24.pl,promocje.invado.pl,shopee.pl,sklep.poshlady.pl,solvano.pl,studiooptyczne.tychy.pl,supermedia.pl,tv.mgsm.pl,viennalife.pl,wokularach.pl,zawszepomorze.pl,zenwire.eu##footer a[href*="facebook.com/"]
 bonavita.pl###followers
 bonduelle.pl##sf-social-wall
 bonduelle.pl##.footer-right-social
@@ -1056,7 +1043,6 @@ certum.pl###social-panel
 certyficate.it###pre-header-social
 cert.orange.pl###twitterHover
 cert.pl##.sharebox
-
 cert.pl,citroen.pl,dsautomobiles.pl,peugeot.pl,poradnikprzedsiebiorcy.pl,pyszne.pl,smogowicze.pl,swiatrolnika.info,tvn.pl##.socialmedia
 cewe.pl##.sg-cw-footer-sociallinks
 cewe.pl##.sidebar-link:nth-of-type(n+4):nth-of-type(-n+6) > .sidebar-icon
@@ -2123,6 +2109,7 @@ forum-brukarskie.pl##.art-twitter-tag-icon
 forum-brukarskie.pl##.art-youtube-tag-icon
 forum-ekonomiczne.pl##footer > div > div > div > div.pos-top:nth-of-type(4)
 forum.android.com.pl##.cSignInTeaser_right
+forum.benchmark.pl###elFooterSocialLinks
 forum.blogowicz.info##a[href*="url.blogowicz.info/LubieTo"], a[href*="url.blogowicz.info/gplus"]
 forum.blogowicz.info##.podzielsie, #facebook-badge, #googleplus-badge, .column-sidebar-inner > div:nth-of-type(3), #gfr > div:nth-of-type(-n+2), #facebook2, .imp:nth-of-type(n+5):nth-of-type(-n+6), #gfr > div:nth-of-type(3) > div:nth-child(n+3), .firstPostd > hr:nth-of-type(3)
 forum.grywamtu.pl#?#li.ipsSpacer_bottom.ipsBox.cForumRow:nth-of-type(1) > .ipsAreaBackground_reset.ipsDataList_zebra.ipsDataList_large.ipsDataList > li.ipsClearfix.ipsDataItem_responsivePhoto.ipsDataItem.cForumRow:nth-of-type(1):-abp-contains(Facebook)
@@ -2137,6 +2124,15 @@ forum.pclab.pl,forum.purepc.pl,hdtvpolska.com##.cShareLink:not(.cShareLink_email
 forum.pl.canalplus.com###YoutubeRight
 forum.puppylinux.pl###sys_facebook40
 forum.puppylinux.pl###sys_twitter40
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##a[href*="komentarze"][title*="komentarzy"] + button
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##a[title="Kliknij aby przejść do komentarzy"] ~ div[class] > div[class][role="button"]
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##[data-href*="/techwppl/posts/" i]:not(a), [data-href*="/204153062611/posts/" i]:not(a)
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##[src*="%2Ftechwppl%2Fposts%2F" i]:not(img), [src*="%2F204153062611%2Fposts%2F" i]:not(img)
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button:-abp-has(svg)
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):-abp-has( > div[class] > svg)
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has([data-href*="/dobreprogramy/posts/" i]:not(a), [data-href*="/305335630685/posts/" i]:not(a), [src*="%2Fdobreprogramy%2Fposts%2F" i]:not(img), [src*="%2F305335630685%2Fposts%2F" i]:not(img), [src*="%2Ftechwppl%2Fposts%2F" i]:not(img), [src*="%2F204153062611%2Fposts%2F" i]:not(img), [data-href*="/techwppl/posts/" i]:not(a), [data-href*="/204153062611/posts/" i]:not(a))
 fotoblogia.pl,jejswiat.pl,smaczneblogi.pl##.link-gplus, .link-instagram
 fotografwdrodze.pl##.sidebar > div.widget_text.widget:nth-of-type(8)
 fotokulinarnie.pl##.fb-page-panel, .like-header, .instagram-wrap, .instagram-header
@@ -3297,6 +3293,8 @@ lasy.gov.pl##a[href*="youtube.com/user/LasyPanstwowe"]
 lasy.gov.pl###footer-column-3
 lasy.gov.pl###portalFooter li.portalFooterTile:nth-of-type(3)
 latarnia.teatrnn.pl###main_oferta > div:nth-of-type(3) > a
+lauraconti.pl##.foot-socials-2
+lauraconti.pl##.insta-icon
 lawendowykredens.pl##.footer-static > div.col-sms-12:nth-of-type(2)
 lazienki-krolewskie.pl#?#.grid-25:-abp-has(.polub-nas)
 laziska.com.pl,m-ce.pl,mojbytom.pl,mojchorzow.pl,mojegliwice.pl,mojekatowice.pl,mojetychy.pl,mojmikolow.pl,orzesze.com.pl,piekaryslaskie.com.pl,pyskowice.com.pl,rudaslaska.com.pl,rybnicki.com,siemianowice.net.pl,sosnowiecki.pl,swiony.pl,wodzislaw.com.pl,zabrze.com.pl,zory.com.pl###news-share
@@ -3514,6 +3512,7 @@ mamprawowiedziec.pl##.footer-row div.row:nth-of-type(2) > div:nth-of-type(2)
 mamprawowiedziec.pl##.footer-row > div:nth-of-type(1) > .text-uppercase
 mamprawowiedziec.pl,masterwww.pl,metropoliaztm.pl,zmiksowani.pl##.fa-twitter.fab
 mam-fach.info###__next > main ~ div[class*="bg-yellow"] p:last-child a[href*=".com/"]
+mam-serce.org##.ms-icon-social-media
 mango.pl##.fnSocial li:nth-of-type(n+3):nth-of-type(-n+4)
 manito.pl###footer_links div.menu_button_wrapper:nth-of-type(2) > .gfx_button
 manta.com.pl##.col-md-6.news_left
@@ -3574,6 +3573,8 @@ mbank.pl##.fr.community
 mba.umlub.pl##.slidecssbl
 mbp.opole.pl##.footer-cols-wrapper > .panel-grid-cell:nth-of-type(n+3) > .panel-cell-style.footer-col
 mbp.szczecin.pl#?#.elementor-inner-column.elementor-element[data-settings*="background"][data-settings*="classic"] > .elementor-element-populated.elementor-column-wrap:-abp-has(h4:-abp-contains(/^Bądź na bieżąco$/))
+mbwesolek.pl##header a[href*="facebook.com/"]
+mbwesolek.pl##header a[href*="instagram.com/"]
 mckenzie.pl##.rssocial-twitter-icon
 mckkatowice.pl##.soc > a
 mckkatowice.pl,ricoh.pl,zak.edu.pl##.social a
@@ -4771,16 +4772,6 @@ polvision.com##.foot_search_share
 polygamia.pl###polysocial, #sidebar-footer-top, #menu-submenu-1 a[href*="youtube.com/"], .sharepostHome
 polygamia.pl,tech.wp.pl,www.dobreprogramy.pl##[data-href*="/dobreprogramy/posts/" i]:not(a), [data-href*="/305335630685/posts/" i]:not(a)
 polygamia.pl,tech.wp.pl,www.dobreprogramy.pl##[src*="%2Fdobreprogramy%2Fposts%2F" i]:not(img), [src*="%2F305335630685%2Fposts%2F" i]:not(img)
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl##a[href*="komentarze"][title*="komentarzy"] + button
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl##a[title="Kliknij aby przejść do komentarzy"] ~ div[class] > div[class][role="button"]
-!polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl##button[title="Kliknij, aby udostępnić"]
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl##[data-href*="/techwppl/posts/" i]:not(a), [data-href*="/204153062611/posts/" i]:not(a)
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl##[src*="%2Ftechwppl%2Fposts%2F" i]:not(img), [src*="%2F204153062611%2Fposts%2F" i]:not(img)
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl#?#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button:-abp-has(svg)
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl#?#article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):-abp-has( > div[class] > svg)
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has([data-href*="/dobreprogramy/posts/" i]:not(a), [data-href*="/305335630685/posts/" i]:not(a), [src*="%2Fdobreprogramy%2Fposts%2F" i]:not(img), [src*="%2F305335630685%2Fposts%2F" i]:not(img), [src*="%2Ftechwppl%2Fposts%2F" i]:not(img), [src*="%2F204153062611%2Fposts%2F" i]:not(img), [data-href*="/techwppl/posts/" i]:not(a), [data-href*="/204153062611/posts/" i]:not(a))
 pol-skone.pl#?#footer h4.h3:-abp-contains(Podziel się)
 pomagam.pl##.og-share.bg-color-fb.btn-icon-inherit.btn, .tweet.bg-color-tw.btn-icon-inherit.btn.js-twt, div.col-6.col-md-3:nth-of-type(3) > .list > .links > li:nth-child(-n+4)
 pomocdrogowa.info##div.text-center:nth-of-type(2) > a.f-icons
@@ -5057,6 +5048,7 @@ quizme.pl###mks_author_widget-4
 quizme.pl,quizowa.pl###slidebox
 qulinarna.com##a[href*="facebook.com/qulinarna/"]
 q-meble.eu##.podKreska > .right > a, .right > .contact > a:nth-of-type(n+3):nth-of-type(-n+5)
+raan-lighting.pl###header-box > .box:nth-last-child(1)
 rachuneo.pl##.bm-footer__social
 rachunkowosc.com.pl##.footer_padding_lr > div.d_four:nth-of-type(4)
 racing-planet.pl##li > a[href*="facebook.com/RacingPlanetPolska"] img
@@ -5432,6 +5424,7 @@ siedlisko-pasieka.pl###ear_facebook
 siemens-home.bsh-group.com##.likes
 siemens-home.bsh-group.com##.a-link-external > .icon-facebook.icon
 siemens.com##div.col-lg-12.col-sm-6:nth-of-type(3)
+siepomaga.pl##li.sharing-share-modal-component__item:nth-of-type(-n+4)
 siepomaga.pl##.footer-footer-component__social-list
 siepomaga.pl##.header-cookies-component
 siepomaga.pl#?#.human-cause > .share > div > div:nth-of-type(-n+3):-abp-has(a:-abp-contains(/(Udostępnij|Tweetnij|Dodaj relację)/))
@@ -6908,3 +6901,4 @@ zyciezpsem.pl##.social_nav
 zyro.com##.footer__socials-list
 zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz Facebook)
 !ofeminin.pl##.formresult_share
+!polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl##button[title="Kliknij, aby udostępnić"]
