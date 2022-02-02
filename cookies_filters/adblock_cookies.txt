@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.2.1.2
-! Last modified: Tue, 01 Feb 2022, 21:31 UTC+01
+! Version: 2022.2.2.0
+! Last modified: Wed, 02 Feb 2022, 01:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.2.1.2 aktualizacja: wto, 01 lut 2022, 21:31 UTC+01
+! v.2022.2.2.0 aktualizacja: śro, 02 lut 2022, 01:31 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2493,6 +2493,7 @@ solidarnosckatowice.pl##body > div:not([id]):not([class]) > div[style^="position
 solidgroup.pl###example1
 solid-szkolenia.pl##.ga-cookies-message
 solven.pl###cookies-alerts
+sonarhome.pl#?#.fixed:-abp-has(.cookies-scrollbar)
 sonymobile.com##.fullbleed-response[data-module="sony-survey-client"][style]
 soselectronic.pl##.cookies-popup__wrapper
 sosnowiec.pl###topBar_MainCover
@@ -3925,6 +3926,7 @@ poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
 pracuj.pl#@#header > div:last-child:not([data-test])
 puratos.pl#@##cookieBannerModal
 ranking.perspektywy.pl#@##cookieModal ~ .modal-backdrop
+sonarhome.pl#@#.bg-facebook
 toteraz.pl#@##cookie-preferences
 tvp.pl#@#.tvp-cookie-overlay:not(body):not(html)
 volcano.pl#@##cookiesModal
