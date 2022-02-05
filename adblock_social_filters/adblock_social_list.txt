@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.2.3.0
-! Last modified: Thu, 03 Feb 2022, 21:31 UTC+01
+! Version: 2022.2.5.0
+! Last modified: Sat, 05 Feb 2022, 21:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.2.3.0 aktualizacja: czw, 03 lut 2022, 21:31 UTC+01
+! v.2022.2.5.0 aktualizacja: sob, 05 lut 2022, 21:31 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -1127,7 +1127,7 @@ aparaty-sluchowe.info#?#p.contact_detail:-abp-has(a[href*="facebook.com/brandvit
 apartamentychorwacja.pl##.footer_follow_us
 apetete.pl##.social_media_add
 apifonica.com##.footer__main-nav > li > a[target="_blank"]
-apis-sklep.pl###atut div.one-element:-abp-has( > a[href*=".com/"])
+apis-sklep.pl#?##atut div.one-element:-abp-has( > a[href*=".com/"])
 apkode.pl##a[href*="plus.google.com/"]
 apkpure.com##.footer-list div.list:nth-of-type(2)
 apollo.pl##.b-sm-list
