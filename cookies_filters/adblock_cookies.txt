@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.2.6.0
-! Last modified: Sun, 06 Feb 2022, 17:31 UTC+01
+! Version: 2022.2.6.1
+! Last modified: Sun, 06 Feb 2022, 19:04 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.2.6.0 aktualizacja: nie, 06 lut 2022, 17:31 UTC+01
+! v.2022.2.6.1 aktualizacja: nie, 06 lut 2022, 19:04 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -239,7 +239,6 @@ arturgierada.eu,schrony.eu###pronamic_cookie_holder
 ascar-rent.pl###hellobar
 asearch.pl,fundacjapestka.pl,mojbank.pl,wzhkwarszawa.pl##[class*="uk-notification-bottom-"].uk-notification
 asklepios.pl,dreamswydawnictwo.pl##.cookies_show
-aso.foxstrategy.pl,bookscout.pl,subscribepage.com###notification
 aspsklep.pl,bip.izabelin.pl,enerpol.pl,florexpol.eu,gckis.trzebnica.pl,gih.grajewo.pl,infopodlaskie.pl,klublifestyle.pl,mopr.piekary.pl,naszamlawa.pl,portczystejenergii.pl,pspbieniedzice.szkolnastrona.pl,pupgrodziskwlkp.pl,sgurp.pl,sposiny.szkolnastrona.pl,ugporaj.pl,zslegnickiepole.szkolnastrona.pl,zwolenpowiat.pl###fancybox-overlay
 aspsklep.pl,bip.izabelin.pl,enerpol.pl,florexpol.eu,gckis.trzebnica.pl,infopodlaskie.pl,klublifestyle.pl,portczystejenergii.pl,pspbieniedzice.szkolnastrona.pl,sgurp.pl,sposiny.szkolnastrona.pl,zslegnickiepole.szkolnastrona.pl,zwolenpowiat.pl###fancybox-wrap
 assecods.pl###spu-22991, #spu-bg-22991
@@ -452,6 +451,7 @@ bonprix.pl###JOISH987_bar_holder
 booking.com###cookie_warning
 booking.com##.cookie-warning-v2
 bookmaster.com.pl,ck1.pl##.ci-min.ci-container.ci-data
+bookscout.pl,foxstrategy.pl,subscribepage.com###notification
 bookstore.dsh.waw.pl##.cookiecontroller
 booksy.com###cookie-policy-2
 booksy.com#?##page > footer ~ div[class]:-abp-contains(cookie)
@@ -986,7 +986,7 @@ e-swietokrzyskie.kielce.eu##div#belka_dolna
 e-urzad.grodzisk.pl##.cookie__back
 e-wiklinowy-sklep.pl,mnsport.pl,monacollection.pl##.cookiesPolicyInfo
 e.ziebice.pl###politykaPrywatnosci
-fabryka-kuchni.eu,lubliniec.eu,mebledom.eu,niedziela.be,owczarska.eu,tvnakarte.eu###cadre_alert_cookies
+fabryka-kuchni.eu,lubliniec.eu,niedziela.be,owczarska.eu,tvnakarte.eu###cadre_alert_cookies
 facom.com.pl,kalendarzonline.com###cookiesBlock
 fakehunter.pap.pl##div[class*="CookiesPrompt__Wrapper-"]
 faktury.bluemedia.pl#?#body > div[style]:nth-of-type(1):not([id]):not([class]):-abp-contains(cookies)
@@ -3663,7 +3663,7 @@ pl##.cookie-info-container:not(body):not(html)
 pl##.cookie-info:not(body):not(html)
 pl##.cookie-law:not(body):not(html):not(.post-content)
 pl##.cookie-layer:not(body):not(html)
-pl##.cookie-message:not(body):not(html)
+pl##.cookie-message:not(body):not(html):not(.modal-body)
 pl##.cookie-monster:not(body):not(html)
 pl##.cookie-notice-container:not(body):not(html)
 pl##.cookie-notice:not(body):not(html):not(#footer):not(#wrapper)
@@ -3900,6 +3900,8 @@ goldenline.pl#@#.cookie-modal:not(body):not(html):not(.in):not(.mfp-hide)
 goodram.com#@##cookie-container
 gtv.com.pl#@##panel_cookie_dol
 infogliwice.pl,zlubaczowa.pl#@##cmp-iframe
+klarta.pl##.cookiebar-close:not(body):not(html)
+klarta.pl##.cookie-message:not(body):not(html):not(.modal-body)
 kpcen-torun.edu.pl,ranking.perspektywy.pl#@##cookieModal:not(.countryCookieModalContainer):not(.idcac)
 lomza.pl#@##komunikat-cookie
 maxelektro.pl#@##cookie-info
@@ -3939,6 +3941,8 @@ winnicalidla.pl#@#.privacy-policy
 @@||kawalekkodu.pl/bl-plugins/cookie-consent/js/advert.js
 @@||mgr.consensu.org^$domain=infogliwice.pl|zlubaczowa.pl
 @@||sdk.privacy-center.org^$domain=bonduelle.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikwschodni.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|filmweb.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|regiodom.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
+@@||sdk.privacy-center.org^$domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
+@@||s.tvp.pl/files/portale-v*/polityka-prywatnosci/js/tvp-embed-cmp.js
 @@||wisla-plock.pl/scripts/jquery.ihavecookies.js$script,domain=www.wisla-plock.pl
 !
 !
