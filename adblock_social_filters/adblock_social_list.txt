@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.2.8.0
-! Last modified: Tue, 08 Feb 2022, 21:31 UTC+01
+! Version: 2022.2.9.0
+! Last modified: Wed, 09 Feb 2022, 01:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.2.8.0 aktualizacja: wto, 08 lut 2022, 21:31 UTC+01
+! v.2022.2.9.0 aktualizacja: śro, 09 lut 2022, 01:31 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -6850,6 +6850,7 @@ tikkurila.pl##.menu--footer-pro-follow-us
 tikkurila.pl#?#.content > div.row-fluid:-abp-has(a[href][target="_blank"][rel="group"] > div[data-alt][data-picture])
 tikkurila.pl#?#.content > .row-fluid > .span12:-abp-contains(Dołącz)
 tikkurila.pl#?#.content:-abp-has(h5:-abp-contains(Przyłącz))
+tiktok.com##a[class*="AShareLink"]:not([href*="#"])
 tiktok.com##._global_header_share_wrapper
 timeup.pl##li.timeupMenuIcon.nav-item:nth-of-type(8)
 timeup.pl##.contact_type_text > span
