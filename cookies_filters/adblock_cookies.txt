@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.2.6.1
-! Last modified: Sun, 06 Feb 2022, 20:22 UTC+01
+! Version: 2022.2.13.0
+! Last modified: Sun, 13 Feb 2022, 17:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.2.6.1 aktualizacja: nie, 06 lut 2022, 20:22 UTC+01
+! v.2022.2.13.0 aktualizacja: nie, 13 lut 2022, 17:31 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -739,6 +739,7 @@ domesta.com.pl###CookiesWarningPopup
 domfilmowy.pl##div[data-mesh-id^="SITE_FOOTER"] > div[data-mesh-id^="SITE_FOOTER"] > div > p + p > span:only-child
 dominospizza.pl##.cookies-visible:not(.popup-visible)
 domisad.pl##.message-cockies
+domix-agro.pl,politykabezpieczenstwa.pl###__pb-cookie
 dommania.pl##.footer-max-width > .row > div[class]:nth-of-type(1) > :nth-child(n+3):nth-child(-n+4)
 domnet.pl,jakbudowac.pl##.dialog-fixed
 domnowoczesny.com,grupapsb.com.pl##.popup-container
@@ -1092,6 +1093,7 @@ funduszpomerania.pl###eprivacyModal
 funnygames.pl###cmp-container-id
 furnitex.pl##.bottomWarning.container
 futbol.pl##.js-cp-box
+futurefarm24.pl###queryModalRODO
 futu.pl###my-alert
 gabinetodzaplecza.pl,high-med.pl,konferencja.amoz.edu.pl,majorel.com.pl,moderator-online.edu.pl,modnepodlogi.pl,neuca.pl,odbiormieszkan.dekra.pl,symposium.pl,terazpoz.pl,vcarbon.pl##.landend-infobar-light
 gaj-stal.com,polonia.nl###pasek
@@ -2158,7 +2160,6 @@ poland.hoppygo.com#?##gatsby-focus-wrapper > .MuiBackdrop-root:-abp-has(.MuiBox-
 polanglo.pl##.popup-top-box
 polarsport.pl##.cookies-info-wrapper
 poligraf.com.pl###modal_wrap
-politykabezpieczenstwa.pl###__pb-cookie
 politykainsight.pl##.cc_message
 polityka.pl##.cg-cookie-warning
 polnord.pl###polCookieInfo
@@ -3079,6 +3080,7 @@ cookie-law-popup.js$domain=pl
 ~pl##body > div#cookie[class=""]
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
 ~pl###actionCooki:not(body):not(html):lang(pl)
+~pl###catapult-cookie-bar:lang(pl):not(body):not(html)
 ~pl###kopageBarCookies + div:lang(pl)
 ~pl###kopageBarCookies:lang(pl)
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
