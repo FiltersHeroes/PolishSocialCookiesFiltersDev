@@ -1,6 +1,7 @@
 ~pl##body > div#cookie[class=""]
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
 ~pl###actionCooki:not(body):not(html):lang(pl)
+~pl###catapult-cookie-bar:lang(pl):not(body):not(html)
 ~pl###kopageBarCookies + div:lang(pl)
 ~pl###kopageBarCookies:lang(pl)
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
@@ -769,4 +770,3 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##[id*="coockie"]:not(body):not(html):not([class*="button"])
 ##[id^="PolitykaPrywatnosci"]:not(body):not(html)
 ##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
-~pl###catapult-cookie-bar:lang(pl):not(body):not(html)
