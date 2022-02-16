@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.2.14.0
-! Last modified: Mon, 14 Feb 2022, 01:31 UTC+01
+! Version: 2022.2.16.0
+! Last modified: Wed, 16 Feb 2022, 21:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.2.14.0 aktualizacja: pon, 14 lut 2022, 01:31 UTC+01
+! v.2022.2.16.0 aktualizacja: śro, 16 lut 2022, 21:31 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2193,6 +2193,7 @@ posnania.eu##.cookiesBox
 postnowicjat.kapucyni.pl###text-7
 postnowicjat.kapucyni.pl###text-8
 potworek.com##.eu-cookie-compliance-banner
+powerjobs.pl###custom-cookies.cookies-custom
 power.prz.edu.pl#?##serwis > div[style*="background"]:nth-of-type(1):-abp-contains(plików cookie)
 powiatgizycki.pl###spu-42611, #spu-bg-42611
 powiatkamienski.pl###infocookie
@@ -3878,7 +3879,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 aion.eu#@#.cookies-notification:not(body)
 al.to,combat.pl#@##app > div:first-child > div
-avg.com,bethesda.net,coca-cola.pl,domiporta.pl,edziecko.pl,haps.pl,moto.pl,plotek.pl,sport.pl,toteraz.pl#@##onetrust-consent-sdk
+avg.com,bethesda.net,coca-cola.pl,domiporta.pl,edziecko.pl,haps.pl,moto.pl,plotek.pl,radiopogoda.pl,sport.pl,toteraz.pl#@##onetrust-consent-sdk
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cliSettingsPopup
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-again
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
@@ -3937,6 +3938,7 @@ toteraz.pl#@##cookie-preferences
 tvp.pl#@#.tvp-cookie-overlay:not(body):not(html)
 volcano.pl#@##cookiesModal
 winnicalidla.pl#@#.privacy-policy
+wolframalpha.com##footer ~ section
 @@/jquery.cookiebar$domain=bitner.com.pl|iforbet.pl|shinden.pl
 @@/wp-content/plugins/cookie-law-info/public/*$stylesheet
 @@||consent.cookiebot.com^$domain=forth.gr|lyko.com
