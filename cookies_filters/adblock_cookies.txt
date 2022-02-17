@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.2.16.0
-! Last modified: Wed, 16 Feb 2022, 21:31 UTC+01
+! Version: 2022.2.17.0
+! Last modified: Thu, 17 Feb 2022, 21:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.2.16.0 aktualizacja: śro, 16 lut 2022, 21:31 UTC+01
+! v.2022.2.17.0 aktualizacja: czw, 17 lut 2022, 21:31 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -586,6 +586,7 @@ cmcmarkets.com###cmc-tracking-consent-form-step1
 cmentarz-szprotawa.pl,darkarea.pl,naklejkolandia.pl###hi-eu-opt-in
 cmg24.pl##.RODO
 cmolmed.pl###footer > .module[style*="#ffffff"]
+cmp.med.pl###modal-background, #modal-content, #cc--main
 cmrev.com###cookies-overlay
 cms.tipnews.pl##body > div[id][class=""][data-editable="boxCookieNotification"]
 cochrane.org,histmag.org###cookie-warning
@@ -1788,6 +1789,7 @@ mosir-bip.e-partner.pl###popup-info
 mosir.elblag.eu,oksir.eu###cac
 mos.gov.pl##div#textcook
 motofocus.pl,truckfocus.pl###privacy-policy-bar
+motohurt.org##.c-cookie-info
 motointegrator.com###__next > div:not([id]):not([class]) > div[class] ~ section[class*="_"]
 motonotes.pl##div[style="background-color:black; width=100%; height:25px; color:white; position:absolute"]
 motorbiker.pl###my-welcome-message, #fvpp-blackout
@@ -2230,6 +2232,7 @@ prgok.pl###top_i
 pricelesso.pl###popUp2, .mask
 prideshop.pl,queer.pl##.box-rodo
 prk24.pl##.rk-cookie-overlay
+profesjonalne-nawadnianie.pl##.configMessages__footer
 profilki.pl#?#div.centering.tile:-abp-has(img[src="/img/lay/maskotka_ciastko.png"])
 profkos.pl##.module-header_notice
 progrupa.com###progrupa_cookie_policy
@@ -2249,6 +2252,7 @@ przedszkolowo.pl###cookie-agree-bar
 przeklad24.pl##body > div:first-child > p:only-child
 przekroj.pl##div.is-shown.js-modal.modal__content:nth-of-type(1)
 przelewy24.pl,zlotyaniol.pl###policy_container
+przemyslprzyszlosci.gov.pl##._consent-simple
 przepisyjoli.com##.CookieModalContainer
 przepisyjoli.com##.GdprModalContainer
 przetargi.pse.pl###window-1010
@@ -3879,7 +3883,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 aion.eu#@#.cookies-notification:not(body)
 al.to,combat.pl#@##app > div:first-child > div
-avg.com,bethesda.net,coca-cola.pl,domiporta.pl,edziecko.pl,haps.pl,moto.pl,plotek.pl,radiopogoda.pl,sport.pl,toteraz.pl#@##onetrust-consent-sdk
+avg.com,bethesda.net,coca-cola.pl,domiporta.pl,edziecko.pl,haps.pl,moto.pl,panasonic.com,plotek.pl,radiopogoda.pl,sport.pl,toteraz.pl#@##onetrust-consent-sdk
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cliSettingsPopup
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-again
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
