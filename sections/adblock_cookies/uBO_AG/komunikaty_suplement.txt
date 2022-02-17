@@ -395,6 +395,8 @@ otoagent.pl##.MuiDialog-root[role="presentation"][style*="fixed"]:has(img[src="/
 otwarteklatki.pl###popup-gdpr, .popup-overlay
 otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
 paczkomaty.pl##.modal:has(app-regulations-modal > .modal-header > .modal-title:has-text(RODO))
+panasonic.com##html[style="overflow: hidden;"],body[style="overflow: hidden;"]:style(overflow: auto !important;)
+panasonic.com###onetrust-consent-sdk:not(body):not(html)
 panattonieurope.com###image-popup.txt-popup, #image-popup-bg
 panattonieu.com###image-popup[class*="txt"], #image-popup-bg
 panoramafirm.pl###modal-rodolayer
@@ -624,5 +626,3 @@ zyjzdrowo.info###vicky-cookiebox, .modal-backdrop
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has( > span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"]):remove()
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
-panasonic.com###onetrust-consent-sdk:not(body):not(html)
-panasonic.com##html[style="overflow: hidden;"],body[style="overflow: hidden;"]:style(overflow: auto !important;)
