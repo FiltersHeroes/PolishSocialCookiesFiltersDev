@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.2.17.0
-! Last modified: Thu, 17 Feb 2022, 21:31 UTC+01
+! Version: 2022.2.19.0
+! Last modified: Sat, 19 Feb 2022, 13:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.2.17.0 aktualizacja: czw, 17 lut 2022, 21:31 UTC+01
+! v.2022.2.19.0 aktualizacja: sob, 19 lut 2022, 13:31 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -40,6 +40,7 @@
 4mens.pl,korwin24.pl##body > div[class^="eu-cookies-bar-"]
 4people.pl,emilbus.com.pl,marketingdlaludzi.pl###window_4cookies
 4prm.pl###sticky_eprivacy
+5pd.pl##.lqd-gdpr-ready
 5styl.com,b4after.pl,flordent.pl,gallopang.pl,mebsto.pl,okoklinik.pl,polscykierowcy.pl,sekretypiekna.net,szpot.pl##.ba_cookie_bar
 6art.pl,krosnocity.pl###polcia
 24jgora.pl###myModal_cookie
@@ -491,7 +492,7 @@ budimex-nieruchomosci.pl,zoliborzkrasinskiego.pl###komRodo
 budmatauto.pl,dladealera.pl,grupapietrzak.pl,maseratipietrzak.pl##.fixedInfo
 bud-net.pl##body > table:first-child
 bugbird.pl,marstudio.pl,pracowniakresek.pl,website4you.com.pl###modal-agecheck
-bugwie.com,forum-bron.pl,mediamarkt.pl,virtual-it.pl##.cookie-box
+bugwie.com,forum-bron.pl,inkhouse.pl,mediamarkt.pl,virtual-it.pl##.cookie-box
 buk.ujk.edu.pl,pro-tech.bydgoszcz.pl,slupsk.pl###easyNotification
 buliba.pl###tooltip-hook
 bumble.com##.js-cookie-notification
@@ -2381,6 +2382,7 @@ santander.pl##.uc-cookies-policy
 sapientisat.pl###cookiesAlert_bar
 savicki.pl##.accept-rodo
 sawataxi.pl##.w_news
+sbe-online.pl##.m-cookies
 sbrbank.pl###cookiemask
 scanmed.pl##.module-cookies-bar
 schronisko-nowodwor.com.pl##.ba-cookies
