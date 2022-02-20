@@ -1,5 +1,11 @@
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
+x-kom.pl##div[class*="ReactModal_"]:has(a[href="/cookies"])
+al.to##div[class*="ReactModal_"]:has(a[href="/cookies"])
+al.to##body[class*="ReactModal_"][style]:style(overflow: auto !important; padding: 0 !important;)
+x-kom.pl##body[class*="ReactModal_"][style]:style(overflow: auto !important; padding: 0 !important;)
+combat.pl##div[class*="ReactModal_"]:has(a[href="/cookies"])
+combat.pl##body[class*="ReactModal_"][style]:style(overflow: auto !important; padding: 0 !important;)
 visa.pl##div#CookieReportsPanel
 visa.pl##body[style]:style(overflow: auto !important; touch-action: auto !important;)
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important;)
