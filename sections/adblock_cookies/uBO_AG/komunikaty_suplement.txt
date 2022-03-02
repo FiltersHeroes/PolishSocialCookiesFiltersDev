@@ -287,6 +287,8 @@ kupbilecik.pl###btn-cookies
 kupbilecik.pl##.remodal-wrapper:has(.cookie-container)
 kupbilecik.pl,pl.tommy.com##.remodal-is-locked:style(overflow: auto !important;)
 kupbilecik.pl,pl.tommy.com##.remodal-overlay
+kup.pl.canalplus.com##.p-dialog-center:has(.modal-cookies)
+kup.pl.canalplus.com##.p-overflow-hidden:style(overflow: auto !important;)
 lafe.pl##.cinfo:style(padding-bottom: 0 !important;)
 leki.pl##.rodo-modal
 leki.pl##[style*="filter"]:style(filter: none !important;)
@@ -630,5 +632,3 @@ zyjzdrowo.info###vicky-cookiebox, .modal-backdrop
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has( > span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"]):remove()
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
-kup.pl.canalplus.com##.p-dialog-center:has(.modal-cookies)
-kup.pl.canalplus.com##.p-overflow-hidden:style(overflow: auto !important;)
