@@ -88,6 +88,8 @@ bok.sniezka.pl##body.offcanvas:style(overflow-y: auto !important;)
 bok.sniezka.pl###cboxOverlay
 bok.sniezka.pl#?##colorbox:has(.js-pdpi-consent-popup-content)
 bosch-easycontrol.com###cookielaw, .modal-backdrop
+bosch-home.pl##+js(rc, cookielaw-blur-background|pinned, body, stay)
+bosch-home.pl##.cookielaw-modal-layer
 bosch-industrial.com,generali.pl,haloursynow.pl,hm.com,infonumer.pl,junkers.pl,nck.org.pl,ose.gov.pl,saleswww.proama.pl,sklep.polcalc.pl,warsztat.pl##.modal-open:style(overflow-y: auto !important; padding-right: 0 !important;)
 bosch-industrial.com,junkers.pl##html:style(overflow-x: hidden !important;)
 bsjarocin.pl##.mfp-ready.mfp-wrap
@@ -632,5 +634,3 @@ zyjzdrowo.info###vicky-cookiebox, .modal-backdrop
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has( > span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"]):remove()
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
-bosch-home.pl##.cookielaw-modal-layer
-bosch-home.pl##+js(rc, cookielaw-blur-background|pinned, body, stay)
