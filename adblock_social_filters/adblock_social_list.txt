@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.3.4.0
-! Last modified: Fri, 04 Mar 2022, 01:31 UTC+01
+! Version: 2022.3.6.0
+! Last modified: Sun, 06 Mar 2022, 15:57 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.3.4.0 aktualizacja: pią, 04 mar 2022, 01:31 UTC+01
+! v.2022.3.6.0 aktualizacja: nie, 06 mar 2022, 15:57 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -858,7 +858,9 @@ acer.com##.praxis-social-links
 ach-te-internety.pl,aikoiemil.com,banita.travel.pl,jan-kasprowicz.bmino.pl,jaworzno.pl,jdc24.pl,polishclub.org,szybkaprzemiana.pl,testergier.pl##.widget_sfp_page_plugin_widget
 active.sklep.pl##.footer--social-block
 activsport.eu,bludshop.com,budujmy.eu,ene-due.eu,fbutik.eu,m-shop.eu,muppetshop.eu,niemchem.com,sklepmoto.eu,wentsystem.com###tws_i_0
-activy.app##footer a[href="https://www.facebook.com/activyapp/"], footer a[href="https://www.instagram.com/activy_bike_run/"], footer a[href="https://www.linkedin.com/company/activyapp"]
+activy.app,al.to,bezpieczny-przejazd.pl,bonami.pl,combat.pl,dworska.pl,e24cloud.com,fankakodowania.pl,goodie.pl,grobonet.com,ktomalek.pl,kuchnieswiata.com.pl,ladysi.com.pl,lekarzebezkolejki.pl,lidl.pl,mbwesolek.pl,mescomp.pl,niemchem.com,oetker.pl,otoagent.pl,papajohns.pl,pergo24.pl,promocje.invado.pl,shopee.pl,sklep.poshlady.pl,solvano.pl,studiooptyczne.tychy.pl,supermedia.pl,tv.mgsm.pl,twisto.pl,viennalife.pl,wokularach.pl,x-kom.pl,zawszepomorze.pl,zenwire.eu##footer a[href*="facebook.com/"]
+activy.app,al.to,bonami.pl,ciuchy.zizej.pl,combat.pl,dworska.pl,goodie.pl,grobonet.com,kuchnieswiata.com.pl,ladysi.com.pl,mescomp.pl,oetker.pl,papajohns.pl,promocje.invado.pl,rowerlubon.pl,shopee.pl,sklep.poshlady.pl,supermedia.pl,tv.mgsm.pl,twisto.pl,wokularach.pl,x-kom.pl,zawszepomorze.pl##footer a[href*="instagram.com/"]
+activy.app,bezpieczny-przejazd.pl,e24cloud.com,goodie.pl,otoagent.pl,promocje.invado.pl,twisto.pl##footer a[href*="linkedin.com/"]
 adainfo24.eu##.social > div.icon:nth-of-type(1)
 adamed.com##.site-footer__social-media
 adams.com.pl##.footer-container > .item:nth-of-type(5) > .moduleta
@@ -1027,7 +1029,6 @@ aletorcik.pl##.widget_wrt_social
 alexander.com.pl##div.footer__col:nth-of-type(3)
 ale.pl##.facebook-wrapper
 ale.pl##.top-bar-top ul > li > a[href*=".com/"]
-alfabet24.com.pl#?#.box-container-b:-abp-has(.box-obrazek-inner a[href*="facebook.com/"])
 alfabravo.pl##.addresses > div > .row > div:nth-of-type(4)
 alfaparfmilano.com##.widget_the_social_links
 alfasan.pl,speak-up.pl###insta
@@ -1071,8 +1072,6 @@ altenberg.pl##.youtube_link, .instagram_link
 alter24.pl,livingonmyown.pl###custom_html-8
 alternatywne.pl,djoles.com,megataxi.pl,wochenblatt.pl###fpw_widget
 aluprof.eu##.sidebar__title, li.sidebar__link:nth-of-type(-n+3)
-al.to,bonami.pl,ciuchy.zizej.pl,combat.pl,dworska.pl,goodie.pl,grobonet.com,kuchnieswiata.com.pl,ladysi.com.pl,mescomp.pl,oetker.pl,papajohns.pl,promocje.invado.pl,rowerlubon.pl,shopee.pl,sklep.poshlady.pl,supermedia.pl,tv.mgsm.pl,twisto.pl,wokularach.pl,x-kom.pl,zawszepomorze.pl##footer a[href*="instagram.com/"]
-al.to,bonami.pl,combat.pl,dworska.pl,e24cloud.com,fankakodowania.pl,goodie.pl,grobonet.com,ktomalek.pl,kuchnieswiata.com.pl,ladysi.com.pl,lekarzebezkolejki.pl,lidl.pl,mbwesolek.pl,mescomp.pl,niemchem.com,oetker.pl,otoagent.pl,papajohns.pl,pergo24.pl,promocje.invado.pl,shopee.pl,sklep.poshlady.pl,solvano.pl,studiooptyczne.tychy.pl,supermedia.pl,tv.mgsm.pl,twisto.pl,viennalife.pl,wokularach.pl,x-kom.pl,zawszepomorze.pl,zenwire.eu##footer a[href*="facebook.com/"]
 al.to,ciuchy.zizej.pl,combat.pl,csi.pl,dworska.pl,goodie.pl,lidl.pl,oetker.pl,promocje.invado.pl,tv.mgsm.pl,wokularach.pl,x-kom.pl##footer a[href*="youtube.com/"]
 al.to,combat.pl,e24cloud.com,mescomp.pl,rowerlubon.pl,tv.mgsm.pl,x-kom.pl,zawszepomorze.pl##footer a[href*="twitter.com/"]
 al.to,x-kom.pl##footer.social > .row h4
@@ -2037,7 +2036,7 @@ cumulus.pl##.Content .intro > .appName
 curlymadeleine.pl##a[href*="facebook.com/curlymadeleine"] > img
 curlymadeleine.pl##a[href*="instagram.com/curlymadeleine/"] > img
 curlymadeleine.pl##a[href*="youtube.com/c/curlymadeleine"] > img
-curlymadeleine.pl,djakdesign.pl,dziecieceinspiracje.pl,ewaszalkowska.com,kulinarnamaniusia.pl,moje-bubble.blogspot.com,nadrapaku.pl,patabloguje.pl,recenzjezpazurem.pl,reklamy-arek.blogspot.com,vogueswing.blogspot.com,w10inspiracjidookolaswiata.pl,wegannerd.com,weganskie-zakupy.blogspot.com,wielopokoleniowo.pl,wszystkiemojebziki.pl,zapiskizeswiata.pl,zielonoma.blogspot.com###HTML2
+curlymadeleine.pl,djakdesign.pl,dziecieceinspiracje.pl,ewaszalkowska.com,kulinarnamaniusia.pl,moje-bubble.blogspot.com,nadrapaku.pl,patabloguje.pl,reklamy-arek.blogspot.com,vogueswing.blogspot.com,w10inspiracjidookolaswiata.pl,wegannerd.com,weganskie-zakupy.blogspot.com,wielopokoleniowo.pl,wszystkiemojebziki.pl,zapiskizeswiata.pl,zielonoma.blogspot.com###HTML2
 curlymadeleine.pl,djakdesign.pl,otulona-zapachem.blogspot.com,reklamy-arek.blogspot.com,wegannerd.com,zapiskizeswiata.pl###HTML3
 cvdopracy.pl##div.col-12-xs.col-6-sm.col-2:nth-of-type(4) > h3:nth-of-type(2), ul > li > a[href*="facebook.com/CVdopracy"]
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##.header-bottom-social
@@ -2411,7 +2410,6 @@ dzisiajwgliwicach.pl#?#.td_stretch_container.td-container-wrap.td-footer-wrapper
 dzwignice.info##.blog
 dzwignice.info##.mt.facebook, .mt.twitter
 dzwignice.info,gls-group.eu##.linkedin
-e24cloud.com,goodie.pl,otoagent.pl,promocje.invado.pl,twisto.pl##footer a[href*="linkedin.com/"]
 earlymath.pl##aside > div:nth-of-type(3) > a > img
 eataway.com###footer > .container > .row > div:nth-of-type(4)
 ea.com##ea-social-links
@@ -2898,7 +2896,7 @@ fordata.pl##div[class$="_footerNewsletter"] > .haszesc:nth-child(5):nth-of-type(
 fordogtrainers.pl##div.horizontal-module.col-xs-12.col-sm-6.col-md-2:nth-of-type(1) > .module-cont
 forever.eu,shopgracz.pl##footer .social
 forexclub.pl##.count-youtube
-formmed.com.pl,hostmark.pl,imprezy-expn.pl,intellect.pl,jakzrobicwexcelu.pl,slaskaprohibicja.pl,sportowyekspress.pl,testergier.pl,wrealu24.pl###custom_html-6
+formmed.com.pl,hostmark.pl,imprezy-expn.pl,intellect.pl,jakzrobicwexcelu.pl,slaskaprohibicja.pl,sportowyekspress.pl,testergier.pl###custom_html-6
 forpsi.pl##.subscribeInside
 forpsi.pl###main-footer .subitem > h3
 forpsi.pl###newsSlider .newsContainer > header
@@ -5997,7 +5995,6 @@ realmadryt.pl##.social-share-widget > .social-share-widget--header
 realmadryt.pl#?#.bg:-abp-contains(dołącz)
 rebel.pl##.footer__menu.row > .row > div.footer-menu__col:nth-of-type(1)
 recea.pl##.container > .f-row > div.f-grid-6:nth-of-type(2)
-recenzjezpazurem.pl###HTML901, #HTML902
 redark.pl##div[class*="footer__FooterColumn"]:nth-of-type(3) > ul
 redark.pl#?#aside > div[class*="widget__WidgetContainer"]:-abp-has(a[class*="social"])
 redbullmobile.pl##.footer-find-us-box
@@ -8055,7 +8052,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||kuchnialidla.pl/Content/images/nowyformat/nl_banner_wielkanoc21.png
 ||kujawsko-pomorskie.pl/images/issuu.png
 ||kuratorium.opole.pl/wp-content/themes/kuratorium/images/facebook.png
-||kwiaciarniasasanka.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/cubes/cubes_
 ||lan.sklep.pl/img/Youtube.png
 ||lazarz.pl/linki/jpg/facebook.gif
 ||lazarz.pl/linki/jpg/twitter.gif
