@@ -196,6 +196,8 @@ eschenker.dbschenker.com##.es-shell-global-scrollblock:style(overflow-y: auto !i
 eschenker.dbschenker.com##[style*="pointer-events"][style*="none"]:style(pointer-events: auto !important;)
 etsy.com###gdpr-single-choice-overlay
 etsy.com##.body-no-scroll:style(position: static !important; overflow: auto !important; padding-right: 0 !important;)
+e-restauracja.com###modal-rodo
+e-restauracja.com##.modal-open:style(overflow: auto !important; padding: 0 !important; margin: 0 !imoportant;)
 e-sochaczew.pl,paczkomaty.pl,repostuj.pl,wedkuje.pl##+js(ra, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]), stay)
 e-urzad.grodzisk.pl,www.kayak.pl##.cdk-global-scrollblock:style(position: static !important; overlow: auto !important;)
 e-urzad.grodzisk.pl,www.kayak.pl##.cdk-overlay-container
@@ -216,6 +218,8 @@ filmweb.pl##.preventScroll:style(position: static !important; overflow: auto !im
 filmweb.pl##.rodo:style(position: static !important; overflow: auto !important;)
 filmweb.pl##.rodo__overlay
 fiskars.pl##.desktop:style(top: 0 !important;)
+fonts.google.com##gf-cookie-bar
+fonts.google.com##header.content--cookie-bar-open, div.full-page--cookie-bar-open:style(top: 0 !important;)
 foursquare.com##+js(set, fourSq.cookies.CookieBanner, noopFunc)
 franklintempleton.pl##.modal-gateway-modal.modal-gateway.modal, .modal-backdrop
 frisco.pl##html.with-popup:style(overflow-y: scroll !important; padding-right: 0 !important;)
@@ -418,6 +422,8 @@ panoramafirm.pl###modal-rodolayer
 patronite.pl##.modal--container:has-text(RODO)
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important;)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important;)
+pdf24.org##html.hasCookieBannerOverlay:style(overflow: auto !important;)
+pdf24.org##iframe#cookieBannerOverlay
 pepper.pl##body.overflow--hidden:style(overflow: auto !important;)
 pepper.pl##div.js-vue2[data-vue2*="CookiesMessage"]:remove()
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
