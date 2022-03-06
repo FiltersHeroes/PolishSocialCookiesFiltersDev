@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.3.6.1
-! Last modified: Sun, 06 Mar 2022, 15:57 UTC+01
+! Version: 2022.3.6.2
+! Last modified: Sun, 06 Mar 2022, 17:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.3.6.1 aktualizacja: nie, 06 mar 2022, 15:57 UTC+01
+! v.2022.3.6.2 aktualizacja: nie, 06 mar 2022, 17:31 UTC+01
 !
 !
 ! Specyficzne reguły ukrywające
@@ -909,6 +909,7 @@ epuap.gov.pl###specialbox-info
 epuap.gov.pl##.footer-info
 epuap.gov.pl,webcamera.pl###rodo-modal
 erasmusu.com###cookies_panel
+erdomedmuko.com###flowtar-gdpr.gdpr
 eredivisie.pl,goal.pl,kadra.pl,ligapolska.pl,primeradivision.pl,seriea.pl###viewCookies, #viewCookiesClose
 erejestracja.wizjav.pl#?#.el-dialog__wrapper:-abp-has(a[href*="wszystkoociasteczkach.pl"])
 ergohestia.pl,mtu.pl##div[id^="cookie"][id$="_outer"]
@@ -2485,6 +2486,7 @@ slodycze.waw.pl###ja-topsl
 slowosportowe.pl###box-ck-info
 sluzbazdrowia.com.pl##div[id^="cookie"][id$="warning"]
 smaczne.to###cookie-container
+smallpdf.com#?##app > div:last-child:-abp-has(button span:-abp-contains(Zezwól na wszystkie))
 smartbees.pl###block-privacypolicyblock
 smartney.pl##smartney-cookies-popup
 smartyou.pl##.js-cookies.u-cookies
@@ -2696,6 +2698,7 @@ tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvs.pl##.RodoNotyfication
 tv.mgsm.pl##.show-privacy
 twinn.pl##table td div[class*="szablon_top"][class*="left"] > center
+twitter.com#?##layers > div[class*="css-"][class*=" r-"] > div:last-child > div:only-child > div:only-child > div:only-child:-abp-has( > div:not(:only-child) > div:not(:only-child) > span:only-child > span:only-child:-abp-contains(your choices))
 twojeankiety.pl###notkaCookies
 twojesoczewki.com###cookie_wrap
 twoje-miasto.pl##.tmCookieBox
@@ -2801,6 +2804,7 @@ wodociagi-kalisz.pl###white2
 wodociagi.krakow.pl##.cookieMessages
 wodociagi.krakow.pl###rodoBg
 wokularach.pl##aside[data-test-id="cookie-popup"]
+wolframalpha.com##footer ~ section
 wortal.majsterkowicza.pl###eatthis > #et-text
 wrobelekelemelek.com###cboxOverlay, #cboxWrapper
 wroclawfashionoutlet.com##.via-notification--cookie
@@ -2818,6 +2822,7 @@ wu.swps.edu.pl##div#Iagree
 www.google.com,www.google.pl##body > div[class*=" "]:not([id]) > c-wiz > div[jscontroller] > div[class][jsname][data-ved][style="display: block;"]
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.google.com,www.google.pl###gb > div[class][style^="background"]
+www.google.com,www.google.pl#?#div[role="navigation"] + div > g-card:-abp-has(a[href*="/cookies?"])
 www.google.com,www.google.pl#?##taw div[id][style*="block"]:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"])
 wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
@@ -3937,6 +3942,7 @@ naekranie.pl#@##polityka-cookies
 nask.pl#@##gdprNotice:not(.box)
 noweinwestycje.pl#@#.cookieBar:not(body):not(html)
 o2.pl#@##__next div[class*="PrivacyPolicy"]
+pdf24.org#@##cookieBannerOverlay
 pepper.pl#@##footer ~ div .oreo-message
 pl.aptoide.com#@##__next div[class*="CookieNotice"]
 pl.canalplus.com#@#div[class*="CookieBanner"]:not([class*="page"]):not(.app)
