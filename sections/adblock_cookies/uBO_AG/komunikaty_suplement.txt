@@ -68,6 +68,8 @@ baptysci.pl,powiatslawno.pl,szkolawielgus.pl,szpitalnawrzesinie.pl,umig.olkusz.p
 barbara.net.pl##.modal:has-text(RODO)
 barbara.net.pl,dane.gov.pl,dyzurnet.pl,makro.pl,paczkomaty.pl,qa-stack.pl##.modal-backdrop
 bbcpolska.com###home:style(padding-top: 0 !important;)
+beko.com###onetrust-consent-sdk:lang(pl)
+beko.com,wmeritum.pl##body[style]:style(overflow: auto !important;)
 beko.pl##.cookies-margin:style(top: 0 !important;)
 bezpluga.pl,ckl.pl,dlahandlu.pl,eecpoland.eu,farmer.pl,frsih.pl,housemarket.pl,infodent24.pl,mckkatowice.pl,portalsamorzadowy.pl,portalspozywczy.pl,promocjada.pl,propertydesign.pl,propertynews.pl,ptwp.pl,pulshr.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,spodekkatowice.pl,wnp.pl##.windowOpen:style(overflow: auto !important;)
 biblioteka-cybinka.pl###exampleModalCenter, .modal-backdrop
@@ -93,6 +95,8 @@ bosch-home.pl,siemens-home.bsh-group.com##+js(set, T.Module.Layer.CookieLaw, noo
 bosch-home.pl,siemens-home.bsh-group.com##.cookielaw-modal-layer
 bosch-industrial.com,generali.pl,haloursynow.pl,hm.com,infonumer.pl,junkers.pl,nck.org.pl,ose.gov.pl,saleswww.proama.pl,sklep.polcalc.pl,warsztat.pl##.modal-open:style(overflow-y: auto !important; padding-right: 0 !important;)
 bosch-industrial.com,junkers.pl##html:style(overflow-x: hidden !important;)
+bsh-group.com##body.locked,html.locked:style(overflow: auto !important; height: auto !important;)
+bsh-group.com###cookie-overlay + #cookie-layer
 bsjarocin.pl##.mfp-ready.mfp-wrap
 bsjarocin.pl##.themify-popup
 bsjarocin.pl,zsgarwolin.pl##.mfp-ready.mfp-bg
@@ -329,6 +333,9 @@ media.netflix.com###cookieAlert #mainContent:style(padding-top: 82px !important;
 media.netflix.com###cookieAlert #mainHeader:style(top: -48px !important;)
 media.netflix.com##+js(ra, id, body[id="cookieAlert"], stay)
 meetup.com###mupFooter:style(padding-bottom: 0 !important;)
+meiko.pl##.cc-window[aria-label="cookieconsent"]
+meiko.pl##.cc-window[aria-label="cookieconsent"] + .cc-window-blocker
+meiko.pl##.no-scroll:style(overflow: auto !important;)
 memo-book.pl##+js(rc, .rodo-locked, body\, html, stay)
 memo-book.pl,ostrzegamy.online##body.rodo-locked #page-container > *:style(filter: none !important;)
 memo-book.pl,ostrzegamy.online##body.rodo-locked, html.rodo-locked:style(overflow: auto !important;)
@@ -584,6 +591,7 @@ wedkuje.pl##+js(acis, SendAccept2, RODOCOOKIE)
 wgospodarce.pl,wpolityce.pl##.rhododendron-body-with-popup:style(overflow: auto !important;)
 wgospodarce.pl,wpolityce.pl##.rhododendron-popup, .rhododendron-popup-overlay
 wit.edu.pl##.cd-header:style(padding-right: 0 !important;)
+wmeritum.pl##div[class^="app_gdpr-"]
 wnioski.toyotabank.pl##div.stepContainer > .section > div > div > label[style*="overflow"]:upward(div:not([id]):not([class])):has-text(Klauzula Informacyjna)
 wodapierrot.pl##.alertify
 wodapierrot.pl##html > body.ajs-no-overflow:style(overflow: auto !important;)
@@ -642,12 +650,3 @@ zyjzdrowo.info###vicky-cookiebox, .modal-backdrop
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has( > span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"]):remove()
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
-beko.com##body[style]:style(overflow: auto !important;)
-beko.com###onetrust-consent-sdk:lang(pl)
-meiko.pl##.cc-window[aria-label="cookieconsent"]
-meiko.pl##.cc-window[aria-label="cookieconsent"]+.cc-window-blocker
-meiko.pl##.no-scroll:style(overflow: auto !important;)
-wmeritum.pl##div[class^="app_gdpr-"]
-wmeritum.pl##body[style]:style(overflow: auto !important;)
-bsh-group.com###cookie-overlay+#cookie-layer
-bsh-group.com##body.locked,html.locked:style(overflow: auto !important; height: auto !important;)
