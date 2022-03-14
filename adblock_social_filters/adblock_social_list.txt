@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.3.13.0
-! Last modified: Sun, 13 Mar 2022, 21:31 UTC+01
+! Version: 2022.3.14.0
+! Last modified: Mon, 14 Mar 2022, 01:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.3.13.0 aktualizacja: nie, 13 mar 2022, 21:31 UTC+01
+! v.2022.3.14.0 aktualizacja: pon, 14 mar 2022, 01:31 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -2941,13 +2941,13 @@ forum.pclab.pl,forum.purepc.pl,hdtvpolska.com##.cShareLink:not(.cShareLink_email
 forum.pl.canalplus.com###YoutubeRight
 forum.puppylinux.pl###sys_facebook40
 forum.puppylinux.pl###sys_twitter40
-fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##a[href*="komentarze"][title*="komentarzy"] + div > button
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##[data-href*="/techwppl/posts/" i]:not(a), [data-href*="/204153062611/posts/" i]:not(a)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##[src*="%2Ftechwppl%2Fposts%2F" i]:not(img), [src*="%2F204153062611%2Fposts%2F" i]:not(img)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button:-abp-has(svg)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):-abp-has( > div[class] > svg)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#a[href*=","][title*=" "] ~ div button:-abp-has(svg)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#div[id] > div > div > div[class]:-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has([data-href*="/dobreprogramy/posts/" i]:not(a), [data-href*="/305335630685/posts/" i]:not(a), [src*="%2Fdobreprogramy%2Fposts%2F" i]:not(img), [src*="%2F305335630685%2Fposts%2F" i]:not(img), [src*="%2Ftechwppl%2Fposts%2F" i]:not(img), [src*="%2F204153062611%2Fposts%2F" i]:not(img), [data-href*="/techwppl/posts/" i]:not(a), [data-href*="/204153062611/posts/" i]:not(a))
 fotoblogia.pl,jejswiat.pl,smaczneblogi.pl##.link-gplus, .link-instagram
