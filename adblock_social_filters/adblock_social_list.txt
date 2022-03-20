@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.3.17.0
-! Last modified: Thu, 17 Mar 2022, 01:31 UTC+01
+! Version: 2022.3.20.0
+! Last modified: Sun, 20 Mar 2022, 01:31 UTC+01
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.3.17.0 aktualizacja: czw, 17 mar 2022, 01:31 UTC+01
+! v.2022.3.20.0 aktualizacja: nie, 20 mar 2022, 01:31 UTC+01
 !
 !
 !#safari_cb_affinity(social)
@@ -1769,7 +1769,7 @@ californiaskateshop.pl,pl.skate-europe.com,zoo.waw.pl##.socials-bottom
 calisia.pl##footer .container > .row > div:nth-of-type(3)
 calkiemzdrowo.pl##a[href*="facebook.com/calkiemzdrowo/"]
 campomoderngrill.pl##.social a:not([href*="delikatesy."])
-canagri.pl,cyclonis.com,empireshop.pl,etuo.pl,logitech.com,lokalnyrolnik.pl,pekao.com.pl,support.avast.com,velux.pl,webd.pl,zinfo.pl##.social-icons
+canagri.pl,cyclonis.com,empireshop.pl,etuo.pl,logitech.com,lokalnyrolnik.pl,makro.pl,pekao.com.pl,support.avast.com,velux.pl,webd.pl,zinfo.pl##.social-icons
 canalplus.com##div[class^="footer__container_"] > div[class^="footer__section_"]:nth-of-type(2) > div[class^="footer__section_"]:nth-of-type(3) > div:nth-of-type(1)
 canalplus.com##ul[class^="socials_"]
 candleworld.com.pl##.facebooktoplayer
@@ -3712,6 +3712,9 @@ johnsoncontrols.com##.col-wrap-border > div.social:nth-of-type(1)
 jonasklep.pl##li.contact_type_text:nth-of-type(5), li.contact_type_text:nth-of-type(5) ~ div > span > a > img
 joomla.pl###user21
 joyfood.pl###SITE_FOOTER > div > div:nth-of-type(2) > div[class=""]:nth-of-type(1) > div > div[id^="comp"]:nth-of-type(n+4):nth-of-type(-n+5)
+jr-wheels.pl##.japan_gallery a[href*="instagram.com/"]
+jr-wheels.pl##.more_to_explore_box_facebook
+jr-wheels.pl##.more_to_explore_box_instagram
 jsystems.pl##a[href*="facebook.com/JSystems.szkolenia/"]
 jsystems.pl##h4:nth-of-type(2)
 jsystems.pl##ul:nth-of-type(2) > li > a[href="blog/index.html"]
@@ -4828,6 +4831,7 @@ my.treedis.com###share-pop > button:nth-child(-n+5):not(.close)
 mzk-ostrow.com.pl##p:nth-child(n+59)
 mzk-ostrow.com.pl##.rightpane p:nth-of-type(n+52):nth-of-type(-n+58)
 mzk-torun.pl###s5_drop_down_container
+mzuim.chorzow.eu##.socialmedia > li:not(.bip):not(.rss)
 m.beszamel.se.pl###big_socials.row
 m.demotywatory.pl##.demot-fbshare
 m.interia.pl##.article-social.is-bottom
@@ -5076,6 +5080,7 @@ oees.pl##footer div.row:nth-of-type(2) > div.col-md-3.col-xs-6:nth-of-type(2)
 ofeminin.pl##.socialProfiles
 ofeminin.pl###socialIcons, .socialsBtns, .hdrScl, .ftrScl
 ofeminin.pl,onet.pl,~www.onet.pl##.formresult_share > .formresult_share_title
+oferteo.pl##div:nth-of-type(2) .footer-txt > a[href]
 oferteo.pl###rich-socials.rich-socials
 oferteo.pl##.container-socialmedia .col-sm-4.col-md-5.col-lg-6, .container-socialmedia .sm-box
 ofertypromocje.pl###linkiPortalu
@@ -7223,6 +7228,8 @@ usg.com.pl##.panelfb
 uslugiekosystemow.pl###text-5 .widget-title
 uslugistolarskie.eu##.uk-navbar-right > ul > li:nth-of-type(1)
 ustka.travel##.top-nav .href_icon
+ustm.pl##.menuSocials
+ustm.pl##.footer-box-ikona
 ustron.pl##a > .mdi-youtube-play.mdi
 ustyle.pl##.instagram_strgl
 uti.pl##a[href*="facebook.com/utipl/"], .elementor-widget-heading.elementor-widget.elementor-element-huayyaq.elementor-element
@@ -7466,6 +7473,7 @@ wittchen.com##.footer__social-media--wrapper
 wittchen.com##.instabox-naglowek
 wit.com.pl##.navbar-nav.nav > li:nth-of-type(2)
 wiwa.info.pl##a[href*="facebook.com/WIWAINFOPL/"], a[href*="youtube.com/watch?v=8Khj2ZexkIM"]
+wizaz.pl##div.c-article__action > div:not(.c-email-share)
 wizaz.pl###socialize-right-side
 wizzair.com##.sitemap__wrapper--footer.container > .row > div.gr-3:nth-of-type(3) > .heading--5
 wkforum.pl##a[href*="facebook.com/warszawskikokss"], a[href*="instagram.com/warszawskikoks/"], a[href*="youtube.com/user/WarszawskiKoks"]
@@ -7814,7 +7822,6 @@ zyciezpsem.pl##.social_nav
 zyro.com##.footer__socials-list
 zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz Facebook)
 !ofeminin.pl##.formresult_share
-!polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl##button[title="Kliknij, aby udostępnić"]
 ###chaty-channel-facebook_messenger
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 !
