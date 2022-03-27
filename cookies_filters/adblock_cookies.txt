@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.3.20.2
-! Last modified: Sun, 20 Mar 2022, 22:53 UTC+01
+! Version: 2022.3.27.0
+! Last modified: Sun, 27 Mar 2022, 18:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.3.20.2 aktualizacja: nie, 20 mar 2022, 22:53 UTC+01
+! v.2022.3.27.0 aktualizacja: nie, 27 mar 2022, 18:31 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2597,7 +2597,6 @@ sykomat.com.pl###adimo-cookie
 synology.com###cookies_header
 systemair.com###gdprdialog.gdpr-message, .reveal-modal-bg
 systemcoffee.pl##.CoockiesDIV
-system.t-mobilebankowe.pl#?##app > div[class]:not([id]):last-child > div[class]:not([id]):-abp-contains(pliki cookies)
 szajna.pl##.fwp-cookis
 szczecinek.com###__cmcmedia_upid_26
 szczepimy.com.pl##.cookiesalert
@@ -2921,6 +2920,7 @@ oetker.*/static/js/privacy-dialog/
 /jquery.cookiebar$domain=selgros.pl
 /libraries/js/jquery.tipsy.cookie.js$domain=kierunkowy.com
 /misc/cookie.js$domain=kurnik.pl
+/otbannersdk.js$domain=avast.com|avg.com|coca-cola.pl|dhl.com
 /pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|hrd.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
 /pp-t-a-c.js$domain=najlepsze.net|toplista.info
 /privacy/popup.js$script,domain=bauer.pl|cdaction.pl|pcformat.pl
@@ -3176,6 +3176,8 @@ pl###band-cookies:not(body):not(html)
 pl###banner-cookies:not(body):not(html)
 pl###barritaloca:not(body):not(html)
 pl###bar_bottom_cookie:not(body):not(html)
+pl###ba_eu_cookie_law
+pl###ba_eu_cookie_law ~ .ba_popup_cookie
 pl###bbccookies:not(body):not(html)
 pl###blockPopupInformation:not(body):not(html)
 pl###box_cookie:not(body):not(html)
@@ -3909,7 +3911,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 aion.eu#@#.cookies-notification:not(body)
 al.to,combat.pl#@##app > div:first-child > div
-avg.com,beko.com,bethesda.net,coca-cola.pl,domiporta.pl,edziecko.pl,haps.pl,moto.pl,panasonic.com,plotek.pl,radiopogoda.pl,sport.pl,toteraz.pl#@##onetrust-consent-sdk
+avg.com,beko.com,bethesda.net,coca-cola.pl,credit-suisse.com,domiporta.pl,edziecko.pl,haps.pl,moto.pl,panasonic.com,plotek.pl,radiopogoda.pl,sport.pl,toteraz.pl#@##onetrust-consent-sdk
 bgk.pl#@#.cc-revoke:not(body):not(html)
 bgk.pl,meiko.pl#@#.cc-window[aria-describedby*="consent"]
 bgk.pl,meiko.pl#@#.cc-window[aria-label*="consent"]
@@ -3971,6 +3973,7 @@ pracuj.pl#@#header > div:last-child:not([data-test])
 puratos.pl#@##cookieBannerModal
 ranking.perspektywy.pl#@##cookieModal ~ .modal-backdrop
 sonarhome.pl#@#.bg-facebook
+sumin.com.pl#@#.pum[data-popmake*="\"slug\":\"cookie"]
 toteraz.pl#@##cookie-preferences
 tvp.pl#@#.tvp-cookie-overlay:not(body):not(html)
 visa.pl#@##CookieReportsBanner
