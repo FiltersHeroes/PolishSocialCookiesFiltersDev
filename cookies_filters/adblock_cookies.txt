@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.3.27.1
-! Last modified: Sun, 27 Mar 2022, 20:03 UTC+02
+! Version: 2022.3.27.2
+! Last modified: Sun, 27 Mar 2022, 22:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.3.27.1 aktualizacja: nie, 27 mar 2022, 20:03 UTC+02
+! v.2022.3.27.2 aktualizacja: nie, 27 mar 2022, 22:31 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -513,7 +513,7 @@ bwa.katowice.pl##.a-cookies
 byczdrowym.info,easypaste.org,eco-driving.info,erasmus-entrepreneurs.eu,fakty.nl,fiuka.de,forum.swiateczne.info,halogorlice.info,isokolka.eu,knyszynska.eu,megacennik.eu,pl.bab.la,polishteam.ru,powiatowa.info,radioexpert.net,slupno.eu,spreewald.de,themasterteacher.tv,zanzu.de##.cc-window[aria-label="cookieconsent"], .cc-revoke
 bydgoszcz.com,cooltura24.co.uk,debica24.eu,getruck.eu,halogorlice.info,kaercher.com,katowice.eu,koscierzyna24.info,limanowa.in,muzeum.rypin.eu,narew.info,olesnica24.com,parkerpen.com,pl.toshibatec.eu,radiomalbork.fm,samochody-poleasingowe.eu,slaskie.travel,slubice.tv,smc.eu,tarnowska.tv,truso.tv,tvdami.eu,wejherowo24.info,wielkabrytaniaonline.co.uk###cookiesdirective
 byinsomnia.com###v-cookielaw
-bylinowyraj.pl##[data-s^="cookies_"]
+bylinowyraj.pl,czarnaroza.pl##[data-s^="cookies_"]
 bywajtu.pl,livesmarter.pl,luszczyce.pl,mazowia.eu###co15ie87a
 cadvision.pl,ulapodurgiel.pl##.widget-dark-background
 cafago.com,tomtop.com##.m_privacy_statement
@@ -957,7 +957,7 @@ ever.eu,ziaja.com###cookies-info
 ewakacje-online.pl##div[id][role="alert"][aria-live="polite"].qtip
 ewakacje-online.pl###qtip-overlay
 ewf.h1.pl###tytul_rodo
-ewl.com.pl###bezzo-cookies-bar
+ewl.com.pl,weblider.eu###bezzo-cookies-bar
 exactsystems.pl##.js-cookies-popup.c__popup-cookies
 excodus.com###nag
 expander.net.pl###info-cookie-2013
@@ -2789,7 +2789,6 @@ weather.com##.lite-msg-parent
 webartis.pl##body > div[style*="background-color:"]:not([id]):not([class])
 webcover.eu###box-polityka-pr
 webdev20.pl###top_message
-weblider.eu###bezzo-cookies-bar.bezzo-cookies-bar
 webmade.org###wp-cookies-icon
 webprojekt.biz###ppc
 web.skype.com#?#.info.notification:-abp-contains(cookie)
