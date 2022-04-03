@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.4.3.0
-! Last modified: Sun, 03 Apr 2022, 02:31 UTC+02
+! Version: 2022.4.3.1
+! Last modified: Sun, 03 Apr 2022, 22:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.4.3.0 aktualizacja: nie, 03 kwi 2022, 02:31 UTC+02
+! v.2022.4.3.1 aktualizacja: nie, 03 kwi 2022, 22:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -249,10 +249,8 @@ pl##.filled.tbox
 pl##.fixedFB
 pl##.flaker
 pl##.floatinglikebox
-pl##.gg
 pl##.googleShareIcon
 pl##.googleplus.socialIcon
-pl##.gp
 pl##.gplbHead
 pl##.gplus
 pl##.gplusIco
@@ -281,7 +279,6 @@ pl##.likebutton
 pl##.likely
 pl##.likes
 pl##.linkedin
-pl##.nk
 pl##.pinterest
 pl##.pintrest
 pl##.slideshare
@@ -850,6 +847,7 @@ abcmotoru.com.pl###Info-box-wrap-7180
 abcsurf.pl##.modFooter_Social
 abc.tvp.pl##.program__icons
 abc.tvp.pl#?#.article__icons-title:-abp-contains(Udostępnij)
+abersklep.pl,porta.com.pl##.social-box
 abonament.alfaromeo.pl##.watch-us__headline
 abrakadabra.sklep.pl##.social a:not([href*="newsletter"])
 absolvent.pl##footer ul ~ ul ul > li > a[href*=".com/"]
@@ -1801,6 +1799,7 @@ carlsbergpolska.pl##div.col-md-4:nth-of-type(2)
 carpetvista.pl##.g-padTstd.r-5cols.std > div.r-colspan1.r-col:nth-of-type(5)
 carrefour.pl##button[class] ~ div[class] > div > div > a[class][target="_blank"]:empty:nth-of-type(-n+5)
 carrefour.pl##li.m-t-sm:nth-of-type(4)
+carrefour.pl##.gtm-footer[href*=".com/"]:not([href*="play.google.com"]):not([href*="apps.apple.com"])
 car-rental.pl##.box_social_instagram
 casadi.pl###main_instagram
 casadi.pl#?#.cms_2a_wrapper:-abp-contains(zobacz nas na)
@@ -2598,6 +2597,7 @@ entra.pl##.fusion-facebook
 entra.pl#?#div.fusion-flip-box-wrapper:nth-of-type(3) > .fusion-flip-box:-abp-contains(Polub nas)
 enumizmatyczny.pl###fb_slider
 envelo.pl##.envelo-facebook, .envelo-twitter, .envelo-gplus, .envelo-in, .envelo-instagram
+eobuwie.com.pl#?#.olapic-carousel__container:-abp-contains(z @eobuwie)
 epaka.pl##.footerCol3.footerCol
 epaka.pl###footer a[href*="instagram.com/"]
 epaka.pl###footer a[href*="linkedin.com/"]
@@ -2846,7 +2846,7 @@ fifek.pl,hulaka.pl###float_facebook_box
 fight24.pl##div:nth-of-type(3) > h2:nth-of-type(1)
 fightershop.pl##.bigMedia > .container > .row, .findUs > div.nav-header:nth-of-type(1)
 filing.pl##.like
-filippo.pl,swarzedz.pl,thefad.pl##.social a[href*=".com/"]
+filippo.pl,swarzedz.pl,thefad.pl,zyciorysy.pl##.social a[href*=".com/"]
 filman.cc###facebook-side
 filmomaniak.pl##.fi-social a
 filmowastolica.pl##footer > #sm
@@ -4571,6 +4571,7 @@ mewe.com##.nav-socials
 mghome.pl##.ig-link
 mgotuje.pl##.solopine_social_widget
 mgotuje.pl,niestatystyczny.pl##.solopine_facebook_widget
+mgr.farm#?#.farmacja-komentarze > .row > div > h3:-abp-has( + .socialShare)
 mhk.pl###bloggerTop, #facebookTop, #instagramTop, #twitterTop, a[href*="blog.mhk.pl"]
 miastociechocinek.com###ban_facebook, #ban_youtube
 miastodzieci.pl##.container > .pull-left > a
@@ -4886,6 +4887,7 @@ nadarzyn.tv##.facebook_fixed
 naekranie.pl###home-youtube
 naekranie.pl###social-fans, .addthis_responsive_sharing, .msg-share, .title-p, .tw-share
 nafrontendzie.pl##.left-wrapper > div.icon:nth-of-type(-n+2), .nozbe-header
+nafta69.pl##div[class*="platnosci"] .banner_wrapper .box + .box:last-child
 nagraniahipnotyczne.pl##.facebook-bookmark
 najblizejludzi.pl###contact.footer .col-xl-3
 najlepszebuty.com.pl##.footer-top__left
@@ -5261,7 +5263,9 @@ oticon.pl###footer .section-one > .rich-text.component > .component-content
 otmetobuwie.pl##.dark_blue.button3_sub
 otoagent.pl##.layout__footer--socialsWrapper
 otodom.pl##footer div.item:nth-of-type(4) > ul > li:nth-of-type(2)
+otodom.pl##footer > div > div > div:last-child > div + div:last-child
 otomoto.pl##footer a[href*="facebook.com/otomotopl" i]
+otomoto.pl###page-footer > section > article:first-child
 ototorun.pl#?#.l-news__content p > strong:-abp-contains(Polub nas na Facebooku)
 otoz.pl##.footer-odwiedz
 otube.pl###belt div.text-right.col-sm-6:nth-of-type(1)
@@ -5748,7 +5752,6 @@ portal.abczdrowie.pl##.fb-container
 portal.bikeworld.pl##.sidebar > .panel:nth-of-type(1), .sidebar > .panel:nth-of-type(4)
 portal.brodnica.pl##.linki_spolecznosciowe_w_naglowku
 portal.lellek.pl##a[href="/lel/batony/343,Lellek-Facebook.html"]
-porta.com.pl##.social-box
 porta.com.pl##.social_bttn_pinterest_wrapper
 portgdansk.pl##a[title*="Twitter"], a[title="Facebook"], a[title="LinkedIn"]
 portgdansk.pl##.l-footer__social
@@ -8200,6 +8203,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||maclife.pl/Modules/mod.main/images/icons/icon-footer-google.png
 ||malbus.pl/files/fb.png
 ||malopolskiekoleje.pl/images/grafika/facebook.png
+||mamalyga.org/wp-content/uploads/2021/06/FB.png$image
 ||materacekolo24.pl/images/blog1.png
 ||materacekolo24.pl/images/blog2.png
 ||materacekolo24.pl/images/google.png
