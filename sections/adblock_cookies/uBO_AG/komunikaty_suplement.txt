@@ -466,7 +466,6 @@ polskikoszyk.pl##body.cookie .topbar:style(top: 0 !important;)
 polskikoszyk.pl##body.cookie .topsubbar:style(top: 57px !important;)
 poradykomputerowe.pl,portaloswiatowy.pl##.overlay-cookie
 poradykomputerowe.pl,portaloswiatowy.pl##.overlay-hidden-cookie:style(overflow: auto !important;)
-!porcelana.com.pl##+js(aopr, alert)
 porcelana.pl##.modal-popup
 porowneo.pl##div[class^="sc-"] > button ~ div > a[href*="rules=polityka_prywatnosci"]:upward(2)
 portalpasazera.pl##.cookieman-window
@@ -569,7 +568,6 @@ tvgo.orange.pl##body > div[role="dialog"]:not([id]):not([class]):has(.rodo-wrapp
 tvp.pl##.tvp-cookie-overlay
 tvp.pl##.tvp-cookie-scroll-lock:style(position: static !important; overflow: auto !important;)
 twitter.com##div[class*=" "] > div[class][dir="auto"]:has( > a[href*="twitter-cookies"][role="link"]) ~ div[role="button"]:upward(1)
-!ugb.pl##+js(acis, alert, RODO)
 ukraina.com.pl##body > table:nth-child(3) > tbody > tr > td[style="border-bottom:solid 1px #CCCCCC"][align]:style(color: #0000)
 ukraina.com.pl##body > table:nth-child(3) > tbody > tr > td[style="border-bottom:solid 1px #CCCCCC"][align]:upward(table):style(margin: -54px)
 um.warszawa.pl###popup-overlay.popup-overlay
@@ -653,6 +651,8 @@ zyjzdrowo.info###vicky-cookiebox, .modal-backdrop
 !google.com,google.pl##+js(aeld, DOMContentLoaded, CONSENT)
 !pepper.pl##.cookies-message, .popover-cover[class*="fixed"]
 !porcelana.com.pl##+js(acis, onload, plików cookies)
+!porcelana.com.pl##+js(aopr, alert)
+!ugb.pl##+js(acis, alert, RODO)
 !www.google.com,www.google.pl##body.QVCmK:style(position: static !important; overflow-y: visible !important;)
 !www.google.com,www.google.pl##html.QVCmK:style(overflow-y: visible !important;)
 !www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):empty:matches-css(opacity: 0.7)
