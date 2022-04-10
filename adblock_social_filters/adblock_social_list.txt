@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.4.3.2
-! Last modified: Sun, 03 Apr 2022, 23:42 UTC+02
+! Version: 2022.4.10.0
+! Last modified: Sun, 10 Apr 2022, 22:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.4.3.2 aktualizacja: nie, 03 kwi 2022, 23:42 UTC+02
+! v.2022.4.10.0 aktualizacja: nie, 10 kwi 2022, 22:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2638,6 +2638,7 @@ eshop.wurth.pl###footer.footer div.row:nth-of-type(1) > div:nth-of-type(3)
 esize.me##.footer_section--sm
 eskarock.pl##.main-nav__socials
 eska.pl##.hot_temat_cont:nth-of-type(28) > .m-bottom30.goth_l.title, .goth_l.polub
+eska.pl##.share-buttons-wrapper
 eska.pl##.type--facebook.element
 eska.pl,~www.eska.pl##.footer > .box:nth-of-type(6), .footer > .box:nth-of-type(7)
 eska.pl,eskarock.pl,senatkomorki.pl##.messenger
@@ -3686,6 +3687,9 @@ jadisco.pl##.fa-twitch
 jadisco.pl##.jd-twitter-widget
 jadlonomia.com##.socialGroup
 jadlonomia.com###BottomFollow
+jagg.pl###fx-social_footer strong
+jagg.pl###maxsote_instawidget.maxsote_instawidget
+jagg.pl##.k_instagramhead.boxhead
 jagiellonia.org##a[href*="youtube.com/channel/UCAK6LXnd78Lt0yN_-ARI8pQ"]
 jagodnik.pl##a[href*="twitter.com/jagodnik_pl"]
 jaikudo.pl##.social-list
@@ -6763,6 +6767,7 @@ stollar.pl##.fd-header-top__socials
 stomatologiacichon.pl##.social-icons-desktop
 stopnadwadze.pl###bottom-bar
 stoprocent.com###social-sticky
+store.steampowered.com##a[class^="discussionwidget_ShareBtn_"]
 store.steampowered.com##a[onclick^="ShowShareDialog"]
 storytel.com###footerComponent > div > div:nth-of-type(2), a[href*="facebook.com/storytelPL"], a[href*="instagram.com/storytel.pl"]
 stowarzyszenie-impuls.eu##a[href*="facebook.com/Impuls-stowarzyszenie-promocji-kultury"] > img
