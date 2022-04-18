@@ -1,4 +1,3 @@
-vibez.pl##div > svg[aria-labelledby="share"]:upward(1)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > strong:has-text(/^Podziel się$/):upward(2)
 30minut.pl##.gora_ikony_nk, .gora_ikony_fb:style(visibility: hidden !important;)
 45minut.pl##+js(ra, href, .carousel-inner a[href="https://www.facebook.com/45minutpl"])
@@ -84,6 +83,7 @@ tvp.pl##.header__socials-container a:style(visibility: hidden !important; height
 um.kielce.pl##map > area[alt="Facebook"]:remove()
 valtra.pl##.aem-GridColumn a[href*="facebook.com/"] img:upward(.aem-GridColumn)
 valtra.pl##.aem-GridColumn .titleblock__heading:has-text(ŚLEDŹ)
+vibez.pl##div > svg[aria-labelledby="share"]:upward(1)
 waw4free.pl###spolecznosci:style(height: auto !important;)
 weather.com##.SocialMediaShareButton:style(pointer-events: none; position: unset !important;)
 welovekeratin.pl##a[href*="instagram.com/we_love_keratin"] > i ~ span:upward(section)
