@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.4.18.0
-! Last modified: Mon, 18 Apr 2022, 22:31 UTC+02
+! Version: 2022.4.23.0
+! Last modified: Sat, 23 Apr 2022, 22:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.4.18.0 aktualizacja: pon, 18 kwi 2022, 22:31 UTC+02
+! v.2022.4.23.0 aktualizacja: sob, 23 kwi 2022, 22:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -42,7 +42,7 @@ esensja.pl###FBox
 e-iglaki.pl###szkolenie-message
 fakt.pl,medonet.pl##.facebookLikePopup
 fakt.pl,medonet.pl##.withFPU:before
-fifek.pl,skopcone.pl###ips-popup, #ips-popup-wrapper
+fifek.pl###ips-popup, #ips-popup-wrapper
 forum.grywamtu.pl###pop-slap[data-hello-text], .bg-pop-over
 forum.joomla.pl###fancybox-overlay, #fancybox-wrap
 fotoprzyroda.pl###sosinvision_popup
@@ -1542,7 +1542,6 @@ bispol.pl##.footer-line > .row > div[class]:nth-of-type(4)
 bispol.pl##.icons-soc
 bissole.pl##.textwidget > a[href*="linkedin.com/company/17906027"]
 bitbay.net,bitbaypay.com##.menu-child-5.flex-menu-child
-bitcantor.com,ciechanowinaczej.pl,rkantor.com##.fb-float-likebox
 bitcoin-online.pl##.social-color
 bitcoin.pl##footer div > img[alt="Bitcoin.pl"] ~ p ~ div > a[href][target="_blank"]
 bitcoin.pl###__layout div[class^="bg-orange"]
@@ -1912,6 +1911,7 @@ ciapkowo.pl###text-6, #text-12
 cichyraj.pl,firebit.pl,kurier365.pl##.fa-google.fa
 ciechanowiec.media.pl###slider_l
 ciechanowinaczej.pl,przedsiebiorcy.eu##.fa-twitter
+ciechanowinaczej.pl,rkantor.com##.fb-float-likebox
 ciekawe.org##a[href*="facebook.com/groups/ciekawscy/"]
 cienkownarty.pl##.fishki > a:nth-of-type(n+2)
 cieplikpodrozuje.pl,karografia.pl,uschabinskiej.pl##.fa-facebook-f.fab
