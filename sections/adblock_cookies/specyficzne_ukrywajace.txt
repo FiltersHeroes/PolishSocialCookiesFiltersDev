@@ -2171,8 +2171,9 @@ polnord.pl###polCookieInfo
 polona.pl##cbn-cookies
 polonika.at,tominet.com.pl#?#table:-abp-has(#cookieMessageText)
 polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"] > p:first-child + p:last-child:-abp-contains(Wyrażam zgodę na przechowywanie))
-polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
-polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
+polsatboxgo.pl,polsatgo.pl#?##__next div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
+!polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
+!polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
 polskaligatenisa.pl##app-rodo
 polska-szkola.pl###activebar-container
 polskijubiler.pl##body > div:nth-of-type(1)[style="width: 90%; margin: 0 auto;"]
