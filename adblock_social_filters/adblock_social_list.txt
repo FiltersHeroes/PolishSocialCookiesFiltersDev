@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.4.24.2
-! Last modified: Sun, 24 Apr 2022, 21:33 UTC+02
+! Version: 2022.4.28.0
+! Last modified: Thu, 28 Apr 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.4.24.2 aktualizacja: nie, 24 kwi 2022, 21:33 UTC+02
+! v.2022.4.28.0 aktualizacja: czw, 28 kwi 2022, 02:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1752,7 +1752,7 @@ bursztynowa.pl##.footer-top section.col-xs-12.col-sm-4:nth-of-type(2)
 busfor.pl##.footer__social-container
 busiarze.com.pl,invado.pl,jaknajwiecej.pl##.zoom-instagram-widget
 businessinsider.com.pl##.article-share_button:not([href*="mailto:"])
-businessinsider.com.pl,fakt.pl##.article-share##a.article-share_button:not([href*="mailto:"])
+businessinsider.com.pl,fakt.pl##.article-share, a.article-share_button:not([href*="mailto:"])
 businesstraveller.pl##.widget:nth-of-type(1) > h4
 business-english.com.pl##.contact > header > h3, .contact > p, .contact > .icons > li:nth-of-type(1)
 business.trustedshops.pl##.level1Wrapper > li.hs-menu-item a[href*=".com/"]
@@ -3010,7 +3010,7 @@ fotokulinarnie.pl##.fb-page-panel, .like-header, .instagram-wrap, .instagram-hea
 fotopanorama.pl##footer .col-xs-12 > .pull-left > span, #social > a:nth-of-type(1)
 fototeka.fn.org.pl##.col-lg-3:nth-of-type(4)
 fotouslugi.pl##.sidebar-link:nth-of-type(n+3):nth-of-type(-n+5)
-fotowoltaika.bruk-bet.pl##.socials-block > .socials li a[href*=".com/"]solidni.pl###gk-social
+fotowoltaika.bruk-bet.pl##.socials-block > .socials li a[href*=".com/"]
 foto.auchan.pl##.sidebar-link[href*="facebook.com/cewefotoksiazka/"], .sidebar-link[href*="youtube.com/"], .sidebar-link[href*="instagram.com/"]
 foto.com.pl###right a[href*="facebook.com/pages/FOTO-miesiecznik-fotograficzny/"]
 foxkomputer.pl##.topFb
@@ -6431,7 +6431,9 @@ silesion.pl##.sub-menu-btn-fb
 siligan.pl###widget_3, #widget_4
 silowniezewnetrzne.pl##.custom-fb
 silvermet.eu##.fblbLeft
-simplyyourself.online##.elementor-animation-shrink[href*="instagram.com"] > svg, .elementor-animation-shrink[href*="facebook.com"] > svg
+simplyyourself.online##.elementor-animation-shrink[href*="facebook.com"] > svg
+simplyyourself.online##.elementor-animation-shrink[href*="instagram.com"] > svg
+simplyyourself.online##.elementor-animation-shrink[href*="youtube.com"] > svg
 simplyyourself.online#?#.elementor-widget-heading.elementor-widget.elementor-element > .elementor-widget-container > .elementor-size-default.elementor-heading-title:-abp-contains(mediach społecznościowych)
 simplyyourself.pl##a[href*="tiktok.com/"]
 simplyyourself.pl,williams.pl##a[href*="facebook.com/"]
@@ -6662,6 +6664,7 @@ sokpol.com.pl##.rwdhide
 solano-shop.com##.footer__find-us
 solarisbus.com##.c-list--social.c-list
 solarispobierowo.pl,toreja.pl##.navigation a.ct-link[id^="link"][href*=".com/"][target]
+solidni.pl###gk-social
 solidworks.pl###socials-ico
 solid-gear.pl##.sidebar-fb
 solid.jobs##app-root > .footer > .row > div.footer-section:nth-of-type(1) > div > a
