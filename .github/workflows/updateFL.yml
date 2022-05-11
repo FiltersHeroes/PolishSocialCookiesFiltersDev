@@ -6,6 +6,8 @@ jobs:
   Aktualizacja:
     runs-on: ubuntu-latest
     container: ghcr.io/filtersheroes/vichs_image:2.26.9-2
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
         with:
@@ -13,4 +15,5 @@ jobs:
       - env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           ./scripts/build.sh

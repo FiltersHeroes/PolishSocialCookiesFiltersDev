@@ -15,11 +15,14 @@ jobs:
   Aktualizacja:
     runs-on: ubuntu-latest
     container: polishfiltersteam/rtm_image:2.26.8
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
           GH_TOKEN: ${{ secrets.PR_TOKEN }}
           RTM_PR_MESSAGE: ${{ github.event.inputs.rtm_pr_message }}
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           ./scripts/MAKE_RTM.sh
