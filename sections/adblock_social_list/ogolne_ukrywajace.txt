@@ -237,7 +237,7 @@ pl###social_block_mod
 pl###socjalmedia
 pl###tab-widget-fb
 pl###tab-widget-g
-pl###twitter
+pl###twitter:not(input)
 pl###twitter-container
 pl###twitter-wjsbox > .belt
 pl###twitter_ikona
@@ -320,7 +320,7 @@ pl##.ediplayer-share-fb
 pl##.emg-facebook
 pl##.em-facebook
 pl##.facebook-small
-pl##.facebook:not([data-id*="videos" i]):not([class*="login" i]):not(.connect)
+pl##.facebook:not([data-id*="videos" i]):not([class*="login" i]):not(.connect):not([class*="desc-" i])
 pl##.facebook_bg1
 pl##.facebook_color
 pl##.facebook_link
