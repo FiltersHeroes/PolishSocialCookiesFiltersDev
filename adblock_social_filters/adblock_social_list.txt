@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.5.20.0
-! Last modified: Fri, 20 May 2022, 02:31 UTC+02
+! Version: 2022.5.21.0
+! Last modified: Sat, 21 May 2022, 22:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.5.20.0 aktualizacja: pią, 20 maj 2022, 02:31 UTC+02
+! v.2022.5.21.0 aktualizacja: sob, 21 maj 2022, 22:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -7020,6 +7020,7 @@ termedia.pl##a[href*="twitter.com/MenedzerZdrowia"], a[href*="facebook.com/Mened
 termedia.pl##.headCenter > div:nth-of-type(n+2):nth-of-type(-n+3) > button
 termedia.pl##.headCenter > .mzServiceIcons > a
 termgaz.pl###widget_social
+termyszaflary.com##footer > div + div > div > div > div > div > section:first-child > div > div > div:last-child
 terrymoda.pl##.aFB
 tesco.pl##.cp-recipe-container-bottom > div.bottom-box:nth-of-type(2)
 testelka.pl###footer-widgets .custom-html-widget a[href*=".com/"][target]
