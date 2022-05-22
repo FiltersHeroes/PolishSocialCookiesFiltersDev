@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.5.21.0
-! Last modified: Sat, 21 May 2022, 22:31 UTC+02
+! Version: 2022.5.22.0
+! Last modified: Sun, 22 May 2022, 19:57 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.5.21.0 aktualizacja: sob, 21 maj 2022, 22:31 UTC+02
+! v.2022.5.22.0 aktualizacja: nie, 22 maj 2022, 19:57 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -124,6 +124,7 @@ agropolska.pl,miastograf.pl##.ui-widget.ui-dialog[aria-describedby]
 agrozakupy.pl###ms-cookie-policy
 agro-bis.eu,eldom.eu,iletutego.eu,prawniktorun.eu###cookie-alert
 agro-mig.pl#?#.popup:-abp-has(a[href*="40"]:-abp-contains(Polityce prywatności))
+agro-siec.pl##div.wrapper-fixed[data-position="bottom"]:not([style])
 agro-sklep.com.pl##.brz-popup2
 agusto.pl,dekolo.pl,etroniks.pl,happytime.com.pl,mebags.pl,modne-gniazdka.pl,sprecords.pl,trojmiejska.com,trojmiejskaperfumeria.pl,witek.pl##div[id^="st_notification_"]
 ag-complex.com.pl##.cookie__window
@@ -348,7 +349,7 @@ bethesda.net#?#visor-alert[name="visor-alert"] > div[class=""] > div > div:last-
 betsson22.com##.bottom-snackbar.cookie-consent
 betsson22.com##.mat-snack-bar-container
 betsson.com###MsgAreaBottom
-bezowsikow.pl,pirolam.pl,polopiryna.pl,polpharma.pl##.monit
+bezowsikow.pl,fonix.pl,pirolam.pl,polopiryna.pl,polpharma.pl##.monit
 bezpieczny.pl##.remodal-wrapper, .remodal-overlay
 bialoleka.waw.pl###img_98
 bialoleka.waw.pl###popup-bg
@@ -1796,6 +1797,7 @@ mojavon.pl##.mpp-container > .mpp-popup
 mojeppk.pl#?##root #main ~ div[class*=" "]:-abp-has( > div > div > img[src*="Cookies."])
 mojeuslugi.pl##.footer ~ div.text-center.fixed
 moje-dzialdowo.pl##footer ~ .v-dialog
+mokka.pl#?##__next > div[class]:first-of-type:-abp-has(a[href*="/dokumenty/"]:-abp-contains(prywatności))
 mok.rabka.pl#?##breadcrumbs:-abp-has(table td span a[href*="/Ciasteczko"] ~ a[href*="-ciasteczka"])
 molkip.pl##.dialog-message.dialog-lightbox-message > .elementor-location-popup
 molnlycke.pl##.footer ~ .notifications
@@ -2127,6 +2129,7 @@ placowka.znanylekarz.pl##.footer-container-wrapper #footer-baner[style*="fixed"]
 platanhouse.com.pl,radiogdansk.pl,radioram.pl,radiowroclaw.pl,ticketclub.pl###rodoModal:not([style*="padding-right"])
 platan.pl###dialog1
 player.pl##.cBox
+player.polskieradio.pl##.termsOfUse
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
 plusbank.pl##.coo_wrap
 plus.pl###rodo-popup-overlay
