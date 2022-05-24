@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.5.22.2
-! Last modified: Sun, 22 May 2022, 22:31 UTC+02
+! Version: 2022.5.24.0
+! Last modified: Tue, 24 May 2022, 22:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.5.22.2 aktualizacja: nie, 22 maj 2022, 22:31 UTC+02
+! v.2022.5.24.0 aktualizacja: wto, 24 maj 2022, 22:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -995,7 +995,7 @@ airly.eu##div[class^="social-bar__SocialIcons-"]
 airly.eu##[class^="footer__SocialLinks"]
 airly.eu#?#button[aria-label*="Floating"]:-abp-has([class*="social-bar__StyledShareIcon-"])
 airly.org##button[aria-label^="Udostępnij "]
-airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,braclowiecka.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,dompelenpomyslow.pl,echotygodnik.info,familysklep.pl,fitboxy.pl,generali.pl,gls-group.eu,gorlice.in,gorlice.tv,grene.pl,grupawsparcia.pl,homedoctor.pl,hrkgame.com,iautomatyka.pl,isl.pl,itaka.pl,jablonna.pl,jezuici.pl,jhi.pl,kalisz24.info.pl,karnet.krakow.pl,kruszyna.pl,kwantowo.pl,lalorraine.pl,laroche-posay.pl,lidia.pl,limanowa.in,lubelska.tv,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,muzeum.tychy.pl,nasztomaszow.pl,neon24.info,niepodlegla.gov.pl,nowakonfederacja.pl,nowyekran24.com,pap.pl,pingpong.bydgoszcz.pl,planeta-budowlana.pl,pogonszczecin.pl,polskieszlaki.pl,rms.pl,roltechagro.pl,rpo.malopolska.pl,sacz.in,sejm.gov.pl,shop.massdnm.com,skgd.pl,sklephonda.pl,tarnowska.tv,tczewska.pl,tipmedia.pl,tvdami.eu,tvobiektyw.pl,tvpogranicze.pl,tvswinoujscie.pl,tw.waw.pl,vidaron.pl,wentylacja24.pl,wiez.pl,winiary.pl,wloclawek.pl,wp.mil.pl,wsei.edu.pl,zstiomeritum.edu.pl##.youtube
+airport.gdansk.pl,applemobile.pl,artmuseum.pl,bemares.pl,big.pl,braclowiecka.pl,chemik-police.com,cooltura24.co.uk,damitv.pl,domnowoczesny.com,dompelenpomyslow.pl,echotygodnik.info,ergado.pl,familysklep.pl,fitboxy.pl,generali.pl,gls-group.eu,gorlice.in,gorlice.tv,grene.pl,grupawsparcia.pl,homedoctor.pl,hrkgame.com,iautomatyka.pl,isl.pl,itaka.pl,jablonna.pl,jezuici.pl,jhi.pl,kalisz24.info.pl,karnet.krakow.pl,kruszyna.pl,kwantowo.pl,lalorraine.pl,laroche-posay.pl,lidia.pl,limanowa.in,lubelska.tv,mall.pl,mojanorwegia.pl,mojtelefon.info,motocaina.pl,muzeum.tychy.pl,nasztomaszow.pl,neon24.info,niepodlegla.gov.pl,nowakonfederacja.pl,nowyekran24.com,pap.pl,pingpong.bydgoszcz.pl,planeta-budowlana.pl,pogonszczecin.pl,polskieszlaki.pl,rms.pl,roltechagro.pl,rpo.malopolska.pl,sacz.in,sejm.gov.pl,shop.massdnm.com,skgd.pl,sklephonda.pl,tarnowska.tv,tczewska.pl,tipmedia.pl,tvdami.eu,tvobiektyw.pl,tvpogranicze.pl,tvswinoujscie.pl,tw.waw.pl,vidaron.pl,wentylacja24.pl,wiez.pl,winiary.pl,wloclawek.pl,wp.mil.pl,wsei.edu.pl,zstiomeritum.edu.pl##.youtube
 airwick.pl##.footer-terms a[href*="instagram.com/"]
 aisko.pl###siesoc.siesoc
 aisko.pl##.icon-only.top-menu-item.menu-item > a[href*=".com/"]
@@ -6846,6 +6846,7 @@ studiokosmetyki.com##.icon-social_googleplus_square
 studioloko.pl##a.menu-link.main-menu-link[href*="facebook.com/"]
 studiomanilov.eu#?#.builder-parallax-scrolling.clearfix.module_row.themify_builder_row:-abp-contains(Dołączam do grupy)
 studiooptyczne44.pl##.block-instagram-photos
+studocu.com#?##document-viewer-sidebar button:-abp-has(span:-abp-contains(Udostępnij))
 styl-sklep.pl##a[href*="facebook.com/STYL-Studio-"] > img
 styl-sklep.pl##.ikona-fb.ikony-boczne
 styl-sklep.pl##.ikona-pi.ikony-boczne
@@ -7131,6 +7132,7 @@ to.com.pl##.componentsArticleTools__button, .atomsNavigationFooterSocialmedia__b
 tpay.com##div.col-sm-6.col-md-3:nth-of-type(4) > .widget.widget-2
 tpi.com.pl##.cmn-footer > .row > nav[class] > span
 tp-link.com##.tp-follow-social
+tqmtc.pl##a.social:nth-of-type(2)
 tradingjam.pl##.twitter-timeline-profile, #twitter-timeline-profile-2
 traftu.pl##.social > span
 trainingshowroom.com##a > .fa-facebook-f.fab
