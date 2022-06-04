@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.5.30.0
-! Last modified: Mon, 30 May 2022, 22:31 UTC+02
+! Version: 2022.6.4.0
+! Last modified: Sat, 04 Jun 2022, 02:37 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.5.30.0 aktualizacja: pon, 30 maj 2022, 22:31 UTC+02
+! v.2022.6.4.0 aktualizacja: sob, 04 cze 2022, 02:37 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -510,7 +510,6 @@ pl##.ediplayer-share-fb
 pl##.emg-facebook
 pl##.em-facebook
 pl##.facebook-small
-pl##.facebook:not([data-id*="videos" i]):not([class*="login" i]):not(.connect):not([class*="desc-" i])
 pl##.facebook_bg1
 pl##.facebook_color
 pl##.facebook_link
@@ -8908,6 +8907,7 @@ zw.com.pl#@#.list_share
 @@||startme.com/assets/google-icon-*.svg$image,domain=start.me
 @@||start.me/packs/media/images/google-icon-$image
 @@||static.westwingnow.pl/bella/Svgs-Pinterest.bundle.*.js
+@@||telepolis.pl/home/_img/twitter_square.png
 @@||wielkopolska.tv/wp-content/plugins/*/content/$image
 @@||wirtualnemedia.pl/new_wm_view/img/social/twitter.png$image,domain=www.wirtualnemedia.pl
 @@||zapytaj.onet.pl/images/fb-login-btn.png$image,domain=zapytaj.onet.pl
