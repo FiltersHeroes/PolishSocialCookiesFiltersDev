@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.6.4.0
-! Last modified: Sat, 04 Jun 2022, 02:31 UTC+02
+! Version: 2022.6.12.0
+! Last modified: Sun, 12 Jun 2022, 20:36 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.6.4.0 aktualizacja: sob, 04 cze 2022, 02:31 UTC+02
+! v.2022.6.12.0 aktualizacja: nie, 12 cze 2022, 20:36 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -429,6 +429,7 @@ bi-polska.pl,delicjapolska.pl###cooboo
 blablacar.pl##.CookieBanner-wrapper
 blackpearlszczecin.pl##.policy-cookies
 blendberg.com,zabka.pl##.footer-cookies
+blikomania.pl##.modal-bg
 blikomania.pl#?#.modal-bg:-abp-has( ~ .modal-wrapper .cookies-wrapper)
 blikomania.pl#?#.modal-wrapper:-abp-contains(plików cookies)
 blikomania.pl,culture.pl,rejestr.io,sso.epf.org.pl,toogoodtogo.pl##.Cookie
@@ -781,6 +782,7 @@ dpslubuczewo.pl,gastromaniacy.pl,idhosting.pl,instytutlogopedyczny.pl,sggik.pl##
 dreamjump.pl##.CookieMonster
 dreammachines.pl###qkies_info
 dressler.com.pl,install-it.pl,selgros24.pl,testuj.pl,wydawnictwoolesiejuk.pl,wydawnictwoswiatksiazki.pl##.overlay
+dropbox.com###consent-iframe
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
 drtusz.pl###cookie_info_text
 drumshop.pl###cookiesblock-wrapper
@@ -2973,6 +2975,7 @@ oetker.*/static/js/privacy-dialog/
 ||confero.pl/js/cookies2013$script
 ||consentmanager.mgr.consensu.org/delivery/cmp.min.js$script,domain=opinie24.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
+||consent.dropbox.com^$subdocument
 ||cookiebanner.eu/js/cookiebanner.min.js
 ||cookieconsent.lieps.de/consent/$domain=pl.tierpark-ueckermuende.de
 ||cookieq.com^$third-party
