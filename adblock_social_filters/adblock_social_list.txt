@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.6.12.0
-! Last modified: Sun, 12 Jun 2022, 20:36 UTC+02
+! Version: 2022.6.16.0
+! Last modified: Thu, 16 Jun 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.6.12.0 aktualizacja: nie, 12 cze 2022, 20:36 UTC+02
+! v.2022.6.16.0 aktualizacja: czw, 16 cze 2022, 02:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -1090,6 +1090,7 @@ al.to,x-kom.pl##footer.social > .row h4
 am76.pl##.container.shop-footer .row > .text-center.col-md-6 > a > .fa-stack > .fa
 am76.pl##.shop-footer a:nth-of-type(-n+4)
 amazon.pl##div.navFooterLinkCol:nth-of-type(7)
+amazon.pl##div.ssf-channel-v:nth-of-type(n+2):nth-of-type(-n+4)
 amberexpo.pl##body > div[style]:nth-of-type(n+3):nth-of-type(-n+4) > .handle_fb
 ambrozja.com###nm-footer .nm-footer-bar-social > li > a > .nm-font-facebook
 amfetamina.promo,damianparol.com,drzwipartnerkrakow.pl,dzdn.pl,dzikapolska.org,finereader.pl,fundacjawolnosci.org,kawiarniabezcukru.pl,konsolowe.info,kreatywni.co,kruczek.pl,lisiesprawy.pl,nowamuzyka.pl,piu.org.pl,rozaniec.eu,trenerangielskiego.com,ttg.com.pl,wierzbowyjar.pl,wnet.fm,yenn.eu##.menu-item a[href*="facebook.com/"]
@@ -3936,6 +3937,7 @@ kmziz.pl##.item.col-xs-12.col-sm-12.col-md-3.col-lg-3
 km.glogow.pl###g-footer .g-block:nth-of-type(3) .g-title
 knall.com.pl,magiadzwieku.pl##.socialTabs-tab--facebook.socialTabs-tab
 knauf-industries.pl##.socia
+knf.gov.pl##.header-bar-item > [href*="twitter.com/"]
 knorr.pl##.social-sharing-product-button
 knyszynska.eu###sp-bottom
 kobieceporady.pl,samouczek.info##div.columns:nth-of-type(3) > ul.no-bullet:nth-of-type(1) > li:nth-of-type(3)
@@ -4236,6 +4238,7 @@ lecnawakacje.pl##.classPageGenerator_default_bottom_socialMedia
 leczna24.pl##.btn[href*="facebook.com/"]
 led-zarowki.eu##.KolumnaPortale > ul > li
 leftlane.pl##a[href="youtube.com/c/LeftlanePl"], a[href="instagram.com/leftlanepl/"], a[href="facebook.com/leftlanepl/"]
+legalniewsieci.pl##.row > .socials > :not(a[href*="mailto:"])
 legato-motocykle.pl###menu_button_3
 legia.com###navBar-container a[target="_blank"]:not([href*="legia.com/"]) > span
 legia.com###navbar-fixed > div > a[href*=".com/"][target][title]
@@ -5372,6 +5375,7 @@ paramentum.com.pl##div.grid-v.width100.grid-box:nth-of-type(3) > .deepest.mod-bo
 paranienormalni.com##.fa-youtube
 paranormalne.pl##li:nth-of-type(n+11):nth-of-type(-n+13)
 paranormalne.pl##.nopad:nth-of-type(5) > .block_wrap.category_block:nth-of-type(3)
+parenting.pl,parenting.wp.pl##.article__footer__share
 pariso.pl##footer #banners_bottom
 parkerpen.com###footerSocialSection
 parkhome.com.pl###musli > li.ruchomy:nth-of-type(2)
@@ -8165,6 +8169,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||fight24.pl/fb.png
 ||fitnessformacieszyn.pl/images/znajdznas.png
 ||flex-sklep.pl/images/mail/facebook-polub-sklep-flex.png
+||food-info.net/images/facebook.gif
 ||fortero.pl/templates/default/images/facebook.png
 ||forumsamochodowe.pl/js/jquery.cookie.js
 ||forum.blogowicz.info/img/czat-blogger-polska.png
