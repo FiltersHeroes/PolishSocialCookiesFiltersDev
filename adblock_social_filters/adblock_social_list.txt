@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.6.26.0
-! Last modified: Sun, 26 Jun 2022, 20:17 UTC+02
+! Version: 2022.6.26.1
+! Last modified: Sun, 26 Jun 2022, 22:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.6.26.0 aktualizacja: nie, 26 cze 2022, 20:17 UTC+02
+! v.2022.6.26.1 aktualizacja: nie, 26 cze 2022, 22:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -3182,7 +3182,7 @@ gielda.furgonetka.pl##a[class*="svg-social-"].footer-menu-svg:not([class*="slide
 giercownia.pl##.fb-box
 gih.grajewo.pl###bip
 gim7olsztyn.ehost.pl##.sidebar2 > .Block:nth-of-type(2)
-gimnazjum10.nazwa.pl,sp40katowice.pl###side-border-left div.panelbody a[href*="facebook.com/"]
+gimnazjum10.nazwa.pl,sp40katowice.pl###side-border-left div.panelbody a[href*="facebook.com/"], #side-border-left div.panelbody a[href*="youtube.com/"]
 gimnazjum10.nazwa.pl,sp40katowice.pl#?##side-border-left h3.panelcap:-abp-contains(Nasze profile)
 ginlong.com##.s4 > .bdsharebuttonbox2
 gino-rossi.com##.footer .top > ul > li:nth-of-type(1)
