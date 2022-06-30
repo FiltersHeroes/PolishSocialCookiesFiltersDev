@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.6.26.0
-! Last modified: Sun, 26 Jun 2022, 20:17 UTC+02
+! Version: 2022.6.30.0
+! Last modified: Thu, 30 Jun 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.6.26.0 aktualizacja: nie, 26 cze 2022, 20:17 UTC+02
+! v.2022.6.30.0 aktualizacja: czw, 30 cze 2022, 02:31 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -593,7 +593,7 @@ ckmir.com.pl#?#p:-abp-contains(cookie)
 ck-czestochowa.pl,jamyoni.org.pl,makeupmyday.pl,polityka-spoleczna.lubuskie.pl,polskie-cmentarze.pl,powiat-zielonogorski.pl,relpol.pl###powiadomiony
 clearchannel.com.pl,daliantrading.com.pl,mpwik.com.pl,sokolka.com.pl###rodoPopup
 clea.pl,sguni.pl,tksport.pl,um-swiecie.pl##.scbi
-climateo.pl,wentylacja24.pl##.body-cookie
+climateo.eu,climateo.pl,wentylacja24.pl##.body-cookie
 cloud.huawei.com##.cookieTip
 cmcmarkets.com###cmc-tracking-consent-form-step1
 cmentarz-szprotawa.pl,darkarea.pl,naklejkolandia.pl###hi-eu-opt-in
@@ -1057,6 +1057,7 @@ fit-kids.pl,kuriergarwolinski.pl,mccom.pl,nasksa.pl,sopocki-zdroj.pl,waxclinic.p
 fit.pl##.rodo-show
 fiveoclock.eu,nessi-sport.com,oko.press,pl-pl.segway.com,pl.tradingview.com,worldcam.live##.cookie-message
 fivesport.pl###rodo_delivery_container, .rodo_background
+flex.orange.pl##div[id^="CookiesPopup_cookies-popup_"]
 flixbus.pl##div[class^="CookieBox-module__notification_"]
 florexpol.eu###cookieMsg
 flyordie.pl###eucc
