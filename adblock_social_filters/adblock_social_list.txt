@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.6.26.1
-! Last modified: Sun, 26 Jun 2022, 22:31 UTC+02
+! Version: 2022.6.30.0
+! Last modified: Thu, 30 Jun 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.6.26.1 aktualizacja: nie, 26 cze 2022, 22:31 UTC+02
+! v.2022.6.30.0 aktualizacja: czw, 30 cze 2022, 02:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -832,6 +832,7 @@ pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_like
 50style.pl##.seo-item > .seo-link[href*="facebook.com/"]
 80dni.pl##.pt-followers, .share-icons-container
 85.128.114.72,gkn.pl##div > a > img[src="images/instagram.png"]
+99rent.pl##.field-name-field-odnosnik-social
 100pompek.pl,biegaj40minut.pl,miesniebrzucha.pl,miesnienog.pl,podciaganie.pl,treningaerobowy.pl,treningrozciagania.pl###block-wruchublocks-facebook
 123lazienka.pl###footgroup-social
 123toys.pl,designbywomen.pl,e-manufaktura.com,e-pasmanteria.pl,nebulus.pl###fx-social
@@ -1956,6 +1957,7 @@ clevo-computer.com##.googlepluslink, .instagramlink
 click2go.pl#?#.fl-col-has-cols.fl-col-small.fl-col > .fl-node-content.fl-col-content:-abp-contains(Social Media)
 clickmeeting.com##.event-presenter-frame .social
 clickmeeting.com##.room-footer .social
+climateo.eu,wentylacja24.pl##.society a:not(.allegro):not(.ceneo)
 clineo.pl###floatingFB
 clineo.pl##.uk-flex-middle.uk-flex > .icon-facebook_icon
 clipchamp.com##footer a[href*="pinterest.com"]
@@ -2931,6 +2933,7 @@ flaconi.pl##footer.c-page-foot > div.o-grid > div.o-cell:nth-of-type(2) > div.o-
 flarrow.pl##.td-instagram-element, .td-instagram-header
 flarrow.pl##.td-ss-main-sidebar > div:nth-of-type(3)
 flashscore.pl##.selfPromo__box--social
+flex.orange.pl##footer section:nth-of-type(4)
 flex.orange.pl###flex-footer section:nth-of-type(4)
 flixbus.pl##div.flix-page-container:nth-of-type(2) div:nth-of-type(2) .footer-social-title
 flixbus.pl##footer div:nth-child(2) > [class*="social-module--"]
@@ -7944,6 +7947,7 @@ zrzutka.pl##.chip-shares-container, #chip-sticky-footer-sm .btn-outline-facebook
 zsap.info##.g-menu-item > a[href*="facebook.com/"]
 zsme.pl##center > table:nth-of-type(3) tr:nth-of-type(1) > td:nth-of-type(3) > table > tbody > tr:nth-of-type(n+5):nth-of-type(-n+9)
 zsme.pl##td:nth-of-type(3) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2), #tr:nth-of-type(2) > .menu_h1
+zsp4katowice.szkolnastrona.pl##.tm_menu a[href*=",facebook"]
 zstiomeritum.edu.pl##.facebook1
 zstiomeritum.edu.pl##.youtube1
 zsyp.tv##footer > .container > .row > .py-4.col-2
@@ -8484,6 +8488,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||sokolow.pl/sites/default/files/paragraphs/icon-inst_*.png
 ||sorbona.edu.pl/styles/top-fb.jpg
 ||sp33.olsztyn.pl/wp-content/uploads/*/*/fanpage.jpg
+||sp40katowice.pl/downloads/images/*yt.png
 ||spark.edu.pl/wp-content/uploads/*/*/social-vimeo.png
 ||sportplaza.pl/user_files/images/ikona-stopka-6.png
 ||sportplaza.pl/user_files/images/ikona-stopka-7.png
