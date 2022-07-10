@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.7.9.1
-! Last modified: Sat, 09 Jul 2022, 22:31 UTC+02
+! Version: 2022.7.10.0
+! Last modified: Sun, 10 Jul 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.7.9.1 aktualizacja: sob, 09 lip 2022, 22:31 UTC+02
+! v.2022.7.10.0 aktualizacja: nie, 10 lip 2022, 02:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2621,6 +2621,7 @@ eneris.pl,wste.edu.pl##.social_menu
 enfamil.pl##.float-app:nth-of-type(3), .float-fb:nth-of-type(4)
 enova.pl##.ipb-layout__footer-row-socials
 enowiny.pl##li > a[href*="facebook.com/"]
+enterair.pl##.fb[class*="col"]
 entra.pl##.fusion-facebook
 entra.pl#?#div.fusion-flip-box-wrapper:nth-of-type(3) > .fusion-flip-box:-abp-contains(Polub nas)
 enumizmatyczny.pl###fb_slider
@@ -2881,6 +2882,7 @@ fightershop.pl##.bigMedia > .container > .row, .findUs > div.nav-header:nth-of-t
 filing.pl##.like
 filippo.pl,swarzedz.pl,thefad.pl,zyciorysy.pl##.social a[href*=".com/"]
 filman.cc###facebook-side
+filmiki.tv##.socials-sharer a:not([data-sharer="email"]):not([onclick*="skopiowano"])
 filmomaniak.pl##.fi-social a
 filmowastolica.pl##footer > #sm
 filmozercy.com##.c-panel-social__list > .c-panel-social__item:nth-of-type(-n+4)
@@ -7345,6 +7347,7 @@ unturned.pl##.widget_text:nth-of-type(3)
 uodo.gov.pl##span.top-icons:nth-of-type(n+3):nth-of-type(-n+4)
 uokik.gov.pl##.nav > a[href*="vimeo.com/uokik"]
 up8.com##div.b-footer_infoItem:nth-of-type(1)
+upc.pl,webskill.group##.social-icon
 upflix.pl##.social-icons > a.ico-o:nth-of-type(3)
 upflix.pl##.so-f, .so-t, .so-w
 upleder.pl###social_header
@@ -7528,7 +7531,6 @@ webkod.pl###fb-web-link-button
 webserwer.pl###panels > ul > li:nth-of-type(n+4):nth-of-type(-n+5)
 websiteplanet.com##.footer-block-follow
 websiteplanet.com##.new-post-section-author-social
-webskill.group##.social-icon
 weck.com.pl##ul:nth-of-type(4)
 weddingdream.com##.td-footer-page > .tdc-row > .vc_row > .vc_column:nth-of-type(3)
 weddingtradeshow.pl##.section-insta
