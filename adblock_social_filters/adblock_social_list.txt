@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.7.10.0
-! Last modified: Sun, 10 Jul 2022, 02:31 UTC+02
+! Version: 2022.7.12.0
+! Last modified: Tue, 12 Jul 2022, 22:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.7.10.0 aktualizacja: nie, 10 lip 2022, 02:31 UTC+02
+! v.2022.7.12.0 aktualizacja: wto, 12 lip 2022, 22:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -849,6 +849,7 @@ abcjanikowo24.pl,bielskirynek.pl,brodnica365.pl,bydgoszcz24.pl,chelmza365.pl,cho
 abcksiegarnia.pl,aptekadomlekow.pl,dlapacjenta.pl,drewlandia.com.pl,e-drogeria.com,e-zikoapteka.pl,gwp.pl,krzysztonjan.com,sweetdecor.pl,szybkikoszyk.pl,tastestore.pl###side_widget
 abcmotoru.com.pl###Info-box-wrap-7180
 abcsurf.pl##.modFooter_Social
+abczdrowie.pl,allani.pl,autocentrum.pl,autokult.pl,channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,dobramama.pl,dobregry.pl,dobreprogramy.pl,domnowoczesny.com,domodi.pl,donashop.eu,dzwignice.info,e-pasaz.com,echirurgia.pl,echotygodnik.info,estyl.pl,extradom.pl,filmaster.com,fotoblogia.pl,gadzetomania.pl,galeria-pestka.com,gls-group.eu,gorlice.in,gorlice.tv,hardreset.info,homebook.pl,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,kafeteria.pl,kafeteria.tv,kardiolo.pl,kazimierzdolny.pl,komorkomania.pl,krokdozdrowia.com,kuponrabatowy.net,kwiaciarniaina.com,limanowa.in,lubelska.tv,luxlux.pl,medycyna24.pl,mixer.pl,money.pl,neon24.info,nerwica.com,nocowanie.pl,nowyekran24.com,o2.pl,open.fm,parenting.pl,pinger.pl,pl.futbol24.com,podstacja.com,pogodnie.pl,polygamia.pl,prawo-budowlane.info,pudelek.pl,pudelek.tv,pudelekx.pl,pytamy.pl,radiomalbork.fm,sacz.in,sadzonkiborowki.com,samosia.pl,shop.massdnm.com,siatka.org,slonskyradio.eu,sluzebnosc.info,smaczneblogi.pl,smog.pl,snobka.pl,so-magazyn.pl,stoprocent.com,superauto.pl,swmarcin-jarocin.com,tarnowska.tv,testwiedzy.pl,totalmoney.pl,tvdami.eu,vibez.pl,vpolshchi.pl,wakacje.pl,warsztatowiec.info,wejherowo24.info,woblink.com,wp.pl,zvami.tv##.facebook
 abc.tvp.pl##.program__icons
 abc.tvp.pl#?#.article__icons-title:-abp-contains(Udostępnij)
 abersklep.pl,porta.com.pl,unisono.eu##.social-box
@@ -1310,9 +1311,10 @@ autogielda.pl##.cs-social-media
 autoidea.pl###media img[src*="media.png"], #media img[src*="in.png"]
 autoklub.pl###fb_like_box
 autokult.pl#?#article.article .article > figure.insert__default > .title:-abp-contains(na Instagramie)
-autokult.pl,fitness.wp.pl,fotoblogia.pl,komorkomania.pl,smaczneblogi.pl##.grid-item__social.grid-item
-autokult.pl,fotoblogia.pl,komorkomania.pl##.icon-mail, .post-article-links__header, .social-links--author.social-links
-autokult.pl,fotoblogia.pl,komorkomania.pl##.social-links.share-links > a:not([class*="comment"])
+autokult.pl,fitness.wp.pl,fotoblogia.pl,smaczneblogi.pl##.grid-item__social.grid-item
+autokult.pl,fotoblogia.pl##.icon-mail, .post-article-links__header, .social-links--author.social-links
+autokult.pl,fotoblogia.pl##.social-links.share-links > a:not([class*="comment"])
+autokult.pl,fotoblogia.pl,smaczneblogi.pl##.footer-data__social
 autokult.pl,urzadzamy.pl##.instagram-media
 autoline.com.pl##.portal-social-urls
 automarket.pl##.bottomMenu_largeColumn h4
@@ -1883,7 +1885,6 @@ challengeme.gg##footer .text-right.media-links, .twitter-news
 chamskie.pl##.widget-fanbox
 change.shop.pl,elektro-outlet.net,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
 change.shop.pl,multibook.pl,starecegly.com###box_facebooklike
-channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domnowoczesny.com,donashop.eu,dzwignice.info,e-pasaz.com,echotygodnik.info,estyl.pl,filmaster.com,galeria-pestka.com,gls-group.eu,gorlice.tv,hardreset.info,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,krokdozdrowia.com,kuponrabatowy.net,kwiaciarniaina.com,limanowa.in,lubelska.tv,neon24.info,nerwica.com,nowyekran24.com,pl.futbol24.com,podstacja.com,prawo-budowlane.info,radiomalbork.fm,sadzonkiborowki.com,shop.massdnm.com,siatka.org,slonskyradio.eu,sluzebnosc.info,stoprocent.com,swmarcin-jarocin.com,tarnowska.tv,tvdami.eu,warsztatowiec.info,wejherowo24.info,woblink.com,zvami.tv##.facebook
 channel9.msdn.com,protonmail.com,protonvpn.com##.reddit
 charaktery.eu##.pdf_link
 chataalelipa.pl##.cal-social-media
@@ -2619,6 +2620,7 @@ enel.pl###footer div.column.col-auto:nth-of-type(4) h4
 energylandia.pl##.el-social-footer, .floating-facebook-button
 eneris.pl,wste.edu.pl##.social_menu
 enfamil.pl##.float-app:nth-of-type(3), .float-fb:nth-of-type(4)
+enger.pl##.widget_cyberdom_core_social_icons_group
 enova.pl##.ipb-layout__footer-row-socials
 enowiny.pl##li > a[href*="facebook.com/"]
 enterair.pl##.fb[class*="col"]
@@ -3021,7 +3023,6 @@ fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#a[href*=","][title*=" "] ~ div button:-abp-has(svg)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#div[id] > div > div > div[class]:-abp-has( > span:-abp-contains(/^Udostępnij:?$/))
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has([data-href*="/dobreprogramy/posts/" i]:not(a), [data-href*="/305335630685/posts/" i]:not(a), [src*="%2Fdobreprogramy%2Fposts%2F" i]:not(img), [src*="%2F305335630685%2Fposts%2F" i]:not(img), [src*="%2Ftechwppl%2Fposts%2F" i]:not(img), [src*="%2F204153062611%2Fposts%2F" i]:not(img), [data-href*="/techwppl/posts/" i]:not(a), [data-href*="/204153062611/posts/" i]:not(a))
-fotoblogia.pl,jejswiat.pl,smaczneblogi.pl##.link-gplus, .link-instagram
 fotografwdrodze.pl##.sidebar > div.widget_text.widget:nth-of-type(8)
 fotokulinarnie.pl##.fb-page-panel, .like-header, .instagram-wrap, .instagram-header
 fotopanorama.pl##footer .col-xs-12 > .pull-left > span, #social > a:nth-of-type(1)
@@ -3073,6 +3074,8 @@ furgonetka.pl##.contact-social
 fusionmarketing.pl##.pr__social
 fxmag.pl##.Footer-social
 fxpro.pl,rudaslaska.pl##.socials-links
+f-secure.com##div[class*="Footer"][class*="FooterStyledSocialContainer-sc-"]
+f-secure.com##.cmp_footer__social-media
 f.kafeteria.pl,forum.budujemydom.pl,forum.komputerswiat.pl,forum.pclab.pl,forum.purepc.pl,hdtvpolska.com#?#.cPostShareMenu h5:-abp-contains(na innych)
 gadu-gadu.pl##footer div.footer__top--item.col-lg-2.col-sm-6:nth-of-type(4)
 gaggenau.com##.m-footerpagefunctionsfollow
@@ -3281,7 +3284,7 @@ goral.info.pl,rytmynatury.pl###custom_html-18
 gorazdze.pl##.footer li.level-1:nth-of-type(4) .menu a
 gorenje.com,gorenje.pl##.console-foot-social-group:nth-of-type(-n+2)
 gorenje.com,gorenje.pl##.productDetails-head-share .productDetails-head-share-group:nth-of-type(2)
-gorlice.in,sacz.in##.facebook, .rss
+gorlice.in,sacz.in##.rss
 gorlice.pl##.sdbar-btn-facebook, .sdbar-btn-youtube, .sdbar-btn-twitter
 gornikzabrze.pl##.layout-header-social > .icon-youtube-play
 gornikzabrze.pl##.layout-intro-footer-social
@@ -6649,6 +6652,7 @@ sluchmed.pl##.social-icon-youtube
 slusarczyk-bmw.pl###musli > li:nth-child(-n+2)
 sluzby-ratownicze.pl###menu-social-menu-items
 sluzby-ur.pl##.wysun_facebooka.fl
+smaczneblogi.pl##.link-gplus, .link-instagram
 smaczny.pl##a[href*="facebook.com/smacznypl"]
 smakinatalerzu.pl###text-27
 smakoon.com##.welcomeFooter > h3, .welcomeFooter > p > a
@@ -8516,6 +8520,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||strusiakraina.pl/wp-content/uploads/20*/*/facebook-ikona.png
 ||strusiakraina.pl/wp-content/uploads/20*/*/instagram-ikona.png
 ||strusiakraina.pl/wp-content/uploads/20*/*/youtube-ikona.png
+||studiofabryka.pl/img/fb.png
 ||supermedia.pl/userdata/public/assets//facebook.jpg
 ||supermedia.pl/userdata/public/assets//instagram.jpg
 ||sweetdecor.pl/img/ident/kody-grupa-fb
