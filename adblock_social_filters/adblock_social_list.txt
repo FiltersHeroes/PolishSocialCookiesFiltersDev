@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.7.12.0
-! Last modified: Tue, 12 Jul 2022, 22:31 UTC+02
+! Version: 2022.7.18.0
+! Last modified: Mon, 18 Jul 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.7.12.0 aktualizacja: wto, 12 lip 2022, 22:31 UTC+02
+! v.2022.7.18.0 aktualizacja: pon, 18 lip 2022, 02:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2972,6 +2972,7 @@ forbes.pl##.socialList
 forbes.pl##footer .socialList
 forbes.pl##ul > .fb a
 forbes.pl##.socialButton:not(.com)
+forbes.pl,newsweek.pl##.articleSocials
 forbot.pl##h3:nth-of-type(11)
 fordata.pl##div[class$="_footerNewsletter"] > .haszesc:nth-child(5):nth-of-type(3), div[class$="_footerSocial"]
 fordogtrainers.pl##div.horizontal-module.col-xs-12.col-sm-6.col-md-2:nth-of-type(1) > .module-cont
@@ -5043,7 +5044,6 @@ newsletter2go.pl##.n2go-footer_socials
 newsrm.tv###footer > div > ul > li > a
 newstyling.pl##div.footer-inc > a.s-ico
 newstyling.pl###footer > #footer-icon > a[id^="fico"]
-newsweek.pl##.articleSocials
 newsweek.pl##.socialList .fb
 newsweek.pl##.socialList .tw
 newsy.wizaz.pl,party.pl##.c-facebook-share
