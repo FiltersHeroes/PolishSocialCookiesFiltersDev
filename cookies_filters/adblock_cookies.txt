@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.7.31.1
-! Last modified: Sun, 31 Jul 2022, 18:31 UTC+02
+! Version: 2022.8.4.0
+! Last modified: Thu, 04 Aug 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.7.31.1 aktualizacja: nie, 31 lip 2022, 18:31 UTC+02
+! v.2022.8.4.0 aktualizacja: czw, 04 sie 2022, 02:31 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3566,8 +3566,8 @@ pl###privacyCookiesPolicyMessageContainer:not(body):not(html)
 pl###privacyInfo:not(body):not(html)
 pl###privacy-info-container:not(body):not(html)
 pl###privacy-notice:not(body):not(html)
-pl###privacy-policy:not(body):not(html):not(input):not(.container)
-pl###privacy_policy:not(body):not(html):not(input):not(.container)
+pl###privacy-policy:not(body):not(html):not(input):not(.container):not(a)
+pl###privacy_policy:not(body):not(html):not(input):not(.container):not(a)
 pl###privacy_policy_bar:not(body):not(html)
 pl###pronamic_cookie_holder:not(body):not(html)
 pl###q-cookie-box:not(body):not(html)
@@ -3953,6 +3953,8 @@ czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar ~ .cli-modal-backdrop
 dominospizza.pl#@##aside.cookies-visible
+ebilet.pl#@##cookies-info
+ebilet.pl#@##cookies-overlay
 eforia.pl,euromobil.com.pl,euromotor.pl,japanmotors.pl,koreamotors.pl,pgd.pl#@##modal-cookies
 elavon.pl#@#.acceptCookieButton:not(body):not(html)
 elavon.pl#@#.cookiePolicyMessage:not(body):not(html)
@@ -4038,6 +4040,8 @@ calvinklein.pl,pl.tommy.com#@#.cookie-notice:not(body):not(html):not(#footer):no
 dkms.pl#@#.cc-banner:not(body):not(html)
 dominospizza.pl#@#aside[class*="Cookie"]
 dominospizza.pl#@##cookie-message:not(body):not(html)
+ebilet.pl#@##cookies-overlay:not(body):not(html)
+ebilet.pl,orange.pl#@##cookies-info:not(body):not(html)
 elavon.pl#@#.cookiePolicy:not(.reveal):not(body):not(html)
 electrolux.pl#@#.CookieConsent:not(body):not(html)
 eurogamer.pl#@##optanon:not(body):not(html)
@@ -4055,7 +4059,6 @@ memo-book.pl,zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 migora.pl,motocombo.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
 naekranie.pl#@##modal-rodo-info:not(body):not(html):not(.fade):not(.reveal-modal)
 noweinwestycje.pl#@#.cookieBar:not(body):not(html)
-orange.pl#@##cookies-info:not(body):not(html)
 parkiet.com,rp.pl#@##rodo-popup:not(body):not(html):not(.fade):not(.modal)
 pikio.pl#@##cookie-policy:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
