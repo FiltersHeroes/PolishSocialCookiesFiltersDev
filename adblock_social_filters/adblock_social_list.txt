@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.8.5.0
-! Last modified: Fri, 05 Aug 2022, 02:31 UTC+02
+! Version: 2022.8.7.0
+! Last modified: Sun, 07 Aug 2022, 17:13 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.8.5.0 aktualizacja: pią, 05 sie 2022, 02:31 UTC+02
+! v.2022.8.7.0 aktualizacja: nie, 07 sie 2022, 17:13 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -63,7 +63,7 @@ karmiepsiaki.pl###fb-exit
 karmopedia.pl,przedsiebiorcza.com#?#.spu-bg:-abp-has( ~ .spu-box .spu-facebook-page)
 karmopedia.pl,przedsiebiorcza.com#?#.spu-box:-abp-has(.spu-facebook-page)
 karografia.pl###fb-popup
-kawiarniany.pl,nawiedzone.pl,polskieszosy.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+kawiarniany.pl,nawiedzone.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
 klasek.pl###spu-bg, #spu-main
 kobiecyhumor.pl,telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
@@ -78,7 +78,7 @@ mpolska24.pl##.window
 mpolska24.pl###before-leave-window
 mtv24.tv###mdfb
 nawakacje.eu,rytmynatury.pl##.ays-fpl-modals
-nawiedzone.pl,polskieszosy.pl##[data-title="Social Form - Popup #02"]
+nawiedzone.pl##[data-title="Social Form - Popup #02"]
 nowosci-mp3.eu###pop-slap, .bg-pop-over
 nportal.no###fb-overlay
 okiemturysty.pl##.div_box0
@@ -941,7 +941,7 @@ agromasz.pl##p > a[href*="facebook.com/agromasz/"] > img
 agromasz.pl##.footer_area > div > div > div:nth-child(2) ul > li > a
 agromat.pl###foot-flex > div.column-half.col5:nth-of-type(3)
 agroma-poznan.pl###title1
-agromep.pl,alechoinki.com.pl,amiqs.pl,apap.pl,armax.com.pl,bankbps.pl,born86.pl,boxcars.pl,cisco.com,dzem.com.pl,edulab.io,ekobud-sklep.pl,elektryczny.com,eventgo.24net.pl,fajowo.eu,greensteam.pl,grupa-wanik.pl,holidon.pl,hykker.com,iluzjon.fn.org.pl,internetowe-sklepy.pl,italicus.com.pl,km-net.pl,kuchnia-wloska.com.pl,lombarduleszka.pl,luqam.com,mdkmikolow.eu,meczelive.tv,megascena.pl,mirjan24.pl,nexto.pl,olini.pl,planplaneta.com,playoverwatch.com,plusbank.pl,poczta-polska.pl,policja.gov.pl,protonvpn.com,pureveg.pl,radio.lublin.pl,rolnik.pl,skarga.com,sklep.trawyibyliny.eu,sklepkrzyzanek.pl,skrotymeczow.pl,slowhop.com,smartspot.com.pl,strefapmi.pl,stubai.at,takaposciel.pl,techbud.eu,tophifi.pl,wader-zabawki.pl,wielkopolska.policja.gov.pl###social
+agromep.pl,alechoinki.com.pl,amiqs.pl,apap.pl,armax.com.pl,bankbps.pl,born86.pl,boxcars.pl,cisco.com,dzem.com.pl,edulab.io,ekobud-sklep.pl,elektryczny.com,fajowo.eu,greensteam.pl,grupa-wanik.pl,holidon.pl,hykker.com,iluzjon.fn.org.pl,internetowe-sklepy.pl,italicus.com.pl,km-net.pl,kuchnia-wloska.com.pl,lombarduleszka.pl,luqam.com,mdkmikolow.eu,meczelive.tv,megascena.pl,mirjan24.pl,nexto.pl,olini.pl,planplaneta.com,playoverwatch.com,plusbank.pl,poczta-polska.pl,policja.gov.pl,protonvpn.com,pureveg.pl,radio.lublin.pl,rolnik.pl,skarga.com,sklep.trawyibyliny.eu,sklepkrzyzanek.pl,skrotymeczow.pl,slowhop.com,smartspot.com.pl,strefapmi.pl,stubai.at,takaposciel.pl,techbud.eu,tophifi.pl,wader-zabawki.pl,wielkopolska.policja.gov.pl###social
 agromix.agro.pl##.csocial-link:not([href*="/maps"])
 agronews.com.pl#?#style + div:-abp-has( > div[class*="instagram-feed"])
 agronews.com.pl,eurowizja.org,gazetaregionalna.com,gizycko.info,miedzyrzecz.biz,moja24.pl,naprawatelefonu.eu,piasecznonews.pl,tarnogorski.info,technologiczna.pl##.footer-social-wrap
@@ -1470,7 +1470,7 @@ beskidzka-akademia.pl##.footer-medium .contact-us-widget
 beskidzkie.com##.et_pb_row_1-4_1-2_1-4.et_pb_row_fullwidth.et_pb_row_9.et_pb_row
 bestpolisa.pl#?##right .module:-abp-has(a[href*="facebook.com/"])
 beszamel.se.pl##.abs-social, .footer-icons
-betamed.pl,bieganieuskrzydla.pl,blog.czarymary.pl,blog.instalki.pl,filmyfantastyczne.pl,grynaprzegladarke.net,histografy.pl,historykon.pl,kamilafrontino.com,kmmlogistics.pl,konkretny.pl,kucharenka.pl,lifemanagerka.pl,liwmaart.pl,lubiekabaret.pl,marinanowewarpno.pl,pomar.pl,roweroweporady.pl,safivision.pl,tyna.info.pl,ujot.fm,vivio.pl,wulkanista.pl,wyklady.org,zlotaproporcja.pl###text-2
+betamed.pl,bieganieuskrzydla.pl,blog.czarymary.pl,blog.instalki.pl,filmyfantastyczne.pl,grynaprzegladarke.net,histografy.pl,historykon.pl,kamilafrontino.com,kmmlogistics.pl,konkretny.pl,kucharenka.pl,lifemanagerka.pl,liwmaart.pl,lubiekabaret.pl,pomar.pl,roweroweporady.pl,safivision.pl,tyna.info.pl,ujot.fm,vivio.pl,wulkanista.pl,wyklady.org,zlotaproporcja.pl###text-2
 beta.speedtest.net##a[href*="twitter.com/speedtest"], a[href*="facebook.com/teamookla"]
 betkowskiservice.pl##footer a.e_right_dol_link:nth-of-type(1) > p
 bettingexpert.com##.columns.medium-3:nth-of-type(1)
@@ -2062,7 +2062,6 @@ crowdmedia.pl##.widget_aptf_widget
 crowdmedia.pl,performance360.pl##.herald-soc-nav
 crowdway.pl##.fundpress-social-list
 cryptodemy.pl##.td-pb-row:nth-of-type(2) > .td-pb-span4:nth-of-type(2), .td-with-like.td-post-sharing-bottom.td-post-sharing
-cryptonews.pl,finanseodkuchni.pl,garneczki.pl##.barcelona-widget-social-media-icons
 cryptoprofit.pl###sidebar > #media_image-7 > a > img, .left-slider.featured-area > #sidebar > .widget > a > img
 cryptoprofit.pl##.coin-telegram, .coin-facebook, .coin-twitter, .coin-reddit
 cryptoprofit.pl,emito.net,hotto.pl,miedzlegnica.eu,moraj.pl,murapol.pl,polmotor.pl,przepisyjoli.com,uni.wroc.pl,wege-warszawa.pl,zgred.pl,zielonysklep.com##.header-social
@@ -2909,6 +2908,7 @@ film.com.pl,smaki.pl,superhistoria.pl##.instagram-button
 filozofiadlajanuszy.pl##.entry-content > .su-button-center:nth-of-type(1) > .su-button-wide.su-button-style-default.su-button
 filozofiasmaku.pl,garneczki.pl,littletownshoes.com,namasce.pl,refreszing.pl,rogalikblog.pl,rytmynatury.pl,stomatologianews.pl,trendyokulary-blog.pl##.jr-insta-slider
 finansenaobcasach.info###text-4 > .widgettitle
+finanseodkuchni.pl,garneczki.pl##.barcelona-widget-social-media-icons
 finansowysupermarket.pl###fb-header
 finereader.pl,fundacjawolnosci.org,ustawlige.com,wnet.fm,yenn.eu##.menu-item a[href*="youtube.com/"]
 finexpert.pl,kadpol.pl##.facebook_zt
@@ -6812,7 +6812,6 @@ sport-transfer.com.pl##.pull-left > ul > li:nth-of-type(n+3):nth-of-type(-n+7) >
 sport.tvp.pl##.article__buttons, .navigation__socialWrapper, .probe__share-box, .siteFooter__social, .article__head-socials, .siteFooter__socialIcon:nth-child(-n+4), .navigation__links--social
 sport.tvp.pl##.news-socials__wrapper > a:nth-of-type(-n+2)
 spotawheel.pl##.footer div.columns:nth-of-type(3) > ul > li:nth-of-type(n+2):nth-of-type(-n+5)
-spot-a-shop.pl##div.pure-u-1.pure-u-md-1-5:nth-of-type(1) > div.mb-2:nth-of-type(1)
 sprawy-karne.biz.pl###sow-editor-2 > .so-widget-sow-editor > .textwidget > p:nth-of-type(10), #sow-editor-4 > .so-widget-sow-editor > .textwidget > p:nth-of-type(10), #sow-editor-5 > .so-widget-sow-editor > .textwidget > p:nth-of-type(7)
 spreadshirt.pl##div.col-12:nth-of-type(2) > ul > li:nth-child(-n+4):not(:nth-child(3))
 spreadshirt.pl##.order-lg-3.col-lg-2.col-md-3.col-12.ft-social > div > .row > div.col-12:nth-of-type(1)
@@ -7142,8 +7141,6 @@ tikkurila.pl#?#.content > .row-fluid > .span12:-abp-contains(Dołącz)
 tikkurila.pl#?#.content:-abp-has(h5:-abp-contains(Przyłącz))
 tiktok.com##a[class*="AShareLink"]:not([href*="#"])
 tiktok.com##._global_header_share_wrapper
-timeup.pl##li.timeupMenuIcon.nav-item:nth-of-type(8)
-timeup.pl##.contact_type_text > span
 time.is###follow > div
 time.is##.adjustright > .social_buttons + div.tr
 tinder.com#?#.nav-section-title:-abp-has( + .nav-social)
@@ -7450,7 +7447,6 @@ variatkowo.pl###text-27 > .widget-title
 vaude-sklep.pl##.footer_links_sub img[alt="fb"], .footer_links_sub img[alt="inst"]
 vbh.pl##.main-footer #c6
 vbtpc.pl##.widget_monarchwidget > .widgettitle
-vdrevne.store##.tbcmsfooter-social-icon
 vectra.pl##.ico-footer-inst
 vectra.pl##.ico-footer-yt
 vedion.pl##li > a[href*="/share"]
