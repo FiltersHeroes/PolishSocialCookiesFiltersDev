@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.8.7.0
-! Last modified: Sun, 07 Aug 2022, 17:13 UTC+02
+! Version: 2022.8.9.0
+! Last modified: Tue, 09 Aug 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.8.7.0 aktualizacja: nie, 07 sie 2022, 17:13 UTC+02
+! v.2022.8.9.0 aktualizacja: wto, 09 sie 2022, 02:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -856,9 +856,9 @@ abersklep.pl,porta.com.pl,unisono.eu##.social-box
 abonament.alfaromeo.pl##.watch-us__headline
 abrakadabra.sklep.pl##.social a:not([href*="newsletter"])
 absolvent.pl##footer ul ~ ul ul > li > a[href*=".com/"]
-abud.pl,activy.app,al.to,bezpieczny-przejazd.pl,bonami.pl,clipchamp.com,combat.pl,creativehobby.pl,czerwona-skarbonka.pl,dekolo.pl,dworska.pl,e24cloud.com,eko-asklepios.pl,ekspertbudowlany.pl,fankakodowania.pl,global4net.com,goodie.pl,grobonet.com,ibood.com,instaling.pl,kioskpolis.pl,koleje-wielkopolskie.com.pl,ktomalek.pl,kuchnieswiata.com.pl,ladysi.com.pl,lekarzebezkolejki.pl,lidl.pl,mbwesolek.pl,mescomp.pl,miastomyszkow.pl,mokka.pl,niemchem.com,oetker.pl,onetech.pl,otoagent.pl,papajohns.pl,pergo24.pl,pocztex.pl,promocje.invado.pl,shopee.pl,sig.pl,sklep.poshlady.pl,solvano.pl,spidersweb.pl,studiooptyczne.tychy.pl,supermedia.pl,tv.mgsm.pl,twisto.pl,viennalife.pl,wokularach.pl,x-kom.pl,zawszepomorze.pl,zenwire.eu##footer a[href*="facebook.com/"]
+abud.pl,activy.app,al.to,bezpieczny-przejazd.pl,bonami.pl,clipchamp.com,combat.pl,creativehobby.pl,czerwona-skarbonka.pl,dekolo.pl,dworska.pl,e24cloud.com,edu-sense.com,eko-asklepios.pl,ekspertbudowlany.pl,fankakodowania.pl,global4net.com,goodie.pl,grobonet.com,ibood.com,instaling.pl,kioskpolis.pl,koleje-wielkopolskie.com.pl,ktomalek.pl,kuchnieswiata.com.pl,ladysi.com.pl,lekarzebezkolejki.pl,lidl.pl,mbwesolek.pl,mescomp.pl,miastomyszkow.pl,mokka.pl,niemchem.com,oetker.pl,onetech.pl,otoagent.pl,papajohns.pl,pergo24.pl,pocztex.pl,promocje.invado.pl,shopee.pl,sig.pl,sklep.poshlady.pl,solvano.pl,spidersweb.pl,studiooptyczne.tychy.pl,supermedia.pl,tv.mgsm.pl,twisto.pl,viennalife.pl,wokularach.pl,x-kom.pl,zawszepomorze.pl,zenwire.eu##footer a[href*="facebook.com/"]
 abud.pl,activy.app,al.to,bonami.pl,ciuchy.zizej.pl,clipchamp.com,combat.pl,creativehobby.pl,dworska.pl,ekspertbudowlany.pl,goodie.pl,grobonet.com,ibood.com,koleje-wielkopolskie.com.pl,kuchnieswiata.com.pl,ladysi.com.pl,mescomp.pl,mokka.pl,oetker.pl,papajohns.pl,pocztex.pl,promocje.invado.pl,rowerlubon.pl,shopee.pl,sklep.poshlady.pl,spidersweb.pl,supermedia.pl,tv.mgsm.pl,twisto.pl,wokularach.pl,x-kom.pl,zawszepomorze.pl##footer a[href*="instagram.com/"]
-abud.pl,al.to,ciuchy.zizej.pl,clipchamp.com,combat.pl,creativehobby.pl,csi.pl,dworska.pl,ekspertbudowlany.pl,goodie.pl,ibood.com,instaling.pl,koleje-wielkopolskie.com.pl,lidl.pl,mokka.pl,oetker.pl,promocje.invado.pl,spidersweb.pl,tv.mgsm.pl,wokularach.pl,x-kom.pl##footer a[href*="youtube.com/"]
+abud.pl,al.to,ciuchy.zizej.pl,clipchamp.com,combat.pl,creativehobby.pl,csi.pl,dworska.pl,edu-sense.com,ekspertbudowlany.pl,goodie.pl,ibood.com,instaling.pl,koleje-wielkopolskie.com.pl,lidl.pl,mokka.pl,oetker.pl,promocje.invado.pl,spidersweb.pl,tv.mgsm.pl,wokularach.pl,x-kom.pl##footer a[href*="youtube.com/"]
 accent-bikes.com###right_icons
 account.efortuna.pl##.wc-footer-social
 accu-chek.pl###accuchek-facebook
@@ -2516,6 +2516,7 @@ edomator.pl###footer_social_network > a:nth-child(-n+6)
 edostawcze.pl##.km-socials-share-modern
 edukacja.rybnik.eu##div.box:nth-of-type(6)
 edunews.pl##.customja-social > div > a[href*="facebook.com/edunews"], a[href*="flickr.com/photos/edunews/"], a[href*="pinterest.com/marcinpolak/edustore/"], a[href*="twitter.com/edunews_pl"], a[href*="youtube.com/user/terazedukacja"]
+edu-sense.com##.tile-yt-btn
 edu.pl###feedback_simple > a > img, #feedback_simpleLINK, #feedback_simpleINST, #feedback_simpleYT
 edu.pl##.page-footer__social-list, .page-footer__social-title
 edwardorlovski.com##.social-close
@@ -3694,6 +3695,7 @@ ipla.tv##.social-icons-list, .social-icons-list + .block-separator
 ipn.gov.pl##.udostepnij
 ipn.gov.pl###soc-tabs
 ip-serwis.pl###mk-header-social
+iq.pl##.footer_socail
 irobot.pl##li.medialink, .social.futerul
 irobot.pl##.m-footer__iconcontainer > a
 ir.pti.org.pl##.contact-social a
@@ -5851,6 +5853,7 @@ porta.com.pl##.social--links
 portgdansk.pl##a[title*="Twitter"], a[title="Facebook"], a[title="LinkedIn"]
 portgdansk.pl##.l-footer__social
 portlodz.pl,wolapark.pl##.footer--column.is-one-third-desktop.column:nth-of-type(3)
+portu.pl##.footer-social-box a:not([href="/rss.xml"])
 posir.pl##.bot_cont:nth-of-type(5)
 posnet.com.pl##.footer_sm
 posrednik.pl##.jm-footer > div.span4:nth-of-type(3)
