@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.8.17.0
-! Last modified: Wed, 17 Aug 2022, 22:31 UTC+02
+! Version: 2022.8.18.0
+! Last modified: Thu, 18 Aug 2022, 22:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.8.17.0 aktualizacja: śro, 17 sie 2022, 22:31 UTC+02
+! v.2022.8.18.0 aktualizacja: czw, 18 sie 2022, 22:31 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -119,6 +119,7 @@ agencjagazeta.pl,panoramafirm.pl,sklep.genos.com.pl###rodoLayer
 agmar.com,akademie.elring.de,altimi.com,bioenergiadlaregionu.eu,cdn.ampproject.org,fantasy.ekstraklasa.org,fibaro.com,fiufiu.co,inwex.eu,opoczno.eu,portal.legnica.eu###cookie-info
 ago.pl,askopolska.pl,indigo-nails.com,lodz.pl,mamoo.pl,papercast.pl###banner_cookies_bullshit
 agromasz.com.pl,iqconnect.pl##.r-p-a
+agronomberries.pl#?#.elementor-popup-modal:-abp-has(a[href*="/polityka-prywatnosci/"])
 agroplast.pl,epiora.pl,komputerprojekt.pl,laphard.pl,napieknewlosy.pl,ovczarnia.pl,planszostrefa.pl##.consents
 agropolska.pl,archiwalna.miasto.zgierz.pl,czarno-biale.pl,firmymiesne.pl,forumdermatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,fototapetyxl.pl,komputerymarkowe.pl,lututowgmina.pl,miastograf.pl,namyslo-landtechnik.pl,omegasoft.pl,pizza-express.pl,psychiatria.pl,pupbelchatow.pl,samsonite.pl,skm.pkp.pl,smart.com##.ui-widget-overlay
 agropolska.pl,miastograf.pl##.ui-widget.ui-dialog[aria-describedby]
@@ -933,6 +934,7 @@ eredivisie.pl,goal.pl,kadra.pl,ligapolska.pl,primeradivision.pl,seriea.pl###view
 erejestracja.wizjav.pl#?#.el-dialog__wrapper:-abp-has(a[href*="wszystkoociasteczkach.pl"])
 ergohestia.pl,mtu.pl##div[id^="cookie"][id$="_outer"]
 ergokantor.pl###popups__
+erli.pl##body > #root ~ div + div
 erli.pl#?##root > div[class]:-abp-has( > div > div > h4:-abp-contains(o swojej prywatności))
 esa.nask.pl#?#.ReactModalPortal:-abp-has(.cookies-greetings)
 esbank.pl###cookie_info_es
@@ -1854,6 +1856,7 @@ mshop.huawei.com###cookie_notices
 msn.com###conditionalbanner, .euBanner
 ms.pl,spolem.olawa.pl##.dialog-lightbox-message.dialog-message
 mtm-info.pl###etisoA
+mubi.pl##div[aria-label="Cookie Agreement"]
 mubi.pl#?#div#root > div[class] > header ~ div[class]:not([id]):-abp-contains(plików cookies)
 multimetro.pl,strefakursow.pl##.b-cookies
 multiplay.pl,razemztoba.pl##.inform
@@ -2240,6 +2243,7 @@ portalspozywczy.pl###axbg
 portel.pl###rodoDiv, #rodoCover
 portgdansk.pl#?#body > table:nth-of-type(1) .verysmall:-abp-has( > a[href="polityka-plikow-cookies"])
 portu.pl###cookiescontent
+posilkiwchorobie.pl###blur
 posilkiwchorobie.pl,postronienatury.pl,zywiec-zdroj.pl###cookie-first
 posnania.eu##.cookiesBox
 posnania.eu,reserved.com,uslugistolarskie.eu###cookies-container
