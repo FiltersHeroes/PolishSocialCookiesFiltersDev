@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.8.21.0
-! Last modified: Sun, 21 Aug 2022, 01:07 UTC+02
+! Version: 2022.8.21.1
+! Last modified: Sun, 21 Aug 2022, 21:08 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.8.21.0 aktualizacja: nie, 21 sie 2022, 01:07 UTC+02
+! v.2022.8.21.1 aktualizacja: nie, 21 sie 2022, 21:08 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -856,8 +856,8 @@ abersklep.pl,porta.com.pl,unisono.eu##.social-box
 abonament.alfaromeo.pl##.watch-us__headline
 abrakadabra.sklep.pl##.social a:not([href*="newsletter"])
 absolvent.pl##footer ul ~ ul ul > li > a[href*=".com/"]
-abud.pl,activy.app,al.to,bezpieczny-przejazd.pl,bonami.pl,clipchamp.com,combat.pl,creativehobby.pl,czerwona-skarbonka.pl,dekolo.pl,dworska.pl,e24cloud.com,edu-sense.com,eko-asklepios.pl,ekspertbudowlany.pl,fankakodowania.pl,global4net.com,goodie.pl,grobonet.com,ibood.com,instaling.pl,kioskpolis.pl,koleje-wielkopolskie.com.pl,ktomalek.pl,kuchnieswiata.com.pl,ladysi.com.pl,lekarzebezkolejki.pl,lidl.pl,mbwesolek.pl,mescomp.pl,miastomyszkow.pl,mokka.pl,niemchem.com,oetker.pl,onetech.pl,otoagent.pl,papajohns.pl,pergo24.pl,pocztex.pl,promocje.invado.pl,shopee.pl,sig.pl,sklep.poshlady.pl,solvano.pl,spidersweb.pl,studiooptyczne.tychy.pl,supermedia.pl,tv.mgsm.pl,twisto.pl,viennalife.pl,wokularach.pl,x-kom.pl,zawszepomorze.pl,zenwire.eu##footer a[href*="facebook.com/"]
-abud.pl,activy.app,al.to,bonami.pl,ciuchy.zizej.pl,clipchamp.com,combat.pl,creativehobby.pl,dworska.pl,ekspertbudowlany.pl,goodie.pl,grobonet.com,ibood.com,koleje-wielkopolskie.com.pl,kuchnieswiata.com.pl,ladysi.com.pl,mescomp.pl,mokka.pl,oetker.pl,papajohns.pl,pocztex.pl,promocje.invado.pl,rowerlubon.pl,shopee.pl,sklep.poshlady.pl,spidersweb.pl,supermedia.pl,tv.mgsm.pl,twisto.pl,wokularach.pl,x-kom.pl,zawszepomorze.pl##footer a[href*="instagram.com/"]
+abud.pl,activy.app,al.to,bezpieczny-przejazd.pl,bonami.pl,clipchamp.com,combat.pl,creativehobby.pl,czerwona-skarbonka.pl,dekolo.pl,dworska.pl,e24cloud.com,edu-sense.com,eko-asklepios.pl,ekspertbudowlany.pl,fankakodowania.pl,global4net.com,goodie.pl,grobonet.com,ibood.com,instaling.pl,kioskpolis.pl,koleje-wielkopolskie.com.pl,koty.pl,ktomalek.pl,kuchnieswiata.com.pl,ladysi.com.pl,lekarzebezkolejki.pl,lidl.pl,mbwesolek.pl,mescomp.pl,miastomyszkow.pl,mokka.pl,niemchem.com,oetker.pl,onetech.pl,otoagent.pl,papajohns.pl,pergo24.pl,pocztex.pl,promocje.invado.pl,psy.pl,shopee.pl,sig.pl,sklep.poshlady.pl,solvano.pl,spidersweb.pl,studiooptyczne.tychy.pl,supermedia.pl,tv.mgsm.pl,twisto.pl,viennalife.pl,wokularach.pl,x-kom.pl,zawszepomorze.pl,zenwire.eu##footer a[href*="facebook.com/"]
+abud.pl,activy.app,al.to,bonami.pl,ciuchy.zizej.pl,clipchamp.com,combat.pl,creativehobby.pl,dworska.pl,ekspertbudowlany.pl,goodie.pl,grobonet.com,ibood.com,koleje-wielkopolskie.com.pl,koty.pl,kuchnieswiata.com.pl,ladysi.com.pl,mescomp.pl,mokka.pl,oetker.pl,papajohns.pl,pocztex.pl,promocje.invado.pl,psy.pl,rowerlubon.pl,shopee.pl,sklep.poshlady.pl,spidersweb.pl,supermedia.pl,tv.mgsm.pl,twisto.pl,wokularach.pl,x-kom.pl,zawszepomorze.pl##footer a[href*="instagram.com/"]
 abud.pl,al.to,ciuchy.zizej.pl,clipchamp.com,combat.pl,creativehobby.pl,csi.pl,dworska.pl,edu-sense.com,ekspertbudowlany.pl,goodie.pl,ibood.com,instaling.pl,koleje-wielkopolskie.com.pl,lidl.pl,mokka.pl,oetker.pl,promocje.invado.pl,spidersweb.pl,tv.mgsm.pl,wokularach.pl,x-kom.pl##footer a[href*="youtube.com/"]
 accent-bikes.com###right_icons
 account.efortuna.pl##.wc-footer-social
@@ -2675,6 +2675,7 @@ eska.pl,eskarock.pl,senatkomorki.pl##.messenger
 eska.pl,poradnikzdrowie.pl##.fb__shareBox
 eska.tv##.social.box
 eskk.pl###footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > .footer-strong, #footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > .footer-strong ~ a
+esklep.polomarket.pl##.section-row.footer-section__children > div.footer-section:nth-of-type(1)
 esporter.pl##.common-copyright__social
 esportmania.pl##.authorDetails > a[href*="twitter"]
 espritshop.pl###footer-snapchat
@@ -7354,6 +7355,7 @@ typeofweb.com###tp_widget_recent_tweets-2, #text-2 > .widget-title
 typeofweb.com##.socials > a:not([href*="/feed"])
 typeofweb.com,zasmakujkuchni.pl###custom_html-9
 tyskie.pl##.main-nav > li:nth-of-type(3)
+tysol.pl###poll div.align-self-center.flex-column > span
 tytan.pl##.top_part > .social
 tytus.edu.pl##a[href*="facebook.com/Hr.Tytus/"]
 t-mobile-trendy.pl##.socialsArticle-twitter
