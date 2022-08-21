@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.8.21.0
-! Last modified: Sun, 21 Aug 2022, 01:07 UTC+02
+! Version: 2022.8.21.1
+! Last modified: Sun, 21 Aug 2022, 14:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.8.21.0 aktualizacja: nie, 21 sie 2022, 01:07 UTC+02
+! v.2022.8.21.1 aktualizacja: nie, 21 sie 2022, 14:31 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3982,6 +3982,8 @@ eu,pl#@#.ccc-widget:not(body):not(html)
 eu,pl#@#.cookie-msg-box
 eu,pl#@#.js-cookies:not(body):not(html)
 eu,pl#@#.rodo-popup:not(body):not(html)
+e-zikoapteka.pl#@#.cookies-popup:not(body):not(html)
+e-zikoapteka.pl,mcdonalds.pl#@#.cookies-info:not(body):not(html)
 forth.gr#@##cookiebanner
 fxpro.pl#@#.popup-cookies:not(body):not(html)
 goldenline.pl#@#.cookie-modal:not(body):not(html):not(.in):not(.mfp-hide)
@@ -3998,7 +4000,6 @@ maxizoo.pl#@##cookie-banner
 maxizoo.pl,puratos.pl#@#.cookie-banner:not(body):not(html)
 mcdonalds.pl#@#body > .cookies[style*="display"]
 mcdonalds.pl#@#.cookies-container:not(body):not(html)
-mcdonalds.pl#@#.cookies-info:not(body):not(html)
 mediaexpert.pl#@#.c-alert.is-cookies:not(body):not(html)
 metropoliaztm.pl#@##cookieModalCenter
 metropoliaztm.pl#@##cookieModalCenter ~ .modal-backdrop
@@ -4060,14 +4061,14 @@ elavon.pl#@#.cookiePolicy:not(.reveal):not(body):not(html)
 electrolux.pl#@#.CookieConsent:not(body):not(html)
 eurogamer.pl#@##optanon:not(body):not(html)
 eurogamer.pl#@#.optanon-alert-box-wrapper:not(body):not(html)
-f5.pl#@#.cookies-popup:not(body):not(html)
+e-zikoapteka.pl,f5.pl#@#.cookies-popup:not(body):not(html)
+e-zikoapteka.pl,mcdonalds.pl#@#.cookies-info:not(body):not(html)
 gdansk.pl,gokf.gda.pl,wins.pl#@##cookies:not(body):not(html):not(.section):not(.fade)
 gry.pl,shinden.pl,wmeritum.pl,wykop.pl#@#div[class^="app_gdpr"]
 kupbilecik.pl,wins.pl#@#.cookie-container:not(body):not(html)
 maxelektro.pl#@##cookie-info:not(body):not(html)
 maxizoo.pl#@##cookie-banner:not(body):not(html)
 mcdonalds.pl#@#.cookies-container:not(body):not(html)
-mcdonalds.pl#@#.cookies-info:not(body):not(html)
 mcdonalds.pl,ose.gov.pl#@#.cookies:not(body):not(html):not(#page):not(#container):not(.wrapper):not(.popup-newsletter):not(.js-cookies)
 memo-book.pl,zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 migora.pl,motocombo.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
