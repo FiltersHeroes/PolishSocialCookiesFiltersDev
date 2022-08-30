@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.8.28.4
-! Last modified: Sun, 28 Aug 2022, 18:31 UTC+02
+! Version: 2022.8.30.0
+! Last modified: Tue, 30 Aug 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.8.28.4 aktualizacja: nie, 28 sie 2022, 18:31 UTC+02
+! v.2022.8.30.0 aktualizacja: wto, 30 sie 2022, 02:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -3662,6 +3662,7 @@ intercity.pl##.social-links > nav > .list-inline a
 interferie.pl##.GP
 interia.pl###videos .player-videos__infoblock-share
 interia.pl,~www.interia.pl##.social-facebook-fanpage-below
+interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##.social-buttons a[href*=".com/"]
 interia.pl,pomponik.pl##.share-tooltip a[href*=".com/"]
 interia.pl,pomponik.pl##.social-media-panel
 interia.pl,pomponik.pl#?#.brief-list-item:-abp-has( > .tile-magazine:-abp-has(a.tile-magazine-thumb[href*="facebook.com/"], a.tile-magazine-thumb[href*="instagram.com/"]))
