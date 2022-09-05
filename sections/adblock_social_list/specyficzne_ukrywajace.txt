@@ -1,8 +1,30 @@
+nieruchomosci.interia.pl##a.shareTrigger.btn-share.btn:nth-of-type(-n+3)
+twitch.tv#?#a[href*="twitter.com/"]:-abp-has(img[src*="panels."])
+twitch.tv#?#a[href*="youtube.com/"]:-abp-has(img[src*="panels."])
+twitch.tv#?#a[href*="facebook.com/"]:-abp-has(img[src*="panels."])
+twitch.tv#?#a[href*="instagram.com/"]:-abp-has(img[src*="panels."])
+twitch.tv#?#a[href*="snapchat.com/"]:-abp-has(img[src*="panels."])
+leadstar.pl##.social
+top-opakowania.pl##.page-bottom-links__social
+www.logitech.com##.social-email-row .social-ctn
+
+finanse.wp.pl##a[title="Instagram Money.pl"]
+finanse.wp.pl#?#div[data-st-area="gallery-suggested"] span:-abp-contains(/^lub$/)
+merlin.pl##.footer-top > div > .row > div:nth-of-type(4) > :nth-child(-n+3)
+ding.pl#?#.c-slider__list div:-abp-has(a[href*="facebook.com/"], a[href*="instagram.com/"])
+
+superpools.pl#?##kontakt > div:last-child > div:first-child > div:first-child:-abp-has(> p > a[href*=".com/"])
+redlipstickmonster.pl##.socials a:not([href*="mailto:"])
+
+mango.pl##.fnSocial
+autostrada-a4.com.pl##.social__media--container
+smb.pl##.belka a[href*=".com/"]:not([href*=".getresponse.com/"])
+
 agrokam.pl###mod251
 architekturaibiznes.pl##.facebook
 architekturaibiznes.pl##.youtube
 stompel.pl###ls >  div.menuBox:nth-of-type(4)
-ksiegarnia-astex.pl##div.fb:-abp-has(a[href*="facebook.com/"])
+ksiegarnia-astex.pl#?#div.fb:-abp-has(a[href*="facebook.com/"])
 readspeaker.com##.social
 telefirma.pl###sticky-social-icons-container
 flyingatom.com##footer > section:first-child > div:first-child > div > div[id*="block"]:nth-child(2)
@@ -1511,6 +1533,7 @@ dimedic.eu##.hp__social
 dinfo.pl,tint.pl##.noopslikebox
 ding.pl##figure ~ ul > li:nth-of-type(n+2) > button
 ding.pl##.c-slider__list > div > a[href*="instagram.com/"]
+ding.pl##.c-slider__list > div > a[href*="facebook.com/"]
 diprocon.pl##.page-header > .contact > div
 direct-money-pl.cdn.ampproject.org,direct.money.pl##.author-social-list > li
 direct-sender.com###footer .col-lg-5.col-md-12.item
