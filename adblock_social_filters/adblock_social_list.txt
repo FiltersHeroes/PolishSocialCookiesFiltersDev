@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.9.8.4
-! Last modified: Thu, 08 Sep 2022, 22:31 UTC+02
+! Version: 2022.9.10.0
+! Last modified: Sat, 10 Sep 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.9.8.4 aktualizacja: czw, 08 wrz 2022, 22:31 UTC+02
+! v.2022.9.10.0 aktualizacja: sob, 10 wrz 2022, 02:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -2927,6 +2927,7 @@ filmomaniak.pl##.fi-social a
 filmowastolica.pl##footer > #sm
 filmozercy.com##.c-panel-social__list > .c-panel-social__item:nth-of-type(-n+4)
 filmweb.pl##.newsSocialSection
+filmweb.pl##button.socialButton:not([data-value="copyToClipboard"])
 filmweb.pl##.sitemap__socialLogos
 filmweb.pl##.socialSection__container
 film.com.pl,smaki.pl##.header-art-share
@@ -4644,6 +4645,7 @@ medicus.com.pl##ul.sm li a[href*=".com/"]
 medinfo.pl##.links-nav > li > a[href*="facebook.com/PowszechnaInformacjaMedyczna/"]
 medipment.pl##.custom-footer > .container > .row > div:nth-of-type(5)
 meditrans.pl##.headerMenuMoreButtonsSocial
+medme.pl##.footer__navigation--social
 medme.pl##.medme__header__social
 mednova.pl,novamed.pl###footer-content-social
 medonetmarket.pl##a.medo-footer-item-social-top-item[href*="facebook.com/"]
@@ -8344,6 +8346,8 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||fuksiarz.pl/static/images/cms/fuksiarz/ikony/stopka-fb.png
 ||fuksiarz.pl/static/images/cms/fuksiarz/ikony/stopka-instagram.png
 ||fuksiarz.pl/static/images/cms/fuksiarz/ikony/stopka-twitter.png
+||fwcdn.pl/front/ogfx/social/messenger.svg
+||fwcdn.pl/front/ogfx/social/wykop.svg
 ||gameplay.pl/im/fb15.png
 ||gazetabaltycka.pl/wp-content/themes/gazetabaltycka/images/facebook.png
 ||gazetabaltycka.pl/wp-content/themes/gazetabaltycka/images/flickr.png
@@ -8455,7 +8459,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||maclife.pl/Modules/mod.main/images/icons/icon-footer-google.png
 ||malbus.pl/files/fb.png
 ||malopolskiekoleje.pl/images/grafika/facebook.png
-||mamalyga.org/wp-content/uploads/2021/06/FB.png$image
+||mamalyga.org/wp-content/uploads/2021/06/FB.png
 ||materacekolo24.pl/images/blog1.png
 ||materacekolo24.pl/images/blog2.png
 ||materacekolo24.pl/images/google.png
@@ -8628,7 +8632,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||seniorzy.wroclaw.pl/sites/default/files/inline-images/fb_30_0.png
 ||serwiswloclawek.pl/wp-content/uploads/*/*/logo-fb.png
 ||siecbudowlana.pl/images/szablon/socjal/facebook-icon.png
-||siewiera.com/*/wp-content/uploads/20*/*/youtube-512.png$image
+||siewiera.com/*/wp-content/uploads/20*/*/youtube-512.png
 ||skin79-sklep.pl/images/gfx/facebook.jpg
 ||skin79-sklep.pl/images/gfx/instagram.jpg
 ||sklepjubilerski.com/gfx/fb.jpg
@@ -8692,7 +8696,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||supermedia.pl/userdata/public/assets//instagram.jpg
 ||sweetdecor.pl/img/ident/kody-grupa-fb
 ||swiatniki-gorne.pl/data/layout/www/facebook.png
-||swidnica24.pl/wp-content/uploads/20*/*/belkainsta.png$image
+||swidnica24.pl/wp-content/uploads/20*/*/belkainsta.png
 ||sylwa.eu/rerum/wp-content/uploads/20*/*/*Please-follow-us-on-Facebook-*.png
 ||sylwester.friko.net/img/sylwester-na-fb-
 ||szklo-krosno.com.pl/public/assets/ico-insta.png
@@ -8704,7 +8708,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||tapis.pl/y2.jpg
 ||techbite.eu/assets/images/ft-yt.png
 ||techmlek.com.pl/facebook.png
-||techpolska.pl/wp-content/uploads/20*/*/Sledz-nasz-IG2-*.png$image
+||techpolska.pl/wp-content/uploads/20*/*/Sledz-nasz-IG2-*.png
 ||techrol.com/obrazki/image/ikony/ico_face.png
 ||techsat24.pl/img/imagecache/pictures/fb_art
 ||telekarma.pl/foto/banerki/-telekarma-polub-nas-facebook.jpg
