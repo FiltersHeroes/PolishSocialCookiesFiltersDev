@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.9.11.0
-! Last modified: Sun, 11 Sep 2022, 14:31 UTC+02
+! Version: 2022.9.13.0
+! Last modified: Tue, 13 Sep 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.9.11.0 aktualizacja: nie, 11 wrz 2022, 14:31 UTC+02
+! v.2022.9.13.0 aktualizacja: wto, 13 wrz 2022, 02:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -899,6 +899,7 @@ agdmaniak.pl,blogomaniak.pl,fotomaniak.pl,gizmaniak.pl,gsmmaniak.pl,luxmaniak.pl
 agdmaniak.pl,blogomaniak.pl,fotomaniak.pl,gizmaniak.pl,gsmmaniak.pl,luxmaniak.pl,rtvmaniak.pl#?#h3:-abp-contains(Nie przegap kolejnej promocji)
 agdmaniak.pl,blogomaniak.pl,fotomaniak.pl,gizmaniak.pl,gsmmaniak.pl,luxmaniak.pl,rtvmaniak.pl#?#h3:-abp-contains(Nie przegap kolejnej promocji) ~ p
 agdoutlet.eu##nav.menu
+agdsmart.pl##.social-items a:not(#recommend-product-link)
 agencjagazeta.pl##article.mod_uzr6.mod:nth-of-type(2) > .body > ul > .n6.n5.n4.n3.n2
 agencjagazeta.pl##a[href*="twitter.com/agencjagazeta"]
 agencja-informacyjna.com##.socials > :not(.rss)
@@ -3134,6 +3135,8 @@ galeriakazimierz.pl##.float-icons
 galeriakrakowska.pl##.social-trigger
 galerialucznik.pl###top-footer div.lucznik-top-footer-element:nth-of-type(3)
 galeriamarek.pl,sklep.sizeer.com##.b-footer_infoSocial
+galeriamlociny.pl##div.header-info__container > .header-info__container
+galeriamlociny.pl##.footer-section__social
 galeriamorena.pl###social-insta
 galeriapolnocna.pl##aside > a > img[src*="icon"]
 galeriavictoria.pl##.facebook-post, .instagram-grid
@@ -6075,6 +6078,8 @@ przewodnik-katolicki.pl##.pozycje-menu, .social-stopka, .strefa-social, .fb-comm
 przychodnie-grudziadz.pl###module-tm-3.uk-navbar-item
 przyslijprzepis.pl##a[href*="youtube.com/przyslijprzepis"]
 przyslijprzepis.pl##.photo-social-media
+przyslijprzepis.pl##.socializer-icon:not(#copy-url-to)
+przyslijprzepis.pl##.social-bottom-box
 przyslijprzepis.pl##.top-instagram
 przyslijprzepis.pl##.top-yt
 przysucha.pl##.mikona a[href*="youtube.com/channel/"], .mikona a[href*="facebook.com/"]
