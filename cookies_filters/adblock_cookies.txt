@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.9.13.1
-! Last modified: Tue, 13 Sep 2022, 22:31 UTC+02
+! Version: 2022.9.18.0
+! Last modified: Sun, 18 Sep 2022, 02:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.9.13.1 aktualizacja: wto, 13 wrz 2022, 22:31 UTC+02
+! v.2022.9.18.0 aktualizacja: nie, 18 wrz 2022, 02:31 UTC+02
 !
 !
 ! Specyficzne reguły ukrywające
@@ -124,7 +124,7 @@ agroplast.pl,epiora.pl,komputerprojekt.pl,laphard.pl,napieknewlosy.pl,ovczarnia.
 agropolska.pl,archiwalna.miasto.zgierz.pl,czarno-biale.pl,firmymiesne.pl,forumdermatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,fototapetyxl.pl,komputerymarkowe.pl,lututowgmina.pl,miastograf.pl,namyslo-landtechnik.pl,omegasoft.pl,pizza-express.pl,psychiatria.pl,pupbelchatow.pl,samsonite.pl,skm.pkp.pl,smart.com##.ui-widget-overlay
 agropolska.pl,miastograf.pl##.ui-widget.ui-dialog[aria-describedby]
 agrozakupy.pl###ms-cookie-policy
-agro-bis.eu,eldom.eu,prawniktorun.eu###cookie-alert
+agro-bis.eu,eldom.eu###cookie-alert
 agro-mig.pl#?#.popup:-abp-has(a[href*="40"]:-abp-contains(Polityce prywatności))
 agro-siec.pl##div.wrapper-fixed[data-position="bottom"]:not([style])
 agro-sklep.com.pl##.brz-popup2
@@ -317,7 +317,7 @@ bankmillennium.pl###wc-cookies-m-wrapper
 bankmillennium.pl##.top-page-cookies
 bardotti.pl##.wpmui-popup
 barki-nicols.pl,jawor24h.pl##.toast
-bartix.pl,castle.pl,cds-lider.com.pl,ddwlkp.pl,lo8.poznan.pl,markaw.pl,nowytomysl.pl,pob24.info,polsero.pl,powiat-gniezno.pl,promotor.pl,pzl24.info,szkolapol-ang.pl,tupowstalapolska.pl,wit.com.pl###menusDiv[style*="block"]
+bartix.pl,castle.pl,cds-lider.com.pl,ddwlkp.pl,lo8.poznan.pl,markaw.pl,nowytomysl.pl,polsero.pl,powiat-gniezno.pl,promotor.pl,szkolapol-ang.pl,tupowstalapolska.pl,wit.com.pl###menusDiv[style*="block"]
 baselinker.com,deloitte.com,netcompany.com,optomer.pl##.cookie-container
 batida.pl###top-closable-message
 baumit.pl##.pro-cookie-layout
@@ -750,7 +750,7 @@ dobregniazdka.pl##ohi-privacy-policy-modal
 dobregniazdka.pl,luxmarket.pl###rodo_container
 dobretonery.pl##body > div[id]:not([class]):last-child:last-of-type
 dobrymechanik.pl##.small.navbar-fixed-bottom
-dobryslownik.pl,gry-online.pl,instrukcjaobslugipdf.pl,kalendarz-365.pl,medme.p,polskieradio24.pl###qc-cmp2-container.qc-cmp2-container
+dobryslownik.pl,gry-online.pl,instrukcjaobslugipdf.pl,kalendarz-365.pl,medme.pl,polskieradio24.pl###qc-cmp2-container.qc-cmp2-container
 doceniajnieoceniaj.pl###msgprivacy
 docsimon.pl##.cookbar
 doktorania.pl,printexpress.pl##.cookie-first-window
@@ -2962,7 +2962,7 @@ zyro.com##.zyro-cookies
 !
 ! Specyficzne reguły blokujące
 oetker.*/static/js/privacy-dialog/
-/ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info|zvami.tv
+/ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info
 /assets/cookies-info.js$script,domain=allegrolokalnie.pl
 /cookie*/bosch-privacy-settings-*.min.js$script,domain=bosch-professional.com|bosch.pl
 /cookie-banner-radio-$script,domain=felicity-lublin.pl
