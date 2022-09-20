@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.9.18.0
-! Last modified: Sun, 18 Sep 2022, 02:31 UTC+02
+! Version: 2022.9.20.0
+! Last modified: Tue, 20 Sep 2022, 18:31 UTC+02
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.9.18.0 aktualizacja: nie, 18 wrz 2022, 02:31 UTC+02
+! v.2022.9.20.0 aktualizacja: wto, 20 wrz 2022, 18:31 UTC+02
 !
 !
 !#safari_cb_affinity(social)
@@ -5405,7 +5405,7 @@ otodom.pl##footer > div > div > div:last-child > div + div:last-child
 otoksiazka24.pl###kontakt div.flex-3.flex:nth-of-type(3)
 otomoto.pl##footer a[href*="facebook.com/otomotopl" i]
 otomoto.pl###page-footer > section > article:first-child
-ototorun.pl#?#.l-news__content p > strong:-abp-contains(Polub nas na Facebooku)
+ototorun.pl#?#.l-news__content p > strong:-abp-contains(/Polub\snas na\sFacebooku/)
 otoz.pl##.footer-odwiedz
 otube.pl###belt div.text-right.col-sm-6:nth-of-type(1)
 otulona-zapachem.blogspot.com###Image8
@@ -6457,7 +6457,7 @@ sarp.org.pl###actions_box > div
 sarp.org.pl###top > #s_img
 satel.pl#?##article > p:nth-of-type(2) + table:nth-of-type(1):-abp-has(td a img[src*="/vimeo.png"])
 satel.pl#?##article > p:nth-of-type(2):-abp-contains(odwiedzić naszych kanałów)
-satel.pl#?##article > p:nth-of-type(3):-abp-contains(i bądź na bieżąco)
+satel.pl#?##article > p:nth-of-type(3):-abp-contains(/i\sbądź na\sbieżąco/)
 satkurier.pl###sky_left_container, #vLine_stopBootstrap
 savicki.pl#?#.mt-5 > div.line-section:nth-of-type(1):-abp-contains(Dołącz do nas)
 sawataxi.pl##.oNasSocIcons, .oNasSocName
