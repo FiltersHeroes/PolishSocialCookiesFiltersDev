@@ -1,3 +1,18 @@
+###ba_eu_cookie_law:not(form)
+#@##ba_eu_cookie_law
+@@/jquery.cookiebar$domain=pl
+@@/wp-content/plugins/cookie-law-info/admin/*
+@@/wp-content/plugins/cookie-law-info/images/*
+@@/wp-content/plugins/cookie-law-info/public/*$stylesheet
+@@||cdn.ampproject.org*consent$script,domain=lelum.pl
+@@||consent.cookiebot.com^$domain=forth.gr|lyko.com
+@@||footroll.pl/js/vendor/cookiebox.min.js
+@@||fundingchoicesmessages.google.com^$domain=spidersweb.pl|stooq.com|stooq.pl
+@@||kawalekkodu.pl/bl-plugins/cookie-consent/js/advert.js
+@@||mgr.consensu.org^$domain=infogliwice.pl|zlubaczowa.pl
+@@||s.tvp.pl/files/portale-v*/polityka-prywatnosci/js/tvp-embed-cmp.js
+@@||sdk.privacy-center.org^$domain=bonduelle.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikwschodni.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|filmweb.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|regiodom.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
+@@||wisla-plock.pl/scripts/jquery.ihavecookies.js$script,domain=www.wisla-plock.pl
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 aion.eu#@#.cookies-notification:not(body)
 al.to,combat.pl#@##app > div:first-child > div
@@ -12,42 +27,42 @@ czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
 czyodebrac.pl,ddz24.eu,eu,konecki24.pl,pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar ~ .cli-modal-backdrop
 dominospizza.pl#@##aside.cookies-visible
+e-zikoapteka.pl#@#.cookies-popup:not(body):not(html)
+e-zikoapteka.pl,mcdonalds.pl#@#.cookies-info:not(body):not(html)
 ebilet.pl#@##cookies-info
 ebilet.pl#@##cookies-overlay
 eforia.pl,euromobil.com.pl,euromotor.pl,japanmotors.pl,koreamotors.pl,pgd.pl#@##modal-cookies
 elavon.pl#@#.acceptCookieButton:not(body):not(html)
-elavon.pl#@#.cookiePolicyMessage:not(body):not(html)
 elavon.pl#@#.cookiePolicy:not(.reveal):not(body):not(html)
+elavon.pl#@#.cookiePolicyMessage:not(body):not(html)
 electronicbeats.pl#@##BorlabsCookieBox
 elementstore.pl#@##cookie-agree:not(button):not(.btn)
 epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not([id*="main"])
-eurogamer.pl#@#.ot-sdk-show-settings
-eu,pl#@#body > div:not([id]):not([class])
 eu,pl#@##catapult-cookie-bar
 eu,pl#@#.ccc-widget:not(body):not(html)
 eu,pl#@#.cookie-msg-box
 eu,pl#@#.js-cookies:not(body):not(html)
 eu,pl#@#.rodo-popup:not(body):not(html)
-e-zikoapteka.pl#@#.cookies-popup:not(body):not(html)
-e-zikoapteka.pl,mcdonalds.pl#@#.cookies-info:not(body):not(html)
+eu,pl#@#body > div:not([id]):not([class])
+eurogamer.pl#@#.ot-sdk-show-settings
 forth.gr#@##cookiebanner
 fxpro.pl#@#.popup-cookies:not(body):not(html)
 goldenline.pl#@#.cookie-modal:not(body):not(html):not(.in):not(.mfp-hide)
 goodram.com#@##cookie-container
 gtv.com.pl#@##panel_cookie_dol
-heyah.pl#@#body:not(.didomi-popup-open) #didomi-host
 heyah.pl#@##didomi-notice
+heyah.pl#@#body:not(.didomi-popup-open) #didomi-host
 infogliwice.pl,zlubaczowa.pl#@##cmp-iframe
-klarta.pl#@#.cookiebar-close:not(body):not(html)
 klarta.pl#@#.cookie-message:not(body):not(html):not(.modal-body)
+klarta.pl#@#.cookiebar-close:not(body):not(html)
 kpcen-torun.edu.pl,ranking.perspektywy.pl#@##cookieModal:not(.countryCookieModalContainer):not(.idcac)
 kup.pl.canalplus.com#@#.cookies__wrapper
 lomza.pl#@##komunikat-cookie
 maxelektro.pl#@##cookie-info
 maxizoo.pl#@##cookie-banner
 maxizoo.pl,puratos.pl#@#.cookie-banner:not(body):not(html)
-mcdonalds.pl#@#body > .cookies[style*="display"]
 mcdonalds.pl#@#.cookies-container:not(body):not(html)
+mcdonalds.pl#@#body > .cookies[style*="display"]
 mediaexpert.pl#@#.c-alert.is-cookies:not(body):not(html)
 metropoliaztm.pl#@##cookieModalCenter
 metropoliaztm.pl#@##cookieModalCenter ~ .modal-backdrop
@@ -59,8 +74,8 @@ o2.pl#@##__next div[class*="PrivacyPolicy"]
 pdf24.org#@##cookieBannerOverlay
 pepper.pl#@##footer ~ div .oreo-message
 pl.aptoide.com#@##__next div[class*="CookieNotice"]
-pl.canalplus.com#@#div[class*="CookieBanner"]:not([class*="page"]):not(.app)
 pl.canalplus.com#@#.CookieBanner:not(body):not(html):not(.page)
+pl.canalplus.com#@#div[class*="CookieBanner"]:not([class*="page"]):not(.app)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.container-cookie:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
@@ -77,18 +92,3 @@ visa.pl#@##CookieReportsPanel
 volcano.pl#@##cookiesModal
 winnicalidla.pl#@#.privacy-policy
 wolframalpha.com##footer ~ section
-###ba_eu_cookie_law:not(form)
-#@##ba_eu_cookie_law
-@@/jquery.cookiebar$domain=pl
-@@/wp-content/plugins/cookie-law-info/admin/*
-@@/wp-content/plugins/cookie-law-info/images/*
-@@/wp-content/plugins/cookie-law-info/public/*$stylesheet
-@@||cdn.ampproject.org*consent$script,domain=lelum.pl
-@@||consent.cookiebot.com^$domain=forth.gr|lyko.com
-@@||footroll.pl/js/vendor/cookiebox.min.js
-@@||fundingchoicesmessages.google.com^$domain=spidersweb.pl|stooq.com|stooq.pl
-@@||kawalekkodu.pl/bl-plugins/cookie-consent/js/advert.js
-@@||mgr.consensu.org^$domain=infogliwice.pl|zlubaczowa.pl
-@@||sdk.privacy-center.org^$domain=bonduelle.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikwschodni.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|filmweb.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|regiodom.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
-@@||s.tvp.pl/files/portale-v*/polityka-prywatnosci/js/tvp-embed-cmp.js
-@@||wisla-plock.pl/scripts/jquery.ihavecookies.js$script,domain=www.wisla-plock.pl
