@@ -23,7 +23,7 @@ mv ./polish-ads-filter/scripts/.SFLB_upstream.config ./polish-ads-filter/.SFLB.c
 
 cd ./polish-ads-filter || exit
 
-RTM="true" NO_RM_SFLB_CHANGED_FILES="true" SFLB.py ./cookies_filters/cookies_uB_AG.txt ./cookies_filters/adblock_cookies.txt ./adblock_social_filters/social_filters_uB_AG.txt ./adblock_social_filters/adblock_social_list.txt
+RTM="true" NO_RM_SFLB_CHANGED_FILES="true" SFLB.py cookies_filters/cookies_uB_AG.txt cookies_filters/adblock_cookies.txt adblock_social_filters/social_filters_uB_AG.txt adblock_social_filters/adblock_social_list.txt
 
 SFLB_CHANGED_FILES_FILE="$MAIN_PATH"/../polish-ads-filter/changed_files/SFLB_CHANGED_FILES.txt
 SFLB_CHANGED_FILES=$(cat "$SFLB_CHANGED_FILES_FILE")
@@ -80,4 +80,4 @@ else
     done
 fi
 
-SFLB.py ./PAF_supp.txt ./PPB.txt
+SFLB.py PAF_supp.txt PPB.txt
