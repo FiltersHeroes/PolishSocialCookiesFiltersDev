@@ -51,7 +51,7 @@ spec.loader.exec_module(SFLB)
 SFLB.main([pn(pj(main_path, "cookies_filters/cookies_uB_AG.txt")),
            pn(pj(main_path, "cookies_filters/adblock_cookies.txt")),
            pn(pj(main_path, "adblock_social_filters/social_filters_uB_AG.txt")),
-           pn(pj(main_path, "adblock_social_filters/adblock_social_filters/adblock_social_list.txt"))],
+           pn(pj(main_path, "adblock_social_filters/adblock_social_list.txt"))],
           "", "true")
 
 # Aktualizujemy główne listy, jeżeli suplementy zostały zaktualizowane.
