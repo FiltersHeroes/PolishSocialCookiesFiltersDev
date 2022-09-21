@@ -5,7 +5,7 @@ on: workflow_dispatch
 jobs:
   Aktualizacja:
     runs-on: ubuntu-latest
-    container: ghcr.io/filtersheroes/vichs_image:2.26.9-2
+    container: ghcr.io/filtersheroes/sflb_image:3.0.4
     permissions:
       contents: write
     steps:
@@ -16,4 +16,4 @@ jobs:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          ./scripts/build.sh
+          ./scripts/build.py
