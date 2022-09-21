@@ -83,7 +83,7 @@ for file in os.listdir(pn("./sections/adblock_social_list/uBO_AG")):
             PAF_supp = "true"
 
 if PAF or PAF_supp:
-    os.chdir(pn(main_path+".."))
+    os.chdir(pn(main_path+"/.."))
     if "CI" in os.environ:
         git_repo = git.Repo(os.path.dirname(os.path.realpath(
             config_path)), search_parent_directories=True)
