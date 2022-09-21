@@ -1,4 +1,10 @@
-~pl##li.top_bar_item_list_item_social_media:lang(pl)
+!pl##.footer-social-wrap span
+###menu-portale-spolecznosciowe
+##.facebookPrzyczepiony
+##.footer-box.footer-social-media
+##.sh-copyrights-social
+##.td-social-icon-wrap a:not([href*="feed" i]):not([href*="rss" i]):not([href^="mailto:" i])
+##section[aria-label="media społecznościowe"]
 ~pl###bossbyte_slide:lang(pl)
 ~pl###wysZakladki > #fb:lang(pl)
 ~pl###wysZakladki > #gp:lang(pl)
@@ -17,125 +23,20 @@
 ~pl##.mdi-google-plus:lang(pl)
 ~pl##.mdi-instagram:lang(pl)
 ~pl##.mdi-skype:lang(pl)
-~pl##.pwebbox.pwebbox-plugin-facebook_page_plugin:lang(pl)
 ~pl##.pwebbox.pweb-theme-fbnavy:not(.pwebbox-plugin-facebook_page_plugin):lang(pl)
+~pl##.pwebbox.pwebbox-plugin-facebook_page_plugin:lang(pl)
 ~pl##.shb-header-social:lang(pl), .shb-footer-social:lang(pl)
 ~pl##.sm-panel .sm-blog:lang(pl)
 ~pl##.sm-panel .sm-fb:lang(pl)
 ~pl##.sm-panel .sm-gplus:lang(pl)
-~pl##.sm-panel .sm-instagram:lang(pl)
-~pl##.sm-panel .sm-insta:lang(pl)
 ~pl##.sm-panel .sm-inst:lang(pl)
-~pl##.sm-panel .sm-twitter:lang(pl)
+~pl##.sm-panel .sm-insta:lang(pl)
+~pl##.sm-panel .sm-instagram:lang(pl)
 ~pl##.sm-panel .sm-tw:lang(pl)
+~pl##.sm-panel .sm-twitter:lang(pl)
 ~pl##.sm-panel .sm-youtube:lang(pl)
+~pl##li.top_bar_item_list_item_social_media:lang(pl)
 ~polnapol.com.pl##ul[aria-label="Pasek społecznościowy"], ul[aria-label="Social Bar"]
-pl##.FBButton
-pl##.Facebook
-pl##.Instagram
-pl##.Tfacebook
-pl##.Twitter
-pl##.aspexifblikebox
-pl##.blip
-pl##.contest.BTtbar
-pl##.extraBoxFacebook
-pl##.facebookIco
-pl##.facebookLikeBoxSmall
-pl##.facebookThis
-pl##.facebookactivity
-pl##.facebooks
-pl##.fbButton
-pl##.fbLikebtn
-pl##.fbLink
-pl##.fbShareBt
-pl##.fbclick
-pl##.fbico.icon
-pl##.fblbHead
-pl##.fblikebtn
-pl##.fblike.socialIcon
-pl##.fejs
-pl##.filled.fbox
-pl##.filled.gbox
-pl##.filled.tbox
-pl##.fixedFB
-pl##.flaker
-pl##.floatinglikebox
-pl##.googleShareIcon
-pl##.googleplus.socialIcon
-pl##.gplbHead
-pl##.gplus
-pl##.gplusIco
-pl##.g.socIco
-pl##.iFb
-pl##.iGl
-pl##.iIn
-pl##.iPinterest
-pl##.iTw
-pl##.icoFb
-pl##.icoTwitter
-pl##.icoYoutube
-pl##.icof
-pl##.icog
-pl##.icot
-pl##.icoyt
-pl##.insta
-pl##.instagram
-pl##.in.socialMediaFixedBtn
-pl##.ipsShareButton
-pl##.issuu
-pl##.item.social
-pl##.lateone
-pl##.likeboxes
-pl##.likebutton
-pl##.likely
-pl##.likes
-pl##.linkedin
-pl##.pinterest
-pl##.pintrest
-pl##.slideshare
-pl##.snapchat
-pl##.socialFbIco
-pl##.socialTwIco
-pl##.socialWyIco
-pl##.social.box
-pl##.theChampFacebookBackground.theChampSharing
-pl##.theChampGoogleplusBackground.theChampSharing
-pl##.theChampTwitterBackground.theChampSharing
-pl##.theChampWykopBackground.theChampSharing
-pl##.tweetShare
-pl##.tweet.item
-pl##.twico.icon
-pl##.twit
-pl##.twitterIco
-pl##.vimeo
-pl##.wykop
-pl##.wykopButton
-pl##.wykopShareIcon
-pl##.ytico.icon
-pl##.ytlbHead
-pl##a.like
-pl##a img.facebook-link
-pl##a[href^="whatsapp://send"]
-pl##a[title="Click to share on Google+"]
-pl##a[title="Instagram"]
-pl##a[title="gplus"]
-pl##button[id*="componentsArticleFoot"][id*="Facebook"], button[id*="componentsArticleFoot"][id*="Twitter"]
-pl##div[id^="profilki_socialbuttons_"]
-pl##img[src="./images/icons/nk.png"]
-pl##img[src="/images/fb1.png"]
-pl##img[src="/img/nk_logo.png"]
-pl##img[src="/obrazki/youtube.png"]
-pl##img[src="/p/logo-fb.png"]
-pl##img[src="/p/logo-g+.png"]
-pl##img[src="/p/logo-tw.png"]
-pl##img[src="/p/logo-vm.png"]
-pl##img[src="/p/logo-yt.png"]
-pl##li > .twitter
-pl##li.top_bar_item_list_item_social_media
-pl##vce_social_menu
-pl###PQSharingSidebar
-pl###SocialFooter
-pl###YoutubeRight
 pl###a2a_follow_widget-2
 pl###article-sidebar-action-facebook
 pl###athemes_social_icons-2
@@ -143,9 +44,9 @@ pl###blip
 pl###block-fb-social-fb-likebox
 pl###bossbyte_slide
 pl###bossbyte_slide_front
+pl###box_facebook
 pl###boxFacebook
 pl###boxGoogleplusArt
-pl###box_facebook
 pl###bpxl_social_widget-2
 pl###button-static
 pl###dd-fblike
@@ -153,9 +54,8 @@ pl###dd-fblike-iframe
 pl###em_socialcomm_fb_side_box
 pl###event-socials-fb
 pl###face
+pl###face-slider
 pl###facebook2_2
-pl###facebookPanel
-pl###facebookShare
 pl###facebook-connect-container
 pl###facebook-content
 pl###facebook-find-box
@@ -166,34 +66,35 @@ pl###facebook_block
 pl###facebook_gb
 pl###facebook_ikona
 pl###facebook_soc_button
-pl###face-slider
+pl###facebookPanel
+pl###facebookShare
 pl###fanpage
+pl###fb-login
+pl###fb-slider
+pl###fb-window
 pl###fbBox
 pl###fbdiv2
 pl###fbfanpage
-pl###fblikebox
 pl###fblike-container
+pl###fblikebox
 pl###fbook
 pl###fbpanel
 pl###fbppiframe > #fbpptab
 pl###fbw-box
 pl###fbw_id-2
-pl###fb-login
-pl###fb-slider
-pl###fb-window
 pl###flaker
 pl###fliskr-issu
 pl###foot_facebook
 pl###foot_yt
 pl###forumowisko
+pl###g-plus-badge
 pl###gadu
 pl###gg
 pl###gg_ikona
 pl###googleplus-widget
-pl###gplus-container
 pl###gp_ikona
+pl###gplus-container
 pl###grono
-pl###g-plus-badge
 pl###ico-fb
 pl###ico-pin
 pl###ico-yt
@@ -201,8 +102,8 @@ pl###ikony_social
 pl###inBox
 pl###injectedSocialButtonFooter
 pl###instagram
-pl###instagramGalleryWidgetWrapper
 pl###instagram-box
+pl###instagramGalleryWidgetWrapper
 pl###instw
 pl###join-us
 pl###labelSocial
@@ -219,6 +120,7 @@ pl###pinterest-box
 pl###pinterest-footer
 pl###plywajacy-fb
 pl###podziel-sie
+pl###PQSharingSidebar
 pl###pwebbox113_toggler
 pl###sag-facebook
 pl###sag-facebook-tablo
@@ -229,11 +131,12 @@ pl###share-on-pinterest
 pl###share-on-twitter
 pl###sharingBar
 pl###sharingFloating
-pl###socialYT
-pl###socials-container
 pl###social-facebook-footer-wraper
 pl###social-heder
 pl###social_block_mod
+pl###SocialFooter
+pl###socials-container
+pl###socialYT
 pl###socjalmedia
 pl###tab-widget-fb
 pl###tab-widget-g
@@ -250,34 +153,31 @@ pl###win_like
 pl###win_like_mask
 pl###wkomimg
 pl###wykop
+pl###wysuwane iframe[src*="facebook.com" i]
+pl###wysuwane_fb
+pl###wysuwaneFB
 pl###wysZakladki > #fb
 pl###wysZakladki > #gp
 pl###wysZakladki > #in
 pl###wysZakladki > #pinte
 pl###wysZakladki > #tw
 pl###wysZakladki > #yt
-pl###wysuwaneFB
-pl###wysuwane iframe[src*="facebook.com" i]
-pl###wysuwane_fb
-pl###yYT
-pl###youtube_ikona
 pl###you-tube
+pl###youtube_ikona
+pl###YoutubeRight
 pl###yt-footer
 pl###yt_ikona
 pl###yt_top
-pl##.SN-Facebook-Like
-pl##.Social-Container-Top
-pl##.UsiMenuAddthis_Button_addthis__button__facebook__follow
-pl##.UsiMenuAddthis_Button_addthis__button__google__follow
-pl##.UsiMenuAddthis_Button_addthis__button__twitter__follow
+pl###yYT
+pl##._--facebook.site-footer__bottom-nav__item
+pl##.__xX20facebook
 pl##.a2a_button_google_gmail
 pl##.a2a_button_instagram
 pl##.a2a_button_wykop
 pl##.addthis_button_naszaklasa
 pl##.addthis_button_wykop
 pl##.art__social-footer__container
-pl##.atomsArticleFootTools__icons > .atomsArticleFootTools__icon
-pl##.atomsNavigationFooterSocialmedia__button[data-event-params="link_img=facebook"] > svg
+pl##.aspexifblikebox
 pl##.at-svc-facebook
 pl##.at-svc-google_plusone_share
 pl##.at-svc-linkedin
@@ -285,6 +185,8 @@ pl##.at-svc-pinterest_share.at-share-btn
 pl##.at-svc-twitter
 pl##.at-svc-wykop
 pl##.at_PinItButton
+pl##.atomsArticleFootTools__icons > .atomsArticleFootTools__icon
+pl##.atomsNavigationFooterSocialmedia__button[data-event-params="link_img=facebook"] > svg
 pl##.av-social-link-facebook
 pl##.av-social-link-gplus
 pl##.av-social-link-linkedin
@@ -294,9 +196,10 @@ pl##.av-social-link-tumblr
 pl##.av-social-link-twitter
 pl##.av-social-link-vk
 pl##.badge.fa-pinterest-p.fa
+pl##.blip
 pl##.block-menu-menu-social-footer-p2.block-menu.block
-pl##.block-menu-menu-social-footer.block-menu.block > .menu
 pl##.block-menu-menu-social-footer.block-menu.block > .block-title
+pl##.block-menu-menu-social-footer.block-menu.block > .menu
 pl##.box3_faceMain
 pl##.box_btn_like
 pl##.box_facebooklike_wrap
@@ -308,21 +211,18 @@ pl##.bsc-tw
 pl##.btn_social_fb
 pl##.btn_social_twiter
 pl##.btn_social_youtube
-pl##.componentsArticleTools > a[class*="facebook" i]
-pl##.componentsArticleTools > a[class*="twitter" i]
 pl##.c-footer-socials__list
 pl##.c-navi-socials
+pl##.componentsArticleTools > a[class*="facebook" i]
+pl##.componentsArticleTools > a[class*="twitter" i]
+pl##.contest.BTtbar
 pl##.dodaj_do
 pl##.dostepne_facebook
 pl##.dostepne_googleplus
 pl##.ediplayer-share-fb
-pl##.emg-facebook
 pl##.em-facebook
-pl##.facebook-small
-pl##.facebook_bg1
-pl##.facebook_color
-pl##.facebook_link
-pl##.fanpage.show-for-large-up.fb_fixed
+pl##.emg-facebook
+pl##.extraBoxFacebook
 pl##.fa-facebook
 pl##.fa-facebook-official.fa
 pl##.fa-facebook-square
@@ -332,10 +232,21 @@ pl##.fa-instagram
 pl##.fa-linkedin.fa
 pl##.fa-pinterest.fa
 pl##.fa-spotify
-pl##.fa-twitter.fa
 pl##.fa-twitter-square
+pl##.fa-twitter.fa
 pl##.fa-youtube
 pl##.fa-youtube-play.fa
+pl##.Facebook
+pl##.facebook-small
+pl##.facebook_bg1
+pl##.facebook_color
+pl##.facebook_link
+pl##.facebookactivity
+pl##.facebookIco
+pl##.facebookLikeBoxSmall
+pl##.facebooks
+pl##.facebookThis
+pl##.fanpage.show-for-large-up.fb_fixed
 pl##.fb-ico
 pl##.fb-like-button
 pl##.fb-login2
@@ -346,6 +257,27 @@ pl##.fb_foot
 pl##.fb_img
 pl##.fb_like_contain
 pl##.fb_link
+pl##.FBButton
+pl##.fbButton
+pl##.fbclick
+pl##.fbico.icon
+pl##.fblbHead
+pl##.fblike.socialIcon
+pl##.fbLikebtn
+pl##.fblikebtn
+pl##.fbLink
+pl##.fbShareBt
+pl##.fejs
+pl##.filled.fbox
+pl##.filled.gbox
+pl##.filled.tbox
+pl##.fixedFB
+pl##.flaker
+pl##.floatinglikebox
+pl##.foot_fb
+pl##.foot_gp
+pl##.foot_tw
+pl##.foot_yt
 pl##.footer-box.footer-social-media
 pl##.footer-facebook-sign
 pl##.footer-forum
@@ -356,26 +288,28 @@ pl##.footer-twitter-sign
 pl##.footer-youtube
 pl##.footer-youtube-sign
 pl##.footer__block--social.footer__block
-pl##.foot_fb
-pl##.foot_gp
-pl##.foot_tw
-pl##.foot_yt
 pl##.funkc_box
 pl##.fx-socials
+pl##.g.socIco
 pl##.gk-icon-fb
 pl##.gk-icon-twitter
 pl##.gmspr-footer-facebook
 pl##.gmspr-footer-gplus
-pl##.googleplus_link
 pl##.google-like-box
+pl##.googleplus.socialIcon
+pl##.googleplus_link
+pl##.googleShareIcon
+pl##.gplbHead
+pl##.gplus
 pl##.gplus-like-button
+pl##.gplusIco
 pl##.group.box-social-counter
 pl##.has-shares.ng-scope
+pl##.header--social
 pl##.header-dark-icon-facebook
 pl##.header-dark-icon-google-plus
 pl##.header-dark-icon-twitter
 pl##.header-dark-icon-youtube
-pl##.header--social
 pl##.header_fb_link
 pl##.hf--social-icons
 pl##.hidden-landscape.btn--fb.btn--blue.btn--lg.btn2.hidden-xs
@@ -387,9 +321,18 @@ pl##.hidden-xs.btn--fb.btn--blue.btn--lg.btn2.like-buttons
 pl##.hidden-xs.like-buttons.btn--google.btn--red.btn--lg.btn2
 pl##.hidden-xs.like-buttons.btn--twitter.btn--blue2.btn--lg.btn2
 pl##.hide-for-small-only.sm
+pl##.ic-instagram.ic-lg.ic.ib-hover.ib
+pl##.ico-google
+pl##.ico-in
+pl##.ico-insta
+pl##.ico-yt
+pl##.ico_item.facebook_ico
+pl##.ico_item.tweeter_ico
+pl##.icof
+pl##.icoFb
+pl##.icog
 pl##.icon23062016-google-plus
 pl##.icon23062016-instagram
-pl##.icons-facebook-find-us
 pl##.icon-custom-instagram
 pl##.icon-facebook
 pl##.icon-facebook-2
@@ -400,25 +343,35 @@ pl##.icon-twitter
 pl##.icon-youtube
 pl##.icon_pin
 pl##.icon_yt
-pl##.ico-google
-pl##.ico-in
-pl##.ico-insta
-pl##.ico-yt
-pl##.ico_item.facebook_ico
-pl##.ico_item.tweeter_ico
-pl##.ic-instagram.ic-lg.ic.ib-hover.ib
+pl##.icons-facebook-find-us
+pl##.icot
+pl##.icoTwitter
+pl##.icoYoutube
+pl##.icoyt
 pl##.id-Actionbox-items-el--facebook
+pl##.iFb
+pl##.iGl
+pl##.iIn
 pl##.im--facebook2.im
 pl##.im--google-plus2.im
 pl##.im--instagram.im
 pl##.im--pinterest2.im
 pl##.im--twitter.im
 pl##.im--youtube3.im
+pl##.in.socialMediaFixedBtn
 pl##.inline-list-container.columns.small-12
+pl##.inst_img
+pl##.insta
+pl##.Instagram
+pl##.instagram
 pl##.instagram-footer
 pl##.instagram-ico
-pl##.inst_img
+pl##.iPinterest
+pl##.ipsShareButton
 pl##.ir.icon-a
+pl##.issuu
+pl##.item.social
+pl##.iTw
 pl##.jm-facebook
 pl##.jm-google
 pl##.jm-twitter
@@ -431,16 +384,24 @@ pl##.kac-sm-twitter
 pl##.kac-sm-youtube
 pl##.kanal-g
 pl##.kanal-yt
+pl##.lateone
+pl##.like_fb_like_action
 pl##.likebox_1
+pl##.likeboxes
+pl##.likebutton
+pl##.likely
+pl##.likes
 pl##.likes-bar
 pl##.likes_block
 pl##.likes_count
-pl##.like_fb_like_action
-pl##.linkedin_color
 pl##.link-pinterest
+pl##.linkedin
+pl##.linkedin_color
 pl##.lj-like
 pl##.lj-like-item
 pl##.lnd_share-vertical, .lnd_share-horizontal
+pl##.m-sociallinks-link--instagram
+pl##.m-sociallinks-link--youtube
 pl##.mag_gplus220
 pl##.mag_twitter220
 pl##.main-footer-social
@@ -450,8 +411,6 @@ pl##.mdi-google-plus
 pl##.mdi-instagram
 pl##.mdi-skype
 pl##.mod.mod_sociallist.middle
-pl##.m-sociallinks-link--instagram
-pl##.m-sociallinks-link--youtube
 pl##.nfy-sebox-facebook-like
 pl##.okl_fb.okl
 pl##.okl_goo.okl
@@ -460,40 +419,46 @@ pl##.okl_pint.okl
 pl##.okl_tw.okl
 pl##.oxy-social-icons
 pl##.pie.login > ul
+pl##.pinterest
+pl##.pintrest
 pl##.post-like-us
 pl##.post_likes
-pl##.pwebbox.pwebbox-plugin-facebook_page_plugin
 pl##.pwebbox.pweb-theme-fbnavy:not(.pwebbox-plugin-facebook_page_plugin)
+pl##.pwebbox.pwebbox-plugin-facebook_page_plugin
 pl##.qticon-facebook
 pl##.qticon-twitter
 pl##.qticon-youtube
 pl##.quiz-results-share
+pl##.recommend_fb_like_action
 pl##.recommended-fb
 pl##.recommended-gg
 pl##.recommended-twtt
-pl##.recommend_fb_like_action
 pl##.rel.icon-top-sm-fb.icons-top-sm.images
 pl##.roberto-facebook.roberto
 pl##.roberto-google-plus.roberto
 pl##.roberto-twitter.roberto
 pl##.rrssb-facebook
 pl##.rrssb-twitter
+pl##.s-fb
+pl##.s-gp
+pl##.s-tw
 pl##.sb_facebook.sb_list
 pl##.service-facebook
 pl##.service-google_plus
 pl##.service-pinterest
 pl##.service-twitter
-pl##.share-facebook-button
-pl##.share-twitter-button
-pl##.shb-header-social, .shb-footer-social
-pl##.show-apple-social
 pl##.sh_facebook_art
 pl##.sh_gplus
 pl##.sh_gplus_art
 pl##.sh_twitter
 pl##.sh_twitter_art
-pl##.slideout_newsletter
+pl##.share-facebook-button
+pl##.share-twitter-button
+pl##.shb-header-social, .shb-footer-social
+pl##.show-apple-social
 pl##.slide_likebox_button
+pl##.slideout_newsletter
+pl##.slideshare
 pl##.sliding_likebox
 pl##.sm-link--fb.sm-link
 pl##.sm-link--g.sm-link
@@ -508,51 +473,70 @@ pl##.sm-panel .sm-instagram
 pl##.sm-panel .sm-tw
 pl##.sm-panel .sm-twitter
 pl##.sm-panel .sm-youtube
+pl##.SN-Facebook-Like
 pl##.snap_icon
 pl##.snap_img
-pl##.socializer-fb-share
-pl##.socializer-gplus-share
-pl##.socializer-twitter
-pl##.socials_foot
-pl##.social .twitter
-pl##.social img[src*="/art-soc/lee-wykop.gif"]
-pl##.social > #fb
-pl##.social-float-bar
-pl##.social_ico-fb.social_ico
-pl##.social_ico-gp.social_ico
-pl##.social_ico-insta.social_ico
-pl##.social_ico-tw.social_ico
-pl##.social_media_art
+pl##.snapchat
 pl##.soc-likes
 pl##.soc-wykop
 pl##.soc_fb
 pl##.soc_gp
 pl##.soc_like
+pl##.social .twitter
+pl##.social > #fb
+pl##.social img[src*="/art-soc/lee-wykop.gif"]
+pl##.Social-Container-Top
+pl##.social-float-bar
+pl##.social.box
+pl##.social_ico-fb.social_ico
+pl##.social_ico-gp.social_ico
+pl##.social_ico-insta.social_ico
+pl##.social_ico-tw.social_ico
+pl##.social_media_art
+pl##.socialFbIco
+pl##.socializer-fb-share
+pl##.socializer-gplus-share
+pl##.socializer-twitter
+pl##.socials_foot
+pl##.socialTwIco
+pl##.socialWyIco
 pl##.ssmw-facebook
 pl##.ssmw-googleplus
 pl##.ssmw-twitter
 pl##.surfinbird__like_button
-pl##.s-fb
-pl##.s-gp
-pl##.s-tw
+pl##.t-insta
 pl##.tb-fb
 pl##.tb-g
 pl##.tb-t
+pl##.Tfacebook
+pl##.theChampFacebookBackground.theChampSharing
+pl##.theChampGoogleplusBackground.theChampSharing
+pl##.theChampTwitterBackground.theChampSharing
+pl##.theChampWykopBackground.theChampSharing
 pl##.tieicon-facebook
 pl##.tieicon-twitter
 pl##.toolbar-fb
-pl##.topBox__fbBox
 pl##.top__fb
 pl##.top__insta
 pl##.top__yt
+pl##.topBox__fbBox
 pl##.tt.icon-twitter-logo
 pl##.tvn-tvn-f-footer
 pl##.tvn-tvn-i-footer
-pl##.tweet_foot
-pl##.twitter_color
 pl##.tw-ico
 pl##.tw-like-button
-pl##.t-insta
+pl##.tweet.item
+pl##.tweet_foot
+pl##.tweetShare
+pl##.twico.icon
+pl##.twit
+pl##.Twitter
+pl##.twitter_color
+pl##.twitterIco
+pl##.UsiMenuAddthis_Button_addthis__button__facebook__follow
+pl##.UsiMenuAddthis_Button_addthis__button__google__follow
+pl##.UsiMenuAddthis_Button_addthis__button__twitter__follow
+pl##.vimeo
 pl##.vk-like
 pl##.vk-like-button
 pl##.widget_as_facebook_mem_likebox
@@ -561,22 +545,38 @@ pl##.widget_fbw_id
 pl##.widget_weblizar_facebook_likebox
 pl##.wpsocial-shareBox.wpsocials
 pl##.wrapper_like
+pl##.wykop
 pl##.wykop-button.share-button
-pl##.youtube-footer
+pl##.wykopButton
+pl##.wykopShareIcon
 pl##.yo_icon
+pl##.youtube-footer
 pl##.yt-ico
 pl##.yt_foot
+pl##.ytico.icon
+pl##.ytlbHead
 pl##.zme-like
 pl##.zobacz-nas
-pl##._--facebook.site-footer__bottom-nav__item
-pl##.__xX20facebook
 pl##[id^="nk_fajne"]
-pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
+pl##a img.facebook-link
+pl##a.like
+pl##a[href^="whatsapp://send"]
+pl##a[title="Click to share on Google+"]
+pl##a[title="gplus"]
+pl##a[title="Instagram"]
+pl##button[id*="componentsArticleFoot"][id*="Facebook"], button[id*="componentsArticleFoot"][id*="Twitter"]
+pl##div[id^="profilki_socialbuttons_"]
+pl##img[src="./images/icons/nk.png"]
+pl##img[src="/images/fb1.png"]
+pl##img[src="/img/nk_logo.png"]
+pl##img[src="/obrazki/youtube.png"]
+pl##img[src="/p/logo-fb.png"]
+pl##img[src="/p/logo-g+.png"]
+pl##img[src="/p/logo-tw.png"]
+pl##img[src="/p/logo-vm.png"]
+pl##img[src="/p/logo-yt.png"]
+pl##li > .twitter
+pl##li.top_bar_item_list_item_social_media
+pl##vce_social_menu
 pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_likes, .yt_likes
-!pl##.footer-social-wrap span
-##.facebookPrzyczepiony
-##section[aria-label="media społecznościowe"]
-###menu-portale-spolecznosciowe
-##.footer-box.footer-social-media
-##.sh-copyrights-social
-##.td-social-icon-wrap a:not([href*="feed" i]):not([href*="rss" i]):not([href^="mailto:" i])
+pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]

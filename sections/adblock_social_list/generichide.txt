@@ -1,11 +1,13 @@
+!tvnmeteo.tvn24.pl##.socialMediaContainer
+!~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article > div[class] > .article--title + div[class] > div[class] > div[class]:-abp-has( > div[class] > strong[class]:-abp-contains(/^Podziel się$/))
 ~masterchef.tvn.pl,tvn.pl,tvnturbo.pl,~www.tvn.pl##.socialPanel, .facebook_share, .gplus_share, .twitter_share, .socialFeedbackFooter, .header-card-social-item
 ~poczta.wp.pl,wp.pl,~www.wp.pl##.facebook-share, .tweeter-share
-~poczta.wp.pl,wp.pl,~www.wp.pl#?#div[class] > div[class*=" "]:-abp-has(> span > svg > [stroke="none"] > #PAKO_reakcje-Copy)
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?##app header ~ div.content div:-abp-has(> div > span[style="width:15px;height:15px;"] > svg > title)
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article + div[class*=" "] > div[class] > div[class]:-abp-has(> div[class] > div[class] > div[class] > .fb-like)
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has(> div[class] > div[class] > span > svg > path)
-~poczta.wp.pl,wp.pl,~www.wp.pl#?#.content a[href^="https://www.facebook.com/"] > div[class]:-abp-has(> div[class] > div[class] > .fb-like)
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#.content > div[class] > div[class] > div[class] > div[data-reactid] > div[class]:-abp-has(> div[class] > div[class] > .fb-like)
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#.content a[href^="https://www.facebook.com/"] > div[class]:-abp-has(> div[class] > div[class] > .fb-like)
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#div[class] > div[class*=" "]:-abp-has(> span > svg > [stroke="none"] > #PAKO_reakcje-Copy)
 agency.tvn.pl###menuIcons > .first, .second
 angielskieespresso.pl##.code-block > a[href="https://www.youtube.com/c/AngielskieEspresso"]
 angielskieespresso.pl##.fusion-social-networks-wrapper
@@ -20,15 +22,15 @@ businessinsider.com.pl##.socialButtons, a[href="https://twitter.com/BiPolska/"],
 cccteam.onet.pl###social-bar, .container--social, a[href="/#social"]
 dayz.pl###aptf_slider_widget-2
 dayz.pl###text-10
-dobreprogramy.pl##amp-social-share.sharer
 dobreprogramy.pl##a[href*="twitter.com/share"], a[href*="facebook.com/share.php"]
+dobreprogramy.pl##amp-social-share.sharer
 dziendobry.tvn.pl###js-socials > a:not(:nth-of-type(3)), .footer .footer__media
 dziendobry.tvn.pl##.share__item_fb.share__item, .share__item_g.share__item, .share__item_twitter.share__item, .top__post > a[href^="https://www.facebook.com/DzienDobryTVN/"], .share:nth-of-type(8), .foot-wrap:nth-of-type(2) > .foot-box:nth-of-type(1), .foot-wrap:nth-of-type(2) > .foot-box:nth-of-type(2)
 eskago.pl##.social1.box
-fakty.tvn24.pl###dailyNewsBox
-fakty.tvn24.pl##.main-social
 fakt.pl##.socialBtnBg
 fakt.pl##.socialButtons
+fakty.tvn24.pl###dailyNewsBox
+fakty.tvn24.pl##.main-social
 filmweb.pl##.articleShareFB, .fb-share-button
 fitness.wp.pl##.link-gplus, .link-instagram
 forum.shinden.pl##.sharePage.infoBlock.section > .secondaryContent, .social > a[href="#"]
@@ -47,24 +49,24 @@ komputerswiat.pl,przegladsportowy.pl##.fb_share
 konkret24.tvn24.pl##.share-container > .share-container__icon-wrapper > .share-container__modes:not(.share-container__modes--copy-link), .socials
 kontakty.onet.pl##.icon-basic-menu-facebook
 kulturalnemedia.pl##.td-header-menu-social, .td-social-sharing-button:not(.td-social-mail)
+m.onet.pl##.newsItem > .shareButton
 masterchef.tvn.pl##.facebook_share, .gplus_share, .twitter_share, .socialFeedbackFooter, .header-card-social-item
 medonet.pl##.socialBox
 meteomodel.pl###menu-social
 millemiglia.wp.pl,sklep.fakt.pl##.socials
 mmorpg.org.pl##.footer__top > .socials > a[href="https://twitter.com/grymmorpg"], .footer__top > .socials > a[href="https://www.facebook.com/mmoplaya"], .footer__top > .socials > a[href="https://www.youtube.com/themmorpglive"], .pink.socials > a[href="https://twitter.com/grymmorpg"], .pink.socials > a[href="https://www.facebook.com/mmoplaya"], .pink.socials > a[href="https://www.youtube.com/themmorpglive"]
-moneyv.wp.pl##div[data-st-area$="_FB"]
 money.wp.pl##.socialMediaDeksktop
+moneyv.wp.pl##div[data-st-area$="_FB"]
 muzyka.wp.pl##iframe[src^="http://www.facebook.com/plugins/like.php?"]
-m.onet.pl##.newsItem > .shareButton
-naszamlawa.pl##span.td-social-icon-wrap
 naszamlawa.pl##.td-social-list > div[class*="td_social_"]:not([class$="rss"])
+naszamlawa.pl##span.td-social-icon-wrap
 noizz.pl##.contentShareButtons, .articleShare, .socialProfiles, .socialButtons, .socialMiniBox, .social > .icon
 onet100.vod.pl###socialIcons, .o_footSection3
+onet.pl##.fbpageplugin.widget, .widgetFollowUs, .fb_share, .tw_share, div[data-params*="facebook"]
 onet.pl##.fbShare
+onet.pl##.shareBarBox > .social-share
 onet.pl##a[href*="facebook.com/sharer/sharer"]
 onet.pl##a[href*="twitter.com/intent/tweet?"]
-onet.pl##.fbpageplugin.widget, .widgetFollowUs, .fb_share, .tw_share, div[data-params*="facebook"]
-onet.pl##.shareBarBox > .social-share
 onet.pl#?#p.hyphenate:-abp-contains(Polub)
 onet.pl,~www.onet.pl##.page-share-wrap > .page-share, .share--block
 pclab.pl##.social-links, .social-container
@@ -82,19 +84,19 @@ purepc.pl##.soc_fbc
 shinden.pl##.przycisk.btnfa, .fansub-ad-info
 sniadaniezkadra.onet.pl###col-id-15
 sokol.wp.pl##.page > .articles > .list > .logo--test
-sportowefakty.wp.pl##a[href="https://twitter.com/SportoweFaktyPL"], a[href="https://www.facebook.com/SportoweFakty"]
-sportowefakty.wp.pl##.fatfooter__panel--observe.fatfooter__panel, .rendered.observe_rss.observe__button.observe__part, .liketag
 sport.tvn24.pl##.htmlBox
+sportowefakty.wp.pl##.fatfooter__panel--observe.fatfooter__panel, .rendered.observe_rss.observe__button.observe__part, .liketag
+sportowefakty.wp.pl##a[href="https://twitter.com/SportoweFaktyPL"], a[href="https://www.facebook.com/SportoweFakty"]
 swojadroga.onet.pl##.page-foot-social
 sympatia.onet.pl##.findUs
 technowinki.onet.pl##a[href="https://www.youtube.com/user/KomputerSwiatOnline"], .sidebarItem:nth-of-type(6)
-tvn24.pl##a[href^="http://www.tvn24.pl/tvn24-tvn-meteo-tvn-warszawa-w-serwisach-spolecznosciowych"], a[href*="http://www.tvn24.pl/internet-hi-tech-media,40/snapchat-tvn24-pl"] img
-tvn24.pl##li.twitter
 tvn24.pl##.article-lead > .article-lead__social-buttons > li.social-item:nth-of-type(-n+2)
 tvn24.pl##.article-share-socials > .social-list > .social-item:nth-of-type(-n+2)
 tvn24.pl##.fbClassicBox, .funpageTitleStyle
 tvn24.pl##.header-socials__social
 tvn24.pl##.htmlBox:nth-of-type(8), .htmlBox:nth-of-type(10), .htmlBox:nth-of-type(30), .htmlBox:nth-of-type(31), .side-info, .social-icon
+tvn24.pl##a[href^="http://www.tvn24.pl/tvn24-tvn-meteo-tvn-warszawa-w-serwisach-spolecznosciowych"], a[href*="http://www.tvn24.pl/internet-hi-tech-media,40/snapchat-tvn24-pl"] img
+tvn24.pl##li.twitter
 tvn.pl#?#.social-item:-abp-has(> .share-link > svg:not(.fa-link))
 tvn.pl,tvnturbo.pl,~www.tvn.pl##li.vjs-menu-item[class*="share"]:not(.vjs-share-link)
 uwaga.tvn.pl##.insta-widget, .section-social, .socialmedia > ul > .youtube
@@ -112,5 +114,3 @@ xboxforum.pl#?#.notices:-abp-has(a[href="https://www.youtube.com/channel/UCTTcPd
 yafud.pl###strona > center, .extBox
 zapytaj.onet.pl##.share-icon
 zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta
-!~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article > div[class] > .article--title + div[class] > div[class] > div[class]:-abp-has( > div[class] > strong[class]:-abp-contains(/^Podziel się$/))
-!tvnmeteo.tvn24.pl##.socialMediaContainer
