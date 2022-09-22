@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.9.21.0
-! Last modified: Wed, 21 Sep 2022, 18:31 UTC+02:00
+! Version: 2022.9.22.0
+! Last modified: Thu, 22 Sep 2022, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.9.21.0 aktualizacja: @localizedDT
+! v.2022.9.22.0 aktualizacja: czw, 22 wrz 2022, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -773,8 +773,8 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 !
 !
 ! Specyficzne reguły ukrywające
+
 !dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,wspolczesna.pl,strefaedukacji.pl##.componentsArticleFoot__button--share.componentsArticleFoot__button
-!ofeminin.pl##.formresult_share
 ###chaty-channel-facebook_messenger
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ~pl###chaty-channel-facebook_messenger:lang(pl)
@@ -894,6 +894,9 @@ aftermarket.zf.com,beszamel.se.pl,cert.orange.pl,ecg-electro.eu,m.niezalezna.pl,
 afterweb.pl##.aw_header_social, .footer_top div.col-md-4:nth-of-type(2)
 afterweb.pl##.social_icons_footer, .szukaj-nas
 agagrzelak.pl,infonaval.pl,masarniakrzys.pl,portalstoczniowy.pl,sieci.mgk.pl##.sociale
+agamato.pl###footer a[href*="instagram.com/"]
+agamato.pl###footer a[href*="youtube.com/"]
+agamato.pl##.instagram_block_footer
 agapo.pl,sklep.mizar.com.pl,taktutanio.pl###wysZakladki > #pierwsza
 agat.eu##.facebook-slider-widget
 agat.eu##.pre-footer-left.col-md-4 > div.col-md-12:nth-of-type(5)
@@ -1733,6 +1736,7 @@ bridle.com.pl##.sliderightItem
 brilu.pl##.instafeed_container
 brilu.pl,butyolivier.pl##.buttons_social_container
 brita.pl##.social-media-container
+britishairways.com##.social-links
 britneyspears.pl,solidarnoscarimr.pl###right
 brodatyzbir.pl##.pk-share-buttons-wrap
 brodrene.eu,gentle-man.pl###social_block_footer
@@ -1991,6 +1995,7 @@ clickmeeting.com##.room-footer .social
 climateo.eu,wentylacja24.pl##.society a:not(.allegro):not(.ceneo)
 clineo.pl###floatingFB
 clineo.pl##.uk-flex-middle.uk-flex > .icon-facebook_icon
+clinic4car.pl##.social
 clipchamp.com##footer a[href*="pinterest.com"]
 clipchamp.com##footer a[href*="tiktok.com/"]
 clipconverter.cc###toptext > span.right, #toptext > a.right:nth-of-type(-n+2)
@@ -5586,7 +5591,7 @@ piaggio-polska.pl##a[class*="ion-social-"]
 piaseckigagala.pl##.links > a[href*="linkedin.com/"]
 piaseczno.eu#?#.td_block_widget.td_block_text_with_title.td_block_wrap:-abp-contains(Obserwuj)
 pib-nio.pl##.social-links.header-social
-pibuya.pl#?#.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper:-abp-contains(Social Media)
+pibuya.pl,agamato.pl#?#.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper:-abp-contains(Social Media)
 piekary.info,tarnowskiegory.info##.stickySocialIcon
 pieluszkarnia.pl##div[class*="platnosc"] > a[href*=".com/"] > img
 pietro-wyzej.pl##li.nav-item--icon.nav-item:nth-of-type(n+9):nth-of-type(-n+10)
@@ -7385,6 +7390,10 @@ tvp.pl##.header__socials .more-wrapper
 tvp.pl##.navigation__socials a:not([href*="mailto:"]):not([href*="rss"])
 tvp.pl##.navigation__socialWrapper, .section-facebook
 tvp.pl##a.article__icons-item:not(:nth-of-type(3))
+tvp.pl,tvp.info###container_flyoutsocial a[href*="facebook.com/"]
+tvp.pl,tvp.info###container_flyoutsocial a[href*="instagram.com/"]
+tvp.pl,tvp.info###container_flyoutsocial a[href*="linkedin.com/"]
+tvp.pl,tvp.info###container_flyoutsocial a[href*="tiktok.com/"]
 tvpolice.com.pl##.header-social-box
 tvpolsat.info##.fa-youtube-play, .fa-instagram, .fa-twitter
 tvpolsat.info##.footer-right.footer-links
