@@ -90,10 +90,10 @@ if PAF or PAF_supp:
         with git_repo.config_reader() as cr:
             url = cr.get_value('remote "origin"', 'url')
             if url.startswith('http'):
-                git.Repo.clone_from("https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters.git", pj(
+                git.Repo.clone_from("https://github.com/FiltersHeroes/PolishAnnoyanceFilters.git", pj(
                     os.getcwd(), "PolishAnnoyanceFilters"))
             else:
-                git.Repo.clone_from("git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git", pj(
+                git.Repo.clone_from("git@github.com:FiltersHeroes/PolishAnnoyanceFilters.git", pj(
                     os.getcwd(), "PolishAnnoyanceFilters"))
     os.chdir(pn("./PolishAnnoyanceFilters"))
 

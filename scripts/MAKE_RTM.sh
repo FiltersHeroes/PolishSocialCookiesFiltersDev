@@ -59,9 +59,9 @@ if [ "$CI" = "true" ]; then
     gh pr create -B master -H PolishRoboDogHouse:RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$RTM_PR_MESSAGE"
     cd ..
     if [ "$CIRCLECI" = "true" ]; then
-        git clone git@github.com:PolishFiltersTeam/PolishAnnoyanceFilters.git
+        git clone git@github.com:FiltersHeroes/PolishAnnoyanceFilters.git
     else
-        git clone https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters.git
+        git clone https://github.com/FiltersHeroes/PolishAnnoyanceFilters.git
     fi
     cd ./PolishAnnoyanceFilters || exit
 else
