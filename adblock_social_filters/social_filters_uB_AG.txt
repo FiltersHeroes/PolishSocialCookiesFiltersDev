@@ -57,7 +57,7 @@ wificalling-volte.pl##.modal:has-text(Polub)
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
 lookcam.com###lookcam-fb-modal, .modal-backdrop
-lookcam.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+lookcam.com##.modal-open[class]:style(overflow: visible !important; padding-right: 0 !important; margin-right: 0 !important;)
 !#endif
 !#if cap_html_filtering
 4kdownload.com##^.thanks-modal
