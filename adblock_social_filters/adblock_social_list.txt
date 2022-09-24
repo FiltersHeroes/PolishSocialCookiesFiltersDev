@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.9.24.0
-! Last modified: Sat, 24 Sep 2022, 14:31 UTC+02:00
+! Version: 2022.9.24.1
+! Last modified: Sat, 24 Sep 2022, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.9.24.0 aktualizacja: sob, 24 wrz 2022, 14:31 UTC+02:00
+! v.2022.9.24.1 aktualizacja: sob, 24 wrz 2022, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6867,6 +6867,7 @@ specshop.pl###menu_buttons > div.menu_button_wrapper:nth-of-type(1) > a > img
 specshop.pl###social-platforms
 spedycje.pl###top_social
 speedomat.pl#?#.wow:-abp-has(.c-icon span i[onclick*="share"]:not([onclick*="setClipboard"]))
+speedtest.net##.social-links-outer a.social-icon ~ a.social-icon
 speedtest.net##div.pure-u-1:nth-of-type(1) > ul.menu-footer:nth-of-type(2)
 spidersonline.pl###bottom_column
 spidersweb.pl##.row > .columns.large-offset-1.large-11 > .margin-bottom35.single-about > .row > .show-for-large.columns.large-7 > .text-right.display-table.single-interactions > .display-table-cell > span:nth-child(n+2):nth-child(-n+3)
@@ -9102,6 +9103,7 @@ socialpress.pl#@#.follow_us
 sosnowe-zacisze.pl#@#.tm-social-icons
 spece.it#@#.social-tooltip
 spece.it#@#[title^="Follow us on "]
+speedtest.net#@#.social-share-links
 styl.fm#@#.article__share
 t-mobile.pl#@#.socialMedia
 tabletowo.pl#@#.social_icon
