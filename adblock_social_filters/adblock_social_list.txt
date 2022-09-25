@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.9.24.1
-! Last modified: Sat, 24 Sep 2022, 22:31 UTC+02:00
+! Version: 2022.9.25.0
+! Last modified: Sun, 25 Sep 2022, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.9.24.1 aktualizacja: sob, 24 wrz 2022, 22:31 UTC+02:00
+! v.2022.9.25.0 aktualizacja: nie, 25 wrz 2022, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -773,7 +773,6 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 !
 !
 ! Specyficzne reguły ukrywające
-
 !dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,wspolczesna.pl,strefaedukacji.pl##.componentsArticleFoot__button--share.componentsArticleFoot__button
 ###chaty-channel-facebook_messenger
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
@@ -5623,6 +5622,8 @@ pixel.pl##.social-icon-bottom
 pixiecosmetics.com###footer_bottom div.menu_button_wrapper:nth-of-type(2)
 pixiecosmetics.com##.menu_button_wrapper
 pizzahut.pl###footer > div:nth-of-type(2) > div:nth-of-type(1) > a
+pizzahut.pl###footer a[href*="facebook.com/"]
+pizzahut.pl###footer a[href*="instagram.com/"]
 pizzahut.pl##.ph-footer-social > li:nth-of-type(-n+3)
 pizzahut.pl#?#li.ph-footer-navigation-header:-abp-contains(ZNAJDŹ PIZZA HUT)
 pizzahut.pl#?#li.ph-footer-navigation-header:-abp-contains(ZNAJDŹ PIZZA HUT) ~ li.footer-icon
