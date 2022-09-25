@@ -6,19 +6,19 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.9.22.0
-! Last modified: Thu, 22 Sep 2022, 22:31 UTC+02:00
+! Version: 2022.9.25.0
+! Last modified: Sun, 25 Sep 2022, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
 !   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
 ! Redundant Checker => https://www.certyficate.it/redundant_checker/redundantRuleChecker.html
-! Opcjonalne rozszerzenie uzupełniające „Polska Ciasteczkowa Zgoda" => https://github.com/PolishFiltersTeam/PolishCookieConsent#jak-zainstalowa%C4%87
+! Opcjonalne rozszerzenie uzupełniające „Polska Ciasteczkowa Zgoda" => https://github.com/FiltersHeroes/PolishCookieConsent#jak-zainstalowa%C4%87
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.9.22.0 aktualizacja: czw, 22 wrz 2022, 22:31 UTC+02:00
+! v.2022.9.25.0 aktualizacja: nie, 25 wrz 2022, 02:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3987,6 +3987,7 @@ agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 aion.eu#@#.cookies-notification:not(body)
 al.to,combat.pl#@##app > div:first-child > div
 avg.com,beko.com,bethesda.net,coca-cola.pl,credit-suisse.com,domiporta.pl,edziecko.pl,haps.pl,moto.pl,olx.pl,panasonic.com,plotek.pl,radiopogoda.pl,sport.pl,toteraz.pl#@##onetrust-consent-sdk
+avg.com,beko.com,bethesda.net,coca-cola.pl,credit-suisse.com,domiporta.pl,edziecko.pl,haps.pl,moto.pl,olx.pl,panasonic.com,plotek.pl,radiopogoda.pl,sport.pl,toteraz.pl,pizzahut.pl,eurogamer.pl#@#.ot-sdk-show-settings
 bgk.pl#@#.cc-revoke:not(body):not(html)
 bgk.pl,meiko.pl#@#.cc-window[aria-describedby*="consent"]
 bgk.pl,meiko.pl#@#.cc-window[aria-label*="consent"]
@@ -4043,6 +4044,7 @@ noweinwestycje.pl#@#.cookieBar:not(body):not(html)
 o2.pl#@##__next div[class*="PrivacyPolicy"]
 pdf24.org#@##cookieBannerOverlay
 pepper.pl#@##footer ~ div .oreo-message
+pizzahut.pl#@##onetrust-consent-sdk
 pl.aptoide.com#@##__next div[class*="CookieNotice"]
 pl.canalplus.com#@#.CookieBanner:not(body):not(html):not(.page)
 pl.canalplus.com#@#div[class*="CookieBanner"]:not([class*="page"]):not(.app)
