@@ -352,9 +352,6 @@ m.autocentrum.pl##html.menu-active:style(overflow: auto !important;)
 m.filmweb.pl##body.rodo[style^="padding-top:"]:style(padding-top: 0 !important;)
 m.leroymerlin.pl##.ReactModalPortal:has-text(Polityka prywatności)
 m.leroymerlin.pl##body.drawer-is-open, body.ReactModal__Body--open:style(overflow: auto !important;)
-m.youtube.com##.consent-bump-v2-lightbox
-m.youtube.com##.consent-bump-v2-lightbox:remove()
-m.youtube.com##body[modal-open-body]:style(position: static !important;)
 mago.com###yl-popup-wrapper-popupRodo, #yl-popup-shadow-popupRodo
 makro.pl##.cookie-law-modal
 maxelektro.pl##.cookie-bg-wrapper
@@ -649,9 +646,6 @@ www.pekao.com.pl##.reveal-overlay:has(#gdpr-popup)
 www.pekao.com.pl##body.is-reveal-open:style(overflow: auto !important; width: unset !important;)
 www.thomas-krenn.com##div[id*="CookiePolicy"], div[data-toggle*="CookiePolicy"]
 yigf.nask.pl###gdprNotice
-youtube.com###yt-consent-dialog, #yt-dialog-bg
-youtube.com##.yt-dialog-active:style(overflow: auto !important;)
-youtube.com##div#masthead-positioner-height-offset:style(height: 80px !important;)
 zagojeni.pl##.rodo-overlay
 zagojeni.pl##body.overflow:style(overflow: auto !important;)
 zakupy.auchan.pl##.cookie-modal
