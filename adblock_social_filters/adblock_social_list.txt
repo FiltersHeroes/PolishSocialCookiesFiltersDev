@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.9.25.0
-! Last modified: Sun, 25 Sep 2022, 02:31 UTC+02:00
+! Version: 2022.9.29.0
+! Last modified: Thu, 29 Sep 2022, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.9.25.0 aktualizacja: nie, 25 wrz 2022, 02:31 UTC+02:00
+! v.2022.9.29.0 aktualizacja: czw, 29 wrz 2022, 18:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3518,6 +3518,7 @@ hilti.pl##.o-footer-middle > div > .row > div:nth-of-type(2) > .m-nav-footer
 himalayaherbs.pl##.info-footer.title_block
 hipcio.sklep.pl##a[href*="facebook.com/hipciosklep"]
 hipper.pl##.c-sm.c-f-s
+histmag.org###calculatedSocials > a:not([href*="/rss?"]):not([href*="#newsletter"])
 histmag.org##.commented-widget:nth-of-type(7)
 histmag.org##.css-nil > a[href*="youtube.com/channel/UCg5074EC_9nguiI1LeWqKfA"], .css-nil > a[href*="twitter.com/histmagorg"], .css-nil > a[href*="facebook.com/histmag.org"], .css-nil > a[href*="instagram.com/histmagorg/"]
 histmag.org#?##article > div[class$="border-box"] > div[class$="border-box"] > a:-abp-contains(/^(Facebook|Twitter|Instagram)$/)
