@@ -1,6 +1,7 @@
 ###ba_eu_cookie_law:not(form)
 #@##ba_eu_cookie_law
 @@/jquery.cookiebar$domain=pl
+@@/wp-content/plugins/cookie-law-info/*$domain=pl|eu
 @@/wp-content/plugins/cookie-law-info/admin/*
 @@/wp-content/plugins/cookie-law-info/images/*
 @@/wp-content/plugins/cookie-law-info/public/*$stylesheet
@@ -11,7 +12,6 @@
 @@||kawalekkodu.pl/bl-plugins/cookie-consent/js/advert.js
 @@||mgr.consensu.org^$domain=infogliwice.pl|zlubaczowa.pl
 @@||s.tvp.pl/files/portale-v*/polityka-prywatnosci/js/tvp-embed-cmp.js
-@@/wp-content/plugins/cookie-law-info/*$domain=pl|eu
 @@||wisla-plock.pl/scripts/jquery.ihavecookies.js$script,domain=www.wisla-plock.pl
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 aion.eu#@#.cookies-notification:not(body)
