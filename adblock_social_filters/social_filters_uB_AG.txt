@@ -197,6 +197,7 @@ zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .
 homebeer.pl##+js(ra, href|title, a.slider-img[href="https://pl-pl.facebook.com/homebeerpl/"])
 kamaciuch.pl##+js(ra, href, .homeslider-container a[href="https://www.facebook.com/kamaciuch"])
 napiachu.pl##+js(ra, href, .carousel-inner a[href="https://www.facebook.com/napiachu/"])
+pol-skone.pl##.slider__item:has([alt="DOŁĄCZ"]):remove()
 sterydy.link##div.rev_slider > ul > li[data-thumb*="sterydy-link-banner-fb"]:remove()
 um.kielce.pl##+js(ra, href|title, map > area[alt="Facebook"])
 !#endif
@@ -204,6 +205,7 @@ um.kielce.pl##+js(ra, href|title, map > area[alt="Facebook"])
 homebeer.pl##^.slides > li[id]:has(a.slider-img[href="https://pl-pl.facebook.com/homebeerpl/"])
 kamaciuch.pl##^.homeslider-container:has(a[href="https://www.facebook.com/kamaciuch"])
 napiachu.pl##^.carousel-inner > .item:not(.active):has(a[href="https://www.facebook.com/napiachu/"])
+pol-skone.pl##^.slider__item:has([alt="DOŁĄCZ"])
 sterydy.link##^div.rev_slider > ul > li[data-thumb*="sterydy-link-banner-fb"]
 um.kielce.pl##^map > area[alt="Facebook"]
 www.satel.pl##^.header_container .navigation li:nth-of-type(6)
