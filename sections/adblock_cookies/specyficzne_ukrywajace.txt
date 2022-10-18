@@ -1,6 +1,3 @@
-banbye.com#?#.v-dialog__content:-abp-contains(cookies)
-banbye.com##.v-overlay
-paypo.pl#?#main.main ~ div > div:-abp-has(> div > div > h4:-abp-contains(plików cookies))
 !polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
 !polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
 ~dm.pgi.gov.pl,pgi.gov.pl###ispmodal, .jquery-modal
@@ -291,6 +288,8 @@ balladine.com,basspolska.com,koszulkolandia.com,ksiazki-medyczne.eu,mistama.com,
 balluff.com,dvb.de,edrone.me,elblag.net,tidal.com##.cookie-info
 balterio.com,pergo.pl,quick-step.com.pl##a[data-selector="open-cookie-popup"]
 bambino.pl,podworko.nivea.pl###PrivacyPolicyCookie
+banbye.com##.v-overlay
+banbye.com#?#.v-dialog__content:-abp-contains(cookies)
 banggood.com##.cookie-tip
 bankier.pl###smart-cmp-host
 bankmillennium.pl###wc-cookies-m-wrapper
@@ -2087,6 +2086,7 @@ parp.gov.pl###howdydo-wrapper
 pasazer.com##.info_cookie
 pasmanteria-atlasek.pl##.nasa-cookie-notice-container
 paypal.com###gdprCookieBanner
+paypo.pl#?#main.main ~ div > div:-abp-has(> div > div > h4:-abp-contains(plików cookies))
 payukraine.com##.mainscreen_cookies
 pb.pl##.qc-cmp-ui-container
 pc.net.sosnowiec.pl###stopka > div[style*="position"][style*="absolute"]
