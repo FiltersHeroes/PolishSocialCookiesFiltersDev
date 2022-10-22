@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.10.18.0
-! Last modified: Tue, 18 Oct 2022, 02:31 UTC+02:00
+! Version: 2022.10.22.0
+! Last modified: Sat, 22 Oct 2022, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,12 +18,12 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.10.18.0 aktualizacja: wto, 18 paź 2022, 02:31 UTC+02:00
+! v.2022.10.22.0 aktualizacja: sob, 22 paź 2022, 22:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
-!polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
-!polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
+!polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child > div[class^="sc-"]:first-child:-abp-has(> div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
+!polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has(> div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
 ~dm.pgi.gov.pl,pgi.gov.pl###ispmodal, .jquery-modal
 1-st.com.pl,agrojd.com,agrospec.pl,allnet24.pl,arx.pl,aspel.com.pl,babysensepolska.pl,bhp.dozamel.pl,bikeman.pl,bosch.com.pl,comarch-esklep.pl,cudnydom.pl,e-oazakrakow.pl,elabrick24.pl,esklep.brandvital.eu,estetiq.pl,galerialazienek.pl,haczykowo.pl,kopalniasrebra.com,kran.tychy.pl,ksiegarniarubikon.pl,oftadirect.pl,papier24h.pl,papieryczerpane.pl,profesjonalne-nawadnianie.pl,selene.pl,sklep.abydos.pl,sklep.agro-eko.com.pl,sklep.agromasz.pl,sklep.balcamp.pl,sklep.benedetto.com.pl,sklep.budowniczy.com.pl,sklep.kotrak.com,sklep.kskd.pl,sklep.mebloart.eu,sklep.miodyapis.pl,sklep.phalanxgames.pl,sklep.rol-mech.pl,sklep.salvatti.pl,sklep.stalco.pl,sklep.tayama.pl,spawalniczy-sklep.pl,swiatkoralikow.pl,swiatkoralikow2.pl,texasclub.pl,tvprodukt.pl,wierzynek.pl,workstyle.pl#?#div[class*="config"][class*="Messages" i]:-abp-contains(/pliki "?cookies"?/)
 2x45.info,adainfo24.eu,agromasa.com,alltube.tv,answear.com,atriumsystem.eu,barfnyswiat.org,bip.dzialdowo.eu,bip.gig.eu,bip.konin.eu,bip.piaseczno.eu,business.link,cedc.com,diagprog4.com,edeklaracje.info,eska.tv,evertourist.com,fachowiec.com,feriogaj.com,fokus.tv,gdansk.pl,gdzierodzic.info,grobla.net,imperiaonline.org,informacja-turystyczna.starachowice.eu,jezewo.eu,kolniak24.eu,koneser.eu,koszyki.com,lampy24.net,lot.com,lumarte.eu,mojewypieki.com,multimaszyny.eu,muzo.fm,nasze.fm,nowa.tv,odpady.chorzow.eu,plantatekst.info,portalodo.com,prymus.info,radiokampus.fm,rowertour.com,skierniewice.eu,studiuje.eu,telesystem-world.com,vodi.cc,voxmusic.tv,xtb.com,zamawiam.marchewkowepole.com###cookies
@@ -977,6 +977,7 @@ erli.pl#?##root > div[class]:-abp-has(> div > div > h4:-abp-contains(o swojej pr
 esa.nask.pl#?#.ReactModalPortal:-abp-has(.cookies-greetings)
 esbank.pl###cookie_info_es
 esklep.legutko.com.pl###event_banner
+esklep.polomarket.pl##.cky-banner-element
 esky-pl.mozio.com#?##container > div ~ div:-abp-has(> div > span:-abp-contains(as cookies to))
 esparto.pl,eventy-online.pl,seoheroes.pl,yumisu.pl##.notification-bar
 espritgames.com###easy-cookies-policy-main-wrapper
@@ -1082,6 +1083,7 @@ florexpol.eu###cookieMsg
 fly.pl##div[data-cookiebar]
 flyordie.pl###eucc
 fogo.pl##.bottom.shadow.foobar-wrapper.small-white-arrow
+fonpizza.pl###cookie-notice
 foodjobs.pl##.b-modal
 foodjobs.pl,magazynauto.pl,sprawdzone.pl,swiatwiedzy.pl,twojstyl.pl##.rodoPopup
 foodworks.pl##.mac-pop-back
@@ -2686,6 +2688,7 @@ teatrkomedia.pl##.cover
 technologia-wody.pl###__next > footer ~ div.fixed[style]
 techpedia.pl##.skyf1
 teetres.com###_cookies_info
+tefal24.pl##.amgdprcookie-bar-container
 teknos.com###cookie-consent
 tektorado.com,vents-group.pl###cookies-accept-info
 teledyski.info###Cookieinfo
