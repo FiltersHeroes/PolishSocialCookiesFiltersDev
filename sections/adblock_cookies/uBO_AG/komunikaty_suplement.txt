@@ -134,9 +134,8 @@ corbby.com.pl###tfade:has(+ #tlight:has(> .termspopupcontainer))
 corbby.com.pl###tlight:has(> .termspopupcontainer)
 corbby.com.pl##html[style^="overflow"]:style(overflow: auto !important;)
 country.db.com,festool.pl,trefl.com###usercentrics-root
-fotojoker.pl###usercentrics-root
-country.db.com,lotto.pl##body[style]:style(overflow: visible !important;)
 country.db.com,lotto.pl##body.overflowHidden:style(overflow: visible !important;)
+country.db.com,lotto.pl##body[style]:style(overflow: visible !important;)
 credit-suisse.com##body.ot-consent-manager-open:style(overflow-y: visible !important;)
 crfop.gdos.gov.pl###banner-komunikat-rodo-gdos-2
 crfop.gdos.gov.pl###banner-komunikat-rodo-gdos-2 ~ .modal-backdrop
@@ -230,7 +229,6 @@ fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: auto !important;)
 festool.pl,trefl.com##body.overflowHidden:style(overflow: visible !important;)
-fotojoker.pl##body.overflowHidden:style(overflow: visible !important;)
 filmweb.pl###didomi-host
 filmweb.pl##+js(set, consentManagerIsOn, false)
 filmweb.pl##+js(set, rodo.checkIsDidomiConsent, noopFunc)
@@ -242,6 +240,8 @@ filmweb.pl##body.rodo header#mainPageHeader:style(position: sticky !important;)
 fiskars.pl##.desktop:style(top: 0 !important;)
 fonts.google.com##gf-cookie-bar
 fonts.google.com##header.content--cookie-bar-open, div.full-page--cookie-bar-open:style(top: 0 !important;)
+fotojoker.pl###usercentrics-root
+fotojoker.pl##body.overflowHidden:style(overflow: visible !important;)
 foursquare.com##+js(set, fourSq.cookies.CookieBanner, noopFunc)
 franklintempleton.pl##.modal-gateway-modal.modal-gateway.modal, .modal-backdrop
 frisco.pl##.modal-new_overlay:has(.cookies-consents)
