@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.10.29.0
-! Last modified: Sat, 29 Oct 2022, 00:04 UTC+02:00
+! Version: 2022.11.6.0
+! Last modified: Sun, 06 Nov 2022, 21:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.10.29.0 aktualizacja: sob, 29 paź 2022, 00:04 UTC+02:00
+! v.2022.11.6.0 aktualizacja: nie, 06 lis 2022, 21:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -320,6 +320,7 @@ bankmillennium.pl###wc-cookies-m-wrapper
 bankmillennium.pl##.top-page-cookies
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
 bardotti.pl##.wpmui-popup
+barfoodporn.pl###cc--main[class]
 barki-nicols.pl,jawor24h.pl##.toast
 bartix.pl,castle.pl,cds-lider.com.pl,ddwlkp.pl,lo8.poznan.pl,markaw.pl,nowytomysl.pl,polsero.pl,powiat-gniezno.pl,promotor.pl,szkolapol-ang.pl,tupowstalapolska.pl,wit.com.pl###menusDiv[style*="block"]
 baselinker.com,deloitte.com,netcompany.com,optomer.pl##.cookie-container
@@ -615,7 +616,7 @@ cmentarz-szprotawa.pl,darkarea.pl,naklejkolandia.pl###hi-eu-opt-in
 cmg24.pl##.RODO
 cmolmed.pl###footer > .module[style*="#ffffff"]
 cmp.med.pl###modal-background, #modal-content
-cmp.med.pl,montersi.pl###cc--main
+cmp.med.pl,montersi.pl###cc--main[class]
 cmrev.com###cookies-overlay
 cms.tipnews.pl##body > div[id][class=""][data-editable="boxCookieNotification"]
 cochrane.org,histmag.org###cookie-warning
@@ -1083,6 +1084,7 @@ florexpol.eu###cookieMsg
 fly.pl##div[data-cookiebar]
 flyordie.pl###eucc
 fogo.pl##.bottom.shadow.foobar-wrapper.small-white-arrow
+fon-pizza.skubacz.pl###cc--main[class]
 fonpizza.pl###cookie-notice
 foodjobs.pl##.b-modal
 foodjobs.pl,magazynauto.pl,sprawdzone.pl,swiatwiedzy.pl,twojstyl.pl##.rodoPopup
@@ -1141,6 +1143,7 @@ futurefarm24.pl###queryModalRODO
 gabinetodzaplecza.pl,high-med.pl,konferencja.amoz.edu.pl,majorel.com.pl,moderator-online.edu.pl,modnepodlogi.pl,neuca.pl,odbiormieszkan.dekra.pl,symposium.pl,terazpoz.pl,vcarbon.pl##.landend-infobar-light
 gaj-stal.com,polonia.nl###pasek
 galaxy-centrum.pl###gdpr-window
+galeriakatowicka.eu##.modal-cacsp-position
 gamedot.pl##.policy_warning
 gamepedia.com###policy-notice-root
 gameplay.pl##div#CP_box
@@ -1606,6 +1609,8 @@ lampywcentrum.pl##.amgdprcookie-bar-container
 lancia.pl###cl-banner
 laserhouse.pl##.LASERWrapper
 latarnia.teatrnn.pl###header-region > div:nth-of-type(2) > div > div:nth-of-type(1) > div
+lavazzacoffee.pl###__tealiumGDPRecModal
+lavineria.pl###cc--main[class]
 laziska.com.pl,m-ce.pl,mojbytom.pl,mojchorzow.pl,mojegliwice.pl,mojekatowice.pl,mojetychy.pl,mojmikolow.pl,orzesze.com.pl,piekaryslaskie.com.pl,pyskowice.com.pl,rudaslaska.com.pl,rybnicki.com,siemianowice.net.pl,sosnowiecki.pl,swiony.pl,wodzislaw.com.pl,zabrze.com.pl,zory.com.pl###rodo-bar
 lbn.pl,zajazd-niedzwiadek.pl###ciastko
 leadstar.pl##.LScookie-container
@@ -2698,6 +2703,7 @@ telpol.net.pl##footer .clr > br ~ b
 tem.com.pl###block-block-29
 teraz-srodowisko.pl###cookies_preferences
 termedia.pl###acceptCookiesId
+termedia.pl###qc-cmp2-container.qc-cmp2-container
 termodomplus.pl##.tgdprc_cookie_notice_popup
 termyszaflary.com#?#.elementor-popup-modal:-abp-has(a[href*="polityka-prywatnosci"])
 tesa.com##.legal-message-wrapper
