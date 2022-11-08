@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.11.6.0
-! Last modified: Sun, 06 Nov 2022, 21:31 UTC+01:00
+! Version: 2022.11.8.0
+! Last modified: Tue, 08 Nov 2022, 21:20 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.11.6.0 aktualizacja: nie, 06 lis 2022, 21:31 UTC+01:00
+! v.2022.11.8.0 aktualizacja: wto, 08 lis 2022, 21:20 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -4065,6 +4065,7 @@ pracuj.pl#@#header > div:last-child:not([data-test])
 promocodius.com#@##cookie-btn
 puratos.pl#@##cookieBannerModal
 ranking.perspektywy.pl#@##cookieModal ~ .modal-backdrop
+selgros.pl#@##cookie_accept
 sonarhome.pl#@#.bg-facebook
 toteraz.pl#@##cookie-preferences
 tvp.pl#@#.tvp-cookie-overlay:not(body):not(html)
@@ -4110,6 +4111,7 @@ poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
 puratos.pl#@##cookieInfo:not(body):not(html)
+selgros.pl#@##cookie_accept:not(body):not(html)
 sklep-domwhisky.pl#@#.rodo-popup:not(body):not(html):not([style="display: block;"])
 sklep.winkhaus.pl,volcano.pl#@#aside[class*="cookie"]
 viasatexplore.pl,viasathistory.pl,viasatnature.pl,winnicalidla.pl#@#.privacy-policy:not(body):not(html)
