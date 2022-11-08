@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.11.8.0
-! Last modified: Tue, 08 Nov 2022, 21:20 UTC+01:00
+! Version: 2022.11.8.1
+! Last modified: Tue, 08 Nov 2022, 21:50 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.11.8.0 aktualizacja: wto, 08 lis 2022, 21:20 UTC+01:00
+! v.2022.11.8.1 aktualizacja: wto, 08 lis 2022, 21:50 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -774,7 +774,6 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 !
 !
 ! Specyficzne reguły ukrywające
-
 !dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,wspolczesna.pl,strefaedukacji.pl##.componentsArticleFoot__button--share.componentsArticleFoot__button
 ###chaty-channel-facebook_messenger
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
@@ -1846,6 +1845,7 @@ bytomski.pl###sp-bottom #sp-bottom4
 c-and-a.com##.footer__bg-02 > .container
 c-and-a.com##.util-add-margin-bottom.col-md-4.col-xs-12:nth-of-type(3)
 cad-akademia.pl##.und
+cadenas.de##.notification_bar_content > .item:not(.rss):not(.contact)
 cador.pl##.front-box-content-client
 cadsoft.pl##.header-menu li a[href*=".com/"]
 cadvision.pl###widget-5 > .description > p:last-child
@@ -3051,6 +3051,7 @@ focus.pl##.box-obserwuj-newsletter > a[href*="instagram.com/focus.pl/"], .social
 fokusfashion.com,kupbuty.com###tws_a_0
 foldruk.media.pl###socialmedia-top
 followrap.com###wh-widget-send-button
+fonia.app##.elementor-widget-pix-social-icons
 fonpizza.pl##.fb
 food.bolt.eu##.footer-section-right > .col > div:nth-of-type(1) > a
 foodcare.pl##.icons__helper
@@ -3879,7 +3880,7 @@ jawor-parkiet.pl###menur > div > div > a[href*=".com/"] > img
 jawor-parkiet.pl##.bookmarkThisShare
 jazzforum.com.pl##.menu_nav > a > img[src$="/images/uploads/doc/facebook-f.png"]
 jbzd.com.pl##.facebook-share
-jbzdy.cc,jbzdy.com.pl,jbzdy.pl##.btn-send-messenger, .fb-like
+jbzdy.com.pl,jbzdy.pl##.btn-send-messenger, .fb-like
 jchost.pl###footer .forth-widget-area.col-lg-3.col-md-3.col-sm-12.col-xs-12 > .footer_widget.widget_text
 jdm-option.pl##a > .tweeter_logo.logotype, a > .vimeo_logo.logotype
 jdm-option.pl##div.content_right > .box_logotypes
@@ -4161,7 +4162,6 @@ koscian.net##.fb_widget--static
 koscierzyna24.info##nav a[href*="youtube.com/user/koscierzyna24info/videos"]
 kosmetyczkowo.com.pl##div.widget-footer:nth-of-type(2) > .footer-heading > h3
 kosmetykizameryki.pl##.insta-top
-kosmicznapropaganda.pl##.themewing_instagram_widget
 kosmiczneujawnienie.com##.fusion-column-wrapper > div.imageframe-align-center:nth-of-type(n+5):nth-of-type(-n+8) > span > a > img[src*="baner"]
 kosmogadka.pl##.navigation__link > .fa-twitter, .navigation__link > .fa-users
 kosmonauta.net,odkrywamyzakryte.com,pabianice.tv,retronagazie.eu##.widget_fbw_id
@@ -5885,6 +5885,7 @@ polityczek.pl###likeFB
 polityczek.pl##.Menu.moduletable
 polityka.pl##.cg_article_toolbox_share, .cg_footer_share_icons
 politykabezpieczenstwa.pl##footer > div > div > div > .list-inline > li > a:not([href*="/feed"])
+polmax.com.pl###rightbar_6
 polnapol.com.pl##ul[aria-label="Pasek społecznościowy"] > li:nth-of-type(n+2):nth-of-type(-n+4)
 polnews.co.uk###navmenu > .menu > .item148
 polomarket.pl##.top_menu > .yt2
