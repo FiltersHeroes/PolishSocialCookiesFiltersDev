@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.11.8.1
-! Last modified: Tue, 08 Nov 2022, 21:31 UTC+01:00
+! Version: 2022.11.8.2
+! Last modified: Tue, 08 Nov 2022, 21:50 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.11.8.1 aktualizacja: wto, 08 lis 2022, 21:31 UTC+01:00
+! v.2022.11.8.2 aktualizacja: wto, 08 lis 2022, 21:50 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -111,7 +111,7 @@ aeg-powertools.eu,baldauf-kaese.de,bolec.info,dystans.org,esize.me,euautomation.
 aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
 aero7.pl,icube.pl,loveair.pl###ci-rodo
 aeropartner.pl,fors.pl,pks.zary.pl,webelite.pl###infobar
-aforyzmy-cytaty.pl,agencjacentrum.pl,alfianco.pl,atut.glogow.pl,avioner.pl,baza-krs.pl,bip.lsi.net.pl,carq.pl,czerkawski.com.pl,doniczki-poznan.pl,hotfrog.pl,hotpay.pl,kalkulator-so.pl,koraliki.pl,kupbilet.pl,kzkgop.com.pl,life.wigry.org.pl,luczak.pl,markoweszyby.pl,microhost.pl,moja-grecja.pl,nck.gov.pl,ogloszeniachojnice.com,playtube.pl,postrabbit.pl,r-gol.com,rj.metropoliaztm.pl,sgpm.krakow.pl,swiat-czekolady.com.pl,teachart.pl,upolujebooka.pl,xerima.com.pl,zaufanekliniki.pl,zawady.com.pl,zawady19.pl#?#.alert:-abp-contains(cookie)
+aforyzmy-cytaty.pl,agencjacentrum.pl,alfianco.pl,atut.glogow.pl,avioner.pl,baza-krs.pl,bip.lsi.net.pl,carq.pl,czerkawski.com.pl,doniczki-poznan.pl,hotfrog.pl,hotpay.pl,kalkulator-so.pl,koraliki.pl,kupbilet.pl,kzkgop.com.pl,life.wigry.org.pl,luczak.pl,markoweszyby.pl,microhost.pl,moja-grecja.pl,nck.gov.pl,ogloszeniachojnice.com,playtube.pl,postrabbit.pl,r-gol.com,rj.metropoliaztm.pl,sgpm.krakow.pl,swiat-czekolady.com.pl,upolujebooka.pl,xerima.com.pl,zaufanekliniki.pl,zawady.com.pl,zawady19.pl#?#.alert:-abp-contains(cookie)
 afryka.org##body > div[style="background: #911515;"]:nth-of-type(1)
 aftermarket.pl###part-cookies
 ag-complex.com.pl##.cookie__window
@@ -536,6 +536,7 @@ bylinowyraj.pl,czarnaroza.pl##[data-s^="cookies_"]
 bywajtu.pl,livesmarter.pl,luszczyce.pl,mazowia.eu###co15ie87a
 c-and-a.com##.cookie-note
 c.mi.com##.privacy_agreement
+cadenas.de##.cookie-consent-flyout
 cadvision.pl,ulapodurgiel.pl##.widget-dark-background
 cafago.com,tomtop.com##.m_privacy_statement
 campomoderngrill.pl,nasz-gabinet.pl##.message-window
@@ -1085,6 +1086,7 @@ fly.pl##div[data-cookiebar]
 flyordie.pl###eucc
 fogo.pl##.bottom.shadow.foobar-wrapper.small-white-arrow
 fon-pizza.skubacz.pl###cc--main[class]
+fonia.app##.pix-cookie-banner
 fonpizza.pl###cookie-notice
 foodjobs.pl##.b-modal
 foodjobs.pl,magazynauto.pl,sprawdzone.pl,swiatwiedzy.pl,twojstyl.pl##.rodoPopup
@@ -1678,6 +1680,7 @@ londynek.net##.jd-rodo, .jd-rodo-2
 longterm.pl##.cookie-consent-ghost
 lookimg.com###cookie-law-banner
 loomi.tv##.cookie-background
+lorino.pl##.lorada-cookies-popup
 lotaro.pl,polskazachwyca.pl,tanie-loty.com.pl###rodo_info_placeholder
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
@@ -2234,6 +2237,7 @@ polarsport.pl##.cookies-info-wrapper
 poligraf.com.pl###modal_wrap
 polityka.pl##.cg-cookie-warning
 politykainsight.pl##.cc_message
+polmax.com.pl##div[id^="st_notification_"]
 polnord.pl###polCookieInfo
 polona.pl##cbn-cookies
 polonika.at,tominet.com.pl#?#table:-abp-has(#cookieMessageText)
@@ -2689,6 +2693,7 @@ teamsnack.pl,vectra.pl##.l-cookies
 teatr-capitol.pl###spu-4768, #spu-bg-4768
 teatrkomedia.pl##.consent-holder
 teatrkomedia.pl##.cover
+tech-mate.pl##.l-cookie
 technologia-wody.pl###__next > footer ~ div.fixed[style]
 techpedia.pl##.skyf1
 teetres.com###_cookies_info
