@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.11.17.0
-! Last modified: Thu, 17 Nov 2022, 21:31 UTC+01:00
+! Version: 2022.11.20.0
+! Last modified: Sun, 20 Nov 2022, 13:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.11.17.0 aktualizacja: czw, 17 lis 2022, 21:31 UTC+01:00
+! v.2022.11.20.0 aktualizacja: nie, 20 lis 2022, 13:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -724,6 +724,7 @@ devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
 dhn.pl###ciasteczka-monit
 dia.com.pl,pkfpolska.pl,pkfszkolenia.pl###S_cookies
 diablo3.com##.Navbar-cookieCompliance
+diag.pl##.cookie-window
 dictionary.cambridge.org##body > .banner.notification
 diecezjaplocka.pl###modalKlauzulaInformacyjna
 dieta.pl,jestemfit.pl##.cookies__std
@@ -2694,6 +2695,7 @@ teknos.com###cookie-consent
 tektorado.com,vents-group.pl###cookies-accept-info
 teledyski.info###Cookieinfo
 telegazeta.pl##.tvp-covl-bg, .tvp-covl
+teleman.pl##.qc-cmp-cleanslate
 telemedi.co##.banner-cookies-2
 telewizjarepublika.pl###swsmodal, #swsoverlay
 telpol.net.pl##footer .clr > br ~ b
@@ -2781,6 +2783,7 @@ udemy.com##[data-module-id="eu-cookie-message"]
 ugporaj.pl#?##fancybox-wrap:-abp-contains(iod)
 uk.ign.com##div#policyNotice
 um.bielawa.pl###wiadomosccookie
+um.zarow.pl###bs_cookie_alert_container
 unifiedfactory.com###cookie-div
 unilink.pl##.windov_front_new_text
 unipress.waw.pl###disclaimer-text
@@ -3017,6 +3020,7 @@ zyro.com##.zyro-cookies
 ||cieszyn.pl/images/cn-ins.jpg
 ||cmp*.*.pl/*.js|$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
+||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
 ||confero.pl/js/cookies2013$script
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
 ||consent.dropbox.com^$subdocument
