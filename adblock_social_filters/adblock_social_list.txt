@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.11.20.2
-! Last modified: Sun, 20 Nov 2022, 17:31 UTC+01:00
+! Version: 2022.11.21.0
+! Last modified: Mon, 21 Nov 2022, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.11.20.2 aktualizacja: nie, 20 lis 2022, 17:31 UTC+01:00
+! v.2022.11.21.0 aktualizacja: pon, 21 lis 2022, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2183,6 +2183,7 @@ czestochowskie24.pl###text-32, .item-youtube
 czestochowskie24.pl,detektywprawdy.pl,greencanoe.pl,karointhekitchen.com,staszic.info,szema.eu,szklomal.eu###text-13
 cztbos.pl###tm-footer .slidecss
 czterylapysklep.com,okiemrolnika.pl,rynek.de,zdmikp.bydgoszcz.pl###likeboxbluestandardright
+czytajpl.pl##a[href^="https://www.facebook.com/czytajpl/"]
 czytajrzeszow.pl#?#div[id] ~ div[class^="szablon_break_poziom"] ~ div[id] + div > div:not(:empty):nth-of-type(-n+7):-abp-has(> a[target="_blank"] > img[src^="img/ico_"][src$="_off.png"])
 czytamyetykiety.pl##footer div + div > nav
 czytamyetykiety.pl##nav a[href*="instagram.com/"]
@@ -3140,6 +3141,7 @@ fritzbox.com.pl,kindersafe.pl,phenomena-light.pl,sportowybazar.pl###tws_i_100001
 fronda.pl##.rating-container
 frost-raven.com###footer > .icons > li:nth-of-type(1)
 fryda.com.pl##footer > div:nth-of-type(1) > div > div:nth-of-type(5)
+fryzjerskisklep.pl###sc-ico-4
 fryzomania.pl###social a[href*=".com/"]
 fuksiarz.pl##div[class*="SocialIcons-"]
 funclub.pl##a[class][title="Vimeo"], a[class][title="Linkedin"]
