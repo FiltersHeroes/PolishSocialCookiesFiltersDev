@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.11.21.0
-! Last modified: Mon, 21 Nov 2022, 01:31 UTC+01:00
+! Version: 2022.11.21.1
+! Last modified: Mon, 21 Nov 2022, 21:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.11.21.0 aktualizacja: pon, 21 lis 2022, 01:31 UTC+01:00
+! v.2022.11.21.1 aktualizacja: pon, 21 lis 2022, 21:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3342,8 +3342,8 @@ gnp.com.pl###pe-footer-mod .textwidget > p + p > a > img
 gocreate.pl##a[href*="facebook.com/Gocreate.Belchatow"]
 gofin.pl##.facebook-baner
 gog.com##.footer-microservice-socials
-gog.com#?#.order-article__btn._dropdown + .order-message__separator:-abp-contains(ORAZ)
-gog.com#?#.order-article__btn._dropdown:-abp-contains(udostępnij)
+gog.com#?#.order-article__btn._dropdown:-abp-has(a[href*="share"][gog-social])
+gog.com#?#.order-article__btn._dropdown:-abp-has(a[href*="share"][gog-social]) + .order-message__separator
 gogalaxy.com##.glx-footer__socials
 gogolow-narty.pl##div.col-md-4:nth-of-type(1)
 gohel.pl##.banery > .pole-banerowe
@@ -6205,6 +6205,7 @@ puritanpride.com.pl##.toggle-footer > p:nth-of-type(1) > a > img
 pwn.pl##.col-socials
 pwn.pl##.pages-socials a[href*=".com/"]
 pychotka.pl##a > img[src="no10/ffan.png"]
+pyrawkorei.pl###footerGroupLayer_pl ~ div a[href*=".com/"][target="_blank"]
 pyskowice.pl###instagram-button
 pyszne.pl##.footerdesktop.footer-nav
 pyszneeko.pl##.top_menu__contact > a[href*=".com/"]
