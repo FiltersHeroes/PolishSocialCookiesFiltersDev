@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.11.20.0
-! Last modified: Sun, 20 Nov 2022, 13:31 UTC+01:00
+! Version: 2022.11.22.0
+! Last modified: Tue, 22 Nov 2022, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.11.20.0 aktualizacja: nie, 20 lis 2022, 13:31 UTC+01:00
+! v.2022.11.22.0 aktualizacja: wto, 22 lis 2022, 01:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3020,6 +3020,7 @@ zyro.com##.zyro-cookies
 ||cieszyn.pl/images/cn-ins.jpg
 ||cmp*.*.pl/*.js|$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
+||cmp.quantcast.com/choice/*$script,domain=gry-online.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
 ||confero.pl/js/cookies2013$script
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
