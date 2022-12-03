@@ -226,7 +226,7 @@ eschenker.dbschenker.com##+js(ra, style, [style*="pointer-events"][style*="none"
 eschenker.dbschenker.com##.es-shell-global-scrollblock:style(overflow-y: auto !important;)
 eschenker.dbschenker.com##[style*="pointer-events"][style*="none"]:style(pointer-events: auto !important;)
 etsy.com###gdpr-single-choice-overlay
-etsy.com##.body-no-scroll:style(position: static !important; overflow: auto !important; padding-right: 0 !important;)
+etsy.com##html > body[class*="body-no-scroll"]:style(position: static !important; overflow: auto !important; padding-right: 0 !important;)
 fabrykacukiernika.pl##.rodo-on:style(overflow: auto !important;)
 fabrykacukiernika.pl##.rodo-popup
 farmacja.pl##+js(acis, jQuery, .rodo-modal)
