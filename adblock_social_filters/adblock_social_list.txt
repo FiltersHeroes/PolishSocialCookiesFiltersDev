@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.12.1.0
-! Last modified: Thu, 01 Dec 2022, 21:31 UTC+01:00
+! Version: 2022.12.3.0
+! Last modified: Sat, 03 Dec 2022, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.12.1.0 aktualizacja: czw, 01 gru 2022, 21:31 UTC+01:00
+! v.2022.12.3.0 aktualizacja: sob, 03 gru 2022, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2312,6 +2312,7 @@ ding.pl##.c-slider__list > div > a[href*="facebook.com/"]
 ding.pl##.c-slider__list > div > a[href*="instagram.com/"]
 ding.pl##figure ~ ul > li:nth-of-type(n+2) > button
 ding.pl#?#.c-slider__list div:-abp-has(a[href*="facebook.com/"], a[href*="instagram.com/"])
+dionp.pl###ramka-boczna
 diprocon.pl##.page-header > .contact > div
 direct-money-pl.cdn.ampproject.org,direct.money.pl##.author-social-list > li
 direct-sender.com###footer .col-lg-5.col-md-12.item
