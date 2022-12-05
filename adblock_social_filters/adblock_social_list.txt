@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.12.4.0
-! Last modified: Sun, 04 Dec 2022, 13:31 UTC+01:00
+! Version: 2022.12.5.0
+! Last modified: Mon, 05 Dec 2022, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.12.4.0 aktualizacja: nie, 04 gru 2022, 13:31 UTC+01:00
+! v.2022.12.5.0 aktualizacja: pon, 05 gru 2022, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5283,6 +5283,7 @@ nowosci-mp3.eu##.news-facebook
 nowosci-mp3.eu##img[src="/banners/subsyt.png"]
 nowykamieniarz.pl##.column-one-third > div.sidebar:nth-of-type(4)
 nowymarketing.pl##.link-tw, .link-li
+nowymoj.t-mobile.pl##div[class*="Footer_social_"]
 nowyobywatel.pl###fb-livebox, #w-sieci
 nowytomysl.pl##.navbar-nav > li:nth-of-type(n+2):nth-of-type(-n+3)
 nportal.no##.blue.bar:nth-of-type(8), .social-right-column, .blue.bar:nth-of-type(4)
@@ -5709,6 +5710,7 @@ pl##.slide-fb-out-div
 pl##.sm-panel .sm-messenger
 pl##a[href^="fb-messenger://share/"]
 pl-pl.fitatu.com##.fitatu-footer__social
+pl.abbott##.m-social-media--icons
 pl.admininfo.info##.hotwp-scroll-top
 pl.akinator.com##.share-box .text-center:empty
 pl.akinator.com#?#.share-box > p:-abp-contains(Podziel)
