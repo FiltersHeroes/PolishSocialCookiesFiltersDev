@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.12.5.0
-! Last modified: Mon, 05 Dec 2022, 01:31 UTC+01:00
+! Version: 2022.12.6.0
+! Last modified: Tue, 06 Dec 2022, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.12.5.0 aktualizacja: pon, 05 gru 2022, 01:31 UTC+01:00
+! v.2022.12.6.0 aktualizacja: wto, 06 gru 2022, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4941,6 +4941,7 @@ moodro.pl##.social-bar
 mooodstudio.com,nowywyszkowiak.pl,sferis.pl##.contact__social
 mora.com.pl###tptnfacebook
 mordownik.pl###rightbar-w #sidebar div.module:nth-of-type(3)
+morele.net##.news-social-icon:not([class*="comment"])
 morele.net##div.news-social-title:nth-of-type(1)
 moremoi.com##.footer-menu .col-xs-12.col-md-2.col-sm-4.col-lg-offset-1.col-lg-2
 morfikov.github.io##a.social__link:not([href*="stack"], [href*="git"], [href*="mailto"])
@@ -5469,7 +5470,7 @@ oswiecim.pl##.btn[href*="facebook.com/"], .btn[href*="youtube.com/"], .btn[href*
 osworld.pl##.td-s-s-64-meetup
 osworld.pl##.td-social-wrap-64.td-social-wrap.td_block_wrap > .block-title
 oszczedzarka.co.uk##.row > .engine-block.small-12.large-3 > center > a > img
-oszczedzarka.co.uk.textwidget > p > img[src="/img/ico/skype.png"]
+oszczedzarka.co.uk##.textwidget > p > img[src="/img/ico/skype.png"]
 oticon.pl###footer .section-one > .rich-text.component > .component-content
 otmetobuwie.pl##.dark_blue.button3_sub
 otoagent.pl##.layout__footer--socialsWrapper
@@ -6619,6 +6620,7 @@ shell.pl###page-footer-column-4-content
 shield.nvidia.pl###socialMedia-desktop
 shindaiwa.pl##.footer-r .su-row:nth-child(2) > .su-column:nth-child(2)
 shop.housedetailing.eu##footer #menu_buttons
+shop.itcom.com.pl###top-social
 shop.proenter.eu##footer div.col-md-3:nth-of-type(4)
 shopee.pl##.navbar > div[class]:first-child > div:nth-last-child(-n+2)
 shopee.pl##.product-social-link
@@ -6689,6 +6691,7 @@ skalnik.pl##.footerAdditional__social-wrapper
 skaner.p.lodz.pl##div.mb-lg-0.mb-5.col-md-4:nth-of-type(2)
 skanowanie.xyz#?##container > div[id^="element_"][id$="_content"]:-abp-has(a[href*="facebook.com/skanowanie.xyz/"], a[href*="instagram.com/wirtualnespacerypoznan/"])
 skapiec.pl##.footer-menu > li:nth-of-type(5)
+skapiec.pl##.footer__bar__media__item__link
 skapiec.pl##section.footer__main__section:nth-of-type(5)
 skarzysko24.pl##.custom > .social
 skarzysko24.pl##footer center > a > .nspImage, .sp-tweet
