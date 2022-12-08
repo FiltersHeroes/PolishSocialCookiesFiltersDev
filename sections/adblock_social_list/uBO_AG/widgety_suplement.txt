@@ -1,5 +1,4 @@
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > strong:has-text(/^Podziel się$/):upward(2)
-perfekcyjnawdomu.pl##.a-neuron-share-button:not([class*="mail"]):upward(div)
 30minut.pl##.gora_ikony_nk, .gora_ikony_fb:style(visibility: hidden !important;)
 45minut.pl##+js(ra, href, .carousel-inner a[href="https://www.facebook.com/45minutpl"], stay)
 abcfirany.pl##+js(ra, href, #BanneryAnimacjaPrzewijana > #scrlnr1 > a[href="https://abcfirany.pl/reklama-b-4.html"], stay)
@@ -55,6 +54,7 @@ naklejkolandia.pl##+js(ra, href, #sliderBox ul > li > a[href^="https://www.faceb
 odblask.com.pl##.owl-carousel a[href*="facebook.com/"]:style(pointer-events: none !important;)
 odkryjpomorze.pl##+js(ra, href, map[name="Map"] > area:nth-of-type(1), stay)
 odkryjpomorze.pl##map[name="Map"] > area:nth-of-type(1):remove()
+perfekcyjnawdomu.pl##.a-neuron-share-button:not([class*="mail"]):upward(div)
 pl##.footer-container div .center.section-title > span:has-text(Znajdziesz nas na)
 pl.pandora.net###socialMediaFooter .leftMediaLinkFooter:style(visibility: hidden)
 plejada.pl##.detailContentWrapper .contentShareLeft .fb_share:style(background: #0000 !important;)
