@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.12.6.0
-! Last modified: Tue, 06 Dec 2022, 01:31 UTC+01:00
+! Version: 2022.12.8.0
+! Last modified: Thu, 08 Dec 2022, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.12.6.0 aktualizacja: wto, 06 gru 2022, 01:31 UTC+01:00
+! v.2022.12.8.0 aktualizacja: czw, 08 gru 2022, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1478,6 +1478,7 @@ beardrust.pl,goldenmarketing.pl,klimacold.com.pl###ssb-btn-3
 beautikon.com##div.grid12-3.mobile-grid:nth-of-type(4)
 beautyduty.pl###footer #text-5
 beautyinspiration.pl###footer .last.widget-3
+beautysupply.pl##.footer a[href*="facebook.com/"]
 bebetalent.pl#?#h3.hometitle:nth-of-type(3):-abp-contains(Instagram)
 beck.pl##.footer-column > #text-5
 bedekodzic.pl,chemik-police.com###footer > .social
@@ -2868,6 +2869,7 @@ exerim.pl##.socialSubscribe, #sidebar > article:nth-of-type(2) > h3
 expander.pl##.footer-contact > h3.footer__header:nth-of-type(2)
 expansa.pl##.spolecznosciowki
 experiencecorner.com###fb-fixed-btn, .fb-messengermessageus
+experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
 expressbus.info##footer > .footer-content > .row > .float-left
 expressilustrowany.pl###boks-facebook
 expresspaslek.pl##.col-socialshare
@@ -5626,6 +5628,9 @@ pepsi.pl###socialBox
 pepsieliot.com##.soc-buttons > a:nth-of-type(-n+5)
 pepsieliot.com##.soc-slider
 perfectlines.eu##a.top_link:nth-of-type(1)
+perfekcyjnawdomu.pl##.a-neuron-share-button:not([class*="mail"])
+perfekcyjnawdomu.pl##.instagram-feed
+perfekcyjnawdomu.pl##.joinchat
 perfekcyjnawdomu.pl##div.bok.box2:nth-of-type(2), .blsdk-follow
 perfumeriatop10.pl###social_block_module
 perfumeriatop10.pl##.perfumeria-insta
@@ -5635,6 +5640,7 @@ perkoz.com.pl###footer .list-topbar
 perkoz.com.pl##div:nth-of-type(2) h1.footer-title-rk:nth-of-type(2)
 perkozparts.pl#?#.row.bottom-footer div.f-grid-3:nth-of-type(3):-abp-contains(Dołącz do nas)
 perlamazur.pl,urbanvegan.pl,virtualmedia.pl##.face
+perspektywy.pl##aside > div.moduletable > p > a[href*=".com/"] > img[src*="banners"]
 perwoll.pl#?#.component-meta-tiles > .row > ul > li:nth-of-type(1):-abp-contains(Instagramie)
 peryskop.studio##a[href*="facebook.com/peryskop.gdansk/"][id], a[href*="instagram.com/peryskop.studio/"][id]
 petner.com.pl###footer-container section .bt_bb_shape_circle.bt_bb_icon
@@ -5817,6 +5823,7 @@ pocisk.org##.right-panel-social, .two_half
 poczta-cyfrowa.pl##div.socialmedia-icon
 pocztapolskarodzina.pl###social-i
 podaj.to##.facebook-box-container, .bottom-fb-popup
+podarujwigilie.pl##footer a[href*="facebook.com/"]
 podatki.gov.pl###shareDropdownButton
 podcasty.polskieradio.pl##.images__social-media
 podemski.info##.footer-right
@@ -6405,6 +6412,7 @@ rima-polska.pl##.footer-small-social > a:not([href*="mailto:"])
 rimset.pl###s5_fb
 ristorio.com##.fusion-main-menu .fusion-icon-only-link
 ritlabs.com##footer .right-aside.col-md-4 > h5
+rivieraparkmarvipol.pl##.messenger
 rkb.pl##.fb-top.foobar-wrapper
 rksrakow.pl##.mfindus.container
 rmf24.pl##.FooterLinksSpolecznosc
