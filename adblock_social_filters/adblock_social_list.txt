@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.12.11.0
-! Last modified: Sun, 11 Dec 2022, 21:31 UTC+01:00
+! Version: 2022.12.12.0
+! Last modified: Mon, 12 Dec 2022, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.12.11.0 aktualizacja: nie, 11 gru 2022, 21:31 UTC+01:00
+! v.2022.12.12.0 aktualizacja: pon, 12 gru 2022, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -817,6 +817,9 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 5mindlazdrowia.pl##.footer-widget-2
 5mindlazdrowia.pl##.instagram-grid
 7dni.pila.pl##a[href*="fb.com/twoje7dni"]
+7more7.com##.insta_photos
+7more7.com##.LS_InstagramContainer
+7more7.com##.LS_socialIcon
 7oczek.pl##.userfooter .full > p > a
 10minut.xyz###footerwrap > div > .row > div.col-lg-4:nth-of-type(2)
 20lat.interia.pl##.fb-share-btn
@@ -5666,6 +5669,8 @@ piaggio-polska.pl##a[class*="ion-social-"]
 piaseckigagala.pl##.links > a[href*="linkedin.com/"]
 piaseczno.eu#?#.td_block_widget.td_block_text_with_title.td_block_wrap:-abp-contains(Obserwuj)
 pib-nio.pl##.social-links.header-social
+piekary.info,chorzowski.pl,tarnowskiegory.info,rudzianin.pl,ngs24.pl,nowinytyskie.pl,bytomski.pl,24kato.pl,twojknurow.pl,zabrzenews.pl,24zaglebie.pl##.article__author__contact__socials > a:not([href*="mailto:"])
+piekary.info,chorzowski.pl,tarnowskiegory.info,rudzianin.pl,ngs24.pl,nowinytyskie.pl,bytomski.pl,24kato.pl,twojknurow.pl,zabrzenews.pl,24zaglebie.pl##.stickySocialIcon > a:not([href*=".xml"])
 piekary.info,tarnowskiegory.info##.stickySocialIcon
 pieluszkarnia.pl##div[class*="platnosc"] > a[href*=".com/"] > img
 pietro-wyzej.pl##li.nav-item--icon.nav-item:nth-of-type(n+9):nth-of-type(-n+10)
