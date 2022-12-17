@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.12.14.1
-! Last modified: Wed, 14 Dec 2022, 01:31 UTC+01:00
+! Version: 2022.12.17.0
+! Last modified: Sat, 17 Dec 2022, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.12.14.1 aktualizacja: śro, 14 gru 2022, 01:31 UTC+01:00
+! v.2022.12.17.0 aktualizacja: sob, 17 gru 2022, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2981,6 +2981,8 @@ filmweb.pl##.socialSection__container
 filmweb.pl##button.socialButton:not([data-value="copyToClipboard"])
 filozofiadlajanuszy.pl##.entry-content > .su-button-center:nth-of-type(1) > .su-button-wide.su-button-style-default.su-button
 filozofiasmaku.pl,garneczki.pl,littletownshoes.com,namasce.pl,refreszing.pl,rogalikblog.pl,rytmynatury.pl,stomatologianews.pl,trendyokulary-blog.pl##.jr-insta-slider
+filterlogic.pl##.col-socials
+filterlogic.pl##.facebook
 finanse.wp.pl##a[title="Instagram Money.pl"]
 finanse.wp.pl#?#div[data-st-area="gallery-suggested"] span:-abp-contains(/^lub$/)
 finansenaobcasach.info###text-4 > .widgettitle
@@ -9076,9 +9078,8 @@ zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .
 @@/social_media_$domain=mazury.travel|nuorder.pl
 @@/tiktok/*/static/images/share-$image,domain=tiktok.com
 @@/wp-content/plugins/fwdu3dcar/*$image,~third-party
-@@||account.kaufland.com/user-ui-new/assets/img/social/$image,domain=account.kaufland.com
-@@||account.kaufland.com/user-ui-new/assets/img/v*/icons/iconEmail$image,domain=account.kaufland.com
 @@||apis.google.com/js/platform.js
+@@||assets.allegrostatic.com/metrum/icon/share-*.svg$image,domain=allegro.pl
 @@||cdn.whatnext.pl/uploads/*/*/integracja-facebook.jpg$image
 @@||ceneo.pl/Content/img/icons/logos/Facebook-simple$image
 @@||cyberpunk.net/build/images/home/icon-social-forums-$image,domain=cyberpunk.net
