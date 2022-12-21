@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2022.12.17.0
-! Last modified: Sat, 17 Dec 2022, 01:31 UTC+01:00
+! Version: 2022.12.21.0
+! Last modified: Wed, 21 Dec 2022, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2022.12.17.0 aktualizacja: sob, 17 gru 2022, 01:31 UTC+01:00
+! v.2022.12.21.0 aktualizacja: śro, 21 gru 2022, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -773,6 +773,12 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 !
 !
 ! Specyficzne reguły ukrywające
+!pcsupport.lenovo.com###confirmit-feedback
+!pcsupport.lenovo.com##.icon-l-ytb
+!pcsupport.lenovo.com##footer > .container > div.row:nth-of-type(1) > div > h3
+!pcsupport.lenovo.com##footer > .container > div.row:nth-of-type(1) > div > h3 + ul > li a
+!support.lenovo.com##footer > .container > .row:first-child > div:first-child > h3:first-child
+!support.lenovo.com##footer > .container > .row:first-child > div:first-child > ul > li > a
 ###chaty-channel-facebook_messenger
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ~pl###chaty-channel-facebook_messenger:lang(pl)
@@ -4405,6 +4411,7 @@ lenalighting.pl##.jj_sl_linkedin, .jj_sl_custom2
 lenartowiczclinic.pl##footer > div > .row > .text-right > h2
 lencze.eu##.item-185
 lenovo.com##.m-footerSocial__Icon:not(.footerForumsIcon)
+lenovo.com,~www.lenovo.com##h3[t="Stay in touch|Stay in touch"], h3[t="Stay in touch|Stay in touch"] + ul
 lenovozone.pl##.social > li > a
 lenovozone.pl##.social > li:nth-of-type(5) > a[href*="linkedin.com/company/lenovo"], .social-right-widget
 leoexpress.com##footer ul > li > a[target="_blank"]
@@ -4981,6 +4988,7 @@ motoperfekt.pl,pandawanda.pl##.userfooter > .row > table
 motopoznan.com##.newshive-social-icons-wrapper > div
 motorlublin.eu###sidebar > div.box:nth-of-type(n+7):nth-of-type(-n+9)
 motormag.pl##a[href*="facebook.com/magazynmotor"], a[href*="instagram.com/motormagpl/"], a[href*="youtube.com/user/motoCentrumFM"], a[href*="plus.google.com/+MagazynMot%C3%B3r"]
+motorola-global-pl.custhelp.com##.body-social-media-icons
 motorola.com##.vtex-store-footer-2-x-footerLayout .vtex-flex-layout-0-x-flexRow--menu-row:nth-of-type(2) > section > div > .items-stretch:nth-of-type(2) > .flex-column
 motoryzacja.znajdzto.pl##.add-to-all > .add-to
 motostacja.com##a > img[alt="Facebook"],a > img[alt="Inst"], a > img[alt="Youtube"]
@@ -5603,10 +5611,6 @@ pccentre.pl,pks.bydgoszcz.pl,pksszczecin.info###zak_fb
 pcformat.pl###slider-track
 pcoutlet.pl##.social-conteiner
 pcprojekt.pl##.theblogwidgets
-pcsupport.lenovo.com###confirmit-feedback
-pcsupport.lenovo.com##.icon-l-ytb
-pcsupport.lenovo.com##footer > .container > div.row:nth-of-type(1) > div > h3
-pcsupport.lenovo.com##footer > .container > div.row:nth-of-type(1) > div > h3 + ul > li a
 pct24.pl##a.fbfoot
 pct24.pl,pp24.info.pl##.socialtop, .socmed
 pcworld.pl##.navbar-right.navbar-nav.nav li.nav-item:nth-of-type(3)
@@ -7128,8 +7132,7 @@ suponwroclaw.pl##.urlfacebook
 support.garmin.com##.sp__quick-links__social-links
 support.kaspersky.com##.footerLinkWrap:nth-of-type(1) p:nth-of-type(n+7):nth-of-type(-n+9)
 support.kaspersky.com##.socials-b2b
-support.lenovo.com##footer > .container > .row:first-child > div:first-child > h3:first-child
-support.lenovo.com##footer > .container > .row:first-child > div:first-child > ul > li > a
+support.lenovo.com##.footer-top > ul.list-inline > li > a
 support.mozilla.org##.mzp-c-footer-links-social
 support.wdc.com##div.footer-upper:nth-of-type(4)
 surfachem.pl##ul.main-footer__row__right-col__list > li.main-footer__row__right-col__list-item
