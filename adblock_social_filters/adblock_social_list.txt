@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.1.9.2
-! Last modified: Mon, 09 Jan 2023, 22:19 UTC+01:00
+! Version: 2023.1.9.3
+! Last modified: Mon, 09 Jan 2023, 22:49 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.1.9.2 aktualizacja: pon, 09 sty 2023, 22:19 UTC+01:00
+! v.2023.1.9.3 aktualizacja: pon, 09 sty 2023, 22:49 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -195,6 +195,7 @@ pl##.facebook-popup
 ##.footer-box.footer-social-media
 ##.sh-copyrights-social
 ##.td-social-icon-wrap a:not([href*="feed" i]):not([href*="rss" i]):not([href^="mailto:" i])
+##a[href*="://plus.google.com/"]:lang(pl)
 ##section[aria-label="media społecznościowe"]
 ~pl###bossbyte_slide:lang(pl)
 ~pl###wysZakladki > #fb:lang(pl)
@@ -8979,6 +8980,7 @@ onet.pl#?#p.hyphenate:-abp-contains(Polub)
 onet.pl,~www.onet.pl##.page-share-wrap > .page-share, .share--block
 pclab.pl##.social-links, .social-container
 pilot.wp.pl#?#div > h4 ~ ul ~ h4:nth-of-type(2):-abp-contains(Więcej informacji)
+pl##a[href*="://plus.google.com/"]
 poczta.onet.pl##.icon-ico_menu_facebook
 polski-sport.pl###td_social_sharing_article_bottom
 polski-sport.pl###td_social_sharing_article_top
