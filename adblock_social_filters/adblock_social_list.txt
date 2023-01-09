@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.1.9.1
-! Last modified: Mon, 09 Jan 2023, 21:37 UTC+01:00
+! Version: 2023.1.9.2
+! Last modified: Mon, 09 Jan 2023, 22:19 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.1.9.1 aktualizacja: pon, 09 sty 2023, 21:37 UTC+01:00
+! v.2023.1.9.2 aktualizacja: pon, 09 sty 2023, 22:19 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -773,12 +773,6 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 !
 !
 ! Specyficzne reguły ukrywające
-!pcsupport.lenovo.com###confirmit-feedback
-!pcsupport.lenovo.com##.icon-l-ytb
-!pcsupport.lenovo.com##footer > .container > div.row:nth-of-type(1) > div > h3
-!pcsupport.lenovo.com##footer > .container > div.row:nth-of-type(1) > div > h3 + ul > li a
-!support.lenovo.com##footer > .container > .row:first-child > div:first-child > h3:first-child
-!support.lenovo.com##footer > .container > .row:first-child > div:first-child > ul > li > a
 ###chaty-channel-facebook_messenger
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ~pl###chaty-channel-facebook_messenger:lang(pl)
@@ -814,7 +808,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 4lapki.eu##a[href*="facebook.com/bielsko4lapki/"] > img, a[href*="twitter.com/Bielsko4Lapki"] > img
 4lifedirect.pl##.info-wrap > div:last-child > a[href*=".com/"]
 4lifedirect.pl##body > .container div.white.header4:nth-of-type(1), a > img[src="/Content/uploaded/images/fcbk.png"]
-4media.com##.social > .facebook
+4media.com,sadyogrody.pl##.social > .facebook
 4mens.pl##.text_share
 4programmers.net##.footer-bubble a[href*="facebook.com/4programmers.net"]
 4run.pl##.headerSocial, .footerSocialMedia
@@ -870,7 +864,7 @@ abcjanikowo24.pl,bielskirynek.pl,brodnica365.pl,bydgoszcz24.pl,chelmza365.pl,cho
 abcksiegarnia.pl,aptekadomlekow.pl,dlapacjenta.pl,drewlandia.com.pl,e-drogeria.com,e-zikoapteka.pl,gwp.pl,krzysztonjan.com,sweetdecor.pl,szybkikoszyk.pl,tastestore.pl###side_widget
 abcmotoru.com.pl###Info-box-wrap-7180
 abcsurf.pl##.modFooter_Social
-abczdrowie.pl,allani.pl,architekturaibiznes.pl,autocentrum.pl,autokult.pl,channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,dobramama.pl,dobregry.pl,dobreprogramy.pl,domnowoczesny.com,domodi.pl,donashop.eu,dzwignice.info,e-pasaz.com,echirurgia.pl,echotygodnik.info,estyl.pl,extradom.pl,filmaster.com,filterlogic.pl,fotoblogia.pl,gadzetomania.pl,galeria-pestka.com,gls-group.eu,gorlice.in,gorlice.tv,grene.pl,hardreset.info,homebook.pl,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,kafeteria.pl,kafeteria.tv,kardiolo.pl,kazimierzdolny.pl,komorkomania.pl,krokdozdrowia.com,kuponrabatowy.net,kwiaciarniaina.com,limanowa.in,lubelska.tv,luxlux.pl,medycyna24.pl,mixer.pl,money.pl,neon24.info,nerwica.com,netim.pl,nocowanie.pl,nowyekran24.com,o2.pl,open.fm,parenting.pl,pinger.pl,pl.futbol24.com,podstacja.com,pogodnie.pl,polskieradio.pl,polygamia.pl,prawo-budowlane.info,pudelek.pl,pudelek.tv,pudelekx.pl,pytamy.pl,radiomalbork.fm,rorek.eu,sacz.in,sadzonkiborowki.com,samosia.pl,shop.massdnm.com,siatka.org,slonskyradio.eu,sluzebnosc.info,smaczneblogi.pl,smog.pl,snobka.pl,so-magazyn.pl,stoprocent.com,superauto.pl,swmarcin-jarocin.com,tarnowska.tv,testwiedzy.pl,totalmoney.pl,tvdami.eu,vibez.pl,vpolshchi.pl,wakacje.pl,warsztatowiec.info,wejherowo24.info,woblink.com,wp.pl##.facebook
+abczdrowie.pl,allani.pl,architekturaibiznes.pl,autocentrum.pl,autokult.pl,channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,dobramama.pl,dobregry.pl,dobreprogramy.pl,domnowoczesny.com,domodi.pl,donashop.eu,dzwignice.info,e-pasaz.com,echirurgia.pl,echotygodnik.info,estyl.pl,extradom.pl,filmaster.com,filterlogic.pl,fotoblogia.pl,gadzetomania.pl,galeria-pestka.com,gls-group.eu,gorlice.in,gorlice.tv,grene.pl,hardreset.info,homebook.pl,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,kafeteria.pl,kafeteria.tv,kardiolo.pl,kazimierzdolny.pl,komorkomania.pl,krokdozdrowia.com,kuponrabatowy.net,kwiaciarniaina.com,limanowa.in,lubelska.tv,luxlux.pl,medycyna24.pl,mixer.pl,money.pl,neon24.info,nerwica.com,netim.pl,niepodlegla.gov.pl,nocowanie.pl,nowyekran24.com,o2.pl,open.fm,parenting.pl,pinger.pl,pl.futbol24.com,podstacja.com,pogodnie.pl,polskieradio.pl,polygamia.pl,prawo-budowlane.info,pudelek.pl,pudelek.tv,pudelekx.pl,pytamy.pl,radiomalbork.fm,rorek.eu,sacz.in,sadzonkiborowki.com,samosia.pl,shop.massdnm.com,siatka.org,slonskyradio.eu,sluzebnosc.info,smaczneblogi.pl,smog.pl,snobka.pl,so-magazyn.pl,stoprocent.com,superauto.pl,swmarcin-jarocin.com,tarnowska.tv,testwiedzy.pl,totalmoney.pl,tvdami.eu,vibez.pl,vpolshchi.pl,wakacje.pl,warsztatowiec.info,wejherowo24.info,woblink.com,wp.pl##.facebook
 abersklep.pl,commplace.pl,eplakaty.pl,porta.com.pl,unisono.eu##.social-box
 abonament.alfaromeo.pl##.watch-us__headline
 abrakadabra.sklep.pl##.social a:not([href*="newsletter"])
@@ -2201,7 +2195,6 @@ dadhero.pl##a[href*="/dadheropl" i] > img[src^="/static/media/"]
 daemon-tools.cc##.feedback > .footer-link-col > h3
 dagmara.pl,pachniolek.pl,sklep.sokomedica.pl,zielonaesencja.pl###links_footer_2
 dagrasso.pl##footer > a[href="#"]:nth-of-type(1)
-dailyvibes.pl##[aria-label="Social bar"]
 dailyvibes.pl#?#.font_2 > span > span > span:-abp-contains(nas:)
 dajar.pl,epaka.pl,pizzahut.pl,vivus.pl###footer a[href*="facebook.com/"]
 dajar.pl,monitoring-system.pl##.yt-icon
@@ -2598,7 +2591,6 @@ ea.com##ea-social-links
 earlymath.pl##aside > div:nth-of-type(3) > a > img
 eataway.com###footer > .container > .row > div:nth-of-type(4)
 ebilet.pl##.eb-footer__copyright-and-social > div > a:not([href="/newsletter"])
-ebilet.pl##.second-col
 ebizpro.pl##.contact-block--footer.contact-block
 ebooki.nowaera.pl##.eb-footer-column__social-link
 ebuciki.com###inst
@@ -4656,7 +4648,7 @@ mbank.pl##.fr.community
 mbp.opole.pl##.footer-cols-wrapper > .panel-grid-cell:nth-of-type(n+3) > .panel-cell-style.footer-col
 mbp.szczecin.pl#?#.elementor-inner-column.elementor-element[data-settings*="background"][data-settings*="classic"] > .elementor-element-populated.elementor-column-wrap:-abp-has(h4:-abp-contains(/^Bądź na bieżąco$/))
 mbwesolek.pl,onetech.pl##header a[href*="facebook.com/"]
-mbwesolek.pl,stalowelove.com.pl##header a[href*="instagram.com/"]
+mbwesolek.pl,slupsk.pl,stalowelove.com.pl##header a[href*="instagram.com/"]
 mckenzie.pl##.rssocial-twitter-icon
 mckkatowice.pl##.soc > a
 mckkatowice.pl,musicboxtv.pl,ricoh.pl,zak.edu.pl##.social a
@@ -5395,7 +5387,6 @@ omegaregen.pl###instafeed
 onebid.pl##footer .footer-nav :nth-of-type(3) > h2
 onepiece.com.pl#?#.column.wide.four > .segments.ui:-abp-contains(Facebook)
 onet.pl##[class*="DetailAuthors_socialLinksWrap_"]
-onet.pl##div[class^="Authors_socialLinksWrap"]
 onet.pl##div[data-gtm-social]
 onet.pl#?#div[class^="_"] > span[class^="_"]:-abp-contains(Podziel się tym artykułem)
 onet.pl,plejada.pl##.whatsapp
@@ -5975,9 +5966,8 @@ portalkryminalny.pl##.art > .row > div > .pull-right:nth-last-of-type(1)
 portalkujawski.pl###sp-right1
 portalmmo.pl##.nv-ico-fb, .soc-icons > li:nth-of-type(2)
 portalpszczelarski.pl##.element.col-2-7:nth-of-type(2)
-portalspozywczy.pl##.right > .inline > li:nth-of-type(2)
-portalspozywczy.pl##.tabs-2.tabs > .navi > a:nth-of-type(-n+4)
-portalspozywczy.pl,sadyogrody.pl#?#.tabs-2.tabs > .panes > .one:-abp-contains(/(Facebook|LinkedIn)/)
+portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .navi > a:nth-child(5)
+portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .tabs-1 > .panes > .one:nth-child(5)
 portaltatrzanski.com##.moduletable.m-d
 portaltenisowy.info##.media-info-block
 portalzp.pl##.baner-yt
@@ -6488,7 +6478,9 @@ sadnowoczesny.pl,warzywaiowoce.pl##.icon-facebook-logo
 sadownictwo.com.pl###socialBox > a:nth-child(-n+5)
 sadownictwo.com.pl##div.widthFull.isotopeGrid-item, .width4.isotopeGrid-item
 sadurscy.pl##.widget_vanda_facebook_page, .widget_vanda_socialize
+sadyogrody.pl###col2 .tabs.s2 .social:not(.mail):not(.rss)
 sadyogrody.pl##.twitter.social
+sadyogrody.pl#?##col2 .tabs.s2 .navi + .panes:-abp-has(> .one:not(:nth-child(1)):not(:nth-child(5)))
 saffa.shoplo.com##.navbar-nav.nav > li:nth-of-type(n+7):nth-of-type(-n+9)
 safivision.pl##li[id^="menu-item"][class*="custom"] > a[href*=".com/"]
 saga.info.pl##div.col-sm-3:nth-of-type(2) > ul > li > table, #facebook_side
@@ -6849,6 +6841,8 @@ sluchdladziecka.pl##.soc > ul > li > a[href*=".com/"]
 sluchmed.pl##.social-icon-youtube
 sluchmed.pl##a[href*="hfacebook.com/sluchmed/"] > img
 sluchmed.pl##a[href*="youtube.com/user/sluchmed"] > img
+slupsk.pl##header a[href*="youtube.com/"]
+slupsk.pl#?#.topBar > .rightCol > ul:-abp-has(> li > a[href*="facebook.com/"])
 slusarczyk-bmw.pl###musli > li:nth-child(-n+2)
 sluzby-ratownicze.pl###menu-social-menu-items
 sluzby-ur.pl##.wysun_facebooka.fl
