@@ -1,3 +1,9 @@
+sadyogrody.pl##.social > .facebook
+sadyogrody.pl###col2 .tabs.s2 .social:not(.mail):not(.rss)
+sadyogrody.pl#?##col2 .tabs.s2 .navi + .panes:-abp-has(> .one:not(:nth-child(1)):not(:nth-child(5)))
+slupsk.pl##header a[href*="youtube.com/"]
+slupsk.pl##header a[href*="instagram.com/"]
+slupsk.pl#?#.topBar > .rightCol > ul:-abp-has(> li > a[href*="facebook.com/"])
 niepodlegla.gov.pl##.facebook
 2plus3d.pl###menuItem_facebook
 2smaki.pl###text-35
@@ -5160,9 +5166,8 @@ portalkryminalny.pl##.art > .row > div > .pull-right:nth-last-of-type(1)
 portalkujawski.pl###sp-right1
 portalmmo.pl##.nv-ico-fb, .soc-icons > li:nth-of-type(2)
 portalpszczelarski.pl##.element.col-2-7:nth-of-type(2)
-portalspozywczy.pl##.right > .inline > li:nth-of-type(2)
-portalspozywczy.pl##.tabs-2.tabs > .navi > a:nth-of-type(-n+4)
-portalspozywczy.pl,sadyogrody.pl#?#.tabs-2.tabs > .panes > .one:-abp-contains(/(Facebook|LinkedIn)/)
+portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~div[class*="box"] .tabs-1 > .panes > .one:nth-child(5)
+portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~div[class*="box"] .navi > a:nth-child(5)
 portaltatrzanski.com##.moduletable.m-d
 portaltenisowy.info##.media-info-block
 portalzp.pl##.baner-yt
