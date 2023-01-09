@@ -1,5 +1,4 @@
 !tvnmeteo.tvn24.pl##.socialMediaContainer
-pl##a[href*="://plus.google.com/"]
 !~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article > div[class] > .article--title + div[class] > div[class] > div[class]:-abp-has( > div[class] > strong[class]:-abp-contains(/^Podziel się$/))
 ~masterchef.tvn.pl,tvn.pl,tvnturbo.pl,~www.tvn.pl##.socialPanel, .facebook_share, .gplus_share, .twitter_share, .socialFeedbackFooter, .header-card-social-item
 ~poczta.wp.pl,wp.pl,~www.wp.pl##.facebook-share, .tweeter-share
@@ -72,6 +71,7 @@ onet.pl#?#p.hyphenate:-abp-contains(Polub)
 onet.pl,~www.onet.pl##.page-share-wrap > .page-share, .share--block
 pclab.pl##.social-links, .social-container
 pilot.wp.pl#?#div > h4 ~ ul ~ h4:nth-of-type(2):-abp-contains(Więcej informacji)
+pl##a[href*="://plus.google.com/"]
 poczta.onet.pl##.icon-ico_menu_facebook
 polski-sport.pl###td_social_sharing_article_bottom
 polski-sport.pl###td_social_sharing_article_top
