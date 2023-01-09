@@ -1,6 +1,5 @@
 ###ciacho_bar:not(body):not(html)
 ###ciacho_inf
-pl###cookieWarningNew:not(body):not(html)
 ###ciasteczka-komunikat:not(body):not(html)
 ###Ciasteczka:not(body):not(html)
 ###ciasteczka_info:not(body):not(html)
@@ -408,6 +407,7 @@ pl###cookieWarning:not(body):not(html)
 pl###cookiewarning:not(body):not(html)
 pl###cookieWarningLayout:not(body):not(html)
 pl###cookieWarningMessage:not(body):not(html)
+pl###cookieWarningNew:not(body):not(html)
 pl###cookieWrap:not(body):not(html)
 pl###cookieWrapper:not(body):not(html)
 pl###CPolicy:not(body):not(html)
@@ -768,8 +768,8 @@ pl##div.cookieKontener
 pl##div[class^="app_gdpr"]
 pl##div[class^="pea_cook_wrapper"]
 pl##div[id^="ck_dsclr"][class*="ck_dsclr"]
-pl##div[id^="iai_cookie"][class*="iai_cookie"]
 pl##div[id^="cookemessage"]
+pl##div[id^="iai_cookie"][class*="iai_cookie"]
 pl##html:not([style*="overflow"]) #cadre_alert_cookies
 pl##iframe[class*="Cookie"]
 pl##iframe[class*="cookie"]
