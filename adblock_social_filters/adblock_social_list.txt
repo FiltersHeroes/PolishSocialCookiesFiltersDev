@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.1.10.0
-! Last modified: Tue, 10 Jan 2023, 01:31 UTC+01:00
+! Version: 2023.1.11.0
+! Last modified: Wed, 11 Jan 2023, 21:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.1.10.0 aktualizacja: wto, 10 sty 2023, 01:31 UTC+01:00
+! v.2023.1.11.0 aktualizacja: śro, 11 sty 2023, 21:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -817,6 +817,8 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 5el.pl##.widget_black_studio_tinymce.uk-panel:nth-of-type(3)
 5mindlazdrowia.pl##.footer-widget-2
 5mindlazdrowia.pl##.instagram-grid
+6paknutrition.com###inst-block
+6paknutrition.com##.footerlogolist > *:nth-child(n+3):nth-child(-n+4)
 7dni.pila.pl##a[href*="fb.com/twoje7dni"]
 7more7.com##.insta_photos
 7more7.com##.LS_InstagramContainer
