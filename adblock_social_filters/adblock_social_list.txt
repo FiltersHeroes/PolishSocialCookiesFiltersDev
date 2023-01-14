@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.1.11.0
-! Last modified: Wed, 11 Jan 2023, 21:31 UTC+01:00
+! Version: 2023.1.14.0
+! Last modified: Sat, 14 Jan 2023, 13:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.1.11.0 aktualizacja: śro, 11 sty 2023, 21:31 UTC+01:00
+! v.2023.1.14.0 aktualizacja: sob, 14 sty 2023, 13:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -775,7 +775,6 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 !
 ! Specyficzne reguły ukrywające
 ###chaty-channel-facebook_messenger
-/zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 2plus3d.pl###menuItem_facebook
@@ -1387,7 +1386,7 @@ awans-bhp.pl##.icon_bar_google.icon_bar, .icon_bar_fb.icon_bar, .icon_box > a[hr
 awf.edu.pl##.sprite-fb.sprite, .sprite-yt.sprite
 axa-assistance.pl##.a-footer > div:first-child > div > div > div:nth-child(3)
 axa.pl##footer .socials > a:not([href*="/rss/"])
-axasecurity.com,drzwioknabramy.eu,eska.pl,meskiegacie.pl,optykwnecie.pl,zymetric.pl##.fb-customerchat
+axasecurity.com,doctorgun.eu,drzwioknabramy.eu,eska.pl,meskiegacie.pl,metalowiecsc.pl,optykwnecie.pl,zymetric.pl##.fb-customerchat
 axtechnology.pl###u122 > #u122_img
 az-polska.com#?#.vcard > div:nth-child(3) > div:first-child > div > div:-abp-has(> h3:-abp-contains(Udostepnij))
 az-polska.com#?#.vcard > div:nth-child(3) > div:first-child > div:-abp-has(> h3:-abp-contains(Portale społecznościowe))
@@ -2661,6 +2660,7 @@ ekologia.pl##.linkWykop, .bi2.bottom-item
 ekologia.pl##.sprite.footer-icon
 ekonomik.olsztyn.pl###facebook_head
 ekookna.pl##div.icos__wrapper:nth-of-type(1), div.icos__wrapper:nth-of-type(4)
+ekookna.pl,o-shop.com,quadralite.pl,selectshop.pl###fb-root
 ekorekta24.pl,www-dobreprogramy-pl.cdn.ampproject.org##a.social
 ekosystem.wroc.pl##.socials__container_bottom
 ekosystem.wroc.pl##.socials__container_top
@@ -5309,7 +5309,6 @@ o2.pl,pudelek.pl##aside div[data-st-area="st-gallery-reactions"] > div > div:nth
 o2.pl,pudelek.pl#?#article div:not([role="complementary"]) div[class]:-abp-has(> div > .fb-like)
 o2.pl,pudelek.pl#?#aside[role="complementary"] > div > div:-abp-has(> div > div.fb-like)
 o-m.pl###T1
-o-shop.com###fb-root
 oakandberry.com##.in:not(div):not([class*=" "])
 obcasy.pl##.widget_text.widget.td_block_template_1:nth-of-type(-n+2)
 obi.pl##.disc-footer > section:nth-child(3) > div > div:nth-child(3)
@@ -8292,6 +8291,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 /wp-content/uploads/*/*/fb.png$domain=biodent.biz|emkatrans.com.pl|glyskincare.pl|pks.poznan.pl|purebiologics.pl|smac.pl
 /wp-content/uploads/*/*/in.png$domain=glyskincare.pl|purebiologics.pl
 /zdjecia/ikonki/fb_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
+/zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ||4prm.pl/*/facebook_menu$image
 ||6art.pl/youtube.png
 ||a-z-decor.pl/data/include/img/links/1308135133.jpg
