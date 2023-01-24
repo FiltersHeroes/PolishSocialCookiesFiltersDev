@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.1.15.0
-! Last modified: Sun, 15 Jan 2023, 21:31 UTC+01:00
+! Version: 2023.1.24.0
+! Last modified: Tue, 24 Jan 2023, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.1.15.0 aktualizacja: nie, 15 sty 2023, 21:31 UTC+01:00
+! v.2023.1.24.0 aktualizacja: wto, 24 sty 2023, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1204,6 +1204,7 @@ aptekacentrumzdrowia.pl#?#footer .opening-hours.col-md-4:-abp-contains(Obserwuj 
 aptekagemini.pl##.text-share-container > ul > li:nth-of-type(-n+3)
 aptekarzpolski.pl##.jeg_block_title > a[href*="facebook.com/AptekarzPolskiPismo/"]
 aptekarzpolski.pl#?#.theiaStickySidebar .jeg_block_heading_6.jeg_block_heading:-abp-contains(/Facebook|Twitter/)
+aptekawsieci.pl###side_widget
 aptekigemini.pl##header .nav > li:nth-of-type(5)
 apteline.pl##.footer__connect-social
 apynews.pl##.navbar-right-custom, .menu-icon
