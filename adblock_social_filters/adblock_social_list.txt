@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.1.24.0
-! Last modified: Tue, 24 Jan 2023, 01:31 UTC+01:00
+! Version: 2023.1.28.0
+! Last modified: Sat, 28 Jan 2023, 21:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.1.24.0 aktualizacja: wto, 24 sty 2023, 01:31 UTC+01:00
+! v.2023.1.28.0 aktualizacja: sob, 28 sty 2023, 21:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5638,6 +5638,7 @@ philips.pl##.p-social-wrapper
 philips.pl#?#div.p-l-one-quarter.p-grid-item:nth-of-type(4):-abp-contains(Podłącz mnie)
 phlov.com##.block-socialorder-1
 photonrobot.com##.qodef-social-icon-widget, .qodef-social-share-holder
+phox.pl##div[class*="footer"] a[href*="linkedin.com/"]
 phpcodex.com##.nk_widget
 piaggio-polska.pl##a[class*="ion-social-"]
 piaseckigagala.pl##.links > a[href*="linkedin.com/"]
