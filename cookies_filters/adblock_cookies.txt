@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.1.24.0
-! Last modified: Tue, 24 Jan 2023, 01:31 UTC+01:00
+! Version: 2023.1.30.0
+! Last modified: Mon, 30 Jan 2023, 21:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.1.24.0 aktualizacja: wto, 24 sty 2023, 01:31 UTC+01:00
+! v.2023.1.30.0 aktualizacja: pon, 30 sty 2023, 21:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -389,7 +389,7 @@ bilety.wok.walbrzych.pl###social
 bilka.com.pl,krasnik-okna.pl##footer > div > #mod99
 billbook.com##app-cookies
 bimbi.pl##center > div[style*="background"] > center > table
-bimsplus.pl##DIV[style*="url(images/cookies_tlo.png)"]
+bimsplus.pl##div[style*="url(images/cookies_tlo.png)"]
 binance.com#?##__APP ~ div[class^="css-"]:-abp-has(> div > a[href="/pl/privacy"])
 bing.com###b_notificationContainer
 bing.com###t_cookieInfo, #t_termsInfo
@@ -446,7 +446,7 @@ blikomania.pl#?#.modal-bg:-abp-has(~ .modal-wrapper .cookies-wrapper)
 blikomania.pl#?#.modal-wrapper:-abp-contains(plików cookies)
 blikomania.pl,culture.pl,rejestr.io,sso.epf.org.pl,toogoodtogo.pl##.Cookie
 blix.pl,libertex.com,tenit.com.pl###gdpr
-blog4u.pl##DIV[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
+blog4u.pl##div[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blog-pozyczoneiniebieskie.pl###cookie_info_container
 blog.epicdrama.pl###cookie-ask
 blog.spacetronik.eu##div#catapult-cookie-bar
@@ -498,7 +498,7 @@ brakestock.pl###agree
 bricomarche.pl,szkolkikornickie.pl###content-head-information
 bridle.com.pl###d-notification-bar
 brother.pl###cookieLawBar
-browar.biz,centrumpiwowarstwa.pl##DIV[style="color: gray; background-color: white; border-bottom: 1px dotted gray; padding:2px; font-size: 0.75em;"]
+browar.biz,centrumpiwowarstwa.pl##div[style="color: gray; background-color: white; border-bottom: 1px dotted gray; padding:2px; font-size: 0.75em;"]
 brtvp.pl##.tvp-cookie-overlay
 bryk.pl,interia.pl,pokazywarka.pl##.rodo-mini
 bsgoleniow.pl##.jsCookieInfo
@@ -734,6 +734,7 @@ dietetyk.szczecin.pl##body > div[style*="background"]:not([id]):not([clas])
 dietlux.pl###mod286
 digitalhill.pl,fundacjawolnosci.org##.notification-panel
 digitalvirgo.pl##coll-cookie-info
+dimaks.pl##body > div[style*="position"][style*="fixed"]:not([id]):not([class])
 dimedic.eu,pandora.net,pl.msi.com##section#ccc
 dipocket.org###dip-cookies-policy
 direct.saltus.pl##.page__cookies
@@ -847,7 +848,7 @@ e-kwiaciarz.pl##.ff-cookies-container
 e-metalzbyt.pl,erhem.pl,meblesosnowe.eu,pks-debica.pl###popupContact
 e-obywatel.choszczno.pl,e-obywatel.kluczbork.pl,e-obywatel.ozimek.pl,e-obywatel.swietajno.pl,eobywatel.gminakamiennagora.pl,kamiennagora.e-obywatel.pl,ujazd.e-obywatel.pl###modal_pop
 e-petrol.pl,uzdrowisko-wieniec.pl###statement
-e-podatnik.pl##DIV[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
+e-podatnik.pl##div[style="margin: 0 auto; padding: 10px; width: 900px; background-color: #eaeaea"]
 e-podlaskie.eu###cookie-info-box
 e-podroznik.pl##.biscuits-usage
 e-podroznik.pl,hoper.pl##.ep-cookies-info-wrapper
@@ -1201,7 +1202,7 @@ globus-wapienica.eu,juvenia2000.pl,przeswietl.pl,sklep.delta.poznan.pl###cookieD
 glogow-info.pl,glogow.info.pl##.info1, .tloinfo1
 glogow-info.pl,glogow.info.pl##.wrapper > table:nth-of-type(1)[style="margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: -6px;"]
 glos24.pl##body > div[style*="z-index: 999"]
-glos24.pl##DIV[style="border: 1px solid #fcce00; background: #fcfc9a; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 2px 4px #bbb; -webkit-box-shadow:0 2px 4px #bbb; -khtml-box-shadow: 0 2px 4px #bbb; box-shadow:0 2px 4px #bbb; width: 700px; font: normal 12px/1.6em verdana; color: #505050;"]
+glos24.pl##div[style="border: 1px solid #fcce00; background: #fcfc9a; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 2px 4px #bbb; -webkit-box-shadow:0 2px 4px #bbb; -khtml-box-shadow: 0 2px 4px #bbb; box-shadow:0 2px 4px #bbb; width: 700px; font: normal 12px/1.6em verdana; color: #505050;"]
 glos.tv##.cookieTooltip
 glosbe.com#?#body > .fixed:-abp-has([id*="cookieconsent"])
 glosbe.com,monsterbike.eu,pl.weber,polbox.tv,polsky.tv,slovake.eu##.cc-banner
@@ -1299,14 +1300,14 @@ hejto.pl##footer ~ .fixed.z-1200[class*="paper"]
 helios.pl##.ban-rodo
 help.autodoc.pl##.wrap-privacy-notification
 helpfind.pl##.cookie-privacy-box
-herbaciani.pl##DIV[style="float:right; padding-top:20px; padding-bottom:20px; width:100%; font-size:12px; background:#ddd; color:#333; text-align:center; margin-bottom:10px;"]
+herbaciani.pl##div[style="float:right; padding-top:20px; padding-bottom:20px; width:100%; font-size:12px; background:#ddd; color:#333; text-align:center; margin-bottom:10px;"]
 herbapol.com.pl###pop
 herbaya.pl,ibufen.pl##body > div[style^="width: 100%; height: 100%"]:not([id]):not([class])
 heroes-online.com###cookieNotificationBanner
 hertz.com.pl##[class^="lb-"]
 hertz.pl###light-box-1
 heuristic.pl###cboxContent, #cboxOverlay
-hi-tec.com.pl##DIV[style="width: 882px; padding: 10px; margin: 3px auto; text-align: center; color: #BABABA"]
+hi-tec.com.pl##div[style="width: 882px; padding: 10px; margin: 3px auto; text-align: center; color: #BABABA"]
 hialeye.pl,mamadha.pl,maxonactive.pl###page-cookie-bar
 hihonor.com###cookie_tip_
 hihonor.com##.cookie-notices
@@ -1330,7 +1331,7 @@ horyzonty.pl##.cookies_note
 host1.eu,mateuszgrzesiak.tv##.cookies_policy
 hostinger.pl##.h-cookie-consent
 hotelbb.pl###be-modal-content-disclaimer
-hotele.pl##DIV[style="font-family: Tahoma; margin-bottom: 6px; padding: 5px; font-size: 10px; color: rgb(0, 0, 0); background-color: rgb(204, 204, 204); border-bottom: 1px solid black;"]
+hotele.pl##div[style="font-family: Tahoma; margin-bottom: 6px; padding: 5px; font-size: 10px; color: rgb(0, 0, 0); background-color: rgb(204, 204, 204); border-bottom: 1px solid black;"]
 hotpoint.pl###_1_WAR_privacyportlet_privacy-info-message
 housebrand.com,sin-say.com,sinsay.com###display_cookie_message, div[class][data-selen-group="cookies-bar"]
 hpe.com###hpe_privacy_banner
@@ -1630,7 +1631,7 @@ legoland.de##.alertbar
 leier.pl###CookieLeier
 leifheitsklep.pl###cookieConfirmDiv
 lekarz.znanylekarz.pl###footer-baner
-lekkoatletykadlakazdego.pl,personnelsolutions.pl##DIV[style^="background"][style*="position: absolute"]
+lekkoatletykadlakazdego.pl,personnelsolutions.pl##div[style^="background"][style*="position: absolute"]
 lektury.gov.pl##message-box[storage-key="'cookies-accepted'"]
 lema15.pl,sklep.andrewex.com.pl,victoriadom.pl##.bar--cookies
 leo.org,mojewypieki.com##.as-oil[data-qa="oil-Layer"] > .as-oil-content-overlay
@@ -1690,7 +1691,7 @@ lubawka.eu##.cookie_info
 lubimyczytac.pl,motoneo.pl###TB_window, #TB_overlay
 lublin24.pl##.tlo_cookies
 lublin112.pl###privacy_info_content, #privacy_info_overlay
-lubliniak.com.pl##DIV[style="background: #fff; padding: 5px; text-align: center; font-size: 11px;"]
+lubliniak.com.pl##div[style="background: #fff; padding: 5px; text-align: center; font-size: 11px;"]
 lubliniec.info##.ustawaCookie
 lukasfinanse.pl###strap
 lumac.pl###layer0a
@@ -2366,7 +2367,7 @@ pzszerm.pl,rewolucjawoc.pl##.copy
 qnap.com###cookie-policy-notification
 qsystems.pl##div[class*="stopka"] ~ div[id^="macpopup"]
 qualitylife.pl###text-5
-quer.pl##DIV[style="top:0;width:100%;background:#0a0e10;color:#f2f2f2;font-size:10px;text-align:center"]
+quer.pl##div[style="top:0;width:100%;background:#0a0e10;color:#f2f2f2;font-size:10px;text-align:center"]
 quiosque.pl,tolpa.pl###cookie-notification-block
 quizme.pl,quizowa.pl###modal-consent, .iziModal-overlay
 r.pl###cookiesModal.rodo-alert
