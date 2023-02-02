@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.1.30.0
-! Last modified: Mon, 30 Jan 2023, 21:31 UTC+01:00
+! Version: 2023.2.2.0
+! Last modified: Thu, 02 Feb 2023, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.1.30.0 aktualizacja: pon, 30 sty 2023, 21:31 UTC+01:00
+! v.2023.2.2.0 aktualizacja: czw, 02 lut 2023, 01:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2122,6 +2122,7 @@ pasazer.com##.info_cookie
 pasmanteria-atlasek.pl##.nasa-cookie-notice-container
 patronite.pl#?#body > div:not([id]):not([class]):-abp-has(> div[class^="modal-backdrop1"] > div[data-view="ADVANCED"])
 paypal.com###gdprCookieBanner
+paypo.pl#?##application > div > div > div:-abp-has(> div > div > h4:-abp-contains(plików cookies))
 paypo.pl#?#main.main ~ div > div:-abp-has(> div > div > h4:-abp-contains(plików cookies))
 payukraine.com##.mainscreen_cookies
 pb.pl##.qc-cmp-ui-container
@@ -3164,7 +3165,6 @@ oetker.*/static/js/privacy-dialog/
 /cookiewarning*.js$script
 /css/cukiernia.css$~third-party
 /cukiernia/cukiernia.css$~third-party
-/filer_-_cookie_disclaimer_ny/$file/accept_cookies.js$script,domain=pl
 /js/cukiernia.js$~third-party
 /js/info_o_cookie.js$script
 /js/polityka_cookies.js$script
@@ -3179,6 +3179,7 @@ oetker.*/static/js/privacy-dialog/
 /tvp-tcfapi.js
 /whcookies.js$domain=pl
 /whcookiesutf.js$domain=pl
+||choices.consentframework.com^$domain=pl
 ||cmp.dreamlab.pl^
 ||cmp.optad360.io^$domain=~cmp.optad360.io
 ||cookieform.pl/assets/js/plugin.js$third-party
@@ -3697,7 +3698,6 @@ pl###redim-cookiehint:not(body):not(html)
 pl###rsseo-cookie-accept:not(body):not(html)
 pl###SCK:not(html) > .SCK_Banner:not(body)
 pl###scnb-cookie-bar:not(body):not(html)
-pl###sd-cmp:not(body):not(html)
 pl###selly-cookies:not(body):not(html)
 pl###sfh-cookies-info:not(body):not(html)
 pl###showCookie:not(body) ~ br
