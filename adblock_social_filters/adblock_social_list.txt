@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.1.30.0
-! Last modified: Mon, 30 Jan 2023, 21:31 UTC+01:00
+! Version: 2023.2.4.0
+! Last modified: Sat, 04 Feb 2023, 21:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.1.30.0 aktualizacja: pon, 30 sty 2023, 21:31 UTC+01:00
+! v.2023.2.4.0 aktualizacja: sob, 04 lut 2023, 21:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3845,6 +3845,7 @@ jarmarknatury.pl###facebook-link-fixed
 jarmarktumski.plock.eu###sos_yt_slider, #sos_fb_slider
 jash.pl##.icons
 jask.pl##.iconset[href*="facebook.pl/"]
+jastrzabpost.pl##.topbar .social-icons
 javappa.com#?#div.col-md-12:nth-of-type(1) > .col-md-12 > .center-block:-abp-contains(Polub)
 jawis.pl##.fbPageBox
 jawor24h.pl##footer div[class]:nth-of-type(4) > .px-3 > h6, footer div[class]:nth-of-type(4) > .px-3 > h6 + ul
@@ -5285,6 +5286,7 @@ nvidia.pl##.page-footer__social__label
 nzspw.pl###like-box-facebook, #social > .sc_menu > li > a:not(#email-newsletter)
 o2.pl##a[href*="social"]
 o2.pl##footer > div:first-child > div:first-child > div:nth-child(3) > span
+o2.pl#?#div > button:-abp-has(+ span:-abp-contains(/(Podziel|Skopiuj)/))
 o2.pl#?#footer[class] div[class]:-abp-has(> span[class]:-abp-contains(Bądź na bieżąco))
 o2.pl#?#header ~ div button[class*=" "]:-abp-has(> div:-abp-contains(/^(Podziel się|Wyślij)$/))
 o2.pl,pudelek.pl##aside div[data-st-area="st-gallery-reactions"] > div > div:nth-of-type(2)
@@ -7973,6 +7975,8 @@ www.o2.pl##div[class][title="polubienia"], div[class][title="polubienia"] + div
 www.o2.pl#?##grid > div[class][data-st-area*="Quotes"] a[href*="/cytat/"] div[class] > div[class]:-abp-has(> span[class][icon] > svg[width][height])
 www.o2.pl#?##stream > div > div[data-st-area*="Stream"] > div > div[class]:not([id]):-abp-has(> a[href*="social"])
 www.o2.pl#?#div[class][data-st-area*="Quote-Content"] div[class] > div[class]:-abp-has(> span[class][icon] > svg[width][height])
+www.o2.pl#?#h2 ~ div > div > div > span:-abp-contains(PODZIEL)
+www.o2.pl#?#h2 ~ div > div > div > span:-abp-contains(PODZIEL) ~ *
 www.papilot.pl##.instagram-wide-box
 www.pila.pl###kontakt .col-md-5.col-xs-12
 www.pisz.pl##.slider_button
@@ -8192,6 +8196,7 @@ zrozumboryska.cba.pl###stopka-d
 zrp.pl##a[href*="facebook.com/ZwiazekRzemioslaPolskiego/"] > img
 zrzutka.pl###opis .btn-outline-facebook.btn
 zrzutka.pl###popupShare .btn-outline-facebook, #popupShare .btn-outline-twitter
+zrzutka.pl##.btn-facebook
 zrzutka.pl##.chip-shares-container, #chip-sticky-footer-sm .btn-outline-facebook.btn
 zs-11.edu.pl##.jm-footer-mod > div.span3:nth-of-type(4)
 zs-chelmza.nazwa.pl,zsp-chelmza.pl#?##menucz > dt:-abp-has(> a[href*="facebook.com"])
