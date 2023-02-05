@@ -1,6 +1,6 @@
-wbieszczady.pl##section article p a[href*="instagram.com/"] > img
-wbieszczady.pl##section article p a[href*="facebook.com/"] > img
-wbieszczady.pl##section article p a[href*="youtube.com/"] > img
+wbieszczady.pl##section article p a[href*="instagram.com/"][title] > img[alt]
+wbieszczady.pl##section article p a[href*="facebook.com/"][title] > img[alt]
+wbieszczady.pl##section article p a[href*="youtube.com/"][title] > img[alt]
 schaffer-polska.pl###insta
 schaffer-polska.pl###tiktok
 mobiletrends.pl##.site-footer__row.row > div:nth-of-type(4)
@@ -2063,7 +2063,7 @@ eurostudent.pl##.mainfooter-buttons-facebook
 eurostudent.pl##.mainheader-buttons-facebook
 eurostyl.com.pl##.social_baners
 eurotargetshow.pl##.singlePost__socialTitle
-eurotech.agro.pl#?#header li:-abp-has(  .box-more a[href*=".com/"])
+eurotech.agro.pl#?#header li:-abp-has(.box-more a[href*=".com/"])
 euroticket.pl##div.row:nth-of-type(2) > div.chain-grid.col-md-4:nth-of-type(3) > center
 euskadi.pl##.site-footer > .site-info > center:first-child > a > img
 eveline.eu,groman.pl##.ig
