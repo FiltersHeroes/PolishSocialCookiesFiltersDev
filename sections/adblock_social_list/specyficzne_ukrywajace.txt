@@ -2309,7 +2309,9 @@ foto.com.pl###right a[href*="facebook.com/pages/FOTO-miesiecznik-fotograficzny/"
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##[data-href*="/techwppl/posts/" i]:not(a), [data-href*="/204153062611/posts/" i]:not(a)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##[src*="%2Ftechwppl%2Fposts%2F" i]:not(img), [src*="%2F204153062611%2Fposts%2F" i]:not(img)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#a[href*=","][title*=" "] ~ div button:-abp-has(svg)
-fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button:-abp-has(svg)
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button:not([aria-label="Zapisz na później"]):-abp-has(svg)
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):-abp-has(> div[class] > svg)
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/))
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/))
