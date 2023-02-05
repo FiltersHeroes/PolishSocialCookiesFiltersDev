@@ -3,9 +3,6 @@
 ##.facebookPrzyczepiony
 ##.footer-box.footer-social-media
 ##.sh-copyrights-social
-pl##footer .fb_button
-pl,tv##.page .sidebar a[href*="facebook.com/"]:lang(pl)
-~pl##footer .fb_button:lang(pl)
 ##.td-social-icon-wrap a:not([href*="feed" i]):not([href*="rss" i]):not([href^="mailto:" i])
 ##a[href*="://plus.google.com/"]:lang(pl)
 ##section[aria-label="media społecznościowe"]
@@ -39,6 +36,7 @@ pl,tv##.page .sidebar a[href*="facebook.com/"]:lang(pl)
 ~pl##.sm-panel .sm-tw:lang(pl)
 ~pl##.sm-panel .sm-twitter:lang(pl)
 ~pl##.sm-panel .sm-youtube:lang(pl)
+~pl##footer .fb_button:lang(pl)
 ~pl##li.top_bar_item_list_item_social_media:lang(pl)
 ~polnapol.com.pl##ul[aria-label="Pasek społecznościowy"], ul[aria-label="Social Bar"]
 pl###a2a_follow_widget-2
@@ -569,6 +567,7 @@ pl##a[title="gplus"]
 pl##a[title="Instagram"]
 pl##button[id*="componentsArticleFoot"][id*="Facebook"], button[id*="componentsArticleFoot"][id*="Twitter"]
 pl##div[id^="profilki_socialbuttons_"]
+pl##footer .fb_button
 pl##img[src="./images/icons/nk.png"]
 pl##img[src="/images/fb1.png"]
 pl##img[src="/img/nk_logo.png"]
@@ -582,4 +581,5 @@ pl##li > .twitter
 pl##li.top_bar_item_list_item_social_media
 pl##vce_social_menu
 pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_likes, .yt_likes, .tt_likes
+pl,tv##.page .sidebar a[href*="facebook.com/"]:lang(pl)
 pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
