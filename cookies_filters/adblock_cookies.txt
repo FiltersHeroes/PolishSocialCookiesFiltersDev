@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.2.14.0
-! Last modified: Tue, 14 Feb 2023, 21:31 UTC+01:00
+! Version: 2023.2.14.1
+! Last modified: Tue, 14 Feb 2023, 22:34 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.2.14.0 aktualizacja: wto, 14 lut 2023, 21:31 UTC+01:00
+! v.2023.2.14.1 aktualizacja: wto, 14 lut 2023, 22:34 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1500,6 +1500,7 @@ kingsong.pl##body > div:nth-of-type(5)[style*="position"][style*="fixed"]
 kino-sokol.pl###site-settings-popup.cmp-popup
 kino.ck.przemysl.pl###widget-12
 kino.mdkwagrowiec.pl#?##myModals:-abp-contains(RODO)
+kinomoc.com##.message-alert
 kinonh.pl,nowehoryzonty.pl###div_ac
 kioxia.com##.modaal-inline.modaal-wrapper[id], .modaal-overlay[id]
 kkm.ztm.kielce.pl##.trn-modal-info-rodo
@@ -2458,6 +2459,7 @@ salonydenon.pl##.tvcmscookies-notice
 salonynoma.pl##.alert-container.pp-alert-noma
 samnaprawiam.com##.gdprcookie
 samochod.porowneo.pl#?##root > #main-app-container > div[class^="sc-"]:nth-last-child(-n+2):-abp-has(> button ~ div > a[href*="rules=polityka_prywatnosci"])
+samochody.pl#?#.react-portal:-abp-has(> div[class*="Modal"] [class*="Cookies_box_"] button)
 samsonite.pl##div.cookies-dialog
 samsung.com##.cm-cookie-geo
 sandecja.pl###rodoPolicy
@@ -2526,6 +2528,7 @@ six-payment-services.com#?#.warning.state:-abp-has(.system-notification-text:-ab
 skijumping.pl###modalGdpr
 sklep-agro-sklep.pl##.footer.config-messages
 sklep-domwhisky.pl###rodo-modal-all
+sklep-elektronik.pl#?#.jconfirm:-abp-has(.pdcookie-show-submit.btn)
 sklep-galvet.pl###privacy-message
 sklep-tosia.eu##.cookie-center
 sklep.audiopunkt.com.pl,talbud.pl,termgaz.pl###cook_woyt
@@ -2768,6 +2771,7 @@ trovit.pl###welcomebar-wrapper
 truckstore.com##.tso-popup-footer, .tso-popup-overlay
 trustmate.io##div[class^="Cookies__CookiesWrapper-sc-"]
 trzcinica.com.pl##.window, #maseczka
+tst.pl#?#footer ~ div.fixed:-abp-has([href="/prywatnosc"])
 tupperware.pl##.topRibbon
 turio.com.pl##.cookie-info-dlg
 turtlewax.pl###js-notify.notify
