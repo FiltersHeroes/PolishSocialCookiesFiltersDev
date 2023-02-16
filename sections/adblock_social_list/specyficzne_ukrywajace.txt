@@ -1,5 +1,3 @@
-buki.org.pl#?#footer > div > div > div > nav > div:-abp-has(+ div[class*="styles_socialLinksWrapper_"])
-buki.org.pl##div[class*="styles_socialLinksWrapper_"]
 !fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/))
 !fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/))
 !fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#div[id] > div > div > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/))
@@ -1026,6 +1024,8 @@ bugo.pl##.contact_header_ig
 bugo.pl,butosklep.pl##.insta_wrapper
 bugo.pl,tomix.pl###footer_links #menu_buttons
 building4you.pl##.footer-mid-box-2
+buki.org.pl##div[class*="styles_socialLinksWrapper_"]
+buki.org.pl#?#footer > div > div > div > nav > div:-abp-has(+ div[class*="styles_socialLinksWrapper_"])
 buma.pl##.footer-cols > .col1 > .text > p:nth-of-type(5)
 bursa1.krakow.pl###wb_footer a[href*="facebook.com"] > img
 bursztynowa.pl##.footer-top section.col-xs-12.col-sm-4:nth-of-type(2)
