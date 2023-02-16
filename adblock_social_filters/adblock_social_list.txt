@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.2.15.1
-! Last modified: Wed, 15 Feb 2023, 21:31 UTC+01:00
+! Version: 2023.2.16.0
+! Last modified: Thu, 16 Feb 2023, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.2.15.1 aktualizacja: śro, 15 lut 2023, 21:31 UTC+01:00
+! v.2023.2.16.0 aktualizacja: czw, 16 lut 2023, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1813,6 +1813,8 @@ bugo.pl##.contact_header_ig
 bugo.pl,butosklep.pl##.insta_wrapper
 bugo.pl,tomix.pl###footer_links #menu_buttons
 building4you.pl##.footer-mid-box-2
+buki.org.pl##div[class*="styles_socialLinksWrapper_"]
+buki.org.pl#?#footer > div > div > div > nav > div:-abp-has(+ div[class*="styles_socialLinksWrapper_"])
 buma.pl##.footer-cols > .col1 > .text > p:nth-of-type(5)
 bursa1.krakow.pl###wb_footer a[href*="facebook.com"] > img
 bursztynowa.pl##.footer-top section.col-xs-12.col-sm-4:nth-of-type(2)
