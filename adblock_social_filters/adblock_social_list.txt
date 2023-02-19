@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.2.16.1
-! Last modified: Thu, 16 Feb 2023, 21:31 UTC+01:00
+! Version: 2023.2.19.0
+! Last modified: Sun, 19 Feb 2023, 21:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.2.16.1 aktualizacja: czw, 16 lut 2023, 21:31 UTC+01:00
+! v.2023.2.19.0 aktualizacja: nie, 19 lut 2023, 21:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1066,7 +1066,6 @@ alejabielany.pl##.columns:nth-of-type(2) > .footer--column.column:last-child
 alejabielany.pl##.icon-facebook-with-circle.store-centre--social--link
 alejasztuki.com##.art-footer div.art-layout-cell:nth-of-type(3)
 alejesmaku.pl##.footer_as_button2
-alekinoplus.pl,forum.ncplus.pl,forum.pl.canalplus.com###FBRight
 alekosmos.pl,batcave.com.pl,booklips.pl,boskapszczola.pl,carsense.pl,cdn.ug.edu.pl,craftportal.pl,damagier.pl,david-durden.pl,doktorania.pl,elektrostymulatory.net,fama.org.pl,glodnapolka.pl,glyskincare.pl,jakpicwhisky.pl,kocialapka.org.pl,kwadranszpodkopem.com,madameedith.com,magnapolonia.org,malygeniusz.org,nono-store.pl,pdasite.pl,plusbiuro-police.pl,portal.region.info.pl,prokapitalizm.pl,promocje.msi.com,swiatdronow.pl,swingwithme.pl,vivio.pl,winers.pl,wizytowka.be,wrodzinie.pl###text-3
 aleksandrow-lodzki.pl##.icons > .g.icon
 aleokulary.com###footer .column_1 table:not([class]) td:nth-child(-n+2)
@@ -1864,8 +1863,6 @@ californiaskateshop.pl,pl.skate-europe.com,zoo.waw.pl##.socials-bottom
 calisia.pl##footer .container > .row > div:nth-of-type(3)
 calkiemzdrowo.pl##a[href*="facebook.com/calkiemzdrowo/"]
 campomoderngrill.pl##.social a:not([href*="delikatesy."])
-canalplus.com##div[class^="footer__container_"] > div[class^="footer__section_"]:nth-of-type(2) > div[class^="footer__section_"]:nth-of-type(3) > div:nth-of-type(1)
-canalplus.com##ul[class^="socials_"]
 candleworld.com.pl##.facebooktoplayer
 candleworld.com.pl##.instagramtoplayer
 candy.pl##li.ico.footer-link:nth-of-type(n+7):nth-of-type(-n+8)
@@ -3103,11 +3100,9 @@ forum.grywamtu.pl#?#li.ipsSpacer_bottom.ipsBox.cForumRow:nth-of-type(1) > .ipsAr
 forum.home.pl##.prefooter-block-02 > h6, .prefooter-column-two
 forum.home.pl##a > img[src$="/home.pl-posluchaj.JPG"]
 forum.komputerswiat.pl##.topic_share a:not([id*="print"]):not([id*="email"]):not([id*="download"])
-forum.ncplus.pl,forum.pl.canalplus.com###GooglePRight
 forum.optometria.info.pl##.footer-subscribe
 forum.pasja-informatyki.pl##div.qam-footer-col:nth-of-type(1)
 forum.pclab.pl,forum.purepc.pl,hdtvpolska.com##.cShareLink:not(.cShareLink_email)
-forum.pl.canalplus.com###YoutubeRight
 forum.puppylinux.pl###sys_facebook40
 forum.puppylinux.pl###sys_twitter40
 forumdermatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.pl##.isFacebook
@@ -5613,7 +5608,7 @@ pe.szczecin.pl##.social-icons-f > .fa-facebook-f
 pec-pruszcz.pl###slogan a[href*="facebook.com/"]
 pecetowicz.pl#?##secondaryFooter .ipsGrid_span3:nth-last-child(1) h4 + p + p:-abp-contains(Obserwuj)
 pelikan.com##._social_links_footer
-pelion.eu,pl.canalplus.com##.social-ico-wrapper
+pelion.eu##.social-ico-wrapper
 pelnytalerz.com###HTML14, #HTML15
 pelnytalerz.com##a[href*="instagram.com/pelnytalerz/"], a[href*="pl.pinterest.com/pelnytalerz/"] a[href*="bloglovin.com/blogs/pelny-talerz"]
 pelnytalerz.com##a[href*="instagram.com/pelnytalerz/"], a[href*="pl.pinterest.com/pelnytalerz/"], a[href*="bloglovin.com/blogs/pelny-talerz"]
@@ -5733,8 +5728,7 @@ pl.aleteia.org##header a[href*=".com/"][target="_self"]
 pl.aorus.com##.index_social
 pl.aptoide.com##div[class*="social-media__SocialMediaContainer-"]
 pl.calcprofi.com##.save_link
-pl.canalplus.com##.findUs
-pl.canalplus.com##.m-FooterIndividual__banner__findus
+pl.canalplus.com##.m-FooterIndividualNew__banner__findus__links
 pl.chili.com##div.col-sm-3.col-xs-12:nth-of-type(4) > div.imageCont.pageFooter__section:nth-of-type(1)
 pl.coccodrillo.eu##div.footer-tab.tablet-1-4:nth-of-type(5) > .title
 pl.cyberrescue.me#?#p.bigger > strong:-abp-has(a[href*="facebook.com/"])
