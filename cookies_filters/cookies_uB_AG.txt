@@ -7,8 +7,6 @@
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
-!www.google.com,www.google.pl##+js(acis, document.cookie, YES+)
-!www.google.com,www.google.pl##+js(acis, navigator.userAgent, consentCookiePayload)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important;)
@@ -497,6 +495,8 @@ poradykomputerowe.pl,portaloswiatowy.pl##.overlay-cookie
 poradykomputerowe.pl,portaloswiatowy.pl##.overlay-hidden-cookie:style(overflow: auto !important;)
 porcelana.pl##.modal-popup
 porowneo.pl##div[class^="sc-"] > button ~ div > a[href*="rules=polityka_prywatnosci"]:upward(2)
+portal.librus.pl##.consent-categories-modal-wrapper:style(display: none !important;)
+portal.librus.pl##.modal-body:style(overflow: visible !important; padding-right: 0 !important;)
 portalpasazera.pl##.cookieman-window
 powiadomienia.gis.gov.pl##body > div[class][role="presentation"]:not([id]):has-text(plików cookies)
 powiat-ostrowski.pl##.info
