@@ -7,6 +7,8 @@
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
 /^https\:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\//$3p,frame,object,redirect=click2load.html:10,domain=pinger.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
+!www.google.com,www.google.pl##+js(acis, document.cookie, YES+)
+!www.google.com,www.google.pl##+js(acis, navigator.userAgent, consentCookiePayload)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important;)
@@ -142,8 +144,8 @@ contentstandard.pl,mobileclick.pl,socialpress.pl##body.rodoNoScroll:style(overfl
 corbby.com.pl###tfade:has(+ #tlight:has(> .termspopupcontainer))
 corbby.com.pl###tlight:has(> .termspopupcontainer)
 corbby.com.pl##html[style^="overflow"]:style(overflow: auto !important;)
+country.db.com,festool.pl,fotojoker.pl,gerryweber.com,trefl.com###usercentrics-root
 country.db.com,festool.pl,fotojoker.pl,lotto.pl,trefl.com##body.overflowHidden:style(overflow: visible !important;)
-country.db.com,festool.pl,fotojoker.pl,trefl.com###usercentrics-root
 country.db.com,lotto.pl##body[style]:style(overflow: visible !important;)
 credit-suisse.com##body.ot-consent-manager-open:style(overflow-y: visible !important;)
 crfop.gdos.gov.pl###banner-komunikat-rodo-gdos-2
@@ -162,8 +164,8 @@ dasweltauto.pl##html:style(overflow: visible !important;)
 dawg.pl###popup-modal-dawg, .modal-backdrop
 dbschenker.com##body[class*="no-scroll"], html[class*="no-scroll"]:style(overflow: visible !important;)
 dbschenker.com##footer .dialog:has(a[href*="/meta/privacy-policy"])
-decathlon.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikwschodni.pl,dziennikzachodni.pl,e-ogrodek.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,forumogrodowe.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,t-mobile.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##html > body.didomi-popup-open, html > body.didomi-notification-open:style(overflow: visible !important;)
-decathlon.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikwschodni.pl,dziennikzachodni.pl,e-ogrodek.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,forumogrodowe.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##div[class*="didomi-consent-popup__"]
+decathlon.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikwschodni.pl,dziennikzachodni.pl,e-ogrodek.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,forumogrodowe.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,t-mobile.pl,to.com.pl,wspolczesna.pl##html > body.didomi-popup-open, html > body.didomi-notification-open:style(overflow: visible !important;)
+decathlon.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikwschodni.pl,dziennikzachodni.pl,e-ogrodek.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,forumogrodowe.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,to.com.pl,wspolczesna.pl##div[class*="didomi-consent-popup__"]
 delikarta.pl,tanikurier.com###cookieModal
 dkms.pl##.cc-window-active:style(overflow: auto !important;)
 dkms.pl##.cc-window[aria-label]
@@ -262,7 +264,6 @@ galeriaslendzinskich.pl,powiat-zyrardowski.pl##.fancybox-overlay
 gemini.pl###modal-cookies:remove()
 gemini.pl##.vue-modal--privacy-policy:remove()
 generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important;)
-gerryweber.com###usercentrics-root
 gerryweber.com##body.overflowHidden:style(overflow: auto !important;)
 giantfabryczna.pl,liv-cycling.com###cookiePopupModal, .modal-backdrop
 gitara-sklep.pl##body:style(padding-top: 0 !important;)
@@ -585,7 +586,6 @@ tme.eu##.u-overflow-hidden:style(overflow-y: auto !important;)
 tme.eu,totalizator.pl##html[style]:style(overflow-y: auto !important;)
 totalizator.pl##.popup
 toyotabank.pl##.cookies__popup
-translate.google.pl###gba:style(height: 60px !important;)
 trendyopticians.pl###bpr_rodo-info
 trendyopticians.pl##.bpr_body[style]:style(overflow: auto !important; background-position-x: 50% !important;)
 trendyradio.pl###fancybox-container-1:has(#rodo_1)
@@ -641,15 +641,8 @@ wostal.pl##.fancybox-margin:style(margin-right: 0 !important;)
 wostal.pl##.fancybox-wrap:has(img[src*="RODO"])
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
-www.google.com,www.google.pl###lb > div[id^="_"]:has(#cnskc)
-www.google.com,www.google.pl###promos > div[style^="background"]
-www.google.com,www.google.pl##+js(acis, document.cookie, YES+)
-www.google.com,www.google.pl##+js(acis, navigator.userAgent, consentCookiePayload)
-www.google.com,www.google.pl##.srp #searchform[style^="top: 50px"]:style(top: 20px !important;)
+www.google.com,www.google.pl##+js(acis, document.getElementById, CONSENT=YES)
 www.google.com,www.google.pl##div[class][role="dialog"] > #cnsp:has(> div[class][aria-live="polite"]):upward(2)
-www.google.com,www.google.pl##header#gb + div[class^="gb"][data-cbh="consent.google.com"]
-www.google.com,www.google.pl##html.gb_ea > body.gb_ea:style(height: auto !important;)
-www.google.com,www.google.pl##html.gb_ea:style(overflow-y: visible !important;)
 www.pekao.com.pl##.reveal-overlay:has(#gdpr-popup)
 www.pekao.com.pl##body.is-reveal-open:style(overflow: auto !important; width: unset !important;)
 www.thomas-krenn.com##div[id*="CookiePolicy"], div[data-toggle*="CookiePolicy"]
