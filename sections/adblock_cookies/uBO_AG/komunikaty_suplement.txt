@@ -576,7 +576,6 @@ tme.eu##.u-overflow-hidden:style(overflow-y: auto !important;)
 tme.eu,totalizator.pl##html[style]:style(overflow-y: auto !important;)
 totalizator.pl##.popup
 toyotabank.pl##.cookies__popup
-translate.google.pl###gba:style(height: 60px !important;)
 trendyopticians.pl###bpr_rodo-info
 trendyopticians.pl##.bpr_body[style]:style(overflow: auto !important; background-position-x: 50% !important;)
 trendyradio.pl###fancybox-container-1:has(#rodo_1)
@@ -632,16 +631,10 @@ wostal.pl##.fancybox-margin:style(margin-right: 0 !important;)
 wostal.pl##.fancybox-wrap:has(img[src*="RODO"])
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
-www.google.com,www.google.pl###lb > div[id^="_"]:has(#cnskc)
-www.google.com,www.google.pl###promos > div[style^="background"]
-www.google.com,www.google.pl##+js(acis, document.cookie, YES+)
-www.google.com,www.google.pl##+js(acis, navigator.userAgent, consentCookiePayload)
+!www.google.com,www.google.pl##+js(acis, document.cookie, YES+)
+!www.google.com,www.google.pl##+js(acis, navigator.userAgent, consentCookiePayload)
 www.google.com,www.google.pl##+js(acis, document.getElementById, CONSENT=YES)
-www.google.com,www.google.pl##.srp #searchform[style^="top: 50px"]:style(top: 20px !important;)
 www.google.com,www.google.pl##div[class][role="dialog"] > #cnsp:has(> div[class][aria-live="polite"]):upward(2)
-www.google.com,www.google.pl##header#gb + div[class^="gb"][data-cbh="consent.google.com"]
-www.google.com,www.google.pl##html.gb_ea > body.gb_ea:style(height: auto !important;)
-www.google.com,www.google.pl##html.gb_ea:style(overflow-y: visible !important;)
 www.pekao.com.pl##.reveal-overlay:has(#gdpr-popup)
 www.pekao.com.pl##body.is-reveal-open:style(overflow: auto !important; width: unset !important;)
 www.thomas-krenn.com##div[id*="CookiePolicy"], div[data-toggle*="CookiePolicy"]
