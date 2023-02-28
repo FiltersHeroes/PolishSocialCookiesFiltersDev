@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.2.28.0
-! Last modified: Tue, 28 Feb 2023, 01:31 UTC+01:00
+! Version: 2023.2.28.1
+! Last modified: Tue, 28 Feb 2023, 17:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.2.28.0 aktualizacja: wto, 28 lut 2023, 01:31 UTC+01:00
+! v.2023.2.28.1 aktualizacja: wto, 28 lut 2023, 17:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2860,6 +2860,8 @@ eurostyl.com.pl##.social_baners
 eurotargetshow.pl##.singlePost__socialTitle
 eurotech.agro.pl#?#header li:-abp-has(.box-more a[href*=".com/"])
 euroticket.pl##div.row:nth-of-type(2) > div.chain-grid.col-md-4:nth-of-type(3) > center
+eurozet.pl##.no-comments.article.social > .container > .title
+eurozet.pl##.no-comments.article.social > .container > ul > li
 euskadi.pl##.site-footer > .site-info > center:first-child > a > img
 eveline.eu,groman.pl##.ig
 eveline.pl##.social-find-us
@@ -3639,6 +3641,7 @@ hydrasklad.pl##nav a[href*="facebook.com/hydrasklad"],nav a[href*="facebook"] ~ 
 hydro.com##.footer__menu-main > div:nth-of-type(3)
 hyperxgaming.com,kingston.com##.s-copyright__social
 i-systems.pl##.footer__social_link:not([href*="/feed"])
+i.pl##.componentsNavigationFooterNewExpanded__socialMedia
 iab.org.pl##.menu-social-buttons > ul > li:nth-of-type(-n+10)
 iaeste.pl##a > img[src="/images/template/icons/icon-inst.png"],a > img[src="/images/template/icons/icon-lin.png"]
 iau100.pl##.codevz-widget-facebook
