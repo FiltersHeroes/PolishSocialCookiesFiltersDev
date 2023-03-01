@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.2.28.2
-! Last modified: Tue, 28 Feb 2023, 21:31 UTC+01:00
+! Version: 2023.3.1.0
+! Last modified: Wed, 01 Mar 2023, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.2.28.2 aktualizacja: wto, 28 lut 2023, 21:31 UTC+01:00
+! v.2023.3.1.0 aktualizacja: śro, 01 mar 2023, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -777,12 +777,6 @@ pl,~wykop.pl##.wykop
 !
 !
 ! Specyficzne reguły ukrywające
-!fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##[data-href*="/techwppl/posts/" i]:not(a), [data-href*="/204153062611/posts/" i]:not(a)
-!fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##[src*="%2Ftechwppl%2Fposts%2F" i]:not(img), [src*="%2F204153062611%2Fposts%2F" i]:not(img)
-!fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/))
-!fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/))
-!fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#div[id] > div > div > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/))
-!fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#div[style*="min-height:"][style*="200px"]:-abp-has([data-href*="/dobreprogramy/posts/" i]:not(a), [data-href*="/305335630685/posts/" i]:not(a), [src*="%2Fdobreprogramy%2Fposts%2F" i]:not(img), [src*="%2F305335630685%2Fposts%2F" i]:not(img), [src*="%2Ftechwppl%2Fposts%2F" i]:not(img), [src*="%2F204153062611%2Fposts%2F" i]:not(img), [data-href*="/techwppl/posts/" i]:not(a), [data-href*="/204153062611/posts/" i]:not(a))
 !islodycze.pl##.--icons.footer-section-content
 ###chaty-channel-facebook_messenger
 ~pl###chaty-channel-facebook_messenger:lang(pl)
@@ -1233,6 +1227,9 @@ arbonne.com##div.footer-column:nth-of-type(4) > ul > li:nth-of-type(3) > a
 arch.telewizjarepublika.pl###header a[href*="youtube.com/channel/"]
 archidiecezja.lodz.pl##.menu__list-icons--footer
 architektura.info##.newsletter-block
+archiup.com##footer#footer.footer > div:first-child > div > div > div:nth-child(4) > div:nth-child(1)
+archiup.com#?##contact + dl > dt + dd:-abp-contains(/Instagram|Facebook|Pinterest|YouTube/)
+archiup.com#?##contact + dl > dt:-abp-has(+ dd:-abp-contains(/Instagram|Facebook|Pinterest|YouTube/))
 archive.is,archive.li,archive.md,archive.ph,archive.today,archive.vn###DIVSHARE > center[id] button[onclick^="window.open"]
 archiwum.niemczyk.pl##div#box_submit.tablinks:nth-of-type(n+3):nth-of-type(-n+4)
 archiwum.szubin.pl##a[href*="facebook.com/szubinpl"] > img, a[href*="instagram.com/szubin.pl/"] > img
@@ -1461,6 +1458,7 @@ barbelo.com.pl###topmenuright > li:not(:nth-of-type(1))
 barbora.pl##.b-footer--social-wrap
 barfoodporn.pl##.m-header__social-icons
 barki-nicols.pl##.footer__navigation__social-networks
+barlinek.com.pl##.footer .fa-facebook-f
 barlinek.com.pl##.list__social-media
 barlinek.com.pl,beesfund.com,grupaimage.eu,wnet.fm##.fa-facebook.fa
 barokko.pl,efutro.com.pl,importmania.pl###tws_i_2
@@ -9266,6 +9264,9 @@ polityczek.pl,www.dobreprogramy.pl#@##twitter:not(input)
 rkb.pl#@#.fb-top
 shinden.pl#@#.fa-youtube-play.fa
 swiatebookow.pl#@#.facebook-button
+system.mpay.pl#@#.icon-facebook
+system.mpay.pl#@#.icon-twitter
+system.mpay.pl#@#.icon-youtube
 tvpuls.pl#@#.block-menu-menu-social-footer.block-menu.block > .menu
 www.dobreprogramy.pl#@##instagram
 @@/images/ico_gallery.png$image,domain=moja-ostroleka.pl
