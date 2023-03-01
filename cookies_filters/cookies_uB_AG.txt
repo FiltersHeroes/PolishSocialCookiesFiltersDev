@@ -58,6 +58,8 @@ apress24.pl##.modal-popup:has-text(Polityką Prywatności)
 apress24.pl##.modals-overlay
 apress24.pl,volcano.pl##._has-modal:style(overflow: auto !important;)
 aquapark.wroc.pl###header:style(top: 0 !important;)
+archiup.com###flash-msg-cookies, .modal-backdrop:if-not(zablokowali przewijanie)
+archiup.com##.modal-open[class]:style(overflow: visible !important; padding-right: 0 !important; margin-right: 0 !important;)
 archiwum.rp.pl,bloombergbusinessweek.pl,info.rp.pl,konik-online.pl##body:style(margin-top: 0 !important;)
 atalbusiness.pl##.noscroll:style(overflow-y: auto !important;)
 atalbusiness.pl##.privacyPopup
@@ -656,6 +658,8 @@ zamowienia.gbl.waw.pl###login-modal, .modal-backdrop
 zawszepomorze.pl###zp-gtm-scripts-modal
 zawszepomorze.pl##.zp-gtm-scripts--blur:style(filter: none !important;)
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
+zenbox.pl##.cfGdprCookieConsentPopup
+zenbox.pl##body.lock:style(overflow: visible !important;)
 zikodermo.pl###notice_bar, .site-content-overlay
 zikodermo.pl##.is-overlay:style(overflow: visible !important;)
 zlubaczowa.pl##html[style*="overflow"]:style(overflow: auto !important; height: unset !important;)
