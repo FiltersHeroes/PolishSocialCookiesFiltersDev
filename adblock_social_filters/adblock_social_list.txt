@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.3.2.0
-! Last modified: Thu, 02 Mar 2023, 21:31 UTC+01:00
+! Version: 2023.3.4.0
+! Last modified: Sat, 04 Mar 2023, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.3.2.0 aktualizacja: czw, 02 mar 2023, 21:31 UTC+01:00
+! v.2023.3.4.0 aktualizacja: sob, 04 mar 2023, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3263,6 +3263,8 @@ gdziepolek.pl#?#.content-section > .body > .m-b-25:-abp-has(> .fb-like)
 gdziepolek.pl#?#.content-section > .body > .m-t-40:-abp-contains(Polub nasz profil)
 geek.justjoin.it##.menu-icon-fb, .menu-icon-insta, .menu-icon-tw, .menu-icon-linkedin
 geekweek.pl##.footer-links__social > li:not([class*="rss"])
+gemini.pl#?#div:not([class]):not([id]) > .font-bold.text-16:-abp-contains(Dołącz)
+gemini.pl#?#div:not([class]):not([id]) > .font-bold.text-16:-abp-contains(Dołącz) + div[class]
 gemlord.pl##div.k_footcol:nth-of-type(3)
 gemre.com.pl##img[alt="Google plus"]
 gemre.com.pl##img[alt="Tumblr"]
@@ -8105,6 +8107,7 @@ youtube.com#?#yt-share-target-renderer.yt-third-party-share-target-section-rende
 yuliyababich.eu###AnimalPanel table td > span:nth-of-type(n+6):nth-of-type(-n+9)
 yves-rocher.pl##.l-footer__services div.service__column:nth-of-type(2) > div.service__box:nth-of-type(4)
 yves-rocher.pl##div.service__column:nth-of-type(2) > div.service__box:nth-of-type(3)
+yves-rocher.pl#?#div.cmsblock-wrapper:-abp-has(> a:is([href*="facebook.com/"], [href*="instagram.com/"]))
 z4y.pl##.breadcrun > ul > li:nth-of-type(4)
 za-miastem.pl##.bzm-social > div > a, .bzm-footer-facebook, .bzm-footer-instagram
 zaadoptujfaceta.pl##.clearfix.fleft:nth-of-type(1)
@@ -8496,6 +8499,8 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||gazetabaltycka.pl/wp-content/themes/gazetabaltycka/images/youtube.png
 ||gazetaswietojanska.org/layout/ico/fbbw2.png
 ||gazetaswietojanska.org/layout/ico/YT3.png
+||gemini.pl/images/logos/facebook.svg
+||gemini.pl/images/logos/instagram.svg
 ||genway.pl/images/frontend/theme/whitegen/social/youtube.png
 ||gksglinik.pl/images/facebook.png
 ||glos24.pl/facebook.png
