@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.3.1.0
-! Last modified: Wed, 01 Mar 2023, 01:31 UTC+01:00
+! Version: 2023.3.6.0
+! Last modified: Mon, 06 Mar 2023, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.3.1.0 aktualizacja: śro, 01 mar 2023, 01:31 UTC+01:00
+! v.2023.3.6.0 aktualizacja: pon, 06 mar 2023, 01:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -978,6 +978,7 @@ ergohestia.pl,mtu.pl##div[id^="cookie"][id$="_outer"]
 ergokantor.pl###popups__
 erli.pl##body > #root ~ div + div
 erli.pl#?##root > div[class]:-abp-has(> div > div > h4:-abp-contains(o swojej prywatności))
+erli.pl#?#body > #root ~ div[class*=" "]:-abp-has(>  div[class*=" "] > div > div > header:-abp-contains(Ustawienia prywatności i cookies))
 esa.nask.pl#?#.ReactModalPortal:-abp-has(.cookies-greetings)
 esbank.pl###cookie_info_es
 esklep.legutko.com.pl###event_banner
