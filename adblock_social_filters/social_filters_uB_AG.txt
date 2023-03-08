@@ -77,7 +77,11 @@ lookcam.com$$#lookcam-fb-modal
 !
 !
 ! Widgety
-~poczta.wp.pl,wp.pl,~www.wp.pl##div > strong:has-text(/^Podziel się$/):upward(2)
+~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
+~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href=""][title*="instagram"][target="_blank"] ~ a[href=""][title*="facebook"][target="_blank"]:upward(2)
+~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##figure strong:has-text(/^Podziel się$/):upward(2)
+~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##title:has-text(Share):upward(3)
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div > strong:has-text(/^Podziel się$/):upward(2)
 30minut.pl##.gora_ikony_nk, .gora_ikony_fb:style(visibility: hidden !important;)
 45minut.pl##+js(ra, href, .carousel-inner a[href="https://www.facebook.com/45minutpl"], stay)
 abcfirany.pl##+js(ra, href, #BanneryAnimacjaPrzewijana > #scrlnr1 > a[href="https://abcfirany.pl/reklama-b-4.html"], stay)
@@ -123,10 +127,6 @@ meblomag.eu##map[name="Map4"] > area:nth-of-type(1):remove()
 media.santander.pl##.footer__social-container > a:nth-of-type(-n+5):style(visibility: hidden !important; width: 1px !important; margin: 1px !important;)
 money.pl,moneyv.wp.pl##div:last-child > button[color="gray400"] ~ div:empty:upward(1)
 money.pl,moneyv.wp.pl##div:last-child > button[color] ~ div > div[color]:has-text(/^Podziel się$/):upward(2)
-money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
-money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href=""][title*="instagram"][target="_blank"] ~ a[href=""][title*="facebook"][target="_blank"]:upward(2)
-money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##figure strong:has-text(/^Podziel się$/):upward(2)
-money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##title:has-text(Share):upward(3)
 motek.com.pl##a[href="https://www.instagram.com/motek.com.pl/"]:style(pointer-events: none !important;)
 muza.com.pl###facebook:style(visibility: hidden !important;)
 naklejkolandia.pl##+js(ra, href, #sliderBox ul > li > a[href^="https://www.facebook.com/notes/naklejkolandiapl/"], stay)
@@ -188,6 +188,7 @@ www.knorr.pl##:root > body .social-sharing, :root > body .social-sharing > *:sty
 !
 ! Widgety - specjalne instrukcje
 !#if !cap_user_stylesheet
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl###app > div > table > tbody > tr:nth-child(1) > td > div > div > div > div > div > div > div > article > div > div > div > div[hidden]:style(position: absolute !important; left: -3000px !important;)
 autokult.pl##.instagram-media:style(visibility: hidden !important;)
 autokult.pl##.main-article.article > .insert__default.insert--size-m.insert
 autokult.pl,fitness.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,medycyna24.pl##.link-facebook, .link-youtube, .link-gplus, .link-instagram, .link-pinterest, .icon-mail:style(visibility: hidden !important;)
@@ -197,7 +198,6 @@ dobreprogramy.pl##.social__group > .social__label
 f.kafeteria.pl###ipsLayout_mainArea > .ipsList_inline > li > .cShareLink
 purepc.pl##.right.article-options
 wp.pl##.liketag, .wpsocials--buttons:style(visibility: hidden !important;)
-wp.pl,~www.wp.pl###app > div > table > tbody > tr:nth-child(1) > td > div > div > div > div > div > div > div > article > div > div > div > div[hidden]:style(position: absolute !important; left: -3000px !important;)
 zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta:style(visibility: hidden !important;)
 !#endif
 !#if !cap_html_filtering
