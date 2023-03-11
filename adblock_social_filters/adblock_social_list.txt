@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.3.8.1
-! Last modified: Wed, 08 Mar 2023, 21:31 UTC+01:00
+! Version: 2023.3.11.0
+! Last modified: Sat, 11 Mar 2023, 17:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.3.8.1 aktualizacja: śro, 08 mar 2023, 21:31 UTC+01:00
+! v.2023.3.11.0 aktualizacja: sob, 11 mar 2023, 17:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -778,6 +778,7 @@ pl,~wykop.pl##.wykop
 !
 !
 ! Specyficzne reguły ukrywające
+
 !islodycze.pl##.--icons.footer-section-content
 ###chaty-channel-facebook_messenger
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -882,7 +883,7 @@ abcksiegarnia.pl,aptekadomlekow.pl,aptekamirowska.pl,aptekawsieci.pl,dlapacjenta
 abcmotoru.com.pl###Info-box-wrap-7180
 abcsurf.pl##.modFooter_Social
 abczdrowie.pl,allani.pl,architekturaibiznes.pl,autocentrum.pl,autokult.pl,channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,dobramama.pl,dobregry.pl,dobreprogramy.pl,domnowoczesny.com,domodi.pl,donashop.eu,dzwignice.info,e-pasaz.com,echirurgia.pl,echotygodnik.info,estyl.pl,extradom.pl,filmaster.com,filterlogic.pl,fotoblogia.pl,gadzetomania.pl,galeria-pestka.com,gls-group.eu,gorlice.in,gorlice.tv,grene.pl,hardreset.info,homebook.pl,host1.eu,inkubatorkultury.eu,kadantiscam.netlify.app,kafeteria.pl,kafeteria.tv,kardiolo.pl,kazimierzdolny.pl,komorkomania.pl,krokdozdrowia.com,kuponrabatowy.net,kwiaciarniaina.com,limanowa.in,lubelska.tv,luxlux.pl,medycyna24.pl,mixer.pl,money.pl,neon24.info,nerwica.com,netim.pl,niepodlegla.gov.pl,nocowanie.pl,nowyekran24.com,o2.pl,open.fm,parenting.pl,pinger.pl,pl.futbol24.com,podstacja.com,pogodnie.pl,polskieradio.pl,polygamia.pl,prawo-budowlane.info,pudelek.pl,pudelek.tv,pudelekx.pl,pytamy.pl,radiomalbork.fm,rorek.eu,sacz.in,sadzonkiborowki.com,samosia.pl,shop.massdnm.com,siatka.org,slonskyradio.eu,sluzebnosc.info,smaczneblogi.pl,smog.pl,snobka.pl,so-magazyn.pl,stoprocent.com,superauto.pl,swmarcin-jarocin.com,tarnowska.tv,testwiedzy.pl,totalmoney.pl,tvdami.eu,vibez.pl,vpolshchi.pl,wakacje.pl,warsztatowiec.info,wejherowo24.info,woblink.com,wp.pl##.facebook
-abersklep.pl,commplace.pl,eplakaty.pl,porta.com.pl,unisono.eu##.social-box
+abersklep.pl,commplace.pl,eplakaty.pl,unisono.eu##.social-box
 abonament.alfaromeo.pl##.watch-us__headline
 abrakadabra.sklep.pl##.social a:not([href*="newsletter"])
 absolvent.pl##footer ul ~ ul ul > li > a[href*=".com/"]
@@ -1755,6 +1756,7 @@ bookmaster.com.pl##header > div > a[href*=".com/"]
 bookscout.pl#?#.large-gutters.flex-row.align-items-center.row:-abp-has(h1:-abp-contains(Bądź na bieżąco))
 booksy.com#?#footer a:-abp-has(svg > g[id*="Social"])
 booksy.com#?#section[class=""] + div[style*="position"][style*="sticky"] > div > section[class*=" "]:-abp-has(> h2:-abp-contains(Media Społecznościowe i udostępnianie))
+boop.pl##a[href*="dc."][class*="button"]
 borcas.eu#?#footer#footer.footer > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div > div > div:nth-of-type(1):-abp-has(p > strong:-abp-contains(obserwuj))
 born2be.pl,renee.pl##.footer__column--social
 born86.pl###portal_main > .duzyna1, #portal_main > .peepodpis, .instashow-gallery.instashow
@@ -3050,6 +3052,8 @@ flarrow.pl##.td-instagram-element, .td-instagram-header
 flarrow.pl##.td-ss-main-sidebar > div:nth-of-type(3)
 flex.orange.pl###flex-footer section:nth-of-type(4)
 flex.orange.pl##footer section:nth-of-type(4)
+flexlink.com###block-footer-links-social
+flexlink.com###block-header-links-social
 flixbus.pl##.block--socials
 flixbus.pl##div.flix-page-container:nth-of-type(2) div:nth-of-type(2) .footer-social-title
 flixbus.pl##footer div:nth-child(2) > [class*="social-module--"]
@@ -4299,6 +4303,7 @@ kupcochcesz.pl##.top-ikonki a[href*=".com/"]
 kupiec.pl###footer h4 > a[href="#"], #footer .payment > ul
 kupony.pl##.additional-nav > li:nth-of-type(2)
 kurasinski.com##.home-social
+kurasinski.com##.social
 kurier365.pl##.no-border.box
 kuriereuropejski.org###footer li > a[href*="facebook.com/JEFpoland/"], #footer li > a[href*="twitter.com/KEuropejski"]
 kuriereuropejski.org###share > li > a:not([href="#"]) > .fa, .share
@@ -5636,8 +5641,8 @@ pepco.pl#?#.footer-nav .row p:-abp-contains(Znajdź nas na)
 pepco.pl#?#div.col-sm-6.col-md-3.col-xs-12.grid-item:-abp-contains(DOŁĄCZ DO NAS)
 pepco.pl#?#div.col-xs-12.col-sm-6.col-md-3.grid-item:-abp-has(a[href*="instagram.com/pepcopl/"])
 pepegi.eu#?#.menu_button_wrapper:nth-of-type(2):-abp-has(a[href*="facebook.com/"], a[href*="twitter.com"])
-pepper.pl##.footer-sectionBorder a.btn:not([href*="rss"])
 pepper.pl##.js-banner.aGrid[data-track*="twitter_banner"]
+pepper.pl##footer#footer.footer > div:nth-child(3) > div > section:nth-child(4) > div > ul > li:nth-of-type(-n+3)
 pepsi.pl###socialBox
 pepsieliot.com##.soc-buttons > a:nth-of-type(-n+5)
 pepsieliot.com##.soc-slider
@@ -5700,6 +5705,7 @@ piotrkowski24.pl##.single-post-social, .info-links, .post-meta-shb > .sfsb.sfsh
 pipelife.com##.smm
 pirania-sklep.pl##.footer__icon
 piroart.eu##.facebook--fixed
+piroart.eu##.footer__social__item:not(.rss)
 piromax.pl###ikonka-g
 pism.pl###div_stopka_main .div-table-0 > .div-table-row:nth-of-type(3) > .div-table-col2:nth-of-type(6) > div > div > a > img
 pism.pl##.boxy_poziom > ul > li:nth-of-type(n+5):nth-of-type(-n+9)
@@ -5991,7 +5997,10 @@ porozmawiajmyoit.pl##.widget_qode_instagram_widget
 porsche.pl##.b-sharepanel
 porsche.pl##.m-03-social-headline
 porscheinterauto.pl##a[href*="facebook.com/PorscheInterAutoPL/"], .c-article > .o-container.c-section > .o-flex-gaps.o-flex-md > div:nth-of-type(1)
-porta.com.pl##.social--links
+porta.com.pl##footer a[href*="facebook.com/"]
+porta.com.pl##footer a[href*="instagram.com/"]
+porta.com.pl##footer a[href*="pinterest.com/"]
+porta.com.pl##footer a[href*="youtube.com/"]
 portal-polski.pl##.hustle-social
 portal-polski.pl##.tg-second-footer-widget
 portal-polski.pl##.tg-third-footer-widget
@@ -6855,6 +6864,7 @@ sky-shop.pl##section.one-five-md.one-half-sm.one-whole-xs.grid-item:nth-of-type(
 skycash.com##.c-footer__socials
 skycms.pl##.dark .connect
 skylark.up.poznan.pl##.footer-area #block-block-4 .brands
+skyshowtime.com##ul[class*="social-menustyles_"]
 skyup.pl##.circle-button[href*="facebook.com/SkyUPmc/?fref=ts"]
 skyup.pl##.circle-button[href*="youtube.com/channel/UCgRoq1MzslKKjV0RWiNgVYw"]
 slaskie.travel##.social-media-widget-display, .widget-LikeBox-slaskietravel
@@ -7802,6 +7812,7 @@ waveconcept.pl##.wtyczki .inst, .wtyczki .pt
 wavepc.pl##.mh-footer-4, .mh_magazine_facebook_page
 waw4free.pl##div.footer-box:not(:nth-of-type(2)) > .social, #spolecznosci > a[title^="fanpage"], #spolecznosci > a[title$="Instagramie"]
 wazcar.pl##.contact-icons > ul > li:nth-of-type(5)
+wbgroup.pl##li[id*="-menu-item-social-"]
 wbieszczady.pl##section article p a[href*="facebook.com/"][title] > img[alt]
 wbieszczady.pl##section article p a[href*="instagram.com/"][title] > img[alt]
 wbieszczady.pl##section article p a[href*="youtube.com/"][title] > img[alt]
