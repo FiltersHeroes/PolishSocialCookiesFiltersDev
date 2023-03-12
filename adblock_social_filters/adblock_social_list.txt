@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.3.11.0
-! Last modified: Sat, 11 Mar 2023, 17:31 UTC+01:00
+! Version: 2023.3.12.0
+! Last modified: Sun, 12 Mar 2023, 21:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.3.11.0 aktualizacja: sob, 11 mar 2023, 17:31 UTC+01:00
+! v.2023.3.12.0 aktualizacja: nie, 12 mar 2023, 21:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -778,7 +778,6 @@ pl,~wykop.pl##.wykop
 !
 !
 ! Specyficzne reguły ukrywające
-
 !islodycze.pl##.--icons.footer-section-content
 ###chaty-channel-facebook_messenger
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -3617,7 +3616,8 @@ horyzont.eu##.custom > ul > li:nth-of-type(n+3):nth-of-type(-n+4)
 hospicjum-podkarpackie.pl##.facebook-nav
 hostinger.pl##.footer-new-holder-right-holder__socials
 hostinger.pl##.h-footer__social-icons
-hostovita.pl##.menu-item > a[href="/blog/"], div.contact-info:nth-of-type(2)
+hostovita.pl##.menu-item a[href="/blog/"]
+hostovita.pl##div.contact-info:nth-of-type(2)
 hotel-tulipan.pl##div.banner2:nth-of-type(-n+4)
 hotel.odr.net.pl##a[class*="iconlink"][href*="facebook.com/"]
 hotelbrda.com.pl###fb-plugin-tab
@@ -4718,6 +4718,8 @@ media2.pl##a[href*="twitter.com/media2pl"]
 media-tech.eu,sporto.com.pl,zizako.pl###widget_shop4
 media.biedronka.pl##.biedronka-footer__social-section
 media.carrefour.pl##.footer__social__list
+media.globalworth.pl##.flex--right .pr-story--share-text
+media.globalworth.pl##.pr-story--share-sapce-none
 media.ing.pl##div.column:nth-of-type(2) .footer-section-text, div.column:nth-of-type(2) .footer-section-text ~ ul > li
 media.traficar.pl,prowly.com##.pr-story--share-sapce-none
 media.upc.pl##.pr-story--media-contact__social-icon
@@ -4751,6 +4753,7 @@ medpak.com.pl###iqithtmlandbanners-block-3
 medpolonia.pl##.helper-yt
 medseven.eu,spawaj.eu##.kac-sm-panel .kac-sm-twitter
 medycyna.anauk.net##a[href*="google.com/ig/adde"], a[href*="blip.pl/"]
+medyczny.store##.simpleblog__share
 medyk.rzeszow.pl##.links > a[href*="facebook.com/"]
 medyk.rzeszow.pl##.links > a[href*="instagram.com/"] > img
 meetup.com##.flex--noGutters > .flex-item--shrink, .event-share
@@ -5604,6 +5607,11 @@ patronite.pl#?#.tabs__content p.text-center:-abp-contains(/^Pomóż, udostępnia
 patronus-med.com##a[href*="facebook.com/"] img
 patrzladnie.pl##.widget_cs_social_widget.footer-widget-col
 patyna.pl###footer .textwidget > div > h3:nth-of-type(1)
+paweltkaczyk.com##.menu-item a[href*="facebook.com/"]
+paweltkaczyk.com##.menu-item a[href*="instagram.com/"]
+paweltkaczyk.com##.menu-item a[href*="linkedin.com/"]
+paweltkaczyk.com##.menu-item a[href*="twitter.com/"]
+paweltkaczyk.com##.menu-item a[href*="youtube.com/"]
 pay-card.pl##.et_pb_section_6
 pay-card.pl##a[href*="youtube.com/channel/UCIrQBYCQhV8RCvPZ5YlZywQ"]
 pay.google.com##.youtube.social--icon
@@ -6119,6 +6127,7 @@ progenis.pl,rysunek.edu.pl##.widget_face
 programatory.com##table.tabela-normal:nth-of-type(11) > tbody > tr > .komcw > table > tbody
 programistanaswoim.pl##.one-third.column-3.column > .widgets > .widget_text.widget:nth-child(-n+2)
 programistka.com##.notumn_social_icons_widget
+programosy.pl#?#.left-col > div > p:-abp-contains(Dołącz)
 programtv.naziemna.info###link-facebook
 programtv.naziemna.info###my-fb-panel
 programtv.onet.pl##.fb.social
@@ -6666,7 +6675,6 @@ siemens-home.bsh-group.com##.a-link-external > .icon-facebook.icon
 siemens-home.bsh-group.com##.likes
 siemens.com##div.col-lg-12.col-sm-6:nth-of-type(3)
 siepomaga.pl##.footer-footer-component__social-list
-siepomaga.pl##.header-cookies-component
 siepomaga.pl##li.sharing-share-modal-component__item:nth-of-type(-n+4)
 siepomaga.pl#?#.human-cause > .share > div > div:nth-of-type(-n+3):-abp-has(a:-abp-contains(/(Udostępnij|Tweetnij|Dodaj relację)/))
 sieradztomy.pl###Image6
@@ -7133,6 +7141,7 @@ supermedia.pl##.userfooter > .row > p > span[style^="color"]
 supermemo.pl###block-block-42 > .content > h4, #profiles
 superpools.pl#?##kontakt > div:last-child > div:first-child > div:first-child:-abp-has(> p > a[href*=".com/"])
 supersam-katowice.pl#?#div.project_details_item:-abp-has(> .project_details_item_title:-abp-contains(/^(Facebook|Instagram)$/))
+supersam-katowice.pl#?#li.list-single__item:-abp-has(> a.btn--large.btn.list-single__link[href*="facebook.com/"])
 supertydzien.pl##.widget.row:nth-of-type(5) > .text-center.col-md-12, .widget.row:nth-of-type(6)
 superubezpieczenia.pl##.help-info > li > .wykop2
 suponwroclaw.pl##.clearfix.sf-contener > div:nth-of-type(4)
@@ -7648,7 +7657,7 @@ upsteam.eu##.footer td.wsite-multicol-col:nth-of-type(1) > h2.wsite-content-titl
 urania.edu.pl##a[href*="facebook.com/UraniaPA"]
 urania.edu.pl##a[href*="instagram.com/Urania1919"]
 urania.edu.pl##p > a[href*="twitter.com/UraniaPA"]
-urbanek.com.pl##.menu-item > [href="/#facebook"]
+urbanek.com.pl##.menu-item  a[href="/#facebook"]
 urbanforms.org##.footer-info > div > .link-small > li:nth-of-type(3)
 urbanikowie.pl##footer .fb
 urbanium.eu###casing > .right > div.featbox:nth-of-type(1)
@@ -8016,7 +8025,7 @@ wszelkieprzepisy.pl###likeup
 wszystkiegoslodkiego.pl##.ws-footer__center__socials
 wszystkiemojebziki.pl###HTML252
 wszystko.pl##.sm-iblock.like
-wszystkoociasteczkach.pl##.menu-item > a[href*="witter.com"]
+wszystkoociasteczkach.pl##.menu-item a[href*="witter.com"]
 wszystkotujest.pl##.is
 wtk.pl##.tooltip-news-share-container > div[class*="icon"]:nth-of-type(-n+2)
 wtp.waw.pl##.home-changes-facebook
@@ -8753,6 +8762,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||press.pl/images/article_linkedin.png
 ||prgok.pl/resources/img/mini_fb.png
 ||programatory.com/grafika/facebook-TOMSAD/FACEbook-TOMSAD.jpg
+||programosy.pl/img/facebook.png
 ||przelewy24.pl/themes/base/assets/img/LI-In-48px.png
 ||przyjazne-deklaracje.pl/resources/images/icons/general/social-media/facebook.svg
 ||pswbp.pl/images/admin/logosy/twitter67.jpg
