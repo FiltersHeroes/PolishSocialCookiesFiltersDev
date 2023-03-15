@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.3.13.0
-! Last modified: Mon, 13 Mar 2023, 01:31 UTC+01:00
+! Version: 2023.3.15.0
+! Last modified: Wed, 15 Mar 2023, 13:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2022 Certyficate IT
 ! Copyright © 2022 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.3.13.0 aktualizacja: pon, 13 mar 2023, 01:31 UTC+01:00
+! v.2023.3.15.0 aktualizacja: śro, 15 mar 2023, 13:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -817,6 +817,7 @@ pl,~wykop.pl##.wykop
 4gift.pl##.internet.footer-information--col
 4kdownload.com##.community__item:not([class*="feed"])
 4kdownload.com##.footer__col--community.footer__col > .footer__heading
+4kdownload.com##.recommend > div:nth-child(n+2)
 4keepers.pl##.sklepfanpage, a[href*="facebook.com/4Keepers/"] > .item-img
 4kolkainietylko.pl,kryptoraport.pl###do-etfw-2
 4kom.pl,kontri.pl##.contact_social_media
