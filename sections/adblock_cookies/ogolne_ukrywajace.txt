@@ -759,7 +759,7 @@ pl##[class*="cookie-policy"]:not(body):not(html)
 pl##[class^="box-cookie"]:not(body):not(html)
 pl##[id^="topInfo"]:not(body):not(html)
 pl##aside[class*="Cookie"]
-pl##aside[class*="cookie"]
+pl##aside[class*="cookie"]:not([class*="modal" i])
 pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies_tlo"]:not([id]):not([class])
 pl##div#cook
 pl##div#cookiepopupdiv
