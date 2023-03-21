@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.3.20.0
-! Last modified: Mon, 20 Mar 2023, 01:31 UTC+01:00
+! Version: 2023.3.21.0
+! Last modified: Tue, 21 Mar 2023, 18:25 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.3.20.0 aktualizacja: pon, 20 mar 2023, 01:31 UTC+01:00
+! v.2023.3.21.0 aktualizacja: wto, 21 mar 2023, 18:25 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -4074,6 +4074,10 @@ poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
 ranking.perspektywy.pl#@##cookieModal ~ .modal-backdrop
 selgros.pl#@##cookie_accept
+stilord.pl#@##cookie-overlay:not(.modal):not(.reveal)
+stilord.pl#@#.cookie-bar:not(body):not(html)
+stilord.pl#@#.cookie-info-box:not(body):not(html)
+stilord.pl#@#.widget-cookie-bar
 toteraz.pl#@##cookie-preferences
 visa.pl#@##CookieReportsBanner
 visa.pl#@##CookieReportsPanel
@@ -4118,6 +4122,7 @@ puratos.pl#@##cookieInfo:not(body):not(html)
 selgros.pl#@##cookie_accept:not(body):not(html)
 sklep-domwhisky.pl#@#.rodo-popup:not(body):not(html):not([style="display: block;"])
 sklep.winkhaus.pl,volcano.pl#@#aside[class*="cookie"]
+stilord.pl#@#.cookie-bar:not(body):not(html)
 viasatexplore.pl,viasathistory.pl,viasatnature.pl,winnicalidla.pl#@#.privacy-policy:not(body):not(html)
 visa.pl#@#span[class*="Cookie"]:not(.closeCookie)
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
