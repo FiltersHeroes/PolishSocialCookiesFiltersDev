@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.3.21.0
-! Last modified: Tue, 21 Mar 2023, 18:25 UTC+01:00
+! Version: 2023.3.22.0
+! Last modified: Wed, 22 Mar 2023, 22:36 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.3.21.0 aktualizacja: wto, 21 mar 2023, 18:25 UTC+01:00
+! v.2023.3.22.0 aktualizacja: śro, 22 mar 2023, 22:36 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -377,7 +377,7 @@ biblioteka.teatrnn.pl##body > div[style="text-align:center;"]:nth-of-type(1)
 bibliotekaleczyca.pl###bannerlt, #closead
 bibliotekalesmierz.eu###cookieBox
 biblioteki.org,ejournals.eu,ksiegarniainternetowa.co.uk,ksiegarniainternetowa.de,ministerstwogadzetow.com,plakacik.eu,polskaksiegarniainternetowa.eu,swmarcin-jarocin.com,ufs.pt###cookiesBar
-biedronka.pl,delikatesy.pl,genius.com,hbomax.com,inpost.pl,paczkomaty.pl,panasonic-batteries.com,polskieradio.pl,wyborcza.pl##html:not([style*="overflow" i]) #onetrust-consent-sdk
+biedronka.pl,delikatesy.pl,genius.com,hbomax.com,inpost.pl,paczkomaty.pl,panasonic-batteries.com,polsat.pl,polskieradio.pl,wyborcza.pl##html:not([style*="overflow" i]) #onetrust-consent-sdk
 bieganieuskrzydla.pl###js-site-cookie
 bieganski.org,grupaazoty.com,requiem-records.com##.cookies_kontener
 biegniepodleglosci.pl###cf-cookie-banner
@@ -2248,8 +2248,6 @@ politykainsight.pl##.cc_message
 polnord.pl###polCookieInfo
 polona.pl##cbn-cookies
 polonika.at,tominet.com.pl#?#table:-abp-has(#cookieMessageText)
-polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has(> div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"] > p:first-child + p:last-child:-abp-contains(Wyrażam zgodę na przechowywanie))
-polsatboxgo.pl,polsatgo.pl#?##__next div[class^="sc-"]:first-child:-abp-has(> div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
 polska-szkola.pl###activebar-container
 polskaligatenisa.pl##app-rodo
 polskieradio.pl##.wrap-cookie-info-ext
@@ -2726,7 +2724,6 @@ tesco.pl##.gdpr-cookies-inside
 testhub.pl##.sh-page-notice
 testuj.peugeot.pl#?#.content-site.main-section > .widget > .content > p:nth-of-type(2):-abp-contains(pliki cookies)
 testuj.peugeot.pl#?#.widget a:-abp-contains(Zgoda na pliki Cookies)
-testujemy.biedronka.pl##.qucki-box
 tewa-sensors.com###cherry-cookie-banner
 thomann.de##.rs-cookie-consent
 thule.com##.cookie-consent-box
