@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.3.25.3
-! Last modified: Sat, 25 Mar 2023, 21:31 UTC+01:00
+! Version: 2023.3.26.0
+! Last modified: Sun, 26 Mar 2023, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.3.25.3 aktualizacja: sob, 25 mar 2023, 21:31 UTC+01:00
+! v.2023.3.26.0 aktualizacja: nie, 26 mar 2023, 18:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2438,6 +2438,9 @@ domowe-wypieki.pl###sunfw-social-share
 domowefrytki.com#?#.site-footer .elementor-text-editor > p:-abp-contains(Profile Społecznościowe)
 domowemelodie.pl###ytnav, #fbnav
 domowystomatolog.pl###tws_s_100001
+dompelenpomyslow.pl##.navbar-cg-social > a:not([href*="news.google."])
+dompelenpomyslow.pl##.sidebar-fb
+dompelenpomyslow.pl##.sidebar-yt
 domtuiteraz.eu###sow-image-2
 domy-bartek.pl###in
 domy-wysoka.pl##.g-bg-facebook, .g-bg-instagram
