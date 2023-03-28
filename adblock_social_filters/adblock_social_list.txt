@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.3.27.1
-! Last modified: Mon, 27 Mar 2023, 22:31 UTC+02:00
+! Version: 2023.3.28.0
+! Last modified: Tue, 28 Mar 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.3.27.1 aktualizacja: pon, 27 mar 2023, 22:31 UTC+02:00
+! v.2023.3.28.0 aktualizacja: wto, 28 mar 2023, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1395,6 +1395,7 @@ avanti24.pl##footer a[href*="facebook.com/avanti"]
 avanttecno.com##.footer-some
 avast.com##.social-icons > a.bi-link:nth-child(-n+5)
 avatec.pl###footer > div > div > div > .text-right
+avg.com##.social-connect > ul > li > a
 avlab.pl##li:nth-child(-n+3) > .ext
 avlab.pl#?#.page-content ~ div section:-abp-has(.elementor-widget-share-buttons)
 avlab.pl#?#footer .elementor-widget-text-editor > .elementor-widget-container > .elementor-text-editor > p:-abp-contains(OBSERWUJ NAS:)
@@ -8114,6 +8115,7 @@ www.o2.pl#?#div[class][data-st-area*="Quote-Content"] div[class] > div[class]:-a
 www.o2.pl#?#h2 ~ div > div > div > span:-abp-contains(PODZIEL)
 www.o2.pl#?#h2 ~ div > div > div > span:-abp-contains(PODZIEL) ~ *
 www.papilot.pl##.instagram-wide-box
+www.pgi.gov.pl##.header-search a[href*=".com/"]
 www.pila.pl###kontakt .col-md-5.col-xs-12
 www.pisz.pl##.slider_button
 www.pzu.pl##.footer div.col-md-4:nth-of-type(3) > .row > div.col-xs-12:nth-of-type(2) > .menu_list
