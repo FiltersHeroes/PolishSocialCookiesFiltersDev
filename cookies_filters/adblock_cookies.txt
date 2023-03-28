@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.3.26.0
-! Last modified: Sun, 26 Mar 2023, 21:43 UTC+02:00
+! Version: 2023.3.28.0
+! Last modified: Tue, 28 Mar 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,11 +18,10 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.3.26.0 aktualizacja: nie, 26 mar 2023, 21:43 UTC+02:00
+! v.2023.3.28.0 aktualizacja: wto, 28 mar 2023, 02:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
-~dm.pgi.gov.pl,pgi.gov.pl###ispmodal, .jquery-modal
 1-st.com.pl,agrojd.com,agrospec.pl,allnet24.pl,arx.pl,aspel.com.pl,babysensepolska.pl,bhp.dozamel.pl,bikeman.pl,bosch.com.pl,comarch-esklep.pl,cudnydom.pl,e-oazakrakow.pl,elabrick24.pl,esklep.brandvital.eu,estetiq.pl,galerialazienek.pl,haczykowo.pl,kopalniasrebra.com,kran.tychy.pl,ksiegarniarubikon.pl,milopiwo.pl,oftadirect.pl,papier24h.pl,papieryczerpane.pl,profesjonalne-nawadnianie.pl,selene.pl,sklep.abydos.pl,sklep.agro-eko.com.pl,sklep.agromasz.pl,sklep.balcamp.pl,sklep.benedetto.com.pl,sklep.budowniczy.com.pl,sklep.kotrak.com,sklep.kskd.pl,sklep.mebloart.eu,sklep.miodyapis.pl,sklep.phalanxgames.pl,sklep.rol-mech.pl,sklep.salvatti.pl,sklep.stalco.pl,sklep.tayama.pl,spawalniczy-sklep.pl,swiatkoralikow.pl,swiatkoralikow2.pl,texasclub.pl,tvprodukt.pl,wierzynek.pl,workstyle.pl,wphmilitaria.pl#?#div[class*="config"][class*="Messages" i]:-abp-contains(/pliki "?cookies"?/)
 2x45.info,adainfo24.eu,agromasa.com,alltube.tv,answear.com,atriumsystem.eu,barfnyswiat.org,bip.dzialdowo.eu,bip.gig.eu,bip.konin.eu,bip.piaseczno.eu,business.link,cedc.com,diagprog4.com,edeklaracje.info,eska.tv,evertourist.com,fachowiec.com,feriogaj.com,fokus.tv,gdansk.pl,gdzierodzic.info,grobla.net,imperiaonline.org,informacja-turystyczna.starachowice.eu,jezewo.eu,kolniak24.eu,koneser.eu,koszyki.com,lampy24.net,lot.com,lumarte.eu,mojewypieki.com,multimaszyny.eu,muzo.fm,nasze.fm,nowa.tv,odpady.chorzow.eu,plantatekst.info,portalodo.com,prymus.info,radiokampus.fm,rowertour.com,skierniewice.eu,studiuje.eu,telesystem-world.com,vodi.cc,voxmusic.tv,xtb.com,zamawiam.marchewkowepole.com###cookies
 3dom.pro,anmur.eu,aoc.com,avenidapoznan.com,beezeeselfcare.pl,bibliotekacyfrowa.eu,bimobject.com,bip.gliwice.eu,budmat.com,canalplus.com,chorzow.eu,corab.eu,damy-rade.info,diamante-wear.com,digitalhome.co,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kler.eu,koszulkomat.eu,maamstyle.com,mateuszgrzesiak.com,media-tech.eu,mg-pmm.com,motogron.com,naszefutrzaki.eu,pkpcargo.com,prochnik.com,radiopark.fm,rocks-jeans.com,sapphiretech.com,secretdelivery.pl,stolmot.com,telko.in,tg.shop,trans.eu,trecnutrition.com,warszawa.promenada.com,wearmedicine.com,yes2move.com##.cookies
@@ -1103,6 +1102,7 @@ forum-kredytowe.pl,forumplay.pl###navbar_notice_6
 forum-kulturystyka.pl###fk-terms
 forum.dziennikwschodni.pl###cookiePolicyPopup > div > p
 forum.e-hodowca.pl#?##wrapcentre > table.tablebg:-abp-has(> tbody > tr > .cat > h4:-abp-contains(Informacje o plikach cookie))
+forum.jestemfit.pl###need-cookie
 forum.joomla.pl,forumplay.pl###notices
 forum.minepedia.pl##div#notice
 forum.naziemna.info###cookies-m
