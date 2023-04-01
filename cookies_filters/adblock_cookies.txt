@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.3.28.0
-! Last modified: Tue, 28 Mar 2023, 02:31 UTC+02:00
+! Version: 2023.4.1.0
+! Last modified: Sat, 01 Apr 2023, 19:09 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.3.28.0 aktualizacja: wto, 28 mar 2023, 02:31 UTC+02:00
+! v.2023.4.1.0 aktualizacja: sob, 01 kwi 2023, 19:09 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1295,7 +1295,6 @@ hebe.pl##.rodo-popup_popup
 hebe.pl,hebeapteka.pl##.legal-info
 heineken.com.pl###infobx2
 heineken.com.pl###infoprywatnosciciastka
-hejto.pl##footer ~ .fixed.z-1200[class*="paper"]
 helios.pl##.ban-rodo
 help.autodoc.pl##.wrap-privacy-notification
 helpfind.pl##.cookie-privacy-box
@@ -3036,7 +3035,7 @@ zyro.com##.zyro-cookies
 ||cieszyn.pl/images/cn-ins.jpg
 ||cmp*.*.pl/*.js|$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
-||cmp.quantcast.com/choice/*$script,domain=dobryslownik.pl|gry-online.pl|instrukcjaobslugipdf.pl|kalendarz-365.pl|medme.pl|mp.pl|polskieradio24.pl|teleman.pl|termedia.pl
+||cmp.quantcast.com/choice/*$script,domain=dobryslownik.pl|gry-online.pl|hejto.pl|instrukcjaobslugipdf.pl|kalendarz-365.pl|medme.pl|mp.pl|polskieradio24.pl|teleman.pl|termedia.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
 ||confero.pl/js/cookies2013$script
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
