@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.4.1.1
-! Last modified: Sat, 01 Apr 2023, 22:31 UTC+02:00
+! Version: 2023.4.2.0
+! Last modified: Sun, 02 Apr 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.4.1.1 aktualizacja: sob, 01 kwi 2023, 22:31 UTC+02:00
+! v.2023.4.2.0 aktualizacja: nie, 02 kwi 2023, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -826,6 +826,8 @@ pl,~wykop.pl##.wykop
 4lapki.eu##a[href*="facebook.com/bielsko4lapki/"] > img, a[href*="twitter.com/Bielsko4Lapki"] > img
 4lifedirect.pl##.info-wrap > div:last-child > a[href*=".com/"]
 4lifedirect.pl##body > .container div.white.header4:nth-of-type(1), a > img[src="/Content/uploaded/images/fcbk.png"]
+4media.com##.col-socialshare
+4media.com##.social
 4media.com,dzienniknowy.pl,sadyogrody.pl##.social > .facebook
 4mens.pl##.text_share
 4programmers.net##.footer-bubble a[href*="facebook.com/4programmers.net"]
@@ -5370,6 +5372,8 @@ nvda.pl###Mod223
 nvidia.pl##.page-footer__social__label
 nzspw.pl###like-box-facebook, #social > .sc_menu > li > a:not(#email-newsletter)
 o2.pl##a[href*="social"]
+o2.pl##button[aria-label="facebook"]
+o2.pl##button[aria-label="twitter"]
 o2.pl##footer > div:first-child > div:first-child > div:nth-child(3) > span
 o2.pl#?#div > button:-abp-has(+ span:-abp-contains(/(Podziel|Skopiuj)/))
 o2.pl#?#footer[class] div[class]:-abp-has(> span[class]:-abp-contains(Bądź na bieżąco))
@@ -5728,6 +5732,7 @@ pgd.pl##.footer__sm-icons
 pgnig.pl##.footer-menu-list-icons.footer-menu-list li a[href*=".com/"]
 philips.pl##.p-footer-social
 philips.pl##.p-social-wrapper
+philips.pl##a[data-track-name*="follow_us"]
 philips.pl#?#div.p-l-one-quarter.p-grid-item:nth-of-type(4):-abp-contains(Podłącz mnie)
 phlov.com##.block-socialorder-1
 photonrobot.com##.qodef-social-icon-widget, .qodef-social-share-holder
@@ -6227,6 +6232,7 @@ przegladkoninski.pl###iconsocialcdweb
 przegladkoninski.pl###sonda :nth-of-type(2) .row > h3
 przegladkoninski.pl##.social-bottom a > img
 przegladpiaseczynski.pl###Mod106
+przegladpiaseczynski.pl##.social
 przejrzyjnaoczy.pl###media_image-12
 przelewy24.pl##.linkedin-button
 przelom.pl###sidebar > div.title:nth-of-type(6)
@@ -6515,6 +6521,7 @@ rolnex.pl##.footerFB
 rolnikszuka.com##.widget_tz_socials
 rolserwis.pl##.social--linki
 roltexkrasnystaw.pl###menu-menu-spolecznosciowe
+roltrans.eu##.socials
 romance-tv.pl##a[href*="instagram.com/romancetvpolska/"]
 romet.pl##.ct_w_footer_socials
 ronet.com.pl##.sliding-zam-fb, .sliding-zam-yt
@@ -7164,6 +7171,7 @@ strefapsx.pl###bdaia-widget-counter-3, div.footer-col3:nth-of-type(3)
 strefaucznia.pl###social_networking_block_column
 strefawalut.pl##footer #sub-menu > ul > li:nth-of-type(7)
 stressfree.pl##.row:nth-of-type(1) > .col-md-5.col-lg-5
+strimeo.tv##.widget_apsc_widget
 strimi.pl##.hidden-xs.hidden-sm.col-md-4.col-lg-4
 strimi.pl##div.col-lg-4:nth-of-type(3)
 strumyk.eu##.menu.right a[href*="facebook.com/"]
@@ -7430,6 +7438,7 @@ time.is###follow > div
 time.is##.adjustright > .social_buttons + div.tr
 tinder.com#?#.nav-section-title:-abp-has(+ .nav-social)
 tinypic.pl##.media-toolbox:nth-of-type(4)
+tipmedia.pl##.social > .facebook
 tipmedia.pl#?#.widget:-abp-has(div[class*="heading"] > a[href*="facebook.com/tipmediapl/"])
 tipply.pl##.fb-toggle
 tiptopol.pl###block-stopkasocialmedia
