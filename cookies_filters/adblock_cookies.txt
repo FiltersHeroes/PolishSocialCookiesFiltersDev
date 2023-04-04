@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.4.3.0
-! Last modified: Mon, 03 Apr 2023, 22:31 UTC+02:00
+! Version: 2023.4.4.0
+! Last modified: Tue, 04 Apr 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.4.3.0 aktualizacja: pon, 03 kwi 2023, 22:31 UTC+02:00
+! v.2023.4.4.0 aktualizacja: wto, 04 kwi 2023, 02:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3037,6 +3037,7 @@ zyro.com##.zyro-cookies
 ||cmp*.*.pl/*.js|$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
 ||cmp.quantcast.com/choice/*$script,domain=dobryslownik.pl|gry-online.pl|hejto.pl|instrukcjaobslugipdf.pl|kalendarz-365.pl|medme.pl|mp.pl|polskieradio24.pl|teleman.pl|termedia.pl
+||cmp.quantcast.com/choice/*$script,domain=naekranie.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
 ||confero.pl/js/cookies2013$script
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
