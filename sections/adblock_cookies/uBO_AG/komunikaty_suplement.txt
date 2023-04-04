@@ -111,7 +111,8 @@ burgerking.pl,secure.edu.pl##.modal:has(.cookies-modal)
 bydgoszczak.pl,kaliszak.pl,katowiczak.pl##.rodo, .rodo_layer
 calisia.pl,erakonopi.pl,produkty-lokalne.pl###modals-container
 calisia.pl,erakonopi.pl,produkty-lokalne.pl##.v--modal-block-scroll:style(overflow-y: auto !important;)
-canva.com##div[class]:first-child > div[class]:only-child > :is(h4, p) ~ :is(div, p) > span > a[href*="/policies/cookies-policy"]:upward(4)
+canva.com##body div[style] div:not([class], [id]) > div[class][aria-live="polite"]:has(div[class] > div[class]> [class] > span[class] > a[href*="cookie"])
+canva.com##body div[style] div[class]:has(> div[class][role="dialog"] > div[class] > span[class] > a[href*="cookie"])
 carry.pl##.cooksieslaw-block
 carry.pl,country.db.com,lotto.pl,traktorpool.pl##body[style*="overflow" i]:style(overflow: visible !important;)
 cateringslask.pl,ssm.insp.waw.pl##.modal, .modal-backdrop
