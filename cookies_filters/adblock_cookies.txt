@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.4.5.1
-! Last modified: Wed, 05 Apr 2023, 02:31 UTC+02:00
+! Version: 2023.4.5.2
+! Last modified: Wed, 05 Apr 2023, 20:47 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.4.5.1 aktualizacja: śro, 05 kwi 2023, 02:31 UTC+02:00
+! v.2023.4.5.2 aktualizacja: śro, 05 kwi 2023, 20:47 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2706,6 +2706,8 @@ teamsnack.pl,vectra.pl##.l-cookies
 teatr-capitol.pl###spu-4768, #spu-bg-4768
 teatrkomedia.pl##.consent-holder
 teatrkomedia.pl##.cover
+teb.pl##.ccn
+teb.pl##.ccn-overlay
 technologia-wody.pl###__next > footer ~ div.fixed[style]
 techpedia.pl##.skyf1
 teetres.com###_cookies_info
@@ -3035,7 +3037,7 @@ zyro.com##.zyro-cookies
 ||ciechanowiec.pl/images/grafika/ikony/fac01.jpg
 ||cieszyn.pl/images/cn-ins.jpg
 ||cmp*.*.pl/*.js|$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
-||cmp.quantcast.com/choice/*$script,domain=dobryslownik.pl|gry-online.pl|hejto.pl|instrukcjaobslugipdf.pl|kalendarz-365.pl|medme.pl|mp.pl|naekranie.pl|polskieradio24.pl|teleman.pl|termedia.pl|gazetki.pl
+||cmp.quantcast.com/choice/*$script,domain=dobryslownik.pl|gazetki.pl|gry-online.pl|hejto.pl|instrukcjaobslugipdf.pl|kalendarz-365.pl|medme.pl|mp.pl|naekranie.pl|polskieradio24.pl|teleman.pl|termedia.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
 ||consent.dropbox.com^$subdocument
@@ -4128,6 +4130,8 @@ wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka Origin i AdGuarda, by użytkownicy nie musieli jej subskrybować
-!#if (!adguard_ext_android_cb && !adguard_app_ios)
+!#if !adguard_ext_android_cb
+!#if !adguard_app_ios
 !#include cookies_uB_AG.txt
+!#endif
 !#endif
