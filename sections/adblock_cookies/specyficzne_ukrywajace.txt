@@ -457,7 +457,7 @@ bonprix.pl###JOISH987_bar_holder
 booking.com###cookie_warning
 booking.com##.cookie-warning-v2
 bookmaster.com.pl,ck1.pl##.ci-min.ci-container.ci-data
-books.google.pl,play.google.com###gb > div[style*="background-color"]
+www.google.com,www.google.pl#?##appbar.appbar > div:first-child > div:-abp-contains(/^Plików cookie i/) > div > *
 bookscout.pl,foxstrategy.pl,subscribepage.com###notification
 bookstore.dsh.waw.pl##.cookiecontroller
 booksy.com###cookie-policy-2
@@ -706,7 +706,6 @@ denon.pl##.cookiestrip
 denso.com,gearbest.com,gorlice.tv,internationalpaper.com##.cookiePolicy
 dentalcare.pl,pampers.pl##.dc-cookie-consent
 developer.android.com,tensorflow.org##devsite-snackbar[type^="cookie-notification"]
-developers.google.com##.devsite-notification-eu-cookie
 devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
 dhn.pl###ciasteczka-monit
 dia.com.pl,pkfpolska.pl,pkfszkolenia.pl###S_cookies
@@ -1211,9 +1210,6 @@ goodgifts.eu###cookie-law-container
 goodie.pl#?#body > #body-wrapper ~ div[class]:not([id]):last-child:-abp-has(> div > span > a[href*="/ochrona-danych"])
 goodie.pl#?#footer ~ div[class]:not([id]):-abp-has(span > [href="/ochrona-danych"])
 goodlookin.pl##div > div > div > .toplayaa
-google.com##iframe[src^="https://ogs.google.com/widget/callout?prid="], iframe[src^="https://ogs.google.pl/widget/callout?prid="]
-google.com,google.pl###epbar
-google.com,google.pl##.widget-consent-dialog
 goout.net,rma.asus-europe.eu##.cookieBar
 gopr.org,impress.torbapapierowa.pl,lca.pl,onlinekredyty.pl,torbapapierowa.pl###popupDiv
 gops.elk.pl##body > div > div[style*="position"][style*="fixed"]
@@ -1343,7 +1339,7 @@ ilo.pl###tohd
 ilza.com.pl###rodoMain
 imagazine.pl,moviesroom.pl,tech-room.pl##.overlay-rules
 imoli.pl##.bottom-left.toasted-container
-impactchallenge.withgoogle.com,medtronic.com,natgeotv.com###cookieBar
+medtronic.com,natgeotv.com###cookieBar
 impekao24.pl###rodo-popup-wrapper, #rodo-cookie-shadow-cover
 impuls-materace.pl##.module-notification
 imready.eu##.cookie-style.cookie_iagree
@@ -1932,7 +1928,6 @@ nettg.pl##.fade
 new.org.pl##div[id^="cookie_popup"]
 newonce.net##.okiPopupPlugin
 news.adidas.com##.cookies-message
-news.google.com##div[style^="behavior:url(#default#homePage) url(#default#userData)"]
 newsletter2go.pl###hidecookien2go
 newsletter.lca.pl##.news_dnia_lid > div[style]
 newstyling.pl###popup-mask-rdo
@@ -2736,8 +2731,6 @@ trakt.tv##.sncmp-app_gdpr
 trans-bus.eu,weebly.com###kb-container.kb-container
 transatlantyk.org,ump.edu.pl###app-cookie-bar
 transfergo.com##.gdpr-consent
-translate.google.com,translate.google.pl##div[data-cbh^="consent.google."]
-translate.google.pl##[style*="#userData"]
 transport.zamosc.pl,zacisze-roztocze.pl##.tooltip[style*="fixed"]
 tranzystor.pl###tranzystorcookie
 tranzystor.pl###tranzystorcookies
@@ -2888,11 +2881,6 @@ wszp.edu.pl###akcept_cookies
 wszystkoblisko.pl##.ueCookies
 wu.swps.edu.pl##div#Iagree
 wuozopole.pl##.cookie-modal
-www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
-www.google.com,www.google.pl###gb > div[class][style^="background"]
-www.google.com,www.google.pl##body > div[class*=" "]:not([id]) > c-wiz > div[jscontroller] > div[class][jsname][data-ved][style="display: block;"]
-www.google.com,www.google.pl#?##taw div[id][style*="block"]:-abp-has(> a[href*="/intl/pl/policies/technologies/cookies/"])
-www.google.com,www.google.pl#?#div[role="navigation"] + div > g-card:-abp-has(a[href*="/cookies?"])
 wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
 wypozyczalniasamochodowwarszawa.pl###can_use_cookies
