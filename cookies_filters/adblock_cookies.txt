@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.4.14.0
-! Last modified: Fri, 14 Apr 2023, 02:31 UTC+02:00
+! Version: 2023.4.16.0
+! Last modified: Sun, 16 Apr 2023, 21:25 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.4.14.0 aktualizacja: pią, 14 kwi 2023, 02:31 UTC+02:00
+! v.2023.4.16.0 aktualizacja: nie, 16 kwi 2023, 21:25 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -74,7 +74,7 @@ acatar.pl,aleric.pl,apap.pl,artresan.pl,furaginum.pl,gripex.pl,herbitussin.pl,ib
 acb-arch.pl,aniolowka.pl,avatec.pl,polcar.com,schroniskowroclaw.pl,wiescisokolowskie.pl###cwwb
 accent-bikes.com,adaware.com,boca.com,carfax.eu,croatia.hr,dexcom.com,esn-eu.org,gliwice.eu,kghm.com,kielce.eu,kwestiasmaku.com,naszekielce.com,paszport.info,prestashop.com,rc.fm,sadeczanin.info,swiecie.eu###sliding-popup
 accenture.com,asics.com,cookielaw.org,filehippo.com,hp.com,kia.com,malwarebytes.com,msn.com,pl.atlassian.com,prezi.com,sonos.com,volvocars.com###optanon, .optanon-alert-box-wrapper, #optanon-minimize-wrapper
-account.tvn.pl,auchan.pl,intel.pl,biedronka.pl,euro.com.pl,ciekawostkihistoryczne.pl,delikatesy.pl,discoverychannel.pl,genius.com,hbomax.com,hoffen.com.pl,inpost.pl,inpostfresh.pl,komputronik.pl,paczkomaty.pl,panasonic-batteries.com,pixabay.com,pl.bab.la,pl.oriflame.com,player.pl,poland.us,polsat.pl,polskieradio.pl,rossmann.pl,vod.pl,wyborcza.pl,zajaczeklindt.pl##html:not([style*="overflow" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) body:not([style*="overflow" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) #onetrust-consent-sdk
+account.tvn.pl,auchan.pl,biedronka.pl,ciekawostkihistoryczne.pl,delikatesy.pl,discoverychannel.pl,euro.com.pl,genius.com,hbomax.com,hoffen.com.pl,inpost.pl,inpostfresh.pl,intel.pl,komputronik.pl,paczkomaty.pl,panasonic-batteries.com,pixabay.com,pl.bab.la,pl.oriflame.com,player.pl,poland.us,polsat.pl,polskieradio.pl,rossmann.pl,ttv.pl,vanish.pl,vod.pl,wyborcza.pl,zajaczeklindt.pl##html:not([style*="overflow" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) body:not([style*="overflow" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) #onetrust-consent-sdk
 account.ubisoft.com###footer_tc_privacy
 accredito.com,encycolorpedia.pl,fdb.pl###consent
 accuweather.com###eu-cookie-notify-wrap
@@ -453,7 +453,6 @@ blikomania.pl,culture.pl,rejestr.io,sso.epf.org.pl,toogoodtogo.pl##.Cookie
 blix.pl,libertex.com,tenit.com.pl###gdpr
 blog4u.pl##div[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blog-pozyczoneiniebieskie.pl###cookie_info_container
-blog.epicdrama.pl,viasatexplore.pl###cookie-ask
 blog.spacetronik.eu##div#catapult-cookie-bar
 blogasek.pl###j_all > div[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
@@ -480,7 +479,6 @@ bonprix.pl###JOISH987_bar_holder
 booking.com###cookie_warning
 booking.com##.cookie-warning-v2
 bookmaster.com.pl,ck1.pl##.ci-min.ci-container.ci-data
-books.google.pl,play.google.com###gb > div[style*="background-color"]
 bookscout.pl,foxstrategy.pl,subscribepage.com###notification
 bookstore.dsh.waw.pl##.cookiecontroller
 booksy.com###cookie-policy-2
@@ -729,7 +727,6 @@ denon.pl##.cookiestrip
 denso.com,gearbest.com,gorlice.tv,internationalpaper.com##.cookiePolicy
 dentalcare.pl,pampers.pl##.dc-cookie-consent
 developer.android.com,tensorflow.org##devsite-snackbar[type^="cookie-notification"]
-developers.google.com##.devsite-notification-eu-cookie
 devilpage.pl##div[style="background:#2A2A2A; left:0px; top:0px; right:0px;"]
 dhn.pl###ciasteczka-monit
 dia.com.pl,pkfpolska.pl,pkfszkolenia.pl###S_cookies
@@ -961,6 +958,7 @@ enutka.net,orlenarena.eu###CookieAlert
 eobuwie.com.pl##.e-consents-alert
 eofficemedia.pl###bottom-belt
 eostroleka.pl###cookiesRodo
+epicdrama.pl,viasatexplore.pl,viasathistory.pl###cookie-ask
 epicgames.com###euCookie
 epiotrkow.pl##.user_politic
 epiotrkow.pl,glosregionu.pl,ziemiagorowska.pl,ziemialeszczynska.pl,ziemiawolsztynska.pl,zw.pl##.user_politic_pop
@@ -1013,6 +1011,7 @@ eurostyl.com.pl###euroCookieInfo
 ever.eu,ziaja.com###cookies-info
 everhome.pl,gda.pl,sne.fc.pl,sne.olsztyn.pl,szwajcaria-kaszubska.pl##.shotimoo
 everydayme.pl##.cookie-consent-jolt
+everydayme.pl##button[class*="StyledCookieConsentButton-"]
 ewakacje-online.pl###qtip-overlay
 ewakacje-online.pl##div[id][role="alert"][aria-live="polite"].qtip
 ewf.h1.pl###tytul_rodo
@@ -1234,9 +1233,6 @@ goodgifts.eu###cookie-law-container
 goodie.pl#?#body > #body-wrapper ~ div[class]:not([id]):last-child:-abp-has(> div > span > a[href*="/ochrona-danych"])
 goodie.pl#?#footer ~ div[class]:not([id]):-abp-has(span > [href="/ochrona-danych"])
 goodlookin.pl##div > div > div > .toplayaa
-google.com##iframe[src^="https://ogs.google.com/widget/callout?prid="], iframe[src^="https://ogs.google.pl/widget/callout?prid="]
-google.com,google.pl###epbar
-google.com,google.pl##.widget-consent-dialog
 goout.net,rma.asus-europe.eu##.cookieBar
 gopr.org,impress.torbapapierowa.pl,lca.pl,onlinekredyty.pl,torbapapierowa.pl###popupDiv
 gops.elk.pl##body > div > div[style*="position"][style*="fixed"]
@@ -1286,6 +1282,7 @@ hankooktire.com##.top_ep_wrap
 hansgrohe.pl##div.cookie-bottom-layer
 hansgrohe.pl##div.js-cookie-light
 hapipozyczki.pl##.cookies-policy-warning
+harbingers.io##.sgcc-main-wrapper
 harmonia-masaz.pl,kopel.pl,projan.com.pl,rynekpapierniczy.pl,winad-bus.pl,zgrzewarki.pl,zoo.torun.pl###cookie-rp
 harposoftware.com###cookieNoticeContent
 haszkod.pl###cookieshit
@@ -1366,7 +1363,6 @@ ilo.pl###tohd
 ilza.com.pl###rodoMain
 imagazine.pl,moviesroom.pl,tech-room.pl##.overlay-rules
 imoli.pl##.bottom-left.toasted-container
-impactchallenge.withgoogle.com,medtronic.com,natgeotv.com###cookieBar
 impekao24.pl###rodo-popup-wrapper, #rodo-cookie-shadow-cover
 impuls-materace.pl##.module-notification
 imready.eu##.cookie-style.cookie_iagree
@@ -1476,6 +1472,7 @@ kabexdocieplenia.eu##.cookies-info
 kagb.pl#?#.art-content-sidebar2 > .art-nostyle:first-child > p:-abp-contains(cookies)
 kajto.pl###cookies-section
 kalendarzswiat.pl###consent_box_wrapper
+kalia-sklep.pl##div[data-ccs-container]
 kalinowo.pl###rodoModal, #backDrop
 kalisz.pl###showHideDiv
 kalkulator.wakacyjnapolisa.pl,rankomat.pl,ubezpieczenia.fly4free.pl##.rank-cookie-bar
@@ -1735,6 +1732,7 @@ marketplanet.pl###bottom-bar
 markoweobuwie.com.pl###my_popup_wrapper, #my_popup_background
 marsell24.eu##.cm-notification-container
 mas-sport.pl##footer .rodo
+mastersintime.pl#?#.bg-green-200:-abp-has(> [class*="cookie"])
 masz.eu,wikar.com.pl##.popupContent
 mat-dom.pl##.info_rodo
 matematykainnegowymiaru.pl##.popup_cookie_contener_main
@@ -1766,6 +1764,7 @@ mediasystems.pl##body > div > div[style*="position"][style*="relative"]:not([id]
 mednavi.pl##.CookiesNotice
 medpolonia.pl###bannerPopup
 medserwis.pl#?#.popup-container:-abp-has(#coockie-agree-ok)
+medtronic.com,natgeotv.com###cookieBar
 medyczny.store#?#.jconfirm:-abp-has(.pdcookie-right.btn)
 meetup.com##[class*="_cookieBanner-module_cookieBanner"]
 mega-com.pl###footerInfoBox
@@ -1955,7 +1954,6 @@ nettg.pl##.fade
 new.org.pl##div[id^="cookie_popup"]
 newonce.net##.okiPopupPlugin
 news.adidas.com##.cookies-message
-news.google.com##div[style^="behavior:url(#default#homePage) url(#default#userData)"]
 newsletter2go.pl###hidecookien2go
 newsletter.lca.pl##.news_dnia_lid > div[style]
 newstyling.pl###popup-mask-rdo
@@ -2640,6 +2638,7 @@ start.me##.app__message > .info-message
 starterek.pl###rodo_form
 starterfirm.pl###sf-cookie-alert
 stary.sacz.pl###extraIAPcckieCont
+steamaster.pl##.steamaster-cookie-container
 steamcommunity.com,store.steampowered.com###cookiePrefPopup, .cookiepreferences_popup
 stokrotka.pl##.cookie-privacy-content
 stompel.pl##.customCsInfo
@@ -2759,8 +2758,6 @@ trakt.tv##.sncmp-app_gdpr
 trans-bus.eu,weebly.com###kb-container.kb-container
 transatlantyk.org,ump.edu.pl###app-cookie-bar
 transfergo.com##.gdpr-consent
-translate.google.com,translate.google.pl##div[data-cbh^="consent.google."]
-translate.google.pl##[style*="#userData"]
 transport.zamosc.pl,zacisze-roztocze.pl##.tooltip[style*="fixed"]
 tranzystor.pl###tranzystorcookie
 tranzystor.pl###tranzystorcookies
@@ -2911,11 +2908,7 @@ wszp.edu.pl###akcept_cookies
 wszystkoblisko.pl##.ueCookies
 wu.swps.edu.pl##div#Iagree
 wuozopole.pl##.cookie-modal
-www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
-www.google.com,www.google.pl###gb > div[class][style^="background"]
-www.google.com,www.google.pl##body > div[class*=" "]:not([id]) > c-wiz > div[jscontroller] > div[class][jsname][data-ved][style="display: block;"]
-www.google.com,www.google.pl#?##taw div[id][style*="block"]:-abp-has(> a[href*="/intl/pl/policies/technologies/cookies/"])
-www.google.com,www.google.pl#?#div[role="navigation"] + div > g-card:-abp-has(a[href*="/cookies?"])
+www.google.com,www.google.pl#?##appbar.appbar > div:first-child > div:-abp-contains(/^Plików cookie i/) > div > *
 wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
 wypozyczalniasamochodowwarszawa.pl###can_use_cookies
@@ -3037,7 +3030,7 @@ zyro.com##.zyro-cookies
 ||ciechanowiec.pl/images/grafika/ikony/fac01.jpg
 ||cieszyn.pl/images/cn-ins.jpg
 ||cmp*.*.pl/*.js|$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
-||cmp.quantcast.com/choice/*pl$script,domain=dobryslownik.pl|gazetki.pl|gry-online.pl|hejto.pl|instrukcjaobslugipdf.pl|kalendarz-365.pl|medme.pl|mp.pl|naekranie.pl|polskieradio24.pl|teleman.pl|termedia.pl|smakosze.pl|e-commerce.pl
+||cmp.quantcast.com/choice/*pl$script,domain=dobryslownik.pl|e-commerce.pl|gazetki.pl|gry-online.pl|hejto.pl|instrukcjaobslugipdf.pl|kalendarz-365.pl|medme.pl|mp.pl|naekranie.pl|polskieradio24.pl|radiokierowcow.pl|smakosze.pl|teleman.pl|termedia.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
 ||consent.dropbox.com^$subdocument
@@ -3120,6 +3113,7 @@ zyro.com##.zyro-cookies
 ||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-instagram.jpg
 ||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-pracujpl_0.jpg
 ||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-you-tube_0.jp
+||std.wpcdn.pl/wpjslib*/wpjslib-stat.js$domain=jastrzabpost.pl
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-notification.js
 ||stokrotka.pl/*/w_cookie_privacy/$script
