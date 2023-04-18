@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.4.16.1
-! Last modified: Sun, 16 Apr 2023, 22:31 UTC+02:00
+! Version: 2023.4.18.0
+! Last modified: Tue, 18 Apr 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.4.16.1 aktualizacja: nie, 16 kwi 2023, 22:31 UTC+02:00
+! v.2023.4.18.0 aktualizacja: wto, 18 kwi 2023, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -516,7 +516,7 @@ pl##.hidden-xs.btn--fb.btn--blue.btn--lg.btn2.like-buttons
 pl##.hidden-xs.like-buttons.btn--google.btn--red.btn--lg.btn2
 pl##.hidden-xs.like-buttons.btn--twitter.btn--blue2.btn--lg.btn2
 pl##.hide-for-small-only.sm
-pl##.ic-instagram.ic-lg.ic.ib-hover.ib
+pl##.ic-instagram.ic
 pl##.ico-google
 pl##.ico-in
 pl##.ico-insta
@@ -557,7 +557,6 @@ pl##.in.socialMediaFixedBtn
 pl##.inline-list-container.columns.small-12
 pl##.inst_img
 pl##.insta
-pl##.Instagram
 pl##.instagram
 pl##.instagram-footer
 pl##.instagram-ico
@@ -776,6 +775,7 @@ pl##vce_social_menu
 pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_likes, .yt_likes, .tt_likes
 pl,tv##.page .sidebar a[href*="facebook.com/"]:lang(pl)
 pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
+pl,~onet.pl,~plejada.pl##.Instagram
 pl,~wykop.pl##.wykop
 !
 !
@@ -5508,6 +5508,7 @@ onet.pl##[class*="DetailAuthors_socialLinksWrap_"]
 onet.pl##div[data-gtm-social]
 onet.pl#?#div[class^="_"] > span[class^="_"]:-abp-contains(Podziel się tym artykułem)
 onet.pl,plejada.pl##.whatsapp
+onet.pl,plejada.pl,komputerswiat.pl##div[class*="BigCard_social_"] > span[class*="share"]
 onet.pl,viva.pl##.messenger
 onet.tv##.mvp-beam-social-buttons
 onetech.pl###obserwujnas
@@ -5914,6 +5915,7 @@ playhearthstone.com###socialFooterMount
 playnow.pl##.c-footer__icons.align-right.row > div > .btn
 playstation.com#?#.bg-style-desktop-inline.pg_sec_overflow.center-align-heading.page-section.backgroundMidSilver:-abp-has(.social-icons)
 plejada.pl##content-share-top > .fb_share, .social-container > .social, .shareBarBox > .social
+plejada.pl,onet.pl##.poll_share
 plemiona.pl##.social-media-icons-container
 plfoto.com###page_container > .content2 > #center > h3.headline:nth-of-type(3), #page_container > .content2 > #center > div#center_box_two:nth-of-type(3)
 plisomania.pl###menuToggleWrapperLeft
