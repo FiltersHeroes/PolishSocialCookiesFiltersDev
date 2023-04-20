@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.4.19.0
-! Last modified: Wed, 19 Apr 2023, 22:31 UTC+02:00
+! Version: 2023.4.20.0
+! Last modified: Thu, 20 Apr 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.4.19.0 aktualizacja: śro, 19 kwi 2023, 22:31 UTC+02:00
+! v.2023.4.20.0 aktualizacja: czw, 20 kwi 2023, 22:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3030,6 +3030,7 @@ zyro.com##.zyro-cookies
 ||ciechanowiec.pl/images/grafika/ikony/fac01.jpg
 ||cieszyn.pl/images/cn-ins.jpg
 ||cmp*.*.pl/*.js|$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
+||cmp.quantcast.com/choice/*com$script,domain=pl.forvo.com
 ||cmp.quantcast.com/choice/*pl$script,domain=dobryslownik.pl|e-commerce.pl|gazetki.pl|gry-online.pl|hejto.pl|instrukcjaobslugipdf.pl|kalendarz-365.pl|medme.pl|mp.pl|naekranie.pl|polskieradio24.pl|radiokierowcow.pl|smakosze.pl|teleman.pl|termedia.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
