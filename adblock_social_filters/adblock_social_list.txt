@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.4.23.0
-! Last modified: Sun, 23 Apr 2023, 14:31 UTC+02:00
+! Version: 2023.4.23.1
+! Last modified: Sun, 23 Apr 2023, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.4.23.0 aktualizacja: nie, 23 kwi 2023, 14:31 UTC+02:00
+! v.2023.4.23.1 aktualizacja: nie, 23 kwi 2023, 18:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -8344,6 +8344,8 @@ zhr.pl##a[href*="facebook.com/harcerstwo/"], a[href*="twitter.com/harcerstwo"], 
 ziaja.com#?#.homepage > .cms-block:-abp-has(> p > span:-abp-contains(Odwiedź nasz profil))
 zielonalinia.gov.pl##.mediashares
 zielonearkady.com.pl##.button_yt, .button_insta, .find_us_name, .find_us_content
+zielonemielone.pl##.footer-container div.row:nth-of-type(1) > h1
+zielonemielone.pl##.footer-container div.row:nth-of-type(1) > h1 + div
 zielonyogrodek.pl##.topFacebook, .topGplus
 ziemkiewicz.info##.page-footer .row:first-child div:nth-child(2) h3
 zinkpower.com###footer div:nth-of-type(2) .zpColumnItem:nth-of-type(1) a i
