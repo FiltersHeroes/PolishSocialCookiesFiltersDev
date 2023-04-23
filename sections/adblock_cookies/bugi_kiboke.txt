@@ -1,6 +1,3 @@
-facebook.com#@#div[data-testid="cookie-policy-manage-dialog"]
-facebook.com#@#div[data-testid="cookie-policy-manage-dialog"], body > div[id] ~ script ~ div
-facebook.com#@#body > div[id] ~ script ~ div
 ###ba_eu_cookie_law:not(form)
 #@##ba_eu_cookie_law
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
@@ -32,6 +29,9 @@ eu,pl#@#.cookie-msg-box
 eu,pl#@#.js-cookies:not(body):not(html)
 eu,pl#@#.rodo-popup:not(body):not(html)
 eu,pl#@#body > div:not([id]):not([class])
+facebook.com#@#body > div[id] ~ script ~ div
+facebook.com#@#div[data-testid="cookie-policy-manage-dialog"]
+facebook.com#@#div[data-testid="cookie-policy-manage-dialog"], body > div[id] ~ script ~ div
 fxpro.pl#@#.popup-cookies:not(body):not(html)
 goodram.com#@##cookie-container
 gtv.com.pl#@##panel_cookie_dol
