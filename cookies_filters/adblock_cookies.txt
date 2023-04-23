@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.4.20.0
-! Last modified: Thu, 20 Apr 2023, 22:31 UTC+02:00
+! Version: 2023.4.23.0
+! Last modified: Sun, 23 Apr 2023, 14:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.4.20.0 aktualizacja: czw, 20 kwi 2023, 22:31 UTC+02:00
+! v.2023.4.23.0 aktualizacja: nie, 23 kwi 2023, 14:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -122,6 +122,7 @@ agatravel.com.pl#?#body > #top ~ div[style^="background"]:-abp-has(a[href*="/pol
 agencjagazeta.pl,panoramafirm.pl,sklep.genos.com.pl###rodoLayer
 agmar.com,akademie.elring.de,altimi.com,bioenergiadlaregionu.eu,cdn.ampproject.org,fantasy.ekstraklasa.org,fibaro.com,fiufiu.co,inwex.eu,opoczno.eu,portal.legnica.eu###cookie-info
 ago.pl,askopolska.pl,indigo-nails.com,lodz.pl,mamoo.pl,papercast.pl###banner_cookies_bullshit
+agora.pl###cm-overlay.cm-overlay
 agrishop.pl,alibiuro.pl,domowa.tv,izodom2000.pl,jedynkafryzjerstwo.pl,molkip.pl,print-me.pl,spark.pl,twojezdrowie.pl#?#div[id^="elementor-popup-modal-"]:-abp-contains(/cookies?|rodo|gdpr|ciastecze?ka?/i)
 agro-bis.eu,eldom.eu###cookie-alert
 agro-mig.pl#?#.popup:-abp-has(a[href*="40"]:-abp-contains(Polityce prywatności))
@@ -3100,7 +3101,6 @@ zyro.com##.zyro-cookies
 ||radiopoznan.fm//homepage/privacyPolicy
 ||retrotraktor.pl/grafika/cookies.jpg
 ||revolweb.pl/api/flash_msg.js$script
-||rodo.agora.pl^$script
 ||rodo.rawlplug.com/wp-content/themes/rodo/popup/markups/modal-koelner.html$xmlhttprequest
 ||rolpetrol.com.pl/cookies.js$script
 ||satelita.phorum.pl/cookiebanner.js
@@ -4038,6 +4038,9 @@ eu,pl#@#.cookie-msg-box
 eu,pl#@#.js-cookies:not(body):not(html)
 eu,pl#@#.rodo-popup:not(body):not(html)
 eu,pl#@#body > div:not([id]):not([class])
+facebook.com#@#body > div[id] ~ script ~ div
+facebook.com#@#div[data-testid="cookie-policy-manage-dialog"]
+facebook.com#@#div[data-testid="cookie-policy-manage-dialog"], body > div[id] ~ script ~ div
 fxpro.pl#@#.popup-cookies:not(body):not(html)
 goodram.com#@##cookie-container
 gtv.com.pl#@##panel_cookie_dol
