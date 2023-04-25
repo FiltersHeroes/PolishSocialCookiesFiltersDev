@@ -1,6 +1,6 @@
-##[class]:not(.rank-math-tabs) .button-facebook
-##[class]:not(.rank-math-tabs) .button-twitter
-##[class]:not(.rank-math-tabs) .dashicons-twitter
+##[class] .button-facebook:not([id*="tab-panel])
+##[class] .button-twitter:not([id*="tab-panel])
+!##[class] .button-twitter:not([id*="tab-panel]) .dashicons-twitter
 #@#.button-facebook
 #@#.button-twitter
 #@#.cookie-bottom-layer
