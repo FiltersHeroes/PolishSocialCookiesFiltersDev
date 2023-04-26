@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.4.26.0
-! Last modified: Wed, 26 Apr 2023, 02:31 UTC+02:00
+! Version: 2023.4.26.1
+! Last modified: Wed, 26 Apr 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.4.26.0 aktualizacja: śro, 26 kwi 2023, 02:31 UTC+02:00
+! v.2023.4.26.1 aktualizacja: śro, 26 kwi 2023, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5507,6 +5507,7 @@ omegaregen.pl###instafeed
 onebid.pl##footer .footer-nav :nth-of-type(3) > h2
 onepiece.com.pl#?#.column.wide.four > .segments.ui:-abp-contains(Facebook)
 onet.pl##[class*="DetailAuthors_socialLinksWrap_"]
+onet.pl##div[class*="DetailAuthors_socialWrapper_"]
 onet.pl##div[data-gtm-social]
 onet.pl#?#div[class^="_"] > span[class^="_"]:-abp-contains(Podziel się tym artykułem)
 onet.pl,plejada.pl##.whatsapp
