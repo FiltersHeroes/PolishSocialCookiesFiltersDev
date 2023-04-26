@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.4.24.0
-! Last modified: Mon, 24 Apr 2023, 22:31 UTC+02:00
+! Version: 2023.4.26.0
+! Last modified: Wed, 26 Apr 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.4.24.0 aktualizacja: pon, 24 kwi 2023, 22:31 UTC+02:00
+! v.2023.4.26.0 aktualizacja: śro, 26 kwi 2023, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4515,7 +4515,10 @@ librus.pl##.twitterPluginContainer
 liderwalut.pl##.socialmedia-links > a:not([href*="opineo"])
 lidl.pl###footer-lidl-social-media
 lidl.pl##.navigation--social
+lidl.pl##button[aria-label="socialMediaBtn"]:not([data-url*="m.me"])
+lidl.pl##button[aria-label="socialMediaBtn"][data-url*="m.me"]
 lidl.pl##div.footer__info:nth-of-type(4) .footer__info-link[href*=".com/"]
+lidl.pl##span[id^="regionSocialMedia-"].label
 lifebymarcelka.pl,pelnytalerz.com###HTML9
 lifemanagerka.pl###nav_menu-2, .lightbox-btn
 lifemotion.pl##.follow.box
@@ -9232,9 +9235,9 @@ zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .
 !
 !
 ! Bugi Fanboy's Social Blocking List
-##[class]:not(.rank-math-tabs) .button-facebook
-##[class]:not(.rank-math-tabs) .button-twitter
-##[class]:not(.rank-math-tabs) .dashicons-twitter
+##[class] .button-facebook:not([id*="tab-panel"])
+##[class] .button-twitter:not([id*="tab-panel"])
+##[class] .button-twitter:not([id*="tab-panel"]) .dashicons-twitter
 #@#.button-facebook
 #@#.button-twitter
 #@#.cookie-bottom-layer
