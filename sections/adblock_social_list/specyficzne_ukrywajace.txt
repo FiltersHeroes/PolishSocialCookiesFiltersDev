@@ -1,4 +1,3 @@
-lidl.pl##button[aria-label="socialMediaBtn"]:not([data-url*="m.me"])
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#a[href*=","][title*=" "] ~ div button:-abp-has(svg)
@@ -3713,6 +3712,7 @@ librus.pl##.twitterPluginContainer
 liderwalut.pl##.socialmedia-links > a:not([href*="opineo"])
 lidl.pl###footer-lidl-social-media
 lidl.pl##.navigation--social
+lidl.pl##button[aria-label="socialMediaBtn"]:not([data-url*="m.me"])
 lidl.pl##div.footer__info:nth-of-type(4) .footer__info-link[href*=".com/"]
 lifebymarcelka.pl,pelnytalerz.com###HTML9
 lifemanagerka.pl###nav_menu-2, .lightbox-btn
