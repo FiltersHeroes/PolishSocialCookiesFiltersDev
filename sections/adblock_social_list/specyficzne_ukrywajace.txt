@@ -1,6 +1,5 @@
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
-onet.pl##div[class*="DetailAuthors_socialWrapper_"]
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#a[href*=","][title*=" "] ~ div button:-abp-has(svg)
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):-abp-has(> div[class] > svg)
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/)) > :not(:last-child)
@@ -4698,6 +4697,7 @@ omegaregen.pl###instafeed
 onebid.pl##footer .footer-nav :nth-of-type(3) > h2
 onepiece.com.pl#?#.column.wide.four > .segments.ui:-abp-contains(Facebook)
 onet.pl##[class*="DetailAuthors_socialLinksWrap_"]
+onet.pl##div[class*="DetailAuthors_socialWrapper_"]
 onet.pl##div[data-gtm-social]
 onet.pl#?#div[class^="_"] > span[class^="_"]:-abp-contains(Podziel się tym artykułem)
 onet.pl,plejada.pl,komputerswiat.pl##div[class*="BigCard_social_"] > span[class*="share"]
