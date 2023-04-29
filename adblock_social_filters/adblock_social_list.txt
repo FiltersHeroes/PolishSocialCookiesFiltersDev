@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.4.26.1
-! Last modified: Wed, 26 Apr 2023, 22:31 UTC+02:00
+! Version: 2023.4.29.0
+! Last modified: Sat, 29 Apr 2023, 18:34 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.4.26.1 aktualizacja: śro, 26 kwi 2023, 22:31 UTC+02:00
+! v.2023.4.29.0 aktualizacja: sob, 29 kwi 2023, 18:34 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -200,6 +200,7 @@ pl##.facebook-popup
 ##a[href*="://plus.google.com/"]:lang(pl)
 ##div#wtyczka-fbinst
 ##section[aria-label="media społecznościowe"]
+~onet.pl,pl,~plejada.pl##.Instagram
 ~pl###bossbyte_slide:lang(pl)
 ~pl###wysZakladki > #fb:lang(pl)
 ~pl###wysZakladki > #gp:lang(pl)
@@ -775,7 +776,6 @@ pl##vce_social_menu
 pl,tv##.facebook_likes, .insta_likes, .tik-tok_likes, .twitch-top, .youtube_likes, .yt_likes, .tt_likes
 pl,tv##.page .sidebar a[href*="facebook.com/"]:lang(pl)
 pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
-pl,~onet.pl,~plejada.pl##.Instagram
 pl,~wykop.pl##.wykop
 !
 !
@@ -1985,7 +1985,7 @@ ch24.pl##.instagram-gallery
 ch24.pl,lubiekabaret.pl###text-19
 challengeme.gg##footer .text-right.media-links, .twitter-news
 chamskie.pl##.widget-fanbox
-change.shop.pl,elektro-outlet.net,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
+change.shop.pl,elektro-outlet.net,experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
 change.shop.pl,multibook.pl,starecegly.com###box_facebooklike
 channel9.msdn.com,protonmail.com,protonvpn.com##.reddit
 charaktery.eu##.pdf_link
@@ -2224,7 +2224,7 @@ czeladz.pl##.i-yt
 czeladz.pl,ock.gov.pl,straz.gov.pl##.i-fb
 czerkawski.com.pl##.header-info-2 > div:nth-of-type(2), .stickyContainer
 czerwionka-leszczyny.pl###komunikacja.komunikacja
-czerwonak.pl###fb-root
+czerwonak.pl,ekookna.pl,o-shop.com,quadralite.pl,selectshop.pl###fb-root
 czesci.wanicki.pl##div.footer__col:nth-of-type(4)
 czescidobmw.pl##.facebook-plugin
 czeski-warszawa.pl,kursczeskiego.pl###sfsi_plus_floater
@@ -2717,7 +2717,6 @@ ekologia.pl##.linkWykop, .bi2.bottom-item
 ekologia.pl##.sprite.footer-icon
 ekonomik.olsztyn.pl###facebook_head
 ekookna.pl##div.icos__wrapper:nth-of-type(1), div.icos__wrapper:nth-of-type(4)
-ekookna.pl,o-shop.com,quadralite.pl,selectshop.pl###fb-root
 ekorekta24.pl,www-dobreprogramy-pl.cdn.ampproject.org##a.social
 ekosystem.wroc.pl##.socials__container_bottom
 ekosystem.wroc.pl##.socials__container_top
@@ -2845,7 +2844,7 @@ eska.pl##.hot_temat_cont:nth-of-type(28) > .m-bottom30.goth_l.title, .goth_l.pol
 eska.pl##.links.widget-player-bottom a[href*=".com/"]
 eska.pl##.share-buttons-wrapper
 eska.pl##.type--facebook.element
-eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,rivieraparkmarvipol.pl,senatkomorki.pl,voxfm.pl##.messenger
+eska.pl,eskarock.pl,onet.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,rivieraparkmarvipol.pl,senatkomorki.pl,viva.pl,voxfm.pl##.messenger
 eska.pl,poradnikzdrowie.pl##.fb__shareBox
 eska.pl,~www.eska.pl##.footer > .box:nth-of-type(6), .footer > .box:nth-of-type(7)
 eska.tv##.social.box
@@ -2933,7 +2932,6 @@ exerim.pl##.socialSubscribe, #sidebar > article:nth-of-type(2) > h3
 expander.pl##.footer-contact > h3.footer__header:nth-of-type(2)
 expansa.pl##.spolecznosciowki
 experiencecorner.com###fb-fixed-btn, .fb-messengermessageus
-experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
 expressbus.info##footer > .footer-content > .row > .float-left
 expressilustrowany.pl###boks-facebook
 expresspaslek.pl#?##main-container .row div[id^="widget-"]:-abp-has(a[href*="facebook.com/"])
@@ -4186,6 +4184,7 @@ komorkomat.pl##.widget_text.col-md-3:nth-of-type(4) > .widgettitle
 komornik-marchaj.pl##.rstpl-social
 kompan.pl##.blog-icon
 kompan.pl,ulc.gov.pl##.icon-linkedin
+komputerswiat.pl,onet.pl,plejada.pl##div[class*="BigCard_social_"] > span[class*="share"]
 komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org#?#div > a[href*="facebook.com/GamezillaPL" i]:-abp-has(img)
 komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org#?#div > a[href*="facebook.com/komputerswiat" i]:-abp-has(img)
 komputery-pc.info###Mod107
@@ -5296,7 +5295,7 @@ news.samsung.com##.sns_link > li > a:not(.sns_rss)
 newsblog.pl##.wpra-share-wrap
 newseria.pl##.ist_face
 newsletter2go.pl##.n2go-footer_socials
-newsletter.x-kom.pl,newsletter.al.to#?#p.mt-4:-abp-has(+ .social-media)
+newsletter.al.to,newsletter.x-kom.pl#?#p.mt-4:-abp-has(+ .social-media)
 newsrm.tv###footer > div > ul > li > a
 newstyling.pl###footer > #footer-icon > a[id^="fico"]
 newstyling.pl##div.footer-inc > a.s-ico
@@ -5460,7 +5459,7 @@ ogladaj-legalne.pl###redTopBox > #findAs
 ogloszenia.trojmiasto.pl###actions-bar-facebook-button
 ogloszeniarolnicze.com.pl##.footer-top .row > div.col-md-3:nth-of-type(4)
 ogloszenioteka.pl#?#div.article.lfloat:-abp-contains(Zapraszamy na nasz profil na Facebooku)
-ogrod-marzen.pl##.fb-toggle
+ogrod-marzen.pl,tipply.pl##.fb-toggle
 ogrodnik-amator.pl##a[href*="facebook.com/pages/ogrodnik-amatorpl/459365410789108"]
 ogrzewania.pl##.modFBWidget
 oiot.pl##.menu-icon-tw.menu-icon, .menu-icon-fb.menu-icon, .menu-icon-yt.menu-icon
@@ -5510,9 +5509,8 @@ onet.pl##[class*="DetailAuthors_socialLinksWrap_"]
 onet.pl##div[class*="DetailAuthors_socialWrapper_"]
 onet.pl##div[data-gtm-social]
 onet.pl#?#div[class^="_"] > span[class^="_"]:-abp-contains(Podziel się tym artykułem)
+onet.pl,plejada.pl##.poll_share
 onet.pl,plejada.pl##.whatsapp
-onet.pl,plejada.pl,komputerswiat.pl##div[class*="BigCard_social_"] > span[class*="share"]
-onet.pl,viva.pl##.messenger
 onet.tv##.mvp-beam-social-buttons
 onetech.pl###obserwujnas
 onetech.pl##header a[href*="twitter.com/"]
@@ -5918,7 +5916,6 @@ playhearthstone.com###socialFooterMount
 playnow.pl##.c-footer__icons.align-right.row > div > .btn
 playstation.com#?#.bg-style-desktop-inline.pg_sec_overflow.center-align-heading.page-section.backgroundMidSilver:-abp-has(.social-icons)
 plejada.pl##content-share-top > .fb_share, .social-container > .social, .shareBarBox > .social
-plejada.pl,onet.pl##.poll_share
 plemiona.pl##.social-media-icons-container
 plfoto.com###page_container > .content2 > #center > h3.headline:nth-of-type(3), #page_container > .content2 > #center > div#center_box_two:nth-of-type(3)
 plisomania.pl###menuToggleWrapperLeft
@@ -6666,6 +6663,7 @@ satel.pl#?##article > p:nth-of-type(2) + table:nth-of-type(1):-abp-has(td a img[
 satel.pl#?##article > p:nth-of-type(2):-abp-contains(odwiedzić naszych kanałów)
 satel.pl#?##article > p:nth-of-type(3):-abp-contains(/i\sbądź na\sbieżąco/)
 satkurier.pl###sky_left_container, #vLine_stopBootstrap
+satkurier.pl##.twitter-share-button
 savicki.pl#?#.mt-5 > div.line-section:nth-of-type(1):-abp-contains(Dołącz do nas)
 sawataxi.pl##.oNasSocIcons, .oNasSocName
 sbc.wbp.kielce.pl##.footer__contact > div.footer__contact-box:nth-of-type(4) > .footer__text--contact-title
@@ -7474,7 +7472,6 @@ time.is##.adjustright > .social_buttons + div.tr
 tinder.com#?#.nav-section-title:-abp-has(+ .nav-social)
 tinypic.pl##.media-toolbox:nth-of-type(4)
 tipmedia.pl#?#.widget:-abp-has(div[class*="heading"] > a[href*="facebook.com/tipmediapl/"])
-tipply.pl##.fb-toggle
 tiptopol.pl###block-stopkasocialmedia
 titanaxe.com##.page-footer-social
 tja.pl###graf_fb, #graf_googleplus, #div_wysuwany_facebook
