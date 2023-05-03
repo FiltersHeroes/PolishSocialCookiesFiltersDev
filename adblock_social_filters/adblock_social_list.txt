@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.5.1.0
-! Last modified: Mon, 01 May 2023, 02:31 UTC+02:00
+! Version: 2023.5.3.0
+! Last modified: Wed, 03 May 2023, 14:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.5.1.0 aktualizacja: pon, 01 maj 2023, 02:31 UTC+02:00
+! v.2023.5.3.0 aktualizacja: śro, 03 maj 2023, 14:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -183,6 +183,9 @@ pl##.facebook-popup
 /snfacebooklike
 /socialBox2
 /spiritimg
+/static/media/facebook_square_black$image
+/static/media/instagram_black$image
+/static/media/twitter_black$image
 /Twitter_ico
 /twitter_white
 /yt.$image
@@ -8456,9 +8459,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 /insta-ico.png$domain=eska.pl
 /pasek-fb-lowcy-promocji.png
 /skins/user/rwd_shoper_2/images/user/fb.png$domain=uzdrowiskowespa.pl
-/static/media/facebook_square_black$image,domain=aszdziennik.pl|dadhero.pl|innpoland.pl|mamadu.pl|natemat.pl
-/static/media/instagram_black$image,domain=aszdziennik.pl|dadhero.pl|innpoland.pl|mamadu.pl|natemat.pl
-/static/media/twitter_black$image,domain=aszdziennik.pl|dadhero.pl|innpoland.pl|mamadu.pl|natemat.pl
 /themes/fb.png$domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
 /themes/fbLogo.jpg$domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
 /themes/fbmiddle.png$domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
