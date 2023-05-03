@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.5.3.0
-! Last modified: Wed, 03 May 2023, 14:31 UTC+02:00
+! Version: 2023.5.3.1
+! Last modified: Wed, 03 May 2023, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.5.3.0 aktualizacja: śro, 03 maj 2023, 14:31 UTC+02:00
+! v.2023.5.3.1 aktualizacja: śro, 03 maj 2023, 18:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1318,10 +1318,11 @@ astroweb.pl##.col-md-8 > div:nth-of-type(4)
 astroweb.pl,przewodnikduchowy.pl##.well:nth-of-type(1)
 asus.com###Community_menu
 asus.com##div[class^="Footer__communityListContainer_"]
-aszdziennik.pl##a[href*="/aszdziennik" i] > img[src^="/static/media/"]
-aszdziennik.pl,dadhero.pl,innpoland.pl,mamadu.pl,medianarodowe.com,natemat.pl###fbinvite
-aszdziennik.pl,dadhero.pl,innpoland.pl,mamadu.pl,natemat.pl##.art__body__instagram-container, .art__conclusion__share
-aszdziennik.pl,dadhero.pl,innpoland.pl,mamadu.pl,natemat.pl#?##article-body > div:last-of-type:-abp-contains(Znajdź nas na)
+aszdziennik.pl,natemat.pl,innpoland.pl,dadhero.pl,mamadu.pl##a[href^="https://twitter.com/intent/tweet"]
+aszdziennik.pl,natemat.pl,innpoland.pl,dadhero.pl,mamadu.pl##footer a[href*="facebook.com/"]
+aszdziennik.pl,natemat.pl,innpoland.pl,dadhero.pl,mamadu.pl##footer a[href*="instagram.com/"]
+aszdziennik.pl,natemat.pl,innpoland.pl,dadhero.pl,mamadu.pl##footer a[href*="twitter.com/"]
+aszdziennik.pl,natemat.pl,innpoland.pl,dadhero.pl,mamadu.pl##footer a[href*="youtube.com/"]
 ataf.pl##.footer-text.menu-text
 ataf.pl,perfekcyjnawdomu.pl##.instagram-feed
 atalbaltica.pl,atalkliny.pl,atalmarina.pl,atalresidence.pl,atalzerniki.pl,chojnypark.pl,drewnowska43.pl,drzwicallublin.pl,francuskapark.pl,godealla.pl,gogler.pl,krakowska37.pl,miastorozanka.pl,nowytargowek.pl,osiedlewarszawa.pl,pitbull.pl,pomorskapark.pl,przybyszewskiego64.pl,przystanletnica.pl,sapayclub.com,wakacjezprocentem.pl##.footer-icons
@@ -2248,7 +2249,6 @@ czytelnik.pl###headlink8
 czyztak.pl##.footer .footer__sm > a:not([href*="patronite.pl/"])
 dabrowa-gornicza.pl##.footer > .right > #link-box > div:nth-of-type(1), .footer > .right > #link-box > a[href*="facebook.com/"]
 dacter.pl##.stopka a[href*="facebook.com/dacter.akcesoria"]
-dadhero.pl##a[href*="/dadheropl" i] > img[src^="/static/media/"]
 daemon-tools.cc##.feedback > .footer-link-col > h3
 dagmara.pl,pachniolek.pl,sklep.sokomedica.pl,zielonaesencja.pl###links_footer_2
 dagrasso.pl##footer > a[href="#"]:nth-of-type(1)
@@ -3803,7 +3803,6 @@ inmedium.pl##.icon-fb-circle.icon
 inmedium.pl##.sliders-social
 innogy.pl#?#div#footer > .row > .grid-12 > .fluid.container.component:-abp-contains(Spotkajmy się!)
 innovaconcept.pl##a[title="Facebook Osiedle Modeno"]
-innpoland.pl##a[href*="/innpoland" i] > img[src^="/static/media/"]
 inpay.pl##.column.wide.six
 inpost.pl##.socials--menu
 inpzu.pl##.last.col-footer > p
@@ -4679,8 +4678,6 @@ malwarebytes.com##.close-soc
 mam-fach.info###__next > main ~ div[class*="bg-yellow"] p:last-child a[href*=".com/"]
 mam-serce.org##.ms-icon-social-media
 mama-kreatywna.pl##.Pinterest
-mamadu.pl##a[href*="/mamadupl" i] > img[src^="/static/media/"], a[href*="/mamadu.pl" i] > img[src^="/static/media/"]
-mamadu.pl,natemat.pl##.footer__box__list--social
 mamaistetoskop.pl##.widget_wonderblog_facebook_like_box_wg
 mamaistetoskop.pl##.widget_wonderblog_social_wg
 mamaplus.pl##div.fl-l > .soc-hover
@@ -4803,6 +4800,7 @@ mediaarena.pl###fx-fb
 mediaexpert.pl##.is-shareButtonsContainer
 mediakrytyk.pl##.menu_bottom_social_link
 mediamarkt.pl##.is-socials
+medianarodowe.com###fbinvite
 medianarodowe.com##.clearfix.widget_radium_newsletter.widget > p
 medianarodowe.com##.custom_footer > p
 medianarodowe.com##.social-icon-footer
@@ -5236,7 +5234,6 @@ naszswiat.net##.t3-footnav #Mod233, .t3-footnav #Mod234
 nasztomaszow.pl#?#.row.article_summary p:-abp-contains(Podziel się)
 nasztomaszow.pl#?#.sidebar > .widget:-abp-has(a[href*="facebook.com/"])
 natemat.de##.author-icons > li > a:not([href*="//natemat.de/"])
-natemat.pl##a[href*="/natematpl" i] > img[src^="/static/media/"]
 natgeotv.com###SocialFooter
 natuli.pl###Instagram_lista
 naturalnieniebanalnie.pl##.hestia-contact-form-col > .card-contact.card
