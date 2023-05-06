@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.5.4.0
-! Last modified: Thu, 04 May 2023, 22:31 UTC+02:00
+! Version: 2023.5.6.0
+! Last modified: Sat, 06 May 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.5.4.0 aktualizacja: czw, 04 maj 2023, 22:31 UTC+02:00
+! v.2023.5.6.0 aktualizacja: sob, 06 maj 2023, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1847,6 +1847,7 @@ buki.org.pl#?#footer > div > div > div > nav > div:-abp-has(+ div[class*="styles
 buma.pl##.footer-cols > .col1 > .text > p:nth-of-type(5)
 bursa1.krakow.pl###wb_footer a[href*="facebook.com"] > img
 bursztynowa.pl##.footer-top section.col-xs-12.col-sm-4:nth-of-type(2)
+busemprzezswiat.pl##.penci_social_counter
 busfor.pl##.footer__social-container
 busiarze.com.pl,invado.pl,jaknajwiecej.pl##.zoom-instagram-widget
 business-english.com.pl##.contact > header > h3, .contact > p, .contact > .icons > li:nth-of-type(1)
@@ -4224,6 +4225,7 @@ kontaktowe.pl###gp
 kontrowersje.net##.color-facebook
 kontrowersje.net##.color-twitter
 kopalniawiedzy.pl##.ui-helper-clearfix.box.articles:nth-of-type(4)
+koral.com.pl##.social
 koraliki.pl###footer div.col-sm-3:nth-of-type(1)
 kordialne.pl###right_sidebar_item-3 > .tborder:nth-of-type(1)
 korner.pl###custom_post_widget-2, #custom_post_widget-9
@@ -7262,6 +7264,8 @@ surgepolonia.pl###footer_contact_data > li:nth-of-type(1) > a
 sutricon.pl##.nectar-social
 sw.gov.pl###block-13
 swatka.pl##.user-block > .left
+swederm.com##.fb.item
+swederm.com##.insta.item
 sweetdecor.pl##.left_side > div.categories:nth-of-type(3)
 sweetliving.pl###llg_social_media
 sweetliving.pl##.llg_footer_col_three.col-sm-3 > h4:nth-of-type(2)
@@ -8142,6 +8146,7 @@ wszelkieprzepisy.pl###likeup
 wszystkiegoslodkiego.pl##.ws-footer__center__socials
 wszystkiemojebziki.pl###HTML252
 wszystko.pl##.sm-iblock.like
+wszystko.pl##.wpl-footer__socials
 wszystkoociasteczkach.pl##.menu-item a[href*="witter.com"]
 wszystkotujest.pl##.is
 wtk.pl##.tooltip-news-share-container > div[class*="icon"]:nth-of-type(-n+2)
@@ -9258,6 +9263,8 @@ zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .
 @@/social_media_$domain=mazury.travel|nuorder.pl
 @@/tiktok/*/static/images/share-$image,domain=tiktok.com
 @@/wp-content/plugins/fwdu3dcar/*$image,~third-party
+@@||allegroimg.com/*/information-social-facebook-$image,domain=allegro.pl
+@@||allegroimg.com/*/information-social-google-$image,domain=allegro.pl
 @@||apis.google.com/js/platform.js
 @@||assets.allegrostatic.com/metrum/icon/share-*.svg$image,domain=allegro.pl
 @@||ceneo.pl/Content/img/icons/logos/Facebook-simple$image
