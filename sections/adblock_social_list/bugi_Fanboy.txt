@@ -1,8 +1,6 @@
 ##[class] .button-facebook:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"]) .dashicons-twitter
-@@||allegroimg.com/*/information-social-google-$image,domain=allegro.pl
-@@||allegroimg.com/*/information-social-facebook-$image,domain=allegro.pl
 #@#.button-facebook
 #@#.button-twitter
 #@#.cookie-bottom-layer
@@ -21,6 +19,8 @@
 @@/social_media_$domain=mazury.travel|nuorder.pl
 @@/tiktok/*/static/images/share-$image,domain=tiktok.com
 @@/wp-content/plugins/fwdu3dcar/*$image,~third-party
+@@||allegroimg.com/*/information-social-facebook-$image,domain=allegro.pl
+@@||allegroimg.com/*/information-social-google-$image,domain=allegro.pl
 @@||apis.google.com/js/platform.js
 @@||assets.allegrostatic.com/metrum/icon/share-*.svg$image,domain=allegro.pl
 @@||ceneo.pl/Content/img/icons/logos/Facebook-simple$image
