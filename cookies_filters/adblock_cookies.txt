@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.5.7.0
-! Last modified: Sun, 07 May 2023, 18:31 UTC+02:00
+! Version: 2023.5.7.1
+! Last modified: Sun, 07 May 2023, 20:15 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.5.7.0 aktualizacja: nie, 07 maj 2023, 18:31 UTC+02:00
+! v.2023.5.7.1 aktualizacja: nie, 07 maj 2023, 20:15 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -74,7 +74,7 @@ acatar.pl,aleric.pl,apap.pl,artresan.pl,furaginum.pl,gripex.pl,herbitussin.pl,ib
 acb-arch.pl,aniolowka.pl,avatec.pl,polcar.com,schroniskowroclaw.pl,wiescisokolowskie.pl###cwwb
 accent-bikes.com,adaware.com,boca.com,carfax.eu,croatia.hr,dexcom.com,esn-eu.org,gliwice.eu,kghm.com,kielce.eu,kwestiasmaku.com,naszekielce.com,paszport.info,prestashop.com,rc.fm,sadeczanin.info,swiecie.eu###sliding-popup
 accenture.com,asics.com,cookielaw.org,filehippo.com,hp.com,kia.com,malwarebytes.com,msn.com,pl.atlassian.com,prezi.com,sonos.com,volvocars.com###optanon, .optanon-alert-box-wrapper, #optanon-minimize-wrapper
-account.tvn.pl,auchan.pl,carrefour.pl,biedronka.pl,ciekawostkihistoryczne.pl,delikatesy.pl,discoverychannel.pl,euro.com.pl,genius.com,hbomax.com,hoffen.com.pl,hp.com,inpost.pl,inpostfresh.pl,intel.pl,komputronik.pl,logitech.com,logitechg.com,oleole.pl,paczkomaty.pl,panasonic-batteries.com,pixabay.com,pl.bab.la,pl.oriflame.com,play.pl,player.pl,poland.us,polsat.pl,polskieradio.pl,speedtest.net,ttv.pl,vanish.pl,vod.pl,wyborcza.pl,zabka.pl,zajaczeklindt.pl,~zakupy.auchan.pl##html:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) body:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) div#onetrust-consent-sdk
+account.tvn.pl,auchan.pl,biedronka.pl,carrefour.pl,ciekawostkihistoryczne.pl,delikatesy.pl,discoverychannel.pl,euro.com.pl,genius.com,hbomax.com,hoffen.com.pl,hp.com,inpost.pl,inpostfresh.pl,intel.pl,komputronik.pl,logitech.com,logitechg.com,masterpass.com,oleole.pl,paczkomaty.pl,panasonic-batteries.com,pixabay.com,pl.bab.la,pl.oriflame.com,play.pl,player.pl,poland.us,polsat.pl,polskieradio.pl,speedtest.net,ttv.pl,vanish.pl,vod.pl,wittchen.com,wyborcza.pl,zabka.pl,zajaczeklindt.pl,~zakupy.auchan.pl##html:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) body:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) div#onetrust-consent-sdk
 account.ubisoft.com###footer_tc_privacy
 accredito.com,encycolorpedia.pl,fdb.pl###consent
 accuweather.com###eu-cookie-notify-wrap
@@ -215,12 +215,11 @@ apo-discounter.pl###landing_page_popup
 appgallery.huawei.com##.cookieBootom
 apra.pl,przegladlokalny.eu###popup-overlay
 apsdata.pl###alert
-aptekacud.pl###pdcookielaw
-aptekamirowska.pl,aptekawsieci.pl,arkady.info,e-drogeria.com,krzysztonjan.com###notice_bar
+aptekacud.pl,cenka.pl,flowerstory.pl,majstero.pl,medyczny.store###pdcookielaw
+aptekamirowska.pl,aptekawsieci.pl,aptekazdrowie-24.p,arkady.info,dataoptics.com.pl,e-drogeria.com,krzysztonjan.com###notice_bar
 aptekarski.com,media.pl.canalplus.com,prowly.com##.pr-cookie-policy
 aptekarzpolski.pl,opp-ostrow.pl###sgcolorbox.colorbox4
 aptekarzpolski.pl,opp-ostrow.pl##.sgcboxOverlayBg.sg-popup-overlay
-aptekazdrowie-24.p###notice_bar
 arachnea.org##div.guestwarn
 aranzujemy.pl,kobieceporady.pl,kosmogadka.pl,przelewy24.pl,samouczek.info,spacex.com.pl##.gdpr
 arch.kpcen.pl###colorbox
@@ -393,7 +392,7 @@ bik.pl##.page-cookies-info, #cmsg
 bike-parts-honda.pl###cookieConsent
 bilera.pl,biurotech.net.pl,brewa.pl,dekavit.pl,gdanska1.pl,jesienna.mediaprod.com.pl,kalisz.caritas.pl,lanko.pl,letniskowo.pl,opiekun.kalisz.pl,parafia-slupia.pl,parafiachynowa.pl,przp.pl,radiorodzina.kalisz.pl,technikum.kalisz.pl,tygodnikkepinski.pl##.module-abovebox[style^="position: fixed;"]
 bilety.arenazabrze.pl,bilety.arka.gdynia.pl,korona-kielce.pl,kupbilety.pogonszczecin.pl##.cookie-notice-bin
-bilety.transportgzm.pl##.modal-cacsp-position
+bilety.transportgzm.pl,galeriakatowicka.eu##.modal-cacsp-position
 bilety.wok.walbrzych.pl###social
 bilka.com.pl,krasnik-okna.pl##footer > div > #mod99
 billbook.com##app-cookies
@@ -569,7 +568,6 @@ cda.pl,e-programy.pl,superfilm.pl###box_info
 cdr.gov.pl,nowemiasteczko.pl##.navbar-inverse.navbar-fixed-bottom.navbar
 cea-art.pl##.bs-gdpr-law
 cechradomsko.pl,mebleciesielski.eu,meblegal.com.pl##.email-signup-fixed
-cenka.pl,flowerstory.pl,majstero.pl,medyczny.store###pdcookielaw
 centrum-marino.com,optegra.com.pl,wroclaw.pl###cookie_zgoda
 centrumdobrejterapii.pl##.bottom-cookie-info
 centrumklima.pl###cookieCKdiv
@@ -703,7 +701,6 @@ darnatury.pl###kukibar
 darnatury.pl,helio.pl,jastrzebieonline.pl###rodo_popup
 darx.pila.pl###contBanner > #bannerMSG
 data-net.com.pl##.cookies_warning
-dataoptics.com.pl###notice_bar
 dating-services-singles.com,dzikowiec.info###cookiescript_injected
 db.com###wt-confirm-layer.wt-confirm-layer
 dcf.wroclaw.pl##.cookie__notice
@@ -1149,7 +1146,6 @@ futurefarm24.pl###queryModalRODO
 gabinetodzaplecza.pl,high-med.pl,konferencja.amoz.edu.pl,majorel.com.pl,moderator-online.edu.pl,modnepodlogi.pl,neuca.pl,odbiormieszkan.dekra.pl,symposium.pl,terazpoz.pl,vcarbon.pl##.landend-infobar-light
 gaj-stal.com,polonia.nl###pasek
 galaxy-centrum.pl###gdpr-window
-galeriakatowicka.eu##.modal-cacsp-position
 gamedot.pl##.policy_warning
 gamepedia.com###policy-notice-root
 gameplay.pl##div#CP_box
@@ -2439,6 +2435,7 @@ romance-tv.pl##.ce_rsce_tao_fixed_note.fixed-note
 romantycznyweekend.eu###cookiepolicydiv
 romident.pl###coktb
 roslinniejemy.org###policy_popup
+rossmann.pl,zakupy.auchan.pl##div#onetrust-consent-sdk
 rower.com.pl###cookies_request
 rowermevo.pl##.cookies-cont
 rozprza.info###RODOinfo
@@ -2886,7 +2883,6 @@ wisla.krakow.pl##.bannerFixed
 wisport.com.pl###DIVnasz
 witryna.pl##div[class][style][data-cookie-path]
 wittchen.com##.footer__cookie-alert--wrapper
-wittchen.com##html:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) body:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) div#onetrust-consent-sdk
 wix.com###cookieNotificationBannerWrapper
 wizytowki4you.pl##smq-popup
 wlin.pl###footer > #footer_text
@@ -2931,7 +2927,6 @@ zabierzow.org.pl###modal-rodo, .cook_wrap
 zadluzenia.com###CookiesInfo
 zajadam.pl##.infobar-bottom
 zakamarki.pl###cookie_policy_wrapper
-zakupy.auchan.pl,rossmann.pl##div#onetrust-consent-sdk
 zakupy.sdsm.pl###baner-tresc
 zalando-lounge.pl##[class^="CookieConsent_cookie-consent_"]
 zalando.pl##.z-navicat-header-cookieBar
@@ -3037,7 +3032,7 @@ zyro.com##.zyro-cookies
 ||cieszyn.pl/images/cn-ins.jpg
 ||cmp*.*.pl/*.js|$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
 ||cmp.quantcast.com/choice/*com$script,domain=pl.forvo.com
-||cmp.quantcast.com/choice/*pl$script,domain=antyweb.pl|aszdziennik.pl|natemat.pl|innpoland.pl|dadhero.pl|mamadu.pl|dobryslownik.pl|e-commerce.pl|gazetki.pl|gry-online.pl|hejto.pl|instrukcjaobslugipdf.pl|kalendarz-365.pl|medme.pl|mp.pl|naekranie.pl|polskieradio24.pl|przyslijprzepis.pl|radiokierowcow.pl|smakosze.pl|teleman.pl|termedia.pl
+||cmp.quantcast.com/choice/*pl$script,domain=antyweb.pl|aszdziennik.pl|dadhero.pl|dobryslownik.pl|e-commerce.pl|gazetki.pl|gry-online.pl|hejto.pl|innpoland.pl|instrukcjaobslugipdf.pl|kalendarz-365.pl|mamadu.pl|medme.pl|mp.pl|naekranie.pl|natemat.pl|polskieradio24.pl|przyslijprzepis.pl|radiokierowcow.pl|smakosze.pl|teleman.pl|termedia.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
 ||consent.dropbox.com^$subdocument
