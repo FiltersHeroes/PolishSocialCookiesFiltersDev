@@ -1,3 +1,7 @@
+plejada.pl###detail.articleBody p:nth-last-child(-n+3) a[href*="facebook.com/plejada" i]:remove-attr(href)
+plejada.pl###detail.articleBody p:nth-last-child(-n+3) a[href*="instagram.com/plejada" i]:remove-attr(href)
+plejada.pl###detail.articleBody p:nth-last-child(-n+3) a[href*="youtube.com/"][href*="plejada" i]:remove-attr(href)
+plejada.pl###detail.articleBody p:nth-last-child(-n+3) a[href*="tiktok.com/@plejada" i]:remove-attr(href)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href=""][title*="instagram"][target="_blank"] ~ a[href=""][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##figure strong:has-text(/^Podziel się$/):upward(2)
