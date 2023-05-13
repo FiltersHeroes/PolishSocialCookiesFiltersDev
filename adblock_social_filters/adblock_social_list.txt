@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.5.13.0
-! Last modified: Sat, 13 May 2023, 18:31 UTC+02:00
+! Version: 2023.5.13.1
+! Last modified: Sat, 13 May 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.5.13.0 aktualizacja: sob, 13 maj 2023, 18:31 UTC+02:00
+! v.2023.5.13.1 aktualizacja: sob, 13 maj 2023, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -757,7 +757,7 @@ pl##.zobacz-nas
 pl##[id^="nk_fajne"]
 pl##a img.facebook-link
 pl##a.like
-pl##a[href^="whatsapp://send"]
+pl##a[href^="https://twitter.com/share?url="]
 pl##a[title="Click to share on Google+"]
 pl##a[title="gplus"]
 pl##a[title="Instagram"]
@@ -5825,6 +5825,7 @@ pkwp.org##.yt-tab
 pl##.slide-fb-out-div
 pl##.sm-panel .sm-messenger
 pl##a[href^="fb-messenger://share/"]
+pl##a[href^="whatsapp://send"]
 pl-pl.fitatu.com##.fitatu-footer__social
 pl.abbott##.m-social-media--icons
 pl.admininfo.info##.hotwp-scroll-top
