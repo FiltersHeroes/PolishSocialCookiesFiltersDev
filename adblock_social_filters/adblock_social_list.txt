@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.5.13.1
-! Last modified: Sat, 13 May 2023, 22:31 UTC+02:00
+! Version: 2023.5.14.0
+! Last modified: Sun, 14 May 2023, 14:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.5.13.1 aktualizacja: sob, 13 maj 2023, 22:31 UTC+02:00
+! v.2023.5.14.0 aktualizacja: nie, 14 maj 2023, 14:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -757,6 +757,7 @@ pl##.zobacz-nas
 pl##[id^="nk_fajne"]
 pl##a img.facebook-link
 pl##a.like
+pl##a[href^="https://twitter.com/intent/tweet"]
 pl##a[href^="https://twitter.com/share?url="]
 pl##a[title="Click to share on Google+"]
 pl##a[title="gplus"]
@@ -6058,6 +6059,8 @@ polsl.pl##tr:nth-of-type(5) > .shortcutsImg:nth-of-type(1)
 polsl.pl##tr:nth-of-type(5) > .shortcutsLink:nth-of-type(2)
 polszczyzna.pl##.eltdf-icon-shortcode, .textwidget > h4
 poltechparts.pl##.media-foot
+polter.pl#?##col2 > h3:-abp-contains(Facebook)
+polter.pl#?##col2 > h3:-abp-contains(Facebook) + div
 polvision.com##.foot_search_share
 polygamia.pl###polysocial, #sidebar-footer-top, #menu-submenu-1 a[href*="youtube.com/"], .sharepostHome
 polygamia.pl,tech.wp.pl,www.dobreprogramy.pl##[data-href*="/dobreprogramy/posts/" i]:not(a), [data-href*="/305335630685/posts/" i]:not(a)
