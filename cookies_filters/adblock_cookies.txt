@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.5.14.0
-! Last modified: Sun, 14 May 2023, 21:52 UTC+02:00
+! Version: 2023.5.14.1
+! Last modified: Sun, 14 May 2023, 22:28 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.5.14.0 aktualizacja: nie, 14 maj 2023, 21:52 UTC+02:00
+! v.2023.5.14.1 aktualizacja: nie, 14 maj 2023, 22:28 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1872,6 +1872,7 @@ motofocus.pl,truckfocus.pl###privacy-policy-bar
 motohurt.org,potak.eu##.c-cookie-info
 motointegrator.com###__next > div:not([id]):not([class]) > div[class] ~ section[class*="_"]
 motonotes.pl##div[style="background-color:black; width=100%; height:25px; color:white; position:absolute"]
+motopedia.otomoto.pl#?##__next > header ~ main ~ div:-abp-has(> div p > a[href*="-Polityka-Plik"][href*="-Cookies"]):-abp-has(~ footer)
 motorbiker.pl###my-welcome-message, #fvpp-blackout
 motorola.com###moto-cookies-container
 motorola.com##.gdpr-container-wrapper
@@ -2054,6 +2055,7 @@ onlineradiobox.com###alert_cookies
 onninen.pl###__next > footer > div > div:last-child > div:last-child > a[href*=".com/"][target="_blank"]
 onninen.pl###__next footer > aside[class*=" "]
 onninen.pl#?##__next > footer > aside:-abp-has(a[href="/polityka-prywatnosci"])
+onninen.pl#?#footer ~ div:-abp-has(div[class*="Modal"] fieldset:-abp-contains(Ustawienia plików cookie))
 opac.wimbp.zgora.pl##div#alertboxsec_c, div#alertboxsec_mask
 opc.eu##.header__cookies_law_info
 opel.pl##.q-silent-consent.q-legal-notification
@@ -2594,6 +2596,7 @@ sneakershop.pl#?##tws_i_100000:-abp-has(.agree_dialog)
 snt.pl###sntc-close
 socialwifi.com##.cookielaw-banner
 softpedia.com###cookienotif
+solar.pl###SolarCookieInfo.alert-info.alert
 solartime.pl###sticky-notify
 solid-szkolenia.pl##.ga-cookies-message
 solidarni2010.pl##div#kom
@@ -2634,6 +2637,7 @@ ssl.certum.pl###spu-1459
 ssl.certum.pl###spu-bg-1459
 ssl.sisms.pl##div[name="cookie_info"]
 ssm.gda.pl##header a[href="polityka-prywatnosci.php"]
+st.pl##.jq-cookies
 stalagroup.pl##div.scl:nth-of-type(n+2):nth-of-type(-n+3)
 staleo.pl###MultiCookieInfo-rodoInfo
 stalowemiasto.pl##.header-parent > .container > .slot-1280px.slot
