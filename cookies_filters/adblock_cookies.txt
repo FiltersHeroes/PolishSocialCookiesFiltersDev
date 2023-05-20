@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.5.16.0
-! Last modified: Tue, 16 May 2023, 02:31 UTC+02:00
+! Version: 2023.5.20.0
+! Last modified: Sat, 20 May 2023, 14:33 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.5.16.0 aktualizacja: wto, 16 maj 2023, 02:31 UTC+02:00
+! v.2023.5.20.0 aktualizacja: sob, 20 maj 2023, 14:33 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -225,6 +225,7 @@ aranzujemy.pl,kobieceporady.pl,kosmogadka.pl,przelewy24.pl,samouczek.info,spacex
 arch.kpcen.pl###colorbox
 arch.kpcen.pl,laboratoria.net###cboxOverlay
 archiconnect.pl,biznesmeblowy.pl,lazienka.pl,mamkuchnie.pl,meble.com.pl,najlepszedomy.pl###axn
+archiconnect.pl,dowozy.pl,e-kolo.pl,eszyneczka.pl,gieldarolna.pl,imgw.pl,jpd.com.pl,kanokajaki.pl,madlen.pl,mas-sport.pl,minecraft.org.pl,nastopy.pl.karpmax.pl,polskieradio.pl,pracownia.org.pl,ptbs.pl,robimytv.pl,terramar.pl,tubachorzowa.pl,tubagliwic.pl,tubamarek.pl,tubaostrowa.pl,tubawyszkowa.pl##.rodo
 architektura.info##.cookies-warning
 architektura.info##.modal
 architekturaibiznes.pl###popupzgody-wrapper-main
@@ -798,7 +799,6 @@ dotsport.pl##.cookie-nav
 douglas.pl##.rd__cookie-bar
 dowhan-nieruchomosci.pl###cookies_text
 downdetector.pl##.evidon-consent-button:lang(pl)
-dowozy.pl,e-kolo.pl,eszyneczka.pl,gieldarolna.pl,jpd.com.pl,madlen.pl,minecraft.org.pl,nastopy.pl.karpmax.pl,pracownia.org.pl,ptbs.pl,robimytv.pl,terramar.pl,tubachorzowa.pl,tubagliwic.pl,tubamarek.pl,tubaostrowa.pl,tubawyszkowa.pl##.rodo
 dpslubuczewo.pl,gastromaniacy.pl,idhosting.pl,instytutlogopedyczny.pl,sggik.pl###flash-msg
 dr-natura.eu,ekskluzywnymenel.com,opoka.tv###eu-cookie-bar
 dreamjump.pl##.CookieMonster
@@ -1367,6 +1367,7 @@ ile.liter.pl##div[id^="liter"].top-header
 ilo.pl###tohd
 ilza.com.pl###rodoMain
 imagazine.pl,moviesroom.pl,tech-room.pl##.overlay-rules
+imgw.pl##.rodo__container
 imoli.pl##.bottom-left.toasted-container
 impekao24.pl###rodo-popup-wrapper, #rodo-cookie-shadow-cover
 impuls-materace.pl##.module-notification
@@ -1735,7 +1736,6 @@ marketing.org.pl###art_173_22032013_ukryj
 marketplanet.pl###bottom-bar
 markoweobuwie.com.pl###my_popup_wrapper, #my_popup_background
 marsell24.eu##.cm-notification-container
-mas-sport.pl##footer .rodo
 mastersintime.pl#?#.bg-green-200:-abp-has(> [class*="cookie"])
 masz.eu,wikar.com.pl##.popupContent
 mat-dom.pl##.info_rodo
@@ -3937,7 +3937,7 @@ pl##.popup-cookie:not(body):not(html)
 pl##.privacy-container:not(body):not(html):not(.content-container)
 pl##.privacy-info:not(body):not(html)
 pl##.privacy-note:not(body):not(html)
-pl##.privacy-policy:not(body):not(html)
+pl##.privacy-policy:not(body):not(html):not(a)
 pl##.privacy_policy_info:not(body):not(html)
 pl##.privacybanner_notice:not(body):not(html)
 pl##.RACKWrapper:not(body):not(html)
