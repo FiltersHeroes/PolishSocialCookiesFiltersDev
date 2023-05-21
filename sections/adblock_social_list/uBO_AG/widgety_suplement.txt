@@ -1,4 +1,3 @@
-sklep-internet.pl##.card.panel a.btn:style(white-space: unset !important;)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href=""][title*="instagram"][target="_blank"] ~ a[href=""][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##figure strong:has-text(/^Podziel się$/):upward(2)
@@ -87,6 +86,7 @@ scigacz.pl##div#main-footer > span.akonet:last-child:style(color: #606060 !impor
 scigacz.pl##div#main-footer:style(color: #0000 !important; font-size: 0 !important; width: calc(100% - 200px) !important; margin-left: 200px !important)
 shop.huawei.com##div.J_anchors:last-of-type > a.J_anchor[style*="width:59px; height:5"]:style(pointer-events: none !important; background: #fff !important)
 shopee.pl##footer div[class]:nth-child(4) > div[class] + ul li a[href*="facebook.com/"]:upward(div[class]:nth-child(4))
+sklep-internet.pl##.card.panel a.btn:style(white-space: unset !important;)
 sklep-rolniczy.pl##.socials:style(min-height: 50px !important)
 sklep.bi-es.eu##+js(ra, href, #inst a[href*="instagram.com/"], stay)
 skuter-krakow.pl###home_container_right > div:nth-of-type(1):empty:style(background: #fff !important)
