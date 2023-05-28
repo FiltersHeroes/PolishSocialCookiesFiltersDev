@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.5.28.1
-! Last modified: Sun, 28 May 2023, 18:31 UTC+02:00
+! Version: 2023.5.28.2
+! Last modified: Sun, 28 May 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.5.28.1 aktualizacja: nie, 28 maj 2023, 18:31 UTC+02:00
+! v.2023.5.28.2 aktualizacja: nie, 28 maj 2023, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1710,6 +1710,7 @@ blogmtb.pl###HTML3 > .title, .roll1, .roll2, .roll3
 blogojciec.pl###ppsPopupShell_100_859245, #ppsPopupBgOverlay
 blogspot.com,blokada.org,comel-it.com,dreamstudio.eu,przedsiebiorcy.eu,tvpolsat.info##.fa-facebook
 blondhaircare.com###LinkList98
+blondhaircare.com###shareico > ul > li:not(:last-child)
 bludshop.com##.icon-facebook-letter-logo
 bluecity.pl##.tool-facebook
 bluegames.pl##footer ul > li.icon-menu-icon
