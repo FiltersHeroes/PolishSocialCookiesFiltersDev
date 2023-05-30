@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.5.28.2
-! Last modified: Sun, 28 May 2023, 22:31 UTC+02:00
+! Version: 2023.5.31.0
+! Last modified: Wed, 31 May 2023, 00:15 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.5.28.2 aktualizacja: nie, 28 maj 2023, 22:31 UTC+02:00
+! v.2023.5.31.0 aktualizacja: śro, 31 maj 2023, 00:15 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -74,7 +74,7 @@ acatar.pl,aleric.pl,apap.pl,artresan.pl,furaginum.pl,gripex.pl,herbitussin.pl,ib
 acb-arch.pl,aniolowka.pl,avatec.pl,polcar.com,schroniskowroclaw.pl,wiescisokolowskie.pl###cwwb
 accent-bikes.com,adaware.com,boca.com,carfax.eu,croatia.hr,dexcom.com,esn-eu.org,gliwice.eu,kghm.com,kielce.eu,kwestiasmaku.com,naszekielce.com,paszport.info,prestashop.com,rc.fm,sadeczanin.info,swiecie.eu###sliding-popup
 accenture.com,asics.com,cookielaw.org,filehippo.com,hp.com,kia.com,malwarebytes.com,msn.com,pl.atlassian.com,prezi.com,sonos.com,volvocars.com###optanon, .optanon-alert-box-wrapper, #optanon-minimize-wrapper
-account.tvn.pl,aeg.pl,auchan.pl,biedronka.pl,biek.pl,carrefour.pl,cenowarka.pl,ciekawostkihistoryczne.pl,delikatesy.pl,discoverychannel.pl,electrolux.com,electrolux.pl,euro.com.pl,genius.com,hbomax.com,hebeapteka.pl,hoffen.com.pl,hp.com,inpost.pl,inpostfresh.pl,intel.pl,istockphoto.com,kfc.pl,komputronik.pl,lg.com,lodowkomaty.pl,logitech.com,logitechg.com,masterpass.com,oleole.pl,olx.pl,otodom.pl,otomoto.pl,paczkomaty.pl,panasonic-batteries.com,pixabay.com,pl.bab.la,pl.oriflame.com,play.pl,player.pl,poland.us,polsat.pl,polskieradio.pl,predatorgames.pl,przepisy.pl,speedtest.net,swpanel.pl,ttv.pl,tubiedronka.pl,tvnturbo.pl,vanish.pl,vod.pl,wittchen.com,wyborcza.pl,zabka.pl,zajaczeklindt.pl,~zakupy.auchan.pl,zanussi.pl##html:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) body:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) div#onetrust-consent-sdk
+account.tvn.pl,aeg.pl,auchan.pl,biedronka.pl,biek.pl,carrefour.pl,cenowarka.pl,ciekawostkihistoryczne.pl,delikatesy.pl,dictionary.cambridge.org,discoverychannel.pl,electrolux.com,electrolux.pl,euro.com.pl,genius.com,hbomax.com,hebeapteka.pl,hoffen.com.pl,hp.com,inpost.pl,inpostfresh.pl,intel.pl,istockphoto.com,kfc.pl,komputronik.pl,lg.com,lodowkomaty.pl,logitech.com,logitechg.com,masterpass.com,oleole.pl,olx.pl,otodom.pl,otomoto.pl,paczkomaty.pl,panasonic-batteries.com,pixabay.com,pl.bab.la,pl.oriflame.com,play.pl,player.pl,poland.us,polsat.pl,polskieradio.pl,predatorgames.pl,przepisy.pl,speedtest.net,swpanel.pl,ttv.pl,tubiedronka.pl,tvnturbo.pl,vanish.pl,vod.pl,wittchen.com,wyborcza.pl,zabka.pl,zajaczeklindt.pl,~zakupy.auchan.pl,zanussi.pl##html:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) body:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) div#onetrust-consent-sdk
 account.ubisoft.com###footer_tc_privacy
 accredito.com,encycolorpedia.pl,fdb.pl###consent
 accuweather.com###eu-cookie-notify-wrap
@@ -921,6 +921,7 @@ ekologia.pl###cookie-agree
 ekonomika.pl##.divascookies
 ekookna.pl###ppFooter-rodo
 ekoserwis.poznan.pl,studiorolety.pl##.content-head-information
+ekosystem.wroc.pl##.cookie-bar__section
 ekstraklasa.org###cookiesPolicy
 ekstraklasa.tv##div[class^="components-CookieNotice"]
 ekstraklasatrolls.pl##.cookie-header
@@ -1417,6 +1418,7 @@ ipda.pl#?#section > div[class][style]:-abp-has(> a[href^="http://www.emu.com.pl/
 ipkobiznes.pl#?##layout > div > div.svg > div > div:first-child:-abp-contains(cookies)
 ipolska24.pl###cookie_policy
 ipos.pl#?##gatsby-focus-wrapper > div[class*="css-"] ~ div[class*="css-"]:-abp-has(a[href*="/polityka-prywatnosci"])
+ipszczelnictwo.pl###ccmng
 iq.pl##div[id^="ab-cookiemodule"]
 isms.pl###skel-panels-pageWrapper > div[name="cookie_info"]
 isof.pl##.cooki
@@ -1609,6 +1611,7 @@ lagardere-tr.pl,wakacyjnipiraci.pl###tarteaucitronAlertBig
 lahtipro.pl,profix.com.pl,proline-tools.com.pl,tryton-tools.pl###alert_bar
 lajfy.com##.eu-cookie
 lak-auto.pl###windowcookie > #innercookie
+lama-media.com##.yes-cookies.cookies
 lamoda.pl###app > footer[id] ~ .text-center.fixed
 lampy.pl##.dnt-dialog
 lampywcentrum.pl,tefal24.pl##.amgdprcookie-bar-container
@@ -2189,6 +2192,8 @@ pl.hama.com###privacyOptionsCookieOptIn-bottom
 pl.ingrammicro.eu###CookieConsentLayer
 pl.investing.com##.consentBarWrapper
 pl.jooble.org##[data-test-name="_termsOfServices"][class^="GdprPopup_gdpr_consent_banner"]
+pl.kicksmaniac.com##.cookie-button
+pl.kicksmaniac.com,sklep.pl.canalplus.com###cookie-modal
 pl.kronospan-express.com##.cc-container
 pl.meteox.com,pl.sat24.com###cookie-message
 pl.mitsubishielectric.com##.pc_scsmod-cookie_alert
@@ -2550,7 +2555,6 @@ sklep.genos.com.pl###rodoText
 sklep.legia.com###hw_cookie_law
 sklep.macmillan.pl##a > img[src^="/images/banners/cookies_b2"]
 sklep.mentalway.pl,wayup.pl###rodoMsg
-sklep.pl.canalplus.com###cookie-modal
 sklep.regalia.eu###iqitpopup
 sklep.regalia.eu###iqitpopup-overlay
 sklep.sizeer.com###js-cookieInfo
@@ -3047,9 +3051,9 @@ zyro.com##.zyro-cookies
 ||ciechanowiec.pl/images/grafika/ikony/fac01.jpg
 ||cieszyn.pl/images/cn-ins.jpg
 ||cmp*.*.pl/*.js|$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
-||cmp.quantcast.com/choice/*com$script,domain=pl.forvo.com
-||cmp.quantcast.com/choice/*org$script,domain=aternos.org
-||cmp.quantcast.com/choice/*pl$script,domain=antyweb.pl|aszdziennik.pl|dadhero.pl|dobryslownik.pl|e-commerce.pl|gazetki.pl|gry-online.pl|hejto.pl|innpoland.pl|instrukcjaobslugipdf.pl|kalendarz-365.pl|mamadu.pl|medme.pl|mp.pl|naekranie.pl|natemat.pl|polskieradio24.pl|przyslijprzepis.pl|radiokierowcow.pl|smakosze.pl|teleman.pl|termedia.pl
+||cmp.quantcast.com/choice/*com$rewrite=abp-resource:blank-js,script,domain=pl.forvo.com
+||cmp.quantcast.com/choice/*org$rewrite=abp-resource:blank-js,script,domain=aternos.org
+||cmp.quantcast.com/choice/*pl$rewrite=abp-resource:blank-js,script,domain=antyweb.pl|aszdziennik.pl|dadhero.pl|dobryslownik.pl|e-commerce.pl|gazetki.pl|gry-online.pl|hejto.pl|innpoland.pl|instrukcjaobslugipdf.pl|ithardware.pl|kalendarz-365.pl|mamadu.pl|medme.pl|mp.pl|naekranie.pl|natemat.pl|polskieradio24.pl|przyslijprzepis.pl|radiokierowcow.pl|smakosze.pl|teleman.pl|termedia.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
 ||consent.dropbox.com^$subdocument
