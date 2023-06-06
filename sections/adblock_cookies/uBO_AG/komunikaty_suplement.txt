@@ -231,6 +231,7 @@ fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: auto !important)
 filmweb.pl###didomi-host
+filmweb.pl##+js(set, rodo.validateStoragePurpose, noopPromiseResolve)
 filmweb.pl##+js(set, consentManagerIsOn, false)
 filmweb.pl##+js(set, rodo.checkIsDidomiConsent, noopFunc)
 filmweb.pl##.preventScroll:style(position: static !important; overflow: auto !important)
