@@ -242,6 +242,7 @@ fdm.pl##.cms-popup-open:style(overflow: auto !important)
 filmweb.pl###didomi-host
 filmweb.pl##+js(set, consentManagerIsOn, false)
 filmweb.pl##+js(set, rodo.checkIsDidomiConsent, noopFunc)
+filmweb.pl##+js(set, rodo.validateStoragePurpose, noopPromiseResolve)
 filmweb.pl##.preventScroll:style(position: static !important; overflow: auto !important)
 filmweb.pl##.rodo:style(position: static !important; overflow: auto !important)
 filmweb.pl##.rodo__overlay
