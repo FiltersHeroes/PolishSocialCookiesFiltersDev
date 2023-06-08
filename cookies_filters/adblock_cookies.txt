@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.6.8.1
-! Last modified: Thu, 08 Jun 2023, 18:31 UTC+02:00
+! Version: 2023.6.8.2
+! Last modified: Thu, 08 Jun 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.6.8.1 aktualizacja: czw, 08 cze 2023, 18:31 UTC+02:00
+! v.2023.6.8.2 aktualizacja: czw, 08 cze 2023, 22:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -621,6 +621,7 @@ circlek.pl###cookieboxM
 cire.pl#?##root > header ~ header ~ div[class*=" "]:-abp-has(> div div:first-child:-abp-contains(/^Informacja na stronę$/))
 cire.pl#?##root > header ~ header ~ div[class*=" "]:-abp-has(> div p:first-child:-abp-contains(/plików cookie$/))
 citibank.pl##.new-cookie
+citroen-shop.eu###dm-cookie-popup-container
 ciuchy.zizej.pl##footer ~ div[data-hook="optanon"]
 civitas.edu.pl###cronox-cookie-notice
 ck-czestochowa.pl,jamyoni.org.pl,makeupmyday.pl,polityka-spoleczna.lubuskie.pl,polskie-cmentarze.pl,powiat-zielonogorski.pl,relpol.pl###powiadomiony
