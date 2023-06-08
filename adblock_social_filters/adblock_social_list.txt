@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.6.6.0
-! Last modified: Tue, 06 Jun 2023, 22:31 UTC+02:00
+! Version: 2023.6.8.0
+! Last modified: Thu, 08 Jun 2023, 17:34 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,16 +17,24 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.6.6.0 aktualizacja: wto, 06 cze 2023, 22:31 UTC+02:00
+! v.2023.6.8.0 aktualizacja: czw, 08 cze 2023, 17:34 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
+! Popupy - ogólne reguły
+/wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
+/wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
+pl###facebook-popup
+pl###fb-fan-pop
+pl###fb-fan-pop-background
+pl###fb_like_pop
+pl###fblikepop_ads
+pl###like_popup
+pl###popup-social-media
+pl##.facebook-bn_site-overlay
+pl##.facebook-popup
+!
 ! Popupy
-!chrzescijanin.pl###spu-6691, #spu-bg-6691
-!naszamlawa.pl###spu-bg-75900, #spu-75900
-!obcasy.pl##.spu-box, .spu-bg
-!pierwsze-kroki.com###spu-26, #spu-bg-26
-!zuch.media###spu-10366, #spu-bg-10366
 /compress/popupFacebook.js$domain=chamskie.pl|motywujemy24.pl
 /compress/popups/popupFacebook_normal.css$domain=chamskie.pl|motywujemy24.pl
 /pum-site-scripts-$domain=prezeska.pl|topplant.pl
@@ -44,6 +52,7 @@
 ||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
 ||zalajkowane.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
+!limonkowy.com##.ui-widget.ui-dialog, .ui-widget-overlay
 akwarysta.eu,dobrewychowanie.pl,pinka.pl###colorbox, #cboxOverlay
 android.com.pl##.social-popup
 babymanager.pl#?#.spu-bg:-abp-has(~ .spu-box .fb-like-box)
@@ -90,7 +99,6 @@ kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
 klasek.pl###spu-bg, #spu-main
 kobiecyhumor.pl,telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 konstantinkanin.com##.hustle-show
-limonkowy.com##.ui-widget-overlay, .ui-dialog
 linuxporady.pl,pskrk.com,sebucja.pl,skomplikowane.pl###exitpopup-modal
 madameedith.com,programistanaswoim.pl#?#.spu-bg:-abp-has(~ .spu-box .fb-page)
 madameedith.com,programistanaswoim.pl#?#.spu-box:-abp-has(.fb-page)
@@ -129,20 +137,6 @@ womanadvice.pl###facebook_modal, #dark_popup
 www.auto8.pl##.cover
 zakazany-humor.pl##.snp-pop-111-wrap, .snp-pop-111-overlay
 zmianywzyciu.pl###popup_facebook
-!
-!
-! Popupy - ogólne reguły
-/wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
-/wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
-pl###facebook-popup
-pl###fb-fan-pop
-pl###fb-fan-pop-background
-pl###fb_like_pop
-pl###fblikepop_ads
-pl###like_popup
-pl###popup-social-media
-pl##.facebook-bn_site-overlay
-pl##.facebook-popup
 !
 !
 ! Ogólne reguły blokujące
@@ -6707,7 +6701,9 @@ sagameble-sklep.pl##footer div.col-md-4.col-sm-6.col-xs-12:nth-of-type(3)
 sagana.pl##.fx-join-us
 salaterka.pl##div.widget-item:nth-of-type(16)
 salesmanago.pl##.sales-icon-footer
+salon24.pl##.footer-main__info > div:first-child > a
 salon24.pl##.header__topics-socials
+salon24.pl##a[onclick$="ShareThis(this)"]
 salon-kosiarek.pl###footer a[href*="facebook.com/salonkosiarek"]
 salon-kosiarek.pl##footer ~ .side-block-block + .side-block-block
 salonmeblowy.net.pl##.icoPlus.fl, .icoPlus.fl + .ml20.fl
