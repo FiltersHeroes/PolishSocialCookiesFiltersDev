@@ -211,6 +211,8 @@ emclab.pl,smazymy.com##.wmpci-popup-open, .wmpci-popup-open body:style(overflow:
 empik.com##.cookies-accept, .modal-backdrop
 empik.com##.cookies-accept:remove()
 empik.com##.react-box-container[data-box-key="CookiesConsentsBannerRodoBox"][class]
+empik.com###app div[class^="css-"][class*="ConsentsBanner"]
+empik.com##div[class^="css-"][class*="background"]:empty
 empik.com##body.cookies-consent-component__prevent-scroll footer ~ div[class$="-wrapper"]:has(> div[class$="-background"]:empty:first-child + div[class$="-containerInfo-CookiesConsentsBannerRodoHelper"]:last-child)
 empik.com##html.cookies-consent-component__prevent-scroll:style(overflow-y: auto !important)
 enerad.pl##.wt-cli-cookie-bar-container
