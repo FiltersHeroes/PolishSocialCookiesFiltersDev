@@ -217,9 +217,8 @@ elevensports.pl,hendi.pl,hsbc.pl,meiko.pl,pl.aptoide.com##.no-scroll:style(overf
 elixirgroup.pl###global-modal, .modal-backdrop
 emclab.pl,henwar.pl,smazymy.com###wmpci-popup-wrp
 emclab.pl,smazymy.com##.wmpci-popup-open, .wmpci-popup-open body:style(overflow: auto !important)
-empik.com##.cookies-accept, .modal-backdrop
-empik.com##.cookies-accept:remove()
 empik.com##.react-box-container[data-box-key="CookiesConsentsBannerRodoBox"][class]
+empik.com##body.cookies-consent-component__prevent-scroll #app > div[class$="-wrapper"]:has(> div[class$="-background"]:empty:first-child + div[class$="-containerInfo-CookiesConsentsBannerRodoHelper"]:last-child)
 empik.com##body.cookies-consent-component__prevent-scroll footer ~ div[class$="-wrapper"]:has(> div[class$="-background"]:empty:first-child + div[class$="-containerInfo-CookiesConsentsBannerRodoHelper"]:last-child)
 empik.com##html.cookies-consent-component__prevent-scroll:style(overflow-y: auto !important)
 enerad.pl##.wt-cli-cookie-bar-container
