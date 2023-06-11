@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.6.10.0
-! Last modified: Sat, 10 Jun 2023, 22:31 UTC+02:00
+! Version: 2023.6.11.0
+! Last modified: Sun, 11 Jun 2023, 14:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.6.10.0 aktualizacja: sob, 10 cze 2023, 22:31 UTC+02:00
+! v.2023.6.11.0 aktualizacja: nie, 11 cze 2023, 14:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4988,6 +4988,7 @@ mkm.szczecin.pl#?#.row .index-header:-abp-contains(Facebook)
 mkppogonsiedlce.pl##.page-item-4892, .page-item-4894, .page-item-4897, .page-item-5482
 mksbedzin.pl##.moto-widget-social-links.moto-widget, .moto-preset-3.moto-widget-image.moto-widget
 mleasing.pl##.footer > .wrapper > .outer:last-child > div > div + div:last-child > div > a > img
+mlekovita.com.pl##.social-icons .s-img-play
 mlekpol.com.pl##.fb_zakladka
 mlekpol.com.pl##.ig_zakladka
 mlodytechnik.pl##.for-share-buttons
@@ -7071,6 +7072,7 @@ sluzby-ratownicze.pl###menu-social-menu-items
 sluzby-ur.pl##.wysun_facebooka.fl
 smaczneblogi.pl##.link-gplus, .link-instagram
 smaczny.pl##a[href*="facebook.com/smacznypl"]
+smaker.pl##button[class*="save"].btn ~ span
 smaker.pl##p > a[href="https://www.facebook.com/groups/226122496302170"] > img
 smakistyl.pl##.join-us
 smakliter.pl##.fbAndInstagram
@@ -9075,6 +9077,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||socialteam.pl/wp-content/uploads/20*/0*/facebook-logo.png
 ||sokolow.pl/sites/default/files/paragraphs/icon-fb_*.png
 ||sokolow.pl/sites/default/files/paragraphs/icon-inst_*.png
+||sokolow.pl/sites/default/files/paragraphs/icon-youtube_
 ||sorbona.edu.pl/styles/top-fb.jpg
 ||sp33.olsztyn.pl/wp-content/uploads/*/*/fanpage.jpg
 ||sp40katowice.pl/downloads/images/*yt.png
