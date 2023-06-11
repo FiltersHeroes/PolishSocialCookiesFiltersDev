@@ -5,8 +5,6 @@
 !
 !
 ! Popupy
-!smaker.pl###popup.fanPlug, #overlay
-!smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important)
 apynews.pl,gameonly.pl,gameswithgold.pl,hardreset.info,kocmyrzow-luborzyca.ug.gov.pl,mamalla.pl,n-switch.pl,ps-plus.pl,stollar.pl,wificalling-volte.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important)
 apynews.pl,gameonly.pl,gameswithgold.pl,n-switch.pl,ps-plus.pl###fb-modal, .modal-backdrop
 autonaminuty.org##.mfp-bg.mfp-ready
@@ -43,6 +41,9 @@ rafalszrajnert.pl##.hustle-no-scroll:style(overflow: auto !important)
 rafalszrajnert.pl##.hustle-popup
 ratujemyzwierzaki.pl##.dimmer
 ratujemyzwierzaki.pl##body.dimmed:style(overflow: auto !important)
+smaker.pl##.popupFacebook
+smaker.pl##html body.-popup:style(position: static !important; overflow: visible !important)
+smaker.pl##html[style]:style(position: static !important; overflow: visible !important)
 sprawnymarketing.pl###pop_facebook
 sprawnymarketing.pl##.blur:style(filter: none !important)
 stollar.pl###Advertise, .modal-backdrop
