@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.6.12.0
-! Last modified: Mon, 12 Jun 2023, 23:35 UTC+02:00
+! Version: 2023.6.13.0
+! Last modified: Tue, 13 Jun 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.6.12.0 aktualizacja: pon, 12 cze 2023, 23:35 UTC+02:00
+! v.2023.6.13.0 aktualizacja: wto, 13 cze 2023, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -52,7 +52,6 @@ pl##.facebook-popup
 ||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
 ||zalajkowane.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
-!limonkowy.com##.ui-widget.ui-dialog, .ui-widget-overlay
 akwarysta.eu,dobrewychowanie.pl,pinka.pl###colorbox, #cboxOverlay
 android.com.pl##.social-popup
 babymanager.pl#?#.spu-bg:-abp-has(~ .spu-box .fb-like-box)
@@ -1426,7 +1425,7 @@ b2btrade.eu###footer > div:nth-of-type(6) > a.left
 b2net.pl#?#.single-widget > h3:-abp-contains(Udostępnij)
 b365.pl###box_custom36
 babi-kacik.eu,fajne.life,medbestshop.eu,webinsider.pl,wroclife.pl##.widget_monarchwidget
-babyboutik.pl,drogerienatura.pl,getinbank.pl##.footer-social-media
+babyboutik.pl,drogerienatura.pl,getinbank.pl,shop-dent.pl##.footer-social-media
 babyhit.pl###footer_img > div:nth-of-type(2) > a > img
 bacca.pl###MenuWidget-3
 baccata.com.pl##a.footer_soc_icon:nth-of-type(-n+2)
