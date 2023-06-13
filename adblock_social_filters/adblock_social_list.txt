@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.6.13.0
-! Last modified: Tue, 13 Jun 2023, 02:31 UTC+02:00
+! Version: 2023.6.13.1
+! Last modified: Tue, 13 Jun 2023, 06:46 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.6.13.0 aktualizacja: wto, 13 cze 2023, 02:31 UTC+02:00
+! v.2023.6.13.1 aktualizacja: wto, 13 cze 2023, 06:46 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2720,7 +2720,8 @@ eholiday.pl##.show.go-to-top
 ehurt.eu,fiveoclock.eu,ngr.pila.pl###fb_button
 eitalia.pl##div.fixed-slide:nth-of-type(2)
 eitc.online###Contact-left-small-r
-ekipa.holownia2020.pl##.intro__btn--fb, .footer__col--social, .education__btn--fb, .education__btn--yt
+ekliniki.pl#?##sidebar > div.box-blue:nth-of-type(n+5):-abp-has(#likebox)
+ekliniki.pl,satkurier.pl##.twitter-share-button
 eko-central.pl,pkl.pl,sklep.widzew.com,superubezpieczenia.pl,uzywanygwarantowany.pl##.social-network
 eko.org.pl##.w3-bar > div.ds-button-roundm
 ekobilet.pl#?#.padtb-3.text-center.container:-abp-contains(Facebooku)
@@ -6738,7 +6739,6 @@ satel.pl#?##article > p:nth-of-type(2) + table:nth-of-type(1):-abp-has(td a img[
 satel.pl#?##article > p:nth-of-type(2):-abp-contains(odwiedzić naszych kanałów)
 satel.pl#?##article > p:nth-of-type(3):-abp-contains(/i\sbądź na\sbieżąco/)
 satkurier.pl###sky_left_container, #vLine_stopBootstrap
-satkurier.pl##.twitter-share-button
 savicki.pl#?#.mt-5 > div.line-section:nth-of-type(1):-abp-contains(Dołącz do nas)
 sawataxi.pl##.oNasSocIcons, .oNasSocName
 sbc.wbp.kielce.pl##.footer__contact > div.footer__contact-box:nth-of-type(4) > .footer__text--contact-title
