@@ -25,6 +25,8 @@ adidas.pl,reebok.pl##.gl-modal-open:style(overflow: auto !important; padding-rig
 adidas.pl,reebok.pl##div[class*="cookie-consent-modal_"]
 ads.allegro.pl###main div[class]:has(a[href*="/regulaminy/polityka-plikow-cookies"][href*="#ukryj-modal-rodo"]) + div:matches-css(opacity: 0.5):matches-css(background-color: /34/)
 ads.allegro.pl###main div[class]:has(a[href*="/regulaminy/polityka-plikow-cookies"][href*="#ukryj-modal-rodo"]):matches-css(position: fixed)
+agriaffaires.pl###didomi-host
+agriaffaires.pl##html > body.didomi-popup-open, html > body.didomi-notification-open:style(overflow: visible !important)
 agrobard.com.pl,alumatex.pl,hydro-masz.pl##.pum-open-overlay:style(overflow: auto !important)
 agrobard.com.pl,alumatex.pl,hydro-masz.pl##.pum-overlay[data-popmake*="rodo"]
 agromat.com.pl###rodoOverlay
@@ -156,8 +158,8 @@ cyberdefence24.pl,defence24.com,defence24.pl,dmd-biuro.pl,energetyka24.com,infos
 cyberdefence24.pl,defence24.com,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##.modal:has(.cookie__modal_text)
 czescizamienne.amica.pl##.modal-container:has(a[href="/Account/CookiesPolicy"])
 czescizamienne.amica.pl##.modal-container:has(a[href="/Account/CookiesPolicy"]) ~ .modal-backdrop
-czyodebrac.pl,ddz24.eu,eko-asklepios.pl,enerad.pl,grupafachowiec.eu,koicosmetics.pl,konecki24.pl,ktodzwonil.com.pl,opieka.farm,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,techno-senior.com,wiadomosci-lodz.pl##.cli-barmodal-open:style(overflow: auto !important; padding-right: 0 !important; margin-right: 0 !important)
-czyodebrac.pl,ddz24.eu,eko-asklepios.pl,koicosmetics.pl,konecki24.pl,ktodzwonil.com.pl,opieka.farm,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,techno-senior.com,wiadomosci-lodz.pl###cookie-law-info-bar, .cli-modal-backdrop, .cli-popupbar-overlay
+czyodebrac.pl,ddz24.eu,eko-asklepios.pl,enerad.pl,grupafachowiec.eu,koicosmetics.pl,konecki24.pl,ktodzwonil.com.pl,opieka.farm,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,techno-senior.com,verco.com.pl,wiadomosci-lodz.pl##.cli-barmodal-open:style(overflow: auto !important; padding-right: 0 !important; margin-right: 0 !important)
+czyodebrac.pl,ddz24.eu,eko-asklepios.pl,koicosmetics.pl,konecki24.pl,ktodzwonil.com.pl,opieka.farm,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,techno-senior.com,verco.com.pl,wiadomosci-lodz.pl###cookie-law-info-bar, .cli-modal-backdrop, .cli-popupbar-overlay
 dane.gov.pl##.modal-dialog:has-text(RODO)
 dasweltauto.pl##.dwa-cms-ui-cookie
 dasweltauto.pl##body[style]:style(position: static !important; overflow-y: auto !important)
@@ -460,6 +462,8 @@ panasonic.com##html[style="overflow: hidden;"],body[style="overflow: hidden;"]:s
 panattonieu.com###image-popup[class*="txt"], #image-popup-bg
 panattonieurope.com###image-popup.txt-popup, #image-popup-bg
 panoramafirm.pl###modal-rodolayer
+panwybierak.pl###cc--main
+panwybierak.pl##html.force--consent.show--consent, html.force--consent.show--consent body:style(overflow-x: visible !important)
 patronite.pl##.modal--container:has-text(RODO)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important)
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
@@ -549,6 +553,7 @@ sephora.pl##.bandeBody:style(top: 0 !important)
 serialowa.pl##html.pum-open:style(overflow: auto !important)
 serwis.currenda.pl##div:style(margin-top: auto !important)
 silesiacitycenter.com.pl###consent-modal, .modal-backdrop
+skin79-sklep.pl##.modal-open[style]:style(padding-right: 0 !important;)
 sklep.polcalc.pl###welcomeModal, .modal-backdrop
 sklep.ptwp.pl##.window
 sklep.winkhaus.pl##.amgdprcookie-modal-container.modal-popup
@@ -595,9 +600,12 @@ tinder.com###content .App > div[class^="Pos"][class*="Start"]:has-text(plików c
 tinder.com###content .App main div[class^="Pos"][class*="NetHeight"]:style(height: 100% !important)
 tlumacz-in.pl##.jconfirm:has(.jconfirm-scrollpane)
 tlumacz-in.pl##body.jconfirm-noscroll:style(overflow: auto !important)
+tme.eu###CybotCookiebotDialog
+tme.eu###CybotCookiebotDialogBodyUnderlay
 tme.eu###popup_container, #popup_overlay
 tme.eu##.o-modal-wrapper:has(img[src*="rodo.png"])
 tme.eu##.u-overflow-hidden:style(overflow-y: auto !important)
+tme.eu##body[style]:style(overflow-y: visible !important;)
 tme.eu,totalizator.pl##html[style]:style(overflow-y: auto !important)
 totalizator.pl##.popup
 toyotabank.pl##.cookies__popup
