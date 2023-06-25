@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.6.24.0
-! Last modified: Sat, 24 Jun 2023, 02:31 UTC+02:00
+! Version: 2023.6.25.0
+! Last modified: Sun, 25 Jun 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.6.24.0 aktualizacja: sob, 24 cze 2023, 02:31 UTC+02:00
+! v.2023.6.25.0 aktualizacja: nie, 25 cze 2023, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1587,9 +1587,9 @@ biblioteka.jelenia-gora.pl###kk-facebook-buttons
 biblioteka.rawicz.pl##td > a[href*="facebook.com/pages/Rawicka-Biblioteka-Publiczna"] > img
 bibliotekarium.pl#?#.sticky-sidebar div.clearfix.widget:-abp-has(h4:-abp-contains(Facebook))
 bibliotekarium.pl,dorotafilipiuk.pl,mobi.pl,techwish.pl,upc.pl,webskill.group##.social-icon
-biedronka.pl##.see-fb
-biedronka.pl##nav[class*="footer"] a[href*="facebook.com/"]
-biedronka.pl##nav[class*="footer"] a[href*="tiktok.com/"]
+biedronka.pl##.social-media a:not([href*="wa.me/"]):not([href*="m.me/"])
+biedronka.pl##.social-media a[href*="m.me/"]
+biedronka.pl##.social-media a[href*="wa.me/"]
 bieganieuskrzydla.pl##.c-social-stack > a
 bielany.waw.pl###pins
 bielecki-maszyny.pl###footer a[href*="facebook.com/BieleckiMaszyny/"]
@@ -4866,6 +4866,7 @@ media2.pl##a[href*="instagram.com/media2.pl"]
 media2.pl##a[href*="twitter.com/media2pl"]
 media-tech.eu,sporto.com.pl,zizako.pl###widget_shop4
 media.biedronka.pl##.biedronka-footer__social-section
+media.biedronka.pl##.biedronka-menu__social
 media.carrefour.pl##.footer__social__list
 media.globalworth.pl##.flex--right .pr-story--share-text
 media.globalworth.pl,media.traficar.pl,prowly.com##.pr-story--share-sapce-none
