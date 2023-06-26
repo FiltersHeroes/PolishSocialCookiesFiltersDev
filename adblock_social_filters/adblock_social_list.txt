@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.6.25.0
-! Last modified: Sun, 25 Jun 2023, 02:31 UTC+02:00
+! Version: 2023.6.26.0
+! Last modified: Mon, 26 Jun 2023, 22:44 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.6.25.0 aktualizacja: nie, 25 cze 2023, 02:31 UTC+02:00
+! v.2023.6.26.0 aktualizacja: pon, 26 cze 2023, 22:44 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1228,11 +1228,9 @@ apteka-melissa.pl##.kontener .pre-footer-header + div > a
 apteka-melissa.pl#?#.kontener .pre-footer-header:-abp-contains(Social Media)
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href*="facebook.pl"] > img
 aptekacentrumzdrowia.pl#?#footer .opening-hours.col-md-4:-abp-contains(Obserwuj nas na)
-aptekagemini.pl##.text-share-container > ul > li:nth-of-type(-n+3)
 aptekaolmed.pl#?##footer > .container .row div:-abp-has(> h2 ~ .social-spacing)
 aptekarzpolski.pl##.jeg_block_title > a[href*="facebook.com/AptekarzPolskiPismo/"]
 aptekarzpolski.pl#?#.theiaStickySidebar .jeg_block_heading_6.jeg_block_heading:-abp-contains(/Facebook|Twitter/)
-aptekigemini.pl##header .nav > li:nth-of-type(5)
 apteline.pl##.footer__connect-social
 apynews.pl##.navbar-right-custom, .menu-icon
 apynews.pl##.social-share-buttons, .facebook-custom-likes
@@ -2546,6 +2544,7 @@ drweb-av.pl##.TAIL-social > div > h3, .TAIL-social > div > p > a
 drzwi-cal.pl##.socials-sharing, .facebook-messenger-avatar
 drzwi-gerda.com##footer #top-footer #nav_menu-2
 drzwiklamki.pl###social_block, #left_share_fb, .social-sharing
+drzwioknabramy.eu##.socialsharing_product
 drzwioknabramy.eu,zippedshoes.com###facebook-content
 drzwionline.net#?#h5:-abp-contains(ODWIEDŹ NAS)
 dts24.pl##.col-md-4.footer-sidebar:nth-of-type(3)
@@ -3354,8 +3353,11 @@ gdziepolek.pl,simplyyourself.pl,williams.pl##a[href*="instagram.com/"]
 gdziepolek.pl,simplyyourself.pl,williams.pl,zakupywus.com##a[href*="facebook.com/"]
 geek.justjoin.it##.menu-icon-fb, .menu-icon-insta, .menu-icon-tw, .menu-icon-linkedin
 geekweek.pl##.footer-links__social > li:not([class*="rss"])
+gemini.pl##.links--social.links > :nth-child(-n+2)
+gemini.pl##.text-share-container > ul > li:nth-of-type(-n+3)
 gemini.pl#?#div:not([class]):not([id]) > .font-bold.text-16:-abp-contains(Dołącz)
 gemini.pl#?#div:not([class]):not([id]) > .font-bold.text-16:-abp-contains(Dołącz) + div[class]
+geminipolska.com.pl##header .nav > li:nth-of-type(5)
 gemlord.pl##div.k_footcol:nth-of-type(3)
 gemre.com.pl##img[alt="Google plus"]
 gemre.com.pl##img[alt="Tumblr"]
@@ -7466,6 +7468,7 @@ szydlowiecki.eu##.c-ig
 t-mobile-trendy.pl##.socialsArticle-twitter
 t-mobile.pl##[class*="StyledSocialMediaFooterLinks-"]
 tabelaofert.pl###fb_likebar .ng-sz-right
+tabelaofert.pl##.footer-icon-box a
 tabele-kalorii.pl###fb-likebox-my
 tabletowo.pl##.menu-icon-fb, .menu-icon-tw, .menu-icon-insta, .menu-icon-yt, .tipi-i-tiktok
 tabletowo.pl##.tipi-tip.author-icon
