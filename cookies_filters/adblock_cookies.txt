@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.6.24.0
-! Last modified: Sat, 24 Jun 2023, 22:31 UTC+02:00
+! Version: 2023.6.26.0
+! Last modified: Mon, 26 Jun 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.6.24.0 aktualizacja: sob, 24 cze 2023, 22:31 UTC+02:00
+! v.2023.6.26.0 aktualizacja: pon, 26 cze 2023, 22:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -561,6 +561,7 @@ cadvision.pl,ulapodurgiel.pl##.widget-dark-background
 cafago.com,tomtop.com##.m_privacy_statement
 campery-zlotniccy.pl##a[href="#cookiesAndContentPolicySettings"]
 campomoderngrill.pl,nasz-gabinet.pl##.message-window
+camprest.com##div[class*="CookiesModal_CookiesModal__wrapper_"]
 canalplus.com###privacy-manager
 canalpluskuchnia.pl##.rodoLayer
 cannondalebikes.pl,gtbicycles.pl###cookie_eu_bar
@@ -1107,6 +1108,7 @@ flixbus.pl##div[class^="CookieBox-module__notification_"]
 florexpol.eu###cookieMsg
 fly.pl##div[data-cookiebar]
 flyordie.pl###eucc
+fm.tuba.pl,radiozet.pl,znanylekarz.pl##html:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) body:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) div#onetrust-consent-sd
 fogo.pl##.bottom.shadow.foobar-wrapper.small-white-arrow
 fonia.app##.pix-cookie-banner
 foodjobs.pl##.b-modal
@@ -2974,6 +2976,7 @@ zarnow.eu##.cookieContainer
 zawody.kuratorium.wroclaw.pl#?#footer ~ div:-abp-has(.card b:-abp-contains(RODO))
 zawodykonne.com###cookie-akcept
 zbp.pl##.c-Cookies
+zbrojownia.pl###cookieModalBottom
 zdrowastrona.pl##.cookiesMsg
 zdrowiewciazy.pl##.zf--alerts-panel_low-priority.zf--alerts-panel_bottom-position
 zdrowiewkrakowie.pl##body > div[style]:not([id]):not([class]):nth-of-type(2)
@@ -3146,6 +3149,7 @@ zyro.com##.zyro-cookies
 ||satelita.phorum.pl/cookiebanner.js
 ||sdk.privacy-center.org/*/loader.js?target=$script,domain=hilti.pl
 ||serialowa.pl/wpr/wp-content/plugins/popup-maker/assets/css/site.min.css
+||service-cmp.com/config$script,xmlhttprequest,domain=megogo.net
 ||siemashop.pl/assets/*/js/cookie_agreement.js$script
 ||silnet.pl/*/js/vue/silnet-privacy-policy.vue$xmlhttprequest
 ||skryptcookies.pl/cookie.js$script
