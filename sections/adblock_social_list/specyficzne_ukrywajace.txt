@@ -442,11 +442,9 @@ apteka-melissa.pl##.kontener .pre-footer-header + div > a
 apteka-melissa.pl#?#.kontener .pre-footer-header:-abp-contains(Social Media)
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href*="facebook.pl"] > img
 aptekacentrumzdrowia.pl#?#footer .opening-hours.col-md-4:-abp-contains(Obserwuj nas na)
-gemini.pl##.text-share-container > ul > li:nth-of-type(-n+3)
 aptekaolmed.pl#?##footer > .container .row div:-abp-has(> h2 ~ .social-spacing)
 aptekarzpolski.pl##.jeg_block_title > a[href*="facebook.com/AptekarzPolskiPismo/"]
 aptekarzpolski.pl#?#.theiaStickySidebar .jeg_block_heading_6.jeg_block_heading:-abp-contains(/Facebook|Twitter/)
-geminipolska.com.pl##header .nav > li:nth-of-type(5)
 apteline.pl##.footer__connect-social
 apynews.pl##.navbar-right-custom, .menu-icon
 apynews.pl##.social-share-buttons, .facebook-custom-likes
@@ -1749,8 +1747,8 @@ drweb-av.pl##.TAIL-social > div > h3, .TAIL-social > div > p > a
 drzwi-cal.pl##.socials-sharing, .facebook-messenger-avatar
 drzwi-gerda.com##footer #top-footer #nav_menu-2
 drzwiklamki.pl###social_block, #left_share_fb, .social-sharing
-drzwioknabramy.eu,zippedshoes.com###facebook-content
 drzwioknabramy.eu##.socialsharing_product
+drzwioknabramy.eu,zippedshoes.com###facebook-content
 drzwionline.net#?#h5:-abp-contains(ODWIEDŹ NAS)
 dts24.pl##.col-md-4.footer-sidebar:nth-of-type(3)
 duckduckgo.com##.js-side-menu-twitter, .nav-menu--social-media
@@ -2553,9 +2551,11 @@ gdziepolek.pl,simplyyourself.pl,williams.pl##a[href*="instagram.com/"]
 gdziepolek.pl,simplyyourself.pl,williams.pl,zakupywus.com##a[href*="facebook.com/"]
 geek.justjoin.it##.menu-icon-fb, .menu-icon-insta, .menu-icon-tw, .menu-icon-linkedin
 geekweek.pl##.footer-links__social > li:not([class*="rss"])
+gemini.pl##.links--social.links > :nth-child(-n+2)
+gemini.pl##.text-share-container > ul > li:nth-of-type(-n+3)
 gemini.pl#?#div:not([class]):not([id]) > .font-bold.text-16:-abp-contains(Dołącz)
 gemini.pl#?#div:not([class]):not([id]) > .font-bold.text-16:-abp-contains(Dołącz) + div[class]
-gemini.pl##.links--social.links > :nth-child(-n+2)
+geminipolska.com.pl##header .nav > li:nth-of-type(5)
 gemlord.pl##div.k_footcol:nth-of-type(3)
 gemre.com.pl##img[alt="Google plus"]
 gemre.com.pl##img[alt="Tumblr"]
