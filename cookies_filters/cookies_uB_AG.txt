@@ -263,7 +263,7 @@ fabrykacukiernika.pl##.rodo-popup
 farmacja.pl##+js(acis, jQuery, .rodo-modal)
 farmacja.pl##div.rodo-modal
 fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > :last-child:nth-child(4):upward(1):style(color: #0000)
-fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > :style(color: initial)
+fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > *:style(color: initial)
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: auto !important)
 filmweb.pl##+js(set, consentManagerIsOn, false)
@@ -427,7 +427,7 @@ meiko.pl##.cc-window[aria-label="cookieconsent"]
 meiko.pl##.cc-window[aria-label="cookieconsent"] + .cc-window-blocker
 memo-book.pl##+js(rc, .rodo-locked, body\, html, stay)
 memo-book.pl,ostrzegamy.online##.rodo-popup, .rodo-overlay
-memo-book.pl,ostrzegamy.online##body.rodo-locked #page-container > :style(filter: none !important)
+memo-book.pl,ostrzegamy.online##body.rodo-locked #page-container > *:style(filter: none !important)
 memo-book.pl,ostrzegamy.online##body.rodo-locked, html.rodo-locked:style(overflow: auto !important)
 meteoblue.com##.gdpr_message
 meteoblue.com##.scroll_lock:style(overflow: auto !important)
@@ -548,7 +548,7 @@ portal.librus.pl##.modal-body:style(overflow: visible !important; padding-right:
 portalpasazera.pl##.cookieman-window
 powiadomienia.gis.gov.pl##body > div[class][role="presentation"]:not([id]):has-text(plików cookies)
 powiat-ostrowski.pl##.info
-powiat-ostrowski.pl##body > :style(filter: none !important)
+powiat-ostrowski.pl##body > *:style(filter: none !important)
 pozbruk.pl##+js(aopr, openRodo)
 pozbruk.pl##.jquery-modal
 praca.antyweb.pl,zeropln.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
