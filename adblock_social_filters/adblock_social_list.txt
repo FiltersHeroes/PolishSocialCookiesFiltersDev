@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.7.2.0
-! Last modified: Sun, 02 Jul 2023, 14:17 UTC+02:00
+! Version: 2023.7.2.1
+! Last modified: Sun, 02 Jul 2023, 14:51 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.7.2.0 aktualizacja: nie, 02 lip 2023, 14:17 UTC+02:00
+! v.2023.7.2.1 aktualizacja: nie, 02 lip 2023, 14:51 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -9405,6 +9405,50 @@ zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .
 !
 !
 ! Bugi Fanboy's Social Blocking List
+@@/dynamic_content/*_icon_google_play$image,domain=pilot.wp.pl
+@@/googleplus-$image,domain=wirtualnemedia.pl
+@@/images/*facebook.jpg$domain=filoma.org
+@@/images/microblog/emailButton.$image,domain=krotoszyn.pl|zlotoryjska.pl
+@@/images/social/mail_niebieski$image,domain=tvp.pl
+@@/img/social_sprite.png$domain=tvn.pl|tvnturbo.pl
+@@/modules/mod_je_social/images/social.png$image,domain=roland-gazeta.pl
+@@/revolution_lightbox$image
+@@/social_media_$domain=mazury.travel|nuorder.pl
+@@/tiktok/*/static/images/share-$image,domain=tiktok.com
+@@/wp-content/plugins/fwdu3dcar/*$image,~third-party
+@@||allegroimg.com/*/information-social-facebook-$image,domain=allegro.pl
+@@||allegroimg.com/*/information-social-google-$image,domain=allegro.pl
+@@||apis.google.com/js/platform.js
+@@||assets.allegrostatic.com/metrum/icon/share-*.svg$image,domain=allegro.pl
+@@||ceneo.pl/Content/img/icons/logos/Facebook-simple$image
+@@||cyberpunk.net/build/images/home/icon-social-forums-$image,domain=cyberpunk.net
+@@||doz.pl/skin/assets/bundle/default/images/svg/*-icon.svg$image,domain=doz.pl
+@@||doz.pl/skin/assets/doz/images/icons/btn-social-facebook.png
+@@||edupage.org/skins/templates/universal/images/social-icons.png
+@@||facebook.com/v2.0/plugins/like.php$subdocument,domain=e-biznes.pl
+@@||farmer.pl/images/2018/icons/insta.png
+@@||farmer.pl/images/2018/icons/social2/yt.svg
+@@||google.*/logos/*/share-sprite.png$image,~third-party
+@@||gorenje.com/images/social/gray.png$domain=gorenje.com|gorenje.pl
+@@||icons.*.com/icons/*/facebook-icon.png$image,domain=konto.onet.pl
+@@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
+@@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
+@@||likefb.pl/wp-content/uploads/*/twittericon.png
+@@||managerka.com/wp-content/uploads/20*/*/Logo_FB.png
+@@||meczyki.pl/images/instagram_blank.gif
+@@||meczyki.pl/images/twitter_blank.gif
+@@||media-amazon.com/images/*/share-icons/share-std.svg$image,domain=amazon.pl
+@@||muza.com.pl/img/facebook.$image
+@@||news.astronet.pl/wp-content/themes/warta/img/social-media-icons.png$image,domain=news.astronet.pl
+@@||philips.com/assets/img/Facebook.png$image,domain=accounts.philips.com
+@@||silvermet.eu/wp-content/plugins/arscode-social-slider/lionbars/$script
+@@||start.me/packs/media/images/google-icon-$image
+@@||startme.com/assets/google-icon-*.svg$image,domain=start.me
+@@||static.westwingnow.pl/bella/Svgs-Pinterest.bundle.*.js
+@@||telepolis.pl/home/_img/twitter_square.png
+@@||wirtualnemedia.pl/new_wm_view/img/social/twitter.png$image,domain=www.wirtualnemedia.pl
+@@||zapytaj.onet.pl/images/fb-login-btn.png$image,domain=zapytaj.onet.pl
+@@||zaufanatrzeciastrona.pl/wp-content/plugins/subscribe-connect-follow-widget/images/32px/rss.png
 ##[class] .button-facebook:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"]) .dashicons-twitter
