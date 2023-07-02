@@ -4,6 +4,20 @@
 ! Copyright © 2023 Filters Heroes
 !
 !
+! bugi Kiboke suplement = dezaktywacja na poziomie public suffix
+eu,pl#@##catapult-cookie-bar
+eu,pl#@##cliSettingsPopup
+eu,pl#@##cookie-law-info-again
+eu,pl#@##cookie-law-info-again ~ .cli-modal-backdrop
+eu,pl#@##cookie-law-info-bar
+eu,pl#@##cookie-law-info-bar ~ .cli-modal-backdrop
+eu,pl#@#.ccc-widget:not(body):not(html)
+eu,pl#@#.cookie-msg-box
+eu,pl#@#.js-cookies:not(body):not(html)
+eu,pl#@#.rodo-popup:not(body):not(html)
+eu,pl#@#body > div:not([id]):not([class])
+!
+!
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
 ||cdn.cookielaw.org^$domain=downdetector.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
@@ -248,8 +262,8 @@ fabrykacukiernika.pl##.rodo-on:style(overflow: auto !important)
 fabrykacukiernika.pl##.rodo-popup
 farmacja.pl##+js(acis, jQuery, .rodo-modal)
 farmacja.pl##div.rodo-modal
-fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > *:last-child:nth-child(4):upward(1):style(color: #0000)
-fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > *:style(color: initial)
+fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > :last-child:nth-child(4):upward(1):style(color: #0000)
+fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > :style(color: initial)
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: auto !important)
 filmweb.pl##+js(set, consentManagerIsOn, false)
@@ -413,7 +427,7 @@ meiko.pl##.cc-window[aria-label="cookieconsent"]
 meiko.pl##.cc-window[aria-label="cookieconsent"] + .cc-window-blocker
 memo-book.pl##+js(rc, .rodo-locked, body\, html, stay)
 memo-book.pl,ostrzegamy.online##.rodo-popup, .rodo-overlay
-memo-book.pl,ostrzegamy.online##body.rodo-locked #page-container > *:style(filter: none !important)
+memo-book.pl,ostrzegamy.online##body.rodo-locked #page-container > :style(filter: none !important)
 memo-book.pl,ostrzegamy.online##body.rodo-locked, html.rodo-locked:style(overflow: auto !important)
 meteoblue.com##.gdpr_message
 meteoblue.com##.scroll_lock:style(overflow: auto !important)
@@ -455,7 +469,7 @@ nike.com##body[data-overlay="cookieModalSimple"]:style(position: static !importa
 nike.com##body[data-overlay="cookieModalSimple"]:watch-attr(data-overlay):not([data-overlay="true"]) #gen-nav-commerce-header-v2 > div.pre-modal-window:has(> .pre-modal > .pre-modal-view > .pre-cookie-modal-body)
 obpon.pl##.menu-flashmessages:style(top: 0 !important)
 obywatel.gov.pl###modal-rodo, .modal-backdrop
-oculus.com##.hasCookieBanner > div[class][style]:nth-child(2):nth-of-type(1):style(position: static !important)
+oculus.com##.hasCookieBanner > div[class][style]:nth-child(2):first-of-type:style(position: static !important)
 oculus.com##.hasCookieBanner div[data-testid="cookie-policy-dialog"]
 odrabiamy.pl##.rodo-modal-blur
 ogladajanime.pl##.bootbox-confirm.bootbox, .modal-backdrop
@@ -534,7 +548,7 @@ portal.librus.pl##.modal-body:style(overflow: visible !important; padding-right:
 portalpasazera.pl##.cookieman-window
 powiadomienia.gis.gov.pl##body > div[class][role="presentation"]:not([id]):has-text(plików cookies)
 powiat-ostrowski.pl##.info
-powiat-ostrowski.pl##body > *:style(filter: none !important)
+powiat-ostrowski.pl##body > :style(filter: none !important)
 pozbruk.pl##+js(aopr, openRodo)
 pozbruk.pl##.jquery-modal
 praca.antyweb.pl,zeropln.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
