@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.7.2.3
-! Last modified: Sun, 02 Jul 2023, 22:31 UTC+02:00
+! Version: 2023.7.3.0
+! Last modified: Mon, 03 Jul 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.7.2.3 aktualizacja: nie, 02 lip 2023, 22:31 UTC+02:00
+! v.2023.7.3.0 aktualizacja: pon, 03 lip 2023, 02:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2897,6 +2897,7 @@ web.skype.com#?#.info.notification:-abp-contains(cookie)
 webartis.pl##body > div[style*="background-color:"]:not([id]):not([class])
 webdev20.pl###top_message
 webmade.org###wp-cookies-icon
+webp.pl##.cookies-wrapper
 webprojekt.biz###ppc
 weekendfm.pl##.rodo_out
 wegetarianie.pl##td[align="center"][height="22"]
