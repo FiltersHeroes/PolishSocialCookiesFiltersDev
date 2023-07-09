@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.7.3.0
-! Last modified: Mon, 03 Jul 2023, 02:31 UTC+02:00
+! Version: 2023.7.9.0
+! Last modified: Sun, 09 Jul 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.7.3.0 aktualizacja: pon, 03 lip 2023, 02:31 UTC+02:00
+! v.2023.7.9.0 aktualizacja: nie, 09 lip 2023, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -227,6 +227,7 @@ zmianywzyciu.pl###popup_facebook
 ~pl##.sm-panel .sm-tw:lang(pl)
 ~pl##.sm-panel .sm-twitter:lang(pl)
 ~pl##.sm-panel .sm-youtube:lang(pl)
+~pl##a[href*="google.com/+"]:lang(pl)
 ~pl##footer .fb_button:lang(pl)
 ~pl##li.top_bar_item_list_item_social_media:lang(pl)
 ~polnapol.com.pl##ul[aria-label="Pasek społecznościowy"], ul[aria-label="Social Bar"]
@@ -750,6 +751,7 @@ pl##a[href*="//twitter.com/intent/tweet"]
 pl##a[href*="//twitter.com/share?url="]
 pl##a[href*="//www.twitter.com/intent/tweet"]
 pl##a[href*="//www.twitter.com/share?url="]
+pl##a[href*="google.com/+"]
 pl##a[href*="pinger.pl/share?"]
 pl##a[title="Click to share on Google+"]
 pl##a[title="gplus"]
@@ -4786,6 +4788,7 @@ marionkosmetyki.pl#?#.product-photo > h5:-abp-has(+ .share)
 marketerplus.pl##a[href*="facebook.com/marketerplus/"]
 marketerplus.pl##a[href*="linkedin.com/company/marketer-"]
 marketerplus.pl##a[href*="twitter.com/magazynmarketer"]
+marketerplus.pl##li.social-media__item:nth-of-type(-n+4)
 marketingibiznes.pl##.hellobar
 marketingprzykawie.pl##.pageHeaderSocialMenu > ul > li:nth-of-type(-n+4)
 marketingprzykawie.pl##footer .addNavWrapp
