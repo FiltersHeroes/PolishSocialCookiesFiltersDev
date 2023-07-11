@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.7.9.1
-! Last modified: Sun, 09 Jul 2023, 14:31 UTC+02:00
+! Version: 2023.7.11.0
+! Last modified: Tue, 11 Jul 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.7.9.1 aktualizacja: nie, 09 lip 2023, 14:31 UTC+02:00
+! v.2023.7.11.0 aktualizacja: wto, 11 lip 2023, 02:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1227,7 +1227,7 @@ glos.tv##.cookieTooltip
 glosbe.com#?#body > .fixed:-abp-has([id*="cookieconsent"])
 glosbe.com,monsterbike.eu,pl.weber,polbox.tv,polsky.tv,slovake.eu##.cc-banner
 glosbe.com,tuv-nord.com###cookie-statement
-gls-group.com###cc--main
+gls-group.com,panwybierak.pl###cc--main
 gls-group.eu,kinder.com###cookiePopup
 glucholazy.pl###layer9
 gm-inowroclaw.rbip.mojregion.info###scnb-cookie-bar
@@ -2750,6 +2750,7 @@ telemedi.co##.banner-cookies-2
 telewizjarepublika.pl###swsmodal, #swsoverlay
 telpol.net.pl##footer .clr > br ~ b
 tem.com.pl###block-block-29
+temu.com#?##message-wrapper.message-wrapper ~ div:-abp-has(> div > div > div > span ~ span:-abp-contains(cookie policy))
 teraz-srodowisko.pl###cookies_preferences
 termedia.pl###acceptCookiesId
 termodomplus.pl##.tgdprc_cookie_notice_popup
@@ -3064,6 +3065,7 @@ zyro.com##.zyro-cookies
 ||asus.com/pl/cookienotice.json$xmlhttprequest
 ||biv.gazeta.pl/static/front/ot-iab-consent/master/rodoGuard.js
 ||bramka-proxy.pl/themes/default/cookies.js
+||cdn.jsdelivr.net/gh/orestbida/cookieconsent@v*/dist/cookieconsent.css
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=legalcakes.com|satkurier.pl
 ||ciasteczka.eu/cookiesEU-latest.min.js
 ||ciasteczka.org.pl/cookies/cookies$script
@@ -4102,6 +4104,8 @@ nask.pl#@##gdprNotice:not(.box)
 noweinwestycje.pl#@#.cookieBar:not(body):not(html)
 o2.pl#@##__next div[class*="PrivacyPolicy"]
 ogloszenia.jmlnet.pl#@#body > #privacy[style*="display"]
+orange.pl#@##__next > div > section[role="region"], .opl-cookie-control
+orange.pl#@##__next > div > section[role="region"],.opl-cookie-control
 pdf24.org#@##cookieBannerOverlay
 poradykomputerowe.pl,portaloswiatowy.pl#@#.container-cookie:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
