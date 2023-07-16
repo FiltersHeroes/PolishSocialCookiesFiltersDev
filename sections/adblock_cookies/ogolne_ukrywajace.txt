@@ -95,9 +95,9 @@
 ~pl###kopageBarCookies + div:lang(pl)
 ~pl###kopageBarCookies:lang(pl)
 ~pl##body > div#cookie[class=""]
+~pl##div[class*="iai_cookie"][id]:not([id^="iai_cookie"]):lang(pl)
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
 ~pl##div[id^="iai_cookie"][class*="iai_cookie"]:lang(pl)
-~pl##div[class*="iai_cookie"][id]:not([id^="iai_cookie"]):lang(pl)
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
 com###msccBanner:not(body):not(html)
 com##.cnil-banner-v2:not(body):not(html)
@@ -767,12 +767,12 @@ pl##div#cook
 pl##div#cookiepopupdiv
 pl##div#footer-cookies
 pl##div.cookieKontener
+pl##div[class*="iai_cookie"][id]:not([id^="iai_cookie"])
 pl##div[class^="app_gdpr"]
 pl##div[class^="pea_cook_wrapper"]
 pl##div[id^="ck_dsclr"][class*="ck_dsclr"]
 pl##div[id^="cookemessage"]
 pl##div[id^="iai_cookie"][class*="iai_cookie"]
-pl##div[class*="iai_cookie"][id]:not([id^="iai_cookie"])
 pl##html:not([style*="overflow"]) #cadre_alert_cookies
 pl##iframe[class*="Cookie"]
 pl##iframe[class*="cookie"]
