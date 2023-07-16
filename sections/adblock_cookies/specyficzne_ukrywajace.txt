@@ -2395,6 +2395,8 @@ rck.rydultowy.pl#?#.cherry-popup:-abp-has(a[href*="/cookies/"])
 realbus.pl#?#.alert:-abp-contains(🍪)
 rebalance.pl##.cookie-info_container
 receptagemini.pl##.cookies-banner-overlay
+gemini.pl##div:not([class]):not([id]) > div[class*="fixed"]:empty
+gemini.pl##div:not([class]):not([id]) > div[class*="fixed"]:empty ~ div[class*="fixed"]
 recticelinsulation.com###js-cookie-alert.c-alert-cookie
 redark.pl##div[class*="cookiesPopup__PopupContainer"]
 redbullmobile.pl###more1
