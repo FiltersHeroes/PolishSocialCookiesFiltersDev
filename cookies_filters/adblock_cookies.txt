@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.7.11.0
-! Last modified: Tue, 11 Jul 2023, 02:31 UTC+02:00
+! Version: 2023.7.16.0
+! Last modified: Sun, 16 Jul 2023, 16:09 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,23 +18,10 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.7.11.0 aktualizacja: wto, 11 lip 2023, 02:31 UTC+02:00
+! v.2023.7.16.0 aktualizacja: nie, 16 lip 2023, 16:09 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
-!agroplast.pl,epiora.pl,komputerprojekt.pl,laphard.pl,napieknewlosy.pl,ovczarnia.pl,planszostrefa.pl##.consents
-!agropolska.pl,miastograf.pl##.ui-widget.ui-dialog[aria-describedby]
-!archiwalna.miasto.zgierz.pl#?#.ui-widget.ui-dialog:-abp-has(a[href*="polityka-prywatnosci"])
-!czarno-biale.pl##.ui-widget.ui-dialog[aria-describedby="rodo-popup"]
-!firmymiesne.pl##.ui-widget.ui-dialog[aria-describedby="rodo-dialog"]
-!forumdermatologiczne.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.pl##.ui-widget.ui-dialog[aria-describedby="ajaxDialogrodopopup"]
-!fototapetyxl.pl,komputerymarkowe.pl,lututowgmina.pl,mycielin.pl,omegasoft.pl,pizza-express.pl,pupbelchatow.pl##.ui-widget.ui-dialog
-!ktomalek.pl,lekarzebezkolejki.pl##.ui-widget.ui-dialog[aria-describedby="cookies"]
-!ktomalek.pl,lekarzebezkolejki.pl##.ui-widget.ui-dialog[aria-describedby="cookies"] ~ .ui-widget-overlay
-!mistrzbranzy.pl##.rodo-dialog-confirm, .rodo-dialog-confirm + .ui-widget-overlay
-!namyslo-landtechnik.pl##.ui-widget-content.ui-widget.ui-dialog
-!skm.pkp.pl#?#.ui-dialog:-abp-has(#dialog-message-rodo)
-!szpitalciechanow.com.pl##.ui-widget.ui-dialog[aria-describedby="popup"]
 1-st.com.pl,agrojd.com,agrospec.pl,allnet24.pl,arx.pl,aspel.com.pl,babysensepolska.pl,bhp.dozamel.pl,bikeman.pl,bosch.com.pl,comarch-esklep.pl,cudnydom.pl,e-oazakrakow.pl,elabrick24.pl,esklep.brandvital.eu,estetiq.pl,galerialazienek.pl,haczykowo.pl,kopalniasrebra.com,kran.tychy.pl,ksiegarniarubikon.pl,milopiwo.pl,oftadirect.pl,ogrodekdziadunia.pl,papier24h.pl,papieryczerpane.pl,profesjonalne-nawadnianie.pl,selene.pl,sklep.abydos.pl,sklep.agro-eko.com.pl,sklep.agromasz.pl,sklep.balcamp.pl,sklep.benedetto.com.pl,sklep.budowniczy.com.pl,sklep.dalimex.pl,sklep.kotrak.com,sklep.kskd.pl,sklep.mebloart.eu,sklep.miodyapis.pl,sklep.phalanxgames.pl,sklep.rol-mech.pl,sklep.salvatti.pl,sklep.sigma-max.pl,sklep.stalco.pl,sklep.tayama.pl,spawalniczy-sklep.pl,swiatkoralikow.pl,swiatkoralikow2.pl,texasclub.pl,tvprodukt.pl,wierzynek.pl,workstyle.pl,wphmilitaria.pl#?#div[class*="config"][class*="Messages" i]:-abp-contains(/pliki "?cookies"?/)
 2x45.info,adainfo24.eu,agromasa.com,alltube.tv,answear.com,atriumsystem.eu,barfnyswiat.org,bip.dzialdowo.eu,bip.gig.eu,bip.konin.eu,bip.piaseczno.eu,business.link,cedc.com,diagprog4.com,edeklaracje.info,eska.tv,evertourist.com,fachowiec.com,feriogaj.com,fokus.tv,gdansk.pl,gdzierodzic.info,grobla.net,imperiaonline.org,informacja-turystyczna.starachowice.eu,jezewo.eu,kolniak24.eu,koneser.eu,koszyki.com,lampy24.net,lot.com,lumarte.eu,mojewypieki.com,multimaszyny.eu,muzo.fm,nasze.fm,nowa.tv,odpady.chorzow.eu,plantatekst.info,portalodo.com,prymus.info,radiokampus.fm,rowertour.com,skierniewice.eu,studiuje.eu,telesystem-world.com,vodi.cc,voxmusic.tv,xtb.com,zamawiam.marchewkowepole.com###cookies
 3dom.pro,anmur.eu,aoc.com,avenidapoznan.com,beezeeselfcare.pl,bibliotekacyfrowa.eu,bimobject.com,bip.gliwice.eu,budmat.com,canalplus.com,chorzow.eu,corab.eu,damy-rade.info,diamante-wear.com,digitalhome.co,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kler.eu,koszulkomat.eu,maamstyle.com,mateuszgrzesiak.com,media-tech.eu,mg-pmm.com,motogron.com,naszefutrzaki.eu,pkpcargo.com,prochnik.com,radiopark.fm,rocks-jeans.com,sapphiretech.com,secretdelivery.pl,stolmot.com,telko.in,tg.shop,trans.eu,trecnutrition.com,warszawa.promenada.com,wearmedicine.com,yes2move.com##.cookies
@@ -78,7 +65,7 @@ abctygodnik.pl,wgospodarce.pl,wpolsce.pl##.rhododendron-popup, .rhododendron-pop
 abfoto.pl##.abfoto_popup_bg
 abook.com.pl#?#div.left-sideblock > .sideblock-inner:-abp-has(a[href*="/node/125"])
 aboutyou.pl###app > .cookieBannerActive > div[class*="cookieBannerContainer"]
-aboutyou.pl,account.tvn.pl,adobe.com,aeg.pl,asics.com,auchan.pl,avon.pl,biedronka.pl,biek.pl,bitbucket.org,carrefour.pl,cenowarka.pl,ciekawostkihistoryczne.pl,delikatesy.pl,dictionary.cambridge.org,discoverychannel.pl,electrolux.com,electrolux.pl,euro.com.pl,genius.com,glovoapp.com,hbomax.com,hebe.pl,hebeapteka.pl,hoffen.com.pl,hp.com,hyperx.com,inpost.pl,inpostfresh.pl,intel.pl,irisimo.pl,istockphoto.com,kfc.pl,komputronik.pl,lg.com,lodowkomaty.pl,logitech.com,logitechg.com,mastercard.pl,masterpass.com,mediaexpert.pl,myworld.com,nyxcosmetics.pl,oleole.pl,olx.pl,otodom.pl,otomoto.pl,paczkomaty.pl,panasonic-batteries.com,pixabay.com,pl.bab.la,pl.oriflame.com,pl.ryobitools.eu,play.pl,player.pl,poland.us,polsat.pl,polsatnews.pl,polsatsport.pl,polskieradio.pl,predatorgames.pl,pringles.com,prusa3d.com,przepisy.pl,skendeshopping.pl,speedtest.net,swpanel.pl,trojmiasto.pl,ttv.pl,tubiedronka.pl,tvnturbo.pl,upc.pl,vanish.pl,viaplay.pl,virginmobile.pl,vod.pl,wittchen.com,wyborcza.pl,zabka.pl,zajaczeklindt.pl,~zakupy.auchan.pl,zanussi.pl,zooplus.pl##html:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) body:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) div#onetrust-consent-sdk
+aboutyou.pl,account.tvn.pl,adobe.com,aeg.pl,agatameble.pl,asics.com,auchan.pl,avon.pl,biedronka.pl,biek.pl,bitbucket.org,carrefour.pl,cenowarka.pl,ciekawostkihistoryczne.pl,delikatesy.pl,dictionary.cambridge.org,discoverychannel.pl,electrolux.com,electrolux.pl,euro.com.pl,genius.com,glovoapp.com,halfprice.eu,hbomax.com,hebe.pl,hebeapteka.pl,hoffen.com.pl,hp.com,hyperx.com,inpost.pl,inpostfresh.pl,intel.pl,irisimo.pl,istockphoto.com,kfc.pl,komputronik.pl,lg.com,lodowkomaty.pl,logitech.com,logitechg.com,mastercard.pl,masterpass.com,mediaexpert.pl,myworld.com,nyxcosmetics.pl,oleole.pl,olx.pl,otodom.pl,otomoto.pl,paczkomaty.pl,panasonic-batteries.com,pixabay.com,pl.bab.la,pl.oriflame.com,pl.ryobitools.eu,play.pl,player.pl,poland.us,polsat.pl,polsatnews.pl,polsatsport.pl,polskieradio.pl,predatorgames.pl,pringles.com,prusa3d.com,przepisy.pl,skendeshopping.pl,soundcloud.com,speedtest.net,swpanel.pl,trojmiasto.pl,ttv.pl,tubiedronka.pl,tvnturbo.pl,upc.pl,vanish.pl,viaplay.pl,virginmobile.pl,vod.pl,wittchen.com,wyborcza.pl,zabka.pl,zajaczeklindt.pl,~zakupy.auchan.pl,zanussi.pl,znanylekarz.pl,zooplus.pl##html:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) body:not([style*="overflow:hidden" i]):not([style*="overflow: hidden" i]):not(.has-disabled-scroll):not(.ot-overflow-hidden) div#onetrust-consent-sdk
 absbank.pl##body > div[style="background: #eee; border-bottom: 1px solid #ccc; padding: 10px 5px 25px 5px;"]:not([id]):not([class])
 absolvent.pl###__next footer[class] + div[class]
 absolvent.pl##.top-ban-wrapper
@@ -1168,6 +1155,8 @@ futurefarm24.pl###queryModalRODO
 gabinetodzaplecza.pl,high-med.pl,konferencja.amoz.edu.pl,majorel.com.pl,moderator-online.edu.pl,modnepodlogi.pl,neuca.pl,odbiormieszkan.dekra.pl,symposium.pl,terazpoz.pl,vcarbon.pl##.landend-infobar-light
 gaj-stal.com,polonia.nl###pasek
 galaxy-centrum.pl###gdpr-window
+gamasalon.pl###scc
+gamasalon.pl###scc_powiadomienie
 gamedot.pl##.policy_warning
 gamepedia.com###policy-notice-root
 gameplay.pl##div#CP_box
@@ -1193,6 +1182,8 @@ gdsport.pl###rodo-policy-banner
 gdziewpolsce.pl##body > div > .cookie-alert-content
 geekbuying.com,geekbuying.pl##.gdpr-cookie
 gembird.com###Footer_Cookie.Cookie
+gemini.pl##div:not([class]):not([id]) > div[class*="fixed"]:empty
+gemini.pl##div:not([class]):not([id]) > div[class*="fixed"]:empty ~ div[class*="fixed"]
 generali.pl##div#cLayer
 generatorkodowkreskowych.pl,kalendarz-roku-szkolnego.edu.pl###cn
 genetico.pl,kpim.pl##.coologo7
@@ -3077,7 +3068,7 @@ zyro.com##.zyro-cookies
 ||cmp.quantcast.com/choice/*.info/*$rewrite=abp-resource:blank-js,script,domain=pomocdrogowa.info
 ||cmp.quantcast.com/choice/*.net/*$rewrite=abp-resource:blank-js,script,domain=legia.net
 ||cmp.quantcast.com/choice/*.org/*$rewrite=abp-resource:blank-js,script,domain=aternos.org
-||cmp.quantcast.com/choice/*.pl/*$rewrite=abp-resource:blank-js,script,domain=android.com.pl|antyweb.pl|aszdziennik.pl|dadhero.pl|dobryslownik.pl|e-commerce.pl|gazetki.pl|gry-online.pl|hejto.pl|innpoland.pl|instrukcjaobslugipdf.pl|ithardware.pl|kalendarz-365.pl|mamadu.pl|medme.pl|mp.pl|naekranie.pl|natemat.pl|polskieradio24.pl|przyslijprzepis.pl|radiokierowcow.pl|smakosze.pl|teleman.pl|termedia.pl
+||cmp.quantcast.com/choice/*.pl/*$rewrite=abp-resource:blank-js,script,domain=android.com.pl|antyweb.pl|aszdziennik.pl|dadhero.pl|dobryslownik.pl|e-commerce.pl|gazetki.pl|gry-online.pl|hejto.pl|innpoland.pl|instrukcjaobslugipdf.pl|ithardware.pl|kalendarz-365.pl|mamadu.pl|medme.pl|mp.pl|naekranie.pl|natemat.pl|polskieradio24.pl|przyslijprzepis.pl|radiokierowcow.pl|sieciprawdy.pl|smakosze.pl|teleman.pl|termedia.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
 ||consent.dropbox.com^$subdocument
