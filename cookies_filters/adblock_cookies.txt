@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.7.16.2
-! Last modified: Sun, 16 Jul 2023, 17:46 UTC+02:00
+! Version: 2023.7.16.3
+! Last modified: Sun, 16 Jul 2023, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.7.16.2 aktualizacja: nie, 16 lip 2023, 17:46 UTC+02:00
+! v.2023.7.16.3 aktualizacja: nie, 16 lip 2023, 18:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3325,7 +3325,7 @@ pl/tcf/cookie.js$script,domain=pl
 ~pl###kopageBarCookies + div:lang(pl)
 ~pl###kopageBarCookies:lang(pl)
 ~pl##body > div#cookie[class=""]
-~pl##div[class*="iai_cookie"][id]:not([id^="iai_cookie"]):lang(pl)
+~pl##div[id][class*="iai_cookie"]:lang(pl)
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
 ~pl##div[id^="iai_cookie"][class*="iai_cookie"]:lang(pl)
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
@@ -3997,9 +3997,9 @@ pl##div#cook
 pl##div#cookiepopupdiv
 pl##div#footer-cookies
 pl##div.cookieKontener
-pl##div[class*="iai_cookie"][id]:not([id^="iai_cookie"])
 pl##div[class^="app_gdpr"]
 pl##div[class^="pea_cook_wrapper"]
+pl##div[id][class*="iai_cookie"]
 pl##div[id^="ck_dsclr"][class*="ck_dsclr"]
 pl##div[id^="cookemessage"]
 pl##div[id^="iai_cookie"][class*="iai_cookie"]
