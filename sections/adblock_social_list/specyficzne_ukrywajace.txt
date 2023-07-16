@@ -1,3 +1,10 @@
+seemymodel.com##main ~ div a[href*="facebook.com/"]
+seemymodel.com##main ~ div a[href*="youtube.com/"]
+seemymodel.com##main ~ div a[href*="linkedin.com/"]
+seemymodel.com#?#main ~ div div div img ~ div > p:-abp-contains(Bądźmy w kontakcie)
+autokult.pl#?#div[class=""] div[class] > span:-abp-contains(Dołącz do nas)
+autokult.pl#?#div[class=""] div[class] > span ~ div a[href*="facebook.com/"]
+autokult.pl#?#div[class=""] div[class] > span ~ div a[href*="instagram.com/"]
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#a[href*=","][title*=" "] ~ div button:-abp-has(svg)
