@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.7.16.3
-! Last modified: Sun, 16 Jul 2023, 18:31 UTC+02:00
+! Version: 2023.7.16.4
+! Last modified: Sun, 16 Jul 2023, 20:41 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.7.16.3 aktualizacja: nie, 16 lip 2023, 18:31 UTC+02:00
+! v.2023.7.16.4 aktualizacja: nie, 16 lip 2023, 20:41 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2559,6 +2559,7 @@ drzwiklamki.pl###social_block, #left_share_fb, .social-sharing
 drzwioknabramy.eu##.socialsharing_product
 drzwioknabramy.eu,zippedshoes.com###facebook-content
 drzwionline.net#?#h5:-abp-contains(ODWIEDŹ NAS)
+dstreet.pl,idosell.com,zegaryzegarki.pl##.social_media
 dts24.pl##.col-md-4.footer-sidebar:nth-of-type(3)
 duckduckgo.com##.js-side-menu-twitter, .nav-menu--social-media
 duckduckgo.com##a.js-footer-link[href*="twitter"], a.js-footer-link[href*="reddit"]
@@ -3796,7 +3797,6 @@ idel.pl###footer .links
 idelikatesy24.pl,laserowelove.pl,partyworld.pl##.modSocMedFix
 idg.pl##ul:nth-of-type(2) > li, .footer_social_links > ul
 idg.pl,zoom.idg.com.pl##.social_con
-idosell.com,zegaryzegarki.pl##.social_media
 idream.pl##a[href*="instagram.com/idream_pl/"], a[href*="facebook.com/iDreamPolska/"]
 ienergia.eu##.main-footer div.col-sm-3:nth-of-type(4) a .icon-square
 ieo.pl###sme_twitter_sidebar
