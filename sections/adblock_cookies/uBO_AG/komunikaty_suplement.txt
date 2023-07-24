@@ -240,6 +240,8 @@ fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-
 fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > :last-child:nth-child(4):upward(1):style(color: #0000)
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: visible !important)
+filmweb.pl##+js(set, rodo.waitForConsent, noopPromiseResolve)
+filmweb.pl##+js(set, rodo.canProfileVisitor, noopPromiseReject)
 filmweb.pl##+js(set, consentManagerIsOn, false)
 filmweb.pl##+js(set, rodo.checkIsDidomiConsent, noopFunc)
 filmweb.pl##+js(set, rodo.validateStoragePurpose, noopPromiseResolve)
