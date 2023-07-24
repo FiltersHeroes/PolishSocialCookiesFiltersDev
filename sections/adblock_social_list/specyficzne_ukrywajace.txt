@@ -1,5 +1,3 @@
-bandi.pl##div.bloczek:nth-of-type(4) > :nth-child(-n+7)
-izigsm.pl##.footerMedia a.mediaLink:nth-of-type(-n+2)
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#a[href*=","][title*=" "] ~ div button:-abp-has(svg)
@@ -679,6 +677,7 @@ balujemy.eostroleka.pl##.module:nth-of-type(9)
 bambino-sklep.pl###fico, #gico
 bambino.pl##.fb_right
 bananki.pl,onetech.pl###gplus
+bandi.pl##div.bloczek:nth-of-type(4) > :nth-child(-n+7)
 banita.travel.pl##.vce-author-links > a:nth-of-type(3)
 bank-wbs.pl##.galeria_wiersz
 bankbps.pl##span[uk-icon*="linkedin"]
@@ -3172,6 +3171,7 @@ izba-lekarska.home.pl###fb-container
 izba-lekarska.org.pl,profesjonalnefarby.pl###fb-button
 izielnik.pl##.social-profiles-info a[href*=".com/"]
 izigsm.pl###changefb, #sectionRight > div.stdBoxContainer:nth-of-type(3) > div.item:nth-of-type(-n+4)
+izigsm.pl##.footerMedia a.mediaLink:nth-of-type(-n+2)
 izigsm.pl#?#div#marquee:-abp-has(> marquee > a[href*="facebook.com/izigsm"])
 jablonka.pl##.bd-icon.bd-icon-11
 jacekmocny.pl,warynski.org##div.one_block_in_footer:nth-of-type(3)
