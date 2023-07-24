@@ -465,6 +465,9 @@ pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !import
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
 pdf24.org##html.hasCookieBannerOverlay:style(overflow: visible !important)
 pdf24.org##iframe#cookieBannerOverlay
+pepper.pl##body.overflow--hidden:style(overflow: visible !important)
+pepper.pl##div[data-t="cookiesMessage"]:remove()
+pepper.pl##.zIndex--modal.popover-cover
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
 pl###kopageBar > #kopageBarCookies:upward(1)
 pl##.alert > a[href*="/polityka-cookies"] ~ a[href*="/polityka"]:upward(.alert)
