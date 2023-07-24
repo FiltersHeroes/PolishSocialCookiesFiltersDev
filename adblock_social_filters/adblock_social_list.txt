@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.7.23.2
-! Last modified: Sun, 23 Jul 2023, 22:10 UTC+02:00
+! Version: 2023.7.24.0
+! Last modified: Mon, 24 Jul 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.7.23.2 aktualizacja: nie, 23 lip 2023, 22:10 UTC+02:00
+! v.2023.7.24.0 aktualizacja: pon, 24 lip 2023, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1471,6 +1471,7 @@ balujemy.eostroleka.pl##.module:nth-of-type(9)
 bambino-sklep.pl###fico, #gico
 bambino.pl##.fb_right
 bananki.pl,onetech.pl###gplus
+bandi.pl##div.bloczek:nth-of-type(4) > :nth-child(-n+7)
 banita.travel.pl##.vce-author-links > a:nth-of-type(3)
 bank-wbs.pl##.galeria_wiersz
 bankbps.pl##span[uk-icon*="linkedin"]
@@ -3978,6 +3979,7 @@ izba-lekarska.home.pl###fb-container
 izba-lekarska.org.pl,profesjonalnefarby.pl###fb-button
 izielnik.pl##.social-profiles-info a[href*=".com/"]
 izigsm.pl###changefb, #sectionRight > div.stdBoxContainer:nth-of-type(3) > div.item:nth-of-type(-n+4)
+izigsm.pl##.footerMedia a.mediaLink:nth-of-type(-n+2)
 izigsm.pl#?#div#marquee:-abp-has(> marquee > a[href*="facebook.com/izigsm"])
 jablonka.pl##.bd-icon.bd-icon-11
 jacekmocny.pl,warynski.org##div.one_block_in_footer:nth-of-type(3)
