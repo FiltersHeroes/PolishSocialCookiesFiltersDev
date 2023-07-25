@@ -266,8 +266,10 @@ fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: visible !important)
 filmweb.pl##+js(set, consentManagerIsOn, false)
+filmweb.pl##+js(set, rodo.canProfileVisitor, noopPromiseReject)
 filmweb.pl##+js(set, rodo.checkIsDidomiConsent, noopFunc)
 filmweb.pl##+js(set, rodo.validateStoragePurpose, noopPromiseResolve)
+filmweb.pl##+js(set, rodo.waitForConsent, noopPromiseResolve)
 fiskars.pl##.desktop:style(top: 0 !important)
 flixclassic.pl###app.overflow-hidden:style(overflow: visible !important)
 flixclassic.pl##.app-gdpr-notice
@@ -491,8 +493,10 @@ pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !import
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
 pdf24.org##html.hasCookieBannerOverlay:style(overflow: visible !important)
 pdf24.org##iframe#cookieBannerOverlay
+pepper.pl##+js(set-cookie, cookie_policy_agreement, 3, 1year)
+pepper.pl##.zIndex--modal.popover-cover
 pepper.pl##body.overflow--hidden:style(overflow: visible !important)
-pepper.pl##div.js-vue2[data-vue2*="CookiesMessage"]:remove()
+pepper.pl##div[data-t="cookiesMessage"]:remove()
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
 pl###kopageBar > #kopageBarCookies:upward(1)
 pl##.alert > a[href*="/polityka-cookies"] ~ a[href*="/polityka"]:upward(.alert)
