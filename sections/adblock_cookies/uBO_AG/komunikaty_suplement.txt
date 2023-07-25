@@ -9,7 +9,6 @@ absolvent.pl###__next > div > footer ~ div:last-child
 absolvent.pl##body[class]:not([class=""]):style(overflow: visible !important)
 academy.asseco.pl###politykaPrywatnosciModal, .modal-backdrop
 action.com##+js(set-cookie, CookieConsent, true, 1year)
-pepper.pl##+js(set-cookie, cookie_policy_agreement, 3, 1year)
 adexemplum.com,agrohandel.com.pl,bsjarocin.pl,fastdeal.pl,flaps.edu.pl,gtv.com.pl,hermetycznakompostownia.pl,muovitech.com,nfz-lodz.pl,skm.pkp.pl,teoria.pl,wiemwiecszczepie.pl,wsd.salwatorianie.eu,zsgarwolin.pl##html[style*="overflow" i]:style(overflow: visible !important; margin-right: 0 !important)
 adexemplum.com,agrohandel.com.pl,fastdeal.pl,flaps.edu.pl,gtv.com.pl,hermetycznakompostownia.pl,muovitech.com,nfz-lodz.pl,skm.pkp.pl,teoria.pl,wiemwiecszczepie.pl,wsd.salwatorianie.eu##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
 adidas.pl,reebok.pl##.gl-modal-open:style(overflow: visible !important; padding-right: 0 !important; margin-right: 0 !important)
@@ -240,11 +239,11 @@ fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-
 fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > :last-child:nth-child(4):upward(1):style(color: #0000)
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: visible !important)
-filmweb.pl##+js(set, rodo.waitForConsent, noopPromiseResolve)
-filmweb.pl##+js(set, rodo.canProfileVisitor, noopPromiseReject)
 filmweb.pl##+js(set, consentManagerIsOn, false)
+filmweb.pl##+js(set, rodo.canProfileVisitor, noopPromiseReject)
 filmweb.pl##+js(set, rodo.checkIsDidomiConsent, noopFunc)
 filmweb.pl##+js(set, rodo.validateStoragePurpose, noopPromiseResolve)
+filmweb.pl##+js(set, rodo.waitForConsent, noopPromiseResolve)
 fiskars.pl##.desktop:style(top: 0 !important)
 flixclassic.pl###app.overflow-hidden:style(overflow: visible !important)
 flixclassic.pl##.app-gdpr-notice
@@ -468,9 +467,10 @@ pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !import
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
 pdf24.org##html.hasCookieBannerOverlay:style(overflow: visible !important)
 pdf24.org##iframe#cookieBannerOverlay
+pepper.pl##+js(set-cookie, cookie_policy_agreement, 3, 1year)
+pepper.pl##.zIndex--modal.popover-cover
 pepper.pl##body.overflow--hidden:style(overflow: visible !important)
 pepper.pl##div[data-t="cookiesMessage"]:remove()
-pepper.pl##.zIndex--modal.popover-cover
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
 pl###kopageBar > #kopageBarCookies:upward(1)
 pl##.alert > a[href*="/polityka-cookies"] ~ a[href*="/polityka"]:upward(.alert)
