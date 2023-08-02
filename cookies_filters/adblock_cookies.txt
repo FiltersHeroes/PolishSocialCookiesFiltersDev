@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.7.25.0
-! Last modified: Tue, 25 Jul 2023, 02:31 UTC+02:00
+! Version: 2023.8.2.0
+! Last modified: Wed, 02 Aug 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.7.25.0 aktualizacja: wto, 25 lip 2023, 02:31 UTC+02:00
+! v.2023.8.2.0 aktualizacja: śro, 02 sie 2023, 22:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2084,7 +2084,7 @@ optimalit.pl##.contact__socialMedia
 optomer.pl###GDPRInformationModal
 optyczne.pl###id01
 orange.jobs##.dgt-opt-inout-visible
-orange.pl###mod-common\/modules\/opl-cookie-control-1, .background
+orange.pl##div[id*="opl-cookie-"], .background
 orders.porta.com.pl##.ng-isolate-scope[consent=""]
 organizatorzyimprez.pl##body > div[style*="background"]:not([id]):not([class]):first-child
 origin.com###truste-banner, .origin-sitestripe
