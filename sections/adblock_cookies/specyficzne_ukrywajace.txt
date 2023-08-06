@@ -2202,7 +2202,8 @@ player.pl##.cBox
 player.polskieradio.pl##.termsOfUse
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
 plus.pl###rodo-popup-overlay
-plus.pl,plushbezlimitu.pl,sklep.polsatbox.pl##.modal-overlay
+plus.pl,plushbezlimitu.pl,sklep.polsatbox.pl#?#.modal-overlay:-abp-has(~ #rodo-popup-container)
+plus.pl,plushbezlimitu.pl,sklep.polsatbox.pl#?#.modal-overlay:-abp-has(~ #rodo-popup-overlay)
 plusbank.pl##.coo_wrap
 plywalnia.limanowska.pl###container > .ue
 pmr-lubelska.pl##body > div[style*="background:"]:not([id]):not([class])
