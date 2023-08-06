@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.8.2.0
-! Last modified: Wed, 02 Aug 2023, 22:31 UTC+02:00
+! Version: 2023.8.6.0
+! Last modified: Sun, 06 Aug 2023, 20:08 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.8.2.0 aktualizacja: śro, 02 sie 2023, 22:31 UTC+02:00
+! v.2023.8.6.0 aktualizacja: nie, 06 sie 2023, 20:08 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2226,7 +2226,8 @@ player.pl##.cBox
 player.polskieradio.pl##.termsOfUse
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
 plus.pl###rodo-popup-overlay
-plus.pl,plushbezlimitu.pl,sklep.polsatbox.pl##.modal-overlay
+plus.pl,plushbezlimitu.pl,sklep.polsatbox.pl#?#.modal-overlay:-abp-has(~ #rodo-popup-container)
+plus.pl,plushbezlimitu.pl,sklep.polsatbox.pl#?#.modal-overlay:-abp-has(~ #rodo-popup-overlay)
 plusbank.pl##.coo_wrap
 plywalnia.limanowska.pl###container > .ue
 pmr-lubelska.pl##body > div[style*="background:"]:not([id]):not([class])
