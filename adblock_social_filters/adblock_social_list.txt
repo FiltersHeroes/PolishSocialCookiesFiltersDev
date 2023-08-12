@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.8.6.0
-! Last modified: Sun, 06 Aug 2023, 22:31 UTC+02:00
+! Version: 2023.8.12.0
+! Last modified: Sat, 12 Aug 2023, 20:21 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.8.6.0 aktualizacja: nie, 06 sie 2023, 22:31 UTC+02:00
+! v.2023.8.12.0 aktualizacja: sob, 12 sie 2023, 20:21 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -793,6 +793,7 @@ pl,~wykop.pl##.wykop
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/)) + div > div
 ~1login.wp.pl,money.pl,o2.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
+~pl###fb-root:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 ~pl##.x13socialfixed_links a[href*="/m.me/"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="/wa.me/"]:lang(pl)
@@ -2257,7 +2258,6 @@ czeladz.pl,ock.gov.pl,straz.gov.pl##.i-fb
 czerkawski.com.pl##.header-info-2 > div:nth-of-type(2), .stickyContainer
 czerwionka-leszczyny.pl###komunikacja.komunikacja
 czerwona-skarbonka.pl##.share-container
-czerwonak.pl,ekookna.pl,o-shop.com,quadralite.pl,selectshop.pl###fb-root
 czesci.wanicki.pl##div.footer__col:nth-of-type(4)
 czescidobmw.pl##.facebook-plugin
 czeski-warszawa.pl,kursczeskiego.pl###sfsi_plus_floater
@@ -5965,6 +5965,7 @@ pksszczecin.info###zak_tw
 pkw.gov.pl###header_ico li.ico:nth-of-type(n+4):nth-of-type(-n+6)
 pkwp.org##.tw-tab
 pkwp.org##.yt-tab
+pl###fb-root
 pl##.slide-fb-out-div
 pl##.sm-panel .sm-messenger
 pl##.x13socialfixed_links a[href*="/m.me/"]
