@@ -1,0 +1,88 @@
+name: Ciasteczka, elementy społecznościowe i błędy
+description: Polish form, cookies, social items and bugs
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękujemy za zgłoszenie!
+  - type: checkboxes
+    id: problemType
+    attributes:
+      label: Typ elementu lub problemu
+      description: |
+        W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) lub usunąć x i wstawić spację zamiast niego.
+      options:
+        - label: Wyskakujące okienko (popup)
+        - label: Komunikat dot. ciasteczek/polityki prywatności/RODO
+        - label: Element społecznościowy
+        - label: Błąd
+        - label: Pytanie
+        - label: Ulepszenie
+        - label: Redundancja
+  - type: dropdown
+    id: OS
+    attributes:
+      label: System operacyjny
+      options:
+        - Linux/Unix
+        - Windows
+        - macOS
+        - Android
+        - iOS
+    validations:
+      required: true
+  - type: input
+    id: webBrowser
+    attributes:
+      label: Przeglądarka internetowa
+      placeholder: Floorp 11.1.0 (Firefox 115)
+    validations:
+      required: true
+  - type: input
+    id: adblocker
+    attributes:
+      label: Bloker
+      placeholder: uBlock Origin 1.51.0
+    validations:
+      required: true
+  - type: textarea
+    id: myfilters
+    attributes:
+      label: Używane listy filtrów
+      value: |
+        1. EasyList
+        2. Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
+        3. 
+        4. 
+        5. 
+    validations:
+      required: true
+  - type: textarea
+    id: otherExtensions
+    attributes:
+      label: Inne rozszerzenia
+      placeholder: Polish Cookie Consent 1.43.5
+  - type: textarea
+    id: specificLink
+    attributes:
+      label: Link bezpośredni
+      description: |
+        Wstaw tutaj link bezpośredni do strony, na której występuje element albo błąd.
+      placeholder: http://www.biedronka.pl/newsletter
+      render: Markdown
+  - type: textarea
+    id: additionalInfo
+    attributes:
+      label: |
+        Dodatkowe informacje mogące mieć znaczenie
+      description: |
+        Zrzuty ekranu, etapy odtworzenia problemu (co doprowadziło do błędu) albo twoja metoda rozwiązania problemu.
+      placeholder: Proszę pana, na tej stronie wyskakuje cała masa okienek z informacją o jakichś słodyczach i na dole pojawiają się kolejne z zachęta do śledzenia profilu na fejsie. Od tego wszystkiego głowa mnie już boli, a komputer wariuje... .
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Zasady pisania
+      options:
+        - label: |
+            Zapoznałem się z [netykietą](https://pl.wikipedia.org/wiki/Netykieta)
+          required: true
