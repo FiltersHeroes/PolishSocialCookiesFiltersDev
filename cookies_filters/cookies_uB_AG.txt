@@ -82,7 +82,7 @@ apress24.pl##.modal-popup:has-text(Polityką Prywatności)
 apress24.pl##.modals-overlay
 apress24.pl,volcano.pl##._has-modal:style(overflow: visible !important)
 aquapark.wroc.pl###header:style(top: 0 !important)
-archiup.com###flash-msg-cookies, .modal-backdrop:if-not(zablokowali przewijanie)
+archiup.com###flash-msg-cookies, .modal-backdrop
 archiwum.rp.pl,bloombergbusinessweek.pl,info.rp.pl,konik-online.pl##body:style(margin-top: 0 !important)
 atalbusiness.pl##.noscroll:style(overflow-y: visible !important)
 atalbusiness.pl##.privacyPopup
@@ -196,6 +196,11 @@ dbschenker.com##footer .dialog:has(a[href*="/meta/privacy-policy"])
 delikarta.pl,tanikurier.com###cookieModal
 dkms.pl##.cc-window-active:style(overflow: visible !important)
 dkms.pl##.cc-window[aria-label]
+dlalakierni.pl###RodoCookiesInfo, .modal-backdrop
+dlalakierni.pl##.modal-open:style(overflow: visible !important;)
+dlalakierni.pl#@#+js(trusted-set-cookie, AtomStore[COOKIES_ACCEPTED], 1, 1year, , reload, 1)
+dlalakierni.pl#@#+js(trusted-set-cookie, AtomStore[FUNCTIONAL_COOKIES_ACCEPTED], 1, 1year)
+dlalakierni.pl#@#+js(trusted-set-cookie, AtomStore[MARKETING_COOKIES_ACCEPTED], 0, 1year)
 dm.pgi.gov.pl###ispmodal, .modal-backdrop, .jquery-modal
 dobrapogoda24.pl##+js(ra, class, body[class="modal-open"], stay)
 dobrzemieszkaj.pl###axn
