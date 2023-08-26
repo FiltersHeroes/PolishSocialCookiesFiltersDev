@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.8.21.0
-! Last modified: Mon, 21 Aug 2023, 22:31 UTC+02:00
+! Version: 2023.8.26.0
+! Last modified: Sat, 26 Aug 2023, 14:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.8.21.0 aktualizacja: pon, 21 sie 2023, 22:31 UTC+02:00
+! v.2023.8.26.0 aktualizacja: sob, 26 sie 2023, 14:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -794,6 +794,7 @@ pl,~wykop.pl##.wykop
 ~1login.wp.pl,money.pl,o2.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl###fb-root:lang(pl)
+~pl##.c-messenger-share:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 ~pl##.x13socialfixed_links a[href*="/m.me/"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="/wa.me/"]:lang(pl)
@@ -2570,7 +2571,8 @@ drukarki3d.pl##.c-col.fc-soc
 drukcyfrowygamma.pl##.partners > div
 drw.pl##div.footer-nav__column--wide.footer-nav__column:nth-of-type(5)
 drweb-av.pl##.TAIL-social > div > h3, .TAIL-social > div > p > a
-drzwi-cal.pl##.socials-sharing, .facebook-messenger-avatar
+drzwi-cal.pl##.facebook-messenger-avatar
+drzwi-cal.pl##.socials-sharing
 drzwi-gerda.com##footer #top-footer #nav_menu-2
 drzwiklamki.pl###social_block, #left_share_fb, .social-sharing
 drzwioknabramy.eu##.socialsharing_product
@@ -2998,7 +3000,7 @@ excodus.com###footer > .grid.two > .column.right
 exerim.pl##.socialSubscribe, #sidebar > article:nth-of-type(2) > h3
 expander.pl##.footer-contact > h3.footer__header:nth-of-type(2)
 expansa.pl##.spolecznosciowki
-experiencecorner.com###fb-fixed-btn, .fb-messengermessageus
+experiencecorner.com###fb-fixed-btn
 expressbus.info##footer > .footer-content > .row > .float-left
 expressilustrowany.pl###boks-facebook
 expresspaslek.pl#?##main-container .row div[id^="widget-"]:-abp-has(a[href*="facebook.com/"])
@@ -3546,6 +3548,7 @@ gospodarz.tv##.cp-ft-nav2.cp-ft-nav > ul > li:first-of-type
 gospodarz.tv##.cp-right-holder > .cp-social-links > li:nth-child(-n+6)
 gostynin.info##.uk-visible\@s.uk-iconnav > li
 gotujmy.pl##.cf.inner > div:nth-of-type(3) > h3
+gotujmy.pl,party.pl,wizaz.pl##.c-facebook-share
 gotujzmaka.blogspot.com##a[href*="gotujzmaka.blogspot.com/p/polub-mnie-na-facebooku.html"]
 gowork.pl##.c-sidebar__social-media
 gpcodziennie.pl###header .right-icons a:not([href*="mailto"])
@@ -5461,8 +5464,6 @@ newstyling.pl##div.footer-inc > a.s-ico
 newsweek.pl##.pw-footer__top__links--socials
 newsweek.pl##.socialList .fb
 newsweek.pl##.socialList .tw
-newsy.wizaz.pl,party.pl##.c-facebook-share
-newsy.wizaz.pl,party.pl##.c-messenger-share
 newtonmedia.pl##.col-twitter.col-md-offset-1.col-md-6, .col-md-offset-1.col-md-8
 newyorker.de##.invisible-area > .nav-divider:nth-of-type(2)
 nexelo.pl###jestesmy_na
@@ -5895,10 +5896,11 @@ pepco.pl##.social-media-label
 pepco.pl##.text-right.footer-menu > ul.no-list:nth-of-type(2) > li:not(:last-of-type)
 pepco.pl#?#.footer-nav .row p:-abp-contains(Znajdź nas na)
 pepegi.eu#?#.menu_button_wrapper:nth-of-type(2):-abp-has(a[href*="facebook.com/"], a[href*="twitter.com"])
-pepper.pl##.js-banner.aGrid[data-track*="twitter_banner"]
 pepper.pl##button[data-t^="shareOn"]:not([data-t*="Whatsapp"]):not([data-t*="Messenger"])
 pepper.pl##button[data-t^="shareOn"][data-t*="Whatsapp"], button[data-t^="shareOn"][data-t*="Messenger"]
 pepper.pl##footer#footer.footer > div:nth-child(3) > div > section:nth-child(4) > div > ul > li:nth-of-type(-n+3)
+pepper.pl#?#div[class*="banner"]:-abp-has(img[alt*="Insta" i])
+pepper.pl#?#div[class*="banner"]:-abp-has(img[alt*="twitt" i])
 pepsi.pl###socialBox
 pepsieliot.com##.soc-buttons > a:nth-of-type(-n+5)
 pepsieliot.com##.soc-slider
@@ -5995,6 +5997,7 @@ pkw.gov.pl###header_ico li.ico:nth-of-type(n+4):nth-of-type(-n+6)
 pkwp.org##.tw-tab
 pkwp.org##.yt-tab
 pl###fb-root
+pl##.c-messenger-share
 pl##.slide-fb-out-div
 pl##.sm-panel .sm-messenger
 pl##.x13socialfixed_links a[href*="/m.me/"]
