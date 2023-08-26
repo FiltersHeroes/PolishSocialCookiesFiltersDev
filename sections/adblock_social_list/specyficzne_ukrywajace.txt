@@ -5066,7 +5066,7 @@ pepco.pl##.social-media-label
 pepco.pl##.text-right.footer-menu > ul.no-list:nth-of-type(2) > li:not(:last-of-type)
 pepco.pl#?#.footer-nav .row p:-abp-contains(Znajdź nas na)
 pepegi.eu#?#.menu_button_wrapper:nth-of-type(2):-abp-has(a[href*="facebook.com/"], a[href*="twitter.com"])
-pepper.pl##.js-banner.aGrid[data-track*="twitter_banner"]
+pepper.pl#?#div[class*="banner"]:-abp-has(img[alt*="twitt" i])
 pepper.pl##button[data-t^="shareOn"]:not([data-t*="Whatsapp"]):not([data-t*="Messenger"])
 pepper.pl##footer#footer.footer > div:nth-child(3) > div > section:nth-child(4) > div > ul > li:nth-of-type(-n+3)
 pepsi.pl###socialBox
