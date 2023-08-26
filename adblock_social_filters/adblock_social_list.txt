@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.8.26.0
-! Last modified: Sat, 26 Aug 2023, 14:31 UTC+02:00
+! Version: 2023.8.26.1
+! Last modified: Sat, 26 Aug 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.8.26.0 aktualizacja: sob, 26 sie 2023, 14:31 UTC+02:00
+! v.2023.8.26.1 aktualizacja: sob, 26 sie 2023, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2346,6 +2346,7 @@ decora.pl##.elementor-widget-container a:not([href*="decora.pl"]) > img[src*="/s
 decority.pl##footer > div > .row > div:nth-of-type(4) > ul
 dedalus.pl##.rc-infobox
 deepl.com##.dl_footer__social
+deepl.com##div[class*="socialMediaContainer"] a:not([href*="github.com/"])
 deezee.pl##.c-footer .html_editor.widget > .is-title, .c-footer .html_editor.widget > .is-title ~ a
 defendinsurance.eu##.footer-social-sites
 deichmann.com###services-follow > .img-text-link > a:not([href*="shoelove"])
