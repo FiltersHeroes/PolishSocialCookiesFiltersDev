@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.8.26.1
-! Last modified: Sat, 26 Aug 2023, 22:31 UTC+02:00
+! Version: 2023.8.27.0
+! Last modified: Sun, 27 Aug 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.8.26.1 aktualizacja: sob, 26 sie 2023, 22:31 UTC+02:00
+! v.2023.8.27.0 aktualizacja: nie, 27 sie 2023, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2563,9 +2563,12 @@ drohiczyn.info###footer > ul > li:not(:first-child)
 dron.pl##.widget-area-7, .widget-area-8, .widget-area-9
 dronexpert.eu###wysZakladki
 drosed.pl##.head__btns a[href*=".com/"]
-drtusz.pl##.infoBoxContents a[href*=".com/"] > img[src*="ikony"]
-drtusz.pl#?#.infoBoxContents tr:-abp-has(> td > a[href*=".com/"][target])
-drtusz.pl#?#.infoBoxContents tr:-abp-has(> td > a[href*=".com/"][target]) + tr
+drtusz.pl##[class*="infoBox" i] a[href*=".com/"] > img[src*="ikony"]
+drtusz.pl#?#.infoBoxHeading ~ div .boxContents:-abp-has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="twitter.com/"], a[href*="linkedin.com/"], a[href*="youtube.com/"], a[href*="tiktok.com/"])
+drtusz.pl#?#.infoBoxHeading ~ div div[class*="bullet"] + .boxContents:-abp-has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="twitter.com/"], a[href*="linkedin.com/"], a[href*="youtube.com/"], a[href*="tiktok.com/"]) + div[class*="bullet"]
+drtusz.pl#?#.infoBoxHeading ~ div div[class*="bullet"]:-abp-has(+ .boxContents a[href*="facebook.com/"])
+drtusz.pl#?#[class*="infoBox" i] tr:-abp-has(> td > a[href*=".com/"][target])
+drtusz.pl#?#[class*="infoBox" i] tr:-abp-has(> td > a[href*=".com/"][target]) + tr
 druczki.eu,sklep.maszynykrawieckie.eu###social a:not([href*="/newsletter/"])
 drukarki3d.pl###hd-soc
 drukarki3d.pl##.c-col.fc-soc
@@ -6105,6 +6108,8 @@ plisomania.pl###menuToggleWrapperLeft
 plk-sa.pl##.boxFacebook, .boxTwitter, .boxYoutube
 plk.pl##.col-sm-12.col-md-6.col-lg-3.col-xl-3 > h3:first-of-type
 plock.eu#?#li.ctaWrapper:nth-of-type(6):-abp-has(> a[href="pl/plock_na_facebooku.html"])
+plock.fm##a.box[href*="facebook.com/"]
+plock.fm##a.box[href*="instagram.com/"]
 plotek.pl##.footer_middle_links > li > [href^="https://www.facebook.com/"]
 plotek.pl##.likepage, .quizModule-sociall
 plotkibiznesowe.pl##.stream-item-above-header > a[href*="facebook.com/"] > img[src]
@@ -9157,6 +9162,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||pl.horn.eu/img/fbook.png
 ||planetasportu.com/upload/PLANETA/facebook_vertical.gif
 ||plock.fm/wp-content/uploads/20*/*/pl_na_facebook-2.jpg
+||plock.fm/wp-content/uploads/20*/*/pl_na_insta
 ||pm1-kozuchow.pl/photos/skin/clipart/*facebook-icon*.png
 ||pm1-kozuchow.pl/photos/skin/clipart/*icon-youtube.png
 ||pobitegary.com/google+32px.png
