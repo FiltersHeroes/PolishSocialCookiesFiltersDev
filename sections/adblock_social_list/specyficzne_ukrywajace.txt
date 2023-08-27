@@ -1,5 +1,3 @@
-plock.fm##a.box[href*="instagram.com/"]
-plock.fm##a.box[href*="facebook.com/"]
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#a[href*=","][title*=" "] ~ div button:-abp-has(svg)
@@ -1759,11 +1757,11 @@ dron.pl##.widget-area-7, .widget-area-8, .widget-area-9
 dronexpert.eu###wysZakladki
 drosed.pl##.head__btns a[href*=".com/"]
 drtusz.pl##[class*="infoBox" i] a[href*=".com/"] > img[src*="ikony"]
+drtusz.pl#?#.infoBoxHeading ~ div .boxContents:-abp-has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="twitter.com/"], a[href*="linkedin.com/"], a[href*="youtube.com/"], a[href*="tiktok.com/"])
+drtusz.pl#?#.infoBoxHeading ~ div div[class*="bullet"] + .boxContents:-abp-has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="twitter.com/"], a[href*="linkedin.com/"], a[href*="youtube.com/"], a[href*="tiktok.com/"]) + div[class*="bullet"]
+drtusz.pl#?#.infoBoxHeading ~ div div[class*="bullet"]:-abp-has(+ .boxContents a[href*="facebook.com/"])
 drtusz.pl#?#[class*="infoBox" i] tr:-abp-has(> td > a[href*=".com/"][target])
 drtusz.pl#?#[class*="infoBox" i] tr:-abp-has(> td > a[href*=".com/"][target]) + tr
-drtusz.pl#?#.infoBoxHeading ~ div .boxContents:-abp-has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="twitter.com/"], a[href*="linkedin.com/"], a[href*="youtube.com/"], a[href*="tiktok.com/"])
-drtusz.pl#?#.infoBoxHeading ~ div div[class*="bullet"]+ .boxContents:-abp-has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="twitter.com/"], a[href*="linkedin.com/"], a[href*="youtube.com/"], a[href*="tiktok.com/"]) + div[class*="bullet"]
-drtusz.pl#?#.infoBoxHeading ~ div div[class*="bullet"]:-abp-has(+ .boxContents a[href*="facebook.com/"])
 druczki.eu,sklep.maszynykrawieckie.eu###social a:not([href*="/newsletter/"])
 drukarki3d.pl###hd-soc
 drukarki3d.pl##.c-col.fc-soc
@@ -5268,6 +5266,8 @@ plisomania.pl###menuToggleWrapperLeft
 plk-sa.pl##.boxFacebook, .boxTwitter, .boxYoutube
 plk.pl##.col-sm-12.col-md-6.col-lg-3.col-xl-3 > h3:first-of-type
 plock.eu#?#li.ctaWrapper:nth-of-type(6):-abp-has(> a[href="pl/plock_na_facebooku.html"])
+plock.fm##a.box[href*="facebook.com/"]
+plock.fm##a.box[href*="instagram.com/"]
 plotek.pl##.footer_middle_links > li > [href^="https://www.facebook.com/"]
 plotek.pl##.likepage, .quizModule-sociall
 plotkibiznesowe.pl##.stream-item-above-header > a[href*="facebook.com/"] > img[src]
