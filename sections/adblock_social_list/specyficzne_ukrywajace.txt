@@ -1758,9 +1758,12 @@ drohiczyn.info###footer > ul > li:not(:first-child)
 dron.pl##.widget-area-7, .widget-area-8, .widget-area-9
 dronexpert.eu###wysZakladki
 drosed.pl##.head__btns a[href*=".com/"]
-drtusz.pl##[class*="infoBox"i] a[href*=".com/"] > img[src*="ikony"]
-drtusz.pl#?#[class*="infoBox"i] tr:-abp-has(> td > a[href*=".com/"][target])
-drtusz.pl#?#[class*="infoBox"i] tr:-abp-has(> td > a[href*=".com/"][target]) + tr
+drtusz.pl##[class*="infoBox" i] a[href*=".com/"] > img[src*="ikony"]
+drtusz.pl#?#[class*="infoBox" i] tr:-abp-has(> td > a[href*=".com/"][target])
+drtusz.pl#?#[class*="infoBox" i] tr:-abp-has(> td > a[href*=".com/"][target]) + tr
+drtusz.pl#?#.infoBoxHeading ~ div .boxContents:-abp-has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="twitter.com/"], a[href*="linkedin.com/"], a[href*="youtube.com/"], a[href*="tiktok.com/"])
+drtusz.pl#?#.infoBoxHeading ~ div div[class*="bullet"]+ .boxContents:-abp-has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="twitter.com/"], a[href*="linkedin.com/"], a[href*="youtube.com/"], a[href*="tiktok.com/"]) + div[class*="bullet"]
+drtusz.pl#?#.infoBoxHeading ~ div div[class*="bullet"]:-abp-has(+ .boxContents a[href*="facebook.com/"])
 druczki.eu,sklep.maszynykrawieckie.eu###social a:not([href*="/newsletter/"])
 drukarki3d.pl###hd-soc
 drukarki3d.pl##.c-col.fc-soc
