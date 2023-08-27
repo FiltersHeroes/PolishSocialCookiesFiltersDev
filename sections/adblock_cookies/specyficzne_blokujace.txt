@@ -54,10 +54,11 @@
 ||ciechanowiec.pl/images/grafika/ikony/fac01.jpg
 ||cieszyn.pl/images/cn-ins.jpg
 ||cmp*.*.pl/*.js|$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
-||cmp.quantcast.com/choice/*.com/*$rewrite=abp-resource:blank-js,script,domain=medianarodowe.com|pl.forvo.com
+||cmp.quantcast.com/choice/*.com/*$rewrite=abp-resource:blank-js,script,domain=medianarodowe.com|pl.forvo.com|bleepingcomputer.com|softpedia.com|krokdozdrowia.com
+||cmp.quantcast.com/choice/*.is/*$rewrite=abp-resource:blank-js,script,domain=time.is
 ||cmp.quantcast.com/choice/*.eu/*$rewrite=abp-resource:blank-js,script,domain=pl.androidhow.eu
 ||cmp.quantcast.com/choice/*.info/*$rewrite=abp-resource:blank-js,script,domain=pomocdrogowa.info
-||cmp.quantcast.com/choice/*.net/*$rewrite=abp-resource:blank-js,script,domain=legia.net
+||cmp.quantcast.com/choice/*.net/*$rewrite=abp-resource:blank-js,script,domain=legia.net|newonce.net
 ||cmp.quantcast.com/choice/*.org/*$rewrite=abp-resource:blank-js,script,domain=aternos.org
 ||cmp.quantcast.com/choice/*.pl/*$rewrite=abp-resource:blank-js,script,domain=24wspolnota.pl|android.com.pl|antyweb.pl|aszdziennik.pl|dadhero.pl|dobryslownik.pl|e-commerce.pl|elle.pl|forumneurologiczne.pl|gazetki.pl|gizmaniak.pl|glamour.pl|gry-online.pl|hejto.pl|innpoland.pl|instrukcjaobslugipdf.pl|ithardware.pl|kalendarz-365.pl|kobieta.pl|mamadu.pl|medme.pl|mmorpg.org.pl|mojegotowanie.pl|mojpieknyogrod.pl|mp.pl|naekranie.pl|natemat.pl|national-geographic.pl|nowiny.pl|polskieradio24.pl|przyslijprzepis.pl|radiokierowcow.pl|sieciprawdy.pl|sieradzak.pl|smakosze.pl|teleman.pl|termedia.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
@@ -88,7 +89,6 @@
 ||fundacjamare.pl/*/assets/javascripts/cookies.min.js
 ||fundingchoices.google.com^$script,domain=accuweather.com
 ||gdpr-*.*/wrapperMessagingWithoutDetection.js$script,domain=radio.pl
-||gmina.czernichow.pl/images/a_grafiki/ikony-buttony/UG-facebook.png
 ||granice.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
 ||igimag.pl/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/lity.js
 ||itmarket.pl/modules/prestaboost/views/js/prestaboost-popup.js
@@ -120,7 +120,6 @@
 ||pino.pl/app/static/global/files/cookie-alert.js
 ||pl/wp-content/plugins/eu-cookie-law-wp-cookie-law/$script
 ||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
-||plock.fm/wp-content/uploads/20*/*/pl_na_insta-2.jpg
 ||powiat.okay.pl/media/system/js/modal.js
 ||prywatnosc.interia.pl/rodo-iframe$subdocument
 ||pryzmat.com.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
@@ -137,11 +136,6 @@
 ||siemashop.pl/assets/*/js/cookie_agreement.js$script
 ||silnet.pl/*/js/vue/silnet-privacy-policy.vue$xmlhttprequest
 ||skryptcookies.pl/cookie.js$script
-||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-fb_0.jpg
-||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-goldenline_0.jpg
-||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-instagram.jpg
-||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-pracujpl_0.jpg
-||sokolow.pl/sites/default/files/styles/box/public/backgrounds-boxes/box-you-tube_0.jp
 ||std.wpcdn.pl/wpjslib*/wpjslib-stat.js$domain=jastrzabpost.pl
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-notification.js
@@ -157,7 +151,7 @@
 ||twoje-seriale.pl/cookies.html$subdocument
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=bleepingcomputer.com|krokdozdrowia.com|krzyzowka.net|mytastepol.com|newonce.radio|softpedia.com|synonim.net|time.is
+||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=krzyzowka.net|synonim.net
 ||vox.pl/modal/rodo$xmlhttprequest
 ||wieczorpomorze.pl/wp-content/themes/colormag/js/magnific-popup/jquery.magnific-popup.min.js
 ||wins.pl/pages/getcookie$xmlhttprequest
