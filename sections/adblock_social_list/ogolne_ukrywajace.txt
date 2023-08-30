@@ -41,6 +41,12 @@
 ~pl##.sm-panel .sm-tw:lang(pl)
 ~pl##.sm-panel .sm-twitter:lang(pl)
 ~pl##.sm-panel .sm-youtube:lang(pl)
+~pl##a[href*="//twitter.com/home?status="]:lang(pl)
+~pl##a[href*="//twitter.com/intent/tweet"]:lang(pl)
+~pl##a[href*="//twitter.com/share?url="]:lang(pl)
+~pl##a[href*="//www.twitter.com/home?status="]:lang(pl)
+~pl##a[href*="//www.twitter.com/intent/tweet"]:lang(pl)
+~pl##a[href*="//www.twitter.com/share?url="]:lang(pl)
 ~pl##a[href*="google.com/+"]:lang(pl)
 ~pl##footer .fb_button:lang(pl)
 ~pl##li.top_bar_item_list_item_social_media:lang(pl)
@@ -561,18 +567,12 @@ pl##.zobacz-nas
 pl##[id^="nk_fajne"]
 pl##a img.facebook-link
 pl##a.like
+pl##a[href*="//twitter.com/home?status="]
 pl##a[href*="//twitter.com/intent/tweet"]
 pl##a[href*="//twitter.com/share?url="]
+pl##a[href*="//www.twitter.com/home?status="]
 pl##a[href*="//www.twitter.com/intent/tweet"]
 pl##a[href*="//www.twitter.com/share?url="]
-~pl##a[href*="//twitter.com/intent/tweet"]:lang(pl)
-~pl##a[href*="//twitter.com/share?url="]:lang(pl)
-~pl##a[href*="//www.twitter.com/intent/tweet"]:lang(pl)
-~pl##a[href*="//www.twitter.com/share?url="]:lang(pl)
-pl##a[href*="//twitter.com/home?status="]
-pl##a[href*="//www.twitter.com/home?status="]
-~pl##a[href*="//twitter.com/home?status="]:lang(pl)
-~pl##a[href*="//www.twitter.com/home?status="]:lang(pl)
 pl##a[href*="google.com/+"]
 pl##a[href*="pinger.pl/share?"]
 pl##a[title="Click to share on Google+"]
