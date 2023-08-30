@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.8.27.0
-! Last modified: Sun, 27 Aug 2023, 22:31 UTC+02:00
+! Version: 2023.8.30.0
+! Last modified: Wed, 30 Aug 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.8.27.0 aktualizacja: nie, 27 sie 2023, 22:31 UTC+02:00
+! v.2023.8.30.0 aktualizacja: śro, 30 sie 2023, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -229,6 +229,12 @@ zmianywzyciu.pl###popup_facebook
 ~pl##.sm-panel .sm-tw:lang(pl)
 ~pl##.sm-panel .sm-twitter:lang(pl)
 ~pl##.sm-panel .sm-youtube:lang(pl)
+~pl##a[href*="//twitter.com/home?status="]:lang(pl)
+~pl##a[href*="//twitter.com/intent/tweet"]:lang(pl)
+~pl##a[href*="//twitter.com/share?url="]:lang(pl)
+~pl##a[href*="//www.twitter.com/home?status="]:lang(pl)
+~pl##a[href*="//www.twitter.com/intent/tweet"]:lang(pl)
+~pl##a[href*="//www.twitter.com/share?url="]:lang(pl)
 ~pl##a[href*="google.com/+"]:lang(pl)
 ~pl##footer .fb_button:lang(pl)
 ~pl##li.top_bar_item_list_item_social_media:lang(pl)
@@ -749,8 +755,10 @@ pl##.zobacz-nas
 pl##[id^="nk_fajne"]
 pl##a img.facebook-link
 pl##a.like
+pl##a[href*="//twitter.com/home?status="]
 pl##a[href*="//twitter.com/intent/tweet"]
 pl##a[href*="//twitter.com/share?url="]
+pl##a[href*="//www.twitter.com/home?status="]
 pl##a[href*="//www.twitter.com/intent/tweet"]
 pl##a[href*="//www.twitter.com/share?url="]
 pl##a[href*="google.com/+"]
