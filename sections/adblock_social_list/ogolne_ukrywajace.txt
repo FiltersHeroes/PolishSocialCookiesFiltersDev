@@ -565,6 +565,14 @@ pl##a[href*="//twitter.com/intent/tweet"]
 pl##a[href*="//twitter.com/share?url="]
 pl##a[href*="//www.twitter.com/intent/tweet"]
 pl##a[href*="//www.twitter.com/share?url="]
+~pl##a[href*="//twitter.com/intent/tweet"]:lang(pl)
+~pl##a[href*="//twitter.com/share?url="]:lang(pl)
+~pl##a[href*="//www.twitter.com/intent/tweet"]:lang(pl)
+~pl##a[href*="//www.twitter.com/share?url="]:lang(pl)
+pl##a[href*="//twitter.com/home?status="]
+pl##a[href*="//www.twitter.com/home?status="]
+~pl##a[href*="//twitter.com/home?status="]:lang(pl)
+~pl##a[href*="//www.twitter.com/home?status="]:lang(pl)
 pl##a[href*="google.com/+"]
 pl##a[href*="pinger.pl/share?"]
 pl##a[title="Click to share on Google+"]
