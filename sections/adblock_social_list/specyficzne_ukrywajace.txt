@@ -3954,7 +3954,8 @@ madlensklep.pl##.main_instagram
 mafiatown.pl##.text-center a[href*="facebook.com/"]
 magazyn.ceneo.pl##.js_share-btn-horizontal.lnd_share-horizontal.lnd_wrapper > div > table > tbody > tr, .lnd_anim-toDown > table > tbody > tr
 magazynfakty.pl,rynekinwestycji.pl#?#.site-title:-abp-contains(/FACEBOOK|Facebook/)
-magazynkuchenny.com###social > li:not(> a[href*="feed"])
+magazynkuchenny.com###social > li > a:not([href*="feed"])
+magazynkuchenny.com###social > li:not(:has(> a[href*="feed"]))
 magazynt3.pl,menworld.pl,wschodnik.pl##.fly-soc-head
 magazynvip.pl##article > h3
 magazynvip.pl,przedsiebiorcy.eu##.mf-soc-sh
