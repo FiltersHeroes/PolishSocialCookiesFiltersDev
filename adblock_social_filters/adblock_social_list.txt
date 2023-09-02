@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.8.30.0
-! Last modified: Wed, 30 Aug 2023, 22:31 UTC+02:00
+! Version: 2023.9.2.0
+! Last modified: Sat, 02 Sep 2023, 20:53 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.8.30.0 aktualizacja: śro, 30 sie 2023, 22:31 UTC+02:00
+! v.2023.9.2.0 aktualizacja: sob, 02 wrz 2023, 20:53 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1439,7 +1439,7 @@ awans-bhp.pl##.icon_bar_google.icon_bar, .icon_bar_fb.icon_bar, .icon_box > a[hr
 awf.edu.pl##.sprite-fb.sprite, .sprite-yt.sprite
 axa-assistance.pl##.a-footer > div:first-child > div > div > div:nth-child(3)
 axa.pl##footer .socials > a:not([href*="/rss/"])
-axasecurity.com,doctorgun.eu,drzwioknabramy.eu,e-security.com.pl,eska.pl,medicalclinic.pl,meskiegacie.pl,metalowiecsc.pl,optykwnecie.pl,peryskop.studio,plakatynasciany.pl,sita.pl,sprawnymarketing.pl,telefonek.pl,woopauto.com,zymetric.pl##.fb-customerchat, .fb_dialog_advanced
+axasecurity.com,beko.com,doctorgun.eu,drzwioknabramy.eu,e-security.com.pl,eska.pl,medicalclinic.pl,meskiegacie.pl,metalowiecsc.pl,optykwnecie.pl,peryskop.studio,plakatynasciany.pl,sita.pl,sprawnymarketing.pl,telefonek.pl,woopauto.com,zymetric.pl##.fb-customerchat, .fb_dialog_advanced
 axn.pl##.pane-widget-follow
 axtechnology.pl###u122 > #u122_img
 az-polska.com#?#.vcard > div:nth-child(3) > div:first-child > div > div:-abp-has(> h3:-abp-contains(Udostepnij))
@@ -1555,7 +1555,6 @@ beincrypto.pl##footer > div > div:last-child > div > div:first-child > *
 beitadmin.pl##.acx-smw-social-icon-desc
 bejot.eu##div.footer_box_col.col-xl:nth-of-type(4) > .footer_box_item > h4
 bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(4)
-beko.com##.fb-customerchat, .fb_dialog_advanced##.fb-customerchat
 bel-pol.pl###footer_info > a.mega_anchor:nth-of-type(n+2):nth-of-type(-n+5)
 belladayspa.pl#?#div.art-block:-abp-has(a > img[src="/images/znajdz_nas_na.png"])
 bellsklep.com.pl,butomaniak.pl,ecowybrane.pl,hjort-design.pl,keko.pl,kiwizoo.pl,mebleolimp.pl,modbis.pl,schuhfreak.iai-shop.com,skin-science.pl,sklepsmjsport.pl,trekking.com.pl###links_footer_1
@@ -4782,7 +4781,8 @@ madlensklep.pl##.main_instagram
 mafiatown.pl##.text-center a[href*="facebook.com/"]
 magazyn.ceneo.pl##.js_share-btn-horizontal.lnd_share-horizontal.lnd_wrapper > div > table > tbody > tr, .lnd_anim-toDown > table > tbody > tr
 magazynfakty.pl,rynekinwestycji.pl#?#.site-title:-abp-contains(/FACEBOOK|Facebook/)
-magazynkuchenny.com###social > li:not(> a[href*="feed"])
+magazynkuchenny.com###social > li > a:not([href*="feed"])
+magazynkuchenny.com###social > li:not(:has(> a[href*="feed"]))
 magazynt3.pl,menworld.pl,wschodnik.pl##.fly-soc-head
 magazynvip.pl##article > h3
 magazynvip.pl,przedsiebiorcy.eu##.mf-soc-sh
@@ -5863,6 +5863,7 @@ patiomeble.eu##.last_social a[href*="instagram.com/patiomeble"]
 patiomeble.eu##.last_social.footer_links > a:not([href*="trustedshops.pl"])
 patronite.pl##.author__bio__share--button
 patronite.pl##.is-share.author__bio__actions--button
+patronite.pl##div.share-box__item:not(:nth-of-type(3))
 patronite.pl#?#.tabs__content h3.text-center:-abp-contains(/^Udostępnij$/)
 patronite.pl#?#.tabs__content p.text-center:-abp-contains(/^Pomóż, udostępniając/)
 patronus-med.com##a[href*="facebook.com/"] img
@@ -9691,6 +9692,7 @@ pap.pl#@#.social
 pap.pl#@#.social.nav
 patron.pl#@##social_bar
 patron.pl#@#.social_list
+patronite.pl#@#.share-box
 pepper.pl#@#.btn--facebook
 pkobp.pl#@#.footer-top__social
 pl#@#div[class^="footer-social-"]
