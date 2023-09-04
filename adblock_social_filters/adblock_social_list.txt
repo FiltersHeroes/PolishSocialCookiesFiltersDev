@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.9.3.0
-! Last modified: Sun, 03 Sep 2023, 21:33 UTC+02:00
+! Version: 2023.9.4.0
+! Last modified: Mon, 04 Sep 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.9.3.0 aktualizacja: nie, 03 wrz 2023, 21:33 UTC+02:00
+! v.2023.9.4.0 aktualizacja: pon, 04 wrz 2023, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1814,6 +1814,8 @@ bookscout.pl#?#.large-gutters.flex-row.align-items-center.row:-abp-has(h1:-abp-c
 booksy.com#?#footer a:-abp-has(svg > g[id*="Social"])
 booksy.com#?#section[class=""] + div[style*="position"][style*="sticky"] > div > section[class*=" "]:-abp-has(> h2:-abp-contains(Media Społecznościowe i udostępnianie))
 boop.pl##a[href*="dc"][class*="button"]
+boop.pl,cashless.pl,channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domeny.pl,dzwignice.info,echotygodnik.info,eostroleka.pl,fakt.pl,gremont.pl,iautomatyka.pl,jezuici.pl,jhi.pl,kalisz24.info.pl,kuponrabatowy.net,lubelska.tv,markoweobuwie.com.pl,neon24.info,newslubuski.pl,niepodlegla.gov.pl,nowakonfederacja.pl,nowyekran24.com,pakietbudowlany.pl,pap-mediaroom.pl,pogonszczecin.pl,sejm.gov.pl,siatka.org,testerzy.pl,tvn24bis.pl,vichy.pl,wiez.pl,zdrowie.pap.pl##.twitter
+boop.pl,pogonszczecin.pl,toys4boys.pl##.tiktok
 borcas.eu#?#footer#footer.footer > div:first-of-type > div > div > div > div > div:first-of-type > div > div:nth-of-type(5) > div > div > div:first-of-type:-abp-has(p > strong:-abp-contains(obserwuj))
 borhunter.pl##.cp-social a[href*=".com/"]
 born2be.pl,renee.pl##.footer__column--social
@@ -1964,7 +1966,6 @@ cashless.pl##turbo-frame#footer footer a[href*="linkedin.com/"]
 cashless.pl##turbo-frame#footer footer a[href*="twitter.com/"]
 cashless.pl##turbo-frame#footer footer a[href*="youtube.com/"]
 cashless.pl##ul .facebook
-cashless.pl,channel9.msdn.com,chemik-police.com,cooltura24.co.uk,debica24.eu,domeny.pl,dzwignice.info,echotygodnik.info,eostroleka.pl,fakt.pl,gremont.pl,iautomatyka.pl,jezuici.pl,jhi.pl,kalisz24.info.pl,kuponrabatowy.net,lubelska.tv,markoweobuwie.com.pl,neon24.info,newslubuski.pl,niepodlegla.gov.pl,nowakonfederacja.pl,nowyekran24.com,pakietbudowlany.pl,pap-mediaroom.pl,pogonszczecin.pl,sejm.gov.pl,siatka.org,testerzy.pl,tvn24bis.pl,vichy.pl,wiez.pl,zdrowie.pap.pl##.twitter
 cashless.pl,green-news.pl##.fb-before, .twitter-before, .youtube-before, .linkedin-before
 caso-germany.pl#?#div.mcb-section.section:-abp-contains(DOŁĄCZ DO NAS)
 castorama.pl##.footer-base-social-links
@@ -6169,7 +6170,6 @@ podziemia.klodzko.pl###after-body-box #widget-2w
 pogodynka.pl###head_facebook
 pogodynka.pl##a[href*="facebook.com/pages/Pogodynkapl/"] > img
 pogonszczecin.pl##socialwall > .socialwall
-pogonszczecin.pl,toys4boys.pl##.tiktok
 pogradajmy.pl###invitation > .mcb-section-inner.section_wrapper > .clearfix.move-up.valign-top.one.mcb-wrap.wrap
 poid.eu##.button_social_group
 poinformowani.pl###ArticleShare
