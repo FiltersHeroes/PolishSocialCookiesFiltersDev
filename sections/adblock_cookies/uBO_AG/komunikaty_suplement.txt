@@ -149,7 +149,7 @@ combat.pl##.pr-cookie-modal.modal-popup, .modals-overlay
 combat.pl,sklep.winkhaus.pl##body._has-modal:style(overflow: visible !important)
 contentstandard.pl,komerso.pl,mobileclick.pl,socialpress.pl###rodoScreenBg
 contentstandard.pl,komerso.pl,mobileclick.pl,socialpress.pl##body.rodoNoScroll:style(overflow-y: visible !important; height: auto !important)
-corbby.com.pl###tfade:has(+ #tlight:has(> .termspopupcontainer))
+corbby.com.pl###tfade:has(+ #tlight > .termspopupcontainer)
 corbby.com.pl###tlight:has(> .termspopupcontainer)
 corbby.com.pl##html[style^="overflow"]:style(overflow: visible !important)
 credit-suisse.com##body.ot-consent-manager-open:style(overflow-y: visible !important)
@@ -598,7 +598,7 @@ tavex.pl##div[data-source="#cookie-initial-modal"]
 teatrpolski.waw.pl##.fancybox-overlay:has(#privacyPolicy)
 teb.pl,technikum.pl###cookieModal.modal
 teb.pl,technikum.pl##html, body:style(overflow: visible !important)
-techmot24.pl##.mfp-ready.mfp-bg:has(~ .mfp-ready.mfp-wrap:has(#RodoPopup))
+techmot24.pl##.mfp-ready.mfp-bg:has(~ .mfp-ready.mfp-wrap #RodoPopup)
 techmot24.pl##.mfp-ready.mfp-wrap:has(#RodoPopup)
 techmot24.pl##html[style]:style(overflow: visible !important; padding-right: 0 !important)
 telepizza.pl##.navbar:style(margin-top: 0 !important)
