@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.9.7.0
-! Last modified: Thu, 07 Sep 2023, 21:01 UTC+02:00
+! Version: 2023.9.8.0
+! Last modified: Fri, 08 Sep 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.9.7.0 aktualizacja: czw, 07 wrz 2023, 21:01 UTC+02:00
+! v.2023.9.8.0 aktualizacja: pią, 08 wrz 2023, 22:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2325,6 +2325,7 @@ pozyczkowy-portal.pl###gdprc
 pp.im.gda.pl###bottom_msg div[id^="fragment"]
 ppuslugi.mf.gov.pl#?#div[id^="container"] > .ControlGridLayout.DocViewLayout:-abp-has(> div > label > span:-abp-contains(Uwaga! Ta strona korzysta z plików cookies))
 pracatobie.pl###coocieDiv
+pracodajnia.pl##.cooking
 pracownieorange.pl###cookies-monit
 pracuj.pl###__next > div[class*="core"] > div[class*="cookies_"]
 pracuj.pl###gp-cookie-agreements
