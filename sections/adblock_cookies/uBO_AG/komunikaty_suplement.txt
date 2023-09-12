@@ -240,9 +240,12 @@ fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow: visible !important)
 filmweb.pl##+js(set, consentManagerIsOn, false)
 filmweb.pl##+js(set, rodo.canProfileVisitor, noopPromiseReject)
+filmweb.pl##+js(set, rodo.canProfileVisitor, noopFunc, asRejected)
 filmweb.pl##+js(set, rodo.checkIsDidomiConsent, noopFunc)
 filmweb.pl##+js(set, rodo.validateStoragePurpose, noopPromiseResolve)
+filmweb.pl##+js(set, rodo.validateStoragePurpose, noopFunc, asResolved)
 filmweb.pl##+js(set, rodo.waitForConsent, noopPromiseResolve)
+filmweb.pl##+js(set, rodo.waitForConsent, noopFunc, asResolved)
 fiskars.pl##.desktop:style(top: 0 !important)
 flixclassic.pl###app.overflow-hidden:style(overflow: visible !important)
 flixclassic.pl##.app-gdpr-notice
