@@ -64,7 +64,7 @@
 ||cmp.quantcast.com/choice/*.org/*$rewrite=abp-resource:blank-js,script,domain=aternos.org
 ||cmp.quantcast.com/choice/*.pl/*$rewrite=abp-resource:blank-js,script,domain=24wspolnota.pl|adresowo.pl|android.com.pl|antyweb.pl|aszdziennik.pl|dadhero.pl|dobryslownik.pl|e-commerce.pl|elle.pl|forumneurologiczne.pl|gazetki.pl|gizmaniak.pl|glamour.pl|glamrap.pl|gry-online.pl|hejto.pl|innpoland.pl|instrukcjaobslugipdf.pl|ithardware.pl|kalendarz-365.pl|kobieta.pl|mamadu.pl|medme.pl|mmorpg.org.pl|mojegotowanie.pl|mojpieknyogrod.pl|mp.pl|naekranie.pl|natemat.pl|national-geographic.pl|nowiny.pl|polskieradio24.pl|przyslijprzepis.pl|radiokierowcow.pl|rozklad-pkp.pl|sieciprawdy.pl|sieradzak.pl|smakosze.pl|tabletowo.pl|teleman.pl|termedia.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
-||consensu.*/delivery/cmp.min.js$script,domain=opinie24.pl
+!||consensu.*/delivery/cmp.min.js$script,domain=opinie24.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
 ||consent.dropbox.com^$subdocument
 ||cookie.bortos.pl/*cookie*.js$script
@@ -153,7 +153,7 @@
 ||twoje-seriale.pl/cookies.html$subdocument
 ||twojezaglebie.pl/wp-content/plugins/rodo/rodo_style.css
 ||tygodnik-krapkowicki.info/media/plg_system_eprivacy/js/eprivacy.js
-||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=krzyzowka.net|synonim.net
+!||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=krzyzowka.net|synonim.net
 ||vox.pl/modal/rodo$xmlhttprequest
 ||wieczorpomorze.pl/wp-content/themes/colormag/js/magnific-popup/jquery.magnific-popup.min.js
 ||wins.pl/pages/getcookie$xmlhttprequest
