@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.9.19.0
-! Last modified: Tue, 19 Sep 2023, 02:31 UTC+02:00
+! Version: 2023.9.19.1
+! Last modified: Tue, 19 Sep 2023, 20:08 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.9.19.0 aktualizacja: wto, 19 wrz 2023, 02:31 UTC+02:00
+! v.2023.9.19.1 aktualizacja: wto, 19 wrz 2023, 20:08 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2145,6 +2145,7 @@ colian.com##.c_watch_us h2, .c_watch_us h2 ~ div a
 collegia.pl##.header__media
 collegia.pl,krasnystaw.eu,solano-shop.com##.footer__media
 colorland.pl,militaria.pl,shop.albione.eu,zadluzenia.com##.social-logos
+columbiasportswear.pl##.footer-container__social
 columbusenergy.pl##.menu-second > .margin > .social, .clear-fix.row, .dark-box:first-of-type
 columbusenergy.pl,gobloo.pl#?#section.footer.py-5 > .container > .row > div:-abp-has(.social)
 com.web.silcare.com###ue + div.limpad.toppad.w3-row:nth-of-type(8) > div > p
@@ -6218,6 +6219,7 @@ polrisk.pl###footer > .limited > .last.column
 polsat.pl###subSite-find-onFB
 polsatbox.pl###fbSticker
 polsatbox.pl###footer .column > li:first-of-type > strong
+polsatbox.pl##.social-link
 polsatboxgo.pl,polsatgo.pl##div > div > a[href*=".com/"][target] > svg
 polsatnews.pl##.covid__share
 polsatnews.pl##.news__share > ul.nav__items > .nav__item:not(.nav__item--comments), .nav--social-box.nav > .nav__items > .nav__item:nth-of-type(-n+5)
