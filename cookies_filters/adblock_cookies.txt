@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.9.23.0
-! Last modified: Sat, 23 Sep 2023, 18:31 UTC+02:00
+! Version: 2023.9.24.0
+! Last modified: Sun, 24 Sep 2023, 00:08 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.9.23.0 aktualizacja: sob, 23 wrz 2023, 18:31 UTC+02:00
+! v.2023.9.24.0 aktualizacja: nie, 24 wrz 2023, 00:08 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2289,6 +2289,7 @@ pomorskie.eu###cookiesinfoPWU
 pomorskie.travel###cookiesInfoPOT
 pooparzeniu.pl##.cookiesInfoHolder
 popaopa.pl###popup-content
+popeyeschicken.pl#?#div[data-testid="footer"]:-abp-has(div[class*="toast"])
 porowneo.pl#?#footer > div[class^="sc-"]:nth-last-child(-n+2):-abp-has(> button ~ div > a[href*="rules=polityka_prywatnosci"])
 porsche.pl##.full_modal_cookie_background
 portale-randkowe-ranking.pl,valtra.pl##.disclaimer
