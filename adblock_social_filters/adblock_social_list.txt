@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.9.19.1
-! Last modified: Tue, 19 Sep 2023, 20:08 UTC+02:00
+! Version: 2023.9.24.0
+! Last modified: Sun, 24 Sep 2023, 00:08 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.9.19.1 aktualizacja: wto, 19 wrz 2023, 20:08 UTC+02:00
+! v.2023.9.24.0 aktualizacja: nie, 24 wrz 2023, 00:08 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -714,6 +714,7 @@ pl##.theChampWykopBackground.theChampSharing
 pl##.tieicon-facebook
 pl##.tieicon-twitter
 pl##.toolbar-fb
+pl##.top-bar .social a:not([href="/rss"])
 pl##.top__fb
 pl##.top__insta
 pl##.top__yt
@@ -771,6 +772,7 @@ pl##a[title="Instagram"]
 pl##button[id*="componentsArticleFoot"][id*="Facebook"], button[id*="componentsArticleFoot"][id*="Twitter"]
 pl##div[id^="profilki_socialbuttons_"]
 pl##footer .fb_button
+pl##footer .social a:not([href="/rss"])
 pl##img[src="./images/icons/nk.png"]
 pl##img[src="/images/fb1.png"]
 pl##img[src="/img/nk_logo.png"]
@@ -1171,6 +1173,7 @@ amw.com.pl##.footer-top__box > div.col-xs-12.col-mx-5
 analizy.pl##.footer-icons > ul > li:nth-child(-n+7)
 analizy.pl##.footerSocialWrap
 anauk.net###my-tab
+android.com,pkl.pl,sklep.widzew.com,superubezpieczenia.pl,uzywanygwarantowany.pl##.social-network
 androidstuff.pl##.uk-text-right .uk-grid.uk-flex-right.uk-grid-small.uk-child-width-auto > div > a
 andrzejgrzyb.eu,kryptopomocnik.pl,radiogol.pl##.widget-do-etfw
 anetaduk.com##.icons > li:nth-child(-n+3)
@@ -5667,6 +5670,9 @@ oko.press,techpolska.pl##.footer-social-share
 okruch-zlota.eu##footer div.box:nth-of-type(3) > h4
 oksport.pl##.facebook-link-wrapper
 oktawave.com###footer-content .text-center.col-xs-12.col-sm-4, #footer-contact .main-row.row > .col-xs-12.col-sm-4
+olawa24.pl#?#a[href*=".com/"]:-abp-has(.o24-facebook)
+olawa24.pl#?#a[href*=".com/"]:-abp-has(.o24-instagram)
+olawa24.pl#?#a[href*=".com/"]:-abp-has(.o24-youtube-play)
 olayanails.com##.footer_contact.footer_links a[href*=".com/"] > i
 olczak.info##table:first-of-type > tbody > tr > td:nth-of-type(4) > a > img, table:first-of-type > tbody > tr > td:nth-of-type(4) > f:nth-of-type(2) > f > a > img
 oldcamera.pl###twitter-follow-3
@@ -6015,7 +6021,6 @@ pizzahut.pl#?#li.ph-footer-navigation-header:-abp-contains(ZNAJDŹ PIZZA HUT)
 pizzahut.pl#?#li.ph-footer-navigation-header:-abp-contains(ZNAJDŹ PIZZA HUT) ~ li.footer-icon
 pizzapelati.pl###musli2
 pizzastation.pl##.fb_metka
-pkl.pl,sklep.widzew.com,superubezpieczenia.pl,uzywanygwarantowany.pl##.social-network
 pkm.jaworzno.pl###social-media-widget
 pkm.jaworzno.pl##.social-btn
 pkmolkusz.pl###element_91
@@ -6107,6 +6112,7 @@ pl.waterdrop.com##div.Footer__Block--text:nth-of-type(3)
 pl.waterdrop.com,sklep.kawa.pl##.Footer__Social
 pl.web.silcare.com###u80876
 pl.wix.com##a[href*="instagram.com/wix/"], a[href*="linkedin.com/company/wix.com"], a[href*="facebook.com/wix"], a[href*="twitter.com/wix"]
+pl.y8.com##.follow-us
 pl.youtubers.me###sharer-side
 placesandplants.com##footer div.col:nth-of-type(2) div.widget:nth-of-type(3), footer div.col:nth-of-type(2) div.widget:first-of-type, footer div.col:nth-of-type(3) > div.widget:first-of-type > .widget-title, .socialMediaOnEveryPost
 planeta.pl##.social__title
@@ -6294,6 +6300,7 @@ pompaspeak.pl##div.row:nth-of-type(2) > .span12 > .thumbnails > li.span3:first-o
 pompaspeak.pl##div.row:nth-of-type(2) > .span12 > .thumbnails > li.span3:nth-of-type(4) > .thumbnail
 pompateam.pl##div.col-sm-5.col-md-5.col-lg-5:nth-of-type(4)
 ponadograniczeniami.org#?#.et_pb_section:-abp-contains(Bądź z nami na bieżąco)
+popeyeschicken.pl##div[class*="social-icons-container"]
 popeyespolska.com##footer > nav:first-child > div:last-child
 popeyespolska.com#?#section ~ section:-abp-contains(/Dołącz do\s + Naszych\sLudzi\s + na socialach/)
 popkulturysci.pl##.awac-wrapper
@@ -7394,6 +7401,7 @@ spzozzelow.pl###Mod91
 srodmiescie.warszawa.pl##.nk-share, .wykop-share, .gg-share
 srw.org.pl##.navibar-social
 ssangyong.pl##.facebook-big
+ssl24.pl##a.tw
 ssl24.pl,strefa.fm##.fbook
 st.pl##.text-center a[href*="instagram.com/"]
 stacja7.pl###icon-google-plus
