@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.10.1.1
-! Last modified: Sun, 01 Oct 2023, 02:31 UTC+02:00
+! Version: 2023.10.2.0
+! Last modified: Mon, 02 Oct 2023, 22:20 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.10.1.1 aktualizacja: nie, 01 paź 2023, 02:31 UTC+02:00
+! v.2023.10.2.0 aktualizacja: pon, 02 paź 2023, 22:20 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1095,6 +1095,7 @@ fitfood.pl#?##app > #wrapper > div[class]:not([id]):-abp-contains(plików cookie
 fitomento.com##.navbar-inner
 fiveoclock.eu,nessi-sport.com,oko.press,pl-pl.segway.com,pl.tradingview.com,worldcam.live##.cookie-message
 fivesport.pl###rodo_delivery_container, .rodo_background
+flegamax.pl##.popup-wrapper--cookies
 flex.orange.pl##div[id^="CookiesPopup_cookies-popup_"]
 flex.orange.pl#?#div[style*="fixed"]:-abp-has(a[href*="/view/cookies"])
 flex.orange.pl#?#footer h5:-abp-contains(Śledź nas)
@@ -3347,8 +3348,8 @@ com,eu,pl###cookie-notice:not(body):not(html)
 com,eu,pl##body:not(.cli-barmodal-open) #cookie-law-info-again
 com,eu,pl##body:not(.cli-barmodal-open) #cookie-law-info-bar:not(.cli-bar-popup):not(.cli-modal-content)
 com,pl##.cc-revoke:not(body):not(html)
-org,pl###amp-user-notification1:not(body):not(html)
-org,pl##amp-consent
+org,pl##html:not(.i-amphtml-scroll-disabled) #amp-user-notification1
+org,pl##html:not(.i-amphtml-scroll-disabled) amp-consent
 pl###accept-cookies-question:not(body):not(html)
 pl###accept_cookies:not(body):not(html):not(button):not([class*="btn"])
 pl###AcceptCookie:not(body):not(html)
