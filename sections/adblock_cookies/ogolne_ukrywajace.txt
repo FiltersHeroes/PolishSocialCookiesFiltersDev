@@ -107,8 +107,8 @@ com,eu,pl###cookie-notice:not(body):not(html)
 com,eu,pl##body:not(.cli-barmodal-open) #cookie-law-info-again
 com,eu,pl##body:not(.cli-barmodal-open) #cookie-law-info-bar:not(.cli-bar-popup):not(.cli-modal-content)
 com,pl##.cc-revoke:not(body):not(html)
-org,pl###amp-user-notification1:not(body):not(html)
-org,pl##amp-consent
+org,pl##html:not(.i-amphtml-scroll-disabled) #amp-user-notification1
+org,pl##html:not(.i-amphtml-scroll-disabled) amp-consent
 pl###accept-cookies-question:not(body):not(html)
 pl###accept_cookies:not(body):not(html):not(button):not([class*="btn"])
 pl###AcceptCookie:not(body):not(html)
