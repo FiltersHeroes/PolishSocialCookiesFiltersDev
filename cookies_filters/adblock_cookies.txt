@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.10.2.0
-! Last modified: Mon, 02 Oct 2023, 22:20 UTC+02:00
+! Version: 2023.10.5.0
+! Last modified: Thu, 05 Oct 2023, 23:44 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.10.2.0 aktualizacja: pon, 02 paź 2023, 22:20 UTC+02:00
+! v.2023.10.5.0 aktualizacja: czw, 05 paź 2023, 23:44 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -159,7 +159,7 @@ albatrosbus.pl,atrakcje.com.pl,atrakcjenaimprezy.pl,bileteria-online.pl,dialog.m
 aldi.pl,dobrebistro.eatbu.com##.mod-cookie-consent
 aldi.pl,netgear.com,technisat.com###usercentrics-root
 alegotowka.pl,chwilowkomat.pl,halopozyczka.pl,quadralite.pl###cookies-law
-aleje-smaku-katowice.skubacz.pl,barfoodporn.pl,barmlecznykukuryku.pl,cmp.med.pl,fon-pizza.skubacz.pl,gls-group.com,ichgcp.net,lavineria.pl,montersi.pl,nbp.pl,pizzaujana.pl,ukucharek.com.pl,upajdydabrowka.pl##html #cc--main[class]
+aleje-smaku-katowice.skubacz.pl,barfoodporn.pl,barmlecznykukuryku.pl,cmp.med.pl,fon-pizza.skubacz.pl,gls-group.com,ichgcp.net,lavineria.pl,medexpress.pl,montersi.pl,nbp.pl,pizzaujana.pl,ukucharek.com.pl,upajdydabrowka.pl##html #cc--main[class]
 alekino.com###cookies-info-wrapper
 alepromocje.pl##.ale-cookies-info
 alerabat.com###popup-rodo
@@ -3093,7 +3093,7 @@ zyro.com##.zyro-cookies
 ||cmp.quantcast.com/choice/*.is/*$rewrite=abp-resource:blank-js,script,domain=time.is
 ||cmp.quantcast.com/choice/*.net/*$rewrite=abp-resource:blank-js,script,domain=legia.net|newonce.net
 ||cmp.quantcast.com/choice/*.org/*$rewrite=abp-resource:blank-js,script,domain=aternos.org
-||cmp.quantcast.com/choice/*.pl/*$rewrite=abp-resource:blank-js,script,domain=24wspolnota.pl|adresowo.pl|android.com.pl|antyweb.pl|aszdziennik.pl|bp24.pl|dadhero.pl|dobryslownik.pl|e-commerce.pl|elle.pl|forumneurologiczne.pl|gazetki.pl|gizmaniak.pl|glamour.pl|glamrap.pl|gry-online.pl|hejto.pl|innpoland.pl|instrukcjaobslugipdf.pl|ithardware.pl|kalendarz-365.pl|kobieta.pl|mamadu.pl|medme.pl|mmorpg.org.pl|mojegotowanie.pl|mojpieknyogrod.pl|mp.pl|naekranie.pl|natemat.pl|national-geographic.pl|nowiny.pl|polskieradio24.pl|przyslijprzepis.pl|radiokierowcow.pl|rozklad-pkp.pl|sieciprawdy.pl|sieradzak.pl|smakosze.pl|tabletowo.pl|teleman.pl|termedia.pl|tvs.pl|wizaz.pl
+||cmp.quantcast.com/choice/*.pl/*$rewrite=abp-resource:blank-js,script,domain=24wspolnota.pl|adresowo.pl|android.com.pl|antyweb.pl|aszdziennik.pl|biznesinfo.pl|bp24.pl|dadhero.pl|dobryslownik.pl|domekiogrodek.pl|e-commerce.pl|elle.pl|forumneurologiczne.pl|gazetki.pl|gizmaniak.pl|glamour.pl|glamrap.pl|goniec.pl|gry-online.pl|hejto.pl|innpoland.pl|instrukcjaobslugipdf.pl|ithardware.pl|kalendarz-365.pl|kobieta.pl|lelum.pl|mamadu.pl|medme.pl|mmorpg.org.pl|mojegotowanie.pl|mojpieknyogrod.pl|mp.pl|naekranie.pl|natemat.pl|national-geographic.pl|nowiny.pl|pacjenci.pl|polskieradio24.pl|przyslijprzepis.pl|radiokierowcow.pl|rolnikinfo.pl|rozklad-pkp.pl|sieciprawdy.pl|sieradzak.pl|smakosze.pl|swiatgwiazd.pl|swiatzwierzat.pl|tabletowo.pl|teleman.pl|termedia.pl|turysci.pl|tvs.pl|wizaz.pl
 ||cmp.redge.media^$xmlhttprequest,domain=kanalsportowy.pl
 ||consent.cookiebot.com/*/cc.js$script,domain=crclondon.com|elica.com|gitlab.com|storytel.com|wienerberger.pl|ziaja.com
 ||consent.dropbox.com^$subdocument
@@ -4186,8 +4186,6 @@ wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka Origin i AdGuarda, by użytkownicy nie musieli jej subskrybować
-!#if !adguard_ext_android_cb
-!#if !adguard_app_ios
+!#if (!adguard_ext_android_cb && !adguard_app_ios)
 !#include cookies_uB_AG.txt
-!#endif
 !#endif
