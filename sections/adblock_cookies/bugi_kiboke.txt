@@ -20,15 +20,11 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikwschodni.pl,dz
 f5.pl#@#.cookies-popup:not(body):not(html)
 mcdonalds.pl#@#.cookies-info:not(body):not(html)
 ebilet.pl#@##cookies-info
-ebilet.pl#@##cookies-overlay
 electronicbeats.pl#@##BorlabsCookieBox
 elementstore.pl#@##cookie-agree:not(button):not(.btn)
-empik.com#@##app div[class*="ConsentsBanner"]
 empik.com#@#.react-box-container[data-box-key="CookiesConsentsBannerRodoBox"]
-epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not([id*="main"])
-facebook.com#@#body > div[id] ~ script ~ div
-facebook.com#@#div[data-testid="cookie-policy-manage-dialog"]
-facebook.com#@#div[data-testid="cookie-policy-manage-dialog"], body > div[id] ~ script ~ div
+epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not(a):not([id*="main"])
+m.facebook.com#@#div[data-testid="cookie-policy-manage-dialog"], body > div[id] ~ script ~ div
 fxpro.pl#@#.popup-cookies:not(body):not(html)
 goodram.com#@##cookie-container
 gtv.com.pl#@##panel_cookie_dol
