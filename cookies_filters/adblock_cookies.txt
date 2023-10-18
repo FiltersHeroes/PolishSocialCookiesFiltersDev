@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.10.16.0
-! Last modified: Mon, 16 Oct 2023, 02:31 UTC+02:00
+! Version: 2023.10.18.0
+! Last modified: Wed, 18 Oct 2023, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.10.16.0 aktualizacja: pon, 16 paź 2023, 02:31 UTC+02:00
+! v.2023.10.18.0 aktualizacja: śro, 18 paź 2023, 02:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -4121,6 +4121,8 @@ poradykomputerowe.pl,portaloswiatowy.pl#@#.container-cookie:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
 ranking.perspektywy.pl#@##cookieModal ~ .modal-backdrop
+rog-forum.asus.com#@##cookie-policy-info-bg
+rog-forum.asus.com#@##cookieTable, #cookie-policy-info
 selgros.pl#@##cookie_accept
 stilord.pl#@##cookie-overlay:not(.modal):not(.reveal)
 stilord.pl#@#.cookie-bar:not(body):not(html)
