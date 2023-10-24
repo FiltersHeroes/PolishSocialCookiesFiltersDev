@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.10.22.0
-! Last modified: Sun, 22 Oct 2023, 02:32 UTC+02:00
+! Version: 2023.10.24.0
+! Last modified: Tue, 24 Oct 2023, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.10.22.0 aktualizacja: nie, 22 paź 2023, 02:32 UTC+02:00
+! v.2023.10.24.0 aktualizacja: wto, 24 paź 2023, 22:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -4084,6 +4084,7 @@ czyodebrac.pl,czytajsklad.com,ddz24.eu,konecki24.pl,opieka.farm,regioneo.pl,skar
 czyodebrac.pl,czytajsklad.com,ddz24.eu,konecki24.pl,opieka.farm,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,techno-senior.com,wiadomosci-lodz.pl#@##cookie-law-info-again ~ .cli-modal-backdrop
 czyodebrac.pl,czytajsklad.com,ddz24.eu,konecki24.pl,opieka.farm,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,techno-senior.com,wiadomosci-lodz.pl#@##cookie-law-info-bar
 czyodebrac.pl,czytajsklad.com,ddz24.eu,konecki24.pl,opieka.farm,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,techno-senior.com,wiadomosci-lodz.pl#@##cookie-law-info-bar ~ .cli-modal-backdrop
+drogeriapigment.pl#@##rodo-popup-overlay
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikwschodni.pl,dziennikzachodni.pl,e-ogrodek.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gratka.pl,gs24.pl,heyah.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,stronapodrozy.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl#@#body:not(.didomi-popup-open) #didomi-host
 ebilet.pl#@##cookies-info
 electronicbeats.pl#@##BorlabsCookieBox
@@ -4146,6 +4147,7 @@ calvinklein.pl,pl.tommy.com#@#.cookie-notice:not(body):not(html):not(#footer):no
 dkms.pl#@#.cc-banner:not(body):not(html)
 dominospizza.pl#@##cookie-message:not(body):not(html)
 dominospizza.pl#@#aside[class*="Cookie"]
+drogeriapigment.pl,parkiet.com,rp.pl#@##rodo-popup:not(body):not(html):not(.fade):not(.modal)
 ebilet.pl#@##cookies-overlay:not(body):not(html)
 ebilet.pl,orange.pl#@##cookies-info:not(body):not(html)
 elavon.pl#@#.cookiePolicy:not(.reveal):not(body):not(html)
@@ -4163,7 +4165,6 @@ memo-book.pl,zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 migora.pl,motocombo.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
 naekranie.pl#@##modal-rodo-info:not(body):not(html):not(.fade):not(.reveal-modal)
 noweinwestycje.pl#@#.cookieBar:not(body):not(html)
-parkiet.com,rp.pl#@##rodo-popup:not(body):not(html):not(.fade):not(.modal)
 pikio.pl#@##cookie-policy:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
