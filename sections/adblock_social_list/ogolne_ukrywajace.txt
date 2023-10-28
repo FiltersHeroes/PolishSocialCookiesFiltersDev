@@ -586,7 +586,7 @@ pl##a[title="Instagram"]
 pl##button[id*="componentsArticleFoot"][id*="Facebook"], button[id*="componentsArticleFoot"][id*="Twitter"]
 pl##div[id^="profilki_socialbuttons_"]
 pl##footer .fb_button
-pl##footer .social a:not([href="/rss"])
+pl##footer ul.social li a[href*=".com/"]:not([href="/rss"])
 pl##img[src="./images/icons/nk.png"]
 pl##img[src="/images/fb1.png"]
 pl##img[src="/img/nk_logo.png"]
