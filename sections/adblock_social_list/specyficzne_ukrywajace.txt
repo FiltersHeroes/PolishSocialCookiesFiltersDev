@@ -604,9 +604,9 @@ autogielda.pl##.cs-social-media
 autoidea.pl###media img[src*="media.png"], #media img[src*="in.png"]
 autoklub.pl###fb_like_box
 autokult.pl#?#article.article .article > figure.insert__default > .title:-abp-contains(na Instagramie)
-autokult.pl#?#div[class=""] div[class] > span ~ div a[href*="facebook.com/"]
-autokult.pl#?#div[class=""] div[class] > span ~ div a[href*="instagram.com/"]
-autokult.pl#?#div[class=""] div[class] > span:-abp-contains(Dołącz do nas)
+autokult.pl,kobieta.wp.pl#?#div[class=""] div[class] > span ~ div a[href*="facebook.com/"]
+autokult.pl,kobieta.wp.pl#?#div[class=""] div[class] > span ~ div a[href*="instagram.com/"]
+autokult.pl,kobieta.wp.pl#?#div[class=""] div[class] > span:-abp-contains(Dołącz do nas)
 autokult.pl,fitness.wp.pl,fotoblogia.pl,smaczneblogi.pl##.grid-item__social.grid-item
 autokult.pl,fotoblogia.pl##.icon-mail, .post-article-links__header, .social-links--author.social-links
 autokult.pl,fotoblogia.pl##.social-links.share-links > a:not([class*="comment"])
