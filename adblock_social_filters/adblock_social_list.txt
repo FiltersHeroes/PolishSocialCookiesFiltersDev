@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.11.4.0
-! Last modified: Sat, 04 Nov 2023, 01:31 UTC+01:00
+! Version: 2023.11.8.0
+! Last modified: Wed, 08 Nov 2023, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.11.4.0 aktualizacja: sob, 04 lis 2023, 01:31 UTC+01:00
+! v.2023.11.8.0 aktualizacja: śro, 08 lis 2023, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1415,13 +1415,13 @@ autogielda.pl##.cs-social-media
 autoidea.pl###media img[src*="media.png"], #media img[src*="in.png"]
 autoklub.pl###fb_like_box
 autokult.pl#?#article.article .article > figure.insert__default > .title:-abp-contains(na Instagramie)
-autokult.pl#?#div[class=""] div[class] > span ~ div a[href*="facebook.com/"]
-autokult.pl#?#div[class=""] div[class] > span ~ div a[href*="instagram.com/"]
-autokult.pl#?#div[class=""] div[class] > span:-abp-contains(Dołącz do nas)
 autokult.pl,fitness.wp.pl,fotoblogia.pl,smaczneblogi.pl##.grid-item__social.grid-item
 autokult.pl,fotoblogia.pl##.icon-mail, .post-article-links__header, .social-links--author.social-links
 autokult.pl,fotoblogia.pl##.social-links.share-links > a:not([class*="comment"])
 autokult.pl,fotoblogia.pl,smaczneblogi.pl##.footer-data__social
+autokult.pl,kobieta.wp.pl#?#div[class=""] div[class] > span ~ div a[href*="facebook.com/"]
+autokult.pl,kobieta.wp.pl#?#div[class=""] div[class] > span ~ div a[href*="instagram.com/"]
+autokult.pl,kobieta.wp.pl#?#div[class=""] div[class] > span:-abp-contains(Dołącz do nas)
 autokult.pl,urzadzamy.pl##.instagram-media
 autoland.pl##.menu-instagram
 autoline.com.pl,machineryline.pl##.portal-social-urls
