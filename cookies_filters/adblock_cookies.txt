@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.11.5.0
-! Last modified: Sun, 05 Nov 2023, 00:24 UTC+01:00
+! Version: 2023.11.11.0
+! Last modified: Sat, 11 Nov 2023, 21:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.11.5.0 aktualizacja: nie, 05 lis 2023, 00:24 UTC+01:00
+! v.2023.11.11.0 aktualizacja: sob, 11 lis 2023, 21:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -4091,6 +4091,8 @@ elementstore.pl#@##cookie-agree:not(button):not(.btn)
 empik.com#@#.react-box-container[data-box-key="CookiesConsentsBannerRodoBox"]
 epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not(a):not([id*="main"])
 fxpro.pl#@#.popup-cookies:not(body):not(html)
+gemini.pl#@#.cookie-agreement:not(body):not(html)
+gemini.pl#@#.vue-portal-target ~ div:last-child, #modal-cookies
 goodram.com#@##cookie-container
 gtv.com.pl#@##panel_cookie_dol
 heyah.pl#@##didomi-notice
