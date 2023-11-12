@@ -3,7 +3,7 @@ erli.pl##body > #root ~ div[class*=" "]:has(header:has-text(Ustawienia prywatnoÅ
 erli.pl##body[class]:style(overflow: visible !important)
 wlkp24.info###modal-cookies, .modal-backdrop
 answear.com##body > div.modal:has(> div[class*="grid"] > [class*="CookiesConsentPopUp"])
-answear.com##body.modal--open:style(overflow: visible !important)
+answear.com##body.modal--open:style(overflow: visible !important; padding-right: 0 !important; margin-right: 0 !important)
 nadajesz.pl###RODOModal
 nadajesz.pl##body.modal-open > #app, body.modal-open > footer:style(filter: none !important; opacity: unset !important;)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
