@@ -324,6 +324,7 @@ ikea.com##.has-cookie .main-header-wrap:style(top: 0 !important)
 indbuildcraft.pl##.modal-overlay, #modal_cookies
 independentmetals.pl##div.popup:has(a[href*="/polityka-prywatnosci"])
 independentmetals.pl,inteligentnyinwestor.pl##.popup:style(overflow: visible !important)
+info.mobywatel.gov.pl##+js(set-cookie, cookiePolicy, allow)
 infonumer.pl,tanibus.com,wrzesnia.info.pl###rodo, .modal-backdrop
 infor.pl##+js(set-cookie, inforCookieWallCacheVal, 15)
 inframost.info###privacyPoliticsModal, .modal-backdrop
@@ -951,6 +952,7 @@ purepc.pl##.cookiesinfo:remove()
 amway.pl##+js(set, amw.isAnalyticsCookiesAccepted, false)
 amway.pl##+js(set, amw.isCookieConsentAccepted, true)
 amway.pl##+js(set, amw.isMarketingCookiesAccepted, false)
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,pudelek.pl,pysznosci.pl,wp.pl##body > div > div:empty:matches-css(after, content: /K/) ~ div > svg:upward(2)
 hrkgame.com##.modals.dimmer > .gdpr.ui:style(visibility: hidden !important)
 hrkgame.com##.modals.dimmer > .gdpr.visible:upward(1):watch-attr([class])
 !#endif
