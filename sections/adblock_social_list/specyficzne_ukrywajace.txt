@@ -7690,7 +7690,11 @@ www.se.pl##.ending-splash__share
 www.wip.pl##header .fa-facebook-official
 www.wip.pl##header .fa-linkedin
 www.wip.pl##header a[href*="linkedin.com/"]
+www.youtube.com###primary-links > a[href*="facebook.com"], #primary-links > a[href*="fb.me"], #primary-links > a[href*="instagram.com"], #primary-links > a[href*="twitter.com"], #primary-links > a[href*="snapchat.com"], #primary-links > a[href*="twitch.tv"]
+www.youtube.com###secondary-links > a[href*="facebook.com"], #secondary-links > a[href*="fb.me"], #secondary-links > a[href*="instagram.com"], #secondary-links > a[href*="twitter.com"], #secondary-links > [href*="snapchat.com"], #secondary-links > a[href*="twitch.tv"], #secondary-links > a[href*="pinterest.com"]
 www.youtube.com#?#.yt-channel-external-link-view-model-wiz__container:-abp-contains(/Facebook|Instagram|Twitter/)
+www.youtube.com#?#yt-channel-external-link-view-model:-abp-contains(/Facebook|Instagram|Twitter/)
+www.youtube.com#?#yt-share-target-renderer.yt-third-party-share-target-section-renderer:not(:-abp-contains(/(Umieść|E-mail)/))
 wwwlosy.pl##.elementor-widget-uael-social-share a:not([class*="email"])
 wybielanie.pl##a[href*="pinterest.com/beyonddent/"], a[href*="youtube.com/user/beyonddent"]
 wyborcza.biz##.FB, .GPLUS, .foot-summary-buttons-share-face, .foot-summary-buttons-share-tweet
@@ -7764,11 +7768,7 @@ yope.me##.social a:not([href^="mailto:"])
 youlead.pl##.socialmedia > li
 yourhomestory.com.pl##.footer__contact-icons.footer__contact-wrapper > .footer__contact-title
 youtab.pl##.footer_icons_wrapper
-www.youtube.com###primary-links > a[href*="facebook.com"], #primary-links > a[href*="fb.me"], #primary-links > a[href*="instagram.com"], #primary-links > a[href*="twitter.com"], #primary-links > a[href*="snapchat.com"], #primary-links > a[href*="twitch.tv"]
-www.youtube.com###secondary-links > a[href*="facebook.com"], #secondary-links > a[href*="fb.me"], #secondary-links > a[href*="instagram.com"], #secondary-links > a[href*="twitter.com"], #secondary-links > [href*="snapchat.com"], #secondary-links > a[href*="twitch.tv"], #secondary-links > a[href*="pinterest.com"]
-www.youtube.com#?#yt-share-target-renderer.yt-third-party-share-target-section-renderer:not(:-abp-contains(/(Umieść|E-mail)/))
 yuliyababich.eu###AnimalPanel table td > span:nth-of-type(n+6):nth-of-type(-n+9)
-www.youtube.com#?#yt-channel-external-link-view-model:-abp-contains(/Facebook|Instagram|Twitter/)
 yves-rocher.pl##.l-footer__services div.service__column:nth-of-type(2) > div.service__box:nth-of-type(4)
 yves-rocher.pl##div.service__column:nth-of-type(2) > div.service__box:nth-of-type(3)
 yves-rocher.pl#?#div.cmsblock-wrapper:-abp-has(> a:is([href*="facebook.com/"], [href*="instagram.com/"]))
