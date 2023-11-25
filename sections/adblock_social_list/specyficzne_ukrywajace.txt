@@ -7693,10 +7693,10 @@ www.wip.pl##header a[href*="linkedin.com/"]
 www.youtube.com###primary-links > a[href*="facebook.com"], #primary-links > a[href*="fb.me"], #primary-links > a[href*="instagram.com"], #primary-links > a[href*="twitter.com"], #primary-links > a[href*="snapchat.com"], #primary-links > a[href*="twitch.tv"], #primary-links > a[href*="pinterest.com"]
 www.youtube.com###secondary-links > a[href*="facebook.com"], #secondary-links > a[href*="fb.me"], #secondary-links > a[href*="instagram.com"], #secondary-links > a[href*="twitter.com"], #secondary-links > [href*="snapchat.com"], #secondary-links > a[href*="twitch.tv"], #secondary-links > a[href*="pinterest.com"]
 www.youtube.com#?#.yt-channel-external-link-view-model-wiz__container:-abp-contains(/Facebook|Instagram|Twitter/)
-www.youtube.com#?#yt-channel-external-link-view-model:-abp-contains(/Facebook|Instagram|Twitter/)
-www.youtube.com#?#yt-share-target-renderer.yt-third-party-share-target-section-renderer:not(:-abp-contains(/(Umieść|E-mail)/))
 www.youtube.com#?#.yt-channel-external-link-view-model-wiz__container:-abp-has(a[href*="facebook.com"], a[href*="fb.me"], a[href*="instagram.com"], a[href*="twitter.com"], a[href*="snapchat.com"], a[href*="twitch.tv"], a[href*="pinterest.com"])
+www.youtube.com#?#yt-channel-external-link-view-model:-abp-contains(/Facebook|Instagram|Twitter/)
 www.youtube.com#?#yt-channel-external-link-view-model:-abp-has(a[href*="facebook.com"], a[href*="fb.me"], a[href*="instagram.com"], a[href*="twitter.com"], a[href*="snapchat.com"], a[href*="twitch.tv"], a[href*="pinterest.com"])
+www.youtube.com#?#yt-share-target-renderer.yt-third-party-share-target-section-renderer:not(:-abp-contains(/(Umieść|E-mail)/))
 wwwlosy.pl##.elementor-widget-uael-social-share a:not([class*="email"])
 wybielanie.pl##a[href*="pinterest.com/beyonddent/"], a[href*="youtube.com/user/beyonddent"]
 wyborcza.biz##.FB, .GPLUS, .foot-summary-buttons-share-face, .foot-summary-buttons-share-tweet
