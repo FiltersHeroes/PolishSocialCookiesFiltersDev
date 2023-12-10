@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.12.7.1
-! Last modified: Thu, 07 Dec 2023, 22:34 UTC+01:00
+! Version: 2023.12.10.0
+! Last modified: Sun, 10 Dec 2023, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.12.7.1 aktualizacja: czw, 07 gru 2023, 22:34 UTC+01:00
+! v.2023.12.10.0 aktualizacja: nie, 10 gru 2023, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -112,6 +112,8 @@ nowosci-mp3.eu###pop-slap, .bg-pop-over
 nportal.no###fb-overlay
 okiemturysty.pl##.div_box0
 onkyo.pl##div#dwbox-bkg, div#dwbox-box
+ostra-na-slodko.pl##.ArevicoModal-bg
+ostra-na-slodko.pl#?#.ArevicoModal:-abp-has(.fb-page, .fb_iframe_widget)
 ostry-sklep.pl##.rc-popups.box
 petronews.pl##.pps-full-screen.pps-popup, .b-modal
 podrogach.pl###popup_container
