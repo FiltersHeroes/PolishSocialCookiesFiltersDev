@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.12.16.2
-! Last modified: Sat, 16 Dec 2023, 17:31 UTC+01:00
+! Version: 2023.12.17.0
+! Last modified: Sun, 17 Dec 2023, 18:23 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.12.16.2 aktualizacja: sob, 16 gru 2023, 17:31 UTC+01:00
+! v.2023.12.17.0 aktualizacja: nie, 17 gru 2023, 18:23 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3833,7 +3833,7 @@ pl##.cookie-layer:not(body):not(html)
 pl##.cookie-message:not(body):not(html):not(.modal-body)
 pl##.cookie-monster:not(body):not(html)
 pl##.cookie-notice-container:not(body):not(html)
-pl##.cookie-notice:not(body):not(html):not(#footer):not(#wrapper)
+pl##.cookie-notice:not(body):not(html):not(#wrapper):not(#footer)
 pl##.cookie-notification:not(body):not(html)
 pl##.cookie-overlay-box:not(body):not(html)
 pl##.cookie-overlay:not(body):not(html)
@@ -4131,6 +4131,8 @@ ranking.perspektywy.pl#@##cookieModal ~ .modal-backdrop
 rog-forum.asus.com#@##cookie-policy-info-bg
 rog-forum.asus.com#@##cookieTable, #cookie-policy-info
 selgros.pl#@##cookie_accept
+selgros.pl#@##klaro div[class*="cookie-notice"]
+selgros.pl#@#.cookie-notice:not(body):not(html):not(#wrapper):not(#footer)
 sp215.info#@#.cookie-alert:not(body):not(html)
 stilord.pl#@##cookie-overlay:not(.modal):not(.reveal)
 stilord.pl#@#.cookie-bar:not(body):not(html)
