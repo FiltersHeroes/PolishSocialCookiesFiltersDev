@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.12.16.0
-! Last modified: Sat, 16 Dec 2023, 13:31 UTC+01:00
+! Version: 2023.12.17.0
+! Last modified: Sun, 17 Dec 2023, 18:23 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.12.16.0 aktualizacja: sob, 16 gru 2023, 13:31 UTC+01:00
+! v.2023.12.17.0 aktualizacja: nie, 17 gru 2023, 18:23 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -9851,6 +9851,7 @@ patrz.pl#@#.likes
 pecetowicz.pl#@#.fa-twitter.fa
 polityczek.pl,www.dobreprogramy.pl#@##twitter:not(input)
 rkb.pl#@#.fb-top
+selgros.pl#@#.cookie-notice:not(body):not(html):not(#footer):not(#wrapper)
 shinden.pl#@#.fa-youtube-play.fa
 swiatebookow.pl#@#.facebook-button
 system.mpay.pl#@#.icon-twitter
