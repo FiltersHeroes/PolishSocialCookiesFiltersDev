@@ -476,7 +476,9 @@ panattonieurope.com###image-popup.txt-popup, #image-popup-bg
 panoramafirm.pl###modal-rodolayer
 panwybierak.pl,readspeaker.com,sfd.pl###cc_div.cc_div
 panwybierak.pl,readspeaker.com,sfd.pl##html.show--consent[class], html.show--consent[class] body:style(overflow: visible !important)
-parkiet.com,rp.pl##+js(set-cookie, __gm_tcfconsent_v2, 1)
+parkiet.com,rp.pl##+js(set-cookie-reload, __gm_tcfconsent_v2, 1)
+parkiet.com,rp.pl##+js(set-cookie, __gm_tcfconsent_v2, 1, reload, 1)
+parkiet.com,rp.pl###rodo-popup
 patronite.pl##.modal--container:has-text(RODO)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important)
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
