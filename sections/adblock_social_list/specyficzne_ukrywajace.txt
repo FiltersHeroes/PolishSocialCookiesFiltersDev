@@ -7755,7 +7755,7 @@ www.youtube.com#?#yt-channel-external-link-view-model:-abp-contains(/Facebook|In
 www.youtube.com#?#yt-channel-external-link-view-model:-abp-has(a[href*="facebook.com"], a[href*="fb.me"], a[href*="instagram.com"], a[href*="twitter.com"], a[href*="snapchat.com"], a[href*="twitch.tv"], a[href*="pinterest.com"])
 !www.youtube.com#?#yt-share-target-renderer:not(:-abp-contains(/(Umieść|E-mail)/))
 youtube.com##body yt-third-party-share-target-section-renderer > .yt-third-party-share-target-section-renderer ~ yt-icon-button#scroll-button-forward
-youtube.com##.yt-third-party-share-target-section-renderer > yt-share-target-renderer:not([title="Umieść"]):not([title="E-mail"])
+youtube.com##.yt-third-party-share-target-section-renderer > yt-share-target-renderer:not(:has([title="Umieść"], [title="E-mail"]))
 wwwlosy.pl##.elementor-widget-uael-social-share a:not([class*="email"])
 wybielanie.pl##a[href*="pinterest.com/beyonddent/"], a[href*="youtube.com/user/beyonddent"]
 wyborcza.biz##.FB, .GPLUS, .foot-summary-buttons-share-face, .foot-summary-buttons-share-tweet
