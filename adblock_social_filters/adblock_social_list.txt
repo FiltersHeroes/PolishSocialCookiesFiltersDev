@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.12.20.0
-! Last modified: Wed, 20 Dec 2023, 00:18 UTC+01:00
+! Version: 2023.12.25.0
+! Last modified: Mon, 25 Dec 2023, 09:50 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.12.20.0 aktualizacja: śro, 20 gru 2023, 00:18 UTC+01:00
+! v.2023.12.25.0 aktualizacja: pon, 25 gru 2023, 09:50 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -800,6 +800,7 @@ pl,~wykop.pl##.wykop
 !
 !
 ! Specyficzne reguły ukrywające
+!www.youtube.com#?#yt-share-target-renderer:not(:-abp-contains(/(Umieść|E-mail)/))
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -8633,7 +8634,6 @@ www.youtube.com#?#.yt-channel-external-link-view-model-wiz__container:-abp-conta
 www.youtube.com#?#.yt-channel-external-link-view-model-wiz__container:-abp-has(a[href*="facebook.com"], a[href*="fb.me"], a[href*="instagram.com"], a[href*="twitter.com"], a[href*="snapchat.com"], a[href*="twitch.tv"], a[href*="pinterest.com"])
 www.youtube.com#?#yt-channel-external-link-view-model:-abp-contains(/Facebook|Instagram|Twitter/)
 www.youtube.com#?#yt-channel-external-link-view-model:-abp-has(a[href*="facebook.com"], a[href*="fb.me"], a[href*="instagram.com"], a[href*="twitter.com"], a[href*="snapchat.com"], a[href*="twitch.tv"], a[href*="pinterest.com"])
-www.youtube.com#?#yt-share-target-renderer.yt-third-party-share-target-section-renderer:not(:-abp-contains(/(Umieść|E-mail)/))
 wwwlosy.pl##.elementor-widget-uael-social-share a:not([class*="email"])
 wybielanie.pl##a[href*="pinterest.com/beyonddent/"], a[href*="youtube.com/user/beyonddent"]
 wyborcza.biz##.FB, .GPLUS, .foot-summary-buttons-share-face, .foot-summary-buttons-share-tweet
@@ -8708,6 +8708,8 @@ yope.me##.social a:not([href^="mailto:"])
 youlead.pl##.socialmedia > li
 yourhomestory.com.pl##.footer__contact-icons.footer__contact-wrapper > .footer__contact-title
 youtab.pl##.footer_icons_wrapper
+youtube.com##.yt-third-party-share-target-section-renderer > yt-share-target-renderer:not(:has([title="Umieść"], [title="E-mail"]))
+youtube.com##body yt-third-party-share-target-section-renderer > .yt-third-party-share-target-section-renderer ~ yt-icon-button#scroll-button-forward
 yuliyababich.eu###AnimalPanel table td > span:nth-of-type(n+6):nth-of-type(-n+9)
 yves-rocher.pl##.l-footer__services div.service__column:nth-of-type(2) > div.service__box:nth-of-type(4)
 yves-rocher.pl##div.service__column:nth-of-type(2) > div.service__box:nth-of-type(3)
