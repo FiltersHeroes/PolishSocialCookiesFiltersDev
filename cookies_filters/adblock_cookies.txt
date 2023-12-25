@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.12.20.0
-! Last modified: Wed, 20 Dec 2023, 00:18 UTC+01:00
+! Version: 2023.12.25.0
+! Last modified: Mon, 25 Dec 2023, 09:50 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.12.20.0 aktualizacja: śro, 20 gru 2023, 00:18 UTC+01:00
+! v.2023.12.25.0 aktualizacja: pon, 25 gru 2023, 09:50 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -4077,7 +4077,7 @@ xboxforum.pl##.notice--cookie
 gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
-! Bugi Kiboke
+! Bugi Avast
 @@/jquery.cookiebar$domain=pl
 @@/wp-content/plugins/cookie-law-info/*$domain=eu|pl
 @@/wp-content/plugins/cookie-law-info/admin/*
@@ -4125,6 +4125,7 @@ heyah.pl#@##didomi-notice
 homebook.pl#@#.hb-layout ~ div
 klarta.pl#@#.cookie-message:not(body):not(html):not(.modal-body)
 klarta.pl#@#.cookiebar-close:not(body):not(html)
+kosmetykinaturalne.com.pl#@#.cookie_modal:not(body):not(html)
 lomza.pl#@##komunikat-cookie
 m.facebook.com#@#div[data-testid="cookie-policy-manage-dialog"], body > div[id] ~ script ~ div
 maxelektro.pl#@##cookie-info
