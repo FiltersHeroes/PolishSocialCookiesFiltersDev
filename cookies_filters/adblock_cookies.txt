@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2023.12.29.0
-! Last modified: Fri, 29 Dec 2023, 00:03 UTC+01:00
+! Version: 2023.12.31.0
+! Last modified: Sun, 31 Dec 2023, 13:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2023.12.29.0 aktualizacja: pią, 29 gru 2023, 00:03 UTC+01:00
+! v.2023.12.31.0 aktualizacja: nie, 31 gru 2023, 13:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -4212,6 +4212,7 @@ visa.pl#@#span[class*="Cookie"]:not(.closeCookie)
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 !@@||consensu.$domain=fly4free.pl
 !@@||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=gry.pl
+@@/jquery-eu-cookie-law-popup.js$script,domain=agagrzelak.pl
 @@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
 @@||consensu.*/js/cmp.stable.min.js$script,domain=shinden.pl
 @@||pracatobie.pl/jscripts/cookieLaws.js
