@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.1.15.1
-! Last modified: Mon, 15 Jan 2024, 23:35 UTC+01:00
+! Version: 2024.1.18.0
+! Last modified: Thu, 18 Jan 2024, 23:35 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.1.15.1 aktualizacja: pon, 15 sty 2024, 23:35 UTC+01:00
+! v.2024.1.18.0 aktualizacja: czw, 18 sty 2024, 23:35 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -586,6 +586,7 @@ centrumpilkarskie.pl##div.jqibox
 centrumreklamy.com,imperiumreklamy.com,zielonymail.com###CookieInfoBlock
 centrumsportu.com.pl#?##panel_popup.panel_popup:-abp-has(.artykul)
 centrumwloczek.pl###coocieConsent
+centrumxp.pl###app > div.Toastify ~ div[class]:not([class*=" "])
 centrumxp.pl###cookiesPolicyAccept
 cenum.pl##.cssmessage
 cepelia.com.pl,kultura-regionow.pl,mcksokol.pl,muzeum.sacz.pl,sandecja.org,sandecja.tv###overflow-content
