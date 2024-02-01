@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.1.20.1
-! Last modified: Sat, 20 Jan 2024, 21:31 UTC+01:00
+! Version: 2024.2.1.0
+! Last modified: Thu, 01 Feb 2024, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.1.20.1 aktualizacja: sob, 20 sty 2024, 21:31 UTC+01:00
+! v.2024.2.1.0 aktualizacja: czw, 01 lut 2024, 01:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1607,6 +1607,8 @@ ksiegarnia.budowlana.pl##body > .center > #container > div[style*="position"][st
 ksiegarnia.iaepan.vot.pl###sp-popup-126
 ksow.pl,wzp.pl###myrodoinfo
 kswesola.pl##body > center + center > div > font
+ktomalek.pl,lekarzebezkolejki.pl##.ui-widget.ui-dialog[aria-describedby="cookies"]
+ktomalek.pl,lekarzebezkolejki.pl##.ui-widget.ui-dialog[aria-describedby="cookies"] ~ .ui-widget-overlay
 ktw.mbpstarogard.pl###cp_alert_h
 kubisa.pl#?##innertop .deepest.module > p:-abp-has(a[href*="/polityka-prywatnosci"])
 kuchniapelnanagrod.pl##div#claw-prompt
