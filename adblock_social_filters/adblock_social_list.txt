@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.2.1.0
-! Last modified: Thu, 01 Feb 2024, 22:14 UTC+01:00
+! Version: 2024.2.6.0
+! Last modified: Tue, 06 Feb 2024, 00:19 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.2.1.0 aktualizacja: czw, 01 lut 2024, 22:14 UTC+01:00
+! v.2024.2.6.0 aktualizacja: wto, 06 lut 2024, 00:19 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2648,10 +2648,10 @@ drzwi-cal.pl##.facebook-messenger-avatar
 drzwi-cal.pl##.socials-sharing
 drzwi-gerda.com##footer #top-footer #nav_menu-2
 drzwiklamki.pl###social_block, #left_share_fb, .social-sharing
+drzwimartom.pl,dstreet.pl,idosell.com,luxdentica.pl,zegaryzegarki.pl##.social_media
 drzwioknabramy.eu,smartserwis24.pl##.socialsharing_product
 drzwioknabramy.eu,zippedshoes.com###facebook-content
 drzwionline.net#?#h5:-abp-contains(ODWIEDŹ NAS)
-dstreet.pl,idosell.com,luxdentica.pl,zegaryzegarki.pl##.social_media
 dts24.pl##.col-md-4.footer-sidebar:nth-of-type(3)
 duckduckgo.com##.js-side-menu-twitter, .nav-menu--social-media
 duckduckgo.com##a.js-footer-link[href*="twitter"], a.js-footer-link[href*="reddit"]
@@ -3241,6 +3241,8 @@ flaconi.pl##div[class*="FooterTruststyle__SocialWrapper-"]
 flaconi.pl##footer.c-page-foot > div.o-grid > div.o-cell:nth-of-type(2) > div.o-grid > div.o-cell:nth-of-type(2)
 flarrow.pl##.td-instagram-element, .td-instagram-header
 flarrow.pl##.td-ss-main-sidebar > div:nth-of-type(3)
+flatart.pl##.contact-facebook
+flatart.pl#?##kontakt p:-abp-has(+ .contact-facebook)
 flex.orange.pl###flex-footer section:nth-of-type(4)
 flex.orange.pl##footer section:nth-of-type(4)
 flexlink.com###block-footer-links-social
@@ -7723,6 +7725,7 @@ sygnaturazdrowia.pl##.col-sm-3.col-md-3.col-lg-3.fusion-column:nth-of-type(3)
 sykomat.com.pl##.footer-widgets #nav_menu-4
 symbiosis.com.pl##.socialMedia-icons
 syngenta.pl#?#.pane-bundle-syn-fpp-icon-social:-abp-contains(Sprawdź)
+syrion.pl##.box-socials
 szachownica.com.pl##.home-social-container
 szadek.net#?#li > a[href*=""]:-abp-contains(Facebook)
 szczebrzeszyn.info##.u-social-icons
@@ -9743,7 +9746,6 @@ tvn.pl,tvnturbo.pl,~www.tvn.pl##li.vjs-menu-item[class*="share"]:not(.vjs-share-
 uwaga.tvn.pl##.insta-widget, .section-social, .socialmedia > ul > .youtube
 video.wp.pl##.social
 vmc.org.pl##.itemSocialSharing
-vod.pl##.v_shortTwShare, .v_shortFbShare
 wbi.onet.pl##.contentShareLeft
 webcamera.pl###footerbar div.col-md-3.col-sm-6:nth-of-type(4) > h2
 webcamera.pl##.ico-social, .social, .floating-box-facebook
