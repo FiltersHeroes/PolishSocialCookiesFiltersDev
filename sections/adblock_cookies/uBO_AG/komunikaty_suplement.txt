@@ -1,3 +1,6 @@
+!infor.pl##+js(set-cookie, inforCookieWallCacheVal, 15)
+!warszawskakranowka.pl##+js(set-cookie, rodo_warszawskakranowka, 1)
+!www2.hm.com##+js(set-cookie, hm_gdpr_read, true)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important)
@@ -299,7 +302,6 @@ independentmetals.pl##div.popup:has(a[href*="/polityka-prywatnosci"])
 independentmetals.pl,inteligentnyinwestor.pl##.popup:style(overflow: auto !important)
 info.mobywatel.gov.pl##+js(set-cookie, cookiePolicy, allow)
 infonumer.pl,tanibus.com,wrzesnia.info.pl###rodo, .modal-backdrop
-!infor.pl##+js(set-cookie, inforCookieWallCacheVal, 15)
 inframost.info###privacyPoliticsModal, .modal-backdrop
 innogy.pl###cookie-wall-container
 innogy.pl##html.cookie-wall-active body:style(overflow: auto !important)
@@ -670,7 +672,6 @@ vwbank.pl,vwfs.pl###cookie-manage-button-control
 vwfs.pl##.fancybox-container:has(#modal-cookie-disclaimer)
 wagrowiecmiasto.konsultacjejst.pl###gdpr__modal, #gdpr__overlay
 wagrowiecmiasto.konsultacjejst.pl##body.noscroll:style(overflow-y: auto !important)
-!warszawskakranowka.pl##+js(set-cookie, rodo_warszawskakranowka, 1)
 warta.pl###cookieman-modal, #cookieman-modal ~ .modal-backdrop
 wearmedicine.com##.modal--open:style(overflow-y: auto !important; width: 100% !important)
 wearmedicine.com##.modal:has(div[class*="Cookies"])
@@ -701,7 +702,6 @@ wostal.pl##.fancybox-wrap:has(img[src*="RODO"])
 wroclaw.pl##+js(set-cookie, iRodoInfo, 1)
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important)
-!www2.hm.com##+js(set-cookie, hm_gdpr_read, true)
 www.google.com,www.google.pl##+js(acis, document.getElementById, CONSENT=YES)
 www.google.com,www.google.pl##div[class][role="dialog"] > #cnsp:has(> div[class][aria-live="polite"]):upward(2)
 www.pekao.com.pl##.reveal-overlay:has(#gdpr-popup)
