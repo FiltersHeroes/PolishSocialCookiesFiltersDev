@@ -24,6 +24,9 @@ eu,pl#@#body > div:not([id]):not([class])
 ||doubleclick.net/pagead/managed/js/gpt$redirect-rule=googletagservices_gpt.js:5,script,domain=downdetector.pl
 ||doubleclick.net/pagead/managed/js/gpt$redirect=googletagservices-gpt,script,domain=downdetector.pl
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
+!infor.pl##+js(set-cookie, inforCookieWallCacheVal, 15)
+!warszawskakranowka.pl##+js(set-cookie, rodo_warszawskakranowka, 1)
+!www2.hm.com##+js(set-cookie, hm_gdpr_read, true)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important)
@@ -142,7 +145,6 @@ bsh-group.com##body.locked, html.locked:style(overflow: auto !important; height:
 bsjarocin.pl##.mfp-ready.mfp-wrap
 bsjarocin.pl##.themify-popup
 bsjarocin.pl,zsgarwolin.pl##.mfp-ready.mfp-bg
-budujmase.pl,drogerium.pl,trec.pl,wylecz.to##+js(set-cookie, rodoHfM, true, , reload, 1)
 budujmase.pl,drogerium.pl,trec.pl,wylecz.to##+js(set-cookie-reload, rodoHfM, true)
 burgerking.pl,secure.edu.pl##.modal:has(.cookies-modal)
 bydgoszczak.pl,kaliszak.pl,katowiczak.pl##.rodo, .rodo_layer
@@ -262,10 +264,9 @@ eschenker.dbschenker.com###es-shell-overlay-container:has(es-privacy-modal)
 eschenker.dbschenker.com##+js(ra, style, [style*="pointer-events"][style*="none"], stay)
 eschenker.dbschenker.com##.es-shell-global-scrollblock:style(overflow-y: auto !important)
 eschenker.dbschenker.com##[style*="pointer-events"][style*="none"]:style(pointer-events: auto !important)
-espedytor.pl##+js(set-cookie, zgodaRODO, true)
+espedytor.pl##+js(set-cookie-reload, zgodaRODO, true)
 etsy.com###gdpr-single-choice-overlay
 etsy.com##html > body[class*="body-no-scroll"]:style(position: static !important; overflow: auto !important; padding-right: 0 !important)
-f1racing.pl##+js(set-cookie, x-id-cookie-yes, 1, , reload, 1)
 f1racing.pl##+js(set-cookie-reload, x-id-cookie-yes, 1)
 fabrykacukiernika.pl##.rodo-on:style(overflow: auto !important)
 fabrykacukiernika.pl##.rodo-popup
@@ -327,7 +328,6 @@ independentmetals.pl##div.popup:has(a[href*="/polityka-prywatnosci"])
 independentmetals.pl,inteligentnyinwestor.pl##.popup:style(overflow: auto !important)
 info.mobywatel.gov.pl##+js(set-cookie, cookiePolicy, allow)
 infonumer.pl,tanibus.com,wrzesnia.info.pl###rodo, .modal-backdrop
-infor.pl##+js(set-cookie, inforCookieWallCacheVal, 15)
 inframost.info###privacyPoliticsModal, .modal-backdrop
 innogy.pl###cookie-wall-container
 innogy.pl##html.cookie-wall-active body:style(overflow: auto !important)
@@ -507,17 +507,13 @@ panwybierak.pl,readspeaker.com,sfd.pl###cc_div.cc_div
 panwybierak.pl,readspeaker.com,sfd.pl##html.show--consent[class], html.show--consent[class] body:style(overflow-y: auto !important)
 panwybierak.pl,readspeaker.com,sfd.pl#@#html.show--consent[class], html.show--consent[class] body:style(overflow: visible !important)
 parkiet.com,rp.pl###rodo-popup
-parkiet.com,rp.pl##+js(set-cookie, __gm_tcfconsent_v2, 1, , reload, 1)
 parkiet.com,rp.pl##+js(set-cookie-reload, __gm_tcfconsent_v2, 1)
 patronite.pl##.modal--container:has-text(RODO)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important)
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
 pdf24.org##html.hasCookieBannerOverlay:style(overflow: auto !important)
 pdf24.org##iframe#cookieBannerOverlay
-pepper.pl##+js(set-cookie, cookie_policy_agreement, 3)
-pepper.pl##.zIndex--modal.popover-cover
-pepper.pl##body.overflow--hidden:style(overflow: auto !important)
-pepper.pl##div[data-t="cookiesMessage"]:remove()
+pepper.pl##+js(set-cookie-reload, cookie_policy_agreement, 3)
 petycjeonline.com###cookie_consent_modal, .modal-backdrop
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
 pl###kopageBar > #kopageBarCookies:upward(1)
@@ -599,7 +595,7 @@ secure.edu.pl##.modal:has(.cookies-modal) ~ .modal-backdrop
 selgros.pl##.klaro-is-displayed:style(overflow: auto !important)
 selgros.pl##div#klaro
 sellizer.pl##.cookies-visible .header-main:style(top: 0 !important)
-senda.pl##+js(set-cookie, cookieConsent3, true)
+senda.pl##+js(set-cookie, sendapl_phpbb3_ca, 1)
 sephora.pl###header:style(margin-top: 41px !important)
 sephora.pl##.bandeBody:style(top: 0 !important)
 serialowa.pl##html.pum-open:style(overflow: auto !important)
@@ -702,7 +698,6 @@ vwbank.pl,vwfs.pl###cookie-manage-button-control
 vwfs.pl##.fancybox-container:has(#modal-cookie-disclaimer)
 wagrowiecmiasto.konsultacjejst.pl###gdpr__modal, #gdpr__overlay
 wagrowiecmiasto.konsultacjejst.pl##body.noscroll:style(overflow-y: auto !important)
-warszawskakranowka.pl##+js(set-cookie, rodo_warszawskakranowka, 1)
 warta.pl###cookieman-modal, #cookieman-modal ~ .modal-backdrop
 wearmedicine.com##.modal--open:style(overflow-y: auto !important; width: 100% !important)
 wearmedicine.com##.modal:has(div[class*="Cookies"])
@@ -733,7 +728,6 @@ wostal.pl##.fancybox-wrap:has(img[src*="RODO"])
 wroclaw.pl##+js(set-cookie, iRodoInfo, 1)
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important)
-www2.hm.com##+js(set-cookie, hm_gdpr_read, true)
 www.google.com,www.google.pl##+js(acis, document.getElementById, CONSENT=YES)
 www.google.com,www.google.pl##div[class][role="dialog"] > #cnsp:has(> div[class][aria-live="polite"]):upward(2)
 www.pekao.com.pl##.reveal-overlay:has(#gdpr-popup)
