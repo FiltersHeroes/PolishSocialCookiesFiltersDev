@@ -32,7 +32,7 @@
 !#endif
 !#if ext_ublock
 !#if cap_user_stylesheet
-@include komunikaty_uBO
+@include komunikaty_uBO + komunikaty_uBO_AG_konwersja
 !#endif
 !#endif
 !#if !env_mobile
@@ -40,4 +40,5 @@
 !#endif
 !#if !ext_ublock
 @include komunikaty_AdGuard
+@AGinclude komunikaty_uBO_AG_konwersja
 !#endif
