@@ -5,7 +5,7 @@ on: workflow_dispatch
 jobs:
   Aktualizacja:
     runs-on: ubuntu-latest
-    container: ghcr.io/filtersheroes/sflb_image:3.0.14
+    container: ghcr.io/filtersheroes/sflb_image:3.0.15
     permissions:
       contents: write
     steps:

@@ -22,7 +22,11 @@
 !#endif
 !#endif
 !#if cap_html_filtering
+!#if ext_ublock
 @include komunikaty_html
+!#endif
+!#if !ext_ublock
+@AGinclude komunikaty_uBO_AG_html_konwersja
 !#endif
 !#if !cap_user_stylesheet
 @include komunikaty_bez_styli_uzytkownika
