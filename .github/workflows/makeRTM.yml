@@ -14,7 +14,7 @@ on:
 jobs:
   Aktualizacja:
     runs-on: ubuntu-latest
-    container: ghcr.io/filtersheroes/rtm_image:3.0.16
+    container: ghcr.io/filtersheroes/rtm_image:3.0.17
     permissions:
       contents: write
     steps:
