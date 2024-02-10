@@ -889,7 +889,7 @@ cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.
 dalmierze.pl##^#Widget3
 dlawas.info,halootwock.pl,halowawa.pl,infostrow.pl,meble-4you.pl,ostrzeszowinfo.pl,roztoczanskipn.pl##^#rodo-modal
 domhouse.pl,gdansk.pl,gokf.gda.pl,opolak.pl,rowerowygdansk.pl,stadionenerga.pl##^.rodo
-dworzec.kielce.pl##^script:has-text(.popup-aholic97)
+dworzec.kielce.pl##^script:has-text(#popup-aholic97)
 e-hotelarz.pl,muzyczneradio.pl,rynek-turystyczny.pl##^#modal-rodo
 e-legnickie.pl##^script:has-text(polityka-cookies)
 easyprotect.pl##^.popup-aholic227
@@ -960,7 +960,7 @@ cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.
 dalmierze.pl$$[id="Widget3"]
 dlawas.info,halootwock.pl,halowawa.pl,infostrow.pl,meble-4you.pl,ostrzeszowinfo.pl,roztoczanskipn.pl$$[id="rodo-modal"]
 domhouse.pl,gdansk.pl,gokf.gda.pl,opolak.pl,rowerowygdansk.pl,stadionenerga.pl$$[class="rodo"]
-dworzec.kielce.pl$$script[tag-content=".popup-aholic97"]
+dworzec.kielce.pl$$script[tag-content="popup-aholic97"]
 e-hotelarz.pl,muzyczneradio.pl,rynek-turystyczny.pl$$[id="modal-rodo"]
 e-legnickie.pl$$script[tag-content="polityka-cookies"]
 easyprotect.pl$$[class="popup-aholic227"]
@@ -1069,8 +1069,6 @@ pl.asseco.com$$fa[class="animatedModal"][tag-content="Open"]
 powiatslubicki.pl###myModal, .modal-backdrop
 testerzy.pl#?##cookieLawModal
 wiemy.to$$[id="banner"][tag-content="RODO"]
-www.google.com,www.google.pl$$script[tag-content="consentCookiePayload"]
-www.google.com,www.google.pl$$script[tag-content="cookieUpdateConsentUrl"]
 zlubaczowa.pl#%#//scriptlet('remove-attr', 'style', 'html[style*="overflow"][style*="important"]')
 zlubaczowa.pl#?#html[style*="overflow"][style*="important"]:style(overflow: auto !important; height: auto !important)
 #@ <<<<<<<< komunikaty_uBO_AG_konwersja + komunikaty_AdGuard => AdGuard
