@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.2.6.0
-! Last modified: Tue, 06 Feb 2024, 00:19 UTC+01:00
+! Version: 2024.2.10.0
+! Last modified: Sat, 10 Feb 2024, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.2.6.0 aktualizacja: wto, 06 lut 2024, 00:19 UTC+01:00
+! v.2024.2.10.0 aktualizacja: sob, 10 lut 2024, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3428,6 +3428,7 @@ gamat.pl,ilex-poznan.pl###social_foot
 gameat.pl#?#.dmFooterResp .dmRespColsWrapper h5:-abp-contains(OBSERWUJ NAS)
 gamedot.pl##.icon-twitch, .icon-steam-logo
 gamerweb.pl##.zox-post-soc-flip, .zox-top-soc-wrap, .zox-foot-soc-list
+gamet.eu###fixed a[href*=".com/"]
 gametoon.pl##.topbar-icons a[href*="twitch.tv/gametoonpolska"]
 gametoon.pl##.topbar-icons a[href*="youtube.com/c/GametoonPL"]
 gamivo.com##.default-footer > .options > .row > div.col-sm-auto:nth-of-type(2) > .links
