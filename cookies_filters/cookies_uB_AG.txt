@@ -145,7 +145,6 @@ bsh-group.com##body.locked, html.locked:style(overflow: auto !important; height:
 bsjarocin.pl##.mfp-ready.mfp-wrap
 bsjarocin.pl##.themify-popup
 bsjarocin.pl,zsgarwolin.pl##.mfp-ready.mfp-bg
-budujmase.pl,drogerium.pl,trec.pl,wylecz.to##+js(set-cookie-reload, rodoHfM, true)
 burgerking.pl,secure.edu.pl##.modal:has(.cookies-modal)
 bydgoszczak.pl,kaliszak.pl,katowiczak.pl##.rodo, .rodo_layer
 calisia.pl,erakonopi.pl,produkty-lokalne.pl###modals-container
@@ -264,10 +263,8 @@ eschenker.dbschenker.com###es-shell-overlay-container:has(es-privacy-modal)
 eschenker.dbschenker.com##+js(ra, style, [style*="pointer-events"][style*="none"], stay)
 eschenker.dbschenker.com##.es-shell-global-scrollblock:style(overflow-y: auto !important)
 eschenker.dbschenker.com##[style*="pointer-events"][style*="none"]:style(pointer-events: auto !important)
-espedytor.pl##+js(set-cookie-reload, zgodaRODO, true)
 etsy.com###gdpr-single-choice-overlay
 etsy.com##html > body[class*="body-no-scroll"]:style(position: static !important; overflow: auto !important; padding-right: 0 !important)
-f1racing.pl##+js(set-cookie-reload, x-id-cookie-yes, 1)
 fabrykacukiernika.pl##.rodo-on:style(overflow: auto !important)
 fabrykacukiernika.pl##.rodo-popup
 farmacja.pl##+js(acis, jQuery, .rodo-modal)
@@ -507,13 +504,11 @@ panwybierak.pl,readspeaker.com,sfd.pl###cc_div.cc_div
 panwybierak.pl,readspeaker.com,sfd.pl##html.show--consent[class], html.show--consent[class] body:style(overflow-y: auto !important)
 panwybierak.pl,readspeaker.com,sfd.pl#@#html.show--consent[class], html.show--consent[class] body:style(overflow: visible !important)
 parkiet.com,rp.pl###rodo-popup
-parkiet.com,rp.pl##+js(set-cookie-reload, __gm_tcfconsent_v2, 1)
 patronite.pl##.modal--container:has-text(RODO)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important)
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
 pdf24.org##html.hasCookieBannerOverlay:style(overflow: auto !important)
 pdf24.org##iframe#cookieBannerOverlay
-pepper.pl##+js(set-cookie-reload, cookie_policy_agreement, 3)
 petycjeonline.com###cookie_consent_modal, .modal-backdrop
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
 pl###kopageBar > #kopageBarCookies:upward(1)
@@ -873,76 +868,81 @@ filmboxlive.com##+js(ra, class, .mobox.cookie-policy-popup)
 !#endif
 !#endif
 !#if cap_html_filtering
+!#if ext_ublock
 !autostrada-a2.pl##^#rodo-box, #cookielaw-box
-abcjanikowo24.pl,bialobrzegi24.net,bielskirynek.pl,bilgoraj.com.pl,brodnica365.pl,chelmza365.pl,chocianow.com.pl,ciechocinek.biz,czasbrodnicy.pl,ddtorun.pl,ddwloclawek.pl,dziendobrypomorze.pl,dziennikhistoryczny.pl,e-chelmno.pl,e-golub.info.pl,e-krajna.pl,e-lubon.pl,e-wabrzezno.info.pl,ejarocin.pl,ekstrasierpc.pl,ekutno.pl,erolnicze.pl,esopot.pl,expresskaszubski.pl,extrawalcz.pl,fakty.nl,faktyct.pl,faktypilskie.pl,gle24.pl,glospowiatusredzkiego.pl,glossokolowa.pl,gniewkowo.eu,gorlice24.pl,gostyn24.pl,grudziadz365.pl,gst24.pl,gwarek.com.pl,gwe24.pl,gwio.pl,haloursynow.pl,hej.mielec.pl,hej.rzeszow.pl,hej.slupsk.pl,ibytow.pl,infomogilno24.pl,infoskierniewice.pl,ipoddebice.pl,isanok.pl,iszczecinek.pl,itvszubin.pl,jastrowie24.pl,jura365.pl,ki24.info,kolniak24.eu,koronowo.net.pl,koscianiak.pl,legio24.pl,leszno24.pl,lowiczanin.info,magazynregionalny.pl,magazynzuzel.pl,miastko24.pl,modnymagazyn.pl,mojakruszwica.pl,motomagazyn.com,myglogow.pl,mypolkowice.pl,myszkow365.pl,naszpruszcz.pl,naszradziejow.pl,nizanskie.info,nowysztum.pl,nrypin.pl,pakosc24.pl,pleszew24.info,plonskwsieci.pl,police24.pl,portalsremski.pl,prawobrzeze24.pl,pulsciechanowa.pl,pulsgminy.pl,pulstygodnia.pl,radzyninfo.pl,roztocze.net,rydzyna24.pl,rzeczkrotoszynska.pl,siecportali.pl,slu24.pl,spotradomsko.pl,superchodziez.pl,swiecie24.pl,szemud24.pl,terazgabin.pl,terazlipno.pl,terazstrzelno.pl,tukutno.pl,tusochaczew.pl,tygodnik.pl,tygodnikketrzynski.pl,tyna.info.pl,uniejow.net.pl,wdrawskupomorskim.pl,wiescimiedzychodzkie.pl,wpu24.pl,wrzesnia.info.pl,wybudujemy.com.pl,zawiercie365.pl,ziemiagorowska.pl,zlomzy.pl,zyciesiedleckie.pl##^.rodo-overlay
-akamai.com##^.notification--warning
-alltube.pl,alltube.tv##^#rodo-popup
-autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl##^#rodo
-belsat.eu,buddyzm.info.pl,eurologistics.pl,masterleasing.pl,mobilet.pl,petrodom.pl,poznan.ap.gov.pl,sp18.lublin.eu,whatannawears.com,wsb.net.pl##^.popmake-overlay
-berendsen.pl##^script[data-module="CookieBanner"]
-bioagris.pl##^#policy-accept-div
-bmw-motorrad.pl##^.cookielayer
-born2be.pl,renee.pl##^.rules-modal
-brieftip.pl,kaliber.pl##^#cookieModal
-budownictwo.pl##^#rodoLayer
-cenapaliw.pl##^#CBCookieMsg
 centrumbajki.pl,drogeriekoliber.pl,sp112.waw.pl##^.popmake-overlay[data-popmake*="cookies"]
-chelmonline.pl,powiatslubicki.pl##^#myModal
-cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,wejherowo24.info,zgl.pl##^#popModal2
-dalmierze.pl##^#Widget3
-dlawas.info,halootwock.pl,halowawa.pl,infostrow.pl,meble-4you.pl,ostrzeszowinfo.pl,roztoczanskipn.pl##^#rodo-modal
-domhouse.pl,gdansk.pl,gokf.gda.pl,opolak.pl,rowerowygdansk.pl,stadionenerga.pl##^.rodo
-dworzec.kielce.pl##^script:has-text(.popup-aholic97)
-e-hotelarz.pl,muzyczneradio.pl,rynek-turystyczny.pl##^#modal-rodo
-e-legnickie.pl##^script:has-text(polityka-cookies)
-easyprotect.pl##^.popup-aholic227
-ekobiuro24.pl##^#dialog-agreement
-eluban.pl,rybnik.com.pl,slaskibiznes.pl,tujastrzebie.pl,tulodz.pl,tuwodzislaw.pl,tuwroclaw.com,tuzory.pl,zakopane.info##^#pd-modal
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##^[id^="banner-komunikat-rodo-"]
-ferguson-digital.eu##^#cookie-notice
-filmboxlive.com##^.mobox.cookie-policy-popup
-fnglob.pl,polska6.pl##^#modal
-fryzomania.pl,happydental.pl,pro-sprzet.pl##^#myWorning
-gryfino.pl##^#templateRODODialog
 homedesign.pl##^.popmake-overlay[data-popmake*="rodo"]
-ideafairplay.pl##^#modal-privacy
-itmarket.pl##^.modal
-jbzd.*,jbzdy.*##^script:has-text(quantcast.mgr.consensu.org/cmp.js)
-lipinscy.pl##^#popRodoInfoContent
-listymikolaja.pl##^#popup_rodo_layer
-lubimyczytac.pl##^script:has-text(rodoConsent)
-mdkkolbuszowa.pl,spolem.katowice.pl,wpr.pl##^#popup.modal
-moja.biedronka.pl##^div.modal.modal-komunikat
-moja.biedronka.pl##^style:has-text(body.showpopup)
-muzeumazji.pl##^script:has-text(doRODO)
-natura2000.gdos.gov.pl##^#apla-banner
-neucamed.pl##^.cookies-alert
-norgips.pl##^#cookiemodal
-ogloszenia.plock.pl##^#dialog-rodo
-okazik.pl##^script:has-text(#cookie-dialog)
-pamiatki.pl##^#hw_cookie_law
 pl.asseco.com##^footer ~ #animatedModal:has(h5 > a[href="/polityka-prywatnosci/"])
 pl.asseco.com##^footer ~ a.animatedModal:has-text(Open)
-pl.dow.com##^.cookie-notify
-poszalu.pl##^#gdpr-modal
-profeto.pl##^#modal-rodo-main
-pruszczgdanski.pl##^#auto_popup
-pulawy.eu##^#modalRodo
-sevenpolska.com##^#flipFlop
-skm.pkp.pl##^#dialog-message-rodo
-sprzet-fryzjerski.pl##^#myWorningNewsletterPopUp:has-text(cookies)
-styl.fm##^.rodo-info
-swiat-whisky.sklep.pl##^.POPUP_CONDITION
-tuzdrowie.pl##^#popupModal
-tvasta.pl##^#infoModal
-twojeankiety.pl##^.polPriv
-ustawlige.com##^#privacy-modal
 wiemy.to##^#banner:has(#popuplink):has(#inline:has-text(RODO))
-wtk.pl##^#GDPR-modal
-www.google.com,www.google.pl##^script:has-text(consentCookiePayload)
-www.google.com,www.google.pl##^script:has-text(cookieUpdateConsentUrl)
-zdajmyrazem.pl##^#gdprModal
-ztm.poznan.pl##^#PopUP
+!#endif
+!#if !ext_ublock
+#@ >>>>>>>> komunikaty_uBO_AG_html_konwersja => AdGuard
+abcjanikowo24.pl,bialobrzegi24.net,bielskirynek.pl,bilgoraj.com.pl,brodnica365.pl,chelmza365.pl,chocianow.com.pl,ciechocinek.biz,czasbrodnicy.pl,ddtorun.pl,ddwloclawek.pl,dziendobrypomorze.pl,dziennikhistoryczny.pl,e-chelmno.pl,e-golub.info.pl,e-krajna.pl,e-lubon.pl,e-wabrzezno.info.pl,ejarocin.pl,ekstrasierpc.pl,ekutno.pl,erolnicze.pl,esopot.pl,expresskaszubski.pl,extrawalcz.pl,fakty.nl,faktyct.pl,faktypilskie.pl,gle24.pl,glospowiatusredzkiego.pl,glossokolowa.pl,gniewkowo.eu,gorlice24.pl,gostyn24.pl,grudziadz365.pl,gst24.pl,gwarek.com.pl,gwe24.pl,gwio.pl,haloursynow.pl,hej.mielec.pl,hej.rzeszow.pl,hej.slupsk.pl,ibytow.pl,infomogilno24.pl,infoskierniewice.pl,ipoddebice.pl,isanok.pl,iszczecinek.pl,itvszubin.pl,jastrowie24.pl,jura365.pl,ki24.info,kolniak24.eu,koronowo.net.pl,koscianiak.pl,legio24.pl,leszno24.pl,lowiczanin.info,magazynregionalny.pl,magazynzuzel.pl,miastko24.pl,modnymagazyn.pl,mojakruszwica.pl,motomagazyn.com,myglogow.pl,mypolkowice.pl,myszkow365.pl,naszpruszcz.pl,naszradziejow.pl,nizanskie.info,nowysztum.pl,nrypin.pl,pakosc24.pl,pleszew24.info,plonskwsieci.pl,police24.pl,portalsremski.pl,prawobrzeze24.pl,pulsciechanowa.pl,pulsgminy.pl,pulstygodnia.pl,radzyninfo.pl,roztocze.net,rydzyna24.pl,rzeczkrotoszynska.pl,siecportali.pl,slu24.pl,spotradomsko.pl,superchodziez.pl,swiecie24.pl,szemud24.pl,terazgabin.pl,terazlipno.pl,terazstrzelno.pl,tukutno.pl,tusochaczew.pl,tygodnik.pl,tygodnikketrzynski.pl,tyna.info.pl,uniejow.net.pl,wdrawskupomorskim.pl,wiescimiedzychodzkie.pl,wpu24.pl,wrzesnia.info.pl,wybudujemy.com.pl,zawiercie365.pl,ziemiagorowska.pl,zlomzy.pl,zyciesiedleckie.pl$$[class="rodo-overlay"]
+akamai.com$$[class="notification--warning"]
+alltube.pl,alltube.tv$$[id="rodo-popup"]
+autakrajowe.com.pl,craftserve.pl,infoplanet.pl,polski-tenis.pl$$[id="rodo"]
+belsat.eu,buddyzm.info.pl,eurologistics.pl,masterleasing.pl,mobilet.pl,petrodom.pl,poznan.ap.gov.pl,sp18.lublin.eu,whatannawears.com,wsb.net.pl$$[class="popmake-overlay"]
+berendsen.pl$$script[data-module="CookieBanner"]
+bioagris.pl$$[id="policy-accept-div"]
+bmw-motorrad.pl$$[class="cookielayer"]
+born2be.pl,renee.pl$$[class="rules-modal"]
+brieftip.pl,kaliber.pl$$[id="cookieModal"]
+budownictwo.pl$$[id="rodoLayer"]
+cenapaliw.pl$$[id="CBCookieMsg"]
+chelmonline.pl,powiatslubicki.pl$$[id="myModal"]
+cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,wejherowo24.info,zgl.pl$$[id="popModal2"]
+dalmierze.pl$$[id="Widget3"]
+dlawas.info,halootwock.pl,halowawa.pl,infostrow.pl,meble-4you.pl,ostrzeszowinfo.pl,roztoczanskipn.pl$$[id="rodo-modal"]
+domhouse.pl,gdansk.pl,gokf.gda.pl,opolak.pl,rowerowygdansk.pl,stadionenerga.pl$$[class="rodo"]
+dworzec.kielce.pl$$script[tag-content=".popup-aholic97"]
+e-hotelarz.pl,muzyczneradio.pl,rynek-turystyczny.pl$$[id="modal-rodo"]
+e-legnickie.pl$$script[tag-content="polityka-cookies"]
+easyprotect.pl$$[class="popup-aholic227"]
+ekobiuro24.pl$$[id="dialog-agreement"]
+eluban.pl,rybnik.com.pl,slaskibiznes.pl,tujastrzebie.pl,tulodz.pl,tuwodzislaw.pl,tuwroclaw.com,tuzory.pl,zakopane.info$$[id="pd-modal"]
+ferguson-digital.eu$$[id="cookie-notice"]
+filmboxlive.com$$[class="mobox.cookie-policy-popup"]
+fnglob.pl,polska6.pl$$[id="modal"]
+fryzomania.pl,happydental.pl,pro-sprzet.pl$$[id="myWorning"]
+gryfino.pl$$[id="templateRODODialog"]
+ideafairplay.pl$$[id="modal-privacy"]
+itmarket.pl$$[class="modal"]
+jbzd.*,jbzdy.*$$script[tag-content="quantcast.mgr.consensu.org/cmp.js"]
+lipinscy.pl$$[id="popRodoInfoContent"]
+listymikolaja.pl$$[id="popup_rodo_layer"]
+lubimyczytac.pl$$script[tag-content="rodoConsent"]
+mdkkolbuszowa.pl,spolem.katowice.pl,wpr.pl$$[id="popup.modal"]
+moja.biedronka.pl$$div[class="modal"][class="modal-komunikat"]
+moja.biedronka.pl$$style[tag-content="body.showpopup"]
+muzeumazji.pl$$script[tag-content="doRODO"]
+natura2000.gdos.gov.pl$$[id="apla-banner"]
+neucamed.pl$$[class="cookies-alert"]
+norgips.pl$$[id="cookiemodal"]
+ogloszenia.plock.pl$$[id="dialog-rodo"]
+okazik.pl$$script[tag-content="#cookie-dialog"]
+pamiatki.pl$$[id="hw_cookie_law"]
+pl.dow.com$$[class="cookie-notify"]
+poszalu.pl$$[id="gdpr-modal"]
+profeto.pl$$[id="modal-rodo-main"]
+pruszczgdanski.pl$$[id="auto_popup"]
+pulawy.eu$$[id="modalRodo"]
+sevenpolska.com$$[id="flipFlop"]
+skm.pkp.pl$$[id="dialog-message-rodo"]
+sprzet-fryzjerski.pl$$[id="myWorningNewsletterPopUp:has-text(cookies)"]
+styl.fm$$[class="rodo-info"]
+swiat-whisky.sklep.pl$$[class="POPUP_CONDITION"]
+tuzdrowie.pl$$[id="popupModal"]
+tvasta.pl$$[id="infoModal"]
+twojeankiety.pl$$[class="polPriv"]
+ustawlige.com$$[id="privacy-modal"]
+wtk.pl$$[id="GDPR-modal"]
+www.google.com,www.google.pl$$script[tag-content="consentCookiePayload"]
+www.google.com,www.google.pl$$script[tag-content="cookieUpdateConsentUrl"]
+zdajmyrazem.pl$$[id="gdprModal"]
+ztm.poznan.pl$$[id="PopUP"]
+#@ <<<<<<<< komunikaty_uBO_AG_html_konwersja => AdGuard
 !#endif
 !#if !cap_user_stylesheet
 autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##.cookie-disclaimer:style(visibility: hidden !important)
@@ -959,8 +959,13 @@ abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,dobreprogramy.pl,fotoblogi
 amway.pl##+js(set, amw.isAnalyticsCookiesAccepted, false)
 amway.pl##+js(set, amw.isCookieConsentAccepted, true)
 amway.pl##+js(set, amw.isMarketingCookiesAccepted, false)
+budujmase.pl,drogerium.pl,trec.pl,wylecz.to##+js(set-cookie-reload, rodoHfM, true)
+espedytor.pl##+js(set-cookie-reload, zgodaRODO, true)
+f1racing.pl##+js(set-cookie-reload, x-id-cookie-yes, 1)
 hrkgame.com##.modals.dimmer > .gdpr.ui:style(visibility: hidden !important)
 hrkgame.com##.modals.dimmer > .gdpr.visible:upward(1):watch-attr([class])
+parkiet.com,rp.pl##+js(set-cookie-reload, __gm_tcfconsent_v2, 1)
+pepper.pl##+js(set-cookie-reload, cookie_policy_agreement, 3)
 !#endif
 !#endif
 !#if !env_mobile
@@ -969,87 +974,35 @@ azure.microsoft.com###main:style(padding-top: 88px !important)
 !#endif
 !#if !ext_ublock
 @@||gawex.pl/assets/js/cookieinfo.js
-abcjanikowo24.pl,bialobrzegi24.net,bielskirynek.pl,bilgoraj.com.pl,brodnica365.pl,chelmza365.pl,chocianow.com.pl,ciechocinek.biz,czasbrodnicy.pl,ddtorun.pl,ddwloclawek.pl,dziendobrypomorze.pl,dziennikhistoryczny.pl,e-chelmno.pl,e-golub.info.pl,e-krajna.pl,e-lubon.pl,e-wabrzezno.info.pl,ejarocin.pl,ekstrasierpc.pl,ekutno.pl,erolnicze.pl,esopot.pl,expresskaszubski.pl,extrawalcz.pl,fakty.nl,faktyct.pl,faktypilskie.pl,gle24.pl,glospowiatusredzkiego.pl,glossokolowa.pl,gniewkowo.eu,gorlice24.pl,gostyn24.pl,grudziadz365.pl,gst24.pl,gwarek.com.pl,gwe24.pl,gwio.pl,haloursynow.pl,hej.mielec.pl,hej.rzeszow.pl,hej.slupsk.pl,ibytow.pl,infomogilno24.pl,infoskierniewice.pl,ipoddebice.pl,isanok.pl,iszczecinek.pl,itvszubin.pl,jastrowie24.pl,jura365.pl,ki24.info,kolniak24.eu,koronowo.net.pl,koscianiak.pl,legio24.pl,leszno24.pl,lowiczanin.info,magazynregionalny.pl,magazynzuzel.pl,miastko24.pl,modnymagazyn.pl,mojakruszwica.pl,motomagazyn.com,myglogow.pl,mypolkowice.pl,myszkow365.pl,naszpruszcz.pl,naszradziejow.pl,nizanskie.info,nowysztum.pl,nrypin.pl,pakosc24.pl,pleszew24.info,plonskwsieci.pl,police24.pl,portalsremski.pl,prawobrzeze24.pl,pulsciechanowa.pl,pulsgminy.pl,pulstygodnia.pl,radzyninfo.pl,roztocze.net,rydzyna24.pl,rzeczkrotoszynska.pl,siecportali.pl,slu24.pl,spotradomsko.pl,superchodziez.pl,swiecie24.pl,szemud24.pl,terazgabin.pl,terazlipno.pl,terazstrzelno.pl,tukutno.pl,tusochaczew.pl,tygodnik.pl,tygodnikketrzynski.pl,tyna.info.pl,uniejow.net.pl,wdrawskupomorskim.pl,wiescimiedzychodzkie.pl,wpu24.pl,wrzesnia.info.pl,wybudujemy.com.pl,zawiercie365.pl,ziemiagorowska.pl,zlomzy.pl,zyciesiedleckie.pl$$[class="rodo-overlay"]
 accuweather.com,bezprawnik.pl,bolec.info##.fc-consent-root
 accuweather.com,bezprawnik.pl,bolec.info##body[style]:style(overflow: auto !important)
-akamai.com$$[class="notification--warning"]
-alltube.pl,alltube.tv$$[id="rodo-popup"]
-autakrajowe.com.pl,craftserve.pl,infoplanet.pl,motobanda.pl,polski-tenis.pl$$[id="rodo"]
-belsat.eu,buddyzm.info.pl,eurologistics.pl,homedesign.pl,masterleasing.pl,mobilet.pl,petrodom.pl,poznan.ap.gov.pl,sp112.waw.pl,sp18.lublin.eu,whatannawears.com,wsb.net.pl$$[class="popmake-overlay"][tag-content="RODO"]
-berendsen.pl$$script[data-module="CookieBanner"]
-bioagris.pl$$[id="policy-accept-div"]
-bmw-motorrad.pl$$[class="cookielayer"]
 bosch-home.pl,siemens-home.bsh-group.com#@#+js(set, T.Module.Layer.CookieLaw, noopFunc)
 brieftip.pl,kaliber.pl#?#.modal-open:style(overflow: auto !important; padding-right: 0 !important)
-brieftip.pl,kaliber.pl$$[id="cookieModal"]
-cenapaliw.pl$$[id="CBCookieMsg"]
 centrumbajki.pl$$[class="popmake-overlay"][tag-content="danych osobowych"]
-chelmonline.pl,powiatslubicki.pl$$[id="myModal"]
-cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,wejherowo24.info,zgl.pl$$[id="popModal2"]
-dalmierze.pl$$[id="Widget3"]
-dlawas.info,halootwock.pl,halowawa.pl,infostrow.pl,meble-4you.pl,ostrzeszowinfo.pl,roztoczanskipn.pl$$[id="rodo-modal"]
 domhouse.pl##.fancybox-overlay[tag-content="RODO"]
 domhouse.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important)
 domhouse.pl##html.fancybox-margin:style(margin-right: 0 !important)
-domhouse.pl,gdansk.pl,gokf.gda.pl,opolak.pl,rowerowygdansk.pl,stadionenerga.pl$$[class="rodo"]
 drogeriekoliber.pl$$[class="popmake-overlay"][tag-content="naszej Polityce Prywatności"]
-dworzec.kielce.pl$$script[tag-content=".popup-aholic97"]
-e-hotelarz.pl,muzyczneradio.pl,rynek-turystyczny.pl$$[id="modal-rodo"]
-e-legnickie.pl$$script[tag-content="polityka-cookies"]
-easyprotect.pl$$[class="popup-aholic227"]
-ekobiuro24.pl$$[id="dialog-agreement"]
-eluban.pl,rybnik.com.pl,slaskibiznes.pl,tujastrzebie.pl,tulodz.pl,tuwodzislaw.pl,tuwroclaw.com,tuzory.pl,zakopane.info$$[id="pd-modal"]
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl$$[id="banner-komunikat-rodo-"]
-ferguson-digital.eu$$[id="cookie-notice"]
 filmboxlive.com##.mobox-active:style(overflow-y: auto !important)
 filmboxlive.com##.mobox-wrapper:has(.cookie-policy-popup)
 filmboxlive.com##.mobox-wrapper:style(overflow: auto !important)
-fnglob.pl,polska6.pl$$[id="modal"]
-fryzomania.pl,happydental.pl,pro-sprzet.pl$$[id="myWorning"]
 galopuje.pl###RODOCOOKIE, .modal-backdrop
 galopuje.pl,powiatslubicki.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important)
-gryfino.pl$$[id="templateRODODialog"]
-ideafairplay.pl$$[id="modal-privacy"]
-itmarket.pl$$[class="modal"]
-lipinscy.pl$$[id="popRodoInfoContent"]
-listymikolaja.pl$$[id="popup_rodo_layer"]
-lubimyczytac.pl$$script[tag-content="rodoConsent"]
 mcdonalds.pl$$[class="cookies"]
-mdkkolbuszowa.pl,spolem.katowice.pl,wpr.pl$$[id="popup"][class="modal"]
-moja.biedronka.pl$$div[class="modal"][class="modal-komunikat"]
-moja.biedronka.pl$$style[tag-content="body.showpopup"]
-muzeumazji.pl$$script[tag-content="doRODO"]
-natura2000.gdos.gov.pl$$[id="apla-banner"]
-neucamed.pl$$[class="cookies-alert"]
-norgips.pl$$[id="cookiemodal"]
-ogloszenia.plock.pl$$[id="dialog-rodo"]
-okazik.pl$$script[tag-content="#cookie-dialog"]
-pamiatki.pl$$[id="hw_cookie_law"]
 pl.asseco.com$$[id="animatedModal"][tag-content="Polityce prywatności"]
 pl.asseco.com$$fa[class="animatedModal"][tag-content="Open"]
-pl.dow.com$$[class="cookie-notify"]
-poszalu.pl$$[id="gdpr-modal"]
 powiatslubicki.pl###myModal, .modal-backdrop
-profeto.pl$$[id="modal-rodo-main"]
-pruszczgdanski.pl$$[id="auto_popup"]
-pulawy.eu$$[id="modalRodo"]
-sevenpolska.com$$[id="flipFlop"]
-sklepbiker.pl,tvdzierzgon.pl$$[id="rodoModal"]
-skm.pkp.pl$$[id="dialog-message-rodo"]
-sprzet-fryzjerski.pl$$[id="myWorningNewsletterPopUp"][tag-content="cookies"]
-styl.fm$$[class="rodo-info"]
-swiat-whisky.sklep.pl$$[class="POPUP_CONDITION"]
-testerzy.pl#?##cookieLawModal
-tuzdrowie.pl$$[id="popupModal"]
-tvasta.pl$$[id="infoModal"]
-twojeankiety.pl$$[class="polPriv"]
-ustawlige.com$$[id="privacy-modal"]
 wiemy.to$$[id="banner"][tag-content="RODO"]
-wtk.pl$$[id="GDPR-modal"]
 www.google.com,www.google.pl$$script[tag-content="consentCookiePayload"]
 www.google.com,www.google.pl$$script[tag-content="cookieUpdateConsentUrl"]
-zdajmyrazem.pl$$[id="gdprModal"]
 zlubaczowa.pl#%#//scriptlet('remove-attr', 'style', 'html[style*="overflow"][style*="important"]')
 zlubaczowa.pl#?#html[style*="overflow"][style*="important"]:style(overflow: auto !important; height: auto !important)
-ztm.poznan.pl$$[id="PopUP"]
+#@ >>>>>>>> komunikaty_uBO_AG_konwersja => AdGuard
+budujmase.pl,drogerium.pl,trec.pl,wylecz.to#%#//scriptlet('set-cookie-reload', 'rodoHfM', 'true')
+espedytor.pl#%#//scriptlet('set-cookie-reload', 'zgodaRODO', 'true')
+f1racing.pl#%#//scriptlet('set-cookie-reload', 'x-id-cookie-yes', '1')
+parkiet.com,rp.pl#%#//scriptlet('set-cookie-reload', '__gm_tcfconsent_v2', '1')
+pepper.pl#%#//scriptlet('set-cookie-reload', 'cookie_policy_agreement', '3')
+#@ <<<<<<<< komunikaty_uBO_AG_konwersja => AdGuard
 !#endif
