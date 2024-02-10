@@ -21,28 +21,32 @@
 @include komunikaty_bez_html_uBO
 !#endif
 !#endif
+!
 !#if cap_html_filtering
 !#if ext_ublock
-@include komunikaty_html
+@include komunikaty_html + komunikaty_html_uBO_AG_konwersja
 !#endif
 !#if !ext_ublock
-@AGinclude komunikaty_uBO_AG_html_konwersja
+@AGinclude komunikaty_html_uBO_AG_konwersja
 !#endif
+!#endif
+!
 !#if !cap_user_stylesheet
 @include komunikaty_bez_styli_uzytkownika
 !#endif
 !#if cap_user_stylesheet
 @include komunikaty_style_uzytkownika
 !#endif
+!
 !#if ext_ublock
 !#if cap_user_stylesheet
 @include komunikaty_uBO + komunikaty_uBO_AG_konwersja
 !#endif
 !#endif
+!
 !#if !env_mobile
 @include komunikaty_niemobilne
 !#endif
 !#if !ext_ublock
-@include komunikaty_AdGuard
-@AGinclude komunikaty_uBO_AG_konwersja
+@AGinclude komunikaty_uBO_AG_konwersja + komunikaty_AdGuard
 !#endif
