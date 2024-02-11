@@ -18,6 +18,12 @@ eu,pl#@#.rodo-popup:not(body):not(html)
 eu,pl#@#body > div:not([id]):not([class])
 !
 !
+! Bugi ELC
+/wpjslib-stat.js$badfilter
+@@/wpjslib-stat.js$badfilter,domain=nauka.rocks
+doz.pl#@#body,html:style(overflow: auto !important; position: initial !important;)
+!
+!
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
 ||cdn.cookielaw.org^$domain=downdetector.pl
 ||doubleclick.net/pagead/managed/js/gpt$important,script,domain=downdetector.pl
