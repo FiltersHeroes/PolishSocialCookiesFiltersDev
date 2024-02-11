@@ -1,5 +1,3 @@
-!pl##.footer-social-wrap span
-!~pl##.fb_button:lang(pl)
 ###menu-portale-spolecznosciowe
 ##.facebookPrzyczepiony
 ##.footer-box.footer-social-media
@@ -9,7 +7,7 @@
 ##.td-social-icon-wrap a:not([href*="feed" i]):not([href*="rss" i]):not([href^="mailto:" i])
 ##[title="Share on Digg"]
 ##a[class^="profilki_social_buttons"]
-##a[href*="://plus.google.com/"]:lang(pl)
+~pl##a[href*="://plus.google.com/"]:lang(pl)
 ##a[href*="digg.com/submit?url="]
 ##div#wtyczka-fbinst
 ##div[id^="profilki_socialbuttons"]
