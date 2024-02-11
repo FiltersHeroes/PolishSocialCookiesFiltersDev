@@ -1039,6 +1039,7 @@ espedytor.pl##+js(set-cookie-reload, zgodaRODO, true)
 f1racing.pl##+js(set-cookie-reload, x-id-cookie-yes, 1)
 hrkgame.com##.modals.dimmer > .gdpr.ui:style(visibility: hidden !important)
 hrkgame.com##.modals.dimmer > .gdpr.visible:upward(1):watch-attr([class])
+kts.weszlo.com##+js(set-cookie-reload, cookiesActive, false)
 parkiet.com,rp.pl##+js(set-cookie-reload, __gm_tcfconsent_v2, 1)
 pepper.pl##+js(set-cookie-reload, cookie_policy_agreement, 3)
 !#endif
@@ -1069,6 +1070,7 @@ filmboxlive.com##.mobox-wrapper:has(.cookie-policy-popup)
 filmboxlive.com##.mobox-wrapper:style(overflow: auto !important)
 galopuje.pl###RODOCOOKIE, .modal-backdrop
 galopuje.pl,powiatslubicki.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important)
+kts.weszlo.com#%#//scriptlet('set-cookie-reload', 'cookiesActive', 'false')
 mcdonalds.pl$$[class="cookies"]
 parkiet.com,rp.pl#%#//scriptlet('set-cookie-reload', '__gm_tcfconsent_v2', '1')
 pepper.pl#%#//scriptlet('set-cookie-reload', 'cookie_policy_agreement', '3')
