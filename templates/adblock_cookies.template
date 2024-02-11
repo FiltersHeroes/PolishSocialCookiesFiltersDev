@@ -3,7 +3,7 @@
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: 🍪
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
-! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
+! Required: Do poprawnego działania wymagana jest lista EasyList - Cookie Notices z EasyList - Ads lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
 ! Version: @version
@@ -49,6 +49,11 @@ gg.pl#@#body > div:nth-of-type(2) > div
 ! Bugi IDCAC
 @include bugi_IDCAC_sieciowe
 @include bugi_IDCAC
+!
+!
+! Bugi ELC
+@include bugi_ELC_sieciowe
+@include bugi_ELC
 !
 !
 ! Wyjątki
