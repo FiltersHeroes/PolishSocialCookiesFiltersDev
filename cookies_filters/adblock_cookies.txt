@@ -3,11 +3,11 @@
 ! Polish GDPR-Cookies Filters DEV
 ! Codename: 🍪
 ! Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
-! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
+! Required: Do poprawnego działania wymagana jest lista EasyList - Cookie Notices z EasyList - Ads lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.2.11.0
-! Last modified: Sun, 11 Feb 2024, 01:31 UTC+01:00
+! Version: 2024.2.11.1
+! Last modified: Sun, 11 Feb 2024, 18:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.2.11.0 aktualizacja: nie, 11 lut 2024, 01:31 UTC+01:00
+! v.2024.2.11.1 aktualizacja: nie, 11 lut 2024, 18:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3203,7 +3203,6 @@ zyro.com##.zyro-cookies
 ||siemashop.pl/assets/*/js/cookie_agreement.js$script
 ||silnet.pl/*/js/vue/silnet-privacy-policy.vue$xmlhttprequest
 ||skryptcookies.pl/cookie.js$script
-||std.wpcdn.pl/wpjslib*/wpjslib-stat.js$domain=jastrzabpost.pl
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-consent-form.js
 ||std.wpcdn.pl/wpjslib/*wpjslib-chunk-notification.js
 ||stokrotka.pl/*/w_cookie_privacy/$script
@@ -4175,6 +4174,12 @@ venezia.pl#@#.m-cookie-info:not(body):not(html)
 visa.pl#@##CookieReportsBanner
 visa.pl#@##CookieReportsPanel
 wolframalpha.com##footer ~ section
+!
+!
+! Bugi ELC
+@@/wpjslib-stat.js$domain=nauka.rocks
+###ba_eu_cookie_law:not(form)
+#@##ba_eu_cookie_law
 !
 !
 ! Wyjątki
