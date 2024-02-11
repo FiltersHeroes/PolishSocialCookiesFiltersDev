@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList - Cookie Notices z EasyList - Ads lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.2.11.1
-! Last modified: Sun, 11 Feb 2024, 18:31 UTC+01:00
+! Version: 2024.2.11.2
+! Last modified: Sun, 11 Feb 2024, 18:49 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.2.11.1 aktualizacja: nie, 11 lut 2024, 18:31 UTC+01:00
+! v.2024.2.11.2 aktualizacja: nie, 11 lut 2024, 18:49 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -562,6 +562,7 @@ canalplus.com###privacy-manager
 canalpluskuchnia.pl##.rodoLayer
 cannondalebikes.pl,gtbicycles.pl###cookie_eu_bar
 canva.com#?##root main ~ div:last-child:-abp-has(> div > div > span > [href="https://about.canva.com/terms-of-use/"] ~ [href="https://about.canva.com/cookies-policy/"])
+canva.com#?#div[aria-live="polite"]:-abp-has(> div span a[href*="/policies/cookies-policy/"])
 capap.gugik.gov.pl,geoportal.gov.pl,geotec.pl,gispartner.pl,~mapy.geoportal.gov.pl,radlin.pl###saycookie
 capgemini.com##.section__cookies
 capri-lublin.pl###mod98
@@ -4180,6 +4181,7 @@ wolframalpha.com##footer ~ section
 @@/wpjslib-stat.js$domain=nauka.rocks
 ###ba_eu_cookie_law:not(form)
 #@##ba_eu_cookie_law
+canva.com#@#.fFOiLQ.Ekl2FA.RNFNIA._9y-BYQ._1CzyGhb
 !
 !
 ! Wyjątki
