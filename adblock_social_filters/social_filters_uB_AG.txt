@@ -146,6 +146,7 @@ odkryjpomorze.pl##+js(ra, href, map[name="Map"] > area:first-of-type, stay)
 odkryjpomorze.pl##map[name="Map"] > area:first-of-type:remove()
 perfekcyjnawdomu.pl##.a-neuron-share-button:not([class*="mail"]):upward(div)
 pl##.footer-container div .center.section-title > span:has-text(Znajdziesz nas na)
+pl.aleteia.org##div > a[aria-label="Email share"]:upward(1) + button
 pl.pandora.net###socialMediaFooter .leftMediaLinkFooter:style(visibility: hidden)
 plejada.pl###detail.articleBody p:nth-last-child(-n+3) a[href*="facebook.com/plejada" i]:remove-attr(href)
 plejada.pl###detail.articleBody p:nth-last-child(-n+3) a[href*="instagram.com/plejada" i]:remove-attr(href)
