@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.2.26.0
-! Last modified: Mon, 26 Feb 2024, 13:31 UTC+01:00
+! Version: 2024.2.26.1
+! Last modified: Mon, 26 Feb 2024, 23:18 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.2.26.0 aktualizacja: pon, 26 lut 2024, 13:31 UTC+01:00
+! v.2024.2.26.1 aktualizacja: pon, 26 lut 2024, 23:18 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -3365,9 +3365,9 @@ pl/tcf/cookie.js$script,domain=pl
 ~pl###kopageBarCookies + div:lang(pl)
 ~pl###kopageBarCookies:lang(pl)
 ~pl##body > div#cookie[class=""]
-~pl##div[id][class*="iai_cookie"]:lang(pl)
-~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
-~pl##div[id^="iai_cookie"][class*="iai_cookie"]:lang(pl)
+~pl##body:not([class*="cookie-overflow"]) div[id][class*="iai_cookie"]:lang(pl)
+~pl##body:not([class*="cookie-overflow"]) div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
+~pl##body:not([class*="cookie-overflow"]) div[id^="iai_cookie"][class*="iai_cookie"]:lang(pl)
 ~pl##html:not(.x13eucookies-block) body .x13eucookies:lang(pl)
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
 com###msccBanner:not(body):not(html)
@@ -4036,16 +4036,16 @@ pl##[id^="topInfo"]:not(body):not(html)
 pl##aside[class*="Cookie"]
 pl##aside[class*="cookie"]:not([class*="modal" i])
 pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies_tlo"]:not([id]):not([class])
+pl##body:not([class*="cookie-overflow"]) div[id][class*="iai_cookie"]
+pl##body:not([class*="cookie-overflow"]) div[id^="ck_dsclr"][class*="ck_dsclr"]
+pl##body:not([class*="cookie-overflow"]) div[id^="iai_cookie"][class*="iai_cookie"]
 pl##div#cook
 pl##div#cookiepopupdiv
 pl##div#footer-cookies
 pl##div.cookieKontener
 pl##div[class^="app_gdpr"]
 pl##div[class^="pea_cook_wrapper"]
-pl##div[id][class*="iai_cookie"]
-pl##div[id^="ck_dsclr"][class*="ck_dsclr"]
 pl##div[id^="cookemessage"]
-pl##div[id^="iai_cookie"][class*="iai_cookie"]
 pl##html:not(.x13eucookies-block) body .x13eucookies
 pl##html:not([style*="overflow"]) #cadre_alert_cookies
 pl##iframe[class*="Cookie"]
@@ -4200,8 +4200,6 @@ eurogamer.pl#@##optanon:not(body):not(html)
 eurogamer.pl#@#.optanon-alert-box-wrapper:not(body):not(html)
 forum.gg.pl,viasatexplore.pl,viasathistory.pl,viasatnature.pl,winnicalidla.pl#@#.privacy-policy:not(body):not(html):not(a)
 gdansk.pl,gokf.gda.pl,wins.pl#@##cookies:not(body):not(html):not(.section):not(.fade)
-gorteks.com.pl#@#div[id][class*="iai_cookie"]
-gorteks.com.pl#@#div[id^="iai_cookie"][class*="iai_cookie"]
 gry.pl,shinden.pl,wmeritum.pl,wykop.pl#@#div[class^="app_gdpr"]
 kupbilecik.pl,panbilet.pl,wins.pl#@#.cookie-container:not(body):not(html)
 maxelektro.pl#@##cookie-info:not(body):not(html)
