@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.2.26.1
-! Last modified: Mon, 26 Feb 2024, 23:18 UTC+01:00
+! Version: 2024.2.27.0
+! Last modified: Tue, 27 Feb 2024, 19:54 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.2.26.1 aktualizacja: pon, 26 lut 2024, 23:18 UTC+01:00
+! v.2024.2.27.0 aktualizacja: wto, 27 lut 2024, 19:54 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -159,7 +159,6 @@ aktywniwregionie.pl,gorazdze.pl,lohmann-tapes.pl###bbcdBanner
 akwarysta.eu,alemeksyk.eu,dudek.eu,fakty.nl,hoegert.com,mm-gazeta.de,mobbingwpracy.com,pimot.eu,rynek.de###ca_banner
 albatrosbus.pl,atrakcje.com.pl,atrakcjenaimprezy.pl,bileteria-online.pl,dialog.mazovia.pl,edurosli.pl,gardenexpress.pl,innowacja.edu.pl,mail.bremex.pl,pks.elblag.pl,pkspolonus.pl,polonuspartner.pl,radziejewska.pl,webster-studio.pl,zakexpress.pl,zdo.pl###popek
 aldi.pl,dobrebistro.eatbu.com##.mod-cookie-consent
-aldi.pl,netgear.com,technisat.com###usercentrics-root
 alegotowka.pl,chwilowkomat.pl,halopozyczka.pl,quadralite.pl###cookies-law
 aleje-smaku-katowice.skubacz.pl,barfoodporn.pl,barmlecznykukuryku.pl,cmp.med.pl,dobrekupony.pl,fon-pizza.skubacz.pl,gls-group.com,ichgcp.net,lavineria.pl,medexpress.pl,montersi.pl,nbp.pl,pizzaujana.pl,ukucharek.com.pl,upajdydabrowka.pl##html #cc--main[class]
 alekino.com###cookies-info-wrapper
@@ -1990,6 +1989,7 @@ net4car.pl###notice_messages
 net2000.pl##div[id].jquery-notify-bar
 net-speak.pl##div.uwaga
 netflix.com###cookie-disclosure
+netgear.com,technisat.com##body:not(.overflowHidden) #usercentrics-root
 netkoncept.com##.slabowidzacyCookie
 netpolska.com###privacy-policy-container
 nettg.pl##.fade
@@ -4171,11 +4171,13 @@ wolframalpha.com##footer ~ section
 !
 !
 ! Bugi ELC
+@@/otBannerSdk.js$domain=avanti24.pl|bankier.pl|bethesda.net|blaklader.pl|carrefour.pl|cartoonito.pl|czterykaty.pl|dyskusje24.pl|edziecko.pl|elle.pl|elleman.pl|essilor.pl|focus.pl|focusnauka.pl|g.pl|gazeta.pl|gazeta.tv|glamour.pl|gry.pl|haps.pl|hapsvod.pl|ikea.com|infoladnydom.pl|infozdrowie24.pl|kobieta.pl|magazyn-kuchnia.pl|mojegotowanie.pl|mojpieknyogrod.pl|moto-wiadomosci.pl|moto.pl|national-geographic.pl|olx.pl|pizzahut.pl|player.pl|plotek.pl|przyslijprzepis.pl|sport.gwar.pl|sport.pl|tokfm.pl|toteraz.pl|tvn.pl|tvn24.pl|ugotuj.to|wpodrozy24.pl|wyborcza.pl
 @@/wpjslib-stat.js$domain=nauka.rocks
+@@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=aldi.pl
 ###ba_eu_cookie_law:not(form)
 #@##ba_eu_cookie_law
-#@##onetrust-banner-sdk
-#@##onetrust-consent-sdk
+avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,elle.pl,elleman.pl,essilor.pl,focus.pl,focusnauka.pl,g.pl,gazeta.pl,gazeta.tv,glamour.pl,gry.pl,haps.pl,hapsvod.pl,ikea.com,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,magazyn-kuchnia.pl,mojegotowanie.pl,mojpieknyogrod.pl,moto-wiadomosci.pl,moto.pl,national-geographic.pl,olx.pl,pizzahut.pl,player.pl,plotek.pl,przyslijprzepis.pl,sport.gwar.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wpodrozy24.pl,wyborcza.pl#@##onetrust-banner-sdk
+avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,elle.pl,elleman.pl,essilor.pl,focus.pl,focusnauka.pl,g.pl,gazeta.pl,gazeta.tv,glamour.pl,gry.pl,haps.pl,hapsvod.pl,ikea.com,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,magazyn-kuchnia.pl,mojegotowanie.pl,mojpieknyogrod.pl,moto-wiadomosci.pl,moto.pl,national-geographic.pl,olx.pl,pizzahut.pl,player.pl,plotek.pl,przyslijprzepis.pl,sport.gwar.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wpodrozy24.pl,wyborcza.pl#@##onetrust-consent-sdk
 canva.com#@#.fFOiLQ.Ekl2FA.RNFNIA._9y-BYQ._1CzyGhb
 !
 !
