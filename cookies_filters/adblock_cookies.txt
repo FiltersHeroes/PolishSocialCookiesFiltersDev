@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.3.1.0
-! Last modified: Fri, 01 Mar 2024, 01:31 UTC+01:00
+! Version: 2024.3.1.1
+! Last modified: Fri, 01 Mar 2024, 17:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.3.1.0 aktualizacja: pią, 01 mar 2024, 01:31 UTC+01:00
+! v.2024.3.1.1 aktualizacja: pią, 01 mar 2024, 17:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1854,6 +1854,7 @@ migora.pl###topInfoContainer1 > #topInfo1
 miles-and-more.com##.cookieusage__base
 millymally.pl###js-xcookies
 milmag.pl###layCookieAlert
+mimarkt.pl###garua_cookie_consent_popup
 mintos.com,publio.pl###cookie-agreement
 miplo.pl##.error.rounded
 mirjan24.pl###window_overlay
@@ -3687,7 +3688,6 @@ pl###cookieWrap:not(body):not(html)
 pl###cookieWrapper:not(body):not(html)
 pl###CPolicy:not(body):not(html)
 pl###cross-dialog.crossDialog:not(body):not(html)
-pl###CybotCookiebotDialog:not(body):not(html)
 pl###div_accept_cookies:not(body):not(html)
 pl###div_cookies_accept:not(body):not(html)
 pl###div_info_cookies:not(body):not(html)
@@ -4039,6 +4039,7 @@ pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies
 pl##body:not([class*="cookie-overflow"]) div[id][class*="iai_cookie"]
 pl##body:not([class*="cookie-overflow"]) div[id^="ck_dsclr"][class*="ck_dsclr"]
 pl##body:not([class*="cookie-overflow"]) div[id^="iai_cookie"][class*="iai_cookie"]
+pl##body:not([style*="overflow"]) #CybotCookiebotDialog:not(body):not(html)
 pl##div#cook
 pl##div#cookiepopupdiv
 pl##div#footer-cookies
