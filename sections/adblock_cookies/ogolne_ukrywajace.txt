@@ -417,7 +417,6 @@ pl###cookieWrap:not(body):not(html)
 pl###cookieWrapper:not(body):not(html)
 pl###CPolicy:not(body):not(html)
 pl###cross-dialog.crossDialog:not(body):not(html)
-pl##body:not([style*="overflow"]) #CybotCookiebotDialog:not(body):not(html)
 pl###div_accept_cookies:not(body):not(html)
 pl###div_cookies_accept:not(body):not(html)
 pl###div_info_cookies:not(body):not(html)
@@ -769,6 +768,7 @@ pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies
 pl##body:not([class*="cookie-overflow"]) div[id][class*="iai_cookie"]
 pl##body:not([class*="cookie-overflow"]) div[id^="ck_dsclr"][class*="ck_dsclr"]
 pl##body:not([class*="cookie-overflow"]) div[id^="iai_cookie"][class*="iai_cookie"]
+pl##body:not([style*="overflow"]) #CybotCookiebotDialog:not(body):not(html)
 pl##div#cook
 pl##div#cookiepopupdiv
 pl##div#footer-cookies
