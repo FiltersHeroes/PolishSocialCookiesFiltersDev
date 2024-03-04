@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.3.3.0
-! Last modified: Sun, 03 Mar 2024, 21:31 UTC+01:00
+! Version: 2024.3.4.0
+! Last modified: Mon, 04 Mar 2024, 01:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.3.3.0 aktualizacja: nie, 03 mar 2024, 21:31 UTC+01:00
+! v.2024.3.4.0 aktualizacja: pon, 04 mar 2024, 01:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -787,6 +787,7 @@ pl##a[title="gplus"]
 pl##a[title="Instagram"]
 pl##button[id*="componentsArticleFoot"][id*="Facebook"], button[id*="componentsArticleFoot"][id*="Twitter"]
 pl##div[id^="profilki_socialbuttons_"]
+pl##div[id^="tws_i_"]:has([class*="fb_iframe"])
 pl##footer .fb_button
 pl##footer ul.social li a[href*=".com/"]:not([href="/rss"])
 pl##img[src="./images/icons/nk.png"]
