@@ -1,5 +1,4 @@
 ###menu-portale-spolecznosciowe
-pl##div[id^="tws_i_"]:has([class*="fb_iframe"])
 ##.facebookPrzyczepiony
 ##.footer-box.footer-social-media
 ##.sh-copyrights-social
@@ -596,6 +595,7 @@ pl##a[title="gplus"]
 pl##a[title="Instagram"]
 pl##button[id*="componentsArticleFoot"][id*="Facebook"], button[id*="componentsArticleFoot"][id*="Twitter"]
 pl##div[id^="profilki_socialbuttons_"]
+pl##div[id^="tws_i_"]:has([class*="fb_iframe"])
 pl##footer .fb_button
 pl##footer ul.social li a[href*=".com/"]:not([href="/rss"])
 pl##img[src="./images/icons/nk.png"]
