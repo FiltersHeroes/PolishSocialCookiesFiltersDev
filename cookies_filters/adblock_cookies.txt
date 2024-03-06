@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.3.5.0
-! Last modified: Tue, 05 Mar 2024, 21:31 UTC+01:00
+! Version: 2024.3.6.0
+! Last modified: Wed, 06 Mar 2024, 21:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.3.5.0 aktualizacja: wto, 05 mar 2024, 21:31 UTC+01:00
+! v.2024.3.6.0 aktualizacja: śro, 06 mar 2024, 21:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1300,7 +1300,6 @@ groupon.pl##div#jOftLayer
 grudnik.pl,sig.pl##.cookie-alert__wrapper
 grupa.unimet.pl##.total-plus-privacy-policy
 grupapolmotor.pl,polmotor.pl,superpewniak.pl###npu-pop-up
-grupapsb.com.pl,mrowka.com.pl##.cookies-header
 gry.lotto.pl###cookie__note
 gryf.pl###baner
 gsbk.pl,klinika.krakow.pl###ci
@@ -4180,6 +4179,7 @@ wolframalpha.com##footer ~ section
 avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,elle.pl,elleman.pl,essilor.pl,focus.pl,focusnauka.pl,g.pl,gazeta.pl,gazeta.tv,glamour.pl,gry.pl,haps.pl,hapsvod.pl,ikea.com,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,magazyn-kuchnia.pl,mojegotowanie.pl,mojpieknyogrod.pl,moto-wiadomosci.pl,moto.pl,national-geographic.pl,olx.pl,pizzahut.pl,player.pl,plotek.pl,przyslijprzepis.pl,sport.gwar.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wpodrozy24.pl,wyborcza.pl#@##onetrust-banner-sdk
 avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,elle.pl,elleman.pl,essilor.pl,focus.pl,focusnauka.pl,g.pl,gazeta.pl,gazeta.tv,glamour.pl,gry.pl,haps.pl,hapsvod.pl,ikea.com,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,magazyn-kuchnia.pl,mojegotowanie.pl,mojpieknyogrod.pl,moto-wiadomosci.pl,moto.pl,national-geographic.pl,olx.pl,pizzahut.pl,player.pl,plotek.pl,przyslijprzepis.pl,sport.gwar.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wpodrozy24.pl,wyborcza.pl#@##onetrust-consent-sdk
 canva.com#@#.fFOiLQ.Ekl2FA.RNFNIA._9y-BYQ._1CzyGhb
+grupapsb.com.pl#@#.cookies-footer
 tesa.com##.-lock-overlay body::after
 tesa.com#@#div.cookie-notice
 !
@@ -4205,6 +4205,7 @@ eurogamer.pl#@##optanon:not(body):not(html)
 eurogamer.pl#@#.optanon-alert-box-wrapper:not(body):not(html)
 forum.gg.pl,viasatexplore.pl,viasathistory.pl,viasatnature.pl,winnicalidla.pl#@#.privacy-policy:not(body):not(html):not(a)
 gdansk.pl,gokf.gda.pl,wins.pl#@##cookies:not(body):not(html):not(.section):not(.fade)
+grupapsb.com.pl#@#.cookies-footer:not(body):not(html)
 gry.pl,shinden.pl,wmeritum.pl,wykop.pl#@#div[class^="app_gdpr"]
 kupbilecik.pl,panbilet.pl,wins.pl#@#.cookie-container:not(body):not(html)
 maxelektro.pl#@##cookie-info:not(body):not(html)
