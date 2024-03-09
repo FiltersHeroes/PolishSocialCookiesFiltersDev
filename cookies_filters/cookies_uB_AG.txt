@@ -19,7 +19,9 @@ eu,pl#@#body > div:not([id]):not([class])
 !
 !
 ! Bugi ELC
+/wpjslib-ecom.js$badfilter
 /wpjslib-stat.js$badfilter
+@@/wpjslib-ecom.js$badfilter,domain=17bankow.com
 @@/wpjslib-stat.js$badfilter,domain=nauka.rocks
 doz.pl#@#body,html:style(overflow: auto !important; position: initial !important;)
 !
@@ -462,6 +464,8 @@ moje.ose.gov.pl##.cookies:upward(.modal)
 monese.com##.cookie-banner__wrapper
 monese.com##body.fixed:style(overflow: auto !important)
 monitoring.prospect.pl###welcome-msg
+morele.net###cookieBoxWrapper, #cookie_box, #cookie-consent
+morele.net##body.overflow-mobile-tablet:style(overflow: auto !important)
 moto-firma.pl,sklep.krisauto.pl,wapex.pl###mAll, .modal-backdrop
 motofaktor.pl##.noScroll:style(overflow: auto !important)
 msn.com##.head:style(margin-top: 0 !important)
