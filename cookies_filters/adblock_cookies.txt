@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.3.6.0
-! Last modified: Wed, 06 Mar 2024, 21:31 UTC+01:00
+! Version: 2024.3.9.0
+! Last modified: Sat, 09 Mar 2024, 20:26 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.3.6.0 aktualizacja: śro, 06 mar 2024, 21:31 UTC+01:00
+! v.2024.3.9.0 aktualizacja: sob, 09 mar 2024, 20:26 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1901,7 +1901,6 @@ monsterpolska.pl###interMsgsW, #m-popup-softgate, .browserAlertHolder
 moodle.uni.lodz.pl#?##block-region-side-post > .block.block_html:-abp-contains(plików cookies)
 mopr.piekary.pl#?##fancybox-wrap:-abp-has(h3:-abp-contains(Ciasteczka))
 mord.krakow.pl##span[onclick="location.href='http://mord.krakow.pl/ogloszenia/a,36,pliki-cookie.html'"]
-morele.net###cookieBoxWrapper, #cookie_box
 mos.gov.pl##div#textcook
 mosir-bip.e-partner.pl###popup-info
 mosir.elblag.eu,oksir.eu###cac
@@ -4172,6 +4171,7 @@ wolframalpha.com##footer ~ section
 !
 ! Bugi ELC
 @@/otBannerSdk.js$domain=avanti24.pl|bankier.pl|bethesda.net|blaklader.pl|carrefour.pl|cartoonito.pl|czterykaty.pl|dyskusje24.pl|edziecko.pl|elle.pl|elleman.pl|essilor.pl|focus.pl|focusnauka.pl|g.pl|gazeta.pl|gazeta.tv|glamour.pl|gry.pl|haps.pl|hapsvod.pl|ikea.com|infoladnydom.pl|infozdrowie24.pl|kobieta.pl|magazyn-kuchnia.pl|mojegotowanie.pl|mojpieknyogrod.pl|moto-wiadomosci.pl|moto.pl|national-geographic.pl|olx.pl|pizzahut.pl|player.pl|plotek.pl|przyslijprzepis.pl|sport.gwar.pl|sport.pl|tokfm.pl|toteraz.pl|tvn.pl|tvn24.pl|ugotuj.to|wpodrozy24.pl|wyborcza.pl
+@@/wpjslib-ecom.js$domain=17bankow.com
 @@/wpjslib-stat.js$domain=nauka.rocks
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=aldi.pl
 ###ba_eu_cookie_law:not(form)
@@ -4180,6 +4180,7 @@ avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czte
 avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,elle.pl,elleman.pl,essilor.pl,focus.pl,focusnauka.pl,g.pl,gazeta.pl,gazeta.tv,glamour.pl,gry.pl,haps.pl,hapsvod.pl,ikea.com,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,magazyn-kuchnia.pl,mojegotowanie.pl,mojpieknyogrod.pl,moto-wiadomosci.pl,moto.pl,national-geographic.pl,olx.pl,pizzahut.pl,player.pl,plotek.pl,przyslijprzepis.pl,sport.gwar.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wpodrozy24.pl,wyborcza.pl#@##onetrust-consent-sdk
 canva.com#@#.fFOiLQ.Ekl2FA.RNFNIA._9y-BYQ._1CzyGhb
 grupapsb.com.pl#@#.cookies-footer
+morele.net#@##cookie-consent
 tesa.com##.-lock-overlay body::after
 tesa.com#@#div.cookie-notice
 !
