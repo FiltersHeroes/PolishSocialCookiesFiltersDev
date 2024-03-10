@@ -1,4 +1,3 @@
-visplantis.pl##div.footer-box:has(+ div .social-media):remove-class(/border/)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href=""][title*="instagram"][target="_blank"] ~ a[href=""][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##figure strong:has-text(/^Podziel się$/):upward(2)
@@ -113,6 +112,7 @@ um.kielce.pl##map > area[alt="Facebook"]:remove()
 valtra.pl##.aem-GridColumn .titleblock__heading:has-text(ŚLEDŹ)
 valtra.pl##.aem-GridColumn a[href*="facebook.com/"] img:upward(.aem-GridColumn)
 vibez.pl##div > svg[aria-labelledby="share"]:upward(1)
+visplantis.pl##div.footer-box:has(+ div .social-media):remove-class(/border/)
 waw4free.pl###spolecznosci:style(height: auto !important)
 weather.com##.SocialMediaShareButton:style(pointer-events: none; position: unset !important)
 welovekeratin.pl##.elementor-widget-pix-social-icons
