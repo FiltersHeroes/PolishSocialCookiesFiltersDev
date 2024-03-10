@@ -1,5 +1,3 @@
-##body:not(.fancybox-lock) .cookify
-##body:not(.fancybox-lock) #cookieBackdrop
 ###ciacho_bar:not(body):not(html)
 ###ciacho_inf
 ###ciasteczka-komunikat:not(body):not(html)
@@ -78,6 +76,8 @@
 ##body > #_rodo
 ##body > .plikicookies
 ##body > script[src*="cukiernia"] ~ div#cukiernia
+##body:not(.fancybox-lock) #cookieBackdrop
+##body:not(.fancybox-lock) .cookify
 ##ciasteczka:not(body):not(html)
 ##cookidiv:not(body):not(html)
 ##div#belkaRodo
