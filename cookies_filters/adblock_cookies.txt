@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.3.9.0
-! Last modified: Sat, 09 Mar 2024, 20:26 UTC+01:00
+! Version: 2024.3.10.0
+! Last modified: Sun, 10 Mar 2024, 17:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,11 +18,10 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.3.9.0 aktualizacja: sob, 09 mar 2024, 20:26 UTC+01:00
+! v.2024.3.10.0 aktualizacja: nie, 10 mar 2024, 17:31 UTC+01:00
 !
 !
 ! Specyficzne reguły ukrywające
-!tesa.com##.legal-message-wrapper
 1-st.com.pl,agrojd.com,agrospec.pl,arx.pl,aspel.com.pl,babysensepolska.pl,bikeman.pl,bosch.com.pl,comarch-esklep.pl,cudnydom.pl,e-oazakrakow.pl,elabrick24.pl,esklep.brandvital.eu,estetiq.pl,galerialazienek.pl,haczykowo.pl,kolorowymotylek.pl,kopalniasrebra.com,kran.tychy.pl,ksiegarniarubikon.pl,milopiwo.pl,nygus.pl,oftadirect.pl,ogrodekdziadunia.pl,papier24h.pl,papieryczerpane.pl,profesjonalne-nawadnianie.pl,selene.pl,sklep-narzedzia.pl,sklep.abydos.pl,sklep.agro-eko.com.pl,sklep.agromasz.pl,sklep.balcamp.pl,sklep.benedetto.com.pl,sklep.budowniczy.com.pl,sklep.centrumbhpwpp.eu,sklep.dalimex.pl,sklep.kotrak.com,sklep.kskd.pl,sklep.mebloart.eu,sklep.miodyapis.pl,sklep.phalanxgames.pl,sklep.rol-mech.pl,sklep.salvatti.pl,sklep.sigma-max.pl,sklep.stalco.pl,sklep.tayama.pl,spawalniczy-sklep.pl,swiatkoralikow.pl,swiatkoralikow2.pl,texasclub.pl,tvprodukt.pl,wierzynek.pl,workstyle.pl,wphmilitaria.pl#?#.footer > div[class*="config"][class*="Messages" i]:-abp-contains(/pliki "?cookies"?/)
 2x45.info,agromasa.com,alltube.tv,answear.com,atriumsystem.eu,barfnyswiat.org,bip.dzialdowo.eu,bip.gig.eu,bip.konin.eu,bip.piaseczno.eu,business.link,cedc.com,diagprog4.com,edeklaracje.info,eska.tv,evertourist.com,fachowiec.com,feriogaj.com,fokus.tv,gdansk.pl,gdzierodzic.info,grobla.net,imperiaonline.org,informacja-turystyczna.starachowice.eu,jezewo.eu,kolniak24.eu,koneser.eu,koszyki.com,lampy24.net,lot.com,lumarte.eu,mojewypieki.com,multimaszyny.eu,muzo.fm,nasze.fm,nowa.tv,odpady.chorzow.eu,plantatekst.info,portalodo.com,prymus.info,radiokampus.fm,rowertour.com,skierniewice.eu,studiuje.eu,telesystem-world.com,vodi.cc,voxmusic.tv,xtb.com,zaluknij.cc###cookies
 3dom.pro,anmur.eu,aoc.com,avenidapoznan.com,beezeeselfcare.pl,bibliotekacyfrowa.eu,bimobject.com,bip.gliwice.eu,budmat.com,canalplus.com,chorzow.eu,corab.eu,damy-rade.info,diamante-wear.com,digitalhome.co,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kler.eu,koszulkomat.eu,localmarket.no,maamstyle.com,mateuszgrzesiak.com,media-tech.eu,mg-pmm.com,motogron.com,naszefutrzaki.eu,pkpcargo.com,prochnik.com,radiopark.fm,rocks-jeans.com,sapphiretech.com,secretdelivery.pl,stolmot.com,telko.in,trans.eu,trecnutrition.com,warszawa.promenada.com,wearmedicine.com,woopauto.com,yes2move.com##.cookies
@@ -1351,6 +1350,7 @@ home.pl,idea4you.eu,koty24.pl,psy24.pl###box_policies
 homekoncept.com.pl##.cookies__container
 hondanews.eu###cookiesPolicyBanner, #cookies-cover
 hopea.eu,kalendarzrolnikow.pl,kpcen-torun.edu.pl,lpwiksa.pl###colorbox, #cboxOverlay
+horecapolska.pl,hyaloo.pl,sklepceliko.pl##.consents
 horex.pl,hydro.com##.cookies__wrapper
 horyzonty.pl##.cookies_note
 host1.eu,mateuszgrzesiak.tv##.cookies_policy
@@ -1368,7 +1368,6 @@ humanoffice.pl###cookie_cointer
 hurtownia-24.pl,spolem.com.pl###roar-alert-wrap > #roar-alert.roar-alert
 hurtownia-kosmetyczna.org,tatuum.com###cookie_law_informations
 husqvarna.com##.c-fnd-cookie-acceptance
-hyaloo.pl##.consents
 hydrem-online.com###bookingLayer
 i-puzzle.pl##.euc
 iab.org.pl,iabpolska.pl###wpca-wrapper
@@ -1710,6 +1709,7 @@ loco.pl###privacyCurtain
 logistics.dhl##.c-cookie-disclaimer
 lokalna24.pl#?##jm-right .custom > table:-abp-contains(RODO)
 lokalnyrolnik.pl###cdk-overlay-0
+loknabok.pl###pdcookielaw.pdcookielaw
 lomianki.pl###splash
 lomzynska.com.pl##.c-cookie-alert
 londynek.net##.jd-rodo, .jd-rodo-2
@@ -1717,6 +1717,9 @@ longterm.pl##.cookie-consent-ghost
 lookimg.com###cookie-law-banner
 loombard.pl##div[id^="cookieconsent"]
 loomi.tv##.cookie-background
+lores.pl##embed[src$="/iframe/gdpr-modal"]
+lores.pl##iframe[src$="/iframe/gdpr-modal"]
+lores.pl##object[data$="/iframe/gdpr-modal"]
 lorino.pl##.lorada-cookies-popup
 lotaro.pl,polskazachwyca.pl,tanie-loty.com.pl###rodo_info_placeholder
 loteria.carrefour.pl,milionynagrod.pl,pokonajnoc.pl,powerisback.pl,promocja.aldi.pl###pop_up
