@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.3.10.2
-! Last modified: Sun, 10 Mar 2024, 21:50 UTC+01:00
+! Version: 2024.3.10.3
+! Last modified: Sun, 10 Mar 2024, 22:10 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.3.10.2 aktualizacja: nie, 10 mar 2024, 21:50 UTC+01:00
+! v.2024.3.10.3 aktualizacja: nie, 10 mar 2024, 22:10 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1144,6 +1144,7 @@ alfasan.pl,dlakatolika.pl,schaffer-polska.pl,speak-up.pl###insta
 alfatv.pl##footer > #adres > div > .row > .col-md-2
 alget.pl###social_news
 alicjawkrainiegarow.blogspot.com,moje-bubble.blogspot.com###Profile1
+aliexpress.com##div[class*="share-and-wish"] > div[class*="share-and-wish"]:first-child
 aliholik.pl,autorskielegalnie.pl,blog.rembowscy.pl,karointhekitchen.com,liberglob.pl,pannaannabiega.pl,showmag.info###text-10
 aliholik.pl,blog.poczta-polska.pl,choinki.net,damagier.pl,dobremoce.pl,doktorania.pl,elportal.pl,fama.org.pl,fury-zone.com,koszalininfo.pl,lozaszydercow.com,miejscawewroclawiu.pl,niezatapialni.com,olejenazdrowie.pl,perfumyfm.biz,polski-dubbing.pl,polskiedrogi-tv.pl,psychetee.pl,sempretaniec.pl,typeofweb.com,wyklady.org###text-4
 aliholik.pl,prokapitalizm.pl###text-5, #text-6
@@ -1233,7 +1234,7 @@ anonse.com###media > li
 anotherdesign.pl###pint, #slide_box_sz
 ansin.pl###fx-socialLinks
 ansin.pl##a.fx-iconBox:nth-of-type(n+5):nth-of-type(-n+6)
-answear.com##footer > div[class*="footer"] > div[class*="footer"i] > .grid-container > .grid-row:nth-child(1) > div[class*="col"]:nth-child(4) > :nth-child(n+3):nth-child(-n+4)
+answear.com##footer > div[class*="footer"] > div[class*="footer"i] > .grid-container > .grid-row:first-child > div[class*="col"]:nth-child(4) > :nth-child(n+3):nth-child(-n+4)
 antkowiak-klamki.pl###grw_sidebox
 antrans.com.pl##.elm-socialicons, #footer-main .znColumnElement-innerContent > div:nth-of-type(6)
 antyfake.pl##.icon-social
