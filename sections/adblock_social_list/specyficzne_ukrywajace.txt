@@ -1,3 +1,45 @@
+visplantis.pl##.social-media
+erli.pl##footer a[href*="facebook.com/"]
+erli.pl##footer a[href*="linkedin.com/"]
+erli.pl##footer a[href*="instagram.com/"]
+erli.pl#?##root section[data-e2e="fixed-banner"]:-abp-contains(Otwórz w aplikacji)
+neonet.pl##.footer_content_social_icos
+teleshow.wp.pl##a[href*="instagram.com/"][href*="WP" i][title*="Instagram"][title*="WP" i]
+teleshow.wp.pl#?#.teasersListing[class*="slide" i] + div:-abp-has( a[href*="instagram.com/"]) span:-abp-contains(/^lub$/)
+tvn24.pl##.share-title
+avanti24.pl##button[aria-label*="na Instagram"]
+avanti24.pl##button[aria-label*="na Facebook"]
+paypo.pl##footer a[href*="facebook.com/"]
+paypo.pl##footer a[href*="linkedin.com/"]
+sposobynaodpornosc.wp.pl##.socials > .socials-items
+diabelzpudelka.pl##footer a[href*="facebook.com/"]
+gorteks.com.pl##.menu_buttons_sub
+poukladane.pl###wtyczki
+tchibo-coffeeservice.pl##.social
+zstiomeritum.edu.pl##.facebookicon
+fandom.com##.global-footer__section-social-links.global-footer__section
+etuo.pl##a[class*="fb"][onclick]
+extra-plonsk.pl##.social-icons-facebook
+extra-plonsk.pl##.social-box-container
+extra-plonsk.pl#?#hr + div > p:-abp-has(+div[class*="social"])
+extra-plonsk.pl##.footer-social-media
+extra-plonsk.pl#?#footer p:-abp-has(+ .footer-social-media)
+etuo.pl##footer a[title="facebook"]
+etuo.pl##footer a[title="youtube"]
+etuo.pl##footer a[title="instagram"]
+etuo.pl##footer a[title="pinterest"]
+magnes.com.pl###baner-instagram
+magnes.com.pl###baner-facebook
+magnes.com.pl###baner-tiktok
+magnes.com.pl###baner-youtube
+coffeecave.pl##.socialmedia
+coffeecave.pl##.facebook-icon
+coffeecave.pl##.ig-icon
+twardogora.pl##.stopka_links
+fronda.pl##.sm-share [onclick*="fb"]
+fryzjada.pl##.menu-item > a[href*="instagram.com/"]
+fiftyfiftyconcept.pl##.mkdf-blog-single-share
+fiftyfiftyconcept.pl##.mkdf-social-icons-group-widget
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#a[href*=","][title*=" "] ~ div button:-abp-has(svg)
