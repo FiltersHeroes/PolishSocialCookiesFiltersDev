@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.3.23.0
-! Last modified: Sat, 23 Mar 2024, 01:31 UTC+01:00
+! Version: 2024.3.23.1
+! Last modified: Sat, 23 Mar 2024, 17:31 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2023 Certyficate IT
 ! Copyright © 2023 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.3.23.0 aktualizacja: sob, 23 mar 2024, 01:31 UTC+01:00
+! v.2024.3.23.1 aktualizacja: sob, 23 mar 2024, 17:31 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -8728,7 +8728,7 @@ www.google.com,www.google.pl##.ddl-twitterButton_
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:nth-of-type(-n+2)
 www.google.com,www.google.pl##div[data-attrid*="social media presence"] span, div[data-attrid*="social media presence"] a
 www.google.com,www.google.pl#?##modal-dialog div[class*="-share-"] button[class*="-share-"]:-abp-has(img[src*="svg"])
-www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^(Facebook|Twitter)$/)
+www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^(Facebook|X|WhatsApp)$/)
 www.komputronik.pl###footer > div > div > div > div > section > div:nth-child(5) > div:nth-child(n+3):nth-child(-n+4)
 www.logitech.com##.social-email-row .social-ctn
 www.nzspw.pl#?#h2.font_2:-abp-contains(/(SOCIAL MEDIA|FACEBOOK|INSTAGRAM|LINKEDIN|YOUTUBE)/)
