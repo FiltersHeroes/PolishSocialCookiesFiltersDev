@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.4.7.0
-! Last modified: Sun, 07 Apr 2024, 02:31 UTC+02:00
+! Version: 2024.4.7.1
+! Last modified: Sun, 07 Apr 2024, 13:05 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.4.7.0 aktualizacja: nie, 07 kwi 2024, 02:31 UTC+02:00
+! v.2024.4.7.1 aktualizacja: nie, 07 kwi 2024, 13:05 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -66,6 +66,7 @@ abbvie.pl###omniTrackDiv
 abcalkoholu.pl,lech.pl,tyskie.pl,zubr.pl##.privacyModal
 abctygodnik.pl,wgospodarce.pl,wpolsce.pl##.rhododendron-popup, .rhododendron-popup-overlay
 abfoto.pl##.abfoto_popup_bg
+abfoto.pl,arenalazienek.pl,audiotop.pl,bakeshop.pl,csk-med.pl,czerwonatwierdza.pl,deluxury.pl,dlabrodacza.pl,duda-cars.pl,estetic-dent-sklep.pl,fitness-home.pl,fly-desk.com,hanzo.com.pl,horecapolska.pl,huzaro.pl,hyaloo.pl,icentrumsklep.pl,kombitsklep.pl,kozak.pl,laptok.com,militarymarket.pl,miodykrupiec.pl,modnakiecka.pl,niewiem.pl,pancernik.eu,planszostrefa.pl,profitechnik.pl,prorowery.pl,questsport.shop,r-kom.pl,retio.pl,skarbyroztocza.com,sklepceliko.pl,sklepkawa.pl,sklepsoltech.pl,trigar.pl,wkdzik.pl##.consents
 abook.com.pl#?#div.left-sideblock > .sideblock-inner:-abp-has(a[href*="/node/125"])
 aboutyou.pl###app > .cookieBannerActive > div[class*="cookieBannerContainer"]
 absbank.pl##body > div[style="background: #eee; border-bottom: 1px solid #ccc; padding: 10px 5px 25px 5px;"]:not([id]):not([class])
@@ -242,7 +243,6 @@ archiwumbip.krzemieniewo.pl#?#table font small:-abp-contains(używa cookies)
 are.waw.pl,ebok.asta-net.pl,studia.gov.pl##.top.ui-notificationbar
 areatour.pl,dacter.pl,dlapacjenta.pl,marbo-sport.pl,radentortodonta.pl,uni-tech.pl##div#topbar
 arena.pl#?##__next > footer ~ .MuiPaper-root:-abp-has(a[href*="Polityka-Plik%C3%B3w-Cookies"].MuiLink-root)
-arenalazienek.pl,audiotop.pl,bakeshop.pl,csk-med.pl,czerwonatwierdza.pl,deluxury.pl,dlabrodacza.pl,duda-cars.pl,estetic-dent-sklep.pl,fitness-home.pl,fly-desk.com,hanzo.com.pl,horecapolska.pl,huzaro.pl,hyaloo.pl,icentrumsklep.pl,kombitsklep.pl,kozak.pl,laptok.com,militarymarket.pl,miodykrupiec.pl,modnakiecka.pl,niewiem.pl,pancernik.eu,planszostrefa.pl,profitechnik.pl,prorowery.pl,questsport.shop,r-kom.pl,retio.pl,skarbyroztocza.com,sklepceliko.pl,sklepkawa.pl,sklepsoltech.pl,trigar.pl,wkdzik.pl##.consents
 arg.gdynia.pl,finai.pl,rankinglekarzy.pl##div > .info
 arka.tv,kurjerzy.pl,legia.net###cookies_policy
 arl.org.pl##.info-bar
@@ -631,6 +631,7 @@ ckis-pruszcz.pl,grodzisk.pl,iaepan.edu.pl,parkwodny.pl,srodaslaska.pl,szkolymedy
 ckiw-dobieszkow.ohp.pl###eDcPopupBox
 ckmir.com.pl#?#p:-abp-contains(cookie)
 clea.pl,tksport.pl,um-swiecie.pl##.scbi
+cleanerenergy.pl###spu-bg-5066, #spu-5066
 clearchannel.com.pl,daliantrading.com.pl,mpwik.com.pl,sokolka.com.pl###rodoPopup
 climateo.eu,climateo.pl,wentylacja24.pl##.body-cookie
 cloud.huawei.com##.cookieTip
@@ -1011,6 +1012,7 @@ eszkola.opolskie.pl##.ms-dlgOverlay
 etam.pl##.cookiesettingsmanager
 eteacher.pl,ettoi.pl,speedtest.com.pl,speedtest.pl,starmann.pl,wirtualis.pl###info_container
 eternityproject.pl##div.newsbar
+etipolam.com.pl##.fixed.gdpr
 etipolam.com.pl##.ico-wrapper
 etoto.pl,fuksiarz.pl,totalbet.pl##.cookiesComponent
 ettoi.pl,wirtualis.pl###info_content
@@ -1721,6 +1723,7 @@ lores.pl##object[data$="/iframe/gdpr-modal"]
 lorino.pl##.lorada-cookies-popup
 lotaro.pl,polskazachwyca.pl,tanie-loty.com.pl###rodo_info_placeholder
 loteria.carrefour.pl,milionynagrod.pl,pokonajnoc.pl,powerisback.pl,promocja.aldi.pl###pop_up
+loteriacorega.pl#?##pop_up:-abp-has(.cookie_first_look)
 lotplay.pl##.ui-corner-all
 lotto.pl###klauzula_informacyjna_nakladka
 lovekrakow.pl###new-policy
@@ -1861,7 +1864,7 @@ mirjan24.pl###window_overlay
 mirjan24.pl##.cookieslaw
 mirpol-bis.pl##.message-popup-background
 missplanner.pl##.page--notification
-mistama.com,sklep.agro-plus.com.pl,sklepkrzyzanek.pl###change_terms_message
+mistama.com,q21.pl,sklep.agro-plus.com.pl,sklepkrzyzanek.pl###change_terms_message
 mitsubishielectric.com##.cookie-hint
 mittendrin.pl##.bpcms-cookie-bar
 mixmedia.pl##div#cook_info
@@ -2848,6 +2851,7 @@ transport.zamosc.pl,zacisze-roztocze.pl##.tooltip[style*="fixed"]
 tranzystor.pl###tranzystorcookie
 tranzystor.pl###tranzystorcookies
 trasa.info###cookemessagehandler
+travelcircus.pl#?##landingpage-app > div[class] > div[class] > div.header-navigation > div[width]:-abp-has(> div > div > div > h2 ~ div > div[style*="underline"])
 travelplanet.pl###cookie--info-wrapper
 travelplanet.pl###privacy-protection-popup
 trejdoo.com###td-alert
@@ -3861,7 +3865,7 @@ pl##.cookie-infobox-wrp:not(body):not(html)
 pl##.cookie-information:not(body):not(html)
 pl##.cookie-law:not(body):not(html):not(.post-content)
 pl##.cookie-layer:not(body):not(html)
-pl##.cookie-message:not(body):not(html):not(.modal-body)
+pl##.cookie-message:not(body):not(html):not(.modal-body):not(.fade)
 pl##.cookie-monster:not(body):not(html)
 pl##.cookie-notice-container:not(body):not(html)
 pl##.cookie-notice:not(body):not(html):not(#wrapper):not(#footer)
@@ -4183,6 +4187,7 @@ wolframalpha.com##footer ~ section
 @@/otBannerSdk.js$domain=avanti24.pl|bankier.pl|bethesda.net|blaklader.pl|carrefour.pl|cartoonito.pl|czterykaty.pl|dyskusje24.pl|edziecko.pl|elle.pl|elleman.pl|essilor.pl|focus.pl|focusnauka.pl|g.pl|gazeta.pl|gazeta.tv|glamour.pl|gry.pl|haps.pl|hapsvod.pl|ikea.com|infoladnydom.pl|infozdrowie24.pl|kobieta.pl|magazyn-kuchnia.pl|mojegotowanie.pl|mojpieknyogrod.pl|moto-wiadomosci.pl|moto.pl|national-geographic.pl|olx.pl|pizzahut.pl|player.pl|plotek.pl|przyslijprzepis.pl|sport.gwar.pl|sport.pl|tokfm.pl|toteraz.pl|tvn.pl|tvn24.pl|ugotuj.to|wpodrozy24.pl|wyborcza.pl
 @@/wpjslib-ecom.js$domain=17bankow.com
 @@/wpjslib-stat.js$domain=nauka.rocks
+@@||grupabiwakowa.pl/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=aldi.pl
 ###ba_eu_cookie_law:not(form)
 #@##ba_eu_cookie_law
@@ -4192,9 +4197,13 @@ aptelia.pl,dozapteka.pl#@#.popup-cookies
 avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,elle.pl,elleman.pl,essilor.pl,focus.pl,focusnauka.pl,g.pl,gazeta.pl,gazeta.tv,glamour.pl,gry.pl,haps.pl,hapsvod.pl,ikea.com,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,magazyn-kuchnia.pl,mojegotowanie.pl,mojpieknyogrod.pl,moto-wiadomosci.pl,moto.pl,national-geographic.pl,olx.pl,pizzahut.pl,player.pl,plotek.pl,przyslijprzepis.pl,sport.gwar.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wpodrozy24.pl,wyborcza.pl#@##onetrust-banner-sdk
 avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,elle.pl,elleman.pl,essilor.pl,focus.pl,focusnauka.pl,g.pl,gazeta.pl,gazeta.tv,glamour.pl,gry.pl,haps.pl,hapsvod.pl,ikea.com,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,magazyn-kuchnia.pl,mojegotowanie.pl,mojpieknyogrod.pl,moto-wiadomosci.pl,moto.pl,national-geographic.pl,olx.pl,pizzahut.pl,player.pl,plotek.pl,przyslijprzepis.pl,sport.gwar.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wpodrozy24.pl,wyborcza.pl#@##onetrust-consent-sdk
 canva.com#@#.fFOiLQ.Ekl2FA.RNFNIA._9y-BYQ._1CzyGhb
+grupabiwakowa.pl#@##cmplz-cookiebanner-container
+grupabiwakowa.pl#@#.cookie-statement
 grupapsb.com.pl#@#.cookies-footer
-kakto.pl#@#div.cookie-message
+kakto.pl,pl#@#div.cookie-message
 morele.net#@##cookie-consent
+profix.com.pl,proline-tools.com.pl#@#div#cookieConsentModal
+softpos.eu#@#.jsModalRodo
 tesa.com##.-lock-overlay body::after
 tesa.com#@#div.cookie-notice
 uptodown.com###cookiescript_injected_wrapper
