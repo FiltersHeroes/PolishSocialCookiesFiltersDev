@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.4.6.0
-! Last modified: Sat, 06 Apr 2024, 14:31 UTC+02:00
+! Version: 2024.4.7.0
+! Last modified: Sun, 07 Apr 2024, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.4.6.0 aktualizacja: sob, 06 kwi 2024, 14:31 UTC+02:00
+! v.2024.4.7.0 aktualizacja: nie, 07 kwi 2024, 02:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -242,6 +242,7 @@ archiwumbip.krzemieniewo.pl#?#table font small:-abp-contains(używa cookies)
 are.waw.pl,ebok.asta-net.pl,studia.gov.pl##.top.ui-notificationbar
 areatour.pl,dacter.pl,dlapacjenta.pl,marbo-sport.pl,radentortodonta.pl,uni-tech.pl##div#topbar
 arena.pl#?##__next > footer ~ .MuiPaper-root:-abp-has(a[href*="Polityka-Plik%C3%B3w-Cookies"].MuiLink-root)
+arenalazienek.pl,audiotop.pl,bakeshop.pl,csk-med.pl,czerwonatwierdza.pl,deluxury.pl,dlabrodacza.pl,duda-cars.pl,estetic-dent-sklep.pl,fitness-home.pl,fly-desk.com,hanzo.com.pl,horecapolska.pl,huzaro.pl,hyaloo.pl,icentrumsklep.pl,kombitsklep.pl,kozak.pl,laptok.com,militarymarket.pl,miodykrupiec.pl,modnakiecka.pl,niewiem.pl,pancernik.eu,planszostrefa.pl,profitechnik.pl,prorowery.pl,questsport.shop,r-kom.pl,retio.pl,skarbyroztocza.com,sklepceliko.pl,sklepkawa.pl,sklepsoltech.pl,trigar.pl,wkdzik.pl##.consents
 arg.gdynia.pl,finai.pl,rankinglekarzy.pl##div > .info
 arka.tv,kurjerzy.pl,legia.net###cookies_policy
 arl.org.pl##.info-bar
@@ -369,7 +370,7 @@ betsson22.com##.bottom-snackbar.cookie-consent
 betsson22.com##.mat-snack-bar-container
 betsson.com###MsgAreaBottom
 bezokularow.pl###cookieModalBottom.bottom-cookie
-bezowsikow.pl,fonix.pl,pirolam.pl,polopiryna.pl,polpharma.pl##.monit
+bezowsikow.pl,fonix.pl,lactosan.pl,pirolam.pl,polopiryna.pl,polpharma.pl##.monit
 bezpiecznedane.gov.pl##.cookie-popup-modal
 bezpieczny.pl##.remodal-wrapper, .remodal-overlay
 bi-polska.pl,delicjapolska.pl###cooboo
@@ -577,6 +578,7 @@ cda.pl,e-programy.pl,superfilm.pl###box_info
 cdr.gov.pl,nowemiasteczko.pl##.navbar-inverse.navbar-fixed-bottom.navbar
 cea-art.pl##.bs-gdpr-law
 cechradomsko.pl,meblegal.com.pl##.email-signup-fixed
+centrum-apteka.pl##.notice_bar
 centrum-kore.pl###moove_gdpr_cookie_modal
 centrum-marino.com,optegra.com.pl,wroclaw.pl###cookie_zgoda
 centrum.potrafiepomoc.org.pl##section.mojeCookiesSection
@@ -1030,6 +1032,7 @@ ever.eu,ziaja.com###cookies-info
 everhome.pl,gda.pl,sne.fc.pl,sne.olsztyn.pl,szwajcaria-kaszubska.pl##.shotimoo
 everydayme.pl##.cookie-consent-jolt
 everydayme.pl##button[class*="StyledCookieConsentButton-"]
+evklub.pl##[class^="CookiesConsent_cookiesContainer"]
 ewakacje-online.pl###qtip-overlay
 ewakacje-online.pl##div[id][role="alert"][aria-live="polite"].qtip
 ewaprzygodzka.com,kompilo.com,opensolution.org###noticeAboutCookies
@@ -1346,7 +1349,6 @@ home.pl,idea4you.eu,koty24.pl,psy24.pl###box_policies
 homekoncept.com.pl##.cookies__container
 hondanews.eu###cookiesPolicyBanner, #cookies-cover
 hopea.eu,kalendarzrolnikow.pl,kpcen-torun.edu.pl,lpwiksa.pl###colorbox, #cboxOverlay
-horecapolska.pl,hyaloo.pl,sklepceliko.pl##.consents
 horex.pl,hydro.com##.cookies__wrapper
 horyzonty.pl##.cookies_note
 host1.eu,mateuszgrzesiak.tv##.cookies_policy
@@ -4186,6 +4188,7 @@ wolframalpha.com##footer ~ section
 #@##ba_eu_cookie_law
 #@##cookieBackdrop
 #@#.cookify
+aptelia.pl,dozapteka.pl#@#.popup-cookies
 avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,elle.pl,elleman.pl,essilor.pl,focus.pl,focusnauka.pl,g.pl,gazeta.pl,gazeta.tv,glamour.pl,gry.pl,haps.pl,hapsvod.pl,ikea.com,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,magazyn-kuchnia.pl,mojegotowanie.pl,mojpieknyogrod.pl,moto-wiadomosci.pl,moto.pl,national-geographic.pl,olx.pl,pizzahut.pl,player.pl,plotek.pl,przyslijprzepis.pl,sport.gwar.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wpodrozy24.pl,wyborcza.pl#@##onetrust-banner-sdk
 avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,elle.pl,elleman.pl,essilor.pl,focus.pl,focusnauka.pl,g.pl,gazeta.pl,gazeta.tv,glamour.pl,gry.pl,haps.pl,hapsvod.pl,ikea.com,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,magazyn-kuchnia.pl,mojegotowanie.pl,mojpieknyogrod.pl,moto-wiadomosci.pl,moto.pl,national-geographic.pl,olx.pl,pizzahut.pl,player.pl,plotek.pl,przyslijprzepis.pl,sport.gwar.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wpodrozy24.pl,wyborcza.pl#@##onetrust-consent-sdk
 canva.com#@#.fFOiLQ.Ekl2FA.RNFNIA._9y-BYQ._1CzyGhb
