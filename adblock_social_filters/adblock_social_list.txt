@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.4.7.1
-! Last modified: Sun, 07 Apr 2024, 14:31 UTC+02:00
+! Version: 2024.4.7.2
+! Last modified: Sun, 07 Apr 2024, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.4.7.1 aktualizacja: nie, 07 kwi 2024, 14:31 UTC+02:00
+! v.2024.4.7.2 aktualizacja: nie, 07 kwi 2024, 18:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3914,6 +3914,8 @@ home.pl,pl.tripadvisor.com##footer a[title="Facebook"]
 home.pl,pl.tripadvisor.com##footer a[title="Twitter"]
 home.saxo##.v2-footer2__social
 homeandcompany.pl#?#td:first-of-type > span > strong:-abp-contains(Bądź na bieżąco)
+homeandpassion.pl###fb-box-new, #ig-box-new
+homeandpassion.pl##.footer .facebook
 homebook.pl##.btn--pinterest.btn
 homebook.pl##.hb-footer__social
 homedoctor.pl,otomotoprofi.pl,tradus.com##.app-footer__social
