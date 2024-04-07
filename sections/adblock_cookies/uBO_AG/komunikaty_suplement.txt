@@ -130,7 +130,7 @@ bsjarocin.pl,zsgarwolin.pl##.mfp-ready.mfp-bg
 burgerking.pl,secure.edu.pl##.modal:has(.cookies-modal)
 bydgoszczak.pl,kaliszak.pl,katowiczak.pl##.rodo, .rodo_layer
 calisia.pl,erakonopi.pl,produkty-lokalne.pl###modals-container
-calisia.pl,erakonopi.pl,produkty-lokalne.pl##.v--modal-block-scroll:style(overflow-y: auto !important)
+calisia.pl,erakonopi.pl,produkty-lokalne.pl##.v--modal-block-scroll:style(overflow: auto !important; width: auto !important;)
 canva.com##body div[style] div:not([class], [id]) > div[class][aria-live="polite"]:has(div[class] > div[class] > [class] > span[class] > a[href*="cookie"])
 canva.com##body div[style] div[class]:has(> div[class][role="dialog"] > div[class] > span[class] > a[href*="cookie"])
 carry.pl##.cooksieslaw-block
@@ -755,5 +755,5 @@ grupabiwakowa.pl##+js(set-cookie, cmplz_marketing, allow)
 grupabiwakowa.pl##+js(set-cookie, cmplz_functional, allow)
 grupabiwakowa.pl##div#cmplz-cookiebanner-container
 q21.pl##+js(acis, jQuery, .rodo-modal)
-proline-tools.com.pl##.v--modal-overlay[data-modal="gdpr-modal"]
-proline-tools.com.pl##.v--modal-block-scroll:style(overflow: auto !important; width: unset !important;)
+proline-tools.com.pl,profix.com.pl##.v--modal-overlay[data-modal="gdpr-modal"]
+proline-tools.com.pl,profix.com.pl##.v--modal-block-scroll:style(overflow: auto !important; width: auto !important;)
