@@ -4515,12 +4515,13 @@ mondaynews.pl##.pre-footer-internal-social
 mondeoklubpolska.pl###widgetlist_column2 > li:nth-of-type(2)
 money.pl##a[href*="facebook.com/portal.Moneypl"], a[href*="twitter.com/money_pl"]
 money.pl##div[data-st-area$="_FB"]
-money.pl##div[data-st-area="st-gallery-reactions"] > div > div:nth-of-type(2)
+money.pl,o2.pl,pudelek.pl,wp.pl##[data-st-area="st-gallery-reactions"].flex > div + div:nth-of-type(2) > div.group > button
 money.pl#?#article + div > div > div > div > div > div:-abp-has(+ div#fb-like-btn)
 money.pl#?#article[class] div[class] img + button:-abp-has(> span:-abp-contains(/^Podziel się$/))
 money.pl#?#aside[role="complementary"] > div > div > div:-abp-has(~ #fb-like-btn)
 money.pl,moneyv.wp.pl##footer a[href*="facebook.com"], footer a[href*="twitter.com"]
 money.pl,o2.pl,pudelek.pl,wp.pl##.react-share__ShareButton
+money.pl,o2.pl,pudelek.pl,wp.pl##[data-testid="social-panel"].flex > div + div:nth-of-type(2) > div.group > button
 moneygrabbing.co.uk##.sh-widget-socialv2-list
 monier.pl#?##col-right > div[id^="c"]:-abp-has(a[href*="youtube.com"] > img[src*="yt"], a[href*="facebook.com"] > img[src*="fb"])
 monikahonory.pl#?#.vc_row-has-fill.vc_row-fluid.wpb_row.vc_row:-abp-contains(Dołącz do społeczności Zupomaniaków)
