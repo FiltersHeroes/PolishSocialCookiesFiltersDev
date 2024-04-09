@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.4.7.2
-! Last modified: Sun, 07 Apr 2024, 18:31 UTC+02:00
+! Version: 2024.4.9.0
+! Last modified: Tue, 09 Apr 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.4.7.2 aktualizacja: nie, 07 kwi 2024, 18:31 UTC+02:00
+! v.2024.4.9.0 aktualizacja: wto, 09 kwi 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5369,12 +5369,13 @@ mondaynews.pl##.pre-footer-internal-social
 mondeoklubpolska.pl###widgetlist_column2 > li:nth-of-type(2)
 money.pl##a[href*="facebook.com/portal.Moneypl"], a[href*="twitter.com/money_pl"]
 money.pl##div[data-st-area$="_FB"]
-money.pl##div[data-st-area="st-gallery-reactions"] > div > div:nth-of-type(2)
 money.pl#?#article + div > div > div > div > div > div:-abp-has(+ div#fb-like-btn)
 money.pl#?#article[class] div[class] img + button:-abp-has(> span:-abp-contains(/^Podziel się$/))
 money.pl#?#aside[role="complementary"] > div > div > div:-abp-has(~ #fb-like-btn)
 money.pl,moneyv.wp.pl##footer a[href*="facebook.com"], footer a[href*="twitter.com"]
 money.pl,o2.pl,pudelek.pl,wp.pl##.react-share__ShareButton
+money.pl,o2.pl,pudelek.pl,wp.pl##[data-st-area="st-gallery-reactions"].flex > div + div:nth-of-type(2) > div.group > button
+money.pl,o2.pl,pudelek.pl,wp.pl##[data-testid="social-panel"].flex > div + div:nth-of-type(2) > div.group > button
 moneygrabbing.co.uk##.sh-widget-socialv2-list
 monier.pl#?##col-right > div[id^="c"]:-abp-has(a[href*="youtube.com"] > img[src*="yt"], a[href*="facebook.com"] > img[src*="fb"])
 monikahonory.pl#?#.vc_row-has-fill.vc_row-fluid.wpb_row.vc_row:-abp-contains(Dołącz do społeczności Zupomaniaków)
@@ -6890,6 +6891,7 @@ radiovia.com.pl###footer > div > div > div > p.text-center:first-of-type
 radiovia.com.pl##.face.ds-table-cell
 radiowarszawa.com.pl##.wp-side-menu > .wp-side-menu-item
 radiozet.pl##.image__share.flex-box
+radiozet.pl##.share-wykop
 radiozet.pl##li.radiozet-footer__socials__item:nth-of-type(-n+4)
 radiuscentrum.pl###ms
 radlin.pl##.fa-tumblr
