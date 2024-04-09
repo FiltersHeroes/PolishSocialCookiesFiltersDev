@@ -1,6 +1,5 @@
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
-radiozet.pl##.share-wykop
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#a[href*=","][title*=" "] ~ div button:-abp-has(svg)
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):-abp-has(> div[class] > svg)
@@ -4515,12 +4514,12 @@ mondaynews.pl##.pre-footer-internal-social
 mondeoklubpolska.pl###widgetlist_column2 > li:nth-of-type(2)
 money.pl##a[href*="facebook.com/portal.Moneypl"], a[href*="twitter.com/money_pl"]
 money.pl##div[data-st-area$="_FB"]
-money.pl,o2.pl,pudelek.pl,wp.pl##[data-st-area="st-gallery-reactions"].flex > div + div:nth-of-type(2) > div.group > button
 money.pl#?#article + div > div > div > div > div > div:-abp-has(+ div#fb-like-btn)
 money.pl#?#article[class] div[class] img + button:-abp-has(> span:-abp-contains(/^Podziel się$/))
 money.pl#?#aside[role="complementary"] > div > div > div:-abp-has(~ #fb-like-btn)
 money.pl,moneyv.wp.pl##footer a[href*="facebook.com"], footer a[href*="twitter.com"]
 money.pl,o2.pl,pudelek.pl,wp.pl##.react-share__ShareButton
+money.pl,o2.pl,pudelek.pl,wp.pl##[data-st-area="st-gallery-reactions"].flex > div + div:nth-of-type(2) > div.group > button
 money.pl,o2.pl,pudelek.pl,wp.pl##[data-testid="social-panel"].flex > div + div:nth-of-type(2) > div.group > button
 moneygrabbing.co.uk##.sh-widget-socialv2-list
 monier.pl#?##col-right > div[id^="c"]:-abp-has(a[href*="youtube.com"] > img[src*="yt"], a[href*="facebook.com"] > img[src*="fb"])
@@ -6014,6 +6013,7 @@ radiovia.com.pl###footer > div > div > div > p.text-center:first-of-type
 radiovia.com.pl##.face.ds-table-cell
 radiowarszawa.com.pl##.wp-side-menu > .wp-side-menu-item
 radiozet.pl##.image__share.flex-box
+radiozet.pl##.share-wykop
 radiozet.pl##li.radiozet-footer__socials__item:nth-of-type(-n+4)
 radiuscentrum.pl###ms
 radlin.pl##.fa-tumblr
