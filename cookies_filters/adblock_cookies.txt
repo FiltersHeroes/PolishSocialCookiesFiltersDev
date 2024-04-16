@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.4.7.2
-! Last modified: Sun, 07 Apr 2024, 14:31 UTC+02:00
+! Version: 2024.4.16.0
+! Last modified: Tue, 16 Apr 2024, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.4.7.2 aktualizacja: nie, 07 kwi 2024, 14:31 UTC+02:00
+! v.2024.4.16.0 aktualizacja: wto, 16 kwi 2024, 02:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -66,7 +66,6 @@ abbvie.pl###omniTrackDiv
 abcalkoholu.pl,lech.pl,tyskie.pl,zubr.pl##.privacyModal
 abctygodnik.pl,wgospodarce.pl,wpolsce.pl##.rhododendron-popup, .rhododendron-popup-overlay
 abfoto.pl##.abfoto_popup_bg
-abfoto.pl,arenalazienek.pl,audiotop.pl,bakeshop.pl,cebit.pl,csk-med.pl,czerwonatwierdza.pl,deluxury.pl,dlabrodacza.pl,duda-cars.pl,estetic-dent-sklep.pl,fitness-home.pl,fly-desk.com,hanzo.com.pl,horecapolska.pl,huzaro.pl,hyaloo.pl,icentrumsklep.pl,kombitsklep.pl,kozak.pl,laptok.com,militarymarket.pl,miodykrupiec.pl,modnakiecka.pl,niewiem.pl,pancernik.eu,planszostrefa.pl,profitechnik.pl,prorowery.pl,questsport.shop,r-kom.pl,retio.pl,skarbyroztocza.com,sklepceliko.pl,sklepkawa.pl,sklepsoltech.pl,soppocosmetics.com,trigar.pl,wkdzik.pl,wodkiiwina.pl##.consents
 abook.com.pl#?#div.left-sideblock > .sideblock-inner:-abp-has(a[href*="/node/125"])
 aboutyou.pl###app > .cookieBannerActive > div[class*="cookieBannerContainer"]
 absbank.pl##body > div[style="background: #eee; border-bottom: 1px solid #ccc; padding: 10px 5px 25px 5px;"]:not([id]):not([class])
@@ -3333,6 +3332,7 @@ pl/tcf/cookie.js$script,domain=pl
 ###rodo_all:not(body):not(html)
 ###rodoinfo:not(body):not(html):not(span)
 ###rodoregulamin:not(body):not(html)
+###shoper-foot ~ div.consents
 ###stopka-polityka.stopka-polityka
 ###wrapper .rodo
 ###wymog_uee:not(body):not(html)
@@ -3355,6 +3355,7 @@ pl/tcf/cookie.js$script,domain=pl
 ##.polo-cookie-box:not(body):not(html)
 ##.rodo-overlay:not(body):not(html)
 ##.rodopolicy:not(body):not(html)
+##.shop_index > div.consents
 ##.skryptdocookies:not(body):not(html)
 ##.slabowidzacyCookie
 ##.ustawaCookie:not(body):not(html)
