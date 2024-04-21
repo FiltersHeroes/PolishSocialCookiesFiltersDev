@@ -162,10 +162,11 @@ pl###cookie-box:not(body):not(html)
 pl###cookie-compliance-bottom:not(body):not(html)
 pl###cookie-compliance:not(body):not(html)
 pl###cookie-consent:not(body):not(html):not(.content):not([class*="fancybox"])
-pl###cookie-container:not(body):not(html)
+pl##body:not(.cookie-opened) #cookie-container
 pl###cookie-content:not(body):not(html)
 pl###cookie-control:not(body):not(html)
 pl###cookie-cookie-div:not(body):not(html)
+pl##body:not(.cookie-opened) .cookie-window
 pl###cookie-disclaimer:not(body):not(html)
 pl###cookie-div:not(body):not(html)
 pl###cookie-foot:not(body):not(html)
