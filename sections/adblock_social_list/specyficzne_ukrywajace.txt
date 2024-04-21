@@ -390,7 +390,9 @@ anetaduk.com##.icons > li:nth-child(-n+3)
 anetaduk.com,blokada.org##.fa-google-plus
 angliapolska.pl##.spoleczno.module
 angora.com.pl###central-social-div
-aniagotuje.pl##li.nav-item:nth-of-type(n+4):nth-of-type(-n+5)
+aniagotuje.pl##a:not([href]):has(> .icon-share)
+aniagotuje.pl##.share-ingredients
+aniagotuje.pl##.social-sharing
 aniastarmach.pl###footer-instagram-section
 aniastarmach.pl,sniadaniedajemoc.pl##.site-socials
 animalcity.pl##a[href*="facebook.com/AnimalCity.co"]
@@ -1562,8 +1564,8 @@ damle.com.pl##a[href*="instagram.com/damle.com.pl/"] > img
 dancecontrol.pl###text-4 > .textwidget > a:nth-of-type(n+2):nth-of-type(-n+4)
 danio.com.pl##.footer > .footer-main > div.col:nth-of-type(2):nth-child(2)
 danio.com.pl,przepisy.pl##.social-wrapper
-danone.pl##.nav-link[href*="facebook.com/"]
-danone.pl##.nav-link[href*="instagram.com/"]
+danone.pl,aniagotuje.pl##.nav-link[href*="facebook.com/"]
+danone.pl,aniagotuje.pl##.nav-link[href*="instagram.com/"]
 danone.pl##.nav-link[href*="linkedin.com/"]
 danrol-sklep.pl,elixirzdrowia.pl,mpec.olsztyn.pl,rynek-ksiazki.pl,saluti.pl,sprzet-poz.pl###fb-widget
 dar-med.eu##.fooWidgets > a.btIconWidget
