@@ -222,7 +222,7 @@ dzialoszyn.pl,falkow.pl,grebkow.pl,jaktorow.pl,korytnica.pl,osieck.pl,reczno.pl,
 e-kwiaty.pl###dialog-cookie-privacy
 e-kwiaty.pl##.mdc-dialog-scroll-lock:style(overflow: auto !important)
 e-restauracja.com###modal-rodo
-e-urzad.grodzisk.pl,www.kayak.pl,socofe.pzu.pl##.cdk-global-scrollblock:style(position: static !important; overlow: auto !important)
+e-urzad.grodzisk.pl,www.kayak.pl,socofe.pzu.pl##.cdk-global-scrollblock, .cdk-cookies-policy-scrollblock:style(position: static !important; overlow: auto !important)
 e-urzad.grodzisk.pl,www.kayak.pl,socofe.pzu.pl##.cdk-overlay-container
 e-zikoapteka.pl##div.cookies-popup
 ebilet.pl###cookies-info, #cookies-overlay
@@ -327,7 +327,8 @@ inframost.info###privacyPoliticsModal, .modal-backdrop
 innogy.pl###cookie-wall-container
 innogy.pl##html.cookie-wall-active body:style(overflow: auto !important)
 inpzu.pl##+js(rc, .cdk-cookies-policy-scrollblock, html, complete)
-inpzu.pl##.cdk-cookies-policy-scrollblock:style(position: static !important)
+inpzu.pl##+js(rc, .cdk-global-scrollblock, html, complete)
+inpzu.pl##.cdk-global-scrollblock, .cdk-cookies-policy-scrollblock:style(position: static !important; overlow: auto !important)
 inpzu.pl##.cookies-policy-panel, .cookies-policy-backdrop
 instagram.com###react-root > section > nav div[class][style^="height: 1"][style$="px;"]:style(height: 48px !important)
 instagram.com##body[style*="overflow" i][style*="hidden" i]:style(overflow-y: scroll !important)
