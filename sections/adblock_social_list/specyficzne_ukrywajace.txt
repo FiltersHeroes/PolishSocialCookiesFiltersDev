@@ -1,3 +1,27 @@
+bivert.pl##.social-absolute
+bivert.pl##.social
+iformatki.pl##.btn-reklama > [href*="facebook.com/"] > .menu-box
+iformatki.pl##.social
+ielektronarzedzia.pl##.social
+iokucia.pl##.social
+cpl.com##.social-icons
+proformat.pl##.social-icons
+pol-skone.pl##.social
+sp37.bytom.pl#?##BJ_Right .module:-abp-contains(/na\sFB/)
+sp5-bytom.edupage.org##.plainText a[href*="facebook.com/"] img
+sp27bytom.szkolnastrona.pl###welcome > p[style*="center"]:has(> strong[style*="ff0000"]):has(+ p + p + p > a[href*="facebook.com/"])
+sp27bytom.szkolnastrona.pl###welcome > p[style*="center"]:has(> span[style*="ff0000"]):has(+ p + p > a[href*="facebook.com/"])
+sp27bytom.szkolnastrona.pl###welcome > p[style*="center"] a[href*="facebook.com/"] img
+lumamed.pl##.consents
+lumamed.pl##.gc__social__container
+cku.bytom.pl##.custom a[href*="facebook.com/"]
+cku.bytom.pl##div[id*="tab"][class*="tab"][onclick*="facebook.com/"]
+porta.com.pl##.social-icon.icon-youtube-play
+rp.pl##.-footer.socials--component a:not([href*="mailto:"])
+inewi.pl##.row--social
+porta.com.pl##.foot a[href*="pinterest.com/"]
+pl.dr-beckmann.com##.nav-social-media
+supreme.dre.pl##.footer_socials_wrap > a:not([href^="https://dre.pl"])
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
@@ -904,7 +928,7 @@ biznes-plus.pl##.widget_advancedfacebookpagewidget
 biznes.gov.pl##.footer-icons a[href*=".com/"]
 biznes.interia.pl##.interia-addcommentButton > div[class*="nub"]
 biznes.interia.pl##p a[href*="facebook.com/"] > b
-biznes.interia.pl##p u b a[href="https://www.facebook.com/InteriaBiznes"]
+biznes.interia.pl##p u b a[href*="facebook.com/InteriaBiznes" i]
 biznes.meble.pl###faceboxMain, #exposeMask
 biznes.pap.pl###social > a:not([href="/pl/rss/"])
 biznes.wprost.pl##.element-article-link
@@ -7366,7 +7390,7 @@ um.zarow.pl##button[onclick*="return socialSharePopUpWindow"]
 umcs.pl##.layout-follow .col-lg-6.col-md-5 > .iblocks-30.iblocks, .layout-follow .col-lg-5.col-md-6 > .iblocks-30.iblocks > .iblock:nth-of-type(-n+2)
 umed.pl##.socjale-gora > ul > li:nth-child(n+2)
 umed.wroc.pl###slide_menu
-umlipno.pl##[href="http://www.facebook.com/urzad.miejskiwlipnie"]
+umlipno.pl##a[href*="facebook.com/urzad.miejskiwlipnie" i]
 umlub.pl##ul > li > a[href*="facebook.com/UMLub24"]
 umtychy.pl##footer div.col-sm-3:first-of-type h2
 unaweza.org##.footer__item-social-media
@@ -7546,11 +7570,11 @@ vorek.pl##.headcond:nth-of-type(4)
 voronet.pl###widget_shop7, #widget_shop8
 voster.pl##.footer .list
 voster.pl##.footer .sm-text-center.text-center > h5
-vox.pl##footer a[href*="https://pl.pinterest.com/"]
-vox.pl##footer a[href*="https://www.facebook.com/"]
-vox.pl##footer a[href*="https://www.instagram.com/"]
-vox.pl##footer a[href*="https://www.linkedin.com/"]
-vox.pl##footer a[href*="https://www.youtube.com/"]
+vox.pl##footer a[href*="pl.pinterest.com/"]
+vox.pl##footer a[href*="facebook.com/"]
+vox.pl##footer a[href*="instagram.com/"]
+vox.pl##footer a[href*="linkedin.com/"]
+vox.pl##footer a[href*="youtube.com/"]
 vox.pl##section[data-cy="SocialMediaSection"]
 vozilla.pl##.flex.footer-bottom-container > .content > .footer-content
 vratislavia-medica.pl##.header__yt
