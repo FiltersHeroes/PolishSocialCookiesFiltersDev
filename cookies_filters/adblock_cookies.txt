@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.4.16.0
-! Last modified: Tue, 16 Apr 2024, 02:31 UTC+02:00
+! Version: 2024.4.21.0
+! Last modified: Sun, 21 Apr 2024, 14:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.4.16.0 aktualizacja: wto, 16 kwi 2024, 02:31 UTC+02:00
+! v.2024.4.21.0 aktualizacja: nie, 21 kwi 2024, 14:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -370,6 +370,7 @@ bethesda.net#?#visor-alert[name="visor-alert"] > div[class=""] > div > div:last-
 betsson22.com##.bottom-snackbar.cookie-consent
 betsson22.com##.mat-snack-bar-container
 betsson.com###MsgAreaBottom
+bezalkoholove.com##.consents
 bezokularow.pl###cookieModalBottom.bottom-cookie
 bezowsikow.pl,fonix.pl,lactosan.pl,pirolam.pl,polopiryna.pl,polpharma.pl##.monit
 bezpiecznedane.gov.pl##.cookie-popup-modal
@@ -1223,6 +1224,7 @@ gih.grajewo.pl#?##fancybox-wrap:-abp-contains(RODO)
 gis.gdansk.pl##.cook-des
 gismeteo.pl##.cookies-banner
 github.com###consent-banner
+github.com###wcpConsentBannerCtrl
 github.com##.js-cookie-consent-banner
 gizalki.pl##div[style*="cookies_tlo"]
 gkb.pl##footer > .row > .pull-left
@@ -1409,6 +1411,7 @@ inagent.pl###iaCookies
 inarisc.pl###cookies_info_maktiv
 inbook.pl###privacy-policy-info-container
 inchcape.pl##.cookieinfo_bar
+inewi.pl##.AlertCookie.js-AlertCookie
 inexbuy.pl###oct-policy
 info24.rzeszow.pl##.ja-box-right.column.ja-box-wrap
 info-car.pl##app-accept-cookies
@@ -2837,6 +2840,7 @@ tlcpolska.pl###dni-notifications
 tmf-group.com###CookieAlert_CookiePanel
 tnt-tv.pl##.cookie_bar
 toll-collect.de##.cookie-banner-portlet-wrapper
+tomojdom.pl##.tmd-cookie
 tontor.com###artg_cookie_bar
 tooba.pl,twojogrodek.pl##.cookie-rodo-dialog
 tookapic.com##div[data-controller="cookie"]
@@ -3453,7 +3457,6 @@ pl###cookie-box:not(body):not(html)
 pl###cookie-compliance-bottom:not(body):not(html)
 pl###cookie-compliance:not(body):not(html)
 pl###cookie-consent:not(body):not(html):not(.content):not([class*="fancybox"])
-pl###cookie-container:not(body):not(html)
 pl###cookie-content:not(body):not(html)
 pl###cookie-control:not(body):not(html)
 pl###cookie-cookie-div:not(body):not(html)
@@ -4062,6 +4065,8 @@ pl##[id^="topInfo"]:not(body):not(html)
 pl##aside[class*="Cookie"]
 pl##aside[class*="cookie"]:not([class*="modal" i])
 pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies_tlo"]:not([id]):not([class])
+pl##body:not(.cookie-opened) #cookie-container
+pl##body:not(.cookie-opened) .cookie-window
 pl##body:not([class*="cookie-overflow"]) div[id][class*="iai_cookie"]
 pl##body:not([class*="cookie-overflow"]) div[id^="ck_dsclr"][class*="ck_dsclr"]
 pl##body:not([class*="cookie-overflow"]) div[id^="iai_cookie"][class*="iai_cookie"]
@@ -4213,6 +4218,13 @@ aptelia.pl,dozapteka.pl#@#.popup-cookies
 avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,elle.pl,elleman.pl,essilor.pl,focus.pl,focusnauka.pl,g.pl,gazeta.pl,gazeta.tv,glamour.pl,gry.pl,haps.pl,hapsvod.pl,ikea.com,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,magazyn-kuchnia.pl,mojegotowanie.pl,mojpieknyogrod.pl,moto-wiadomosci.pl,moto.pl,national-geographic.pl,olx.pl,pizzahut.pl,player.pl,plotek.pl,przyslijprzepis.pl,sport.gwar.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wpodrozy24.pl,wyborcza.pl#@##onetrust-banner-sdk
 avanti24.pl,bankier.pl,bethesda.net,blaklader.pl,carrefour.pl,cartoonito.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,elle.pl,elleman.pl,essilor.pl,focus.pl,focusnauka.pl,g.pl,gazeta.pl,gazeta.tv,glamour.pl,gry.pl,haps.pl,hapsvod.pl,ikea.com,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,magazyn-kuchnia.pl,mojegotowanie.pl,mojpieknyogrod.pl,moto-wiadomosci.pl,moto.pl,national-geographic.pl,olx.pl,pizzahut.pl,player.pl,plotek.pl,przyslijprzepis.pl,sport.gwar.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wpodrozy24.pl,wyborcza.pl#@##onetrust-consent-sdk
 canva.com#@#.fFOiLQ.Ekl2FA.RNFNIA._9y-BYQ._1CzyGhb
+danio.com.pl#@##cookies-bar
+danio.com.pl#@##cookies-modal
+danio.com.pl#@#.cookies-container
+danio.com.pl#@#.cookies-content
+danio.com.pl#@#.cookies-header
+danio.com.pl#@#.cookies-modal:not(body):not(html)
+danio.com.pl#@#.cookies-text
 grupabiwakowa.pl#@##cmplz-cookiebanner-container
 grupabiwakowa.pl#@#.cookie-statement
 grupapsb.com.pl#@#.cookies-footer
@@ -4222,6 +4234,8 @@ profix.com.pl,proline-tools.com.pl#@#div#cookieConsentModal
 softpos.eu#@#.jsModalRodo
 tesa.com##.-lock-overlay body::after
 tesa.com#@#div.cookie-notice
+uniabracka.pl#@##cookie-container
+uniabracka.pl#@#.cookie-window
 uptodown.com###cookiescript_injected_wrapper
 !
 !
@@ -4234,6 +4248,9 @@ bgk.pl,dkms.pl,meiko.pl#@#.cc-window[aria-label*="consent"]:not(body):not(html)
 biblioteka.wroc.pl#@#.cookie-notice-container:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl,vaillant.pl#@##cookiewarning:not(body):not(html)
 calvinklein.pl,pl.tommy.com#@#.cookie-notice:not(body):not(html):not(#footer):not(#wrapper)
+danio.com.pl#@##cookies-bar:not(body):not(html)
+danio.com.pl#@#.footer-cookies:not(body):not(html)
+danio.com.pl,mcdonalds.pl#@#.cookies-container:not(body):not(html)
 dkms.pl#@#.cc-banner:not(body):not(html)
 dominospizza.pl#@##cookie-message:not(body):not(html)
 dominospizza.pl#@#aside[class*="Cookie"]
@@ -4251,7 +4268,6 @@ gry.pl,shinden.pl,wmeritum.pl,wykop.pl#@#div[class^="app_gdpr"]
 kupbilecik.pl,panbilet.pl,wins.pl#@#.cookie-container:not(body):not(html)
 maxelektro.pl#@##cookie-info:not(body):not(html)
 maxizoo.pl#@##cookie-banner:not(body):not(html)
-mcdonalds.pl#@#.cookies-container:not(body):not(html)
 mcdonalds.pl,ose.gov.pl#@#.cookies:not(body):not(html):not(#page):not(#container):not(.wrapper):not(.popup-newsletter):not(.js-cookies)
 memo-book.pl,zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 migora.pl,motocombo.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
@@ -4268,6 +4284,7 @@ sklep-domwhisky.pl#@#.rodo-popup:not(body):not(html):not([style="display: block;
 sklep.winkhaus.pl,volcano.pl#@#aside[class*="cookie"]
 smsapi.pl#@##CybotCookiebotDialog:not(body):not(html)
 stilord.pl#@#.cookie-bar:not(body):not(html)
+uniabracka.pl#@##cookie-container:not(body):not(html)
 urbancity.pl#@##cookie-modal:not(body):not(html):not(.reveal)
 visa.pl#@#span[class*="Cookie"]:not(.closeCookie)
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
