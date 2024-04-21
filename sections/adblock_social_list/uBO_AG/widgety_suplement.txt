@@ -1,5 +1,3 @@
-www.o2.pl##:matches-path(/quiz.*wynik/) section h2 ~ div span:has-text(PODZIEL SIĘ) ~ button:not(:last-child)
-www.o2.pl##:matches-path(/quiz.*wynik/) header + div h2 ~ div div > button:first-child + button:last-child:has-text(Udostępnij)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href=""][title*="instagram"][target="_blank"] ~ a[href=""][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##figure strong:has-text(/^Podziel się$/):upward(2)
@@ -133,3 +131,5 @@ www.glamour.pl##footer .social-media-fix:upward(div):style(color: #0000 !importa
 www.google.com,www.google.pl##button img[src*="maps.gstatic.com/tactile/share/"]:upward(button):style(visibility: hidden !important; height: 0 !important; width: 0 !important)
 www.knorr.pl##:root > body .social-sharing, :root > body .social-sharing > *:style(display: block !important; visibility: hidden !important)
 www.msn.com##fluent-design-system-provider > entry-point:shadow(div[class*="container"]) > me-stripe:shadow(msft-horizontal-card-slider) > me-stripe-tile:shadow(.me-stripe-tile-content) a[href*="facebook.com"]
+www.o2.pl##:matches-path(/quiz.*wynik/) header + div h2 ~ div div > button:first-child + button:last-child:has-text(Udostępnij)
+www.o2.pl##:matches-path(/quiz.*wynik/) section h2 ~ div span:has-text(PODZIEL SIĘ) ~ button:not(:last-child)
