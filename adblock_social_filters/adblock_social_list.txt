@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.4.21.2
-! Last modified: Sun, 21 Apr 2024, 18:31 UTC+02:00
+! Version: 2024.4.21.3
+! Last modified: Sun, 21 Apr 2024, 19:38 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.4.21.2 aktualizacja: nie, 21 kwi 2024, 18:31 UTC+02:00
+! v.2024.4.21.3 aktualizacja: nie, 21 kwi 2024, 19:38 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1212,7 +1212,11 @@ anetaduk.com##.icons > li:nth-child(-n+3)
 anetaduk.com,blokada.org##.fa-google-plus
 angliapolska.pl##.spoleczno.module
 angora.com.pl###central-social-div
-aniagotuje.pl##li.nav-item:nth-of-type(n+4):nth-of-type(-n+5)
+aniagotuje.pl##.share-ingredients
+aniagotuje.pl##a:not([href]):has(> .icon-share)
+aniagotuje.pl,centrumokuc.pl,klamki-bartex.pl,online.centrumokuc.pl##.social-sharing
+aniagotuje.pl,danone.pl##.nav-link[href*="facebook.com/"]
+aniagotuje.pl,danone.pl##.nav-link[href*="instagram.com/"]
 aniastarmach.pl###footer-instagram-section
 aniastarmach.pl,sniadaniedajemoc.pl##.site-socials
 animalcity.pl##a[href*="facebook.com/AnimalCity.co"]
@@ -2072,7 +2076,6 @@ centrumdomowychinspiracji.pl###socialf
 centrumdruku3d.pl,nafrontendzie.pl##.widget_text.col-4.widget
 centrumjp2.pl,domena.pl##.fa-facebook-f.fa
 centrumkomputerowe.eu###imFooter > div, #imHeader > div:nth-of-type(4)
-centrumokuc.pl,klamki-bartex.pl,online.centrumokuc.pl##.social-sharing
 centrumpapieru.pl##.cp_footer__social
 centrumparis.pl##.social_footer_2
 centrumriviera.pl##.footer-box--facebook
@@ -2397,8 +2400,6 @@ damle.com.pl##a[href*="instagram.com/damle.com.pl/"] > img
 dancecontrol.pl###text-4 > .textwidget > a:nth-of-type(n+2):nth-of-type(-n+4)
 danio.com.pl##.footer > .footer-main > div.col:nth-of-type(2):nth-child(2)
 danio.com.pl,przepisy.pl##.social-wrapper
-danone.pl##.nav-link[href*="facebook.com/"]
-danone.pl##.nav-link[href*="instagram.com/"]
 danone.pl##.nav-link[href*="linkedin.com/"]
 danrol-sklep.pl,elixirzdrowia.pl,mpec.olsztyn.pl,rynek-ksiazki.pl,saluti.pl,sprzet-poz.pl###fb-widget
 dar-med.eu##.fooWidgets > a.btIconWidget
@@ -9780,7 +9781,9 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 !
 !
 ! Blokowanie elementów po zastosowaniu generichide
+~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##span > a[href*="titktok.com/"]
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##.facebook-share, .tweeter-share
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##.social-links__title
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?##app header ~ div.content div:-abp-has(> div > span[style="width:15px;height:15px;"] > svg > title)
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article + div[class*=" "] > div[class] > div[class]:-abp-has(> div[class] > div[class] > div[class] > .fb-like)
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has(> div[class] > div[class] > span > svg > path)
