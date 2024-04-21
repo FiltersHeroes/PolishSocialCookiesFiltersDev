@@ -162,11 +162,9 @@ pl###cookie-box:not(body):not(html)
 pl###cookie-compliance-bottom:not(body):not(html)
 pl###cookie-compliance:not(body):not(html)
 pl###cookie-consent:not(body):not(html):not(.content):not([class*="fancybox"])
-pl##body:not(.cookie-opened) #cookie-container
 pl###cookie-content:not(body):not(html)
 pl###cookie-control:not(body):not(html)
 pl###cookie-cookie-div:not(body):not(html)
-pl##body:not(.cookie-opened) .cookie-window
 pl###cookie-disclaimer:not(body):not(html)
 pl###cookie-div:not(body):not(html)
 pl###cookie-foot:not(body):not(html)
@@ -772,6 +770,8 @@ pl##[id^="topInfo"]:not(body):not(html)
 pl##aside[class*="Cookie"]
 pl##aside[class*="cookie"]:not([class*="modal" i])
 pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies_tlo"]:not([id]):not([class])
+pl##body:not(.cookie-opened) #cookie-container
+pl##body:not(.cookie-opened) .cookie-window
 pl##body:not([class*="cookie-overflow"]) div[id][class*="iai_cookie"]
 pl##body:not([class*="cookie-overflow"]) div[id^="ck_dsclr"][class*="ck_dsclr"]
 pl##body:not([class*="cookie-overflow"]) div[id^="iai_cookie"][class*="iai_cookie"]
