@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.4.25.0
-! Last modified: Thu, 25 Apr 2024, 22:31 UTC+02:00
+! Version: 2024.4.27.0
+! Last modified: Sat, 27 Apr 2024, 14:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.4.25.0 aktualizacja: czw, 25 kwi 2024, 22:31 UTC+02:00
+! v.2024.4.27.0 aktualizacja: sob, 27 kwi 2024, 14:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -209,6 +209,7 @@ antywirus.biz,translinegroup.pl##.iAgreePopup
 anydesk.com###any-cookieBar
 apaczka.pl##.section-cookies-policy
 aparaty-sluchowe.info,brandvital.eu,katowice.leclerc.pl###lmk_cookiebaner_container
+apartamentyborowcowa.pl#?#.sppb-alert-success.sppb-alert:-abp-has(> a:not([href]))
 apartamentychorwacja.pl###site_nt
 apc.com##.notification--cookie
 apifonica.com##.cookiePolicyNotification
@@ -1529,6 +1530,7 @@ karpacz-bus.pl#?#body > table:first-of-type:-abp-has(.txtprywatnosc)
 karpacz.pl###popupBody, #popupContainer
 kartunsy.pl###ait-infobar
 kartuzy.info##div#page_top_topbar2
+katowice-drzwi.pl##.new-cookies
 katrinex.pl#?#p.tiny_wyrozn1.tekst_bialy > em:-abp-contains(Prawo telekomunikacyjne)
 katw.pl###__fr_cookie
 kawasaki.pl###Panel_Cookies
@@ -4217,7 +4219,8 @@ wolframalpha.com##footer ~ section
 @@/wpjslib-ecom.js$domain=17bankow.com
 @@/wpjslib-stat.js$domain=nauka.rocks
 @@||grupabiwakowa.pl/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js
-@@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=aldi.pl|dr-beckmann.com
+@@||sdk.privacy-center.org/*/loader.js$script,domain=bonduelle.pl
+@@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=aldi.pl
 ###ba_eu_cookie_law:not(form)
 #@##ba_eu_cookie_law
 #@##cookieBackdrop
