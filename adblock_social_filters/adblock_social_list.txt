@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.4.29.0
-! Last modified: Mon, 29 Apr 2024, 18:31 UTC+02:00
+! Version: 2024.4.29.1
+! Last modified: Mon, 29 Apr 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.4.29.0 aktualizacja: pon, 29 kwi 2024, 18:31 UTC+02:00
+! v.2024.4.29.1 aktualizacja: pon, 29 kwi 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -811,7 +811,11 @@ pl,~wykop.pl##.wykop
 ! Specyficzne reguły ukrywające
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
-~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
+~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
+~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="facebook.com/"]
+~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="instagram.com/"]
+~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="tiktok.com/"]
+~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span:-abp-contains(Dołącz do nas)
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#a[href*=","][title*=" "] ~ div button:-abp-has(svg)
@@ -1454,9 +1458,6 @@ autokult.pl,fitness.wp.pl,fotoblogia.pl,smaczneblogi.pl##.grid-item__social.grid
 autokult.pl,fotoblogia.pl##.icon-mail, .post-article-links__header, .social-links--author.social-links
 autokult.pl,fotoblogia.pl##.social-links.share-links > a:not([class*="comment"])
 autokult.pl,fotoblogia.pl,smaczneblogi.pl##.footer-data__social
-autokult.pl,kobieta.wp.pl#?#div[class=""] div[class] > span ~ div a[href*="facebook.com/"]
-autokult.pl,kobieta.wp.pl#?#div[class=""] div[class] > span ~ div a[href*="instagram.com/"]
-autokult.pl,kobieta.wp.pl#?#div[class=""] div[class] > span:-abp-contains(Dołącz do nas)
 autokult.pl,urzadzamy.pl##.instagram-media
 autoland.pl##.menu-instagram
 autoline.com.pl,machineryline.pl##.portal-social-urls
@@ -3130,6 +3131,7 @@ ewakacje.pl##a[href*="facebook.com/biuropodrozyewakacje/"]
 ewawachowicz.pl##.footer_column:nth-of-type(3) > .footer-headline:nth-of-type(2)
 ewawachowicz.pl##.icon-wach-facebook
 ewidzew.pl###site-description > a[href*="facebook"], #site-description > a[href*="twitter"]
+ewl.com.pl,olimp-labs.pl##.site-footer__socialLinks
 exactsystems.pl##.contact_social_box
 excodus.com###footer > .grid.two > .column.right
 exerim.pl##.socialSubscribe, #sidebar > article:nth-of-type(2) > h3
@@ -5909,7 +5911,6 @@ olgasmile.com##.social > li:nth-child(-n+3)
 olika.com.pl##footer a[href*="facebook.com/olikacompl/"]
 olimet.eu##.art-layout-cell > div.clearfix.art-block:nth-of-type(5)
 olimp-labs.pl##.header__socialLinks
-olimp-labs.pl##.site-footer__socialLinks
 olini.pl,sofly.club###instagramGalleryWidget
 olivegreenthemovie.com##footer > .footer_1 > .section_footer_container
 olsztyn24.com###right_1 > .zakladka1
