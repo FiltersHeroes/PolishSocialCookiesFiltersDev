@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.4.29.1
-! Last modified: Mon, 29 Apr 2024, 22:31 UTC+02:00
+! Version: 2024.5.2.0
+! Last modified: Thu, 02 May 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.4.29.1 aktualizacja: pon, 29 kwi 2024, 22:31 UTC+02:00
+! v.2024.5.2.0 aktualizacja: czw, 02 maj 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3497,6 +3497,7 @@ gamerweb.pl##.zox-post-soc-flip, .zox-top-soc-wrap, .zox-foot-soc-list
 gamet.eu###fixed a[href*=".com/"]
 gametoon.pl##.topbar-icons a[href*="twitch.tv/gametoonpolska"]
 gametoon.pl##.topbar-icons a[href*="youtube.com/c/GametoonPL"]
+gamingmode.pl##.author-box-socials span a:not([aria-label="Website icon"])
 gamivo.com##.default-footer > .options > .row > div.col-sm-auto:nth-of-type(2) > .links
 gamivo.com#?#div.d-flex:-abp-has(> a.product-info__share-button)
 gampre.pl,teatrlalek.olsztyn.pl,wschodnik.pl##.icon-youtube-play
