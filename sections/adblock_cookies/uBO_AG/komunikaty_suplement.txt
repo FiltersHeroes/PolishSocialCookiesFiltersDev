@@ -102,6 +102,7 @@ bgk.pl##+js(rc, dp--cookie-consent, body, stay)
 bgk.pl##.dp--cookie-consent:style(overflow: auto !important)
 bgk.pl##.floating.cc-window, body.dp--cookie-consent::before
 biblioteka-cybinka.pl###exampleModalCenter, .modal-backdrop
+bielsko.pl##+js(set-cookie, cookie_acceptance, 1)
 bilety.mazowieckie.com.pl,dobrapogoda24.pl,repostuj.pl###rodo-modal, .modal-backdrop
 bilety.wok.walbrzych.pl###modalKlauzula, .modal-backdrop
 biolindo.pl,ecco-verde.pl##.fancybox-overlay-fixed.fancybox-overlay:has(> .cookieImage)
@@ -558,6 +559,7 @@ powiat-ostrowski.pl##body > *:style(filter: none !important)
 pozbruk.pl##+js(aopr, openRodo)
 pozbruk.pl##.jquery-modal
 praca.antyweb.pl,zeropln.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
+pracazarogiem.pl##html:remove-class(/force--consent|show--consent/)
 prawdaobiektywna.pl##.qc-cmp-ui-container
 printoteka.pl###popupModal10, .modal-backdrop
 przydomu.pl###popup_25
@@ -767,5 +769,3 @@ zsgarwolin.pl##.mfp-content:has(#cadre_alert_cookies)
 zsti.zsti.civ.pl###picoPopUp
 ztm.gda.pl###acceptRodo, .modal-backdrop
 zyjzdrowo.info###vicky-cookiebox, .modal-backdrop
-pracazarogiem.pl##html:remove-class(/force--consent|show--consent/)
-bielsko.pl##+js(set-cookie, cookie_acceptance, 1)
