@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.5.2.0
-! Last modified: Thu, 02 May 2024, 22:31 UTC+02:00
+! Version: 2024.5.3.0
+! Last modified: Fri, 03 May 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.5.2.0 aktualizacja: czw, 02 maj 2024, 22:31 UTC+02:00
+! v.2024.5.3.0 aktualizacja: pią, 03 maj 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4491,6 +4491,7 @@ kolorowankionline.net###sgcboxWrapper
 kom-ster.pl##a > img[src="/images/like-it.png"]
 kombatanci.gov.pl##img[src="/images/wyglad/fb.png"], img[src="/images/wyglad/tt.png"]
 komfort.pl##.ComponentSocialMediaLinks
+komfort.pl,nowymoj.t-mobile.pl##div[class*="Footer_social_"]
 kominytona.pl##.hidden-320px.marginleft10.nopadding.inline-block > li.inline-block:nth-of-type(n+2)
 komoorki.pl##.footer-social-media-area, .social-media-area
 komorkomat.pl##.hidden-sm.hidden-xs.social_kontener
@@ -5801,7 +5802,6 @@ nowy-sacz.info##.builder-item--social_icons
 nowy-sacz.info##.builder-item--social_icons_2
 nowykamieniarz.pl##.column-one-third > div.sidebar:nth-of-type(4)
 nowymarketing.pl##.link-tw, .link-li
-nowymoj.t-mobile.pl##div[class*="Footer_social_"]
 nowyobywatel.pl###fb-livebox, #w-sieci
 nowytomysl.pl##.navbar-nav > li:nth-of-type(n+2):nth-of-type(-n+3)
 nportal.no##.blue.bar:nth-of-type(8), .social-right-column, .blue.bar:nth-of-type(4)
@@ -7466,7 +7466,9 @@ skorzecin.pl###mod208
 skript.pl###elNavSecondary_33 > a[href*="facebook.com/skriptpl"]
 skript.pl##.ipsSocial_facebook
 skrzynkasmaku.pl###ikonysocjale, #szoce
+skutecznie.tv###text-49
 skutecznie.tv##.topbar_social_area
+skutecznie.tv#?#.widget.awac:-abp-has(a[href*="instagram.com/"], a[href*="facebook.com/"])
 skuterymotocykle.pl##.right > a.ico:nth-of-type(2)
 skwp.krakow.pl###icons > a > img[src$="-ico.png"]
 sky-shop.pl##section.one-five-md.one-half-sm.one-whole-xs.grid-item:nth-of-type(4) a.btn:nth-of-type(n+2):nth-of-type(-n+3)
