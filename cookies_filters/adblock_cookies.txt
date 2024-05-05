@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.5.3.0
-! Last modified: Fri, 03 May 2024, 02:31 UTC+02:00
+! Version: 2024.5.5.0
+! Last modified: Sun, 05 May 2024, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.5.3.0 aktualizacja: pią, 03 maj 2024, 02:31 UTC+02:00
+! v.2024.5.5.0 aktualizacja: nie, 05 maj 2024, 18:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -4244,6 +4244,8 @@ danio.com.pl#@#.cookies-content
 danio.com.pl#@#.cookies-header
 danio.com.pl#@#.cookies-modal:not(body):not(html)
 danio.com.pl#@#.cookies-text
+dlapacjenta.pl#@#.cookies-info:not(html):not(body)
+dlapacjenta.pl#@#.cookies-popup
 grupabiwakowa.pl#@##cmplz-cookiebanner-container
 grupabiwakowa.pl#@#.cookie-statement
 grupapsb.com.pl#@#.cookies-footer
@@ -4259,8 +4261,8 @@ uptodown.com###cookiescript_injected_wrapper
 !
 !
 ! Wyjątki
-allecco.pl,e-zikoapteka.pl,effector.pl,f5.pl,swiatleku.pl,zikodermo.pl#@#.cookies-popup:not(body):not(html)
-allecco.pl,e-zikoapteka.pl,mcdonalds.pl,zikodermo.pl#@#.cookies-info:not(body):not(html)
+allecco.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,swiatleku.pl,zikodermo.pl#@#.cookies-popup:not(body):not(html)
+allecco.pl,dlapacjenta.pl,e-zikoapteka.pl,mcdonalds.pl,zikodermo.pl#@#.cookies-info:not(body):not(html)
 allegro.pl,pikio.pl,sklep.winkhaus.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bgk.pl#@#.cc-revoke:not(body):not(html)
 bgk.pl,dkms.pl,meiko.pl#@#.cc-window[aria-label*="consent"]:not(body):not(html)
