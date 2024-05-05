@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.5.3.0
-! Last modified: Fri, 03 May 2024, 22:31 UTC+02:00
+! Version: 2024.5.5.0
+! Last modified: Sun, 05 May 2024, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.5.3.0 aktualizacja: pią, 03 maj 2024, 22:31 UTC+02:00
+! v.2024.5.5.0 aktualizacja: nie, 05 maj 2024, 18:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2320,6 +2320,8 @@ cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##.h
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##.mt-30.right-news-module
 cyberpunk.net##.l-footer__top-nav-findus
 cyberpunk.net##li.l-footer__social-item:not(:nth-of-type(10))
+cyberrescue.info##.menu-social
+cyberrescue.info##.share-pinterest
 cybersecforum.eu##.sm-icons > a
 cybersport.pl##.footer-right-top
 cybersport.pl##div.sidebar-widget:nth-child(n+12)
@@ -10115,7 +10117,7 @@ zw.com.pl#@#.list_share
 !
 !
 ! Wyjątki
-appleworld.pl#@#.fa-facebook
+appleworld.pl,lzx.pl#@#.fa-facebook
 cdn.ampproject.org,interia.pl,meczyki.pl,pomponik.pl,wp.pl#@#.instagram
 doladowaniaenergetyczne.pl,smaker.pl,system.mpay.pl,zapytaj.onet.pl#@#.icon-facebook
 downdetector.pl,masterchef.tvn.pl#@#a[title="Instagram"]
