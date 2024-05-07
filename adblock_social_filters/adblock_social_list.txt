@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.5.5.1
-! Last modified: Sun, 05 May 2024, 22:31 UTC+02:00
+! Version: 2024.5.7.0
+! Last modified: Tue, 07 May 2024, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -17,7 +17,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.5.5.1 aktualizacja: nie, 05 maj 2024, 22:31 UTC+02:00
+! v.2024.5.7.0 aktualizacja: wto, 07 maj 2024, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5158,6 +5158,7 @@ media.carrefour.pl##.footer__social__list
 media.globalworth.pl##.flex--right .pr-story--share-text
 media.globalworth.pl,media.traficar.pl,prowly.com##.pr-story--share-sapce-none
 media.ing.pl##div.column:nth-of-type(2) .footer-section-text, div.column:nth-of-type(2) .footer-section-text ~ ul > li
+media.pkobp.pl##.pko-menu__social-icons > .pko-icon:not(.pko-icon--rss)
 media.upc.pl##.pr-story--media-contact__social-icon
 media.upc.pl##div[class*="pr-story-share--"] > div > div[class*="right"], div[class*="pr-story--share-s"]
 mediaarena.pl###fx-fb
