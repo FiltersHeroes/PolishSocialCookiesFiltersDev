@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.5.11.0
-! Last modified: Sat, 11 May 2024, 18:31 UTC+02:00
+! Version: 2024.5.12.0
+! Last modified: Sun, 12 May 2024, 20:02 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.5.11.0 aktualizacja: sob, 11 maj 2024, 18:31 UTC+02:00
+! v.2024.5.12.0 aktualizacja: nie, 12 maj 2024, 20:02 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -194,6 +194,7 @@ zmianywzyciu.pl###popup_facebook
 ##.facebookPrzyczepiony
 ##.footer-box.footer-social-media
 ##.sh-copyrights-social
+##.social-sharing
 ##.spolecznosciowe > a
 ##.spolecznosciowe > i
 ##.td-social-icon-wrap a:not([href*="feed" i]):not([href*="rss" i]):not([href^="mailto:" i])
@@ -1219,7 +1220,6 @@ angliapolska.pl##.spoleczno.module
 angora.com.pl###central-social-div
 aniagotuje.pl##.share-ingredients
 aniagotuje.pl##a:not([href]):has(> .icon-share)
-aniagotuje.pl,centrumokuc.pl,klamki-bartex.pl,online.centrumokuc.pl##.social-sharing
 aniagotuje.pl,danone.pl##.nav-link[href*="facebook.com/"]
 aniagotuje.pl,danone.pl##.nav-link[href*="instagram.com/"]
 aniastarmach.pl###footer-instagram-section
