@@ -158,6 +158,7 @@ plejada.pl##.contentArticle p:nth-last-child(-n+3) a[href*="instagram.com/plejad
 plejada.pl##.contentArticle p:nth-last-child(-n+3) a[href*="tiktok.com/@plejada" i]:remove-attr(href)
 plejada.pl##.contentArticle p:nth-last-child(-n+3) a[href*="youtube.com/"][href*="plejada" i]:remove-attr(href)
 plejada.pl##.detailContentWrapper .contentShareLeft .fb_share:style(background: #0000 !important)
+pol-skone.pl##.slider__item:has(a[href*="facebook.com/"]):remove()
 pollena.com.pl##body > h5::before:style(content: "Podążaj za nami:"; position: relative; left: 102px; background: #fff; color: #fff)
 porta.com.pl##article > div.blog_article_socials:style(max-width: unset !important)
 portalpogrzebowy.pl##.spolecznosc:style(visibility: hidden !important)
