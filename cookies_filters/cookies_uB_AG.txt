@@ -24,6 +24,7 @@ eu,pl#@#body > div:not([id]):not([class])
 @@/wpjslib-ecom.js$badfilter,domain=17bankow.com
 @@/wpjslib-stat.js$badfilter,domain=nauka.rocks
 doz.pl#@#body,html:style(overflow: auto !important; position: initial !important;)
+pepper.pl##body:style(overflow: auto !important;)
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -196,8 +197,8 @@ citibank.pl##.ScrollLock:style(overflow: auto !important)
 claas.pl##.fancybox-lock:style(overflow: auto !important;margin-right: 0 !important)
 claas.pl##.fancybox-overlay:has(.cookieHint)
 club.galilea.com.pl###welcome, .modal-backdrop
-cobbo.pl,gastroprofit.pl,lovekrakow.pl,mediccentre.pl,medicshop.pl,pakomat.pl,panwybierak.pl,petrostar.pl,readspeaker.com,rolnet.pl,sfd.pl##body div#cc--main
-cobbo.pl,gastroprofit.pl,lovekrakow.pl,mediccentre.pl,medicshop.pl,pakomat.pl,panwybierak.pl,petrostar.pl,readspeaker.com,rolnet.pl,sfd.pl##html.show--consent[class], html.show--consent[class] body:style(overflow-y: auto !important)
+cobbo.pl,gastroprofit.pl,help4skin.pl,lovekrakow.pl,mediccentre.pl,medicshop.pl,pakomat.pl,panwybierak.pl,petrostar.pl,readspeaker.com,rolnet.pl,sfd.pl##body div#cc--main
+cobbo.pl,gastroprofit.pl,help4skin.pl,lovekrakow.pl,mediccentre.pl,medicshop.pl,pakomat.pl,panwybierak.pl,petrostar.pl,readspeaker.com,rolnet.pl,sfd.pl##html.show--consent[class], html.show--consent[class] body:style(overflow-y: auto !important)
 coca-cola.pl##html.ot-modal-open, html.ot-modal-open body:style(overflow: auto !important)
 cocolita.pl,dlalakierni.pl###RodoCookiesInfo, .modal-backdrop
 codeeurope.pl###root footer ~ div:has-text(plików cookies)
@@ -320,6 +321,7 @@ g2a.com##.scroll_freeze:style(position: static !important; overflow: auto !impor
 g-s.com.pl###cookies_message_modal, #ajax-cookie-modal ~ .modal-backdrop
 galeriaslendzinskich.pl,powiat-zyrardowski.pl##.fancybox-overlay
 gamepedia.com,wikia.com,wikia.org##+js(set-cookie, tracking-opt-in-status, accepted)
+gddkia.eb2b.com.pl##+js(set-cookie, cookiesAccepted, 1)
 gemini.pl###modal-cookies, .vue-modal--privacy-policy:remove()
 gemini.pl##div[class*="fixed"]:has(> div strong > a[href="/info/polityka-cookies"])
 generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0 !important)
@@ -550,6 +552,8 @@ pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !import
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
 pdf24.org##html.hasCookieBannerOverlay:style(overflow: auto !important)
 pdf24.org##iframe#cookieBannerOverlay
+pepper.pl##.zIndex--modal[class^="popover"]
+pepper.pl##body.overflow--hidden:style(overflow-y: auto !important)
 petycjeonline.com###cookie_consent_modal, .modal-backdrop
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
 pl###kopageBar > #kopageBarCookies:upward(1)
@@ -1084,7 +1088,6 @@ hrkgame.com##.modals.dimmer > .gdpr.visible:upward(1):watch-attr([class])
 kts.weszlo.com##+js(set-cookie-reload, cookiesActive, false)
 ogladajanime.pl##+js(set-cookie-reload, accepted, true)
 parkiet.com,rp.pl##+js(set-cookie-reload, __gm_tcfconsent_v2, 1)
-pepper.pl##+js(set-cookie-reload, cookie_policy_agreement, 3)
 ubi2.wit.edu.pl##+js(set-cookie-reload, GPRD, 128)
 !#endif
 !#endif
@@ -1120,7 +1123,6 @@ kts.weszlo.com#%#//scriptlet('set-cookie-reload', 'cookiesActive', 'false')
 mcdonalds.pl$$[class="cookies"]
 ogladajanime.pl#%#//scriptlet('set-cookie-reload', 'accepted', 'true')
 parkiet.com,rp.pl#%#//scriptlet('set-cookie-reload', '__gm_tcfconsent_v2', '1')
-pepper.pl#%#//scriptlet('set-cookie-reload', 'cookie_policy_agreement', '3')
 pl.asseco.com$$[id="animatedModal"][tag-content="Polityce prywatności"]
 pl.asseco.com$$fa[class="animatedModal"][tag-content="Open"]
 powiatslubicki.pl###myModal, .modal-backdrop
