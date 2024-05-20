@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.5.18.0
-! Last modified: Sat, 18 May 2024, 15:46 UTC+02:00
+! Version: 2024.5.20.0
+! Last modified: Mon, 20 May 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.5.18.0 aktualizacja: sob, 18 maj 2024, 15:46 UTC+02:00
+! v.2024.5.20.0 aktualizacja: pon, 20 maj 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -7077,9 +7077,8 @@ rosebelle.pl#?##footer > div:-abp-has(h3:-abp-contains(Śledź nas na Instagrami
 rosenthal.pl###wysuwany_blog, #wysuwany_div
 roslinniejemy.org##.section-footer-right > h3
 roslinniejemy.org##.section-instagram
-rossmann.pl###footer > .row:nth-of-type(4)
-rossmann.pl##.social__label
-rossmann.pl##a[href*="instagram.com/RossmannPL/"]
+rossmann.pl#?#hr ~ section > div > div > div:nth-child(2) > .h4:-abp-contains(Znajdź nas)
+rossmann.pl#?#hr ~ section > div > div > div:nth-child(2) > .h4:-abp-contains(Znajdź nas) ~ div a[href*=".com/"] img[alt]
 rovicky.eu##.widget_Z_container
 rovus.pl##.footer-lower div.links:nth-of-type(3)
 rowerek.pl##a .icon-google-plus
