@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.5.20.0
-! Last modified: Mon, 20 May 2024, 22:31 UTC+02:00
+! Version: 2024.5.25.0
+! Last modified: Sat, 25 May 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.5.20.0 aktualizacja: pon, 20 maj 2024, 22:31 UTC+02:00
+! v.2024.5.25.0 aktualizacja: sob, 25 maj 2024, 22:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -405,7 +405,6 @@ bik.pl##.page-cookies-info, #cmsg
 bike-parts-honda.pl###cookieConsent
 bilera.pl,biurotech.net.pl,brewa.pl,dekavit.pl,jesienna.mediaprod.com.pl,kalisz.caritas.pl,lanko.pl,letniskowo.pl,opiekun.kalisz.pl,parafia-slupia.pl,parafiachynowa.pl,przp.pl,radiorodzina.kalisz.pl,technikum.kalisz.pl,tygodnikkepinski.pl##.module-abovebox[style^="position: fixed;"]
 bilety.arenazabrze.pl,bilety.arka.gdynia.pl,korona-kielce.pl##.cookie-notice-bin
-bilety.wok.walbrzych.pl###social
 bilka.com.pl##footer > div > #mod99
 billbook.com##app-cookies
 bimbi.pl##center > div[style*="background"] > center > table
@@ -703,7 +702,6 @@ czescidobmw.pl###container > div[onclick]
 czluchow.com.pl##table:first-of-type > tbody > tr > td > p:first-of-type
 cztbos.pl###mod180
 czterylapysklep.com,hair-shop.pl,mtech.pl##.popup_cont, .popup_back
-czysklepyczynne.pl#?##footer.page-footer > .text-center:nth-child(4):-abp-has(a[data-target="#modalSubscribeForm"])
 czystyszop.pl##.position-fixed.ib-rodo
 czytamyetykiety.pl#?##root main > div[class]:not([id]):not(:empty):-abp-has(a[href="/polityka-prywatnosci/"])
 dachygt.pl###Modal
@@ -1484,7 +1482,6 @@ ixon.cloud###privacyConsent
 izabawka.pl##.black_overlay
 izabela-bus.eu,woobykids.com###cookie-law-bar
 izielnik.pl##.cookie-modal-backdrop
-izigsm.pl###fb
 izone.pl##.mm-page > div[style*="height: 80px"]
 izpol.pl###bongdpr
 jabra.pl###jbr-consent-track
@@ -1778,8 +1775,6 @@ m.mapahandlu.pl#?#.ui-footer .ui-title:-abp-contains(pliki cookies)
 m.pl.aliexpress.com###amp-notification
 m.pl.aliexpress.com#?##root > #wrapper ~ div[class^="_"]:-abp-has(~ #action-bar)
 m.twitch.tv##div.tw-modal-layer:has(div[class*="react-modal"] div > a[href*="/cookie-policy"] ~ a[href*="/cookie-policy"])
-m.youtube.com##.share-target-link:not([href*="mailto:"])
-macpaw.com##.-social.footer-col > :not(.footer-lang)
 madreklama.com##.style2
 mag-sklep.pl##.b-popup-wrapper
 magazyn-hamag.pl##.notify-popup
@@ -1856,7 +1851,6 @@ mercure.com##.is-ready
 merida.com.pl##.ball-cookie
 merlin.pl##.merlin-legal-note
 merxu.com##.mxu-cookie-consent
-meskiegacie.pl###footer_links_sub > .ft_social
 messenger.com,meta.com##div[data-cookiebanner="banner"]
 meteo.org.pl##.f > .em
 meteo.waw.pl###cookies-note
@@ -2144,7 +2138,6 @@ opowiecie.info###spu-95603, #spu-bg-95603
 opp-ostrow.pl##.topper-notice
 ops.pilchowice.pl##.btnh
 optima.szkola.pl###rvshowcookies
-optimalit.pl##.contact__socialMedia
 optomer.pl###GDPRInformationModal
 optyczne.pl###id01
 optykwnecie.pl##.gdprModal
@@ -2914,7 +2907,6 @@ tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvprofil.com##.gdpr-container
 tvs.pl##.RodoNotyfication
 twinn.pl##table td div[class*="szablon_top"][class*="left"] > center
-twitter.com#?##layers > div[class*="css-"][class*=" r-"] > div:last-child > div:only-child > div:only-child > div:only-child:-abp-has(> div:not(:only-child) > div:not(:only-child) > span:only-child > span:only-child:-abp-contains(your choices))
 twoje-miasto.pl##.tmCookieBox
 twojeankiety.pl###notkaCookies
 twojesoczewki.com###cookie_wrap
@@ -3043,6 +3035,7 @@ www.google.com,www.google.pl#?##appbar.appbar > div:first-child > div:-abp-conta
 wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
 wypozyczalniasamochodowwarszawa.pl###can_use_cookies
+x.com#?##layers > div[class*="css-"][class*=" r-"] > div:last-child > div:only-child > div:only-child > div:only-child:-abp-has(> div:not(:only-child) > div:not(:only-child) > span:only-child > span:only-child:-abp-contains(your choices))
 xaa.pl###ic
 xermag.pl###cookies-block
 xiaomi.com###cookie-usage-notify
