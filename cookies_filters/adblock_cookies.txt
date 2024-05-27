@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.5.25.0
-! Last modified: Sat, 25 May 2024, 22:31 UTC+02:00
+! Version: 2024.5.27.0
+! Last modified: Mon, 27 May 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.5.25.0 aktualizacja: sob, 25 maj 2024, 22:31 UTC+02:00
+! v.2024.5.27.0 aktualizacja: pon, 27 maj 2024, 22:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -830,7 +830,6 @@ dressler.com.pl,install-it.pl,selgros24.pl,testuj.pl,wydawnictwoolesiejuk.pl,wyd
 dropbox.com###consent-iframe
 dropbox.com#?##top-notification-bar-container:-abp-has(#eu-cookie-bar)
 drtusz.pl###cookie_info_text
-druki-formularze.pl,e-pity.pl,fillup.pl##body:not([style*="events"]) #cookiemodal
 drumshop.pl###cookiesblock-wrapper
 drzwioknabramy.eu,meblezet.com,skottuning.com,spacetronik.eu###x13pmcookiebar
 dsdik.wroc.pl###mpopdw
@@ -4224,6 +4223,7 @@ wolframalpha.com##footer ~ section
 !
 !
 ! Bugi ELC
+@@/complianz.$script,domain=entra.pl
 @@/otBannerSdk.js$domain=avanti24.pl|bankier.pl|bethesda.net|blaklader.pl|carrefour.pl|cartoonito.pl|czterykaty.pl|dyskusje24.pl|edziecko.pl|elle.pl|elleman.pl|essilor.pl|focus.pl|focusnauka.pl|g.pl|gazeta.pl|gazeta.tv|glamour.pl|gry.pl|haps.pl|hapsvod.pl|ikea.com|infoladnydom.pl|infozdrowie24.pl|kobieta.pl|magazyn-kuchnia.pl|mojegotowanie.pl|mojpieknyogrod.pl|moto-wiadomosci.pl|moto.pl|national-geographic.pl|olx.pl|pizzahut.pl|player.pl|plotek.pl|przyslijprzepis.pl|sport.gwar.pl|sport.pl|tokfm.pl|toteraz.pl|tvn.pl|tvn24.pl|ugotuj.to|wpodrozy24.pl|wyborcza.pl
 @@/wpjslib-ecom.js$domain=17bankow.com
 @@/wpjslib-stat.js$domain=nauka.rocks
@@ -4249,7 +4249,8 @@ danio.com.pl#@#.cookies-modal:not(body):not(html)
 danio.com.pl#@#.cookies-text
 dlapacjenta.pl#@#.cookies-info:not(html):not(body)
 dlapacjenta.pl#@#.cookies-popup
-grupabiwakowa.pl#@##cmplz-cookiebanner-container
+entra.pl#@##cmplz-manage-consent
+entra.pl,grupabiwakowa.pl#@##cmplz-cookiebanner-container
 grupabiwakowa.pl#@#.cookie-statement
 grupapsb.com.pl#@#.cookies-footer
 kakto.pl,pl#@#div.cookie-message
