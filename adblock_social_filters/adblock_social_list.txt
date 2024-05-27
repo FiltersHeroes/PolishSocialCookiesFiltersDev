@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.5.25.0
-! Last modified: Sat, 25 May 2024, 22:31 UTC+02:00
+! Version: 2024.5.27.0
+! Last modified: Mon, 27 May 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.5.25.0 aktualizacja: sob, 25 maj 2024, 22:31 UTC+02:00
+! v.2024.5.27.0 aktualizacja: pon, 27 maj 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6080,6 +6080,9 @@ pancernik.eu###box_user_logos
 pandaramen.pl##.footer_social_column
 panekcs.pl###footer #module-297
 panelex.pl###wysuwany_div3, #wysuwany_div4, #wysuwany_div5
+panelstyl.com.pl##.site-footer .gb-button
+panelstyl.com.pl#?#.gb-headline:has(> .gb-headline-text):-abp-contains(Bądź na bieżąco)
+panelstyl.com.pl#?#.gb-headline:has(> .gb-headline-text):-abp-contains(Bądź na bieżąco) + div.gb-container
 pangrono.pl##div.widget_custom_html.widget.widget_text, .widget_youtube-channel
 pannaannabiega.pl##.socheader > .social_label, .text-right.zl_socicon > .social_label
 panoramafirm.pl##.media-icons
@@ -8497,6 +8500,7 @@ vorek.pl##.headcond:nth-of-type(4)
 voronet.pl###widget_shop7, #widget_shop8
 voster.pl##.footer .list
 voster.pl##.footer .sm-text-center.text-center > h5
+vox.pl##.Whatsapp
 vox.pl##section[data-cy="SocialMediaSection"]
 voxfm.pl,www.eska.pl##.messenger #messenger
 voxfm.pl,www.eska.pl##.messenger::after
