@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.5.27.0
-! Last modified: Mon, 27 May 2024, 22:31 UTC+02:00
+! Version: 2024.5.28.0
+! Last modified: Tue, 28 May 2024, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.5.27.0 aktualizacja: pon, 27 maj 2024, 22:31 UTC+02:00
+! v.2024.5.28.0 aktualizacja: wto, 28 maj 2024, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4411,8 +4411,9 @@ kielman.pl#?#div.promo:nth-of-type(2) > div.promo-box:nth-of-type(3):-abp-contai
 kierunekchorwacja.pl##.first-col > div.box-like:nth-of-type(6)
 kierunekspozywczy.pl###sb-facebook
 kig.pl##.footer div.item:nth-of-type(2) > h3
-kik.pl###inner_header > .links-atat > div > .links > li:nth-of-type(-n+2)
-kik.pl#?#.columns > .vc_row > .wpb_column:-abp-has(h3:-abp-contains(śledź nas))
+kik.pl##.footer-columns__column > div:nth-child(5) > :nth-child(-n+2)
+kik.pl#@##inner_header > .links-atat > div > .links > li:nth-of-type(-n+2)
+kik.pl#@?#.columns > .vc_row > .wpb_column:-abp-has(h3:-abp-contains(śledź nas))
 kikgel.com.pl###top-bar a[href*="facebook.com/"]
 killuminati-wear.com###doDolu
 killuminati-wear.com###instaholder
@@ -9902,7 +9903,7 @@ poczta.onet.pl##.icon-ico_menu_facebook
 polski-sport.pl###td_social_sharing_article_bottom
 polski-sport.pl###td_social_sharing_article_top
 polski-sport.pl##.td-header-sp-top-widget
-porady.sympatia.onet.pl##div.cell.medium-6.small-24:nth-of-type(3)
+porady.sympatia.onet.pl##footer div.cell.medium-6.small-24:nth-of-type(3)
 poral.eu##.fa-facebook-square.fa, .fa-youtube-square.fa, .fa-twitter.fa
 posty.pl##.btn-share
 programtv.onet.pl##.contentShareFacebook, .contentShareTwitter, .contentShareGoogle, .followUs
@@ -9914,7 +9915,6 @@ sport.tvn24.pl##.htmlBox
 sportowefakty.wp.pl##.fatfooter__panel--observe.fatfooter__panel, .rendered.observe_rss.observe__button.observe__part, .liketag
 sportowefakty.wp.pl##a[href="https://twitter.com/SportoweFaktyPL"], a[href="https://www.facebook.com/SportoweFakty"]
 swojadroga.onet.pl##.page-foot-social
-sympatia.onet.pl##.findUs
 technowinki.onet.pl##a[href="https://www.youtube.com/user/KomputerSwiatOnline"], .sidebarItem:nth-of-type(6)
 tvn24.pl##.article-lead > .article-lead__social-buttons > li.social-item:nth-of-type(-n+2)
 tvn24.pl##.article-share-socials > .social-list > .social-item:nth-of-type(-n+2)
