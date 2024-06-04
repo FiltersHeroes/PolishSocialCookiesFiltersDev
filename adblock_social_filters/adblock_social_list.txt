@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.5.28.0
-! Last modified: Tue, 28 May 2024, 02:31 UTC+02:00
+! Version: 2024.6.4.0
+! Last modified: Tue, 04 Jun 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.5.28.0 aktualizacja: wto, 28 maj 2024, 02:31 UTC+02:00
+! v.2024.6.4.0 aktualizacja: wto, 04 cze 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -8471,7 +8471,8 @@ vistula.edu.pl###vistula-social
 vistula.pl##footer.footer > div[class*="info-pages-list"] > div:nth-child(5)
 vistula.pl##footer.footer > div[class*="info-pages-list"] > ul > li:nth-child(5)
 vistula.pl,wolczanka.pl##.instragram__container
-vitalia.pl##.share a
+vitalia.pl##ul > li.title ~ li.icon-wrap a[title]
+vitalia.pl#?#.title:-abp-contains(Bądź na bieżąco)
 vitasport.pl##.menu_contact_social
 vitberg.com##.uk-padding-remove-bottom.uk-section.uk-section-default .uk-grid.uk-flex-center.uk-grid-medium.uk-child-width-auto > div
 vitberg.com##.uk-padding-remove-bottom.uk-section.uk-section-default div.uk-flex-auto:nth-of-type(4) > h1.uk-text-center.uk-h5:first-of-type
