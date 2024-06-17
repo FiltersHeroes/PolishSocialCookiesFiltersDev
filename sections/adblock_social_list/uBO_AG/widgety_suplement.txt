@@ -4,6 +4,7 @@
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##title:has-text(Share):upward(3)
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div > strong:has-text(/^Podziel się$/):upward(2)
 boop.pl##article ~ div p a[href*="dc"]:remove-attr(href)
+boop.pl##article ~ div p a.uppercase[class*="hover:"]:remove-attr(class)
 30minut.pl##.gora_ikony_nk, .gora_ikony_fb:style(visibility: hidden !important)
 45minut.pl##+js(ra, href, .carousel-inner a[href="https://www.facebook.com/45minutpl"], stay)
 abcfirany.pl##+js(ra, href, #BanneryAnimacjaPrzewijana > #scrlnr1 > a[href="https://abcfirany.pl/reklama-b-4.html"], stay)
