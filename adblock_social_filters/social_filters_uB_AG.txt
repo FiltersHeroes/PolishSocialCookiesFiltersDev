@@ -102,6 +102,8 @@ awangardashoes.com###footer_bottom > div:first-of-type:style(visibility: hidden 
 bankobranie.blogspot.com###sideSocial:style(height: auto !important)
 barokko.pl##+js(ra, href, div[class^="platnosci"] > a[href*="facebook.com/"], stay)
 blog.wirtualnemedia.pl###social_ikons_header_fixed:style(visibility: hidden !important)
+boop.pl##article ~ div p a.uppercase[class*="hover:"]:remove-attr(class)
+boop.pl##article ~ div p a[href*="dc"]:remove-attr(href)
 carrefour.pl##div > p ~ div > a[href*="sharer"] ~ a[href*="share"]:upward(2)
 codetwo.pl###content div.facebook.item:style(display: block !important; visibility: hidden !important; height: 2px !important)
 com,eu,info,pl##body #social_block:style(visibility: hidden !important)
