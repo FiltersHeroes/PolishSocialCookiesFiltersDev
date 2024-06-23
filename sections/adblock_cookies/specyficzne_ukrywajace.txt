@@ -2594,7 +2594,6 @@ shop.thgeyer-lab.com###cookienotification
 shopalike.pl#?#div[id^="sp_message_container"]:-abp-has(iframe[src*="cdn.privacy-mgmt.com"])
 shopee.pl#?##main > div > div[class]:-abp-has(> div[class] > a[href*="help.shopee.pl"])
 shopee.pl#?#.app-container > div:-abp-has(> h4 ~ a[href*="help.shopee.pl"])
-showmax.com#?##___gatsby > div > div:-abp-contains(cookie)
 sick.com##.cookie_law
 siemens-home.bsh-group.com##.o-cookielaw
 siemens.com##.nts-notification-cookie, .cookiesnotification
@@ -3013,7 +3012,7 @@ www.google.com,www.google.pl#?##appbar.appbar > div:first-child > div:-abp-conta
 wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
 wypozyczalniasamochodowwarszawa.pl###can_use_cookies
-x.com#?##layers > div[class*="css-"][class*=" r-"] > div:last-child > div:only-child > div:only-child > div:only-child:-abp-has(> div:not(:only-child) > div:not(:only-child) > span:only-child > span:only-child:-abp-contains(your choices))
+x.com#?##layers > div[class*="css-"][class*=" r-"] > div[style*="position:"][style*="absolute"] > div:only-child > div:only-child > div:only-child:-abp-has(> div:not(:only-child)> div:not(:only-child) > span:only-child:-abp-contains(cookies))
 xaa.pl###ic
 xermag.pl###cookies-block
 xiaomi.com###cookie-usage-notify
