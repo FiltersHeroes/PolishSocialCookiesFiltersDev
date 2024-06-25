@@ -555,8 +555,9 @@ pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !import
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
 pdf24.org##html.hasCookieBannerOverlay:style(overflow: auto !important)
 pdf24.org##iframe#cookieBannerOverlay
-pepper.pl##.zIndex--modal[class^="popover"]
+pepper.pl##.zIndex--modal[class^="popover"][class*="bottom"]
 pepper.pl##body.overflow--hidden:style(overflow-y: auto !important)
+pepper.pl#@#.zIndex--modal[class^="popover"]
 petycjeonline.com###cookie_consent_modal, .modal-backdrop
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
 pl###kopageBar > #kopageBarCookies:upward(1)
