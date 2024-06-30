@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.6.23.0
-! Last modified: Sun, 23 Jun 2024, 22:18 UTC+02:00
+! Version: 2024.6.30.0
+! Last modified: Sun, 30 Jun 2024, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.6.23.0 aktualizacja: nie, 23 cze 2024, 22:18 UTC+02:00
+! v.2024.6.30.0 aktualizacja: nie, 30 cze 2024, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -116,6 +116,7 @@ ostra-na-slodko.pl##.ArevicoModal-bg
 ostra-na-slodko.pl#?#.ArevicoModal:-abp-has(.fb-page, .fb_iframe_widget)
 ostry-sklep.pl##.rc-popups.box
 petronews.pl##.pps-full-screen.pps-popup, .b-modal
+pl##.socializer-messenger-pop
 podrogach.pl###popup_container
 politykazdrowotna.com##.modal-footer
 pomady.pl##.newsletter-modal, .modal-backdrop
@@ -190,7 +191,6 @@ zmianywzyciu.pl###popup_facebook
 !
 !
 ! Ogólne reguły ukrywające
-###menu-portale-spolecznosciowe
 ##.facebookPrzyczepiony
 ##.footer-box.footer-social-media
 ##.rank-math-social-share-buttons > .rank-math-share-button:not(.rm-email)
@@ -332,6 +332,7 @@ pl###likebox_1
 pl###likebox_1_1
 pl###ls-footer-facebook-link
 pl###ls-footer-twitter-link
+pl###menu-portale-spolecznosciowe
 pl###myspace
 pl###naszaklasa
 pl###nk
@@ -711,6 +712,7 @@ pl##.social_media_art
 pl##.socialFbIco
 pl##.socializer-fb-share
 pl##.socializer-gplus-share
+pl##.socializer-messenger-pop, .socializer-messenger:not(.socializer-messenger-pop)
 pl##.socializer-twitter
 pl##.socials_foot
 pl##.socialTwIco
@@ -894,6 +896,8 @@ pl,~wykop.pl##.wykop
 24kato.pl,24zaglebie.pl,bytomski.pl,chorzowski.pl,glivice.pl,ngs24.pl,nowinytyskie.pl,piekary.info,rudzianin.pl,slazag.pl,tarnowskiegory.info,twojknurow.pl,zabrzenews.pl##.article__author__contact__socials > a:not([href*="mailto:"])
 24kato.pl,24zaglebie.pl,bytomski.pl,chorzowski.pl,glivice.pl,ngs24.pl,nowinytyskie.pl,piekary.info,rudzianin.pl,slazag.pl,tarnowskiegory.info,twojknurow.pl,zabrzenews.pl##.article__author__contact__socials a:not([href*="mailto:"])
 24kato.pl,24zaglebie.pl,bytomski.pl,chorzowski.pl,glivice.pl,ngs24.pl,nowinytyskie.pl,piekary.info,rudzianin.pl,slazag.pl,tarnowskiegory.info,twojknurow.pl,zabrzenews.pl##.stickySocialIcon > a:not([href*=".xml"])
+24kato.pl,24zaglebie.pl,bytomski.pl,chorzowski.pl,glivice.pl,ngs24.pl,nowinytyskie.pl,piekary.info,rudzianin.pl,tarnowskiegory.info,zabrzenews.pl##.social-bar .colored-icons a:not([href*="spotify.com/"])
+24kato.pl,24zaglebie.pl,bytomski.pl,chorzowski.pl,glivice.pl,ngs24.pl,nowinytyskie.pl,piekary.info,rudzianin.pl,tarnowskiegory.info,zabrzenews.pl##.social-bar .small-icons a:not([href="/najnowsze.xml"])
 24kurier.pl##.boxFilm.tMarg20.box:nth-of-type(2)
 24kurier.pl##.social.container > .row > div:first-of-type
 24kurier.pl##.topbar a[class^="icon"]:not(.icon_mail)
@@ -2523,6 +2527,8 @@ diagnozainternetu.pl###widget_text, .searchComIcons
 diamante-wear.com##.widget__wrapper__tumblr, .widget__wrapper__instagram, .widget__wrapper__facebook, .header__social
 diamentustron.pl##.site-footer__social-hld
 diamentustron.pl##.social-hld__link
+dianacosmetics.pl##div[class*="footer"] a[href*="m.me/"]
+dianacosmetics.pl#?#div[class*="footer"] h4:-abp-contains(SOCIAL MEDIA)
 dictionary.cambridge.org###footer > div > div > div > a[title][target]
 dictionary.cambridge.org##.i-facebook, .i-instagram, .i-twitter
 dieroten.pl###foot-menu > .dark.col-sm-12.col-md-3
@@ -2625,7 +2631,7 @@ dolnoslaska.policja.gov.pl,taniejdladomu.pl###facebookButton
 dom1n.com###media_image-41 > .widget-pad
 dom.aluprof.eu###cs-social-media
 domar.biz.pl##.floating-menu > ul > li:nth-of-type(n+4):nth-of-type(-n+5)
-domar.pl,gov.pl,myworld.com,resicapital.pl,tecno-store.pl,teleguru.pl,urologia.katowice.pl,vidaxl.pl,visplantis.pl,zdzislowicz.pl,zywiecinfo.pl##.social-media
+domar.pl,gov.pl,myworld.com,pancernik.eu,resicapital.pl,tecno-store.pl,teleguru.pl,urologia.katowice.pl,vidaxl.pl,visplantis.pl,zdzislowicz.pl,zywiecinfo.pl##.social-media
 domenasportowa.pl###menu5_wrap
 domeny.pl,pay.google.com,wallet.google,zagranie.com##.social-icons a
 domhobbyogrod.pl##.toplayerSpecialClass + .toplayerSpecialClass
@@ -5822,6 +5828,8 @@ nostalgia.pl###sledz a
 noteka.pl###footgroup7
 notino.pl##a.footer-paymentsSocialSocialIconLink
 notube.net###bottom > .container > .row > div[class]:nth-of-type(4)
+nova-stomatologia.pl##header ~ div[style*="center"] a[href*="facebook.com/"]
+nova-stomatologia.pl##header ~ div[style*="center"] a[href*="instagram.com/"]
 nowa.e-pat.pl,pcaaa.org###footer-icons
 nowa.tv##.fb.sticky_box
 nowa.tv##.twitter.sticky_box
@@ -6323,9 +6331,11 @@ pkw.gov.pl###header_ico li.ico:nth-of-type(n+4):nth-of-type(-n+6)
 pkwp.org##.tw-tab
 pkwp.org##.yt-tab
 pl###fb-root
+pl###wwwa.wwwa--widget.wwwa
 pl##.c-messenger-share
 pl##.slide-fb-out-div
 pl##.sm-panel .sm-messenger
+pl##.socializer-whatsapp
 pl##.x13socialfixed_links a[href*="/m.me/"]
 pl##.x13socialfixed_links a[href*="/wa.me/"]
 pl##.x13socialfixed_links a[href*="skype:"]
