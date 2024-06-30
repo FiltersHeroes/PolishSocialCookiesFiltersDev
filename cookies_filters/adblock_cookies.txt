@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.6.30.0
-! Last modified: Sun, 30 Jun 2024, 02:31 UTC+02:00
+! Version: 2024.6.30.1
+! Last modified: Sun, 30 Jun 2024, 21:02 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.6.30.0 aktualizacja: nie, 30 cze 2024, 02:31 UTC+02:00
+! v.2024.6.30.1 aktualizacja: nie, 30 cze 2024, 21:02 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -4230,9 +4230,11 @@ wolframalpha.com##footer ~ section
 !
 ! Bugi ELC
 @@/complianz.$script,domain=entra.pl
+@@/complianz.$script,domain=nowymarketing.pl
 @@/otBannerSdk.js$domain=avanti24.pl|bankier.pl|bethesda.net|blaklader.pl|carrefour.pl|cartoonito.pl|czterykaty.pl|dyskusje24.pl|edziecko.pl|elle.pl|elleman.pl|essilor.pl|focus.pl|focusnauka.pl|g.pl|gazeta.pl|gazeta.tv|glamour.pl|gry.pl|haps.pl|hapsvod.pl|ikea.com|infoladnydom.pl|infozdrowie24.pl|kobieta.pl|magazyn-kuchnia.pl|mojegotowanie.pl|mojpieknyogrod.pl|moto-wiadomosci.pl|moto.pl|national-geographic.pl|olx.pl|pizzahut.pl|player.pl|plotek.pl|przyslijprzepis.pl|sport.gwar.pl|sport.pl|tokfm.pl|toteraz.pl|tvn.pl|tvn24.pl|ugotuj.to|wpodrozy24.pl|wyborcza.pl
 @@/wpjslib-ecom.js$domain=17bankow.com
 @@/wpjslib-stat.js$domain=nauka.rocks
+@@||cdn.cookielaw.org^$domain=rossmann.pl
 @@||grupabiwakowa.pl/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js
 @@||sdk.privacy-center.org/*/loader.js$script,domain=bonduelle.pl
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=aldi.pl
