@@ -1,4 +1,3 @@
-www.dobreprogramy.pl##div > svg + p:has-text(Polub):upward(1)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href=""][title*="instagram"][target="_blank"] ~ a[href=""][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##figure strong:has-text(/^Podziel się$/):upward(2)
@@ -130,6 +129,7 @@ wnet.fm##.pasek-top .social-media-ikonki a:style(visibility: hidden !important; 
 wokularach.pl#?#div > p:has-text(Zapraszamy) + a[href*="facebook.com/"]:upward(1)
 wp.pl##.article > [class]:has(> [class] > .fb-like)
 www.dobreprogramy.pl##div > div > div > svg + p:has-text(/Polub/i):upward(2)
+www.dobreprogramy.pl##div > svg + p:has-text(Polub):upward(1)
 www.glamour.pl##footer .social-media-fix:upward(div):style(color: #0000 !important)
 www.google.com,www.google.pl##button img[src*="maps.gstatic.com/tactile/share/"]:upward(button):style(visibility: hidden !important; height: 0 !important; width: 0 !important)
 www.knorr.pl##:root > body .social-sharing, :root > body .social-sharing > *:style(display: block !important; visibility: hidden !important)
