@@ -1,9 +1,3 @@
-login.e-dowod.gov.pl##+js(set-cookie, acceptRodoSie, hide)
-nowymarketing.pl,grupabiwakowa.pl##+js(trusted-set-cookie, cmplz_banner-status, dismissed)
-nowymarketing.pl##+js(set-cookie, cmplz_functional, allow)
-nowymarketing.pl##+js(set-cookie, cmplz_marketing, allow)
-nowymarketing.pl##+js(set-cookie, cmplz_preferences, deny)
-nowymarketing.pl##+js(set-cookie, cmplz_statistics, deny)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important)
@@ -257,8 +251,8 @@ empik.com##body.cookies-consent-component__prevent-scroll footer ~ div[class$="-
 empik.com##html.cookies-consent-component__prevent-scroll:style(overflow-y: auto !important)
 emuia1.gugik.gov.pl##+js(set-cookie, cookieMessageHide, true)
 enerad.pl##.wt-cli-cookie-bar-container
-entra.pl##+js(trusted-set-cookie, cmplz_banner-status, dismissed)
-entra.pl,grupabiwakowa.pl##+js(set-cookie, cmplz_marketing, allow)
+entra.pl,grupabiwakowa.pl,nowymarketing.pl##+js(set-cookie, cmplz_marketing, allow)
+entra.pl,grupabiwakowa.pl,nowymarketing.pl##+js(trusted-set-cookie, cmplz_banner-status, dismissed)
 epicdrama.pl##.ui-modal[id^="modal_cookie"]
 epicdrama.pl,odrabiamy.pl,patronite.pl##.blur:style(filter: none !important)
 erli.pl##body > #root ~ div[class*=" "]:has(header:has-text(Ustawienia prywatności i cookies))
@@ -308,8 +302,8 @@ goldenline.pl###react-portals:has(.cookie-modal)
 goodram.com##+js(rc, .cookie-opened, body, complete)
 goodram.com##.cookie-opened:style(position: fixed; overflow: auto !important)
 goodram.com##div#cookie-container
-grupabiwakowa.pl##+js(set-cookie, cmplz_functional, allow)
 grupabiwakowa.pl##div#cmplz-cookiebanner-container
+grupabiwakowa.pl,nowymarketing.pl##+js(set-cookie, cmplz_functional, allow)
 grupapsb.com.pl###js_CookiesHeader
 grupapsb.com.pl##.cookies-glass-overlay:style(overflow: auto !important)
 grupapsb.com.pl,mrowka.com.pl##+js(set-local-storage-item, CookiesAcceptedv2, true)
@@ -402,6 +396,7 @@ lnk.to,orcd.co,tix.to##.box-shadow.player-container[style]:style(opacity: 1 !imp
 lnk.to,orcd.co,tix.to##.page-container > .player-container[style]:style(overflow: auto !important; width: auto !important)
 lnk.to,orcd.co,tix.to##.privacy-notice-gdpr-container
 lnk.to,orcd.co,tix.to##.slide-bar-container
+login.e-dowod.gov.pl##+js(set-cookie, acceptRodoSie, hide)
 login.ingbank.pl##.global-overlays__overlay[data-tag-name="cookie-banner-main"]
 lomza.pl##html > body.polityka-cookies:style(margin-top: 0 !important; background-position: center 120px !important)
 longines.com##body > div.MuiDialog-root:has(> div.MuiDialog-container div[class^="Cookies_Actions__"])
@@ -490,6 +485,8 @@ neon24.pl##+js(aopr, Service.cookieMonster)
 nike.com##+js(set-cookie, sq, 3)
 nike.com##body[data-overlay="cookieModalSimple"]:style(position: static !important)
 nike.com##body[data-overlay="cookieModalSimple"]:watch-attr(data-overlay):not([data-overlay="true"]) #gen-nav-commerce-header-v2 > div.pre-modal-window:has(> .pre-modal > .pre-modal-view > .pre-cookie-modal-body)
+nowymarketing.pl##+js(set-cookie, cmplz_preferences, deny)
+nowymarketing.pl##+js(set-cookie, cmplz_statistics, deny)
 obpon.pl##.menu-flashmessages:style(top: 0 !important)
 obywatel.gov.pl###modal-rodo, .modal-backdrop
 odrabiamy.pl##.rodo-modal-blur
