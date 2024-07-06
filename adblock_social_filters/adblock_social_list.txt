@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.6.30.0
-! Last modified: Sun, 30 Jun 2024, 02:31 UTC+02:00
+! Version: 2024.7.6.0
+! Last modified: Sat, 06 Jul 2024, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.6.30.0 aktualizacja: nie, 30 cze 2024, 02:31 UTC+02:00
+! v.2024.7.6.0 aktualizacja: sob, 06 lip 2024, 18:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1069,7 +1069,7 @@ agronews.com.pl,eurowizja.org,gazetaregionalna.com,gizycko.info,kurier-kolejowy.
 agroperfekt.pl##.rssocial-custom-icon[href*="instagram.com/"]
 agroperfekt.pl,apolanka.pl,bona-ppetit.pl,mckenzie.pl,owbaltyk.pl,rolpolopalenica.pl,rozruch-startgum.pl##.rssocial-facebook-icon
 agroperfekt.pl,czemarol.pl,materialybudowlanekrokowa.pl,owbaltyk.pl##.rssocial-youtube-icon
-agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,infinixstore.eu,kreatywna.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,pekao.com.pl,polskieradio24.pl,pomagam.pl,proformat.pl,radioq.fm,saketos.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl##.social-icons
+agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,infinixstore.eu,kreatywna.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,pekao.com.pl,polskieradio24.pl,pomagam.pl,proformat.pl,radioq.fm,saketos.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
 agrosiec.pl##.fixed > a[href*=".com/"][target="_blank"]
 agrosimex.pl##.icon-Youtube
 agrosimex.pl##a.social-icon
@@ -8268,6 +8268,7 @@ tvp.info,tvp.pl###container_flyoutsocial a[href*="instagram.com/"]
 tvp.info,tvp.pl###container_flyoutsocial a[href*="linkedin.com/"]
 tvp.info,tvp.pl###container_flyoutsocial a[href*="tiktok.com/"]
 tvp.info,tvp.pl##.facebook-paragraph, .news-tags__social
+tvp.pl##.article__text a[href*="facebook.com/"] img
 tvp.pl##.detail-share-sm__fb, .detail-share-sm__tw, .detail-share-big__fb, .detail-share-big__tw
 tvp.pl##.header__socials .more-wrapper
 tvp.pl##.navigation__socials a:not([href*="mailto:"]):not([href*="rss"])
