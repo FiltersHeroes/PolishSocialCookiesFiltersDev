@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.7.7.2
-! Last modified: Sun, 07 Jul 2024, 22:31 UTC+02:00
+! Version: 2024.7.14.0
+! Last modified: Sun, 14 Jul 2024, 20:26 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.7.7.2 aktualizacja: nie, 07 lip 2024, 22:31 UTC+02:00
+! v.2024.7.14.0 aktualizacja: nie, 14 lip 2024, 20:26 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3495,6 +3495,7 @@ funtech.pl###mSliderMsg
 furgonetka.pl##.contact-social
 furgonetkabox.pl##.t-sociallinks__wrapper
 fusionmarketing.pl##.pr__social
+futryna.com.pl##:is(.icons, .footer-icons) > ul > li > [href*=".com/"]
 fxmag.pl##.Footer-social
 fxmag.pl##div[class*="SocialBar_SocialBar_"][class*="container"]
 fxpro.pl,interdoor.pl,rudaslaska.pl##.socials-links
@@ -8925,6 +8926,8 @@ wydrukowane.com.pl###\ społecznościowe
 wyklady.org##footer .widget_recent_entries.widget
 wykryjangine.pl###text-6 a[href*="facebook.com/"]
 wylecz.to##footer .fb-page, footer .fb-page ~ *
+wyleczpc.pl##a.footer-sni[href*="facebook.com/"]
+wyleczpc.pl##a.footer-sni[href*="x.com/"]
 wynagrodzenia.pl##.pull-right.community
 wynajem.pl##footer > .container > .row > div:nth-of-type(4) > h5
 wynalazca.tv##.widget_bs-instagram
