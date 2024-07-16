@@ -742,6 +742,8 @@ truestory.pl##body > div[id*="-"][class=""] + a[href*="/wordpress-real-cookie-ba
 truestory.pl##body > div[id*="-"][class=""]:has(a[href*="/wordpress-real-cookie-banner/"])
 truestory.pl##html[style*="overflow" i], body[style*="overflow" i], body[data-rcb-previous-overflow]:style(overflow: auto !important)
 tvgo.orange.pl##body > div[role="dialog"]:not([id]):not([class]):has(.rodo-wrapper)
+tvn24.pl##+js(set, __tcfapi_user_acctepted, true)
+tvn24.pl##body div#onetrust-consent-sdk:lang(pl)
 tvp.pl##.tvp-cookie-overlay
 tvp.pl##.tvp-cookie-scroll-lock:style(position: static !important; overflow: auto !important)
 tvsmart.elsat.pl,tvsmart.jambox.pl,tvsmart.multimedia.pl,tvsmart.pl,tvsmart.vectra.pl,tvsmartgo.elsat.pl##+js(set-cookie, cookie-notice, 1)
