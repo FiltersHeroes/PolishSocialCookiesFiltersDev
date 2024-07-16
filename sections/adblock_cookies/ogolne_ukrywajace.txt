@@ -145,7 +145,8 @@ pl###cccwr:not(head) + #cccwrpad:not(body)
 pl###cewe-accept-cookies:not(body):not(html)
 pl###cf-cookie-banner:not(body):not(html)
 pl###cherry-cookie-banner:not(body):not(html)
-pl###ck_dsclr:not(body):not(html)
+pl##body:not([class*="cookie-overflow"]):not([class*="freeze_bcg"]) #ck_dsclr
+~pl##body:not([class*="cookie-overflow"]):not([class*="freeze_bcg"]) #ck_dsclr:lang(pl)
 pl###cnd-gdpr-container:not(body):not(html)
 pl###cokPyt:not(body):not(html)
 pl###comm_info:not(body):not(html)
@@ -773,9 +774,9 @@ pl##aside[class*="cookie"]:not([class*="modal" i])
 pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies_tlo"]:not([id]):not([class])
 pl##body:not(.cookie-opened) #cookie-container
 pl##body:not(.cookie-opened) .cookie-window
-pl##body:not([class*="cookie-overflow"]) div[id][class*="iai_cookie"]
-pl##body:not([class*="cookie-overflow"]) div[id^="ck_dsclr"][class*="ck_dsclr"]
-pl##body:not([class*="cookie-overflow"]) div[id^="iai_cookie"][class*="iai_cookie"]
+pl##body:not([class*="cookie-overflow"]):not([class*="freeze_bcg"]) div[id][class*="iai_cookie"]
+pl##body:not([class*="cookie-overflow"]):not([class*="freeze_bcg"]) div[id^="ck_dsclr"][class*="ck_dsclr"]
+pl##body:not([class*="cookie-overflow"]):not([class*="freeze_bcg"]) div[id^="iai_cookie"][class*="iai_cookie"]
 pl##body:not([style*="overflow"]) #CybotCookiebotDialog:not(body):not(html)
 pl##div#cook
 pl##div#cookiepopupdiv
