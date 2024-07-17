@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.7.16.1
-! Last modified: Tue, 16 Jul 2024, 22:31 UTC+02:00
+! Version: 2024.7.17.0
+! Last modified: Wed, 17 Jul 2024, 23:19 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.7.16.1 aktualizacja: wto, 16 lip 2024, 22:31 UTC+02:00
+! v.2024.7.17.0 aktualizacja: śro, 17 lip 2024, 23:19 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -89,7 +89,7 @@ acer.com,beautikon.com,e-lakiernik.net,helikon-tex.com,imready.eu,lancerto.com,s
 aclari.pl###licence-agreement
 acronis.com##.cookies-notification
 adata.com,balex.eu,ciekawe.org,dlafirm.eu,focusonbusiness.eu,grojec24.net,infobeskidy.eu,kupzegarek.com,lo1.lublin.eu,multikomp.net,picodi.com,starysacz.info,welcome2poland.eu,wikidot.com##.cookie-alert
-adbl.eu,alkalicznystylzycia.com,arhn.eu,bedietcatering.pl,centrum.fm,cybsecurity.org,domkorkowy.com,domowa.pizza,doradcarestrukturyzacyjny.info,drzwionline.net,e-chorzow.com,elektrykapradnietyka.com,filozofuj.eu,imielski.net,inwestycjebudowlane.biz,itdesk.eu,jakzalozycfirmenaukrainie.com,japrzedsiebiorca.biz,jasam.eu,jedrzejowska.net,kolnet.eu,konecki24.pl,konstytucjabiznesu.biz,krakowpost.com,kresy.pl,langsteiner.eu,leczeniekomorkamimacierzystymi.com,mammarzenie.org,medbestshop.eu,moneygrabbing.co.uk,motograpa.pl,multiconsult-polska.com,muzeumzabawek.eu,mypresents.eu,patentujemy.com,photonrobot.com,pl.xiaomitoday.it,platinet.eu,poid.eu,polskiobserwator.de,prezentydlaniego.eu,proveg.com,pskrk.com,quercus.co,rosebelle.eu,rta24.eu,sandraspa.eu,sciezkimojegoswiata.com,secowarwick.com,sklep.sztukawyboru.eu,skup-laptopow.com,smartpolak.co.uk,spece.it,stalmielec.com,tarnobrzeskie.eu,turysta.org,tuwiazowna.pl,tyniec.tv,widzewtomy.net,wingsbridge.pl,wolnekonopie.org,zabieganamama.com###cookie-law-info-bar, #cookie-law-info-again, .cli-modal-backdrop, .cli-popupbar-overlay
+adbl.eu,alkalicznystylzycia.com,arhn.eu,bedietcatering.pl,centrum.fm,cybsecurity.org,domkorkowy.com,domowa.pizza,doradcarestrukturyzacyjny.info,drzwionline.net,e-chorzow.com,elektrykapradnietyka.com,energylandia.pl,filozofuj.eu,imielski.net,inwestycjebudowlane.biz,itdesk.eu,jakzalozycfirmenaukrainie.com,japrzedsiebiorca.biz,jasam.eu,jedrzejowska.net,kolnet.eu,konecki24.pl,konstytucjabiznesu.biz,krakowpost.com,kresy.pl,langsteiner.eu,leczeniekomorkamimacierzystymi.com,mammarzenie.org,medbestshop.eu,moneygrabbing.co.uk,motograpa.pl,multiconsult-polska.com,muzeumzabawek.eu,mypresents.eu,patentujemy.com,photonrobot.com,pl.xiaomitoday.it,platinet.eu,poid.eu,polskiobserwator.de,prezentydlaniego.eu,proveg.com,pskrk.com,quercus.co,rosebelle.eu,rta24.eu,sandraspa.eu,sciezkimojegoswiata.com,secowarwick.com,sklep.sztukawyboru.eu,skup-laptopow.com,smartpolak.co.uk,sorted.pl,spece.it,stalmielec.com,tarnobrzeskie.eu,turysta.org,tuwiazowna.pl,tyniec.tv,widzewtomy.net,wingsbridge.pl,wolnekonopie.org,zabieganamama.com###cookie-law-info-bar, #cookie-law-info-again, .cli-modal-backdrop, .cli-popupbar-overlay
 adblockplus.org,convertcase.net,lulek.tv,tme.eu###cookiebar
 addnature.pl##.cookieHeader
 addons.prestashop.com,batteryguru.eu,bip.bialogard.info,bip.mzkzg.org,bip.um.rybnik.eu,busy-kielce.eu,busy-wroclaw.eu,gardenoffood.com,luxmeble.eu,mecze.com,miedzyrzec.info,mirka.com,motoakcesoria.com,novet.eu,pilz.com,pl.natec-zone.com,poradnikbudowlany.eu,promedica.biz,rolkom.net,shop.albione.eu,shuluv.com,sklep.audiofan.eu,sklep.polbit.com,sklepnumizmatyczny.eu,szlakwokoltatr.eu,targowica.eu,zadluzenia.com,zagadkidladzieci.net###cookie
@@ -987,7 +987,6 @@ empikbilety.pl##div[class^="CookieBar_cookieBar_"]
 emt-systems.pl###rodoBG
 endoca.com##.gdpr-modal-notify
 eneba.com#?##app > div[class] > div[class]:-abp-has(> p > a:-abp-contains(polityce prywatności))
-energylandia.pl###cookie-law-info-bar
 engie-services.pl##.agreements
 enigmatis.pl###root > div:first-of-type:not([id]):not([class])
 enjoyuk.pl###fanback
@@ -4273,6 +4272,7 @@ pepper.pl#@#.popover--layout-fixed-bottomSheet
 pepper.pl#@#.zIndex--modal.popover-cover
 profix.com.pl,proline-tools.com.pl#@#div#cookieConsentModal
 rossmann.pl#@#.onetrust-pc-dark-filter
+san.edu.pl#@#.cookies.show:not(html):not(body)
 softpos.eu#@#.jsModalRodo
 tesa.com##.-lock-overlay body::after
 tesa.com#@#div.cookie-notice
@@ -4310,7 +4310,7 @@ gry.pl,shinden.pl,wmeritum.pl,wykop.pl#@#div[class^="app_gdpr"]
 kupbilecik.pl,panbilet.pl,wins.pl#@#.cookie-container:not(body):not(html)
 maxelektro.pl#@##cookie-info:not(body):not(html)
 maxizoo.pl#@##cookie-banner:not(body):not(html)
-mcdonalds.pl,ose.gov.pl#@#.cookies:not(body):not(html):not(#page):not(#container):not(.wrapper):not(.popup-newsletter):not(.js-cookies)
+mcdonalds.pl,ose.gov.pl,san.edu.pl#@#.cookies:not(body):not(html):not(#page):not(#container):not(.wrapper):not(.popup-newsletter):not(.js-cookies)
 memo-book.pl,zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 migora.pl,motocombo.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body):not(html)
 naekranie.pl#@##modal-rodo-info:not(body):not(html):not(.fade):not(.reveal-modal)
