@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.7.16.0
-! Last modified: Tue, 16 Jul 2024, 02:31 UTC+02:00
+! Version: 2024.7.17.0
+! Last modified: Wed, 17 Jul 2024, 23:19 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.7.16.0 aktualizacja: wto, 16 lip 2024, 02:31 UTC+02:00
+! v.2024.7.17.0 aktualizacja: śro, 17 lip 2024, 23:19 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -111,6 +111,7 @@ nawakacje.eu,rytmynatury.pl##.ays-fpl-modals
 nawiedzone.pl##[data-title="Social Form - Popup #02"]
 nportal.no###fb-overlay
 okiemturysty.pl##.div_box0
+oknoline.pl###modalSocial, .modal-backdrop
 onkyo.pl##div#dwbox-bkg, div#dwbox-box
 ostra-na-slodko.pl##.ArevicoModal-bg
 ostra-na-slodko.pl#?#.ArevicoModal:-abp-has(.fb-page, .fb_iframe_widget)
@@ -903,7 +904,7 @@ pl,~wykop.pl##.wykop
 24kurier.pl##.topbar a[class^="icon"]:not(.icon_mail)
 24kurier.pl#?#.d-lg-block.d-none.sidebox > .headline_sidebox_1:-abp-contains(Dołącz do nas)
 24legnica.pl###socialStuff
-24opony.pl,adleragro.pl,agrieko.pl,akademos.pl,antyweb.pl,audiofan24.pl,auto-swiat.pl,bhs-goleniow.pl,biuroprasowe.pl,blachownia.pl,bydgoszcz.com,centrum.fm,cocolita.pl,comperia.pl,duzekubki.pl,ebexo.pl,fabrykazabawek.eu,fakt.pl,fonpizza.pl,galeriadomow.pl,grodzisknews.pl,gugik.gov.pl,how2html.pl,ibuprom.pl,inowroclaw.pl,jezykipaderewski.pl,kalisz24.info.pl,komputerswiat.pl,lublin112.pl,macris.com.pl,matkapolkahybrydowa.pl,miechow.eu,moaburger.com,mojanorwegia.pl,mokis.info,naklo.fm,naszenieruchomosci.com,ncn.gov.pl,niemiecki.co,nmedica.pl,oakandberry.com,oftalmika.pl,optyk.klodzko.pl,osmpiaski.pl,p-programowanie.pl,patriot24.net,pieninyinfo.pl,polskieradio.pl,portalmorski.pl,poznan.optitaxi.pl,promopixel.pl,protonmail.com,protonvpn.com,przegladsportowy.pl,queer.pl,rdn.pl,reypol.com.pl,roltech.eu,scandi-city.pl,sec.com.pl,sklep.piast-gliwice.eu,sklepfarmera.pl,smakistyl.pl,splacepark.pl,sprzedajemy.pl,ssl24.pl,strzelec.info,studiohifi.pl,taniaksiazka.pl,vaya.com.pl,wanicki.pl,weblider.eu,wrzesnia.powiat.pl,wyborcza.biz,zdrowekolorowe.pl,znak.com.pl,ztkruszwica.pl##.fb
+24opony.pl,adleragro.pl,agrieko.pl,akademos.pl,antyweb.pl,audiofan24.pl,auto-swiat.pl,bhs-goleniow.pl,biuroprasowe.pl,blachownia.pl,bydgoszcz.com,centrum.fm,cocolita.pl,comperia.pl,duzekubki.pl,ebexo.pl,emmi.rybnik.pl,fabrykazabawek.eu,fakt.pl,fonpizza.pl,galeriadomow.pl,grodzisknews.pl,gugik.gov.pl,how2html.pl,ibuprom.pl,inowroclaw.pl,jezykipaderewski.pl,kalisz24.info.pl,komputerswiat.pl,lublin112.pl,macris.com.pl,matkapolkahybrydowa.pl,miechow.eu,moaburger.com,mojanorwegia.pl,mokis.info,naklo.fm,naszenieruchomosci.com,ncn.gov.pl,niemiecki.co,nmedica.pl,oakandberry.com,oftalmika.pl,optyk.klodzko.pl,osmpiaski.pl,p-programowanie.pl,patriot24.net,pieninyinfo.pl,polskieradio.pl,portalmorski.pl,poznan.optitaxi.pl,promopixel.pl,protonmail.com,protonvpn.com,przegladsportowy.pl,queer.pl,rdn.pl,reypol.com.pl,roltech.eu,scandi-city.pl,sec.com.pl,sklep.piast-gliwice.eu,sklepfarmera.pl,smakistyl.pl,splacepark.pl,sprzedajemy.pl,ssl24.pl,strzelec.info,studiohifi.pl,taniaksiazka.pl,vaya.com.pl,wanicki.pl,weblider.eu,wrzesnia.powiat.pl,wyborcza.biz,zdrowekolorowe.pl,znak.com.pl,ztkruszwica.pl##.fb
 24pr.pl##a[href*="facebook.com/pages/24PR-Portal-PR/300082949728"]
 35mm.online##.footer-bar__top__links
 40ton.net##.clearfix.sidebar-box:nth-of-type(4)
@@ -1330,6 +1331,8 @@ arbet.pl###facebook-right
 arbonne.com##div.footer-column:nth-of-type(4) > ul > li:nth-of-type(3) > a
 arch.telewizjarepublika.pl###header a[href*="youtube.com/channel/"]
 archidiecezja.lodz.pl##.menu__list-icons--footer
+architekcibiznesu.pl##.ast-post-social-sharing
+architekcibiznesu.pl##.massenger-log0-contact
 architektura.info##.newsletter-block
 archiup.com##footer#footer.footer > div:first-child > div > div > div:nth-child(4) > div:first-child
 archiup.com#?##contact + dl > dt + dd:-abp-contains(/Instagram|Facebook|Pinterest|YouTube/)
@@ -6282,6 +6285,7 @@ pib-nio.pl##.social-links.header-social
 pieluszkarnia.pl##div[class*="platnosc"] > a[href*=".com/"] > img
 pierwsze-kroki.com##.instagram-header
 pierwsze-kroki.com,shop.itcom.com.pl###top-social
+pierwszynamapie.pl##.facebook-widget.widget
 pietro-wyzej.pl##li.nav-item--icon.nav-item:nth-of-type(n+9):nth-of-type(-n+10)
 piewca.pl###facebookwidgetplus-2
 pigmejka.pl##.footer_links:first-of-type > :nth-child(n+2):nth-child(-n+3)
@@ -7229,6 +7233,7 @@ samoloty.pl##.custom > p:nth-of-type(n+2):nth-of-type(-n+3)
 samorzad.nid.pl##.footer__col-3
 samsung.com###footer div[class^="gb-footer-"][class$="__sns"]
 samsung.com##.gb-footer__sns-list
+san.edu.pl##.social-ico a[href]:not([href*="bip"])
 sanbank.pl###fejs
 sanofi.pl##.osw-link-social:not(.osw-link-social-rss)
 santanderconsumer.pl##.menu > .goldenline, .menu > .blog
