@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.7.20.0
-! Last modified: Sat, 20 Jul 2024, 02:31 UTC+02:00
+! Version: 2024.7.21.0
+! Last modified: Sun, 21 Jul 2024, 19:47 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.7.20.0 aktualizacja: sob, 20 lip 2024, 02:31 UTC+02:00
+! v.2024.7.21.0 aktualizacja: nie, 21 lip 2024, 19:47 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -1345,6 +1345,7 @@ help.autodoc.pl##.wrap-privacy-notification
 helpfind.pl##.cookie-privacy-box
 herbaciani.pl##div[style="float:right; padding-top:20px; padding-bottom:20px; width:100%; font-size:12px; background:#ddd; color:#333; text-align:center; margin-bottom:10px;"]
 herbapol.com.pl###pop
+herbataikawa.pl##.consents
 herbaya.pl,ibufen.pl##body > div[style^="width: 100%; height: 100%"]:not([id]):not([class])
 heroes-online.com###cookieNotificationBanner
 hertz.com.pl##[class^="lb-"]
@@ -1594,7 +1595,7 @@ kompan.pl###tx_cookies_showPermanent
 komputerprojekt.pl,laptopmarket.pl,polnox.pl##.consents__wrapper
 komputery-kalwaria.pl,oczamimlodych.pl##body > center:first-of-type
 komugroup.eu###pop-up-modal
-komugroup.eu,ogrod-marzen.pl##.cookie-infobox
+komugroup.eu,ogrod-marzen.pl,ozbi.pl##.cookie-infobox
 komunikacja.bialystok.pl###top > a[href*="?page=cookies"]
 komunikacja.um.bialystok.pl##a[href="/?page=cookies"]
 komunikaty.tp.pl,orange.pl#?##__next section > div div[class^="css-"]:-abp-has(> div > div > strong:-abp-contains(Informacja o cookies))
@@ -1891,6 +1892,7 @@ mintos.com,publio.pl###cookie-agreement
 miplo.pl##.error.rounded
 mirjan24.pl###window_overlay
 mirjan24.pl##.cookieslaw
+mirjan24.pl,optykwnecie.pl##.gdprModal
 mirpol-bis.pl##.message-popup-background
 missplanner.pl##.page--notification
 mistama.com,q21.pl,sklep.agro-plus.com.pl,sklepkrzyzanek.pl###change_terms_message
@@ -2145,7 +2147,6 @@ ops.pilchowice.pl##.btnh
 optima.szkola.pl###rvshowcookies
 optomer.pl###GDPRInformationModal
 optyczne.pl###id01
-optykwnecie.pl##.gdprModal
 orange.jobs##.dgt-opt-inout-visible
 orange.pl##div[id*="opl-cookie-"], .background
 orders.porta.com.pl##.ng-isolate-scope[consent=""]
@@ -2645,6 +2646,7 @@ sklep-elektronik.pl#?#.jconfirm:-abp-has(.pdcookie-show-submit.btn)
 sklep-tosia.eu##.cookie-center
 sklep.andrewex.com.pl,victoriadom.pl##.bar--cookies
 sklep.audiopunkt.com.pl,talbud.pl,termgaz.pl###cook_woyt
+sklep.czf.pl##.configMessagesCookiesMessage, .configMessagesRegulations-js
 sklep.eltron.pl###communication
 sklep.genos.com.pl###rodoText
 sklep.legia.com###hw_cookie_law
@@ -3431,8 +3433,10 @@ com###msccBanner:not(body):not(html)
 com##.cnil-banner-v2:not(body):not(html)
 com##.cnil-banner:not(body):not(html)
 com,eu,pl###cookie-notice:not(body):not(html)
+com,eu,pl##.cli-modal-backdrop
+com,eu,pl##.cli-popupbar-overlay
 com,eu,pl##body:not(.cli-barmodal-open) #cookie-law-info-again
-com,eu,pl##body:not(.cli-barmodal-open) #cookie-law-info-bar:not(.cli-bar-popup):not(.cli-modal-content)
+com,eu,pl##body:not(.cli-barmodal-open) #cookie-law-info-bar
 com,pl##.cc-revoke:not(body):not(html)
 org,pl##html:not(.i-amphtml-scroll-disabled) #amp-user-notification1
 org,pl##html:not(.i-amphtml-scroll-disabled) amp-consent
