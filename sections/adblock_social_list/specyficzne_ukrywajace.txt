@@ -5357,7 +5357,7 @@ pcworld.pl##.navbar-right.navbar-nav.nav li.nav-item:nth-of-type(3)
 pdftoimage.com###like-it
 pe.szczecin.pl##.social-icons-f > .fa-facebook-f
 pec-pruszcz.pl###slogan a[href*="facebook.com/"]
-pecetowicz.pl#?##secondaryFooter .ipsGrid_span3:nth-last-child(1) h4 + p + p:-abp-contains(Obserwuj)
+pecetowicz.pl#?##secondaryFooter .ipsGrid_span3:last-child h4 + p + p:-abp-contains(Obserwuj)
 peka.pl##div[class*="footer"] .goto-youtube > p
 pelikan.com##._social_links_footer
 pelion.eu##.social-ico-wrapper
@@ -5374,7 +5374,7 @@ pepco.pl##.text-right.footer-menu > ul.no-list:nth-of-type(2) > li:not(:last-of-
 pepco.pl#?#.footer-nav .row p:-abp-contains(Znajdź nas na)
 pepegi.eu#?#.menu_button_wrapper:nth-of-type(2):-abp-has(a[href*="facebook.com/"], a[href*="twitter.com"])
 pepper.pl##button[data-t^="shareOn"]:not([data-t*="Whatsapp"]):not([data-t*="Messenger"])
-pepper.pl##footer#footer.footer > div:nth-child(3) > div > section:nth-child(4) > div > ul > li:nth-of-type(-n+3)
+pepper.pl##footer#footer.footer > div:nth-child(3) > div > section:nth-child(4) > div > ul > li:nth-of-type(-n+7):not(:last-child)
 pepper.pl#?#div[class*="banner"]:-abp-has(img[alt*="Insta" i])
 pepper.pl#?#div[class*="banner"]:-abp-has(img[alt*="twitt" i])
 pepsi.pl###socialBox
@@ -6055,7 +6055,7 @@ quizme.pl###mks_author_widget-4
 quizme.pl,quizowa.pl###slidebox
 qulinarna.com##a[href*="facebook.com/qulinarna/"]
 r-gol.com##.footer-block--social
-raan-lighting.pl###header-box > .box:nth-last-child(1)
+raan-lighting.pl###header-box > .box:last-child 
 rachuneo.pl##.bm-footer__social
 rachunkowosc.com.pl##.footer_padding_lr > div.d_four:nth-of-type(4)
 racing-planet.pl###socials_block
