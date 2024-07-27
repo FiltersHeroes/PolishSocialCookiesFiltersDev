@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.7.21.0
-! Last modified: Sun, 21 Jul 2024, 19:47 UTC+02:00
+! Version: 2024.7.27.0
+! Last modified: Sat, 27 Jul 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.7.21.0 aktualizacja: nie, 21 lip 2024, 19:47 UTC+02:00
+! v.2024.7.27.0 aktualizacja: sob, 27 lip 2024, 22:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2617,7 +2617,7 @@ shoepassion.pl##.data_security_cookies
 shop-dent.pl##div.black_overlay
 shop.huawei.com###cookie_components
 shop.thgeyer-lab.com###cookienotification
-shopalike.pl#?#div[id^="sp_message_container"]:-abp-has(iframe[src*="cdn.privacy-mgmt.com"])
+shopalike.pl,wizaz.pl#?#div[id^="sp_message_container"]:-abp-has(iframe[src*="cdn.privacy-mgmt.com"])
 shopee.pl#?##main > div > div[class]:-abp-has(> div[class] > a[href*="help.shopee.pl"])
 shopee.pl#?#.app-container > div:-abp-has(> h4 ~ a[href*="help.shopee.pl"])
 sick.com##.cookie_law
