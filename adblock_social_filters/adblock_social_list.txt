@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.7.28.0
-! Last modified: Sun, 28 Jul 2024, 16:53 UTC+02:00
+! Version: 2024.7.28.1
+! Last modified: Sun, 28 Jul 2024, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.7.28.0 aktualizacja: nie, 28 lip 2024, 16:53 UTC+02:00
+! v.2024.7.28.1 aktualizacja: nie, 28 lip 2024, 18:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1111,7 +1111,7 @@ aisko.pl##.top-menu-item.menu-item:not(.icon-only) > a[href*=".com/"]
 ajgroup-pros.pl##.SocialBoard
 ajk-opakowania.eu###fbIcon
 ajprodukty.pl##.footer_social-container
-aju.pl,alekosmos.pl,alilove.pl,asc-pro.pl,banita.travel.pl,bithub.pl,blog.lh.pl,boombook.pl,buslapidus.pl,invado.pl,jezykowasilka.pl,kolibra.pl,kurkanielotka.pl,littletownshoes.com,lozaszydercow.com,medica2000.com.pl,moviesroom.pl,rytmynatury.pl,safivision.pl,skgd.pl,skrivanek.pl,soczko.pl,sternaseo.pl,supermarket-online.pl,telerozrywka.pl,towartojesc.pl,wei.org.pl,wnetrzeiogrod.pl,youtab.pl,zaniczka.pl###custom_html-2
+aju.pl,alekosmos.pl,alilove.pl,asc-pro.pl,banita.travel.pl,bithub.pl,blog.lh.pl,boombook.pl,buslapidus.pl,invado.pl,jezykowasilka.pl,kolibra.pl,kurkanielotka.pl,littletownshoes.com,lozaszydercow.com,medica2000.com.pl,moviesroom.pl,rytmynatury.pl,safivision.pl,skgd.pl,soczko.pl,sternaseo.pl,supermarket-online.pl,telerozrywka.pl,towartojesc.pl,wei.org.pl,wnetrzeiogrod.pl,youtab.pl,zaniczka.pl###custom_html-2
 akademia.nask.pl###fb-ico
 akardo.pl###footlink21
 akardo.pl###footlink24
@@ -2510,6 +2510,9 @@ demotywatory.pl##.external-share
 demotywatory.pl##a[href*="instagram.com/demotywatorypl/"]
 demus-zegarki.pl##.cms_main_social
 denley.pl##.socials_footer_links
+dentonet.pl##.bg-facebook.button--big.expand.button
+dentonet.pl##.footer-menu-2 a[href*="com"]
+dentonet.pl##.origin-2.name
 deon.pl##.item-wykop
 deon.pl##.socialIkonki, .sl > li:nth-child(-n+4), .footer-right__social-media, .mega-menu__social-media
 depositphotos.com##[data-qa="SocialLinkList"]
@@ -3027,7 +3030,7 @@ enel.pl###footer div.column.col-auto:nth-of-type(4) h4
 enel.pl##.fb-info
 enelsport.pl##div.page:nth-of-type(2) > div.width-25.column:nth-of-type(3), .quick-insta, .quick-fb
 enerad.pl##.nav-social-icons
-enerad.pl,pizzeria-alforno.pl,psycholog-pisze.pl##.footer-social-icons
+enerad.pl,fashionbiznes.pl,pizzeria-alforno.pl,psycholog-pisze.pl##.footer-social-icons
 energylandia.pl##.el-social-footer, .floating-facebook-button
 eneris.pl,wste.edu.pl##.social_menu
 enfamil.pl##.float-app:nth-of-type(3), .float-fb:nth-of-type(4)
@@ -5329,6 +5332,7 @@ mieszkaniec.pl##.sidebarright > div > .custom-html-widget.textwidget center > ta
 mieszkaniec.pl##.sidebarright > div.widget.widget_text:first-of-type table td:nth-of-type(-n+3)
 mieszkaniowi.pl###fpw_icon
 migra.pl##div.single.site-bottom-boxes:nth-of-type(3)
+migre.pl##.widget-icon.widget > strong:has(+ span a[href*="facebook.com/"])
 mikolow.eu##.check-channels.footer-box > .data > h1, .check-channels.footer-box > .data > .icons
 mikrobit.pl###facebookContainer
 mikroskala.eu##span > a[href*="facebook.com/Mikroskala/"]
@@ -6510,6 +6514,7 @@ podkop.com###text-14 > .textwidget p > a:not([href*="podkop.com/kontakt/"])
 podlaskie.eu###odwiedz_nas
 podlogigniezno.pl##.row.footer > div:nth-child(-n+2) > a > img
 podnorenami.pl###foot td.tbl_3:nth-of-type(2) > a:nth-of-type(-n+7)
+podobne-firmy.pl##.icon-group--sticky li:not(:has(.fa-medium-m, .fa-bitcoin))
 podroze.gazeta.pl##footer a[href*="facebook.com/podroze.gazeta/"]
 podroze.se.pl##.likeme
 podstadionem.pl##.social-a
