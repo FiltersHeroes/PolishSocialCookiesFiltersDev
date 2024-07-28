@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.7.28.0
-! Last modified: Sun, 28 Jul 2024, 16:53 UTC+02:00
+! Version: 2024.7.28.1
+! Last modified: Sun, 28 Jul 2024, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.7.28.0 aktualizacja: nie, 28 lip 2024, 16:53 UTC+02:00
+! v.2024.7.28.1 aktualizacja: nie, 28 lip 2024, 18:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2807,6 +2807,7 @@ szkolnastrona.pl###cookiesMsgWrap
 szlot.pl###spu-1873, #spu-bg-1873
 szostygracz.pl##div#cw_statusbar
 szpital.pyrzyce.net.pl##.textwidget a[href*="/KLAUZULA-INFORMACYJN1.pdf"]
+sztolnie.pl,zamekgrodno.pl##body:not(:has(.wpb_gmaps_widget)) .cky-consent-bar
 szukacz.pl###routerBox1
 szukajka.tv###rodo-popup
 szukam-informacji.pl##.site-header .menu
@@ -4282,6 +4283,7 @@ profix.com.pl,proline-tools.com.pl#@#div#cookieConsentModal
 rossmann.pl#@#.onetrust-pc-dark-filter
 san.edu.pl#@#.cookies.show:not(html):not(body)
 softpos.eu#@#.jsModalRodo
+sztolnie.pl,zamekgrodno.pl#@#.cky-consent-bar
 tesa.com##.-lock-overlay body::after
 tesa.com#@#div.cookie-notice
 uniabracka.pl#@##cookie-container
