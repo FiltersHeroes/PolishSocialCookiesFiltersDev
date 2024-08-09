@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.8.7.0
-! Last modified: Wed, 07 Aug 2024, 22:31 UTC+02:00
+! Version: 2024.8.9.0
+! Last modified: Fri, 09 Aug 2024, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.8.7.0 aktualizacja: śro, 07 sie 2024, 22:31 UTC+02:00
+! v.2024.8.9.0 aktualizacja: pią, 09 sie 2024, 18:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5178,6 +5178,8 @@ mbp.dzierzoniow.pl##.facebook-container
 mbp.dzierzoniow.pl##.region-header .block:not(#block-block-10):not(.block-search):not(#block-search)
 mbp.opole.pl##.footer-cols-wrapper > .panel-grid-cell:nth-of-type(n+3) > .panel-cell-style.footer-col
 mbp.szczecin.pl#?#.elementor-inner-column.elementor-element[data-settings*="background"][data-settings*="classic"] > .elementor-element-populated.elementor-column-wrap:-abp-has(h4:-abp-contains(/^Bądź na bieżąco$/))
+mbud.waw.pl##.header-widget > li:has(a[href*="facebook.com/"])
+mbud.waw.pl##.social-btn.button
 mckenzie.pl##.rssocial-twitter-icon
 mckkatowice.pl##.soc > a
 mckkatowice.pl,musicboxtv.pl,ricoh.pl,zak.edu.pl##.social a
@@ -5262,6 +5264,7 @@ medycyna.anauk.net##a[href*="google.com/ig/adde"], a[href*="blip.pl/"]
 medyk.rzeszow.pl##.links > a[href*="facebook.com/"]
 medyk.rzeszow.pl##.links > a[href*="instagram.com/"] > img
 meetup.com##.flex--noGutters > .flex-item--shrink, .event-share
+mega.nz##.top-social-bl
 megawrzuta.pl##.social-links .facebook
 megawrzuta.pl##.social-links .twitter
 megazoologiczny.pl#?##footer_img:-abp-has(.find_us)
