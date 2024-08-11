@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.8.9.0
-! Last modified: Fri, 09 Aug 2024, 18:31 UTC+02:00
+! Version: 2024.8.11.0
+! Last modified: Sun, 11 Aug 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.8.9.0 aktualizacja: pią, 09 sie 2024, 18:31 UTC+02:00
+! v.2024.8.11.0 aktualizacja: nie, 11 sie 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -815,8 +815,6 @@ pl,~wykop.pl##.wykop
 !
 !
 ! Specyficzne reguły ukrywające
-!zakupy.auchan.pl##footer > div > div > div:nth-child(3)
-!zakupy.auchan.pl#?#div[class][style*="transparent"][style*="gap"] div[content="[object Object]"]:-abp-has(> div > div > h2:-abp-contains(Śledź nas))
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
@@ -2117,7 +2115,7 @@ cenyrolnicze.pl##div > footer ~ div > div > div:first-child div:nth-child(2) a >
 cepik.gov.pl##.toolbar > li:nth-of-type(n+4):nth-of-type(-n+5)
 ceramika-artystyczna.pl##.footer-box div:nth-of-type(4)
 cert.orange.pl###twitterHover
-cert.pl,citroen.pl,coffeecave.pl,czytam.pl,dsautomobiles.pl,justtag.com,localmarket.no,peugeot.pl,poradnikpracownika.pl,poradnikprzedsiebiorcy.pl,pyszne.pl,smogowicze.pl,swiatrolnika.info,tvn.pl,weidemann.de##.socialmedia
+cert.pl,citroen.pl,coffeecave.pl,czytam.pl,drogeriadrzdrowie.pl,dsautomobiles.pl,justtag.com,localmarket.no,peugeot.pl,poradnikpracownika.pl,poradnikprzedsiebiorcy.pl,pyszne.pl,smogowicze.pl,swiatrolnika.info,tvn.pl,weidemann.de##.socialmedia
 certum.pl###social-panel
 certyficate.it###pre-header-social
 cewe.pl##.sg-cw-footer-sociallinks
