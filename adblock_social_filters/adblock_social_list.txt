@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.8.11.0
-! Last modified: Sun, 11 Aug 2024, 22:31 UTC+02:00
+! Version: 2024.8.13.0
+! Last modified: Tue, 13 Aug 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.8.11.0 aktualizacja: nie, 11 sie 2024, 22:31 UTC+02:00
+! v.2024.8.13.0 aktualizacja: wto, 13 sie 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4486,6 +4486,8 @@ klasycznebuty.pl###social-icon-top
 klasykami.pl##.cherry-instagram_widget
 klasykami.pl##.row-edge.row:nth-of-type(n+8)
 klett.pl,kolorowyswiat.org##.ytIcon
+klient.zadbano.pl##div[class*="StyledSocialMedias"] a
+klient.zadbano.pl##div[class^="FloatingCookiesstyles_"]
 klimatyzacja.pl###footer > div
 klinikaagd.pl##.stoka_newsletter_ico
 klinikamagnuccy.pl###top-bar-social-alt > a:nth-of-type(n+3):nth-of-type(-n+4)
@@ -5402,6 +5404,7 @@ mma.pl##.site-footer__fb
 mmiur.com##.ytimg
 mmorpg.org.pl##footer a[href*=".com/"][title]
 mmp24.pl##li.social-item-nav.nav-item:not(:nth-of-type(3))
+mmpk.info##.social-links > li:not(.rss)
 mng.gda.pl##section.section-opaque > .container-vertical-middle.container-fullwidth > .vertical-middle.row > div.small-screen-default.text-center.col-md-4:nth-of-type(-n+3)
 mniumniu.com###Text2
 mnwr.pl##.bottom-menu-lvl-2__sm > .footer-sm-2
@@ -6433,6 +6436,7 @@ pl.libreoffice.org###social ~ #bottom
 pl.lovoo.com##.responsive-footer > .container-responsive-lg > .o-grid > .o-grid__cell:last-child, .responsive-footer ~ .u-width-full > .o-grid--list.o-grid > .o-grid__cell > span > a:nth-of-type(-n+6)
 pl.malwarebytes.com##.newsletter-icons.soc-icon-row.row
 pl.mondly.com##a[class][href][aria-label] > img[class][src*=".svg"]
+pl.mydeltaq.com##.SocialNetworks
 pl.near-place.com##.share > .tumblr
 pl.nowystyl.com##.nsg--footer > div > .row > div > div.row:first-of-type
 pl.oriflame.com##.ui-social-container
@@ -6929,6 +6933,7 @@ pwn.pl##.pages-socials a[href*=".com/"]
 pychotka.pl##a > img[src="no10/ffan.png"]
 pyrawkorei.pl###footerGroupLayer_pl ~ div a[href*=".com/"][target="_blank"]
 pyskowice.pl###instagram-button
+pyspace.pl##.social-url-container
 pyszne.pl##.footerdesktop.footer-nav
 pyszne.pl##footer p[data-qa="text"] ~ ul li a[href*=".com/"]
 pyszne.pl#?#footer p[data-qa="text"] > b:-abp-contains(Follow us)
@@ -8300,6 +8305,8 @@ tvokazje.pl##.Social_block
 tvonline.vectra.pl##footer a[href*="facebook.com/groups/"]
 tvp.info##.am-article__facebook, .am-article__twitter, .am-article__gplus, .info-article__social
 tvp.info##.nav__fake--social > .facebook, .nav__fake--social > .gplus, .nav__fake--social > .twitter
+tvp.info##.social-article__fb
+tvp.info##.social-article__x
 tvp.info##.socials-big__media > div:not([class$="mail"])
 tvp.info,tvp.pl###container_flyoutsocial a[href*="facebook.com/"]
 tvp.info,tvp.pl###container_flyoutsocial a[href*="instagram.com/"]
