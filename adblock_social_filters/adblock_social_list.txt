@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.8.18.1
-! Last modified: Sun, 18 Aug 2024, 22:31 UTC+02:00
+! Version: 2024.8.19.0
+! Last modified: Mon, 19 Aug 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.8.18.1 aktualizacja: nie, 18 sie 2024, 22:31 UTC+02:00
+! v.2024.8.19.0 aktualizacja: pon, 19 sie 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3866,6 +3866,7 @@ gwarek.com.pl##a > div.face
 gymeltoro.pl##.bean-social1
 gyncentrum.pl###footer-about > .text-right .logo-hover
 gyncentrum.pl###goto-facebook
+gyncentrum.pl,plus.pl##.socials-wrapper
 hacienda.pl,koscierzyna24.info##.social > li:nth-of-type(-n+3)
 hack.pl,przesylarka.pl,repozytorium.fn.org.pl,spoleczenstwo.plportal.pl###block-block-11
 hackintosh.com.pl###sidebar > div.syndicate.sidebar-content:nth-of-type(5) > h4
@@ -4941,6 +4942,7 @@ lipinscy.pl###facebook_zone
 lira-pasze.pl##.social > a:not([href*="b2b."])
 lispol.com##.facebookDV
 listaserwerowmc.pl###menu_fb
+listerine.pl##.social-media-link
 listwy-dekoracyjne.pl###newsletter_block_social > h4, #newsletter_block_social a[href]
 literackifestiwal.zakopane.eu##.pweb-theme-fbnavy
 litovel.cz##footer .links > .row > div[class*="col"]:nth-of-type(4)
@@ -6514,7 +6516,6 @@ plotek.pl##.likepage, .quizModule-sociall
 plotkibiznesowe.pl##.stream-item-above-header > a[href*="facebook.com/"] > img[src]
 plus.pl##.mobile-hide.column.large-3.medium-6.small-12
 plus.pl##.share2media_margin, .share2media_size
-plus.pl##.socials-wrapper
 plus.pl##footer .column > li:first-of-type > span
 plusbank.pl###fb_icon
 plushbezlimitu.pl##.footer-socials-container
@@ -6847,6 +6848,7 @@ promocje.al.to,promocje.x-kom.pl###app > div:first-child:first-of-type > div:las
 promocje.msi.com##.header .col-sm-12 > a[class]:nth-of-type(-n+4)
 promocyjni.pl##.socials-float
 promos-grupati.pl###foot_social
+propertydesign.pl##.social.tabs > .navi > a[class]:not(.active):has(img[src*="fb.png"], img[src*="twitter.png"])
 propertynews.pl##.foot > .inline > li:nth-of-type(-n+2), .foot > h3
 propertynews.pl##.foot > ul > li > a[href*="twitter.com/"]
 propertynews.pl##.p-header-social
@@ -7841,6 +7843,8 @@ stollar.pl##.fd-header-top__socials
 stomatolog-smile.pl##section[id^="footer"] > .container > div:first-child > div:last-child
 stomatologiacichon.pl##.social-icons-desktop
 stomatologiacichon.pl##.social-icons-mobile
+stomatologkatowice.pl##.cta > a[href*="facebook.com/"]
+stomatologkatowice.pl##.sticky-buttons > li > a[href*="facebook.com/"]
 stompel.pl###ls > div.menuBox:nth-of-type(4)
 stopnadwadze.pl###bottom-bar
 stoprocent.com###social-sticky
@@ -8319,7 +8323,9 @@ tvn24bis.pl##.title-wrapper > .social, .fbClassicBox, .forum-header-box > h3
 tvn.pl##.contact-tab__blocks-wrapper-column--second
 tvn.pl##.header-card-socials
 tvn.pl##.header-socials__button
+tvn.pl##.SocialLinks
 tvn.pl##.top-media > li > a:not([href*="player.pl/"])
+tvn.pl##yennefer-island[component-url*="/SocialShare"] button
 tvn.pl#?#h3.footer-heading:-abp-has(+ .footer-media)
 tvokazje.pl##.Social_block
 tvonline.vectra.pl##footer a[href*="facebook.com/groups/"]
@@ -10264,6 +10270,7 @@ realme.com#@#.subscribe-container
 ryanair.com#@#.discover-destination__social
 rynek-kolejowy.pl#@#.socialIcons
 rynek-lotniczy.pl,rynekinfrastruktury.pl,transport-publiczny.pl#@#.fbLikeBox
+sanodental.pl#@#.author-share
 satkurier.pl#@##menu_social
 socialpress.pl#@#.follow_us
 sonarhome.pl#@#.bg-facebook
