@@ -1,8 +1,3 @@
-eurosport.tvn24.pl##div[data-testid="social-share-block-molecule"] > div:first-child
-eurosport.tvn24.pl##div[data-testid="social-share-block-molecule"] > div button[aria-label]:not([aria-label="whatsapp"])
-forum-ekonomiczne.pl##a[href*=".com/"]:is([href*="facebook.com/"], [href*="youtube.com/"], [href*="linkedin.com/"], [href*="x.com/"]):has(img[alt*="logo"])
-aptekahit.pl##.header-widget a[href*="instagram.com"]
-aptekahit.pl##.header-widget a[href*="facebook.com"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="facebook.com/"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="instagram.com/"]
@@ -489,6 +484,8 @@ apteka-melissa.pl##.kontener .pre-footer-header + div > a
 apteka-melissa.pl#?#.kontener .pre-footer-header:-abp-contains(Social Media)
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href*="facebook.pl"] > img
 aptekacentrumzdrowia.pl#?#footer .opening-hours.col-md-4:-abp-contains(Obserwuj nas na)
+aptekahit.pl##.header-widget a[href*="facebook.com"]
+aptekahit.pl##.header-widget a[href*="instagram.com"]
 aptekaolmed.pl#?##footer > .container .row div:-abp-has(> h2 ~ .social-spacing)
 aptekarzpolski.pl##.jeg_block_title > a[href*="facebook.com/AptekarzPolskiPismo/"]
 aptekarzpolski.pl#?#.theiaStickySidebar .jeg_block_heading_6.jeg_block_heading:-abp-contains(/Facebook|Twitter/)
@@ -2305,6 +2302,8 @@ europarl.europa.eu##.ep_sociallinks
 europeanquality.eu##.menu__soc.menu__list
 europedirect-katowice.pl,fabrykazabawek.eu,hifiphilosophy.com,kns-okna.pl,madziafashion.blogspot.com,narzedziadiamentowe.com,otulona-zapachem.blogspot.com,pansamolocik.pl,tylkobalonem.pl###wysuwane
 europodroze.pl##.header_bottom > .phone > a > img
+eurosport.tvn24.pl##div[data-testid="social-share-block-molecule"] > div button[aria-label]:not([aria-label="whatsapp"])
+eurosport.tvn24.pl##div[data-testid="social-share-block-molecule"] > div:first-child
 eurosport.tvn24.pl##footer a[href*="snapchat.com/"]
 eurosportplayer.com##li[class*="styles-socialContainer-"]
 eurostudent.pl##.mainfooter-buttons-facebook
@@ -2577,6 +2576,7 @@ forum-brukarskie.pl##.art-linkedin-tag-icon
 forum-brukarskie.pl##.art-pinterest-tag-icon
 forum-brukarskie.pl##.art-twitter-tag-icon
 forum-brukarskie.pl##.art-youtube-tag-icon
+forum-ekonomiczne.pl##a[href*=".com/"]:is([href*="facebook.com/"], [href*="youtube.com/"], [href*="linkedin.com/"], [href*="x.com/"]):has(img[alt*="logo"])
 forum-ekonomiczne.pl##footer > div > div > div > div.pos-top:nth-of-type(4)
 forum.android.com.pl##.cSignInTeaser_right
 forum.benchmark.pl###elFooterSocialLinks
