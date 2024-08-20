@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.8.19.0
-! Last modified: Mon, 19 Aug 2024, 22:31 UTC+02:00
+! Version: 2024.8.20.0
+! Last modified: Tue, 20 Aug 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.8.19.0 aktualizacja: pon, 19 sie 2024, 22:31 UTC+02:00
+! v.2024.8.20.0 aktualizacja: wto, 20 sie 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1313,6 +1313,8 @@ apteka-melissa.pl##.kontener .pre-footer-header + div > a
 apteka-melissa.pl#?#.kontener .pre-footer-header:-abp-contains(Social Media)
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href*="facebook.pl"] > img
 aptekacentrumzdrowia.pl#?#footer .opening-hours.col-md-4:-abp-contains(Obserwuj nas na)
+aptekahit.pl##.header-widget a[href*="facebook.com"]
+aptekahit.pl##.header-widget a[href*="instagram.com"]
 aptekaolmed.pl#?##footer > .container .row div:-abp-has(> h2 ~ .social-spacing)
 aptekarzpolski.pl##.jeg_block_title > a[href*="facebook.com/AptekarzPolskiPismo/"]
 aptekarzpolski.pl#?#.theiaStickySidebar .jeg_block_heading_6.jeg_block_heading:-abp-contains(/Facebook|Twitter/)
@@ -3148,6 +3150,9 @@ europeanquality.eu##.menu__soc.menu__list
 europedirect-katowice.pl,fabrykazabawek.eu,hifiphilosophy.com,kns-okna.pl,madziafashion.blogspot.com,narzedziadiamentowe.com,otulona-zapachem.blogspot.com,pansamolocik.pl,tylkobalonem.pl###wysuwane
 europodroze.pl##.header_bottom > .phone > a > img
 eurosport.tvn24.pl##div[data-testid="share-icons"] > div[class*="title"] ~ div > span[data-social="whatsapp" i]
+eurosport.tvn24.pl##div[data-testid="social-share-block-molecule"] > div button[aria-label="whatsapp"]
+eurosport.tvn24.pl##div[data-testid="social-share-block-molecule"] > div button[aria-label]:not([aria-label="whatsapp"])
+eurosport.tvn24.pl##div[data-testid="social-share-block-molecule"] > div:first-child
 eurosport.tvn24.pl##footer a[href*="snapchat.com/"]
 eurosportplayer.com##li[class*="styles-socialContainer-"]
 eurostudent.pl##.mainfooter-buttons-facebook
@@ -3422,6 +3427,7 @@ forum-brukarskie.pl##.art-linkedin-tag-icon
 forum-brukarskie.pl##.art-pinterest-tag-icon
 forum-brukarskie.pl##.art-twitter-tag-icon
 forum-brukarskie.pl##.art-youtube-tag-icon
+forum-ekonomiczne.pl##a[href*=".com/"]:is([href*="facebook.com/"], [href*="youtube.com/"], [href*="linkedin.com/"], [href*="x.com/"]):has(img[alt*="logo"])
 forum-ekonomiczne.pl##footer > div > div > div > div.pos-top:nth-of-type(4)
 forum.android.com.pl##.cSignInTeaser_right
 forum.benchmark.pl###elFooterSocialLinks
