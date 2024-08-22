@@ -6110,9 +6110,10 @@ radio90.pl,radiojura.pl##li.soc:nth-of-type(2)
 radio90.pl,radiojura.pl#?#div.cover.in-content:-abp-contains(Polub nas na Facebooku!)
 radio-goldap.com.pl###footer .hidden-xs.hidden-sm.col-md-3.col-sm-6.col-xs-12 > h2
 radio.bialystok.pl##.footer2 > div > .text-left > .links2
-radio.bialystok.pl#?#.row > .columns .columns, .text-center .text-center > .columns:-abp-has(> h3:-abp-contains(ZNAJDŹ NAS))
-radio.bialystok.pl#?#body > div > .row:-abp-has(> .text-left h2:-abp-contains(/^(FACEBOOK|TWITTER)$/))
+radio.bialystok.pl#?#.columns h3:-abp-contains(ZNAJDŹ NAS) + hr ~ div
+radio.bialystok.pl#?#.columns h3:-abp-contains(ZNAJDŹ NAS) + hr
 radio.gniezno.pl##.promotional-block
+radio.bialystok.pl#?#.columns h3:-abp-contains(ZNAJDŹ NAS)
 radio.katowice.pl###main-footer div.column:nth-of-type(5)
 radio.katowice.pl##.bg_stopka div.col-sm-5:nth-of-type(2)
 radio.lublin.pl###footer .footer_light:first-of-type .jeg_column:first-of-type
