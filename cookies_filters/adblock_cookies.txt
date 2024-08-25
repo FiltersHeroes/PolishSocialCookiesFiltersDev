@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.8.22.0
-! Last modified: Thu, 22 Aug 2024, 21:56 UTC+02:00
+! Version: 2024.8.25.0
+! Last modified: Sun, 25 Aug 2024, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.8.22.0 aktualizacja: czw, 22 sie 2024, 21:56 UTC+02:00
+! v.2024.8.25.0 aktualizacja: nie, 25 sie 2024, 18:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -664,7 +664,6 @@ coig.com.pl###BoxLine
 cojestgrane.pl##.ui-cookies-acceptance
 colores.pl##div > #popupContact
 colormark.pl###Kom_cookie
-combat.pl###popup-cookie
 comfortum.pl,dywany.dywilan.pl,powiatkutno.eu,umed.pl###ppc_box.ppc_box
 comitor.pl###rodoBoxWrap
 confronter.pl###cookieBarDiv
@@ -4173,7 +4172,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 #@##ba_eu_cookie_law
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 aion.eu#@#.cookies-notification:not(body)
-al.to,combat.pl#@##app > div:first-child > div
+al.to#@##app > div:first-child > div
 allecco.pl,f5.pl,swiatleku.pl,zikodermo.pl#@#.cookies-popup:not(body):not(html)
 allecco.pl,mcdonalds.pl,zikodermo.pl#@#.cookies-info:not(body):not(html)
 atelier801.com#@##cookie-bar ~ .modal-backdrop
@@ -4181,7 +4180,6 @@ avg.com,beko.com,bethesda.net,coca-cola.pl,credit-suisse.com,domiporta.pl,edziec
 bgk.pl#@#.cc-revoke:not(body):not(html)
 bsh-group.com#@##cookie-overlay ~ #cookie-layer
 carry.pl#@#.lgcookieslaw_overlay
-combat.pl#@#.pr-cookie-modal
 czyodebrac.pl,czytajsklad.com,ddz24.eu,konecki24.pl,opieka.farm,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,techno-senior.com,wiadomosci-lodz.pl#@##cliSettingsPopup
 czyodebrac.pl,czytajsklad.com,ddz24.eu,konecki24.pl,opieka.farm,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,techno-senior.com,wiadomosci-lodz.pl#@##cookie-law-info-again
 czyodebrac.pl,czytajsklad.com,ddz24.eu,konecki24.pl,opieka.farm,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,techno-senior.com,wiadomosci-lodz.pl#@##cookie-law-info-again ~ .cli-modal-backdrop
