@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.8.28.1
-! Last modified: Wed, 28 Aug 2024, 22:31 UTC+02:00
+! Version: 2024.8.30.0
+! Last modified: Fri, 30 Aug 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.8.28.1 aktualizacja: śro, 28 sie 2024, 22:31 UTC+02:00
+! v.2024.8.30.0 aktualizacja: pią, 30 sie 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3675,6 +3675,7 @@ girlonboard.pl##.link_socials
 girya.com.pl##.modal-body .product_ref, a[href*="facebook.com/giryafitness/?fref=ts"], div.copy.container-fluid:nth-of-type(2) > .container > div.text-center.col-xs-12.col-md-6:nth-of-type(2)
 gitd.gov.pl##div.footer-row.row > div.col-lg-6.col-md-6:nth-of-type(2), #footer-social-icons, #side-social-icons
 github.blog##footer ul li a[data-ga-click*="Blog, go to"][data-ga-click*="resources footer"]:not([data-ga-click*="to github's" i])
+github.com##.blankslate > svg + h3 + p:has(> a[href*="youtube.com/"])
 github.com##.footer > div > div > ul > li > a[title^="GitHub on"]
 give.thunderbird.net##.footer-links__header
 gizchina.com.pl##.vw-social-icons
