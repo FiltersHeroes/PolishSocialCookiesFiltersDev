@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.8.26.1
-! Last modified: Mon, 26 Aug 2024, 22:31 UTC+02:00
+! Version: 2024.8.31.0
+! Last modified: Sat, 31 Aug 2024, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.8.26.1 aktualizacja: pon, 26 sie 2024, 22:31 UTC+02:00
+! v.2024.8.31.0 aktualizacja: sob, 31 sie 2024, 18:31 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -173,7 +173,6 @@ alerabat.com##.m-popup__cookies
 alesoczewki.com,iposto.com,moremoi.com###cookie-message-box
 alfabravo.pl###ab-cookiemodule
 alga-shop.pl##.top.infobar_wrap
-aliexpress.com###j-aliexpress-notice
 alipaczka.pl###bottom-charm
 alkoholeswiata.com,sunloox.com##.notice-cookie
 alkopoligamia.com,bip.um.rybnik.eu,biskupice.pl,centrumwroclaw.pl,dpn.pl,dreamtours.pl,fashionpost.pl,firmy-katalog.pl,fono-medica.gniezno.pl,fundacja-wroclaw.org,gospodarkamorska.pl,info.elblag.pl,integart.com.pl,izbaarchitektow.pl,jaskinianiedzwiedzia.pl,krosno.com.pl,krzyzowka.net,livesmarter.pl,lokalizo.pl,meteo.imgw.pl,naratunek.org,nj24.pl,nuorder.pl,smogowicze.pl,speedtest.pl,swiatrolnika.info,synonim.net,tacyjakja.pl,totalmoney.pl,wsensie.pl,zamek.malbork.pl,zsp2.edu.pl###rodo
@@ -1057,7 +1056,7 @@ ewakacje-online.pl##div[id][role="alert"][aria-live="polite"].qtip
 ewaprzygodzka.com,kompilo.com,opensolution.org###noticeAboutCookies
 ewf.h1.pl###tytul_rodo
 ewl.com.pl,weblider.eu###bezzo-cookies-bar
-ewnetrze.com.pl###cookie-change-button
+ewnetrze.com.pl,facetaria.pl###cookie-change-button
 exactsystems.pl##.js-cookies-popup.c__popup-cookies
 excodus.com###nag
 expander.net.pl###info-cookie-2013
@@ -1786,8 +1785,6 @@ m.benchmark.pl###private-policy-popup
 m.ceneo.pl##.js_popupContainer.popup-container
 m.facebook.com,touch.facebook.com###header-notices
 m.mapahandlu.pl#?#.ui-footer .ui-title:-abp-contains(pliki cookies)
-m.pl.aliexpress.com###amp-notification
-m.pl.aliexpress.com#?##root > #wrapper ~ div[class^="_"]:-abp-has(~ #action-bar)
 m.twitch.tv##div.tw-modal-layer:has(div[class*="react-modal"] div > a[href*="/cookie-policy"] ~ a[href*="/cookie-policy"])
 madreklama.com##.style2
 mag-sklep.pl##.b-popup-wrapper
@@ -2268,6 +2265,8 @@ pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.a
 pkn.net.pl##.lity-inline.lity-opened.lity
 pkobp.pl,pkopte.pl,pkotfi.pl###pko-cookie-rodo, .pko-cookie-rodo, .cookie-rodo, .rodo-not-small-modal, .js-ajax-overlay
 pksn.pl,prawosportowe.pl##.policy_popup
+pl.aliexpress.com###j-aliexpress-notice
+pl.aliexpress.com###voyager-gdpr
 pl.chili.com##.react-cookie-banner
 pl.chili.tv###_evh-ric
 pl.depositphotos.com##._notification
@@ -3118,6 +3117,7 @@ zsme.pl###kokies
 zsme.pl#?#form > center > table > tbody > tr:-abp-has(td:nth-of-type(2) > input)
 ztloczni.pl##.modulesden-cookies-bar
 ztm.waw.pl##.page-consent
+zus.pl###main-cookie-dialog
 zwg.pl#?#.main-bg table[width="100%"]:-abp-has(> tbody > tr > .capmain:-abp-contains(/^(Klauzura informacyjna RODO|Powitanie)$/))
 zwg.pl#?#.main-bg table[width="100%"]:-abp-has(> tbody > tr > .capmain:-abp-contains(/^(Klauzura informacyjna RODO|Powitanie)$/)) + table.spacer[width="100%"]
 zwrotzalot.pl##.cookies-banner-overlay-original
