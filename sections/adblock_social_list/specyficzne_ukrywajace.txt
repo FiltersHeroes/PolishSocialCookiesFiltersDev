@@ -1,3 +1,6 @@
+twitch.tv##.social-button:not(:has([class*="copy"]))
+twitch.tv##a[href^="https://www.reddit.com/submit"][target="_blank"] + div[role="separator"]
+twitch.tv##a[class^="ScCoreLink-"][target="_blank"]:has(> div > button[class^="ScInteractableBase"])
 wittamina.pl###text-5 > .widgettitle
 wittamina.pl###text-5 a[href]:not([href*="/feed"])
 wittamina.pl###text-3
