@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.9.1.1
-! Last modified: Sun, 01 Sep 2024, 22:31 UTC+02:00
+! Version: 2024.9.4.0
+! Last modified: Wed, 04 Sep 2024, 02:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.9.1.1 aktualizacja: nie, 01 wrz 2024, 22:31 UTC+02:00
+! v.2024.9.4.0 aktualizacja: śro, 04 wrz 2024, 02:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -7715,6 +7715,8 @@ soczewki365.pl###footer p > a[href*="facebook.com/Soczewki365"]
 sofly.club##.section-slider.banner-11
 sofotel.pl###push_wysuwane_fb, #push_wysuwane_gp
 softmm.com.pl##.row.footer > .container.userfooter > .row > p
+softonic.pl##.page-footer__list--social
+softonic.pl##.page-footer__title:has(~ .page-footer__list--social)
 sohost.com#?#div.section:nth-of-type(2):-abp-contains(Ostatnie Tweety)
 sohost.pl##.naglowek-dol-menu-facebook
 soisk-me.pl##.cw-social-mod-title-ac, .cw-social-mod-icons-custom-example > li:not(:nth-of-type(11))
