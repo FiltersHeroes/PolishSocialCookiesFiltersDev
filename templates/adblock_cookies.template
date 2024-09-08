@@ -58,7 +58,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
 ! Specyficzne filtry usuwające ABP
-!#if (ext_abp)
+!#if ext_abp
 @include specyficzne_ABP
 !#endif
 !
