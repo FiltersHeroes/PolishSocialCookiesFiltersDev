@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.9.8.0
-! Last modified: Sun, 08 Sep 2024, 13:24 UTC+02:00
+! Version: 2024.9.8.1
+! Last modified: Sun, 08 Sep 2024, 14:16 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,11 +18,11 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.9.8.0 aktualizacja: nie, 08 wrz 2024, 13:24 UTC+02:00
+! v.2024.9.8.1 aktualizacja: nie, 08 wrz 2024, 14:16 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
-! Popupy - ogólne reguły
+! Popupy - ogólne filtry
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
 /wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
 pl###facebook-popup
@@ -141,7 +141,7 @@ zakazany-humor.pl##.snp-pop-111-wrap, .snp-pop-111-overlay
 zmianywzyciu.pl###popup_facebook
 !
 !
-! Ogólne reguły blokujące
+! Ogólne filtry blokujące
 /bannerfb
 /bgfb
 /btn-art-wrzuta
@@ -191,7 +191,7 @@ zmianywzyciu.pl###popup_facebook
 ||snapwidget.com/embed/$subdocument
 !
 !
-! Ogólne reguły ukrywające
+! Ogólne filtry ukrywające
 ##.facebookPrzyczepiony
 ##.footer-box.footer-social-media
 ##.rank-math-social-share-buttons > .rank-math-share-button:not(.rm-email)
@@ -814,7 +814,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 pl,~wykop.pl##.wykop
 !
 !
-! Specyficzne reguły ukrywające
+! Specyficzne filtry ukrywające
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
@@ -9311,7 +9311,7 @@ zywiecinfo.pl#?#.moduletable:-abp-has(> .dj-likebox)
 zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz Facebook)
 !
 !
-! Specyficzne reguły blokujące
+! Specyficzne filtry blokujące
 /avlab*/img/bg_share.png$domain=avlab.pl
 /content/images/facebook.png$domain=ceneo.pl|jego-styl.pl|kraina-stylu.pl|wnetrza-ze-smakiem.pl
 /facebook.svg$domain=agro-trade.pl|krolewskie.pl|lubliniec.starostwo.gov.pl
@@ -10025,7 +10025,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||zychlin.edu.pl/grafika/facebook.png
 !
 !
-! Blokowanie elementów po zastosowaniu generichide
+! Ukrywanie elementów po zastosowaniu generichide
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##span > a[href*="titktok.com/"]
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##.facebook-share, .tweeter-share
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##.social-links__title
@@ -10142,6 +10142,15 @@ xboxforum.pl#?#.notices:-abp-has(a[href="https://www.youtube.com/channel/UCTTcPd
 yafud.pl###strona > center, .extBox
 zapytaj.onet.pl##.share-icon
 zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta
+!
+!
+! Specyficzne filtry usuwające ABP
+!#if (ext_abp)
+meblomag.eu##map[name="Map4"] > area:first-of-type { remove: true }
+odkryjpomorze.pl##map[name="Map"] > area:first-of-type { remove: true }
+pol-skone.pl##.slider__item:has(a[href*="facebook.com/"]) { remove: true }
+syrion.pl##.box-socials { remove: true }
+!#endif
 !
 !
 ! Bugi Fanboy's Social Blocking List
