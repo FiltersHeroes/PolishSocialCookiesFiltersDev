@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.9.7.0
-! Last modified: Sat, 07 Sep 2024, 22:31 UTC+02:00
+! Version: 2024.9.8.0
+! Last modified: Sun, 08 Sep 2024, 13:24 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.9.7.0 aktualizacja: sob, 07 wrz 2024, 22:31 UTC+02:00
+! v.2024.9.8.0 aktualizacja: nie, 08 wrz 2024, 13:24 UTC+02:00
 !
 !
 ! Specyficzne reguły ukrywające
@@ -2555,6 +2555,7 @@ romident.pl###coktb
 roslinniejemy.org###policy_popup
 rower.com.pl###cookies_request
 rowermevo.pl##.cookies-cont
+rowery-colex.pl##html:not(.x13eucookies-block) body.x13eucookies-block .x13eucookies
 rozetka.pl##rz-user-consent
 rozprza.info###RODOinfo
 rpo.lubelskie.pl###legal-info
@@ -3436,6 +3437,7 @@ pl/tcf/cookie.js$script,domain=pl
 ~pl###catapult-cookie-bar:lang(pl):not(body):not(html)
 ~pl###kopageBarCookies + div:lang(pl)
 ~pl###kopageBarCookies:lang(pl)
+~pl###x13eucookies-icon:lang(pl)
 ~pl##body > div#cookie[class=""]
 ~pl##body:not([class*="cookie-overflow"]) div[id][class*="iai_cookie"]:lang(pl)
 ~pl##body:not([class*="cookie-overflow"]) div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
@@ -3879,6 +3881,7 @@ pl###WP-cookie-info:not(body):not(html)
 pl###wpca-bar:not(body):not(html)
 pl###wpca-box:not(body):not(html)
 pl###ws_cookie_layer:not(body):not(html)
+pl###x13eucookies-icon
 pl###x13pmcookiebar:not(body):not(html)
 pl###xcookies:not(body):not(html)
 pl###xrootCookieRules:not(body):not(html)
