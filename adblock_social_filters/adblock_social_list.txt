@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.9.8.1
-! Last modified: Sun, 08 Sep 2024, 14:16 UTC+02:00
+! Version: 2024.9.8.2
+! Last modified: Sun, 08 Sep 2024, 14:18 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.9.8.1 aktualizacja: nie, 08 wrz 2024, 14:16 UTC+02:00
+! v.2024.9.8.2 aktualizacja: nie, 08 wrz 2024, 14:18 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -10145,7 +10145,7 @@ zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .
 !
 !
 ! Specyficzne filtry usuwające ABP
-!#if (ext_abp)
+!#if ext_abp
 meblomag.eu##map[name="Map4"] > area:first-of-type { remove: true }
 odkryjpomorze.pl##map[name="Map"] > area:first-of-type { remove: true }
 pol-skone.pl##.slider__item:has(a[href*="facebook.com/"]) { remove: true }
