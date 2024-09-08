@@ -41,6 +41,7 @@ agnieszkakonieczna.com##.social-link
 4fun.tv##div > a[href*="facebook.com/4FUN.TV/" i] .fa, div > a[href*="twitter.com/4_fun_tv"] .fa, div > a[href*="youtube.com/4funtvextra"] .fa, div > a[href*="instagram.com/4fun.tv/"] .fa
 4fun.tv##div.top-mini-nav:nth-of-type(-n+2)
 4fun.tv#?#footer > .row > div[class*="col"]:-abp-has(> a[href*="facebook.com/"])
+wyspaszkrabow.pl##.social-profiles-info 
 4gift.pl##.internet.footer-information--col
 4gsm.com,bodyshock.pro,drewniaczek.eu,e-fryzjernia.pl,fajnalazienka.com,hurtowniagsm.com,mystic.pl,niemchem.com,o-shop.com,pl.skate-europe.com,rsmax.eu###tws_i_100000
 4kdownload.com##.community__item:not([class*="feed"])
@@ -1061,7 +1062,8 @@ bonito.pl##a[href^="//www.facebook.com/share.php"] + a[href*="twitter.com/"]
 bonprix.pl##.col-xs-offset-0.col-xs-12.col-sm-offset-1.col-sm-5
 bonprix.pl##.footer-main__social
 bonturystyczny.polska.travel##.footer-parallax div[class]:nth-of-type(4)
-bookbook.pl###social_foot, .social-profiles-info
+bookbook.pl###social_foot
+bookbook.pl##.social-profiles-info
 bookbook.pl##.social-profiles-h2
 bookland.com.pl#?#footer li:-abp-has(a[href*="facebook.com/"])
 booklips.pl,stolicazdrowia.pl,ustyle.pl###text-15
@@ -2109,7 +2111,6 @@ ekliniki.pl,satkurier.pl##.twitter-share-button
 eko.org.pl##.w3-bar > div.ds-button-roundm
 ekobilet.pl#?#.padtb-3.text-center.container:-abp-contains(Facebooku)
 ekocentryczka.pl##a[href*="bloglovin.com/blog/3487953/ekocentryczka"], a[href*="facebook.com/pages/Ekocentryczkablogspotcom/117663851699094"]
-ekodrogeria.pl##.social-profiles-info > .container > a
 ekoenergia24.eu###topNav li:nth-of-type(-n+2)
 ekogram.pl,kluczesoft.pl,laptopypoznan.pl,pakuten.pl,purina.pl,univexim.pl,vica.pl,wesoil.pl##.block-social-links
 ekologia.pl##.linkWykop, .bi2.bottom-item
@@ -3149,7 +3150,7 @@ holender.info,sklepdlalekarza.com###social_block_mod
 holiday.aquila.pl##li.mhide.padding-none:nth-of-type(n+2)
 hollex.rzeszow.pl##.icons-top-social div.pull-right.pos-link-wishlist:nth-of-type(6)
 holver.pl##.footer-center > div > div > div > div > div:nth-of-type(4)
-home100.pl,impero24.pl##.social-profiles-info > *
+home100.pl,impero24.pl##.social-profiles-info > span
 home.kpmg##.socialchannel-links
 home.pl##.o-page-footer__column:nth-of-type(5)
 home.pl##footer a[title="Linkedin"]
@@ -3425,6 +3426,8 @@ izabawka.pl##.container.userfooter > .row > p:first-of-type
 izba-lekarska.home.pl###fb-container
 izba-lekarska.org.pl,profesjonalnefarby.pl###fb-button
 izielnik.pl##.social-profiles-info a[href*=".com/"]
+izielnik.pl##.social-profiles-info a[href*="/blog"]
+izielnik.pl##.special-header:has(+ .social-profiles-info)
 izigsm.pl###changefb, #sectionRight > div.stdBoxContainer:nth-of-type(3) > div.item:nth-of-type(-n+4)
 izigsm.pl##.footerMedia a.mediaLink:nth-of-type(-n+2)
 izigsm.pl#?#div#marquee:-abp-has(> marquee > a[href*="facebook.com/izigsm"])
