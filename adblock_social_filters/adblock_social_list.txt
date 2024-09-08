@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.9.8.2
-! Last modified: Sun, 08 Sep 2024, 14:18 UTC+02:00
+! Version: 2024.9.8.3
+! Last modified: Sun, 08 Sep 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.9.8.2 aktualizacja: nie, 08 wrz 2024, 14:18 UTC+02:00
+! v.2024.9.8.3 aktualizacja: nie, 08 wrz 2024, 22:31 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2622,6 +2622,7 @@ dmtrade.pl#?#footer#footer nav > div > h3:-abp-has(+ .list-social)
 dnagdansk.com###facebookdna
 dnb.com##.hover--social-btn
 dns.pl##.follow-links > li:not([class*="rss" i])
+dns.pl##li[class^="follow-icon_"]:not([class*="rss"])
 do-kamienia.pl##.dolacz_do_nas
 do-kamienia.pl##a[href*="facebook.com/dokamienia"]
 doba.pl###column-startowa-three > .bar-header:nth-of-type(8)
