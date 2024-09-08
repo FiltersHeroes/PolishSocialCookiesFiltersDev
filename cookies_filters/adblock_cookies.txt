@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.9.8.0
-! Last modified: Sun, 08 Sep 2024, 13:24 UTC+02:00
+! Version: 2024.9.8.1
+! Last modified: Sun, 08 Sep 2024, 14:16 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,10 +19,10 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.9.8.0 aktualizacja: nie, 08 wrz 2024, 13:24 UTC+02:00
+! v.2024.9.8.1 aktualizacja: nie, 08 wrz 2024, 14:16 UTC+02:00
 !
 !
-! Specyficzne reguły ukrywające
+! Specyficzne filtry ukrywające
 1-st.com.pl,agrojd.com,agrospec.pl,arx.pl,aspel.com.pl,babysensepolska.pl,bikeman.pl,bosch.com.pl,comarch-esklep.pl,cudnydom.pl,e-oazakrakow.pl,elabrick24.pl,esklep.brandvital.eu,estetiq.pl,galerialazienek.pl,haczykowo.pl,kolorowymotylek.pl,kopalniasrebra.com,kran.tychy.pl,ksiegarniarubikon.pl,milopiwo.pl,nygus.pl,oftadirect.pl,ogrodekdziadunia.pl,papier24h.pl,papieryczerpane.pl,profesjonalne-nawadnianie.pl,selene.pl,sklep-narzedzia.pl,sklep.abydos.pl,sklep.agro-eko.com.pl,sklep.agromasz.pl,sklep.balcamp.pl,sklep.benedetto.com.pl,sklep.budowniczy.com.pl,sklep.centrumbhpwpp.eu,sklep.dalimex.pl,sklep.kotrak.com,sklep.kskd.pl,sklep.mebloart.eu,sklep.miodyapis.pl,sklep.phalanxgames.pl,sklep.rol-mech.pl,sklep.salvatti.pl,sklep.sigma-max.pl,sklep.stalco.pl,sklep.tayama.pl,spawalniczy-sklep.pl,swiatkoralikow.pl,swiatkoralikow2.pl,texasclub.pl,tvprodukt.pl,wierzynek.pl,workstyle.pl,wphmilitaria.pl#?#.footer > div[class*="config"][class*="Messages" i]:-abp-contains(/pliki "?cookies"?/)
 3dom.pro,anmur.eu,aoc.com,avenidapoznan.com,beezeeselfcare.pl,bibliotekacyfrowa.eu,bimobject.com,bip.gliwice.eu,budmat.com,canalplus.com,chorzow.eu,corab.eu,damy-rade.info,diamante-wear.com,digitalhome.co,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kler.eu,koszulkomat.eu,localmarket.no,maamstyle.com,mateuszgrzesiak.com,media-tech.eu,metal-bud.eu,mg-pmm.com,motogron.com,naszefutrzaki.eu,pkpcargo.com,prochnik.com,radiopark.fm,rocks-jeans.com,sapphiretech.com,secretdelivery.pl,stolmot.com,telko.in,trans.eu,trecnutrition.com,warszawa.promenada.com,wearmedicine.com,woopauto.com,yes2move.com##.cookies
 3mpolska.pl,bosch-professional.com,centrum24.pl,cisco.com,command.pl,e.huawei.com,lavazzacoffee.pl,post-it.pl,ups.com,vacansoleil.pl###__tealiumGDPRecModal
@@ -3128,7 +3128,7 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zyro.com##.zyro-cookies
 !
 !
-! Specyficzne reguły blokujące
+! Specyficzne filtry blokujące
 /ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info
 /assets/cookies-info.js$script,domain=allegrolokalnie.pl
 /cookie*/bosch-privacy-settings-*.min.js$script,domain=bosch-professional.com|bosch.pl
@@ -3288,7 +3288,7 @@ oetker.*/static/js/privacy-dialog/
 !
 !
 !
-! Ogólne reguły blokujące
+! Ogólne filtry blokujące
 /ajax/privacy_popup$xmlhttprequest,domain=pl
 /component-CookieConsent.$script,domain=pl
 /cookie-terms.
@@ -3333,7 +3333,7 @@ cookie-law-popup.js$domain=pl
 pl/tcf/cookie.js$script,domain=pl
 !
 !
-! Ogólne reguły ukrywające
+! Ogólne filtry ukrywające
 ###ciacho_bar:not(body):not(html)
 ###ciacho_inf:not(body):not(html)
 ###ciasteczka-komunikat:not(body):not(html)
@@ -4304,6 +4304,21 @@ tesa.com#@#div.cookie-notice
 uniabracka.pl#@##cookie-container
 uniabracka.pl#@#.cookie-window
 uptodown.com###cookiescript_injected_wrapper
+!
+!
+! Specyficzne filtry usuwające ABP
+!#if (ext_abp)
+bmw-motorrad.pl##.cookielayer { remove: true }
+cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,zgl.pl###popModal2 { remove: true }
+gemini.pl###modal-cookies, .vue-modal--privacy-policy { remove: true }
+jelenia.tv###rodoModal { remove: true }
+kaliber.pl###cookieModal { remove: true }
+mcdonalds.pl##body > .cookies { remove: true }
+pl.canalplus.com###modal-overlayer-cookie-banner { remove: true }
+polska6.pl###modal { remove: true }
+purepc.pl##.cookiesinfo { remove: true }
+rynek-turystyczny.pl###modal-rodo { remove: true }
+!#endif
 !
 !
 ! Wyjątki
