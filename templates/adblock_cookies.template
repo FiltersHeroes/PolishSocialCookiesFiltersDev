@@ -22,20 +22,20 @@
 ! v.@version aktualizacja: @localizedDT
 !
 !
-! Specyficzne reguły ukrywające
+! Specyficzne filtry ukrywające
 @include specyficzne_ukrywajace
 !
 !
-! Specyficzne reguły blokujące
+! Specyficzne filtry blokujące
 @include specyficzne_blokujace + specyficzne_blokujace_neutralizujace
 !
 !
 !
-! Ogólne reguły blokujące
+! Ogólne filtry blokujące
 @include ogolne_blokujace
 !
 !
-! Ogólne reguły ukrywające
+! Ogólne filtry ukrywające
 @include ogolne_ukrywajace
 !
 !
@@ -55,6 +55,12 @@ gg.pl#@#body > div:nth-of-type(2) > div
 ! Bugi ELC
 @include bugi_ELC_sieciowe
 @include bugi_ELC
+!
+!
+! Specyficzne filtry usuwające ABP
+!#if (ext_abp)
+@include specyficzne_ABP
+!#endif
 !
 !
 ! Wyjątki

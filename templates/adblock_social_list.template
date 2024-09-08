@@ -22,7 +22,7 @@
 !
 !
 !#safari_cb_affinity(social)
-! Popupy - ogólne reguły
+! Popupy - ogólne filtry
 @include popupy_ogolne_blokujace
 @include popupy_ogolne
 !
@@ -31,24 +31,30 @@
 @include popupy
 !
 !
-! Ogólne reguły blokujące
+! Ogólne filtry blokujące
 @include ogolne_blokujace
 !
 !
-! Ogólne reguły ukrywające
+! Ogólne filtry ukrywające
 @include ogolne_ukrywajace
 !
 !
-! Specyficzne reguły ukrywające
+! Specyficzne filtry ukrywające
 @include specyficzne_ukrywajace + widgety_kontaktowe
 !
 !
-! Specyficzne reguły blokujące
+! Specyficzne filtry blokujące
 @include specyficzne_blokujace + widgety_kontaktowe_sieciowe
 !
 !
-! Blokowanie elementów po zastosowaniu generichide
+! Ukrywanie elementów po zastosowaniu generichide
 @include generichide
+!
+!
+! Specyficzne filtry usuwające ABP
+!#if (ext_abp)
+@include specyficzne_ABP
+!#endif
 !
 !
 ! Bugi Fanboy's Social Blocking List
