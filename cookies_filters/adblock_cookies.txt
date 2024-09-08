@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.9.8.2
-! Last modified: Sun, 08 Sep 2024, 14:18 UTC+02:00
+! Version: 2024.9.8.3
+! Last modified: Sun, 08 Sep 2024, 22:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.9.8.2 aktualizacja: nie, 08 wrz 2024, 14:18 UTC+02:00
+! v.2024.9.8.3 aktualizacja: nie, 08 wrz 2024, 22:31 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -789,6 +789,7 @@ dlapilota.pl###gdpr-message-container
 dlawas.info,hegos.eu,pisanka.eu,sukcesja.eu,swietarodzina.eu,tagen.tv###cookiesEU-box
 dmtrade.pl,octagonshop.pl###kqs-box-tlo, #kqs-tlo
 dniwolne.eu###cookieWrapper
+dns.pl##.modal-mask:has(.dns-cookies)
 dobraenergia.ewe.pl##.popup-content
 dobrefinanse.co.uk##.gdpr-box
 dobregniazdka.pl,helukabel-sklep.pl,kablesklep.pl,luxmarket.pl###rodo_container
@@ -4133,7 +4134,7 @@ pl##iframe[class*="cookie"]
 pl##nav[class*="Cookie"]
 pl##nav[class*="cookie"]
 pl##p#XcookiInfo
-pl##span[class*="Cookie"]:not(.closeCookie)
+pl##span[class*="Cookie"]:not(.closeCookie):not([class*="CookiebotDialog"])
 !
 !
 ! Blokowanie elementów po zastosowaniu generichide
@@ -4368,7 +4369,7 @@ smsapi.pl#@##CybotCookiebotDialog:not(body):not(html)
 stilord.pl#@#.cookie-bar:not(body):not(html)
 uniabracka.pl#@##cookie-container:not(body):not(html)
 urbancity.pl#@##cookie-modal:not(body):not(html):not(.reveal)
-visa.pl#@#span[class*="Cookie"]:not(.closeCookie)
+visa.pl#@#span[class*="Cookie"]:not(.closeCookie):not([class*="CookiebotDialog"])
 wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 !@@||consensu.$domain=fly4free.pl
 !@@||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=gry.pl
