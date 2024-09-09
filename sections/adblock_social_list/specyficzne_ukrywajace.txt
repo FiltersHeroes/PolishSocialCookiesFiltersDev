@@ -1,3 +1,17 @@
+store.google.com##footer a[href*="facebook.com/"]
+store.google.com##footer a[href*="instagram.com/"]
+store.google.com##footer a[href*="youtube.com/"]
+store.google.com##footer a[href*="twitter.com/"]
+store.google.com##footer a[href*="tiktok.com/"]
+google.com##.chr-footer__social
+google.pl##.chr-footer__social
+komputerswiat.pl##li.ods-c-share__li:has(a[href*=".com/"]:not([href*="mailto:"]))
+komputerswiat.pl##.ods-c-one-author-rich__social-profiles a
+komputerswiat.pl##.ods-c-footer__social a[href*="com/"]
+kielce.eu##.social.navbar-nav
+gangprodukciakow.pl##.social-media > ul
+gangprodukciakow.pl#?#.footer_section header:has-text(Obserwuj nas)
+gangprodukciakow.pl##.footer_section header + ul li:has(a[href*=".com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="facebook.com/"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="instagram.com/"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="tiktok.com/"]
@@ -1579,8 +1593,8 @@ dagrasso.pl##footer > a[href="#"]:first-of-type
 dailyvibes.pl#?#.font_2 > span > span > span:-abp-contains(nas:)
 dailyweb.pl##.footer-author-social-media
 dailyweb.pl##.social-media.footer-column > :not(.create-by)
-dajar.pl###__next #__app__ > div > div > div > div > div > div:has(> h3:has-text(Instagram))
-dajar.pl###__next #__app__ > div > div > div > div > div > div:has(> h3:has-text(Instagram)) + div
+dajar.pl#?##__next #__app__ > div > div > div > div > div > div:has(> h3:has-text(Instagram))
+dajar.pl#?##__next #__app__ > div > div > div > div > div > div:has(> h3:has-text(Instagram)) + div
 dajar.pl###footer a[href*="pinterest.com/"]
 dajar.pl,epaka.pl,mas-sport.pl,pizzahut.pl,szukajwarchiwach.gov.pl,vivus.pl###footer a[href*="facebook.com/"]
 dajar.pl,monitoring-system.pl##.yt-icon
