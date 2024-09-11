@@ -359,6 +359,9 @@ hm.com##.modaloverlay:has(#gdpr-modal)
 holdentalesklep.eu,skitenis.pl,tureckisklep.pl##.fancybox-lock, .fancybox-lock body:style(overflow: auto !important)
 holdentalesklep.eu,skitenis.pl,tureckisklep.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#conditions_condition button.acceptCondition)
 hopea.eu##+js(set-cookie, rodo_popup, OK)
+horecanet.pl###gdpr-popup.gdprmodal
+horecanet.pl###gdpr-popup.gdprmodal:remove()
+horecanet.pl##.gdprmodal-open:style(overflow-y: auto !important)
 horecatrends.pl##.windowOpen:style(position: static !important; overflow: auto !important)
 hortico.pl###rodonfo
 hotelpiast.slupsk.pl,sleza-olawa.pl,tuzdrowie.pl,www.gbl.waw.pl###popupModal, .modal-backdrop
@@ -575,7 +578,7 @@ paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
 pdf24.org##html.hasCookieBannerOverlay:style(overflow: auto !important)
 pdf24.org##iframe#cookieBannerOverlay
 pepper.pl##.zIndex--modal[class^="popover"]:empty
-pepper.pl##.zIndex--modal[class^="popover"][class*="bottom"]
+pepper.pl##.zIndex--modal[class^="popover"][class*="bottom"]:has(.oreo-message-emoticon)
 pepper.pl##body.overflow--hidden:style(overflow-y: auto !important)
 perfumesclub.pl###modalPreferenciaCookies, .modal-backdrop
 petycjeonline.com###cookie_consent_modal, .modal-backdrop
