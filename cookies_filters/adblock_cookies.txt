@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.9.9.1
-! Last modified: Mon, 09 Sep 2024, 22:31 UTC+02:00
+! Version: 2024.9.11.0
+! Last modified: Wed, 11 Sep 2024, 18:31 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.9.9.1 aktualizacja: pon, 09 wrz 2024, 22:31 UTC+02:00
+! v.2024.9.11.0 aktualizacja: śro, 11 wrz 2024, 18:31 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -117,7 +117,7 @@ aerlingus.com#?#.bg-tealGreen-opacity:-abp-has(#cookie-desc)
 aero7.pl,icube.pl,loveair.pl,lovecoffee.pl###ci-rodo
 aeropartner.pl,fors.pl,pks.zary.pl,webelite.pl###infobar
 afkjourney.farlightgames.com##.lh-cookie
-aforyzmy-cytaty.pl,agencjacentrum.pl,alfianco.pl,atut.glogow.pl,avioner.pl,baza-krs.pl,bip.lsi.net.pl,carq.pl,czerkawski.com.pl,doniczki-poznan.pl,hotfrog.pl,hotpay.pl,kalkulator-so.pl,koraliki.pl,kupbilet.pl,kzkgop.com.pl,life.wigry.org.pl,luczak.pl,markoweszyby.pl,microhost.pl,moja-grecja.pl,nck.gov.pl,ogloszeniachojnice.com,playtube.pl,postrabbit.pl,r-gol.com,rj.metropoliaztm.pl,sgpm.krakow.pl,swiat-czekolady.com.pl,upolujebooka.pl,xerima.com.pl,zaufanekliniki.pl,zawady.com.pl,zawady19.pl#?#.alert:-abp-contains(cookie)
+aforyzmy-cytaty.pl,agencjacentrum.pl,alfianco.pl,atut.glogow.pl,avioner.pl,baza-krs.pl,bip.lsi.net.pl,carq.pl,czerkawski.com.pl,doniczki-poznan.pl,hotfrog.pl,hotpay.pl,kalkulator-so.pl,koraliki.pl,kupbilet.pl,life.wigry.org.pl,luczak.pl,markoweszyby.pl,microhost.pl,moja-grecja.pl,nck.gov.pl,ogloszeniachojnice.com,playtube.pl,postrabbit.pl,r-gol.com,rj.metropoliaztm.pl,sgpm.krakow.pl,swiat-czekolady.com.pl,upolujebooka.pl,xerima.com.pl,zaufanekliniki.pl,zawady.com.pl,zawady19.pl#?#.alert:-abp-contains(cookie)
 afryka.org##body > div[style="background: #911515;"]:first-of-type
 aftermarket.pl###part-cookies
 ag-complex.com.pl##.cookie__window
@@ -317,7 +317,7 @@ babytvchannel.info###cookieStandart
 bacca.pl###CookieLawInfoPlugin
 badaniaprenatalne.pl###stb-14718
 badoo.com###page-cookie-notification
-bajeczki.org,bezpieczny.blog,bieszczady.pro,darmowekontobankowe.org,dobremiejsce.org,dojczland.info,domjozefa.tv,doradztwoprawne.org,e-niemcy.de,ekocykl.org,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,expertum.de,farmacja.net,filmowo.co,fonpizza.pl,fundacjawolnosci.org,icelandnews.is,itvwisla.tv,kamery.live,kamienskie.info,katowice24.info,kooperation-ohne-grenzen.de,kropka.audio,lipnik.org,lowiczanin.info,lwowecki.info,niniwa.org,opinie.co,pink.land,pomozity.org,rankingkont.org,rolland.tech,roztocze.net,sekrety-zdrowia.org,wifi-spot.net,wiskitki.org,wnet.fm,wringu.net,wwl24.info,zkaszub.info###cookie-notice
+bajeczki.org,bezpieczny.blog,bieszczady.pro,darmowekontobankowe.org,dobremiejsce.org,dojczland.info,domjozefa.tv,doradztwoprawne.org,e-niemcy.de,ekocykl.org,ekspedyt.org,emisja.tv,etychy.org,eurowizja.org,expertum.de,farmacja.net,fonpizza.pl,fundacjawolnosci.org,icelandnews.is,itvwisla.tv,kamery.live,kamienskie.info,katowice24.info,kooperation-ohne-grenzen.de,kropka.audio,lipnik.org,lowiczanin.info,lwowecki.info,niniwa.org,opinie.co,pink.land,pomozity.org,rankingkont.org,rolland.tech,roztocze.net,sekrety-zdrowia.org,wifi-spot.net,wiskitki.org,wnet.fm,wwl24.info,zkaszub.info###cookie-notice
 bajery.net###STOPKA_INFO
 bajkowakraina.tvp.pl##.modalDialog
 bajt.lca.pl###popup_container
@@ -593,7 +593,6 @@ cea-art.pl##.bs-gdpr-law
 cechradomsko.pl,meblegal.com.pl##.email-signup-fixed
 centrum-apteka.pl##.notice_bar
 centrum-kore.pl###moove_gdpr_cookie_modal
-centrum-marino.com,optegra.com.pl,wroclaw.pl###cookie_zgoda
 centrum.potrafiepomoc.org.pl##section.mojeCookiesSection
 centrumdobrejterapii.pl##.bottom-cookie-info
 centrumklima.pl###cookieCKdiv
@@ -1629,7 +1628,6 @@ kreskoweczki.pl###rodo-block
 krn.org.pl##.clsCookieInfo
 krokdozdrowia.com##.mrf-cmp
 krolewskie.pl#?##app > .swiper-container > section.wrapper:-abp-has(> div.content > span.text > a[href*="/polityka-cookies"] ~ a[href*="/polityka-prywatnosci"] ~ a[href="#cookie-settings"])
-kropleinternetu.biz###cooc_container
 krotoszynska.pl,ppe.pl,terazmuzyka.pl###rodo-overlay
 krsystem.pl###cook_cover
 krwinka.org,optimalg.com###info_cookie
@@ -1874,7 +1872,7 @@ meteovista.pl###info-bar-content
 metis.pl###wndCookies
 metropoliagzm.pl,testhub.pl##.sh-page-notice
 metropoliaztm.pl##a[data-target="#cookieModalCenter"]
-mettosport.eu,podemski.info,prze.eu,rallypl.com,skawina.eu,spidersweb.pl,vanessa.fm###moove_gdpr_cookie_info_bar
+mettosport.eu,podemski.info,rallypl.com,skawina.eu,spidersweb.pl,vanessa.fm###moove_gdpr_cookie_info_bar
 mevspace.com##.cookie-overlayer
 mggp.com.pl##.navbar-inverse, .navbar.navbar-fixed-bottom
 mi.com##.J_agreeCookieModal, .top-notify
@@ -2068,7 +2066,6 @@ northouse.pl##.conditions-accept
 norwegian.com#?#.alert:-abp-has(.cookie-disclaimer)
 notino.pl###exponea-cookie-compliance
 notus.pl###bancook
-nova-farm.com##.cookie_consent
 nowa.tv###mpc_cookie_intro
 noweinwestycje.pl##.js-cookies-notification, .b-cookies-notification
 noweprzetargi.pl###dcach, #txt
@@ -2150,6 +2147,7 @@ opony.rezulteo.pl##rz-accept-cookies
 opowiecie.info###spu-95603, #spu-bg-95603
 opp-ostrow.pl##.topper-notice
 ops.pilchowice.pl##.btnh
+optegra.com.pl,wroclaw.pl###cookie_zgoda
 optima.szkola.pl###rvshowcookies
 optomer.pl###GDPRInformationModal
 optyczne.pl###id01
@@ -3327,7 +3325,6 @@ oetker.*/static/js/privacy-dialog/
 ||cmp.optad360.io^$domain=~cmp.optad360.io
 ||cookieform.pl/assets/js/plugin.js$third-party
 ||hokuspokus.pl/themes/webtheme/js/whrodo.js
-||skryptcookies.pl/cookie.js$script
 ||smart.idmnet.pl/consent/
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pl
 cookie-law-popup.js$domain=pl
