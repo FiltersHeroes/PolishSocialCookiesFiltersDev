@@ -12,17 +12,37 @@ on:
       - "*"
 
 jobs:
-  Aktualizacja:
+  RTM:
     runs-on: ubuntu-latest
     container: ghcr.io/filtersheroes/rtm_image:3.0.17
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/create-github-app-token@v1
+        id: pr-token
+        with:
+          app-id: 995167
+          private-key: ${{ secrets.PR_HELPER_KEY }}
+          owner: "PolishRoboDogHouse"
+          repositories: "polish-ads-filter"
       - env:
-          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
-          GH_TOKEN: ${{ secrets.PR_TOKEN }}
+          GIT_TOKEN: ${{ steps.pr-token.outputs.token }}
+          GH_TOKEN: ${{ steps.pr-token.outputs.token }}
           RTM_PR_MESSAGE: ${{ github.event.inputs.rtm_pr_message }}
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           ./scripts/MAKE_RTM.sh
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: 994739
+          private-key: ${{ secrets.PRIVATE_APP_HELPER_KEY }}
+          owner:  ${{ github.repository_owner }}
+          repositories: "PolishAnnoyanceFilters"
+      - env:
+          GIT_TOKEN: ${{ steps.app-token.outputs.token }}
+          RTM_PR_MESSAGE: ${{ github.event.inputs.rtm_pr_message }}
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          ./scripts/AFTER_RTM.sh

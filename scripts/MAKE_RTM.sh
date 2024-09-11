@@ -57,13 +57,6 @@ if [ "$CI" = "true" ]; then
     git clean -xdf
     echo "Wysyłanie PR..."
     gh pr create -B master -H PolishRoboDogHouse:RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$RTM_PR_MESSAGE"
-    cd ..
-    if [ "$CIRCLECI" = "true" ]; then
-        git clone git@github.com:FiltersHeroes/PolishAnnoyanceFilters.git
-    else
-        git clone https://github.com/FiltersHeroes/PolishAnnoyanceFilters.git
-    fi
-    cd ./PolishAnnoyanceFilters || exit
 else
     echo "Czy chcesz teraz wysłać PR do upstream?"
     select yn in "Tak" "Nie"; do
@@ -72,12 +65,9 @@ else
             printf "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): "
             read -r roz_opis
             gh pr create -B master -H RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "${roz_opis}"
-            cd ../PolishAnnoyanceFilters || exit
             break
             ;;
         Nie) break ;;
         esac
     done
 fi
-
-SFLB.py PAF_supp.txt PPB.txt
