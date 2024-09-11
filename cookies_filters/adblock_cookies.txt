@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.9.11.0
-! Last modified: Wed, 11 Sep 2024, 18:31 UTC+02:00
+! Version: 2024.9.11.1
+! Last modified: Wed, 11 Sep 2024, 22:44 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.9.11.0 aktualizacja: śro, 11 wrz 2024, 18:31 UTC+02:00
+! v.2024.9.11.1 aktualizacja: śro, 11 wrz 2024, 22:44 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4287,6 +4287,13 @@ entra.pl,grupabiwakowa.pl,nowymarketing.pl#@##cmplz-cookiebanner-container
 entra.pl,grupabiwakowa.pl,nowymarketing.pl#@##cmplz-manage-consent
 entra.pl,grupabiwakowa.pl,nowymarketing.pl#@#.cookie-statement
 grupapsb.com.pl#@#.cookies-footer
+horecanet.pl#@##gdpr-cookie-consent-bar
+horecanet.pl#@##gdpr-popup
+horecanet.pl#@#.gdpr-popup
+horecanet.pl#@#.gdprfade
+horecanet.pl#@#.gdprmodal
+horecanet.pl#@#.gdprmodal-backdrop
+horecanet.pl#@#div.gdpr
 iglotex.pl#@##cookie-info
 kakto.pl,pl#@#div.cookie-message
 morele.net#@##cookie-consent
@@ -4309,6 +4316,7 @@ uptodown.com###cookiescript_injected_wrapper
 bmw-motorrad.pl##.cookielayer { remove: true }
 cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,zgl.pl###popModal2 { remove: true }
 gemini.pl###modal-cookies, .vue-modal--privacy-policy { remove: true }
+horecanet.pl###gdpr-popup.gdprmodal { remove: true }
 jelenia.tv###rodoModal { remove: true }
 kaliber.pl###cookieModal { remove: true }
 mcdonalds.pl##body > .cookies { remove: true }
