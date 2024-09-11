@@ -52,11 +52,13 @@ if [ ! "$RTM_PR_MESSAGE" ]; then
     RTM_PR_MESSAGE=$(shuf -n 1 ./scripts/wiadomosci_powitalne.txt)
 fi
 
+RTM_PR_TITLE="Update $lista ($today_date)"
+
 # Wysyłanie PR do upstream
 if [ "$CI" = "true" ]; then
     git clean -xdf
     echo "Wysyłanie PR..."
-    gh pr create -B master -H PolishRoboDogHouse:RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "$RTM_PR_MESSAGE"
+    python3 "$SCRIPT_PATH/MAKE_RTM_PR.py" --body="$RTM_PR_TITLE" --title="$RTM_PR_MESSAGE"
 else
     echo "Czy chcesz teraz wysłać PR do upstream?"
     select yn in "Tak" "Nie"; do
@@ -64,7 +66,7 @@ else
         Tak)
             printf "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): "
             read -r roz_opis
-            gh pr create -B master -H RTM -R MajkiIT/polish-ads-filter --title "Update $lista ($today_date)" --body "${roz_opis}"
+            python3 "$SCRIPT_PATH/MAKE_RTM_PR.py" --body="$RTM_PR_TITLE" --title="$roz_opis"
             break
             ;;
         Nie) break ;;

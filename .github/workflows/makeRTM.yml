@@ -17,8 +17,11 @@ jobs:
     container: ghcr.io/filtersheroes/rtm_image:3.0.17
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/create-github-app-token@v1
         id: pr-token
         with:
@@ -28,7 +31,7 @@ jobs:
           repositories: "polish-ads-filter"
       - env:
           GIT_TOKEN: ${{ steps.pr-token.outputs.token }}
-          GH_TOKEN: ${{ steps.pr-token.outputs.token }}
+          PR_TOKEN:  ${{ secrets.PR_TOKEN }}
           RTM_PR_MESSAGE: ${{ github.event.inputs.rtm_pr_message }}
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
