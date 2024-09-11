@@ -540,7 +540,7 @@ paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
 pdf24.org##html.hasCookieBannerOverlay:style(overflow: auto !important)
 pdf24.org##iframe#cookieBannerOverlay
 pepper.pl##.zIndex--modal[class^="popover"]:empty
-pepper.pl##.zIndex--modal[class^="popover"][class*="bottom"]
+pepper.pl##.zIndex--modal[class^="popover"][class*="bottom"]:has(.oreo-message-emoticon)
 pepper.pl##body.overflow--hidden:style(overflow-y: auto !important)
 perfumesclub.pl###modalPreferenciaCookies, .modal-backdrop
 petycjeonline.com###cookie_consent_modal, .modal-backdrop
