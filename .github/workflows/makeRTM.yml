@@ -35,7 +35,7 @@ jobs:
           RTM_PR_MESSAGE: ${{ github.event.inputs.rtm_pr_message }}
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          ./scripts/MAKE_RTM.sh
+          ./scripts/MAKE_RTM.py
       - uses: actions/create-github-app-token@v1
         id: app-token
         with:
@@ -45,7 +45,6 @@ jobs:
           repositories: "PolishAnnoyanceFilters"
       - env:
           GIT_TOKEN: ${{ steps.app-token.outputs.token }}
-          RTM_PR_MESSAGE: ${{ github.event.inputs.rtm_pr_message }}
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           ./scripts/AFTER_RTM.sh
