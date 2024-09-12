@@ -9,6 +9,7 @@
 #
 import os
 import random
+import urllib.parse
 from tempfile import NamedTemporaryFile
 from datetime import datetime
 import git
@@ -31,6 +32,14 @@ git_repo = git.Repo(os.path.dirname(os.path.realpath(
 
 FORKED_REPO = "PolishRoboDogHouse/polish-ads-filter.git"
 
+SFLB_path = pn(main_path+"/../ScriptsPlayground/scripts/SFLB.py")
+if "CI" in os.environ:
+    SFLB_path = "/usr/bin/SFLB.py"
+spec = importlib.util.spec_from_file_location(
+    "SFLB", SFLB_path)
+SFLB = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(SFLB)
+
 if "CI" in os.environ and "git_repo" in locals():
     conf = SFLB.getValuesFromConf([config_path])
     with git_repo.config_writer() as cw:
@@ -44,11 +53,12 @@ if "CI" in os.environ:
         url = cr.get_value('remote "origin"', 'url')
         if url.startswith('http'):
             git.Repo.clone_from(
-                f"https://github.com/{FORKED_REPO}", pn(pj(os.getcwd(), "KADhosts")), branch="RTM", single_branch=True)
+                f"https://github.com/{FORKED_REPO}", pn(pj(os.getcwd(), "polish-ads-filter")), branch="RTM", single_branch=True)
         else:
             git.Repo.clone_from(
-                f"git@github.com:{FORKED_REPO}", pn(pj(os.getcwd(), "KADhosts")), branch="RTM", single_branch=True)
+                f"git@github.com:{FORKED_REPO}", pn(pj(os.getcwd(), "polish-ads-filter")), branch="RTM", single_branch=True)
 
+os.chdir(pn(main_path+"/.."))
 forked_repo_path = pn(pj(os.getcwd(), "polish-ads-filter"))
 shutil.copytree(pj(main_path, "sections"), pj(
     forked_repo_path, "sections"),  dirs_exist_ok=True)
@@ -65,13 +75,6 @@ os.chdir(forked_repo_path)
 os.environ["RTM"] = "true"
 os.environ["NO_RM_SFLB_CHANGED_FILES"] = "true"
 
-SFLB_path = pn(main_path+"/../ScriptsPlayground/scripts/SFLB.py")
-if "CI" in os.environ:
-    SFLB_path = "/usr/bin/SFLB.py"
-spec = importlib.util.spec_from_file_location(
-    "SFLB", SFLB_path)
-SFLB = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(SFLB)
 
 FILTERLISTS = [pj(forked_repo_path, "cookies_filters", "cookies_uB_AG.txt"), pj(forked_repo_path, "cookies_filters", "adblock_cookies.txt"), pj(
     forked_repo_path,  "adblock_social_filters", "social_filters_uB_AG.txt"), pj(forked_repo_path, "adblock_social_filters", "adblock_social_list.txt")]
@@ -134,19 +137,22 @@ RTM_PR_TITLE = f"Update {updated_filterlists_combined} ({today.year}{
     today.month:02d}{today.day:02d})"
 
 # Wysyłanie PR do upstream
-if "CI" in os.environ:
-    forked_git.clean('-xdf')
-    print("Wysyłanie PR...")
-    auth = Auth.Token(os.environ["PR_TOKEN"])
-    g = Github(auth=auth)
-    repo = g.get_repo("MajkiIT/polish-ads-filter")
-    pr = repo.create_pull(base="master", head="PolishRoboDogHouse:RTM",
-                          title=RTM_PR_TITLE, body=os.environ["RTM_PR_MESSAGE"])
-    print(f"https://github.com/MajkiIT/polish-ads-filter/pull/{pr.number}")
-else:
-    user_input = input("Czy chcesz teraz wysłać PR do upstream? (tak/nie)")
-    if user_input.lower() in ["tak", "t"]:
-        extended_desc = input(
-            "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): ")
-        subprocess.run(["gh", "pr", "create", "-B", "master", "-H", "RTM", "-R",
-                       "MajkiIT/polish-ads-filter", "--title", RTM_PR_TITLE, "--body", extended_desc])
+forked_git.clean('-xdf')
+print("Teraz otwórz następujący adres w przeglądarce, by wysłać PR:")
+print(f"https://github.com/MajkiIT/polish-ads-filter/compare/master...PolishRoboDogHouse:polish-ads-filter:RTM?expand=1&title={urllib.parse.quote(RTM_PR_TITLE)}")
+
+# if "CI" in os.environ:
+#     print("Wysyłanie PR...")
+#     auth = Auth.Token(os.environ["PR_TOKEN"])
+#     g = Github(auth=auth)
+#     repo = g.get_repo("MajkiIT/polish-ads-filter")
+#     pr = repo.create_pull(base="master", head="PolishRoboDogHouse:RTM",
+#                           title=RTM_PR_TITLE, body=os.environ["RTM_PR_MESSAGE"])
+#     print(f"https://github.com/MajkiIT/polish-ads-filter/pull/{pr.number}")
+# else:
+#     user_input = input("Czy chcesz teraz wysłać PR do upstream? (tak/nie)")
+#     if user_input.lower() in ["tak", "t"]:
+#         extended_desc = input(
+#             "Podaj rozszerzony opis PR, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): ")
+#         subprocess.run(["gh", "pr", "create", "-B", "master", "-H", "RTM", "-R",
+#                        "MajkiIT/polish-ads-filter", "--title", RTM_PR_TITLE, "--body", extended_desc])

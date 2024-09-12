@@ -1,12 +1,7 @@
 name: "Publikowanie wersji RTM"
 
 on:
-  workflow_dispatch:
-    inputs:
-      rtm_pr_message:
-        description: 'Wiadomość do PR'
-        required: true
-        default: "Witam szanownych panów!"
+  workflow_dispatch: null
   push:
     tags:
       - "*"
@@ -17,21 +12,19 @@ jobs:
     container: ghcr.io/filtersheroes/rtm_image:3.0.17
     permissions:
       contents: write
-      pull-requests: write
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+          fetch-depth: 0
       - uses: actions/create-github-app-token@v1
         id: pr-token
         with:
           app-id: 995167
           private-key: ${{ secrets.PR_HELPER_KEY }}
           owner: "PolishRoboDogHouse"
-          repositories: "polish-ads-filter"
       - env:
           GIT_TOKEN: ${{ steps.pr-token.outputs.token }}
-          PR_TOKEN:  ${{ secrets.PR_TOKEN }}
           RTM_PR_MESSAGE: ${{ github.event.inputs.rtm_pr_message }}
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
