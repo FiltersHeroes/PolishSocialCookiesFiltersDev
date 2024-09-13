@@ -40,4 +40,4 @@ jobs:
           GIT_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          ./scripts/AFTER_RTM.sh
+          ./scripts/AFTER_RTM.py

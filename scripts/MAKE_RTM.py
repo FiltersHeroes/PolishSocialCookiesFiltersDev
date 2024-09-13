@@ -12,9 +12,9 @@ import random
 import urllib.parse
 from tempfile import NamedTemporaryFile
 from datetime import datetime
-import git
 import shutil
 import importlib.util
+import git
 from github import Auth
 from github import Github
 from github import GithubIntegration
@@ -128,7 +128,7 @@ with open(SFLB_CHANGED_FILES_FILE, "r", encoding='utf-8') as sflb_changed_conten
             updated_filterlists.append("🍪")
 
 if not "RTM_PR_MESSAGE" in os.environ:
-    with open(pj(forked_repo_path, "scripts", "wiadomosci_powitalne.txt"), "r") as f:
+    with open(pj(forked_repo_path, "scripts", "wiadomosci_powitalne.txt"), "r", encoding="utf-8") as f:
         lines = f.readlines()
         os.environ["RTM_PR_MESSAGE"] = random.choice(lines)
 
