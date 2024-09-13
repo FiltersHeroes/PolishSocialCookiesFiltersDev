@@ -45,7 +45,7 @@ SFLB = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(SFLB)
 
 
-FILTERLISTS = [pj(PAF_path, "PAF_supp.txt"), pj(PAF_path, "PAF_supp.txt")]
+FILTERLISTS = [pj(PAF_path, "PAF_supp.txt"), pj(PAF_path, "PPB.txt")]
 
 SFLB.main(FILTERLISTS, "", "true")
 SFLB.doItAgainIfNeed(FILTERLISTS)
