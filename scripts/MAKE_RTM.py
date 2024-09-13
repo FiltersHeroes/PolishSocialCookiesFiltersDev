@@ -93,7 +93,7 @@ else:
     last_update_date = social_last_update_date
 
 git = git_repo.git
-commit_authors_combined = git.log('--pretty=%an <%ae>', '--after', last_update_date)
+commit_authors_combined = git.log('--pretty=%an <%ae>', '--after', last_update_date, "sections")
 commit_authors = sorted(set(commit_authors_combined.splitlines()))
 commit_desc = ""
 
@@ -112,6 +112,7 @@ with open(pj(forked_repo_path, ".SFLB.config"), "r", encoding='utf-8') as forked
 os.replace(f_out.name, pj(forked_repo_path, ".SFLB.config"))
 
 SFLB.main(FILTERLISTS, "", "true")
+SFLB.doItAgainIfNeed(FILTERLISTS)
 SFLB.push(FILTERLISTS)
 
 SFLB_CHANGED_FILES_FILE = pj(
