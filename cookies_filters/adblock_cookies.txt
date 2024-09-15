@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.9.11.1
-! Last modified: Wed, 11 Sep 2024, 22:44 UTC+02:00
+! Version: 2024.9.15.0
+! Last modified: Sun, 15 Sep 2024, 22:28 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.9.11.1 aktualizacja: śro, 11 wrz 2024, 22:44 UTC+02:00
+! v.2024.9.15.0 aktualizacja: nie, 15 wrz 2024, 22:28 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -2423,6 +2423,7 @@ prgm.pl###Layer25
 prgok.pl###top_i
 pricelesso.pl###popUp2, .mask
 prideshop.pl,queer.pl##.box-rodo
+primulator.pl###CookieInfoFooter.cookieInfoFooter
 prk24.pl##.rk-cookie-overlay
 profilki.pl#?#div.centering.tile:-abp-has(img[src="/img/lay/maskotka_ciastko.png"])
 profkos.pl##.module-header_notice
@@ -3003,6 +3004,7 @@ webartis.pl##body > div[style*="background-color:"]:not([id]):not([class])
 webdev20.pl###top_message
 webmade.org###wp-cookies-icon
 webprojekt.biz###ppc
+webwavecms.com###screen_popup_wrapper
 weekendfm.pl##.rodo_out
 wegetarianie.pl##td[align="center"][height="22"]
 weidemann.de###tx_shortcutscookiedisclaimer
@@ -4309,6 +4311,7 @@ tesa.com#@#div.cookie-notice
 uniabracka.pl#@##cookie-container
 uniabracka.pl#@#.cookie-window
 uptodown.com###cookiescript_injected_wrapper
+zus.pl#@#div.cookie-consent-modal
 !
 !
 ! Specyficzne filtry usuwające ABP
@@ -4330,7 +4333,7 @@ rynek-turystyczny.pl###modal-rodo { remove: true }
 ! Wyjątki
 allecco.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,swiatleku.pl,zikodermo.pl#@#.cookies-popup:not(body):not(html)
 allecco.pl,dlapacjenta.pl,e-zikoapteka.pl,mcdonalds.pl,zikodermo.pl#@#.cookies-info:not(body):not(html)
-allegro.pl,pikio.pl,sklep.winkhaus.pl#@#[class*="cookie-policy"]:not(body):not(html)
+allegro.pl,pikio.pl,sklep.winkhaus.pl,zus.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bgk.pl#@#.cc-revoke:not(body):not(html)
 bgk.pl,dkms.pl,meiko.pl#@#.cc-window[aria-label*="consent"]:not(body):not(html)
 biblioteka.wroc.pl#@#.cookie-notice-container:not(body):not(html)
