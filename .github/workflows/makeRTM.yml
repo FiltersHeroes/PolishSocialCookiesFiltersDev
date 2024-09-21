@@ -22,7 +22,7 @@ jobs:
         with:
           app-id: 995167
           private-key: ${{ secrets.PR_HELPER_KEY }}
-          owner: "PolishRoboDogHouse"
+          owner: "FiltersHeroesSpecialProjects"
       - env:
           GIT_TOKEN: ${{ steps.pr-token.outputs.token }}
           RTM_PR_MESSAGE: ${{ github.event.inputs.rtm_pr_message }}

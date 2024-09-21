@@ -30,7 +30,7 @@ os.chdir(pn(main_path+"/.."))
 git_repo = git.Repo(os.path.dirname(os.path.realpath(
     config_path)), search_parent_directories=True)
 
-FORKED_REPO = "PolishRoboDogHouse/polish-ads-filter.git"
+FORKED_REPO = "FiltersHeroesSpecialProjects/polish-ads-filter.git"
 
 SFLB_path = pn(main_path+"/../ScriptsPlayground/scripts/SFLB.py")
 if "CI" in os.environ:
@@ -140,14 +140,14 @@ RTM_PR_TITLE = f"Update {updated_filterlists_combined} ({today.year}{
 # Wysyłanie PR do upstream
 forked_git.clean('-xdf')
 print("Teraz otwórz następujący adres w przeglądarce, by wysłać PR:")
-print(f"https://github.com/MajkiIT/polish-ads-filter/compare/master...PolishRoboDogHouse:polish-ads-filter:RTM?expand=1&title={urllib.parse.quote(RTM_PR_TITLE)}")
+print(f"https://github.com/MajkiIT/polish-ads-filter/compare/master...FiltersHeroesSpecialProjects:polish-ads-filter:RTM?expand=1&title={urllib.parse.quote(RTM_PR_TITLE)}")
 
 # if "CI" in os.environ:
 #     print("Wysyłanie PR...")
 #     auth = Auth.Token(os.environ["PR_TOKEN"])
 #     g = Github(auth=auth)
 #     repo = g.get_repo("MajkiIT/polish-ads-filter")
-#     pr = repo.create_pull(base="master", head="PolishRoboDogHouse:RTM",
+#     pr = repo.create_pull(base="master", head="FiltersHeroesSpecialProjects:RTM",
 #                           title=RTM_PR_TITLE, body=os.environ["RTM_PR_MESSAGE"])
 #     print(f"https://github.com/MajkiIT/polish-ads-filter/pull/{pr.number}")
 # else:
