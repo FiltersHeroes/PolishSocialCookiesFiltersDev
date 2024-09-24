@@ -103,9 +103,9 @@
 ~pl###kopageBarCookies:lang(pl)
 ~pl###x13eucookies-icon:lang(pl)
 ~pl##body > div#cookie[class=""]
-~pl##body:not([class*="cookie-overflow"]) div[id][class*="iai_cookie"]:lang(pl)
-~pl##body:not([class*="cookie-overflow"]) div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
-~pl##body:not([class*="cookie-overflow"]) div[id^="iai_cookie"][class*="iai_cookie"]:lang(pl)
+~pl##body:not([class*="cookie-overflow"]):not([class*="freeze_bcg"]) div[id][class*="iai_cookie"]:lang(pl)
+~pl##body:not([class*="cookie-overflow"]):not([class*="freeze_bcg"]) div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
+~pl##body:not([class*="cookie-overflow"]):not([class*="freeze_bcg"]) div[id^="iai_cookie"][class*="iai_cookie"]:lang(pl)
 ~pl##body:not([class*="cookie-overflow"]):not([class*="freeze_bcg"]) #ck_dsclr:lang(pl)
 ~pl##html:not(.x13eucookies-block) body:not(.x13eucookies-block) .x13eucookies:lang(pl)
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
