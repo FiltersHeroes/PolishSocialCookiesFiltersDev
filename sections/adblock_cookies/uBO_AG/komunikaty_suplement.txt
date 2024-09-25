@@ -1,5 +1,4 @@
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
-pl.factcool.com##+js(set-cookie, cookieconsent_dismissed, yes)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important)
 17bankow.com,5mindlazdrowia.pl,abczdrowie.pl,allani.pl,audioteka.com,autocentrum.pl,autokult.pl,benchmark.pl,deliciousmagazine.pl,dobreprogramy.pl,domodi.pl,easygo.pl,extradom.pl,finansowysupermarket.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,homebook.pl,jastrzabpost.pl,kafeteria.pl,kafeteria.tv,kazimierzdolny.pl,komorkomania.pl,money.pl,nauka.rocks,nerwica.com,nocowanie.pl,o2.pl,open.fm,parenting.pl,polygamia.pl,pudelek.pl,pudelek.tv,pysznosci.pl,smaczneblogi.pl,so-magazyn.pl,superauto.pl,testwiedzy.pl,totalmoney.pl,vibez.pl,vpolshchi.pl,wakacje.pl,wp.pl##body > div > div:empty:matches-css(after, content: /K/) ~ div > svg:upward(2)
@@ -161,8 +160,8 @@ citibank.pl##.ScrollLock:style(overflow: auto !important)
 claas.pl##.fancybox-lock:style(overflow: auto !important;margin-right: 0 !important)
 claas.pl##.fancybox-overlay:has(.cookieHint)
 club.galilea.com.pl###welcome, .modal-backdrop
-cobbo.pl,gastroprofit.pl,help4skin.pl,lovekrakow.pl,maniasmaku.pl,mediccentre.pl,medicshop.pl,mrgugu.com,pakomat.pl,panwybierak.pl,petrostar.pl,podravka.pl,readspeaker.com,rolnet.pl,sfd.pl,pragapld.um.warszawa.pl##html body div#cc-main[id], html body div#cc--main[id]
-cobbo.pl,gastroprofit.pl,help4skin.pl,lovekrakow.pl,maniasmaku.pl,mediccentre.pl,medicshop.pl,mrgugu.com,pakomat.pl,panwybierak.pl,petrostar.pl,podravka.pl,readspeaker.com,rolnet.pl,sfd.pl,pragapld.um.warszawa.pl##html.show--consent[class], html.show--consent[class] body:style(overflow-y: auto !important)
+cobbo.pl,gastroprofit.pl,help4skin.pl,lovekrakow.pl,maniasmaku.pl,mediccentre.pl,medicshop.pl,mrgugu.com,pakomat.pl,panwybierak.pl,petrostar.pl,podravka.pl,pragapld.um.warszawa.pl,readspeaker.com,rolnet.pl,sfd.pl##html body div#cc-main[id], html body div#cc--main[id]
+cobbo.pl,gastroprofit.pl,help4skin.pl,lovekrakow.pl,maniasmaku.pl,mediccentre.pl,medicshop.pl,mrgugu.com,pakomat.pl,panwybierak.pl,petrostar.pl,podravka.pl,pragapld.um.warszawa.pl,readspeaker.com,rolnet.pl,sfd.pl##html.show--consent[class], html.show--consent[class] body:style(overflow-y: auto !important)
 coca-cola.pl##html.ot-modal-open, html.ot-modal-open body:style(overflow: auto !important)
 cocolita.pl,dlalakierni.pl,home100.pl,izielnik.pl,m.biurwa.pl###RodoCookiesInfo, .modal-backdrop
 codeeurope.pl###root footer ~ div:has-text(plików cookies)
@@ -555,6 +554,7 @@ pl##body.--cookie-overflow:style(overflow: auto !important)
 pl##div[id][class*="iai_cookie"], div[id^="iai_cookie"][class*="iai_cookie"]
 pl.aptoide.com##div[class*="cookie-notice__CookieNoticeWrapper-"]
 pl.canalplus.com###modal-overlayer-cookie-banner:remove()
+pl.factcool.com##+js(set-cookie, cookieconsent_dismissed, yes)
 pl.kruk.eu##.cookie-agreement
 pl.kruk.eu##.cookie-open:style(position: static !important)
 pl.nowystyl.com##.nsg--cookies
