@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.10.10.0
-! Last modified: Thu, 10 Oct 2024, 22:40 UTC+02:00
+! Version: 2024.10.11.0
+! Last modified: Fri, 11 Oct 2024, 22:41 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.10.10.0 aktualizacja: czw, 10 paź 2024, 22:40 UTC+02:00
+! v.2024.10.11.0 aktualizacja: pią, 11 paź 2024, 22:41 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4208,6 +4208,7 @@ inteligentnydom.co##.faceliker
 intellect.pl###text-4 a[href*=".com/"] > [class*="icon"]
 intellect.pl##.right > .head
 intellect.pl##footer nav > ul > li > a[target]:not([href*="dribble.com"]) > div
+intenso-doors.pl##.social-list__items
 inter-med.pl###slide_top.cmsmasters_theme_icon_slide_top
 interaktywni.pro##.social-ico-box
 interaktywnie.com##div[class*="social-icon-style"]
@@ -8739,6 +8740,8 @@ warszawa.mrugala.pl###box_custom3 > p > a[href*=".com/"]
 warsztatowski.com##.marki
 warsztatpodrozy.com##a[href*="facebook.com/WarsztatPodrozy/"], a[href*="instagram.com/warsztatpodrozy/"]
 warsztatywyobrazni.com.pl##a[href*="facebook.com/wwyobrazni/"] > img
+warzywapolowe.pl##.td-pb-span4.vc_column .td_block_title:has(~ .tdm_block_socials)
+warzywapolowe.pl##.tdm-social-item:not([href*="/newsletter"])
 wasserman.eu##.ws-footer__images__wrapper > section:nth-of-type(3)
 wasserman.eu##section[class^="Footer__LogoAndSocialSection-"] > section:nth-of-type(3)
 waszaedukacja.pl##.footer3 > h3:first-of-type, #udostepnij
@@ -10358,6 +10361,10 @@ trojmiasto.pl#@#.share-icons
 tvp.pl#@#.header__socials
 twisto.pl#@#.footer__social
 visitbydgoszcz.pl,wydawnictwo.szaron.pl#@#.social-box
+warzywapolowe.pl#@#.tdm-social-item-wrap
+warzywapolowe.pl#@#.tdm-social-wrapper
+warzywapolowe.pl#@#.tdm_block_socials
+warzywapolowe.pl#@#.tds-social1
 wsqn.pl#@#.social_bookmarks
 youtube.com#@##secondary-links
 zegarownia.pl#@#.instagram-icon
