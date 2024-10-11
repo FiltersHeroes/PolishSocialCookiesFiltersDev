@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.10.7.0
-! Last modified: Mon, 07 Oct 2024, 04:06 UTC+02:00
+! Version: 2024.10.11.0
+! Last modified: Fri, 11 Oct 2024, 22:41 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,12 +19,10 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.10.7.0 aktualizacja: pon, 07 paź 2024, 04:06 UTC+02:00
+! v.2024.10.11.0 aktualizacja: pią, 11 paź 2024, 22:41 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
-!doladowania.a2mobile.pl,doladowania.wrodzinie.com.pl##.bm-privacy
-!pl.factcool.com#?#body > div > div > div > div > div.fScrmm:-abp-has(> div > div > div > button > p)
 1-st.com.pl,agrojd.com,agrospec.pl,arx.pl,aspel.com.pl,babysensepolska.pl,bikeman.pl,bosch.com.pl,comarch-esklep.pl,cudnydom.pl,e-oazakrakow.pl,elabrick24.pl,esklep.brandvital.eu,estetiq.pl,galerialazienek.pl,haczykowo.pl,kolorowymotylek.pl,kopalniasrebra.com,kran.tychy.pl,ksiegarniarubikon.pl,milopiwo.pl,nygus.pl,oftadirect.pl,ogrodekdziadunia.pl,papier24h.pl,papieryczerpane.pl,profesjonalne-nawadnianie.pl,selene.pl,sklep-narzedzia.pl,sklep.abydos.pl,sklep.agro-eko.com.pl,sklep.agromasz.pl,sklep.balcamp.pl,sklep.benedetto.com.pl,sklep.budowniczy.com.pl,sklep.centrumbhpwpp.eu,sklep.dalimex.pl,sklep.kotrak.com,sklep.kskd.pl,sklep.mebloart.eu,sklep.miodyapis.pl,sklep.phalanxgames.pl,sklep.rol-mech.pl,sklep.salvatti.pl,sklep.sigma-max.pl,sklep.stalco.pl,sklep.tayama.pl,spawalniczy-sklep.pl,swiatkoralikow.pl,swiatkoralikow2.pl,texasclub.pl,tvprodukt.pl,wierzynek.pl,workstyle.pl,wphmilitaria.pl#?#.footer > div[class*="config"][class*="Messages" i]:-abp-contains(/pliki "?cookies"?/)
 3dom.pro,anmur.eu,aoc.com,avenidapoznan.com,beezeeselfcare.pl,bibliotekacyfrowa.eu,bimobject.com,bip.gliwice.eu,budmat.com,canalplus.com,chorzow.eu,corab.eu,damy-rade.info,diamante-wear.com,digitalhome.co,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kler.eu,koszulkomat.eu,localmarket.no,maamstyle.com,mateuszgrzesiak.com,media-tech.eu,metal-bud.eu,mg-pmm.com,motogron.com,naszefutrzaki.eu,pkpcargo.com,prochnik.com,radiopark.fm,rocks-jeans.com,sapphiretech.com,secretdelivery.pl,stolmot.com,telko.in,trans.eu,trecnutrition.com,warszawa.promenada.com,wearmedicine.com,woopauto.com,yes2move.com##.cookies
 3mpolska.pl,bosch-professional.com,centrum24.pl,cisco.com,command.pl,e.huawei.com,lavazzacoffee.pl,post-it.pl,ups.com,vacansoleil.pl###__tealiumGDPRecModal
@@ -2509,6 +2507,7 @@ restaumatic.com###info-cookie-rodo
 retromedia.pl,wlc.pl###sgpb-popup-dialog-main-div-wrapper
 retromedia.pl,wlc.pl##.sgpb-popup-overlay
 revolut.com##.rvl-Banner-cookieBanner
+revolut.com##div[aria-label="Wybierz pliki cookies"]
 rio.gov.pl###cookies_ue_alert
 riph.com.pl##.slidingDiv[style*="block"]
 rittal.com###wrap-cookieconsent
