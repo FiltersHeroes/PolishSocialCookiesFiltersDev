@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.10.12.0
-! Last modified: Sat, 12 Oct 2024, 03:56 UTC+02:00
+! Version: 2024.10.12.1
+! Last modified: Sat, 12 Oct 2024, 22:38 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.10.12.0 aktualizacja: sob, 12 paź 2024, 03:56 UTC+02:00
+! v.2024.10.12.1 aktualizacja: sob, 12 paź 2024, 22:38 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -8934,6 +8934,7 @@ wojas.pl##.sv-fb-0
 wok.walbrzych.pl##.sb-instagram-widget, a[href*="facebook.com/walbrzyskiosrodekkultury/"]
 wokularach.pl#?#footer h3:-abp-contains(Zostań z nami)
 wolanie.info#?#.td-footer-wrap .wpb_wrapper h3:-abp-contains(FOLLOW US)
+wolframalpha.com##footer a[href="/social"]
 wolkom.pl##.footer_portal
 wolna-polska.pl###text-41 > .widget-title
 wolnelektury.pl#?#.annoy-banner_top.annoy-banner:-abp-has(> a[href*="youtube.com/channel/"]:nth-last-of-type(2):first-of-type)
