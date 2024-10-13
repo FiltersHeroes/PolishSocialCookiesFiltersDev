@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.10.13.1
-! Last modified: Sun, 13 Oct 2024, 19:45 UTC+02:00
+! Version: 2024.10.13.2
+! Last modified: Sun, 13 Oct 2024, 20:45 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.10.13.1 aktualizacja: nie, 13 paź 2024, 19:45 UTC+02:00
+! v.2024.10.13.2 aktualizacja: nie, 13 paź 2024, 20:45 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -99,7 +99,7 @@ adguard.com##.sticky-bar--cookie
 adidas.pl##.cookie-consent-modal
 adidas.pl##div[class^="cookie_consent_bar_"]
 adidas.pl,ea.com,garmin.com,leagueoflegends.com,nespresso.com,reebok.pl,weather.com,xerox.com###consent_blackbar
-adjoy.pl,ebizneskrokpokroku.pl,wody-mineralne.com.pl###fupi_cookie_notice
+adjoy.pl,ebizneskrokpokroku.pl,skuteczneraporty.pl,wody-mineralne.com.pl###fupi_cookie_notice
 adjule.pl###alerts
 adm-media.pl,intellect.pl,kociadolina.pl,mrn.pl##.policy
 administrator24.info,ekspertbudowlany.pl,elektro.info.pl,izolacje.com.pl,rynekinstalacyjny.pl##.zgody-popup
@@ -164,7 +164,7 @@ akwarysta.eu,alemeksyk.eu,dudek.eu,fakty.nl,hoegert.com,mm-gazeta.de,mobbingwpra
 albatrosbus.pl,atrakcje.com.pl,atrakcjenaimprezy.pl,bileteria-online.pl,dialog.mazovia.pl,edurosli.pl,gardenexpress.pl,innowacja.edu.pl,mail.bremex.pl,pks.elblag.pl,pkspolonus.pl,polonuspartner.pl,radziejewska.pl,webster-studio.pl,zakexpress.pl,zdo.pl###popek
 aldi.pl,dobrebistro.eatbu.com##.mod-cookie-consent
 alegotowka.pl,chwilowkomat.pl,halopozyczka.pl,quadralite.pl###cookies-law
-aleje-smaku-katowice.skubacz.pl,barfoodporn.pl,barmlecznykukuryku.pl,cmp.med.pl,czystepowietrze.gov.pl,dobrekupony.pl,fon-pizza.skubacz.pl,gls-group.com,ichgcp.net,kmag.pl,kolobrzeg.info.pl,kontomaniak.pl,lavineria.pl,medexpress.pl,montersi.pl,nbp.pl,nutrend.pl,pizzaujana.pl,rekinysukcesu.pl,snowboard-online.pl,twisto.pl,ukucharek.com.pl,upajdydabrowka.pl,wokandroll.pl,xlap24.pl##html body div#cc-main[id], html body div#cc--main[id]
+aleje-smaku-katowice.skubacz.pl,barfoodporn.pl,barmlecznykukuryku.pl,cmp.med.pl,czystepowietrze.gov.pl,dobrekupony.pl,fon-pizza.skubacz.pl,gls-group.com,ichgcp.net,kmag.pl,kolobrzeg.info.pl,kontomaniak.pl,lavineria.pl,medexpress.pl,montersi.pl,nbp.pl,nutrend.pl,pizzaujana.pl,rekinysukcesu.pl,snowboard-online.pl,tricolorepizza.pl,twisto.pl,ukucharek.com.pl,upajdydabrowka.pl,wokandroll.pl,xlap24.pl##html body div#cc-main[id], html body div#cc--main[id]
 alekino.com###cookies-info-wrapper
 alepromocje.pl##.ale-cookies-info
 alerabat.com###popup-rodo
@@ -618,7 +618,7 @@ chrust.pl,dwabratanki.pl###mod93
 chrzanow.pl,powiat-chrzanowski.pl###pdo-info-overlay
 chupachups.pl##.cookie-message-adv__outer
 ciam.pl,szczecin.eu###privacy-info
-cicius.pl,drogeriaestrella.pl,herbataikawa.pl##.consents
+cicius.pl,drogeriaestrella.pl,herbataikawa.pl,sklepsativa.pl##.consents
 ciechocinek.biz,gniewkowo.eu,kantor.aliorbank.pl,ki24.info,nizanskie.info###cookies-wrapper
 cieszyn.pl##.advancedCookiesPopup
 cinamoon.pl,ministerstworeklamy.pl,ok-kredyt.pl,radiotaxitg.pl###messagePopup
@@ -716,6 +716,7 @@ dajar.pl#?##__next > #__app__ > div:first-child > div:-abp-has(> div button[data
 daliantrading.com.pl##.popup-screen-rodo
 damdom.pl###accept-cookies-policy-layer
 damdom.pl###top-layer ~ #overlay
+danacol.pl,posilkiwchorobie.pl###blur
 danepubliczne.gov.pl##.flash-messages
 danrol-sklep.pl,fly-sky.pl,galeriaveneda.com.pl###miPlugin-cookie-info
 darbut.pl##dr-cookie-law-info
@@ -2274,6 +2275,7 @@ platan.pl###dialog1
 player.pl##.cBox
 player.polskieradio.pl##.termsOfUse
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
+plenti.app##.fixed:has(> div[role="dialog"][aria-labelledby="cookies-popup-header"])
 plus500.com##.sticky-cookie-wrapper
 plus.pl,plushbezlimitu.pl,polsatbox.pl###rodo-popup-container, #rodo-popup-overlay
 plus.pl,plushbezlimitu.pl,polsatbox.pl##.gdprOverlay, .rodoOverlay, .GDPROverlay, .RODOOverlay
@@ -2342,7 +2344,6 @@ portalspozywczy.pl###axbg
 portel.pl###rodoDiv, #rodoCover
 portgdansk.pl#?#body > table:first-of-type .verysmall:-abp-has(> a[href="polityka-plikow-cookies"])
 portu.pl###cookiescontent
-posilkiwchorobie.pl###blur
 posilkiwchorobie.pl,postronienatury.pl,zywiec-zdroj.pl###cookie-first
 posnania.eu##.cookiesBox
 posnania.eu,reserved.com,uslugistolarskie.eu###cookies-container
