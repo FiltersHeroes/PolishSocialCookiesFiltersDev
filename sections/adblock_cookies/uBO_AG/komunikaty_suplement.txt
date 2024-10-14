@@ -1,3 +1,8 @@
+warzywapolowe.pl,pk.edu.pl##div[consent-skip-blocker]:style(visibility: hidden !important)
+warzywapolowe.pl,pk.edu.pl##+js(spoof-css, div[consent-skip-blocker], visibility, visible)
+warzywapolowe.pl,pk.edu.pl##div[consent-skip-blocker]:matches-css(visibility: hidden) dialog:remove()
+poid.eu##body.sf-lockscroll:style(position: static !important; overflow: auto !important)
+poid.eu###sfConsentOverlay.sf-consent-overlay, #sfBackground.sf-background
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important)
@@ -750,8 +755,9 @@ vwfs.pl##.fancybox-container:has(#modal-cookie-disclaimer)
 wagrowiecmiasto.konsultacjejst.pl###gdpr__modal, #gdpr__overlay
 wagrowiecmiasto.konsultacjejst.pl##body.noscroll:style(overflow-y: auto !important)
 warta.pl###cookieman-modal, #cookieman-modal ~ .modal-backdrop
-warzywapolowe.pl##div[consent-skip-blocker]:remove()
-warzywapolowe.pl##html[style="overflow: hidden;"], body[style="overflow: hidden;"]:style(overflow: auto !important)
+warzywapolowe.pl,pk.edu.pl#@#div[consent-skip-blocker]:remove()
+warzywapolowe.pl,pk.edu.pl#@#div[consent-skip-blocker]
+warzywapolowe.pl,pk.edu.pl##html[style="overflow: hidden;"], body[style="overflow: hidden;"]:style(overflow: auto !important)
 wearmedicine.com##.modal--open:style(overflow-y: auto !important; width: 100% !important)
 wearmedicine.com##.modal:has(div[class*="Cookies"])
 webhelp.pl###wrapper:style(margin-top: auto !important)
