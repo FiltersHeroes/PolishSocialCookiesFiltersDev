@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.10.14.0
-! Last modified: Mon, 14 Oct 2024, 04:06 UTC+02:00
+! Version: 2024.10.14.1
+! Last modified: Mon, 14 Oct 2024, 22:40 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.10.14.0 aktualizacja: pon, 14 paź 2024, 04:06 UTC+02:00
+! v.2024.10.14.1 aktualizacja: pon, 14 paź 2024, 22:40 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -2911,7 +2911,7 @@ urzedow.pl##.no_cookies
 usg.szczecin.pl##body > div[style*="background: #"]:not([id], [class])
 utk.gov.pl##.box-default.box[style*="background-color"]
 uwielbiam.pl##.popup--cookies-info.popup
-vaillant.pl##.modal:not(.modal--closable, [class*="slide"]), [class*="iframe"])
+vaillant.pl##.modal:not(.modal--closable, [class*="slide"], [class*="iframe"])
 vasco.info.pl###mod91
 vbhelp.pl#?##notices.notices li[id^="navbar"]:-abp-has(a[href$="policy"])
 vector.katowice.pl##.box[style*="display"][style*="block"]
@@ -4215,6 +4215,7 @@ wolframalpha.com##footer ~ section
 ###ba_eu_cookie_law:not(form)
 ###gdpr_consent:not([class*="form"])
 ##.cookies-wrapper:not([class*="pum-field"])
+##body:not(.sf-lockscroll) .sf-consent
 #@##ba_eu_cookie_law
 #@##ck_dsclr_v2
 #@##cookieBackdrop
@@ -4223,6 +4224,7 @@ wolframalpha.com##footer ~ section
 #@#.cookies-wrapper
 #@#.cookify
 #@#.grecaptcha-badge
+#@#.sf-consent
 apollo.pl#@##cookies_modal
 apollo.pl#@#.cookies__modal
 aptelia.pl,dozapteka.pl#@#.popup-cookies
