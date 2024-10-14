@@ -583,6 +583,12 @@ pepper.pl##body.overflow--hidden:style(overflow-y: auto !important)
 perfumesclub.pl###modalPreferenciaCookies, .modal-backdrop
 petycjeonline.com###cookie_consent_modal, .modal-backdrop
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
+pk.edu.pl,warzywapolowe.pl##+js(spoof-css, div[consent-skip-blocker], visibility, visible)
+pk.edu.pl,warzywapolowe.pl##div[consent-skip-blocker]:matches-css(visibility: hidden) dialog:remove()
+pk.edu.pl,warzywapolowe.pl##div[consent-skip-blocker]:style(visibility: hidden !important)
+pk.edu.pl,warzywapolowe.pl##html[style="overflow: hidden;"], body[style="overflow: hidden;"]:style(overflow: auto !important)
+pk.edu.pl,warzywapolowe.pl#@#div[consent-skip-blocker]
+pk.edu.pl,warzywapolowe.pl#@#div[consent-skip-blocker]:remove()
 pl###kopageBar > #kopageBarCookies:upward(1)
 pl##.alert > a[href*="/polityka-cookies"] ~ a[href*="/polityka"]:upward(.alert)
 pl##.module-abovebox p > a[href*="/polityka"][href$="-cookies.html"]:upward(.module-abovebox[style^="position: fixed;"])
@@ -606,6 +612,8 @@ pl.wildberries.eu##.modal--cookie.modal
 pl.wildberries.eu##body.is-hidden:style(overflow: auto !important)
 pl.wildberries.eu##html[style*="--"]:style(--scrollbar-width: 0 !important)
 podleze-piekielko.pl###cookieman-modal, .modal-backdrop
+poid.eu###sfConsentOverlay.sf-consent-overlay, #sfBackground.sf-background
+poid.eu##body.sf-lockscroll:style(position: static !important; overflow: auto !important)
 pointpack.pl##.MuiDialog-root.MuiModal-root
 polsatboxgo.pl###__next > div[class^="sc-"]:first-child:has(> div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"] > p:first-child + p:last-child:has-text(Wyrażam zgodę na przechowywanie))
 polsatboxgo.pl###__next div[class^="sc-"]:first-child:has(> div[class^="sc-"] > h2 + p:has-text(/^Potrzebujemy Twojej zgody/))
@@ -788,8 +796,6 @@ vwfs.pl##.fancybox-container:has(#modal-cookie-disclaimer)
 wagrowiecmiasto.konsultacjejst.pl###gdpr__modal, #gdpr__overlay
 wagrowiecmiasto.konsultacjejst.pl##body.noscroll:style(overflow-y: auto !important)
 warta.pl###cookieman-modal, #cookieman-modal ~ .modal-backdrop
-warzywapolowe.pl##div[consent-skip-blocker]:remove()
-warzywapolowe.pl##html[style="overflow: hidden;"], body[style="overflow: hidden;"]:style(overflow: auto !important)
 wearmedicine.com##.modal--open:style(overflow-y: auto !important; width: 100% !important)
 wearmedicine.com##.modal:has(div[class*="Cookies"])
 webhelp.pl###wrapper:style(margin-top: auto !important)
