@@ -655,12 +655,6 @@ autogespot.pl##li.px1
 autogielda.pl##.cs-social-media
 autoidea.pl###media img[src*="media.png"], #media img[src*="in.png"]
 autoklub.pl###fb_like_box
-autokult.pl#@#article.article .article > figure.insert__default > .title:-abp-contains(na Instagramie)
-autokult.pl#@?#article.article .article > figure.insert__default > .title:-abp-contains(na Instagramie)
-autokult.pl,fitness.wp.pl,fotoblogia.pl#@#.grid-item__social.grid-item
-autokult.pl,fotoblogia.pl#@#.footer-data__social
-autokult.pl,fotoblogia.pl#@#.icon-mail, .post-article-links__header, .social-links--author.social-links
-autokult.pl,fotoblogia.pl@##.social-links.share-links > a:not([class*="comment"])
 autokult.pl,urzadzamy.pl##.instagram-media
 autoland.pl##.menu-instagram
 autoline.com.pl,machineryline.pl##.portal-social-urls
@@ -1765,7 +1759,7 @@ dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl##.post-
 dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl##.social.aright
 dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl##.twitter.social
 dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl##li > ul.aright > li > a, ul.media > li > a
-dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl#?##col2 .tabs.s2 .navi + .panes:-abp-has(> .one:not(:first-child, :nth-child(5))
+dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl#?##col2 .tabs.s2 .navi + .panes:-abp-has(> .one:not(:first-child, :nth-child(5)))
 dlakatolika.pl##.joinus .right
 dlastudenta.pl,~www.dlastudenta.pl###socialbars
 dlawas.info,halootwock.pl,halowawa.pl,infostrow.pl,ostrzeszowinfo.pl#?#section[id*="footer"] h5:-abp-contains(Znajdź nas na)
@@ -3648,8 +3642,6 @@ kierunekchorwacja.pl##.first-col > div.box-like:nth-of-type(6)
 kierunekspozywczy.pl###sb-facebook
 kig.pl##.footer div.item:nth-of-type(2) > h3
 kik.pl##.footer-columns__column > div:nth-child(5) > :nth-child(-n+2)
-kik.pl#@##inner_header > .links-atat > div > .links > li:nth-of-type(-n+2)
-kik.pl#@?#.columns > .vc_row > .wpb_column:-abp-has(h3:-abp-contains(śledź nas))
 kikgel.com.pl###top-bar a[href*="facebook.com/"]
 killuminati-wear.com###doDolu
 killuminati-wear.com###instaholder
@@ -6819,7 +6811,7 @@ smartbake.pl###custom_html-10
 smartbake.pl###sfsi-widget-5.sfsi.ashe-widget
 smartbake.pl##.top-bar-socials a:not([href*="@poczta."])
 smartfondlaseniora.pl##.footer-above h3
-smartkleks.pl###top-social > .social > a:not([href*="allegro.pl", [href*="newsletter"])
+smartkleks.pl###top-social > .social > a:not([href*="allegro.pl/"], [href*="newsletter"])
 smartparking-systems.pl###text-5 > h3, #text-5 > div > p:nth-of-type(-n+3)
 smartwings.com##.mod-menu__social
 smartwoods.pl###links_footer_1, .top-social-wrapper > .footer_links_sub > li:nth-of-type(2)
