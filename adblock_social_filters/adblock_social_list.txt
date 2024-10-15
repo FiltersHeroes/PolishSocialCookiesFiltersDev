@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.10.14.1
-! Last modified: Mon, 14 Oct 2024, 22:40 UTC+02:00
+! Version: 2024.10.15.0
+! Last modified: Tue, 15 Oct 2024, 22:40 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.10.14.1 aktualizacja: pon, 14 paź 2024, 22:40 UTC+02:00
+! v.2024.10.15.0 aktualizacja: wto, 15 paź 2024, 22:40 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -409,6 +409,7 @@ pl##.at-svc-pinterest_share.at-share-btn
 pl##.at-svc-twitter
 pl##.at-svc-wykop
 pl##.at_PinItButton
+pl##.atomsArticleFoot__socialMediaTitle, .atomsArticleFoot__socialMediaButtons a[href*="facebook.com/"]
 pl##.atomsArticleFootTools__icons > .atomsArticleFootTools__icon
 pl##.atomsNavigationFooterSocialmedia__button[data-event-params="link_img=facebook"] > svg
 pl##.av-social-link-facebook
@@ -821,6 +822,7 @@ pl,~wykop.pl##.wykop
 !
 !
 ! Specyficzne filtry ukrywające
+!to.com.pl##.componentsArticleTools__button, .atomsNavigationFooterSocialmedia__button
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
@@ -2906,6 +2908,7 @@ ebutik.pl###footer_socials
 ecbedzin.pl##.social-media-icons__item
 eccotravel.eu###metkaFB
 ecelebrity.eu###socialsSectionInner
+echodnia.eu##.atomsArticleFoot__socialMediaTitle, .atomsArticleFoot__socialMediaButtons a[href*="facebook.com/"]
 echomedia.info#?#.widget-html.widget:-abp-has(iframe[src*="facebook.com/"])
 echotygodnik.info##.pinterest, .linkedin
 echotygodnik.info##.sidebar > .widget-10
@@ -8251,7 +8254,6 @@ tme.eu##.c-footer__social-icons
 tme.eu##.footer-menu.row > p > a > img
 tmproject.com.pl#?#.vc_column-inner > .wpb_wrapper:-abp-contains(/(INSTAGRAM|MEDIA SPOŁECZNOŚCIOWE)/)
 tnt-tv.pl##.global_share
-to.com.pl##.componentsArticleTools__button, .atomsNavigationFooterSocialmedia__button
 todoist.com##.td-footer a.td-icon.td-footer__logo
 todoist.com##footer > section > div a[aria-label="Strona główna"] ~ p:first-of-type, footer > section > div a[aria-label="Strona główna"] ~ p:first-of-type ~ div:first-of-type
 together-razem.org##.item-222
