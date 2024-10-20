@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.10.15.0
-! Last modified: Tue, 15 Oct 2024, 00:44 UTC+02:00
+! Version: 2024.10.20.0
+! Last modified: Sun, 20 Oct 2024, 18:43 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.10.15.0 aktualizacja: wto, 15 paź 2024, 00:44 UTC+02:00
+! v.2024.10.20.0 aktualizacja: nie, 20 paź 2024, 18:43 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -231,7 +231,7 @@ arachnea.org##div.guestwarn
 aranzujemy.pl,kobieceporady.pl,kosmogadka.pl,przelewy24.pl,samouczek.info,spacex.com.pl##.gdpr
 arch.kpcen.pl###colorbox
 arch.kpcen.pl,laboratoria.net###cboxOverlay
-archicom.pl,bilety.transportgzm.pl,campery-zlotniccy.pl,galeriakatowicka.eu,ministerstwotajemnic.pl,sosnowiec.pl##.modal-cacsp-position
+archicom.pl,bilety.transportgzm.pl,campery-zlotniccy.pl,galeriakatowicka.eu,it-dev.eu,ministerstwotajemnic.pl,sosnowiec.pl##.modal-cacsp-position
 archiconnect.pl,biznesmeblowy.pl,lazienka.pl,mamkuchnie.pl,najlepszedomy.pl###axn
 archiconnect.pl,dowozy.pl,e-kolo.pl,eszyneczka.pl,gieldarolna.pl,imgw.pl,jpd.com.pl,kanokajaki.pl,madlen.pl,mas-sport.pl,minecraft.org.pl,nastopy.pl.karpmax.pl,polskieradio.pl,pracownia.org.pl,ptbs.pl,robimytv.pl,terramar.pl,tubachorzowa.pl,tubagliwic.pl,tubamarek.pl,tubaostrowa.pl,tubawyszkowa.pl##.rodo
 architektura.info##.cookies-warning
@@ -618,7 +618,7 @@ chrust.pl,dwabratanki.pl###mod93
 chrzanow.pl,powiat-chrzanowski.pl###pdo-info-overlay
 chupachups.pl##.cookie-message-adv__outer
 ciam.pl,szczecin.eu###privacy-info
-cicius.pl,drogeriaestrella.pl,herbataikawa.pl,sklepsativa.pl##.consents
+cicius.pl,csk-med.pl,drogeriaestrella.pl,herbataikawa.pl,sklepsativa.pl##.consents
 ciechocinek.biz,gniewkowo.eu,kantor.aliorbank.pl,ki24.info,nizanskie.info###cookies-wrapper
 cieszyn.pl##.advancedCookiesPopup
 cinamoon.pl,ministerstworeklamy.pl,ok-kredyt.pl,radiotaxitg.pl###messagePopup
@@ -1213,7 +1213,7 @@ generali.pl##div#cLayer
 generatorkodowkreskowych.pl,kalendarz-roku-szkolnego.edu.pl###cn
 genetico.pl,kpim.pl##.coologo7
 geoblog.pl,meetingsweek.pl,netventure.pl,nodigpoland.pl,simba.com.pl,snior.pl,syskonf.pl,zdm.poznan.pl###cContainer
-geoportal.gov.pl,geotec.pl,gispartner.pl,~mapy.geoportal.gov.pl,radlin.pl###saycookie
+geoportal.gov.pl,geotec.pl,gispartner.pl,~mapy.geoportal.gov.pl,radlin.pl,wir.wody.gov.pl###saycookie
 geopoz.pl##.clinco_bg
 geoserwis.gdos.gov.pl###ext-comp-1066, #ext-gen38
 gerlach.org.pl###top0info
@@ -2337,6 +2337,7 @@ popeyeschicken.pl#?#div[data-testid="footer"]:-abp-has(div[class*="toast"])
 porady.pracuj.pl###gp_cookie_agreements
 porowneo.pl#?#footer > div[class^="sc-"]:nth-last-child(-n+2):-abp-has(> button ~ div > a[href*="rules=polityka_prywatnosci"])
 porsche.pl##.full_modal_cookie_background
+porta-sklep.pl###cookie_acce_wrap
 portale-randkowe-ranking.pl,valtra.pl##.disclaimer
 portalgorski.pl###aToolTip
 portalmorski.pl###clause-info, #clause-info-mobile > p
@@ -2612,6 +2613,7 @@ simplesurance.pl###_s-cookie-notification-container
 sindbad.pl##app-cookie-info
 sipma.pl##.cookiekomunikat
 siriuspro.pl###sp-cookies-modal
+siriuspro.pl##.superpack-consents
 sitn.pl#?#body > div:-abp-has(#cookie-close)
 sito.poznan.pl##.notice
 six-payment-services.com#?#.warning.state:-abp-has(.system-notification-text:-abp-contains(cookie))
