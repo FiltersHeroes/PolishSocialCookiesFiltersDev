@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.10.20.1
-! Last modified: Sun, 20 Oct 2024, 19:08 UTC+02:00
+! Version: 2024.10.20.2
+! Last modified: Sun, 20 Oct 2024, 19:38 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.10.20.1 aktualizacja: nie, 20 paź 2024, 19:08 UTC+02:00
+! v.2024.10.20.2 aktualizacja: nie, 20 paź 2024, 19:38 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3108,12 +3108,12 @@ eska.pl##.ending-splash__share .fb-share-button
 eska.pl##.ending-splash__share iframe
 eska.pl##.gallery-share .share-box-button-wrapper
 eska.pl##.hot_temat_cont:nth-of-type(28) > .m-bottom30.goth_l.title, .goth_l.polub
-eska.pl##.links.widget-player-bottom a[href*=".com/"]
 eska.pl##.share-buttons-wrapper
 eska.pl##.type--facebook.element
-eska.pl,eskarock.pl,onet.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,rivieraparkmarvipol.pl,senatkomorki.pl,stopcafe.pl,viva.pl,voxfm.pl,wp.pl##.messenger
+eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,vibefm.pl,voxfm.pl##.open-messenger
+eska.pl,eskarock.pl,vibefm.pl,voxfm.pl##.links.widget-player-bottom a[href*=".com/"]
 eska.pl,poradnikzdrowie.pl,se.pl##.fb__shareBox
-eska.pl,~www.eska.pl##.footer > .box:nth-of-type(6), .footer > .box:nth-of-type(7)
+eska.pl,~www.eska.pl##.footer > .box:nth-of-type(n+6):nth-of-type(-n+7)
 eska.tv##.social.box
 eskarock.pl##.main-nav__socials
 eskk.pl###footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > .footer-strong, #footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > .footer-strong ~ a
@@ -6105,6 +6105,7 @@ onet.pl,plejada.pl##.poll_share
 onet.pl,plejada.pl##.whatsapp
 onet.pl,plejada.pl##span[data-gtm*="-whatsapp"]
 onet.pl,plejada.pl##span[data-gtm*="messengerShare"]
+onet.pl,radioplus.pl,radiosupernova.pl,rivieraparkmarvipol.pl,senatkomorki.pl,stopcafe.pl,viva.pl,wp.pl##.messenger
 onet.tv##.mvp-beam-social-buttons
 onetech.pl###obserwujnas
 onetech.pl##header a[href*="twitter.com/"]
