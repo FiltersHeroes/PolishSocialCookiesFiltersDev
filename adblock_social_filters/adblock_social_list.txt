@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.10.20.0
-! Last modified: Sun, 20 Oct 2024, 18:43 UTC+02:00
+! Version: 2024.10.20.1
+! Last modified: Sun, 20 Oct 2024, 19:08 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.10.20.0 aktualizacja: nie, 20 paź 2024, 18:43 UTC+02:00
+! v.2024.10.20.1 aktualizacja: nie, 20 paź 2024, 19:08 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2452,7 +2452,7 @@ damle.com.pl##a[href*="facebook.com/shoesdamle"] > img
 damle.com.pl##a[href*="instagram.com/damle.com.pl/"] > img
 dancecontrol.pl###text-4 > .textwidget > a:nth-of-type(n+2):nth-of-type(-n+4)
 danio.com.pl##.footer > .footer-main > div.col:nth-of-type(2):nth-child(2)
-danio.com.pl,przepisy.pl##.social-wrapper
+danio.com.pl,loteria.carrefour.pl,przepisy.pl##.social-wrapper
 danone.pl##.nav-link[href*="linkedin.com/"]
 danrol-sklep.pl,elixirzdrowia.pl,mpec.olsztyn.pl,rynek-ksiazki.pl,saluti.pl,softx.pl,sprzet-poz.pl###fb-widget
 dar-med.eu##.fooWidgets > a.btIconWidget
@@ -5417,6 +5417,7 @@ mieszkaniec.pl##.sidebarright > div.widget.widget_text:first-of-type table td:nt
 mieszkaniowi.pl###fpw_icon
 migra.pl##div.single.site-bottom-boxes:nth-of-type(3)
 migre.pl##.widget-icon.widget > strong:has(+ span a[href*="facebook.com/"])
+mijubasushi.pl##.elementor-icon-list-item a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"])
 mikolow.eu##.check-channels.footer-box > .data > h1, .check-channels.footer-box > .data > .icons
 mikrobit.pl###facebookContainer
 mikroskala.eu##span > a[href*="facebook.com/Mikroskala/"]
@@ -6707,6 +6708,7 @@ polskiled.com.pl##.joinus > [href*="://wa.me"]
 polskiled.com.pl##.joinus a:not([href*="wa.me"])
 polskiprzemysl.com.pl###fb-liked
 polsky.tv##.menu-icons > div.menuItemWrap:nth-of-type(n+2):nth-of-type(-n+4)
+polsl.pl##.mn-socials
 polsl.pl##tr:first-of-type > .shortcutsImg:first-of-type
 polsl.pl##tr:first-of-type > .shortcutsImg:nth-of-type(4)
 polsl.pl##tr:first-of-type > .shortcutsLink:nth-of-type(2)
@@ -7751,6 +7753,7 @@ soczewki24.pl##a[href*="facebook.com/soczewki24"]
 soczewki365.pl###footer p > a[href*="facebook.com/Soczewki365"]
 sofly.club##.section-slider.banner-11
 sofotel.pl###push_wysuwane_fb, #push_wysuwane_gp
+soft360.pl##div.footer_block.links:nth-of-type(4)
 softmm.com.pl##.row.footer > .container.userfooter > .row > p
 softonic.pl##.page-footer__list--social
 softonic.pl##.page-footer__title:has(~ .page-footer__list--social)
@@ -7901,6 +7904,7 @@ steamcommunity.com##a[class*="Share"][href*="/share/"]
 stella.com.pl##.contact__buttonFb
 stepone.pl##.widget_wtrwidgetsocialicons
 sternaseo.pl##.ts-footer .center-box
+steven.pl###footer div.link-block:nth-of-type(4)
 stili.pl###main_cms
 stilord.pl##.footer div.widget-four-col .widget-inner:nth-of-type(4)
 stokrotka.pl###Media_społecznościowe
@@ -8127,6 +8131,7 @@ tato.net##.metka-fb
 tatra.pl###mnu-kontakt > span:first-of-type
 tatromaniak.pl##.btn-join, div:nth-of-type(2) > a[href*="spolecznosc.tatromaniak.pl/"], .text--light.CTA, .feed
 tatryski.pl##div.sidebutton:nth-of-type(10), div.col-md-12.col-sm-6.col-xs-12:nth-of-type(2)
+tauron.pl##.social_column a[href*=".com/"]
 tb-polska.pl##.customtab-lewa > ul > li:nth-of-type(-n+2)
 tb-polska.pl##.floating-links > div:nth-of-type(n+3)
 tbitech.pl##.social-nav li:not(.private-policy)
