@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.10.20.1
-! Last modified: Sun, 20 Oct 2024, 19:08 UTC+02:00
+! Version: 2024.10.21.0
+! Last modified: Mon, 21 Oct 2024, 04:06 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.10.20.1 aktualizacja: nie, 20 paź 2024, 19:08 UTC+02:00
+! v.2024.10.21.0 aktualizacja: pon, 21 paź 2024, 04:06 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1105,7 +1105,6 @@ firecash.org,fundacjabos.pl,grupaeurocash.pl,payup.pl,pbg-sa.pl,regionwielkopols
 firefighter-game.pl###ciasteczka2
 firmamazur.pl###cookies-glass
 firmypolskie.pl##.consent-privacy
-fit-kids.pl,kuriergarwolinski.pl,mccom.pl,nasksa.pl,sopocki-zdroj.pl,waxclinic.pl###rodoInfo
 fit.pl##.rodo-show
 fitfood.pl#?##app > #wrapper > div[class]:not([id]):-abp-contains(plików cookie)
 fitomento.com##.navbar-inner
@@ -1641,6 +1640,7 @@ kulturalnysklep.pl###ctl00_cq_divText
 kuratorium.bialystok.pl###spu-9294, #spu-bg-9294
 kuratorium.krakow.pl###spu-24921, #spu-bg-24921
 kurier-ilawski.pl##div#agreeCookies
+kuriergarwolinski.pl,mccom.pl,nasksa.pl,sopocki-zdroj.pl,waxclinic.pl###rodoInfo
 kursy24h.pl,salenawesela.pl,turystyka24h.pl#?#body > div[style]:first-child:-abp-has(> a[href*="/cookie"])
 kwadryga.com###cookie-privacy
 kwartalnikiustitia.pl##.modal-promo
@@ -1891,7 +1891,6 @@ mleasing.pl#?#.footer > div[class] + div[class]:last-child:-abp-has(a[href*="/po
 mlekovita.com.pl###realCookies.realCookies
 mlodziwlodzi.pl###footer > .module.module-24
 mniammniam.com##div[class^="mm-cookies"]
-mniamspinka.pl##body > div > .alert-box
 mobidziennik.pl,wizja.net###floating-cookie-content, #floating-cookie-button
 mobile.de###consentBanner, div[class^="cookie-banner"]
 mobile.lebara.com##.cookie-component
