@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.10.28.0
-! Last modified: Mon, 28 Oct 2024, 03:08 UTC+01:00
+! Version: 2024.11.1.0
+! Last modified: Fri, 01 Nov 2024, 17:44 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.10.28.0 aktualizacja: pon, 28 paź 2024, 03:08 UTC+01:00
+! v.2024.11.1.0 aktualizacja: pią, 01 lis 2024, 17:44 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -9536,6 +9536,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||ewf.h1.pl/images/logo-tiktok.png
 ||excel-szkolenia.com/images/facebookIco.gif
 ||f1racing.pl/pic/logo_facebook.png$image
+||facebook.*/plugins/likebox.php$rewrite=abp-resource:blank-html,subdocument,domain=vifon.pl
 ||facebook.com/plugins/share_button.php$domain=tarnow.net.pl
 ||facetaria.pl/img/cms/facetaria_FB.svg
 ||facetaria.pl/img/cms/facetaria_Tw.svg
@@ -10005,6 +10006,8 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||vectra.pl/img/icns/ico-yt-footer.png
 ||veritas-opieka.pl/wp-content/uploads/20*/*/instagram-$image
 ||veritas-opieka.pl/wp-content/uploads/*/*/fb_find_us$image
+||vifon.pl/pl/assets/images/menu/facebook.png
+||vifon.pl/pl/assets/images/menu/youtube.png
 ||virtualmedia.pl/gfx/facebook.jpg
 ||vitakraft.pl/fileadmin/templates/images/socialmedia/vk_facebook.png
 ||vitakraft.pl/fileadmin/templates/images/socialmedia/vk_instagram.png
