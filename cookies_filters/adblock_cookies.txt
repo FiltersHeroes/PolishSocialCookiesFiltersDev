@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.11.11.0
-! Last modified: Mon, 11 Nov 2024, 03:04 UTC+01:00
+! Version: 2024.11.17.0
+! Last modified: Sun, 17 Nov 2024, 19:21 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.11.11.0 aktualizacja: pon, 11 lis 2024, 03:04 UTC+01:00
+! v.2024.11.17.0 aktualizacja: nie, 17 lis 2024, 19:21 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4252,6 +4252,8 @@ horecanet.pl#@#.gdprmodal-backdrop
 horecanet.pl#@#div.gdpr
 iglotex.pl#@##cookie-info
 kakto.pl,pl#@#div.cookie-message
+leki.pl#@#div#cookie-popup
+leki.pl#@#div.cookie-popup
 mazda-od-reki.pl#@##cookie-widget
 mazda-od-reki.pl#@#.cookie-widget
 mazda-od-reki.pl#@#.cookieWidget
@@ -4316,6 +4318,8 @@ gry.pl,shinden.pl,wmeritum.pl,wykop.pl#@#div[class^="app_gdpr"]
 iglotex.pl,maxelektro.pl#@##cookie-info:not(body):not(html)
 iglotex.pl,mcdonalds.pl,ose.gov.pl,san.edu.pl#@#.cookies:not(body):not(html):not(#page):not(#container):not(.wrapper):not(.popup-newsletter):not(.js-cookies)
 kupbilecik.pl,panbilet.pl,wins.pl#@#.cookie-container:not(body):not(html)
+leki.pl#@##cookie-popup:not(body):not(html)
+leki.pl#@#.cookie-popup:not(body):not(html)
 maxizoo.pl#@##cookie-banner:not(body):not(html)
 mazda-od-reki.pl#@##cookie-widget:not(body):not(html)
 memo-book.pl,zagojeni.pl#@#.rodo-overlay:not(body):not(html)
