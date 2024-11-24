@@ -1,7 +1,6 @@
 ###ciacho_bar:not(body):not(html)
 ###ciacho_inf:not(body):not(html)
 ###ciasteczka-komunikat:not(body):not(html)
-##html:not([style*="overflow"][style*="hidden"]) .cs-cookie-bar-container
 ###Ciasteczka:not(body):not(html)
 ###ciasteczka_info:not(body):not(html)
 ###ciasteczka_tresc:not(body):not(html)
@@ -98,6 +97,7 @@
 ##div[style*="background:url(images/cookies_tlo.png)"]
 ##div[style*="url(layout/cookies.png)"]
 ##footer ~ .rodo
+##html:not([style*="overflow"][style*="hidden"]) .cs-cookie-bar-container
 ~pl###actionCooki:not(body):not(html):lang(pl)
 ~pl###catapult-cookie-bar:lang(pl):not(body):not(html)
 ~pl###kopageBarCookies + div:lang(pl)
