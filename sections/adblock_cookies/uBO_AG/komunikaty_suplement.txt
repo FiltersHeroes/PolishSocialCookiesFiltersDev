@@ -97,7 +97,7 @@ barbara.net.pl##.modal:has-text(RODO)
 barbara.net.pl,dane.gov.pl,dyzurnet.pl,makro.pl,qa-stack.pl##.modal-backdrop
 bbcpolska.com###home:style(padding-top: 0 !important)
 bebiprogram.pl,bobovita.pl##+js(set-cookie, cookie_necessary, 1)
-beko.com,burgerking.pl,bydgoszczak.pl,drogeriapigment.pl,katowiczak.pl,pozbruk.pl,smsapi.pl,spidersweb.pl,viennahouse.com,wmeritum.pl##body[style]:style(overflow: auto !important)
+beko.com,burgerking.pl,bydgoszczak.pl,drogeriapigment.pl,katowiczak.pl,pozbruk.pl,smsapi.pl,spidersweb.pl,viennahouse.com,wmeritum.pl##body[style]:style(overflow-y: auto !important)
 beko.pl##.cookies-margin:style(top: 0 !important)
 bezpluga.pl,ckl.pl,dlahandlu.pl,eecpoland.eu,farmer.pl,frsih.pl,housemarket.pl,infodent24.pl,mckkatowice.pl,portalsamorzadowy.pl,portalspozywczy.pl,promocjada.pl,propertydesign.pl,propertynews.pl,ptwp.pl,pulshr.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,spodekkatowice.pl,wnp.pl##.windowOpen:style(overflow: auto !important)
 bgk.pl##+js(rc, dp--cookie-consent, body, stay)
@@ -713,13 +713,12 @@ tinder.com###content .App > div[class^="Pos"][class*="Start"]:has-text(plików c
 tinder.com###content .App main div[class^="Pos"][class*="NetHeight"]:style(height: 100% !important)
 tlumacz-in.pl##.jconfirm:has(.jconfirm-scrollpane)
 tlumacz-in.pl##body.jconfirm-noscroll:style(overflow: auto !important)
-tme.eu###CybotCookiebotDialog
-tme.eu###CybotCookiebotDialogBodyUnderlay
-tme.eu###popup_container, #popup_overlay
-tme.eu##.o-modal-wrapper:has(img[src*="rodo.png"])
+tme.eu,trzymajsiecieplo.pl###CybotCookiebotDialog, #CybotCookiebotDialogBodyUnderlay
+!tme.eu###popup_container, #popup_overlay
+!tme.eu##.o-modal-wrapper:has(img[src*="rodo.png"])
 tme.eu##.u-overflow-hidden:style(overflow-y: auto !important)
-tme.eu##body[style]:style(overflow-y: auto !important)
-tme.eu,totalizator.pl##html[style]:style(overflow-y: auto !important)
+tme.eu,trzymajsiecieplo.pl##body[style]:style(overflow-y: auto !important)
+totalizator.pl##html[style]:style(overflow-y: auto !important)
 totalizator.pl##.popup
 toyotabank.pl##.cookies__popup
 transportgzm.pl##.mdc-dialog
