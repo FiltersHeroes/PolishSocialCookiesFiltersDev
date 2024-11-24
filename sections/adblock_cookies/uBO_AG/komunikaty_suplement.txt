@@ -161,7 +161,7 @@ cinkciarz.pl###cookies-wrapper, .modal-backdrop
 cire.pl,wykop.pl##body[style*="overflow"]:style(overflow: auto !important)
 citibank.pl##.CookieStyle
 citibank.pl##.ScrollLock:style(overflow: auto !important)
-claas.pl##.fancybox-lock:style(overflow: auto !important;margin-right: 0 !important)
+claas.pl##.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important)
 claas.pl##.fancybox-overlay:has(.cookieHint)
 club.galilea.com.pl###welcome, .modal-backdrop
 cobbo.pl,dietly.pl,gastroprofit.pl,help4skin.pl,lovekrakow.pl,mediccentre.pl,medicshop.pl,mrgugu.com,pakomat.pl,panwybierak.pl,petrostar.pl,podravka.pl,pragapld.um.warszawa.pl,readspeaker.com,rolnet.pl,sfd.pl##html body div#cc-main[id], html body div#cc--main[id]
@@ -479,7 +479,7 @@ mojanorwegia.pl##.new-cookies
 mojanorwegia.pl##body:style(overflow: auto !important; position: initial !important)
 moje.ose.gov.pl##.cookies:upward(.modal)
 momax.pl###modal:has([aria-describedby="consentbar"])
-momax.pl##body.noScrolling:style(overflow: auto !important; height: auto !important; padding-right: 0 !important; width: auto !important;position: static !important;)
+momax.pl##body.noScrolling:style(overflow: auto !important; height: auto !important; padding-right: 0 !important; width: auto !important; position: static !important;)
 monese.com##.cookie-banner__wrapper
 monese.com##body.fixed:style(overflow: auto !important)
 monitoring.prospect.pl###welcome-msg
@@ -669,9 +669,11 @@ socialdruk.pl###privacyPolicyModal, .modal-backdrop
 sonymobile.com##.bnw-module.header[style="margin-top: 80px;"]:style(margin-top: 0 !important)
 sp215.info##body .cookie-alert
 sp215.info##body.djckm-blur > :not(.cookie-alert):not(.dj-offcanvas-wrapper):style(filter: none !important)
-sp215.info##body.djckm-blur:style(overflow: auto !important;padding-top: 10px !important)
+sp215.info##body.djckm-blur:style(overflow: auto !important; padding-top: 10px !important)
 sparta.com.pl###cookieModalInfo, #cookieBackdrop
 sparta.com.pl##.fancybox-lock:style(overflow: auto !important)
+liderlamp.pl##.fancybox__container:has(#cookieSetting)
+liderlamp.pl##html.with-fancybox body.hide-scrollbar:style(overflow: auto !important)
 sportowefakty.wp.pl#@#body > [class]:not([id]):matches-css(position: fixed):matches-css(top: 0px)
 startedu.pl,startkantyna.pl###modal
 startedu.pl,startkantyna.pl##body[style*="overflow-y"]:style(overflow-y: auto !important)
