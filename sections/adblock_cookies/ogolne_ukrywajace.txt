@@ -1,13 +1,3 @@
-pl###fscookies
-###jpresta-rgpd-container
-##div[class*="configMessagesCookiesMessage" i][class*="footer" i]
-##div[class*="configMessagesCookiesMessage" i][class*="header" i]
-##.configMessages:has(.closeCookieBtn)
-##div.cookie-message-opener
-##div.cookie-message-opener-ui
-##div.cookie-message-opener-ui ~ .mess-bg
-##div.cookie-message-opener ~ .mess-bg
-##div.config-messages-PopupCookies
 ###ciacho_bar:not(body):not(html)
 ###ciacho_inf:not(body):not(html)
 ###ciasteczka-komunikat:not(body):not(html)
@@ -28,6 +18,7 @@ pl###fscookies
 ###infociasteczka:not(body):not(html)
 ###infoprywatnosciciastka:not(body):not(html)
 ###Informacja_o_ciasteczkach:not(body):not(html)
+###jpresta-rgpd-container
 ###komunikat-cookies:not(body):not(html)
 ###kontenernacookie:not(body):not(html)
 ###korzystanieZCiateczek:not(body):not(html)
@@ -60,6 +51,7 @@ pl###fscookies
 ##.ciachbtm-wrap-container:not(body):not(html)
 ##.ciasteczka_komunikat:not(body):not(html)
 ##.ciasteczko:not(body):not(html)
+##.configMessages:has(.closeCookieBtn)
 ##.cookieForm:not(body):not(html)
 ##.cookskom:not(body):not(html)
 ##.czgoda:not(body):not(html)
@@ -102,8 +94,15 @@ pl###fscookies
 ##div#wezcookie
 ##div.boxzilla-polityka-prywatnosci
 ##div.ciasteczkowy
+##div.config-messages-PopupCookies
+##div.cookie-message-opener
+##div.cookie-message-opener ~ .mess-bg
+##div.cookie-message-opener-ui
+##div.cookie-message-opener-ui ~ .mess-bg
 ##div.polityka-prywatnosci
 ##div[class*=" "][data-cookie-path="/"][style]
+##div[class*="configMessagesCookiesMessage" i][class*="footer" i]
+##div[class*="configMessagesCookiesMessage" i][class*="header" i]
 ##div[style*="background:url(images/cookies_tlo.png)"]
 ##div[style*="url(layout/cookies.png)"]
 ##footer ~ .rodo
@@ -457,6 +456,7 @@ pl###eucookie-contener:not(body):not(html)
 pl###eucookielaw:not(body):not(html)
 pl###evideCookiesNotify:not(body):not(html)
 pl###ez-cookie-dialog-wrapper:not(body):not(html)
+pl###fscookies
 pl###gdpr-cookie-message:not(body):not(html)
 pl###gdpr_banner:not(body):not(html)
 pl###gdpr_info:not(body):not(html)
