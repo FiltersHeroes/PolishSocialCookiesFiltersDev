@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.11.28.0
-! Last modified: Thu, 28 Nov 2024, 03:12 UTC+01:00
+! Version: 2024.12.1.0
+! Last modified: Sun, 01 Dec 2024, 14:00 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.11.28.0 aktualizacja: czw, 28 lis 2024, 03:12 UTC+01:00
+! v.2024.12.1.0 aktualizacja: nie, 01 gru 2024, 14:00 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -904,6 +904,7 @@ pl,~wykop.pl##.wykop
 10minut.xyz###footerwrap > div > .row > div.col-lg-4:nth-of-type(2)
 20lat.interia.pl##.fb-share-btn
 24gliwice.pl,aero2.pl,amfetamina.promo,damianparol.com,drzwipartnerkrakow.pl,dzdn.pl,dzikapolska.org,finereader.pl,foodarea.pl,fundacjawolnosci.org,kago.pl,kawiarniabezcukru.pl,konsolowe.info,kreatywni.co,kruczek.pl,lisiesprawy.pl,medicept.pl,nowamuzyka.pl,paweltkaczyk.com,piu.org.pl,rozaniec.eu,stargard.news,termalica.brukbet.com,trenerangielskiego.com,ttg.com.pl,wierzbowyjar.pl,wnet.fm,yenn.eu##.menu-item a[href*="facebook.com/"]
+24jgora.pl,24wroclaw.pl,babice24.pl,bbfan.pl,bp24.pl,checkpress.pl,ciechanowinaczej.pl,ctmyslowice.pl,czaschojnic.pl,ddb24.pl,debica24.eu,dobroni.pl,dzikieradio.pl,e-kg.pl,e-sochaczew.pl,e-wyszogrod.pl,egarwolin.pl,egorzow.pl,ekoscian.eu,ekspresjaroslawski.pl,eprzasnysz.pl,eradzyn.pl,ewysmaz.pl,fakty.bialystok.pl,galopuje.pl,golub-cgd.pl,gpr24.pl,gryfinska.pl,ibemowo.pl,ibialoleka.pl,ibielany.pl,ibielsk.pl,ikampinos.pl,imokotow.pl,info.mragowo.pl,infokonin.pl,inowroclaw.info.pl,iochota.pl,iotwock.pl,ipragapolnoc.pl,ipragapoludnie.pl,irembertow.pl,iskierniewice.pl,isrodmiescie.pl,itargowek.pl,itvpiaseczno.pl,iursus.pl,iursynow.pl,iwawer.pl,iwesola.pl,iwilanow.pl,iwola.pl,izabelin24.pl,izoliborz.pl,izyrardow.pl,jaw.pl,karkonoszego.pl,kartuzy.info,konecki24.pl,koscierski.info,krasnik24.pl,kulisy.net,kurierbytowski.com.pl,kuriergmin.pl,kurierpodlaski.pl,lipno-cli.pl,losice.info,lowicz24.eu,lukow.tv,magazynnaszczycie.pl,mojestrone.com,mylomza.pl,nolesnica.pl,nowagazeta.pl,nowawrzesnia.pl,nowinybartoszyce.pl,nowinyketrzyn.pl,nowinylidzbark.pl,nowinynyskie.com.pl,nwloclawek.pl,ototorun.pl,palukimogilno.pl,palukiznin.pl,pilaonline.pl,plonszczak.pl,politykazdrowotna.com,poluje.pl,posty.pl,powiatowa.info,profitnes.pl,pultusk24.pl,radiotorun.pl,radomszczanska.pl,regionalna24.pl,rypin-cry.pl,sejny.net,siemiatycze24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,temat.net,tp.com.pl,trojmiejski.pl,tudeblin.pl,tulegnica.pl,turyki.pl,tuzywiec.pl,tygodnikregionalna.pl,wabrzezno-cwa.pl,wdi24.pl,wedkarzebezbarier.pl,wideoportal.tv,wio.waw.pl,wlodawa24.pl,wterenie.pl,zambrow.org,zegluje.pl,zlotowskie.pl,zycie.pl,zyciekalisza.pl,zyciesokolowa.pl,zyciewegrowa.pl##.share__social:has(> a[href*=".com/"])
 24kato.pl,24zaglebie.pl,bytomski.pl,chorzowski.pl,glivice.pl,ngs24.pl,nowinytyskie.pl,piekary.info,rudzianin.pl,slazag.pl,tarnowskiegory.info,twojknurow.pl,zabrzenews.pl##.article__author__contact__socials > a:not([href*="mailto:"])
 24kato.pl,24zaglebie.pl,bytomski.pl,chorzowski.pl,glivice.pl,ngs24.pl,nowinytyskie.pl,piekary.info,rudzianin.pl,slazag.pl,tarnowskiegory.info,twojknurow.pl,zabrzenews.pl##.article__author__contact__socials a:not([href*="mailto:"])
 24kato.pl,24zaglebie.pl,bytomski.pl,chorzowski.pl,glivice.pl,ngs24.pl,nowinytyskie.pl,piekary.info,rudzianin.pl,slazag.pl,tarnowskiegory.info,twojknurow.pl,zabrzenews.pl##.stickySocialIcon > a:not([href*=".xml"])
@@ -2489,6 +2490,7 @@ deagostini.com#?#div:nth-of-type(3) > .box-standard.item:-abp-has(.community)
 dealz.pl##.mega-menu__socials
 dealz.pl##.product-content__share
 dealz.pl#?#.elementor-location-footer.elementor .elementor-widget-heading:-abp-contains(Śledź nas)
+debica24.eu,ekoscian.eu,iotwock.info,kartuzy.info,koscierski.info,kulisy.net,losice.info,lowicz24.eu,lukow.tv,mojestrone.com,politykazdrowotna.com,powiatowa.info,sejny.net,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,temat.net,wideoportal.tv,zambrow.org,zlotowskie.pl,zycie.pl##.upper-bar__socials
 debiutplus.pl###text-5 .textwidget > .widget-title > p
 deblin24.eu##a[href*="facebook.com/pages/Deblin24eu/"] > img, a[href="twitter.com/"] > img
 decathlon.pl##.block-footer div.df-info__group:nth-of-type(3) > div.df-info-group__title:first-of-type, .block-footer div.df-info__group:nth-of-type(3) > div.df-info-group__title:first-of-type + div a
@@ -4277,7 +4279,6 @@ inzynier-medyczny.pl###sidebar > div.widget:nth-of-type(6)
 inzynierbudownictwa.pl###slideright, #slideright_yt
 inzynieria.com##.cd-nav-social.list-inline > li:nth-of-type(-n+5), .nav-social-top > li:nth-of-type(-n+5)
 iotwock.info##.socials__link
-iotwock.info,zlotowskie.pl,zycie.pl##.upper-bar__socials
 ip-serwis.pl###mk-header-social
 ipa-katowice.org###gkBottom4 > .gkCols6 > div.gkmod-3.box:nth-of-type(2)
 ipa-katowice.org##.gkColorFb.gkIcon
@@ -9401,7 +9402,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ! Specyficzne filtry blokujące
 /avlab*/img/bg_share.png$domain=avlab.pl
 /content/images/facebook.png$domain=ceneo.pl|jego-styl.pl|kraina-stylu.pl|wnetrza-ze-smakiem.pl
-/facebook.svg$domain=agro-trade.pl|krolewskie.pl|lubliniec.starostwo.gov.pl
+/facebook.svg$domain=agro-trade.pl|gemini.pl|instytutoka.pl|kalia-sklep.pl|krolewskie.pl|lubliniec.starostwo.gov.pl|przyjazne-deklaracje.pl|rubo.pl|vector.net
 /facebookgb.png$domain=schronisko.olsztyn.pl
 /fbpodklad1.png$domain=mosir.org.pl
 /fbpodklad2.png$domain=gckis.trzebnica.pl|musicinfo.pl
@@ -9430,8 +9431,8 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 /themes/twLogo.jpg$domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
 /themes/Udostepnij.png$domain=rynek-kolejowy.pl|rynek-lotniczy.pl|rynekinfrastruktury.pl|transport-publiczny.pl
 /vbanner/facebookock.jpg$domain=ockopolelubelskie.pl
-/wp-content/uploads/*/*/fb.png$domain=biodent.biz|emkatrans.com.pl|glyskincare.pl|pks.poznan.pl|purebiologics.pl|smac.pl
-/wp-content/uploads/*/*/in.png$domain=glyskincare.pl|purebiologics.pl
+/wp-content/uploads/20*/*/fb.png$domain=agro-tom.eu|biodent.biz|emkatrans.com.pl|glyskincare.pl|help-rol.pl|izzinakarte.pl|mamalyga.org|pks.poznan.pl|purebiologics.pl|smac.pl
+/wp-content/uploads/20*/*/in.png$domain=glyskincare.pl|purebiologics.pl
 /zdjecia/ikonki/fb_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ||4prm.pl/*/facebook_menu$image
@@ -9447,7 +9448,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||agro-eko.com.pl/uploads/8KrzF3cu/facebook1.png
 ||agro-eko.com.pl/uploads/*/fb.jpg
 ||agro-kowalski.com.pl/images/2021/FB.png
-||agro-tom.eu/wp-content/uploads/20*/*/fb.png
 ||agro-tom.eu/wp-content/uploads/20*/*/logo-instagramu*.jpg
 ||agro-tom.eu/wp-content/uploads/20*/*/youtube.png
 ||agro-trade.pl/images/icons/youtube.png
@@ -9626,7 +9626,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||gazetabaltycka.pl/wp-content/themes/gazetabaltycka/images/youtube.png
 ||gazetaswietojanska.org/layout/ico/fbbw2.png
 ||gazetaswietojanska.org/layout/ico/YT3.png
-||gemini.pl/images/logos/facebook.svg
 ||gemini.pl/images/logos/instagram.svg
 ||genway.pl/images/frontend/theme/whitegen/social/youtube.png
 ||gksglinik.pl/images/facebook.png
@@ -9646,7 +9645,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||hajnowka.pl/sites/default/files/banery/2020/12/hajnowka_baner_2.png
 ||happy-diet.pl/wp-content/uploads/20*/*/insta-icon.
 ||hd-opinie.pl/wp-content/themes/hdopinie/images/rightcol_shadow.png
-||help-rol.pl/wp-content/uploads/20*/*/fb.png
 ||hi-fi.com.pl/modules/mod_susnet_likebox/images/bluebutton.png
 ||hi-fi.com.pl/modules/mod_susnet_twitter/images/twitterbutton.png
 ||home.pl/homepl*/image/face_*.png$domain=kupujzdomu.pl
@@ -9668,7 +9666,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||inglot.pl/modules/inglotmisstab/misstab.js
 ||inkipinki.pl/skins/user/shoper_pink_1/images/user/fb.jpg
 ||insert.com.pl/.grafika/interfejs/logo_youtube_grey.png
-||instytutoka.pl/wp-content/uploads/20*/*/facebook.svg
 ||instytutoka.pl/wp-content/uploads/20*/*/youtube.svg
 ||interauto.krakow.pl/fls/fb_up.png
 ||investmap.pl/images/v3/ico-in.svg
@@ -9676,14 +9673,12 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||ipanema.pl/data/include/cms/BAN_KAT/PL/gplus.jpg
 ||ipanema.pl/data/include/cms/BAN_KAT/PL/pin.jpg
 ||ishopfair.net/fileadmin/_migrated/pics/youtube.png
-||izzinakarte.pl/wp-content/uploads/20*/*/fb.png
 ||jak-zdobyc-dziewczyne.pl/wp-content/uploads/*/56x56xFacebook_icon.png
 ||jak-zdobyc-dziewczyne.pl/wp-content/uploads/*/56x56xyoutube-icon.png
 ||jaktosie.pl/wp-content/uploads/20*/*/telegram-jaktosie.jpg
 ||jaslo4u.pl/module/facebook/facebook_link.jpg
 ||jedzpij.pl/public/assets/stopka/facebook.png
 ||juventus-academy.rzeszow.pl/images/sampledata/socials/facebook.png
-||kalia-sklep.pl/images/template/facebook.svg
 ||kalia-sklep.pl/images/template/instagram.svg
 ||kammar24.pl/szablony/kammar24.rwd/obrazki/sociale/
 ||kampinos.pl/zdjecia/1339762719Przyc_www.jpg
@@ -9742,7 +9737,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||malbus.pl/files/fb.png
 ||malopolskiekoleje.pl/images/grafika/facebook.png
 ||maluchy.pl/szablon/share.png
-||mamalyga.org/wp-content/uploads/20*/*/FB.png
 ||materacekolo24.pl/images/blog1.png
 ||materacekolo24.pl/images/blog2.png
 ||materacekolo24.pl/images/google.png
@@ -9881,7 +9875,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||programosy.pl/img/facebook.png
 ||projektowanie-wnetrz-online.pl/*/Fb-wtyczka.jpg
 ||przelewy24.pl/themes/base/assets/img/LI-In-48px.png
-||przyjazne-deklaracje.pl/resources/images/icons/general/social-media/facebook.svg
 ||pswbp.pl/images/admin/logosy/twitter67.jpg
 ||pswbp.pl/images/admin/logosy/youtube_logo-round1.png
 ||ptakoutlet.pl/templates/ptakoutlet/images/insta-small.png
@@ -9908,7 +9901,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||rolmax-sklep.pl/img/logo_ins_2.png
 ||rops.torun.pl/pliki/grafika/facebook.png
 ||rtvpixelagd.pl/media/wysiwyg/ikony/fb_ikona-min.jpg
-||rubo.pl/wp-content/themes/timber-starter-theme/build/images/Facebook.svg
 ||rubo.pl/wp-content/themes/timber-starter-theme/build/images/Linkedin.svg
 ||rugby.info.pl/wp-content/plugins/*/images/*/default_fb.png
 ||rugby.info.pl/wp-content/plugins/*/images/*/default_pinterest.png
@@ -10051,7 +10043,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||utrzymanieruchu.pl/fileadmin/ce/img/tmi_goldenline_.png
 ||utrzymanieruchu.pl/fileadmin/ce/img/tmi_linkedin_.png
 ||utrzymanieruchu.pl/fileadmin/ce/img/tmi_twitter_.png
-||vector.net/wp-content/themes/vectornet/assets/facebook.svg
 ||vector.net/wp-content/themes/vectornet/assets/linkedin.svg
 ||vector.net/wp-content/themes/vectornet/assets/youtube.svg
 ||vectra.pl/img/icns/ico-yt-footer.png
@@ -10303,6 +10294,7 @@ syrion.pl##.box-socials { remove: true }
 #@#.ss-social-icons-container
 #@#.td-social-icon-wrap
 4kdownload.com#@#.footer__col--community
+24jgora.pl,24wroclaw.pl,babice24.pl,bbfan.pl,bp24.pl,checkpress.pl,ciechanowinaczej.pl,ctmyslowice.pl,czaschojnic.pl,ddb24.pl,debica24.eu,dobroni.pl,dzikieradio.pl,e-kg.pl,e-sochaczew.pl,e-wyszogrod.pl,egarwolin.pl,egorzow.pl,ekoscian.eu,ekspresjaroslawski.pl,eprzasnysz.pl,eradzyn.pl,ewysmaz.pl,fakty.bialystok.pl,galopuje.pl,golub-cgd.pl,gpr24.pl,gryfinska.pl,ibemowo.pl,ibialoleka.pl,ibielany.pl,ibielsk.pl,ikampinos.pl,imokotow.pl,info.mragowo.pl,infokonin.pl,inowroclaw.info.pl,iochota.pl,iotwock.pl,ipragapolnoc.pl,ipragapoludnie.pl,irembertow.pl,iskierniewice.pl,isrodmiescie.pl,itargowek.pl,itvpiaseczno.pl,iursus.pl,iursynow.pl,iwawer.pl,iwesola.pl,iwilanow.pl,iwola.pl,izabelin24.pl,izoliborz.pl,izyrardow.pl,jaw.pl,karkonoszego.pl,kartuzy.info,konecki24.pl,koscierski.info,krasnik24.pl,kulisy.net,kurierbytowski.com.pl,kuriergmin.pl,kurierpodlaski.pl,lipno-cli.pl,losice.info,lowicz24.eu,lukow.tv,magazynnaszczycie.pl,mojestrone.com,mylomza.pl,nolesnica.pl,nowagazeta.pl,nowawrzesnia.pl,nowinybartoszyce.pl,nowinyketrzyn.pl,nowinylidzbark.pl,nowinynyskie.com.pl,nwloclawek.pl,ototorun.pl,palukimogilno.pl,palukiznin.pl,pilaonline.pl,plonszczak.pl,politykazdrowotna.com,poluje.pl,posty.pl,powiatowa.info,profitnes.pl,pultusk24.pl,radiotorun.pl,radomszczanska.pl,regionalna24.pl,rypin-cry.pl,sejny.net,siemiatycze24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,temat.net,tp.com.pl,trojmiejski.pl,tudeblin.pl,tulegnica.pl,turyki.pl,tuzywiec.pl,tygodnikregionalna.pl,wabrzezno-cwa.pl,wdi24.pl,wedkarzebezbarier.pl,wideoportal.tv,wio.waw.pl,wlodawa24.pl,wterenie.pl,zambrow.org,zegluje.pl,zlotowskie.pl,zycie.pl,zyciekalisza.pl,zyciesokolowa.pl,zyciewegrowa.pl#@#.news__share
 account.kaufland.com#@#.social-icon-facebook
 account.kaufland.com#@#.social-icon-twitter
 account.kaufland.com,komputerswiat.pl,onet.pl,realmadryt.pl,tvn24bis.pl#@#.social-container
