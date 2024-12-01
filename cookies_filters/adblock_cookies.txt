@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.11.29.0
-! Last modified: Fri, 29 Nov 2024, 21:41 UTC+01:00
+! Version: 2024.12.1.0
+! Last modified: Sun, 01 Dec 2024, 13:59 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.11.29.0 aktualizacja: pią, 29 lis 2024, 21:41 UTC+01:00
+! v.2024.12.1.0 aktualizacja: nie, 01 gru 2024, 13:59 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -3105,11 +3105,13 @@ zyro.com##.zyro-cookies
 !
 !
 ! Specyficzne filtry blokujące
+*oetker.*/static/js/privacy-dialog/
 /ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info
+/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest,domain=granice.pl|lubiegrac.pl
 /assets/cookies-info.js$script,domain=allegrolokalnie.pl
 /cookie*/bosch-privacy-settings-*.min.js$script,domain=bosch-professional.com|bosch.pl
 /cookie-banner-radio-$script,domain=felicity-lublin.pl
-/cookie-info.$domain=venezia.pl
+/cookie-info.$script,stylesheet,xmlhttprequest,domain=katowice-airport.com|venezia.pl
 /cookie.js$script,domain=coffeecave.pl|iap.pl|iaw.pl|kurnik.pl|sacz.pl
 /dc-cookie-privacy-settings.min.js$script,domain=boschrexroth.com
 /eucookies.$script,stylesheet,domain=lajfy.com
@@ -3135,6 +3137,8 @@ zyro.com##.zyro-cookies
 /whcookies.js$domain=artexhome.eu|lessmess.storage|pdinetwork.net
 /whcookiesutf.js$domain=apteka-vita.eu
 /wp-content/plugins/mm-extensions/assets/js/info-popup.js$domain=koty.pl|psy.pl
+/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=artkomnet.pl
+/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=newonce.net
 /wp-content/plugins/wp-modal-popup-with-cookie-integration/*$script,stylesheet,domain=edutorial.pl
 /wp-content/plugins/wpmagus-consent-manager/assets/*$domain=alt.pl|altenberg.pl
 /wrapperMessagingWithoutDetection.js$script,domain=computerworld.pl|idg.pl|internetstandard.pl|party.pl|pcworld.pl|ppe.pl|radio.pl
@@ -3146,7 +3150,6 @@ zyro.com##.zyro-cookies
 ||aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
 ||apteki24.waw.pl/info_cook.js
 ||architektura.info/extension/pucookies/design/base/stylesheets/pu_cookies.css
-||artkomnet.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||assets.goldenline.io/assets/user/rodoAgreement.*.js
 ||asus.com/cookienotice.json$xmlhttprequest
 ||asus.com/pl/cookienotice.json$xmlhttprequest
@@ -3189,11 +3192,8 @@ zyro.com##.zyro-cookies
 ||forumsamochodowe.pl/js/jquery.cookie.js
 ||fundacjamare.pl/*/assets/javascripts/cookies.min.js
 ||fundingchoices.google.com^$script,domain=accuweather.com
-||granice.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
 ||igimag.pl/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/lity.js
 ||itmarket.pl/modules/prestaboost/views/js/prestaboost-popup.js
-||jak-zablokowac-cookies.pl/cookies_komunikat.js$script
-||katowice-airport.com/js-libraries/cookie-info.js$script
 ||kochamwroclaw.pl/wp-content/plugins/surbma-yes-no-popup/css/styles.css
 ||kochamwroclaw.pl/wp-content/plugins/wp-terms-popup/assets/popup-style.css
 ||kolarstwo.wroclaw.pl/cook.js
@@ -3202,12 +3202,10 @@ zyro.com##.zyro-cookies
 ||legionisci.com/js/cookiepopup.js
 ||lenovozone.pl/frontend/js/sweetalert.min.js$script
 ||lovekrakow.pl/ajax/rodo
-||lubiegrac.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
 ||midea.pl/wp-content/uploads/2015/01/cookie_img.png
 ||msecnd.net/Unilever/panels/generic/PanelPrzepisy.htm?consent$subdocument
 ||muza.com.pl/modules/rodoinfo/views/js/remodal.js$script,domain=muza.com.pl
 ||mypolacy.de/addons/checkRodoSettings$xmlhttprequest
-||newonce.net/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||nike.com/*/script.js*assets=*CookieSettingsManager*loaded=nike$script
 ||nike.com/*CookieSettingsManager$xmlhttprequest
 ||odrowaz24.pl/wp-content/plugins/sintra-gdpr/$script
@@ -3219,10 +3217,6 @@ zyro.com##.zyro-cookies
 ||paypass.pl/themes/paypass/js/cookies.js$script
 ||pikio.pl/desktop/static/js/jscookie.js$script
 ||pino.pl/app/static/global/files/cookie-alert.js
-||pl/*wpjslib-chunk-consent-form.js
-||pl/*wpjslib-chunk-cookie-info.js
-||pl/*wpjslib-chunk-notification.js
-||pl/wp-content/plugins/eu-cookie-law-wp-cookie-law/$script
 ||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
 ||prywatnosc.interia.pl/rodo-iframe$subdocument
 ||pryzmat.com.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
@@ -3257,11 +3251,11 @@ zyro.com##.zyro-cookies
 ||wyprawyrowerem.pl/wp-content/plugins/popup-builder/public/js/Popup.js
 ||zgody.infor.pl/build/assets/js/main.js
 ||ztm.kielce.pl/modules/mod_rppopup/js/jquery.gafancybox.min.js
-oetker.*/static/js/privacy-dialog/
 !
 !
 !
 ! Ogólne filtry blokujące
+!/libs/cukiernia/cukiernia.js$~third-party
 /ajax/privacy_popup$xmlhttprequest,domain=pl
 /component-CookieConsent.$script,domain=pl
 /cookie-terms.
@@ -3284,7 +3278,6 @@ oetker.*/static/js/privacy-dialog/
 /js/info_o_cookie.js$script
 /js/polityka_cookies.js$script
 /libs/cukiernia/cukiernia.css$~third-party
-/libs/cukiernia/cukiernia.js$~third-party
 /libs/cukiernia/cukiernia.min.js$~third-party
 /media/plg_system_cookieconfirm$script,domain=pl
 /media/plg_system_eprivacy$script,domain=pl
@@ -3298,6 +3291,11 @@ oetker.*/static/js/privacy-dialog/
 ||cmp.optad360.io^$domain=~cmp.optad360.io
 ||cookieform.pl/assets/js/plugin.js$third-party
 ||hokuspokus.pl/themes/webtheme/js/whrodo.js
+||jak-zablokowac-cookies.pl/cookies_komunikat.js$script
+||pl/*wpjslib-chunk-consent-form.js
+||pl/*wpjslib-chunk-cookie-info.js
+||pl/*wpjslib-chunk-notification.js
+||pl/wp-content/plugins/eu-cookie-law-wp-cookie-law/$script
 ||smart.idmnet.pl/consent/
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pl
 cookie-law-popup.js$domain=pl
