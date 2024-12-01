@@ -2,7 +2,7 @@
 /assets/cookies-info.js$script,domain=allegrolokalnie.pl
 /cookie*/bosch-privacy-settings-*.min.js$script,domain=bosch-professional.com|bosch.pl
 /cookie-banner-radio-$script,domain=felicity-lublin.pl
-/cookie-info.$domain=venezia.pl
+/cookie-info.$script,xmlhttprequest,stylesheet,domain=venezia.pl|katowice-airport.com
 /cookie.js$script,domain=coffeecave.pl|iap.pl|iaw.pl|kurnik.pl|sacz.pl
 /dc-cookie-privacy-settings.min.js$script,domain=boschrexroth.com
 /eucookies.$script,stylesheet,domain=lajfy.com
@@ -39,7 +39,7 @@
 ||aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
 ||apteki24.waw.pl/info_cook.js
 ||architektura.info/extension/pucookies/design/base/stylesheets/pu_cookies.css
-||artkomnet.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
+/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=artkomnet.pl
 ||assets.goldenline.io/assets/user/rodoAgreement.*.js
 ||asus.com/cookienotice.json$xmlhttprequest
 ||asus.com/pl/cookienotice.json$xmlhttprequest
@@ -75,11 +75,9 @@
 ||forumsamochodowe.pl/js/jquery.cookie.js
 ||fundacjamare.pl/*/assets/javascripts/cookies.min.js
 ||fundingchoices.google.com^$script,domain=accuweather.com
-||granice.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
+/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest,domain=granice.pl|lubiegrac.pl
 ||igimag.pl/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/lity.js
 ||itmarket.pl/modules/prestaboost/views/js/prestaboost-popup.js
-||jak-zablokowac-cookies.pl/cookies_komunikat.js$script
-||katowice-airport.com/js-libraries/cookie-info.js$script
 ||kochamwroclaw.pl/wp-content/plugins/surbma-yes-no-popup/css/styles.css
 ||kochamwroclaw.pl/wp-content/plugins/wp-terms-popup/assets/popup-style.css
 ||kolarstwo.wroclaw.pl/cook.js
@@ -87,12 +85,11 @@
 ||legionisci.com/js/cookiepopup.js
 ||lenovozone.pl/frontend/js/sweetalert.min.js$script
 ||lovekrakow.pl/ajax/rodo
-||lubiegrac.pl/api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest
 ||midea.pl/wp-content/uploads/2015/01/cookie_img.png
 ||msecnd.net/Unilever/panels/generic/PanelPrzepisy.htm?consent$subdocument
 ||muza.com.pl/modules/rodoinfo/views/js/remodal.js$script,domain=muza.com.pl
 ||mypolacy.de/addons/checkRodoSettings$xmlhttprequest
-||newonce.net/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
+/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=newonce.net
 ||nike.com/*/script.js*assets=*CookieSettingsManager*loaded=nike$script
 ||nike.com/*CookieSettingsManager$xmlhttprequest
 ||odrowaz24.pl/wp-content/plugins/sintra-gdpr/$script
@@ -104,10 +101,6 @@
 ||paypass.pl/themes/paypass/js/cookies.js$script
 ||pikio.pl/desktop/static/js/jscookie.js$script
 ||pino.pl/app/static/global/files/cookie-alert.js
-||pl/*wpjslib-chunk-consent-form.js
-||pl/*wpjslib-chunk-cookie-info.js
-||pl/*wpjslib-chunk-notification.js
-||pl/wp-content/plugins/eu-cookie-law-wp-cookie-law/$script
 ||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
 ||prywatnosc.interia.pl/rodo-iframe$subdocument
 ||pryzmat.com.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
@@ -142,4 +135,4 @@
 ||wyprawyrowerem.pl/wp-content/plugins/popup-builder/public/js/Popup.js
 ||zgody.infor.pl/build/assets/js/main.js
 ||ztm.kielce.pl/modules/mod_rppopup/js/jquery.gafancybox.min.js
-oetker.*/static/js/privacy-dialog/
+*oetker.*/static/js/privacy-dialog/
