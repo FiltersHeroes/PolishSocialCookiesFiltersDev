@@ -107,6 +107,8 @@ appsource.microsoft.com##.cookieBanner:style(visibility: hidden !important)
 apress24.pl##.modal-popup:has-text(Polityką Prywatności)
 apress24.pl##.modals-overlay
 apress24.pl,volcano.pl##._has-modal:style(overflow: auto !important)
+aptekadlapacjenta.pl##body.overflow-hidden:style(overflow: auto !important)
+aptekadlapacjenta.pl##div.cookies-popup, div.cookies-info
 aptelia.pl,dozapteka.pl##.js-popup-cookies
 aptelia.pl,dozapteka.pl,elevensports.pl,hendi.pl,hsbc.pl,magboss.pl,meiko.pl,pl.aptoide.com##.no-scroll:style(overflow: auto !important)
 aquapark.wroc.pl###header:style(top: 0 !important)
@@ -543,6 +545,8 @@ nadajesz.pl##body.modal-open > #app, body.modal-open > footer:style(filter: none
 naekranie.pl###modal-rodo-info.show, .modal-backdrop
 nagaba.pl##.cookie-modal, .modal-backdrop
 nastyku.pl###ns_cookie_accepted
+nat.pl##body div#cookieWarning
+nat.pl##body[style]:style(overflow-y: auto !important)
 nauka.rocks##.ct-ultimate-gdpr-cookie-topPanel-padding:style(padding-top: 0 !important)
 ncm.com.pl##.pum-overlay[data-popmake*="polityka-prywatnosci"]
 neon24.pl##+js(aopr, Service.cookieMonster)
