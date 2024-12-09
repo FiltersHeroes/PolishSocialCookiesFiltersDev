@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.12.6.0
-! Last modified: Fri, 06 Dec 2024, 03:13 UTC+01:00
+! Version: 2024.12.9.0
+! Last modified: Mon, 09 Dec 2024, 21:42 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.12.6.0 aktualizacja: pią, 06 gru 2024, 03:13 UTC+01:00
+! v.2024.12.9.0 aktualizacja: pon, 09 gru 2024, 21:42 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1575,8 +1575,8 @@ balansbox.pl##.ltx-social
 baleidetale.pl##.elementor-widget-button.elementor-widget a[href*="facebook.com"]
 baleidetale.pl#?##content ~ div > div > section:first-child > div > div > div:nth-child(2) > div:-abp-contains(na fb:)
 balex.eu##.facebook-ms
-balex.eu##.jmm-social-in
 balex.eu##.youtube-ms
+balex.eu,tvnakarte.eu##.jmm-social-in
 balladine.com###widgetFb
 balneokosmetyki.pl,matteotravel.pl,przyslijprzepis.pl##.top-fb
 balomania.eu##.sk_social_icons_list > .sk_social_icon:not(.icon_skype)
@@ -8442,6 +8442,7 @@ tvn.pl##.SocialLinks
 tvn.pl##.top-media > li > a:not([href*="player.pl/"])
 tvn.pl##yennefer-island[component-url*="/SocialShare"] button
 tvn.pl#?#h3.footer-heading:-abp-has(+ .footer-media)
+tvnakarte.eu##.card:has(> .card-body > .jmm-social)
 tvokazje.pl##.Social_block
 tvonline.vectra.pl##footer a[href*="facebook.com/groups/"]
 tvp.info##.am-article__facebook, .am-article__twitter, .am-article__gplus, .info-article__social
