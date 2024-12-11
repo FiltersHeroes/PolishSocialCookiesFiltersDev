@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.12.9.0
-! Last modified: Mon, 09 Dec 2024, 21:42 UTC+01:00
+! Version: 2024.12.11.0
+! Last modified: Wed, 11 Dec 2024, 21:40 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.12.9.0 aktualizacja: pon, 09 gru 2024, 21:42 UTC+01:00
+! v.2024.12.11.0 aktualizacja: śro, 11 gru 2024, 21:40 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4301,9 +4301,12 @@ morele.net#@##cookie-consent
 nat.pl#@##cookieWarning
 pepper.pl#@#.popover--layout-fixed-bottomSheet
 pepper.pl#@#.zIndex--modal.popover-cover
+podlaskie.eu#@#.gdprcookie
 profix.com.pl,proline-tools.com.pl#@#div#cookieConsentModal
 rossmann.pl#@#.onetrust-pc-dark-filter
 san.edu.pl#@#.cookies.show:not(html):not(body)
+sinsay.com#@##cookiebanner
+sinsay.com#@##cookieBannerOverlay
 softpos.eu#@#.jsModalRodo
 sztolnie.pl,zamekgrodno.pl#@#.cky-consent-bar
 tesa.com##.-lock-overlay body::after
