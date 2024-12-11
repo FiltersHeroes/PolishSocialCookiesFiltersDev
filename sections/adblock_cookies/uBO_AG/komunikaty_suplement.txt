@@ -2,7 +2,6 @@
 !tme.eu##.o-modal-wrapper:has(img[src*="rodo.png"])
 !tme.eu##.u-overflow-hidden:style(overflow-y: auto !important)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
-podlaskie.eu##body .gdprcookie
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow: auto !important)
 17bankow.com,5mindlazdrowia.pl,abczdrowie.pl,allani.pl,audioteka.com,autocentrum.pl,autokult.pl,benchmark.pl,deliciousmagazine.pl,dobreprogramy.pl,domodi.pl,easygo.pl,extradom.pl,finansowysupermarket.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,homebook.pl,jastrzabpost.pl,kafeteria.pl,kafeteria.tv,kazimierzdolny.pl,komorkomania.pl,money.pl,nauka.rocks,nerwica.com,nocowanie.pl,o2.pl,open.fm,parenting.pl,polygamia.pl,pudelek.pl,pudelek.tv,pysznosci.pl,smaczneblogi.pl,so-magazyn.pl,superauto.pl,testwiedzy.pl,totalmoney.pl,vibez.pl,vpolshchi.pl,wakacje.pl,wp.pl##body > div > div:empty:matches-css(after, content: /K/) ~ div > svg:upward(2)
@@ -102,7 +101,7 @@ barbara.net.pl##.modal:has-text(RODO)
 barbara.net.pl,dane.gov.pl,dyzurnet.pl,makro.pl,qa-stack.pl##.modal-backdrop
 bbcpolska.com###home:style(padding-top: 0 !important)
 bebiprogram.pl,bobovita.pl##+js(set-cookie, cookie_necessary, 1)
-beko.com,burgerking.pl,bydgoszczak.pl,drogeriapigment.pl,katowiczak.pl,lyko.com,podlaskie.eu,sinsay.com,nat.pl,pozbruk.pl,smsapi.pl,spidersweb.pl,tme.eu,trzymajsiecieplo.pl,viennahouse.com,wmeritum.pl##body[style]:style(overflow-y: auto !important)
+beko.com,burgerking.pl,bydgoszczak.pl,drogeriapigment.pl,katowiczak.pl,lyko.com,nat.pl,podlaskie.eu,pozbruk.pl,sinsay.com,smsapi.pl,spidersweb.pl,tme.eu,trzymajsiecieplo.pl,viennahouse.com,wmeritum.pl##body[style]:style(overflow-y: auto !important)
 beko.pl##.cookies-margin:style(top: 0 !important)
 bezpluga.pl,ckl.pl,dlahandlu.pl,eecpoland.eu,farmer.pl,frsih.pl,housemarket.pl,infodent24.pl,mckkatowice.pl,portalsamorzadowy.pl,portalspozywczy.pl,promocjada.pl,propertydesign.pl,propertynews.pl,ptwp.pl,pulshr.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,spodekkatowice.pl,wnp.pl##.windowOpen:style(overflow: auto !important)
 bgk.pl##+js(rc, dp--cookie-consent, body, stay)
@@ -423,7 +422,7 @@ lomza.pl##html > body.polityka-cookies:style(margin-top: 0 !important; backgroun
 longines.com##body > div.MuiDialog-root:has(> div.MuiDialog-container div[class^="Cookies_Actions__"])
 lotto.pl##.privacy-popup
 loveair.pl,zenbox.pl##body.lock:style(overflow: auto !important)
-lyko.com,smsapi.pl,tme.eu,trzymajsiecieplo.pl,sinsay.com###CybotCookiebotDialog, #CybotCookiebotDialogBodyUnderlay
+lyko.com,sinsay.com,smsapi.pl,tme.eu,trzymajsiecieplo.pl###CybotCookiebotDialog, #CybotCookiebotDialogBodyUnderlay
 m.autocentrum.pl##.hello-rodo
 m.autocentrum.pl##html.menu-active:style(overflow: auto !important)
 m.leroymerlin.pl##.ReactModalPortal:has-text(Polityka prywatności)
@@ -587,6 +586,7 @@ pl.tripadvisor.com##span[data-test-name="consent"]:upward(1)
 pl.wildberries.eu##.modal--cookie.modal
 pl.wildberries.eu##body.is-hidden:style(overflow: auto !important)
 pl.wildberries.eu##html[style*="--"]:style(--scrollbar-width: 0 !important)
+podlaskie.eu##body .gdprcookie
 podleze-piekielko.pl###cookieman-modal, .modal-backdrop
 poid.eu###sfConsentOverlay.sf-consent-overlay, #sfBackground.sf-background
 poid.eu##body.sf-lockscroll:style(position: static !important; overflow: auto !important)
