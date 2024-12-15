@@ -1,0 +1,5 @@
+! dmd-biuro.pl##.ui-widget-overlay to:
+dmd-biuro.pl###page ~ #dialog-agreement
+! dmd-biuro.pl##.ui-widget.ui-dialog:has(#dialog-agreement)
+dmd-biuro.pl##+js(remove-node-text, script, dialog-agreement)
+dmd-biuro.pl##^script:has-text(dialog-agreement)
