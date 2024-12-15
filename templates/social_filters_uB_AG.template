@@ -35,6 +35,9 @@
 !#if cap_html_filtering
 @include widgety_html
 !#endif
+!#if env_legacy
+@include widgety_legacy
+!#endif
 !
 !
 ! Ulepszenia CSS
