@@ -49,6 +49,10 @@
 !#endif
 !#endif
 !
+!#if env_legacy
+@include komunikaty_UXP
+!#endif
+!
 !#if !env_mobile
 @include komunikaty_niemobilne
 !#endif
