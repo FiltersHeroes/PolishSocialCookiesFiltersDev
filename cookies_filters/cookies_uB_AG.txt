@@ -747,9 +747,6 @@ techmot24.pl##html[style]:style(overflow-y: auto !important; padding-right: 0 !i
 telepizza.pl##.navbar:style(margin-top: 0 !important)
 tesa.com##.cookie-notice__content
 tesa.com##html.-locked:style(overflow-y: auto !important)
-tfiagro.pl##.el-cookies
-tfiagro.pl##body.e-cookies nav:style(top: 0 !important)
-tfiagro.pl##body.e-cookies:remove-class(e-cookies)
 ticketos.pl##div[class]:not([id])[role="dialog"]:has-text(RODO)
 tinder.com###content .App > div[class^="Pos"][class*="Start"]:has-text(plików cookie)
 tinder.com###content .App main div[class^="Pos"][class*="NetHeight"]:style(height: 100% !important)
@@ -1134,8 +1131,8 @@ ubi2.wit.edu.pl##+js(set-cookie-reload, GPRD, 128)
 !#endif
 !
 !#if env_legacy
-!tfiagro.pl##+js(rc, e-cookies, body.e-cookies, complete)
 bgk.pl##+js(rc, dp--cookie-consent, body, stay)
+dmd-biuro.pl##script:contains(dialog-agreement)
 dobrapogoda24.pl##+js(ra, class, body[class="modal-open"], stay)
 dominospizza.pl##+js(rc, cookies-visible, #aside.cookies-visible, stay)
 dominospizza.pl##+js(rc, cookies-visible, aside.cookies-visible, stay)
