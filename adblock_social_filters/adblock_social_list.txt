@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.12.15.1
-! Last modified: Sun, 15 Dec 2024, 23:29 UTC+01:00
+! Version: 2024.12.18.0
+! Last modified: Wed, 18 Dec 2024, 03:09 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.12.15.1 aktualizacja: nie, 15 gru 2024, 23:29 UTC+01:00
+! v.2024.12.18.0 aktualizacja: śro, 18 gru 2024, 03:09 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -7019,6 +7019,7 @@ przyszloscdladzieci.org##a.banner:nth-of-type(3)
 psboy.pl##.footer > .fl
 psgaz.pl##.footer-nav__social
 psibufet.pl##.subfooter__social-links
+psibufet.pl##div[class^="Footer-module__socialLinks_"]
 psm.tl24.pl##span[onclick="w3_open_fb()"]
 psprices.com##.fa-vk, a[href*="vk.com/psprices"], a[href*="facebook.com/PSPricescom-PL-1013336435411612"]
 psur.pl###sidebar > div:nth-of-type(4)
