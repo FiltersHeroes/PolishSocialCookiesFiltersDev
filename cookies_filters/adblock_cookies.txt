@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.12.16.0
-! Last modified: Mon, 16 Dec 2024, 03:17 UTC+01:00
+! Version: 2024.12.20.0
+! Last modified: Fri, 20 Dec 2024, 21:39 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.12.16.0 aktualizacja: pon, 16 gru 2024, 03:17 UTC+01:00
+! v.2024.12.20.0 aktualizacja: pią, 20 gru 2024, 21:39 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4276,6 +4276,9 @@ danio.com.pl#@#.cookies-header
 danio.com.pl#@#.cookies-modal:not(body):not(html)
 danio.com.pl#@#.cookies-text
 danio.com.pl,nat.pl#@##cookies-modal
+dpcraft.pl#@#.cookiesBackground
+dpcraft.pl#@#.cookiesPopup
+dpcraft.pl#@#div#cookiePopup
 entra.pl,grupabiwakowa.pl,nowymarketing.pl#@##cmplz-cookiebanner-container
 entra.pl,grupabiwakowa.pl,nowymarketing.pl#@##cmplz-manage-consent
 entra.pl,grupabiwakowa.pl,nowymarketing.pl#@#.cookie-statement
