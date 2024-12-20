@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.12.18.1
-! Last modified: Wed, 18 Dec 2024, 21:41 UTC+01:00
+! Version: 2024.12.20.0
+! Last modified: Fri, 20 Dec 2024, 21:39 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.12.18.1 aktualizacja: śro, 18 gru 2024, 21:41 UTC+01:00
+! v.2024.12.20.0 aktualizacja: pią, 20 gru 2024, 21:39 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2726,6 +2726,7 @@ download.net.pl##.socials-vertical
 doz.pl##.mobile-links__social
 doz.pl##.social--right.social
 doz.pl##div.footer__col:nth-of-type(6)
+dpcraft.pl,drzwimartom.pl,dstreet.pl,idosell.com,klima-venta.pl,luxdentica.pl,zegaryzegarki.pl##.social_media
 dpd.com##div[id^="dpd_social_accounts_"]
 dragon-survival.eu,prawokonsumenckie.pl##footer > div > div > div:nth-of-type(4)
 drama-online.pl,economico.pl,miejscawewroclawiu.pl,naszglospoznanski.pl,niezlomni.com,tarnow.ikc.pl##.widget_facebook
@@ -2772,7 +2773,6 @@ drzwi-cal.pl##.socials-sharing
 drzwi-dabs.pl##.site-footer > div > section:first-child > div:nth-child(3)
 drzwi-gerda.com##footer #top-footer #nav_menu-2
 drzwiklamki.pl###social_block, #left_share_fb, .social-sharing
-drzwimartom.pl,dstreet.pl,idosell.com,klima-venta.pl,luxdentica.pl,zegaryzegarki.pl##.social_media
 drzwioknabramy.eu,sklep.siapre.pl,smartserwis24.pl##.socialsharing_product
 drzwioknabramy.eu,zippedshoes.com###facebook-content
 drzwionline.net#?#h5:-abp-contains(ODWIEDŹ NAS)
@@ -9087,10 +9087,12 @@ www.citibankonline.pl##.footer-icon-twitter
 www.citibankonline.pl##.footer-icon-youtube
 www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class] > span:-abp-contains(/^Udostępnij:?$/) + div:nth-child(2) > button:nth-child(-n+2)
 www.dobreprogramy.pl#?#div[data-scroll-lock-scrollable] > aside > div:nth-child(2):-abp-contains(Obserwuj nas na)
+www.google.com,www.google.pl##.app-imagery-mode div[jsaction="modal.backgroundClick"] > div[jsan] div.k9Fsie > button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
 www.google.com,www.google.pl##.chr-footer-social
 www.google.com,www.google.pl##.ddl-facebookButton_
 www.google.com,www.google.pl##.ddl-twitterButton_
-www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:nth-of-type(-n+2)
+www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/facebook_"], img[src*="social/x_"])
+www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
 www.google.com,www.google.pl##div[data-attrid*="social media presence"] span, div[data-attrid*="social media presence"] a
 www.google.com,www.google.pl#?##modal-dialog div[class*="-share-"] button[class*="-share-"]:-abp-has(img[src*="svg"])
 www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^(Facebook|X|WhatsApp)$/)
