@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.12.22.2
-! Last modified: Sun, 22 Dec 2024, 17:41 UTC+01:00
+! Version: 2024.12.23.0
+! Last modified: Mon, 23 Dec 2024, 03:05 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.12.22.2 aktualizacja: nie, 22 gru 2024, 17:41 UTC+01:00
+! v.2024.12.23.0 aktualizacja: pon, 23 gru 2024, 03:05 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -825,7 +825,7 @@ pl,~wykop.pl##.wykop
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,~wp.pl,wp.pl#?#article ~ div span:-abp-contains(Dołącz do nas)
+~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~wp.pl#?#article ~ div span:-abp-contains(Dołącz do nas)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="facebook.com/"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="instagram.com/"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="tiktok.com/"]
@@ -3612,7 +3612,6 @@ gampre.pl,teatrlalek.olsztyn.pl,wschodnik.pl##.icon-youtube-play
 gangprodukciakow.pl##.footer_section header + ul li:has(a[href*=".com/"])
 gangprodukciakow.pl##.social-media > ul
 gangprodukciakow.pl#?#.footer_section header:has-text(Obserwuj nas)
-ganjamafiashop.com##.social-block-header, .social-block-container
 gardenbx.pl#?#.fusion-column-wrapper > .title.fusion-title > h3:-abp-contains(Dołącz do nas)
 garett.com.pl##.bottom-footer > div.footer-col:nth-of-type(3)
 garmin.com##.gf__social
@@ -4625,7 +4624,6 @@ kochanamama.pl##.pmpIFb, .pmpIGp, .pmpIYt
 kodilla.com##.row a[href*="facebook.com/kodillaCom/"]
 kodiwpigulce.pl##.footer-sidebar.sidebar:nth-of-type(4)
 kodolamacz.pl,slow7.pl##.asocials
-kofh.pl##.belka_top > a
 kogis.pl##nav .fb
 kohai.pl##.c-footer-nav--2.c-footer-nav a
 koicosmetics.pl#?#footer strong:-abp-contains(NASZE SOCIAL MEDIA)
@@ -4949,7 +4947,6 @@ leclerc.rzeszow.pl##.dolacz
 leclerckatowice24.pl##.lc-footer-social-icons
 lecnawakacje.pl##.classPageGenerator_default_bottom_socialMedia
 leczna24.pl##.btn[href*="facebook.com/"]
-led-zarowki.eu##.KolumnaPortale > ul > li
 leftlane.pl##a[href="youtube.com/c/LeftlanePl"], a[href="instagram.com/leftlanepl/"], a[href="facebook.com/leftlanepl/"]
 legalniewsieci.pl##.news-footer .socials
 legalniewsieci.pl##.row > .socials > :not(a[href*="mailto:"])
@@ -5833,7 +5830,6 @@ naszraciborz.pl,naszrybnik.com,naszwodzislaw.com###socios_right
 naszraciborz.pl,naszrybnik.com,naszwodzislaw.com##.socials > a:not(.print)
 naszraciborz.pl,naszrybnik.com,naszwodzislaw.com##.socios
 naszraciborz.pl,naszrybnik.com,naszwodzislaw.com##a.share:not(.comments_s)
-naszswiat.net##.t3-footnav #Mod233, .t3-footnav #Mod234
 nasztomaszow.pl#?#.row.article_summary p:-abp-contains(Podziel się)
 nasztomaszow.pl#?#.sidebar > .widget:-abp-has(a[href*="facebook.com/"])
 natgeotv.com###SocialFooter
