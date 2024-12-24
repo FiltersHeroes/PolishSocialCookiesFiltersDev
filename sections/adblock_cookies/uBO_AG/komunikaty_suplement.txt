@@ -191,6 +191,7 @@ dawg.pl###popup-modal-dawg, .modal-backdrop
 dbschenker.com##body[class*="no-scroll"], html[class*="no-scroll"]:style(overflow-y: auto !important)
 dbschenker.com##footer .dialog:has(a[href*="/meta/privacy-policy"])
 delikarta.pl,opteam.pl,tanikurier.com###cookieModal
+diver.net.pl##+js(set-cookie, test, allow)
 dkms.pl##.cc-window-active:style(overflow-y: auto !important)
 dkms.pl##.cc-window[aria-label]
 dm.pgi.gov.pl###ispmodal, .modal-backdrop, .jquery-modal
@@ -261,7 +262,6 @@ emuia1.gugik.gov.pl##+js(set-cookie, cookieMessageHide, true)
 enerad.pl##.wt-cli-cookie-bar-container
 entra.pl,grupabiwakowa.pl,nowymarketing.pl##+js(set-cookie, cmplz_banner-status, dismissed)
 entra.pl,grupabiwakowa.pl,nowymarketing.pl##+js(set-cookie, cmplz_marketing, allow)
-diver.net.pl##+js(set-cookie, test, allow)
 epicdrama.pl##.ui-modal[id^="modal_cookie"]
 epicdrama.pl,odrabiamy.pl,patronite.pl##.blur:style(filter: none !important)
 erli.pl##body > #root ~ div[class*=" "]:has(header:has-text(Ustawienia prywatności i cookies))
