@@ -98,7 +98,6 @@ apptoyou.pl##div.clickable-element img[src*="in.svg"]:upward(div)
 autokult.pl,fitness.wp.pl,fotoblogia.pl,komorkomania.pl,smaczneblogi.pl##.grid-item__social.grid-item:style(visibility: hidden !important; display: block !important; padding-top: 0 !important)
 bankobranie.blogspot.com###sideSocial:style(height: auto !important)
 barokko.pl##div[class^="platnosci"] > a[href*="facebook.com/"]:remove-attr(href)
-blog.wirtualnemedia.pl###social_ikons_header_fixed:style(visibility: hidden !important)
 boop.pl##article ~ div p a.uppercase[class*="hover:"]:remove-attr(class)
 boop.pl##article ~ div p a[href*="dc"]:remove-attr(href)
 carrefour.pl##div > p ~ div > a[href*="sharer"] ~ a[href*="share"]:upward(2)
@@ -241,7 +240,7 @@ dobreprogramy.pl##.social__group > .social__label
 f.kafeteria.pl###ipsLayout_mainArea > .ipsList_inline > li > .cShareLink
 purepc.pl##.right.article-options
 wp.pl##.liketag, .wpsocials--buttons:style(visibility: hidden !important)
-zdrowie.tvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta:style(visibility: hidden !important)
+zdrowietvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta:style(visibility: hidden !important)
 !#endif
 !#if !cap_html_filtering
 homebeer.pl##+js(ra, href|title, a.slider-img[href="https://pl-pl.facebook.com/homebeerpl/"])
