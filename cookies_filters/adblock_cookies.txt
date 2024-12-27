@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.12.25.1
-! Last modified: Wed, 25 Dec 2024, 20:34 UTC+01:00
+! Version: 2024.12.27.0
+! Last modified: Fri, 27 Dec 2024, 19:23 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.12.25.1 aktualizacja: śro, 25 gru 2024, 20:34 UTC+01:00
+! v.2024.12.27.0 aktualizacja: pią, 27 gru 2024, 19:23 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4218,13 +4218,13 @@ wolframalpha.com##footer ~ section
 !
 !
 ! Bugi ELC
-@@/complianz.$script,domain=entra.pl
-@@/complianz.$script,domain=nowymarketing.pl
+@@/complianz-$script,domain=entra.pl|grupabiwakowa.pl|nowymarketing.pl
+@@/complianz.$script,domain=entra.pl|grupabiwakowa.pl|nowymarketing.pl
+@@/jquery.cookiebar.js$domain=shinden.pl
 @@/otBannerSdk.js$domain=avanti24.pl|bankier.pl|bethesda.net|blaklader.pl|carrefour.pl|cartoonito.pl|czterykaty.pl|dyskusje24.pl|edziecko.pl|elle.pl|elleman.pl|essilor.pl|focus.pl|focusnauka.pl|g.pl|gazeta.pl|gazeta.tv|glamour.pl|gry.pl|haps.pl|hapsvod.pl|ikea.com|infoladnydom.pl|infozdrowie24.pl|kobieta.pl|magazyn-kuchnia.pl|mojegotowanie.pl|mojpieknyogrod.pl|moto-wiadomosci.pl|moto.pl|national-geographic.pl|olx.pl|pizzahut.pl|player.pl|plotek.pl|przyslijprzepis.pl|sport.gwar.pl|sport.pl|tokfm.pl|toteraz.pl|tvn.pl|tvn24.pl|ugotuj.to|wpodrozy24.pl|wyborcza.pl
 @@/wpjslib-ecom.js$domain=17bankow.com
 @@/wpjslib-stat.js$domain=nauka.rocks
 @@||cdn.cookielaw.org^$domain=rossmann.pl
-@@||grupabiwakowa.pl/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js
 @@||sdk.privacy-center.org/*/loader.js$script,domain=bonduelle.pl
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=aldi.pl
 ###ba_eu_cookie_law:not(form)
