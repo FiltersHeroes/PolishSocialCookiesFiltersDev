@@ -2788,8 +2788,8 @@ telemedi.co##.banner-cookies-2
 telewizjarepublika.pl###swsmodal, #swsoverlay
 telpol.net.pl##footer .clr > br ~ b
 tem.com.pl###block-block-29
-temu.com##div:not([id]):not([class]):has(> div[class]:empty + div > div:has-text(Polityka prywatności))
-temu.com##div:not([id]):not([class]):has(> div[role="dialog"] > div[class]:empty + div > div:has-text(Polityka prywatności))
+temu.com##div:not([id], [class]):has(> div[class]:empty + div > div:has-text(Polityka prywatności))
+temu.com##div:not([id], [class]):has(> div[role="dialog"] > div[class]:empty + div > div:has-text(Polityka prywatności))
 temu.com#?##message-wrapper.message-wrapper ~ div:-abp-has(> div > div > div > span ~ span:-abp-contains(cookie policy))
 teraz-srodowisko.pl###cookies_preferences
 termedia.pl###acceptCookiesId
