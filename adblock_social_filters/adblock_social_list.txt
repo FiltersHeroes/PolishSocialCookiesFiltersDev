@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.12.27.0
-! Last modified: Fri, 27 Dec 2024, 21:38 UTC+01:00
+! Version: 2024.12.28.0
+! Last modified: Sat, 28 Dec 2024, 02:56 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.12.27.0 aktualizacja: pią, 27 gru 2024, 21:38 UTC+01:00
+! v.2024.12.28.0 aktualizacja: sob, 28 gru 2024, 02:56 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -8027,6 +8027,7 @@ stop-cham.pl###block-2
 stopnadwadze.pl###bottom-bar
 stoprocent.com###social-sticky
 store.canon.pl##.primary-social-icons
+store.steampowered.com##.linkbar:has(.social_account)
 store.steampowered.com##a[class^="discussionwidget_ShareBtn_"]
 store.steampowered.com##a[onclick^="ShowShareDialog"]
 stormmedia.gg##.absolute ~ div a[href="/"] ~ div a[class*="scale-125"][href*=".com/"]
