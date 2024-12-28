@@ -1,8 +1,8 @@
-name: 'Blokada wątków'
+name: 'Ochroniarz'
 
 on:
   schedule:
-    - cron: '0 2 * * */3'
+    - cron: '0 0 24 * *'
 
 jobs:
   lock:
