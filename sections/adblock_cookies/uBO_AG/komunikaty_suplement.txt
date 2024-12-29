@@ -54,8 +54,8 @@ analizy.pl##.nl_rodo, .ui-widget-overlay
 analizy.pl,dasweltauto.pl,edupolis.pl,mago.com##html:style(overflow-y: auto !important)
 andrychow.eu,candeo.pl,defra.pl,fdds.pl,gadu-gadu.pl,gazetabilgoraj.pl,gg.pl,informatorium.ksiaznica.torun.pl,koleje-wielkopolskie.com.pl,manageronline.pl,ncm.com.pl,powiat.limanowski.pl,przegladpolityczny.pl,wschowa.info,zgrp.pl##.pum-open:style(overflow-y: auto !important)
 andrychow.eu,candeo.pl,defra.pl,fdds.pl,gadu-gadu.pl,gazetabilgoraj.pl,gg.pl,informatorium.ksiaznica.torun.pl,koleje-wielkopolskie.com.pl,manageronline.pl,powiat.limanowski.pl,przegladpolityczny.pl,serialowa.pl,wschowa.info,zgrp.pl##.pum-overlay[data-popmake*="cookies"]
-answear.com##body > div.modal:has(> div[class*="grid"] > [class*="CookiesConsentPopUp"])
-answear.com##body.modal--open:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
+answear.com##body > div[class*="modal" i]:has(> div[class] > [class*="CookiesConsentPopUp" i])
+answear.com##body.modal--open:style(position: static !important; overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 apollo.pl##.remodal-wrapper:has(#cookies_modal)
 apollo.pl##body[style]:style(padding-right: 0 !important)
 apollo.pl,kupbilecik.pl,panbilet.pl,pl.tommy.com##.remodal-is-locked:style(overflow-y: auto !important)
