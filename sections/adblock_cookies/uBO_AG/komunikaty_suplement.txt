@@ -1,3 +1,6 @@
+girlandowo.pl##body[style], html[style]:style(overflow-y: auto !important)
+girlandowo.pl##dialog:has(a[href*="/polityka-prywatnosci/"]):remove()
+girlandowo.pl##div[consent-skip-blocker][data-bg][style*="background"]
 lunares.pl###consent_modal, .modal-backdrop
 lunares.pl##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 erbis.com.pl##body.cookie-opened:style(position: static !important; overflow-y: auto !important)
