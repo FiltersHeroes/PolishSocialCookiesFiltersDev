@@ -259,9 +259,9 @@ entra.pl,grupabiwakowa.pl,nowymarketing.pl##+js(set-cookie, cmplz_banner-status,
 entra.pl,grupabiwakowa.pl,nowymarketing.pl##+js(set-cookie, cmplz_marketing, allow)
 epicdrama.pl##.ui-modal[id^="modal_cookie"]
 epicdrama.pl,odrabiamy.pl,patronite.pl##.blur:style(filter: none !important)
-erbis.com.pl##div#cookie-container
 erbis.com.pl,goodram.com##body.cookie-opened:remove-class(cookie-opened)
 erbis.com.pl,goodram.com##body.cookie-opened:style(position: static !important; overflow-y: auto !important)
+erbis.com.pl,goodram.com##div#cookie-container
 erli.pl##body > #root ~ div[class*=" "]:has(header:has-text(Ustawienia prywatności i cookies))
 eschenker.dbschenker.com###es-shell-overlay-container:has(es-privacy-modal)
 eschenker.dbschenker.com##.es-shell-global-scrollblock:style(overflow-y: auto !important)
@@ -312,7 +312,6 @@ gitara-sklep.pl##body:style(padding-top: 0 !important)
 gmina-aleksandrow.pl,grabow.pl,raciazek.pl###g_toplayer
 goldenline.pl###profiling-agreement, .modal-backdrop
 goldenline.pl###react-portals:has(.cookie-modal)
-goodram.com##div#cookie-container
 grupabiwakowa.pl##div#cmplz-cookiebanner-container
 grupabiwakowa.pl,nowymarketing.pl##+js(set-cookie, cmplz_functional, allow)
 grupapsb.com.pl###js_CookiesHeader
