@@ -1,5 +1,3 @@
-wanapix.pl##html[style*="overflow"]:style(overflow-y: auto !important)
-wanapix.pl###headlessui-portal-root
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow-y: auto !important)
@@ -628,7 +626,7 @@ qa-stack.pl###cookies-consent
 quadgraphics.pl##.blur:style(filter: none !important; pointer-events: unset !important)
 quadgraphics.pl##.rodo-information-popup, .fixed-layer-information
 r.pl##div[class*="r-consent-"][class*="modal"]
-r.pl##html[style*="overflow"]:style(overflow-y: auto !important)
+r.pl,wanapix.pl##html[style*="overflow"]:style(overflow-y: auto !important)
 radio17.pl##+js(aeld, /^(?:wheel|keydown)$/, [native code])
 radio17.pl##.v-dialog__content:has(button[data-cy="gdpr-accept"])
 radio17.pl##.v-overlay
@@ -693,8 +691,8 @@ sztolnie.pl,zamekgrodno.pl##+js(set, _ckyConfig, undefined)
 tabelaofert.pl###cookies-baner-open
 tabelaofert.pl###cookies-baner-wrapper
 tabelaofert.pl##body.colorbox-open:style(overflow-y: auto !important)
-talentdays.pl###headlessui-portal-root
 talentdays.pl##html:style(overflow-y: auto !important; padding-right: 0 !important)
+talentdays.pl,wanapix.pl###headlessui-portal-root
 taniey.pl###consent-mode-modal, .modal-backdrop
 taniey.pl##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important)
 tatuum.com###cookie-modal___BV_modal_outer_
