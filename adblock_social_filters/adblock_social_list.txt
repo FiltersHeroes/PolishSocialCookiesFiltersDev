@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista Fanboy's Social Blocking List i EasyList/AdGuard Base!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.12.29.0
-! Last modified: Sun, 29 Dec 2024, 20:14 UTC+01:00
+! Version: 2024.12.29.1
+! Last modified: Sun, 29 Dec 2024, 20:40 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2024 Certyficate IT
 ! Copyright © 2024 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.12.29.0 aktualizacja: nie, 29 gru 2024, 20:14 UTC+01:00
+! v.2024.12.29.1 aktualizacja: nie, 29 gru 2024, 20:40 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1088,7 +1088,7 @@ agronews.com.pl,eurowizja.org,gazetaregionalna.com,gizycko.info,kurier-kolejowy.
 agroperfekt.pl##.rssocial-custom-icon[href*="instagram.com/"]
 agroperfekt.pl,apolanka.pl,bona-ppetit.pl,kam-tech.com.pl,mckenzie.pl,owbaltyk.pl,rolpolopalenica.pl,rozruch-startgum.pl##.rssocial-facebook-icon
 agroperfekt.pl,czemarol.pl,materialybudowlanekrokowa.pl,owbaltyk.pl##.rssocial-youtube-icon
-agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,klaudynahebda.pl,kreatywna.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,pekao.com.pl,polskieradio24.pl,pomagam.pl,proformat.pl,radioq.fm,saketos.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
+agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,klaudynahebda.pl,kreatywna.pl,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,pekao.com.pl,polskieradio24.pl,pomagam.pl,proformat.pl,radioq.fm,saketos.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
 agrosiec.pl##.fixed > a[href*=".com/"][target="_blank"]
 agrosimex.pl##.icon-Youtube
 agrosimex.pl##a.social-icon
@@ -6954,6 +6954,7 @@ prevac.pl##.media_ic
 prezenty.pl,supergrosz.pl##div.footerColumn:nth-of-type(3)
 prezydent.pl##.articles-footer > .section-title
 primamoda.com.pl##.footer > .row > div > div > div.col-4
+primark.com###social-links-group
 primocappuccino.pl##.sidebar-box > div.widget-box.widget_text:nth-of-type(3), .sidebar-box > div.widget-box:nth-of-type(5), .sidebar-box > div.widget-box:nth-of-type(6), .sidebar-box > div.widget-box:nth-of-type(7)
 prk24.pl##.instagram-module
 prnews.pl##.prne-socials
@@ -10334,7 +10335,7 @@ syrion.pl##.box-socials { remove: true }
 !#endif
 !
 !
-! Bugi Fanboy's Social Blocking List
+! Bugi EasyList Social
 @@/dynamic_content/*_icon_google_play$image,domain=pilot.wp.pl
 @@/footer-social-$image,domain=dm.pl
 @@/googleplus-$image,domain=wirtualnemedia.pl
