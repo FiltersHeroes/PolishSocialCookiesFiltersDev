@@ -1251,8 +1251,7 @@ goldwell.com##.js-PrivacyNotice
 golfparkspoland.pl,pzgolf.pl###infoCookieWrapper
 gomez.pl##.window-police
 goodgifts.eu###cookie-law-container
-goodie.pl#?#body > #body-wrapper ~ div[class]:not([id]):last-child:-abp-has(> div > span > a[href*="/ochrona-danych"])
-goodie.pl#?#footer ~ div[class]:not([id]):-abp-has(span > [href="/ochrona-danych"])
+goodie.pl##main#main-container > div > div:has(> span > a[href="/ochrona-danych"]):has(> span + button[aria-label="close"])
 goodlookin.pl##div > div > div > .toplayaa
 goout.net##.cookieBar
 gopr.org,lca.pl,onlinekredyty.pl,torbapapierowa.pl###popupDiv
