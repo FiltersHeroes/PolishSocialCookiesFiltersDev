@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.1.0
-! Last modified: Wed, 01 Jan 2025, 13:42 UTC+01:00
+! Version: 2025.1.1.1
+! Last modified: Wed, 01 Jan 2025, 17:43 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.1.0 aktualizacja: śro, 01 sty 2025, 13:42 UTC+01:00
+! v.2025.1.1.1 aktualizacja: śro, 01 sty 2025, 17:43 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -474,6 +474,7 @@ blikomania.pl,culture.pl,rejestr.io,sso.epf.org.pl,toogoodtogo.pl##.Cookie
 blix.pl,libertex.com,tenit.com.pl###gdpr
 blog4u.pl##div[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blog-pozyczoneiniebieskie.pl###cookie_info_container
+blog.rememberthemilk.com##.tmblr-iframe--gdpr-banner
 blogasek.pl###j_all > div[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blogger.com#?#[aria-label="Powiadomienia z Bloggera"]:-abp-contains(cookie)
 bluecity.pl##.gp-gdpr__belt
@@ -808,7 +809,6 @@ domix-agro.pl,politykabezpieczenstwa.pl,rzetelnyregulamin.pl,tania-bielizna.pl##
 dommania.pl##.footer-max-width > .row > div[class]:first-of-type > :nth-child(n+3):nth-child(-n+4)
 domneo.pl##div[class^="GDPRPopup"]
 domnet.pl,jakbudowac.pl##.dialog-fixed
-domnowoczesny.com,grupapsb.com.pl##.popup-container
 domodi.pl##.dm-cookie-message
 domoplus.pl,kuchniaplus.pl,miniminiplus.pl,teletoonplus.pl###cpb.rodoLayer
 domowefrytki.com##.site-footer section:last-child .elementor-widget-text-editor .elementor-text-editor p[style*="center"]
@@ -1767,7 +1767,6 @@ lvbet.pl###js-cookie-popup
 lyconet.com,ogloszeniowa.net###cookie-box
 m-tac.pl##.mess-bg
 m.benchmark.pl###private-policy-popup
-m.ceneo.pl##.js_popupContainer.popup-container
 m.facebook.com,touch.facebook.com###header-notices
 m.mapahandlu.pl#?#.ui-footer .ui-title:-abp-contains(pliki cookies)
 m.twitch.tv##div.tw-modal-layer:has(div[class*="react-modal"] div > a[href*="/cookie-policy"] ~ a[href*="/cookie-policy"])
@@ -1945,7 +1944,6 @@ mpoint.pl#?#.fancybox-wrap:-abp-has(#conditions_condition)
 mpoint.pl,zbiornikinadeszczowke.com##.fancybox-overlay
 mpolska24.pl##div[class^="infoBox"]
 mpwik-milanowek.pl###mpwikNotice
-mrowka.com.pl#?#.popup-container:-abp-has(.popup-button-agree)
 ms.pl,spolem.olawa.pl##.dialog-lightbox-message.dialog-message
 msd.pl,whatsapp.com###banner
 mshop.huawei.com###cookie_notices
@@ -3204,6 +3202,7 @@ zyro.com##.zyro-cookies
 ||pikio.pl/desktop/static/js/jscookie.js$script
 ||pino.pl/app/static/global/files/cookie-alert.js
 ||player.pl/playerapi/document/rodo-short/content$xmlhttprequest
+||pro-link.pl/consentmode$script
 ||prywatnosc.interia.pl/rodo-iframe$subdocument
 ||pryzmat.com.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||ptwp.pl/fs/js/jquery.cookie.js$script,domain=4dd.pl
