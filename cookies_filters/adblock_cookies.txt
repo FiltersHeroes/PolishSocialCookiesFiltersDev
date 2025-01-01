@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2024.12.30.0
-! Last modified: Mon, 30 Dec 2024, 21:38 UTC+01:00
+! Version: 2025.1.1.0
+! Last modified: Wed, 01 Jan 2025, 13:42 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -16,10 +16,10 @@
 ! Redundant Checker => https://www.certyficate.it/redundant_checker/redundantRuleChecker.html
 ! Opcjonalne rozszerzenie uzupełniające „Polska Ciasteczkowa Zgoda" => https://github.com/FiltersHeroes/PolishCookieConsent#jak-zainstalowa%C4%87
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
-! Copyright © 2024 Certyficate IT
-! Copyright © 2024 Filters Heroes
+! Copyright © 2025 Certyficate IT
+! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2024.12.30.0 aktualizacja: pon, 30 gru 2024, 21:38 UTC+01:00
+! v.2025.1.1.0 aktualizacja: śro, 01 sty 2025, 13:42 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4295,6 +4295,8 @@ podlaskie.eu#@#.gdprcookie
 profix.com.pl,proline-tools.com.pl#@#div#cookieConsentModal
 rossmann.pl#@#.onetrust-pc-dark-filter
 san.edu.pl#@#.cookies.show:not(html):not(body)
+secure.checkout.visa.com#@#.eu-cookie-message
+secure.checkout.visa.com#@#section.cookie-banner
 sinsay.com#@##cookiebanner
 sinsay.com#@##cookieBannerOverlay
 softpos.eu#@#.jsModalRodo
