@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.2.0
-! Last modified: Thu, 02 Jan 2025, 21:39 UTC+01:00
+! Version: 2025.1.3.0
+! Last modified: Fri, 03 Jan 2025, 03:03 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.2.0 aktualizacja: czw, 02 sty 2025, 21:39 UTC+01:00
+! v.2025.1.3.0 aktualizacja: pią, 03 sty 2025, 03:03 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -9165,6 +9165,8 @@ www.adobe.com##footer #gnav_709
 www.asta24.pl##.social .tw
 www.auchan.pl#?#.row.no-gutters.justify-center > .col-12:-abp-has(> .row.no-gutters.justify-center p.text-center:-abp-contains(/^ Śledź nas na portalach społecznościowych $/))
 www.beko.com##.FooterTop__socialIcons
+www.bing.com##.sharescroller a[title^="Udostępnij na"][href^="javascript"]
+www.bing.com##ol#b_context .b_sideBleed .b_subModule:has(.socialProfile)
 www.citibankonline.pl##.footer-icon-twitter
 www.citibankonline.pl##.footer-icon-youtube
 www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class] > span:-abp-contains(/^Udostępnij:?$/) + div:nth-child(2) > button:nth-child(-n+2)
