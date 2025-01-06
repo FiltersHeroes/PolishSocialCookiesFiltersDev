@@ -1,5 +1,8 @@
+darlowo.pl##dialog[class]:has(div[role="heading"]:has-text(Preferencje dot. prywatności)):remove()
+darlowo.pl##div[class][style*="backdrop"]:empty
 starachowice.eu##.gdprcookie
 starachowice.eu##body[style]:style(overflow-y: auto !important)
+darlowo.pl##body[style], html[style]:style(overflow-y: auto !important)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow-y: auto !important)
