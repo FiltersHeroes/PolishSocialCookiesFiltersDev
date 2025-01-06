@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.3.0
-! Last modified: Fri, 03 Jan 2025, 21:39 UTC+01:00
+! Version: 2025.1.6.0
+! Last modified: Mon, 06 Jan 2025, 03:08 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.3.0 aktualizacja: pią, 03 sty 2025, 21:39 UTC+01:00
+! v.2025.1.6.0 aktualizacja: pon, 06 sty 2025, 03:08 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -185,7 +185,6 @@ alles-bhp.pl###contGlowny > div[style*="position"][style*="fixed"]:not([id], [cl
 alles.pl,e-marilyn.pl#?#.alert:-abp-contains(ciasteczek)
 allianz.pl##.region-disclaimer-component
 allpaka.eu,amico.market,artexhome.eu,astronomia24.com,budmax.eu,camprest.com,czarnkow.info,dacpol.eu,ekoenergia24.eu,fotmar.eu,gazetaswietojanska.org,goleniowska.com,goryonline.com,ikrakow.info,integracja.org,inzynieria.com,iotwock.info,iwaniska.eu,koronakaszub.eu,krzysztof-bus.eu,lessmess.storage,lowicz24.eu,master-sport.de,medianarodowe.com,mensahome.eu,nadarzyn.tv,ontrack.com,opoczno.info,pdinetwork.net,psychologiazycia.com,raczkowski.eu,reporterzy.info,sejny.net,server-pps.com,staypoland.com,suwalki.info,szczecinek.com,tanidrut.com,transportnews.eu,visitwroclaw.eu,wagrowiec.eu,wici.info,x-moto.eu,yuliyababich.eu,zajefajna.com,zambrow.org,zuu.systems###cookies-message-container
-allsporter.com##.cookies-ct
 allthejobs.pl#?#header > div.container-fluid:nth-of-type(2):-abp-has(a[href="/privacy-policy"])
 allview.pl###modalGDPR.modalGDPR
 almatur.pl,portaltatrzanski.pl###rododiv
@@ -1779,7 +1778,6 @@ makro.pl##.cookie-desktop
 maleksiazki.pl##body > div[id][style*="position"][style*="fixed"]:not([class])
 mall.pl##.consent-panel
 mall.pl##.legal-consent-wrap
-malowanalala.eu,spodlady.com,tanielaptopy.eu###cookiesBox
 malwarebytes.com#?#.ce-banner:-abp-has(.gdpr-p)
 malwaretips.com,xiaomi.eu##.notice--cookie
 malybelgrad.pl##.june2018cookies
@@ -2691,6 +2689,7 @@ specshop.pl##.blockUI
 specto.com.pl##.cookie-notice-ui
 spie-elbud.pl##.occ-wrapper
 splendor24.pl#?#.box_custom:-abp-has(span:-abp-contains(PRYWATNOŚĆ))
+spodlady.com,tanielaptopy.eu###cookiesBox
 spolecznosc.allegro.pl##.custom-cookie-alert
 spolemkatowice.pl###btn-to-top-wrap
 sport-time.com.pl###divId
