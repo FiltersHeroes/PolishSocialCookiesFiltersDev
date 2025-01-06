@@ -1,8 +1,5 @@
-darlowo.pl##dialog[class]:has(div[role="heading"]:has-text(Preferencje dot. prywatności)):remove()
-darlowo.pl##div[class][style*="backdrop"]:empty
 starachowice.eu##.gdprcookie
 starachowice.eu##body[style]:style(overflow-y: auto !important)
-darlowo.pl##body[style], html[style]:style(overflow-y: auto !important)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
 7ryb.pl,etransport.pl,grupawsparcia.pl,hrkgame.com##.dimmable, .dimmed:style(overflow-y: auto !important)
@@ -563,12 +560,12 @@ pepper.pl##body.overflow--hidden:style(overflow-y: auto !important)
 perfumesclub.pl###modalPreferenciaCookies, .modal-backdrop
 petycjeonline.com###cookie_consent_modal, .modal-backdrop
 piccantino.pl##.fancybox-overlay-fixed.fancybox-overlay[style]:has(#cookie-consent-simple)
-pk.edu.pl,warzywapolowe.pl##+js(spoof-css, div[consent-skip-blocker], visibility, visible)
-pk.edu.pl,warzywapolowe.pl##div[consent-skip-blocker]:matches-css(visibility: hidden) dialog:remove()
-pk.edu.pl,warzywapolowe.pl##div[consent-skip-blocker]:style(visibility: hidden !important)
-pk.edu.pl,warzywapolowe.pl##html[style="overflow-y: hidden;"], body[style="overflow-y: hidden;"]:style(overflow-y: auto !important)
-pk.edu.pl,warzywapolowe.pl#@#div[consent-skip-blocker]
-pk.edu.pl,warzywapolowe.pl#@#div[consent-skip-blocker]:remove()
+pk.edu.pl,warzywapolowe.pl,darlowo.pl##+js(spoof-css, div[consent-skip-blocker], visibility, visible)
+pk.edu.pl,warzywapolowe.pl,darlowo.pl##div[consent-skip-blocker]:matches-css(visibility: hidden) dialog:remove()
+pk.edu.pl,warzywapolowe.pl,darlowo.pl##div[consent-skip-blocker]:style(visibility: hidden !important)
+pk.edu.pl,warzywapolowe.pl,darlowo.pl##html[style="overflow-y: hidden;"], body[style="overflow-y: hidden;"]:style(overflow-y: auto !important)
+pk.edu.pl,warzywapolowe.pl,darlowo.pl#@#div[consent-skip-blocker]
+pk.edu.pl,warzywapolowe.pl,darlowo.pl#@#div[consent-skip-blocker]:remove()
 pl###kopageBar > #kopageBarCookies:upward(1)
 pl##.alert > a[href*="/polityka-cookies"] ~ a[href*="/polityka"]:upward(.alert)
 pl##.module-abovebox p > a[href*="/polityka"][href$="-cookies.html"]:upward(.module-abovebox[style^="position: fixed;"])
