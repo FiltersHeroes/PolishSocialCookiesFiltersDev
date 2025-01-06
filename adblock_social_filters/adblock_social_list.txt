@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.6.4
-! Last modified: Mon, 06 Jan 2025, 20:25 UTC+01:00
+! Version: 2025.1.6.5
+! Last modified: Mon, 06 Jan 2025, 21:39 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.6.4 aktualizacja: pon, 06 sty 2025, 20:25 UTC+01:00
+! v.2025.1.6.5 aktualizacja: pon, 06 sty 2025, 21:39 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -890,7 +890,7 @@ pl,~wykop.pl##.wykop
 4programmers.net###facebook-button
 4programmers.net##.footer-bubble a[href*="facebook.com/4programmers.net"]
 4run.pl##.headerSocial, .footerSocialMedia
-4szpaki.pl,at-outlet.pl,biustonoszedokarmienia.pl,bookbook.pl,cocolita.pl,darmarsklep.pl,deezee.pl,emanta.pl,eoptic.pl,hairpro.pl,harmoniasmakow.pl,jarmix-militaria.pl,kakto.pl,menland.pl,mikesport.pl,nalepsze.pl,nowafarmacja.pl,powerlook.pl,walizkazabawek.pl,wyspaszkrabow.pl,zadowolenie.pl,zico-bike.pl##.social-profiles-info
+4szpaki.pl,at-outlet.pl,biustonoszedokarmienia.pl,bookbook.pl,cocolita.pl,darmarsklep.pl,deezee.pl,emanta.pl,eoptic.pl,hairpro.pl,harmoniasmakow.pl,jarmix-militaria.pl,kakto.pl,menland.pl,mikesport.pl,nalepsze.pl,nowafarmacja.pl,powerlook.pl,walizkazabawek.pl,wphw.pl,wyspaszkrabow.pl,zadowolenie.pl,zico-bike.pl##.social-profiles-info
 5el.pl##.widget_black_studio_tinymce.uk-panel:nth-of-type(3)
 5mindlazdrowia.pl##.footer-widget-2
 5mindlazdrowia.pl##.instagram-grid
@@ -1024,7 +1024,7 @@ agencjagazeta.pl##article.mod_uzr6.mod:nth-of-type(2) > .body > ul > .n6.n5.n4.n
 agkoperty.com.pl##.frontpage-contact.line > li:nth-of-type(3)
 agmarprzewozy.pl##.above-social, .sh-social
 agnieszkakonieczna.com,ambience.com.pl,polsatbox.pl,siedlce.pl,ztedevices.com##.social-link
-agnieszkakonieczna.com,comparic.pl,plantutti.pl,sweetcbdstore.com,whirlpool.pl##div[class*="footer"] a[href*="instagram.com/"]
+agnieszkakonieczna.com,comparic.pl,plantutti.pl,whirlpool.pl##div[class*="footer"] a[href*="instagram.com/"]
 agnieszkakudela.pl##.widget_qodef_instagram_widget
 agnieszkakudela.pl,agwerblog.pl,akademicka.pl,haart.pl,imprezy-expn.pl,intellect.pl,jaktosie.pl,livingonmyown.pl,smartbake.pl,sportowyekspress.pl,warzywnienakrecona.pl,woolloop.pl,yerbanot.com###custom_html-5
 agnieszkakudela.pl,autoblog24.pl,bigbaddice.pl,dobra-mama.pl,festiwaldobregosmaku.eu,highlab.pl,profitech-narzedzia.pl,xgp.pl###custom_html-4
@@ -1166,7 +1166,7 @@ alejasztuki.com##.art-footer div.art-layout-cell:nth-of-type(3)
 alejesmaku.pl##.footer_as_button2
 alekosmos.pl,batcave.com.pl,booklips.pl,boskapszczola.pl,carsense.pl,cdn.ug.edu.pl,craftportal.pl,damagier.pl,david-durden.pl,doktorania.pl,elektrostymulatory.net,fama.org.pl,glodnapolka.pl,glyskincare.pl,jakpicwhisky.pl,kocialapka.org.pl,kwadranszpodkopem.com,madameedith.com,magnapolonia.org,malygeniusz.org,nono-store.pl,pdasite.pl,plusbiuro-police.pl,portal.region.info.pl,prokapitalizm.pl,promocje.msi.com,stop-cham.pl,swiatdronow.pl,swingwithme.pl,vivio.pl,winers.pl,wittamina.pl,wrodzinie.pl###text-3
 aleksandrow-lodzki.pl##.icons > .g.icon
-aleksandrow-lodzki.pl,e-kolo.pl,gieldamotoryzacyjna.pl,mbwesolek.pl,mydecor.pl,oleksy.pl,onetech.pl,wodociagi.debickie.pl,www.wip.pl##header a[href*="facebook.com/"]
+aleksandrow-lodzki.pl,e-kolo.pl,gieldamotoryzacyjna.pl,mbwesolek.pl,mydecor.pl,oleksy.pl,onetech.pl,viwamebel.com,wodociagi.debickie.pl,www.wip.pl##header a[href*="facebook.com/"]
 aleksandrow-lodzki.pl,e-kolo.pl,informacja-turystyczna.starachowice.eu,slupsk.pl##header a[href*="youtube.com/"]
 aleksandrow-lodzki.pl,e-kolo.pl,mbwesolek.pl,mydecor.pl,oleksy.pl,slupsk.pl,stalowelove.com.pl##header a[href*="instagram.com/"]
 aleo.com##i[inlinesvg="assets/icons/share.svg"]
@@ -2292,7 +2292,7 @@ comparic.pl##div[class*="footer"] a[href*="twitter.com/"]
 comparic.pl#?#.g-single:-abp-contains(Dołącz do naszej grupy)
 comparic.pl#?#.menu-top-container .menu-item:last-child:-abp-contains(Facebook)
 comparic.pl,phox.pl##div[class*="footer"] a[href*="linkedin.com/"]
-comparic.pl,sweetcbdstore.com,whirlpool.pl##div[class*="footer"] a[href*="facebook.com/"]
+comparic.pl,whirlpool.pl##div[class*="footer"] a[href*="facebook.com/"]
 comparic.pl,whirlpool.pl##div[class*="footer"] a[href*="youtube.com/"]
 compensa.pl##.footer div.footer__members-item:nth-of-type(n+6):nth-of-type(-n+7), .footer-container > .container-fluid > .row > div.col-xs-12:nth-of-type(3)
 computer-alliance.pl##a[href*="facebook.com/computer.alliance.ltd/"]
@@ -8845,6 +8845,7 @@ vivio.pl##a.flagi:nth-of-type(n+6):nth-of-type(-n+8)
 vivo-shopping.com##.site-header__meta__menu__item--social-icons
 vivo.com##li.footer-us-item:nth-of-type(2) .footer-us-title
 vivus.pl#?##app ul + ul:last-child > li > a[target="_blank"]:-abp-has(svg)
+viwamebel.com##header nav .nav-item:has(a[href*="facebook.com/"])
 vixon.pl###CustomWidget_8
 vmr.pl###info a[href*="/wmr" i] > span > svg
 vobis.pl##.m-copyrights_info > a
