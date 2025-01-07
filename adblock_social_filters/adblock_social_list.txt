@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.6.5
-! Last modified: Mon, 06 Jan 2025, 21:39 UTC+01:00
+! Version: 2025.1.7.0
+! Last modified: Tue, 07 Jan 2025, 03:05 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.6.5 aktualizacja: pon, 06 sty 2025, 21:39 UTC+01:00
+! v.2025.1.7.0 aktualizacja: wto, 07 sty 2025, 03:05 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -846,9 +846,9 @@ pl,~wykop.pl##.wykop
 ~pl###fb-root:lang(pl)
 ~pl##.c-messenger-share:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
-~pl##.x13socialfixed_links a[href*="/m.me/"]:lang(pl)
-~pl##.x13socialfixed_links a[href*="/wa.me/"]:lang(pl)
+~pl##.x13socialfixed_links a[href*="m.me/"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="skype:"]:lang(pl)
+~pl##.x13socialfixed_links a[href*="wa.me/"]:lang(pl)
 2kc.pl##.container.userfooter > .row > div > a[href*=".com/"]
 2msystem.pl##.sidebar__social
 2plus3d.pl###menuItem_facebook
@@ -6551,9 +6551,9 @@ pl##.sm-panel .sm-messenger
 pl##.socializer-messenger.socializer-icon
 pl##.socializer-whatsapp.socializer-icon
 pl##.whats-float
-pl##.x13socialfixed_links a[href*="/m.me/"]
-pl##.x13socialfixed_links a[href*="/wa.me/"]
+pl##.x13socialfixed_links a[href*="m.me/"]
 pl##.x13socialfixed_links a[href*="skype:"]
+pl##.x13socialfixed_links a[href*="wa.me/"]
 pl##a[href^="fb-messenger://share/"]
 pl##a[href^="whatsapp://send"]
 pl-pl.fitatu.com##.fitatu-footer__social
@@ -6806,7 +6806,7 @@ polskifr.fr##header a[title="Facebook"], header a[title="Twitter"], footer a[tit
 polskikarting.pl##.social-drop-list > a:not([href*="/feed/rss/"])
 polskikoszyk.pl##.footer-content .circle
 polskilad.pis.org.pl##.page-footer__channels
-polskiled.com.pl##.joinus > [href*="://wa.me"]
+polskiled.com.pl##.joinus > a[href*="wa.me/"]
 polskiled.com.pl##.joinus a:not([href*="wa.me"])
 polskiprzemysl.com.pl###fb-liked
 polsky.tv##.menu-icons > div.menuItemWrap:nth-of-type(n+2):nth-of-type(-n+4)
