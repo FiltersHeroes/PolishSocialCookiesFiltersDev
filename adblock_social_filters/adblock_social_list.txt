@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.8.0
-! Last modified: Wed, 08 Jan 2025, 03:03 UTC+01:00
+! Version: 2025.1.8.1
+! Last modified: Wed, 08 Jan 2025, 21:39 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.8.0 aktualizacja: śro, 08 sty 2025, 03:03 UTC+01:00
+! v.2025.1.8.1 aktualizacja: śro, 08 sty 2025, 21:39 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6623,6 +6623,8 @@ pl.plente.com##div[class*="Footer__socialLinks_"]
 pl.pons.com###page-footer .cols3 div.grid-item:nth-of-type(3)
 pl.pons.com##.span4:nth-of-type(3) > h4
 pl.primo.com##footer .p-imagetext-tb:nth-of-type(3)
+pl.rakko.tools###toolSnsArea > a[class*="share"]
+pl.rakko.tools##.x_icon
 pl.ryobitools.eu##div[class^="Footerstyles__SocialContainer-"]
 pl.silvexcraft.eu###media_section
 pl.techinfus.com##.socialize
@@ -8377,6 +8379,7 @@ thinkpoint.pl##.custom-contact__content__element__fab
 thinq.pl##.fbTop
 thomas-krenn.com###tk-footer-icons
 threads.net##[href*="instagram.com/"] svg[aria-label="Instagram"]
+thunderbird.net##.social-list
 tidal.com##.text-align-intermediate.font-size-intermediate > a[class]:nth-of-type(-n+3) > .tidal-icon
 tiebreak.pl##.tbHeaderSocial
 tiffanie.pl##a[href*="instagram.com/mat_lingerie/"] > img, a[href*="facebook.com/EkskluzywnaBieliznaMAT/"] > img
