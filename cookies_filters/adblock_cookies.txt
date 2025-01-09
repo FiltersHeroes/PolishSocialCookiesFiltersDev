@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.8.0
-! Last modified: Wed, 08 Jan 2025, 21:39 UTC+01:00
+! Version: 2025.1.9.0
+! Last modified: Thu, 09 Jan 2025, 22:00 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.8.0 aktualizacja: śro, 08 sty 2025, 21:39 UTC+01:00
+! v.2025.1.9.0 aktualizacja: czw, 09 sty 2025, 22:00 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4311,6 +4311,7 @@ zus.pl#@#div.cookie-consent-modal
 ! Specyficzne filtry usuwające ABP
 !#if ext_abp
 bmw-motorrad.pl##.cookielayer { remove: true }
+centrum24.pl#@##__tealiumGDPRecModal
 cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,zgl.pl###popModal2 { remove: true }
 gemini.pl###modal-cookies, .vue-modal--privacy-policy { remove: true }
 horecanet.pl###gdpr-popup.gdprmodal { remove: true }
