@@ -27,7 +27,7 @@ allegro.pl,allegrolokalnie.pl#@#body:style(overflow-y: auto !important;)
 allegro.pl,allegrolokalnie.pl,pepper.pl#@#body:style(overflow: auto !important;)
 answear.com#@#.modal
 answear.com#@#body,html:style(height: auto !important; overflow: auto !important)
-doz.pl#@#body,html:style(overflow: auto !important; position: initial !important;)
+centrum24.pl,doz.pl,santander.pl#@#body,html:style(overflow: auto !important; position: initial !important;)
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -189,6 +189,9 @@ cbdzoe.pl,premiumtech.pl,sklep.gadowskiksiegarnia.pl##.swal2-container
 cbdzoe.pl,premiumtech.pl,sklep.gadowskiksiegarnia.pl,ticketos.pl##body.prevent-scroll:style(padding-right: 0 !important)
 cbdzoe.pl,premiumtech.pl,sklep.gadowskiksiegarnia.pl,ticketos.pl##body:style(overflow-y: auto !important; padding-right: 0 !important)
 cbdzoe.pl,premiumtech.pl,sklep.gadowskiksiegarnia.pl,ticketos.pl##html.prevent-scroll:style(overflow-y: auto !important)
+centrum24.pl,hsbc.pl,santander.pl##div#__tealiumGDPRecModal
+centrum24.pl,santander.pl##html.stop-scrolling:remove-class(stop-scrolling)
+centrum24.pl,santander.pl##html.stop-scrolling:style(position: static !important; overflow-y: auto !important; pointer-events: unset !important)
 ceres.pl###flipFlop, .modal-backdrop
 chojnow.pl##+js(acis, confirm, rodoConfirm)
 chronmyklimat.pl###ECookiesPolicy_Modal, .modal-backdrop
@@ -381,7 +384,6 @@ horecatrends.pl##.windowOpen:style(position: static !important; overflow-y: auto
 hortico.pl###rodonfo
 hotelpiast.slupsk.pl,sleza-olawa.pl,tuzdrowie.pl,www.gbl.waw.pl###popupModal, .modal-backdrop
 hrkgame.com##+js(set-local-storage-item, gdpralert, done)
-hsbc.pl,santander.pl###__tealiumGDPRecModal
 hummel.pl##+js(set-cookie, CookieInformationConsent, 1)
 idioci.pl##.fancybox-overlay-fixed.fancybox-overlay:has(h2:has-text(RODO))
 iglotex.pl##.cookies, .cookies-button
@@ -665,7 +667,7 @@ puma.com###modal-geoip-cookies, .modal-backdrop
 puratos.pl###cookieBannerModal, .modal-backdrop
 q21.pl,sklepratowniczy.pl##+js(acis, jQuery, cookies_message_modal)
 qa-stack.pl###cookies-consent
-quadgraphics.pl##.blur:style(filter: none !important; pointer-events: unset !important)
+quadgraphics.pl##.blur:style(filter: none !important; pointer-events: auto !important)
 quadgraphics.pl##.rodo-information-popup, .fixed-layer-information
 r.pl##div[class*="r-consent-"][class*="modal"]
 r.pl,wanapix.pl##html[style*="overflow"]:style(overflow-y: auto !important)
@@ -689,7 +691,6 @@ restilo.pl##body._has-modal:style(position: static !important; overflow-y: auto 
 rydzewski.pl###linijka2:style(color: #0000)
 samasz.pl###popup-19391-, .modal-backdrop
 san.edu.pl##.cookies, .modal-backdrop
-santander.pl##html:style(overflow-y: auto !important; position: static !important; pointer-events: auto !important)
 schadzkaprzypiecu.pl###CookieConsentModal, .modal-backdrop
 secure.edu.pl##.modal:has(.cookies-modal) ~ .modal-backdrop
 selgros.pl##.klaro-is-displayed:style(overflow-y: auto !important)
@@ -1134,6 +1135,7 @@ amway.pl##+js(set, amw.isAnalyticsCookiesAccepted, false)
 amway.pl##+js(set, amw.isCookieConsentAccepted, true)
 amway.pl##+js(set, amw.isMarketingCookiesAccepted, false)
 bgk.pl##+js(rc, dp--cookie-consent, body, stay)
+centrum24.pl,santander.pl##+js(rc, stop-scrolling, html.stop-scrolling, complete)
 dmd-biuro.pl##script:contains(dialog-agreement)
 dobrapogoda24.pl##+js(ra, class, body[class="modal-open"], stay)
 dominospizza.pl##+js(rc, cookies-visible, #aside.cookies-visible, stay)
