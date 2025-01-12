@@ -749,7 +749,7 @@ baltyk.com##.ulsocialmedia
 balujemy.eostroleka.pl##.module:nth-of-type(9)
 bambino-sklep.pl###fico, #gico
 bambino.pl##.fb_right
-bananki.pl,onetech.pl###gplus
+bananki.pl###gplus
 bandi.pl##div.bloczek:nth-of-type(4) > :nth-child(-n+7)
 banita.travel.pl##.vce-author-links > a:nth-of-type(3)
 bank-wbs.pl##.galeria_wiersz
@@ -5317,8 +5317,7 @@ onet.pl##div[data-gtm-social]
 onet.pl#?#div[class^="_"] > span[class^="_"]:-abp-contains(Podziel się tym artykułem)
 onet.pl,plejada.pl##.poll_share
 onet.tv##.mvp-beam-social-buttons
-onetech.pl###obserwujnas
-onetech.pl##header a[href*="twitter.com/"]
+onetech.pl##.elementor-column:first-child + .elementor-column:last-child div[data-element_type="widget"] a[href*=".com/"]:is([href*="facebook.com/"], [href*="twitter.com/"])
 onexstore.pl##.footer-col--social
 onico.pl##div.footer-content__icons.large-3.column:nth-of-type(-n+3)
 onlineradiobox.com##.i-fb--reference
