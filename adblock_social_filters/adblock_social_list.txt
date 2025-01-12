@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.11.0
-! Last modified: Sat, 11 Jan 2025, 21:38 UTC+01:00
+! Version: 2025.1.12.0
+! Last modified: Sun, 12 Jan 2025, 13:10 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.11.0 aktualizacja: sob, 11 sty 2025, 21:38 UTC+01:00
+! v.2025.1.12.0 aktualizacja: nie, 12 sty 2025, 13:10 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -874,7 +874,7 @@ pl,~wykop.pl##.wykop
 4fun.tv##div.top-mini-nav:nth-of-type(-n+2)
 4fun.tv#?#footer > .row > div[class*="col"]:-abp-has(> a[href*="facebook.com/"])
 4gift.pl##.internet.footer-information--col
-4gsm.com,bodyshock.pro,drewniaczek.eu,e-fryzjernia.pl,fajnalazienka.com,hurtowniagsm.com,mystic.pl,o-shop.com,pl.skate-europe.com,rsmax.eu###tws_i_100000
+4gsm.com,bodyshock.pro,drewniaczek.eu,e-fryzjernia.pl,fajnalazienka.com,hurtowniagsm.com,mystic.pl,o-shop.com,pl.skate-europe.com###tws_i_100000
 4kdownload.com##.community__item:not([class*="feed"])
 4kdownload.com##.footer__col--community.footer__col > .footer__heading
 4kdownload.com##.recommend > div:nth-child(n+2)
@@ -9538,6 +9538,8 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 /grafika_stala/facebook.jpg$domain=rii.pl|stargard.pl
 /ico-yt.png$domain=dvbsklep.pl|eska.pl|lechpils.pl
 /image/face_*.png$domain=kupujzdomu.pl
+/images/ikony/*/5_twitter.png$domain=xn--bolesawiec-e0b.pl
+/images/ikony/*/7_youtube.png$domain=xn--bolesawiec-e0b.pl
 /img/cms/face_1.png$domain=allemoda.eu
 /img/cms/insta_png.png$domain=allemoda.eu
 /img/cms/pin.png$domain=allemoda.eu
@@ -9886,7 +9888,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:-abp-contains(Nasz F
 ||mkn-moto.pl/images/f1.png
 ||mkn-moto.pl/images/g1.png
 ||mkn-moto.pl/images/t1.png
-||mlodeasyparkietow.pl/wp-content/themes/mapa/images/f.png
 ||mobbingwpracy.com/media/mod_social_slider
 ||modnydzieciak.com.pl/public/assets/facebook.PNG
 ||mojacukrzyca.org/grafika/logo/20170801/facebook.gif
@@ -10581,7 +10582,6 @@ patrz.pl#@#.likes
 pecetowicz.pl#@#.fa-twitter.fa
 polityczek.pl,www.dobreprogramy.pl#@##twitter:not(input)
 rkb.pl#@#.fb-top
-selgros.pl#@#.cookie-notice:not(body):not(html):not(#footer):not(#wrapper)
 shinden.pl#@#.fa-youtube-play.fa
 swiatebookow.pl#@#.facebook-button
 system.mpay.pl#@#.icon-twitter
