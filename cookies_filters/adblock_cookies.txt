@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.11.0
-! Last modified: Sat, 11 Jan 2025, 21:38 UTC+01:00
+! Version: 2025.1.12.0
+! Last modified: Sun, 12 Jan 2025, 13:10 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.11.0 aktualizacja: sob, 11 sty 2025, 21:38 UTC+01:00
+! v.2025.1.12.0 aktualizacja: nie, 12 sty 2025, 13:10 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -677,7 +677,7 @@ country.db.com,sew-eurodrive.pl##.mod-cookie-layer
 coverise.com##coverise-cookies
 cowkrakowie.pl##.cookies--container
 cp.mywebinar.com###admin > .topline
-cpb.pl,efaktury.org,merixstudio.pl,multikody.pl,olekmotocykle.pl,ranking.net.pl,szukarka.net###message
+cpb.pl,efaktury.org,merixstudio.pl,multikody.pl,olekmotocykle.pl,ranking.net.pl###message
 cqb.pl###overlay_cookies
 credit-suisse.com##.mod_cookie_policy
 crimedistrict.com#?#body > div > div[style*="position"][style*="absolute"] > div[style*="float"][style*="left"]:-abp-has(~ [style*="float"][style*="left"] > a[href*="cookie"] > img[src*="cookie"])
@@ -3903,7 +3903,7 @@ pl##.cookie-layer:not(body, html)
 pl##.cookie-message:not(body, html, .modal-body, .fade)
 pl##.cookie-monster:not(body, html)
 pl##.cookie-notice-container:not(body, html)
-pl##.cookie-notice:not(body, html, #wrapper, #footer)
+pl##.cookie-notice:not(body, html, #footer, #wrapper)
 pl##.cookie-notification:not(body, html)
 pl##.cookie-overlay-box:not(body, html)
 pl##.cookie-overlay:not(body, html)
@@ -4335,7 +4335,7 @@ bgk.pl#@#.cc-revoke:not(body, html)
 bgk.pl,dkms.pl,meiko.pl#@#.cc-window[aria-label*="consent"]:not(body, html)
 biblioteka.wroc.pl#@#.cookie-notice-container:not(body, html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl,vaillant.pl#@##cookiewarning:not(body, html)
-calvinklein.pl,pl.tommy.com#@#.cookie-notice:not(body, html, #footer, #wrapper)
+calvinklein.pl,pl.tommy.com,selgros.pl#@#.cookie-notice:not(body, html, #footer, #wrapper)
 danio.com.pl#@##cookies-bar:not(body, html)
 danio.com.pl#@#.footer-cookies:not(body, html)
 danio.com.pl,mcdonalds.pl#@#.cookies-container:not(body, html)
