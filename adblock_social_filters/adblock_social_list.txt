@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.12.1
-! Last modified: Sun, 12 Jan 2025, 13:56 UTC+01:00
+! Version: 2025.1.12.2
+! Last modified: Sun, 12 Jan 2025, 17:41 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.12.1 aktualizacja: nie, 12 sty 2025, 13:56 UTC+01:00
+! v.2025.1.12.2 aktualizacja: nie, 12 sty 2025, 17:41 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1592,7 +1592,7 @@ baltyk.com##.ulsocialmedia
 balujemy.eostroleka.pl##.module:nth-of-type(9)
 bambino-sklep.pl###fico, #gico
 bambino.pl##.fb_right
-bananki.pl,onetech.pl###gplus
+bananki.pl###gplus
 bandi.pl##div.bloczek:nth-of-type(4) > :nth-child(-n+7)
 banita.travel.pl##.vce-author-links > a:nth-of-type(3)
 bank-wbs.pl##.galeria_wiersz
@@ -6200,8 +6200,7 @@ onet.pl,plejada.pl##span[data-gtm*="-whatsapp"]
 onet.pl,plejada.pl##span[data-gtm*="messengerShare"]
 onet.pl,radioplus.pl,radiosupernova.pl,rivieraparkmarvipol.pl,senatkomorki.pl,stopcafe.pl,viva.pl,wp.pl##.messenger
 onet.tv##.mvp-beam-social-buttons
-onetech.pl###obserwujnas
-onetech.pl##header a[href*="twitter.com/"]
+onetech.pl##.elementor-column:first-child + .elementor-column:last-child div[data-element_type="widget"] a[href*=".com/"]:is([href*="facebook.com/"], [href*="twitter.com/"])
 onexstore.pl##.footer-col--social
 onico.pl##div.footer-content__icons.large-3.column:nth-of-type(-n+3)
 onlineradiobox.com##.i-fb--reference
