@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.14.0
-! Last modified: Tue, 14 Jan 2025, 02:54 UTC+01:00
+! Version: 2025.1.14.1
+! Last modified: Tue, 14 Jan 2025, 21:38 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.14.0 aktualizacja: wto, 14 sty 2025, 02:54 UTC+01:00
+! v.2025.1.14.1 aktualizacja: wto, 14 sty 2025, 21:38 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -822,6 +822,8 @@ pl,~wykop.pl##.wykop
 !
 !
 ! Specyficzne filtry ukrywające
+!janssenmed.pl##.footer-social > ul, .footer-social > p
+!paczki.zabka.pl##.footer-social li:has(a:not([href*="/kontakt"]))
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
@@ -4155,6 +4157,7 @@ iautomatyka.pl##.mpc-effect-side--none
 iautomatyka.pl##div.mpc-column.col-md-3.col-lg-3.wpb_column:first-of-type, div.pfwidgetinner:nth-of-type(4), div.h2_belka:nth-of-type(3)
 iautomatyka.pl#?#.h2_belka:-abp-contains(Społeczność)
 ibb.co##.btn-social:not(.btn-mail)
+icebreaker.com##.footer-social a
 icelandnews.is##.xt_widget_networks.widget, #text-69
 icomfort.pl##.footer-1 > .upper > .container > .row > .col-md-2
 idcgames.com##footer > div:first-child + div .rrssIcons:has(a[aria-label="Facebook"])
@@ -4403,7 +4406,6 @@ janniezbedny.pl###social_gp
 janod.pl###instagram_zone, #instagram_footer
 janod.pl##.flr > .flr > a > img
 janshop.pl##.fb-head
-janssenmed.pl##.footer-social > ul, .footer-social > p
 jarmarknatury.pl###facebook-link-fixed
 jarmarktumski.pl###sos_yt_slider
 jarmarktumski.plock.eu###sos_yt_slider, #sos_fb_slider
@@ -6315,7 +6317,6 @@ paa.gov.pl##.pole-banerowe > a[href*="twitter.com/paatomistyki"]
 paatal.pl###footer_links #menu_buttons3
 pabianice.tv##.header-search-wrapper > div.home-icon:nth-of-type(-n+2)
 paclan.pl#?#.bottomboxes:-abp-contains(Złap nas w sieci)
-paczki.zabka.pl##.footer-social li:has(a:not([href*="/kontakt"]))
 paczki.zabka.pl#?#footer h6:-abp-contains(Dowiedz się więcej)
 paczkow.pl##.promo-links-facebook
 pafere.org##.td_block_template_13:nth-of-type(n+4):nth-of-type(-n+6) > .td_single_image_bg
@@ -10473,12 +10474,12 @@ hdtvpolska.com#@#.cactus-share-and-like
 hdtvpolska.com,komputerswiat.pl,pclab.pl,purepc.pl#@#.cShareLink
 iab.org.pl#@#.menu-social-buttons
 ibb.co#@#.btn-social
+icebreaker.com,janssenmed.pl,ksiegarnianatlomackiem.pl,motocombo.pl,paczki.zabka.pl,pixelophobia.pl#@#.footer-social
 instalki.pl#@#img[alt="Facebook"]
 interia.pl,pomponik.pl,styl.pl#@#.article-social
 interia.pl,pomponik.pl,styl.pl#@#.article-social-buttons
 interia.pl,pomponik.pl,styl.pl,support.mozilla.org#@#.share-link
 ithardware.pl#@#.post-sharing
-janssenmed.pl,ksiegarnianatlomackiem.pl,motocombo.pl,paczki.zabka.pl,pixelophobia.pl#@#.footer-social
 jezuici.pl#@#.et-extra-social-icons
 kadantiscam.netlify.app,naszesprawy.eu,pkobp.pl,radiopoznan.fm#@#.social-icon
 kei.pl#@#.social_icons
