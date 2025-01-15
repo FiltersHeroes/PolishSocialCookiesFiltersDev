@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.14.1
-! Last modified: Tue, 14 Jan 2025, 21:38 UTC+01:00
+! Version: 2025.1.15.0
+! Last modified: Wed, 15 Jan 2025, 02:56 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.14.1 aktualizacja: wto, 14 sty 2025, 21:38 UTC+01:00
+! v.2025.1.15.0 aktualizacja: śro, 15 sty 2025, 02:56 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -9200,11 +9200,12 @@ www.google.com,www.google.pl##.app-imagery-mode div[jsaction="modal.backgroundCl
 www.google.com,www.google.pl##.chr-footer-social
 www.google.com,www.google.pl##.ddl-facebookButton_
 www.google.com,www.google.pl##.ddl-twitterButton_
-www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/facebook_"], img[src*="social/x_"])
+www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/facebook_"], img[src*="social/fb_"], img[src*="social/x_"])
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
 www.google.com,www.google.pl##div[data-attrid*="social media presence"] span, div[data-attrid*="social media presence"] a
 www.google.com,www.google.pl#?##modal-dialog div[class*="-share-"] button[class*="-share-"]:-abp-has(img[src*="svg"])
-www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^(Facebook|X|WhatsApp)$/)
+www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^(Facebook|X)$/)
+www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^WhatsApp$/)
 www.komputronik.pl###footer > div > div > div > div > section > div:nth-child(5) > div:nth-child(n+3):nth-child(-n+4)
 www.logitech.com##.social-email-row .social-ctn
 www.nazwa.pl##.n21-footer__smList
