@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.15.0
-! Last modified: Wed, 15 Jan 2025, 21:37 UTC+01:00
+! Version: 2025.1.16.0
+! Last modified: Thu, 16 Jan 2025, 21:39 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.15.0 aktualizacja: śro, 15 sty 2025, 21:37 UTC+01:00
+! v.2025.1.16.0 aktualizacja: czw, 16 sty 2025, 21:39 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1048,7 +1048,6 @@ ewakacje-online.pl##div[id][role="alert"][aria-live="polite"].qtip
 ewaprzygodzka.com,kompilo.com,opensolution.org###noticeAboutCookies
 ewf.h1.pl###tytul_rodo
 ewl.com.pl,weblider.eu###bezzo-cookies-bar
-ewnetrze.com.pl,facetaria.pl,jawo2008.pl,mojazielarnia.pl###cookie-change-button
 exactsystems.pl##.js-cookies-popup.c__popup-cookies
 excodus.com###nag
 expander.net.pl###info-cookie-2013
@@ -3402,6 +3401,7 @@ pl/tcf/cookie.js$script,domain=pl
 ##html:not([style*="overflow"][style*="hidden"]) .cs-cookie-bar-container
 ~pl###actionCooki:not(body, html):lang(pl)
 ~pl###catapult-cookie-bar:not(body, html):lang(pl)
+~pl###cookie-change-button:lang(pl)
 ~pl###kopageBarCookies + div:lang(pl)
 ~pl###kopageBarCookies:lang(pl)
 ~pl###x13eucookies-icon:lang(pl)
@@ -3467,6 +3467,7 @@ pl###cookie-banner-root:not(body, html)
 pl###cookie-banner:not(body, html)
 pl###cookie-bar:not(body, html)
 pl###cookie-box:not(body, html)
+pl###cookie-change-button
 pl###cookie-compliance-bottom:not(body, html)
 pl###cookie-compliance:not(body, html)
 pl###cookie-consent:not(body, html, .content, [class*="fancybox"])
@@ -4264,7 +4265,7 @@ danio.com.pl#@#.cookies-content
 danio.com.pl#@#.cookies-header
 danio.com.pl#@#.cookies-modal:not(body):not(html)
 danio.com.pl#@#.cookies-text
-danio.com.pl,nat.pl#@##cookies-modal
+danio.com.pl,nat.pl,pl.genesis-zone.com#@##cookies-modal
 dpcraft.pl#@#.cookiesBackground
 dpcraft.pl#@#.cookiesPopup
 dpcraft.pl#@#div#cookiePopup
