@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.18.0
-! Last modified: Sat, 18 Jan 2025, 20:02 UTC+01:00
+! Version: 2025.1.18.1
+! Last modified: Sat, 18 Jan 2025, 21:38 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.18.0 aktualizacja: sob, 18 sty 2025, 20:02 UTC+01:00
+! v.2025.1.18.1 aktualizacja: sob, 18 sty 2025, 21:38 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1439,8 +1439,8 @@ asus.com###Community_menu
 asus.com##a[class*="Footer_communityLink"]
 asus.com##div[class^="Footer__communityListContainer_"]
 asystentbhp.pl,blog.comperialead.pl,dziekujebylopyszne.pl,fight24.pl,filolozka.brood.pl,kobietydokodu.pl,lifemanagerka.pl,lososwkuchni.pl,mama-kreatywna.pl,moj-kawalek-podlogi.pl,oliwowo.pl,stop-cham.pl,victor.com.pl,wtrosceorosliny.pl###text-6
-aszdziennik.pl,dadhero.pl,innpoland.pl,klubzwierzaki.pl,mamadu.pl,natemat.pl,topnewsy.pl###footer a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="tiktok.com/"], [href*="youtube.com/"], [href*="pinterest.com/"])
 aszdziennik.pl,dadhero.pl,innpoland.pl,klubzwierzaki.pl,mamadu.pl,natemat.pl,topnewsy.pl##.header__box__social, .footer__box__list--social li
+aszdziennik.pl,dadhero.pl,innpoland.pl,klubzwierzaki.pl,mamadu.pl,natemat.pl,topnewsy.pl##footer a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="tiktok.com/"], [href*="youtube.com/"], [href*="pinterest.com/"])
 ataf.pl##.footer-text.menu-text
 ataf.pl,perfekcyjnawdomu.pl##.instagram-feed
 atalbaltica.pl,atalkliny.pl,atalmarina.pl,atalresidence.pl,atalzerniki.pl,chojnypark.pl,creatoagencja.pl,drewnowska43.pl,drzwicallublin.pl,francuskapark.pl,godealla.pl,gogler.pl,krakowska37.pl,miastorozanka.pl,nowytargowek.pl,osiedlewarszawa.pl,pitbull.pl,pomorskapark.pl,przybyszewskiego64.pl,przystanletnica.pl,sapayclub.com,wakacjezprocentem.pl##.footer-icons
@@ -1649,7 +1649,8 @@ bdsklep.pl##.m-footer_socialmedia
 beactivetv.pl##footer#footer > div > div a[href*=".com/"] > img
 beafoto.pl###clink_80
 beardrust.pl,cesario.pl,esthetic.com.pl,goldenmarketing.pl,ksgornik.eu,moodconcept.pl,techpil.pl###ssb-btn-0
-beardrust.pl,goldenmarketing.pl,klimacold.com.pl###ssb-btn-3
+beardrust.pl,goldenmarketing.pl,klimacold.com,klimacold.com.pl###ssb-btn-3
+beatabus.pl###Mod127
 beautikon.com##div.grid12-3.mobile-grid:nth-of-type(4)
 beautyduty.pl###footer #text-5
 beautyinspiration.pl###footer .last.widget-3
@@ -1825,6 +1826,7 @@ blachotrapez.eu##.part, .scl
 blackdoghouse.pl,dietyodbrokula.pl##.instagram-widget
 blackmagicdesign.com#?#.gf-socials > a:not([href*="/rss"])
 blasty.pl##.ips_image_share
+blendygo.pl##div[id*="footer"] a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="youtube.com/"], [href*="tiktok.com/"])
 blik.com##.social-media-menu--footer
 blik.com,dailyweb.pl##.social-media-menu
 blik.cupsell.pl##a.social:not(:nth-of-type(3))
@@ -8258,6 +8260,7 @@ tago.com.pl##.float-social
 tajemnice-swiata.pl##a[href*="facebook.com/Tajemnice-%C5%9Awiata-1655637548024566/"]
 tajfuny.pl#?#.elementor-widget-heading.elementor-widget > .elementor-widget-container > .elementor-heading-title:-abp-contains(Odwiedź naszego Instagrama)
 tajlex.pl###foot_4
+takemehome.pl##.fa-pinterest-square
 takemehome.pl##.widget_underwood-pro-social-media
 talex-sj.pl##.insta-container.side-container
 talex-sj.pl##.yt-container.side-container
@@ -9205,6 +9208,9 @@ www.bing.com##.sharescroller a[title^="Udostępnij na"][href^="javascript"]
 www.bing.com##ol#b_context .b_sideBleed .b_subModule:has(.socialProfile)
 www.citibankonline.pl##.footer-icon-twitter
 www.citibankonline.pl##.footer-icon-youtube
+www.delia.pl##.elementor-heading-title [href="#"]
+www.delia.pl##.elementor-widget-container a[href*="instagram.com/"]
+www.delia.pl##div[data-widget_type="heading.default"]:has(+ .elementor-widget-social-icons)
 www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class] > span:-abp-contains(/^Udostępnij:?$/) + div:nth-child(2) > button:nth-child(-n+2)
 www.dobreprogramy.pl#?#div[data-scroll-lock-scrollable] > aside > div:nth-child(2):-abp-contains(Obserwuj nas na)
 www.google.com,www.google.pl##.app-imagery-mode div[jsaction="modal.backgroundClick"] > div[jsan] div.k9Fsie > button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
@@ -9495,6 +9501,7 @@ zs-11.edu.pl##.jm-footer-mod > div.span3:nth-of-type(4)
 zs-chelmza.nazwa.pl,zsp-chelmza.pl#?##menucz > dt:-abp-has(> a[href*="facebook.com"])
 zs.mielec.pl##a[href*="facebook.com/ElektrykMielec"] > img
 zsap.info##.g-menu-item > a[href*="facebook.com/"]
+zse.leszno.pl##div[class*="header"] a[href*=".com/"]:is([href*="instagram.com/"], [href*="facebook.com/"], [href*="youtube.com/"])
 zsme.pl##center > table:nth-of-type(3) tr:first-of-type > td:nth-of-type(3) > table > tbody > tr:nth-of-type(n+5):nth-of-type(-n+9)
 zsme.pl##td:nth-of-type(3) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2), #tr:nth-of-type(2) > .menu_h1
 zsp4katowice.szkolnastrona.pl##.tm_menu a[href*=",facebook"]
