@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.18.1
-! Last modified: Sat, 18 Jan 2025, 21:38 UTC+01:00
+! Version: 2025.1.19.0
+! Last modified: Sun, 19 Jan 2025, 17:40 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.18.1 aktualizacja: sob, 18 sty 2025, 21:38 UTC+01:00
+! v.2025.1.19.0 aktualizacja: nie, 19 sty 2025, 17:40 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -3370,7 +3370,7 @@ pl/tcf/cookie.js$script,domain=pl
 ##[class^="kom_polityka_prywatnosci"]:not(body, html)
 ##[id*="ciasteczka_alert"]:not(body, html)
 ##[id*="coockie"]:not(body, html, [class*="button"])
-##[id^="polityka-prywatnosci"]:not(body, html, article)
+##[id^="polityka-prywatnosci"]:not(article, body, html)
 ##[id^="PolitykaPrywatnosci"]:not(body, html)
 ##body > #_rodo
 ##body > .plikicookies
@@ -3428,7 +3428,7 @@ org,pl##html:not(.i-amphtml-scroll-disabled) amp-consent
 pl###accept-cookies-question:not(body, html)
 pl###accept_cookies:not(body, html, button, [class*="btn"])
 pl###AcceptCookie:not(body, html)
-pl###acceptCookies:not(body, html, .btn, button)
+pl###acceptCookies:not(body, html, button, .btn)
 pl###actionCooki:not(body, html)
 pl###agreeCookie:not(body, html)
 pl###akceptcookie:not(body, html)
@@ -3519,7 +3519,7 @@ pl###cookie-warning:not(body, html)
 pl###cookie-widget:not(body, html)
 pl###cookie-window:not(body, html)
 pl###cookie-wrapper:not(body, html)
-pl###cookie:not(body, html, a)
+pl###cookie:not(a, body, html)
 pl###cookie_acc_wrap:not(body, html)
 pl###cookie_accept:not(body, html)
 pl###cookie_accept_box:not(body, html)
@@ -3547,7 +3547,7 @@ pl###cookie_pupup_confirm:not(body, html)
 pl###cookie_top_info:not(body, html)
 pl###cookie_wall:not(body, html)
 pl###cookie_warning:not(body, html)
-pl###cookieAccept:not(body, html, button, input)
+pl###cookieAccept:not(body, button, html, input)
 pl###cookieAcceptBar:not(body, html)
 pl###cookieAgreement:not(body, html)
 pl###cookieAlert:not(body, html)
@@ -3816,8 +3816,8 @@ pl###ppCookies:not(body, html)
 pl###prettyCookie_message:not(body, html)
 pl###privacy-info-container:not(body, html)
 pl###privacy-notice:not(body, html)
-pl###privacy-policy:not(body, html, input, .container, a)
-pl###privacy_policy:not(body, html, input, .container, a)
+pl###privacy-policy:not(a, body, html, input, .container)
+pl###privacy_policy:not(a, body, html, input, .container)
 pl###privacy_policy_bar:not(body, html)
 pl###privacyCookiesPolicyMessageContainer:not(body, html)
 pl###privacyInfo:not(body, html)
@@ -3858,7 +3858,7 @@ pl###x13pmcookiebar:not(body, html)
 pl###xcookies:not(body, html)
 pl###xrootCookieRules:not(body, html)
 pl##.a--cookie:not(body, html)
-pl##.accept-cookies:not(body, html, button, .btn, a)
+pl##.accept-cookies:not(a, body, html, button, .btn)
 pl##.accept_cookies:not(body, html)
 pl##.acceptCookies:not(body, html)
 pl##.agree-cookie-wrap:not(body, html)
@@ -3936,8 +3936,8 @@ pl##.CookieApprove:not(body, html)
 pl##.cookieBackground:not(body, html)
 pl##.cookiebanner:not(body, html, #header)
 pl##.cookieBanner:not(body, html, #sprd-main)
+pl##.cookiebar:not(body, button, html, #page, .content-section)
 pl##.cookieBar:not(body, html)
-pl##.cookiebar:not(body, html, button, #page, .content-section)
 pl##.cookieBox:not(body, html)
 pl##.cookiebox:not(body, html, .modal)
 pl##.cookieChoiceInfo:not(body, html)
@@ -3962,7 +3962,7 @@ pl##.CookiePolicy-Contener:not(body, html)
 pl##.cookiePolicy:not(.reveal, body, html)
 pl##.cookiepolicy:not(body, html)
 pl##.cookiePolicyNotice:not(body, html)
-pl##.cookies-accept:not(body, html, fieldset, button)
+pl##.cookies-accept:not(body, button, html, fieldset)
 pl##.cookies-alert-container:not(body, html)
 pl##.cookies-alert:not(body, html)
 pl##.cookies-bar:not(body, html)
@@ -4251,6 +4251,8 @@ wolframalpha.com##footer ~ section
 #@#.cs-cookie-bar-container
 #@#.grecaptcha-badge
 #@#.sf-consent
+adventuresports.pl,dkms.pl#@#.cc-banner
+adventuresports.pl,dkms.pl#@#.cc-bottom.cc-banner
 allecco.pl,aptekadlapacjenta.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,hiperpharm.pl,mcdonalds.pl,swiatleku.pl,zikodermo.pl#@#.cookies-info:not(html):not(body)
 allecco.pl,aptekadlapacjenta.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,hiperpharm.pl,mcdonalds.pl,swiatleku.pl,zikodermo.pl#@#.cookies-popup
 apollo.pl#@##cookies_modal
@@ -4312,7 +4314,7 @@ tesa.com##.-lock-overlay body::after
 tesa.com#@#div.cookie-notice
 uniabracka.pl#@##cookie-container
 uniabracka.pl#@#.cookie-window
-uptodown.com###cookiescript_injected_wrapper
+uptodown.com#@##cookiescript_injected_wrapper
 zus.pl#@#div.cookie-consent-modal
 !
 !
@@ -4334,6 +4336,7 @@ rynek-turystyczny.pl###modal-rodo { remove: true }
 !
 !
 ! Wyjątki
+adventuresports.pl,dkms.pl#@#.cc-banner:not(body, html)
 allecco.pl,aptekadlapacjenta.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,hiperpharm.pl,leki.pl,mcdonalds.pl,swiatleku.pl,zikoapteka.pl,zikodermo.pl#@#.cookies-info:not(body, html)
 allecco.pl,aptekadlapacjenta.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,hiperpharm.pl,leki.pl,mcdonalds.pl,swiatleku.pl,zikoapteka.pl,zikodermo.pl#@#.cookies-popup:not(body, html)
 allegro.pl,pikio.pl,sklep.winkhaus.pl,zus.pl#@#[class*="cookie-policy"]:not(body, html)
@@ -4345,7 +4348,6 @@ calvinklein.pl,pl.tommy.com,selgros.pl#@#.cookie-notice:not(body, html, #footer,
 danio.com.pl#@##cookies-bar:not(body, html)
 danio.com.pl#@#.footer-cookies:not(body, html)
 danio.com.pl,mcdonalds.pl#@#.cookies-container:not(body, html)
-dkms.pl#@#.cc-banner:not(body, html)
 dominospizza.pl#@##cookie-message:not(body, html, .fade)
 dominospizza.pl#@#aside[class*="Cookie"]
 drogeriapigment.pl,parkiet.com,rp.pl#@##rodo-popup:not(body, html, .fade, .modal)
