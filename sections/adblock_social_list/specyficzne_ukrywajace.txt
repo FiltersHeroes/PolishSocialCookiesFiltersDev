@@ -3689,10 +3689,10 @@ katarzynachudy.pl##.standard-footer__instagram-link
 katarzynachudy.pl##.standard-footer__instagram-text-wrapper
 katolicka.pl###block-block-24, .view-footer
 katoobywatel.katowice.eu##.fw__widget--social
-katowice24.info##.rst-list-social
+katowice24.info##.rst-list-social:not(:has(a[href*="rss"], a[href*="feed"]))
 katowice24.info##.rst-list-social > li:nth-of-type(-n+3)
-katowice24.info##article .wpsr-share-icons.wp-socializer
-katowice24.info##div[id*="post"] div[class*="post"] p > [href*="facebook.com/katowice24info" i] > img
+katowice24.info##.widget_social h3
+katowice24.info##.widget_social .ss_social li:has(.facebook, .twitter, .utube)
 katowice.eu###znajdznas
 katowice.eu##.footer .linki
 katowice.eu,korbasowydwor.pl##.social > a
