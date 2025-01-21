@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.19.2
-! Last modified: Sun, 19 Jan 2025, 20:21 UTC+01:00
+! Version: 2025.1.21.0
+! Last modified: Tue, 21 Jan 2025, 21:39 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.19.2 aktualizacja: nie, 19 sty 2025, 20:21 UTC+01:00
+! v.2025.1.21.0 aktualizacja: wto, 21 sty 2025, 21:39 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4524,6 +4524,8 @@ kancelaria.obligo.pl###footer .widget-contact
 kanga.exchange##footer a[href*="/KangaExchange"], footer a[href*="/kanga.exchange"]
 kanga.exchange#?##root > div > div > div:-abp-has(#facebook + #twitter + #telegram + #vkontakte)
 kantor.com.pl##.dnd_follow_us > .top_social_icon
+kapitanhack.pl##.social a:not(.fa-rss)
+kapitanhack.pl##.wpsr-share-icons.wp-socializer h5
 kapral-car.pl##.absolute-fb.wpb_content_element, .icons-socials-homepage, .o-firmie.tabela p:nth-of-type(4) > strong
 karchercenter-ocean.pl,myjki.com###facebook-left
 kariera.play.pl##a > .icon-c_fb
@@ -4553,10 +4555,10 @@ katarzynachudy.pl##.standard-footer__instagram-link
 katarzynachudy.pl##.standard-footer__instagram-text-wrapper
 katolicka.pl###block-block-24, .view-footer
 katoobywatel.katowice.eu##.fw__widget--social
-katowice24.info##.rst-list-social
 katowice24.info##.rst-list-social > li:nth-of-type(-n+3)
-katowice24.info##article .wpsr-share-icons.wp-socializer
-katowice24.info##div[id*="post"] div[class*="post"] p > [href*="facebook.com/katowice24info" i] > img
+katowice24.info##.rst-list-social:not(:has(a[href*="rss"], a[href*="feed"]))
+katowice24.info##.widget_social .ss_social li:has(.facebook, .twitter, .utube)
+katowice24.info##.widget_social h3
 katowice.eu###znajdznas
 katowice.eu##.footer .linki
 katowice.eu,korbasowydwor.pl##.social > a
@@ -6417,6 +6419,8 @@ pay-card.pl##a[href*="youtube.com/channel/UCIrQBYCQhV8RCvPZ5YlZywQ"]
 pay.google.com##.youtube.social--icon
 payback.pl##footer a img[src*="social-icon"]
 paybylink.pl##.footer-group > .s-list > li > a[href*="facebook.com/rushpaypl"]
+paypo.pl##.share-box-social
+paypo.pl##footer > div > div > div:has(> .social-icons-box)
 pb.edu.pl###custom_html-3 > .custom-html-widget.textwidget > div:nth-child(5) > a[href*=".com/"]
 pb.pl##.o-home-footer-box__social
 pb.pl##a.npb-btn-author.npb-btn:nth-of-type(2):not([href^="mailto:"])
@@ -7293,6 +7297,7 @@ realmadryt.pl##div.social-container--item:nth-of-type(n+2):nth-of-type(-n+4)
 realmadryt.pl#?#.bg:-abp-contains(dołącz)
 rebel.pl##.footer__menu.row > .row > div.footer-menu__col:first-of-type
 recea.pl##.container > .f-row > div.f-grid-6:nth-of-type(2)
+red-note.com.pl##.social-icons li:not(.rss)
 redark.pl##div[class*="footer__FooterColumn"]:nth-of-type(3) > ul
 redark.pl#?#aside > div[class*="widget__WidgetContainer"]:-abp-has(a[class*="social"])
 redbullmobile.pl##.footer-find-us-box
@@ -9481,6 +9486,7 @@ znanylekarz.pl##a[href*="facebook.com/ZnanyLekarz"]
 znanylekarz.pl#?#.modal-dialog span:-abp-has(a[data-one-tracking-object_sub_type*="social_media_"])
 znicze-olex.pl##.bd-icon-42
 znp.edu.pl###footer-top div.col-md.col-6:nth-of-type(6)
+zondacrypto.com##.footer-options-social
 zoo.bydgoszcz.com##.f
 zoo.torun.pl##.trip-rp, p > a[href*="pl-pl.facebook.com/pages/Ogr%C3%B3d-Zoobotaniczny-w-Toruniu/334822023239568"]
 zoo.wroclaw.pl##.sticky > li:nth-of-type(-n+3)
@@ -10507,6 +10513,8 @@ interia.pl,pomponik.pl,styl.pl,support.mozilla.org#@#.share-link
 ithardware.pl#@#.post-sharing
 jezuici.pl#@#.et-extra-social-icons
 kadantiscam.netlify.app,naszesprawy.eu,pkobp.pl,radiopoznan.fm#@#.social-icon
+katowice24.info#@#.ss_social
+katowice24.info#@#.widget_social
 kei.pl#@#.social_icons
 kingowiec.pl,wiadomoscihandlowe.pl#@#.socialmedia:not(html):not(body)
 klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet"]
