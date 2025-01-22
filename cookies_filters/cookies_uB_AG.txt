@@ -206,6 +206,8 @@ citibank.pl##.CookieStyle
 citibank.pl##.ScrollLock:style(overflow-y: auto !important)
 claas.pl##.fancybox-lock:style(overflow-y: auto !important; margin-right: 0 !important)
 claas.pl##.fancybox-overlay:has(.cookieHint)
+cleangang.pl##.MuiModal-root[role="presentation"]:has(> div.MuiBox-root > div > form > div > div > a[href$="/polityka-prywatnosci"] ~ a[href$="/rodo"])
+cleangang.pl##body[style*="overflow"][style*="hidden"]:style(overflow-y: auto !important)
 club.galilea.com.pl###welcome, .modal-backdrop
 coca-cola.pl##html.ot-modal-open, html.ot-modal-open body:style(overflow-y: auto !important)
 codeeurope.pl###root footer ~ div:has-text(plików cookies)
