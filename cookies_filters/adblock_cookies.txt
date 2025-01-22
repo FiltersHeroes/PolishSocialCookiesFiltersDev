@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.22.0
-! Last modified: Wed, 22 Jan 2025, 03:00 UTC+01:00
+! Version: 2025.1.22.1
+! Last modified: Wed, 22 Jan 2025, 21:37 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.22.0 aktualizacja: śro, 22 sty 2025, 03:00 UTC+01:00
+! v.2025.1.22.1 aktualizacja: śro, 22 sty 2025, 21:37 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1083,6 +1083,7 @@ farmexpert.pl##.altumcode-cookie-notification-wrapper
 fashionpost.pl###cok
 fastenerpoland.eu,gazeta-fotograficzna.org,grojec24.net,kartki-swiateczne.com,matmichbus.eu,stalowka.net,staltech.biz###cookieInfo
 fastenerpoland.eu,vetpersonel.elamed.pl###agreeInfo
+fastestvpn.com,mettosport.eu,podemski.info,rallypl.com,skawina.eu,spidersweb.pl,vanessa.fm###moove_gdpr_cookie_info_bar
 faxtel.com.pl,krnmedia.pl##.cookiealert
 federacjarolna.pl##.js-modal-popup
 fedex.com#?#fedex-alert:-abp-contains(cookie)
@@ -1823,9 +1824,8 @@ mediaexpert.pl##body:not(.is-bodyScrollDisabled) .is-cookies.c-footer_col
 mediaexpert.pl#?#.modal.dialog-wrapper:-abp-has(a[href="/s,zasady-przetwarzania-danych"])
 mediaexpert.pl#?#.wrapper:-abp-has(.cookie-box)
 mediam.eu,szkolawbrusie.pl###panel_popup
-mediamarkt.pl###fastcookie
-mediamarkt.pl###site_container > .clearfix
 mediamarkt.pl#?#.layout > .wrapper:-abp-has(.cookie-box)
+mediamarkt.pl#?#footer button:-abp-contains(Ciasteczka)
 mediasystems.pl##body > div > div[style*="position"][style*="relative"]:not([id], [class])
 mednavi.pl##.CookiesNotice
 medpolonia.pl###bannerPopup
@@ -1859,7 +1859,6 @@ meteovista.pl###info-bar-content
 metis.pl###wndCookies
 metropoliagzm.pl,testhub.pl##.sh-page-notice
 metropoliaztm.pl##a[data-target="#cookieModalCenter"]
-mettosport.eu,podemski.info,rallypl.com,skawina.eu,spidersweb.pl,vanessa.fm###moove_gdpr_cookie_info_bar
 mevspace.com##.cookie-overlayer
 mggp.com.pl##.navbar-inverse, .navbar.navbar-fixed-bottom
 mi.com##.J_agreeCookieModal, .top-notify
@@ -4238,7 +4237,7 @@ wolframalpha.com##footer ~ section
 @@||cdn.cookielaw.org^$domain=rossmann.pl
 @@||cmp.inmobi.com^$domain=aszdziennik.pl|dadhero.pl|innpoland.pl|klubzwierzaki.pl|mamadu.pl|natemat.pl|topnewsy.pl
 @@||sdk.privacy-center.org/*/loader.js$script,domain=bonduelle.pl
-@@||sdk.privacy-center.org^$script,domain=softonic.pl
+@@||sdk.privacy-center.org^$script,domain=pb.pl|softonic.pl
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=aldi.pl
 ###ba_eu_cookie_law:not(form)
 ###gdpr_consent:not([class*="form"], [class*="module"])
