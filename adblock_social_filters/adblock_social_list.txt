@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.21.0
-! Last modified: Tue, 21 Jan 2025, 21:39 UTC+01:00
+! Version: 2025.1.22.0
+! Last modified: Wed, 22 Jan 2025, 03:00 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.21.0 aktualizacja: wto, 21 sty 2025, 21:39 UTC+01:00
+! v.2025.1.22.0 aktualizacja: śro, 22 sty 2025, 03:00 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2250,6 +2250,7 @@ classen.pl##.choosing-tile__socials-container
 claudia.pl##.sidebar-box-social-icon.sidebar-box
 claudia.pl#?#.col-12 > h3:-abp-contains(Zainspiruj się)
 claudia.pl,webcamera.pl##.instagram-box
+cleangang.pl##a[href*=".com/"]:is([href*="instagram.com/"], [href*="facebook.com/"], [href*="tiktok.com/"]):has(> button > img)
 clevo-computer.com##.googlepluslink, .instagramlink
 clevo-computer.com##.whatsappbadge
 clevo-computer.com##a[id].kplngisd-button:not(#kplngisd-mail-button)
