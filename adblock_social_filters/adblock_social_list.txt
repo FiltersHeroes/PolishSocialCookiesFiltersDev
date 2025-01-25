@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.1.23.0
-! Last modified: Thu, 23 Jan 2025, 02:56 UTC+01:00
+! Version: 2025.1.25.0
+! Last modified: Sat, 25 Jan 2025, 02:51 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.1.23.0 aktualizacja: czw, 23 sty 2025, 02:56 UTC+01:00
+! v.2025.1.25.0 aktualizacja: sob, 25 sty 2025, 02:51 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2528,9 +2528,6 @@ deepl.com##.dl_footer__social
 deepl.com##div[class*="socialMediaContainer"] a:not([href*="github.com/"])
 deezee.pl##.c-footer .html_editor.widget > .is-title, .c-footer .html_editor.widget > .is-title ~ a
 defendinsurance.eu##.footer-social-sites
-deichmann.com###services-follow > .img-text-link > a:not([href*="shoelove"])
-deichmann.com###services-follow > h5
-deichmann.com###services-follow > p:first-of-type
 dekarz.com.pl##.rfs-social-media__title
 dekea.pl##div.footer-widget.col-sm-3:nth-of-type(5)
 dekiel.pl,mistama.com###social > a:first-of-type
@@ -2894,6 +2891,8 @@ e-hurtowo.eu##.PortaleSpolecznoscioweIkony
 e-kca.pl##a[href*="facebook.com/sklepkca"]
 e-kidsplanet.com##.navbar-header > a.navbar-brand:nth-of-type(n+2):nth-of-type(-n+3)
 e-kocyk.pl##.fixedIcons
+e-kolo.pl##.text-center.d-sm-block:has(> a[title*="Udostępnij"])
+e-kolo.pl##a[title*="lij whatsup"][href*="web.whatsapp.com/send?text="]
 e-kolo.pl##div.col-sm-6.col-12:nth-of-type(3) > div.pb-3.row:nth-of-type(2)
 e-kolo.pl##footer div.col-sm-6.col-12:nth-of-type(2) > div.pb-3.row:nth-of-type(-n+2)
 e-kominki24h.pl##.widgets, .footer-hehe > span:nth-of-type(8)
