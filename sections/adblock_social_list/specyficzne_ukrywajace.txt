@@ -1,4 +1,5 @@
-microsoft.com##div[id^="socialfollow-"]
+azure.microsoft.com##div[id^="socialfollow-"] a[href]:not([href*="app"])
+~azure.microsoft.com,microsoft.com##div[id^="socialfollow-"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="facebook.com/"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="instagram.com/"]
@@ -719,7 +720,6 @@ azet.net.pl###box_wce_headerinfo > div > a
 azet.net.pl###box_wce_headerinfo > p > a
 azjatyckibazar.com###footer > div.col-sm-no-pd.col-sm-4:nth-of-type(3)
 aztecas.eu##.stopka > div[class*="stopka2"] > a:not([href$="/feed/"])
-azure.microsoft.com##nav.medium-3.column
 b2b.metal-bud.eu,bat.pl,brymorex.pl,chemko.com.pl,sklep.enger.pl##.social-media-ui
 b2btrade.eu###footer > div:nth-of-type(6) > a.left
 b2net.pl#?#.single-widget > h3:-abp-contains(Udostępnij)
@@ -2395,9 +2395,7 @@ eventmanagement.pl,flota.com.pl,nm.pl,o-m.pl##.logo-socials
 eventmanagement.pl,flota.com.pl,nm.pl,o-m.pl##.znajdz-nas
 eventory.cc##.site-footer__follow-us__wrapper
 events.comarch.com##li.footer__item:nth-of-type(1)
-events.teams.microsoft.com##div[class*="Pop"][role="dialog"] #facebookLink
-events.teams.microsoft.com##div[class*="Pop"][role="dialog"] #linkedInLink
-events.teams.microsoft.com##div[class*="Pop"][role="dialog"] #twitterLink
+events.teams.microsoft.com##div[class*="Pop"][role="dialog"] :is(#facebookLink, #linkedInLink, #twitterLink, #xLink)
 eventy.neonail.pl##footer > a
 evertiq.pl###foot > ul > li:nth-of-type(3)
 evertourist.com##.contact-fb
