@@ -1,7 +1,3 @@
-azure.microsoft.com##div[id^="socialfollow-"] a[href]:not([href*="app"])
-~azure.microsoft.com,microsoft.com##div[id^="socialfollow-"]
-pl.iherb.com##.social-media-icons li:not(:has(.store-review)) a
-pl.iherb.com##.iherb-pdp-share
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="facebook.com/"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="instagram.com/"]
@@ -19,6 +15,7 @@ pl.iherb.com##.iherb-pdp-share
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/)) > :not(:last-child)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:-abp-has(> span:-abp-contains(/^Udostępnij:?$/)) + div > div
 ~1login.wp.pl,money.pl,moneyv.wp.pl,o2.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
+~azure.microsoft.com,microsoft.com##div[id^="socialfollow-"]
 ~fitness.wp.pl,wp.pl,~www.wp.pl##.social-links a
 2kc.pl##.container.userfooter > .row > div > a[href*=".com/"]
 2msystem.pl##.sidebar__social
@@ -722,6 +719,7 @@ azet.net.pl###box_wce_headerinfo > div > a
 azet.net.pl###box_wce_headerinfo > p > a
 azjatyckibazar.com###footer > div.col-sm-no-pd.col-sm-4:nth-of-type(3)
 aztecas.eu##.stopka > div[class*="stopka2"] > a:not([href$="/feed/"])
+azure.microsoft.com##div[id^="socialfollow-"] a[href]:not([href*="app"])
 b2b.metal-bud.eu,bat.pl,brymorex.pl,chemko.com.pl,sklep.enger.pl##.social-media-ui
 b2btrade.eu###footer > div:nth-of-type(6) > a.left
 b2net.pl#?#.single-widget > h3:-abp-contains(Udostępnij)
@@ -5743,6 +5741,8 @@ pl.geofumadas.com###connect-ah .m-block.sm.alignright > ul > li > a
 pl.hisense.com##.console-foot-hs-social-group
 pl.howtopronounce.com##.socialShareIcons
 pl.huel.com##div[class*="footer__socials" i]
+pl.iherb.com##.iherb-pdp-share
+pl.iherb.com##.social-media-icons li:not(:has(.store-review)) a
 pl.iqos.com##.footer-secondary-link-menu > li.footer-list:first-of-type
 pl.johnnybet.com##.article-share-links
 pl.jooble.org##footer button[aria-label]
