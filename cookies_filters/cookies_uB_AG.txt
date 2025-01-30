@@ -34,9 +34,6 @@ centrum24.pl,doz.pl,santander.pl#@#body,html:style(overflow: auto !important; po
 /wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js$important,domain=sztolnie.pl|zamekgrodno.pl
 ||cdn.ans-media.com/*/CookiesConsentPopUp$redirect=noop.css,stylesheet
 ||cdn.cookielaw.org^$domain=downdetector.pl
-||doubleclick.net/pagead/managed/js/gpt$important,script,domain=downdetector.pl
-||doubleclick.net/pagead/managed/js/gpt$redirect-rule=googletagservices_gpt.js:5,script,domain=downdetector.pl
-||doubleclick.net/pagead/managed/js/gpt$redirect=googletagservices-gpt,script,domain=downdetector.pl
 ||lajt-online.pl/api/terms/rodo$1p,important,redirect=noop.json:10,xhr
 ||web.archive.org/web/*/http*://*.pl/*$generichide,important,domain=web.archive.org
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
@@ -265,6 +262,7 @@ dotoffice.pl##.modal2-active:style(position: static !important)
 dotoffice.pl##.modal2-wrapper
 douglas.pl##.modal-overlay__general, .modal-overlay__backdrop-enter-done
 douglas.pl##body[style*="overflow" i]:style(overflow-y: auto !important; padding-right: 0 !important)
+downdetector.pl###onetrust-consent-sdk:has(.onetrust-pc-dark-filter[style*="z-index"] ~ #onetrust-banner-sdk)
 downdetector.pl##+js(set, window.zdconsent.consentGiven, true)
 doz.pl##+js(set-cookie, consent-granted, 1)
 doz.pl##+js(set-cookie, consent-granted-version, 23)
@@ -845,6 +843,8 @@ zagojeni.pl##body.overflow-y:style(overflow-y: auto !important)
 zakupy.auchan.pl##.cookie-modal
 zakupy.auchan.pl##html[style], body[style]:style(overflow-y: auto !important)
 zamowienia.gbl.waw.pl###login-modal, .modal-backdrop
+zawojski.pl##:matches-media((max-width: 1045px)) body.privacy-box-visible:remove-class(privacy-box-visible)
+zawojski.pl##:matches-media((min-width: 1045px)) .privacy-box-visible .privacy-box
 zawszepomorze.pl###zp-gtm-scripts-modal
 zawszepomorze.pl##.zp-gtm-scripts--blur:style(filter: none !important)
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
@@ -1147,6 +1147,7 @@ media.netflix.com##+js(ra, id, body[id="cookieAlert"], stay)
 memo-book.pl##+js(rc, rodo-locked, body.rodo-locked, stay)
 memo-book.pl##+js(rc, rodo-locked, html.rodo-locked, stay)
 stilord.pl##+js(rc, active-overlay-blur, .active-overlay-blur, stay)
+zawojski.pl#### + js(rc, privacy-box-visible, body.privacy-box-visible, stay)
 !#endif
 !
 !#if !env_mobile
