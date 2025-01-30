@@ -1,5 +1,3 @@
-zawojski.pl##:matches-media((min-width: 1045px)) .privacy-box-visible .privacy-box
-zawojski.pl##:matches-media((max-width: 1045px)) body.privacy-box-visible:remove-class(privacy-box-visible)
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.dimmable, .dimmed:style(overflow-y: auto !important)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
@@ -807,6 +805,8 @@ zagojeni.pl##body.overflow-y:style(overflow-y: auto !important)
 zakupy.auchan.pl##.cookie-modal
 zakupy.auchan.pl##html[style], body[style]:style(overflow-y: auto !important)
 zamowienia.gbl.waw.pl###login-modal, .modal-backdrop
+zawojski.pl##:matches-media((max-width: 1045px)) body.privacy-box-visible:remove-class(privacy-box-visible)
+zawojski.pl##:matches-media((min-width: 1045px)) .privacy-box-visible .privacy-box
 zawszepomorze.pl###zp-gtm-scripts-modal
 zawszepomorze.pl##.zp-gtm-scripts--blur:style(filter: none !important)
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
