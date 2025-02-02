@@ -1,6 +1,3 @@
-apteczkadziecka.pl##footer a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"])
-amazone.pl##.social-nav__list a[href*=".com/"]:not([href*="xing.com/"])
-auchan.pl##.social-sharing-list:not(:has(span[data-link="#share-whatsapp"], span[data-link^="mailto:"]))
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="facebook.com/"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*="instagram.com/"]
@@ -402,6 +399,7 @@ am76.pl##.container.shop-footer .row > .text-center.col-md-6 > a > .fa-stack > .
 am76.pl##.shop-footer a:nth-of-type(-n+4)
 amazon.pl##div.navFooterLinkCol:nth-of-type(7)
 amazon.pl##div.ssf-channel-v:nth-of-type(n+2):nth-of-type(-n+4)
+amazone.pl##.social-nav__list a[href*=".com/"]:not([href*="xing.com/"])
 amberexpo.pl##body > div[style]:nth-of-type(n+3):nth-of-type(-n+4) > .handle_fb
 ambrozja.com###nm-footer .nm-footer-bar-social > li > a > .nm-font-facebook
 amfetamina.promo,damianparol.com,foodarea.pl,fryzjada.pl,fundacjawolnosci.org,kawiarniabezcukru.pl,kruczek.pl,medicept.pl,paweltkaczyk.com,piu.org.pl,trenerangielskiego.com,wnet.fm,yenn.eu##.menu-item a[href*="instagram.com/"]
@@ -504,6 +502,7 @@ apptoyou.pl##div.clickable-element img[src*="fb.svg"]
 apptoyou.pl##div.clickable-element img[src*="in.svg"]
 apress24.pl##footer .container > .row > div[class]:nth-of-type(2)
 apte.pl##.side-widget-facebook
+apteczkadziecka.pl##footer a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"])
 apteka-amica.pl##.left.sidebar > div.box:nth-of-type(n+5):nth-of-type(-n+8)
 apteka-band.eu###SITE_FOOTERinlineContent-gridContainer .font_7
 apteka-band.eu##div[data-hook="social-sharing"] > a
@@ -636,6 +635,7 @@ atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-gama.pl,atrium-kasztano
 atriumshop.eu,bejbi.eu,bestagro.eu,bombkichoinkowe.com,czterylapysklep.com,diagcar.eu,e-opakowania.info,kraftdele.info,motoklinika.com,shopsisters.eu,sklep.kajakiem.info,spacetronik.eu,swieczka.eu,urzadzenia-fiskalne.com,wojtki.eu###facebook_block
 atriumsystem.eu##.box-social-media.box
 auchan.pl##.footer-social-blocks > div > div > div:first-child
+auchan.pl##.social-sharing-list:not(:has(span[data-link="#share-whatsapp"], span[data-link^="mailto:"]))
 auchandirect.pl##.footer-links div.grid:nth-of-type(4) > ul > li:nth-of-type(n+5):nth-of-type(-n+6)
 auchanhetmanska.pl##.o-Footer-colNews > :nth-child(n+4):nth-child(-n+5)
 audi.pl###audi-footer ul > li > a[href*=".com/"] > svg
