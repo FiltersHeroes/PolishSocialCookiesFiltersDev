@@ -527,9 +527,8 @@ nat.pl##body div#cookieWarning
 nauka.rocks##.ct-ultimate-gdpr-cookie-topPanel-padding:style(padding-top: 0 !important)
 ncm.com.pl##.pum-overlay[data-popmake*="polityka-prywatnosci"]
 neon24.pl##+js(aopr, Service.cookieMonster)
-nike.com##+js(set-cookie, sq, 3)
-nike.com##body[data-overlay="cookieModalSimple"]:style(position: static !important)
-nike.com##body[data-overlay="cookieModalSimple"]:watch-attr(data-overlay):not([data-overlay="true"]) #gen-nav-commerce-header-v2 > div.pre-modal-window:has(> .pre-modal > .pre-modal-view > .pre-cookie-modal-body)
+nike.com##div#modal-root:has(> div > div >  div > div > .cookie-dialog-base)
+nike.com##.nds-no-scroll:style(overflow-y: auto !important)
 nowymarketing.pl##+js(set-cookie, cmplz_preferences, deny)
 nowymarketing.pl##+js(set-cookie, cmplz_statistics, deny)
 obpon.pl##.menu-flashmessages:style(top: 0 !important)
