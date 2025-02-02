@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.2.0
-! Last modified: Sun, 02 Feb 2025, 13:53 UTC+01:00
+! Version: 2025.2.2.1
+! Last modified: Sun, 02 Feb 2025, 17:41 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.2.0 aktualizacja: nie, 02 lut 2025, 13:53 UTC+01:00
+! v.2025.2.2.1 aktualizacja: nie, 02 lut 2025, 17:41 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1224,6 +1224,7 @@ am76.pl##.container.shop-footer .row > .text-center.col-md-6 > a > .fa-stack > .
 am76.pl##.shop-footer a:nth-of-type(-n+4)
 amazon.pl##div.navFooterLinkCol:nth-of-type(7)
 amazon.pl##div.ssf-channel-v:nth-of-type(n+2):nth-of-type(-n+4)
+amazone.pl##.social-nav__list a[href*=".com/"]:not([href*="xing.com/"])
 amberexpo.pl##body > div[style]:nth-of-type(n+3):nth-of-type(-n+4) > .handle_fb
 ambrozja.com###nm-footer .nm-footer-bar-social > li > a > .nm-font-facebook
 amfetamina.promo,damianparol.com,foodarea.pl,fryzjada.pl,fundacjawolnosci.org,kawiarniabezcukru.pl,kruczek.pl,medicept.pl,paweltkaczyk.com,piu.org.pl,trenerangielskiego.com,wnet.fm,yenn.eu##.menu-item a[href*="instagram.com/"]
@@ -1326,6 +1327,7 @@ apptoyou.pl##div.clickable-element img[src*="fb.svg"]
 apptoyou.pl##div.clickable-element img[src*="in.svg"]
 apress24.pl##footer .container > .row > div[class]:nth-of-type(2)
 apte.pl##.side-widget-facebook
+apteczkadziecka.pl##footer a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"])
 apteka-amica.pl##.left.sidebar > div.box:nth-of-type(n+5):nth-of-type(-n+8)
 apteka-band.eu###SITE_FOOTERinlineContent-gridContainer .font_7
 apteka-band.eu##div[data-hook="social-sharing"] > a
@@ -1459,6 +1461,8 @@ atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-gama.pl,atrium-kasztano
 atriumshop.eu,bejbi.eu,bestagro.eu,bombkichoinkowe.com,czterylapysklep.com,diagcar.eu,e-opakowania.info,kraftdele.info,motoklinika.com,shopsisters.eu,sklep.kajakiem.info,spacetronik.eu,swieczka.eu,urzadzenia-fiskalne.com,wojtki.eu###facebook_block
 atriumsystem.eu##.box-social-media.box
 auchan.pl##.footer-social-blocks > div > div > div:first-child
+auchan.pl##.social-sharing-list:has(span[data-link="#share-whatsapp"])
+auchan.pl##.social-sharing-list:not(:has(span[data-link="#share-whatsapp"], span[data-link^="mailto:"]))
 auchandirect.pl##.footer-links div.grid:nth-of-type(4) > ul > li:nth-of-type(n+5):nth-of-type(-n+6)
 auchanhetmanska.pl##.o-Footer-colNews > :nth-child(n+4):nth-child(-n+5)
 audi.pl###audi-footer ul > li > a[href*=".com/"] > svg
