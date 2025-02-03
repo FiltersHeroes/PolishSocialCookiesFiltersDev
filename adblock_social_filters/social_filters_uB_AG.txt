@@ -315,6 +315,7 @@ boop.pl#@#article ~ div p a.uppercase[class*="hover:"]:remove-attr(class)
 boop.pl#@#article ~ div p a[href*="dc"]:remove-attr(href)
 e-kolo.pl##body .text-center.d-sm-block:has(> a[title*="Udostępnij"])::first-line { color: transparent !important }
 focus.pl#?#.socializer-fb-share
+forums-pl.ubisoft.com#%#//scriptlet('remove-attr', 'href', 'area:is([href*="discordapp.com/"], [href*="facebook.com/"], [href*="instagram.com/"], [href*="plus.google.com/"], [href*="reddit.com/"], [href*="twitter.com/"], [href*="youtube.com/"])')
 forums-pl.ubisoft.com#@#area[href*="discordapp.com/"]:remove-attr(href)
 forums-pl.ubisoft.com#@#area[href*="facebook.com/"]:remove-attr(href)
 forums-pl.ubisoft.com#@#area[href*="instagram.com/"]:remove-attr(href)
