@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.2.3
-! Last modified: Sun, 02 Feb 2025, 23:11 UTC+01:00
+! Version: 2025.2.4.0
+! Last modified: Tue, 04 Feb 2025, 20:42 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.2.3 aktualizacja: nie, 02 lut 2025, 23:11 UTC+01:00
+! v.2025.2.4.0 aktualizacja: wto, 04 lut 2025, 20:42 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1289,6 +1289,7 @@ gospodarkamorska.pl,trzyjeze.pl###fr3ex-cookiewarning
 gostynin.info###modal-privacy, .cookies-message-wrapper
 gostynska.pl,jarocinska.pl,rawicz24.pl,zpleszewa.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 gothaer.pl##.ci-bar-wrapper
+gov.pl##cez-cookies
 gov.pl,policja.pl##.informationBar, .JSWrapper
 gowork.pl###header_top > p
 gowork.pl##.g-cookies-bar
@@ -3276,6 +3277,7 @@ zyro.com##.zyro-cookies
 /whcookiesutf.js$domain=pl
 ||choices.consentframework.com^$domain=pl
 ||cmp.optad360.io^$domain=~cmp.optad360.io
+||cookiefirst.com$third-party,domain=pl
 ||cookieform.pl/assets/js/plugin.js$third-party
 ||hokuspokus.pl/themes/webtheme/js/whrodo.js
 ||jak-zablokowac-cookies.pl/cookies_komunikat.js$script
@@ -4321,6 +4323,8 @@ zus.pl#@#div.cookie-consent-modal
 !
 ! Specyficzne filtry usuwające ABP
 !#if ext_abp
+apteline.pl,ortopedio.pl##dialog.cookiefirst-root { remove: true }
+apteline.pl,ortopedio.pl##dialog[aria-label="Cookie baner"] { remove: true }
 bmw-motorrad.pl##.cookielayer { remove: true }
 centrum24.pl#@##__tealiumGDPRecModal
 cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,zgl.pl###popModal2 { remove: true }
