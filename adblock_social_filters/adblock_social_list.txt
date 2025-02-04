@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.3.0
-! Last modified: Mon, 03 Feb 2025, 02:57 UTC+01:00
+! Version: 2025.2.4.0
+! Last modified: Tue, 04 Feb 2025, 20:42 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.3.0 aktualizacja: pon, 03 lut 2025, 02:57 UTC+01:00
+! v.2025.2.4.0 aktualizacja: wto, 04 lut 2025, 20:42 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6880,6 +6880,9 @@ polvision.com##.foot_search_share
 polygamia.pl###polysocial, #sidebar-footer-top, #menu-submenu-1 a[href*="youtube.com/"], .sharepostHome
 polygamia.pl,tech.wp.pl,www.dobreprogramy.pl##[data-href*="/dobreprogramy/posts/" i]:not(a), [data-href*="/305335630685/posts/" i]:not(a)
 polygamia.pl,tech.wp.pl,www.dobreprogramy.pl##[src*="%2Fdobreprogramy%2Fposts%2F" i]:not(img), [src*="%2F305335630685%2Fposts%2F" i]:not(img)
+pomagam.pl###share-popup-fb-btn
+pomagam.pl###share-popup-twt-btn
+pomagam.pl##.icons.js-share-project-url svg:not(:nth-child(2))
 pomagam.pl##.og-share.bg-color-fb.btn-icon-inherit.btn, .tweet.bg-color-tw.btn-icon-inherit.btn.js-twt, div.col-6.col-md-3:nth-of-type(3) > .list > .links > li:nth-child(-n+4)
 pomoc.comarch.pl##section[id*="footer" i] a[href*="facebook.com/"]
 pomoc.comarch.pl##section[id*="footer" i] a[href*="linkedin.com/"]
