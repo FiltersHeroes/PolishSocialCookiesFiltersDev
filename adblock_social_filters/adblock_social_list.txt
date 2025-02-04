@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.4.0
-! Last modified: Tue, 04 Feb 2025, 20:42 UTC+01:00
+! Version: 2025.2.4.1
+! Last modified: Tue, 04 Feb 2025, 21:39 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.4.0 aktualizacja: wto, 04 lut 2025, 20:42 UTC+01:00
+! v.2025.2.4.1 aktualizacja: wto, 04 lut 2025, 21:39 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3298,8 +3298,8 @@ f1wm.pl##a[href*="facebook.com/pages/F1WMpl-Wyprzedz-Mnie/312906321837"]
 f1wm.pl##a[href*="twitter.com/F1WM"]
 f-secure.com##.cmp_footer__social-media
 f-secure.com##div[class*="FooterStyledSocialContainer-sc-"]
-f.kafeteria.pl,forum.budujemydom.pl,forum.komputerswiat.pl,forum.pclab.pl,forum.purepc.pl,hdtvpolska.com#?#.cPostShareMenu h5:-abp-contains(na innych)
-f.kafeteria.pl,forum.pclab.pl,forum.purepc.pl,hdtvpolska.com##.cShareLink:not(.cShareLink_email)
+f.kafeteria.pl,forum.budujemydom.pl,forum.purepc.pl,hdtvpolska.com##.cShareLink:not(.cShareLink_email)
+f.kafeteria.pl,forum.budujemydom.pl,forum.purepc.pl,hdtvpolska.com#?#.cPostShareMenu h5:-abp-contains(na innych)
 fabrykacukiernika.pl##.facebook-side-link
 fabrykacukiernika.pl##.instagram-side-link
 fabrykatanca.pl###top-nav-social *
@@ -3530,7 +3530,6 @@ forum.dobreprogramy.pl##.share-facebook, .share-twitter
 forum.grywamtu.pl#?#li.ipsSpacer_bottom.ipsBox.cForumRow:first-of-type > .ipsAreaBackground_reset.ipsDataList_zebra.ipsDataList_large.ipsDataList > li.ipsClearfix.ipsDataItem_responsivePhoto.ipsDataItem.cForumRow:first-of-type:-abp-contains(Facebook)
 forum.home.pl##.prefooter-block-02 > h6, .prefooter-column-two
 forum.home.pl##a > img[src$="/home.pl-posluchaj.JPG"]
-forum.komputerswiat.pl##.topic_share a:not([id*="print"], [id*="email"], [id*="download"])
 forum.optometria.info.pl##.footer-subscribe
 forum.pasja-informatyki.pl##div.qam-footer-col:first-of-type
 forum.pesleague.pl###YTSlideBox_left
@@ -4725,7 +4724,6 @@ komputerswiat.pl##.ods-c-footer__social a[href*="com/"]
 komputerswiat.pl##.ods-c-one-author-rich__social-profiles a
 komputerswiat.pl##li.ods-c-share__li:has(a[href*=".com/"]:not([href*="mailto:"]))
 komputerswiat.pl,onet.pl,plejada.pl##div[class*="BigCard_social_"] > span[class*="share"]
-komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org#?#div > a[href*="facebook.com/GamezillaPL" i]:-abp-has(img)
 komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org#?#div > a[href*="facebook.com/komputerswiat" i]:-abp-has(img)
 komputery-pc.info###Mod107
 komputerymarkowe.pl##.footer-banner-2 > a + a
@@ -6881,7 +6879,9 @@ polygamia.pl###polysocial, #sidebar-footer-top, #menu-submenu-1 a[href*="youtube
 polygamia.pl,tech.wp.pl,www.dobreprogramy.pl##[data-href*="/dobreprogramy/posts/" i]:not(a), [data-href*="/305335630685/posts/" i]:not(a)
 polygamia.pl,tech.wp.pl,www.dobreprogramy.pl##[src*="%2Fdobreprogramy%2Fposts%2F" i]:not(img), [src*="%2F305335630685%2Fposts%2F" i]:not(img)
 pomagam.pl###share-popup-fb-btn
+pomagam.pl###share-popup-messenger-btn
 pomagam.pl###share-popup-twt-btn
+pomagam.pl###share-popup-wa-btn
 pomagam.pl##.icons.js-share-project-url svg:not(:nth-child(2))
 pomagam.pl##.og-share.bg-color-fb.btn-icon-inherit.btn, .tweet.bg-color-tw.btn-icon-inherit.btn.js-twt, div.col-6.col-md-3:nth-of-type(3) > .list > .links > li:nth-child(-n+4)
 pomoc.comarch.pl##section[id*="footer" i] a[href*="facebook.com/"]
@@ -8714,6 +8714,7 @@ ubieranki.eu##.socialMini
 ubraniak.pl##p > a[href*="facebook.com/Ubraniak/"] > img
 ucando.pl##.menu-linki-do-mediow-spolecznosciowych-container a:not([href*="/mapa-strony/"])
 uchwyt.pl###footer .inside > span:nth-of-type(n+2):nth-of-type(-n+3)
+uck.katowice.pl##.socialplugin-icons
 uctok.com##.fbie
 uczciwysklep.com.pl##div:nth-of-type(3) > .menu-footer > li:nth-of-type(n+2):nth-of-type(-n+3)
 ug.edu.pl##footer + div a[href*=".com/"] [alt^="Logo"]
