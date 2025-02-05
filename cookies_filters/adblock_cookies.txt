@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.5.0
-! Last modified: Wed, 05 Feb 2025, 02:57 UTC+01:00
+! Version: 2025.2.5.1
+! Last modified: Wed, 05 Feb 2025, 21:40 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.5.0 aktualizacja: śro, 05 lut 2025, 02:57 UTC+01:00
+! v.2025.2.5.1 aktualizacja: śro, 05 lut 2025, 21:40 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -207,6 +207,7 @@ amundi.pl,chojnice24.pl###disclaimer
 andrespol.bip.cc,belgia.net,bip.chorzow.eu,ciasta.net,emcconsultant.eu,goganet.com,koniecpol.info,madameedith.com,nekla.eu,netpolska.com,nysa.eu,oblicz.to,polishexpress.co.uk,polskieligi.net,porcys.com,potak.eu,prawo-mieszkaniowe.info,reporterzy.info,tfkable.com,ug.tomaszow.maz.bip.cc,wader.toys,zabart.com,zlomowisko.info###cookies-message
 andrychow.eu,gazetkipromocyjne.net,kamienieczabkowicki.eu,kreatywna-europa.eu,kujawy.info,planetamarvel.net,ponglish.eu,wielkopolska.travel##.pea_cook_wrapper
 andrzejzawada.pl,megataxi.pl,ptfm-slask.pl##body > div > div[style*="position"][style*="fixed"]:not([id], [class])
+aniagemma.com,bboptic.com##.consent-banner-root
 anime-odcinki.pl###moove_gdpr_save_popup_settings_button
 anmar-pl.com##.reveal-modal[data-cookie]
 anmar-pl.com,honia.pl,mech-masz.com.pl,top123.pl##.woocommerce-store-notice
@@ -350,7 +351,6 @@ batteryland.com,easyjet.com,getbybus.com,lovoo.com,pl.milwaukeetool.eu,pl.rs-onl
 baumit.pl##.pro-cookie-layout
 bbc.com###cookiePrompt
 bbcpolska.com##body > iframe
-bboptic.com##.consent-banner-root
 bbs-bank.pl,neur.am.put.poznan.pl##.navbar-fixed-bottom.navbar
 bcweb.pl###cookieopened
 bdb.com.pl###plansza
@@ -2112,6 +2112,7 @@ opac.wimbp.zgora.pl##div#alertboxsec_c, div#alertboxsec_mask
 opc.eu##.header__cookies_law_info
 opel.pl##.q-silent-consent.q-legal-notification
 open.spotify.com###main > .Root > section[class^="_"][class$="-scss"]:first-of-type
+opera.com,teknos.com###cookie-consent
 operon.pl##.rodoModal
 opieka-nocna.pl,pmr-reda.pl,polozna-szczecin.pl##body > div[style*="background:"][style*="width:"][style*="border"]:not([id], [class])
 opineo.pl,skapiec.pl##div#uclaInfo
@@ -2805,7 +2806,6 @@ teb.pl##.ccn-overlay
 technologia-wody.pl###__next > footer ~ div.fixed[style]
 techpedia.pl##.skyf1
 teetres.com###_cookies_info
-teknos.com###cookie-consent
 tektorado.com,vents-group.pl###cookies-accept-info
 teledyski.info###Cookieinfo
 telegazeta.pl##.tvp-covl-bg, .tvp-covl
