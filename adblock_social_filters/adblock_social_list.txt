@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.4.1
-! Last modified: Tue, 04 Feb 2025, 21:39 UTC+01:00
+! Version: 2025.2.5.0
+! Last modified: Wed, 05 Feb 2025, 21:40 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.4.1 aktualizacja: wto, 04 lut 2025, 21:39 UTC+01:00
+! v.2025.2.5.0 aktualizacja: śro, 05 lut 2025, 21:40 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1256,6 +1256,8 @@ anetaduk.com##.icons > li:nth-child(-n+3)
 anetaduk.com,blokada.org##.fa-google-plus
 angliapolska.pl##.spoleczno.module
 angora.com.pl###central-social-div
+aniagemma.com##div[data-hook="social-sharing"] button:not([aria-label="Udostępnij na WhatsApp"])
+aniagemma.com#?##SITE_FOOTER div[id][class][data-testid="richTextElement"]:-abp-contains(MEDIA SPOŁECZNOŚCIOWE)
 aniagotuje.pl##.share-ingredients
 aniagotuje.pl##a:not([href]):has(> .icon-share)
 aniagotuje.pl,danone.pl##.nav-link[href*="instagram.com/"]
