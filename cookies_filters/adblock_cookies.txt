@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.4.0
-! Last modified: Tue, 04 Feb 2025, 20:42 UTC+01:00
+! Version: 2025.2.5.0
+! Last modified: Wed, 05 Feb 2025, 02:57 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.4.0 aktualizacja: wto, 04 lut 2025, 20:42 UTC+01:00
+! v.2025.2.5.0 aktualizacja: śro, 05 lut 2025, 02:57 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -3098,7 +3098,6 @@ zyro.com##.zyro-cookies
 *oetker.*/static/js/privacy-dialog/
 /ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info
 /api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest,domain=granice.pl|lubiegrac.pl
-/assets/cookies-info.js$script,domain=allegrolokalnie.pl
 /cookie*/bosch-privacy-settings-*.min.js$script,domain=bosch-professional.com|bosch.pl
 /cookie-banner-radio-$script,domain=felicity-lublin.pl
 /cookie-info.$script,stylesheet,xmlhttprequest,domain=katowice-airport.com|venezia.pl
@@ -3117,13 +3116,9 @@ zyro.com##.zyro-cookies
 /pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|filmy-wesele.pl|fotograf-wesele.pl|hrd.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
 /pltk_pl-PL.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|hrd.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
 /pp-t-a-c.js$domain=najlepsze.net|silacze.org|toplista.info
-/preferences*name=gdprConsents$script,xmlhttprequest,domain=allegrolokalnie.pl
-/preferences*name=rodoConsents$script,xmlhttprequest,domain=allegrolokalnie.pl
 /privacy/popup.js$script,domain=bauer.pl|cdaction.pl|pcformat.pl
 /rhododendron/css/rhododendron-popup.css$domain=abctygodnik.pl|wpolsce.pl
 /rodo-agreement-popup/rodo-agreement-popup.min.js$domain=gremimedia.pl|rpkom.pl|zw.com.pl
-/user_preferences*name=gdprConsents$script,xmlhttprequest,domain=allegrolokalnie.pl
-/user_preferences*name=rodoConsents$script,xmlhttprequest,domain=allegrolokalnie.pl
 /whcookies.js$domain=artexhome.eu|lessmess.storage|pdinetwork.net
 /whcookiesutf.js$domain=apteka-vita.eu
 /wp-content/plugins/mm-extensions/assets/js/info-popup.js$domain=koty.pl|psy.pl
@@ -3134,7 +3129,6 @@ zyro.com##.zyro-cookies
 /zgody/*/rodo$stylesheet,domain=gruparmf.pl|rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
 /zgody/*/rodo_rmf$script
 ||akademiareissa.pl/jquery.cg.rodo.modal.js
-||allegro.pl/plugins/custom/allegro/allegro/custom-cookie-banner-ep
 ||aptekarzpolski.pl/wp-content/plugins/popup-builderPro/style/sgcolorbox/colorbox4.css
 ||apteki24.waw.pl/info_cook.js
 ||architektura.info/extension/pucookies/design/base/stylesheets/pu_cookies.css
@@ -3161,7 +3155,6 @@ zyro.com##.zyro-cookies
 ||cookie.bortos.pl/*cookie*.js$script
 ||cookieconsent.lieps.de/consent/$domain=pl.tierpark-ueckermuende.de
 ||cookieq.com^$third-party
-||cookies.neuca24.pl/nc.js
 ||crimedistrict.com/lang/pl/images/nowa_glowna/cookies_ok.jpg
 ||ctm.gdynia.pl/js/alertbox.js
 ||demotywatory.pl/*/js/privacy_policy.js$script
