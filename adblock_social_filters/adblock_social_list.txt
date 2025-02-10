@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.10.0
-! Last modified: Mon, 10 Feb 2025, 03:03 UTC+01:00
+! Version: 2025.2.10.1
+! Last modified: Mon, 10 Feb 2025, 21:40 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.10.0 aktualizacja: pon, 10 lut 2025, 03:03 UTC+01:00
+! v.2025.2.10.1 aktualizacja: pon, 10 lut 2025, 21:40 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5434,6 +5434,7 @@ media.upc.pl##.pr-story--media-contact__social-icon
 media.upc.pl##div[class*="pr-story-share--"] > div > div[class*="right"], div[class*="pr-story--share-s"]
 mediaarena.pl###fx-fb
 mediaexpert.pl##.is-shareButtonsContainer
+mediafire.com##.ShareDialog-socialLinks
 mediakrytyk.pl##.menu_bottom_social_link
 mediamarkt.pl##.is-socials
 medianarodowe.com###fbinvite
@@ -10588,6 +10589,9 @@ malygosc.pl,wykop.pl#@#.social-list:not(html):not(body)
 meczyki.pl#@#.social-wrapper
 media.upc.pl#@#.bg-twitter
 media.upc.pl#@#.ion-social-twitter
+mediafire.com#@##sharebox
+mediafire.com#@##shareButton
+mediafire.com#@#.share-popup
 medycyna24.pl,wp.pl#@#.share-links
 meskiegacie.pl#@#[class^="social_button_"]
 miedzyrzecz.biz#@#.td_block_social_counter
