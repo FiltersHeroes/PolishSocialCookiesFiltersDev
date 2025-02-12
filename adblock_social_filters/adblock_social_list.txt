@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.11.0
-! Last modified: Tue, 11 Feb 2025, 02:57 UTC+01:00
+! Version: 2025.2.12.0
+! Last modified: Wed, 12 Feb 2025, 02:58 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.11.0 aktualizacja: wto, 11 lut 2025, 02:57 UTC+01:00
+! v.2025.2.12.0 aktualizacja: śro, 12 lut 2025, 02:58 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5939,7 +5939,7 @@ natychmiastowo.pl##.box > p > a[href*="facebook.com/natychmiastowo"]
 nau.pl##.footer-single-column > .footer-item5
 naukaitechnologie.plportal.pl###block-block-12
 naukajedzenia.pl##.cuisine-core-social-widget-block
-naukajedzenia.pl##.sitka_social_widget
+naukajedzenia.pl##.sidebar-widget:has(> .cuisine-core-social-widget-block)
 naukatolubie.pl##.ffwd_info.widget
 naukawpolsce.pap.pl##li.twitter
 naukawpolsce.pl###social > ul > .facebook
@@ -8438,6 +8438,7 @@ termedia.pl##.headSocial
 termedia.pl##.pageShareLabel
 termedia.pl##a[href*="twitter.com/MenedzerZdrowia"], a[href*="facebook.com/MenedzerZdrowia"]
 termgaz.pl###widget_social
+termoorganika.pl##footer > div.bg-orange > div:only-child > div:first-child > div:first-child > div:nth-child(2)
 termyszaflary.com##footer > div + div > div > div > div > div > section:first-child > div > div > div:last-child
 terrymoda.pl##.aFB
 tesco.pl##.cp-recipe-container-bottom > div.bottom-box:nth-of-type(2)
