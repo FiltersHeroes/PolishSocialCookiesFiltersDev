@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.16.2
-! Last modified: Sun, 16 Feb 2025, 18:36 UTC+01:00
+! Version: 2025.2.16.3
+! Last modified: Sun, 16 Feb 2025, 21:38 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.16.2 aktualizacja: nie, 16 lut 2025, 18:36 UTC+01:00
+! v.2025.2.16.3 aktualizacja: nie, 16 lut 2025, 21:38 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2368,7 +2368,6 @@ craftportal.pl##.__xXznajdziesz20nas20tutaj
 crazyhair.com.pl##.footer-top-content-block-icon
 crazynauka.pl,oscarrak.pl##.cb-widget-social-media
 crazypig.pl##.wengdo-header-social
-crclondon.com#?##blockquote:has-text(INSTAGRAMIE)
 creativepet.pl##.wp-my-instagram
 creativetools.pl,fan-strefa.pl,odix.pl,salon-drzwi.com.pl,sklep-z-zabawkami.e-sklepy.pl###twitter2_2
 creaton.pl##.footer-main div.neos-contentcollection.col-lg-3:nth-of-type(4)
@@ -3769,8 +3768,6 @@ gieldarolna.pl##footer .left > .inline > li > a > img
 giercownia.pl##.fb-box
 gih.grajewo.pl###bip
 gim7olsztyn.ehost.pl##.sidebar2 > .Block:nth-of-type(2)
-gimnazjum10.nazwa.pl,sp40katowice.pl###side-border-left div.panelbody a[href*="facebook.com/"], #side-border-left div.panelbody a[href*="youtube.com/"]
-gimnazjum10.nazwa.pl,sp40katowice.pl#?##side-border-left h3.panelcap:has-text(Nasze profile)
 ginlong.com##.s4 > .bdsharebuttonbox2
 gino-rossi.com##.footer .top > ul > li:first-of-type
 girlandowo.pl,helloprints.com.pl##.sk_social_icons_list
@@ -8005,6 +8002,7 @@ sp27bytom.szkolnastrona.pl###welcome > p[style*="center"] a[href*="facebook.com/
 sp27bytom.szkolnastrona.pl###welcome > p[style*="center"]:has(> span[style*="ff0000"]):has(+ p + p > a[href*="facebook.com/"])
 sp27bytom.szkolnastrona.pl###welcome > p[style*="center"]:has(> strong[style*="ff0000"]):has(+ p + p + p > a[href*="facebook.com/"])
 sp37.bytom.pl#?##BJ_Right .module:has-text(/na\sFB/)
+sp40katowice.pl#?##skgdMenuItem.hasSubmenu:has-text(Nasze profile)
 sp45kat.pl###cnss_widget-2, #text-2
 sp62katowice.szkolnastrona.pl##nav [href*=",facebook"]
 sp.lubawa.pl###custom_html-2 > div > div > a:first-child
