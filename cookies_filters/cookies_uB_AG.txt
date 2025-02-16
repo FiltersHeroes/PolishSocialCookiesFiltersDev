@@ -446,8 +446,8 @@ kramp.com##.no-scroll:style(position: static !important; overflow-y: auto !impor
 kruger.pl###rodo, .fader
 kruszywapolskie.pl##.sgpb-overflow-hidden, .sgpb-overflow-hidden-body:style(overflow-y: auto !important; height: auto !important)
 kruszywapolskie.pl##.sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
-kts.weszlo.com#@##__next > div[class]:-abp-has(> button ~ p:-abp-contains(korzysta z ciasteczek))
-kts.weszlo.com#@?##__next > div[class]:-abp-has(> button ~ p:-abp-contains(korzysta z ciasteczek))
+kts.weszlo.com#@##__next > div[class]:has(> button ~ p:has-text(korzysta z ciasteczek))
+kts.weszlo.com#@?##__next > div[class]:has(> button ~ p:has-text(korzysta z ciasteczek))
 kup.pl.canalplus.com##.p-dialog-center:has(.modal-cookies)
 kup.pl.canalplus.com##.p-overflow-hidden:style(overflow-y: auto !important)
 kupbilecik.pl,panbilet.pl###btn-cookies
