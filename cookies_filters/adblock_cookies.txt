@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.16.1
-! Last modified: Sun, 16 Feb 2025, 21:37 UTC+01:00
+! Version: 2025.2.18.0
+! Last modified: Tue, 18 Feb 2025, 02:59 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.16.1 aktualizacja: nie, 16 lut 2025, 21:37 UTC+01:00
+! v.2025.2.18.0 aktualizacja: wto, 18 lut 2025, 02:59 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -2998,6 +2998,7 @@ wix.com###cookieNotificationBannerWrapper
 wizytowki4you.pl##smq-popup
 wlin.pl###footer > #footer_text
 wlkp24.info###itro_popup, #itro_opaco
+wmglass.com.pl###open-cookies.cookie-open
 wniosek.eraty.pl,zysk.com.pl###pageUpperInfo
 wodociagi-kalisz.pl###white2
 wodociagi.krakow.pl###rodoBg
@@ -4334,6 +4335,7 @@ pl.canalplus.com###modal-overlayer-cookie-banner { remove: true }
 polska6.pl###modal { remove: true }
 purepc.pl##.cookiesinfo { remove: true }
 rynek-turystyczny.pl###modal-rodo { remove: true }
+wmglass.com.pl##dialog[cookies-dialog] { remove: true }
 !#endif
 !
 !
