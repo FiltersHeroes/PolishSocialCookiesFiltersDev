@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.23.0
-! Last modified: Sun, 23 Feb 2025, 17:41 UTC+01:00
+! Version: 2025.2.24.0
+! Last modified: Mon, 24 Feb 2025, 21:40 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.23.0 aktualizacja: nie, 23 lut 2025, 17:41 UTC+01:00
+! v.2025.2.24.0 aktualizacja: pon, 24 lut 2025, 21:40 UTC+01:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -568,7 +568,7 @@ c.mi.com##.privacy_agreement
 cadenas.de##.cookie-consent-flyout
 cadvision.pl##.widget-dark-background
 cafago.com,tomtop.com##.m_privacy_statement
-cafeplusco.pl,katowice-drzwi.pl##.new-cookies
+cafeplusco.pl,jakszklo.pl,katowice-drzwi.pl##.new-cookies
 campery-zlotniccy.pl##a[href="#cookiesAndContentPolicySettings"]
 campomoderngrill.pl,nasz-gabinet.pl##.message-window
 camprest.com##div[class*="CookiesModal_CookiesModal__wrapper_"]
@@ -4219,8 +4219,8 @@ wolframalpha.com##footer ~ section
 !
 !
 ! Bugi ELC
-@@/complianz-$script,domain=entra.pl|grupabiwakowa.pl|nowymarketing.pl
-@@/complianz.$script,domain=entra.pl|grupabiwakowa.pl|nowymarketing.pl
+@@/complianz-$script,domain=grupabiwakowa.pl|nowymarketing.pl
+@@/complianz.$script,domain=grupabiwakowa.pl|nowymarketing.pl
 @@/jquery.cookiebar.js$domain=shinden.pl
 @@/otBannerSdk.js$domain=avanti24.pl|bankier.pl|bethesda.net|blaklader.pl|carrefour.pl|cartoonito.pl|czterykaty.pl|dyskusje24.pl|edziecko.pl|elle.pl|elleman.pl|essilor.pl|focus.pl|focusnauka.pl|g.pl|gazeta.pl|gazeta.tv|glamour.pl|gry.pl|haps.pl|hapsvod.pl|ikea.com|infoladnydom.pl|infozdrowie24.pl|kobieta.pl|magazyn-kuchnia.pl|mojegotowanie.pl|mojpieknyogrod.pl|moto-wiadomosci.pl|moto.pl|national-geographic.pl|olx.pl|pizzahut.pl|player.pl|plotek.pl|przyslijprzepis.pl|sport.gwar.pl|sport.pl|tokfm.pl|toteraz.pl|tvn.pl|tvn24.pl|ugotuj.to|wpodrozy24.pl|wyborcza.pl
 @@/wpjslib-ecom.js$domain=17bankow.com
@@ -4270,9 +4270,9 @@ danio.com.pl,nat.pl,pl.genesis-zone.com#@##cookies-modal
 dpcraft.pl#@#.cookiesBackground
 dpcraft.pl#@#.cookiesPopup
 dpcraft.pl#@#div#cookiePopup
-entra.pl,grupabiwakowa.pl,nowymarketing.pl#@##cmplz-cookiebanner-container
-entra.pl,grupabiwakowa.pl,nowymarketing.pl#@##cmplz-manage-consent
-entra.pl,grupabiwakowa.pl,nowymarketing.pl#@#.cookie-statement
+grupabiwakowa.pl,nowymarketing.pl#@##cmplz-cookiebanner-container
+grupabiwakowa.pl,nowymarketing.pl#@##cmplz-manage-consent
+grupabiwakowa.pl,nowymarketing.pl#@#.cookie-statement
 grupapsb.com.pl#@#.cookies-footer
 horecanet.pl#@##gdpr-cookie-consent-bar
 horecanet.pl#@##gdpr-popup
