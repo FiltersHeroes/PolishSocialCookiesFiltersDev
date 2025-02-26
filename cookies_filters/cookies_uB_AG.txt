@@ -1199,6 +1199,7 @@ zawojski.pl#%#//scriptlet('remove-class', 'privacy-box-visible', 'privacy-box-vi
 zlubaczowa.pl#%#//scriptlet('remove-attr', 'style', 'html[style*="overflow"][style*="important"]')
 zlubaczowa.pl#?#html[style*="overflow"][style*="important"]:style(overflow: auto !important; height: auto !important)
 #@ <<<<<<<< komunikaty_uBO_AG_konwersja + komunikaty_AdGuard => AdGuard
+/assets/gdpr/*$domain=choiceqr.com
 @@||gawex.pl/assets/js/cookieinfo.js
 ||sdk.privacy-center.org/*/loader.js$redirect=didomi-loader,script,domain=bonduelle.pl
 bgk.pl#@#body.dp--cookie-consent:remove-class(dp--cookie-consent)
