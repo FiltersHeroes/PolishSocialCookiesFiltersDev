@@ -79,6 +79,7 @@ lookcam.com$$[id="lookcam-fb-modal"]
 !
 ! Widgety
 /plugins/likebox.php$frame,redirect=noop.html,domain=vifon.pl
+||premium.pl*/fb/splash.jpg
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href=""][title*="instagram"][target="_blank"] ~ a[href=""][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##figure strong:has-text(/^Podziel się$/):upward(2)
@@ -172,6 +173,9 @@ plejada.pl##.detailContentWrapper .contentShareLeft .fb_share:style(background: 
 pol-skone.pl##.slider__item:has(a[href*="facebook.com/"]):remove()
 pollena.com.pl##body > h5::before:style(content: "Podążaj za nami:"; position: relative; left: 102px; background: #fff; color: #fff)
 porta.com.pl##article > div.blog_article_socials:style(max-width: unset !important)
+premium.pl##div[style*="/fb/splash.jpg"] > :not(a[href*="/panel"]):remove()
+premium.pl##div[style*="/fb/splash.jpg"] > a[href*="/panel"]:only-child:remove-attr(style)
+premium.pl##div[style*="/fb/splash.jpg"]:style(background-image: none !important)
 promocje.al.to,promocje.x-kom.pl##div > h3 + a[title^="Odwiedź nas na"]:upward(div)
 radio.bialystok.pl##.columns > .columns a[href*="instagram.com/"] h2:upward(.row > .columns)
 radiobiper.info##div.elementor-widget:first-child > .elementor-widget-container:first-child > h2.elementor-heading-title > a[href="https://www.facebook.com/radiobiper/"]:upward(2)
@@ -267,6 +271,7 @@ forums-pl.ubisoft.com##+js(ra, href, area[href*="discordapp.com/"]\, area[href*=
 meblomag.eu##+js(ra, href, map[name="Map4"] > area:first-of-type, stay)
 naklejkolandia.pl##+js(ra, href, #sliderBox ul > li > a[href^="https://www.facebook.com/notes/naklejkolandiapl/"], stay)
 odkryjpomorze.pl##+js(ra, href, map[name="Map"] > area:first-of-type, stay)
+premium.pl##+js(ra, style, div[style*="/fb/splash.jpg"] > a[href*="/panel"]:only-child, complete)
 sklep.bi-es.eu##+js(ra, href, #inst a[href*="instagram.com/"], stay)
 studiooptyczne44.pl##+js(ra, href, .swiper-slide > a[href*="instagram.com/p/"][title], stay)
 transportgzm.pl##+js(ra, href, body > a[href*="facebook.com/"]:has(img))
@@ -339,6 +344,8 @@ plejada.pl#@#.contentArticle p:nth-last-child(-n+3) a[href*="facebook.com/plejad
 plejada.pl#@#.contentArticle p:nth-last-child(-n+3) a[href*="instagram.com/plejada" i]:remove-attr(href)
 plejada.pl#@#.contentArticle p:nth-last-child(-n+3) a[href*="tiktok.com/@plejada" i]:remove-attr(href)
 plejada.pl#@#.contentArticle p:nth-last-child(-n+3) a[href*="youtube.com/"][href*="plejada" i]:remove-attr(href)
+premium.pl#%#//scriptlet('remove-attr', 'style', 'div[style*="/fb/splash.jpg"] > a[href*="/panel"]:only-child', 'complete')
+premium.pl#@#div[style*="/fb/splash.jpg"] > a[href*="/panel"]:only-child:remove-attr(style)
 sklep.bi-es.eu#@##inst a[href*="instagram.com/"]:remove-attr(href)
 studiooptyczne44.pl#@#.swiper-slide > a[href*="instagram.com/p/"][title]:remove-attr(href)
 transportgzm.pl#@#body > a[href*="facebook.com/"]:has(img):remove-attr(href)
