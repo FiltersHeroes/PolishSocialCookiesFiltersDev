@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.26.0
-! Last modified: Wed, 26 Feb 2025, 03:05 UTC+01:00
+! Version: 2025.2.26.1
+! Last modified: Wed, 26 Feb 2025, 21:40 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.26.0 aktualizacja: śro, 26 lut 2025, 03:05 UTC+01:00
+! v.2025.2.26.1 aktualizacja: śro, 26 lut 2025, 21:40 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2212,6 +2212,10 @@ chip.pl,kinkyowl.pl,whatsnext.pl##.tipi-i-twitter
 chip.pl,leftlane.pl,whatsnext.pl##.tipi-i-youtube-play
 chlodnictwoiklimatyzacja.pl###left-in > .moduletable:nth-of-type(7)
 chocholowskietermy.pl##.mk-footer-social
+choiceqr.com##.footer__subtitle_social
+choiceqr.com##.footer__subtitle_social + ul
+choiceqr.com##div[class*="FooterBlockSocials_"]
+choiceqr.com##li.footer__contact-links-item:has(a[href*="."]:is([href*="facebook.com/"], [href*="t.me/"]))
 choinkowo.pl##.rightBar
 chojna24.pl###footer
 chojnice.com##.column5
