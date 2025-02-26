@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.24.0
-! Last modified: Mon, 24 Feb 2025, 21:40 UTC+01:00
+! Version: 2025.2.26.0
+! Last modified: Wed, 26 Feb 2025, 03:05 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.24.0 aktualizacja: pon, 24 lut 2025, 21:40 UTC+01:00
+! v.2025.2.26.0 aktualizacja: śro, 26 lut 2025, 03:05 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2224,6 +2224,8 @@ chosenby.eu##.footer-content div:nth-of-type(6).three > .footer-title
 chrisbenzshop.pl###box5
 chroberz.info#?##jm-right > div > div.jm-module > .jm-module-in:has-text(Komentuj na facebooku)
 chroma.pl##[class^="Footer---socialHeader"]
+chromewebstore.google.com##button[aria-label^="Udostępnij"]:not([aria-label*="WhatsApp"])
+chromewebstore.google.com##button[aria-label^="Udostępnij"][aria-label*="WhatsApp"]
 chrono24.pl##footer.footer section:nth-child(4):last-of-type > div > div > div + div > nav ul li a
 chronpesel.pl##.chp-footer-top-column-social
 chwilowkomat.pl###ssl > li:nth-of-type(3), #ssl > li:nth-of-type(4), #ssl > li:nth-of-type(5)
@@ -2599,6 +2601,7 @@ detektywprawdy.pl##.widget_a2a_share_save_widget
 developers.google.com##.devsite-banner-announcement:has(a[href*="linkedin.com/"])
 developers.google.com##.devsite-footer-promos-list > li:not(:has([href*="/feed"], [href*="pod.link"]))
 devgaming.pl###devSocialButtons > a.devButton:nth-of-type(-n+2)
+devmentor.pl##.elementor-column.elementor-inner-column:has(.elementor-widget-share-buttons) .elementor-widget.elementor-widget-text-editor
 dewelopart.pl##.yt-r, .in-r
 dexpol.com###panel, #panel2, #panel3
 deynn.blogspot.com,kamira90.blogspot.com,mylittlewhitehome.blogspot.com,reklamy-arek.blogspot.com,swedish-princesses.pl,techmaniachd.pl###HTML4
@@ -7025,6 +7028,7 @@ premier.gov.pl##.f4.fl > .clearfix > li
 premier.gov.pl##.fr > .fr > .fr > li
 premiery.pl.canalplus.com##.c-detail__action--facebook
 premium.pl##a[href*="facebook.pl/share.php"]
+premium.pl##a[href="https://premium.pl/facebook/info.html"]
 preorder.pl,scrascom.pl,zawadzki-znicze.pl##.find_us
 press.pl##.article-icons-content > [href^="https://www.wykop.pl/dodaj"]
 prestashop.com##.footer-shares
