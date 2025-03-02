@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.2.26.1
-! Last modified: Wed, 26 Feb 2025, 21:40 UTC+01:00
+! Version: 2025.3.2.0
+! Last modified: Sun, 02 Mar 2025, 17:41 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.2.26.1 aktualizacja: śro, 26 lut 2025, 21:40 UTC+01:00
+! v.2025.3.2.0 aktualizacja: nie, 02 mar 2025, 17:41 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2560,6 +2560,7 @@ deepl.com##.dl_footer__social
 deepl.com##div[class*="socialMediaContainer"] a:not([href*="github.com/"])
 deezee.pl##.c-footer .html_editor.widget > .is-title, .c-footer .html_editor.widget > .is-title ~ a
 defendinsurance.eu##.footer-social-sites
+deichmann.com##deich-lib-footer deich-lib-foldable-list:has(a[href*="facebook.com/"])
 dekarz.com.pl##.rfs-social-media__title
 dekea.pl##div.footer-widget.col-sm-3:nth-of-type(5)
 dekiel.pl,mistama.com###social > a:first-of-type
@@ -7388,6 +7389,7 @@ reklamacjatowaru.pl###text-42
 release24.pl###rightwindow > div:nth-of-type(2) > div > ul > li:nth-of-type(4)
 release24.pl##div:nth-of-type(2) > div > ul > li:nth-of-type(3)
 rembowscy.pl##.mcb-item-marrudp0p
+remedium.md##div[class^="footer_social_"]
 rememberthemilk.com##.rtm-footer-social
 remington-europe.com##.fa-pinterest.fa, .fa-youtube-play.fa, .hide-on-mobile.title
 remontibudowa.pl##.facebook-widget-container
@@ -7695,6 +7697,7 @@ siepomaga.pl##li.sharing-share-modal-component__item:nth-of-type(-n+4)
 siepomaga.pl#?#.human-cause > .share > div > div:nth-of-type(-n+3):has(a:has-text(/(Udostępnij|Tweetnij|Dodaj relację)/))
 sieradztomy.pl###Image6
 sierakowice.pl##.stopka_blog
+sig.pl##.footer__box--contact .footer__box-subtitle
 sig.pl##li > a[href*="facebook.com/SIG.materialy.budowlane/"]
 siglo.pl##a > img[src="images/layout/f.jpg"]
 signal.org##.navbar-end > .navbar-item:nth-of-type(n+7):nth-of-type(-n+8)
@@ -8894,6 +8897,7 @@ vibez.pl###Insta
 vibez.pl###main > section > section > nav ~ div
 vibez.pl##a[href*="facebook.com/vibezpl"]
 vibez.pl##article nav + div
+vibez.pl##footer a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="tiktok.com/"], [href*="youtube.com/"])
 vice.com##.site-header__social-icon
 vice.com##.titlebar__icons__social
 vice.com##article .article-heading-v2__social-link
