@@ -1131,6 +1131,7 @@ kts.weszlo.com##+js(set-cookie-reload, cookiesActive, false)
 ogladajanime.pl##+js(set-cookie-reload, accepted, true)
 parkiet.com,rp.pl##+js(set-cookie-reload, __gm_tcfconsent_v2, 1)
 ubi2.wit.edu.pl##+js(set-cookie-reload, GPRD, 128)
+www.zus.pl##:matches-path(/ezus/ustawienia-polityki-cookies) .p-dialog-mask-scrollblocker:has(> .cookie-consent-modal):style(display: flex !important)
 !#endif
 !#endif
 !
@@ -1164,6 +1165,7 @@ azure.microsoft.com###main:style(padding-top: 88px !important)
 !#endif
 !#if !ext_ublock
 #@ >>>>>>>> komunikaty_uBO_AG_konwersja + komunikaty_AdGuard => AdGuard
+[$path=/ezus/ustawienia-polityki-cookies]www.zus.pl#@#.p-dialog-mask-scrollblocker:has(> .cookie-consent-modal)
 accuweather.com,bezprawnik.pl,bolec.info##.fc-consent-root
 accuweather.com,bezprawnik.pl,bolec.info##body[style]:style(overflow: auto !important)
 bonduelle.pl#%#//scriptlet('didomi-loader')
