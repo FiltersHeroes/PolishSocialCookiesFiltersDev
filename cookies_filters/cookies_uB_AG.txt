@@ -335,6 +335,9 @@ fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow-y: auto !important)
 fillup.pl##+js(set-cookie, efile-cookie-74, 1)
+filmweb.pl##+js(rc, rodo, body.rodo, complete)
+filmweb.pl##+js(set, rodo.checkIsDidomiConsent, noopFunc)
+filmweb.pl##+js(set, rodo.waitForConsent, noopPromiseResolve)
 fiskars.pl##.desktop:style(top: 0 !important)
 flixclassic.pl##.app-gdpr
 fonts.google.com##gf-cookie-bar
