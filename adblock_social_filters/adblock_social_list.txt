@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.3.11.0
-! Last modified: Tue, 11 Mar 2025, 03:09 UTC+01:00
+! Version: 2025.3.17.0
+! Last modified: Mon, 17 Mar 2025, 03:12 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.3.11.0 aktualizacja: wto, 11 mar 2025, 03:09 UTC+01:00
+! v.2025.3.17.0 aktualizacja: pon, 17 mar 2025, 03:12 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -95,7 +95,7 @@ karmiepsiaki.pl###fb-exit
 karmopedia.pl,przedsiebiorcza.com#?#.spu-bg:-abp-has(~ .spu-box .spu-facebook-page)
 karmopedia.pl,przedsiebiorcza.com#?#.spu-box:-abp-has(.spu-facebook-page)
 karografia.pl###fb-popup
-kawiarniany.pl,nawiedzone.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+kawiarniany.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
 klasek.pl###spu-bg, #spu-main
 konstantinkanin.com##.hustle-show
@@ -108,7 +108,6 @@ mpolska24.pl###before-leave-window
 mpolska24.pl##.window
 mtv24.tv###mdfb
 nawakacje.eu,rytmynatury.pl##.ays-fpl-modals
-nawiedzone.pl##[data-title="Social Form - Popup #02"]
 nportal.no###fb-overlay
 okiemturysty.pl##.div_box0
 oknoline.pl###modalSocial, .modal-backdrop
@@ -3822,7 +3821,7 @@ gminainowroclaw.eu##a > img[src$="/youtube_logo.svg"]
 gminaketrzyn.pl##a[href*="facebook.com/gminaketrzyn"]
 gminalubaczow.pl##.social > .youtube
 gminamakow.info,kuppanauto.pl##.jm-social
-gminamoszczenica.eu,polonika.at,radioznin.fm,sedzia.net,sp5kcr.eu,wolamieszkancow.org##.pwebbox-plugin-facebook_page_plugin
+gminamoszczenica.eu,polonika.at,radioznin.fm,sedzia.net,sp5kcr.eu##.pwebbox-plugin-facebook_page_plugin
 gminaoswiecim.pl###global-scrollup
 gminaoswiecim.pl##div.col-data.footer-col:nth-of-type(3)
 gminasiedlce.pl##a[href*="facebook.com/ugsiedlce"] > img
