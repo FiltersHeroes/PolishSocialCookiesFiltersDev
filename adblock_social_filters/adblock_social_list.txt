@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.3.17.0
-! Last modified: Mon, 17 Mar 2025, 03:12 UTC+01:00
+! Version: 2025.3.18.0
+! Last modified: Tue, 18 Mar 2025, 22:41 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.3.17.0 aktualizacja: pon, 17 mar 2025, 03:12 UTC+01:00
+! v.2025.3.18.0 aktualizacja: wto, 18 mar 2025, 22:41 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -248,6 +248,8 @@ zmianywzyciu.pl###popup_facebook
 ~pl##a[href*="tumblr.com/share/link?url="]:lang(pl)
 ~pl##footer .fb_button:lang(pl)
 ~pl##li.top_bar_item_list_item_social_media:lang(pl)
+eu,pl##.atomsArticleFoot__socialMediaButtons a[href*="/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="twitter.com/"], [href*="x.com/"], [href*="youtube.com/"], [href*="/wideo"])
+eu,pl##.atomsArticleFoot__socialMediaTitle
 pl###a2a_follow_widget-2
 pl###article-sidebar-action-facebook
 pl###athemes_social_icons-2
@@ -397,7 +399,6 @@ pl##.at-svc-pinterest_share.at-share-btn
 pl##.at-svc-twitter
 pl##.at-svc-wykop
 pl##.at_PinItButton
-pl##.atomsArticleFoot__socialMediaTitle, .atomsArticleFoot__socialMediaButtons a[href*="facebook.com/"]
 pl##.atomsArticleFootTools__icons > .atomsArticleFootTools__icon
 pl##.atomsNavigationFooterSocialmedia__button[data-event-params="link_img=facebook"] > svg
 pl##.av-social-link-facebook
@@ -2978,7 +2979,6 @@ ebutik.pl###footer_socials
 ecbedzin.pl##.social-media-icons__item
 eccotravel.eu###metkaFB
 ecelebrity.eu###socialsSectionInner
-echodnia.eu##.atomsArticleFoot__socialMediaTitle, .atomsArticleFoot__socialMediaButtons a[href*="facebook.com/"]
 echomedia.info##.widget-html.widget:has(iframe[src*="facebook.com/"])
 echotygodnik.info##.pinterest, .linkedin
 echotygodnik.info##.sidebar > .widget-10
@@ -10495,7 +10495,6 @@ syrion.pl##.box-socials { remove: true }
 @@||google.*/logos/*/share-sprite.png$image,~third-party
 @@||gorenje.com/images/social/gray.png$domain=gorenje.com|gorenje.pl
 @@||icons.*.com/icons/*/facebook-icon.png$image,domain=konto.onet.pl
-@@||instalki.pl/wp-content/uploads/$image,domain=instalki.pl
 @@||krzysztofwojczal.pl/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/black/black_rss.png
 @@||ksiegarnia.karta.org.pl/wp-content/themes/ksiegarnia-karta/images/google-business.png
 @@||likefb.pl/wp-content/uploads/*/twittericon.png
