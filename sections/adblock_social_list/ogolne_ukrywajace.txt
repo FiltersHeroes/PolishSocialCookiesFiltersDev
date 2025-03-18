@@ -55,6 +55,8 @@
 ~pl##a[href*="tumblr.com/share/link?url="]:lang(pl)
 ~pl##footer .fb_button:lang(pl)
 ~pl##li.top_bar_item_list_item_social_media:lang(pl)
+eu,pl##.atomsArticleFoot__socialMediaButtons a[href*="/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="twitter.com/"], [href*="x.com/"], [href*="youtube.com/"], [href*="/wideo"])
+eu,pl##.atomsArticleFoot__socialMediaTitle
 pl###a2a_follow_widget-2
 pl###article-sidebar-action-facebook
 pl###athemes_social_icons-2
@@ -204,8 +206,6 @@ pl##.at-svc-pinterest_share.at-share-btn
 pl##.at-svc-twitter
 pl##.at-svc-wykop
 pl##.at_PinItButton
-pl,eu##.atomsArticleFoot__socialMediaTitle
-pl,eu##.atomsArticleFoot__socialMediaButtons a[href*="/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="twitter.com/"], [href*="x.com/"], [href*="youtube.com/"], [href*="/wideo"])
 pl##.atomsArticleFootTools__icons > .atomsArticleFootTools__icon
 pl##.atomsNavigationFooterSocialmedia__button[data-event-params="link_img=facebook"] > svg
 pl##.av-social-link-facebook
