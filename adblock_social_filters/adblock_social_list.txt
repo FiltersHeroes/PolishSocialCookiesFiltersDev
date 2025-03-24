@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.3.24.0
-! Last modified: Mon, 24 Mar 2025, 01:05 UTC+01:00
+! Version: 2025.3.24.1
+! Last modified: Mon, 24 Mar 2025, 21:40 UTC+01:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.3.24.0 aktualizacja: pon, 24 mar 2025, 01:05 UTC+01:00
+! v.2025.3.24.1 aktualizacja: pon, 24 mar 2025, 21:40 UTC+01:00
 !
 !
 !#safari_cb_affinity(social)
@@ -250,6 +250,8 @@ zmianywzyciu.pl###popup_facebook
 ~pl##li.top_bar_item_list_item_social_media:lang(pl)
 eu,pl##.atomsArticleFoot__socialMediaButtons a[href*="/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="twitter.com/"], [href*="x.com/"], [href*="youtube.com/"], [href*="/wideo"])
 eu,pl##.atomsArticleFoot__socialMediaTitle
+eu,pl##.componentsGalleryHybridNavbar__btnFacebook
+eu,pl##.componentsNavigationFooterNewExpanded__socialMediaLink:not([href*="google.com/publications/"], [href*="msn.com/"])
 pl###a2a_follow_widget-2
 pl###article-sidebar-action-facebook
 pl###athemes_social_icons-2
@@ -2540,7 +2542,7 @@ deagostini.com##div:nth-of-type(3) > .box-standard.item:has(.community)
 dealz.pl##.mega-menu__socials
 dealz.pl##.product-content__share
 dealz.pl#?#.elementor-location-footer.elementor .elementor-widget-heading:has-text(Śledź nas)
-debica24.eu,ekoscian.eu,iotwock.info,kartuzy.info,koscierski.info,kulisy.net,losice.info,lowicz24.eu,lukow.tv,mojestrone.com,politykazdrowotna.com,powiatowa.info,rybnik.com.pl,sejny.net,skarzyski.eu,slaskibiznes.pl,starachowicki.eu,szydlowiecki.eu,temat.net,tujastrzebie.pl,tuwodzislaw.pl,tuwroclaw.com,tuzory.pl,wideoportal.tv,zambrow.org,zlotowskie.pl,zycie.pl##.upper-bar__socials
+debica24.eu,ekoscian.eu,iotwock.info,kartuzy.info,katowice24.info,koscierski.info,kulisy.net,losice.info,lowicz24.eu,lukow.tv,mojestrone.com,politykazdrowotna.com,powiatowa.info,rybnik.com.pl,sejny.net,skarzyski.eu,slaskibiznes.pl,starachowicki.eu,szydlowiecki.eu,temat.net,tujastrzebie.pl,tuwodzislaw.pl,tuwroclaw.com,tuzory.pl,wideoportal.tv,zambrow.org,zlotowskie.pl,zycie.pl##.upper-bar__socials
 debiutplus.pl###text-5 .textwidget > .widget-title > p
 deblin24.eu##a[href*="facebook.com/pages/Deblin24eu/"] > img, a[href="twitter.com/"] > img
 decathlon.pl##.block-footer div.df-info__group:nth-of-type(3) > div.df-info-group__title:first-of-type, .block-footer div.df-info__group:nth-of-type(3) > div.df-info-group__title:first-of-type + div a
@@ -4584,10 +4586,10 @@ katarzynachudy.pl##.standard-footer__instagram-link
 katarzynachudy.pl##.standard-footer__instagram-text-wrapper
 katolicka.pl###block-block-24, .view-footer
 katoobywatel.katowice.eu##.fw__widget--social
-katowice24.info##.rst-list-social > li:nth-of-type(-n+3)
-katowice24.info##.rst-list-social:not(:has(a[href*="rss"], a[href*="feed"]))
-katowice24.info##.widget_social .ss_social li:has(.facebook, .twitter, .utube)
-katowice24.info##.widget_social h3
+katowice24.info#@#.rst-list-social > li:nth-of-type(-n+3)
+katowice24.info#@#.rst-list-social:not(:has(a[href*="rss"], a[href*="feed"]))
+katowice24.info#@#.widget_social .ss_social li:has(.facebook, .twitter, .utube)
+katowice24.info#@#.widget_social h3
 katowice.eu###znajdznas
 katowice.eu##.footer .linki
 katowice.eu,korbasowydwor.pl##.social > a
