@@ -1,3 +1,34 @@
+open.spotify.com##nav a[href*=".com/"]:is([href*="instagram.com/"], [href*="twitter.com/"], [href*="facebook.com/"])
+open.spotify.com##button[data-testid="entity-share-button"]
+twojapogoda.pl##.article__content p:has(> strong:only-child > a[href*="youtube.com/"]:only-child)
+veneo.pl##.social-list
+veneo.pl##.social_media
+ntfy.pl##.social
+prnt.sc##.header-social
+one.greeneris.com##.social-icons
+kajto.pl##.social-icons
+lovekrakow.pl##.header-top-nav-social-list a[href]:not([href*="rss"])
+zikodermo.pl##.social-group
+jaksmakowalo.pl##.fa-tiktok
+conversion.pl##.socials
+app.ntfy.pl##footer a[href*=".com/"]:is([href*="facebook.com/"], [href*="youtube.com/"], [href*="instagram.com/"], [href*="tiktok.com/"])
+theprotocol.it##footer a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"])
+fitking.pl###top-social-btns
+mebleinfo.pl##li.icons:nth-of-type(n+7):nth-of-type(-n+8)
+kler.eu##.social-media
+residenza.cz##.share__title
+goralskiespecjaly.pl##.sm
+imagazine.pl##.fa-threads.fab
+imagazine.pl##.fa-mastodon.fab
+scrabble123.pl##.social-icon
+podziemnaprzygoda.pl##footer a[href*=".com/"]:is([href*="instagram.com/"],[href*="facebook.com/"], [href*="tiktok.com/"])
+ing.pl##.footer__socialsAnchor
+adguard-dns.io##.social
+velux.pl##a[data-test-id="social-link"]
+sklep.bartnik.pl###socials_bar
+sklep.miod.com.pl##.social-icons
+sklep.miod.com.pl##div.footer__block--mobile > .footer__title:has(+ .social-icons)
+basiclab.shop##.contact_type_social
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="tiktok.com/"])
