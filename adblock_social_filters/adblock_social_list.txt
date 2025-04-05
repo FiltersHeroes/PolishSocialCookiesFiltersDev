@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.3.31.0
-! Last modified: Mon, 31 Mar 2025, 22:41 UTC+02:00
+! Version: 2025.4.5.0
+! Last modified: Sat, 05 Apr 2025, 14:58 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.3.31.0 aktualizacja: pon, 31 mar 2025, 22:41 UTC+02:00
+! v.2025.4.5.0 aktualizacja: sob, 05 kwi 2025, 14:58 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2091,6 +2091,7 @@ calisia.pl,erakonopi.pl,produkty-lokalne.pl##.header_social_icons
 calkiemzdrowo.pl##a[href*="facebook.com/calkiemzdrowo/"]
 camil.pl,przegladbaltycki.pl###rum_sst_tab
 campomoderngrill.pl##.social a:not([href*="delikatesy."])
+canalplus.com##button[data-testid="shared-button"]
 canalplus.com##ul[class*="socials_"]
 candleworld.com.pl##.facebooktoplayer
 candleworld.com.pl##.instagramtoplayer
@@ -5240,6 +5241,7 @@ m.interia.pl##.article-social.is-bottom
 m.leroymerlin.pl#?#.footer-tabs:has(> .tab-name:has-text(Nasze social media))
 m.piekielni.pl##.facebook.sprite
 m.se.pl,rekinysukcesu.pl##.social.row
+m.twitch.tv##.tw-link:is([href*="youtube.com/"], [href*="facebook.com/"], [href*="twitter.com/"], [href*="instagram.com/"]):has(svg)
 m.youtube.com##.share-target-link:not([href*="mailto:"])
 mabion.eu##a[href="https://www.linkedin.com/company/mabion-s.a./"]
 macademiangirl.com,plecakiwalizka.com##.header-info-text
@@ -5917,6 +5919,7 @@ napiachu.pl##.socialIcons
 napieknewlosy.pl###footgroup7 > ul > li:nth-of-type(n+4):nth-of-type(-n+8)
 napieknewlosy.pl###footlink22
 napieknewlosy.pl###napieknewlosy_1.box_custom.resetcss.box
+napieknewlosy.pl##.toolbar__social
 narcyz.com.pl###bottom-socialmedia
 narzedzia24na7.pl##footer li > a[href*="facebook.com/Narz%C4%99dzia24na7p"]
 narzedzia-profesjonalne.com.pl##img[src="/userdata/banners/5.png"]
@@ -7553,6 +7556,7 @@ rzetelnyregulamin.pl##.logo-footer > .list-inline
 rzg.pl##footer div.large-offset-1.large-4.column:nth-of-type(4) > .label
 saabotage.pl##a[href*="facebook.com/pages/SAABotagepl-Społeczność-fanów-marki-SAAB/202358416527090"]
 sabo.com.pl##.is-rounded-button-medium > a[href*="facebook.com/SABOSTOBUD/"]
+sadeczanin.info##.ant-btn[href*="facebook.com/"]
 sadnowoczesny.pl,warzywaiowoce.pl##.icon-facebook-logo
 sadownictwo.com.pl###socialBox > a:nth-child(-n+5)
 sadownictwo.com.pl##div.widthFull.isotopeGrid-item, .width4.isotopeGrid-item
@@ -8574,6 +8578,7 @@ tpnmm.pl###f-sliding
 tqmtc.pl##a.social:nth-of-type(2)
 tradeinn.com###footer_app.footer .footercont div + div div.redesPie:nth-of-type(9)
 tradingjam.pl##.twitter-timeline-profile, #twitter-timeline-profile-2
+tradycjenatury.pl##.widgets-follow-us
 traftu.pl##.social > span
 trainingshowroom.com##.footer-bottom__wrapper-social
 trainingshowroom.com##a > .fa-instagram.fab
@@ -9399,6 +9404,7 @@ wypozyczalniafilmow.wordpress.com##.share-google-plus-1
 wyprzedaze.uk##li.ruby-menu-social:nth-of-type(8), .rightSidebar > div.cardBox.box:nth-of-type(4)
 wyrobymennicze.pl##.facebo_label
 wysokienapiecie.pl##.is-offset-1-desktop.column.footer__supplement
+wysokieobcasy.pl##ul.footer-social--col a[href*="facebook.com/"]
 wysokiewibracje.pl##.pencidesign_facebook_widget
 wystroj-okien.pl##.footer-informations div.nav-container:nth-of-type(4)
 wysylajtaniej.pl##.visitus *
@@ -9633,6 +9639,7 @@ zstiomeritum.edu.pl##.facebookicon
 zstiomeritum.edu.pl##.youtube1
 zstiomeritum.edu.pl##.youtubeicon.social
 zszywka.pl###fb-share
+ztedevices.com##.footer-top > .right-box:has(> div:only-child ul.social-ul)
 ztm.kielce.pl##.nav-link[href*="facebook"]
 ztm.rzeszow.pl#?#div.single-box.col-md-3.col-xs-3:nth-of-type(n+4):nth-of-type(-n+5):has-text(/ZTM na (Facebook|YouTube)/)
 ztm.waw.pl###Banneryiztm > a[href*="ztm.waw.pl/"]:nth-of-type(3)
@@ -10113,6 +10120,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:has-text(Nasz Facebo
 ||planetasportu.com/upload/PLANETA/facebook_vertical.gif
 ||plock.fm/wp-content/uploads/20*/pl_na_facebook-2.jpg
 ||plock.fm/wp-content/uploads/20*/pl_na_insta
+||plus.pl/*/Footer/socials/Social-$image
 ||pm1-kozuchow.pl/photos/skin/clipart/*facebook-icon*.png
 ||pm1-kozuchow.pl/photos/skin/clipart/*icon-youtube.png
 ||pobitegary.com/google+32px.png
