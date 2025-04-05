@@ -1,3 +1,10 @@
+sadeczanin.info##.ant-btn[href*="facebook.com/"]
+m.twitch.tv##.tw-link:is([href*="youtube.com/"], [href*="facebook.com/"], [href*="twitter.com/"], [href*="instagram.com/"]):has(svg)
+canalplus.com##button[data-testid="shared-button"]
+ztedevices.com##.footer-top > .right-box:has(> div:only-child ul.social-ul)
+wysokieobcasy.pl##ul.footer-social--col a[href*="facebook.com/"]
+tradycjenatury.pl##.widgets-follow-us
+napieknewlosy.pl##.toolbar__social
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="tiktok.com/"])
