@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.4.5.1
-! Last modified: Sat, 05 Apr 2025, 18:44 UTC+02:00
+! Version: 2025.4.7.0
+! Last modified: Mon, 07 Apr 2025, 22:41 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.4.5.1 aktualizacja: sob, 05 kwi 2025, 18:44 UTC+02:00
+! v.2025.4.7.0 aktualizacja: pon, 07 kwi 2025, 22:41 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2339,6 +2339,9 @@ comparic.pl,whirlpool.pl##div[class*="footer"] a[href*="youtube.com/"]
 compensa.pl##.footer div.footer__members-item:nth-of-type(n+6):nth-of-type(-n+7), .footer-container > .container-fluid > .row > div.col-xs-12:nth-of-type(3)
 computer-alliance.pl##a[href*="facebook.com/computer.alliance.ltd/"]
 computerworld.pl##.navbar-right.nav > li.nav-item:nth-of-type(n+2):nth-of-type(-n+5)
+computerworld.pl##.social-share-button i:not(.icon-print, .icon-email)
+computerworld.pl##.social-share-button:not(:has(.icon-print, .icon-email))
+computerworld.pl##.social-share-sticky-menu__toggle-button
 concordiaubezpieczenia.pl##.sm_widget
 concordiaubezpieczenia.pl##a[href*="facebook.com/ConcordiaUbezpieczenia/"]
 conet.pl##footer #custom_html-4 p:nth-of-type(4)
@@ -4744,6 +4747,8 @@ komfort.pl,nowymoj.t-mobile.pl##div[class*="Footer_social_"]
 kominytona.pl##.hidden-320px.marginleft10.nopadding.inline-block > li.inline-block:nth-of-type(n+2)
 komoorki.pl##.footer-social-media-area, .social-media-area
 komorkomat.pl##.hidden-sm.hidden-xs.social_kontener
+komorkomat.pl##.social-link a[href*="group"] img
+komorkomat.pl##.social-link a[href]:not([href*="group"])
 komorkomat.pl##.widget_text.col-md-3:nth-of-type(4) > .widgettitle
 komornik-marchaj.pl##.rstpl-social
 kompan.pl##.blog-icon
@@ -10583,6 +10588,7 @@ blackmagicdesign.com#@#.gf-socials
 chillizet.pl#@#.share-content
 cke.gov.pl#@#.social_media:not(html):not(body)
 com,eu,info,pl#@##social_block
+computerworld.pl#@#.social-share-button
 couchsurfing.com#@#.mod-social
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl#@#.article-share
 demotywatory.pl#@#.share-widgets
