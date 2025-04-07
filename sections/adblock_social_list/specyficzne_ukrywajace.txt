@@ -1,8 +1,3 @@
-computerworld.pl##.social-share-button:not(:has(.icon-print, .icon-email))
-computerworld.pl##.social-share-button i:not(.icon-print, .icon-email)
-computerworld.pl##.social-share-sticky-menu__toggle-button
-komorkomat.pl##.social-link a[href]:not([href*="group"])
-komorkomat.pl##.social-link a[href*="group"] img
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="tiktok.com/"])
@@ -1487,6 +1482,9 @@ comparic.pl,whirlpool.pl##div[class*="footer"] a[href*="youtube.com/"]
 compensa.pl##.footer div.footer__members-item:nth-of-type(n+6):nth-of-type(-n+7), .footer-container > .container-fluid > .row > div.col-xs-12:nth-of-type(3)
 computer-alliance.pl##a[href*="facebook.com/computer.alliance.ltd/"]
 computerworld.pl##.navbar-right.nav > li.nav-item:nth-of-type(n+2):nth-of-type(-n+5)
+computerworld.pl##.social-share-button i:not(.icon-print, .icon-email)
+computerworld.pl##.social-share-button:not(:has(.icon-print, .icon-email))
+computerworld.pl##.social-share-sticky-menu__toggle-button
 concordiaubezpieczenia.pl##.sm_widget
 concordiaubezpieczenia.pl##a[href*="facebook.com/ConcordiaUbezpieczenia/"]
 conet.pl##footer #custom_html-4 p:nth-of-type(4)
@@ -3874,6 +3872,8 @@ komfort.pl,nowymoj.t-mobile.pl##div[class*="Footer_social_"]
 kominytona.pl##.hidden-320px.marginleft10.nopadding.inline-block > li.inline-block:nth-of-type(n+2)
 komoorki.pl##.footer-social-media-area, .social-media-area
 komorkomat.pl##.hidden-sm.hidden-xs.social_kontener
+komorkomat.pl##.social-link a[href*="group"] img
+komorkomat.pl##.social-link a[href]:not([href*="group"])
 komorkomat.pl##.widget_text.col-md-3:nth-of-type(4) > .widgettitle
 komornik-marchaj.pl##.rstpl-social
 kompan.pl##.blog-icon
