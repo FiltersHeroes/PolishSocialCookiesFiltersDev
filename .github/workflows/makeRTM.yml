@@ -17,7 +17,7 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      - uses: actions/create-github-app-token@v1
+      - uses: actions/create-github-app-token@v2
         id: pr-token
         with:
           app-id: 995167
@@ -29,7 +29,7 @@ jobs:
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           ./scripts/MAKE_RTM.py
-      - uses: actions/create-github-app-token@v1
+      - uses: actions/create-github-app-token@v2
         id: app-token
         with:
           app-id: 994739
