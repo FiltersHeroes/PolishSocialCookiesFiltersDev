@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.4.7.0
-! Last modified: Mon, 07 Apr 2025, 22:41 UTC+02:00
+! Version: 2025.4.8.0
+! Last modified: Tue, 08 Apr 2025, 22:42 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.4.7.0 aktualizacja: pon, 07 kwi 2025, 22:41 UTC+02:00
+! v.2025.4.8.0 aktualizacja: wto, 08 kwi 2025, 22:42 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1581,7 +1581,7 @@ b2btrade.eu###footer > div:nth-of-type(6) > a.left
 b2net.pl#?#.single-widget > h3:has-text(Udostępnij)
 b365.pl###box_custom36
 babi-kacik.eu,fajne.life,medbestshop.eu,webinsider.pl,wroclife.pl##.widget_monarchwidget
-babyboutik.pl,drogerienatura.pl,extra-plonsk.pl,getinbank.pl,shop-dent.pl,velobank.pl##.footer-social-media
+babyboutik.pl,drogerienatura.pl,e-pyrzyce.pl,extra-plonsk.pl,getinbank.pl,shop-dent.pl,velobank.pl##.footer-social-media
 babyhit.pl###footer_img > div:nth-of-type(2) > a > img
 bacca.pl###MenuWidget-3
 baccata.com.pl##a.footer_soc_icon:nth-of-type(-n+2)
@@ -2967,6 +2967,9 @@ e-podlogidrzwi.pl##.fb_logo
 e-podlogidrzwi.pl##.left.sidebarLeft > div.box:nth-of-type(6)
 e-podroznik.pl##[class*="SocialNetworks"]
 e-prim.pl###footer div.column-quarter:nth-of-type(4)
+e-pyrzyce.pl##footer p.gb-headline-text:has(+ .footer-social-media)
+e-pyrzyce.pl,extra-plonsk.pl##.social-icons-facebook
+e-pyrzyce.pl,onet.pl,plejada.pl##.whatsapp
 e-recepta.net##.socials a:not([href*="pacjent.gov.pl"])
 e-siedlce.com,ewaipiotr.pl,klassikauto.pl###text-17
 e-skladnica.pl##.bottom-footer a[href*=".com/"]
@@ -3145,7 +3148,7 @@ enel.pl###footer div.column.col-auto:nth-of-type(4) h4
 enel.pl##.fb-info
 enelsport.pl##div.page:nth-of-type(2) > div.width-25.column:nth-of-type(3), .quick-insta, .quick-fb
 enerad.pl##.nav-social-icons
-enerad.pl,fashionbiznes.pl,pizzeria-alforno.pl,psycholog-pisze.pl##.footer-social-icons
+enerad.pl,fashionbiznes.pl,pizzeria-alforno.pl,psycholog-pisze.pl,store.epicgames.com##.footer-social-icons
 energylandia.pl##.el-social-footer, .floating-facebook-button
 eneris.pl,wste.edu.pl##.social_menu
 enfamil.pl##.float-app:nth-of-type(3), .float-fb:nth-of-type(4)
@@ -3300,7 +3303,6 @@ expressilustrowany.pl###boks-facebook
 expresspaslek.pl###main-container .row div[id^="widget-"]:has(a[href*="facebook.com/"])
 exsites.pl,konsoleigry.pl##div.block:nth-of-type(4)
 extra-plonsk.pl##.social-box-container
-extra-plonsk.pl##.social-icons-facebook
 extra-plonsk.pl##footer p:has(+ .footer-social-media)
 extra-plonsk.pl##hr + div > p:has(+ div[class*="social"])
 extrasport.pl##div.item.product > .thumbnail:has(img[src*="/thumb_13-fb.jpg"])
@@ -6278,7 +6280,6 @@ onet.pl##div[class*="DetailAuthorsItem_socialWrapper_"]
 onet.pl##div[data-gtm-social]
 onet.pl#?#div[class^="_"] > span[class^="_"]:has-text(Podziel się tym artykułem)
 onet.pl,plejada.pl##.poll_share
-onet.pl,plejada.pl##.whatsapp
 onet.pl,plejada.pl##span[data-gtm*="-whatsapp"]
 onet.pl,plejada.pl##span[data-gtm*="messengerShare"]
 onet.pl,radioplus.pl,radiosupernova.pl,rivieraparkmarvipol.pl,senatkomorki.pl,stopcafe.pl,viva.pl,wp.pl##.messenger
@@ -10596,6 +10597,7 @@ disqus.com###thread-share-bar
 disqus.com#@#.follow-text
 dobreprogramy.pl#@#img[alt="Twitter"]
 duckduckgo.com#@#.footer__social-icon
+e-pyrzyce.pl#@#.scriptlesssocialsharing
 edunews.pl#@#.custom-social-buttons
 enfamil.pl#@#.float-shop
 epodreczniki.pl#@#.mdi-share
