@@ -269,8 +269,7 @@ douglas.pl##.modal-overlay__general, .modal-overlay__backdrop-enter-done
 douglas.pl##body[style*="overflow" i]:style(overflow-y: auto !important; padding-right: 0 !important)
 downdetector.pl###onetrust-consent-sdk:has(.onetrust-pc-dark-filter[style*="z-index"] ~ #onetrust-banner-sdk)
 downdetector.pl##+js(set, window.zdconsent.consentGiven, true)
-doz.pl##+js(set-cookie, consent-granted, 1)
-doz.pl##+js(set-cookie, consent-granted-version, 23)
+doz.pl##+js(set-cookie, consent-granted-version, 24)
 dpcraft.pl##.cookiesPopup, div#cookiePopup, .cookiesBackground
 dpcraft.pl##html[style*="overflow" i]:style(overflow-y: auto !important)
 dragon.com.pl###modal-rodo, .iziModal-overlay
@@ -1129,6 +1128,7 @@ purepc.pl##.cookiesinfo:remove()
 ||cdn.cookielaw.org^$important,redirect=noop.js:99,script,domain=open.spotify.com
 biuroprasowe.porta.com.pl##+js(set-cookie-reload, cookies-agreement, true, , dontOverwrite, 1)
 budujmase.pl,drogerium.pl,trec.pl,wylecz.to##+js(set-cookie-reload, rodoHfM, true)
+doz.pl##+js(set-cookie-reload, consent-granted, 1)
 espedytor.pl##+js(set-cookie-reload, zgodaRODO, true)
 f1racing.pl##+js(set-cookie-reload, x-id-cookie-yes, 1)
 kts.weszlo.com##+js(set-cookie-reload, cookiesActive, false)
@@ -1180,6 +1180,7 @@ centrumbajki.pl$$[class="popmake-overlay"][tag-content="danych osobowych"]
 domhouse.pl##.fancybox-overlay[tag-content="RODO"]
 domhouse.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important)
 domhouse.pl##html.fancybox-margin:style(margin-right: 0 !important)
+doz.pl#%#//scriptlet('set-cookie-reload', 'consent-granted', '1')
 drogeriekoliber.pl$$[class="popmake-overlay"][tag-content="naszej Polityce Prywatności"]
 emas.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl$$[id="banner-komunikat-rodo-"]
 espedytor.pl#%#//scriptlet('set-cookie-reload', 'zgodaRODO', 'true')
