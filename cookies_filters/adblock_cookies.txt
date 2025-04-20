@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.4.15.0
-! Last modified: Tue, 15 Apr 2025, 18:47 UTC+02:00
+! Version: 2025.4.20.0
+! Last modified: Sun, 20 Apr 2025, 22:42 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.4.15.0 aktualizacja: wto, 15 kwi 2025, 18:47 UTC+02:00
+! v.2025.4.20.0 aktualizacja: nie, 20 kwi 2025, 22:42 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1337,6 +1337,7 @@ haxe.pl##.haxe-cn-info
 hays-response.pl,hays.pl###header-msg
 hdmb.com.pl##.modal-cacsp-box-bottom.modal-cacsp-box-info.modal-cacsp-box
 helios.pl##.ban-rodo
+hellotuttifrutti.pl##.amgdprjs-bar-template
 help.autodoc.pl##.wrap-privacy-notification
 helpfind.pl##.cookie-privacy-box
 herbapol.com.pl###pop
@@ -4269,6 +4270,7 @@ danio.com.pl#@#.cookies-header
 danio.com.pl#@#.cookies-modal:not(body):not(html)
 danio.com.pl#@#.cookies-text
 danio.com.pl,nat.pl,pl.genesis-zone.com#@##cookies-modal
+doz.pl#@#+js(set-cookie, consent-granted-version, 23)
 dpcraft.pl#@#.cookiesBackground
 dpcraft.pl#@#.cookiesPopup
 dpcraft.pl#@#div#cookiePopup
