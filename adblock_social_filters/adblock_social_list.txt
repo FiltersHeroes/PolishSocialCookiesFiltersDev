@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.4.23.0
-! Last modified: Wed, 23 Apr 2025, 22:42 UTC+02:00
+! Version: 2025.4.25.0
+! Last modified: Fri, 25 Apr 2025, 22:43 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.4.23.0 aktualizacja: śro, 23 kwi 2025, 22:42 UTC+02:00
+! v.2025.4.25.0 aktualizacja: pią, 25 kwi 2025, 22:43 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2981,6 +2981,7 @@ e.tm.pl##.fa-facebook-f.brands.icon
 e.tm.pl##.fa-twitter.brands.icon
 ea.com##ea-social-links
 earlymath.pl##aside > div:nth-of-type(3) > a > img
+easyeko.pl##.footer3_social-list
 eataway.com###footer > .container > .row > div:nth-of-type(4)
 eau-thermale-avene.pl,tme.eu##.c-footer__social-icons
 ebilet.pl##.eb-footer__copyright-and-social > div > a:not([href="/newsletter"])
@@ -3360,6 +3361,7 @@ fantasy.ekstraklasa.org##div:nth-child(-n+2) > .featured-box-primary.featured-bo
 fantoma.pl###sc-ico-1
 farmer.net.pl##.up-footer div.col-md-3:first-of-type
 farmer.pl##.box-14 > .pageWidth > .right > .box-11 > .foot
+farmer.pl##.event-online-social
 farmer.pl##body > div[class*="box"] > div > ul[style*="relative"] > li[style*="absolute"]:has(> h2 ~ div > a[href*=".com/"] ~ a[href*=".com/"] > img[src*="social"])
 farmexpert.pl###farmexpert_socials_icons
 farmtrac.pl###dolacz-do-spolecznosci
@@ -4052,6 +4054,7 @@ hej.mielec.pl##.embedly-card
 hej.mielec.pl##a[href*="blip.pl/dashboard"]
 hej.mielec.pl##a[href*="facebook.com/hejmielecpl/"]
 hej.mielec.pl##a[href*="twitter.com/hejmielec"]
+hejto.pl##footer > div:only-child > div:first-child > div:nth-child(3)
 heldor.pl##footer > div > .row:first-child > div[class*="col"]:last-child p:has(> a[href=""] i)
 helendoron.pl##.soc-list
 helikon-tex.com##.m-image--sharing-links-white
@@ -4269,6 +4272,7 @@ indbuildcraft.pl##.click-to-toggle, #openPopup
 indesit.pl##.m-footer__social
 indigo-nails.com##.soc-section
 industra.pl##footer div.col-md-3:nth-of-type(3) > .footer-widget > .widget-title
+indykpol.pl##.socials-block
 inewi.pl##.row--social
 inexbuy.pl##.us-footer-social-link
 infinita-fashion.blogspot.com###HTML8, #HTML10, #HTML11
@@ -4287,6 +4291,7 @@ infogram.com##a[href*="linkedin.com/company/infogram"]
 infogram.com##a[href*="twitter.com/infogram"]
 infoplanet.pl##.aside-header
 infoplanet.pl##.left-fixed, .footer-fanpages, .footer-header
+infor.pl##.headerButtons[href*="youtube.com/"]
 inforfk.pl###facebookFixed
 inforlex.pl,interaktywnapolska.pl##.follow
 informacja-turystyczna.starachowice.eu##.item-440:has(> a[href*="youtube.com/user/umstarachowice"])
@@ -5133,6 +5138,8 @@ limi.pl##div.footer_block:nth-of-type(4)
 limpol.com##.messengerchat
 lincoln.edu.pl,warka24.pl##.top-facebook
 linux-magazine.pl##.link-footer-fb
+linuxiarze.pl##a[href="https://bsky.app/profile/linuxiarze.bsky.social"]
+linuxiarze.pl##a[href="https://linuxiarze.pl/mastodon/"]
 linuxiarze.pl##article[class*="post"] div:has(> a:is([href*="/facebook"], [href*="/youtube"], [href*="/reddit"], [href*="/twitter"], [href*="/tumblr"], [href*="/mastodon"], [href*="/pinterest"]))
 linuxiarze.pl##article[class*="post"] div:has(> a:is([href*="/facebook"], [href*="/youtube"], [href*="/reddit"], [href*="/twitter"], [href*="/tumblr"], [href*="/mastodon"], [href*="/pinterest"])) + hr
 linuxiarze.pl##header a[href*="/reddit"]
