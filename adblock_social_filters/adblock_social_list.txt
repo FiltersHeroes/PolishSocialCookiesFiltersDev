@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.4.27.0
-! Last modified: Sun, 27 Apr 2025, 22:39 UTC+02:00
+! Version: 2025.4.28.0
+! Last modified: Mon, 28 Apr 2025, 04:20 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.4.27.0 aktualizacja: nie, 27 kwi 2025, 22:39 UTC+02:00
+! v.2025.4.28.0 aktualizacja: pon, 28 kwi 2025, 04:20 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1264,7 +1264,7 @@ aniagemma.com#?##SITE_FOOTER div[id][class][data-testid="richTextElement"]:has-t
 aniagotuje.pl##.share-ingredients
 aniagotuje.pl##a:not([href]):has(> .icon-share)
 aniagotuje.pl,danone.pl##.nav-link[href*="instagram.com/"]
-aniagotuje.pl,danone.pl,evently.pl##.nav-link[href*="facebook.com/"]
+aniagotuje.pl,danone.pl,evently.pl,link.winiso.pl##.nav-link[href*="facebook.com/"]
 aniastarmach.pl###footer-instagram-section
 aniastarmach.pl,sniadaniedajemoc.pl##.site-socials
 animalcity.pl##a[href*="facebook.com/AnimalCity.co"]
@@ -3399,6 +3399,7 @@ festiwalinspiracji.pl#?#div.tzSpace_default.vc_row-fluid.wpb_row.vc_row:has-text
 festiwalkolorow.pl##.cms-footer-social
 festool.pl#?#li.fixed-grid-list:nth-of-type(3):has(> .teaser:has-text(Social media))
 fhoval.pl###social-box-fixed.social-box-fixed
+fiberm.pl###stopka-kontrolka-75 > div:nth-child(3)
 fielmann.pl##footer > div:nth-child(2) > div:nth-child(2) > div:first-child > div:nth-child(3) > div:first-child > div:nth-of-type(n+9):nth-of-type(-n+10)
 fifek.pl###float_facebook_box
 fiftyfiftyconcept.pl##.mkdf-social-icons-group-widget
@@ -3730,7 +3731,6 @@ gdynia.pl##.widget-text-block > div > .social > li:nth-child(-n+5)
 gdziejestdziecko.pl###footer .kol3.kol
 gdziepolek.pl##.content-section > .body > .m-b-25:has(> .fb-like)
 gdziepolek.pl##.MuiGrid-item > a[href*=".com/"][target="_blank"] > span
-gdziepolek.pl##a[href*="101010.pl/"]
 gdziepolek.pl##a[href*="twitter.com/"]
 gdziepolek.pl##article > header + div[style]:not([id], [class])
 gdziepolek.pl##article > header > div > div ~ button
@@ -3738,6 +3738,7 @@ gdziepolek.pl##article > header > div > div:first-child
 gdziepolek.pl##footer > .footer > div > .row:first-child > div:last-child
 gdziepolek.pl#?#.content-section > .body > .m-t-40:has-text(Polub nasz profil)
 gdziepolek.pl#?#div > p:first-child:has-text(Obserwuj nas)
+gdziepolek.pl,link.winiso.pl##a[href*="101010.pl"]
 gdziepolek.pl,simplyyourself.pl##a[href*="linkedin.com/"]
 gdziepolek.pl,simplyyourself.pl##a[href*="tiktok.com/"]
 gdziepolek.pl,simplyyourself.pl##a[href*="youtube.com/"]
@@ -7774,6 +7775,7 @@ sirt.pl##.social > a:not(:last-child)
 sissel.com.pl###info-header > span.info:nth-of-type(n+4):nth-of-type(-n+5)
 siteimpulse.com##.col-md-4.cols-5:nth-of-type(2)
 siteimpulse.com##.social > li:not(.email)
+sjp.pwn.pl##footer a[href*=".com/"]:is([href*="instagram.com/"], [href*="facebook.com/"], [href*="x.com/"])
 sk-sport.pl##.buttons3.footer_links
 skalnik.pl##.footerAdditional__social-wrapper
 skaner.p.lodz.pl##div.mb-lg-0.mb-5.col-md-4:nth-of-type(2)
