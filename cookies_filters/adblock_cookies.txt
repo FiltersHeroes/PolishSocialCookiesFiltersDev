@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.4.29.1
-! Last modified: Tue, 29 Apr 2025, 15:09 UTC+02:00
+! Version: 2025.4.29.2
+! Last modified: Tue, 29 Apr 2025, 19:26 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.4.29.1 aktualizacja: wto, 29 kwi 2025, 15:09 UTC+02:00
+! v.2025.4.29.2 aktualizacja: wto, 29 kwi 2025, 19:26 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1402,6 +1402,7 @@ ideau.pl##.cookie__info
 ids.q8.com###calibr8-cookie-compliance
 ifon.pl##.region-top.region
 ige-xao.com###rgpd__cookies
+iglotex.pl,schavemaker.pl##.cookies, .cookies-button, html.popup-active main::after
 ign.org.pl##div#closeCookeiInfo
 iiyama.com##.new-cookies-info
 ikea.com###ikeaTermsConsentModal, div[class*="cookie-info"]
@@ -3173,6 +3174,7 @@ zyro.com##.zyro-cookies
 ||forumsamochodowe.pl/js/jquery.cookie.js
 ||fundacjamare.pl/*/assets/javascripts/cookies.min.js
 ||igimag.pl/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/lity.js
+||iglotex.pl/sites/all/pliki/css/cookies.css
 ||itmarket.pl/modules/prestaboost/views/js/prestaboost-popup.js
 ||kochamwroclaw.pl/wp-content/plugins/surbma-yes-no-popup/css/styles.css
 ||kochamwroclaw.pl/wp-content/plugins/wp-terms-popup/assets/popup-style.css
@@ -3208,6 +3210,7 @@ zyro.com##.zyro-cookies
 ||revolweb.pl/api/flash_msg.js$script
 ||rodo.rawlplug.com/wp-content/themes/rodo/popup/markups/modal-koelner.html$xmlhttprequest
 ||rolpetrol.com.pl/cookies.js$script
+||schavemaker.pl/css/cookies.css
 ||sdk.privacy-center.org/*/loader.js?target=$script,domain=brainly.pl|hilti.pl
 ||serialowa.pl/wpr/wp-content/plugins/popup-maker/assets/css/site.min.css
 ||service-cmp.com/config$script,xmlhttprequest,domain=megogo.net
