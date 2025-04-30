@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.4.30.0
-! Last modified: Wed, 30 Apr 2025, 18:48 UTC+02:00
+! Version: 2025.4.30.1
+! Last modified: Wed, 30 Apr 2025, 18:55 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.4.30.0 aktualizacja: śro, 30 kwi 2025, 18:48 UTC+02:00
+! v.2025.4.30.1 aktualizacja: śro, 30 kwi 2025, 18:55 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1514,7 +1514,7 @@ auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshe
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > .chips
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > div.title:first-of-type
 auto-swiat.pl##.fb_share, .version4.bigVersion.onet_ustPlugin_addthis > .box2, .whitelistPremium > div:nth-of-type(4) > .version4.onet_ustPlugin_addthis, .imageWrapper > .socialButtons
-auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me/"])
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me/"])
 auto-swiat.pl,onet.pl,przegladsportowy.pl##.social-share > .prefixTitle
 autoblog24.pl###execphp-2
 autocentrum.pl,tvn.pl,vela.net.pl##.footer-media
@@ -10406,11 +10406,15 @@ angielskieespresso.pl##.code-block > a[href="https://www.youtube.com/c/Angielski
 angielskieespresso.pl##.fusion-social-networks-wrapper
 animezone.pl##div.desktop.panel-default.panel:first-of-type
 applemobile.pl###text-2
-auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.ods-c-footer__social a:not([href*="feed" i], [href*="rss" i], [href=".xml"])
-auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.ods-c-one-author-rich__social-profiles
-auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.social-container > .button:not(.email, .copy, .messenger, .whatsapp)
-auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.tw_share
-auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a:not([href*="wa.me/"], [href*="mailto:"]))
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.fb_share
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.ods-c-footer__social a:not([href*="feed" i], [href*="rss" i], [href=".xml"])
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.ods-c-one-author-rich__social-profiles
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.social-container > .button:not(.email, .copy, .messenger, .whatsapp)
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.socialBox
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.socialBtnBg
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.socialButtons
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.tw_share
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a:not([href*="wa.me/"], [href*="mailto:"]))
 bigbrother.tvn.pl###footer > .footer-container > div.footer-col:nth-of-type(4)
 bravebeaver.pl###float-posts-nav
 bravebeaver.pl##.row_social_inpost
@@ -10422,8 +10426,6 @@ dayz.pl###text-10
 dobreprogramy.pl##a[href*="twitter.com/share"], a[href*="facebook.com/share.php"]
 dobreprogramy.pl##amp-social-share.sharer
 eskago.pl##.social1.box
-fakt.pl##.socialBtnBg
-fakt.pl##.socialButtons
 fakty.tvn24.pl###dailyNewsBox
 fakty.tvn24.pl##.main-social
 filmweb.pl##.articleShareFB, .fb-share-button
@@ -10440,13 +10442,11 @@ interia.pl,pomponik.pl##.is-facebook.share-link
 istotne.pl###social_buttons, .icon_twitter, .icon_facebook, .icon_google_plus, .icon_youtube
 jbzdy.com.pl,jbzdy.pl##.fb-like
 kalendarz.onet.pl,poczta.onet.pl##.ico-facebook
-komputerswiat.pl,przegladsportowy.pl##.fb_share
 konkret24.tvn24.pl##.share-container > .share-container__icon-wrapper > .share-container__modes:not(.share-container__modes--copy-link), .socials
 kontakty.onet.pl##.icon-basic-menu-facebook
 kulturalnemedia.pl##.td-header-menu-social, .td-social-sharing-button:not(.td-social-mail)
 m.onet.pl##.newsItem > .shareButton
 masterchef.tvn.pl##.facebook_share, .gplus_share, .twitter_share, .socialFeedbackFooter, .header-card-social-item
-medonet.pl##.socialBox
 meteomodel.pl###menu-social
 millemiglia.wp.pl##.socials
 mmorpg.org.pl##.footer__top > .socials > a[href="https://twitter.com/grymmorpg"], .footer__top > .socials > a[href="https://www.facebook.com/mmoplaya"], .footer__top > .socials > a[href="https://www.youtube.com/themmorpglive"], .pink.socials > a[href="https://twitter.com/grymmorpg"], .pink.socials > a[href="https://www.facebook.com/mmoplaya"], .pink.socials > a[href="https://www.youtube.com/themmorpglive"]
@@ -10482,8 +10482,6 @@ sokol.wp.pl##.page > .articles > .list > .logo--test
 sport.tvn24.pl##.htmlBox
 sportowefakty.wp.pl##.fatfooter__panel--observe.fatfooter__panel, .rendered.observe_rss.observe__button.observe__part, .liketag
 sportowefakty.wp.pl##a[href="https://twitter.com/SportoweFaktyPL"], a[href="https://www.facebook.com/SportoweFakty"]
-swojadroga.onet.pl##.page-foot-social
-technowinki.onet.pl##a[href="https://www.youtube.com/user/KomputerSwiatOnline"], .sidebarItem:nth-of-type(6)
 tvn24.pl##.article-lead > .article-lead__social-buttons > li.social-item:nth-of-type(-n+2)
 tvn24.pl##.article-share-socials > .social-list > .social-item:nth-of-type(-n+2)
 tvn24.pl##.fbClassicBox, .funpageTitleStyle
@@ -10496,7 +10494,6 @@ tvn.pl,tvnturbo.pl,~www.tvn.pl##li.vjs-menu-item[class*="share"]:not(.vjs-share-
 uwaga.tvn.pl##.insta-widget, .section-social, .socialmedia > ul > .youtube
 video.wp.pl##.social
 vmc.org.pl##.itemSocialSharing
-wbi.onet.pl##.contentShareLeft
 webcamera.pl###footerbar div.col-md-3.col-sm-6:nth-of-type(4) > h2
 webcamera.pl##.ico-social, .social, .floating-box-facebook
 wp.pl##.social.links > .links-header
