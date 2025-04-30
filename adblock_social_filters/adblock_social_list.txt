@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.4.29.0
-! Last modified: Tue, 29 Apr 2025, 04:17 UTC+02:00
+! Version: 2025.4.30.0
+! Last modified: Wed, 30 Apr 2025, 18:48 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.4.29.0 aktualizacja: wto, 29 kwi 2025, 04:17 UTC+02:00
+! v.2025.4.30.0 aktualizacja: śro, 30 kwi 2025, 18:48 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1514,6 +1514,7 @@ auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshe
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > .chips
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > div.title:first-of-type
 auto-swiat.pl##.fb_share, .version4.bigVersion.onet_ustPlugin_addthis > .box2, .whitelistPremium > div:nth-of-type(4) > .version4.onet_ustPlugin_addthis, .imageWrapper > .socialButtons
+auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me/"])
 auto-swiat.pl,onet.pl,przegladsportowy.pl##.social-share > .prefixTitle
 autoblog24.pl###execphp-2
 autocentrum.pl,tvn.pl,vela.net.pl##.footer-media
@@ -4759,8 +4760,6 @@ komornik-marchaj.pl##.rstpl-social
 kompan.pl##.blog-icon
 kompan.pl,ulc.gov.pl,uniqueseo.pl##.icon-linkedin
 komputerswiat.pl##.ods-c-footer__social a[href*="com/"]
-komputerswiat.pl##.ods-c-one-author-rich__social-profiles a
-komputerswiat.pl##li.ods-c-share__li:has(a[href*=".com/"]:not([href*="mailto:"]))
 komputerswiat.pl,onet.pl,plejada.pl##div[class*="BigCard_social_"] > span[class*="share"]
 komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##div > a[href*="facebook.com/komputerswiat" i]:has(img)
 komputery-pc.info###Mod107
@@ -10407,8 +10406,11 @@ angielskieespresso.pl##.code-block > a[href="https://www.youtube.com/c/Angielski
 angielskieespresso.pl##.fusion-social-networks-wrapper
 animezone.pl##div.desktop.panel-default.panel:first-of-type
 applemobile.pl###text-2
+auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.ods-c-footer__social a:not([href*="feed" i], [href*="rss" i], [href=".xml"])
+auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.ods-c-one-author-rich__social-profiles
 auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.social-container > .button:not(.email, .copy, .messenger, .whatsapp)
 auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.tw_share
+auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a:not([href*="wa.me/"], [href*="mailto:"]))
 bigbrother.tvn.pl###footer > .footer-container > div.footer-col:nth-of-type(4)
 bravebeaver.pl###float-posts-nav
 bravebeaver.pl##.row_social_inpost
