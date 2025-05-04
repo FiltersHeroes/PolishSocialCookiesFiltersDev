@@ -23,6 +23,7 @@ wiemy.to$$[id="banner"][tag-content="RODO"]
 zawojski.pl##body.privacy-box-visible #container:style(filter: none !important; pointer-events: auto !important)
 zawojski.pl##body.privacy-box-visible .privacy-box
 zawojski.pl##body.privacy-box-visible:style(overflow-y: auto !important)
-zawojski.pl#%#//scriptlet('remove-class', 'privacy-box-visible', 'privacy-box-visible')
+zawojski.pl#%#//scriptlet('remove-class', 'privacy-box-visible', '.privacy-box-visible')
 zlubaczowa.pl#%#//scriptlet('remove-attr', 'style', 'html[style*="overflow"][style*="important"]')
+zlubaczowa.pl#%#//scriptlet('remove-class', 'fupi_blur', '.fupi_blur')
 zlubaczowa.pl#?#html[style*="overflow"][style*="important"]:style(overflow: auto !important; height: auto !important)
