@@ -1,4 +1,3 @@
-nowehoryzonty.pl##.soc > a:not(.nhvod):style(visibility: hidden !important)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href=""][title*="instagram"][target="_blank"] ~ a[href=""][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##figure strong:has-text(/^Podziel się$/):upward(2)
@@ -73,6 +72,7 @@ money.pl,moneyv.wp.pl##div:last-child > button[color] ~ div > div[color]:has-tex
 motek.com.pl##a[href="https://www.instagram.com/motek.com.pl/"]:style(pointer-events: none !important)
 muza.com.pl###facebook:style(visibility: hidden !important)
 naklejkolandia.pl###sliderBox ul > li > a[href^="https://www.facebook.com/notes/naklejkolandiapl/"]:remove-attr(href)
+nowehoryzonty.pl##.soc > a:not(.nhvod):style(visibility: hidden !important)
 odblask.com.pl##.owl-carousel a[href*="facebook.com/"]:style(pointer-events: none !important)
 odkryjpomorze.pl##map[name="Map"] > area:first-of-type:remove()
 odkryjpomorze.pl##map[name="Map"] > area:first-of-type:remove-attr(href)
