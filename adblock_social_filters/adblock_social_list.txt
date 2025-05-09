@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.5.9.0
-! Last modified: Fri, 09 May 2025, 04:19 UTC+02:00
+! Version: 2025.5.9.1
+! Last modified: Fri, 09 May 2025, 18:46 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.5.9.0 aktualizacja: pią, 09 maj 2025, 04:19 UTC+02:00
+! v.2025.5.9.1 aktualizacja: pią, 09 maj 2025, 18:46 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1005,7 +1005,7 @@ aerlingus.com##.col-xs-20pc.col
 affde.com###sidebar > div.first.widget > h3:first-of-type
 afilio.autodna.pl##.footer-find-us
 aftermarket.zf.com##footer > div > div > div:has(~ div > .share) > .som
-aftermarket.zf.com,beszamel.se.pl,cert.orange.pl,ecg-electro.eu,marionkosmetyki.pl,mojawww.com,muzyczneradio.pl,polish.wifilterouter.com,portalsamorzadowy.pl,press.pl,publicat.pl,rozaniec.eu,siemens-home.bsh-group.com,silesiasmakuje.pl,support.discord.com,tvn.pl,viva.pl,wasserman.eu,wmrowisku.pl,zadluzenia.com##.share
+aftermarket.zf.com,beszamel.se.pl,cert.orange.pl,doktorania.pl,ecg-electro.eu,marionkosmetyki.pl,mojawww.com,muzyczneradio.pl,polish.wifilterouter.com,portalsamorzadowy.pl,press.pl,publicat.pl,rozaniec.eu,siemens-home.bsh-group.com,silesiasmakuje.pl,support.discord.com,tvn.pl,viva.pl,wasserman.eu,wmrowisku.pl,zadluzenia.com##.share
 afterweb.pl##.aw_header_social, .footer_top div.col-md-4:nth-of-type(2)
 afterweb.pl##.social_icons_footer, .szukaj-nas
 aga-toma.pl##a.pokazywanie:not([href*="mailto:"])
@@ -5377,7 +5377,10 @@ mark-med.pl##a[href*=".com/"] img[title*="znajdź na"][alt*="prowadzi"]
 mark-med.pl##a[href*=".com/"] img[title*="znajdź na"][alt*="publikujemy"]
 market-sklep.pl###footer > section > div > div > div:nth-child(2) h4 + .icons-Container
 market-sklep.pl###footer > section > div > div > div:nth-child(2) h4:has(+ .icons-Container)
+marketdino.pl###newsletter + div > div:first-child > div:only-child > div:nth-child(5) > div:nth-child(2)
+marketdino.pl##.footer-head:has(+ div > .footer-socials)
 marketdino.pl##.topbanner-socials a[href*=".com/"]
+marketdino.pl##div.barsection:first-child a[href*=".com"]
 marketerplus.pl##a[href*="facebook.com/marketerplus/"]
 marketerplus.pl##a[href*="linkedin.com/company/marketer-"]
 marketerplus.pl##a[href*="twitter.com/magazynmarketer"]
