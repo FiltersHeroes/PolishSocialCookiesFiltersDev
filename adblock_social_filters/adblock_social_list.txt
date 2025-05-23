@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.5.23.0
-! Last modified: Fri, 23 May 2025, 04:21 UTC+02:00
+! Version: 2025.5.23.1
+! Last modified: Fri, 23 May 2025, 15:06 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.5.23.0 aktualizacja: pią, 23 maj 2025, 04:21 UTC+02:00
+! v.2025.5.23.1 aktualizacja: pią, 23 maj 2025, 15:06 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -7565,7 +7565,6 @@ royalfashion.pl###main_insta1
 rozdzien.pl##.offers > div.row > div:has(a[href*="/facebook"])
 rozklad.com###hitcount a[href*=".com/"]
 rozmat.pl##footer a[href*="facebook.com/Konstrukcja-odzie%C5%BCy"], footer a[href*="twitter.com/RozmatPracownia"]
-rozprza.info##.widget_designlab_social
 rozrywka.tvp.pl##a.article__icons-item:nth-of-type(-n+2)
 roztocze.net##.col-md-7.col-xs-12 > div:first-of-type > span:nth-of-type(-n+2), #facebook_count, .pdclear.col-md-12 > span:nth-of-type(5)
 rozwiazwezly.pl###Mod115, .module_social
@@ -8850,9 +8849,6 @@ uck.katowice.pl##.socialplugin-icons
 uctok.com##.fbie
 uczciwysklep.com.pl##div:nth-of-type(3) > .menu-footer > li:nth-of-type(n+2):nth-of-type(-n+3)
 ug.edu.pl##footer + div a[href*=".com/"] [alt^="Logo"]
-ukiel.info##.social-insagram
-ukiel.info##.zox-foot-right-wrap li a
-ukiel.info##.zox-top-soc-wrap
 ulenberg.pl###footerRight
 ulubionabielizna.pl###href_facebook
 um24.pl##.m-kontakt.navbar-nav.nav > li:nth-child(n+2)
