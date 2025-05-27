@@ -487,8 +487,8 @@ mediamarkt.pl##body:style(touch-action: auto !important; overscroll-behavior: au
 meetup.com###mupFooter:style(padding-bottom: 0 !important)
 meiko.pl##.cc-window[aria-label="cookieconsent"]
 meiko.pl##.cc-window[aria-label="cookieconsent"] + .cc-window-blocker
-memo-book.pl##body.rodo-locked:remove-class(.rodo-locked)
-memo-book.pl##html.rodo-locked:remove-class(.rodo-locked)
+memo-book.pl##body.rodo-locked:remove-class(rodo-locked)
+memo-book.pl##html.rodo-locked:remove-class(rodo-locked)
 memo-book.pl,ostrzegamy.online##.rodo-popup, .rodo-overlay
 memo-book.pl,ostrzegamy.online##body.rodo-locked #page-container > *:style(filter: none !important)
 memo-book.pl,ostrzegamy.online##body.rodo-locked, html.rodo-locked:style(overflow-y: auto !important)
