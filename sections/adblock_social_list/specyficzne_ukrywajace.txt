@@ -1,3 +1,11 @@
+guiltfree.pl##.socialmedia
+join.psibufet.pl##a[href*="/clkn/"][href*=".com/"] img
+goodspeed.pl##.social
+wyborcza.pl##.foot-summary-buttons-share > :not(.foot-summary-buttons-share-newsletter)
+dziennik.pl##.blog-share-button__dropdown-title
+dziennik.pl#?#button.blog-share-button__dropdown-button:not(:has(> span:has-text(Skopiuj link)))
+spolemkatowice.pl##.product-promo .row > div[class*="item"]:has(.__link[href*="facebook.com/"])
+spolemkatowice.pl##.product-promo .row > div[class*="item"]:has(.__link[href*="facebook.com/"]) { remove: true }
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
