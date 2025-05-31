@@ -1139,6 +1139,7 @@ purepc.pl##.cookiesinfo:remove()
 !
 !#if ext_ublock
 !#if cap_user_stylesheet
+/^www\.zus\.pl\/ezus\/ustawienia-polityki-cookies/#@#.p-dialog-mask-scrollblocker:has(> .cookie-consent-modal)
 ||cdn.cookielaw.org^$important,redirect=noop.js:99,script,domain=open.spotify.com
 biuroprasowe.porta.com.pl##+js(set-cookie-reload, cookies-agreement, true, , dontOverwrite, 1)
 budujmase.pl,drogerium.pl,trec.pl,wylecz.to##+js(set-cookie-reload, rodoHfM, true)
