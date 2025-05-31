@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.5.31.0
-! Last modified: Sat, 31 May 2025, 04:18 UTC+02:00
+! Version: 2025.5.31.1
+! Last modified: Sat, 31 May 2025, 18:48 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.5.31.0 aktualizacja: sob, 31 maj 2025, 04:18 UTC+02:00
+! v.2025.5.31.1 aktualizacja: sob, 31 maj 2025, 18:48 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1528,6 +1528,7 @@ joe.pl###j_all > div:nth-of-type(3)
 joemonster.org,mistrzowie.org,niebieskiepudelko.pl###sd-cmp
 jogapiekna.com,us.edu.pl,wrpo.wielkopolskie.pl###cookies-eu
 johnsoncontrols.com##.universalcookiedisclaimer
+join.psibufet.pl###ub-cookie-consent
 jula.pl##.g-cookie__box
 junak.com.pl###wrapper > .toplayer
 jung.de###language-redirection-layer
@@ -2731,6 +2732,7 @@ spokey.pl##.cookiefirst-root
 spokey.pl##dialog[aria-label="Cookie baner"]
 spolecznosc.allegro.pl##.custom-cookie-alert
 spolemkatowice.pl###btn-to-top-wrap
+spolemznaczyrazem.pl###app .fixed:has(> div > p > a[href="/polityka-cookies"])
 sport-time.com.pl###divId
 sportano.pl##.global-cookie
 sportano.pl##body.cookie-overlay-active::after
@@ -4371,6 +4373,7 @@ pl.canalplus.com###modal-overlayer-cookie-banner { remove: true }
 polska6.pl###modal { remove: true }
 purepc.pl##.cookiesinfo { remove: true }
 rynek-turystyczny.pl###modal-rodo { remove: true }
+vinello.pl##dialog#cookieDialog { remove: true }
 wmglass.com.pl##dialog[cookies-dialog] { remove: true }
 !#endif
 !
