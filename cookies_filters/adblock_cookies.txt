@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.6.2.0
-! Last modified: Mon, 02 Jun 2025, 22:43 UTC+02:00
+! Version: 2025.6.5.0
+! Last modified: Thu, 05 Jun 2025, 22:38 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.6.2.0 aktualizacja: pon, 02 cze 2025, 22:43 UTC+02:00
+! v.2025.6.5.0 aktualizacja: czw, 05 cze 2025, 22:38 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1728,6 +1728,7 @@ lg.com##.agree-cookie-wrap
 lg.com##.policyChk
 lgchem.com##.top_cookie
 lgd-wieruszow.pl##body > table ~ .container
+liberokatowice.pl##.popup--cookies
 licytacje.komornik.pl###sign_up, body > div[style*="margin-top: 100px"]
 liczebnik.pl##.qc-cmp2-main:lang(pl)
 liderpojezierza.pl###dailyfullscreen
@@ -3146,6 +3147,7 @@ zyro.com##.zyro-cookies
 /eucookies.$script,stylesheet,domain=lajfy.com
 /gdpr/cookie-consent/css/*$domain=ichgcp.net
 /gdpr/CookieConsent$~third-party,xmlhttprequest,domain=kayak.pl
+/getDataUsageConsentForUser$domain=sellpy.pl
 /images/banners/cookies_b2$domain=sklep.macmillan.pl
 /images/cookie.png$domain=loteriainpost.pl|loteriavelvet.pl
 /includes/infocookies.js$domain=wici.info
