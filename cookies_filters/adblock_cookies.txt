@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.6.8.0
-! Last modified: Sun, 08 Jun 2025, 18:46 UTC+02:00
+! Version: 2025.6.8.1
+! Last modified: Sun, 08 Jun 2025, 22:42 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.6.8.0 aktualizacja: nie, 08 cze 2025, 18:46 UTC+02:00
+! v.2025.6.8.1 aktualizacja: nie, 08 cze 2025, 22:42 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -2916,6 +2916,7 @@ truckstore.com##.tso-popup-footer, .tso-popup-overlay
 trustmate.io##div[class^="Cookies__CookiesWrapper-sc-"]
 trzcinica.com.pl##.window, #maseczka
 tst.pl##footer ~ div.fixed:has([href="/prywatnosc"])
+tuduu.it##div[role="dialog"]:has(a[href="/system/no-cookie-access?locale=pl"])
 tupperware.pl##.topRibbon
 turio.com.pl##.cookie-info-dlg
 turtlewax.pl###js-notify.notify
