@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.6.8.0
-! Last modified: Sun, 08 Jun 2025, 22:42 UTC+02:00
+! Version: 2025.6.9.0
+! Last modified: Mon, 09 Jun 2025, 04:30 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.6.8.0 aktualizacja: nie, 08 cze 2025, 22:42 UTC+02:00
+! v.2025.6.9.0 aktualizacja: pon, 09 cze 2025, 04:30 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2791,6 +2791,8 @@ domy-wysoka.pl##.g-bg-facebook, .g-bg-instagram
 donald.pl##button.react-share__ShareButton:nth-of-type(-n+2)
 donald.pl##footer > div > div > a:nth-of-type(-n+3)
 doniczki-poznan.pl##.TwitterFeeds
+doortrade.eu##.contact__social__item
+doortrade.eu##.menu-item > a[href*="facebook.com/"]
 dopesnow.com##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="pinterest.com"])
 doradcapodatkowy.pl###bottom-5 > .moduletable > .custom > .pdcorrect.col-lg-12.col-md-12.col-sm-12.col-xs-12 > .pdcorrect.col-lg-5.col-md-5.col-sm-12.col-xs-12
 doradcapodatkowy.pl##.moduletable .pdcorrect.col-lg-5.col-md-5.col-sm-12.col-xs-12 > p:nth-of-type(2)
