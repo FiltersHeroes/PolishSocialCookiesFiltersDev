@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.6.9.0
-! Last modified: Mon, 09 Jun 2025, 04:30 UTC+02:00
+! Version: 2025.6.11.0
+! Last modified: Wed, 11 Jun 2025, 22:43 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.6.9.0 aktualizacja: pon, 09 cze 2025, 04:30 UTC+02:00
+! v.2025.6.11.0 aktualizacja: śro, 11 cze 2025, 22:43 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -819,6 +819,10 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 !
 !
 ! Specyficzne filtry ukrywające
+!youtube.com###primary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
+!youtube.com###secondary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
+!youtube.com##.yt-channel-external-link-view-model-wiz__container:has(a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"]))
+!youtube.com#?#.yt-channel-external-link-view-model-wiz__container:has(> span:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/))
 ###chaty-channel-facebook_messenger
 ###facebookbc
 ###whatsappbc
@@ -2996,8 +3000,8 @@ e-podlogidrzwi.pl##.left.sidebarLeft > div.box:nth-of-type(6)
 e-podroznik.pl##[class*="SocialNetworks"]
 e-prim.pl###footer div.column-quarter:nth-of-type(4)
 e-pyrzyce.pl##footer p.gb-headline-text:has(+ .footer-social-media)
-e-pyrzyce.pl,extra-plonsk.pl##.social-icons-facebook
-e-pyrzyce.pl,onet.pl,plejada.pl##.whatsapp
+e-pyrzyce.pl,e-starogard.pl,extra-plonsk.pl##.social-icons-facebook
+e-pyrzyce.pl,e-starogard.pl,onet.pl,plejada.pl##.whatsapp
 e-recepta.net##.socials a:not([href*="pacjent.gov.pl"])
 e-siedlce.com,ewaipiotr.pl,klassikauto.pl###text-17
 e-skladnica.pl##.bottom-footer a[href*=".com/"]
@@ -3005,6 +3009,8 @@ e-skladnica.pl##.row.bottom-footer > div > p:nth-of-type(4) > img
 e-sklep.mega-tech.pl##div.box-bottom:nth-of-type(4)
 e-sochaczew.pl,wedkuje.pl##.col-lg-8
 e-stargard.pl##a > img[src*="e-stargard.pl/grafika/banery/estargard/polubnas2.jpg"]
+e-starogard.pl##.sticky-container-post-firmy-banner
+e-starogard.pl,extra-plonsk.pl##.social-box-container
 e-testynaprawojazdy.pl##.secPdng.faqArea > .container
 e-testynaprawojazdy.pl,hd-opinie.pl##.fanpage
 e-timberland.pl##.b-footer_infoLink
@@ -3331,7 +3337,6 @@ expressbus.info##footer > .footer-content > .row > .float-left
 expressilustrowany.pl###boks-facebook
 expresspaslek.pl###main-container .row div[id^="widget-"]:has(a[href*="facebook.com/"])
 exsites.pl,konsoleigry.pl##div.block:nth-of-type(4)
-extra-plonsk.pl##.social-box-container
 extra-plonsk.pl##footer p:has(+ .footer-social-media)
 extra-plonsk.pl##hr + div > p:has(+ div[class*="social"])
 extrasport.pl##div.item.product > .thumbnail:has(img[src*="/thumb_13-fb.jpg"])
@@ -9539,15 +9544,11 @@ youlead.pl##.socialmedia > li
 yourhomestory.com.pl##.footer__contact-icons.footer__contact-wrapper > .footer__contact-title
 youtab.pl##.footer_icons_wrapper
 youtube.com###description button-view-model a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
-youtube.com###primary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
-youtube.com###secondary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
-youtube.com##.yt-channel-external-link-view-model-wiz__container:has(a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"]))
 youtube.com##.yt-third-party-share-target-section-renderer > yt-share-target-renderer:not(:has([title="Umieść"], [title="E-mail"]))
 youtube.com##.ytm-infocards-creator-custom-url-buttons a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
 youtube.com##body yt-third-party-share-target-section-renderer > .yt-third-party-share-target-section-renderer ~ yt-icon-button#scroll-button-forward
 youtube.com##yt-channel-external-link-view-model:has(a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"]))
-youtube.com#?#.yt-channel-external-link-view-model-wiz__container:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/)
-youtube.com#?#yt-channel-external-link-view-model:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/)
+youtube.com#?#yt-channel-external-link-view-model:has(> div > span[role="text"]:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/))
 yuliyababich.eu###AnimalPanel table td > span:nth-of-type(n+6):nth-of-type(-n+9)
 yummo.pl##.face_inst
 yummo.pl##.k_social_elements
@@ -10686,7 +10687,7 @@ disqus.com###thread-share-bar
 disqus.com#@#.follow-text
 dobreprogramy.pl#@#img[alt="Twitter"]
 duckduckgo.com#@#.footer__social-icon
-e-pyrzyce.pl#@#.scriptlesssocialsharing
+e-pyrzyce.pl,e-starogard.pl#@#.scriptlesssocialsharing
 edunews.pl#@#.custom-social-buttons
 enfamil.pl#@#.float-shop
 epodreczniki.pl#@#.mdi-share
