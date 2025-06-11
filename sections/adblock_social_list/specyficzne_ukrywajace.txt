@@ -1,6 +1,7 @@
-e-starogard.pl##.social-icons-facebook
-e-starogard.pl##.sticky-container-post-firmy-banner
-e-starogard.pl##.social-box-container
+!youtube.com###primary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
+!youtube.com###secondary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
+!youtube.com##.yt-channel-external-link-view-model-wiz__container:has(a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"]))
+!youtube.com#?#.yt-channel-external-link-view-model-wiz__container:has(> span:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/))
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
@@ -2137,7 +2138,7 @@ e-podlogidrzwi.pl##.left.sidebarLeft > div.box:nth-of-type(6)
 e-podroznik.pl##[class*="SocialNetworks"]
 e-prim.pl###footer div.column-quarter:nth-of-type(4)
 e-pyrzyce.pl##footer p.gb-headline-text:has(+ .footer-social-media)
-e-pyrzyce.pl,extra-plonsk.pl##.social-icons-facebook
+e-pyrzyce.pl,e-starogard.pl,extra-plonsk.pl##.social-icons-facebook
 e-recepta.net##.socials a:not([href*="pacjent.gov.pl"])
 e-siedlce.com,ewaipiotr.pl,klassikauto.pl###text-17
 e-skladnica.pl##.bottom-footer a[href*=".com/"]
@@ -2145,6 +2146,8 @@ e-skladnica.pl##.row.bottom-footer > div > p:nth-of-type(4) > img
 e-sklep.mega-tech.pl##div.box-bottom:nth-of-type(4)
 e-sochaczew.pl,wedkuje.pl##.col-lg-8
 e-stargard.pl##a > img[src*="e-stargard.pl/grafika/banery/estargard/polubnas2.jpg"]
+e-starogard.pl##.sticky-container-post-firmy-banner
+e-starogard.pl,extra-plonsk.pl##.social-box-container
 e-testynaprawojazdy.pl##.secPdng.faqArea > .container
 e-testynaprawojazdy.pl,hd-opinie.pl##.fanpage
 e-timberland.pl##.b-footer_infoLink
@@ -2468,7 +2471,6 @@ expressbus.info##footer > .footer-content > .row > .float-left
 expressilustrowany.pl###boks-facebook
 expresspaslek.pl###main-container .row div[id^="widget-"]:has(a[href*="facebook.com/"])
 exsites.pl,konsoleigry.pl##div.block:nth-of-type(4)
-extra-plonsk.pl##.social-box-container
 extra-plonsk.pl##footer p:has(+ .footer-social-media)
 extra-plonsk.pl##hr + div > p:has(+ div[class*="social"])
 extrasport.pl##div.item.product > .thumbnail:has(img[src*="/thumb_13-fb.jpg"])
@@ -8605,14 +8607,10 @@ youlead.pl##.socialmedia > li
 yourhomestory.com.pl##.footer__contact-icons.footer__contact-wrapper > .footer__contact-title
 youtab.pl##.footer_icons_wrapper
 youtube.com###description button-view-model a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
-!youtube.com###primary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
-!youtube.com###secondary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
-!youtube.com##.yt-channel-external-link-view-model-wiz__container:has(a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"]))
 youtube.com##.yt-third-party-share-target-section-renderer > yt-share-target-renderer:not(:has([title="Umieść"], [title="E-mail"]))
 youtube.com##.ytm-infocards-creator-custom-url-buttons a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
 youtube.com##body yt-third-party-share-target-section-renderer > .yt-third-party-share-target-section-renderer ~ yt-icon-button#scroll-button-forward
 youtube.com##yt-channel-external-link-view-model:has(a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"]))
-!youtube.com#?#.yt-channel-external-link-view-model-wiz__container:has(> span:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/))
 youtube.com#?#yt-channel-external-link-view-model:has(> div > span[role="text"]:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/))
 yuliyababich.eu###AnimalPanel table td > span:nth-of-type(n+6):nth-of-type(-n+9)
 yummo.pl##.face_inst
