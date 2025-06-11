@@ -8612,8 +8612,8 @@ youtube.com##.yt-third-party-share-target-section-renderer > yt-share-target-ren
 youtube.com##.ytm-infocards-creator-custom-url-buttons a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
 youtube.com##body yt-third-party-share-target-section-renderer > .yt-third-party-share-target-section-renderer ~ yt-icon-button#scroll-button-forward
 youtube.com##yt-channel-external-link-view-model:has(a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"]))
-youtube.com#?#.yt-channel-external-link-view-model-wiz__container:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/)
-youtube.com#?#yt-channel-external-link-view-model:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/)
+!youtube.com#?#.yt-channel-external-link-view-model-wiz__container:has(> span:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/))
+youtube.com#?#yt-channel-external-link-view-model:has(> div > span[role="text"]:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/))
 yuliyababich.eu###AnimalPanel table td > span:nth-of-type(n+6):nth-of-type(-n+9)
 yummo.pl##.face_inst
 yummo.pl##.k_social_elements
