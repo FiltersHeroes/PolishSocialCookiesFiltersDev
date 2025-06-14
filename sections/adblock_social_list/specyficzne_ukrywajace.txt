@@ -1,8 +1,8 @@
-!youtube.com###primary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
-!youtube.com###secondary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
-!youtube.com##.yt-channel-external-link-view-model-wiz__container:has(a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"]))
-!youtube.com#?#.yt-channel-external-link-view-model-wiz__container:has(> span:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/))
-~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
+sklep.poczta-polska.pl##.media-icons
+arpol.net.pl###links_footer_2
+yummo.pl##.social-list li ~ li:not(:has(#copy-clipboard))
+kanalzero.pl##.menu-item a[href*=".com/"]:is([href*="youtube.com"], [href*="instagram.com"], [href*="twitter.com"], [href*="tiktok.com"])
+medicare.pl###side_widget
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
