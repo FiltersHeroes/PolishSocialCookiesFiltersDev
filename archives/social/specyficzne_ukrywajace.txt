@@ -1,3 +1,8 @@
+youtube.com###primary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
+youtube.com###secondary-links > a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"])
+youtube.com##.yt-channel-external-link-view-model-wiz__container:has(a[href]:is([href*="facebook.com"], [href*="fb.me"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="reddit.com"], [href*="snapchat.com"], [href*="tiktok.com"], [href*="twitch.tv"], [href*="twitter.com"], [href*="www.x.com"], [href*="%2Fx.com"]))
+youtube.com#?#.yt-channel-external-link-view-model-wiz__container:has(> span:has-text(/Facebook|Instagram|LinkedIn|Twitter|X/))
+~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##[aria-label="Menu"] ~ div aside > div:has(span ~ div a[href*="facebook.com/"])
 janssenmed.pl##.footer-social > ul, .footer-social > p
 paczki.zabka.pl##.footer-social li:has(a:not([href*="/kontakt"]))
 supersam-katowice.pl#?#div.project_details_item:-abp-has(> .project_details_item_title:-abp-contains(/^(Facebook|Instagram)$/))
