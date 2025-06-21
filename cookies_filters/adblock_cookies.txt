@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.6.21.0
-! Last modified: Sat, 21 Jun 2025, 09:46 UTC+02:00
+! Version: 2025.6.21.1
+! Last modified: Sat, 21 Jun 2025, 15:03 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.6.21.0 aktualizacja: sob, 21 cze 2025, 09:46 UTC+02:00
+! v.2025.6.21.1 aktualizacja: sob, 21 cze 2025, 15:03 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4156,8 +4156,8 @@ pl##span[class*="Cookie"]:not(.closeCookie, [class*="CookiebotDialog"])
 !
 ! Blokowanie elementów po zastosowaniu generichide
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=jbzdy.com.pl|jbzdy.pl
-~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
-~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#body > #app > div > span:not([id]):not([class]) > div[class]:not([id]):-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl###app > div > table > tbody > tr:nth-child(2) > td > span > div:has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##body > #app > div > span:not([id]):not([class]) > div[class]:not([id]):has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 auto-swiat.pl###termsPopup
 benchmark.pl##.social-share
 blogspot.com###cookieChoiceInfo
