@@ -19,7 +19,7 @@ architekcibiznesu.pl##.massenger-log0-contact
 auchan.pl##.social-sharing-list:has(span[data-link="#share-whatsapp"])
 aurum-optics.pl##.button-messenger
 aurum-optics.pl##a[href*="m.me"]
-australiangoldshop.pl#?#.list-contact li:-abp-has(a[href*="messenger.com"])
+australiangoldshop.pl##.list-contact li:has(a[href*="messenger.com"])
 authority.com.pl##.cb24-messenger-widget
 authority.com.pl##div[style*="fixed"][style*="border-radius"]:not([class], [id]):empty
 auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me"])
@@ -116,6 +116,6 @@ wakacyjnipiraci.pl##.widget-whatsapp__broadcast
 wakacyjnipiraci.pl##a[href*="wakacyjnipiraci.pl/pages/whatsapp"]
 www.google.com,www.google.pl##.app-imagery-mode div[jsaction="modal.backgroundClick"] > div[jsan] div.k9Fsie > button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
-www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^WhatsApp$/)
+www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:has-text(/^WhatsApp$/)
 zdrowazupa.pl##.so-fb-message
 zooart.com.pl##.fbs-svg-messenger
