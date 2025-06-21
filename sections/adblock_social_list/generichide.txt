@@ -1,12 +1,12 @@
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##span > a[href*="titktok.com/"]
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##.facebook-share, .tweeter-share
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##.social-links__title
-~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?##app header ~ div.content div:-abp-has(> div > span[style="width:15px;height:15px;"] > svg > title)
-~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article + div[class*=" "] > div[class] > div[class]:-abp-has(> div[class] > div[class] > div[class] > .fb-like)
-~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:-abp-has(> div[class] > div[class] > span > svg > path)
-~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#.content > div[class] > div[class] > div[class] > div[data-reactid] > div[class]:-abp-has(> div[class] > div[class] > .fb-like)
-~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#.content a[href^="https://www.facebook.com/"] > div[class]:-abp-has(> div[class] > div[class] > .fb-like)
-~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#div[class] > div[class*=" "]:-abp-has(> span > svg > [stroke="none"] > #PAKO_reakcje-Copy)
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl###app header ~ div.content div:has(> div > span[style="width:15px;height:15px;"] > svg > title)
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##.article + div[class*=" "] > div[class] > div[class]:has(> div[class] > div[class] > div[class] > .fb-like)
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##.article > [class] > .article--lead + div[class*=" "] > div[class] > div[class*=" "]:has(> div[class] > div[class] > span > svg > path)
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##.content > div[class] > div[class] > div[class] > div[data-reactid] > div[class]:has(> div[class] > div[class] > .fb-like)
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##.content a[href^="https://www.facebook.com/"] > div[class]:has(> div[class] > div[class] > .fb-like)
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[class] > div[class*=" "]:has(> span > svg > [stroke="none"] > #PAKO_reakcje-Copy)
 ~masterchef.tvn.pl,tvn.pl,tvnturbo.pl,~www.tvn.pl##.socialPanel, .facebook_share, .gplus_share, .twitter_share, .socialFeedbackFooter, .header-card-social-item
 agency.tvn.pl###menuIcons > .first, .second
 angielskieespresso.pl##.code-block > a[href="https://www.youtube.com/c/AngielskieEspresso"]
@@ -68,10 +68,10 @@ onet.pl##.fbShare
 onet.pl##.shareBarBox > .social-share
 onet.pl##a[href*="facebook.com/sharer/sharer"]
 onet.pl##a[href*="twitter.com/intent/tweet?"]
-onet.pl#?#p.hyphenate:-abp-contains(Polub)
+onet.pl#?#p.hyphenate:has-text(Polub)
 onet.pl,~www.onet.pl##.page-share-wrap > .page-share, .share--block
 pclab.pl##.social-links, .social-container
-pilot.wp.pl#?#div > h4 ~ ul ~ h4:nth-of-type(2):-abp-contains(Więcej informacji)
+pilot.wp.pl#?#div > h4 ~ ul ~ h4:nth-of-type(2):has-text(Więcej informacji)
 pl##a[href*="://plus.google.com/"]
 pl##a[href*="facebook.com/sharer/sharer.php?"]
 poczta.onet.pl##.icon-ico_menu_facebook
@@ -97,7 +97,7 @@ tvn24.pl##.htmlBox:nth-of-type(8), .htmlBox:nth-of-type(10), .htmlBox:nth-of-typ
 tvn24.pl##.SocialLinks
 tvn24.pl##a[href^="http://www.tvn24.pl/tvn24-tvn-meteo-tvn-warszawa-w-serwisach-spolecznosciowych"], a[href*="http://www.tvn24.pl/internet-hi-tech-media,40/snapchat-tvn24-pl"] img
 tvn24.pl##li.twitter
-tvn.pl#?#.social-item:-abp-has(> .share-link > svg:not(.fa-link))
+tvn.pl##.social-item:has(> .share-link > svg:not(.fa-link))
 tvn.pl,tvnturbo.pl,~www.tvn.pl##li.vjs-menu-item[class*="share"]:not(.vjs-share-link)
 uwaga.tvn.pl##.insta-widget, .section-social, .socialmedia > ul > .youtube
 video.wp.pl##.social
@@ -109,7 +109,7 @@ www.tvn24.pl##.htmlBox:nth-of-type(26), .htmlBox:nth-of-type(27)
 www.tvn.pl##.footer-media, .open-modal, .detail-fb, .detail-gp, .detail-tw, .ds-fb, .ds-gp, .ds-tw, .footer-col:nth-of-type(4) > .footer-heading:first-of-type
 wyborcza.pl##.twitter, .fbShare
 wzory-cv.com##.shareStackItem
-xboxforum.pl#?#.notices:-abp-has(a[href="https://www.youtube.com/channel/UCTTcPdi6MbeTg4geB6TaqPA"])
+xboxforum.pl##.notices:has(a[href*="youtube.com"])
 yafud.pl###strona > center, .extBox
 zapytaj.onet.pl##.share-icon
 zdrowietvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta
