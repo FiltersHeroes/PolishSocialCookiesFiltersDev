@@ -1,3 +1,15 @@
+perfumik.pl##a[href*=".com/"]:is([href*="facebook.com"], [href*="pinterest.com"], [href*="instagram.com"], [href*="tiktok.com"])
+tuncia.globalista.pl##.cookie_modal_wrapper
+global.transitions.com###community
+global.transitions.com##.social
+dobrezlasu.pl##.social-media--fixed
+dobrezlasu.pl##.social-m
+pepper.pl##footer .text--b:has-text(Obserwuj)
+dimedic.eu##.social__item:not(.social__item--mail)
+mbank.pl##ul[aria-labelledby="social-media-footer"]
+pepper.pl##footer a[href*="t.me/"]
+pepper.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="x.com"], [href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"])
+super-stek.pl##.pos-socials-widget
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -5701,10 +5713,8 @@ pepco.pl##.text-right.footer-menu > ul.no-list:nth-of-type(2) > li:not(:last-of-
 pepco.pl##li.js-share-page.single-share__list-item:not([data-type="mail"])
 pepco.pl#?#.footer-nav .row p:has-text(Znajdź nas na)
 pepegi.eu##.menu_button_wrapper:nth-of-type(2):has(a[href*="facebook.com/"], a[href*="twitter.com"])
-pepper.pl##button[data-t^="shareOn"]:not([data-t*="Whatsapp"], [data-t*="Messenger"])
-pepper.pl##div[class*="banner"]:has(img[alt*="Insta" i])
-pepper.pl##div[class*="banner"]:has(img[alt*="twitt" i])
-pepper.pl##footer#footer.footer > div:nth-child(3) > div > section:nth-child(4) > div > ul > li:nth-of-type(-n+7):not(:last-child)
+pepper.pl##button[data-t^="shareOn"]:not([data-t*="Whatsapp" i], [data-t*="Messenger" i])
+pepper.pl##div[class*="banner"]:has(img[alt*="Insta" i], img[alt*="Twitt" i])
 pepsi.pl###socialBox
 pepsieliot.com##.soc-buttons > a:nth-of-type(-n+5)
 pepsieliot.com##.soc-slider
