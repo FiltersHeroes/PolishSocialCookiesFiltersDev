@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.6.21.1
-! Last modified: Sat, 21 Jun 2025, 15:03 UTC+02:00
+! Version: 2025.6.21.2
+! Last modified: Sat, 21 Jun 2025, 22:41 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.6.21.1 aktualizacja: sob, 21 cze 2025, 15:03 UTC+02:00
+! v.2025.6.21.2 aktualizacja: sob, 21 cze 2025, 22:41 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6016,6 +6016,8 @@ naszarola.pl##.avia-builder-el-108.av_one_third
 naszekwatery.pl##.right_window_button
 naszemiasto.pl##.przyciskFB
 naszemiasto.pl##li .atomsNavigationResponsiveLinks__link[href*=".facebook.com/"]
+naszenaturalne.pl##.elementor-share-btn:not(.elementor-share-btn_email)
+naszenaturalne.pl##.elementor-widget-heading:has(+ .elementor-widget-social-icons)
 naszesprawy.eu##.social-media-inner
 naszestrony.info.pl#?##tabs a[href="#tab-comments"]:has-text(Facebook)
 naszglospoznanski.pl##.nav a[href*="twitter.com/"]
@@ -10754,6 +10756,7 @@ motormag.pl#@#.nav--social
 naekranie.pl#@#.sharingButton
 naekranie.pl#@#.social-buttons
 narew.info#@#.sbuttons
+naszenaturalne.pl#@#.elementor-widget-share-buttons
 naszpradnik.pl#@#.menu-social
 news.samsung.com#@#.sns_link
 nowawarszawa.pl#@#.share-container
