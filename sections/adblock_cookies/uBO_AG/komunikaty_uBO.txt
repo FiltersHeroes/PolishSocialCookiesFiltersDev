@@ -1,3 +1,7 @@
 /^www\.zus\.pl\/ezus\/ustawienia-polityki-cookies/#@#.p-dialog-mask-scrollblocker:has(> .cookie-consent-modal)
 ||cdn.cookielaw.org^$important,redirect=noop.js:99,script,domain=open.spotify.com
 www.zus.pl##:matches-path(/ezus/ustawienia-polityki-cookies) .p-dialog-mask-scrollblocker:has(> .cookie-consent-modal):style(display: flex !important)
+plenti.app##body:remove-attr(/data-scroll-locked|style/)
+plenti.app##+js(aeld, /scroll|wheel/i, , body)
+plenti.app##div[role="dialog"].fixed:has(a[href="https://lp.plenti.app/pl/terms/regulamin/"])
+plenti.app##.fixed:empty
