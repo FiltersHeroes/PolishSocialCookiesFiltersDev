@@ -175,8 +175,11 @@ cleangang.pl##body[style*="overflow"][style*="hidden"]:style(overflow-y: auto !i
 club.galilea.com.pl###welcome, .modal-backdrop
 coca-cola.pl##html.ot-modal-open, html.ot-modal-open body:style(overflow-y: auto !important)
 codeeurope.pl###root footer ~ div:has-text(plików cookies)
-codeeurope.pl##body.no-scroll, body.gdpr-noscroll:style(overflow-y: auto !important)
+codeeurope.pl##body.no-scroll:style(overflow-y: auto !important)
+codeeurope.pl##body.gdpr-noscroll:style(overflow-y: auto !important)
 comarch.pl##.consent-modal2__body:style(overflow-y: auto !important)
+fermo.pl##.amgdprjs-bar-template
+fermo.pl##body.no-scroll:style(overflow-y: auto !important)
 comarch.pl##body .consent-modal2
 corbby.com.pl###tfade:has(+ #tlight > .termspopupcontainer)
 corbby.com.pl###tlight:has(> .termspopupcontainer)
@@ -314,7 +317,8 @@ foursquare.com##+js(set, fourSq.cookies.CookieBanner, noopFunc)
 franklintempleton.pl##.modal-gateway-modal.modal-gateway.modal, .modal-backdrop
 frisco.pl##.modal-new_overlay:has(.cookies-consents)
 frisco.pl##html.with-popup:style(overflow-y: scroll !important; padding-right: 0 !important)
-fxpro.pl##body.backdrop, body.no-scroll:style(overflow-y: auto !important)
+fxpro.pl##body.backdrop:style(overflow-y: auto !important)
+fxpro.pl##body.no-scroll:style(overflow-y: auto !important)
 fxpro.pl##popup-cookies, body::after
 g2a.com##.modal__curtain:has(div[class*="cookies"][class*="agreements"])
 g2a.com##.scroll_freeze:style(position: static !important; overflow-y: auto !important)
