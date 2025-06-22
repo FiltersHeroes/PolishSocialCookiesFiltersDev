@@ -1,5 +1,3 @@
-pl##body.cookie-overlay-active::after
-~pl##body:lang(pl).cookie-overlay-active::after
 ###ba_eu_cookie_law:not(form)
 ###gdpr_consent:not([class*="form"], [class*="module"])
 ##.cookies-wrapper:not([class*="pum-field"])
@@ -15,6 +13,7 @@ pl##body.cookie-overlay-active::after
 #@#.grecaptcha-badge
 #@#.sf-consent
 #@#.woocommerce-store-notice
+~pl##body:lang(pl).cookie-overlay-active::after
 acogo.pl#@#.elementor-popup-modal
 adventuresports.pl,dkms.pl#@#.cc-banner
 adventuresports.pl,dkms.pl#@#.cc-bottom.cc-banner
@@ -67,6 +66,7 @@ morele.net#@##cookie-consent
 nat.pl#@##cookieWarning
 pepper.pl#@#.popover--layout-fixed-bottomSheet
 pepper.pl#@#.zIndex--modal.popover-cover
+pl##body.cookie-overlay-active::after
 podlaskie.eu#@#.gdprcookie
 profix.com.pl,proline-tools.com.pl#@#div#cookieConsentModal
 san.edu.pl#@#.cookies.show:not(html):not(body)
