@@ -1,3 +1,6 @@
+medyczny.pl###cookies_message_modal, .modal-backdrop
+medyczny.pl##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
+wearmedicine.com##div[class*="newModal" i]:has(div[class*="CookiesConsentPopUp"], div[class*="cookiesInfoModal"])
 orteo.pl,life-care.pl###RodoCookiesInfo, .modal-backdrop
 2bawsport.pl##.cookiesplus-modal, .modal-backdrop
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
@@ -791,7 +794,7 @@ warta.pl###cookieman-modal, #cookieman-modal ~ .modal-backdrop
 wearmedicine.com##.modal--open:style(overflow-y: auto !important; width: 100% !important)
 wearmedicine.com##.modal--open:style(position: static !important; overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 wearmedicine.com##.modal:has(div[class*="Cookies"])
-wearmedicine.com##div[class*="cookiesInfoModal_"]
+wearmedicine.com##div[class*="CookiesConsentPopUp"], div[class*="cookiesInfoModal"]
 webhelp.pl###wrapper:style(margin-top: auto !important)
 webprojekt.biz###rodo, #screenMoire
 webprojekt.biz##.no-move:style(overflow-y: auto !important)
