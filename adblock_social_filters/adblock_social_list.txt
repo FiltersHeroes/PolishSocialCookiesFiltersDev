@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.6.29.0
-! Last modified: Sun, 29 Jun 2025, 16:16 UTC+02:00
+! Version: 2025.6.29.1
+! Last modified: Sun, 29 Jun 2025, 22:42 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.6.29.0 aktualizacja: nie, 29 cze 2025, 16:16 UTC+02:00
+! v.2025.6.29.1 aktualizacja: nie, 29 cze 2025, 22:42 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -965,7 +965,7 @@ abersklep.pl,bodychief.pl,commplace.pl,eplakaty.pl,giacomo.pl,goldenline.pl,idea
 abonament.alfaromeo.pl##.watch-us__headline
 about.google##.glue-social
 aboutyou.pl,al.to,booksy.com,citibank.pl,clipchamp.com,doladowania.pl,e24cloud.com,ekspertbudowlany.pl,eurosport.tvn24.pl,hilton.com,ibood.com,investmap.pl,kodano.pl,mescomp.pl,mpay.pl,onetech.pl,orange.pl,plenti.app,pocztex.pl,pracasport.pl,prusa3d.com,pzwl.pl,rowerlubon.pl,siepomaga.pl,spidersweb.pl,store.google.com,support.github.com,swiatsportu.pl,t-mobile.pl,techgame.pl,tv.mgsm.pl,wawainfo.pl,whatsapp.com,www.pocztowy.pl,x-kom.pl,zawszepomorze.pl,zdrogi.pl##footer a[href*="twitter.com/"]
-aboutyou.pl,castorama.pl,clipchamp.com,kodano.pl,lidl.pl,mediamarkt.pl,store.google.com,support.github.com,www.pk.edu.pl,zabka.pl##footer a[href*="tiktok.com/"]
+aboutyou.pl,castorama.pl,clipchamp.com,kodano.pl,ks.pl,lidl.pl,mediamarkt.pl,store.google.com,support.github.com,www.pk.edu.pl,zabka.pl##footer a[href*="tiktok.com/"]
 abrakadabra.sklep.pl,all4home.pl##.social a:not([href*="newsletter"])
 absolvent.pl##footer ul ~ ul ul > li > a[href*=".com/"]
 accent-bikes.com###right_icons
@@ -1421,7 +1421,7 @@ arslege.pl##a[href*="facebook.com/testyArsLege"]
 arstattoo.pl##.fb_123
 art-comp24.pl###likebox-box
 art-media.waw.pl#?#.jupiterx-footer h2:has-text(szukaj nas na)
-artano.pl,domar.pl,epp-poland.com,gov.pl,jumo.pl,kartony24.eu,kler.eu,mypewex.com,myworld.com,pancernik.eu,peak-bike.pl,poczta-polska.pl,podczapla.pl,pracowniaef.pl,r.pl,resicapital.pl,skin79-sklep.pl,tecno-store.pl,teleguru.pl,transfery.info,urologia.katowice.pl,vichy.pl,vidaxl.pl,visplantis.pl,wojsko-polskie.pl,zdzislowicz.pl,zteshop.pl,zywiecinfo.pl##.social-media
+artano.pl,domar.pl,epp-poland.com,gov.pl,grupa-wolff.eu,jumo.pl,kartony24.eu,kler.eu,mypewex.com,myworld.com,pancernik.eu,peak-bike.pl,poczta-polska.pl,podczapla.pl,pracowniaef.pl,r.pl,resicapital.pl,skin79-sklep.pl,tecno-store.pl,teleguru.pl,transfery.info,urologia.katowice.pl,vichy.pl,vidaxl.pl,visplantis.pl,wojsko-polskie.pl,zdzislowicz.pl,zteshop.pl,zywiecinfo.pl##.social-media
 artdelarte.pl###box-facebook
 arteks.skleppsb.com.pl###FacebookFlyBox
 artelis.pl##nav > header > h1, .art-sociable
@@ -3550,7 +3550,9 @@ fm.tuba.pl## ul > li:has(a[title="facebook"], [title="tiktok"], [title="instagra
 fmshop.pl##.widget_times_social_widget a:not([href*="podcasts.google"])
 fmshop.pl##.widget_times_social_widget h2
 fn.org.pl##.footer-menu > .row > div.col-md-4.col-sm-12:nth-of-type(2)
+focus.pl##.bg-twitter
 focus.pl##.box-obserwuj-newsletter > a[href*="instagram.com/focus.pl/"], .social-icon-box
+focus.pl##.fc-SocialsList1
 focusonbusiness.eu,yope.me##.social a:not([href^="mailto:"])
 fokusfashion.com,kupbuty.com###tws_a_0
 foldruk.media.pl###socialmedia-top
@@ -7505,6 +7507,7 @@ rednetproperty.com###fk > .c > div:nth-of-type(2) > a
 redpointdesign.pl###footgroup2
 reeco.info.pl###footer tr:nth-of-type(3) a[href*=".com/"] img[src*="grafika"]
 reefshop.pl###panelbest
+refericon.pl##div[data-element="content/text.htm"]:has([href*="youtu.be"])
 regatta.pl##.s-footer-links-social
 region24.pl##.em-author-details > ul > li > a[href*=".com/region24"]
 region24.pl,sluzby-ratownicze.pl##.covernews_social_contacts_widget
