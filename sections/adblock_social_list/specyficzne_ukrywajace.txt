@@ -1,14 +1,3 @@
-trojka.polskieradio.pl##ol[class^="MainMenu_navSocials_"]
-trojka.polskieradio.pl##p[class^="Footer_socialHeader_"]
-podcasty.polskieradio.pl#?#main ~ div h5:has-text(Znajdziesz nas na)
-podcasty.polskieradio.pl#?#main ~ div h5:has-text(Znajdziesz nas na) + div
-chopin.polskieradio.pl##div[class*="footer__socialIcons_" i]
-app.klarna.com##ul:has(li div a[href*="facebook.com/"]):has(li div a[href*="linkedin.com/"])
-mbp.katowice.pl##a[href*=".com/"] .social-black
-houseofasia.pl##.media__list
-ppdesignstudio.pl##.menu-social
-ppdesignstudio.pl##footer.footer > div:only-child > div:only-child > div:nth-child(4):has(#menu-social)
-pap.pl##.followUsElement
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -515,6 +504,7 @@ apo-discounter.pl##.lower_footer_social_icon
 apollo.pl##.b-sm-list
 apostol.pl##.footer_links > a[href*="facebook.pl/apostolpl"]
 app.electricitymaps.com##a[href*="/sharer/sharer"]
+app.klarna.com##ul:has(li div a[href*="facebook.com/"]):has(li div a[href*="linkedin.com/"])
 app.ntfy.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="youtube.com"], [href*="instagram.com"], [href*="tiktok.com"])
 applefix.pl##.facebook-reviews__icon
 applemobile.pl,pdaclub.pl##.google-plus
@@ -1411,6 +1401,7 @@ chojnice.com##.column5
 chojnow.pl###sm-box
 cholewinski.com##.cho-social-links
 chomikuj.pl##.fileActionsFacebookSend
+chopin.polskieradio.pl##div[class*="footer__socialIcons_" i]
 chorzow.tv##.mainblock_left .blockleft_header
 chorzow.tv,comtv.pl,katotv.eu##.spc-social.spc-social-block
 chosenby.eu##.footer-content div:nth-of-type(6).three > .footer-title
@@ -1614,8 +1605,8 @@ cyberfolks.pl##.footer__social-media__wrapper
 cyberfolks.pl##.menu-item-socialmenu--wrapper
 cyberpunk.net##.l-footer__top-nav-findus
 cyberpunk.net##li.l-footer__social-item:not(:nth-of-type(10))
-cyberrescue.info##.menu-social
 cyberrescue.info##.share-pinterest
+cyberrescue.info,ppdesignstudio.pl##.menu-social
 cybersecforum.eu##.sm-icons > a
 cybersport.pl##.footer-right-top
 cybersport.pl##div.sidebar-widget:nth-child(n+12)
@@ -3376,6 +3367,7 @@ hotelmarinaclub.pl##.col--socials
 hotfix.pl##.side-border-left > center > table:nth-of-type(17)
 hotspray.pl##.footer-informations ul:nth-of-type(2)
 hotspray.pl##a[href*="facebook.com/hotspray/"] > img[src*="/banery/"]
+houseofasia.pl##.media__list
 how2play.pl##.social-description
 hpba.pl##.social__media
 hplush.pl##footer div[class*="box"] > div[class*="title"]:first-child:has(+ .social-wrapper:last-child)
@@ -4624,6 +4616,7 @@ mbank.pl###Footer\:MainFooter\:SocialMediaFooter\:Text + ul
 mbank.pl##ul[aria-labelledby="social-media-footer"]
 mbp.dzierzoniow.pl##.facebook-container
 mbp.dzierzoniow.pl##.region-header .block:not(#block-block-10, .block-search, #block-search)
+mbp.katowice.pl##a[href*=".com/"] .social-black
 mbp.opole.pl##.footer-cols-wrapper > .panel-grid-cell:nth-of-type(n+3) > .panel-cell-style.footer-col
 mbp.szczecin.pl#?#.elementor-inner-column.elementor-element[data-settings*="background"][data-settings*="classic"] > .elementor-element-populated.elementor-column-wrap:has(h4:has-text(/^Bądź na bieżąco$/))
 mbud.waw.pl##.header-widget > li:has(a[href*="facebook.com/"])
@@ -5639,6 +5632,7 @@ pantofelek24.pl###benefits-pantofelek24 > h4:first-of-type
 pantuniestal.com##.tgm-footer-social
 panwybierak.pl##.footer__contact-social
 pap-mediaroom.pl##.articleSocialWrapper > li:not(:last-of-type)
+pap.pl##.followUsElement
 paperlovers.pl###menu-glowny a[href*=".com/"]
 papier99.pl##.badge-facebook-blue
 papilot.pl##.nav.social-links a:not([href*="newsletter"])
@@ -5993,6 +5987,8 @@ pocztapolskarodzina.pl###social-i
 podaj.to##.facebook-box-container, .bottom-fb-popup
 podatki.gov.pl###shareDropdownButton
 podcasty.polskieradio.pl##.images__social-media
+podcasty.polskieradio.pl#?#main ~ div h5:has-text(Znajdziesz nas na)
+podcasty.polskieradio.pl#?#main ~ div h5:has-text(Znajdziesz nas na) + div
 podemski.info##.footer-right
 podhale24.pl###footernew > div > div.col:nth-of-type(4)
 podkarpackiesady.pl##.dolacz-do-nas
@@ -6216,6 +6212,7 @@ poznan.uw.gov.pl##li > a.tooltip[href*=".com"] > svg
 pozycjeobowiazkowe.pl##.fontana-social-icons, #HTML3
 pozycjoneria.com###footer > #stopka_ikonki
 pp.ceneo.pl##.footer-info div.footer-column:nth-of-type(3)
+ppdesignstudio.pl##footer.footer > div:only-child > div:only-child > div:nth-child(4):has(#menu-social)
 pphu-galkowski.pl##p:nth-of-type(5) > span > strong:has(a[href*="youtube.com/channel/UCZ6F7e_4fQ1OGQKRovPLjaQ"])
 pphu-galkowski.pl#?#article > span:has-text(NASZE FILMY)
 ppr.pl##body > div:last-child > a[href*="facebook.com/"]
@@ -7814,6 +7811,8 @@ trigar.pl##.wce_footer-social .wce_social-ico
 triny.pl##.c-social-list
 tritontools.com##footer div.row:first-of-type .spacer-top-lg
 trofeasportowe.com##footer a[href*="facebook.com/Trofea-Sportowe-"]
+trojka.polskieradio.pl##ol[class^="MainMenu_navSocials_"]
+trojka.polskieradio.pl##p[class^="Footer_socialHeader_"]
 trojka.polskieradio.pl##ul[class*="Footer_socialIcons_"]
 trojmiasto.tv##.share-wrapp-top
 trojmiejska.com##.rt_fb_like_box.footer_block
