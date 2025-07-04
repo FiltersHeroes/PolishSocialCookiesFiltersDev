@@ -1,6 +1,5 @@
 ###ba_eu_cookie_law:not(form)
 ###gdpr_consent:not([class*="form"], [class*="module"])
-~dolomitienergia.it##.cookies-wrapper:not([class*="pum-field"])
 ##body:not(.sf-lockscroll) .sf-consent
 #@##ba_eu_cookie_law
 #@##ck_dsclr_v2
@@ -13,6 +12,7 @@
 #@#.grecaptcha-badge
 #@#.sf-consent
 #@#.woocommerce-store-notice
+~dolomitienergia.it##.cookies-wrapper:not([class*="pum-field"])
 ~pl##body:lang(pl).cookie-overlay-active::after
 acogo.pl#@#.elementor-popup-modal
 adventuresports.pl,dkms.pl#@#.cc-banner
