@@ -1,11 +1,3 @@
-kmag.pl##.article-title ~ div:has([data-link^="#share-"])
-halotu.polsat.pl##button[title="Facebook"]
-halotu.polsat.pl##button[title="Youtube"]
-halotu.polsat.pl##button[title="Instagram"]
-halotu.polsat.pl##button[title="TikTok"]
-halotu.polsat.pl##.emotion-share-button
-halotu.polsat.pl##.social-bar
-filepuma.com##.footer-nav-title:has(+ p .share-btn)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -513,7 +505,6 @@ apo-discounter.pl##.lower_footer_social_icon
 apollo.pl##.b-sm-list
 apostol.pl##.footer_links > a[href*="facebook.pl/apostolpl"]
 app.electricitymaps.com##a[href*="/sharer/sharer"]
-klarna.com##ul:has(li div a[href*="facebook.com/"]):has(li div a[href*="linkedin.com/"])
 app.ntfy.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="youtube.com"], [href*="instagram.com"], [href*="tiktok.com"])
 applefix.pl##.facebook-reviews__icon
 applemobile.pl,pdaclub.pl##.google-plus
@@ -1188,7 +1179,7 @@ brykacze.pl##header li.menutop:nth-of-type(4)
 brykizameryki.pl##.bt_bb_column.btWidgetWithText.btIconWidget, .fluid-tab-2
 bryniarscy.pl###fblikeboxright
 brytol.com##.footer-widgets
-brytyjka.pl,n69.pl,rybnik.eu##.social-bar
+brytyjka.pl,halotu.polsat.pl,n69.pl,rybnik.eu##.social-bar
 brzeg.pl##.social-links-menu
 brzeg.pl#?#div[class]:first-child > .contact-info > p:has-text(Dołącz do nas)
 brzozow24.pl,bukowsko24.pl,esanok.pl,jaslo24.pl,rzeszow24.pl,strzyzow24.pl,tvpodkarpacie.pl,ustrzyki24.pl,zagorz24.pl,zarszyn24.pl##li > a[href*="facebook.com/"], li > a[href*="youtube.com/"]
@@ -2604,6 +2595,7 @@ fiftyfiftyconcept.pl,polska-ie.com##.mkdf-blog-single-share
 fight24.pl##div:nth-of-type(3) > h2:first-of-type
 fightershop.pl##.bigMedia > .container > .row, .findUs > div.nav-header:first-of-type
 fil.ug.edu.pl##p.social-icons:nth-of-type(-n+2)
+filepuma.com##.footer-nav-title:has(+ p .share-btn)
 filing.pl##.like
 film.com.pl,smaki.pl##.header-art-share
 film.com.pl,smaki.pl##.tumblr-button
@@ -3223,6 +3215,11 @@ halfprice.eu###footer .order-7
 halogorlice.info###sp-bottom3
 halogorlice.info##.col-socialshare > .h5
 halogorlice.info##.social > li:nth-child(-n+4)
+halotu.polsat.pl##button[title="Facebook"]
+halotu.polsat.pl##button[title="Instagram"]
+halotu.polsat.pl##button[title="TikTok"]
+halotu.polsat.pl##button[title="Youtube"]
+halotu.polsat.pl,hub.pl,interia.pl,pomponik.pl,top.pl##.emotion-share-button
 haloursynow.pl##.twitter.module > div[class*="col"]
 hamamobile.pl##.floating-socials
 hamamobile.pl##.hidden-xs.col-lg-2-3.col-md-2-3.col-sm-4.col-xxs-12 > div.footer__wrapper:nth-of-type(2)
@@ -3384,7 +3381,6 @@ hrkgame.com##div[class*="footer"] a[href*=".com/"]:is([href*="facebook.com"], [h
 hrstandard.pl##.post_share
 huaweimobileservices.com#?#.fullwidth-box.fusion-fullwidth:has-text(Śledź nasz profil w mediach społecznościowych)
 hub.pl,interia.pl,pomponik.pl,terazgotuje.pl,top.pl##.emotion-join-us-text
-hub.pl,interia.pl,pomponik.pl,top.pl##.emotion-share-button
 hubkolektyw.pl##.uk-grid.uk-flex-center.uk-child-width-auto
 hubparking.pl###footer-social-wrapper
 hugs.dog##table.footer-table:nth-of-type(2)
@@ -3876,6 +3872,7 @@ kinguin.net##footer .icons div.col-sm:nth-of-type(2)
 kinopolskamuzyka.pl##.footer_right > li:nth-of-type(2)
 kkslech.com###text-25
 klamoty.com##.container > .row > .col-sm-4:nth-of-type(3)
+klarna.com##ul:has(li div a[href*="facebook.com/"]):has(li div a[href*="linkedin.com/"])
 klassikauto.pl,muzeum.com.pl###text-18
 klasycznebuty.pl###myfooter div.f-grid-4:nth-of-type(2) > h3:first-of-type
 klasycznebuty.pl###myfooter div.f-grid-4:nth-of-type(3) > h3:nth-of-type(2)
@@ -3915,6 +3912,7 @@ kmag.pl###header a[href*="tiktok.com/"]
 kmag.pl###header ~ .container > div > div:has(+ .footer-nav) a[href*="facebook.com/"]
 kmag.pl###header ~ .container > div > div:has(+ .footer-nav) a[href*="instagram.com/"]
 kmag.pl###header ~ .container > div > div:has(+ .footer-nav) a[href*="tiktok.com/"]
+kmag.pl##.article-title ~ div:has([data-link^="#share-"])
 kmdentalexperts.pl###widget-3 p a[href*="facebook.com"]
 kmziz.pl##.item.col-xs-12.col-sm-12.col-md-3.col-lg-3
 knall.com.pl,magiadzwieku.pl##.socialTabs-tab--facebook.socialTabs-tab
