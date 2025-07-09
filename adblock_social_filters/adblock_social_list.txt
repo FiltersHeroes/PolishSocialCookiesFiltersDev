@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.7.7.0
-! Last modified: Mon, 07 Jul 2025, 22:44 UTC+02:00
+! Version: 2025.7.9.0
+! Last modified: Wed, 09 Jul 2025, 22:44 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.7.7.0 aktualizacja: pon, 07 lip 2025, 22:44 UTC+02:00
+! v.2025.7.9.0 aktualizacja: śro, 09 lip 2025, 22:44 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1097,7 +1097,7 @@ agronews.com.pl,eurowizja.org,gazetaregionalna.com,gizycko.info,kurier-kolejowy.
 agroperfekt.pl##.rssocial-custom-icon[href*="instagram.com/"]
 agroperfekt.pl,apolanka.pl,bona-ppetit.pl,kam-tech.com.pl,mckenzie.pl,owbaltyk.pl,rolpolopalenica.pl,rozruch-startgum.pl##.rssocial-facebook-icon
 agroperfekt.pl,czemarol.pl,materialybudowlanekrokowa.pl,owbaltyk.pl##.rssocial-youtube-icon
-agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,one.greeneris.com,pekao.com.pl,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,saketos.pl,sklep.miod.com.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
+agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,one.greeneris.com,papatka.pl,pekao.com.pl,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,saketos.pl,sklep.miod.com.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
 agrosiec.pl##.fixed > a[href*=".com/"][target="_blank"]
 agrosimex.pl##.icon-Youtube
 agrosimex.pl##a.social-icon
@@ -1833,6 +1833,7 @@ bitbay.net,bitbaypay.com##.menu-child-5.flex-menu-child
 bitcoin.pl###__layout div[class^="bg-orange"]
 bitcoin.pl##footer div > img[alt="Bitcoin.pl"] ~ p ~ div > a[href][target="_blank"]
 bithub.pl##.st-wykop, .st-steemit
+bitrix24.pl##.footer-social-network
 bitserwis.com.pl###node-490
 bitwarden.com##a[href*="/share?"]
 bitwarden.com##footer a[href]:not([href*="bitwarden.com"], [href*="github.com/"]) span[data-name^="bwi-"]
@@ -4116,7 +4117,7 @@ hardreset.info##.contact > h3, .contact > h3 ~ a[href*=".com/"]
 harmony.org.pl##a[href*="facebook.com/pages/Harmony-Biuro-rachunkowe/463505313706616"]
 harpersbazaar.com##.share-module--button-wrap-pinterest.share-module--button-wrap
 hauever.pl##.qode_share
-hbo.com##.footerMain-listSocial
+hbomax.com##div[class*="StyledSocialContainer-"]
 hdmb.com.pl##.roof-social
 hdtvpolska.com###apsc_widget-2
 hdtvpolska.com##div.cactus-share-and-like > .open-cactus-share.share-tool-block
@@ -4143,6 +4144,7 @@ hellozdrowie.pl##.fbCount
 hellozdrowie.pl##.single-post-side-shares-title
 hellozdrowie.pl##.wrapSocialBox
 help.docplanner.com##.kb-footer__social
+help.hbomax.com##.FooterSocialLink
 help.hbomax.com##.share > .facebook-btn
 helpx.adobe.com##.dexter-SocialMediaShare a[href*="twitter.com/share"]
 hendi.com##[class*="footerStyles-links-"] ul li[class*="SocialLinksStyles-"]
@@ -6537,6 +6539,7 @@ pantuniestal.com##.tgm-footer-social
 panwybierak.pl##.footer__contact-social
 pap-mediaroom.pl##.articleSocialWrapper > li:not(:last-of-type)
 pap.pl##.followUsElement
+papatka.pl##.footer-linkSM
 paperlovers.pl###menu-glowny a[href*=".com/"]
 papier99.pl##.badge-facebook-blue
 papilot.pl##.nav.social-links a:not([href*="newsletter"])
@@ -6560,7 +6563,7 @@ parkofpoland.com##.l-footer .-contact.l-col > .u-hideSm.c-horizontalNav > .c-hor
 parkofpoland.com##.l-footer .-contact.l-col > p.u-hideSm:nth-of-type(2)
 parkrun.pl###FooterStats tr:nth-of-type(5) > td:nth-of-type(2) > div > a
 parkwodny.com.pl##.wysuwa2
-parkwodny.pl##.footer-social-box
+parkwodny.pl,zdrowapaczucha.pl##.footer-social-box
 parmax.pl###telefon > ul > li:nth-child(n+3)
 partner.targi.pl##.social .in
 partnerpapes.pl##.text-7
@@ -6864,7 +6867,6 @@ plata.pl###contact-home div.flex-item:nth-of-type(3)
 platforma.org,superprezenty.pl##.footer-column-social
 platontv.pl###edge > .edge-icons > .edge-icon
 plawecki.org###bossbyte_slide
-play.max.com##div[class*="StyledSocialContainer-"]
 play.pl##.columns.box:nth-of-type(6)
 play.pl##.footer__header:has(+ div > .footer__social-row)
 play.pl##.footer__social-row
