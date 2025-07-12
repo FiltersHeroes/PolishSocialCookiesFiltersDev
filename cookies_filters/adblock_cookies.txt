@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.7.7.0
-! Last modified: Mon, 07 Jul 2025, 22:44 UTC+02:00
+! Version: 2025.7.12.0
+! Last modified: Sat, 12 Jul 2025, 18:11 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.7.7.0 aktualizacja: pon, 07 lip 2025, 22:44 UTC+02:00
+! v.2025.7.12.0 aktualizacja: sob, 12 lip 2025, 18:11 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1768,6 +1768,7 @@ lka.lodzkie.pl##cs-accept-cookies-pane
 lmbruss.pl,sklep.alablaboratoria.pl,telesystem-world.com###cover
 lnk.to,orcd.co,tix.to###modal.lnk-c-modal
 loco.pl###privacyCurtain
+login.ingbank.pl###cookie-banner-region
 logistics.dhl##.c-cookie-disclaimer
 lokalna24.pl#?##jm-right .custom > table:has-text(RODO)
 lokalnyrolnik.pl###cdk-overlay-0
@@ -4408,7 +4409,7 @@ wmglass.com.pl##dialog[cookies-dialog] { remove: true }
 adventuresports.pl,dkms.pl#@#.cc-banner:not(body, html)
 allecco.pl,aptekadlapacjenta.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,hiperpharm.pl,leki.pl,mcdonalds.pl,swiatleku.pl,zikoapteka.pl,zikodermo.pl#@#.cookies-info:not(body, html)
 allecco.pl,aptekadlapacjenta.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,hiperpharm.pl,leki.pl,mcdonalds.pl,swiatleku.pl,zikoapteka.pl,zikodermo.pl#@#.cookies-popup:not(body, html)
-allegro.pl,pikio.pl,sklep.winkhaus.pl,zus.pl#@#[class*="cookie-policy"]:not(body, html)
+allegro.pl,bnpparibas.pl,pikio.pl,sklep.winkhaus.pl,zus.pl#@#[class*="cookie-policy"]:not(body, html)
 bgk.pl#@#.cc-revoke:not(body, html)
 bgk.pl,dkms.pl,meiko.pl#@#.cc-window[aria-label*="consent"]:not(body, html)
 biblioteka.wroc.pl#@#.cookie-notice-container:not(body, html)
