@@ -1,4 +1,5 @@
-search.google.com##div:first-child > div:first-child + div:last-child > a[href] ~ a[href*="webmasters.googleblog"]:upward(2) > div:nth-of-type(-n+2)
+/plugins/likebox.php$frame,redirect=noop.html,domain=vifon.pl
+||premium.pl*/fb/splash.jpg
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href=""][title*="instagram"][target="_blank"] ~ a[href=""][title*="facebook"][target="_blank"]:upward(2)
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##figure strong:has-text(/^Podziel się$/):upward(2)
@@ -103,6 +104,7 @@ rynek-lotniczy.pl,rynekinfrastruktury.pl,transport-publiczny.pl##.wiadomoscSocia
 sadyogrody.pl##.twitter.social:upward(.active)
 scigacz.pl##div#main-footer > span.akonet:last-child:style(color: #606060 !important; font-size: 1.2rem !important)
 scigacz.pl##div#main-footer:style(-webkit-text-fill-color: #0000 !important; color: #0000 !important; font-size: 0 !important; width: calc(100% - 200px) !important; margin-left: 200px !important)
+search.google.com##div:first-child > div:first-child + div:last-child > a[href] ~ a[href*="webmasters.googleblog"]:upward(2) > div:nth-of-type(-n+2)
 shop.huawei.com##div.J_anchors:last-of-type > a.J_anchor[style*="width:59px; height:5"]:style(pointer-events: none !important; background: #fff !important)
 shopee.pl##footer div[class]:nth-child(4) > div[class] + ul li a[href*="facebook.com/"]:upward(div[class]:nth-child(4))
 sklep-internet.pl##.card.panel a.btn:style(white-space: unset !important)
@@ -145,5 +147,3 @@ www.o2.pl##:matches-path(/quiz.*wynik/) header + div h2 ~ div div > button:first
 www.o2.pl##:matches-path(/quiz.*wynik/) section h2 ~ div span:has-text(PODZIEL SIĘ) ~ button:not(:last-child)
 www.porta.com.pl##:matches-path(/otworzsiena) blockquote[class*="instagram-media"]:not(:has(> div > div:first-child > *))
 www.porta.com.pl##:matches-path(/otworzsiena) iframe.instagram-media:has(~ blockquote[class*="instagram-media"])
-/plugins/likebox.php$frame,redirect=noop.html,domain=vifon.pl
-||premium.pl*/fb/splash.jpg
