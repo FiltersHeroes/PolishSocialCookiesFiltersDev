@@ -23,11 +23,9 @@
 !
 !#safari_cb_affinity(social)
 ! Popupy - ogólne filtry
-@include popupy_ogolne_blokujace
 @include popupy_ogolne
 !
-! Popupy
-@include popupy_blokujace
+! Popupy - specyficzne filtry
 @include popupy
 !
 !
@@ -58,13 +56,11 @@
 !
 !
 ! Bugi EasyList Social
-@include bugi_ELS_sieciowe
 @include bugi_ELS
 !
 !
 ! Wyjątki
-@include wyjatki_ukrywajace
-@include wyjatki_blokujace
+@include wyjatki
 !#safari_cb_affinity
 !
 !

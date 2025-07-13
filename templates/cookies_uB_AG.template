@@ -10,12 +10,10 @@
 !
 !
 ! Bugi ELC
-@include bugi_ELC_suplement_sieciowe
 @include bugi_ELC_suplement
 !
 !
 ! Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
-@include komunikaty_sieciowe_suplement
 @include komunikaty_suplement
 !
 !
@@ -59,7 +57,7 @@
 !#if !ext_ublock
 @AGinclude komunikaty_uBO_AG_konwersja + komunikaty_AdGuard
 @include komunikaty_AdGuard_sieciowe
-@include Bugi_AdGuard
+@include bugi_AdGuard
 !#if adguard_ext_chromium_mv3
 @include komunikaty_AdGuard-MV3
 !#endif
