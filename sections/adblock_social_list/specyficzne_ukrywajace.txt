@@ -1,7 +1,3 @@
-sklep.sfd.pl##.page-footer__div > div:nth-of-type(5) > :nth-child(-n+6)
-pl.hinative.com##.mod_share_buttons
-podlogiznatury.eu##.icon-instagram
-podlogiznatury.eu##.icon-tiktok
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -5904,6 +5900,7 @@ pl.forvo.com##.share > ul > li:not(:last-child)
 pl.freepik.com##.footer__menu.alignl > .first
 pl.genesis-zone.com##.social-media__icon-item
 pl.geofumadas.com###connect-ah .m-block.sm.alignright > ul > li > a
+pl.hinative.com##.mod_share_buttons
 pl.hisense.com##.console-foot-hs-social-group
 pl.howtopronounce.com##.socialShareIcons
 pl.huel.com##div[class*="footer__socials" i]
@@ -6022,6 +6019,8 @@ podkop.com###text-14 > .textwidget p > a:not([href*="podkop.com/kontakt/"])
 podlaskie.eu###footer .component-menu-icons-horizontal
 podlaskie.eu###odwiedz_nas
 podlogigniezno.pl##.row.footer > div:nth-child(-n+2) > a > img
+podlogiznatury.eu##.icon-instagram
+podlogiznatury.eu,rmfmaxx.pl,zgarnijpremie.pl##.icon-tiktok
 podnorenami.pl###foot td.tbl_3:nth-of-type(2) > a:nth-of-type(-n+7)
 podobne-firmy.pl##.icon-group--sticky li:not(:has(.fa-medium-m, .fa-bitcoin))
 podroze.gazeta.pl##footer a[href*="facebook.com/podroze.gazeta/"]
@@ -6685,7 +6684,6 @@ rmf.fm##a[title="Instagram"]
 rmf.fm##a[title="TikTok"]
 rmfclassic.pl##.item:has(a[href*="facebook.com/rmfclassic"])
 rmfclassic.pl##li.footer-box:nth-of-type(5)
-rmfmaxx.pl,zgarnijpremie.pl##.icon-tiktok
 rmfmaxxx.pl##.opts > a:nth-of-type(2)
 ro.com.pl###footer_col2
 roadtripbus.pl##ul > .widget-block:nth-of-type(2)
@@ -7087,6 +7085,7 @@ sklep.polskieradio.pl###social-block2
 sklep.powermat.pl###social > .list-group > h5 > a[href="#"]
 sklep.rowmot.eu##.sm-panel-prawe .kac-sm-ig:lang(pl)
 sklep.rowmot.eu##.sm-panel-prawe .kac-sm-twitter:lang(pl)
+sklep.sfd.pl##.page-footer__div > div:nth-of-type(5) > :nth-child(-n+6)
 sklep.siapre.pl##.info_kontaktowe a[href*="facebook.com/"]
 sklep.solier.pl##.big_label[href*="instagram.com/"]
 sklep.solier.pl##.instagram-iframe
