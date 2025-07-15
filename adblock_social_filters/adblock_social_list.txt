@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.7.15.0
-! Last modified: Tue, 15 Jul 2025, 04:36 UTC+02:00
+! Version: 2025.7.15.1
+! Last modified: Tue, 15 Jul 2025, 22:46 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.7.15.0 aktualizacja: wto, 15 lip 2025, 04:36 UTC+02:00
+! v.2025.7.15.1 aktualizacja: wto, 15 lip 2025, 22:46 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1098,7 +1098,7 @@ agronews.com.pl,eurowizja.org,gazetaregionalna.com,gizycko.info,kurier-kolejowy.
 agroperfekt.pl##.rssocial-custom-icon[href*="instagram.com/"]
 agroperfekt.pl,apolanka.pl,bona-ppetit.pl,kam-tech.com.pl,mckenzie.pl,owbaltyk.pl,rolpolopalenica.pl,rozruch-startgum.pl##.rssocial-facebook-icon
 agroperfekt.pl,czemarol.pl,materialybudowlanekrokowa.pl,owbaltyk.pl##.rssocial-youtube-icon
-agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,one.greeneris.com,papatka.pl,pekao.com.pl,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,saketos.pl,sklep.miod.com.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
+agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,one.greeneris.com,papatka.pl,pekao.com.pl,pieknoumyslu.com,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,saketos.pl,sklep.miod.com.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
 agrosiec.pl##.fixed > a[href*=".com/"][target="_blank"]
 agrosimex.pl##.icon-Youtube
 agrosimex.pl##a.social-icon
@@ -6704,6 +6704,7 @@ pieczywoprobody.pl##.contact-details .facebook
 piekarniagrzybki.pl##.glowna_facebook
 piekary.pl##.site_header__top__socials
 piekary.pl##.social_home
+pieknoumyslu.com##.footer-social-item:not(.ast-rss)
 pieluszkarnia.pl##div[class*="platnosc"] > a[href*=".com/"] > img
 pieniezno.pl##.socialmedia-links
 pierwsze-kroki.com##.instagram-header
@@ -8222,11 +8223,9 @@ speedtest.net##div.pure-u-1:first-of-type > ul.menu-footer:nth-of-type(2)
 speedtest.pl##button[onclick*="facebook"]
 speedtest.pl##button[onclick*="twitter"]
 spidersonline.pl###bottom_column
-spidersweb.pl##.footer-nav > .row > div.columns.large-3:nth-of-type(2)
-spidersweb.pl##.row > .columns.large-offset-1.large-11 > .margin-bottom35.single-about > .row > .show-for-large.columns.large-7 > .text-right.display-table.single-interactions > .display-table-cell > span:nth-child(n+2):nth-child(-n+3)
-spidersweb.pl##.social-media-frame
-spidersweb.pl##div[class^="PostSocialShare_socialShare_"]
-spidersweb.pl##footer .row > div.columns:nth-of-type(3)
+spidersweb.pl##button[aria-label*="Share on"]
+spidersweb.pl##div.container:has(+ div.lazyload-wrapper div[class*="tikToksRow_container_"]):has(h1)
+spidersweb.pl##div[class*="tikToksRow_container_"]
 spiewnik.wywrota.pl##.footer > .container > .row > div:nth-of-type(4) > .btn
 spis.gov.pl###footer-widgets > section:nth-child(2) a
 splendear.com##.bottom-footer div.col-6.col-md-4:nth-of-type(2)
@@ -8593,6 +8592,7 @@ technowinki24.pl#?#.site-title:has-text(Face)
 techpolis.pl##div.KolumnaStopki:nth-of-type(5)
 tecno-store.pl##.footer-block-social > h4:first-child
 tecnoandroid.net##.footer-social-list > :not(.social-link-rss)
+teesa.pl###user_socialIco
 tefal24.pl##.tl-footer-telephone-socials
 tekstowo.pl##.btn-messenger
 tekstowo.pl##.fb-panel
