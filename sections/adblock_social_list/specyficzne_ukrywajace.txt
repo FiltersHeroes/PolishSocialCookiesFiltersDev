@@ -1,3 +1,9 @@
+pieknoumyslu.com##.social-icons
+pieknoumyslu.com##.footer-social-item:not(.ast-rss)
+teesa.pl###user_socialIco
+spidersweb.pl##button[aria-label*="Share on"]
+spidersweb.pl##div.container:has(+ div.lazyload-wrapper div[class*="tikToksRow_container_"]):has(h1)
+spidersweb.pl##div[class*="tikToksRow_container_"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -7302,11 +7308,6 @@ speedtest.net##div.pure-u-1:first-of-type > ul.menu-footer:nth-of-type(2)
 speedtest.pl##button[onclick*="facebook"]
 speedtest.pl##button[onclick*="twitter"]
 spidersonline.pl###bottom_column
-spidersweb.pl##.footer-nav > .row > div.columns.large-3:nth-of-type(2)
-spidersweb.pl##.row > .columns.large-offset-1.large-11 > .margin-bottom35.single-about > .row > .show-for-large.columns.large-7 > .text-right.display-table.single-interactions > .display-table-cell > span:nth-child(n+2):nth-child(-n+3)
-spidersweb.pl##.social-media-frame
-spidersweb.pl##div[class^="PostSocialShare_socialShare_"]
-spidersweb.pl##footer .row > div.columns:nth-of-type(3)
 spiewnik.wywrota.pl##.footer > .container > .row > div:nth-of-type(4) > .btn
 spis.gov.pl###footer-widgets > section:nth-child(2) a
 splendear.com##.bottom-footer div.col-6.col-md-4:nth-of-type(2)
