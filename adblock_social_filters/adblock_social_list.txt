@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.7.13.1
-! Last modified: Sun, 13 Jul 2025, 21:08 UTC+02:00
+! Version: 2025.7.15.0
+! Last modified: Tue, 15 Jul 2025, 04:36 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.7.13.1 aktualizacja: nie, 13 lip 2025, 21:08 UTC+02:00
+! v.2025.7.15.0 aktualizacja: wto, 15 lip 2025, 04:36 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6812,6 +6812,7 @@ pl.forvo.com##.share > ul > li:not(:last-child)
 pl.freepik.com##.footer__menu.alignl > .first
 pl.genesis-zone.com##.social-media__icon-item
 pl.geofumadas.com###connect-ah .m-block.sm.alignright > ul > li > a
+pl.hinative.com##.mod_share_buttons
 pl.hisense.com##.console-foot-hs-social-group
 pl.howtopronounce.com##.socialShareIcons
 pl.huel.com##div[class*="footer__socials" i]
@@ -6931,6 +6932,8 @@ podkop.com###text-14 > .textwidget p > a:not([href*="podkop.com/kontakt/"])
 podlaskie.eu###footer .component-menu-icons-horizontal
 podlaskie.eu###odwiedz_nas
 podlogigniezno.pl##.row.footer > div:nth-child(-n+2) > a > img
+podlogiznatury.eu##.icon-instagram
+podlogiznatury.eu,rmfmaxx.pl,zgarnijpremie.pl##.icon-tiktok
 podnorenami.pl###foot td.tbl_3:nth-of-type(2) > a:nth-of-type(-n+7)
 podobne-firmy.pl##.icon-group--sticky li:not(:has(.fa-medium-m, .fa-bitcoin))
 podroze.gazeta.pl##footer a[href*="facebook.com/podroze.gazeta/"]
@@ -7599,7 +7602,6 @@ rmf.fm##a[title="Instagram"]
 rmf.fm##a[title="TikTok"]
 rmfclassic.pl##.item:has(a[href*="facebook.com/rmfclassic"])
 rmfclassic.pl##li.footer-box:nth-of-type(5)
-rmfmaxx.pl,zgarnijpremie.pl##.icon-tiktok
 rmfmaxxx.pl##.opts > a:nth-of-type(2)
 ro.com.pl###footer_col2
 roadtripbus.pl##ul > .widget-block:nth-of-type(2)
@@ -8003,6 +8005,7 @@ sklep.polskieradio.pl###social-block2
 sklep.powermat.pl###social > .list-group > h5 > a[href="#"]
 sklep.rowmot.eu##.sm-panel-prawe .kac-sm-ig:lang(pl)
 sklep.rowmot.eu##.sm-panel-prawe .kac-sm-twitter:lang(pl)
+sklep.sfd.pl##.page-footer__div > div:nth-of-type(5) > :nth-child(-n+6)
 sklep.siapre.pl##.info_kontaktowe a[href*="facebook.com/"]
 sklep.solier.pl##.big_label[href*="instagram.com/"]
 sklep.solier.pl##.instagram-iframe
