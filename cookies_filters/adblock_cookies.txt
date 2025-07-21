@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.7.15.1
-! Last modified: Tue, 15 Jul 2025, 18:52 UTC+02:00
+! Version: 2025.7.21.0
+! Last modified: Mon, 21 Jul 2025, 04:41 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.7.15.1 aktualizacja: wto, 15 lip 2025, 18:52 UTC+02:00
+! v.2025.7.21.0 aktualizacja: pon, 21 lip 2025, 04:41 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4310,7 +4310,7 @@ wolframalpha.com##footer ~ section
 @@/wpjslib-stat.js$domain=nauka.rocks
 @@||assets.jimstatic.com/cookieControl.js$script,domain=beltone-polska.pl
 @@||cdn.cookielaw.org^$domain=rossmann.pl
-@@||cmp.inmobi.com^$domain=aszdziennik.pl|dadhero.pl|innpoland.pl|klubzwierzaki.pl|mamadu.pl|natemat.pl|topnewsy.pl
+@@||cmp.inmobi.com^$domain=aszdziennik.pl|dadhero.pl|innpoland.pl|mamadu.pl|natemat.pl|topnewsy.pl
 @@||sdk.privacy-center.org/*/loader.js$script,domain=bonduelle.pl
 @@||sdk.privacy-center.org^$script,domain=pb.pl|softonic.pl
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=aldi.pl
@@ -4353,6 +4353,8 @@ horecanet.pl#@#.gdprfade
 horecanet.pl#@#.gdprmodal
 horecanet.pl#@#.gdprmodal-backdrop
 horecanet.pl#@#div.gdpr
+hurt.com.pl#@##cookiePolicyBar
+hurt.com.pl#@##cookiesPanel
 iglotex.pl#@##cookie-info
 kakto.pl,pl#@#div.cookie-message
 leki.pl#@#div#cookie-popup
@@ -4411,8 +4413,6 @@ wmglass.com.pl##dialog[cookies-dialog] { remove: true }
 !
 !
 ! Wyjątki
-!@@||consensu.$domain=fly4free.pl
-!@@||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=gry.pl
 @@/jquery-eu-cookie-law-popup.js$script,domain=agagrzelak.pl
 @@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
 @@||consensu.*/js/cmp.stable.min.js$script,domain=shinden.pl
@@ -4447,6 +4447,10 @@ gdansk.pl,gokf.gda.pl,wins.pl#@##cookies:not(body, html, .fade , .section)
 gdansk.pl,gokf.gda.pl,wins.pl#@##cookies:not(body, html, .fade , .section) ~ #backdrop:empty
 grupapsb.com.pl#@#.cookies-footer:not(body, html)
 gry.pl,shinden.pl,wmeritum.pl,wykop.pl#@#div[class^="app_gdpr"]
+hurt.com.pl#@##cookiePolicyBar:not(body, html)
+hurt.com.pl#@##cookiesPanel:not(body, html)
+hurt.com.pl#@#[class*="coockie"]:not(body, html, [class*="button"])
+hurt.com.pl,nat.pl#@#.cookieContent:not(body, html)
 iglotex.pl,maxelektro.pl#@##cookie-info:not(body, html)
 iglotex.pl,mcdonalds.pl,ose.gov.pl,san.edu.pl#@#.cookies:not(body, html, #page, #container, .popup-newsletter, .js-cookies, .wrapper)
 kupbilecik.pl,liderlamp.pl,panbilet.pl,wins.pl#@#.cookie-container:not(body, html)
@@ -4457,7 +4461,6 @@ migora.pl,motocombo.pl,opencraft.pl,sympatia.onet.pl#@#[id^="topInfo"]:not(body,
 milopiwo.pl#@#.configMessages:has(.closeCookieBtn)
 naekranie.pl#@##modal-rodo-info:not(body, html, .fade, .reveal-modal)
 nat.pl#@##cookieWarning:not(body, html)
-nat.pl#@#.cookieContent:not(body, html)
 noweinwestycje.pl#@#.cookieBar:not(body, html)
 pap.pl#@##sliding-popup:not(body, html)
 pikio.pl#@##cookie-policy:not(body, html)
