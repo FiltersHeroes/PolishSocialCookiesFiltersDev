@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.7.21.0
-! Last modified: Mon, 21 Jul 2025, 04:41 UTC+02:00
+! Version: 2025.7.23.0
+! Last modified: Wed, 23 Jul 2025, 22:47 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.7.21.0 aktualizacja: pon, 21 lip 2025, 04:41 UTC+02:00
+! v.2025.7.23.0 aktualizacja: śro, 23 lip 2025, 22:47 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5798,6 +5798,7 @@ mojdhl.pl##div[class^="footer_bottomCookiesSocial"] a[href*=".com/"]
 moje-bubble.blogspot.com###PlusBadge2
 mojebambino.pl#?#div.footer-headline.footer-column-headline:has-text(Social Media)
 mojedziecikreatywnie.pl##.smartlib-social-buttons-list
+mojegotowanie.pl##.footer-logo ~ a[href*=".com/"]
 mojegotowanie.pl##.sidebar-box-like-us
 mojegotowanie.pl##.top-menu-like-us
 mojeinstalacje.com##.ptssocial_link
