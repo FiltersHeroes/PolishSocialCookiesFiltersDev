@@ -1,5 +1,3 @@
-polskikoszyk.pl##+js(set-local-storage-item, consents.show_consent_modal, 1)
-polskikoszyk.pl##+js(set-local-storage-item, consents.user_consents, [])
 /wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js$important,domain=sztolnie.pl|zamekgrodno.pl
 ||cdn.ans-media.com/*/CookiesConsentPopUp$redirect=noop.css,stylesheet
 ||lajt-online.pl/api/terms/rodo$1p,important,redirect=noop.json:10,xhr
@@ -621,6 +619,8 @@ polsatboxgo.pl###__next > div[class^="sc-"]:first-child:has(> div[class^="sc-"] 
 polsatboxgo.pl###__next div[class^="sc-"]:first-child:has(> div[class^="sc-"] > h2 + p:has-text(/^Potrzebujemy Twojej zgody/))
 polsatboxgo.pl##+js(set-cookie, rodo-modal-displayed, 1)
 polsatboxgo.pl##html[style*="--top-gap:"]:style(--top-gap: 0 !important)
+polskikoszyk.pl##+js(set-local-storage-item, consents.show_consent_modal, 1)
+polskikoszyk.pl##+js(set-local-storage-item, consents.user_consents, [])
 poradykomputerowe.pl,portaloswiatowy.pl##.overlay-cookie
 poradykomputerowe.pl,portaloswiatowy.pl##.overlay-hidden-cookie:style(overflow-y: auto !important)
 porcelana.pl##.modal-popup
