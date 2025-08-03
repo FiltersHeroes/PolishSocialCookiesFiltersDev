@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.2.0
-! Last modified: Sat, 02 Aug 2025, 18:51 UTC+02:00
+! Version: 2025.8.3.0
+! Last modified: Sun, 03 Aug 2025, 17:11 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.2.0 aktualizacja: sob, 02 sie 2025, 18:51 UTC+02:00
+! v.2025.8.3.0 aktualizacja: nie, 03 sie 2025, 17:11 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -2095,6 +2095,7 @@ noweinwestycje.pl##.js-cookies-notification, .b-cookies-notification
 noweprzetargi.pl###dcach, #txt
 nowezyciepabianic.pl##div#PopupDiv
 nowgeo.pl###div_ciasteczka
+nowymarketing.pl###cmplz-manage-consent
 nowyteatr.org###cookies-notification
 ntfy.pl###ntfy-cookies
 nuk.pl###neusta-cookie-notice-modal
@@ -2652,6 +2653,7 @@ siepomaga.pl##.header-cookies-component
 siepomaga.pl##div[data-testid="cookies-banner"]
 sieradz.com.pl,zdunskawola24.pl###polityka-2
 sii.org.pl###notifycookie
+silesiacitycenter.com.pl##footer > .fixed
 simex.pl###CookiesInfoDiv
 simplesurance.pl###_s-cookie-notification-container
 sindbad.pl##app-cookie-info
@@ -4465,6 +4467,8 @@ nat.pl#@##cookieWarning:not(body, html)
 noweinwestycje.pl#@#.cookieBar:not(body, html)
 pap.pl#@##sliding-popup:not(body, html)
 pikio.pl#@##cookie-policy:not(body, html)
+pomadziarz.pl,sklepzycia.pl,teesa.pl#@##shoper-foot ~ div.consents
+pomadziarz.pl,sklepzycia.pl,teesa.pl#@#.shop_index > div.consents
 poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body, html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body, html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body, html)
