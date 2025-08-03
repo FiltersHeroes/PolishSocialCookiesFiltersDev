@@ -334,8 +334,6 @@ etsy.com###gdpr-single-choice-overlay
 etsy.com##html > body[class*="body-no-scroll"]:style(position: static !important; overflow-y: auto !important; padding-right: 0 !important)
 fabrykacukiernika.pl##.rodo-on:style(overflow-y: auto !important)
 fabrykacukiernika.pl##.rodo-popup
-farmacja.pl##div.rodo-modal
-farmacja.pl,q21.pl##+js(acis, jQuery, .rodo-modal)
 fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > *:style(color: initial)
 fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > :last-child:nth-child(4):upward(1):style(color: #0000)
 fdm.pl##.cms-popup, .cms-popup-backdrop
@@ -614,7 +612,6 @@ panoramafirm.pl###modal-rodolayer
 pap.pl###papCookieModal, .modal-backdrop
 pap.pl##.modal-open[class]:style(overflow: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 papa-dance.pl###screen_popup_wrapper:has(#c00kie-popup)
-papa-dance.pl##.content:has(> .ww_image_wrapper > a[href*=".com/"] > img[id].svgImage)
 papa-dance.pl##.open-c00kie-settings
 parkiet.com,rp.pl###rodo-popup
 patronite.pl##.modal--container:has-text(RODO)
