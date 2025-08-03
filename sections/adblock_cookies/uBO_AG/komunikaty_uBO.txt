@@ -4,8 +4,12 @@ amled.pl,butoholiczka.pl,cicius.pl,csk-med.pl,dekomotyw.pl,herbataikawa.pl,italw
 amled.pl,butoholiczka.pl,cicius.pl,csk-med.pl,dekomotyw.pl,herbataikawa.pl,italwaxpolska.pl,kim24.pl,mr-gadzet.pl,pandawanda.pl,pomadziarz.pl,remedial.sklep.pl,sklepsativa.pl,sklepzycia.pl,stylion.pl,teesa.pl,traffx.pl##+js(set-local-storage-item, user_consents, [])
 butoholiczka.pl##+js(set-local-storage-item, consents.show_consent_modal, 1)
 butoholiczka.pl##+js(set-local-storage-item, consents.user_consents, [])
-plenti.app##+js(aeld, /scroll|wheel/i, , body)
+plenti.app##+js(aeld, /scroll|wheel/i, , elements, body)
 plenti.app##.fixed:empty
 plenti.app##body:remove-attr(/data-scroll-locked|style/)
 plenti.app##div[role="dialog"].fixed:has(a[href="https://lp.plenti.app/pl/terms/regulamin/"])
 www.zus.pl##:matches-path(/ezus/ustawienia-polityki-cookies) .p-dialog-mask-scrollblocker:has(> .cookie-consent-modal):style(display: flex !important)
+bayadera.pl,butico.pl,e-clematis.com,eldom.eu,frajdomania.pl,hi-lashes.pl,ilapka.pl,krainazabawek.com.pl,laptok.com,nesea.pl,perfumik.pl,przydatny.pl,rodajaslo.com.pl,skladczesci.pl,sklep-ewa.pl,sklep.instato.pl,topcena24.pl,zabawkinaczasie.pl,zniczeflamma.pl,zoo24.pl##+js(set-local-storage-item, show_consent_modal, 1)
+bayadera.pl,butico.pl,e-clematis.com,eldom.eu,frajdomania.pl,hi-lashes.pl,ilapka.pl,krainazabawek.com.pl,laptok.com,nesea.pl,perfumik.pl,przydatny.pl,rodajaslo.com.pl,skladczesci.pl,sklep-ewa.pl,sklep.instato.pl,topcena24.pl,zabawkinaczasie.pl,zniczeflamma.pl,zoo24.pl##+js(set-local-storage-item, user_consents, [])
+bayadera.pl,butico.pl,e-clematis.com,eldom.eu,frajdomania.pl,hi-lashes.pl,ilapka.pl,krainazabawek.com.pl,laptok.com,nesea.pl,perfumik.pl,przydatny.pl,rodajaslo.com.pl,skladczesci.pl,sklep-ewa.pl,sklep.instato.pl,topcena24.pl,zabawkinaczasie.pl,zniczeflamma.pl,zoo24.pl##+js(set-local-storage-item, consents.show_consent_modal, 1)
+bayadera.pl,butico.pl,e-clematis.com,eldom.eu,frajdomania.pl,hi-lashes.pl,ilapka.pl,krainazabawek.com.pl,laptok.com,nesea.pl,perfumik.pl,przydatny.pl,rodajaslo.com.pl,skladczesci.pl,sklep-ewa.pl,sklep.instato.pl,topcena24.pl,zabawkinaczasie.pl,zniczeflamma.pl,zoo24.pl##+js(set-local-storage-item, consents.user_consents, [])
