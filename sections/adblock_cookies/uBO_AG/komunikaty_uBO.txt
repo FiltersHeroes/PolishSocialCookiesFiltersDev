@@ -5,3 +5,5 @@ plenti.app##.fixed:empty
 plenti.app##body:remove-attr(/data-scroll-locked|style/)
 plenti.app##div[role="dialog"].fixed:has(a[href="https://lp.plenti.app/pl/terms/regulamin/"])
 www.zus.pl##:matches-path(/ezus/ustawienia-polityki-cookies) .p-dialog-mask-scrollblocker:has(> .cookie-consent-modal):style(display: flex !important)
+teesa.pl,sklepzycia.pl,pomadziarz.pl##+js(set-local-storage-item, show_consent_modal, 1)
+teesa.pl,sklepzycia.pl,pomadziarz.pl##+js(set-local-storage-item, user_consents, [])
