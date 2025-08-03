@@ -1,3 +1,6 @@
+otodom.pl##div[data-sentry-component="SocialsAndMarkets"] div:first-child
+olx.pl#?#span:has-text(/^Dołącz do nas/)
+olx.pl#?#span:has-text(/^Dołącz do nas/) + div a
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -5584,8 +5587,6 @@ oszczedzarka.co.uk##.row > .engine-block.small-12.large-3 > center > a > img
 oticon.pl###footer .section-one > .rich-text.component > .component-content
 otmetobuwie.pl##.dark_blue.button3_sub
 otoagent.pl##.layout__footer--socialsWrapper
-otodom.pl##footer > div > div > div:last-child > div + div:last-child
-otodom.pl##footer div.item:nth-of-type(4) > ul > li:nth-of-type(2)
 otoksiazka24.pl###kontakt div.flex-3.flex:nth-of-type(3)
 otomoto.pl###page-footer > section > article:first-child
 otomoto.pl##footer a[href*="facebook.com/otomotopl" i]
@@ -8617,7 +8618,6 @@ wyborcza.pl##li.social--item > .social--link-fb
 wyborcza.pl##li.social--item:has(.social--link-fb, .social--link-tw)
 wyborkierowcow.pl#?#.td-block-title:has-text(FACEBOOK)
 wybory.um.warszawa.pl##[id^="sm"].sm
-wycena.otodom.pl##.widget-box, .widget-html
 wycieczki.tanie-loty.com.pl##.tl-social-links > li:not(:nth-of-type(5))
 wydajenamsie.pl##.footer-social-media__head
 wydajnykomputer.pl##.footerMenu > li:nth-of-type(8)
