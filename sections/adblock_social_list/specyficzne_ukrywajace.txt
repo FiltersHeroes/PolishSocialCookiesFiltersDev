@@ -1,3 +1,19 @@
+webidea.pl##footer h3:has(~ .social)
+caritaspoznan.pl##.socials
+medonet.pl##.ods-m-social-media-share a[href*=".com/"]
+plejada.pl##.ods-m-socials-stream a[href*=".com/"]
+plejada.pl##.ods-m-socials-stream a[href*="wa.me"]
+wordpress.com##.x-nav-footer--twitter
+wordpress.com##.x-nav-footer--youtube
+wordpress.com##.x-nav-footer--instagram
+wordpress.com##.x-nav-footer--facebook
+klimatyzacja.pl##.v-footer__social
+silesiacitycenter.com.pl##footer > div > div:first-child > div:first-child > div:first-child > div:first-child:has(> ul > li a[href*="facebook.com/"])
+zstudio.pl##.facebook
+asus.com##.community
+data.europa.eu##div.ecl-site-footer__section:has(a[aria-label^="Link to Instagram"])
+selgros24.pl##footer .items-start:has(> p ~ ul a[href*="facebook.com/"])
+stool.pl##.instagram-social
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
