@@ -288,8 +288,8 @@ aig.pl##footer ul > li > a[href*=".com/"]
 aikoiemil.com,pozdrozkrld.com##.widget_youtube_subscriber
 airbnb.pl##footer div > ul > li > span > a[target="_blank"]:has(svg)
 airbnb.pl##footer ul > li > a > svg[aria-label^="Przejdź do"]
-airfryerprzepisy.pl##.kt_pinterest_share
-airfryerprzepisy.pl##.wp-block-kadence-rowlayout.kb-row-layout-wrap:has(> div > div > div > div > a[href*="facebook.com/"])
+airfryerprzepisy.pl##.kt_pinterest_share, .wp-block-button__link[href*="facebook"]
+airfryerprzepisy.pl#?#.wp-block-kadence-rowlayout.kb-row-layout-wrap > .kb-theme-content-width.kt-row-column-wrap:-abp-has(.kt-row-valign-middle .kb-button[href*="facebook"])
 airly.eu##[class^="footer__SocialLinks"]
 airly.eu##button[aria-label*="Floating"]:has([class*="social-bar__StyledShareIcon-"])
 airly.eu##div[class^="social-bar__SocialIcons-"]
