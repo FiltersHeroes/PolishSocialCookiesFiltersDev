@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.10.0
-! Last modified: Sun, 10 Aug 2025, 18:48 UTC+02:00
+! Version: 2025.8.11.0
+! Last modified: Mon, 11 Aug 2025, 04:38 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.10.0 aktualizacja: nie, 10 sie 2025, 18:48 UTC+02:00
+! v.2025.8.11.0 aktualizacja: pon, 11 sie 2025, 04:38 UTC+02:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6929,8 +6929,6 @@ pnt.info.pl##a[href="#facebook"]
 pobudka.waw.pl##div[class^="contentFooter_media_"] > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
 pocisk.org##.right-panel-social, .two_half
 poczta-cyfrowa.pl##div.socialmedia-icon
-poczta-polska.info.pl##.social-links a.bxl-skype
-poczta-polska.info.pl##.social-links a:not(.bxl-skype)
 pocztapolskarodzina.pl###social-i
 podaj.to##.facebook-box-container, .bottom-fb-popup
 podatki.gov.pl###shareDropdownButton
