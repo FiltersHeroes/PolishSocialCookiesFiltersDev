@@ -1,5 +1,3 @@
-!zoom.us###agree-terms ~ div label input[disabled]:remove-attr(disabled)
-!zoom.us###agree-terms ~ div label[class]:watch-attr(class):remove-class(/disabled/)
 /wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js$important,domain=sztolnie.pl|zamekgrodno.pl
 ||cdn.ans-media.com/*/CookiesConsentPopUp$redirect=noop.css,stylesheet
 ||lajt-online.pl/api/terms/rodo$1p,important,redirect=noop.json:10,xhr
@@ -443,7 +441,7 @@ lnk.to,orcd.co,tix.to##.box-shadow.player-container[style]:style(opacity: 1 !imp
 lnk.to,orcd.co,tix.to##.page-container > .player-container[style]:style(overflow-y: auto !important; width: auto !important)
 lnk.to,orcd.co,tix.to##.privacy-notice-gdpr-container
 lnk.to,orcd.co,tix.to##.slide-bar-container
-login.e-dowod.gov.pl##+js(set-cookie, acceptRodoSie, hide)
+login.e-dowod.gov.pl##+js(set-local-storage-item, dataProcessingInfoDialogRead, true)
 login.ingbank.pl##.global-overlays__overlay[data-tag-name="cookie-banner-main"]
 lomza.pl##html > body.polityka-cookies:style(margin-top: 0 !important; background-position: center 120px !important)
 longines.com##body > div.MuiDialog-root:has(> div.MuiDialog-container div[class^="Cookies_Actions__"])
