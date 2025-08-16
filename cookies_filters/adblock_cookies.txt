@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.13.0
-! Last modified: Wed, 13 Aug 2025, 22:43 UTC+02:00
+! Version: 2025.8.16.0
+! Last modified: Sat, 16 Aug 2025, 15:04 UTC+02:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.13.0 aktualizacja: śro, 13 sie 2025, 22:43 UTC+02:00
+! v.2025.8.16.0 aktualizacja: sob, 16 sie 2025, 15:04 UTC+02:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -3277,7 +3277,7 @@ zyro.com##.zyro-cookies
 ||schavemaker.pl/css/cookies.css
 ||sdk.privacy-center.org/*/loader.js?target=$script,domain=brainly.pl|hilti.pl
 ||serialowa.pl/wpr/wp-content/plugins/popup-maker/assets/css/site.min.css
-||service-cmp.com/config$script,xmlhttprequest,domain=megogo.net
+||service-cmp.com^$domain=megogo.net
 ||siemashop.pl/assets/*/js/cookie_agreement.js$script
 ||silnet.pl/*/js/vue/silnet-privacy-policy.vue$xmlhttprequest
 ||stokrotka.pl/*/w_cookie_privacy/$script
