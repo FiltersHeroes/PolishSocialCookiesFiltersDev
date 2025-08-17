@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.13.1
-! Last modified: Wed, 13 Aug 2025, 22:43 UTC+02:00
+! Version: 2025.8.17.0
+! Last modified: Sun, 17 Aug 2025, 14:40 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.13.1 aktualizacja: śro, 13 sie 2025, 22:43 UTC+02:00
+! v.2025.8.17.0 aktualizacja: nie, 17 sie 2025, 14:40 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -59,6 +59,7 @@ babymanager.pl##.spu-bg:has(~ .spu-box .fb-like-box)
 babymanager.pl##.spu-box:has(.fb-like-box)
 beskidy.news##.c-pop-up
 black-friday.pl,cryptoprofit.pl,e-przepisykulinarne.pl,funfashion.pl,kucharenka.pl,kuchniawedwoje.pl,magazyninformacyjny.pl,wielkopolskamagazyn.pl,zatrzymujacczas.pl###ffbp, #ffbp-bg
+bugajsky.pl,kawiarniany.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 czasnawnetrze.pl##.waitbox
 dreweks.eu###x13popup-container, #x13popup-cover
 dziennik-polityczny.com###dz-popup-follow-us
@@ -95,7 +96,6 @@ karmiepsiaki.pl###fb-exit
 karmopedia.pl,przedsiebiorcza.com##.spu-bg:has(~ .spu-box .spu-facebook-page)
 karmopedia.pl,przedsiebiorcza.com##.spu-box:has(.spu-facebook-page)
 karografia.pl###fb-popup
-kawiarniany.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
 klasek.pl###spu-bg, #spu-main
 konstantinkanin.com##.hustle-show
@@ -1100,7 +1100,7 @@ agronews.com.pl,eurowizja.org,gazetaregionalna.com,gizycko.info,kurier-kolejowy.
 agroperfekt.pl##.rssocial-custom-icon[href*="instagram.com/"]
 agroperfekt.pl,apolanka.pl,bona-ppetit.pl,kam-tech.com.pl,mckenzie.pl,owbaltyk.pl,rolpolopalenica.pl,rozruch-startgum.pl##.rssocial-facebook-icon
 agroperfekt.pl,czemarol.pl,materialybudowlanekrokowa.pl,owbaltyk.pl##.rssocial-youtube-icon
-agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,one.greeneris.com,papatka.pl,pekao.com.pl,pieknoumyslu.com,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,saketos.pl,sklep.miod.com.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
+agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,forums.lenovo.com,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,one.greeneris.com,papatka.pl,pekao.com.pl,pieknoumyslu.com,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,saketos.pl,sklep.miod.com.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
 agrosiec.pl##.fixed > a[href*=".com/"][target="_blank"]
 agrosimex.pl##.icon-Youtube
 agrosimex.pl##a.social-icon
@@ -1817,6 +1817,7 @@ bilbordy.info##.sm-offset-top > .row-margin > .bottom-col:nth-of-type(3)
 bilety.cracovia.pl,bilety.gornik.leczna.pl,bilety.gornikzabrze.pl,bilety.jagiellonia.pl,bilety.ksul.pl,bilety.lechia.pl,bilety.lechpoznan.pl,bilety.rakow.com,bilety.stalgorzow.pl,bilety.wartapoznan.pl,bilety.wybrzezegdansk.pl##.card-image > a[href*="facebook.com"]
 bilety.cracovia.pl,bilety.gornik.leczna.pl,bilety.gornikzabrze.pl,bilety.jagiellonia.pl,bilety.ksul.pl,bilety.lechia.pl,bilety.lechpoznan.pl,bilety.rakow.com,bilety.stalgorzow.pl,bilety.wartapoznan.pl,bilety.wybrzezegdansk.pl##.card-image > a[href*="instagram.com"]
 bilety.cracovia.pl,bilety.gornik.leczna.pl,bilety.gornikzabrze.pl,bilety.jagiellonia.pl,bilety.ksul.pl,bilety.lechia.pl,bilety.lechpoznan.pl,bilety.rakow.com,bilety.stalgorzow.pl,bilety.wartapoznan.pl,bilety.wybrzezegdansk.pl##.card-image > a[href*="twitter.com"]
+biletyna.pl##.footer-bottom__right
 bilgorajska.pl###spolecznosciowe_lewa
 bioarp.pl#?#footer.footer .wpb_content_element.wpb_text_column > .wpb_wrapper > p:has-text(Social media)
 bioevolution.com##.sf-link[href*=""]
@@ -4922,7 +4923,7 @@ kosmonautyka.pl,profcomputer.pl##tr:nth-of-type(3)
 kosmopolis.com.pl,swoszowice.org.pl##.mkdf-social-icon-widget-holder
 kostrzyn.pl#?#.aktperbox:has-text(Rozmaitości) ul[id^="news"] > li[id^="news"].zaj-wrapper:has(a[href="/aktualnosc-28121-dzienny_dom_senior_na_facebook.html"])
 koszalincity.pl##.th-social
-koszulekup.pl,lokay.pl,trzcinowy.slodkielaczy.pl,zieleniec.pl###socials
+koszulekup.pl,lokay.pl,mapadotacji.gov.pl,trzcinowy.slodkielaczy.pl,zieleniec.pl###socials
 koszulki-polska.pl##.link-follow
 koszulkolandia.com,prezencik.eu###social > a:not([href="/newsletter/add"])
 koszulkowo.com##.icon-wrapper--facebook
