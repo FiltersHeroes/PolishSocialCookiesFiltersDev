@@ -1,6 +1,8 @@
+wsjp.pl##.circle-facebook
+wsjp.pl##.circle-youtube
+wsjp.pl##.circle-x
 wgospodarce.pl##.social-media-icons a[href*=".com/"]:is([href*="facebook.com"], [href*="twitter.com"])
-chili24.pl##header .module:has(a[href*="facebook.com/"])
-chili24.pl##footer .module:has(a[href*="facebook.com/"])
+chili24.pl##:is(header, footer) .module:has(a[href*="facebook.com/"])
 vivo.com##.vep-footer-share
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
