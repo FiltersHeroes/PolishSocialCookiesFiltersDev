@@ -1,9 +1,3 @@
-wsjp.pl##.circle-facebook
-wsjp.pl##.circle-youtube
-wsjp.pl##.circle-x
-wgospodarce.pl##.social-media-icons a[href*=".com/"]:is([href*="facebook.com"], [href*="twitter.com"])
-chili24.pl##:is(header, footer) .module:has(a[href*="facebook.com/"])
-vivo.com##.vep-footer-share
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -1396,6 +1390,7 @@ chefbox.pl##[class*="footer"] a[href*="instagram.com/"]
 chemik-police.com##.youtube-cta
 chevan.pl##footer > div > div.text-center:first-of-type
 chili24.pl##.fixedIcons a[href*=".com/"]
+chili24.pl##:is(header, footer) .module:has(a[href*="facebook.com/"])
 chillizet.pl##.share > .messanger.button, .like__us, #main-footer p.text-align__center.uppercase.footer__title
 chimmo.pl##a.footer-icon
 chinskapatelnia.pl##.home-instagram.home-box, .home-youtube.home-box
@@ -8251,6 +8246,7 @@ vivaldi.start.me##section:nth-of-type(5)
 viverto.pl##a[href*=".com/"][title*="pr"] img
 vivio.pl##a.flagi:nth-of-type(n+6):nth-of-type(-n+8)
 vivo-shopping.com##.site-header__meta__menu__item--social-icons
+vivo.com##.vep-footer-share
 vivo.com##li.footer-us-item:nth-of-type(2) .footer-us-title
 vivus.pl###app ul + ul:last-child > li > a[target="_blank"]:has(svg)
 viwamebel.com##header nav .nav-item:has(a[href*="facebook.com/"])
@@ -8375,6 +8371,7 @@ westwingnow.pl##.page > div[class*="OneFooter"] > div[class*="OneFooter"]:nth-ch
 westwingnow.pl##[class^="Social__StyledSocial-"] > a:nth-child(-n+3)
 wetransfer.com##.social-link-out ul a:not([href*="/new"])
 wgmedia.eu##.wg-icon
+wgospodarce.pl##.social-media-icons a[href*=".com/"]:is([href*="facebook.com"], [href*="twitter.com"])
 wgospodarce.pl##.widget--social-media
 wgrane.pl##.window_title:nth-of-type(3)
 whatnext.pl##.entry-share-container
@@ -8565,6 +8562,9 @@ wsensie.pl,wsensie.tv##.lubie
 wsfiz.edu.pl##.footer__sm
 wsfiz.edu.pl##.header__top__sm
 wsinf.edu.pl###social, .nobrd.border
+wsjp.pl##.circle-facebook
+wsjp.pl##.circle-x
+wsjp.pl##.circle-youtube
 wsliwinski.pl###foot > div.block30 > p > a > img
 wsliwinski.pl##.footer .icons a[href*=".com/"]
 wsliwinski.pl##.top-info-bar a[href*=".com/"]
