@@ -1,8 +1,3 @@
-zrzutka.pl##.modal:has(a[href="/privacy"])
-zrzutka.pl##.modal-backdrop
-zrzutka.pl##.modal-open[class]:style(overflow-y: auto !important)
-siepomaga.pl##div[data-testid="overlay-cookie-consents-modal"]
-siepomaga.pl##body[style]:style(overflow-y: auto !important)
 /wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js$important,domain=sztolnie.pl|zamekgrodno.pl
 ||cdn.ans-media.com/*/CookiesConsentPopUp$redirect=noop.css,stylesheet
 ||lajt-online.pl/api/terms/rodo$1p,important,redirect=noop.json:10,xhr
@@ -112,10 +107,10 @@ avg.com,radiopogoda.pl##body.ot-overflow-hidden:style(overflow-y: auto !importan
 babyland.pl###xf-modal, .modal-backdrop
 baptysci.pl,powiatslawno.pl,szkolawielgus.pl,szpitalnawrzesinie.pl,umig.olkusz.pl##.gafancybox-overlay-fixed.gafancybox-overlay
 barbara.net.pl##.modal:has-text(RODO)
-barbara.net.pl,conversion.pl,dane.gov.pl,dyzurnet.pl,makro.pl,qa-stack.pl##.modal-backdrop
+barbara.net.pl,conversion.pl,dane.gov.pl,dyzurnet.pl,makro.pl,qa-stack.pl,zrzutka.pl##.modal-backdrop
 bbcpolska.com###home:style(padding-top: 0 !important)
 bebiprogram.pl,bobovita.pl##+js(set-cookie, cookie_necessary, 1)
-beko.com,burgerking.pl,bydgoszczak.pl,drogeriapigment.pl,katowiczak.pl,lyko.com,nat.pl,papa-dance.pl,podlaskie.eu,pozbruk.pl,sinsay.com,smsapi.pl,spidersweb.pl,starachowice.eu,tme.eu,trzymajsiecieplo.pl,viennahouse.com,vod3.pl,wmeritum.pl##body[style]:style(overflow-y: auto !important)
+beko.com,burgerking.pl,bydgoszczak.pl,drogeriapigment.pl,katowiczak.pl,lyko.com,nat.pl,papa-dance.pl,podlaskie.eu,pozbruk.pl,siepomaga.pl,sinsay.com,smsapi.pl,spidersweb.pl,starachowice.eu,tme.eu,trzymajsiecieplo.pl,viennahouse.com,vod3.pl,wmeritum.pl##body[style]:style(overflow-y: auto !important)
 beko.pl##.cookies-margin:style(top: 0 !important)
 beskidzka24.pl,czyodebrac.pl,czytajsklad.com,ddz24.eu,eko-asklepios.pl,enerad.pl,grupafachowiec.eu,klubspatif.pl,koicosmetics.pl,konecki24.pl,ktodzwonil.com.pl,oftal-koralewscy.pl,opieka.farm,receptaulekarza.pl,regioneo.pl,rykoszet.info,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,swiat-drzwi.pl,szydlowiecki.eu,tarczynskiarenawroclaw.pl,techno-senior.com,thesport.pl,verco.com.pl,wiadomosci-lodz.pl,wykryjangine.pl,zieleniec.pl##.cli-barmodal-open:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 beskidzka24.pl,czyodebrac.pl,czytajsklad.com,ddz24.eu,eko-asklepios.pl,enerad.pl,klubspatif.pl,koicosmetics.pl,konecki24.pl,ktodzwonil.com.pl,oftal-koralewscy.pl,opieka.farm,receptaulekarza.pl,regioneo.pl,rykoszet.info,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,swiat-drzwi.pl,szydlowiecki.eu,tarczynskiarenawroclaw.pl,techno-senior.com,thesport.pl,verco.com.pl,wiadomosci-lodz.pl,wykryjangine.pl,zieleniec.pl###cookie-law-info-bar, #cookie-law-info-again, .cli-modal-backdrop, .cli-popupbar-overlay, .wt-cli-cookie-bar-container, #cliSettingsPopup
@@ -685,6 +680,7 @@ senda.pl##+js(set-cookie, sendapl_phpbb3_ca, 1)
 sephora.pl###header:style(margin-top: 41px !important)
 sephora.pl##.bandeBody:style(top: 0 !important)
 serialowa.pl##html.pum-open:style(overflow-y: auto !important)
+siepomaga.pl##div[data-testid="overlay-cookie-consents-modal"]
 sketchup.com.pl###modal-consent, .modal-backdrop
 skin79-sklep.pl###cookie-modal, .modal-backdrop
 sklep.polcalc.pl###welcomeModal, .modal-backdrop
@@ -843,6 +839,8 @@ zikodermo.pl###notice_bar, .site-content-overlay
 zikodermo.pl##.is-overlay:style(overflow-y: auto !important)
 zlubaczowa.pl##html[style*="overflow" i]:style(overflow-y: auto !important; height: unset !important)
 zlubaczowa.pl##iframe#cmp-iframe
+zrzutka.pl##.modal-open[class]:style(overflow-y: auto !important)
+zrzutka.pl##.modal:has(a[href="/privacy"])
 zsgarwolin.pl##.mfp-content:has(#cadre_alert_cookies)
 ztm.gda.pl###acceptRodo, .modal-backdrop
 zus.pl##.p-dialog-mask-scrollblocker:has(> .cookie-consent-modal)
