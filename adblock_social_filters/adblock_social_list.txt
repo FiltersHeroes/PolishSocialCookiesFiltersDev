@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.18.0
-! Last modified: Mon, 18 Aug 2025, 20:42 UTC+00:00
+! Version: 2025.8.19.0
+! Last modified: Tue, 19 Aug 2025, 20:41 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.18.0 aktualizacja: pon, 18 sie 2025, 20:42 UTC+00:00
+! v.2025.8.19.0 aktualizacja: wto, 19 sie 2025, 20:41 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -7617,12 +7617,8 @@ rkb.pl##.fb-top.foobar-wrapper
 rksrakow.pl##.mfindus.container
 rmf24.pl##.FooterLinksSpolecznosc
 rmf24.pl##.i2.el1.logo, .i3.el2.logo, .i4.el4.logo, .recommend
-rmf.fm###footer-icon-facebook, #footer-icon-googleplus, #footer-icon-instagram, #footer-icon-twitter, #footer-icon-youtube, #new-footer-icon-instagram
-rmf.fm###new-footer-icon-facebook, #new-footer-icon-youtube
-rmf.fm##.social.footer-column h3
-rmf.fm##a[href*="twitter.com/rmf_fm"], a[href*="facebook.com/rmf24"], a[href*="facebook.com/rmffm"], a[href*="youtube.com/radiormf"]
-rmf.fm##a[title="Instagram"]
-rmf.fm##a[title="TikTok"]
+rmf.fm##.social.footer-column
+rmf.fm##header a[title]:is([title*="Facebook" i], [title*="YouTube" i], [title*="Instagram" i], [title*="TikTok" i])
 rmfclassic.pl##.item:has(a[href*="facebook.com/rmfclassic"])
 rmfclassic.pl##li.footer-box:nth-of-type(5)
 rmfmaxxx.pl##.opts > a:nth-of-type(2)
