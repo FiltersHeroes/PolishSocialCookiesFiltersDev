@@ -1,3 +1,19 @@
+oneplus.com##.social-media
+ecmentarze.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="youtube.com"])
+krainazabawek.com.pl##header a[href*="facebook.com/"]
+rodajaslo.com.pl##:is(header, footer) a[href*=".com/"]:is([href*="facebook.com"], [href*="tiktok.com/"], [href*="instagram.com"], a[href*="youtube.com"])
+modnakiecka.pl##.social-box
+modnakiecka.pl##.userfooter > div:only-child > div:nth-child(2)
+fitness-home.pl##.social-box
+fly-desk.com##.footer-special-social
+homeandgarden24.pl##.wce_social-ico
+www.shoper.pl##.is-footer.sm__wrapper
+miodykrupiec.pl###logo-social-stopka > p a
+miodykrupiec.pl##.socials
+prorowery.pl##.footer-socialLogo
+wkdzik.pl##.footgroup_custom_last
+bakeshop.pl##.gc__social__container
+drogeriaestetic.pl##.gc__social__container
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -7151,7 +7167,7 @@ sklepwelniany.pl##img[src="/pictures/like.jpg"]
 sklepy.muzyczne.studentnews.pl##nobr:nth-of-type(12), nobr:nth-of-type(13) > .menulnk
 sklepyobuwnicze.pl##table.news:has(td a[href*="facebook.com/"])
 sklepzycia.pl##.gc__watch__us
-sklepzycia.pl,zicoracing.com##.gc__footer__socials.gc__social__container
+sklepzycia.pl,zicoracing.com##.gc__social__container
 sklodowski.com.pl##.footer_link
 sklodowski.com.pl#?#div > h5:has-text(Social media)
 skm.pkp.pl#?#a.round-link:has-text(Facebook)
