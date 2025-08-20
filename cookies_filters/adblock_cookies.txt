@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.19.0
-! Last modified: Tue, 19 Aug 2025, 02:19 UTC+00:00
+! Version: 2025.8.20.0
+! Last modified: Wed, 20 Aug 2025, 16:47 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.19.0 aktualizacja: wto, 19 sie 2025, 02:19 UTC+00:00
+! v.2025.8.20.0 aktualizacja: śro, 20 sie 2025, 16:47 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -3395,7 +3395,6 @@ pl/tcf/cookie.js$script,domain=pl
 ###rodo_all:not(body, html)
 ###rodoinfo:not(body, html, span)
 ###rodoregulamin:not(body, html)
-###shoper-foot ~ div.consents
 ###stopka-polityka.stopka-polityka
 ###user_info_form:has([aria-controls="user_consentBox"])
 ###wrapper .rodo
@@ -3420,7 +3419,6 @@ pl/tcf/cookie.js$script,domain=pl
 ##.polo-cookie-box:not(body, html)
 ##.rodo-overlay:not(body, html)
 ##.rodopolicy:not(body, html)
-##.shop_index > div.consents
 ##.skryptdocookies:not(body, html)
 ##.slabowidzacyCookie
 ##.ustawaCookie:not(body, html)
