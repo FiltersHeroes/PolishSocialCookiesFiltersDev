@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.20.2
-! Last modified: Wed, 20 Aug 2025, 21:33 UTC+00:00
+! Version: 2025.8.22.0
+! Last modified: Fri, 22 Aug 2025, 20:42 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.20.2 aktualizacja: śro, 20 sie 2025, 21:33 UTC+00:00
+! v.2025.8.22.0 aktualizacja: pią, 22 sie 2025, 20:42 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -314,7 +314,6 @@ automarket.pl###zgodaCookiesModal
 automotiveceeday.eu,bierhalle.pl,brgl.pl,kartuzy.pl,motosolutions.pl,pks-leszno.pl,podwawelem.eu,uszwejka.pl,visiton.pl,vitberg.com##.rstbox_overlay
 automotiveceeday.eu,bierhalle.pl,brgl.pl,kartuzy.pl,motosolutions.pl,pks-leszno.pl,uszwejka.pl,visiton.pl,vitberg.com##.rstboxes > [id^="rstbox_"]
 autoplaza.com.pl,citycar.com.pl,ford-krosno.pl,ford-lublin.pl,ford.bemo-motors.pl,ford.biacomex.pl,ford.golebiewski.com.pl,ursyncar.pl##.consent-notice
-autos-motos.net,ilewazy.pl,scentre.pl##.consent
 autostrada-a2.pl###cookielawBox
 avaaz.org##.gdpr-block-privacy
 avans.pl,electro.pl##.is-cookies
@@ -487,6 +486,7 @@ blesstest.com##div[cookiesmodal="true"]
 blikomania.pl##.modal-bg
 blikomania.pl#?#.modal-wrapper:has-text(plików cookies)
 blikomania.pl,culture.pl,gembird.com,rejestr.io,sso.epf.org.pl,toogoodtogo.pl##.Cookie
+blix.pl##.footer__cookie-settings
 blix.pl,libertex.com,tenit.com.pl###gdpr
 blog4u.pl##div[style="width:100%;float:left;padding:3px 0;background-color:#fff"]
 blog-pozyczoneiniebieskie.pl###cookie_info_container
@@ -992,6 +992,8 @@ elk.gmina.pl###spu-10427, #spu-bg-10427
 elk.gmina.pl#?#.spu-box:has-text(plików cookies)
 elk.gmina.pl,naszesprawy.eu,parafiakomprachcice.eu##.spu-bg
 elka.pl,elka.tv,miedziowe.pl,miedziowe.tv###RODOZgoda
+elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,story.pl,viva.pl,wizaz.pl##a[href*="displayConsentUi"]
+elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,story.pl,viva.pl,wizaz.pl##div[id^="sp_message_container"]:has(iframe[src*="cdn.privacy-mgmt.com"])
 elopol.pl##div#black2
 elopol.pl,shop-dent.pl##div.ciacho-wrap-container
 eltronik.net.pl###dialog_modal_rodo
@@ -1266,7 +1268,6 @@ gkb.pl##footer > .row > .pull-left
 gkn.pl##div#gora0
 gksglinik.pl##.t3-footer > div > div:first-child:has(p a[href="/index.php/bonus-pages/ochrona-danych-osobowych"] > span)
 gkstychy.info,marbus.pl###coookie
-glamour.pl,gotujmy.pl,mamotoja.pl,national-geographic.pl,party.pl,polki.pl,shopalike.pl,viva.pl,wizaz.pl##div[id^="sp_message_container"]:has(iframe[src*="cdn.privacy-mgmt.com"])
 global-rent-a-car.com###module-cookies
 globus-wapienica.eu###cookiediv
 globus-wapienica.eu,przeswietl.pl,sklep.delta.poznan.pl###cookieDiv
@@ -2080,6 +2081,7 @@ noblehealth.pl##.cookie-promotion
 nokaut.pl,nokautbiznes.pl,nokautdom.pl,nokautdziecko.pl,nokautelektronika.pl,nokautrozrywka.pl,nokautstyl.pl,nokauttrening.pl,nokautzdrowie.pl###GDPRModal
 nokia.com,vertedrzwi.eu##.cookie_container
 nomi.pl##div#Messenger-Special
+nomonday.pl###cm-overlay
 nonsa.pl,nonsensopedia.org##.mw-cookiewarning-container
 nordglass.pl##.rodoBox--visible.rodoBox
 north.pl###cookie-offcanvas
@@ -2600,6 +2602,7 @@ sawataxi.pl##.w_news
 sbe-online.pl##.m-cookies
 sbrbank.pl###cookiemask
 scanmed.pl##.module-cookies-bar
+scentre.pl##.consent
 schaffer-polska.pl###pnscookie
 schronisko-nowodwor.com.pl##.ba-cookies
 schronisko-wloclawek.pl###accept_cookies_ramka
