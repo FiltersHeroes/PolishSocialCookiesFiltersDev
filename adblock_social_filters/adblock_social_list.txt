@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.20.0
-! Last modified: Wed, 20 Aug 2025, 21:33 UTC+00:00
+! Version: 2025.8.22.0
+! Last modified: Fri, 22 Aug 2025, 16:47 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.20.0 aktualizacja: śro, 20 sie 2025, 21:33 UTC+00:00
+! v.2025.8.22.0 aktualizacja: pią, 22 sie 2025, 16:47 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1782,9 +1782,10 @@ biblioteka.rawicz.pl##td > a[href*="facebook.com/pages/Rawicka-Biblioteka-Public
 bibliotekarium.pl#?#.sticky-sidebar div.clearfix.widget:has(h4:has-text(Facebook))
 bibliotekarium.pl,dorotafilipiuk.pl,mobi.pl,pierrefabre-oralcare.com,scrabble123.pl,streamsoft.pl,techwish.pl,upc.pl,ventana.gda.pl,webskill.group##.social-icon
 biedronka.pl##.art-nav-footer > div:first-child:has(~ div > a[href*="share" i]) > strong
-biedronka.pl##.social-media a:not([href*="wa.me/"], [href*="m.me/"])
-biedronka.pl##.social-media a[href*="m.me"]
-biedronka.pl##.social-media a[href*="wa.me"]
+biedronka.pl##.social-icons a[href]:is([href*="/send"], [href*="messege"], [href*="wa.me/"], [href*="m.me/"])
+biedronka.pl##.social-icons a[href]:not([href*="/send"], [href*="messege"], [href*="wa.me/"], [href*="m.me/"])
+biedronka.pl##.social-media a:not([href*="/send"], [href*="messege"], [href*="wa.me/"], [href*="m.me/"])
+biedronka.pl##.social-media a[href*=".me"]:is([href*="wa.me"], [href*="m.me"])
 biedronka.pl##.widget-smartsection .footer-links ~ a[href*=".com/"]:is([href*="facebook.com"], [href*="youtube.com"], [href*="tiktok.com"], [href*="instagram.com"] , [href*="pinterest.com"])
 biedronka.pl##.widget-smartsection .footer-links ~ a[href*=".me"]:is([href*="wa.me"], [href*="m.me"])
 bieganieuskrzydla.pl##.c-social-stack > a
