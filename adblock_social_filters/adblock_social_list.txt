@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.25.0
-! Last modified: Mon, 25 Aug 2025, 20:42 UTC+00:00
+! Version: 2025.8.26.0
+! Last modified: Tue, 26 Aug 2025, 16:47 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.25.0 aktualizacja: pon, 25 sie 2025, 20:42 UTC+00:00
+! v.2025.8.26.0 aktualizacja: wto, 26 sie 2025, 16:47 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -209,6 +209,7 @@ zmianywzyciu.pl###popup_facebook
 ##section[aria-label="media społecznościowe"]
 ##ul[aria-label="Pasek społecznościowy"], ul[aria-label="Social Bar"]
 ~pl###bossbyte_slide:lang(pl)
+~pl###wp-article-share-button:lang(pl)
 ~pl###wysZakladki > #fb:lang(pl)
 ~pl###wysZakladki > #gp:lang(pl)
 ~pl###wysZakladki > #in:lang(pl)
@@ -241,6 +242,7 @@ zmianywzyciu.pl###popup_facebook
 ~pl##.sm-panel .sm-youtube:lang(pl)
 ~pl##.social--link-bluesky:lang(pl)
 ~pl##.social--link-fb:lang(pl)
+~pl##.wp-social-box:lang(pl)
 ~pl##a[href*="//twitter.com/home?status="]:lang(pl)
 ~pl##a[href*="//twitter.com/intent/tweet"]:lang(pl)
 ~pl##a[href*="//twitter.com/share?url="]:lang(pl)
@@ -372,6 +374,7 @@ pl###widget-faceboox
 pl###win_like
 pl###win_like_mask
 pl###wkomimg
+pl###wp-article-share-button
 pl###wykop
 pl###wysuwane iframe[src*="facebook.com" i]
 pl###wysuwane_fb
@@ -768,6 +771,7 @@ pl##.widget_as_facebook_mem_likebox
 pl##.widget_ci-socials.group
 pl##.widget_fbw_id
 pl##.widget_weblizar_facebook_likebox
+pl##.wp-social-box
 pl##.wpsocial-shareBox.wpsocials
 pl##.wrapper_like
 pl##.wykop
