@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.26.1
-! Last modified: Tue, 26 Aug 2025, 20:41 UTC+00:00
+! Version: 2025.8.27.0
+! Last modified: Wed, 27 Aug 2025, 02:13 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.26.1 aktualizacja: wto, 26 sie 2025, 20:41 UTC+00:00
+! v.2025.8.27.0 aktualizacja: śro, 27 sie 2025, 02:13 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -924,7 +924,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 24kurier.pl##.topbar a[class^="icon"]:not(.icon_mail)
 24kurier.pl#?#.d-lg-block.d-none.sidebox > .headline_sidebox_1:has-text(Dołącz do nas)
 24legnica.pl###socialStuff
-24opony.pl,adleragro.pl,agrieko.pl,akademos.pl,antyweb.pl,audiofan24.pl,auto-swiat.pl,bhs-goleniow.pl,biuroprasowe.pl,blachownia.pl,bydgoszcz.com,centrum.fm,cocolita.pl,comperia.pl,duzekubki.pl,ebexo.pl,emmi.rybnik.pl,fabrykazabawek.eu,fakt.pl,fonpizza.pl,galeriadomow.pl,grodzisknews.pl,how2html.pl,ibuprom.pl,imid.med.pl,inowroclaw.pl,jezykipaderewski.pl,kalisz24.info.pl,komputerswiat.pl,lublin112.pl,macris.com.pl,matkapolkahybrydowa.pl,miechow.eu,moaburger.com,mojanorwegia.pl,mokis.info,naklo.fm,naszenieruchomosci.com,ncn.gov.pl,niemiecki.co,nmedica.pl,oakandberry.com,oftalmika.pl,optyk.klodzko.pl,osmpiaski.pl,ozbi.pl,p-programowanie.pl,patriot24.net,pieninyinfo.pl,polskieradio.pl,portalmorski.pl,poznan.optitaxi.pl,promopixel.pl,protonmail.com,protonvpn.com,przegladsportowy.pl,queer.pl,rdn.pl,reypol.com.pl,roltech.eu,scandi-city.pl,sec.com.pl,sklep.piast-gliwice.eu,sklepfarmera.pl,smakistyl.pl,splacepark.pl,sprzedajemy.pl,ssl24.pl,strzelec.info,studiohifi.pl,taniaksiazka.pl,vaya.com.pl,wanicki.pl,weblider.eu,wrzesnia.powiat.pl,wyborcza.biz,zdrowekolorowe.pl,znak.com.pl,ztkruszwica.pl##.fb
+24opony.pl,adleragro.pl,agrieko.pl,akademos.pl,antyweb.pl,audiofan24.pl,auto-swiat.pl,bhs-goleniow.pl,biuroprasowe.pl,blachownia.pl,bydgoszcz.com,centrum.fm,cocolita.pl,comperia.pl,duzekubki.pl,ebexo.pl,emmi.rybnik.pl,fabrykazabawek.eu,fakt.pl,fonpizza.pl,galeriadomow.pl,grodzisknews.pl,how2html.pl,ibuprom.pl,imid.med.pl,inowroclaw.pl,jezykipaderewski.pl,kalisz24.info.pl,komputerswiat.pl,lublin112.pl,macris.com.pl,matkapolkahybrydowa.pl,miechow.eu,moaburger.com,mojanorwegia.pl,mokis.info,naklo.fm,naszenieruchomosci.com,ncn.gov.pl,niemiecki.co,nmedica.pl,oakandberry.com,oftalmika.pl,optyk.klodzko.pl,osmpiaski.pl,ozbi.pl,p-programowanie.pl,patriot24.net,pieninyinfo.pl,polskieradio.pl,portalmorski.pl,poznan.optitaxi.pl,promopixel.pl,protonmail.com,protonvpn.com,queer.pl,rdn.pl,reypol.com.pl,roltech.eu,scandi-city.pl,sec.com.pl,sklep.piast-gliwice.eu,sklepfarmera.pl,smakistyl.pl,splacepark.pl,sprzedajemy.pl,ssl24.pl,strzelec.info,studiohifi.pl,taniaksiazka.pl,vaya.com.pl,wanicki.pl,weblider.eu,wrzesnia.powiat.pl,wyborcza.biz,zdrowekolorowe.pl,znak.com.pl,ztkruszwica.pl##.fb
 24pr.pl##a[href*="facebook.com/pages/24PR-Portal-PR/300082949728"]
 35mm.online##.footer-bar__top__links
 40ton.net##.clearfix.sidebar-box:nth-of-type(4)
@@ -1546,7 +1546,9 @@ auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshe
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > div.title:first-of-type
 auto-swiat.pl##.fb_share, .version4.bigVersion.onet_ustPlugin_addthis > .box2, .whitelistPremium > div:nth-of-type(4) > .version4.onet_ustPlugin_addthis, .imageWrapper > .socialButtons
 auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me"])
-auto-swiat.pl,onet.pl,przegladsportowy.pl##.social-share > .prefixTitle
+auto-swiat.pl,onet.pl##.social-share > .prefixTitle
+auto-swiat.pl,onet.pl,plejada.pl##.ods-m-socials-icon-stream a[href]:not([href*="feed"])
+auto-swiat.pl,onet.pl,plejada.pl##.ods-o-social-media-share__container a[href*=".com/"]
 auto.pl##.row .row > .social-media:first-child
 autoblog24.pl###execphp-2
 autocentrum.pl,tvn.pl,vela.net.pl##.footer-media
@@ -2792,6 +2794,7 @@ doktoralicja.pl##.vce-social-icon-svg--active
 doktoralicja.pl##.vce-social-profile-icons-inner
 doktorania.pl###text-2 > h3
 doktorania.pl###text-5 > h3
+doktormonika.pl##.page-header__socials
 doktortusz.pl##strong a[href*="facebook.com/drtusz"]
 doladowania.njumobile.pl##.topup-footer-icons > ul > li:nth-of-type(-n+3)
 doladowania.pl##footer a[href*="mpay.pl/blog/"]
@@ -6923,6 +6926,7 @@ playernotes.pl##a[href*="facebook.com/playernotes/"]
 playhearthstone.com###socialFooterMount
 playnow.pl##.c-footer__icons.align-right.row > div > .btn
 playstation.com##.bg-style-desktop-inline.pg_sec_overflow.center-align-heading.page-section.backgroundMidSilver:has(.social-icons)
+plebiscyt.przegladsportowy.pl##.headIcons
 plejada.pl##.ods-m-socials-stream a[href*=".com/"]
 plejada.pl##.ods-m-socials-stream a[href*="wa.me"]
 plejada.pl##content-share-top > .fb_share, .social-container > .social, .shareBarBox > .social
@@ -9881,6 +9885,7 @@ zw.lt##footer .grid-4 > .category-title
 zwegrodzki.pl##.boxFooterImages .boxContentImages .boxRight
 zwierciadlo.pl##.post.boksborder > a.boxappla:first-of-type
 zwierciadlo.pl##.social > .afb, .social > .ainsta, .social > .ayt
+zwierciadlo.pl##.zw_social_media_inner > :not(.shop, .search-button)
 zwolen24.pl##div > a > img[src="images/index_t.png"], div > a > img[src="images/index_f.png"]
 zwrotzalot.pl##a[href*="facebook.com/zwrotzalot/"]
 zycieczestochowy.pl##.top-icons > li:nth-of-type(3)
@@ -10587,6 +10592,8 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:has-text(Nasz Facebo
 ||zabiele.pl/images/stories/ikonki_social/YouTube2-
 ||zamika.pl/files/image/facebook.png
 ||zarnow.eu/wp-content/themes/zarnow/banerki/facebook_gmina_zarnow.jpg
+||zasoby.zwierciadlo.pl/zw/img/fb_icon.png
+||zasoby.zwierciadlo.pl/zw/img/messenger_icon.png
 ||zatuszuj.pl/images/stories/zpickeep/facebook.png
 ||zd24.pl/modules/mod_susnet_likebox/css/style.css
 ||zdrowojem.fundacjabos.pl/assets/zjww-9_facebook.png
