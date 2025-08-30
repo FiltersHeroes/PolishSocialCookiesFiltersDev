@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.28.1
-! Last modified: Thu, 28 Aug 2025, 20:41 UTC+00:00
+! Version: 2025.8.30.0
+! Last modified: Sat, 30 Aug 2025, 20:39 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.28.1 aktualizacja: czw, 28 sie 2025, 20:41 UTC+00:00
+! v.2025.8.30.0 aktualizacja: sob, 30 sie 2025, 20:39 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -954,7 +954,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 51015kids.eu,aboutyou.pl,castorama.pl,creativehobby.pl,doradcasmaku.pl,lidl.pl,porta.com.pl,promocje.invado.pl,vox.pl##footer a[href*="pinterest.com/"]
 a2lux.pl,autokomisosowa.pl##socialmedia
 a2mobile.pl#?#footer .text-center:has-text(Znajdź)
-a-tab.com.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="x.com"], [href*="linkedin.com"])
+a-tab.com.pl,wynajmijhakera.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="x.com"], [href*="linkedin.com"])
 aba-sport.pl##.footer-bookmarklets
 abc-zoosklep.pl,agro-met.com.pl,agropol24.pl,almette.pl,amperlux.pl,aplikuj.pl,bgk.pl,bialystok.pl,bispol.pl,bluecity.pl,caritaspoznan.pl,cedrus.com.pl,cobbo.pl,comperia.pl,conversion.pl,damy-rade.info,diablochairs.com,digitalhome.co,digitalpoland.org,dlalakierni.pl,download.net.pl,drzwi-cal.pl,ekoj.pl,epione.pl,foodfakty.pl,freshmail.pl,gandalf.com.pl,gardenflora.pl,gembird.com,global-serwis.pl,hellomood.pl,help.activy.pl,hurt.com.pl,ibuprom.pl,iksoris.pl,imgw.pl,itmag.pl,jagadzet.pl,jush.pl,kaliber.pl,kleszcze.info.pl,koloryflugger.pl,ksiegarniahada.pl,kursnaeuro.pl,lechia.pl,leddo.pl,legionisci.com,literia.pl,lunter.com,magazyn.wp.pl,media-tech.eu,miodykrupiec.pl,mualasklep.pl,mycompanypolska.pl,narzedziowy24.eu,onet.pl,operatorzy.pl,pakomat.pl,parp.gov.pl,pcformat.pl,piekarniaklos.pl,pieknowdomu.pl,pikscode.pl,plushbezlimitu.pl,porta.com.pl,press.pl,presta.design,prosupport.com.pl,pushpushgo.com,quicktip.wp.pl,roltrans.eu,sharpconsumer.pl,sigma-sklep.pl,sklep.gadowskiksiegarnia.pl,sklep.lobos.pl,stolmot.com,stopsmoke-gobagz.wp.pl,swiatchoinek.com,technoland.com.pl,terytorialsi.wp.mil.pl,tge.pl,tifo24.pl,tvs.pl,twojsklep.pima-agro.pl,uniqa.pl,warta.pl,wella.com,wfdif.online,widex.pl,wik-tor.pl,wmrowisku.pl,wosp.org.pl,wsb.edu.pl,wydawnictwoolesiejuk.pl,wygodnadieta.pl,xlap24.pl,zakupywm1.pl##.socials
 abc.tvp.pl##.program__icons
@@ -3237,7 +3237,9 @@ epaka.pl##.footerCol3.footerCol
 epicgames.com##div[class*="SocialAndTopBtnmolecule_"]
 epicgames.com##li[data-testid*="social-link-"]:not([data-testid*="-homepage"])
 epiora.pl##a[href*="instagram.com/epiora.pl"]
+epiotrkow.pl##.contact-info > .social
 epiotrkow.pl##.sboxr
+epiotrkow.pl##.social a[href*="facebook.com"]
 epiotrkow.pl##.wcontl:nth-of-type(2), .wcontl:nth-of-type(6) > h1
 epiotrkow.pl##div.wcontl:nth-of-type(5) > h1
 epoznan.pl##.boxesList__items > div > div:first-of-type > div > a[target="_blank"]
@@ -6934,6 +6936,7 @@ plejada.pl##content-share-top > .fb_share, .social-container > .social, .shareBa
 plemiona.pl##.social-media-icons-container
 pleso.me##.__icon-messenger
 pleso.me##.fixed a[href*="messenger"]
+pleso.me##div.quest_tab:has(a[href*="facebook.com/"])
 plfoto.com###page_container > .content2 > #center > h3.headline:nth-of-type(3), #page_container > .content2 > #center > div#center_box_two:nth-of-type(3)
 plisomania.pl###menuToggleWrapperLeft
 plk-sa.pl##.boxFacebook, .boxTwitter, .boxYoutube
@@ -7163,6 +7166,7 @@ portalmmo.pl##.nv-ico-fb, .soc-icons > li:nth-of-type(2)
 portalotwocki.pl##.elementor-icon-list-item a[href*="instagram.com/"]
 portalpszczelarski.pl##.element.col-2-7:nth-of-type(2)
 portalrolniczy.info,wrobelekelemelek.com###likebox_1
+portalsamorzadowy.pl##.p-header-social-share.p-header-social-el
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .navi > a:nth-child(5)
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .tabs-1 > .panes > .one:nth-child(5)
 portaltatrzanski.com##.moduletable.m-d
@@ -8334,6 +8338,7 @@ st.pl##.text-center a[href*="instagram.com/"]
 stacja7.pl###icon-google-plus
 stacja7.pl##.navbar-nav-right-social
 stacja7.pl##.st7-overlay-menu-social > a:not([href*="mailto:"])
+stage24.pl##a.menu__logos-anchor
 stalko.net.pl##.box_loga > .div_loga > .fwg
 stalmielec.com###text-21 > .textwidget > a:nth-of-type(n+2):nth-of-type(-n+5) > img
 stalmielec.com###text-36
@@ -8401,6 +8406,8 @@ strazgraniczna.pl##.first.threeRows
 streetcolors.pl##div[class*="platnosci_"] > a[href*="facebook.com/"]
 streetcom.pl##.nav-icons > .social-media__list
 strefa.fm###fbbox
+strefa.fm##.footer-social-info
+strefa.fm##.top-social-area
 strefagolenia.pl##div#pt_menu_link.pt_menu:nth-of-type(n+7):nth-of-type(-n+8)
 strefainwestorow.pl###strefainwestorow-menu > li.leaf:first-of-type, .pane-content > p
 strefakodera.pl##div.col.widget:first-of-type > .widgetHeader, div.cols:nth-of-type(2) > div.widget:nth-of-type(3), div.cols:nth-of-type(2) > div.col:nth-of-type(2) > .widget > .widgetHeader
@@ -8686,6 +8693,8 @@ termgaz.pl###widget_social
 termoorganika.pl##footer > div.bg-orange > div:only-child > div:first-child > div:first-child > div:nth-child(2)
 termyszaflary.com##footer > div + div > div > div > div > div > section:first-child > div > div > div:last-child
 terrymoda.pl##.aFB
+tertio.pl##.header-social-icon
+tertio.pl##.social-icon-style-12
 tesco.pl##.cp-recipe-container-bottom > div.bottom-box:nth-of-type(2)
 tessa.com.pl###fixed_button
 test2speed.pl##.socials-link
@@ -9628,6 +9637,7 @@ wyleczpc.pl##a.footer-sni[href*="x.com/"]
 wymalujtosam.pl##.fvSocial
 wynagrodzenia.pl##.pull-right.community
 wynajem.pl##footer > .container > .row > div:nth-of-type(4) > h5
+wynajmijhakera.pl##aside button:has(img[src*="/x_three"])
 wynalazca.tv##.widget_bs-instagram
 wypozyczalniafilmow.wordpress.com###tertiary > div.widget-area:nth-of-type(2)
 wypozyczalniafilmow.wordpress.com##.share-google-plus-1
