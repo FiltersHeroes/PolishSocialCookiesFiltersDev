@@ -1,4 +1,3 @@
-wynajmijhakera.pl##.react-share__ShareButton:upward(div)
 /plugins/likebox.php$frame,redirect=noop.html,domain=vifon.pl
 ||premium.pl*/fb/splash.jpg
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
@@ -148,3 +147,4 @@ www.o2.pl##:matches-path(/quiz.*wynik/) header + div h2 ~ div div > button:first
 www.o2.pl##:matches-path(/quiz.*wynik/) section h2 ~ div span:has-text(PODZIEL SIĘ) ~ button:not(:last-child)
 www.porta.com.pl##:matches-path(/otworzsiena) blockquote[class*="instagram-media"]:not(:has(> div > div:first-child > *))
 www.porta.com.pl##:matches-path(/otworzsiena) iframe.instagram-media:has(~ blockquote[class*="instagram-media"])
+wynajmijhakera.pl##.react-share__ShareButton:upward(div)
