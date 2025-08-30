@@ -225,6 +225,7 @@ www.o2.pl##:matches-path(/quiz.*wynik/) header + div h2 ~ div div > button:first
 www.o2.pl##:matches-path(/quiz.*wynik/) section h2 ~ div span:has-text(PODZIEL SIĘ) ~ button:not(:last-child)
 www.porta.com.pl##:matches-path(/otworzsiena) blockquote[class*="instagram-media"]:not(:has(> div > div:first-child > *))
 www.porta.com.pl##:matches-path(/otworzsiena) iframe.instagram-media:has(~ blockquote[class*="instagram-media"])
+wynajmijhakera.pl##.react-share__ShareButton:upward(div)
 !
 !
 ! Widgety - specjalne instrukcje
