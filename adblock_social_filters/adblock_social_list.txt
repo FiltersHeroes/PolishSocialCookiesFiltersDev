@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.8.30.0
-! Last modified: Sat, 30 Aug 2025, 20:39 UTC+00:00
+! Version: 2025.8.31.0
+! Last modified: Sun, 31 Aug 2025, 13:00 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.8.30.0 aktualizacja: sob, 30 sie 2025, 20:39 UTC+00:00
+! v.2025.8.31.0 aktualizacja: nie, 31 sie 2025, 13:00 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1106,7 +1106,7 @@ agronews.com.pl,eurowizja.org,gazetaregionalna.com,gizycko.info,kurier-kolejowy.
 agroperfekt.pl##.rssocial-custom-icon[href*="instagram.com/"]
 agroperfekt.pl,apolanka.pl,bona-ppetit.pl,kam-tech.com.pl,mckenzie.pl,owbaltyk.pl,rolpolopalenica.pl,rozruch-startgum.pl##.rssocial-facebook-icon
 agroperfekt.pl,czemarol.pl,materialybudowlanekrokowa.pl,owbaltyk.pl##.rssocial-youtube-icon
-agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,forums.lenovo.com,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,one.greeneris.com,papatka.pl,pekao.com.pl,pieknoumyslu.com,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,saketos.pl,sklep.miod.com.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
+agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekipatonosi.pl,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,forums.lenovo.com,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,netgear.com,one.greeneris.com,papatka.pl,pekao.com.pl,pieknoumyslu.com,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,saketos.pl,sklep.miod.com.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
 agrosiec.pl##.fixed > a[href*=".com/"][target="_blank"]
 agrosimex.pl##.icon-Youtube
 agrosimex.pl##a.social-icon
@@ -4063,6 +4063,8 @@ gromda.tv##.client-bottom-nav__social-links-container
 gromgroup.pl##.soc-right
 gromgroup.pl,silesiasa.pl###social-fixed-box
 grono.pl##a[href*="facebook.com/gronoshipping"] > img
+groomershop.pl##.cs-container--facebook-footer
+groomershop.pl##.cs-social-media-list
 groupon.pl##div.footer-links.ls-footer-sitemap-col:nth-of-type(4) > .footer-link-headline
 grudziadz.pl##.header_nav_items > li.header_nav_item:nth-of-type(7)
 grudziadz.pl##li.header_nav_item:nth-of-type(9)
@@ -6036,6 +6038,7 @@ mypoland.com.pl###socials-list
 mysliborz.naszabiblioteka.com##a[href*="facebook.com/Miejska-i-Powiatowa-Biblioteka-Publiczna-w-Myśliborzu"] > img
 mystic.pl##.row.mystic_about a[href*=".com/"]:not([href*="DarSerca"]) img
 mysweetroom.pl##.footer-top div.links:nth-of-type(n+4):nth-of-type(-n+5)
+mytujemy.pl##.footer__title:has(+ .footer__socials.socials-list)
 mzk-ostrow.com.pl##.rightpane p:nth-of-type(n+52):nth-of-type(-n+58)
 mzk-ostrow.com.pl##p:nth-child(n+59)
 mzk-torun.pl###s5_drop_down_container
@@ -6600,6 +6603,7 @@ paranienormalni.com##.fa-youtube
 paranormalne.pl##.nopad:nth-of-type(5) > .block_wrap.category_block:nth-of-type(3)
 paranormalne.pl##li:nth-of-type(n+11):nth-of-type(-n+13)
 parasoledlaciebie.pl##.container.userfooter > .row > p:first-child img
+parasoledlaciebie.pl##.sc_right
 parenting.pl##.article__footer__share
 parfumdreams.pl##.footer-social-sprites
 pariso.pl##footer #banners_bottom
