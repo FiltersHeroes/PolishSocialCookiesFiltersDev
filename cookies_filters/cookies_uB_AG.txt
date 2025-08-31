@@ -452,6 +452,8 @@ kramp.com##.no-scroll:style(position: static !important; overflow-y: auto !impor
 kruger.pl###rodo, .fader
 kruszywapolskie.pl##.sgpb-overflow-hidden, .sgpb-overflow-hidden-body:style(overflow-y: auto !important; height: unset !important)
 kruszywapolskie.pl##.sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+ksisters.pl##.MuiDialog-root:has(.terms-link)
+ksisters.pl##body[style]:not(#style):style(overflow-y: auto !important)
 kts.weszlo.com#@##__next > div[class]:has(> button ~ p:has-text(korzysta z ciasteczek))
 kts.weszlo.com#@?##__next > div[class]:has(> button ~ p:has-text(korzysta z ciasteczek))
 kup.pl.canalplus.com##.p-dialog-center:has(.modal-cookies)
@@ -1151,6 +1153,7 @@ doz.pl##+js(set-cookie-reload, consent-granted, 1)
 espedytor.pl##+js(set-cookie-reload, zgodaRODO, true)
 f1racing.pl##+js(set-cookie-reload, x-id-cookie-yes, 1)
 kts.weszlo.com##+js(set-cookie-reload, cookiesActive, false)
+mytujemy.pl##+js(set-cookie, cookiesAccepted, true)
 ogladajanime.pl##+js(set-cookie-reload, accepted, true)
 parkiet.com,rp.pl##+js(set-cookie-reload, __gm_tcfconsent_v2, 1)
 plenti.app##+js(aeld, /scroll|wheel/i, , elements, body)
@@ -1215,6 +1218,7 @@ galopuje.pl###RODOCOOKIE, .modal-backdrop
 galopuje.pl,powiatslubicki.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important)
 kts.weszlo.com#%#//scriptlet('set-cookie-reload', 'cookiesActive', 'false')
 mcdonalds.pl$$[class="cookies"]
+mytujemy.pl#%#//scriptlet('set-cookie', 'cookiesAccepted', 'true')
 ogladajanime.pl#%#//scriptlet('set-cookie-reload', 'accepted', 'true')
 parkiet.com,rp.pl#%#//scriptlet('set-cookie-reload', '__gm_tcfconsent_v2', '1')
 pl.asseco.com$$[id="animatedModal"][tag-content="Polityce prywatności"]
