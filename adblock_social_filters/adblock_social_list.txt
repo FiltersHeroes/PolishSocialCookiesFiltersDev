@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.9.3.0
-! Last modified: Wed, 03 Sep 2025, 02:06 UTC+00:00
+! Version: 2025.9.5.0
+! Last modified: Fri, 05 Sep 2025, 02:09 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.9.3.0 aktualizacja: śro, 03 wrz 2025, 02:06 UTC+00:00
+! v.2025.9.5.0 aktualizacja: pią, 05 wrz 2025, 02:09 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5869,7 +5869,7 @@ moncredo.pl###youtube-icon, #instagram-icon
 mondaynews.pl##.pre-footer-internal-social
 mondeoklubpolska.pl###widgetlist_column2 > li:nth-of-type(2)
 money.pl##a[href*="facebook.com/portal.Moneypl"], a[href*="twitter.com/money_pl"]
-money.pl,moneyv.wp.pl##footer a[href*=".com/"]:is([href*="facebook.com"], a[href*="twitter.com"])
+money.pl,moneyv.wp.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="twitter.com"], [href*="instagram.com"], [href*="linkedin.com"])
 moneygrabbing.co.uk##.sh-widget-socialv2-list
 moniaki.pl##.article-page > p:has(+ p + center .fb-page):not(:has(> *))
 moniaki.pl##.article-page > p:has(+ p + p + center .fb-page) > strong
