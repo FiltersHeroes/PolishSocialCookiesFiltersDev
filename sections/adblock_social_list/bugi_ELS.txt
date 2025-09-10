@@ -149,6 +149,12 @@ naekranie.pl#@#.sharingButton
 naekranie.pl#@#.social-buttons
 narew.info#@#.sbuttons
 naszenaturalne.pl#@#.elementor-widget-share-buttons
+#@#.elementor-widget-social-icons
+#@#.elementor-social-icons-wrapper
+#@#.elementor-social-icon
+##.elementor-widget-social-icons:not(:has([href*="/feed"]))
+##.elementor-social-icons-wrapper:not(:has([href*="/feed"]))
+##.elementor-social-icon:not([href*="/feed"])
 naszpradnik.pl#@#.menu-social
 news.samsung.com#@#.sns_link
 nowawarszawa.pl#@#.share-container
