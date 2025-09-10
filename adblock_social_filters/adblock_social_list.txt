@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.9.10.0
-! Last modified: Wed, 10 Sep 2025, 02:07 UTC+00:00
+! Version: 2025.9.10.1
+! Last modified: Wed, 10 Sep 2025, 20:41 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.9.10.0 aktualizacja: śro, 10 wrz 2025, 02:07 UTC+00:00
+! v.2025.9.10.1 aktualizacja: śro, 10 wrz 2025, 20:41 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1581,9 +1581,8 @@ avatec.pl###footer > div > div > div > .text-right
 avenue22.pl##.social_media_link
 avenue22.pl##a[href*="instagram.com/avenue22_studio/"]
 avg.com##.social-connect > ul > li > a
-avlab.pl##.page-content ~ div section:has(.elementor-widget-share-buttons)
-avlab.pl##li:nth-child(-n+3) > .ext
-avlab.pl#?#footer .elementor-widget-text-editor > .elementor-widget-container > .elementor-text-editor > p:has-text(OBSERWUJ NAS:)
+avlab.pl##.podziel-klasa
+avlab.pl#?#footer .elementor-widget-text-editor > .elementor-widget-container > p:has-text(OBSERWUJ NAS:)
 avon-24.pl##a[hre*="facebook.com/lsavonkasia/"] > img
 avon.pl###FooterSocialMediaColumn
 avon.pl##.SharingOverlay a:not(.emailSvgIcon, .urlSvgIcon)
@@ -10763,6 +10762,9 @@ syrion.pl##.box-socials { remove: true }
 !
 !
 ! Bugi EasyList Social
+##.elementor-social-icon:not([href*="/feed"])
+##.elementor-social-icons-wrapper:not(:has([href*="/feed"]))
+##.elementor-widget-social-icons:not(:has([href*="/feed"]))
 ##.share-btn:not([href$="/rss.xml"])
 ##[class] .button-facebook:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"])
@@ -10771,6 +10773,9 @@ syrion.pl##.box-socials { remove: true }
 #@#.button-twitter
 #@#.cookie-bottom-layer
 #@#.dashicons-twitter
+#@#.elementor-social-icon
+#@#.elementor-social-icons-wrapper
+#@#.elementor-widget-social-icons
 #@#.js-cookie-light
 #@#.share-btn
 #@#.ss-social-icons-container
