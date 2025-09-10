@@ -1,3 +1,6 @@
+##.elementor-social-icon:not([href*="/feed"])
+##.elementor-social-icons-wrapper:not(:has([href*="/feed"]))
+##.elementor-widget-social-icons:not(:has([href*="/feed"]))
 ##.share-btn:not([href$="/rss.xml"])
 ##[class] .button-facebook:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"])
@@ -6,6 +9,9 @@
 #@#.button-twitter
 #@#.cookie-bottom-layer
 #@#.dashicons-twitter
+#@#.elementor-social-icon
+#@#.elementor-social-icons-wrapper
+#@#.elementor-widget-social-icons
 #@#.js-cookie-light
 #@#.share-btn
 #@#.ss-social-icons-container
@@ -149,12 +155,6 @@ naekranie.pl#@#.sharingButton
 naekranie.pl#@#.social-buttons
 narew.info#@#.sbuttons
 naszenaturalne.pl#@#.elementor-widget-share-buttons
-#@#.elementor-widget-social-icons
-#@#.elementor-social-icons-wrapper
-#@#.elementor-social-icon
-##.elementor-widget-social-icons:not(:has([href*="/feed"]))
-##.elementor-social-icons-wrapper:not(:has([href*="/feed"]))
-##.elementor-social-icon:not([href*="/feed"])
 naszpradnik.pl#@#.menu-social
 news.samsung.com#@#.sns_link
 nowawarszawa.pl#@#.share-container
