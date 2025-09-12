@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.9.10.1
-! Last modified: Wed, 10 Sep 2025, 20:41 UTC+00:00
+! Version: 2025.9.12.0
+! Last modified: Fri, 12 Sep 2025, 02:05 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.9.10.1 aktualizacja: śro, 10 wrz 2025, 20:41 UTC+00:00
+! v.2025.9.12.0 aktualizacja: pią, 12 wrz 2025, 02:05 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2857,6 +2857,7 @@ dpd.com##div[id^="dpd_social_accounts_"]
 dragon-survival.eu,prawokonsumenckie.pl##footer > div > div > div:nth-of-type(4)
 drama-online.pl,economico.pl,miejscawewroclawiu.pl,naszglospoznanski.pl,niezlomni.com,tarnow.ikc.pl##.widget_facebook
 dre.pl##.copy__socials
+dre.pl##.social-links a:not([href*="//dre.pl"])
 dreame-polska.pl#?#section.elementor-section:has(h2:has-text(Odwiedź Social Media))
 dreamjump.pl##.footer > div > .row > .icons > span, .footer > div > .row > .icons > a[class]:not([id])
 dreamland.net.pl###sidebar-moduly > a > img[src="gfx/fb.png"]
