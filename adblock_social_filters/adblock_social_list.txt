@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.9.15.0
-! Last modified: Mon, 15 Sep 2025, 02:17 UTC+00:00
+! Version: 2025.9.15.1
+! Last modified: Mon, 15 Sep 2025, 20:40 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.9.15.0 aktualizacja: pon, 15 wrz 2025, 02:17 UTC+00:00
+! v.2025.9.15.1 aktualizacja: pon, 15 wrz 2025, 20:40 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6959,6 +6959,8 @@ plock.fm##a.box[href*="instagram.com/"]
 plotek.pl##.footer_middle_links > li > [href^="https://www.facebook.com/"]
 plotek.pl##.likepage, .quizModule-sociall
 plotkibiznesowe.pl##.stream-item-above-header > a[href*="facebook.com/"] > img[src]
+pluginisle.pl##.ets_wa_whatsapp_block
+pluginisle.pl##.ph_social_item
 plus.pl##.mobile-hide.column.large-3.medium-6.small-12
 plus.pl##.share2media_margin, .share2media_size
 plus.pl##footer .column > li:first-of-type > span
