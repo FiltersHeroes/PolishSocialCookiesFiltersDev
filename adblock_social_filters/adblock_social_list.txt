@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.9.15.1
-! Last modified: Mon, 15 Sep 2025, 20:40 UTC+00:00
+! Version: 2025.9.18.0
+! Last modified: Thu, 18 Sep 2025, 20:41 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.9.15.1 aktualizacja: pon, 15 wrz 2025, 20:40 UTC+00:00
+! v.2025.9.18.0 aktualizacja: czw, 18 wrz 2025, 20:41 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3530,6 +3530,7 @@ firefighter-game.pl#?#p#title > b:has-text(Dołącz do naszej społeczności)
 fireprobe.net##.result--share-buttons-wrapper
 firma.t-mobile.pl##.article > .row:has(+ .socialmedia-bar) h3
 firma.t-mobile.pl##.footer-sitemap.row > div:nth-child(3)
+firma.t-mobile.pl##footer .uppercase:has(+ ul li a[title*="Facebook" i])
 firmamazur.pl###foot_socials
 firmypolskie.pl###head > .icons
 fish24.pl##.google_foot
@@ -8581,6 +8582,7 @@ szybkanauka.pro##.tcm-share-dropdown > div > div:nth-of-type(-n+2)
 szydlowiecki.eu##.c-ig
 t-mobile-trendy.pl##.socialsArticle-twitter
 t-mobile.pl##[class*="StyledSocialMediaFooterLinks-"]
+t-mobile.pl##footer .ods-typography-body-m-bold:has(+ ul li a[aria-label*="facebook" i])
 tabelaofert.pl###fb_likebar .ng-sz-right
 tabelaofert.pl##.footer-icon-box a
 tabele-kalorii.pl###fb-likebox-my
