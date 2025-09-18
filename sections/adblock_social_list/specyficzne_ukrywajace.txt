@@ -1,5 +1,3 @@
-t-mobile.pl##footer .ods-typography-body-m-bold:has(+ ul li a[aria-label*="facebook" i])
-firma.t-mobile.pl##footer .uppercase:has(+ ul li a[title*="Facebook" i])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -2660,6 +2658,7 @@ firefighter-game.pl#?#p#title > b:has-text(Dołącz do naszej społeczności)
 fireprobe.net##.result--share-buttons-wrapper
 firma.t-mobile.pl##.article > .row:has(+ .socialmedia-bar) h3
 firma.t-mobile.pl##.footer-sitemap.row > div:nth-child(3)
+firma.t-mobile.pl##footer .uppercase:has(+ ul li a[title*="Facebook" i])
 firmamazur.pl###foot_socials
 firmypolskie.pl###head > .icons
 fish24.pl##.google_foot
@@ -7652,6 +7651,7 @@ szybkanauka.pro##.tcm-share-dropdown > div > div:nth-of-type(-n+2)
 szydlowiecki.eu##.c-ig
 t-mobile-trendy.pl##.socialsArticle-twitter
 t-mobile.pl##[class*="StyledSocialMediaFooterLinks-"]
+t-mobile.pl##footer .ods-typography-body-m-bold:has(+ ul li a[aria-label*="facebook" i])
 tabelaofert.pl###fb_likebar .ng-sz-right
 tabelaofert.pl##.footer-icon-box a
 tabele-kalorii.pl###fb-likebox-my
