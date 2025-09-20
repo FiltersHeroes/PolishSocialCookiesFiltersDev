@@ -147,6 +147,9 @@ bosch-home.pl,siemens-home.bsh-group.com##+js(set, T.Module.Layer.CookieLaw, noo
 bosch-home.pl,siemens-home.bsh-group.com##.cookielaw-modal-layer
 bosch-home.pl,siemens-home.bsh-group.com##body.pinned:style(overflow-y: auto !important)
 bosch-industrial.com,junkers.pl##html:style(overflow-x: hidden !important)
+brzozowa13a.pl,cleangang.pl,mojaprzychodnia.com,papa-dance.pl##body[style*="overflow"][style*="hidden"]:style(overflow-y: auto !important)
+brzozowa13a.pl,mojaprzychodnia.com,papa-dance.pl###screen_popup_wrapper:has(#c00kie-popup)
+brzozowa13a.pl,mojaprzychodnia.com,papa-dance.pl##.open-c00kie-settings
 bs-zwolen.com.pl##.fancybox-container:has(img[src="baner,32,informacja-rodo.jpg"])
 bsh-group.com###cookie-overlay + #cookie-layer
 bsh-group.com##body.locked, html.locked:style(overflow-y: auto !important; height: unset !important)
@@ -180,7 +183,6 @@ citibank.pl##.ScrollLock:style(overflow-y: auto !important)
 claas.pl##.fancybox-lock:style(overflow-y: auto !important; margin-right: 0 !important)
 claas.pl##.fancybox-overlay:has(.cookieHint)
 cleangang.pl##.MuiModal-root[role="presentation"]:has(a[href$="/polityka-prywatnosci"] ~ a[href$="/rodo"])
-cleangang.pl,mojaprzychodnia.com,papa-dance.pl,brzozowa13a.pl##body[style*="overflow"][style*="hidden"]:style(overflow-y: auto !important)
 club.galilea.com.pl###welcome, .modal-backdrop
 coca-cola.pl##html.ot-modal-open, html.ot-modal-open body:style(overflow-y: auto !important)
 codeeurope.pl###root footer ~ div:has-text(plików cookies)
@@ -510,10 +512,6 @@ modivo.pl###marketing-approvals, .marketing-approvals-modal
 modivo.pl##._no-scroll:style(position: static !important)
 mojanorwegia.pl##.new-cookies
 mojanorwegia.pl##body:style(overflow-y: auto !important; position: initial !important)
-mojaprzychodnia.com,papa-dance.pl###screen_popup_wrapper:has(#c00kie-popup)
-mojaprzychodnia.com,papa-dance.pl##.open-c00kie-settings
-brzozowa13a.pl###screen_popup_wrapper:has(#c00kie-popup)
-brzozowa13a.pl##.open-c00kie-settings
 moje.ose.gov.pl##.cookies:upward(.modal)
 momax.pl###modal:has([aria-describedby="consentbar"])
 momax.pl##body.noScrolling:style(overflow-y: auto !important; height: unset !important; padding-right: 0 !important; width: auto !important; position: static !important)
