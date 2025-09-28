@@ -1,4 +1,3 @@
-store.steampowered.com##dialog div[class*="Share_Dialog"] form[role="dialog"] > div:nth-child(2) > div:first-child > div:nth-child(2)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -7493,6 +7492,7 @@ store.canon.pl##.primary-social-icons
 store.steampowered.com##.linkbar:has(.social_account)
 store.steampowered.com##a[class^="discussionwidget_ShareBtn_"]
 store.steampowered.com##a[onclick^="ShowShareDialog"]
+store.steampowered.com##dialog div[class*="Share_Dialog"] form[role="dialog"] > div:nth-child(2) > div:first-child > div:nth-child(2)
 stormmedia.gg##.absolute ~ div a[href="/"] ~ div a[class*="scale-125"][href*=".com/"]
 storytel.com###footerComponent > div > div:nth-of-type(2), a[href*="facebook.com/storytelPL"], a[href*="instagram.com/storytel.pl"]
 stozekwisla.pl##.col-xs-12.col-sm-7
