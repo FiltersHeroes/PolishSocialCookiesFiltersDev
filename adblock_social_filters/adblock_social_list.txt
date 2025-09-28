@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.9.28.1
-! Last modified: Sun, 28 Sep 2025, 12:58 UTC+00:00
+! Version: 2025.9.28.2
+! Last modified: Sun, 28 Sep 2025, 20:39 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.9.28.1 aktualizacja: nie, 28 wrz 2025, 12:58 UTC+00:00
+! v.2025.9.28.2 aktualizacja: nie, 28 wrz 2025, 20:39 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -863,7 +863,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 2xme.pl##.footer__block--flex.footer__block, .media__second
 3dfilamenty.com,flowerexpress.pl##.fx-social
 3dom.pro##.division-size-50.division-box-2.division-box
-3dom.pro,abarta.pl,anmur.eu,bedziepieklo.pl,centrumhandlowerobi.pl,gardenflora.pl,graszki.pl,home-sklep.pl,homedoors.eu,homehood.eu,hydrosan.eu,kubolek.pl,mbmeganarzedzia.pl,media-tech.eu,motogron.com,narzedziowy24.eu,pasmanteria.eu,ss24.pl,stolmot.com,thebookshop.pl,tkaninyflorentine.pl,upominki24.pl,wik-tor.pl#?#.footer-container div .center.section-title > span:has-text(Znajdziesz nas na)
+3dom.pro,abarta.pl,anmur.eu,bedziepieklo.pl,centrumhandlowerobi.pl,gardenflora.pl,graszki.pl,home-sklep.pl,homedoors.eu,hydrosan.eu,kubolek.pl,mbmeganarzedzia.pl,media-tech.eu,motogron.com,narzedziowy24.eu,pasmanteria.eu,ss24.pl,stolmot.com,thebookshop.pl,tkaninyflorentine.pl,upominki24.pl,wik-tor.pl#?#.footer-container div .center.section-title > span:has-text(Znajdziesz nas na)
 3dom.pro,allekki.pl,beyco.pl,bombkisklep.pl,butdam.sklep.pl,chataskrzata.eu,czerwonak.pl,ekoforemki.pl,infobowling.pl,sklepblawatny24.pl,slet24.pl,szkola-jazdy.pl,zikom.pl###fb-side-like
 3dom.pro,anmur.eu##.top-bar li:nth-of-type(n+3) > .link
 3gibbons.com##.menu_button_wrapper > a[href*="facebook.com/3gibbonscom"]
@@ -8422,6 +8422,7 @@ store.canon.pl##.primary-social-icons
 store.steampowered.com##.linkbar:has(.social_account)
 store.steampowered.com##a[class^="discussionwidget_ShareBtn_"]
 store.steampowered.com##a[onclick^="ShowShareDialog"]
+store.steampowered.com##dialog div[class*="Share_Dialog"] form[role="dialog"] > div:nth-child(2) > div:first-child > div:nth-child(2)
 stormmedia.gg##.absolute ~ div a[href="/"] ~ div a[class*="scale-125"][href*=".com/"]
 storytel.com###footerComponent > div > div:nth-of-type(2), a[href*="facebook.com/storytelPL"], a[href*="instagram.com/storytel.pl"]
 stozekwisla.pl##.col-xs-12.col-sm-7
