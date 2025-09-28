@@ -1,5 +1,3 @@
-~pl##a[href="javascript:CookieScript.instance.show()"]:lang(pl)
-pl##a[href*="javascript:CookieScript.instance.show()"]
 ###ciacho_bar:not(body, html)
 ###ciacho_inf:not(body, html)
 ###ciasteczka-komunikat:not(body, html)
@@ -115,6 +113,7 @@ pl##a[href*="javascript:CookieScript.instance.show()"]
 ~pl###kopageBarCookies:lang(pl)
 ~pl###x13eucookies-icon:lang(pl)
 ~pl##.fmessages:lang(pl):has(.cookie-message-popup-lq, .cookie-notice-ui)
+~pl##a[href="javascript:CookieScript.instance.show()"]:lang(pl)
 ~pl##body > div#cookie[class=""]
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) #ck_dsclr:lang(pl)
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id][class*="iai_cookie"]:lang(pl)
@@ -795,6 +794,7 @@ pl##.wrap-cookie-info:not(body, html)
 pl##[class*="cookie-policy"]:not(body, html)
 pl##[class^="box-cookie"]:not(body, html)
 pl##[id^="topInfo"]:not(body, html)
+pl##a[href*="javascript:CookieScript.instance.show()"]
 pl##aside[class*="Cookie"]
 pl##aside[class*="cookie"]:not([class*="modal" i])
 pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies_tlo"]:not([id], [class])
