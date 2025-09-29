@@ -1,4 +1,3 @@
-webh.pl##footer .mt-3:has(a[href*="facebook.com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -8388,6 +8387,7 @@ wearmedicine.com##.socialMediaFooter
 wearmedicine.com##div[class*="FooterSocials__socialsContainerWrapper_"]
 weather.com##.SocialMediaShareButton .icon-share-circle
 web.archive.org###wm-share
+webh.pl##footer .mt-3:has(a[href*="facebook.com/"])
 webidea.pl##footer h3:has(~ .social)
 webinary.comarch.pl###sector-footer .row > p:nth-of-type(2) > strong
 webio.pl##li.nav-item:nth-of-type(n+5):nth-of-type(-n+6) > .nav-link
