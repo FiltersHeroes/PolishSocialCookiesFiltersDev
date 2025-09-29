@@ -1,4 +1,3 @@
-webh.pl##body .cookie-consent:remove()
 /wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js$important,domain=sztolnie.pl|zamekgrodno.pl
 ||cdn.ans-media.com/*/CookiesConsentPopUp$redirect=noop.css,stylesheet
 ||lajt-online.pl/api/terms/rodo$1p,important,redirect=noop.json:10,xhr
@@ -796,6 +795,7 @@ wearmedicine.com##.modal--open:style(position: static !important; overflow-y: au
 wearmedicine.com##.modal:has(div[class*="Cookies"])
 wearmedicine.com##div[class*="CookiesConsentPopUp"], div[class*="cookiesInfoModal"]
 wearmedicine.com##div[class*="newModal" i]:has(div[class*="CookiesConsentPopUp"], div[class*="cookiesInfoModal"])
+webh.pl##body .cookie-consent:remove()
 webhelp.pl###wrapper:style(margin-top: auto !important)
 webprojekt.biz###rodo, #screenMoire
 webprojekt.biz##.no-move:style(overflow-y: auto !important)
