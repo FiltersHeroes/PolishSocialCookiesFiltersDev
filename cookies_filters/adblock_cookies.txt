@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.9.28.0
-! Last modified: Sun, 28 Sep 2025, 02:19 UTC+00:00
+! Version: 2025.9.29.0
+! Last modified: Mon, 29 Sep 2025, 16:51 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.9.28.0 aktualizacja: nie, 28 wrz 2025, 02:19 UTC+00:00
+! v.2025.9.29.0 aktualizacja: pon, 29 wrz 2025, 16:51 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4425,6 +4425,7 @@ polska6.pl###modal { remove: true }
 purepc.pl##.cookiesinfo { remove: true }
 rynek-turystyczny.pl###modal-rodo { remove: true }
 vinello.pl##dialog#cookieDialog { remove: true }
+webh.pl##body .cookie-consent { remove: true }
 wmglass.com.pl##dialog[cookies-dialog] { remove: true }
 !#endif
 !
@@ -4491,11 +4492,12 @@ publiczneodtwarzanie.pl,urbancity.pl#@##cookie-modal:not(body, html, .reveal)
 puratos.pl#@##cookieInfo:not(body, html)
 selgros.pl#@##cookie_accept:not(body, html)
 sklep-domwhisky.pl#@#.rodo-popup:not(body, html, [style="display: block;"])
-sklep.winkhaus.pl,volcano.pl#@#aside[class*="cookie"]:not([class*="modal" i])
+sklep.winkhaus.pl,volcano.pl,webh.pl#@#aside[class*="cookie"]:not([class*="modal" i])
 smsapi.pl#@#body:not([style*="overflow"]) #CybotCookiebotDialog
 stilord.pl#@#.cookie-bar:not(body, html)
 uniabracka.pl#@#body:not(.cookie-opened) #cookie-container
 visa.pl#@#span[class*="Cookie"]:not(.closeCookie, [class*="CookiebotDialog"])
+webh.pl#@#.cookie-consent:not(body, html, .paragraph)
 wtk.pl#@#.privacy-container:not(body, html, .content-container)
 !
 !
