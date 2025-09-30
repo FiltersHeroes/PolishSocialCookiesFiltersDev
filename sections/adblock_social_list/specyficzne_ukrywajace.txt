@@ -1,7 +1,3 @@
-app.powerbi.com##.socialSharing .shareFlyoutActions
-genius.com##button[aria-label="Post this Song on Facebook"]
-genius.com##button[aria-label="Tweet this Song"]
-genius.com##div[class^="SocialLinks__Container-"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -517,6 +513,7 @@ apollo.pl##.b-sm-list
 apostol.pl##.footer_links > a[href*="facebook.pl/apostolpl"]
 app.electricitymaps.com##a[href*="/sharer/sharer"]
 app.ntfy.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="youtube.com"], [href*="instagram.com"], [href*="tiktok.com"])
+app.powerbi.com##.socialSharing .shareFlyoutActions
 applefix.pl##.facebook-reviews__icon
 applemobile.pl,pdaclub.pl##.google-plus
 apps.jeurissen.co##li.cjmd-biglinks__item:nth-of-type(-n+2)
@@ -3003,6 +3000,9 @@ genialne.pl##.big-share
 genialne.pl##.footer-widgets .widget_lsi_widget
 genialne.pl##.social-inline
 genius.com##a[href*="facebook.com/RapGeniusPolska"]
+genius.com##button[aria-label="Post this Song on Facebook"]
+genius.com##button[aria-label="Tweet this Song"]
+genius.com##div[class^="SocialLinks__Container-"]
 gerardroofs.pl##footer .text-align-right.col-sm-12
 gerda.pl##.in.icon, .li.icon
 gerdex.com.pl###social > #fbpage
