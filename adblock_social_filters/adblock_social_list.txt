@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.10.3.0
-! Last modified: Fri, 03 Oct 2025, 16:45 UTC+00:00
+! Version: 2025.10.4.0
+! Last modified: Sat, 04 Oct 2025, 12:58 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.10.3.0 aktualizacja: pią, 03 paź 2025, 16:45 UTC+00:00
+! v.2025.10.4.0 aktualizacja: sob, 04 paź 2025, 12:58 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4636,6 +4636,7 @@ jedz-bezpiecznie.pl##a[href*="facebook.com/groups/pracawmotoryzacji/"] > img
 jeja.pl##.icon-m-box > .fsh
 jeja.pl##a[href*="facebook.com/jejapl"], a[href*="instagram.com/jeja.pl/"]
 jejsklep.pl###links_footer_7
+jelonka.com,swidniczka.com,walbrzyszek.com##.stopka-linki a[href*="facebook.com/"]
 jeseniky.net##table table td > a[href*="facebook.com/"]
 jeseniky.net##table table td > a[href*="twitter.com/"]
 jestemfit.pl##.footer__top > .row > div:nth-of-type(3) > .footer__section, .artykul__page__fb
@@ -4907,7 +4908,7 @@ komorkomat.pl##.social-link a[href]:not([href*="group"])
 komorkomat.pl##.widget_text.col-md-3:nth-of-type(4) > .widgettitle
 komornik-marchaj.pl##.rstpl-social
 kompan.pl##.blog-icon
-kompan.pl,ulc.gov.pl,uniqueseo.pl##.icon-linkedin
+kompan.pl,truckcare.pl,ulc.gov.pl,uniqueseo.pl##.icon-linkedin
 komputerswiat.pl##.ods-c-footer__social a[href*="com/"]
 komputerswiat.pl,onet.pl,plejada.pl##div[class*="BigCard_social_"] > span[class*="share"]
 komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##div > a[href*="facebook.com/komputerswiat" i]:has(img)
@@ -6569,6 +6570,8 @@ ozonee.pl###menu_banners3 > .menu_button_wrapper > a
 ozonee.pl##.ozonee_social_media
 ozonemask.pl###text-32
 ozonowaniemieszkan.nets.pl#?#.elementor-widget > div:only-child > div.elementor-heading-title:only-child:has-text(znajdź nas na)
+ozzip.pl##.tm-toolbar div:not([class], [id]):has(> div.uk-panel > div > a[href*="tiktok.com/"])
+ozzip.pl##.tm-toolbar div:not([class], [id]):has(> div.uk-panel > div > ul > li > a[href*="facebook.com/"])
 p.lodz.pl##.FacebookBox
 paa.gov.pl##.pole-banerowe > a[href*="twitter.com/paatomistyki"]
 paatal.pl###footer_links #menu_buttons3
@@ -8503,6 +8506,7 @@ superubezpieczenia.pl##.help-info > li > .wykop2
 superwnetrze.pl##footer .more.box > ul > li > a:not([href*="worldlux.pl"])
 suponwroclaw.pl##.clearfix.sf-contener > div:nth-of-type(4)
 suponwroclaw.pl##.urlfacebook
+suppi.pl##footer a[href*=".com/"]:is([href*="instagram.com"], [href*="twitter.com"], [href*="tiktok.com"])
 support.garmin.com##.sp__quick-links__social-links
 support.github.com##footer a[href*="twitch.tv/"]
 support.kaspersky.com##.footerLinkWrap:first-of-type p:nth-of-type(n+7):nth-of-type(-n+9)
