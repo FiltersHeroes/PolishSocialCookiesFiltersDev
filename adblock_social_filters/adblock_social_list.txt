@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.10.7.0
-! Last modified: Tue, 07 Oct 2025, 20:41 UTC+00:00
+! Version: 2025.10.8.0
+! Last modified: Wed, 08 Oct 2025, 16:47 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.10.7.0 aktualizacja: wto, 07 paź 2025, 20:41 UTC+00:00
+! v.2025.10.8.0 aktualizacja: śro, 08 paź 2025, 16:47 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1662,6 +1662,7 @@ bankbps.pl#?#.uk-section .uk-panel span:has-text(Znajdziesz nas też)
 bankbps.pl,silesiabank.pl##span[uk-icon*="facebook"]
 bankier.pl##.m-social-bar > div[class*="social"]:not([class*="comment"])
 bankier.pl##.o-social-media-footer-box__links
+bankier.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,sport.pl,tokfm.pl,transfery.info##.navigation-lists__link[href*="facebook.com/"]
 bankier.pl,czterykaty.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,moto.pl,sport.pl,tokfm.pl,transfery.info##footer a[href*="facebook.com/gazetapl"]
 bankmillennium.pl##.footer__bottom .footer__bottom--icon-links > a:not([class*="goodie"])
 bankmillennium.pl##.footer__bottom--icon-links > li:nth-child(n+2)
