@@ -28,8 +28,8 @@ adventuresports.pl,naoko-store.pl,ski4you.pl###pandectes-banner, #gdpr-blocking-
 adventuresports.pl,naoko-store.pl,ski4you.pl##body.cc-scrolling-disabled:style(overflow-y: auto !important)
 agrobard.com.pl,alumatex.pl,hydro-masz.pl##.pum-open-overlay:style(overflow-y: auto !important)
 agrobard.com.pl,alumatex.pl,hydro-masz.pl##.pum-overlay[data-popmake*="rodo"]
-agrofarm.com,gadzisklep.pl,projektjunior.pl,salonydenon.pl,skiracecenter.pl,sklep.najlepszy-przyjaciel.pl,skrzynkinalisty.pl,unimet.pl##html body div.x13eucookies
-agrofarm.com,gadzisklep.pl,projektjunior.pl,salonydenon.pl,skiracecenter.pl,sklep.najlepszy-przyjaciel.pl,skrzynkinalisty.pl,unimet.pl##html body.x13eucookies-block:style(overflow-y: auto !important)
+agrofarm.com,aptekacud.pl,gadzisklep.pl,projektjunior.pl,salonydenon.pl,skiracecenter.pl,sklep.najlepszy-przyjaciel.pl,skrzynkinalisty.pl,unimet.pl##html body div.x13eucookies
+agrofarm.com,aptekacud.pl,gadzisklep.pl,projektjunior.pl,salonydenon.pl,skiracecenter.pl,sklep.najlepszy-przyjaciel.pl,skrzynkinalisty.pl,unimet.pl##html body.x13eucookies-block:style(overflow-y: auto !important)
 agromat.com.pl###rodoOverlay
 agromat.com.pl,bezpluga.pl,ckl.pl,dlahandlu.pl,eecpoland.eu,farmer.pl,frsih.pl,horecatrends.pl,housemarket.pl,infodent24.pl,mckkatowice.pl,motofaktor.pl,portalsamorzadowy.pl,portalspozywczy.pl,promocjada.pl,propertydesign.pl,propertynews.pl,ptwp.pl,pulshr.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,spodekkatowice.pl,wnp.pl##.rodo
 agromat.com.pl,konskowola.info.pl##.stop-scrolling:style(overflow-y: auto !important)
@@ -247,6 +247,8 @@ dpcraft.pl##.cookiesPopup, div#cookiePopup, .cookiesBackground
 dpcraft.pl##html[style*="overflow" i]:style(overflow-y: auto !important)
 dragon.com.pl###modal-rodo, .iziModal-overlay
 dragon.com.pl##.iziModal-isoverflow-y:style(overflow-y: auto !important)
+drogeria-zdrowie.com.pl##.cookie-modal-wrapper
+drogeria-zdrowie.com.pl##:root.lock-scroll:style(overflow-y: auto !important; touch-action: auto !important; pointer-events: auto !important)
 drogeriapigment.pl###rodo-popup, #rodo-popup-overlay
 drogeriapigment.pl##.fancybox-overlay:has(#potwierdzamrodo)
 dropbox.com###embedded-app.top-notification-bar:style(margin-top: -51px !important)
@@ -264,7 +266,7 @@ e-urzad.grodzisk.pl,inpzu.pl,socofe.pzu.pl,www.kayak.pl##.cdk-global-scrollblock
 e-urzad.grodzisk.pl,socofe.pzu.pl,www.kayak.pl##.cdk-overlay-container
 e-zikoapteka.pl##div.cookies-popup
 ebilet.pl###cookies-info, #cookies-overlay
-ebilet.pl##.stop-scrolling:style(overflow-y: auto !important; touch-action: unset !important)
+ebilet.pl##.stop-scrolling:style(overflow-y: auto !important; touch-action: auto !important)
 ebro.pl##html[style*="overflow"][style*="hidden"] .cs-cookie-bar-container
 ebro.pl##html[style*="overflow"][style*="hidden"]:style(overflow-y: auto !important)
 echo24.tv##.on-top:style(top: 0 !important)
@@ -654,6 +656,7 @@ quadgraphics.pl##.blur:style(filter: none !important; pointer-events: auto !impo
 quadgraphics.pl##.rodo-information-popup, .fixed-layer-information
 r.pl##div[class*="r-consent-"][class*="modal"]
 r.pl,wanapix.pl##html[style*="overflow"]:style(overflow-y: auto !important)
+rachunek.mojeppk.pl##+js(set-local-storage-item, cookie_consent, true)
 radio17.pl##+js(aeld, /^(?:wheel|keydown)$/, [native code])
 radio17.pl##.v-dialog__content:has(button[data-cy="gdpr-accept"])
 radio17.pl##.v-overlay
@@ -829,6 +832,7 @@ wroclaw.pl##+js(set-cookie, iRodoInfo, 1)
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important)
 www.google.com,www.google.pl##div[class][role="dialog"] > #cnsp:has(> div[class][aria-live="polite"]):upward(2)
+www.mojeppk.pl##+js(set-cookie, hasSeenCookies, true)
 www.pekao.com.pl##.reveal-overlay:has(#gdpr-popup)
 www.pekao.com.pl##body.is-reveal-open:style(overflow-y: auto !important; width: unset !important)
 www.thomas-krenn.com##div[id*="CookiePolicy"], div[data-toggle*="CookiePolicy"]

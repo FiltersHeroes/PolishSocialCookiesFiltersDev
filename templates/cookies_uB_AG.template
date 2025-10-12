@@ -42,9 +42,8 @@
 !#endif
 !
 !#if ext_ublock
-!#if cap_user_stylesheet
 @include komunikaty_uBO + komunikaty_uBO_AG_konwersja
-!#endif
+@include komunikaty_shoper_consent + komunikaty_shoper_h-portal
 !#endif
 !
 !#if env_legacy
