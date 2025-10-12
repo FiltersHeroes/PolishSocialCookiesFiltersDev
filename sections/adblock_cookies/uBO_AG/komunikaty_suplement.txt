@@ -1,7 +1,3 @@
-verbatim-europe.com###consentModal, .modal-backdrop
-verbatim-europe.com##.modal-open:style(overflow-y: auto !important)
-vuse.com##div[class^="Cookies_cookieWrapper_"]
-vuse.com##.stop-scroll:style(overflow-y: scroll !important;)
 /wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js$important,domain=sztolnie.pl|zamekgrodno.pl
 ||cdn.ans-media.com/*/CookiesConsentPopUp$redirect=noop.css,stylesheet
 ||lajt-online.pl/api/terms/rodo$1p,important,redirect=noop.json:10,xhr
@@ -780,6 +776,8 @@ uniroyal.pl##body.is-cookiebanner-visible:style(overflow-y: auto !important)
 urbancity.pl##div[id^="cookie-modal_"][id*="outer"]
 urzadzamy.pl##.scroller:style(overflow-y: auto !important)
 urzadzamy.pl##div[id^="consent-modal-"]
+verbatim-europe.com###consentModal, .modal-backdrop
+verbatim-europe.com##.modal-open:style(overflow-y: auto !important)
 vice.com##body[style], html[style]:style(overflow-y: auto !important; height: unset !important)
 vice.com##div[id^="sp_message"][class^="sp_message_container"], div[class^="sp_veil"]
 viennahouse.com##div#cookie-box
@@ -790,6 +788,8 @@ visa.pl##div#CookieReportsPanel
 vivaldi.com##+js(set-cookie, acceptedCookies, true)
 vod3.pl##body #cookie-banner
 volcano.pl##.modals-wrapper:has(.cookies-modal)
+vuse.com##.stop-scroll:style(overflow-y: scroll !important;)
+vuse.com##div[class^="Cookies_cookieWrapper_"]
 vwbank.pl###modal-cookie-disclaimer, #modal-cookie-disclaimer ~ .modal-backdrop
 vwbank.pl,vwfs.pl###cookie-manage-button-control
 vwfs.pl##.fancybox-container:has(#modal-cookie-disclaimer)
