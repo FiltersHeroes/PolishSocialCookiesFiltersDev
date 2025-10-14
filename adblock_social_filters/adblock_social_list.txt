@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.10.13.0
-! Last modified: Mon, 13 Oct 2025, 19:16 UTC+00:00
+! Version: 2025.10.14.0
+! Last modified: Tue, 14 Oct 2025, 16:47 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.10.13.0 aktualizacja: pon, 13 paź 2025, 19:16 UTC+00:00
+! v.2025.10.14.0 aktualizacja: wto, 14 paź 2025, 16:47 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6467,6 +6467,7 @@ onet.pl##div[class*="AuthorSocialProfiles_socialButtonsContainer_"] a
 onet.pl##div[class*="DetailAuthors_socialWrapper_"]
 onet.pl##div[class*="DetailAuthorsItem_socialWrapper_"]
 onet.pl##div[data-gtm-social]
+onet.pl##span[class*="ShareLayerItem"]:has([class*="IconMessenger"], [class*="IconWhatsApp"])
 onet.pl#?#div[class^="_"] > span[class^="_"]:has-text(Podziel się tym artykułem)
 onet.pl,plejada.pl##.poll_share
 onet.pl,plejada.pl##span[data-gtm*="-whatsapp"]
