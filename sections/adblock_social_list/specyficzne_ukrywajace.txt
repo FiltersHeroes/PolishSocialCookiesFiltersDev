@@ -1,7 +1,3 @@
-speedapp.pl##.socials_container
-gry-online.pl##.soc-foot a[href]:not([href*="forum"], [href*="spotify.com"], [href*="whatsapp.com"])
-gry-online.pl##.soc-foot > div.soc-foot2:nth-child(2)
-chrobok.eu###kontakt a[href*=".com/"][title]:not([title*=" "])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -1436,6 +1432,7 @@ chorzow.tv,comtv.pl,katotv.eu##.spc-social.spc-social-block
 chosenby.eu##.footer-content div:nth-of-type(6).three > .footer-title
 chrisbenzshop.pl###box5
 chroberz.info#?##jm-right > div > div.jm-module > .jm-module-in:has-text(Komentuj na facebooku)
+chrobok.eu###kontakt a[href*=".com/"][title]:not([title*=" "])
 chroma.pl##[class^="Footer---socialHeader"]
 chromewebstore.google.com##button[aria-label^="Udostępnij"]:not([aria-label*="WhatsApp"])
 chrono24.pl##footer.footer section:nth-child(4):last-of-type > div > div > div + div > nav ul li a
@@ -3238,6 +3235,8 @@ grupazywiec.pl##.social-links-box > a.social-links-box__item
 gry-online.pl###fbk-login-button
 gry-online.pl##.mnu-ico-social-c
 gry-online.pl##.mnu-ico-yt, .sfo-but-yt
+gry-online.pl##.soc-foot > div.soc-foot2:nth-child(2)
+gry-online.pl##.soc-foot a[href]:not([href*="forum"], [href*="spotify.com"], [href*="whatsapp.com"])
 gry-online.pl##.social-19-out-GOL, .social-19-out-NEWSROOM
 gry-online.pl##.text-frame-blue
 gry-online.pl##a[href*="twitter.com/golpl"], a[href*="facebook.com/golpl"]
@@ -7393,6 +7392,7 @@ speckable.pl#?#.ins-v-company-data strong:has-text(Znajdź nas)
 specshop.pl###menu_buttons > div.menu_button_wrapper:first-of-type > a > img
 specshop.pl###social-platforms
 spedycje.pl###top_social
+speedapp.pl##.socials_container
 speedomat.pl##.wow:has(.c-icon span i[onclick*="share"]:not([onclick*="setClipboard"]))
 speedtest.net##.social-links-outer a.social-icon ~ a.social-icon
 speedtest.net##div.pure-u-1:first-of-type > ul.menu-footer:nth-of-type(2)
