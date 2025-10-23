@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.10.21.0
-! Last modified: Tue, 21 Oct 2025, 16:46 UTC+00:00
+! Version: 2025.10.23.0
+! Last modified: Thu, 23 Oct 2025, 16:47 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.10.21.0 aktualizacja: wto, 21 paź 2025, 16:46 UTC+00:00
+! v.2025.10.23.0 aktualizacja: czw, 23 paź 2025, 16:47 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1249,8 +1249,6 @@ gdansk.rzgw.gov.pl###COOKIETLO
 gdsport.pl###rodo-policy-banner
 gdziewpolsce.pl,liveprice.pl,lovet.pl##.cookie-alert-content
 geekbuying.com,geekbuying.pl##.gdpr-cookie
-gemini.pl##div:not([class], [id]) > div[class*="fixed"]:empty
-gemini.pl##div:not([class], [id]) > div[class*="fixed"]:empty ~ div[class*="fixed"]
 geminipark.pl###cookies-baner-wrapper
 generali.pl##div#cLayer
 generatorkodowkreskowych.pl,kalendarz-roku-szkolnego.edu.pl###cn
@@ -4363,6 +4361,7 @@ danio.com.pl,nat.pl,pl.genesis-zone.com#@##cookies-modal
 dpcraft.pl#@#.cookiesBackground
 dpcraft.pl#@#.cookiesPopup
 dpcraft.pl#@#div#cookiePopup
+gemini.pl#@#.z-100
 grupabiwakowa.pl,nowymarketing.pl#@##cmplz-cookiebanner-container
 grupabiwakowa.pl,nowymarketing.pl#@##cmplz-manage-consent
 grupabiwakowa.pl,nowymarketing.pl#@#.cookie-statement
@@ -4417,7 +4416,6 @@ apteline.pl,ortopedio.pl##dialog[aria-label="Cookie baner"] { remove: true }
 bmw-motorrad.pl##.cookielayer { remove: true }
 centrum24.pl#@##__tealiumGDPRecModal
 cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,zgl.pl###popModal2 { remove: true }
-gemini.pl###modal-cookies, .vue-modal--privacy-policy { remove: true }
 horecanet.pl###gdpr-popup.gdprmodal { remove: true }
 iworks.pl###scm-dialog.scm-dialog { remove: true }
 jelenia.tv###rodoModal { remove: true }
