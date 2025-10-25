@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.10.21.0
-! Last modified: Tue, 21 Oct 2025, 16:47 UTC+00:00
+! Version: 2025.10.25.0
+! Last modified: Sat, 25 Oct 2025, 20:40 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.10.21.0 aktualizacja: wto, 21 paź 2025, 16:47 UTC+00:00
+! v.2025.10.25.0 aktualizacja: sob, 25 paź 2025, 20:40 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4204,8 +4204,6 @@ helendoron.pl##.soc-list
 helikon-tex.com##.m-image--sharing-links-white
 helio.pl##.search.navbar-form > a:nth-of-type(n+3):nth-of-type(-n+4)
 helion.pl###social a:not([href*="rss"])
-hello-body.pl##.block-social-icons
-hello-body.pl#?#div.section-title-container.container:has-text(na Instagramie)
 hellogadzet.pl##.social_icons
 hellozdrowie.pl##.fbCount
 hellozdrowie.pl##.single-post-side-shares-title
@@ -7898,6 +7896,8 @@ senat.gov.pl##.fabcebook
 senatkomorki.pl##.whatsup
 sencor.pl##.footer-black-bar-social
 sendgb.com##.si-linkedin, .si-youtube, .si-facebook, .si-twitter, .si-instagram
+sendit.pl##.col-social-media > :nth-child(n+2):nth-child(-n+3)
+sendit.pl##.menu-header-social-media
 senior.pl##.hp-fan-box
 senior.pl##.podziel_links
 senior.watra-travel.pl##.content-fb-box
@@ -8063,7 +8063,7 @@ sklep.chomik.pl##.menuFooterMulti.menuFooter > div > .row > div:nth-of-type(2) >
 sklep.comarch.pl##.footer__list--media .footer__listItem > *
 sklep.cornette.pl###ves-footer-center div:nth-of-type(4) > .custom.box > .box-heading
 sklep.cosplayworld.pl##.footer_portal_title
-sklep.czf.pl##.footer__section-title:has(+ .footer__section-social)
+sklep.czf.pl,specto.com.pl##.footer__section-title:has(+ .footer__section-social)
 sklep.displayit.pl##.element-social-inner-wrap.footer-social-inner-wrap
 sklep.domowaapteczka.pl,skrzypceonline.com,thunderbird.net,veneo.pl##.social-list
 sklep.effector.pl##.m-footer-socials
@@ -8594,6 +8594,7 @@ sygnaturazdrowia.pl##.col-sm-3.col-md-3.col-lg-3.fusion-column:nth-of-type(3)
 symbiosis.com.pl##.socialMedia-icons
 sympatia.onet.pl##ul[class*="Footer_social_"][class*="_list_"]
 syngenta.pl#?#.pane-bundle-syn-fpp-icon-social:has-text(Sprawdź)
+syoss.pl##footer heliux-grid > div:first-child:has(> heliux-section a[href*="facebook.com/"]) > [class]:is(.title, .section)
 syrion.pl###blog.article .buttons-row > div.wrapper > div[class*="col"]:has(> .button a:not(.link-copy))
 syrion.pl##.box-socials
 szachownica.com.pl##.home-social-container
@@ -10280,6 +10281,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:has-text(Nasz Facebo
 ||klinikaplyt.pl/img/xfacebook.gif
 ||kobietytoczytaja.pl/obrazki/facebook.png
 ||kobietytoczytaja.pl/obrazki/vimeo.png
+||kol-dar.pl/images/fb.png
 ||kolejedolnoslaskie.pl/wp-content/uploads/*/Facebook-Copy-color.svg
 ||kolejedolnoslaskie.pl/wp-content/uploads/*/Instagram-Copy-color.svg
 ||kolejedolnoslaskie.pl/wp-content/uploads/*/Twitter-Copy-color.svg
@@ -10426,7 +10428,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:has-text(Nasz Facebo
 ||planetasportu.com/upload/PLANETA/facebook_vertical.gif
 ||plock.fm/wp-content/uploads/20*/pl_na_facebook-2.jpg
 ||plock.fm/wp-content/uploads/20*/pl_na_insta
-||plus.pl/*/Footer/socials/Social-$image
+||plus.pl/*/Footer/socials/Social-
 ||pm1-kozuchow.pl/photos/skin/clipart/*facebook-icon*.png
 ||pm1-kozuchow.pl/photos/skin/clipart/*icon-youtube.png
 ||pobitegary.com/google+32px.png
