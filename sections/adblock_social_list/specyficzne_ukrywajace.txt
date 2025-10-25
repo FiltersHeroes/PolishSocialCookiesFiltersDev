@@ -1,7 +1,3 @@
-specto.com.pl##.footer__section-title:has(+ .footer__section-social)
-syoss.pl##footer heliux-grid > div:first-child:has(> heliux-section a[href*="facebook.com/"]) > [class]:is(.title, .section)
-sendit.pl##.col-social-media > :nth-child(n+2):nth-child(-n+3)
-sendit.pl##.menu-header-social-media
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -6971,6 +6967,8 @@ semtec.pl###sociallinkstop > div > a > img[src^="data:image/png;base64,"]
 senat.gov.pl##.fabcebook
 sencor.pl##.footer-black-bar-social
 sendgb.com##.si-linkedin, .si-youtube, .si-facebook, .si-twitter, .si-instagram
+sendit.pl##.col-social-media > :nth-child(n+2):nth-child(-n+3)
+sendit.pl##.menu-header-social-media
 senior.pl##.hp-fan-box
 senior.pl##.podziel_links
 senior.watra-travel.pl##.content-fb-box
@@ -7136,7 +7134,7 @@ sklep.chomik.pl##.menuFooterMulti.menuFooter > div > .row > div:nth-of-type(2) >
 sklep.comarch.pl##.footer__list--media .footer__listItem > *
 sklep.cornette.pl###ves-footer-center div:nth-of-type(4) > .custom.box > .box-heading
 sklep.cosplayworld.pl##.footer_portal_title
-sklep.czf.pl##.footer__section-title:has(+ .footer__section-social)
+sklep.czf.pl,specto.com.pl##.footer__section-title:has(+ .footer__section-social)
 sklep.displayit.pl##.element-social-inner-wrap.footer-social-inner-wrap
 sklep.domowaapteczka.pl,skrzypceonline.com,thunderbird.net,veneo.pl##.social-list
 sklep.effector.pl##.m-footer-socials
@@ -7664,6 +7662,7 @@ sygnaturazdrowia.pl##.col-sm-3.col-md-3.col-lg-3.fusion-column:nth-of-type(3)
 symbiosis.com.pl##.socialMedia-icons
 sympatia.onet.pl##ul[class*="Footer_social_"][class*="_list_"]
 syngenta.pl#?#.pane-bundle-syn-fpp-icon-social:has-text(Sprawdź)
+syoss.pl##footer heliux-grid > div:first-child:has(> heliux-section a[href*="facebook.com/"]) > [class]:is(.title, .section)
 syrion.pl###blog.article .buttons-row > div.wrapper > div[class*="col"]:has(> .button a:not(.link-copy))
 syrion.pl##.box-socials
 szachownica.com.pl##.home-social-container
