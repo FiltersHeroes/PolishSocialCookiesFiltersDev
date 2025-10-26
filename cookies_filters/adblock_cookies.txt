@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.10.26.1
-! Last modified: Sun, 26 Oct 2025, 12:37 UTC+00:00
+! Version: 2025.10.26.2
+! Last modified: Sun, 26 Oct 2025, 16:44 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.10.26.1 aktualizacja: nie, 26 paź 2025, 12:37 UTC+00:00
+! v.2025.10.26.2 aktualizacja: nie, 26 paź 2025, 16:44 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -332,7 +332,7 @@ axa-assistance.pl##.cookieLink
 az.pl###gatsby-focus-wrapper > footer + div[class^="sc-"]
 azure.microsoft.com###cookie-prompt
 b2b.darynatury.pl###page-footer.page-footer div[id^="kontrolka"]:first-child > p:only-child > span:only-child > span:last-child
-b2b.metal-bud.eu##.cookie-notice-ui
+b2b.metal-bud.eu,door-handles.com,hmb.pl##.cookie-notice-ui
 babytvchannel.info###cookieStandart
 bacca.pl###CookieLawInfoPlugin
 badaniaprenatalne.pl###stb-14718
@@ -1394,7 +1394,6 @@ hipotekadlaciebie.com,srodkidlafirm.com##.CTcookie-container
 hipper.pl##.modal:has(.consents .consents-info)
 hipper.pl##footer ~ .modal
 hitachi.eu###cookie-compliance
-hmb.pl##.box-ui.cookie-notice-ui
 hoga.pl###warning
 hokej.net###cookies_box
 holidaycheck.pl###infoCloseableBoxContainer
@@ -2622,6 +2621,7 @@ sdg.stat.gov.pl##table[id$="gridStopka"] > tbody > .ui-panelgrid-even.ui-widget-
 sdk.waw.pl###bpcookies
 seans24.pl##.Messages
 secure.checkout.visa.com##.cookieBannerContainer
+securesummit.pl##.realative.z-50.bottom-0.fixed
 sedkomp.com.pl##.art-content-layout:nth-of-type(2)
 seg.org.pl###block-block-19
 sekap.pl###uglipop_popbox, #uglipop_overlay
@@ -2695,7 +2695,7 @@ sklep.sizeer.com###js-cookieInfo
 sklep.tonerylublin.pl##.gdpr_holder
 sklep.weranda.pl##body > div[class*="cn-info"]
 sklep.wzso.pl##.configMessages__btn-js
-sklep.wzso.pl##.cookie-message-popup-js.message-popup-background
+sklep.wzso.pl,specto.com.pl##.cookie-message-popup-js
 sklepbaterie.pl##.cookies-page
 sklepbiker.pl##.rodo-notice
 sklepfarmer.pl###cookie_info_response
@@ -2738,6 +2738,7 @@ sneakershop.pl,sportraw.pl###topLayerBackDrop, .iai-toplayer__background
 snowboard-zezula.pl###snippet-cookieConsent-snCookieConsent.c-cookie-consent-bar
 snt.pl###sntc-close
 socialwifi.com##.cookielaw-banner
+softnet.pl##.TsConsentWrapper
 softpedia.com###cookienotif
 solar.pl###SolarCookieInfo.alert-info.alert
 solartime.pl###sticky-notify
@@ -2754,7 +2755,6 @@ spaceone.pl##div[class^="privacyPopup__FixedWindow"]
 sparta.com.pl###cookieButton
 specialized.com##.eu-cookie-wrap
 specshop.pl##.blockUI
-specto.com.pl##.cookie-message-popup-js
 spice-electronics.com##.gestisci-cookies.show-gdpr-modal
 spie-elbud.pl##.occ-wrapper
 splendor24.pl#?#.box_custom:has(span:has-text(PRYWATNOŚĆ))
