@@ -266,6 +266,7 @@ e-restauracja.com###modal-rodo
 e-urzad.grodzisk.pl,inpzu.pl,socofe.pzu.pl,www.kayak.pl##.cdk-global-scrollblock, .cdk-cookies-policy-scrollblock:style(position: static !important; overlow: auto !important)
 e-urzad.grodzisk.pl,socofe.pzu.pl,www.kayak.pl##.cdk-overlay-container
 e-zikoapteka.pl##div.cookies-popup
+e.sanepid.gov.pl##body > div[class^="mui-"] > div[class^="mui-"]:has(> p:has-text(PLIKÓW COOKIE))
 ebilet.pl###cookies-info, #cookies-overlay
 ebilet.pl##.stop-scrolling:style(overflow-y: auto !important; touch-action: auto !important)
 ebro.pl##html[style*="overflow"][style*="hidden"] .cs-cookie-bar-container
@@ -582,8 +583,8 @@ pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !import
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
 pdf24.org##html.hasCookieBannerOverlay:style(overflow-y: auto !important)
 pdf24.org##iframe#cookieBannerOverlay
-pepper.pl##.box--contents.popover-portal:has(.supportImage--type-cookies-info, .oreo-message-emoticon) .zIndex--modal[class^="popover"]:empty
 pepper.pl##.box--contents.popover-portal .zIndex--modal[class^="popover"][class*="bottom"]:has(.supportImage--type-cookies-info, .oreo-message-emoticon)
+pepper.pl##.box--contents.popover-portal:has(.supportImage--type-cookies-info, .oreo-message-emoticon) .zIndex--modal[class^="popover"]:empty
 pepper.pl##body.overflow--hidden:style(overflow-y: auto !important)
 perfumesclub.pl###modalPreferenciaCookies, .modal-backdrop
 petycjeonline.com###cookie_consent_modal, .modal-backdrop
@@ -622,7 +623,6 @@ porowneo.pl##div[class^="sc-"] > button ~ div > a[href*="rules=polityka_prywatno
 portal.librus.pl##.consent-categories-modal-wrapper:style(display: none !important)
 portal.librus.pl##.modal-body:style(overflow-y: auto !important; padding-right: 0 !important)
 portalpasazera.pl##.cookieman-window
-e.sanepid.gov.pl##body > div[class^="mui-"] > div[class^="mui-"]:has(> p:has-text(PLIKÓW COOKIE))
 powiat-ostrowski.pl##.info
 powiat-ostrowski.pl##body > *:style(filter: none !important)
 pozbruk.pl##+js(aopr, openRodo)
