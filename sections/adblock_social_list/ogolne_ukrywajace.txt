@@ -1,3 +1,9 @@
+##.footer_links_label[title]:is([title^="Bądźmy blisko" i], [title^="Dołącz do nas" i], [title^="Social Media" i], [title="Obserwuj nas" i], [title*="My w sieci" i], [title="BĄDŹMY W KONTAKCIE" i], [title*="Znajdź nas na" i], [title*="Znajdziesz nas na" i])
+##.footer_links span[title=""]:has(+ ul[class*="footer_links_sub"] a[href]:is([href*="facebook.com"], [title="Blog"])):style(border: 2px solid red !important; outline: 2px solid gold)
+##ul[class*="footer_links_sub"] li:has(> a[href*=".com/"]:is([href*="facebook.com"], a[href*="instagram"], [href*="tiktok.com"], [href*="pinterest.com"], [href*="youtube.com"], [href*="linkedin.com"], [href*="twitter.com"]))
+##ul[class*="footer_links_sub"] li:has(> a[title="Blog" i] img)
+##ul[class*="footer_links_sub"] li > a[href*=".com/"]:is([href*="facebook.com"], a[href*="instagram"], [href*="tiktok.com"], [href*="pinterest.com"], [href*="youtube.com"], [href*="linkedin.com"], [href*="twitter.com"])
+##ul[class*="footer_links_sub"] li > a[title="Blog" i] img
 ##.facebookPrzyczepiony
 ##.footer-box.footer-social-media
 ##.rank-math-social-share-buttons > .rank-math-share-button:not(.rm-email)
