@@ -582,8 +582,8 @@ pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !import
 paypal.com##.gdprCookieBanner-acceptedAll:style(margin-bottom: 0 !important)
 pdf24.org##html.hasCookieBannerOverlay:style(overflow-y: auto !important)
 pdf24.org##iframe#cookieBannerOverlay
-pepper.pl##.zIndex--modal[class^="popover"]:empty
-pepper.pl##.zIndex--modal[class^="popover"][class*="bottom"]:has(.supportImage--type-cookies-info, .oreo-message-emoticon)
+pepper.pl##.box--contents.popover-portal:has(.supportImage--type-cookies-info, .oreo-message-emoticon) .zIndex--modal[class^="popover"]:empty
+pepper.pl##.box--contents.popover-portal .zIndex--modal[class^="popover"][class*="bottom"]:has(.supportImage--type-cookies-info, .oreo-message-emoticon)
 pepper.pl##body.overflow--hidden:style(overflow-y: auto !important)
 perfumesclub.pl###modalPreferenciaCookies, .modal-backdrop
 petycjeonline.com###cookie_consent_modal, .modal-backdrop
