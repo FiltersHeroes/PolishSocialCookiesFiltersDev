@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.10.30.0
-! Last modified: Thu, 30 Oct 2025, 16:49 UTC+00:00
+! Version: 2025.11.1.0
+! Last modified: Sat, 01 Nov 2025, 16:42 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.10.30.0 aktualizacja: czw, 30 paź 2025, 16:49 UTC+00:00
+! v.2025.11.1.0 aktualizacja: sob, 01 lis 2025, 16:42 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4088,6 +4088,7 @@ greenpolska.com###secondary > #fbw_id-2
 greinplast.pl##.f_box2.col-sm-6.col-xs-7 > p.text-center, .f_box2.col-sm-6.col-xs-7 > div.icob.text-center > a
 gremimedia.pl##.button--social-icon.button
 greywizard.com##.gw-footer__social, .gw-social-widget
+grobonet.com##footer span:has(+ div > a[href*="facebook.com/"])
 gromada.pl##.panel-social-hld
 gromda.tv##.client-bottom-nav__social-links-container
 gromgroup.pl##.soc-right
@@ -4710,6 +4711,7 @@ kakadu.pl##.kakadu_footer h1:has(+ .oxy-social-icons)
 kaktus24.pl###messenger_chat
 kaktus24.pl###social_icon
 kaktus24.pl##.fab-options > li:nth-of-type(n+3)
+kalalunatemple.com.pl##.socicons
 kalbi.pl###fbKalbi
 kalendarzefirmowe24.pl###socb
 kalendarzrolnikow.pl##.box-fc
