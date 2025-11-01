@@ -678,14 +678,12 @@ pl##.cookies-container:not(body, html)
 pl##.cookies-eu:not(body, html)
 pl##.cookies-footer:not(body, html)
 pl##.cookies-info-container:not(body, html)
-pl##body:not(.overflow-hidden) .cookies-info
 pl##.cookies-message:not(body, html, .overflow--scrollY-raw, [class*="seal"])
 pl##.cookies-msg:not(body, html)
 pl##.cookies-notice:not(body, html)
 pl##.cookies-notify:not(body, html)
 pl##.cookies-policy-container:not(body, html)
 pl##.cookies-policy:not(body, html)
-pl##body:not(.overflow-hidden) .cookies-popup
 pl##.cookies-statement:not(body, html)
 pl##.cookies-tab:not(body, html)
 pl##.cookies-warning:not(body, html)
@@ -800,6 +798,8 @@ pl##aside[class*="cookie"]:not([class*="modal" i])
 pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies_tlo"]:not([id], [class])
 pl##body:not(.cookie-opened) #cookie-container
 pl##body:not(.cookie-opened) .cookie-window
+pl##body:not(.overflow-hidden) .cookies-info
+pl##body:not(.overflow-hidden) .cookies-popup
 pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) #ck_dsclr
 pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id][class*="iai_cookie"]
 pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id^="ck_dsclr"][class*="ck_dsclr"]
