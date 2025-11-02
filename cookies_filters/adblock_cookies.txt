@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.2.1
-! Last modified: Sun, 02 Nov 2025, 13:10 UTC+00:00
+! Version: 2025.11.2.2
+! Last modified: Sun, 02 Nov 2025, 16:43 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.2.1 aktualizacja: nie, 02 lis 2025, 13:10 UTC+00:00
+! v.2025.11.2.2 aktualizacja: nie, 02 lis 2025, 16:43 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -139,8 +139,7 @@ ago.pl,askopolska.pl,indigo-nails.com,lodz.pl,mamoo.pl,papercast.pl###banner_coo
 agora.pl,blik.com###cm-overlay.cm-overlay
 agrido.pl,alt.pl,altenberg.pl###wpmagus-consent-manager-dialog-wrapper, .wpmagus-consent-manager-show-consents
 agriexpert.pl,agro-sklep.com,dj24.pl,dragoneye.pl,esklep.info,karmazdostawa.pl,niespodziewajka.com,ogrodniczy.org.pl,otosklep24.pl,sklep-galvet.pl,sklepywww.pl,winoszarnia.pl,zabawki.esklep.info,zamienne.info###privacy-message
-agrii.pl,domusfari.pl,gls-group.eu,hurtowniazabawek.pl,kinder.com###cookiePopup
-agrii.pl,hurtowniazabawek.pl##.cookiesBackground
+agrii.pl,domusfari.pl,gls-group.eu,hurtowniazabawek.pl,kinder.com###cookiePopup, .cookiesBackground
 agrishop.pl,alibiuro.pl,asta-net.pl,domowa.tv,izodom2000.pl,jedynkafryzjerstwo.pl,molkip.pl,print-me.pl,spark.pl,twojezdrowie.pl#?#div[id^="elementor-popup-modal-"]:has-text(/cookies?|rodo|gdpr|ciastecze?ka?/i)
 agristar.pl,edukatorek.pl,greenmouse.pl,sportpoint.pl###gmgdpr-overlay
 agro-bis.eu,eldom.eu###cookie-alert
@@ -2828,7 +2827,7 @@ support.satel.pl##.attention_wall
 support.ubi.com##.message--cookie.message
 surf-chiny.com,surfshark.com##.js-cookies-popup
 surf-chiny.com,surfshark.com##.sticky-cookies-popup
-sweetliving.pl,wkladyznicze.pl###cookie-1.cookie
+sweetliving.pl###cookie-1.cookie
 swiatleku.pl##.body:not(.overflow-hidden) .cookies-popup
 swiatnauki.pl,wiz.pl###menu
 swiatoka.pl##.footerPrivacy__button
@@ -3479,6 +3478,8 @@ pl/tcf/cookie.js$script,domain=pl
 ##div[style*="background:url(images/cookies_tlo.png)"]
 ##div[style*="url(layout/cookies.png)"]
 ##footer ~ .rodo
+##html:not(.show--consent, .show-consent) body:not(.show--consent, .show-consent) .cookie-settings
+##html:not(.show--consent, .show-consent) body:not(.show--consent, .show-consent) div[id*="cc-"]:is(#cc-main, #cc--main)
 ##html:not([style*="overflow"][style*="hidden"]) .cs-cookie-bar-container
 ~pl###actionCooki:not(body, html):lang(pl)
 ~pl###catapult-cookie-bar:not(body, html):lang(pl)
