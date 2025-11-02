@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.2.0
-! Last modified: Sun, 02 Nov 2025, 13:00 UTC+00:00
+! Version: 2025.11.2.1
+! Last modified: Sun, 02 Nov 2025, 13:10 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.2.0 aktualizacja: nie, 02 lis 2025, 13:00 UTC+00:00
+! v.2025.11.2.1 aktualizacja: nie, 02 lis 2025, 13:10 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6643,7 +6643,7 @@ paranienormalni.com##.fa-youtube
 paranormalne.pl##.nopad:nth-of-type(5) > .block_wrap.category_block:nth-of-type(3)
 paranormalne.pl##li:nth-of-type(n+11):nth-of-type(-n+13)
 parasoledlaciebie.pl##.container.userfooter > .row > p:first-child img
-parasoledlaciebie.pl,roydental.pl##.sc_right
+parasoledlaciebie.pl,roydental.pl,zasiejpole.pl##.sc_right
 parenting.pl##.article__footer__share
 parfumdreams.pl##.footer-social-sprites
 pariso.pl##footer #banners_bottom
@@ -8002,6 +8002,7 @@ simplyyourself.pl##a[href*="pinterest.com/"]
 simplyyourself.pl#?#.elementor-widget-heading.elementor-widget.elementor-element > .elementor-widget-container > .elementor-size-default.elementor-heading-title:has-text(mediach społecznościowych)
 simplyyourself.pl#?#.elementor-widget-heading.elementor-widget.elementor-element:has(> .elementor-widget-container > .elementor-size-default.elementor-heading-title:has-text(mediach społecznościowych)) ~ div a[href*=".com/"]
 sinsay.com##div[class*="_socials-container_"]
+sioubiz.pl##.userfooter p.head:nth-of-type(1)
 sip.lex.pl##.footer-social-icons-col
 sip.lex.pl##.wk-footer-nav-list-social
 siriuspro.pl##a[href*="twitter.com/intent/tweet"]
@@ -8647,6 +8648,7 @@ tamron.eu###c7886, #c26665, footer div.col-sm-4:nth-of-type(3) > p
 tania-paczka.net###bottom-social-holder
 taniaksiazka.pl##.YouTube
 taniaksiazka.pl##footer > ul > li > a[href*=".com/"]
+taniauprawa.pl##.socials-container
 tanie-loty.com.pl##.social-links > li:nth-child(-n+5)
 taniefototapety.eu##.sm-panel .sm-gplus:not(:lang(pl))
 taniejdladomu.pl##footgroup6
@@ -9825,6 +9827,7 @@ zarabiam.com###sidebar_block > .tborder:first-of-type, #sidebar_block > .tborder
 zarabiam.com##div[id^="pid"] strong:has(a[href*="likefb"] > img)
 zarabiam.com##div[onclick]:has(a[href*="likefb"] > img)
 zasada-rowery.pl##.social > h3
+zasiejpole.pl##div.footer-group:nth-of-type(4)
 zasmakujradosci.pl###footer_socialMedia
 zastawsamochodu.pl##a[href*="facebook.com/Motopozyczka/"]
 zastawsamochodu.pl##a[href*="linkedin.com/public-profile/settings"]
