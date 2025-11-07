@@ -263,7 +263,7 @@ e-kwiaty.pl###dialog-cookie-privacy
 e-kwiaty.pl,transportgzm.pl##.mdc-dialog-scroll-lock:style(overflow-y: auto !important)
 e-pity.pl##+js(set-cookie, efile-cookie-28, 1)
 e-restauracja.com###modal-rodo
-e-urzad.grodzisk.pl,inpzu.pl,socofe.pzu.pl,www.kayak.pl##.cdk-global-scrollblock, .cdk-cookies-policy-scrollblock:style(position: static !important; overlow: auto !important)
+e-urzad.grodzisk.pl,inpzu.pl,socofe.pzu.pl,www.kayak.pl##.cdk-global-scrollblock[class], .cdk-cookies-policy-scrollblock[class]:style(position: static !important; overflow-y: auto !important)
 e-urzad.grodzisk.pl,socofe.pzu.pl,www.kayak.pl##.cdk-overlay-container
 e-zikoapteka.pl##div.cookies-popup
 e.sanepid.gov.pl##body > div[class^="mui-"] > div[class^="mui-"]:has(> p:has-text(PLIKÓW COOKIE))
@@ -578,7 +578,7 @@ panattonieu.com###image-popup[class*="txt"], #image-popup-bg
 panattonieurope.com###image-popup.txt-popup, #image-popup-bg
 panoramafirm.pl###modal-rodolayer
 pap.pl###papCookieModal, .modal-backdrop
-pap.pl##.modal-open[class]:style(overflow: auto !important; padding-right: 0 !important; margin-right: 0 !important)
+pap.pl##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 parkiet.com,rp.pl###rodo-popup
 patronite.pl##.modal--container:has-text(RODO)
 pay.google.com##.main-footer--cookie.o-container:style(padding-bottom: 0 !important)
@@ -684,7 +684,7 @@ sklep.winkhaus.pl##.amgdprcookie-modal-container.modal-popup ~ .modals-overlay
 sklepdlalekarza.com##.basicLightbox
 sklepyinfo.pl###modal1.modal, .modal-overlay
 sklepztv.pl###cs_preview_popup
-sklepztv.pl##html[style*="overflow"]:style(overflow: auto !important)
+sklepztv.pl##html[style*="overflow"]:style(overflow-y: auto !important)
 skyscrapercity.com,spidersweb.pl##.fc-consent-root
 smokolandia.pl###modalCookie___BV_modal_outer_, #modalHome___BV_modal_outer_
 socialdruk.pl###privacyPolicyModal, .modal-backdrop
