@@ -1,3 +1,13 @@
+hortex.pl##.socials__item
+mamyito.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
+medonet.pl,auto-swiat.pl,onet.pl,plejada.pl##.ods-m-socials-stream > :not(.ods-a-anchor__icon-copy, [href*="wa.me"], [href*="feed"])
+medonet.pl,auto-swiat.pl,onet.pl,plejada.pl##.ods-m-author-xl__socials
+letsmonkey.com##.footer-social-container
+oleole.pl##.footer-contact__link a[href*="facebook.com/"]
+oleole.pl##div.services__serviceItem:has(a[href*="facebook.com/"])
+aliorbank.pl##.social-bar
+klorane.com##a[id^="socialMedia_picto_cta_footer_"]
+pl.phyto.com##.footer-container > div > div:nth-child(2)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -695,10 +705,6 @@ auto-mobil.pl##.f-icon-2, .f-icon-3, .f-icon-4
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-docked"] > [class$="-community"]
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > .chips
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > div.title:first-of-type
-auto-swiat.pl##.fb_share, .version4.bigVersion.onet_ustPlugin_addthis > .box2, .whitelistPremium > div:nth-of-type(4) > .version4.onet_ustPlugin_addthis, .imageWrapper > .socialButtons
-auto-swiat.pl,onet.pl##.social-share > .prefixTitle
-auto-swiat.pl,onet.pl,plejada.pl##.ods-m-socials-icon-stream a[href]:not([href*="feed"])
-auto-swiat.pl,onet.pl,plejada.pl##.ods-o-social-media-share__container a[href*=".com/"]
 auto.pl##.row .row > .social-media:first-child
 autoblog24.pl###execphp-2
 autocentrum.pl,tvn.pl,vela.net.pl##.footer-media
@@ -4772,14 +4778,6 @@ meditrans.pl##.headerMenuMoreButtonsSocial
 medme.pl##.footer__navigation--social
 medme.pl##.medme__header__social
 mednova.pl,novamed.pl###footer-content-social
-medonet.pl##.ods-m-social-media-share a[href*=".com/"]
-medonet.pl##.shareButtons > li.item:first-of-type
-medonet.pl##.site-footer__socials
-medonet.pl##.socialButtons > .item:not([class*="mail"])
-medonet.pl##.socials > li.item:nth-of-type(3)
-medonetmarket.pl##.ftr-find-us, .ftr-find-us ~ a:not([href*="mailto:"])
-medonetmarket.pl##.text.medo-footer-item-social-top-item
-medonetmarket.pl##a.medo-footer-item-social-top-item[href*="facebook.com/"]
 medpak.com.pl###iqithtmlandbanners-block-3
 medpolonia.pl##.helper-yt
 medseven.eu,spawaj.eu##.kac-sm-panel .kac-sm-twitter
@@ -6049,8 +6047,6 @@ playhearthstone.com###socialFooterMount
 playnow.pl##.c-footer__icons.align-right.row > div > .btn
 playstation.com##.bg-style-desktop-inline.pg_sec_overflow.center-align-heading.page-section.backgroundMidSilver:has(.social-icons)
 plebiscyt.przegladsportowy.pl##.headIcons
-plejada.pl##.ods-m-socials-stream a[href*=".com/"]
-plejada.pl##.ods-m-socials-stream a[href*="wa.me"]
 plejada.pl##content-share-top > .fb_share, .social-container > .social, .shareBarBox > .social
 plemiona.pl##.social-media-icons-container
 pleso.me##div.quest_tab:has(a[href*="facebook.com/"])
