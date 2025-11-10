@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.10.0
-! Last modified: Mon, 10 Nov 2025, 02:24 UTC+00:00
+! Version: 2025.11.10.1
+! Last modified: Mon, 10 Nov 2025, 16:50 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.10.0 aktualizacja: pon, 10 lis 2025, 02:24 UTC+00:00
+! v.2025.11.10.1 aktualizacja: pon, 10 lis 2025, 16:50 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -195,6 +195,9 @@ zmianywzyciu.pl###popup_facebook
 ##.footer-box.footer-social-media
 ##.footer_links span[title=""]:has(+ ul[class*="footer_links_sub"] a[href]:is([href*="facebook.com"], [title="Blog"])):style(border: 2px solid red !important; outline: 2px solid gold)
 ##.footer_links_label[title]:is([title^="Bądźmy blisko" i], [title^="Dołącz do nas" i], [title^="Social Media" i], [title="Obserwuj nas" i], [title*="My w sieci" i], [title="BĄDŹMY W KONTAKCIE" i], [title*="Znajdź nas na" i], [title*="Znajdziesz nas na" i])
+##.gc__footer__socials
+##.gc__social__container
+##.gc__watch__us
 ##.rank-math-social-share-buttons > .rank-math-share-button:not(.rm-email)
 ##.sh-copyrights-social
 ##.social-sharing
@@ -1638,7 +1641,6 @@ bagramet.eu##.socialmedia_wid.moduletable
 baj-soft.pl##.share-network-facebook
 bajkowyzakatek.eu###sidebar > #HTML1
 bajm.pl##.icons > a[href*="facebook.com/BAJMpage/"]
-bakeshop.pl,dobre.promo,drogeriaestetic.pl,fhgerman.pl,kwiatowapokusa.com,lumamed.pl,malinowynos.pl,sklepzycia.pl,softmm.com.pl,szczoteczki24.pl,zicoracing.com##.gc__social__container
 bakra.pl##div.like-stopka
 balance.pl##.social-links-wrapper
 balansbox.pl##.ltx-social
@@ -4523,7 +4525,9 @@ interviewme.pl##.footer__sm__wrapper
 interviewme.pl##.social-media__item[title="Share on Whatsapp"]
 interviewme.pl##.Socials__Link--Facebook, .Socials__Link--Instagram, .circle-line--sm
 intibs.pl##.social > ul > li:nth-of-type(-n+2)
+intimissimi.com##.cc-footer-boxTop_contact_title:has(+ .cnt-footer-socials)
 intimissimi.com##.follow-us-footer-box
+intimissimi.com##a.analytic-social-icon-share, .cc-footer-boxTop_followUs_social
 invado.pl##.widget_gs_pin_profile_widget
 invado.pl##.widget_ws_fb_like_box
 investmap.pl###app > div > header ~ div:last-of-type a[class] > svg
@@ -8145,7 +8149,6 @@ sklepsaturn.pl###social > a[href*="facebook.com"]
 sklepwelniany.pl##img[src="/pictures/like.jpg"]
 sklepy.muzyczne.studentnews.pl##nobr:nth-of-type(12), nobr:nth-of-type(13) > .menulnk
 sklepyobuwnicze.pl##table.news:has(td a[href*="facebook.com/"])
-sklepzycia.pl##.gc__watch__us
 sklodowski.com.pl##.footer_link
 sklodowski.com.pl#?#div > h5:has-text(Social media)
 skm.pkp.pl#?#a.round-link:has-text(Facebook)
@@ -8254,7 +8257,6 @@ soczewki365.pl###footer p > a[href*="facebook.com/Soczewki365"]
 sofly.club##.section-slider.banner-11
 sofotel.pl###push_wysuwane_fb, #push_wysuwane_gp
 soft360.pl##div.footer_block.links:nth-of-type(4)
-softmm.com.pl##.gc__footer__socials
 softmm.com.pl##.row.footer > .container.userfooter > .row > p
 softnet.pl##.tsSocial
 softonic.pl##.page-footer__list--social
