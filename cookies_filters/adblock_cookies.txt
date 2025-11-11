@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.10.1
-! Last modified: Mon, 10 Nov 2025, 16:50 UTC+00:00
+! Version: 2025.11.11.0
+! Last modified: Tue, 11 Nov 2025, 02:20 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.10.1 aktualizacja: pon, 10 lis 2025, 16:50 UTC+00:00
+! v.2025.11.11.0 aktualizacja: wto, 11 lis 2025, 02:20 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -3456,6 +3456,7 @@ pl/tcf/cookie.js$script,domain=pl
 ##body > script[src*="cukiernia"] ~ div#cukiernia
 ##body:not(.fancybox-lock) #cookieBackdrop
 ##body:not(.fancybox-lock) .cookify
+##button[onclick="Didomi.preferences.show()"]
 ##ciasteczka:not(body, html)
 ##cookidiv:not(body, html)
 ##div#belkaRodo
