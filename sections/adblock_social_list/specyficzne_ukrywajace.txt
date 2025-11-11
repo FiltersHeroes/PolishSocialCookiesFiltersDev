@@ -1,5 +1,3 @@
-inpost.pl##.header--h4:has(+ .contact--social)
-inpost.pl##.contact--social
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -3592,6 +3590,8 @@ innogy.pl#?#div#footer > .row > .grid-12 > .fluid.container.component:has-text(S
 innovaconcept.pl##a[title="Facebook Osiedle Modeno"]
 ino.online#?##sidebar_main > h5:has-text(Dołącz)
 inpay.pl##.column.wide.six
+inpost.pl##.contact--social
+inpost.pl##.header--h4:has(+ .contact--social)
 inpost.pl##.socials--menu
 inpostpay.pl##.bottom--social
 inpzu.pl##.last.col-footer > p
@@ -4041,7 +4041,7 @@ komorkomat.pl##.social-link a[href]:not([href*="group"])
 komorkomat.pl##.widget_text.col-md-3:nth-of-type(4) > .widgettitle
 komornik-marchaj.pl##.rstpl-social
 kompan.pl##.blog-icon
-kompan.pl,truckcare.pl,ulc.gov.pl,uniqueseo.pl##.icon-linkedin
+kompan.pl,truckcare.pl,ulc.gov.pl,uniqueseo.pl,wirtualnemedia.pl##.icon-linkedin
 komputerswiat.pl##.ods-c-footer__social a[href*="com/"]
 komputerswiat.pl,onet.pl,plejada.pl##div[class*="BigCard_social_"] > span[class*="share"]
 komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##div > a[href*="facebook.com/komputerswiat" i]:has(img)
@@ -8526,7 +8526,6 @@ wiocha.pl##.absurdsharediv, img[src*="img.wiocha.pl/img/facelog.jpg"]
 wir.org.pl##.div-spolecznosc
 wir.org.pl##.menu-wysuwane-1-poziom a[href*="youtube.com/"]
 wirax.pl##.csi-yt.csi
-wirtualnemedia.pl##.icon-linkedin
 wirtualnemedia.pl##.wm-footer-columns > .wm-footer-column:nth-child(4)
 wirtualnemedia.pl##.wm-menumobile-social
 wirtualnemedia.pl##.wm-socialshare-icon::after
