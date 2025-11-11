@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.11.0
-! Last modified: Tue, 11 Nov 2025, 02:20 UTC+00:00
+! Version: 2025.11.11.1
+! Last modified: Tue, 11 Nov 2025, 13:08 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.11.0 aktualizacja: wto, 11 lis 2025, 02:20 UTC+00:00
+! v.2025.11.11.1 aktualizacja: wto, 11 lis 2025, 13:08 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4319,6 +4319,7 @@ wolframalpha.com##footer ~ section
 #@##cookieBackdrop
 #@##gdpr_consent
 #@#.configMessages__footer.configMessages
+#@#.consents
 #@#.cookies-wrapper
 #@#.cookify
 #@#.cs-cookie-bar-container
@@ -4350,7 +4351,6 @@ allecco.pl,aptekadlapacjenta.pl,centrum-apteka.pl,dlapacjenta.pl,e-zikoapteka.pl
 allecco.pl,aptekadlapacjenta.pl,centrum-apteka.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,hiperpharm.pl,leki.pl,mcdonalds.pl,swiatleku.pl,zikoapteka.pl,zikodermo.pl#@#.cookies-popup
 allecco.pl,aptekadlapacjenta.pl,centrum-apteka.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,hiperpharm.pl,leki.pl,mcdonalds.pl,swiatleku.pl,zikoapteka.pl,zikodermo.pl#@#.cookies-popup:not(body):not(html)
 allecco.pl,aptekadlapacjenta.pl,centrum-apteka.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,hiperpharm.pl,leki.pl,mcdonalds.pl,swiatleku.pl,zikoapteka.pl,zikodermo.pl#@#.cookies-popup:not(html):not(body)
-amb.net.pl,amled.pl,audiotop.pl,bakeshop.pl,butoholiczka.pl,cicius.pl,csk-med.pl,dekomotyw.pl,dlabrodacza.pl,fitness-home.pl,fly-desk.com,herbataikawa.pl,homeandgarden24.pl,italwaxpolska.pl,kim24.pl,militarymarket.pl,miodykrupiec.pl,modnakiecka.pl,moskitiery-sklep.pl,mr-gadzet.pl,pandawanda.pl,planszostrefa.pl,pomadziarz.pl,prorowery.pl,questsport.shop,r-kom.pl,remedial.sklep.pl,retio.pl,skarbyroztocza.com,sklepkawa.pl,sklepsativa.pl,sklepzycia.pl,stylion.pl,suprabike.pl,teesa.pl,traffx.pl,wkdzik.pl,wlodekrysuje.com#@#.consents
 apollo.pl#@##cookies_modal
 apollo.pl#@#.cookies__modal
 app.pharmassistant.pl,aptekarz.pl,aptekaszpitalna.pl,farmaceuta.pl,farmacja.edu.pl,farmacja.net,farmacja.pl,farmacja.tv,grupafarmacja.net,mgr.farm,receptura.pl,rx.edu.pl#@#.rodo-modal
