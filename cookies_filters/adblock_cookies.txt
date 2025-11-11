@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.11.1
-! Last modified: Tue, 11 Nov 2025, 13:08 UTC+00:00
+! Version: 2025.11.11.2
+! Last modified: Tue, 11 Nov 2025, 16:49 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.11.1 aktualizacja: wto, 11 lis 2025, 13:08 UTC+00:00
+! v.2025.11.11.2 aktualizacja: wto, 11 lis 2025, 16:49 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -4311,9 +4311,11 @@ wolframalpha.com##footer ~ section
 !
 !
 ! Bugi ELC
+###acceptCookie:not(button)
 ###ba_eu_cookie_law:not(form)
 ###gdpr_consent:not([class*="form"], [class*="module"])
 ##body:not(.sf-lockscroll) .sf-consent
+#@##acceptCookie
 #@##ba_eu_cookie_law
 #@##ck_dsclr_v2
 #@##cookieBackdrop
