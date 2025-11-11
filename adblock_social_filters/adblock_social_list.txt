@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.10.1
-! Last modified: Mon, 10 Nov 2025, 16:50 UTC+00:00
+! Version: 2025.11.11.0
+! Last modified: Tue, 11 Nov 2025, 02:20 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.10.1 aktualizacja: pon, 10 lis 2025, 16:50 UTC+00:00
+! v.2025.11.11.0 aktualizacja: wto, 11 lis 2025, 02:20 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4477,6 +4477,8 @@ innogy.pl#?#div#footer > .row > .grid-12 > .fluid.container.component:has-text(S
 innovaconcept.pl##a[title="Facebook Osiedle Modeno"]
 ino.online#?##sidebar_main > h5:has-text(Dołącz)
 inpay.pl##.column.wide.six
+inpost.pl##.contact--social
+inpost.pl##.header--h4:has(+ .contact--social)
 inpost.pl##.socials--menu
 inpostpay.pl##.bottom--social
 inpzu.pl##.last.col-footer > p
@@ -4934,7 +4936,7 @@ komorkomat.pl##.social-link a[href]:not([href*="group"])
 komorkomat.pl##.widget_text.col-md-3:nth-of-type(4) > .widgettitle
 komornik-marchaj.pl##.rstpl-social
 kompan.pl##.blog-icon
-kompan.pl,truckcare.pl,ulc.gov.pl,uniqueseo.pl##.icon-linkedin
+kompan.pl,truckcare.pl,ulc.gov.pl,uniqueseo.pl,wirtualnemedia.pl##.icon-linkedin
 komputerswiat.pl##.ods-c-footer__social a[href*="com/"]
 komputerswiat.pl,onet.pl,plejada.pl##div[class*="BigCard_social_"] > span[class*="share"]
 komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##div > a[href*="facebook.com/komputerswiat" i]:has(img)
