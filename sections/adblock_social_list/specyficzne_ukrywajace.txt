@@ -1,6 +1,7 @@
 ekoahimsa.pl##.block-social-links
 sklep.prana24.eu###social h5
-sklep.prana24.eu###social h5 ~ a[href]:not([href*="/newsletter"])
+sklep.prana24.eu###social a[href]:not([href*="/newsletter"])
+antyksobieski.pl##.social a[href]:not([href*="/newsletter"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -493,7 +494,7 @@ antyfake.pl,biznesinfo.pl,domekiogrodek.pl,goniec.pl,lelum.pl,pacjenci.pl,portal
 antyfake.pl,biznesinfo.pl,domekiogrodek.pl,goniec.pl,lelum.pl,pacjenci.pl,portalparentingowy.pl,rolnikinfo.pl,smakosze.pl,swiatgwiazd.pl,swiatzwierzat.pl,turysci.pl#?#div[cLass*="footer"] span:has-text(Obserwuj nas)
 antyki-synopsis.pl##.footer-menu .last > .links
 antyki-synopsis.pl,filippo.pl,swarzedz.pl,thefad.pl,zabawkowicz.pl,zyciorysy.pl##.social a[href*=".com/"]
-antyksobieski.pl###social > h5
+antyksobieski.pl##.#social .h5
 antykwariat-filar.pl,jarmarktumski.pl,krisbut.com,reagujratuj.pl,travelpl.pl###sos_fb_slider
 antykwariat-torun.pl#?#.rightcol > div.box:has(> .boxhead:has-text(/Facebook|Twitter|Instagram|Pinterest/))
 antykwariat-zakladka.pl###wrapper-footer div.col-lg:nth-of-type(4)
@@ -6674,8 +6675,7 @@ rakuten.tv##.button--tagged-facebook, .button--tagged-twitter, .button--tagged-p
 randomseed.pl##.footer-links > li > a:not([href^="mailto:"], [href*="index.xml"])
 rankinglekarzy.pl##.rl-socialButtons
 rankomat.pl###footer-menu-col-social
-rapa-sklep.pl,sklepsaturn.pl###social a:not([href*="allegro.pl/"])
-raportesg.allegro.pl##.social-links li:has(> a:not([href*="charytatywni.allegro.pl"]))
+rapa-sklep.pl,sklepsaturn.pl###social a:not([href*="allegro.pl/"], [href*="/newsletter"])
 ratownicy24.pl###kontakt.main-footer .small, #kontakt.main-footer .small ~ a
 ratownicy24.pl##.social-wgt
 ratownik-med.pl#?#div.span6:nth-of-type(2) > div.jm-module:nth-of-type(4):has-text(Profile społecznościowe)
@@ -7221,7 +7221,6 @@ sklepmatejko.pl##body > div > a[href*="instagram.com/"]
 sklepmatejko.pl#?#.footer-4 > p:has-text(ŚLEDŹ)
 sklepmonastyczny.pl##div.myaccount.block:nth-of-type(2)
 sklepogrodniczy.pl##div.banner-info:first-of-type
-sklepsaturn.pl###social > a[href*="facebook.com"]
 sklepwelniany.pl##img[src="/pictures/like.jpg"]
 sklepy.muzyczne.studentnews.pl##nobr:nth-of-type(12), nobr:nth-of-type(13) > .menulnk
 sklepyobuwnicze.pl##table.news:has(td a[href*="facebook.com/"])
@@ -7446,7 +7445,7 @@ sprawy-karne.biz.pl###sow-editor-2 > .so-widget-sow-editor > .textwidget > p:nth
 spreadshirt.pl##.order-lg-3.col-lg-2.col-md-3.col-12.ft-social > div > .row > div.col-12:first-of-type
 spreadshirt.pl##div.col-12:nth-of-type(2) > ul > li:nth-child(-n+4):not(:nth-child(3))
 sprzet-dyskotekowy.pl##.AW_socialSquares > a
-sprzet-fryzjerski.pl###social > a[href*="youtube.com/"]
+sprzet-fryzjerski.pl###social a[href]:not([href*="/newsletter"])
 sps24.pl###baner187
 spshandel.pl###Koszyk > a[href*=".com/"] > img
 spyshop.pl##.info > li.item:nth-of-type(3)
