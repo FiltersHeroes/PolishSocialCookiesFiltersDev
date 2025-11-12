@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.11.2
-! Last modified: Tue, 11 Nov 2025, 16:49 UTC+00:00
+! Version: 2025.11.12.0
+! Last modified: Wed, 12 Nov 2025, 20:43 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.11.2 aktualizacja: wto, 11 lis 2025, 16:49 UTC+00:00
+! v.2025.11.12.0 aktualizacja: śro, 12 lis 2025, 20:43 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1343,7 +1343,8 @@ antyfake.pl,biznesinfo.pl,domekiogrodek.pl,goniec.pl,lelum.pl,pacjenci.pl,portal
 antyfake.pl,biznesinfo.pl,domekiogrodek.pl,goniec.pl,lelum.pl,pacjenci.pl,portalparentingowy.pl,rolnikinfo.pl,smakosze.pl,swiatgwiazd.pl,swiatzwierzat.pl,turysci.pl#?#div[cLass*="footer"] span:has-text(Obserwuj nas)
 antyki-synopsis.pl##.footer-menu .last > .links
 antyki-synopsis.pl,filippo.pl,swarzedz.pl,thefad.pl,zabawkowicz.pl,zyciorysy.pl##.social a[href*=".com/"]
-antyksobieski.pl###social > h5
+antyksobieski.pl##.#social .h5
+antyksobieski.pl##.social a[href]:not([href*="/newsletter"])
 antykwariat-filar.pl,jarmarktumski.pl,krisbut.com,reagujratuj.pl,travelpl.pl###sos_fb_slider
 antykwariat-torun.pl#?#.rightcol > div.box:has(> .boxhead:has-text(/Facebook|Twitter|Instagram|Pinterest/))
 antykwariat-zakladka.pl###wrapper-footer div.col-lg:nth-of-type(4)
@@ -2878,6 +2879,7 @@ doz.pl##.mobile-links__social
 doz.pl##.social--right.social
 doz.pl##div.footer__col:nth-of-type(6)
 dpd.com##div[id^="dpd_social_accounts_"]
+dps-systems.pl##.widget-social-media
 dragon-survival.eu,prawokonsumenckie.pl##footer > div > div > div:nth-of-type(4)
 drama-online.pl,economico.pl,miejscawewroclawiu.pl,naszglospoznanski.pl,tarnow.ikc.pl##.widget_facebook
 dre.pl##.copy__socials
@@ -3143,11 +3145,11 @@ eitc.online###Contact-left-small-r
 ekliniki.pl###sidebar > div.box-blue:nth-of-type(n+5):has(#likebox)
 ekliniki.pl,satkurier.pl##.twitter-share-button
 eko.org.pl##.w3-bar > div.ds-button-roundm
+ekoahimsa.pl,ekogram.pl,kluczesoft.pl,laptopypoznan.pl,pakuten.pl,projektjunior.pl,purina.pl,rozaria.pl,univexim.pl,vica.pl,wesoil.pl,wygodnadieta.pl##.block-social-links
 ekobieca.pl###social_media___buttons
 ekobilet.pl#?#.padtb-3.text-center.container:has-text(Facebooku)
 ekocentryczka.pl##a[href*="bloglovin.com/blog/3487953/ekocentryczka"], a[href*="facebook.com/pages/Ekocentryczkablogspotcom/117663851699094"]
 ekodrogeria.pl##.footer-nav nav:nth-of-type(4)
-ekogram.pl,kluczesoft.pl,laptopypoznan.pl,pakuten.pl,projektjunior.pl,purina.pl,rozaria.pl,univexim.pl,vica.pl,wesoil.pl,wygodnadieta.pl##.block-social-links
 ekologia.pl##.linkWykop, .bi2.bottom-item
 ekologia.pl##.sprite.footer-icon
 ekonomik.olsztyn.pl###facebook_head
@@ -7603,8 +7605,7 @@ rakuten.tv##.button--tagged-facebook, .button--tagged-twitter, .button--tagged-p
 randomseed.pl##.footer-links > li > a:not([href^="mailto:"], [href*="index.xml"])
 rankinglekarzy.pl##.rl-socialButtons
 rankomat.pl###footer-menu-col-social
-rapa-sklep.pl,sklepsaturn.pl###social a:not([href*="allegro.pl/"])
-raportesg.allegro.pl##.social-links li:has(> a:not([href*="charytatywni.allegro.pl"]))
+rapa-sklep.pl,sklepsaturn.pl###social a:not([href*="allegro.pl/"], [href*="/newsletter"])
 ratownicy24.pl###kontakt.main-footer .small, #kontakt.main-footer .small ~ a
 ratownicy24.pl##.social-wgt
 ratownik-med.pl#?#div.span6:nth-of-type(2) > div.jm-module:nth-of-type(4):has-text(Profile społecznościowe)
@@ -8113,6 +8114,8 @@ sklep.polska-zbrojna.pl##footer > div > .row > div.col-md-4:nth-of-type(3)
 sklep.polskieradio.pl###social-block0
 sklep.polskieradio.pl###social-block2
 sklep.powermat.pl###social > .list-group > h5 > a[href="#"]
+sklep.prana24.eu###social h5
+sklep.prana24.eu,sprzet-fryzjerski.pl###social a[href]:not([href*="/newsletter"])
 sklep.rowmot.eu##.sm-panel-prawe .kac-sm-ig:lang(pl)
 sklep.rowmot.eu##.sm-panel-prawe .kac-sm-twitter:lang(pl)
 sklep.sfd.pl##.page-footer__div > div:nth-of-type(5) > :nth-child(-n+6)
@@ -8153,7 +8156,6 @@ sklepmatejko.pl##body > div > a[href*="instagram.com/"]
 sklepmatejko.pl#?#.footer-4 > p:has-text(ŚLEDŹ)
 sklepmonastyczny.pl##div.myaccount.block:nth-of-type(2)
 sklepogrodniczy.pl##div.banner-info:first-of-type
-sklepsaturn.pl###social > a[href*="facebook.com"]
 sklepwelniany.pl##img[src="/pictures/like.jpg"]
 sklepy.muzyczne.studentnews.pl##nobr:nth-of-type(12), nobr:nth-of-type(13) > .menulnk
 sklepyobuwnicze.pl##table.news:has(td a[href*="facebook.com/"])
@@ -8378,7 +8380,6 @@ sprawy-karne.biz.pl###sow-editor-2 > .so-widget-sow-editor > .textwidget > p:nth
 spreadshirt.pl##.order-lg-3.col-lg-2.col-md-3.col-12.ft-social > div > .row > div.col-12:first-of-type
 spreadshirt.pl##div.col-12:nth-of-type(2) > ul > li:nth-child(-n+4):not(:nth-child(3))
 sprzet-dyskotekowy.pl##.AW_socialSquares > a
-sprzet-fryzjerski.pl###social > a[href*="youtube.com/"]
 sps24.pl###baner187
 spshandel.pl###Koszyk > a[href*=".com/"] > img
 spyshop.pl##.info > li.item:nth-of-type(3)
