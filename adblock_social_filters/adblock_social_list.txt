@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.12.0
-! Last modified: Wed, 12 Nov 2025, 20:43 UTC+00:00
+! Version: 2025.11.15.0
+! Last modified: Sat, 15 Nov 2025, 20:40 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.12.0 aktualizacja: śro, 12 lis 2025, 20:43 UTC+00:00
+! v.2025.11.15.0 aktualizacja: sob, 15 lis 2025, 20:40 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2627,6 +2627,7 @@ ddwlkp.pl##.kolumnasocial
 ddwlkp.pl##div.centerr.citymain:nth-of-type(3) > .blue.headercenter
 deagostini.com##.deaSocialBarIcons p
 deagostini.com##div:nth-of-type(3) > .box-standard.item:has(.community)
+dealsy.pl##div[class*="socials_"]
 dealz.pl##.mega-menu__socials
 dealz.pl##.product-content__share
 dealz.pl#?#.elementor-location-footer.elementor .elementor-widget-heading:has-text(Śledź nas)
@@ -4497,6 +4498,7 @@ insomnia.pl##.facebook_inso
 instaling.pl##.page-footer h3:nth-of-type(2)
 instalki.pl###instalki_header_search_section ~ .site-search-social
 instalki.pl##.instalki_header_search_section ~ .site-search-social
+instant-gaming.com##.media-listing > h3
 instytutcyber.pl,shootingcracow.com###qlwapp.qlwapp
 instytutenter.pl,polontex.com.pl,sklep-kwiecisty.pl,telestrop.pl##.csocial-link
 instytutleczeniabolu.pl,kokardka.pl,toruntv.pl###facebook_pan
@@ -5135,7 +5137,8 @@ kulig.pl##div.homeheader.centerheader:has(~ #karuzela)
 kulinarnastronamocy.pl##.stnsvn-social-icons
 kulinarne.info##div.p-3.col-md-4:first-of-type > div.text-center > a[href]:not([href$="/feed"])
 kulinarni.tvn.pl##.findUsText
-kupbilecik.pl##a.btn[onclick*="pinterest.com"]
+kupbilecik.pl##a[onclick*="facebook.com/share"]
+kupbilecik.pl##a[onclick*="pinterest.com/"]
 kupbilet.pl##.tabslideFB
 kupbuty.com###menu_banners3
 kupcochcesz.pl###ikonki a[href*=".com/"]
@@ -7072,6 +7075,7 @@ polityczek.pl##.Menu.moduletable
 polityka.co.pl##.btn-share.btn:not(.btn-whatsapp)
 polityka.pl##.cg_article_toolbox_share, .cg_footer_share_icons
 politykabezpieczenstwa.pl##footer > div > div > div > .list-inline > li > a:not([href*="/feed"])
+politykazdrowotna.com##.share__social:has(#webshareapiButton)
 polmax.com.pl###rightbar_6
 polnapol.com.pl##ul[aria-label="Pasek społecznościowy"] > li:nth-of-type(n+2):nth-of-type(-n+4)
 polnews.co.uk###navmenu > .menu > .item148
@@ -8516,6 +8520,8 @@ super-soco.pl##.footer__col-social
 superauto24.com##.home > .cr > .params > div.smframe:nth-of-type(11)
 superauto24.com##div.smframe:nth-of-type(9), div.smframe:nth-of-type(10)
 superauto.pl##.footer__center--media > .footer__title
+superbo.pl##footer a[href*=".com/"]:is([href*="instagram.com"], [href*="tiktok.com"])
+superbo.pl##footer div[data-framer-name="Icon"]:has(+ div a[href*=".com/"]:is([href*="instagram.com"], [href*="tiktok.com"]))
 superkoszyk.pl,ustawlige.com##.menu-item-facebook
 supermedia.pl##.userfooter > .row > p > span[style^="color"]
 supermemo.pl###block-block-42 > .content > h4, #profiles
