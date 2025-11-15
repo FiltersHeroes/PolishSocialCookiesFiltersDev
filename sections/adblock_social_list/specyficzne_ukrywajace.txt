@@ -1,3 +1,11 @@
+kupbilecik.pl##a[onclick*="facebook.com/share"]
+politykazdrowotna.com##.share__social:has(#webshareapiButton)
+politykazdrowotna.com##.go-back
+politykazdrowotna.com##:matches-media((max-width: 768px)) a[title="Kliknij żeby dodać komentarz do tekstu"]
+instant-gaming.com##.media-listing > h3
+dealsy.pl##div[class*="socials_"]
+superbo.pl##footer a[href*=".com/"]:is([href*="instagram.com"], [href*="tiktok.com"])
+superbo.pl##footer div[data-framer-name="Icon"]:has(+ div a[href*=".com/"]:is([href*="instagram.com"], [href*="tiktok.com"]))
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -4239,7 +4247,7 @@ kulig.pl##div.homeheader.centerheader:has(~ #karuzela)
 kulinarnastronamocy.pl##.stnsvn-social-icons
 kulinarne.info##div.p-3.col-md-4:first-of-type > div.text-center > a[href]:not([href$="/feed"])
 kulinarni.tvn.pl##.findUsText
-kupbilecik.pl##a.btn[onclick*="pinterest.com"]
+kupbilecik.pl##a[onclick*="pinterest.com/"]
 kupbilet.pl##.tabslideFB
 kupbuty.com###menu_banners3
 kupcochcesz.pl###ikonki a[href*=".com/"]
