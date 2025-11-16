@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.15.0
-! Last modified: Sat, 15 Nov 2025, 20:40 UTC+00:00
+! Version: 2025.11.16.0
+! Last modified: Sun, 16 Nov 2025, 14:23 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.15.0 aktualizacja: sob, 15 lis 2025, 20:40 UTC+00:00
+! v.2025.11.16.0 aktualizacja: nie, 16 lis 2025, 14:23 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1967,7 +1967,6 @@ mohito.com,superkoszyk.pl###widget-cookie-message
 moj.tauron.pl##.contact-box:last-child > div:last-child > div:only-child > p:only-child:has(a[href*="/polityka-plikow-cookie"] ~ a[href*="/polityka-prywatnosci"])
 mojabudowa.pl###cookie_regulamin
 mojavon.pl##.mpp-container > .mpp-popup
-moje-dzialdowo.pl##footer ~ .v-dialog
 mojehobby.pl###_message-footer-close.message-footer-panel:has(a[onclick^="AcceptAllCookies("])
 mojeppk.pl###main > div[class]:not([id]):has(> div[class]:not([id]) > div[class]:not([id]) > img[src*="Cookies."])
 mojeuslugi.pl##.footer ~ div.text-center.fixed
@@ -4472,8 +4471,8 @@ dominospizza.pl#@#aside[class*="Cookie"]
 drogeriapigment.pl,parkiet.com,rp.pl#@##rodo-popup:not(body, html, .fade, .modal)
 ebilet.pl#@##cookies-overlay:not(body, html)
 ebilet.pl,orange.pl#@##cookies-info:not(body, html)
+effector.pl,f5.pl,hiperpharm.pl,leki.pl,mcdonalds.pl,revolutionrace.pl,swiatleku.pl,zikoapteka.pl,zikodermo.pl#@#.cookie-popup:not(body, html)
 effector.pl,f5.pl,hiperpharm.pl,leki.pl,mcdonalds.pl,swiatleku.pl,zikoapteka.pl,zikodermo.pl#@##cookie-popup:not(body, html)
-effector.pl,f5.pl,hiperpharm.pl,leki.pl,mcdonalds.pl,swiatleku.pl,zikoapteka.pl,zikodermo.pl#@#.cookie-popup:not(body, html)
 elavon.pl#@#.cookiePolicy:not(.reveal, body, html)
 electrolux.pl,senda.pl#@#.CookieConsent:not(body, html)
 eurogamer.pl#@##optanon:not(body, html)
