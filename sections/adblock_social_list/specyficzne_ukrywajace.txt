@@ -13,7 +13,6 @@
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
 ~1login.wp.pl,money.pl,moneyv.wp.pl,o2.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 ~azure.microsoft.com,microsoft.com##div[id^="socialfollow-"]
-wp.pl,~www.wp.pl##.social-links a
 2kc.pl##.container.userfooter > .row > div > a[href*=".com/"]
 2msystem.pl##.sidebar__social
 2plus3d.pl###menuItem_facebook
@@ -8642,6 +8641,7 @@ worldbox.pl##footer a[href="/pl"] ~ div:not([class], [id], [style])
 worldcam.pl##li > a[href*="facebook.com/worldcampl/"]
 worldcat.org###soclinks > li > a:not([href="#"])
 wozniki.pl##a[href*="facebook.com/umwozniki"]
+wp.pl,~www.wp.pl##.social-links a
 wpolityce.pl##.publication .forum-closed:has(> ul > li > a[href*="facebook.com/"])
 wpolityce.pl##[id*="LinkArea"] > .article-sm__item--title, .js-facebook-share.article-sm__item--fb, .js-twitter.article-sm__item--twitter
 wpolityce.pl##footer a[href*="twitter.com/wpolityce_pl"], footer a[href*="facebook.com/wPolityce/"]
