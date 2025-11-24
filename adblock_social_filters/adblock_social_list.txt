@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.24.0
-! Last modified: Mon, 24 Nov 2025, 02:28 UTC+00:00
+! Version: 2025.11.24.1
+! Last modified: Mon, 24 Nov 2025, 20:41 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.24.0 aktualizacja: pon, 24 lis 2025, 02:28 UTC+00:00
+! v.2025.11.24.1 aktualizacja: pon, 24 lis 2025, 20:41 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -856,7 +856,6 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
 ~1login.wp.pl,money.pl,moneyv.wp.pl,o2.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 ~azure.microsoft.com,microsoft.com##div[id^="socialfollow-"]
-~fitness.wp.pl,wp.pl,~www.wp.pl##.social-links a
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl###fb-root:lang(pl)
 ~pl###whatsapp-chat-footer:lang(pl)
@@ -3578,8 +3577,6 @@ fitking.pl##.fk-face-div
 fitking.pl##.footer-column-5
 fitmedica.pl##.tophead-social
 fitness.shop.pl##.col-smb-12.col-sms-6.col-md-3.col-sm-3.f-col4.f-col
-fitness.wp.pl##.footer-data__social
-fitness.wp.pl##.social-links a:not(.icon-mail, .link-comments)
 fitnesstrening.pl##.menu_button_wrapper > .specialgfx.footer_links_sub > li.m4gfx > h3 > a[href*=".com/"]
 fitnessworld.com##.footer__social__box > p
 fitprofit.pl###likedin
@@ -9596,6 +9593,7 @@ worldbox.pl##footer a[href="/pl"] ~ div:not([class], [id], [style])
 worldcam.pl##li > a[href*="facebook.com/worldcampl/"]
 worldcat.org###soclinks > li > a:not([href="#"])
 wozniki.pl##a[href*="facebook.com/umwozniki"]
+wp.pl,~www.wp.pl##.social-links a
 wpolityce.pl##.publication .forum-closed:has(> ul > li > a[href*="facebook.com/"])
 wpolityce.pl##[id*="LinkArea"] > .article-sm__item--title, .js-facebook-share.article-sm__item--fb, .js-twitter.article-sm__item--twitter
 wpolityce.pl##footer a[href*="twitter.com/wpolityce_pl"], footer a[href*="facebook.com/wPolityce/"]
