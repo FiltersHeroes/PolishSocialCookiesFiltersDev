@@ -1007,7 +1007,7 @@ bithub.pl##.st-wykop, .st-steemit
 bitrix24.pl##.footer-social-network
 bitserwis.com.pl###node-490
 bitwarden.com##a[href*="/share?"]
-bitwarden.com##footer a[href]:not([href*="bitwarden.com"], [href*="github.com/"]) span[data-name^="bwi-"]
+bitwarden.com##footer a[href]:not([href*="bitwarden.com"], [href*="github.com/"]):has(span[data-name^="bwi-"])
 biuronet.com##.fb-text
 biuroprasowe.pl###share_cont
 biuroprasowe.pl##.clr:has(~ #share_cont)
