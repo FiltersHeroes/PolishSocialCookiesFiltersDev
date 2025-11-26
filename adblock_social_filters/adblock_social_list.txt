@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.11.25.0
-! Last modified: Tue, 25 Nov 2025, 02:20 UTC+00:00
+! Version: 2025.11.26.0
+! Last modified: Wed, 26 Nov 2025, 23:09 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.11.25.0 aktualizacja: wto, 25 lis 2025, 02:20 UTC+00:00
+! v.2025.11.26.0 aktualizacja: śro, 26 lis 2025, 23:09 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1875,7 +1875,7 @@ bithub.pl##.st-wykop, .st-steemit
 bitrix24.pl##.footer-social-network
 bitserwis.com.pl###node-490
 bitwarden.com##a[href*="/share?"]
-bitwarden.com##footer a[href]:not([href*="bitwarden.com"], [href*="github.com/"]) span[data-name^="bwi-"]
+bitwarden.com##footer a[href]:not([href*="bitwarden.com"], [href*="github.com/"]):has(span[data-name^="bwi-"])
 biuronet.com##.fb-text
 biuroprasowe.pl###share_cont
 biuroprasowe.pl##.clr:has(~ #share_cont)
@@ -5018,6 +5018,9 @@ koszykowkanawozkach.pl,pieniadzeiprawo.pl,wieczorpomorze.pl###fblbx
 kotkowicz.pl##.widget_apsc_widget, .widget_ws_fb_like_box
 kotlet.tv##.footer > .text-center > ul > li:nth-of-type(5)
 kotlinanatury.pl##.footer-top div.col + div.col > h4:nth-of-type(2)
+kotuszkowo.pl##.state-fb-pop-up
+kotuszkowo.pl##div.wp-block-image:has(img[src*="media.jpg"])
+kotuszkowo.pl##div.wp-block-image:has(img[src*="media.jpg"]) + p
 koziafarma.pl##footer#footer > div.top-footer > div.et-container
 kozienice24.pl,lipsko24.pl##img[src="images/index_t.png"], img[src="images/index_f.png"]
 koziolekweb.pl##.contact-links a:not(.RSSLink)
@@ -8644,6 +8647,7 @@ t-mobile.pl##footer .ods-typography-body-m-bold:has(+ ul li a[aria-label*="faceb
 tabelaofert.pl###fb_likebar .ng-sz-right
 tabelaofert.pl##.footer-icon-box a
 tabele-kalorii.pl###fb-likebox-my
+tabletowo.pl###mob-bot-share.mob-bot-share
 tabletowo.pl##.menu-icon-fb, .menu-icon-tw, .menu-icon-insta, .menu-icon-yt, .tipi-i-tiktok
 tabletowo.pl##.tipi-tip.author-icon
 tablica-rejestracyjna.pl###fbutton-container
