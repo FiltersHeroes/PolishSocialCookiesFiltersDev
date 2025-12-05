@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.12.2.0
-! Last modified: Tue, 02 Dec 2025, 20:46 UTC+00:00
+! Version: 2025.12.5.0
+! Last modified: Fri, 05 Dec 2025, 20:44 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.12.2.0 aktualizacja: wto, 02 gru 2025, 20:46 UTC+00:00
+! v.2025.12.5.0 aktualizacja: pią, 05 gru 2025, 20:44 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1119,7 +1119,7 @@ agronews.com.pl,eurowizja.org,gazetaregionalna.com,gizycko.info,kurier-kolejowy.
 agroperfekt.pl##.rssocial-custom-icon[href*="instagram.com/"]
 agroperfekt.pl,apolanka.pl,bona-ppetit.pl,kam-tech.com.pl,mckenzie.pl,owbaltyk.pl,rolpolopalenica.pl,rozruch-startgum.pl##.rssocial-facebook-icon
 agroperfekt.pl,czemarol.pl,materialybudowlanekrokowa.pl,owbaltyk.pl##.rssocial-youtube-icon
-agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekipatonosi.pl,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,forums.lenovo.com,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,naszaklasa.app,netgear.com,nowa.wbp.lodz.pl,one.greeneris.com,papatka.pl,pekao.com.pl,pieknoumyslu.com,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,saketos.pl,sklep.miod.com.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
+agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekipatonosi.pl,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lenovo.com,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,naszaklasa.app,netgear.com,nowa.wbp.lodz.pl,one.greeneris.com,papatka.pl,pekao.com.pl,pieknoumyslu.com,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,saketos.pl,sklep.miod.com.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
 agrosiec.pl##.fixed > a[href*=".com/"][target="_blank"]
 agrosimex.pl##.icon-Youtube
 agrosimex.pl##a.social-icon
@@ -2807,6 +2807,8 @@ dobropolski.com##.bot-social
 dobryfarmer.pl##a[title="Facebook"] img
 dobrzynska.wroc.pl###divBottomRight > a > img
 dociekliwa.pl##.SMYouTubesubscribe_Widget
+docs.wisniowski.pl##div.MuiGrid-root > div[style]:not([class]) + div[style] > a[href*=".com/"] > svg[data-testid*="Icon"]
+docs.wisniowski.pl##div.MuiGrid-root > div[style]:not([class]):has(+ div[style] > a[href*="facebook.com/"] > svg)
 doctorgun.eu###box-18
 dodadeau.com###block-14
 dodadeau.com##.element-social-inner-wrap
@@ -5281,10 +5283,7 @@ lemonpixel.pl###footer > .col1_3Wrap.wrap > div.col1_3:nth-of-type(2)
 lenalighting.pl##.jj_sl_linkedin, .jj_sl_custom2
 lenartowiczclinic.pl##footer > div > .row > .text-right > h2
 lencze.eu##.item-185
-lenovo.com##.m-footerSocial__Icon:not(.footerForumsIcon)
-lenovo.com,~www.lenovo.com##h3[t="Stay in touch|Stay in touch"], h3[t="Stay in touch|Stay in touch"] + ul
-lenovozone.pl##.social > li > a
-lenovozone.pl##.social > li:nth-of-type(5) > a[href*="linkedin.com/company/lenovo"], .social-right-widget
+lenovo.com##.social_icon
 leoexpress.com##footer ul > li > a[target="_blank"]
 leroymerlin.pl##.our-channels
 leroymerlin.pl##[data-cerberus="ELEM_socialPictos"]
@@ -6009,8 +6008,7 @@ mr-gadzet.pl###box_custom86
 mr-gadzet.pl,pilkanozna.pl###spolecznosciowe
 mragowo.pl##div[class*="footer"] > .container > .row[class*="footer"] > div:nth-of-type(2)
 ms.pl#?#body > div ~ div section h6:has-text(/(Podziel się|Odwiedź nas)/)
-mtv.pl##a[href*="facebook.com/MTVPolska"]
-mtv.pl##a[href="/newsy/96672-zajrzyj-na-snapchata-mtv"]
+mtv.pl##a[href*=".com/"][id*="home"]
 mtv.pl##footer ul > li > a[aria-label^="Follow on "]
 mubi.pl##.social-el-list
 mubi.pl##footer .menu-item:has(a[href*="facebook.com"])
@@ -7565,6 +7563,10 @@ radiokampus.fm##.socjalne
 radiokierowcow.pl##footer div[class*="ShareSocial"] > :nth-child(-n+2)
 radiolodz.pl##a[rel="me noopener"][target="blank"]
 radioluz.pwr.edu.pl##.top-menu__social
+radionaukowe.pl##.footer__container > div > div:nth-child(3) > :nth-child(+ n+3):nth-child(-n+4)
+radionaukowe.pl##.podcast-card__options-share
+radionaukowe.pl##.podcast-social-media
+radionaukowe.pl##.post-share__heading
 radionowyswiat.pl##a[href*="youtube.com/channel/UC1OOVi3lbKsbIkdajxm1XDg"], a[href*="facebook.com/RatujmyTrojke/"], a[href*="twitter.com/ratujmytrojke"]
 radioolsztyn.pl##.social_cont[id], #footer_col2
 radioony.fm###element_13, #element_43, #element_44, #element_45, #element_46, #element_47
@@ -8549,7 +8551,6 @@ support.garmin.com##.sp__quick-links__social-links
 support.github.com##footer a[href*="twitch.tv/"]
 support.kaspersky.com##.footerLinkWrap:first-of-type p:nth-of-type(n+7):nth-of-type(-n+9)
 support.kaspersky.com##.socials-b2b
-support.lenovo.com##.footer-top > ul.list-inline > li > a
 support.mozilla.org##.mzp-c-footer-links-social
 support.wdc.com##div.footer-upper:nth-of-type(4)
 supreme.dre.pl##.footer_socials_wrap > a:not([href^="https://dre.pl"])
@@ -9512,6 +9513,7 @@ wirtualnyspac3r.pl###footerGroupLayer_pl ~ #element_2169
 wirtualnyspac3r.pl###footerGroupLayer_pl ~ #element_2171
 wirtualnyspac3r.pl###footerGroupLayer_pl ~ #element_2174
 wisla.pl###right-buttons a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
+wisniowski.pl,www.wisniowski.pl###footer > div > div:first-child > div:first-child > div > div > a[href*=".com/"] > svg
 wiszniowka.pl##.instagram-section, a[href*="facebook.com/Wiszniowka/"]
 wit.com.pl##.navbar-nav.nav > li:nth-of-type(2)
 witek.pl###rightbar a[href*=".com/"]
