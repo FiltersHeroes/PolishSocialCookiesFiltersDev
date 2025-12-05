@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.12.1.0
-! Last modified: Mon, 01 Dec 2025, 20:40 UTC+00:00
+! Version: 2025.12.5.0
+! Last modified: Fri, 05 Dec 2025, 20:44 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.12.1.0 aktualizacja: pon, 01 gru 2025, 20:40 UTC+00:00
+! v.2025.12.5.0 aktualizacja: pią, 05 gru 2025, 20:44 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -380,8 +380,6 @@ becek.pl###preloadm-rodo, #preloadb
 bechtle.com##.neo-footer__cookieBar
 bee.pl###floating_cookie_container
 beesafe.pl###root > div > div > div > .MuiGrid-root.container:only-child:has(a[href*="/polityka-prywatnosci/"])
-behance.net,canon.pl,dell.com,eu.crucial.com,ge.com,knorr.pl,lipton.com,mcafee.com,mtv.pl,pl.fotolia.com,playstation.com,przepisy.pl,rexona.com,vmware.com##div#_evidon-background.evidon-background:lang(pl)
-behance.net,canon.pl,dell.com,eu.crucial.com,ge.com,knorr.pl,lipton.com,mcafee.com,mtv.pl,pl.fotolia.com,playstation.com,przepisy.pl,rexona.com,vmware.com##div#_evidon_banner.evidon-banner:lang(pl)
 bejeans.pl,hael.pl###js-cookienotice
 bekoczesci.pl##.noty_alert.noty_bar
 bellanapoli.com.pl##.dialog-cookie
@@ -599,6 +597,8 @@ camprest.com##div[class*="CookiesModal_CookiesModal__wrapper_"]
 canalplus.com###privacy-manager
 canalpluskuchnia.pl##.rodoLayer
 cannondalebikes.pl,gtbicycles.pl###cookie_eu_bar
+canon.pl,dell.com,knorr.pl,lipton.com,mcafee.com,playstation.com,przepisy.pl,rexona.com,vmware.com##div#_evidon-background.evidon-background:lang(pl)
+canon.pl,dell.com,knorr.pl,lipton.com,mcafee.com,playstation.com,przepisy.pl,rexona.com,vmware.com##div#_evidon_banner.evidon-banner:lang(pl)
 canva.com###root main ~ div:last-child:has(> div > div > span > [href="https://about.canva.com/terms-of-use/"] ~ [href="https://about.canva.com/cookies-policy/"])
 canva.com##div[aria-live="polite"]:has(> div span a[href*="/policies/cookies-policy/"])
 capap.gugik.gov.pl,geoportal.gov.pl,geotec.pl,gispartner.pl,~mapy.geoportal.gov.pl,radlin.pl,wir.wody.gov.pl###saycookie
@@ -860,7 +860,6 @@ dotrelations.pl##.policy__wrapper
 dotsport.pl##.cookie-nav
 douglas.pl##.rd__cookie-bar
 dowhan-nieruchomosci.pl###cookies_text
-downdetector.pl##.evidon-consent-button:lang(pl)
 dpslubuczewo.pl,gastromaniacy.pl,idhosting.pl,instytutlogopedyczny.pl,sggik.pl###flash-msg
 dreamjump.pl##.CookieMonster
 dreammachines.pl###qkies_info
@@ -1068,8 +1067,6 @@ etipolam.com.pl##.ico-wrapper
 etoto.pl,fuksiarz.pl,totalbet.pl##.cookiesComponent
 ettoi.pl,wirtualis.pl###info_content
 eu.alcatelmobile.com,start.me##.cookiebar
-eu.community.samsung.com###custom-header-cookie
-eu.crucial.com##[lang*="en-pl"] div#_evidon_banner.evidon-banner
 eura7.com,wzorcowniawloclawek.com###cookie-info-layer
 eurid.eu###cookie-notification-content
 euro26.pl###popup, #fade
@@ -1155,7 +1152,7 @@ firmypolskie.pl##.consent-privacy
 fit.pl##.rodo-show
 fitfood.pl#?##app > #wrapper > div[class]:not([id]):has-text(plików cookie)
 fitomento.com##.navbar-inner
-fiveoclock.eu,ikonka.eu,nessi-sport.com,oko.press,pl-pl.segway.com,pl.tradingview.com,worldcam.live##.cookie-message
+fiveoclock.eu,ikonka.eu,lenovo.com,nessi-sport.com,oko.press,pl-pl.segway.com,pl.tradingview.com,worldcam.live##.cookie-message
 fivesport.pl###rodo_delivery_container, .rodo_background
 flegamax.pl##.popup-wrapper--cookies
 flex.orange.pl##div[id^="CookiesPopup_cookies-popup_"]
@@ -1741,6 +1738,7 @@ lekarz.znanylekarz.pl###footer-baner
 leki.pl###zc-popup-cookies
 lekkoatletykadlakazdego.pl,personnelsolutions.pl##div[style^="background"][style*="position: absolute"]
 lektury.gov.pl##message-box[storage-key="'cookies-accepted'"]
+lenovo.com##div:lang(pl) ~ div#_evidon-barrier-wrapper
 leo.org,mojewypieki.com##.as-oil[data-qa="oil-Layer"] > .as-oil-content-overlay
 leoexpress.com##body > #__next > footer + div.sc-1oi3yor-0
 lepolek.pl###app main #see_user_notification_wrapper ~ div[class*=" "]:not([id]):has(> div > div > img[src^="/ciastko."])
