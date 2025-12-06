@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.12.5.0
-! Last modified: Fri, 05 Dec 2025, 20:44 UTC+00:00
+! Version: 2025.12.6.0
+! Last modified: Sat, 06 Dec 2025, 02:17 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.12.5.0 aktualizacja: pią, 05 gru 2025, 20:44 UTC+00:00
+! v.2025.12.6.0 aktualizacja: sob, 06 gru 2025, 02:17 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -7211,6 +7211,7 @@ porsche.pl##.b-sharepanel
 porsche.pl##.m-03-social-headline
 porscheinterauto.pl##a[href*="facebook.com/PorscheInterAutoPL/"], .c-article > .o-container.c-section > .o-flex-gaps.o-flex-md > div:first-of-type
 porta.com.pl##.foot a[href*="pinterest.com/"]
+porta.com.pl##.newsletter--section > div > div.advertisement--container > :nth-child(-n+2)
 porta.com.pl##.social-box > h3
 porta.com.pl##.social-icon.icon-youtube-play
 porta.com.pl##.social_bttn_pinterest_wrapper
