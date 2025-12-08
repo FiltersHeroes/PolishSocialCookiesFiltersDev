@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.12.7.0
-! Last modified: Sun, 07 Dec 2025, 02:33 UTC+00:00
+! Version: 2025.12.8.0
+! Last modified: Mon, 08 Dec 2025, 20:46 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.12.7.0 aktualizacja: nie, 07 gru 2025, 02:33 UTC+00:00
+! v.2025.12.8.0 aktualizacja: pon, 08 gru 2025, 20:46 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2664,6 +2664,7 @@ delikatesy.pl##.download-app__icons-desktop
 delikatesy.pl##.download-app__icons-mobile
 delikatesy.pl##.ft_item:nth-of-type(3)
 delikatesyazjatyckie.pl###panel2
+delikatesyemis.pl##.footer-col > .title:has(+ .social-footer)
 delimano.pl,dormeo.pl,topshop.pl,walkmaxx.pl##.fn-social, .fnSocial
 dell.com##.social-sharing-icon
 dellpoint.pl##.userfooter > .row > p > a
@@ -3255,6 +3256,7 @@ enerad.pl,fashionbiznes.pl,kluczebezpieczenstwa.pl,pizzeria-alforno.pl,psycholog
 energylandia.pl##.el-social-footer, .floating-facebook-button
 eneris.pl,wste.edu.pl##.social_menu
 enfamil.pl##.float-app:nth-of-type(3), .float-fb:nth-of-type(4)
+enform.pl##.ast-footer-social-wrap
 enger.pl##.widget_cyberdom_core_social_icons_group
 enova.pl##.ipb-layout__footer-row-socials
 enowiny.pl##li > a[href*="facebook.com/"]
@@ -11089,6 +11091,7 @@ downdetector.pl,masterchef.tvn.pl#@#a[title="Instagram"]
 esklep-porta.pl#@#.fa-linkedin
 esklep-porta.pl,pb.pl#@#.linkedin
 grojanteam.pl,media2.pl#@#.fa-facebook-square
+hellozdrowie.pl#@##cookiescript_injected:not(body, html)
 linuxportal.pl#@#a.like
 make-cash.pl,pecetowicz.pl,samequizy.pl,swiatebookow.pl#@#.fa-facebook-official
 onet.pl,plejada.pl#@#.Instagram
