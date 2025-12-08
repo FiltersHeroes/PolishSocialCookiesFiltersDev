@@ -811,6 +811,7 @@ pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id][class*="
 pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id^="ck_dsclr"][class*="ck_dsclr"]
 pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id^="iai_cookie"][class*="iai_cookie"]
 pl##body:not([style*="overflow"]) #CybotCookiebotDialog
+pl##body:has(#CybotCookiebotDialog.CybotCookiebotDialogActive)::after
 pl##div#cook
 pl##div#cookiepopupdiv
 pl##div#footer-cookies
