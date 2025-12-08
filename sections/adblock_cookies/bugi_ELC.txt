@@ -1,9 +1,7 @@
-@@||cdn.cookie-script.com^$script,xmlhttprequest,domain=hellozdrowie.pl
-hellozdrowie.pl#@##cookiescript_injected_wrapper
-##.eu-cookie-bar-notification ~ .toggle-panel-overlay
 ###acceptCookie:not(button)
 ###ba_eu_cookie_law:not(form)
 ###gdpr_consent:not([class*="form"], [class*="module"])
+##.eu-cookie-bar-notification ~ .toggle-panel-overlay
 ##body:not(.sf-lockscroll) .sf-consent
 #@##acceptCookie
 #@##ba_eu_cookie_law
@@ -27,6 +25,7 @@ hellozdrowie.pl#@##cookiescript_injected_wrapper
 @@/wpjslib-stat.js$domain=nauka.rocks
 @@||assets.jimstatic.com/ckies.js$script,domain=beltone-polska.pl
 @@||assets.jimstatic.com/cookieControl.js$script,domain=beltone-polska.pl
+@@||cdn.cookie-script.com^$script,xmlhttprequest,domain=hellozdrowie.pl
 @@||cdn.cookielaw.org^$domain=rossmann.pl
 @@||cmp.inmobi.com^$domain=aszdziennik.pl|dadhero.pl|innpoland.pl|mamadu.pl|natemat.pl|topnewsy.pl
 @@||sdk.privacy-center.org/*/loader.js$script,domain=bonduelle.pl
@@ -67,6 +66,7 @@ grupabiwakowa.pl,nowymarketing.pl#@##cmplz-cookiebanner-container
 grupabiwakowa.pl,nowymarketing.pl#@##cmplz-manage-consent
 grupabiwakowa.pl,nowymarketing.pl#@#.cookie-statement
 grupapsb.com.pl#@#.cookies-footer
+hellozdrowie.pl,uptodown.com#@##cookiescript_injected_wrapper
 horecanet.pl#@##gdpr-cookie-consent-bar
 horecanet.pl#@##gdpr-popup
 horecanet.pl#@#.gdpr-popup
@@ -105,6 +105,5 @@ tesa.com##.-lock-overlay body::after
 tesa.com#@#div.cookie-notice
 uniabracka.pl#@##cookie-container
 uniabracka.pl#@#.cookie-window
-uptodown.com#@##cookiescript_injected_wrapper
 vod3.pl#@##cookie-banner
 zus.pl#@#div.cookie-consent-modal
