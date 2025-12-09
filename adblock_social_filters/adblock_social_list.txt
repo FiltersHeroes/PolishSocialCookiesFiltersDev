@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.12.9.0
-! Last modified: Tue, 09 Dec 2025, 02:24 UTC+00:00
+! Version: 2025.12.9.1
+! Last modified: Tue, 09 Dec 2025, 20:41 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.12.9.0 aktualizacja: wto, 09 gru 2025, 02:24 UTC+00:00
+! v.2025.12.9.1 aktualizacja: wto, 09 gru 2025, 20:41 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4993,6 +4993,7 @@ kopalniawiedzy.pl##.ui-helper-clearfix.box.articles:nth-of-type(4)
 koraliki.pl###footer div.col-sm-3:first-of-type
 korbanek.pl##.social-icons > li:not(:last-child)
 korczyksport.pl##.elementor-button[href*=".com/"]:is([href*="facebook.com"], [href*="instgram.com"])
+korekto.pl,naszenaturalne.pl##.elementor-share-btn:not(.elementor-share-btn_email)
 korner.pl###custom_post_widget-2, #custom_post_widget-9
 korob.pl##a[href*="facebook.com/KOROB-330310557144075"]
 korona-kielce.pl##footer a[href*="tiktok.com/"], footer a[href*="youtube.com/"]
@@ -6150,7 +6151,6 @@ naszarola.pl##.avia-builder-el-108.av_one_third
 naszekwatery.pl##.right_window_button
 naszemiasto.pl##.przyciskFB
 naszemiasto.pl##li .atomsNavigationResponsiveLinks__link[href*=".facebook.com/"]
-naszenaturalne.pl##.elementor-share-btn:not(.elementor-share-btn_email)
 naszenaturalne.pl##.elementor-widget-heading:has(+ .elementor-widget-social-icons)
 naszesprawy.eu##.social-media-inner
 naszestrony.info.pl#?##tabs a[href="#tab-comments"]:has-text(Facebook)
@@ -10990,6 +10990,7 @@ kei.pl#@#.social_icons
 kingowiec.pl,wiadomoscihandlowe.pl#@#.socialmedia:not(html):not(body)
 klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet"]
 klubjagiellonski.pl#@#a[href^="http://twitter.com/intent/tweet?"]
+korekto.pl,naszenaturalne.pl#@#.elementor-widget-share-buttons
 kosapopatelni.pl#@#.bdaia-social-io
 kosapopatelni.pl#@#.widget-social-links
 krokdozdrowia.com#@##social-networks
@@ -11015,7 +11016,6 @@ motormag.pl#@#.nav--social
 naekranie.pl#@#.sharingButton
 naekranie.pl#@#.social-buttons
 narew.info#@#.sbuttons
-naszenaturalne.pl#@#.elementor-widget-share-buttons
 naszpradnik.pl#@#.menu-social
 news.samsung.com#@#.sns_link
 nowawarszawa.pl#@#.share-container
