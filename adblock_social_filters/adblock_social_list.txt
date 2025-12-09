@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.12.8.0
-! Last modified: Mon, 08 Dec 2025, 20:46 UTC+00:00
+! Version: 2025.12.9.0
+! Last modified: Tue, 09 Dec 2025, 02:24 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.12.8.0 aktualizacja: pon, 08 gru 2025, 20:46 UTC+00:00
+! v.2025.12.9.0 aktualizacja: wto, 09 gru 2025, 02:24 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5601,6 +5601,7 @@ matshop.pl##a[href*="instagram.com/matshoppl"]
 matshop.pl##a[href*="twitter.com/Matshoppl"]
 matshop.pl##a[href*="youtube.com/user/MelanzAlcoTeam"]
 matteobrunetti.pl##a[href="/#social-media"]
+maturawpr.pl##div[class*="footer"] a[href*=".com/"]:is([href*="instagram.com"], [href*="facebook.com/"])
 maufer.pl##.newsletter_sm
 max-led.pl##.ins-footer .hidden-sm.hidden-xs.col-md-3.col-sm-6.col-xs-12
 max-protect.pl##.footer_link > div.link_box:nth-of-type(4)
@@ -9492,6 +9493,8 @@ wikirose.pl###HTML11 > .widget-content, .header-social-icons, #content-section-w
 wilanow-palac.pl###vimeo, #tripAdvisor
 wilkowice.pl##div[id^="widget"] > div[class*="content"] > div[class*="icon"]:has(a[href*="facebook"], a[href*="instagram"])
 williams.pl##.icon-instagram-logo
+willisch.pl##.icon-social
+willisch.pl##.messenger-icon
 windows7.pl###smfFadeScroller > li > a[href*="facebook.com/"]
 winers.pl##.sc_columns
 winiary.pl##a[href*="facebook.com/Winiary"]
