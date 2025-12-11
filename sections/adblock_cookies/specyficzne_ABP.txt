@@ -1,7 +1,3 @@
-downdetector.pl#@##onetrust-banner-sdk
-downdetector.pl#@##onetrust-consent-sdk
-downdetector.pl#@#.onetrust-pc-dark-filter
-downdetector.pl###onetrust-consent-sdk:has(.onetrust-pc-dark-filter[style*="z-index"] ~ #onetrust-banner-sdk)
 /assets/*/CookiesMessage_$rewrite=abp-resource:blank-css,stylesheet,domain=pepper.pl
 /assets/*/CookiesMessage_$rewrite=abp-resource:blank-js,script,domain=pepper.pl
 /assets/*/CookiesMessage_$rewrite=abp-resource:blank-js,xmlhttprequest,domain=pepper.pl
@@ -10,6 +6,10 @@ apteline.pl,ortopedio.pl##dialog[aria-label="Cookie baner"] { remove: true }
 bmw-motorrad.pl##.cookielayer { remove: true }
 centrum24.pl#@##__tealiumGDPRecModal
 cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,zgl.pl###popModal2 { remove: true }
+downdetector.pl###onetrust-consent-sdk:has(.onetrust-pc-dark-filter[style*="z-index"] ~ #onetrust-banner-sdk)
+downdetector.pl#@##onetrust-banner-sdk
+downdetector.pl#@##onetrust-consent-sdk
+downdetector.pl#@#.onetrust-pc-dark-filter
 horecanet.pl###gdpr-popup.gdprmodal { remove: true }
 iworks.pl###scm-dialog.scm-dialog { remove: true }
 jelenia.tv###rodoModal { remove: true }
