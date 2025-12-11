@@ -1,5 +1,3 @@
-lrt.lt##.social-list
-lrt.lt##.btn--fb
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -4510,6 +4508,8 @@ lowcygier.pl##.community-links, .socials-icons-list
 lowcytrendow.pl##.box-sharing
 loxx.pl##div.image-row:first-of-type > .image-column > .image > a
 lp.x-kom.pl##h2:has(~ .buttons > a.btn[href*="/tweet"])
+lrt.lt##.btn--fb
+lrt.lt,sklep.domowaapteczka.pl,skrzypceonline.com,thunderbird.net,veneo.pl##.social-list
 luba-group.com###slideFB
 luba-group.com###slideInsta
 lubanski.eu##.epyt-gallery, #text-34
@@ -7152,7 +7152,6 @@ sklep.cornette.pl###ves-footer-center div:nth-of-type(4) > .custom.box > .box-he
 sklep.cosplayworld.pl##.footer_portal_title
 sklep.czf.pl,specto.com.pl##.footer__section-title:has(+ .footer__section-social)
 sklep.displayit.pl##.element-social-inner-wrap.footer-social-inner-wrap
-sklep.domowaapteczka.pl,skrzypceonline.com,thunderbird.net,veneo.pl##.social-list
 sklep.effector.pl##.m-footer-socials
 sklep.effector.pl##.top-socials-wrapper > .m-socials-menu > ul > li > a
 sklep.ekotechnologia.eu##.social[href*=".com/"]
