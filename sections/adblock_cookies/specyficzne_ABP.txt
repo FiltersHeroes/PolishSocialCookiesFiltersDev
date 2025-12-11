@@ -1,6 +1,7 @@
 downdetector.pl#@##onetrust-banner-sdk
 downdetector.pl#@##onetrust-consent-sdk
 downdetector.pl#@#.onetrust-pc-dark-filter
+downdetector.pl###onetrust-consent-sdk:has(.onetrust-pc-dark-filter[style*="z-index"] ~ #onetrust-banner-sdk)
 /assets/*/CookiesMessage_$rewrite=abp-resource:blank-css,stylesheet,domain=pepper.pl
 /assets/*/CookiesMessage_$rewrite=abp-resource:blank-js,script,domain=pepper.pl
 /assets/*/CookiesMessage_$rewrite=abp-resource:blank-js,xmlhttprequest,domain=pepper.pl
