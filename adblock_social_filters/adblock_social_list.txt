@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.12.12.0
-! Last modified: Fri, 12 Dec 2025, 02:27 UTC+00:00
+! Version: 2025.12.13.0
+! Last modified: Sat, 13 Dec 2025, 02:20 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.12.12.0 aktualizacja: pią, 12 gru 2025, 02:27 UTC+00:00
+! v.2025.12.13.0 aktualizacja: sob, 13 gru 2025, 02:20 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1119,7 +1119,7 @@ agronews.com.pl,eurowizja.org,gazetaregionalna.com,gizycko.info,kurier-kolejowy.
 agroperfekt.pl##.rssocial-custom-icon[href*="instagram.com/"]
 agroperfekt.pl,apolanka.pl,bona-ppetit.pl,kam-tech.com.pl,mckenzie.pl,owbaltyk.pl,rolpolopalenica.pl,rozruch-startgum.pl##.rssocial-facebook-icon
 agroperfekt.pl,czemarol.pl,materialybudowlanekrokowa.pl,owbaltyk.pl##.rssocial-youtube-icon
-agropolska.pl,avatec.pl,bitdefender.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekipatonosi.pl,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,genzie.store,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lenovo.com,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,naszaklasa.app,netgear.com,nowa.wbp.lodz.pl,one.greeneris.com,papatka.pl,pekao.com.pl,pieknoumyslu.com,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,saketos.pl,sklep.miod.com.pl,sumin.com.pl,support.avast.com,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
+agropolska.pl,avatec.pl,bitdefender.pl,biznesinfo.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekipatonosi.pl,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,garneczki.pl,genzie.store,goniec.pl,goracetematy.pl,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lenovo.com,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,naszaklasa.app,netgear.com,nowa.wbp.lodz.pl,one.greeneris.com,pacjenci.pl,papatka.pl,pekao.com.pl,pieknoumyslu.com,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,rolnikinfo.pl,saketos.pl,sklep.miod.com.pl,smakosze.pl,sumin.com.pl,support.avast.com,swiatgwiazd.pl,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
 agrosiec.pl##.fixed > a[href*=".com/"][target="_blank"]
 agrosimex.pl##.icon-Youtube
 agrosimex.pl##a.social-icon
@@ -1905,6 +1905,7 @@ biznes.wprost.pl##.element-article-link
 biznesalert.pl##.social > li:nth-of-type(-n+6)
 biznesalert.pl##.telegram, a[href*="telegram.me/biznesalertpl"]
 biznesfinder.pl,pkt.pl##.sharing-toolbox > ul > li:nth-child(-n+5)
+biznesinfo.pl,goniec.pl,goracetematy.pl,pacjenci.pl,rolnikinfo.pl,smakosze.pl,swiatgwiazd.pl##span:has(+ .social-icons)
 biznesmeblowy.pl##.menuSocial
 biznesomania.com.pl###wp_my_plugin-4
 bkfwarszawa.com.pl##ul[id].rssocial-icons > li:nth-of-type(-n+2)
