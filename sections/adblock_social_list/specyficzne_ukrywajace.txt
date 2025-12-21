@@ -1,11 +1,3 @@
-dormakaba.com##.dk-footer__social-networks
-superszkolna.pl##.facebook-icon
-prehistoricshop.pl##.footer-socials-wrapper
-depesza.fm##div[class^="style_socialLinksContainer_"]
-zaradnakobieta.pl##div[class^="style_socialLinksContainer_"]
-www.komputronik.pl###snrs-wp-subscriber
-ktomalek.pl##.social-buttons
-player.flipsnack.com##[aria-label^="Share on "]:not([aria-label$=" Email"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -433,7 +425,7 @@ amicenergy.pl##.footer-contact.row > div[class]:nth-of-type(3) > *
 amico.market##.LinkedIn
 amico.market##.Microsoft
 amparts24.pl##.connect.white
-amperlux.pl##.footer-socials-wrapper
+amperlux.pl,prehistoricshop.pl##.footer-socials-wrapper
 amplifon.com##.amp_social-box
 amppolska.pl###kontrolka-409
 amso.pl##.footer_links_sub_sub
@@ -774,7 +766,7 @@ babyhit.pl###footer_img > div:nth-of-type(2) > a > img
 bacca.pl###MenuWidget-3
 baccata.com.pl##a.footer_soc_icon:nth-of-type(-n+2)
 bachledka.sk,livingonmyown.pl###custom_html-8
-bacowkatowary.pl,coffeecave.pl,narewka.pl,wrotapodlasia.pl##.facebook-icon
+bacowkatowary.pl,coffeecave.pl,narewka.pl,superszkolna.pl,wrotapodlasia.pl##.facebook-icon
 badamydzieci.pl,rolety.eu###contact-buttons-bar
 badaniaprenatalne.pl##.slidshikona
 badaniaprenatalne.pl##p > a[href*="facebook.com/groups/badaniaprenatalne/"] > img
@@ -1819,6 +1811,7 @@ dentonet.pl##.footer-menu-2 a[href*="com"]
 dentonet.pl##.origin-2.name
 deon.pl##.item-wykop
 deon.pl##.socialIkonki, .sl > li:nth-child(-n+4), .footer-right__social-media, .mega-menu__social-media
+depesza.fm,zaradnakobieta.pl##div[class^="style_socialLinksContainer_"]
 depositphotos.com##[data-qa="SocialLinkList"]
 dermaquest.pl##div.footer_column:nth-of-type(6)
 design3dcnc.pl##img[alt="Facebook App Icon"], img[alt="Facebook D3DCNC"]
@@ -2000,6 +1993,7 @@ doradcapodatkowy.pl###bottom-5 > .moduletable > .custom > .pdcorrect.col-lg-12.c
 doradcapodatkowy.pl##.moduletable .pdcorrect.col-lg-5.col-md-5.col-sm-12.col-xs-12 > p:nth-of-type(2)
 doradcasmaku.pl##.other_options > .item_share_options
 doradztwosadownicze.pl##.site-header__list--socials > li.site-header__list-item:nth-of-type(n+2):nth-of-type(-n+3)
+dormakaba.com##.dk-footer__social-networks
 dorotafilipiuk.pl###socialside
 dorotafilipiuk.pl##.footer > .container > .row:first-child > div:last-child
 dorotasmakuje.com##.socials a:not([class*="mail"])
@@ -2348,7 +2342,7 @@ elpos.net###socialmedia_box
 eltraktor.pl##div[style*="position"][style*="fixed"] > a[href*=".com/"]
 eltron.pl###c634.csc-default > table
 eltron.pl##.footer div.col-md-3:nth-of-type(4)
-eltrox.pl,leczyca.info.pl,zycierolnika.pl##.social-buttons
+eltrox.pl,ktomalek.pl,leczyca.info.pl,zycierolnika.pl##.social-buttons
 elubaczow.com###text-34, #text-35
 elubaczow.com,inthecage.pl##.td-instagram-user
 elubaczow.com,zakopane.info##.footer-social-wrap span
@@ -6072,6 +6066,7 @@ plawecki.org###bossbyte_slide
 play.pl##.columns.box:nth-of-type(6)
 play.pl##.footer__header:has(+ div > .footer__social-row)
 play.pl##.footer__social-row
+player.flipsnack.com##[aria-label^="Share on "]:not([aria-label$=" Email"])
 player.pl##.site-footer-top__section--social
 playergames.pl###itc-fbrightblock
 playernotes.pl##a[href*="facebook.com/playernotes/"]
@@ -8733,6 +8728,7 @@ www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div 
 www.google.com,www.google.pl##div[data-attrid*="social media presence"] span, div[data-attrid*="social media presence"] a
 www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:has-text(/^(Facebook|X)$/)
 www.komputronik.pl###footer > div > div > div > div > section > div:nth-child(5) > div:nth-child(n+3):nth-child(-n+4)
+www.komputronik.pl###snrs-wp-subscriber
 www.logitech.com##.social-email-row .social-ctn
 www.nazwa.pl##.n21-footer__smList
 www.nzspw.pl#?#h2.font_2:has-text(/(SOCIAL MEDIA|FACEBOOK|INSTAGRAM|LINKEDIN|YOUTUBE)/)
