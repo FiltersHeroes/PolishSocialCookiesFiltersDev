@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2025.12.29.0
-! Last modified: Mon, 29 Dec 2025, 02:39 UTC+00:00
+! Version: 2025.12.31.0
+! Last modified: Wed, 31 Dec 2025, 20:44 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2025.12.29.0 aktualizacja: pon, 29 gru 2025, 02:39 UTC+00:00
+! v.2025.12.31.0 aktualizacja: śro, 31 gru 2025, 20:44 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1006,6 +1006,7 @@ adapt-systems.pl##.grid_3_tweeter
 adapter.pl##.fb-nav-link
 adata.com###footer > div > div > div:nth-of-type(4)
 addnature.pl,bikester.pl##.footer .row > div.col-md-3:first-of-type
+adeplus.gls-poland.com##.social-nav .social
 adeurotrans.com.pl##.aet-sm-block
 adguard.com##.footer__icons-title--social
 adguardaccount.com,discord.com##div[class*="socialLinks"]
@@ -1027,7 +1028,7 @@ aerlingus.com##.col-xs-20pc.col
 affde.com###sidebar > div.first.widget > h3:first-of-type
 afilio.autodna.pl##.footer-find-us
 aftermarket.zf.com##footer > div > div > div:has(~ div > .share) > .som
-aftermarket.zf.com,beszamel.se.pl,cert.orange.pl,dobrzemieszkaj.pl,doktorania.pl,ecg-electro.eu,inianie.pl,marionkosmetyki.pl,mojawww.com,muzyczneradio.pl,orpha.net,polish.wifilterouter.com,portalsamorzadowy.pl,press.pl,publicat.pl,rekinfinansow.pl,rozaniec.eu,siemens-home.bsh-group.com,silesiasmakuje.pl,support.discord.com,tvn.pl,viva.pl,wasserman.eu,wmrowisku.pl,zadluzenia.com##.share
+aftermarket.zf.com,beszamel.se.pl,cert.orange.pl,dobrzemieszkaj.pl,doktorania.pl,ecg-electro.eu,inianie.pl,marionkosmetyki.pl,mojawww.com,muzyczneradio.pl,orpha.net,polish.wifilterouter.com,portalsamorzadowy.pl,press.pl,publicat.pl,rekinfinansow.pl,rozaniec.eu,siemens-home.bsh-group.com,silesiasmakuje.pl,skottsberg.com,support.discord.com,tvn.pl,viva.pl,wasserman.eu,wmrowisku.pl,zadluzenia.com##.share
 afterweb.pl##.aw_header_social, .footer_top div.col-md-4:nth-of-type(2)
 afterweb.pl##.social_icons_footer, .szukaj-nas
 aga-toma.pl##a.pokazywanie:not([href*="mailto:"])
@@ -3420,6 +3421,7 @@ extra-plonsk.pl##hr + div > p:has(+ div[class*="social"])
 extrasport.pl##div.item.product > .thumbnail:has(img[src*="/thumb_13-fb.jpg"])
 eyca.pl##.fb-lang
 eyca.pl##.fb-logo
+eyeshield.com##.footer_4 :is(.widget_text > .h5, .custom-html-widget > div > a)
 ezakopane.pl##nav > #media
 ezamosc.pl###gkInset > .box:nth-of-type(7)
 ezamosc.pl##.nomargin.gkmod-6.box:nth-of-type(6) > .content > .custom > ul > li:nth-child(-n+2)
@@ -6305,6 +6307,7 @@ niveapolska.pl##footer ~ .popup
 njumobile.pl##li > .sun-orb
 noatun.com.pl###stopka a[href*="facebook.com/"]
 noble-optic-house.pl##.blog_share
+noblue.pl##footer a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="linkedin.com/"], [href*="youtube.com/"], [href*="tiktok.com/"])
 nocodehaven.pl##.social-links > :nth-child(-n+2)
 nocowanie.pl##.page__footer .footer-content .footer-content__action > :nth-child(n+3):nth-child(-n+4)
 nocowanie.pl#?#.footer-content__action:has-text(Obserwuj nas)
@@ -8196,6 +8199,7 @@ skomplikowane.pl##.herald-sidebar-right.col-md-3.col-lg-3.herald-sidebar
 skorzana.com##footer .menu_buttons2
 skorzana.com##header #menu_buttons2
 skorzecin.pl###mod208
+skottsberg.com##.footer-socials :not(.footer-logo) a
 skript.pl###elNavSecondary_33 > a[href*="facebook.com/skriptpl"]
 skript.pl##.ipsSocial_facebook
 skrzynkasmaku.pl###ikonysocjale, #szoce
@@ -9049,6 +9053,7 @@ twojapogoda.pl##.ico-tw
 twojapogoda.pl##.social-button
 twojatv.info###slidepanel-facebook
 twojekwiaty.pl##.ft-social-wrap
+twojelektryktrojmiasto.pl##.elementor-widget-heading:has(+ .elementor-widget-elementskit-social-media)
 twojepajeczno.pl##.td-footer-wrap div:nth-of-type(2) div:nth-of-type(2) div:nth-of-type(3) > div:nth-of-type(3) h3
 twojeradio.fm##.footer-global > .wrapper > h5:nth-of-type(3), .footer-global > .wrapper > ul:nth-of-type(3)
 twojesoczewki.com###header .facebook, #header .instagram
@@ -11060,6 +11065,7 @@ rynek-kolejowy.pl#@#.socialIcons
 rynek-lotniczy.pl,rynekinfrastruktury.pl,transport-publiczny.pl#@#.fbLikeBox
 sanodental.pl#@#.author-share
 satkurier.pl#@##menu_social
+skottsberg.com#@#.footer-socials
 socialpress.pl#@#.follow_us
 sonarhome.pl#@#.bg-facebook
 sosnowe-zacisze.pl#@#.tm-social-icons
