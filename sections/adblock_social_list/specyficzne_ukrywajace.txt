@@ -1,5 +1,3 @@
-melisa.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
-aptekapasewalk.pl##a[href*="facebook.com"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -528,7 +526,7 @@ apptoyou.pl##div.clickable-element img[src*="fb.svg"]
 apptoyou.pl##div.clickable-element img[src*="in.svg"]
 apress24.pl##footer .container > .row > div[class]:nth-of-type(2)
 apte.pl##.side-widget-facebook
-apteczkadziecka.pl,lepolek.pl,mamyito.pl,theprotocol.it,topspozywcze.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
+apteczkadziecka.pl,lepolek.pl,mamyito.pl,melisa.pl,theprotocol.it,topspozywcze.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
 apteka-amica.pl##.left.sidebar > div.box:nth-of-type(n+5):nth-of-type(-n+8)
 apteka-band.eu###SITE_FOOTERinlineContent-gridContainer .font_7
 apteka-band.eu##div[data-hook="social-sharing"] > a
@@ -541,6 +539,7 @@ aptekacentrumzdrowia.pl#?#footer .opening-hours.col-md-4:has-text(Obserwuj nas n
 aptekahit.pl##.header-widget a[href*="facebook.com"]
 aptekahit.pl##.header-widget a[href*="instagram.com"]
 aptekaolmed.pl###footer > .container .row div:has(> h2 ~ .social-spacing)
+aptekapasewalk.pl##a[href*="facebook.com"]
 aptekarzpolski.pl##.jeg_block_title > a[href*="facebook.com/AptekarzPolskiPismo/"]
 aptekarzpolski.pl#?#.theiaStickySidebar .jeg_block_heading_6.jeg_block_heading:has-text(/Facebook|Twitter/)
 apteline.pl##.footer__connect-social
