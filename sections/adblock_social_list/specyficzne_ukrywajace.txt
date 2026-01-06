@@ -1,3 +1,8 @@
+4gsm.pl###facebook_reviews
+kupbuty.com##.headline-instagram
+bludshop.com###top_contact a[href*=".com/"]
+wentsystem.com##.contact__social
+efutro.com.pl##li.nav-item a[href*=".com/"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -57,7 +62,7 @@ e-fryzjernia.pl,fajnalazienka.com##div[id*="tws_i_"]:has(iframe[src*="facebook.c
 4szpaki.pl,at-outlet.pl,biustonoszedokarmienia.pl,bookbook.pl,cocolita.pl,darmarsklep.pl,deezee.pl,e-sas.pl,emanta.pl,eoptic.pl,hairpro.pl,hap.pl,harmoniasmakow.pl,ikonka.eu,jarmix-militaria.pl,kakto.pl,life-care.pl,menland.pl,mikesport.pl,nalepsze.pl,nowafarmacja.pl,powerlook.pl,walizkazabawek.pl,wphw.pl,wyspaszkrabow.pl,zadowolenie.pl,zico-bike.pl##.social-profiles-info
 5el.pl##.widget_black_studio_tinymce.uk-panel:nth-of-type(3)
 5mindlazdrowia.pl##.footer-widget-2
-5mindlazdrowia.pl##.instagram-grid
+5mindlazdrowia.pl,galeriavictoria.pl,kupbuty.com##.instagram-grid
 6paknutrition.com###inst-block
 6paknutrition.com##.footerlogolist > :nth-child(n+3):nth-child(-n+4)
 7dni.pila.pl##a[href*="fb.com/twoje7dni"]
@@ -2913,7 +2918,7 @@ galeriamlociny.pl##.footer-section__social
 galeriamlociny.pl##div.header-info__container > .header-info__container
 galeriamorena.pl###social-insta
 galeriapolnocna.pl##aside > a > img[src*="icon"]
-galeriavictoria.pl##.facebook-post, .instagram-grid
+galeriavictoria.pl##.facebook-post
 galeriavictoria.pl#?#.section-header:has-text(w kontakcie)
 galileos.pl##div.KolumnaStopki > div:has(a[href*=".com/"] img)
 galileos.pl##div.KolumnaStopki:first-of-type a[href*=".com"]
