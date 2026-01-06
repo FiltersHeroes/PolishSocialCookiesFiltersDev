@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.1.6.0
-! Last modified: Tue, 06 Jan 2026, 13:08 UTC+00:00
+! Version: 2026.1.6.1
+! Last modified: Tue, 06 Jan 2026, 16:55 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.1.6.0 aktualizacja: wto, 06 sty 2026, 13:08 UTC+00:00
+! v.2026.1.6.1 aktualizacja: wto, 06 sty 2026, 16:55 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1380,7 +1380,7 @@ apptoyou.pl##div.clickable-element img[src*="fb.svg"]
 apptoyou.pl##div.clickable-element img[src*="in.svg"]
 apress24.pl##footer .container > .row > div[class]:nth-of-type(2)
 apte.pl##.side-widget-facebook
-apteczkadziecka.pl,lepolek.pl,mamyito.pl,theprotocol.it,topspozywcze.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
+apteczkadziecka.pl,lepolek.pl,mamyito.pl,melisa.pl,theprotocol.it,topspozywcze.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
 apteka-amica.pl##.left.sidebar > div.box:nth-of-type(n+5):nth-of-type(-n+8)
 apteka-band.eu###SITE_FOOTERinlineContent-gridContainer .font_7
 apteka-band.eu##div[data-hook="social-sharing"] > a
@@ -1393,6 +1393,8 @@ aptekacentrumzdrowia.pl#?#footer .opening-hours.col-md-4:has-text(Obserwuj nas n
 aptekahit.pl##.header-widget a[href*="facebook.com"]
 aptekahit.pl##.header-widget a[href*="instagram.com"]
 aptekaolmed.pl###footer > .container .row div:has(> h2 ~ .social-spacing)
+aptekapasewalk.pl##a[href*="facebook.com"]
+aptekapasewalk.pl##a[href^="tel:+49"]:has(img:is([src*="WA"], [src*="whatsapp"]))
 aptekarzpolski.pl##.jeg_block_title > a[href*="facebook.com/AptekarzPolskiPismo/"]
 aptekarzpolski.pl#?#.theiaStickySidebar .jeg_block_heading_6.jeg_block_heading:has-text(/Facebook|Twitter/)
 apteline.pl##.footer__connect-social
