@@ -1,4 +1,3 @@
-open.fm##.socialLinks > :is(ul, h2)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -5612,6 +5611,7 @@ onthatass.com##footer > div > div:first-child > div:nth-child(4)
 oohmagazine.pl##.facebookSmall
 opactwo.eu##.footer-1 > div:nth-of-type(3)
 opel.pl##.social-links-container
+open.fm##.socialLinks > :is(ul, h2)
 open.pl##.gap-down-1.text-center.vertical-align.container-footer.container > .col-md-3
 open.pl##.nav.pull-right > li > a[href*=".com/"]
 open.spotify.com##button[data-testid="entity-share-button"]
