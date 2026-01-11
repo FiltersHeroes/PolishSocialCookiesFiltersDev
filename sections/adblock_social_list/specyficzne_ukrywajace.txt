@@ -1,12 +1,3 @@
-edziecko.pl,gazeta.pl,haps.pl,moto.pl,sport.pl##.follow-us
-casaregal.pl##.elementor-section-boxed:has(> .elementor-container > div.elementor-column > .elementor-widget-wrap > .elementor-widget-share-buttons)
-casaregal.pl##div[class*="footer"] a[href*=".com/"]:is([href*="facebook.com"], [href*="pinterest.com"], [href*="instagram.com"])
-agendo.pl##.fb-bottom
-mastercard.com###footer-social-links
-waterdrop.pl##ul[aria-label="Linki do mediów społecznościowych"]
-linktr.ee#?#.flex-col[data-testid="LinkCollectionStack"]:has(h3:has-text(/Social Media/i)) .group[data-testid="NewLinkContainer"]:has(a:not([href*="artfight.net"]))
-linktr.ee#?#.flex-col[data-testid="LinkCollectionStack"]:has(h3:has-text(/Social Media/i)):not(:has(.group[data-testid="NewLinkContainer"] a[href*="artfight.net"])) h3
-linktr.ee##a[data-testid="SocialIcon"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -201,6 +192,7 @@ age-power.pl##.home-social.socialmedia-box
 agencja-informacyjna.com##.socials > :not(.rss)
 agencjagazeta.pl##a[href*="twitter.com/agencjagazeta"]
 agencjagazeta.pl##article.mod_uzr6.mod:nth-of-type(2) > .body > ul > .n6.n5.n4.n3.n2
+agendo.pl,marenaspa.pl##.fb-bottom
 agkoperty.com.pl##.frontpage-contact.line > li:nth-of-type(3)
 agnieszkakonieczna.com,ambience.com.pl,polsatbox.pl,siedlce.pl,ztedevices.com##.social-link
 agnieszkakonieczna.com,comparic.pl,plantutti.pl,whirlpool.pl##div[class*="footer"] a[href*="instagram.com/"]
@@ -1320,6 +1312,8 @@ carrefour.pl##li.m-t-sm:nth-of-type(4)
 casadi.pl###main_instagram
 casadi.pl#?#.cms_2a_wrapper:has-text(zobacz nas na)
 casamundo.pl###social_media_footer
+casaregal.pl##.elementor-section-boxed:has(> .elementor-container > div.elementor-column > .elementor-widget-wrap > .elementor-widget-share-buttons)
+casaregal.pl##div[class*="footer"] a[href*=".com/"]:is([href*="facebook.com"], [href*="pinterest.com"], [href*="instagram.com"])
 casedrop.eu###cased__social
 casedrop.eu##.footer__left__top--social
 cashback.getdify.com##footer > div[class] > div[class] > div[class]:first-child > div[class]:last-child
@@ -2259,6 +2253,7 @@ edukacja.rybnik.eu##div.box:nth-of-type(6)
 edunews.pl##.customja-social > div > a[href*="facebook.com/edunews"], a[href*="flickr.com/photos/edunews/"], a[href*="pinterest.com/marcinpolak/edustore/"], a[href*="twitter.com/edunews_pl"], a[href*="youtube.com/user/terazedukacja"]
 eduweb.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="youtube.com"], [href*="twitter.com"])
 eduzabawy.com##.et_social_sidebar_networks
+edziecko.pl,gazeta.pl,haps.pl,moto.pl,pl.y8.com,sport.pl##.follow-us
 ee.pw.edu.pl##.menu-item.fb-link
 ee.pw.edu.pl,foodarea.pl,kruczek.pl,paweltkaczyk.com,piu.org.pl,swiatlowodotwarty.pl,zdgtor.pl##.menu-item a[href*="linkedin.com/"]
 eecpoland.eu##.page-header > .pageWidth > .wrap > .right > ul > li
@@ -4454,6 +4449,9 @@ limango.pl##.lilayout-footer-column-social
 limango.pl##div[data-test-id="footer-bottom-bar"] > div > div:nth-child(2) > div:nth-child(2)
 limi.pl##div.footer_block:nth-of-type(4)
 lincoln.edu.pl,warka24.pl##.top-facebook
+linktr.ee##a[data-testid="SocialIcon"]
+linktr.ee#?#.flex-col[data-testid="LinkCollectionStack"]:has(h3:has-text(/Social Media/i)) .group[data-testid="NewLinkContainer"]:has(a:not([href*="artfight.net"]))
+linktr.ee#?#.flex-col[data-testid="LinkCollectionStack"]:has(h3:has-text(/Social Media/i)):not(:has(.group[data-testid="NewLinkContainer"] a[href*="artfight.net"])) h3
 linux-magazine.pl##.link-footer-fb
 linuxiarze.pl##a[href="https://bsky.app/profile/linuxiarze.bsky.social"]
 linuxiarze.pl##a[href="https://linuxiarze.pl/mastodon/"]
@@ -4662,7 +4660,6 @@ marekwasiluk.pl###custom_html-5 a[href*=".com/"]
 marekwasiluk.pl###text-24 + div
 marekwasiluk.pl###text-27 + div
 marekwasiluk.pl,smakinatalerzu.pl###text-27
-marenaspa.pl##.fb-bottom
 marfan.pl###googleplusprzycisk, #fbgrupaprzycisk
 marginesy.com.pl##.facebook-floater
 marionex.pl,matisklep.pl,metalroute.pl,obuwianka.pl##.menu_button_wrapper > a[href*="facebook.com/"]
@@ -4702,6 +4699,7 @@ maserati.pl###fsocialContainer
 maskapolka.pl##.banner__fb-btn
 mass-zone.eu##.ikonki-socjalne
 mass-zone.eu##.ikonki-socjalne-stopka
+mastercard.com###footer-social-links
 masterpass.pl##[title-text*="Znajdź nas na:"]
 masterpass.pl##a.icon.img-icon[href*=".com/"]
 mastersport.com.pl###mastersport-social
@@ -6065,7 +6063,6 @@ pl.vpnmentor.com##.last.part-wrap, .article-thanks-wrap, .side-follow-wrap
 pl.waterdrop.com##div.Footer__Block--text:nth-of-type(3)
 pl.web.silcare.com###u80876
 pl.wix.com##a[href*="instagram.com/wix/"], a[href*="linkedin.com/company/wix.com"], a[href*="facebook.com/wix"], a[href*="twitter.com/wix"]
-pl.y8.com##.follow-us
 pl.youtubers.me###sharer-side
 placesandplants.com##footer div.col:nth-of-type(2) div.widget:nth-of-type(3), footer div.col:nth-of-type(2) div.widget:first-of-type, footer div.col:nth-of-type(3) > div.widget:first-of-type > .widget-title, .socialMediaOnEveryPost
 planeta.pl##.social__title
@@ -8439,6 +8436,7 @@ wasserman.eu##.ws-footer__images__wrapper > section:nth-of-type(3)
 wasserman.eu##section[class^="Footer__LogoAndSocialSection-"] > section:nth-of-type(3)
 waszaedukacja.pl##.footer3 > h3:first-of-type, #udostepnij
 wat.edu.pl##.topbar_social > ul > li:nth-of-type(n+3):nth-of-type(-n+6)
+waterdrop.pl##ul[aria-label="Linki do mediów społecznościowych"]
 watra.pl##.addTo
 wattpad.com###tooltip-container:has(> div > div > .on-facebook-share:only-child)
 waveconcept.pl##.wtyczki .inst, .wtyczki .pt
