@@ -1,3 +1,11 @@
+naszamlawa.pl##.fb-details
+karkonosze24.com##div[data-title]:has(a[href*="facebook.com/"] h2, h2 a[href*="facebook.com/"])
+pl,tv,com,eu,info##div[data-title] .container:has(.row .fb-details) h3 a[href]
+pl,tv,com,eu,info##.article-share:not(:has(.article-share-comment))
+pl,tv,com,eu,info###navbar a[href*="facebook.com/"]
+pl,tv,com,eu,info##div[data-title] .container .flex:has(a[href*="facebook.com/"])
+pl,tv,com,eu,info##.global-header__socials
+pl,tv,com,eu,info##.main-menu-box a[href*="facebook.com/"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##span > a[href*="titktok.com/"]
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl###app header ~ div.content div:has(> div > span[style="width:15px;height:15px;"] > svg > title)
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##.article + div[class*=" "] > div[class] > div[class]:has(> div[class] > div[class] > div[class] > .fb-like)
@@ -57,8 +65,6 @@ meteomodel.pl###menu-social
 millemiglia.wp.pl##.socials
 mmorpg.org.pl##.footer__top > .socials > a[href="https://twitter.com/grymmorpg"], .footer__top > .socials > a[href="https://www.facebook.com/mmoplaya"], .footer__top > .socials > a[href="https://www.youtube.com/themmorpglive"], .pink.socials > a[href="https://twitter.com/grymmorpg"], .pink.socials > a[href="https://www.facebook.com/mmoplaya"], .pink.socials > a[href="https://www.youtube.com/themmorpglive"]
 muzyka.wp.pl##iframe[src^="http://www.facebook.com/plugins/like.php?"]
-naszamlawa.pl##.td-social-list > div[class*="td_social_"]:not([class$="rss"])
-naszamlawa.pl##span.td-social-icon-wrap
 noizz.pl##.contentShareButtons, .articleShare, .socialProfiles, .socialButtons, .socialMiniBox, .social > .icon
 onet.pl##.fbpageplugin.widget, .widgetFollowUs, .fb_share, .tw_share, div[data-params*="facebook"]
 onet.pl##.fbShare
