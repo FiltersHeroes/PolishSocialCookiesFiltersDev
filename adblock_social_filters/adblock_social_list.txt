@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.1.18.0
-! Last modified: Sun, 18 Jan 2026, 13:07 UTC+00:00
+! Version: 2026.1.18.1
+! Last modified: Sun, 18 Jan 2026, 13:36 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.1.18.0 aktualizacja: nie, 18 sty 2026, 13:07 UTC+00:00
+! v.2026.1.18.1 aktualizacja: nie, 18 sty 2026, 13:36 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -263,6 +263,11 @@ zmianywzyciu.pl###popup_facebook
 ~pl##a[href*="tumblr.com/share/link?url="]:lang(pl)
 ~pl##footer .fb_button:lang(pl)
 ~pl##li.top_bar_item_list_item_social_media:lang(pl)
+eu,net,org,pl,tv##.footer-container .gb-inside-container .footer-social-media
+eu,net,org,pl,tv##.footer-container .gb-inside-container .gb-headline:has(~ .footer-social-media)
+eu,net,org,pl,tv##.social-box-container
+eu,net,org,pl,tv##.social-icons-facebook
+eu,net,org,pl,tv##.sticky-container-post-firmy-banner:has(a[href*="facebook.com/"])
 eu,pl##.atomsArticleFoot__socialMediaButtons a[href*="/"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="twitter.com/"], [href*="x.com/"], [href*="youtube.com/"], [href*="/wideo"])
 eu,pl##.atomsArticleFoot__socialMediaTitle
 eu,pl##.componentsGalleryHybridNavbar__btnFacebook
@@ -840,6 +845,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 ##.btn-share.btn.btn-whatsapp
 ##.chat-button:has(a[id^="chat-button-"][id*="messenger"], a[id^="chat-button-"][id*="whatsapp" i])
 ##.pos-socials-widget .ei-whatsapp
+##.scriptlesssocialsharing .button.whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
 ##div[data-hook="social-sharing"] button[aria-label="Udostępnij na WhatsApp"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
@@ -1626,7 +1632,7 @@ b2btrade.eu###footer > div:nth-of-type(6) > a.left
 b2net.pl#?#.single-widget > h3:has-text(Udostępnij)
 b365.pl###box_custom36
 babi-kacik.eu,fajne.life,medbestshop.eu,webinsider.pl,wroclife.pl##.widget_monarchwidget
-babyboutik.pl,drogerienatura.pl,e-pyrzyce.pl,extra-plonsk.pl,getinbank.pl,shop-dent.pl,velobank.pl##.footer-social-media
+babyboutik.pl,drogerienatura.pl,getinbank.pl,shop-dent.pl,velobank.pl##.footer-social-media
 babyhit.pl###footer_img > div:nth-of-type(2) > a > img
 bacca.pl###MenuWidget-3
 baccata.com.pl##a.footer_soc_icon:nth-of-type(-n+2)
@@ -3074,17 +3080,11 @@ e-podlogidrzwi.pl##.fb_logo
 e-podlogidrzwi.pl##.left.sidebarLeft > div.box:nth-of-type(6)
 e-podroznik.pl##[class*="SocialNetworks"]
 e-prim.pl###footer div.column-quarter:nth-of-type(4)
-e-pyrzyce.pl##footer p.gb-headline-text:has(+ .footer-social-media)
 e-pyrzyce.pl,e-starogard.pl##.whatsapp
-e-pyrzyce.pl,e-starogard.pl,extra-plonsk.pl##.social-icons-facebook
 e-recepta.net##.socials a:not([href*="pacjent.gov.pl"])
 e-skladnica.pl##.bottom-footer a[href*=".com/"]
 e-skladnica.pl##.row.bottom-footer > div > p:nth-of-type(4) > img
 e-sklep.mega-tech.pl##div.box-bottom:nth-of-type(4)
-e-sochaczew.pl,wedkuje.pl##.col-lg-8
-e-stargard.pl##a > img[src*="e-stargard.pl/grafika/banery/estargard/polubnas2.jpg"]
-e-starogard.pl##.sticky-container-post-firmy-banner
-e-starogard.pl,extra-plonsk.pl##.social-box-container
 e-testynaprawojazdy.pl##.secPdng.faqArea > .container
 e-testynaprawojazdy.pl,hd-opinie.pl##.fanpage
 e-timberland.pl##.b-footer_infoLink
@@ -3420,8 +3420,6 @@ expressbus.info##footer > .footer-content > .row > .float-left
 expressilustrowany.pl###boks-facebook
 expresspaslek.pl###main-container .row div[id^="widget-"]:has(a[href*="facebook.com/"])
 exsites.pl,konsoleigry.pl##div.block:nth-of-type(4)
-extra-plonsk.pl##footer p:has(+ .footer-social-media)
-extra-plonsk.pl##hr + div > p:has(+ div[class*="social"])
 extrasport.pl##div.item.product > .thumbnail:has(img[src*="/thumb_13-fb.jpg"])
 eyca.pl##.fb-lang
 eyca.pl##.fb-logo
@@ -3715,7 +3713,6 @@ fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#
 fotografwdrodze.pl##.sidebar > div.widget_text.widget:nth-of-type(8)
 fotokulinarnie.pl##.fb-page-panel, .like-header, .instagram-wrap, .instagram-header
 fotopanorama.pl##footer .col-xs-12 > .pull-left > span, #social > a:first-of-type
-fototeka.fn.org.pl##.col-lg-3:nth-of-type(4)
 fotouslugi.pl##.sidebar-link:nth-of-type(n+3):nth-of-type(-n+5)
 fotowoltaika.bruk-bet.pl##.socials-block > .socials li a[href*=".com/"]
 foveotech.pl##.lang-and-search-box__new_yt_logo
@@ -5038,7 +5035,7 @@ kotuszkowo.pl##.state-fb-pop-up
 kotuszkowo.pl##div.wp-block-image:has(img[src*="media.jpg"])
 kotuszkowo.pl##div.wp-block-image:has(img[src*="media.jpg"]) + p
 koziafarma.pl##footer#footer > div.top-footer > div.et-container
-kozienice24.pl,lipsko24.pl##img[src="images/index_t.png"], img[src="images/index_f.png"]
+kozienice24.pl##img[src="images/index_t.png"], img[src="images/index_f.png"]
 koziolekweb.pl##.contact-links a:not(.RSSLink)
 koziolekweb.pl##.kiwi-article-bar-center.kiwi-article-bar > li:has(> a[data-network])
 kpk.gov.pl###text-131, #multitab > li:nth-of-type(-n+2)
@@ -10898,6 +10895,7 @@ syrion.pl##.box-socials { remove: true }
 ##.elementor-social-icon:not([href*="/feed"])
 ##.elementor-social-icons-wrapper:not(:has([href*="/feed"]))
 ##.elementor-widget-social-icons:not(:has([href*="/feed"]))
+##.scriptlesssocialsharing .button:not(.whatsapp, .email)
 ##.share-btn:not([href$="/rss.xml"])
 ##[class] .button-facebook:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"])
@@ -10910,6 +10908,7 @@ syrion.pl##.box-socials { remove: true }
 #@#.elementor-social-icons-wrapper
 #@#.elementor-widget-social-icons
 #@#.js-cookie-light
+#@#.scriptlesssocialsharing
 #@#.share-btn
 #@#.ss-social-icons-container
 #@#.td-social-icon-wrap
@@ -10992,7 +10991,6 @@ disqus.com###thread-share-bar
 disqus.com#@#.follow-text
 dobreprogramy.pl#@#img[alt="Twitter"]
 duckduckgo.com#@#.footer__social-icon
-e-pyrzyce.pl,e-starogard.pl#@#.scriptlesssocialsharing
 edunews.pl#@#.custom-social-buttons
 enfamil.pl#@#.float-shop
 epodreczniki.pl#@#.mdi-share
