@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.1.19.0
-! Last modified: Mon, 19 Jan 2026, 02:39 UTC+00:00
+! Version: 2026.1.19.1
+! Last modified: Mon, 19 Jan 2026, 20:46 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.1.19.0 aktualizacja: pon, 19 sty 2026, 02:39 UTC+00:00
+! v.2026.1.19.1 aktualizacja: pon, 19 sty 2026, 20:46 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3543,10 +3543,6 @@ filmiki.tv##.socials-sharer a:not([data-sharer="email"], [onclick*="skopiowano"]
 filmomaniak.pl##.fi-social a
 filmowastolica.pl##footer > #sm
 filmozercy.com##.c-panel-social__list > .c-panel-social__item:nth-of-type(-n+4)
-filmweb.pl##.newsSocialSection
-filmweb.pl##.sitemap__socialLogos
-filmweb.pl##.socialSection__container
-filmweb.pl##button.socialButton:not([data-value="copyToClipboard"])
 filozofiadlajanuszy.pl##.entry-content > .su-button-center:first-of-type > .su-button-wide.su-button-style-default.su-button
 filozofiasmaku.pl,garneczki.pl,littletownshoes.com,namasce.pl,refreszing.pl,rogalikblog.pl,rytmynatury.pl,stomatologianews.pl,trendyokulary-blog.pl##.jr-insta-slider
 filterlogic.pl,pwn.pl##.col-socials
@@ -6093,6 +6089,7 @@ myduolife.com##.nav--soc
 mydwoje.pl###div_spolecznosci
 myfootballmanager.pl###socialsBottom
 myjki.com##.login-fb, .login-google
+mykorea.pl###maxsote_instagram
 myled.pl##.eg_social_footer
 myloveshabby.blogspot.com###HTML2 > .widget-content
 mymma.pl,pierwszynamapie.pl###media_image-2
@@ -10808,7 +10805,13 @@ dobreprogramy.pl##amp-social-share.sharer
 eskago.pl##.social1.box
 fakty.tvn24.pl###dailyNewsBox
 fakty.tvn24.pl##.main-social
-filmweb.pl##.articleShareFB, .fb-share-button
+filmweb.pl##.articleShareFB
+filmweb.pl##.fb-share-button
+filmweb.pl##.newsSocialSection
+filmweb.pl##.sitemap__socialLogos
+filmweb.pl##.socialButton:not([data-value="copyToClipboard"])
+filmweb.pl##.socialButton:not([data-value="copyToClipboard"], [data-value="googleNewsFollow"])
+filmweb.pl##.socialSection__container
 forum.shinden.pl##.sharePage.infoBlock.section > .secondaryContent, .social > a[href="#"]
 gameplanet.onet.pl##.footer__socials, .header__socials, .social-bar
 gotowanie.onet.pl,magia.onet.pl###fb-panel
