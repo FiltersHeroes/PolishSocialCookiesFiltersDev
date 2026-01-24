@@ -110,6 +110,7 @@
 ##div[style*="url(layout/cookies.png)"]
 ##footer ~ .rodo
 ##html:not(.show--consent, .show-consent) body:not(.show--consent, .show-consent) .cookie-settings
+##html:not(.show--consent, .show-consent) body:not(.show--consent, .show-consent) button[data-cc="show-preferencesModal"]
 ##html:not(.show--consent, .show-consent) body:not(.show--consent, .show-consent) div[id*="cc-"]:is(#cc-main, #cc--main)
 ##html:not([style*="overflow"][style*="hidden"]) .cs-cookie-bar-container
 ~pl###actionCooki:not(body, html):lang(pl)
