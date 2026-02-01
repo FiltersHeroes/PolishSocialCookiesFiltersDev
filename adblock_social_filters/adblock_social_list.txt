@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.1.0
-! Last modified: Sun, 01 Feb 2026, 15:32 UTC+00:00
+! Version: 2026.2.1.1
+! Last modified: Sun, 01 Feb 2026, 15:35 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.1.0 aktualizacja: nie, 01 lut 2026, 15:32 UTC+00:00
+! v.2026.2.1.1 aktualizacja: nie, 01 lut 2026, 15:35 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -999,6 +999,7 @@ account.kaufland.com##.footer .footer-content
 accu-chek.pl###accuchek-facebook
 acer-sj.pl,sklep-garbi-rol.pl,sklepmeblowypiotr.pl##.csocial-link.rssocial-link
 acer.com##.praxis-social-links
+ach-te-internety.pl##.tg-social-menu-navigation
 ach-te-internety.pl,aikoiemil.com,banita.travel.pl,jan-kasprowicz.bmino.pl,jaworzno.pl,jdc24.pl,polishclub.org,szybkaprzemiana.pl,testergier.pl##.widget_sfp_page_plugin_widget
 actimel.pl##footer a[href*=".com"]:is([href*="facebook.com/"], [href*="instagram.com/"], [href*="youtube.com/"])
 active.sklep.pl##.footer--social-block
@@ -1108,7 +1109,7 @@ agroas.pl##.aside-fixed-menu__link--youtube
 agroas.pl##.footer-social-menu
 agrobex.pl,pkwp.org##.fb-tab
 agroczesci.pl###silnikdiesla
-agrofarm.com,alphavit.pl,ambulans.com.pl,athleticsport.pl,avita.pl,jokasklep.pl,lanex.com.pl,lidia.pl,mojedekoracje.eu,motoledy.pl,okucia-sklep.pl,presta-portal.pl,rc-team.pl,rolla.pl,s-studio.com.pl,skagro.pl,sklep-elektronik.pl,sklep.kwiaciarniakozacka.pl,sklep.lack-service.pl,sklep.rajan.com.pl,sklepdlaciebie.pl,specgear.com.pl,szklo-polskie.pl,wyciskarki.pl,zabawkahurtownia.pl,zegarkisklep.com###likebox_content
+agrofarm.com,alphavit.pl,ambulans.com.pl,athleticsport.pl,avita.pl,jokasklep.pl,lanex.com.pl,lidia.pl,mojedekoracje.eu,motoledy.pl,okucia-sklep.pl,presta-portal.pl,qiosk.pl,rc-team.pl,rolla.pl,s-studio.com.pl,skagro.pl,sklep-elektronik.pl,sklep.kwiaciarniakozacka.pl,sklep.lack-service.pl,sklep.rajan.com.pl,sklepdlaciebie.pl,specgear.com.pl,szklo-polskie.pl,wyciskarki.pl,zabawkahurtownia.pl,zegarkisklep.com###likebox_content
 agrogalop.pl###s5_rss
 agrogalop.pl###s5_social_bar > div:not([id*="rss"])
 agrohandler.pl,baterie-hurt.pl,drogeria-ekologiczna.pl,narzedziowiec-ilawa.pl,spidersonline.pl###facebook_like_box_footer
@@ -1630,6 +1631,7 @@ azjanatalerzu.pl##.footer_social_media
 azjatyckibazar.com###footer > div.col-sm-no-pd.col-sm-4:nth-of-type(3)
 aztecas.eu##.stopka > div[class*="stopka2"] > a:not([href$="/feed/"])
 azure.microsoft.com##div[id^="socialfollow-"] a[href]:not([href*="app"])
+b2b.mdmnt.com##.btn-icon__inner.fa-facebook-f
 b2b.metal-bud.eu,bat.pl,brymorex.pl,chemko.com.pl,door-handles.com,sklep.enger.pl##.social-media-ui
 b2btrade.eu###footer > div:nth-of-type(6) > a.left
 b2net.pl#?#.single-widget > h3:has-text(Udostępnij)
@@ -2700,6 +2702,7 @@ demotywatory.pl##.external-share
 demotywatory.pl##a[href*="instagram.com/demotywatorypl/"]
 demus-zegarki.pl##.cms_main_social
 denley.pl##.socials_footer_links
+dentashop.pl###fbox1
 dentonet.pl##.bg-facebook.button--big.expand.button
 dentonet.pl##.footer-menu-2 a[href*="com"]
 dentonet.pl##.origin-2.name
@@ -2766,6 +2769,7 @@ dionp.pl,prestigedrzwi.pl###custom_html-2 h4
 diprocon.pl##.page-header > .contact > div
 direct-money-pl.cdn.ampproject.org,direct.money.pl##.author-social-list > li
 direct.money.pl##.main-footer__social-media
+directfloor.pl,lrt.lt,sklep.domowaapteczka.pl,skrzypceonline.com,thunderbird.net,veneo.pl,zakupersi.com##.social-list
 disco-polo.info##.youtubelogo-section
 disco-polo.info##a[href*="instagram.com/discopoloinfo/"] > img
 disco-polo.info##div.simple-panel:nth-of-type(6)
@@ -2983,6 +2987,7 @@ dyskusja.biz##.social-bar-half
 dzieciakiwdomu.pl###apsc_widget-3, #text-6, #google_plus_follow_box-3, #null-instagram-feed-2, #pw_profile_widget-2
 dzieciakwszkole.pl##footer a > img[src="/data/include/img/links/1542278774.png"]
 dziecislonca.org##.lb1:has(ul[aria-label="Social bar"])
+dziecko.co.pl,sport.co.pl,telefony.co.pl##.post-single-share
 dzieckoifigura.pl###custom_html-38 center:nth-of-type(2) > a:first-of-type
 dzieckoifigura.pl##.iscwp-insta-grid.side-widget
 dzieckoifigura.pl##center:first-of-type > strong, #center:nth-of-type(2) > a[href*="facebook.com/dzieckoifigura/"], #custom_html-35, #custom_html-42, #custom_html-45
@@ -3129,6 +3134,7 @@ ecotoys.eu##div.box-bottom:nth-of-type(3) ul:nth-of-type(2) > li
 ecovacs.com##.eco-iw-footer > .eco-iw-email > .box-right
 ecr.pl###sidebar > h3:first-of-type
 ecr.pl##.footer-content > .tt-column.one_third_last > h3:nth-of-type(2)
+edaszek.pl##.sm-panel a[href*="facebook.com/"]
 edel-optics.pl###eoViewsFooterMainBlock > .FooterLogosdown
 edge1s.com##a[href*="facebook.com/Edge1S"], a[href*="linkedin.com/company/edge1-solutions/"], a[href*="instagram.com/edge1s/"], a[href*="youtube.com/channel/UC2lTUowfKX_WZDz6KgZe-uA"]
 edgecam.pl###AssociatedSocialMediaLinks
@@ -5021,6 +5027,7 @@ korr.pl##a[href*="facebook.com/pages/KORR/512135138801101"], a[href*="youtube.co
 kosapopatelni.pl##.bdaia-io-url-instagram
 kosapopatelni.pl,weneedmore.space###media_image-3
 koscian.net##.fb_widget--static
+koscian.pl##.fb-btn
 koscierzyna24.info##nav a[href*="youtube.com/user/koscierzyna24info/videos"]
 kosmetykiata.pl###text-4 > :nth-child(3) > p:first-child
 kosmetykiata.pl###text-4 > :nth-child(-n+2)
@@ -5435,7 +5442,6 @@ lowcytrendow.pl##.box-sharing
 loxx.pl##div.image-row:first-of-type > .image-column > .image > a
 lp.x-kom.pl##h2:has(~ .buttons > a.btn[href*="/tweet"])
 lrt.lt##.btn--fb
-lrt.lt,sklep.domowaapteczka.pl,skrzypceonline.com,thunderbird.net,veneo.pl,zakupersi.com##.social-list
 luba-group.com###slideFB
 luba-group.com###slideInsta
 lubanski.eu##.epyt-gallery, #text-34
@@ -8414,7 +8420,6 @@ spolemkatowice.pl##.product-promo .row > div[class*="item"]:has(.__link[href*="f
 spolemkatowice.pl##.product-promo .row > div[class*="item"]:has(.__link[href*="facebook.com/"]) { remove: true }
 spolszczenia-gier.com.pl###lsi_widget-3
 sport-transfer.com.pl##.pull-left > ul > li:nth-of-type(n+3):nth-of-type(-n+7) > .link
-sport.co.pl##.post-single-share
 sport.interia.pl##.share-tooltip > div:first-child > div:nth-child(4) > div:first-child
 sport.tvp.pl##.article__buttons, .navigation__socialWrapper, .probe__share-box, .siteFooter__social, .article__head-socials, .siteFooter__socialIcon:nth-child(-n+4), .navigation__links--social
 sport.tvp.pl##.news-socials__wrapper > a:nth-of-type(-n+2)
@@ -8540,6 +8545,7 @@ strimi.pl##.hidden-xs.hidden-sm.col-md-4.col-lg-4
 strimi.pl##div.col-lg-4:nth-of-type(3)
 strong.tv##.padding-bot.rs.footer-section:has(a[href*="linkedin.com/"])
 strumyk.eu##.menu.right a[href*="facebook.com/"]
+strzalkowo.pl##.FSB4u-Group
 strzelnicabojowa.pl##.text-center.col-md-2
 studentbeans.com##.single-offer > .single-offer__details + aside > ul > li:nth-of-type(-n+2), div[style="text-align:center"] > a[name="Student Beans"] + ul > li
 studentnews.pl##.udostepnij_link h2
