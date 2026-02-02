@@ -1,3 +1,5 @@
+kmag.pl##nav a[href*=".com/"]
+kmag.pl##footer a[href*=".com/"]
 sweetdecor.pl##.social
 sweetdecor.pl##.categories:has(a:is([href*="facebook.com/"], [href*="instagram.com/"]))
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
@@ -4011,12 +4013,6 @@ klucz.net###ion_socials, .ion_socials
 klucz.net###labelSocial, .vklogo
 kluczekaczorek.pl,testowaniepl.net###oknoPopUp, #tloPopUp
 km.glogow.pl###g-footer .g-block:nth-of-type(3) .g-title
-kmag.pl###header a[href*="facebook.com/"]
-kmag.pl###header a[href*="instagram.com/"]
-kmag.pl###header a[href*="tiktok.com/"]
-kmag.pl###header ~ .container > div > div:has(+ .footer-nav) a[href*="facebook.com/"]
-kmag.pl###header ~ .container > div > div:has(+ .footer-nav) a[href*="instagram.com/"]
-kmag.pl###header ~ .container > div > div:has(+ .footer-nav) a[href*="tiktok.com/"]
 kmag.pl##.article-title ~ div:has([data-link^="#share-"])
 kmdentalexperts.pl###widget-3 p a[href*="facebook.com"]
 kmziz.pl##.item.col-xs-12.col-sm-12.col-md-3.col-lg-3
