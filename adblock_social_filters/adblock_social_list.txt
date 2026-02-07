@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.4.0
-! Last modified: Wed, 04 Feb 2026, 03:15 UTC+00:00
+! Version: 2026.2.7.0
+! Last modified: Sat, 07 Feb 2026, 03:09 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.4.0 aktualizacja: śro, 04 lut 2026, 03:15 UTC+00:00
+! v.2026.2.7.0 aktualizacja: sob, 07 lut 2026, 03:09 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6529,6 +6529,7 @@ onet.pl##[class*="DetailAuthors_socialLinksWrap_"]
 onet.pl##div[class*="AuthorSocialProfiles_socialButtonsContainer_"] a
 onet.pl##div[class*="DetailAuthors_socialWrapper_"]
 onet.pl##div[class*="DetailAuthorsItem_socialWrapper_"]
+onet.pl##div[class*="HamburgerMenuItem_menuItem"] div[class*="FollowUs_FollowUs_"]
 onet.pl##div[data-gtm-social]
 onet.pl#?#div[class^="_"] > span[class^="_"]:has-text(Podziel się tym artykułem)
 onet.pl,plejada.pl##.poll_share
@@ -9648,6 +9649,7 @@ worldbox.pl##footer a[href="/pl"] ~ div:not([class], [id], [style])
 worldcam.pl##li > a[href*="facebook.com/worldcampl/"]
 worldcat.org###soclinks > li > a:not([href="#"])
 wozniki.pl##a[href*="facebook.com/umwozniki"]
+wp.pl###wp-menu-services + div:has(> #socials-list)
 wp.pl,~www.wp.pl##.social-links a
 wpolityce.pl##.publication .forum-closed:has(> ul > li > a[href*="facebook.com/"])
 wpolityce.pl##[id*="LinkArea"] > .article-sm__item--title, .js-facebook-share.article-sm__item--fb, .js-twitter.article-sm__item--twitter
