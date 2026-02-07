@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.7.0
-! Last modified: Sat, 07 Feb 2026, 03:09 UTC+00:00
+! Version: 2026.2.7.1
+! Last modified: Sat, 07 Feb 2026, 10:38 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.7.0 aktualizacja: sob, 07 lut 2026, 03:09 UTC+00:00
+! v.2026.2.7.1 aktualizacja: sob, 07 lut 2026, 10:38 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1126,9 +1126,6 @@ feniksmedica.pl###pop-div
 feromony.pl###btmcks
 ferpay.com,nomoreransom.org,powiat-piaseczynski.info##.cookieinfo
 feryster.pl###cookie-accpet
-fesswybitnie.com,infogliwice.pl,nauka.rocks,optyk-maxima.pl,skladaniekomputera.pl,webniusy.com###ct-ultimate-gdpr-cookie-modal
-fesswybitnie.com,infogliwice.pl,nauka.rocks,optyk-maxima.pl,skladaniekomputera.pl,webniusy.com###ct-ultimate-gdpr-cookie-open
-fesswybitnie.com,infogliwice.pl,nauka.rocks,optyk-maxima.pl,skladaniekomputera.pl,webniusy.com###ct-ultimate-gdpr-cookie-popup
 festiwaldzieciecy.pl,mbeszczecin.pl###bpagencyCookieAll
 festiwalkolorow.pl###cms-cookie-bar
 festo.com###eucp_container
@@ -3382,6 +3379,7 @@ pl/tcf/cookie.js$script,domain=pl
 ###ciastko_alert:not(body, html)
 ###cooinfo:not(body, html)
 ###cooki:not(body, html)
+###cookies-show-button
 ###cookies-wiadomosc-content:not(body, html)
 ###cooPInfo:not(body, html)
 ###cu_bar:not(body, html)
@@ -4355,6 +4353,7 @@ wolframalpha.com##footer ~ section
 3-a.eu,archicom.pl,brzozowa21.pl,campery-zlotniccy.pl,galeriakatowicka.eu,it-dev.eu,ministerstwotajemnic.pl,shootingcracow.com,sosnowiec.pl##.modal-cacsp-position
 account.transportgzm.pl#@#.mdc-dialog
 acogo.pl#@#.elementor-popup-modal
+ad-site.pl,fesswybitnie.com,infogliwice.pl,nauka.rocks,okna-sandra.pl,optyk-maxima.pl,skladaniekomputera.pl,webniusy.com##div[id^="ct-ultimate-gdpr-cookie"]:is([id$="-modal"], [id$="-open"], [id$="popup"])
 adventuresports.pl,dkms.pl#@#.cc-banner
 adventuresports.pl,dkms.pl#@#.cc-bottom.cc-banner
 allecco.pl,aptekadlapacjenta.pl,centrum-apteka.pl,dlapacjenta.pl,e-zikoapteka.pl,effector.pl,f5.pl,hiperpharm.pl,leki.pl,mcdonalds.pl,swiatleku.pl,zikoapteka.pl,zikodermo.pl#@#.cookies-info
