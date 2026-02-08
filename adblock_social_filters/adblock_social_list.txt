@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.8.1
-! Last modified: Sun, 08 Feb 2026, 13:26 UTC+00:00
+! Version: 2026.2.8.2
+! Last modified: Sun, 08 Feb 2026, 13:40 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.8.1 aktualizacja: nie, 08 lut 2026, 13:26 UTC+00:00
+! v.2026.2.8.2 aktualizacja: nie, 08 lut 2026, 13:40 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -8324,9 +8324,6 @@ snp-poland.com##.side-widgets
 sobelia.com##.rowMainFooter > .middle > .title.hidden-xs.last, .rowMainFooter > .middle > .title.hidden-xs.last ~ a:not([href*="sobelia.com/"])
 socialpress.pl##.follow_us.container-fluid div.span2:nth-of-type(-n+3)
 socialpress.pl##a.header_second_row__social_search__sm:nth-of-type(-n+3)
-socialteam.pl###kontakt a[href*="facebook.com/"]
-socialteam.pl###uniset-facebook-fixed
-socialteam.pl#?##kontakt p:has-text(Znajdź nas)
 soczewki24.pl##.icon:nth-of-type(3)
 soczewki24.pl##a[href*="facebook.com/soczewki24"]
 soczewki365.pl###footer p > a[href*="facebook.com/Soczewki365"]
@@ -10078,7 +10075,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:has-text(Nasz Facebo
 */homesliderpro/images/resize_baner12002.jpg$image,rewrite=abp-resource:32x32-transparent-png,domain=pachnij.pl
 /avlab*/img/bg_share.png$domain=avlab.pl
 /content/images/facebook.png$domain=ceneo.pl|jego-styl.pl|kraina-stylu.pl|wnetrza-ze-smakiem.pl
-/facebook-logo$domain=abcrol.pl|akademiadietetyki.pl|biokur.pl|hurtum.pl|lookimg.com|socialteam.pl
+/facebook-logo$domain=abcrol.pl|akademiadietetyki.pl|biokur.pl|hurtum.pl|lookimg.com
 /facebook.svg$domain=agro-trade.pl|gemini.pl|instytutoka.pl|kalia-sklep.pl|krolewskie.pl|lamoda.pl|lubliniec.starostwo.gov.pl|przyjazne-deklaracje.pl|rubo.pl|vector.net
 /facebookgb.png$domain=schronisko.olsztyn.pl
 /fbpodklad1.png$domain=mosir.org.pl
@@ -10381,8 +10378,6 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:has-text(Nasz Facebo
 ||kolejedolnoslaskie.pl/wp-content/uploads/*/Instagram-Copy-color.svg
 ||kolejedolnoslaskie.pl/wp-content/uploads/*/Twitter-Copy-color.svg
 ||kompik24.pl/skins/store_user/store_*_*/images/user/fb_large.jpg
-||kostes.eu/img/cms/001-instagram-logo.png
-||kostes.eu/img/cms/002-facebook-logo.png
 ||kreskowka.pl/gfx/facebookslider.png
 ||kryptoraport.pl/wp-content/themes/magazon/assets/images/category-heading-bg.png
 ||krzywcza.eu/images/spolecznosciowe/32x32/bl.png
