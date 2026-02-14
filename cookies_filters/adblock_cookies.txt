@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.12.0
-! Last modified: Thu, 12 Feb 2026, 03:27 UTC+00:00
+! Version: 2026.2.14.0
+! Last modified: Sat, 14 Feb 2026, 20:51 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.12.0 aktualizacja: czw, 12 lut 2026, 03:27 UTC+00:00
+! v.2026.2.14.0 aktualizacja: sob, 14 lut 2026, 20:51 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1878,6 +1878,7 @@ mediam.eu,szkolawbrusie.pl###panel_popup
 mediamarkt.pl##.layout > .wrapper:has(.cookie-box)
 mediamarkt.pl#?#footer button:has-text(Ciasteczka)
 mediasystems.pl##body > div > div[style*="position"][style*="relative"]:not([id], [class])
+mediately.co###__next > footer ~ div[class*=" "]:has(> div > div > div > a[href="/pl/docs/privacy"])
 mednavi.pl##.CookiesNotice
 medpolonia.pl###bannerPopup
 medserwis.pl##.popup-container:has(#coockie-agree-ok)
@@ -4351,7 +4352,7 @@ wolframalpha.com##footer ~ section
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=aldi.pl
 ~dolomitienergia.it##.cookies-wrapper:not([class*="pum-field"])
 ~pl##body:lang(pl).cookie-overlay-active::after
-3-a.eu,archicom.pl,brzozowa21.pl,campery-zlotniccy.pl,galeriakatowicka.eu,it-dev.eu,ministerstwotajemnic.pl,shootingcracow.com,sosnowiec.pl##.modal-cacsp-position
+3-a.eu,archicom.pl,brzozowa21.pl,campery-zlotniccy.pl,galeriakatowicka.eu,it-dev.eu,ministerstwotajemnic.pl,shootingcracow.com,sosnowiec.pl,wielkimitcholesterolu.pl##.modal-cacsp-position
 account.transportgzm.pl#@#.mdc-dialog
 acogo.pl#@#.elementor-popup-modal
 ad-site.pl,fesswybitnie.com,infogliwice.pl,nauka.rocks,okna-sandra.pl,optyk-maxima.pl,skladaniekomputera.pl,webniusy.com##div[id^="ct-ultimate-gdpr-cookie"]:is([id$="-modal"], [id$="-open"], [id$="popup"])
