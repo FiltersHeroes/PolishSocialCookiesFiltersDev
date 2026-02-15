@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.15.1
-! Last modified: Sun, 15 Feb 2026, 13:27 UTC+00:00
+! Version: 2026.2.15.2
+! Last modified: Sun, 15 Feb 2026, 21:52 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.15.1 aktualizacja: nie, 15 lut 2026, 13:27 UTC+00:00
+! v.2026.2.15.2 aktualizacja: nie, 15 lut 2026, 21:52 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1946,6 +1946,7 @@ mkidn.gov.pl,prawoautorskie.gov.pl###pa
 mleasing.pl##.footer > div[class] + div[class]:last-child:has(a[href*="/polityka-prywatnosci"])
 mlekovita.com.pl###realCookies.realCookies
 mlodziwlodzi.pl###footer > .module.module-24
+mloteczka.pl,no-ip.pl###id_rodosrodo
 mniammniam.com##div[class^="mm-cookies"]
 mobidziennik.pl,wizja.net###floating-cookie-content, #floating-cookie-button
 mobile.de###consentBanner, div[class^="cookie-banner"]
@@ -2083,7 +2084,6 @@ nivea.pl##.bdf-cookie-policy-popup
 nj24.pl###nj-cookies-bar
 nju.pl##footer > section ~ div:has(> section img[src="/images/cookies-large.png"])
 nk.com.pl###informationCookies
-no-ip.pl###id_rodosrodo
 noaignite.pl##header > div:first-child > div.MuiGrid-container:first-child:has(a[href="/use-of-cookies"])
 nobiles.pl##.cookies__alert
 noblehealth.pl##.cookie-promotion
