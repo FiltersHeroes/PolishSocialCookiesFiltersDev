@@ -7,15 +7,15 @@ computerworld.pl,cxo.pl,idg.pl,internetstandard.pl,pcworld.pl##html.sp-message-o
 farmacja.net,mgr.farm##.blur:style(filter: none !important;)
 farmacja.net,mgr.farm##.zgoda-popup-wrapper, .popup-overlay
 galopuje.pl##+js(acis, $, RODOCOOKIE)
-google.com,google.pl###main > #body ~ #footer > div[id] > div[id] > #fbar > .fbar > #cnsi > g-dialog > div[id^="_"][class^=" "]
-google.com,google.pl###main > #lb > div[id^="_"][class] > div[class*="__"]:has(iframe[src^="https://consent.google.com"])
-google.com,google.pl###main > #lb > div[id^="_"][class] > div[class*="__overlay"]:not([id])
-google.com,google.pl###main > #lb > div[id^="_"][class^=" "]
-google.com,google.pl##+js(aeld, DOMContentLoaded, CONSENT)
-google.com,google.pl##body > #lb > div[id^="_"][class]
-google.com,google.pl##html.nsc:style(overflow-y: visible !important;)
-google.com,google.pl##html:not(.nsc) > body.nsc:style(position: static !important; overflow-y: visible !important;)
-google.com,google.pl##jsl > #consent-bump > .widget-consent
+google.com###main > #body ~ #footer > div[id] > div[id] > #fbar > .fbar > #cnsi > g-dialog > div[id^="_"][class^=" "]
+google.com###main > #lb > div[id^="_"][class] > div[class*="__"]:has(iframe[src^="https://consent.google.com"])
+google.com###main > #lb > div[id^="_"][class] > div[class*="__overlay"]:not([id])
+google.com###main > #lb > div[id^="_"][class^=" "]
+google.com##+js(aeld, DOMContentLoaded, CONSENT)
+google.com##body > #lb > div[id^="_"][class]
+google.com##html.nsc:style(overflow-y: visible !important;)
+google.com##html:not(.nsc) > body.nsc:style(position: static !important; overflow-y: visible !important;)
+google.com##jsl > #consent-bump > .widget-consent
 gryonline.wp.pl##+js(set, wp_no_consent_screen, true)
 hrkgame.com##gdpr.ui, .dimmer.ui
 lenovozone.pl##.stop-scrolling:style(overflow: auto !important;)
@@ -35,9 +35,9 @@ tme.eu##.o-modal-wrapper:has(img[src*="rodo.png"])
 tme.eu##.u-overflow-hidden:style(overflow-y: auto !important)
 twitter.com##.topbar-spacer:style(padding-top: 0 !important;)
 ugb.pl##+js(acis, alert, RODO)
-www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):empty:matches-css(opacity: 0.7)
-www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):empty:matches-css(opacity: 0.7):remove()
-www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has(> span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"])
-www.google.com,www.google.pl###lb > div[id^="_"] > div[class*=" "]:not([id]):has(> span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"]):remove()
-www.google.com,www.google.pl##body.QVCmK:style(position: static !important; overflow-y: visible !important;)
-www.google.com,www.google.pl##html.QVCmK:style(overflow-y: visible !important;)
+www.google.com###lb > div[id^="_"] > div[class*=" "]:not([id]):empty:matches-css(opacity: 0.7)
+www.google.com###lb > div[id^="_"] > div[class*=" "]:not([id]):empty:matches-css(opacity: 0.7):remove()
+www.google.com###lb > div[id^="_"] > div[class*=" "]:not([id]):has(> span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"])
+www.google.com###lb > div[id^="_"] > div[class*=" "]:not([id]):has(> span > div[role="dialog"] > #cnsw > iframe[src*="://consent.google.com"]):remove()
+www.google.com##body.QVCmK:style(position: static !important; overflow-y: visible !important;)
+www.google.com##html.QVCmK:style(overflow-y: visible !important;)
