@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.14.0
-! Last modified: Sat, 14 Feb 2026, 20:51 UTC+00:00
+! Version: 2026.2.15.0
+! Last modified: Sun, 15 Feb 2026, 00:27 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.14.0 aktualizacja: sob, 14 lut 2026, 20:51 UTC+00:00
+! v.2026.2.15.0 aktualizacja: nie, 15 lut 2026, 00:27 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -3083,7 +3083,7 @@ wste.edu.pl###ms_rodo
 wszelkieprzepisy.pl##.txc_cookie_infobox
 wszystkoblisko.pl##.ueCookies
 www.comarch.pl##.consent-modal
-www.google.com,www.google.pl#?##appbar.appbar > div:first-child > div:has-text(/^Plików cookie i/) > div > *
+www.google.com#?##appbar.appbar > div:first-child > div:has-text(/^Plików cookie i/) > div > *
 www.gov.pl###cb2-banner
 wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
