@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.15.0
-! Last modified: Sun, 15 Feb 2026, 00:27 UTC+00:00
+! Version: 2026.2.15.1
+! Last modified: Sun, 15 Feb 2026, 03:27 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.15.0 aktualizacja: nie, 15 lut 2026, 00:27 UTC+00:00
+! v.2026.2.15.1 aktualizacja: nie, 15 lut 2026, 03:27 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -9723,7 +9723,6 @@ www.delia.pl##div[data-widget_type="heading.default"]:has(+ .elementor-widget-so
 www.dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class] > span:has-text(/^Udostępnij:?$/) + div:nth-child(2) > button:nth-child(-n+2)
 www.dobreprogramy.pl#?#div[data-scroll-lock-scrollable] > aside > div:nth-child(2):has-text(Obserwuj nas na)
 www.google.com###modal-dialog div[class*="-share-"] button[class*="-share-"]:has(img[src*="svg"])
-www.google.com##.app-imagery-mode div[jsaction="modal.backgroundClick"] > div[jsan] div.k9Fsie > button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
 www.google.com##.chr-footer-social
 www.google.com##.ddl-facebookButton_
 www.google.com##.ddl-twitterButton_
