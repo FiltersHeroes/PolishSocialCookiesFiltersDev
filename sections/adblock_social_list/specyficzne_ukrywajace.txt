@@ -1,3 +1,22 @@
+cezal24.pl###fixed-social
+agristal.pl###fb-side
+agristal.pl###fixed-container a[href*="youtube.com/"]
+agristal.pl###fixed-container a[href*="instagram.com/"]
+agristal.pl###fixed-container a[href*="facebook.com/"]
+fikatown.pl###sticky-social-icons-container a[href]:not([href^="mailto:"])
+fikatown.pl##div[class*="footer"] a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
+vetlab.pl###ssb-container a[href*=".com/"]:is([href*="instagram.com"], [href*="facebook.com"], [href*="youtube.com"], [href*="twitter.com"])
+zwierzyniec.wroclaw.pl###facebook
+natuwima.pl##.fb
+mebelja.pl###ssb-container a[href*=".com/"]:is([href*="instagram.com"], [href*="facebook.com"], [href*="youtube.com"], [href*="twitter.com"])
+mebelja.pl##.et_pb_module:has(+ .et_pb_module iframe[src*="facebook.com/"])
+zielony-parapet.pl###fblikeboxleft
+resko24.pl##.youtube
+resko24.pl##.facebook
+domkove.pl###sc_social
+domkove.pl##.right a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
+artdecor24.pl##.social-wrapper
+artdecor24.pl##.social-icons
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -571,8 +590,8 @@ archiwum.szubin.pl##a[href*="facebook.com/szubinpl"] > img, a[href*="instagram.c
 arcontact.pl###plusone-slider
 arena.pl##footer .MuiGrid-item > a[target="_blank"] > svg
 arena.pl##footer div[class*="socialWrapper"]
-arenadesign.pl,beardrust.pl,cavaliada.pl,esthetic.com.pl,fitexpo.com.pl,ksgornik.eu,skrivanek.pl,strefakibica.poznan.pl###ssb-btn-1
-arenadesign.pl,beardrust.pl,cavaliada.pl,fitexpo.com.pl,goldenmarketing.pl,ksgornik.eu,skrivanek.pl,strefakibica.poznan.pl###ssb-btn-2
+ksgornik.eu###ssb-container a[href*=".com/"]:is([href*="instagram.com"], [href*="facebook.com"], [href*="youtube.com"], [href*="twitter.com"])
+ksgornik.eu###ssb-container a[href*=".com/"]:is([href*="instagram.com"], [href*="facebook.com"], [href*="youtube.com"], [href*="twitter.com"])
 arenadesign.pl,cavaliada.pl##.instagram1
 arenanarciarska.pl##.top-righ-icons > a[href*="youtube.com/channel/"], #footer-icons > li:nth-of-type(2)
 arhelan.pl##div > a[href*="facebook.com/SklepyArhelan/"]
@@ -859,8 +878,8 @@ bdb.com.pl###menudiv a[href*="facebook.com/"]
 bdsklep.pl##.m-footer_socialmedia
 beactivetv.pl##footer#footer > div > div a[href*=".com/"] > img
 beafoto.pl###clink_80
-beardrust.pl,cesario.pl,esthetic.com.pl,goldenmarketing.pl,ksgornik.eu,moodconcept.pl,techpil.pl###ssb-btn-0
-beardrust.pl,goldenmarketing.pl,klimacold.com,klimacold.com.pl###ssb-btn-3
+ksgornik.eu###ssb-container a[href*=".com/"]:is([href*="instagram.com"], [href*="facebook.com"], [href*="youtube.com"], [href*="twitter.com"])
+klimacold.com###ssb-container a[href*=".com/"]:is([href*="instagram.com"], [href*="facebook.com"], [href*="youtube.com"], [href*="twitter.com"])
 beatabus.pl###Mod127
 beautyduty.pl###footer #text-5
 beautyinspiration.pl###footer .last.widget-3
@@ -1343,8 +1362,6 @@ cateromarket.pl##footer a[href*=".com/"]:is([href*="facebook.com/"], [href*="ins
 catzilla.com###footer_bottom24
 catzilla.com##img[src="/images/vimeo.png"], .btn-block.btn-sm.btn-danger.btn.cbConnectButtonGoogle.cbConnectButtonIconText.cbConnectButtonm, .btn-block.btn-sm.btn-default.btn.cbConnectButtonTwitter.cbConnectButtonIconText.cbConnectButton, .btn-block.btn-sm.btn-primary.btn.cbConnectButtonFacebook.cbConnectButtonIconText.cbConnectButton
 causafinita.pl##.contact .links
-cavaliada.pl###ssb-btn-6
-cavaliada.pl,gamearena.pl,targimodypoznan.pl##.youtube2
 cbcpoland.pl##.footer-special-block.col-sm-12.col-md-5
 cbdzoe.pl##.social a:not([href^="mailto"])
 cbt.net.pl##.footer-info div.row:nth-of-type(2) > div:nth-of-type(2) > h4
@@ -2643,7 +2660,7 @@ ferrariwarszawa.com,zapinamypasy.pl##.share-media
 ferso.org,lazienkiportal.pl###fb_box
 feryster.pl###left-footer > .profile
 fesswybitnie.com##.elementor-widget-wd_instagram
-festiwal.mtp.pl,specialdays.pl##.fb_likebox
+mtp.pl##div.footer__objects:nth-of-type(5)
 festiwalbiegowy.pl###block-block-52 > fieldset > legend
 festiwale.zakopane.pl##footer > div > .row > div:nth-of-type(3)
 festiwalinspiracji.pl#?#div.tzSpace_default.vc_row-fluid.wpb_row.vc_row:has-text(OBSERWUJ NAS NA FACEBOOKU)
@@ -4209,8 +4226,8 @@ krzysztofwojczal.pl###aptf_widget-3
 krzyzowki123.pl##.share:not(.email)
 ks.pl##.pfa-social
 kserotechnik.com##div.span3.moduletable:nth-of-type(3)
-ksgornik.eu###ssb-btn-5
-ksgornik.eu##.container .border-wrapper:has(> div:has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="youtube.com/"]))
+ksgornik.eu###ssb-container a[href*=".com/"]:is([href*="instagram.com"], [href*="facebook.com"], [href*="youtube.com"], [href*="twitter.com"])
+ksgornik.eu##.container .border-wrapper:has(> div:has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="youtube.com/"], a[href*="tiktok.com/"]))
 ksiazki.pl##.footer-block--socialmedia
 ksiaznicapodlaska.pl###footer-social-menu
 ksiaznicapodlaska.pl###header-social-menu
@@ -5220,7 +5237,6 @@ mzbm.tychy.pl##footer h2:has(+ .social)
 mzk-ostrow.com.pl##.rightpane p:nth-of-type(n+52):nth-of-type(-n+58)
 mzk-ostrow.com.pl##p:nth-child(n+59)
 mzk-torun.pl###s5_drop_down_container
-mzpnkrakow.pl###ssb-container [href*="facebook.com"], #ssb-container [href*="youtube.com"], #ssb-container [href*="twitter.com"], footer .twitter
 mzuim.chorzow.eu##.socialmedia > li:not(.bip, .rss)
 n1ghtwish.no-ip.pl##.footer_links_external.footer_links > a:not([href*="rss"])
 na-talerzu.pl##.wprm-call-to-action-simple.wprm-call-to-action
@@ -7776,7 +7792,6 @@ tapenda.pl###lewe_socjalki, #prawa_spolecznosciowki
 tapeteos.pl###sidebar > p.title:first-of-type, #sidebar > p.title:first-of-type + div.content:first-of-type
 tarczynski.pl##.s_icon
 targes.pl##.fb.social_tab
-targimodypoznan.pl##.ssb-light-hover > :not(#ssb-btn-0)
 targsmaku.pl##.fb-flayout-box-trigger
 tarkett.pl##div.compass-page__links-block__container:nth-of-type(3)
 tarnogrod.info##.uagb-ifb-title > a[href*="fb.com/tarnogrod.info"]
