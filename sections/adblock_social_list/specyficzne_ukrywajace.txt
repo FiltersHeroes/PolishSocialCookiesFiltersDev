@@ -1,4 +1,3 @@
-elektroda.pl##.follow-us-on a[href]:not([href*="news.google.com/"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -2322,6 +2321,7 @@ electrolux.pl##div.WebsiteFeedback-row:nth-of-type(4)
 electronicbeats.pl##footer nav ~ nav > a[target="_blank"][title]
 elektoralna.pl##.icon_bar_youtube, .icon_bar_facebook
 elektraluban.pl#?#div[class*="footer"] > div[class*="text"] > p:not([id], [class]):has-text(MEDIA SPOŁECZNOŚCIOWE)
+elektroda.pl##.follow-us-on a[href]:not([href*="news.google.com/"])
 elektroda.pl##.footer-wrap > .container > div:nth-of-type(4) > div:first-of-type > a
 elektroda.pl##.social-media-dropdown.dropdown-menu > :not(.email, .clipboard)
 elektroda.pl##.social-media-dropdown.dropdown-menu > :not([title="Udostępnij na email"], [title="Kopiuj do schowka"])
