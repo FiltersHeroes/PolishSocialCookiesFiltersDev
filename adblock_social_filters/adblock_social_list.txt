@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.15.3
-! Last modified: Sun, 15 Feb 2026, 16:57 UTC+00:00
+! Version: 2026.2.15.4
+! Last modified: Sun, 15 Feb 2026, 20:52 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.15.3 aktualizacja: nie, 15 lut 2026, 16:57 UTC+00:00
+! v.2026.2.15.4 aktualizacja: nie, 15 lut 2026, 20:52 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1134,7 +1134,7 @@ agronews.com.pl,eurowizja.org,gazetaregionalna.com,gizycko.info,kurier-kolejowy.
 agroperfekt.pl##.rssocial-custom-icon[href*="instagram.com/"]
 agroperfekt.pl,apolanka.pl,bona-ppetit.pl,kam-tech.com.pl,mckenzie.pl,owbaltyk.pl,rolpolopalenica.pl##.rssocial-facebook-icon
 agroperfekt.pl,czemarol.pl,materialybudowlanekrokowa.pl,owbaltyk.pl##.rssocial-youtube-icon
-agropolska.pl,artdecor24.pl,avatec.pl,bitdefender.pl,biznesinfo.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekipatonosi.pl,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,forfiterexclusive.pl,garneczki.pl,genzie.store,goniec.pl,goodnoot.com,goracetematy.pl,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lenovo.com,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,naszaklasa.app,netgear.com,nowa.wbp.lodz.pl,one.greeneris.com,pacjenci.pl,papatka.pl,pekao.com.pl,pieknoumyslu.com,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,rolnikinfo.pl,saketos.pl,sklep.miod.com.pl,smakosze.pl,smbieluch.pl,sumin.com.pl,support.avast.com,swiatgwiazd.pl,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
+agropolska.pl,artdecor24.pl,avatec.pl,bitdefender.pl,biznesinfo.pl,canagri.pl,carsmile.pl,cpl.com,cyclonis.com,deere.pl,delphiautoparts.com,ekipatonosi.pl,ekogram.pl,empireshop.pl,eobuwie.com.pl,etuo.pl,forfiterexclusive.pl,garneczki.pl,genzie.store,goniec.pl,goodnoot.com,goracetematy.pl,heel.pl,infinixstore.eu,kajto.pl,klaudynahebda.pl,kreatywna.pl,lenovo.com,lilio.pl,logitech.com,lokalnyrolnik.pl,lumex.pl,makro.pl,mi-home.pl,morebananas.pl,nano.komputronik.pl,naszaklasa.app,netgear.com,novamed.pl,nowa.wbp.lodz.pl,one.greeneris.com,pacjenci.pl,papatka.pl,pekao.com.pl,pieknoumyslu.com,polskieradio24.pl,pomagam.pl,proformat.pl,przemekjurek.pl,radioq.fm,rolnikinfo.pl,saketos.pl,sklep.miod.com.pl,smakosze.pl,smbieluch.pl,sumin.com.pl,support.avast.com,swiatgwiazd.pl,tarczynskiarenawroclaw.pl,teb.pl,velux.pl,virtu.com.pl,wciagnij.to,webd.pl,weissklinik.pl,wingsbridge.pl,xlm.pl,zinfo.pl,zjedz.my##.social-icons
 agrosiec.pl##.fixed > a[href*=".com/"][target="_blank"]
 agrosimex.pl##.icon-Youtube
 agrosimex.pl##a.social-icon
@@ -1395,7 +1395,7 @@ apptoyou.pl##div.clickable-element img[src*="fb.svg"]
 apptoyou.pl##div.clickable-element img[src*="in.svg"]
 apress24.pl##footer .container > .row > div[class]:nth-of-type(2)
 apte.pl##.side-widget-facebook
-apteczkadziecka.pl,lepolek.pl,mamyito.pl,melisa.pl,theprotocol.it,topspozywcze.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
+apteczkadziecka.pl,lepolek.pl,mamyito.pl,melisa.pl,seksuologiadziecieca.pl,theprotocol.it,topspozywcze.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
 apteka-amica.pl##.left.sidebar > div.box:nth-of-type(n+5):nth-of-type(-n+8)
 apteka-band.eu###SITE_FOOTERinlineContent-gridContainer .font_7
 apteka-band.eu##div[data-hook="social-sharing"] > a
@@ -2862,6 +2862,7 @@ dom.aluprof.eu###cs-social-media
 domar.biz.pl##.floating-menu > ul > li:nth-of-type(n+4):nth-of-type(-n+5)
 domenasportowa.pl###menu5_wrap
 domeny.pl,pay.google.com,wallet.google,zagranie.com##.social-icons a
+domeny.tv###footer > .container > .row > div:nth-of-type(3) li:not(:has(a[href*="zlapaniwsiec.pl"]))
 dominospizza.pl##.m-Footer__icons-holder
 domiporta.pl##.container > .justify-content-between.row > .col-md-3.col-12
 domiporta.pl##.content-row > .scl-md-lnks
@@ -6360,6 +6361,7 @@ notino.pl##a.footer-paymentsSocialSocialIconLink
 notube.net###bottom > .container > .row > div[class]:nth-of-type(4)
 nova-stomatologia.pl##header ~ div[style*="center"] a[href*="facebook.com/"]
 nova-stomatologia.pl##header ~ div[style*="center"] a[href*="instagram.com/"]
+novamed.pl##.contact-info > div > a[href*=".com/"]
 novela.tv,polonia1.tv,tele5.pl,water-planet.tv##.social-icons a[href]:not([href*="mailto:"])
 nowa.e-pat.pl,pcaaa.org###footer-icons
 nowa.tv##.fb.sticky_box
@@ -7947,6 +7949,7 @@ segway-polska.pl###email-alert-signup + p
 segway-polska.pl###email-alert-signup + p ~ a
 sejm.gov.pl##.flickr
 sekretypoliglotow.pl##footer .ft-s
+seksuologiadziecieca.pl##.et_pb_section:has(#sb_instagram)
 sekurak.pl##.widget_text.widget:nth-of-type(6)
 selectivv.com#?#div[id^="text_block"].ct-text-block.subtitle--small:has-text(Obserwuj nas)
 selectivv.com#?#div[id^="text_block-"].ct-text-block.subtitle--small:has-text(Obserwuj nas) + div[id^="div_block-"].ct-div-block
