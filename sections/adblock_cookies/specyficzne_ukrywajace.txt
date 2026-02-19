@@ -2651,7 +2651,8 @@ sitn.pl##body > div:has(#cookie-close)
 sito.poznan.pl##.notice
 six-payment-services.com#?#.warning.state:has(.system-notification-text:has-text(cookie))
 skijumping.pl###modalGdpr
-sklep-agro-sklep.pl##.footer.config-messages
+sklep-agro-sklep.pl#?#div[class*="config"][class*="messages" i]:has-text(/((cookies? i podobnych)|((P|p)lik(i|ów) "?cookies"?)|(RODO))/)
+sklep.posto.pl#?#div[class*="config"][class*="messages" i]:has-text(/((cookies? i podobnych)|((P|p)lik(i|ów) "?cookies"?)|(RODO))/)
 sklep-brennenstuhl.pl##.seigi-cookie-banner, #cookie-change-button
 sklep-domwhisky.pl###rodo-modal-all
 sklep-elektronik.pl##.jconfirm:has(.pdcookie-show-submit.btn)
