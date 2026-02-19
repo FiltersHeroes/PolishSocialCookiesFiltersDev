@@ -1,3 +1,15 @@
+pl##a[href*="//x.com/home?status="]
+pl##a[href*="//x.com/intent/tweet"]
+pl##a[href*="//x.com/share?url="]
+pl##a[href*="//www.x.com/home?status="]
+pl##a[href*="//www.x.com/intent/tweet"]
+pl##a[href*="//www.x.com/share?url="]
+~pl##a[href*="//x.com/home?status="]:lang(pl)
+~pl##a[href*="//x.com/intent/tweet"]:lang(pl)
+~pl##a[href*="//x.com/share?url="]:lang(pl)
+~pl##a[href*="//www.x.com/home?status="]:lang(pl)
+~pl##a[href*="//www.x.com/intent/tweet"]:lang(pl)
+~pl##a[href*="//www.x.com/share?url="]:lang(pl)
 ##.facebookPrzyczepiony
 ##.footer-box.footer-social-media
 ##.footer_links span[title=""]:has(+ ul[class*="footer_links_sub"] a[href]:is([href*="facebook.com"], [title="Blog"])):style(border: 2px solid red !important; outline: 2px solid gold)
@@ -20,9 +32,9 @@
 ##div[id^="profilki_socialbuttons"]
 ##section[aria-label="media społecznościowe"]
 ##ul[aria-label="Pasek społecznościowy"], ul[aria-label="Social Bar"]
-##ul[class*="footer_links_sub"] li > a[href*=".com/"]:is([href*="facebook.com"], a[href*="instagram"], [href*="tiktok.com"], [href*="pinterest.com"], [href*="youtube.com"], [href*="linkedin.com"], [href*="twitter.com"])
+##ul[class*="footer_links_sub"] li > a[href*=".com/"]:is([href*="facebook.com"], a[href*="instagram"], [href*="tiktok.com"], [href*="pinterest.com"], [href*="youtube.com"], [href*="linkedin.com"], [href*="twitter.com"], [href*="x.com"])
 ##ul[class*="footer_links_sub"] li > a[title="Blog" i] img
-##ul[class*="footer_links_sub"] li:has(> a[href*=".com/"]:is([href*="facebook.com"], a[href*="instagram"], [href*="tiktok.com"], [href*="pinterest.com"], [href*="youtube.com"], [href*="linkedin.com"], [href*="twitter.com"]))
+##ul[class*="footer_links_sub"] li:has(> a[href*=".com/"]:is([href*="facebook.com"], a[href*="instagram"], [href*="tiktok.com"], [href*="pinterest.com"], [href*="youtube.com"], [href*="linkedin.com"], [href*="twitter.com"], [href*="x.com"]))
 ##ul[class*="footer_links_sub"] li:has(> a[title="Blog" i] img)
 ~pl###bossbyte_slide:lang(pl)
 ~pl###wp-article-share-button:lang(pl)
@@ -266,6 +278,7 @@ pl##.contest.BTtbar
 pl##.div_menu_prawe_wysuwane a[href*="facebook.com/"]
 pl##.div_menu_prawe_wysuwane a[href*="instagram.com/"]
 pl##.div_menu_prawe_wysuwane a[href*="twitter.com/"]
+pl##.div_menu_prawe_wysuwane a[href*="x.com/"]
 pl##.div_menu_prawe_wysuwane a[href*="youtube.com/"]
 pl##.dodaj_do
 pl##.dostepne_facebook
