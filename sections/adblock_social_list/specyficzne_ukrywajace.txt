@@ -1,4 +1,3 @@
-miners.pl##footer ul.list > li:has(a:is([href*="/n/list"], [href*="facebook.com"], [href*="instagram.com"], [href*="t.me"], [href*="tiktok.com"]))
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -4942,6 +4941,7 @@ milworld.pl##.four-up.block-grid div.num3.col:first-of-type
 minds.com##.m-social-icons
 minecraft.org.pl##.stone-module.well-sm.well:nth-of-type(3), .col-md-12.col-lg-2:nth-of-type(4)
 minecraft.org.pl##[aria-label="Profil na Facebooku"], [aria-label="Profil na Twitterze"], [aria-label="Kanał na YouTube"], [aria-label="Discord"], [title="Dołącz na serwer Discord Minecraft Polska"]
+miners.pl##footer ul.list > li:has(a:is([href*="/n/list"], [href*="facebook.com"], [href*="instagram.com"], [href*="t.me"], [href*="tiktok.com"]))
 mini-max.biz##.footer .BottomMenu > div.column:nth-of-type(4)
 mini.com.pl##.md-js-ht-share, .md-social-links
 ministerstwodobregomydla.pl###menu_contact > #menu_button3_bottom
