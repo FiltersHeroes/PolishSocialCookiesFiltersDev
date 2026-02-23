@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.23.0
-! Last modified: Mon, 23 Feb 2026, 21:11 UTC+00:00
+! Version: 2026.2.23.1
+! Last modified: Mon, 23 Feb 2026, 21:23 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.23.0 aktualizacja: pon, 23 lut 2026, 21:11 UTC+00:00
+! v.2026.2.23.1 aktualizacja: pon, 23 lut 2026, 21:23 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -2515,7 +2515,8 @@ crowdmedia.pl##.widget_aptf_widget
 crowdmedia.pl,performance360.pl##.herald-soc-nav
 crowdway.pl##.fundpress-social-list
 cryptoprofit.pl###sidebar > #media_image-7 > a > img, .left-slider.featured-area > #sidebar > .widget > a > img
-cryptoprofit.pl##.coin-telegram, .coin-facebook, .coin-twitter, .coin-reddit
+cryptoprofit.pl##.coin-facebook, .coin-twitter, .coin-reddit
+cryptoprofit.pl##.coin-telegram
 cryptoprofit.pl,darlowo.pl,emito.net,haechishop.pl,hotto.pl,miedzlegnica.eu,moraj.pl,murapol.pl,polmotor.pl,prnt.sc,przepisyjoli.com,stilord.pl,strimeo.tv,uni.wroc.pl,wege-warszawa.pl,zgred.pl,zielonysklep.com##.header-social
 cs-harnas.pl###ipsLayout_socialMedia
 csgo-skins.com###fb-page-button
@@ -5872,7 +5873,8 @@ milworld.pl##.four-up.block-grid div.num3.col:first-of-type
 minds.com##.m-social-icons
 minecraft.org.pl##.stone-module.well-sm.well:nth-of-type(3), .col-md-12.col-lg-2:nth-of-type(4)
 minecraft.org.pl##[aria-label="Profil na Facebooku"], [aria-label="Profil na Twitterze"], [aria-label="Kanał na YouTube"], [aria-label="Discord"], [title="Dołącz na serwer Discord Minecraft Polska"]
-miners.pl##footer ul.list > li:has(a:is([href*="/n/list"], [href*="facebook.com"], [href*="instagram.com"], [href*="t.me"], [href*="tiktok.com"]))
+miners.pl##footer ul.list > li:has(a:is([href*="/n/list"], [href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"]))
+miners.pl##footer ul.list > li:has(a[href*="t.me"])
 mini-max.biz##.footer .BottomMenu > div.column:nth-of-type(4)
 mini.com.pl##.md-js-ht-share, .md-social-links
 ministerstwodobregomydla.pl###menu_contact > #menu_button3_bottom
