@@ -1,3 +1,8 @@
+enger.pl##.elementor-widget-heading:has(+ .elementor-widget-icon-list a[href*="facebook.com/"])
+enger.pl##.elementor-widget-heading + .elementor-widget-icon-list:has(a[href*="facebook.com/"])
+b2b.engerhandles.com##.social-media-ui
+mchome.pl##.userfooter .fa-pinterest-square
+blog.szurek.tv##footer a:is([href*="facebook.com"], [href*="twitter.com"], [href*="instagram.com"], [href*="linkedin.com"], [href*="/discord"], [href*="youtube.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
