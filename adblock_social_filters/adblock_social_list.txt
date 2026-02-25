@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.23.1
-! Last modified: Mon, 23 Feb 2026, 21:23 UTC+00:00
+! Version: 2026.2.25.0
+! Last modified: Wed, 25 Feb 2026, 22:02 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.23.1 aktualizacja: pon, 23 lut 2026, 21:23 UTC+00:00
+! v.2026.2.25.0 aktualizacja: śro, 25 lut 2026, 22:02 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1651,8 +1651,8 @@ azjanatalerzu.pl##.footer_social_media
 azjatyckibazar.com###footer > div.col-sm-no-pd.col-sm-4:nth-of-type(3)
 aztecas.eu##.stopka > div[class*="stopka2"] > a:not([href$="/feed/"])
 azure.microsoft.com##div[id^="socialfollow-"] a[href]:not([href*="app"])
+b2b.engerhandles.com,b2b.metal-bud.eu,bat.pl,brymorex.pl,chemko.com.pl,door-handles.com,sklep.enger.pl##.social-media-ui
 b2b.mdmnt.com##.btn-icon__inner.fa-facebook-f
-b2b.metal-bud.eu,bat.pl,brymorex.pl,chemko.com.pl,door-handles.com,sklep.enger.pl##.social-media-ui
 b2btrade.eu###footer > div:nth-of-type(6) > a.left
 b2net.pl#?#.single-widget > h3:has-text(Udostępnij)
 b365.pl###box_custom36
@@ -1988,6 +1988,7 @@ blog.nazwa.pl##.sociale, .stopka
 blog.siegnijpozdrowie.org,djakdesign.pl,ewaszalkowska.com,invoicer.blogspot.com,kuchniamagdaleny.pl,lifebymarcelka.pl,planszowkiwedwoje.pl,reklamy-arek.blogspot.com,swedish-princesses.pl,wegannerd.blogspot.com,wegannerd.com,wszystkiemojebziki.pl,wszystkocopolskie.blogspot.com###HTML1
 blog.spacetronik.eu###facebook-2, #social_v2-2
 blog.spotawheel.pl##.widget--social
+blog.szurek.tv##footer a:is([href*="facebook.com"], [href*="twitter.com"], [href*="instagram.com"], [href*="linkedin.com"], [href*="/discord"], [href*="youtube.com"])
 blogierka.pl###facebook_like_widget-3
 blogmtb.pl###HTML3 > .title, .roll1, .roll2, .roll3
 blogojciec.pl###ppsPopupShell_100_859245, #ppsPopupBgOverlay
@@ -3306,6 +3307,8 @@ energylandia.pl##.el-social-footer, .floating-facebook-button
 eneris.pl,wste.edu.pl##.social_menu
 enfamil.pl##.float-app:nth-of-type(3), .float-fb:nth-of-type(4)
 enform.pl##.ast-footer-social-wrap
+enger.pl##.elementor-widget-heading + .elementor-widget-icon-list:has(a[href*="facebook.com/"])
+enger.pl##.elementor-widget-heading:has(+ .elementor-widget-icon-list a[href*="facebook.com/"])
 enger.pl##.widget_cyberdom_core_social_icons_group
 enova.pl##.ipb-layout__footer-row-socials
 enowiny.pl##li > a[href*="facebook.com/"]
@@ -5693,6 +5696,7 @@ mbud.waw.pl##.header-widget > li:has(a[href*="facebook.com/"])
 mbud.waw.pl##.social-btn.button
 mcdonalds.pl##.mc-story__label--share, .mc-story__share
 mcdonalds.pl##li.navbar-social-item
+mchome.pl##.userfooter .fa-pinterest-square
 mckenzie.pl##.rssocial-twitter-icon
 mckkatowice.pl##.soc > a
 mckkatowice.pl,musicboxtv.pl,ricoh.pl,zak.edu.pl##.social a
