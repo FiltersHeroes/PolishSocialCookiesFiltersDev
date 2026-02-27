@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.25.0
-! Last modified: Wed, 25 Feb 2026, 22:02 UTC+00:00
+! Version: 2026.2.27.0
+! Last modified: Fri, 27 Feb 2026, 20:54 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.25.0 aktualizacja: śro, 25 lut 2026, 22:02 UTC+00:00
+! v.2026.2.27.0 aktualizacja: pią, 27 lut 2026, 20:54 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3138,7 +3138,6 @@ eataway.com###footer > .container > .row > div:nth-of-type(4)
 eau-thermale-avene.pl,tme.eu##.c-footer__social-icons
 ebilet.pl##.eb-footer__copyright-and-social > div > a:not([href="/newsletter"])
 ebizpro.pl##.contact-block--footer.contact-block
-ebooki.nowaera.pl##.eb-footer-column__social-link
 ebratek.pl,eplaster.pl,pizzeriaubatmana.pl##.facebook-right
 ebuciki.com###inst
 ebutik.pl###footer_socials
@@ -6401,6 +6400,8 @@ nowa.wbp.lodz.pl##.text-right .social-icon
 nowaatlantyda.com##.milkit_widget_social
 nowaatlantyda.com##.site-follow-label
 nowaconcept.pl##a span[class*="social_"][class*="_circle"]
+nowaera.pl##.ne-footer__list-header:has(+ .ne-socials)
+nowaera.pl##.ne-socials
 nowafarmacja.pl##.footer-nav > nav:nth-of-type(5)
 nowakonfederacja.pl##.icons-facebook-letter-logo, .icons-twitter-black-shape, .icons-youtube-symbol
 nowastrategia.org.pl##div.home-widget:nth-of-type(2) > .widget_text.widget > .textwidget > p
