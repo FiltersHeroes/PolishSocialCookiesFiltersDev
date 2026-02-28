@@ -1,3 +1,5 @@
+whatsnext.pl##.elementor-widget-heading:has(+ .elementor-widget-social-icons)
+chip.pl##div[class^="fc-SocialsList"] > a[href]:not([href*="/feed"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -1425,10 +1427,10 @@ chillizet.pl##.share > .messanger.button, .like__us, #main-footer p.text-align__
 chimmo.pl##a.footer-icon
 chinskapatelnia.pl##.home-instagram.home-box, .home-youtube.home-box
 chinytolubie.pl,hairbyjul.pl,refreszing.pl##.penci_facebook_widget
-chip.pl,kinkyowl.pl,leftlane.pl,retest.com.pl,whatsnext.pl##.tipi-i-instagram
-chip.pl,kinkyowl.pl,leftlane.pl,whatsnext.pl##.tipi-i-facebook
-chip.pl,kinkyowl.pl,whatsnext.pl##.tipi-i-twitter
-chip.pl,leftlane.pl,whatsnext.pl##.tipi-i-youtube-play
+kinkyowl.pl,retest.com.pl##.tipi-i-instagram
+kinkyowl.pl##.tipi-i-facebook
+kinkyowl.pl##.tipi-i-twitter
+retest.com.pl##.tipi-i-tiktok
 chlodnictwoiklimatyzacja.pl###left-in > .moduletable:nth-of-type(7)
 chocholowskietermy.pl##.mk-footer-social
 choiceqr.com##.footer__subtitle_social
@@ -4390,7 +4392,6 @@ leclerc.rzeszow.pl##.dolacz
 leclerctychy24.pl##.lc-footer-social-icons
 lecnawakacje.pl##.classPageGenerator_default_bottom_socialMedia
 leczna24.pl##.btn[href*="facebook.com/"]
-leftlane.pl##a[href="youtube.com/c/LeftlanePl"], a[href="instagram.com/leftlanepl/"], a[href="facebook.com/leftlanepl/"]
 legalniewsieci.pl##.news-footer .socials
 legalniewsieci.pl##.row > .socials > :not(a[href*="mailto:"])
 legato-motocykle.pl###menu_button_3
