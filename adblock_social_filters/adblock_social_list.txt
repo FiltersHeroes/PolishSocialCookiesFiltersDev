@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.2.28.1
-! Last modified: Sat, 28 Feb 2026, 22:35 UTC+00:00
+! Version: 2026.2.28.2
+! Last modified: Sat, 28 Feb 2026, 23:27 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.2.28.1 aktualizacja: sob, 28 lut 2026, 22:35 UTC+00:00
+! v.2026.2.28.2 aktualizacja: sob, 28 lut 2026, 23:27 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1219,7 +1219,7 @@ ale.pl##.facebook-wrapper
 ale.pl##.top-bar-top ul > li > a[href*=".com/"]
 alebank.pl##.social-item-box
 alebilet.pl##.widget:nth-child(n+3)
-alebuty.com.pl,matteobrunetti.pl###social-media
+alebuty.com.pl,matteobrunetti.pl,mobilet.eu###social-media
 aleeko.pl###page > footer .footer-column2
 aleeko.pl##.footer-column a[href*="blog.aleeko.pl"]
 aleherbaty.pl##ul.links > li[class*="social"]
@@ -2587,6 +2587,8 @@ czescidobmw.pl##.facebook-plugin
 czeski-warszawa.pl,kursczeskiego.pl###sfsi_plus_floater
 czeskieklimaty.pl###div_fb
 czestochowa.pl###left_bookmarks > a[href*="nk.pl/main"], #left_bookmarks > a[href*="instagram.com/"]
+czestochowa.pl###social-btns
+czestochowa.pl###social-btns + .big-line
 czestochowskie24.pl###text-32, .item-youtube
 czestochowskie24.pl,detektywprawdy.pl,greencanoe.pl,karointhekitchen.com,staszic.info,szema.eu,szklomal.eu###text-13
 czeszesie.pl###fbTab
@@ -3170,7 +3172,7 @@ edukacja.rybnik.eu##div.box:nth-of-type(6)
 edunews.pl##.customja-social > div > a[href*="facebook.com/edunews"], a[href*="flickr.com/photos/edunews/"], a[href*="pinterest.com/marcinpolak/edustore/"], a[href*="twitter.com/edunews_pl"], a[href*="youtube.com/user/terazedukacja"]
 eduweb.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="youtube.com"], [href*="twitter.com"])
 eduzabawy.com##.et_social_sidebar_networks
-edziecko.pl,gazeta.pl,haps.pl,moto.pl,pl.y8.com,sport.pl##.follow-us
+edziecko.pl,gazeta.pl,haps.pl,mobilet.eu,moto.pl,pl.y8.com,sport.pl##.follow-us
 ee.pw.edu.pl##.menu-item.fb-link
 ee.pw.edu.pl,foodarea.pl,kruczek.pl,paweltkaczyk.com,piu.org.pl,swiatlowodotwarty.pl,zdgtor.pl##.menu-item a[href*="linkedin.com/"]
 eecpoland.eu##.page-header > .pageWidth > .wrap > .right > ul > li
@@ -3192,7 +3194,7 @@ eitc.online###Contact-left-small-r
 ekliniki.pl###sidebar > div.box-blue:nth-of-type(n+5):has(#likebox)
 ekliniki.pl,satkurier.pl##.twitter-share-button
 eko.org.pl##.w3-bar > div.ds-button-roundm
-ekoahimsa.pl,ekogram.pl,kluczesoft.pl,laptopypoznan.pl,pakuten.pl,projektjunior.pl,purina.pl,rozaria.pl,univexim.pl,vica.pl,wesoil.pl,wygodnadieta.pl##.block-social-links
+ekoahimsa.pl,ekogram.pl,kluczesoft.pl,laptopypoznan.pl,pakuten.pl,projektjunior.pl,purina.pl,rozaria.pl,sezon.olsztyn.pl,univexim.pl,vica.pl,wesoil.pl,wygodnadieta.pl##.block-social-links
 ekobieca.pl###social_media___buttons
 ekobilet.pl#?#.padtb-3.text-center.container:has-text(Facebooku)
 ekocentryczka.pl##a[href*="bloglovin.com/blog/3487953/ekocentryczka"], a[href*="facebook.com/pages/Ekocentryczkablogspotcom/117663851699094"]
@@ -8144,6 +8146,7 @@ sklep-realme.pl##footer .custom-html-widget.textwidget > .menu > .menu-item.nm-f
 sklep-rolnicze.eu###social-main
 sklep-rolnicze.eu##.right
 sklep-wedkarski.info,sklepfarmer.pl###FbPanel
+sklep-wedkarski.waw.pl/##a[href="/webpage/sprawdz-nasze-social-media.html"]
 sklep-zdrowia.eu##.modFooter_Left > p:has(> a > img)
 sklep.3mk.pl###sm-widget
 sklep.agroas.pl##.joinus a.stopka:first-of-type
