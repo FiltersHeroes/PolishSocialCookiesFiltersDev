@@ -1,5 +1,3 @@
-whatsnext.pl##.elementor-widget-heading:has(+ .elementor-widget-social-icons)
-chip.pl##div[class^="fc-SocialsList"] > a[href]:not([href*="/feed"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -1426,10 +1424,7 @@ chillizet.pl##.share > .messanger.button, .like__us, #main-footer p.text-align__
 chimmo.pl##a.footer-icon
 chinskapatelnia.pl##.home-instagram.home-box, .home-youtube.home-box
 chinytolubie.pl,hairbyjul.pl,refreszing.pl##.penci_facebook_widget
-kinkyowl.pl,retest.com.pl##.tipi-i-instagram
-kinkyowl.pl##.tipi-i-facebook
-kinkyowl.pl##.tipi-i-twitter
-retest.com.pl##.tipi-i-tiktok
+chip.pl##div[class^="fc-SocialsList"] > a[href]:not([href*="/feed"])
 chlodnictwoiklimatyzacja.pl###left-in > .moduletable:nth-of-type(7)
 chocholowskietermy.pl##.mk-footer-social
 choiceqr.com##.footer__subtitle_social
@@ -3983,6 +3978,9 @@ kingaparuzel.pl##.footer-insta
 kingowiec.pl##.BoxMedia
 kingsong.pl##.social > a:nth-of-type(n+3):nth-of-type(-n+4)
 kinguin.net##footer .icons div.col-sm:nth-of-type(2)
+kinkyowl.pl##.tipi-i-facebook
+kinkyowl.pl##.tipi-i-twitter
+kinkyowl.pl,retest.com.pl##.tipi-i-instagram
 kinopolskamuzyka.pl##.footer_right > li:nth-of-type(2)
 kkslech.com###text-25
 klamoty.com##.container > .row > .col-sm-4:nth-of-type(3)
@@ -5284,7 +5282,7 @@ naszarola.pl##.avia-builder-el-108.av_one_third
 naszekwatery.pl##.right_window_button
 naszemiasto.pl##.przyciskFB
 naszemiasto.pl##li .atomsNavigationResponsiveLinks__link[href*=".facebook.com/"]
-naszenaturalne.pl##.elementor-widget-heading:has(+ .elementor-widget-social-icons)
+naszenaturalne.pl,whatsnext.pl##.elementor-widget-heading:has(+ .elementor-widget-social-icons)
 naszesprawy.eu##.social-media-inner
 naszestrony.info.pl#?##tabs a[href="#tab-comments"]:has-text(Facebook)
 naszglospoznanski.pl##.nav a[href*="twitter.com/"]
@@ -6805,6 +6803,7 @@ resztamamy.pl##.tm-icon-menu.uk-hidden-small.uk-panel > .uk-subnav > li:nth-of-t
 resztamamy.pl##.tm-instagram-pics
 retailmarketexperts.com##.widget_nav_menu.widget.footer-column-4.footer-widget
 retailnet.pl##.footer-widget-3
+retest.com.pl##.tipi-i-tiktok
 retest.com.pl##.tipi-tip.tipi-i-facebook
 retest.com.pl##.tipi-tip.tipi-i-youtube-play
 retne.eu###header-all > header + a[style]
