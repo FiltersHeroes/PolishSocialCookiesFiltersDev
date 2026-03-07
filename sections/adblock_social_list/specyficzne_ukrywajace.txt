@@ -1,8 +1,3 @@
-postimg.cc##a[href*="/share"]
-login.eset.com##header ~ div a[href*=".com/"]:is([href*="facebook.com"], [href*="linkedin.com"], [href*="youtube.com"])
-help.eset.com###useful_pages a[href*=".com/"]:is([href*="facebook.com"], [href*="linkedin.com"], [href*="youtube.com"])
-status.eset.com##.footer-social-icons
-support.eset.com##.social-icon:not(.social-icon-rss)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -2393,7 +2388,7 @@ enel.pl###footer div.column.col-auto:nth-of-type(4) h4
 enel.pl##.fb-info
 enelsport.pl##div.page:nth-of-type(2) > div.width-25.column:nth-of-type(3), .quick-insta, .quick-fb
 enerad.pl##.nav-social-icons
-enerad.pl,fashionbiznes.pl,pizzeria-alforno.pl,psycholog-pisze.pl,smbieluch.pl,store.epicgames.com##.footer-social-icons
+enerad.pl,fashionbiznes.pl,pizzeria-alforno.pl,psycholog-pisze.pl,smbieluch.pl,status.eset.com,store.epicgames.com##.footer-social-icons
 energylandia.pl##.el-social-footer, .floating-facebook-button
 eneris.pl,wste.edu.pl##.social_menu
 enfamil.pl##.float-app:nth-of-type(3), .float-fb:nth-of-type(4)
@@ -3359,6 +3354,7 @@ hellozdrowie.pl##.fbCount
 hellozdrowie.pl##.single-post-side-shares-title
 hellozdrowie.pl##.wrapSocialBox
 help.docplanner.com##.kb-footer__social
+help.eset.com###useful_pages a[href*=".com/"]:is([href*="facebook.com"], [href*="linkedin.com"], [href*="youtube.com"])
 help.hbomax.com##.FooterSocialLink
 help.hbomax.com##.share > .facebook-btn
 helpx.adobe.com##.dexter-SocialMediaShare a[href*="twitter.com/share"]
@@ -4504,6 +4500,7 @@ localspots.pl##.overlays > div:not([class*="marker"]) > div:first-of-type:has(bu
 loczek.pl,sklepmedyczny.com.pl##.widget_social_media_widget
 lodzkie.pl##.jj_sl_custom3
 log4.pl###topContent > a[href*="facebook.com/logistyczny4/"]
+login.eset.com##header ~ div a[href*=".com/"]:is([href*="facebook.com"], [href*="linkedin.com"], [href*="youtube.com"])
 logitechg.com##.pangea-social-icons
 logitechg.com,rodzice.pl##.footer-social-links
 lokalizo.pl,memy.pl##.btn-fb.btn
@@ -6363,6 +6360,7 @@ posir.pl##.bot_cont:nth-of-type(5)
 posnet.com.pl##.footer_sm
 posrednik.pl##.jm-footer > div.span4:nth-of-type(3)
 postepmed.pl##.page-footer > div:only-child > div:nth-child(4)
+postimg.cc##a[href*="/share"]
 potegapasji.pl###et_recent_tweets-3, #et_social_followers-3
 powerjobs.pl##.fixed-socials
 powerman.com.pl##.pm_facebook_link
@@ -7656,6 +7654,7 @@ superwnetrze.pl##footer .more.box > ul > li > a:not([href*="worldlux.pl"])
 suponwroclaw.pl##.clearfix.sf-contener > div:nth-of-type(4)
 suponwroclaw.pl##.urlfacebook
 suppi.pl##a[href*=".com/"][aria-label*="Suppi na"]
+support.eset.com##.social-icon:not(.social-icon-rss)
 support.garmin.com##.sp__quick-links__social-links
 support.github.com##footer a[href*="twitch.tv/"]
 support.kaspersky.com##.footerLinkWrap:first-of-type p:nth-of-type(n+7):nth-of-type(-n+9)
