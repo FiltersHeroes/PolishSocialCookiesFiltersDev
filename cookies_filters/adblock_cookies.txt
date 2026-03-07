@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.3.7.0
-! Last modified: Sat, 07 Mar 2026, 13:21 UTC+00:00
+! Version: 2026.3.7.1
+! Last modified: Sat, 07 Mar 2026, 20:49 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.3.7.0 aktualizacja: sob, 07 mar 2026, 13:21 UTC+00:00
+! v.2026.3.7.1 aktualizacja: sob, 07 mar 2026, 20:49 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -3018,6 +3018,7 @@ vmr.pl##.ck-cnt
 vod.warszawa.pl#?##root footer ~ div[class]:has(h2:has-text(Szanujemy Twoją Prywatność))
 vodflix.tv##.tibrr-cookie-consent-container
 voxel.pl###block-rodo-rodo-block
+vrejestr.pl##.bottom-0.fixed:has(a[href="/polityka-prywatnosci"])
 vtc360.pl##.ggskin_text.info[style*="bottom"] > div:has(> a[href="https://vulcan-tc.pl/privacy_policy"])
 vuch.pl##.gdpr-cookie-bar
 vulcan.edu.pl###cookieLayerMain.cookies_n
@@ -4363,7 +4364,7 @@ wolframalpha.com##footer ~ section
 ~pl##body:lang(pl).cookie-overlay-active::after
 3-a.eu,archicom.pl,brzozowa21.pl,campery-zlotniccy.pl,galeriakatowicka.eu,it-dev.eu,ministerstwotajemnic.pl,shootingcracow.com,sosnowiec.pl,wielkimitcholesterolu.pl##.modal-cacsp-position
 account.transportgzm.pl#@#.mdc-dialog
-acogo.pl#@#.elementor-popup-modal
+acogo.pl,lajtmobile.pl#@#.elementor-popup-modal
 ad-site.pl,fesswybitnie.com,infogliwice.pl,nauka.rocks,okna-sandra.pl,optyk-maxima.pl,skladaniekomputera.pl,webniusy.com##div[id^="ct-ultimate-gdpr-cookie"]:is([id$="-modal"], [id$="-open"], [id$="popup"])
 adventuresports.pl,dkms.pl#@#.cc-banner
 adventuresports.pl,dkms.pl#@#.cc-bottom.cc-banner
