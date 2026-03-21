@@ -1,3 +1,12 @@
+novapost.com##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"], [href*="linkedin.com"])
+logilink.com##div.div33:nth-of-type(2):has(a[href*="facebook.com/2direct.logilink"])
+erste.pl##div[data-testid="share-links"]
+0101marketing.com##.bde-social-icons
+intar.pl##.social-menu
+stackoverflow.com##.js-social-container
+sklep.osmoza.pl##.KontenerDaneStopkaWierszSocialMedia
+envelo.pl##.social-media
+poczta-polska.pl##footer a[href*=".com"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"], [href*="x.com"], [href*="youtube.com"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
