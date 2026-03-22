@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.3.21.0
-! Last modified: Sat, 21 Mar 2026, 19:05 UTC+00:00
+! Version: 2026.3.22.0
+! Last modified: Sun, 22 Mar 2026, 20:49 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.3.21.0 aktualizacja: sob, 21 mar 2026, 19:05 UTC+00:00
+! v.2026.3.22.0 aktualizacja: nie, 22 mar 2026, 20:49 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -912,7 +912,6 @@ e-hak24.pl###cokkies
 e-hortico.pl###fancybox-container-1
 e-hotelarz.pl###header-cookies-accept
 e-hotelarz.pl,e-restauracja.com,e-stacjapaliw.pl,farmanoe.pl,grene.pl,imid.med.pl,marketing-automation.pl,nowaosada.pl,passa.media.pl,polskijubiler.pl,przegladlokalny.eu,rynek-turystyczny.pl,salesmanago.pl,turek.net.pl,vilohome.com,wiescisokolowskie.pl,zabkagroup.com##.popup
-e-konferencje.pl,szkolenia24h.pl##body > div[style="width: 970px; border:1px solid gray; margin: 3px auto; color: gray; padding: 3px; text-align: center; font: 10px Verdana, sans-serif;"]
 e-konkursy.info###rodoNotify, #cookieNotify
 e-kwiaciarz.pl##.ff-cookies-container
 e-medest.pl##a[href="/strony/cookies.html"]
@@ -2848,6 +2847,7 @@ szklomal.eu###spu-71777
 szkola-medyczna.com.pl###cookoie_info
 szkolawohyn.pl###imSplashBox:has([src="images/klauzula-PNG.png"])
 szkolawohyn.pl#?##imContent > div[style]:not([id], [class]):first-of-type:has(> div[id^="imCell"][class^="imGrid"] p > span ~ b > span:has-text(pliki cookies))
+szkolenia24h.pl##body > div[style="width: 970px; border:1px solid gray; margin: 3px auto; color: gray; padding: 3px; text-align: center; font: 10px Verdana, sans-serif;"]
 szkolnastrona.pl###cookiesMsgWrap
 szlot.pl###spu-1873, #spu-bg-1873
 szostygracz.pl##div#cw_statusbar
@@ -3364,7 +3364,6 @@ zyro.com##.zyro-cookies
 ||choices.consentframework.com^$domain=pl
 ||cmp.optad360.io^$domain=~cmp.optad360.io
 ||cookiefirst.com^$third-party,domain=pl
-||cookieform.pl/assets/js/plugin.js$third-party
 ||hokuspokus.pl/themes/webtheme/js/whrodo.js
 ||jak-zablokowac-cookies.pl/cookies_komunikat.js$script
 ||pl/*wpjslib-chunk-consent-form.js
