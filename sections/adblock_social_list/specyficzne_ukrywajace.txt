@@ -1,8 +1,3 @@
-porta.com.pl##header .nav-menu-desktop-js p:has(+ div .social-media-header)
-porta.com.pl##header .nav-menu-mobile-scrollbar p:has(+ .nav-menu-mobile-social-media)
-porta.com.pl##.nav-menu-mobile-social-media
-onet.pl##div[class^="FollowUs_followUs_"]
-opera.com##.simple-footer__follow-container
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -5650,6 +5645,7 @@ onet.pl##div[class*="AuthorSocialProfiles_socialButtonsContainer_"] a
 onet.pl##div[class*="DetailAuthors_socialWrapper_"]
 onet.pl##div[class*="DetailAuthorsItem_socialWrapper_"]
 onet.pl##div[class*="HamburgerMenuItem_menuItem"] div[class*="FollowUs_FollowUs_"]
+onet.pl##div[class^="FollowUs_followUs_"]
 onet.pl##div[data-gtm-social]
 onet.pl#?#div[class^="_"] > span[class^="_"]:has-text(Podziel się tym artykułem)
 onet.pl,plejada.pl##.poll_share
@@ -5672,6 +5668,7 @@ open.spotify.com##button[data-testid="entity-share-button"]
 open.spotify.com##nav a[href*=".com/"]:is([href*="instagram.com"], [href*="twitter.com"], [href*="facebook.com"])
 opera.com##.footer__follow-label
 opera.com##.footer__social-icons
+opera.com##.simple-footer__follow-container
 operatorzy.pl###glowCookies.glowCookies-banner
 opineo.pl##.fl:nth-of-type(3), .mt10.fh5
 opineo.pl##.footer__links-social
@@ -6344,11 +6341,14 @@ porsche.pl##.m-03-social-headline
 porscheinterauto.pl##a[href*="facebook.com/PorscheInterAutoPL/"], .c-article > .o-container.c-section > .o-flex-gaps.o-flex-md > div:first-of-type
 porta.com.pl##.-contact.advertisement--wrapper a
 porta.com.pl##.foot a[href*="pinterest.com/"]
+porta.com.pl##.nav-menu-mobile-social-media
 porta.com.pl##.newsletter--section > div > div.advertisement--container > :nth-child(-n+2)
 porta.com.pl##.social-box > h3
 porta.com.pl##.social-icon.icon-youtube-play
 porta.com.pl##.social_bttn_pinterest_wrapper
 porta.com.pl##a[class*="ShareButton_share_button_"]
+porta.com.pl##header .nav-menu-desktop-js p:has(+ div .social-media-header)
+porta.com.pl##header .nav-menu-mobile-scrollbar p:has(+ .nav-menu-mobile-social-media)
 portal-polski.pl##.hustle-social
 portal-polski.pl##.tg-second-footer-widget
 portal-polski.pl##.tg-third-footer-widget
