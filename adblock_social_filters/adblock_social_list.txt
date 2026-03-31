@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.3.30.0
-! Last modified: Mon, 30 Mar 2026, 21:06 UTC+00:00
+! Version: 2026.3.31.0
+! Last modified: Tue, 31 Mar 2026, 21:01 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.3.30.0 aktualizacja: pon, 30 mar 2026, 21:06 UTC+00:00
+! v.2026.3.31.0 aktualizacja: wto, 31 mar 2026, 21:01 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4561,7 +4561,7 @@ instalki.pl###instalki_header_search_section ~ .site-search-social
 instalki.pl##.instalki_header_search_section ~ .site-search-social
 instalki.pl##.pe-widget-social
 instant-gaming.com##.media-listing > h3
-instytutcyber.pl,shootingcracow.com###qlwapp.qlwapp
+instytutcyber.pl,investya.pl,shootingcracow.com##.qlwapp
 instytutenter.pl,polontex.com.pl,sklep-kwiecisty.pl,telestrop.pl##.csocial-link
 instytutleczeniabolu.pl,kokardka.pl,toruntv.pl###facebook_pan
 instytutsprawobywatelskich.pl##form[role="search"] ~ div > a[href*=".com/"]
@@ -4607,6 +4607,8 @@ invado.pl##.widget_ws_fb_like_box
 investmap.pl###app > div > header ~ div:last-of-type a[class] > svg
 investmap.pl##button[title="Podziel się"]
 investmap.pl,kodano.pl##button[title="Podziel się na LinkedIn"]
+investya.pl##a[title="facebook"]
+investya.pl##a[title="linkedin"]
 invette.pl##.elementor-icon-list-items a[href*="facebook.com/"]
 invette.pl##.elementor-icon-list-items a[href*="instagram.com/"]
 invette.pl##.elementor-icon-list-items a[href*="linkedin.com/"]
