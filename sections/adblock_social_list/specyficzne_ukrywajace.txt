@@ -1,5 +1,3 @@
-investya.pl##a[title="linkedin"]
-investya.pl##a[title="facebook"]
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -3686,6 +3684,8 @@ invado.pl##.widget_ws_fb_like_box
 investmap.pl###app > div > header ~ div:last-of-type a[class] > svg
 investmap.pl##button[title="Podziel się"]
 investmap.pl,kodano.pl##button[title="Podziel się na LinkedIn"]
+investya.pl##a[title="facebook"]
+investya.pl##a[title="linkedin"]
 invette.pl##.elementor-icon-list-items a[href*="facebook.com/"]
 invette.pl##.elementor-icon-list-items a[href*="instagram.com/"]
 invette.pl##.elementor-icon-list-items a[href*="linkedin.com/"]
