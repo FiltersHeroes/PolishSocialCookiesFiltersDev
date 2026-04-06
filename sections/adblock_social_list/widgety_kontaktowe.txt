@@ -49,6 +49,8 @@ dodomku.pl##.contact-info-tel > p + p:has(> a > img[src*="WhatsApp"])
 drzwi-cal.pl##.facebook-messenger-avatar
 e-kolo.pl##a[title*="lij whatsup"][href*="web.whatsapp.com/send?"]
 e-pyrzyce.pl,e-starogard.pl##.whatsapp
+epacking.pl###toggle-button:has(+ #whats-app-button)
+epacking.pl###whats-app-button
 eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,vibefm.pl,voxfm.pl##.open-messenger
 eurosport.tvn24.pl##div[data-testid="share-icons"] > div[class*="title"] ~ div > span[data-social="whatsapp" i]
 eurosport.tvn24.pl##div[data-testid="social-share-block-molecule"] > div button[aria-label="whatsapp"]

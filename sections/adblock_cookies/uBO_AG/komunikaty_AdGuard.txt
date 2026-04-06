@@ -1,28 +1,28 @@
 [$path=/ezus/ustawienia-polityki-cookies]www.zus.pl#@#.p-dialog-mask-scrollblocker:has(> .cookie-consent-modal)
 accuweather.com,bezprawnik.pl,bolec.info##.fc-consent-root
-accuweather.com,bezprawnik.pl,bolec.info##body[style]:style(overflow: auto !important)
+accuweather.com,bezprawnik.pl,bolec.info##body[style]:style(overflow-y: auto !important)
 bonduelle.pl#%#//scriptlet('didomi-loader')
-brieftip.pl,kaliber.pl#?#.modal-open:style(overflow: auto !important; padding-right: 0 !important)
+brieftip.pl,kaliber.pl#?#.modal-open:style(overflow-y: auto !important; padding-right: 0 !important)
 centrumbajki.pl$$[class="popmake-overlay"][tag-content="danych osobowych"]
 domhouse.pl##.fancybox-overlay[tag-content="RODO"]
-domhouse.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important)
-domhouse.pl##html.fancybox-margin:style(margin-right: 0 !important)
+domhouse.pl##:root.fancybox-lock > body, :root.fancybox-lock:style(overflow-y: auto !important)
+domhouse.pl##:root.fancybox-margin:style(margin-right: 0 !important)
 drogeriekoliber.pl$$[class="popmake-overlay"][tag-content="naszej Polityce Prywatności"]
 filmboxlive.com##.mobox-active:style(overflow-y: auto !important)
 filmboxlive.com##.mobox-wrapper:has(.cookie-policy-popup)
-filmboxlive.com##.mobox-wrapper:style(overflow: auto !important)
+filmboxlive.com##.mobox-wrapper:style(overflow-y: auto !important)
 galopuje.pl###RODOCOOKIE, .modal-backdrop
-galopuje.pl,powiatslubicki.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important)
+galopuje.pl,powiatslubicki.pl##.modal-open:style(overflow-y: auto !important; padding-right: 0 !important)
 mcdonalds.pl$$[class="cookies"]
+neopak.pl,zawojski.pl##body.privacy-box-visible #container:style(filter: none !important; pointer-events: auto !important)
+neopak.pl,zawojski.pl##body.privacy-box-visible .privacy-box
+neopak.pl,zawojski.pl##body.privacy-box-visible:style(overflow-y: auto !important)
 pl.asseco.com$$[id="animatedModal"][tag-content="Polityce prywatności"]
 pl.asseco.com$$fa[class="animatedModal"][tag-content="Open"]
 powiatslubicki.pl###myModal, .modal-backdrop
 testerzy.pl#?##cookieLawModal
 wiemy.to$$[id="banner"][tag-content="RODO"]
-zawojski.pl##body.privacy-box-visible #container:style(filter: none !important; pointer-events: auto !important)
-zawojski.pl##body.privacy-box-visible .privacy-box
-zawojski.pl##body.privacy-box-visible:style(overflow-y: auto !important)
-zawojski.pl#%#//scriptlet('remove-class', 'privacy-box-visible', '.privacy-box-visible')
-zlubaczowa.pl#%#//scriptlet('remove-attr', 'style', 'html[style*="overflow"][style*="important"]')
+zawojski.pl,neopak.pl#%#//scriptlet('remove-class', 'privacy-box-visible', '.privacy-box-visible')
+zlubaczowa.pl##:root[style*="overflow-y"][style*="important"]:style(overflow-y: auto !important; height: auto !important)
+zlubaczowa.pl#%#//scriptlet('remove-attr', 'style', 'html[style*="overflow-y"][style*="important"]')
 zlubaczowa.pl#%#//scriptlet('remove-class', 'fupi_blur', '.fupi_blur')
-zlubaczowa.pl#?#html[style*="overflow"][style*="important"]:style(overflow: auto !important; height: auto !important)
