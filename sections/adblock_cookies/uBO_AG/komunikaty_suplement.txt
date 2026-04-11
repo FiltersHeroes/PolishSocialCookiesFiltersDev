@@ -19,7 +19,6 @@ absolvent.pl###__next > div > footer ~ div:last-child
 absolvent.pl##body[class]:not([class=""]):style(overflow-y: auto !important)
 academy.asseco.pl###politykaPrywatnosciModal, .modal-backdrop
 action.com##+js(set-cookie, CookieConsent, true)
-pl.dbcargo.com##+js(set-cookie, consent_matomo, 0)
 adexemplum.com,agrohandel.com.pl,arpol.com.pl,bsjarocin.pl,dobrezlasu.pl,fastdeal.pl,gtv.com.pl,hermetycznakompostownia.pl,muovitech.com,nfz-lodz.pl,skm.pkp.pl,techmot24.pl,teoria.pl,wiemwiecszczepie.pl,zsgarwolin.pl##:root[style*="overflow" i]:style(overflow-y: auto !important; margin-right: 0 !important; padding-right: 0 !important)
 adexemplum.com,agrohandel.com.pl,arpol.com.pl,bsjarocin.pl,dobrezlasu.pl,fastdeal.pl,gtv.com.pl,hermetycznakompostownia.pl,muovitech.com,nfz-lodz.pl,skm.pkp.pl,teoria.pl,wiemwiecszczepie.pl,zsgarwolin.pl##.mfp-wrap, .mfp-bg
 adidas.pl,reebok.pl##.gl-modal-open:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
@@ -614,6 +613,7 @@ pl##body.--cookie-overflow-y:style(overflow-y: auto !important)
 pl##div[id][class*="iai_cookie"], div[id^="iai_cookie"][class*="iai_cookie"]
 pl.aptoide.com##div[class*="cookie-notice__CookieNoticeWrapper-"]
 pl.canalplus.com###modal-overlayer-cookie-banner:remove()
+pl.dbcargo.com##+js(set-cookie, consent_matomo, 0)
 pl.factcool.com##+js(set-cookie, cookieconsent_dismissed, yes)
 pl.kruk.eu##.cookie-agreement
 pl.kruk.eu##.cookie-open:style(position: static !important)
