@@ -107,7 +107,7 @@ autohero.com###app ~ div[class*="backdrop_"], #app ~ div[class*="backdrop_"] ~ d
 autohero.com##body[class*="documentBodyNoScroll_"]:style(position: static !important)
 avacore.pl##.cookies-consent-dialog
 avacore.pl##:root.has-cookies-consent\:unfolded #page::before
-avacore.pl##:root.has-cookies-consent\:unfolded, #:root.has-cookies-consent\:unfolded body:style(overflow-y: auto !important)
+avacore.pl##:root.has-cookies-consent\:unfolded, :root.has-cookies-consent\:unfolded body:style(overflow-y: auto !important)
 avg.com,beko.com,coca-cola.pl,forum.gazeta.pl,g.pl,jedennewsdziennie.pl,konto.gazeta.pl,msn.com,oauth.gazeta.pl,panasonic.com,radiopogoda.pl,zyrtec.pl##:root[style*="overflow"][style*="hidden"], body[style="overflow"][style*="hidden"]:style(overflow-y: auto !important)
 avg.com,beko.com,coca-cola.pl,forum.gazeta.pl,g.pl,jedennewsdziennie.pl,konto.gazeta.pl,msn.com,oauth.gazeta.pl,panasonic.com,radiopogoda.pl,zyrtec.pl##div#onetrust-consent-sdk:lang(pl)
 avg.com,radiopogoda.pl##body.ot-overflow-hidden:style(overflow-y: auto !important; padding-right: 0 !important)
