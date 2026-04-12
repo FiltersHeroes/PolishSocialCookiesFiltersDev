@@ -20,7 +20,7 @@ jobs:
       - uses: actions/create-github-app-token@v3
         id: pr-token
         with:
-          app-id: 995167
+          client-id: 995167
           private-key: ${{ secrets.PR_HELPER_KEY }}
           owner: "FiltersHeroesSpecialProjects"
       - env:
