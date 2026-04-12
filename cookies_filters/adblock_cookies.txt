@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.4.11.0
-! Last modified: Sat, 11 Apr 2026, 20:57 UTC+00:00
+! Version: 2026.4.12.0
+! Last modified: Sun, 12 Apr 2026, 10:15 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.4.11.0 aktualizacja: sob, 11 kwi 2026, 20:57 UTC+00:00
+! v.2026.4.12.0 aktualizacja: nie, 12 kwi 2026, 10:15 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -320,7 +320,8 @@ autokult.pl,drony.net,fotoblogia.pl,gadzetomania.pl,galerialimonka.pl,komorkoman
 automarket.pl###zgodaCookiesModal
 automotiveceeday.eu,bierhalle.pl,brgl.pl,kartuzy.pl,motosolutions.pl,pks-leszno.pl,podwawelem.eu,uszwejka.pl,visiton.pl,vitberg.com##.rstbox_overlay
 automotiveceeday.eu,bierhalle.pl,brgl.pl,kartuzy.pl,motosolutions.pl,pks-leszno.pl,uszwejka.pl,visiton.pl,vitberg.com##.rstboxes > [id^="rstbox_"]
-autoplaza.com.pl,citycar.com.pl,ford-krosno.pl,ford-lublin.pl,ford.bemo-motors.pl,ford.biacomex.pl,ford.golebiewski.com.pl,ursyncar.pl##.consent-notice
+autoplaza.com.pl,citycar.com.pl,ford-krosno.pl,ford-lublin.pl,ford.bemo-motors.pl,ford.biacomex.pl,ford.golebiewski.com.pl,gizycko360.pl,ursyncar.pl###cookie-preferences-toggle
+autoplaza.com.pl,citycar.com.pl,ford-krosno.pl,ford-lublin.pl,ford.bemo-motors.pl,ford.biacomex.pl,ford.golebiewski.com.pl,gizycko360.pl,ursyncar.pl##.consent-notice
 autostrada-a2.pl###cookielawBox
 avaaz.org##.gdpr-block-privacy
 avans.pl,electro.pl##.is-cookies
@@ -774,6 +775,7 @@ darlowo.pl###dane_osobowe
 darnatury.pl###kukibar
 darnatury.pl,helio.pl,jastrzebieonline.pl###rodo_popup
 darx.pila.pl###contBanner > #bannerMSG
+darzdrowia.pl,mobilne-miasto.org###c-box
 data-net.com.pl##.cookies_warning
 dating-services-singles.com,dzikowiec.info###cookiescript_injected
 daucyinspiruje.pl##.cookies_body
@@ -1060,7 +1062,7 @@ esklep.polomarket.pl##.cky-banner-element
 esky-pl.mozio.com#?##container > div ~ div:has(> div > span:has-text(as cookies to))
 esparto.pl,eventy-online.pl,seoheroes.pl,yumisu.pl##.notification-bar
 espritgames.com###easy-cookies-policy-main-wrapper
-esprzedaz.com,shop.proenter.eu,wisteriagardens.eu###netgraf_cookie_alert
+esprzedaz.com,wisteriagardens.eu###netgraf_cookie_alert
 estore.fanuc.eu###cookie-footer
 eswiatowid.pl###RODOCookiePopUp, #EUCookiePopUp
 eszkola.opolskie.pl##.ms-dlgContent
@@ -1958,7 +1960,6 @@ mobile.de###consentBanner, div[class^="cookie-banner"]
 mobile.lebara.com##.cookie-component
 mobilet.eu,online.sovendus.com###BorlabsCookieBox.BorlabsCookie
 mobilitynews.pl,mobilitytrends.pl,techtradeshow.pl##.politic-cookie
-mobilne-miasto.org###c-box
 moda-pol.com###cookie.cookies
 modecom.pl,synektik.pl###mc_top_bar
 modelarstwo.aeroklub-polski.pl##.top-message-container
