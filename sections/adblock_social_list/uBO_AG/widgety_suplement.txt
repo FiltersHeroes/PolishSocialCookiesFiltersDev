@@ -1,4 +1,3 @@
-hafele.pl##.accordianModule:has(img[src*="youtube"]):style(visibility: hidden !important; height: 0 !important; width: 0 !important; padding: 0 !important; margin: 0 !important)
 /plugins/likebox.php$frame,redirect=noop.html,domain=vifon.pl
 ||premium.pl*/fb/splash.jpg
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
@@ -51,6 +50,7 @@ forums-pl.ubisoft.com##area[href*="twitter.com/"]:remove-attr(href)
 forums-pl.ubisoft.com##area[href*="youtube.com/"]:remove-attr(href)
 gremont.pl##.wd-footer > .row > ul.columns.block:nth-of-type(3) > li > .textwidget:style(color: #0000 !important)
 haechishop.pl##.bottom-box__benefits:has(+ .bottom-box__social):style(border: 0 !important)
+hafele.pl##.accordianModule:has(img[src*="youtube"]):style(visibility: hidden !important; height: 0 !important; width: 0 !important; padding: 0 !important; margin: 0 !important)
 ibb.co##.btn-social:not(.btn-mail):upward(li)
 ibuprom.pl##.footer-section-wrapper > article:nth-of-type(2) > h5:style(visibility: hidden !important)
 inoni.cc##div[class*="footer"] a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"]):upward(p)
