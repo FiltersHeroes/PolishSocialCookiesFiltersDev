@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.5.2.0
-! Last modified: Sat, 02 May 2026, 21:05 UTC+00:00
+! Version: 2026.5.3.0
+! Last modified: Sun, 03 May 2026, 16:39 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.5.2.0 aktualizacja: sob, 02 maj 2026, 21:05 UTC+00:00
+! v.2026.5.3.0 aktualizacja: nie, 03 maj 2026, 16:39 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -415,7 +415,7 @@ bialoleka.waw.pl###popup-bg
 bialystok.pl###cookie-info-overlay
 bianchistore.de##.page-wrap--cookie-permission
 biblio.ebookpoint.pl##.js-cookies.cookies
-biblioteka.ans.pila.pl,praktiker.pl##div.info_c_box
+biblioteka.ans.pila.pl,praktiker.pl,uwb.edu.pl##div.info_c_box
 biblioteka.chojnow.eu,gozdowo.eu,promocja.chojnow.eu###cookie_div
 biblioteka.gryfice.eu,davbol.com###cookieMessageContainer
 biblioteka.librus.pl##div[class^="cookie-box-module--cookieBox--"]
@@ -1966,7 +1966,7 @@ moda-pol.com###cookie.cookies
 modecom.pl,synektik.pl###mc_top_bar
 modelarstwo.aeroklub-polski.pl##.top-message-container
 modile.pl###marketing-popup
-modivo.club##cookie-consent-manager
+modivo.club,worldbox.pl##cookie-consent-manager
 modivo.pl##.modal-consents
 mohito.com,superkoszyk.pl###widget-cookie-message
 moj.tauron.pl##.contact-box:last-child > div:last-child > div:only-child > p:only-child:has(a[href*="/polityka-plikow-cookie"] ~ a[href*="/polityka-prywatnosci"])
@@ -2455,6 +2455,7 @@ profire.pl##.fscookies-manage.fas
 profire.pl,przychodniakrakow.com###fscookies
 profkos.pl##.module-header_notice
 progrupa.com###progrupa_cookie_policy
+projekt27.pl##.fixed.bottom-0:has(a[href="/prywatnosc"])
 projekt-parking.com###RodoModal
 projektoskop.pl###popupCookie
 projektpulsar.pl##.plr_cookie_warning
