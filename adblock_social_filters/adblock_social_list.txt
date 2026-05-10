@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.5.10.0
-! Last modified: Sun, 10 May 2026, 13:42 UTC+00:00
+! Version: 2026.5.10.1
+! Last modified: Sun, 10 May 2026, 13:49 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.5.10.0 aktualizacja: nie, 10 maj 2026, 13:42 UTC+00:00
+! v.2026.5.10.1 aktualizacja: nie, 10 maj 2026, 13:49 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1755,6 +1755,7 @@ bazafirm.org,motywujemy24.pl,musicinfo.pl,szybkanauka.pro,wgrane.pl##.fb_iframe_
 bazarek-deco.com.pl##.PortaleStopka
 bazarowo.pl##div.banner:nth-of-type(2)
 bazarynek.pl##center > center:nth-of-type(2), center > center:nth-of-type(3), center:nth-of-type(5), center:nth-of-type(6)
+bboptic.com##section[data-hook^="post"] > div > div > div:has(> button[data-hook^="share-button"]:not([data-hook$="link"]))
 bcaa.pl###social > .head
 bcpw.bg.pw.edu.pl,dbc.wroc.pl,jbc.jelenia-gora.pl,kpbc.umk.pl,sbc.wbp.kielce.pl,zbc.ksiaznica.szczecin.pl##div.footer__contact-box:nth-of-type(4)
 bdb.com.pl###menudiv a[href*="facebook.com/"]
@@ -6113,8 +6114,8 @@ mowianamiescie.pl##.button-icon.button-navy.button-top
 mowimyjak.se.pl##.butony > a:nth-child(-n+4)
 mowimyjak.se.pl##.share_form
 mozilla.org##.c-footer-section-social
-mozilla.org##.mzp-c-sticky-promo
-mozilla.org##section.mzp-c-footer-section:nth-of-type(5)
+mozilla.org##.moz24-footer-heading-social
+mozilla.org##.moz24-footer-social-links
 mp20.katowice.pl###node-1139 a[href*="https://www.facebook.com/p/"]
 mp-office.eu###footer > div > div.col-xs-10.col-sm-4 > div.inline
 mpay.pl##.menu_top_custom > div:has(> a[href*="instagram.com/"] > i)
@@ -8034,6 +8035,8 @@ segafredo.pl##.linki-social a
 segway-polska.pl###email-alert-signup + p
 segway-polska.pl###email-alert-signup + p ~ a
 sejm.gov.pl##.flickr
+sekosa.pl##.socialBox
+sekosa.pl##.wrapper__social
 sekretypoliglotow.pl##footer .ft-s
 seksuologiadziecieca.pl##.et_pb_section:has(#sb_instagram)
 sekurak.pl##.widget_text.widget:nth-of-type(6)
@@ -8134,6 +8137,7 @@ siglo.pl##a > img[src="images/layout/f.jpg"]
 signal.org##.navbar-end > .navbar-item:nth-of-type(n+7):nth-of-type(-n+8)
 signs.pl##.formend-right > nav, .hide800
 signs.pl##.linkStrzalka
+sii.org.pl##.shareon
 sii.pl##.sii-m-social-menu
 sii.pl##div.sii-o-footer-bar__column:nth-of-type(4) > h4:nth-of-type(3)
 silcare.com###u81059
@@ -8929,6 +8933,7 @@ tessa.com.pl###fixed_button
 test2speed.pl##.socials-link
 testelka.pl###footer-widgets .custom-html-widget a[href*=".com/"][target]
 testhub.pl##.sh-share-item-twitter, .sh-share-item-instagram, .sh-share-item-youtube, .sh-share-item-facebook
+testin.pl##.navigation_social
 testujemyjedzenie.pl##a[href*="facebook.com/TestujemyJedzeniePL/"] > img
 testujzpasja.pl###gatsby-focus-wrapper ul[class*="footer__FooterMenuWrapper-"] > li:nth-of-type(-n+3)
 tetis.pl##.Fb-link
