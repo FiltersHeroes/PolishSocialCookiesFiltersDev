@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.5.17.0
-! Last modified: Sun, 17 May 2026, 21:12 UTC+00:00
+! Version: 2026.5.24.0
+! Last modified: Sun, 24 May 2026, 10:55 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.5.17.0 aktualizacja: nie, 17 maj 2026, 21:12 UTC+00:00
+! v.2026.5.24.0 aktualizacja: nie, 24 maj 2026, 10:55 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1405,7 +1405,7 @@ apo-discounter.pl##.lower_footer_social_icon
 apollo.pl##.b-sm-list
 apostol.pl##.footer_links > a[href*="facebook.pl/apostolpl"]
 app.electricitymaps.com##a[href*="/sharer/sharer"]
-app.ntfy.pl,cateromarket.pl,vibez.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"], [href*="youtube.com"])
+app.ntfy.pl,cateromarket.pl,twojkapsel.pl,vibez.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"], [href*="youtube.com"])
 app.powerbi.com##.socialSharing .shareFlyoutActions
 applefix.pl##.facebook-reviews__icon
 applemobile.pl,pdaclub.pl##.google-plus
@@ -1594,10 +1594,12 @@ auto-mobil.pl##.f-icon-2, .f-icon-3, .f-icon-4
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-docked"] > [class$="-community"]
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > .chips
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > div.title:first-of-type
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-a-anchor__share-others
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-m-author-xl__socials
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##a.ods-m-socials-icon-stream__link:not([href*="feed"])
 auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.ods-m-socials-stream a[href*="wa.me"]
 auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me"])
 auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##span[class*="ShareLayerItem_"]:has([class*="Messenger"], [class*="WhatsApp"])
-auto-swiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-m-author-xl__socials
 auto-swiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-m-socials-stream > :not(.ods-a-anchor__icon-copy, [href*="wa.me"], [href*="feed"])
 auto.pl##.row .row > .social-media:first-child
 autoblog24.pl###execphp-2
@@ -2087,7 +2089,7 @@ bosch-professional.com##.socialMediaMainIcons, .pt-eshop-pro-social-media-share-
 bosch.pl##.M-SocialShareIcons__icons
 bose.pl##.bose-socialMedia
 botland.com.pl##.footer__social-icons-container
-bowwe.com##.footerHeaderPad:has-text(ŚLEDŹ NAS)
+bowwe.com#?#.footerHeaderPad:has-text(ŚLEDŹ NAS)
 bp24.pl##div[id] .info-links
 bpmarco.pl##.social-bottom-links .social-link
 brainly.pl##a[class*="Legal-module__socialMediaItem-"]
@@ -2386,7 +2388,7 @@ cinkciarz.pl##.socialmedia-nav
 ciop.pl##.justified.niebieski > a[href*="facebook.com/CIOPPIB/"] > img
 cisco.com##.dmc-follow-us
 citibank.pl##.footer-icon-grid a
-citibank.pl,nperf.com,siepomaga.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="twitter.com"], [href*="youtube.com"])
+citibank.pl,nperf.com,siepomaga.pl,steamcommunity.com,steampowered.com##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="twitter.com"], [href*="youtube.com"])
 citonet.szczecin.pl##.header-tabs a[href*="facebook.com/"]
 citrix.com.pl##.ctx-follow-wrap > div, .ctx-follow-wrap > ul[class]
 citroen.pl##.column_50.columns:nth-of-type(2)
@@ -2495,6 +2497,7 @@ cordis.europa.eu##.ecl-site-footer__section:has(a[href*="facebook.com/"])
 cordis.europa.eu,remington-europe.com,rylko.com,wnet.fm##.fa-instagram
 coreldraw.com##ul.ft-social-list
 corona-fishing.pl##div.footer-box:nth-of-type(5) > .footer-tytul
+corsair.com,komfort.pl,nowymoj.t-mobile.pl##div[class*="Footer_social_"]
 cortland.pl##.menuFooter__infoline > table > tbody > tr > .text > .row
 cosdlazdrowia.pl##.col-lg-2.col-md-2.col-sm-6.col-xs-12:nth-of-type(4) > .footer-block
 cosinus.pl###yt_icon, #instagram_icon
@@ -3681,6 +3684,7 @@ flatart.pl###kontakt p:has(+ .contact-facebook)
 flatart.pl##.contact-facebook
 flex.orange.pl###flex-footer section:nth-of-type(4)
 flex.orange.pl##footer section:nth-of-type(4)
+flex.orange.pl#?#footer > div:only-child > div:first-child > div:has(> div > p:has-text(Dołącz do nas))
 flexlink.com###block-footer-links-social
 flexlink.com###block-header-links-social
 flixbus.pl##.block--socials
@@ -4954,6 +4958,7 @@ king-poligrafia.pl###kontakt-slider, #google-slider
 kingaparuzel.pl##.footer-insta
 kingowiec.pl##.BoxMedia
 kingsong.pl##.social > a:nth-of-type(n+3):nth-of-type(-n+4)
+kingston.com##.s-footer__social
 kinguin.net##footer .icons div.col-sm:nth-of-type(2)
 kinkyowl.pl##.tipi-i-facebook
 kinkyowl.pl##.tipi-i-twitter
@@ -5044,7 +5049,6 @@ kolorowankionline.net###sgcboxWrapper
 kom-ster.pl##a > img[src="/images/like-it.png"]
 kombatanci.gov.pl##img[src="/images/wyglad/fb.png"], img[src="/images/wyglad/tt.png"]
 komfort.pl##.ComponentSocialMediaLinks
-komfort.pl,nowymoj.t-mobile.pl##div[class*="Footer_social_"]
 kominytona.pl##.hidden-320px.marginleft10.nopadding.inline-block > li.inline-block:nth-of-type(n+2)
 komoorki.pl##.footer-social-media-area, .social-media-area
 komorkomat.pl##.hidden-sm.hidden-xs.social_kontener
@@ -5992,6 +5996,7 @@ mobilet.pl###fb-badge
 mobiletrends.pl##.site-footer__row.row > div:nth-of-type(4)
 mobilevikings.pl##.footer .media
 mobilevikings.pl##.footer-other.columns > div.col-6-12:first-of-type
+mobilevikings.pl##.text-center:has(> a > img[alt="logotype"]) + div.items-center:has(> nav)
 mobilitytrends.pl##.footer_social_link:nth-of-type(4)
 mobilne-miasto.org###go-twitter, #go-facebook, #go-linkedin
 mobilneforum.pl##.socialcolumn
@@ -6784,6 +6789,7 @@ panelstyl.com.pl#?#.gb-headline:has(> .gb-headline-text):has-text(Bądź na bie�
 pangrono.pl##div.widget_custom_html.widget.widget_text, .widget_youtube-channel
 pannaannabiega.pl##.socheader > .social_label, .text-right.zl_socicon > .social_label
 panoramafirm.pl,sklep.poczta-polska.pl##.media-icons
+panpodloga.pl##.footer-social-icons-v5
 pantabletka.pl##.ds-socials
 pantofelek24.pl###benefits-pantofelek24 > h4 + div > a
 pantofelek24.pl###benefits-pantofelek24 > h4:first-of-type
@@ -7231,6 +7237,7 @@ politykazdrowotna.com##.share__social:has(#webshareapiButton)
 polmax.com.pl###rightbar_6
 polnapol.com.pl##ul[aria-label="Pasek społecznościowy"] > li:nth-of-type(n+2):nth-of-type(-n+4)
 polnews.co.uk###navmenu > .menu > .item148
+polomarket.pl##.app__wrapper > div.app:first-child
 polomarket.pl##.last.footer_menu > .name
 polomarket.pl##.last.footer_menu > .name + div a
 polomarket.pl##.top_menu > .yt2
@@ -8034,6 +8041,7 @@ sebucja.pl##footer > .main-footer-container.outter-wrapper > .element-block-widg
 sec.com.pl##.linked
 secowarwick.com##.widgets-container > div.widget-item:nth-of-type(-n+6)
 secure.edu.pl##.home-social-wrapper
+secure.edu.pl##footer > div > div:nth-child(3) > div:nth-child(3
 seemymodel.com##main ~ div a[href*="facebook.com/"]
 seemymodel.com##main ~ div a[href*="linkedin.com/"]
 seemymodel.com##main ~ div a[href*="youtube.com/"]
@@ -8596,6 +8604,7 @@ stawiszynski.org##.widget_jupiterx_social.jupiterx-widget
 stawiszynski.org##ul.kiwi-floating-bar.rect.bottom
 steamaster.pl,welcome.home.pl##.footer-menu-social
 steamcommunity.com##a[class*="Share"][href*="/share/"]
+steamcommunity.com,steampowered.com##footer a[href*="bsky.app/"]
 stella.com.pl##.contact__buttonFb
 stepone.pl##.widget_wtrwidgetsocialicons
 sternaseo.pl##.ts-footer .center-box
@@ -9466,6 +9475,8 @@ vobis.pl##.m-copyrights_info > a
 vod3.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="linkedin.com"], [href*="x.com"])
 vod.naekranie.pl##.nav-bottom figure.iconBox-md-size:nth-of-type(n+2):nth-of-type(-n+4)
 vod.pl##a.site-footer-top__logo--social
+vod.tvp.pl##.app-footer__list--socials
+vod.tvp.pl##button:has(> .icon-share)
 vod.warszawa.pl##a[title="Przejdź do facebooka"]
 vogueswing.blogspot.com###HTML1 a[href*="facebook.com/ubraniowelove"]
 volcano.pl#?#section.section-text:has-text(Znajdź nas w Social Media)
@@ -9723,6 +9734,7 @@ woda-selenka.pl###kontakt > .row > div > p:has(+ a[href*="facebook.com/"])
 woda-selenka.pl###kontakt a[href*="instagram.com/"]
 woda-selenka.pl##.fbradius
 woda.com.pl###footer > nav > div > .module-social
+wodazneta.pl##div.copyrights:nth-of-type(1)
 wodociagi.katowice.pl###carousel ul li a[href*=".com/"]
 wodociagi.katowice.pl##.facebook-naglowek
 wodociagi.krakow.pl###social-left-sidebar
