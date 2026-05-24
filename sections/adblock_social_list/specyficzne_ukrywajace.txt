@@ -1,3 +1,14 @@
+vod.tvp.pl##button:has(> .icon-share)
+vod.tvp.pl##.app-footer__list--socials
+corsair.com##div[class*="Footer_social_"]
+kingston.com##.s-footer__social
+panpodloga.pl##.footer-social-icons-v5
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-m-author-xl__socials
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-a-anchor__share-others
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##a.ods-m-socials-icon-stream__link:not([href*="feed"])
+steamcommunity.com,steampowered.com##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="twitter.com"], [href*="youtube.com"])
+steamcommunity.com,steampowered.com##footer a[href*="bsky.app/"]
+twojkapsel.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"], [href*="youtube.com"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
