@@ -1,5 +1,3 @@
-x-kom.pl,al.to##div[role="button"]:has([class*="Share"])
-poptin.com##.popt-footer-social-share
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -341,6 +339,7 @@ al.to,csi.pl,ibood.com,mokka.pl,prusa3d.com,spidersweb.pl,tv.mgsm.pl,www.pocztow
 al.to,dietapomidor.pl,ibood.com,mokka.pl,napieknewlosy.pl,prusa3d.com,spidersweb.pl,tv.mgsm.pl,www.pocztowy.pl,x-kom.pl##footer a[href*="instagram.com/"]
 al.to,eduweb.pl,ekspertbudowlany.pl,ibood.com,prusa3d.com,spidersweb.pl,tv.mgsm.pl,www.pocztowy.pl,x-kom.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="twitter.com"], [href*="youtube.com"])
 al.to,ibood.com,prusa3d.com,spidersweb.pl,techgame.pl,tv.mgsm.pl,www.pocztowy.pl,x-kom.pl##footer a[href*="twitter.com/"]
+al.to,x-kom.pl##div[role="button"]:has([class*="Share"])
 al.to,x-kom.pl##footer.social > .row h4
 alablaboratoria.pl,ccpartners.pl,fina.gov.pl,kosciolpalmarianski.org,lancerto.com,olejarnia-gaja.pl##.social-media-icons
 alanyaonline.pl,rajski.szczecin.pl##.facebook-join
@@ -6370,6 +6369,7 @@ popeyespolska.com#?#section ~ section:has-text(/Dołącz do\s + Naszych\sLudzi\s
 popkulturysci.pl##.awac-wrapper
 popler.tv###ikony div[id$="ikona"]
 popler.tv##.bok_facebook
+poptin.com##.popt-footer-social-share
 popvinyl.pl##.bg-instagram.btn
 porabka.pl##[id^="right-slider0"]
 poradnik-seo.pl##.team-social, .contact-social
