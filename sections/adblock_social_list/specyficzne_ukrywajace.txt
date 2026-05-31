@@ -1,8 +1,3 @@
-smolar.pl###linkedin_link
-smolar.pl###sticked_social
-smolar.pl###linkedin_link + a[href*=".com/"]
-smolar.pl###linkedin_link + a[href*=".com/"] + a[href*=".com/"]
-misjonarzetrzciel.pl##div[class*="rating__RatingContainer"] > section:has(button[aria-label^="Share"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -105,8 +100,8 @@ misjonarzetrzciel.pl##div[class*="rating__RatingContainer"] > section:has(button
 300gospodarka.pl##.tags-share-box
 303avenue.pl,pl.waterdrop.com##.Footer__Social
 360ksiegowosc.pl,cyberstudio.pl,dhlexpress.pl,global4net.com,mokka.pl,vox.pl##footer a[href*="linkedin.com/"]
-1242.eu##.k_rlinks > a[href*="facebook.com/"]
 1242.eu##.fx-socials
+1242.eu##.k_rlinks > a[href*="facebook.com/"]
 1944.pl##.main--footer--social--link:not([href*="bip."])
 51015kids.pl##.site-footer > .justify-content-lg-end
 a2lux.pl,autokomisosowa.pl##socialmedia
@@ -5023,6 +5018,7 @@ mirsk.pl##.fb-side
 mirsk.pl##.yt-side
 misericordia.pl###panel-puls
 misjatravel.pl##.fb_url
+misjonarzetrzciel.pl##div[class*="rating__RatingContainer"] > section:has(button[aria-label^="Share"])
 missguided.com##.follow-us__list
 missmis.pl##.search > .social
 missmis.pl##li.flex-3.flex.overall > .social > li:nth-of-type(-n+2)
@@ -7450,6 +7446,10 @@ smgostyn.pl###youtubeHandler, #vimeoHandler
 smgostyn.pl##.product__social
 smieszneciuszki.pl##.text-2.sidebar
 smieszneprezenty.com.pl##a[href*="facebook.com/pg/SmiesznySklepPl/posts/"] > img
+smolar.pl###linkedin_link
+smolar.pl###linkedin_link + a[href*=".com/"]
+smolar.pl###linkedin_link + a[href*=".com/"] + a[href*=".com/"]
+smolar.pl###sticked_social
 smsapi.pl##.footer__social-media-urls a:not([href*="apple"], [href*="play"], [href*="github"])
 smsapi.pl##footer > div:first-child > div > div + ul > li > a[href*=".com/"]:not([href*="play.google."], [href*="apple.com/"])
 smstormbikes.com##.sm-ico-social-media
