@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.5.31.1
-! Last modified: Sun, 31 May 2026, 21:30 UTC+00:00
+! Version: 2026.6.3.0
+! Last modified: Wed, 03 Jun 2026, 22:35 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.5.31.1 aktualizacja: nie, 31 maj 2026, 21:30 UTC+00:00
+! v.2026.6.3.0 aktualizacja: śro, 03 cze 2026, 22:35 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -867,6 +867,8 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 ##.scriptlesssocialsharing .button.whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
 ##div[data-hook="social-sharing"] button[aria-label="Udostępnij na WhatsApp"]
+0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
+0db.pl##footer .ttip:not([data-tooltip*="RSS"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
@@ -9180,6 +9182,7 @@ tvs.pl##.author-twitter-link
 tvs.pl##.messenger-share-btn
 tvs.pl##.social-icons-item
 tvs.pl##.viber-share-btn
+tvs.pl##a.rounded-xl[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="youtube.com"])
 tvsudecka.pl##.article_summary.row > .col-sm-6:first-of-type > h5
 tvswietokrzyska.pl##.item-social-icons, .gkmod-1 .gkCols > div:nth-of-type(4)
 tvwieliczka.pl##footer a.iconss:nth-of-type(-n+2)
