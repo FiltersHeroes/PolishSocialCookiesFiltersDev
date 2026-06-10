@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.9.0
-! Last modified: Tue, 09 Jun 2026, 22:02 UTC+00:00
+! Version: 2026.6.10.0
+! Last modified: Wed, 10 Jun 2026, 22:24 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.9.0 aktualizacja: wto, 09 cze 2026, 22:02 UTC+00:00
+! v.2026.6.10.0 aktualizacja: śro, 10 cze 2026, 22:24 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -972,7 +972,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 85.128.114.72,gkn.pl##div > a > img[src="images/instagram.png"]
 99rent.pl##.field-name-field-odnosnik-social
 100pompek.pl,biegaj40minut.pl,miesniebrzucha.pl,miesnienog.pl,podciaganie.pl,treningaerobowy.pl,treningrozciagania.pl###block-wruchublocks-facebook
-0101marketing.com##.bde-social-icons
+0101marketing.com,smartyou.com.pl##.bde-social-icons
 105.pl##.social-and-menu a:not([href*="maps."])
 105.pl##.social-and-menu p
 123lazienka.pl###footgroup-social
@@ -2027,6 +2027,8 @@ bmw-slusarczyk.pl##.pwebfblikebox
 bmwsklep.pl###my-menu0.right.pull-item:nth-of-type(5)
 bnpparibas.pl##.c-section--social
 bo.bytom.pl##.ikon-fb_logo.fb
+boards.net,freeforums.net,proboards.com##optgroup[label="Share"]
+boards.net,freeforums.net,proboards.com##optgroup[label="Share"] { remove: true }
 boardtime.pl###Social_Widget, .f-widget-1.f-widget > .widget
 bobbyburger.pl##.footer > .container > div.row:first-of-type > .col-md-6, .footer > .container > div.row:first-of-type > .col-lg-5
 bobini.pl##a.social:nth-of-type(-n+3)
@@ -2430,7 +2432,7 @@ cloud.polska.auchan.pl###page-form > table table table table [alt="Zawsze znajdz
 clover.net.pl##footer > div > .columns > .column:nth-of-type(3) > .shb-footer-menu-label
 cm-uj.krakow.pl###naglowek9a > .lewy_loga_dol > .media > .media-left > a:nth-of-type(-n+2), .media-left > span
 cmarnica.pl##ul.fm-bar > li[class*="fm-item"]:has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="youtube.com/"])
-cmentarium.pl,dobreprogramy.freeforums.net,mullerpolska.pl,wykop.pl##.sharing
+cmentarium.pl,freeforums.net,mullerpolska.pl,wykop.pl##.sharing
 cmrev.com##.nsocial > div.nitem:nth-of-type(-n+4)
 coccodrillo.eu###socialFlyBox
 cocomoda.pl##h4:nth-of-type(2), .banner_small_right, .icons_footer_top
@@ -7069,7 +7071,6 @@ pl.farnell.com###footer .col-xs-3 > a
 pl.fonelab.com###share-list ul li:not(.gmail, .whatsapp)
 pl.fonelab.com##.footer .list.flex_box > div > div a
 pl.forvo.com##.share > ul > li:not(:last-child)
-pl.freepik.com##.footer__menu.alignl > .first
 pl.genesis-zone.com##.social-media__icon-item
 pl.geofumadas.com###connect-ah .m-block.sm.alignright > ul > li > a
 pl.hinative.com##.mod_share_buttons
