@@ -8872,11 +8872,11 @@ www.google.*###modal-dialog div[class*="-share-"] button[class*="-share-"]:has(i
 www.google.*##.chr-footer-social
 www.google.*##.ddl-facebookButton_
 www.google.*##.ddl-twitterButton_
+www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/facebook-"])
+www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/x-"])
 www.google.*##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/facebook_"], img[src*="social/fb_"], img[src*="social/x_"])
 www.google.*##div[data-attrid*="social media presence"] span, div[data-attrid*="social media presence"] a
 www.google.*#?#div[role="dialog"] > span > div > a:has-text(/^(Facebook|X)$/)
-www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/facebook-"])
-www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/x-"])
 www.komputronik.pl###footer > div > div > div > div > section > div:nth-child(5) > div:nth-child(n+3):nth-child(-n+4)
 www.logitech.com##.social-email-row .social-ctn
 www.nazwa.pl##.n21-footer__smList
