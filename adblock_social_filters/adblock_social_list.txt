@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.14.0
-! Last modified: Sun, 14 Jun 2026, 19:06 UTC+00:00
+! Version: 2026.6.14.1
+! Last modified: Sun, 14 Jun 2026, 20:19 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.14.0 aktualizacja: nie, 14 cze 2026, 19:06 UTC+00:00
+! v.2026.6.14.1 aktualizacja: nie, 14 cze 2026, 20:19 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -891,6 +891,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 ~pl##.x13socialfixed_links a[href*="m.me"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="skype:"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="wa.me"]:lang(pl)
+2fas.com##footer div[class*="footer-group"]:has(h3[class*="footer_connect" i])
 2kc.pl##.container.userfooter > .row > div > a[href*=".com/"]
 2lhome.pl##footer h3:has(+ .widget-social)
 2msystem.pl##.sidebar__social
@@ -4112,15 +4113,15 @@ goodgift.pl##div[id^="wysuwane"]
 goodluckclub.pl###sdo > li:nth-of-type(n+4)
 goodram.com###footer_menu_social
 goodyear.eu##.follow__container
+google.*##a[aria-label="Udostępnij w WhatsApp"]
+google.*##div[role="dialog"][aria-label^="Udostępnij link"] div:has(> button[aria-label*="Udostępnij "][aria-label*="WhatsApp"])
 google.com##.chr-footer__social
 google.com##.ddlshare-dialog-content .ddls-fbb, .ddlshare-dialog-content .ddls-twb
 google.com##.facebookButton, .twitterButton
 google.com##.gplus
 google.com##.standard-footer__bar__social-icons
-google.com##a[aria-label="Udostępnij w WhatsApp"]
 google.com##button.section-social-share-button
 google.com##div[role="dialog"][aria-label^="Udostępnij link"] div:has(> button[aria-label*="Udostępnij "]:not([aria-label*="WhatsApp"]))
-google.com##div[role="dialog"][aria-label^="Udostępnij link"] div:has(> button[aria-label*="Udostępnij "][aria-label*="WhatsApp"])
 google.com##span[aria-label^="Udostępnij na"]
 goraco-polecam.pl###md-facebook
 goraco-polecam.pl###md-facebook-brazowy
@@ -4773,7 +4774,7 @@ jawor-parkiet.pl###menur > div > div > a[href*=".com/"] > img
 jawor-parkiet.pl##.bookmarkThisShare
 jazzforum.com.pl##.menu_nav > a > img[src$="/images/uploads/doc/facebook-f.png"]
 jbc.bj.uj.edu.pl,sbc.org.pl##div[class*="FooterSitemap_footer-sitemap__social_"]
-jbzdy.com.pl,jbzdy.pl##.btn-send-messenger, .fb-like
+jbzd.*,jbzdy.*##.btn-send-messenger, .fb-like
 jchost.pl###footer .forth-widget-area.col-lg-3.col-md-3.col-sm-12.col-xs-12 > .footer_widget.widget_text
 jdm-option.pl##a > .tweeter_logo.logotype, a > .vimeo_logo.logotype
 jdm-option.pl##div.content_right > .box_logotypes
@@ -7556,9 +7557,9 @@ prostoomuzyce.pl,urania.edu.pl###block-block-18
 prostozmostu.pl##.at_flat_counter
 prostywybor.vectra.pl##.stopka > div > div > a[href*=".com/"]
 proto.pl##.td-footer-wrap div.td_block_wrap:has(~ .tdm_block_socials) h3.tdm-title
-proton.me,protonvpn.com##footer > div > div[data-testid="footer"] > div + ul > li:has(> a[href*="whatsapp"] > picture)
-proton.me,protonvpn.com##footer > div > div[data-testid="footer"] > div + ul > li:has(> a[href]:not([href*="/feed"], [href*="whatsapp"], [href*="uservoice"]) > picture)
-proton.me,protonvpn.com##footer a img[src*="/social/"][alt^="Obserwuj"]
+proton.me,protonvpn.com##footer > div > div[data-testid="footer"] > div > div > div ~ ul > li:has(> a[href*="whatsapp"] > img)
+proton.me,protonvpn.com##footer > div > div[data-testid="footer"] > div > div > div ~ ul > li:has(> a[href]:not([href*="/feed"], [href*="whatsapp"], [href*="uservoice"]) > img)
+proton.me,protonvpn.com##footer a img[src*="/social/"][alt*="Obserwuj" i]
 protos.pl###widget-6
 provident.pl##.plspritelogo_twitter, .plspritelogo_youtube, .plspritelogo_linkedin, .plspritelogo_goldline
 provident.pl##footer > .copyright-container .row .col-xs-12 > div > div > p:nth-of-type(6) > a[target="_blank"]
@@ -9862,13 +9863,13 @@ www.google.*##.chr-footer-social
 www.google.*##.ddl-facebookButton_
 www.google.*##.ddl-twitterButton_
 www.google.*##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/facebook_"], img[src*="social/fb_"], img[src*="social/x_"])
+www.google.*##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
 www.google.*##div[data-attrid*="social media presence"] span, div[data-attrid*="social media presence"] a
 www.google.*#?#div[role="dialog"] > span > div > a:has-text(/^(Facebook|X)$/)
+www.google.*#?#div[role="dialog"] > span > div > a:has-text(/^WhatsApp$/)
 www.google.*,www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/facebook-"])
+www.google.*,www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
 www.google.*,www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/x-"])
-www.google.com##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
-www.google.com#?#div[role="dialog"] > span > div > a:has-text(/^WhatsApp$/)
-www.google.com,www.google.pl##button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
 www.komputronik.pl###footer > div > div > div > div > section > div:nth-child(5) > div:nth-child(n+3):nth-child(-n+4)
 www.logitech.com##.social-email-row .social-ctn
 www.nazwa.pl##.n21-footer__smList
@@ -10988,7 +10989,7 @@ interia.pl##.social-socialButtons
 interia.pl##.video-social
 interia.pl,pomponik.pl##.is-facebook.share-link
 istotne.pl###social_buttons, .icon_twitter, .icon_facebook, .icon_google_plus, .icon_youtube
-jbzdy.com.pl,jbzdy.pl##.fb-like
+jbzdy.*,jbzd.*##.btn-send-messenger, .fb-like, .facebook-share
 kalendarz.onet.pl,poczta.onet.pl##.ico-facebook
 karkonosze24.com##div[data-title]:has(a[href*="facebook.com/"] h2, h2 a[href*="facebook.com/"])
 konkret24.tvn24.pl##.share-container > .share-container__icon-wrapper > .share-container__modes:not(.share-container__modes--copy-link), .socials
