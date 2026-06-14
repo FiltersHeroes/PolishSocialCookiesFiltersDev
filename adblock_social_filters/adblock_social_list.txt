@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.11.0
-! Last modified: Thu, 11 Jun 2026, 22:20 UTC+00:00
+! Version: 2026.6.14.0
+! Last modified: Sun, 14 Jun 2026, 19:06 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.11.0 aktualizacja: czw, 11 cze 2026, 22:20 UTC+00:00
+! v.2026.6.14.0 aktualizacja: nie, 14 cze 2026, 19:06 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4212,6 +4212,7 @@ grupa-tense.pl##.left.ssb_inline-share_heading
 grupa.unimet.pl##.th-social > a[href*=".com/unimet" i]
 grupa.unimet.pl##.widget_total_plus_social_icons
 grupaazoty.com##.top_menu_twitter_icon, .top_menu[href*="blog.grupaazoty.com/"], div.top_menu_line:nth-of-type(6), div.top_menu_line:nth-of-type(4), div.top_menu_line:nth-of-type(2)
+grupabiwakowa.pl##header a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="youtube.com"])
 grupahatak.pl#?#body > div.content[role="main"]:nth-of-type(10):has-text(Facebooku)
 grupapietrzak.pl##.ytlogo
 grupapolmotor.pl###livechat-eye-catcher
@@ -5403,6 +5404,8 @@ lenalighting.pl##.jj_sl_linkedin, .jj_sl_custom2
 lenartowiczclinic.pl##footer > div > .row > .text-right > h2
 lencze.eu##.item-185
 lenovo.com##.social_icon
+lente-magazyn.com##.fb-wrapper
+lente-magazyn.com##.pf-social a:not([href*="/feed"])
 leoexpress.com##footer ul > li > a[target="_blank"]
 leroymerlin.pl##.our-channels
 leroymerlin.pl##[data-cerberus="ELEM_socialPictos"]
