@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.10.0
-! Last modified: Wed, 10 Jun 2026, 22:24 UTC+00:00
+! Version: 2026.6.14.0
+! Last modified: Sun, 14 Jun 2026, 19:06 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.10.0 aktualizacja: śro, 10 cze 2026, 22:24 UTC+00:00
+! v.2026.6.14.0 aktualizacja: nie, 14 cze 2026, 19:06 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -2118,7 +2118,6 @@ noweinwestycje.pl##.js-cookies-notification, .b-cookies-notification
 noweprzetargi.pl###dcach, #txt
 nowezyciepabianic.pl##div#PopupDiv
 nowgeo.pl###div_ciasteczka
-nowymarketing.pl,smartyou.com.pl###cmplz-manage-consent
 nowyteatr.org###cookies-notification
 npz.imw.lublin.pl###zf--alerts-panel
 ntfy.pl###ntfy-cookies
@@ -3506,6 +3505,7 @@ pl/tcf/cookie.js$script,domain=pl
 ##html:not([style*="overflow"][style*="hidden"]) .cs-cookie-bar-container
 ~pl###actionCooki:not(body, html):lang(pl)
 ~pl###catapult-cookie-bar:not(body, html):lang(pl)
+~pl###cmplz-manage-consent:lang(pl):not(body, html)
 ~pl###cookie-change-button:lang(pl)
 ~pl###kopageBarCookies + div:lang(pl)
 ~pl###kopageBarCookies:lang(pl)
@@ -3560,6 +3560,7 @@ pl###cccwr:not(head) + #cccwrpad:not(body)
 pl###cewe-accept-cookies:not(body, html)
 pl###cf-cookie-banner:not(body, html)
 pl###cherry-cookie-banner:not(body, html)
+pl###cmplz-manage-consent:not(body, html)
 pl###cnd-gdpr-container:not(body, html)
 pl###cokPyt:not(body, html)
 pl###comm_info:not(body, html)
