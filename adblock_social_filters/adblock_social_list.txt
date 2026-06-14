@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.14.1
-! Last modified: Sun, 14 Jun 2026, 20:19 UTC+00:00
+! Version: 2026.6.14.2
+! Last modified: Sun, 14 Jun 2026, 20:48 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.14.1 aktualizacja: nie, 14 cze 2026, 20:19 UTC+00:00
+! v.2026.6.14.2 aktualizacja: nie, 14 cze 2026, 20:48 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4113,16 +4113,16 @@ goodgift.pl##div[id^="wysuwane"]
 goodluckclub.pl###sdo > li:nth-of-type(n+4)
 goodram.com###footer_menu_social
 goodyear.eu##.follow__container
+google.*##.chr-footer__social
+google.*##.ddlshare-dialog-content .ddls-fbb, .ddlshare-dialog-content .ddls-twb
+google.*##.facebookButton, .twitterButton
+google.*##.gplus
+google.*##.standard-footer__bar__social-icons
 google.*##a[aria-label="Udostępnij w WhatsApp"]
+google.*##button.section-social-share-button
+google.*##div[role="dialog"][aria-label^="Udostępnij link"] div:has(> button[aria-label*="Udostępnij "]:not([aria-label*="WhatsApp"]))
 google.*##div[role="dialog"][aria-label^="Udostępnij link"] div:has(> button[aria-label*="Udostępnij "][aria-label*="WhatsApp"])
-google.com##.chr-footer__social
-google.com##.ddlshare-dialog-content .ddls-fbb, .ddlshare-dialog-content .ddls-twb
-google.com##.facebookButton, .twitterButton
-google.com##.gplus
-google.com##.standard-footer__bar__social-icons
-google.com##button.section-social-share-button
-google.com##div[role="dialog"][aria-label^="Udostępnij link"] div:has(> button[aria-label*="Udostępnij "]:not([aria-label*="WhatsApp"]))
-google.com##span[aria-label^="Udostępnij na"]
+google.*##span[aria-label^="Udostępnij na"]
 goraco-polecam.pl###md-facebook
 goraco-polecam.pl###md-facebook-brazowy
 goraco-polecam.pl###md-instagram
@@ -4774,7 +4774,6 @@ jawor-parkiet.pl###menur > div > div > a[href*=".com/"] > img
 jawor-parkiet.pl##.bookmarkThisShare
 jazzforum.com.pl##.menu_nav > a > img[src$="/images/uploads/doc/facebook-f.png"]
 jbc.bj.uj.edu.pl,sbc.org.pl##div[class*="FooterSitemap_footer-sitemap__social_"]
-jbzd.*,jbzdy.*##.btn-send-messenger, .fb-like
 jchost.pl###footer .forth-widget-area.col-lg-3.col-md-3.col-sm-12.col-xs-12 > .footer_widget.widget_text
 jdm-option.pl##a > .tweeter_logo.logotype, a > .vimeo_logo.logotype
 jdm-option.pl##div.content_right > .box_logotypes
@@ -9862,14 +9861,14 @@ www.google.*###modal-dialog div[class*="-share-"] button[class*="-share-"]:has(i
 www.google.*##.chr-footer-social
 www.google.*##.ddl-facebookButton_
 www.google.*##.ddl-twitterButton_
+www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/facebook-"])
+www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
+www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/x-"])
 www.google.*##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/facebook_"], img[src*="social/fb_"], img[src*="social/x_"])
 www.google.*##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
 www.google.*##div[data-attrid*="social media presence"] span, div[data-attrid*="social media presence"] a
 www.google.*#?#div[role="dialog"] > span > div > a:has-text(/^(Facebook|X)$/)
 www.google.*#?#div[role="dialog"] > span > div > a:has-text(/^WhatsApp$/)
-www.google.*,www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/facebook-"])
-www.google.*,www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
-www.google.*,www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/x-"])
 www.komputronik.pl###footer > div > div > div > div > section > div:nth-child(5) > div:nth-child(n+3):nth-child(-n+4)
 www.logitech.com##.social-email-row .social-ctn
 www.nazwa.pl##.n21-footer__smList
@@ -10989,7 +10988,7 @@ interia.pl##.social-socialButtons
 interia.pl##.video-social
 interia.pl,pomponik.pl##.is-facebook.share-link
 istotne.pl###social_buttons, .icon_twitter, .icon_facebook, .icon_google_plus, .icon_youtube
-jbzdy.*,jbzd.*##.btn-send-messenger, .fb-like, .facebook-share
+jbzd.*,jbzdy.*##.btn-send-messenger, .fb-like, .facebook-share
 kalendarz.onet.pl,poczta.onet.pl##.ico-facebook
 karkonosze24.com##div[data-title]:has(a[href*="facebook.com/"] h2, h2 a[href*="facebook.com/"])
 konkret24.tvn24.pl##.share-container > .share-container__icon-wrapper > .share-container__modes:not(.share-container__modes--copy-link), .socials
