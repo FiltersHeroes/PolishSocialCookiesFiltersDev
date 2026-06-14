@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.14.2
-! Last modified: Sun, 14 Jun 2026, 20:48 UTC+00:00
+! Version: 2026.6.14.3
+! Last modified: Sun, 14 Jun 2026, 21:19 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.14.2 aktualizacja: nie, 14 cze 2026, 20:48 UTC+00:00
+! v.2026.6.14.3 aktualizacja: nie, 14 cze 2026, 21:19 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -3507,10 +3507,12 @@ pl/tcf/cookie.js$script,domain=pl
 ~pl###catapult-cookie-bar:not(body, html):lang(pl)
 ~pl###cmplz-manage-consent:lang(pl):not(body, html)
 ~pl###cookie-change-button:lang(pl)
+~pl###cookiesSettings:lang(pl), .cookiesSettings:lang(pl)
 ~pl###kopageBarCookies + div:lang(pl)
 ~pl###kopageBarCookies:lang(pl)
 ~pl###x13eucookies-icon:lang(pl)
 ~pl##.fmessages:lang(pl):has(.cookie-message-popup-lq, .cookie-notice-ui)
+~pl##.modal-cookies.open:lang(pl)
 ~pl##a[href="javascript:CookieScript.instance.show()"]:lang(pl)
 ~pl##body > div#cookie[class=""]
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) #ck_dsclr:lang(pl)
@@ -3818,6 +3820,7 @@ pl###cookiesPolicyInfo:not(body, html)
 pl###cookiesPolicyPopup:not(body, html)
 pl###cookiespopup-layer:not(body, html)
 pl###cookiesPopup:not(body, html)
+pl###cookiesSettings, .cookiesSettings
 pl###cookiesss:not(body, html)
 pl###cookiesStatement:not(body, html)
 pl###cookiesTab:not(body, html)
@@ -4148,6 +4151,7 @@ pl##.md-cookie-warning:not(body, html)
 pl##.message--cookie:not(body, html)
 pl##.message_cookie:not(body, html)
 pl##.mod-cookie-notice:not(body, html)
+pl##.modal-cookies.open:lang(pl)
 pl##.nm-cookiepolicy:not(body, html)
 pl##.notice_notice_cookies:not(body, html)
 pl##.notification--cookie-alert:not(body, html)
