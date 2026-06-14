@@ -3193,14 +3193,14 @@ goodgift.pl##div[id^="wysuwane"]
 goodluckclub.pl###sdo > li:nth-of-type(n+4)
 goodram.com###footer_menu_social
 goodyear.eu##.follow__container
-google.com##.chr-footer__social
-google.com##.ddlshare-dialog-content .ddls-fbb, .ddlshare-dialog-content .ddls-twb
-google.com##.facebookButton, .twitterButton
-google.com##.gplus
-google.com##.standard-footer__bar__social-icons
-google.com##button.section-social-share-button
-google.com##div[role="dialog"][aria-label^="Udostępnij link"] div:has(> button[aria-label*="Udostępnij "]:not([aria-label*="WhatsApp"]))
-google.com##span[aria-label^="Udostępnij na"]
+google.*##.chr-footer__social
+google.*##.ddlshare-dialog-content .ddls-fbb, .ddlshare-dialog-content .ddls-twb
+google.*##.facebookButton, .twitterButton
+google.*##.gplus
+google.*##.standard-footer__bar__social-icons
+google.*##button.section-social-share-button
+google.*##div[role="dialog"][aria-label^="Udostępnij link"] div:has(> button[aria-label*="Udostępnij "]:not([aria-label*="WhatsApp"]))
+google.*##span[aria-label^="Udostępnij na"]
 goraco-polecam.pl###md-facebook
 goraco-polecam.pl###md-facebook-brazowy
 goraco-polecam.pl###md-instagram
@@ -8875,8 +8875,8 @@ www.google.*##.ddl-twitterButton_
 www.google.*##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/facebook_"], img[src*="social/fb_"], img[src*="social/x_"])
 www.google.*##div[data-attrid*="social media presence"] span, div[data-attrid*="social media presence"] a
 www.google.*#?#div[role="dialog"] > span > div > a:has-text(/^(Facebook|X)$/)
-www.google.*,www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/facebook-"])
-www.google.*,www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/x-"])
+www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/facebook-"])
+www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/x-"])
 www.komputronik.pl###footer > div > div > div > div > section > div:nth-child(5) > div:nth-child(n+3):nth-child(-n+4)
 www.logitech.com##.social-email-row .social-ctn
 www.nazwa.pl##.n21-footer__smList
