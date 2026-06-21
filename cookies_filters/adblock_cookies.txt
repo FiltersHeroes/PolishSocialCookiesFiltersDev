@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.14.3
-! Last modified: Sun, 14 Jun 2026, 21:19 UTC+00:00
+! Version: 2026.6.21.0
+! Last modified: Sun, 21 Jun 2026, 13:04 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.14.3 aktualizacja: nie, 14 cze 2026, 21:19 UTC+00:00
+! v.2026.6.21.0 aktualizacja: nie, 21 cze 2026, 13:04 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -339,6 +339,7 @@ az.pl###gatsby-focus-wrapper > footer + div[class^="sc-"]
 azure.microsoft.com###cookie-prompt
 b2b.darynatury.pl###page-footer.page-footer div[id^="kontrolka"]:first-child > p:only-child > span:only-child > span:last-child
 b2b.engerhandles.com,b2b.metal-bud.eu,brymorex.pl,door-handles.com,esklep.agroas.pl,hmb.pl##.cookie-notice-ui
+b2b.gerda.pl,fabrykazegarkow.pl,n69.pl,neuca.pl,zegarownia.pl##.cookies-consent
 b2b.grodno.pl##.cs-cookies-consents
 b2b.grodno.pl##.cs-cookies-consents-open
 b2c.vds.pl##.b2cCss-cookie-banner
@@ -1114,7 +1115,6 @@ extraserv.pl##div#uwaga
 extraswiecie.pl,modr.pl,swiecie.eu##.region-gdpr
 ey.com##.cookienotification
 fabryka-kuchni.eu,lubliniec.eu,niedziela.be,owczarska.eu,tvnakarte.eu###cadre_alert_cookies
-fabrykazegarkow.pl,n69.pl,neuca.pl,zegarownia.pl##.cookies-consent
 facom.com.pl,kalendarzonline.com###cookiesBlock
 fakehunter.pap.pl##div[class*="CookiesPrompt__Wrapper-"]
 faktury.autopay.pl#?#body > div[style]:first-of-type:not([id], [class]):has-text(cookies)
@@ -1704,7 +1704,7 @@ kuratorium.krakow.pl###spu-24921, #spu-bg-24921
 kurier-ilawski.pl##div#agreeCookies
 kuriergarwolinski.pl,mccom.pl,nasksa.pl,sopocki-zdroj.pl,waxclinic.pl###rodoInfo
 kursnacukrzyce.pl##.growl
-kursy24h.pl,salenawesela.pl##body > div[style]:first-child:has(> a[href*="/cookie"])
+kursy24h.pl##body > div[style]:first-child:has(> a[href*="/cookie"])
 kwadryga.com###cookie-privacy
 kwartalnikiustitia.pl##.modal-promo
 kwiatydonice.pl##.InfoRodo
@@ -2120,6 +2120,7 @@ nowezyciepabianic.pl##div#PopupDiv
 nowgeo.pl###div_ciasteczka
 nowyteatr.org###cookies-notification
 npz.imw.lublin.pl###zf--alerts-panel
+nq.pl##.cookie-popup_component
 ntfy.pl###ntfy-cookies
 nuk.pl###neusta-cookie-notice-modal
 numizmatyka24.pl##.prvcookies
@@ -2342,6 +2343,8 @@ player.polskieradio.pl##.termsOfUse
 playnow.pl##.c-cookie-info, .c-promo-popup.c-popup
 plenti.app##.fixed:has(> div[role="dialog"][aria-labelledby="cookies-popup-header"])
 plus500.com##.sticky-cookie-wrapper
+plus.pl###ot-sdk-btn.ot-sdk-show-settings
+plus.pl#?#footer a[href="/#"]:has-text(Ustawienia)
 plus.pl,plushbezlimitu.pl,polsatbox.pl###rodo-popup-container, #rodo-popup-overlay
 plus.pl,plushbezlimitu.pl,polsatbox.pl##.gdprOverlay, .rodoOverlay, .GDPROverlay, .RODOOverlay
 plus.pl,plushbezlimitu.pl,polsatbox.pl##.modal-overlay:has(~ #rodo-popup-container)
@@ -3057,6 +3060,7 @@ wegetarianie.pl##td[align="center"][height="22"]
 weidemann.de###tx_shortcutscookiedisclaimer
 weldon.pl###komunikat_cookies
 wen-vita.asysto.pl###cookie-accept
+wer.pl###cookiePopupBoxContainer.cookiePopupBoxContainer
 westwingnow.pl##[class^="CookiePolicyPopup__StyledCookieBar-"]
 wetzoo.pl##.ciacho-wrap-container
 wgrane.pl##.cookieinfo1
