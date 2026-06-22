@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.21.1
-! Last modified: Sun, 21 Jun 2026, 21:50 UTC+00:00
+! Version: 2026.6.22.0
+! Last modified: Mon, 22 Jun 2026, 22:02 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.21.1 aktualizacja: nie, 21 cze 2026, 21:50 UTC+00:00
+! v.2026.6.22.0 aktualizacja: pon, 22 cze 2026, 22:02 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -173,6 +173,7 @@ akademiabambino.pl##.ciacha
 akademiaeurocash.com.pl,dlink.com,megawrzuta.pl,seoinvention.pl##.notification
 akademiafalubaz.pl###cgRodoModal, #cgRodoBackdrop
 akademos.pl,jezykipaderewski.pl,paderewski.lublin.pl,zagiel.pl,zagielauto.pl,zagielmed.pl###cc_zagiel
+akol.pl,funer.com.pl,pkw-sa.pl##div#klaro, button#klaro_toggle_dialog
 akolinska-kancelaria.pl,cosmedicolight.pl,genetico.pl,kapitalnydom.pl,podkarpackie.travel.pl,tksport.pl,um-swiecie.pl##body > div[class][style*="position"][style*="fixed"]:not([id])
 akpolbaby.pl###gdpr-sticky-banner
 aktualnyodpis.pl##.ao-cookie-container
@@ -1226,8 +1227,6 @@ funclub.pl#?#body > div > div > div > div > div:has-text(cookies)
 fundacjadominikana.org,gksjastrzebie.com###sp-cookie-consent
 fundacjakornice.pl###cookit
 funduszpomerania.pl###eprivacyModal
-funer.com.pl,pkw-sa.pl##button#klaro_toggle_dialog
-funer.com.pl,pkw-sa.pl##div#klaro
 funnygames.pl###cmp-container-id
 furnitex.pl##.bottomWarning.container
 futbol.pl,pkw.gov.pl##.js-cp-box
@@ -1430,7 +1429,7 @@ hurt.com.pl,teatrkomedia.pl##.cover
 hurtopony.pl,opony-rolnicze.net##.cookies-modal
 hurtownia-24.pl,spolem.com.pl###roar-alert-wrap > #roar-alert.roar-alert
 hurtownia-kosmetyczna.org,tatuum.com###cookie_law_informations
-hurtownia-ogrodnicza.com,profire.pl,przychodniakrakow.com###fscookies
+hurtownia-ogrodnicza.com,partnerokno.eu,profire.pl,przychodniakrakow.com###fscookies, .fscookies-manage
 husqvarna.com##.c-fnd-cookie-acceptance
 hydrem-online.com###bookingLayer
 i-puzzle.pl##.euc
@@ -2460,7 +2459,6 @@ prideshop.pl,queer.pl##.box-rodo
 primulator.pl###CookieInfoFooter.cookieInfoFooter
 prk24.pl##.rk-cookie-overlay
 profilki.pl##div.centering.tile:has(img[src="/img/lay/maskotka_ciastko.png"])
-profire.pl##.fscookies-manage.fas
 profkos.pl##.module-header_notice
 progrupa.com###progrupa_cookie_policy
 projekt27.pl,vrejestr.pl##.fixed.bottom-0:has(a[href="prywatnosc"])
