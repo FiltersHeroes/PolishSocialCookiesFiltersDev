@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.21.2
-! Last modified: Sun, 21 Jun 2026, 14:09 UTC+00:00
+! Version: 2026.6.22.0
+! Last modified: Mon, 22 Jun 2026, 22:02 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.21.2 aktualizacja: nie, 21 cze 2026, 14:09 UTC+00:00
+! v.2026.6.22.0 aktualizacja: pon, 22 cze 2026, 22:02 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1213,6 +1213,8 @@ akces.pro###footer > .footer-keep-connected .icons
 akcjasos.pl###left-right-top > .yt-position-inner > div.moduletable:nth-of-type(2) > p:nth-of-type(n+8):nth-of-type(-n+9) > a, #left-right-top > .yt-position-inner > div.moduletable:nth-of-type(3)
 akelektronik-kalisz.pl##.topFooter > div > div > div:first-child:has(.facebook a)
 akma.pl##.footer-default-three
+akol.pl##.header-container li:has(a[href*=".com/"])
+akol.pl##.social-logo
 akpolbaby.pl###footerBadzNaBiezaco
 aktywnadietetyka.blogspot.com,sieradztomy.pl,swedish-princesses.pl###Image1
 aktywnie.olsztyn.eu###block-block-8
@@ -2722,6 +2724,7 @@ debiutplus.pl###text-5 .textwidget > .widget-title > p
 deblin24.eu##a[href*="facebook.com/pages/Deblin24eu/"] > img, a[href="twitter.com/"] > img
 decathlon.pl##.block-footer div.df-info__group:nth-of-type(3) > div.df-info-group__title:first-of-type, .block-footer div.df-info__group:nth-of-type(3) > div.df-info-group__title:first-of-type + div a
 decathlon.pl##.ct-socials
+decathlon.pl##.footer-social-medias
 decathlon.pl#?#.footer .info-section__title:has-text(Znajdź nas)
 decobazaar.com##.social > a[class*="b"]
 decofire.pl##.footer-bottom div.col > ul a[href*=".com/"]
@@ -5885,6 +5888,7 @@ medicus.com.pl##ul.sm li a[href*=".com/"]
 medinfo.pl##.links-nav > li > a[href*="facebook.com/PowszechnaInformacjaMedyczna/"]
 medipment.pl##.custom-footer > .container > .row > div:nth-of-type(5)
 meditrans.pl##.headerMenuMoreButtonsSocial
+medium.com##span[data-dd-action-name*="highlight_text"] + button
 medme.pl##.footer__navigation--social
 medme.pl##.medme__header__social
 mednova.pl,novamed.pl###footer-content-social
@@ -7977,6 +7981,7 @@ roltexkrasnystaw.pl###menu-menu-spolecznosciowe
 romance-tv.pl##a[href*="instagram.com/romancetvpolska/"]
 romet.pl##.ct_w_footer_socials
 ronet.com.pl##.sliding-zam-fb, .sliding-zam-yt
+ronomed.com.pl###sc-ico-4 > .right > .ico
 rooader.pl##img[src="/files/image/facebook_2015_logo_detail.png"]
 rosarosie.iai-shop.com##center > a[href*=".com/"] > img[src*="/ikony-social"]
 rosebelle.pl#?##footer > div:has(h3:has-text(Śledź nas na Instagramie))
@@ -8114,6 +8119,7 @@ schwarzkopf.pl#?#footer span:has-text(Podążaj za nami)
 scigacz.pl###main-footer > .icon:nth-of-type(-n+2)
 scigacz.pl##div#main-footer > span.akonet:last-child { color: #606060 !important; font-size: 1.2rem !important }
 scigacz.pl##div#main-footer { -webkit-text-fill-color: #0000 !important; color: #0000 !important; font-size: 0 !important; width: calc(100% - 200px) !important; margin-left: 200px !important }
+scp-pl.wikidot.com###side-bar .media
 scrapshop.com.pl###box_custom41
 screennetwork.pl##.top_wrap_sp a
 scroot.pl##.ins, .footerNav > ul > li:nth-of-type(3)
@@ -10423,6 +10429,7 @@ zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:has-text(Nasz Facebo
 ||awzr.pl/public/img/fbp.png
 ||b2b.darynatury.pl/zasoby/obrazki/inne/fbico.png
 ||b2b.darynatury.pl/zasoby/obrazki/inne/igico.png
+||barbarawnek.pl/media/img/fb.jpg
 ||bawidlo.pl/bnr/14/fb_baner.jpg
 ||bawimisie.pl/img/cms/instagram-icon_*.jpg
 ||belladayspa.pl/images/spolecznosciowe/fb.png
