@@ -1,4 +1,3 @@
-sjp.pwn.pl#?#div[role="menu"] button:has-text(/Facebook|Twitter/)
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
@@ -7311,6 +7310,7 @@ sissel.com.pl###info-header > span.info:nth-of-type(n+4):nth-of-type(-n+5)
 siteimpulse.com##.col-md-4.cols-5:nth-of-type(2)
 siteimpulse.com##.social > li:not(.email)
 sjp.pwn.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="x.com"])
+sjp.pwn.pl#?#div[role="menu"] button:has-text(/Facebook|Twitter/)
 sk-sport.pl##.buttons3.footer_links
 skalnik.pl##.footerAdditional__social-wrapper
 skaner.p.lodz.pl##div.mb-lg-0.mb-5.col-md-4:nth-of-type(2)
