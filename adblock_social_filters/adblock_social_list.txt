@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.22.0
-! Last modified: Mon, 22 Jun 2026, 22:02 UTC+00:00
+! Version: 2026.6.23.0
+! Last modified: Tue, 23 Jun 2026, 21:54 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.22.0 aktualizacja: pon, 22 cze 2026, 22:02 UTC+00:00
+! v.2026.6.23.0 aktualizacja: wto, 23 cze 2026, 21:54 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -8281,6 +8281,7 @@ sissel.com.pl###info-header > span.info:nth-of-type(n+4):nth-of-type(-n+5)
 siteimpulse.com##.col-md-4.cols-5:nth-of-type(2)
 siteimpulse.com##.social > li:not(.email)
 sjp.pwn.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="x.com"])
+sjp.pwn.pl#?#div[role="menu"] button:has-text(/Facebook|Twitter/)
 sk-sport.pl##.buttons3.footer_links
 skalnik.pl##.footerAdditional__social-wrapper
 skaner.p.lodz.pl##div.mb-lg-0.mb-5.col-md-4:nth-of-type(2)
