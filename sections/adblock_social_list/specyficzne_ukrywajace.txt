@@ -1,3 +1,6 @@
+nju.pl##footer a[href*=".com"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="youtube.com"])
+castorama.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="tiktok.com"], [href*="youtube.com"])
+halotu.polsat.pl##div[data-testid="toolbarContent"] a[href*=".com/"]
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
