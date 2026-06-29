@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.28.0
-! Last modified: Sun, 28 Jun 2026, 16:34 UTC+00:00
+! Version: 2026.6.29.0
+! Last modified: Mon, 29 Jun 2026, 21:49 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.28.0 aktualizacja: nie, 28 cze 2026, 16:34 UTC+00:00
+! v.2026.6.29.0 aktualizacja: pon, 29 cze 2026, 21:49 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1020,7 +1020,7 @@ acer-sj.pl,sklep-garbi-rol.pl,sklepmeblowypiotr.pl##.csocial-link.rssocial-link
 acer.com##.praxis-social-links
 ach-te-internety.pl##.tg-social-menu-navigation
 ach-te-internety.pl,aikoiemil.com,banita.travel.pl,jan-kasprowicz.bmino.pl,jaworzno.pl,jdc24.pl,polishclub.org,szybkaprzemiana.pl,testergier.pl##.widget_sfp_page_plugin_widget
-actimel.pl##footer a[href*=".com"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="youtube.com"])
+actimel.pl,nju.pl##footer a[href*=".com"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="youtube.com"])
 active.sklep.pl##.footer--social-block
 activefamily.pl##.moto-widget-social-links-extended__list
 activia.pl###gatsby-focus-wrapper > header ~ main ~ div a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="youtube.com"])
@@ -2277,6 +2277,7 @@ caso-germany.pl#?#div.mcb-section.section:has-text(DOŁĄCZ DO NAS)
 castorama.pl##.footer-base-social-links
 castorama.pl##.footer-bottom__section--social-media
 castorama.pl##.so-ico
+castorama.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"], [href*="tiktok.com"], [href*="youtube.com"])
 castorama.pl,creativehobby.pl,mixit.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"], [href*="pinterest.com"], [href*="youtube.com"])
 casu.pl###facebookButtonFloat
 catawiki.pl##.c-footer__social-icons_container
@@ -4314,6 +4315,7 @@ halotu.polsat.pl##button[title="Facebook"]
 halotu.polsat.pl##button[title="Instagram"]
 halotu.polsat.pl##button[title="TikTok"]
 halotu.polsat.pl##button[title="Youtube"]
+halotu.polsat.pl##div[data-testid="toolbarContent"] a[href*=".com/"]
 halotu.polsat.pl,hub.pl,interia.pl,pomponik.pl,top.pl##.emotion-share-button
 haloursynow.pl##.twitter.module > div[class*="col"]
 hamamobile.pl##.floating-socials
@@ -6102,8 +6104,6 @@ mojedziecikreatywnie.pl##.smartlib-social-buttons-list
 mojegotowanie.pl##.footer-logo ~ a[href*=".com/"]
 mojegotowanie.pl##.sidebar-box-like-us
 mojegotowanie.pl##.top-menu-like-us
-mojeinstalacje.com##.ptssocial_link
-mojeinstalacje.com,sklepbrp.pl##.sm-panel-prawe
 mojejaslo.pl##.td-pb-span4.tdc-column.vc_column_container.vc_column:has(.td_social_type)
 mojejaslo.pl#?#.td-footer-wrap .tds-title:has-text(SOCIAL MEDIA)
 mojepodlogi.com##.block_social_list
@@ -6669,7 +6669,6 @@ oko.press##.PageLike, .top-bar-social-share > .facebook, .top-bar-social-share >
 oko.press##div.footer-group:nth-of-type(4) > .footer-group__header
 oko.press##div.footer-group:nth-of-type(4) > ul li.footer-group__list-item:not(:has(a[href*="news.google."], a[href*="spotify.com/"]))
 oko.press,techpolska.pl##.footer-social-share
-okruch-zlota.eu##footer div.box:nth-of-type(3) > h4
 oksport.pl##.facebook-link-wrapper
 oktawave.com##.social > li
 olawa24.pl##a[href*=".com/"]:has(.o24-facebook)
@@ -8410,6 +8409,7 @@ sklepas.org##.footer div.col-down:nth-of-type(4)
 sklepbabskiswiat.pl###ccss-social
 sklepbiegacza.pl##.footer__section--info .footer__header--center.footer__header
 sklepbiegacza.pl##.footer_social_media > .footer__icon > a
+sklepbrp.pl##.sm-panel-prawe
 sklepdekarza.pl,spodiglyinitki.pl##.widget-front
 sklepebike.pl###mfooterinfo > ul > li:last-child:has(.fb, .inst, .yt)
 sklepfarmera.pl##.nl
@@ -8896,8 +8896,6 @@ szih.org.pl###nav_menu-2, .menu-media-spolecznosciowe-container
 szkla.com##.footer-col__social-media > *
 szkola-medyczna.com.pl##.stopka_fb1
 szkolapol-ang.pl##.panel-body > center > a[href*=".com/"]
-szkolenia24h.pl###lewy_kontener > div.box_side:nth-of-type(4)
-szkolenia24h.pl###stopka_kontener > div > div:nth-of-type(2)
 szlot.pl##.rednews_facebook_widge
 sznyt.pl##li.is-hidden-mobile:nth-of-type(-n+3) > .bar-nav-icon, .article-comment-button__link--facebook
 szperalnia.pl##table tr:nth-of-type(2) td:nth-of-type(2) > p:nth-of-type(n+5):nth-of-type(-n+6)
@@ -11304,9 +11302,9 @@ iab.org.pl#@#.menu-social-buttons
 ibb.co#@#.btn-social
 imgur.com#@#.SocialShare
 instalki.pl#@#img[alt="Facebook"]
-interia.pl,pomponik.pl,styl.pl#@#.article-social
-interia.pl,pomponik.pl,styl.pl#@#.article-social-buttons
-interia.pl,pomponik.pl,styl.pl,support.mozilla.org#@#.share-link
+interia.pl,pomponik.pl#@#.article-social
+interia.pl,pomponik.pl#@#.article-social-buttons
+interia.pl,pomponik.pl,support.mozilla.org#@#.share-link
 ithardware.pl#@#.post-sharing
 jezuici.pl#@#.et-extra-social-icons
 kadantiscam.netlify.app,naszesprawy.eu,pkobp.pl,radiopoznan.fm#@#.social-icon
