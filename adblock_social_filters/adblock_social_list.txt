@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.29.0
-! Last modified: Mon, 29 Jun 2026, 21:49 UTC+00:00
+! Version: 2026.7.1.0
+! Last modified: Wed, 01 Jul 2026, 21:56 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.29.0 aktualizacja: pon, 29 cze 2026, 21:49 UTC+00:00
+! v.2026.7.1.0 aktualizacja: śro, 01 lip 2026, 21:56 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1465,6 +1465,7 @@ arch.telewizjarepublika.pl###header a[href*="youtube.com/channel/"]
 archidiecezja.lodz.pl##.menu__list-icons--footer
 architekcibiznesu.pl##.ast-post-social-sharing
 architekcibiznesu.pl##.massenger-log0-contact
+architekcibiznesu.pl,dodadeau.com,enform.pl,obcyjezykpolski.pl,pieknoumyslu.com,turvita.pl,zwierzecisie.pl##.ast-footer-social-wrap a:not([href*="rss"], [href*="feed"], a[href*="mailto:"])
 architektura.info##.newsletter-block
 archiup.com##footer#footer.footer > div:first-child > div > div > div:nth-child(4) > div:first-child
 archiup.com#?##contact + dl > dt + dd:has-text(/Instagram|Facebook|Pinterest|YouTube/)
@@ -2482,6 +2483,8 @@ columbusenergy.pl,gobloo.pl##section.footer.py-5 > .container > .row > div:has(.
 com,eu,info,pl##body #social_block { visibility: hidden !important }
 com.web.silcare.com###ue + div.limpad.toppad.w3-row:nth-of-type(8) > div > p
 comarch.pl##.sector-footer__definition-list--social-media
+comeacasa.com##.additional-text:has(+ .social-media__list)
+comeacasa.com##.social-media__list
 company.jakdojade.pl##.w-team-member-links-item:not([href*="mailto:"])
 comparic.pl##div[class*="footer"] a[href*="twitter.com/"]
 comparic.pl#?#.g-single:has-text(Dołącz do naszej grupy)
@@ -2922,7 +2925,6 @@ docs.wisniowski.pl##div.MuiGrid-root > div[style]:not([class]) + div[style] > a[
 docs.wisniowski.pl##div.MuiGrid-root > div[style]:not([class]):has(+ div[style] > a[href*="facebook.com/"] > svg)
 doctorgun.eu###box-18
 dodadeau.com###block-14
-dodadeau.com,enform.pl,obcyjezykpolski.pl,zwierzecisie.pl##.ast-footer-social-wrap a:not([href*="rss"], [href*="feed"], a[href*="mailto:"])
 dodadeau.com,sw.gov.pl###block-13
 dodomku.pl##.contact-info-tel > p + p:has(> a > img[src*="WhatsApp"])
 dodrukarki.pl##footer .list-group > a[href*=".com/"][target]
@@ -7033,7 +7035,6 @@ pieczywoprobody.pl##.contact-details .facebook
 piekarniagrzybki.pl##.glowna_facebook
 piekary.pl##.site_header__top__socials
 piekary.pl##.social_home
-pieknoumyslu.com##.footer-social-item:not(.ast-rss)
 pieluszkarnia.pl##div[class*="platnosc"] > a[href*=".com/"] > img
 pieniezno.pl##.socialmedia-links
 pierwsze-kroki.com##.instagram-header
