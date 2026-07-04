@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.7.4.0
-! Last modified: Sat, 04 Jul 2026, 14:12 UTC+00:00
+! Version: 2026.7.4.1
+! Last modified: Sat, 04 Jul 2026, 18:03 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.7.4.0 aktualizacja: sob, 04 lip 2026, 14:12 UTC+00:00
+! v.2026.7.4.1 aktualizacja: sob, 04 lip 2026, 18:03 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1064,7 +1064,6 @@ ergokantor.pl###popups__
 erkado.pl##.show-consents
 esa.nask.pl##.ReactModalPortal:has(.cookies-greetings)
 esbank.pl###cookie_info_es
-eskk.pl,go-market.pl,sklepbiegacza.pl,znak.pl##body > div[style]:not([id], [class]):first-of-type
 esklep.legutko.com.pl###event_banner
 esky-pl.mozio.com#?##container > div ~ div:has(> div > span:has-text(as cookies to))
 esparto.pl,eventy-online.pl,seoheroes.pl,yumisu.pl##.notification-bar
@@ -1307,6 +1306,7 @@ gminawagrowiec.pl##.nyroModalCont:has(a[href*="klauzula"] img[src*="rodo"]) ~ .n
 gminawagrowiec.pl,spzaduszniki.pl##.nyroModalBg
 gmsystem.pl,sosulski.pl##body > form
 gniezno.eu###CookieNotification
+go-market.pl,sklepbiegacza.pl,znak.pl##body > div[style]:not([id], [class]):first-of-type
 go.pl##.b-cookie
 goclever.com,goclever.pl##div#cp-wrap
 gog.com##[floating-banner-id="cookies"]
