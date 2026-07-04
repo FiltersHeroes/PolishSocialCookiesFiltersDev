@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.7.4.0
-! Last modified: Sat, 04 Jul 2026, 14:12 UTC+00:00
+! Version: 2026.7.4.1
+! Last modified: Sat, 04 Jul 2026, 18:03 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.7.4.0 aktualizacja: sob, 04 lip 2026, 14:12 UTC+00:00
+! v.2026.7.4.1 aktualizacja: sob, 04 lip 2026, 18:03 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1085,7 +1085,7 @@ agnieszkakonieczna.com,ambience.com.pl,polsatbox.pl,siedlce.pl,ztedevices.com##.
 agnieszkakonieczna.com,comparic.pl,plantutti.pl,whirlpool.pl##div[class*="footer"] a[href*="instagram.com/"]
 agnieszkakudela.pl##.widget_qodef_instagram_widget
 agnieszkakudela.pl,agwerblog.pl,akademicka.pl,haart.pl,imprezy-expn.pl,intellect.pl,jaktosie.pl,livingonmyown.pl,smartbake.pl,sportowyekspress.pl,warzywnienakrecona.pl,woolloop.pl,yerbanot.com###custom_html-5
-agnieszkakudela.pl,autoblog24.pl,bigbaddice.pl,dobra-mama.pl,festiwaldobregosmaku.eu,highlab.pl,profitech-narzedzia.pl,xgp.pl###custom_html-4
+agnieszkakudela.pl,autoblog24.pl,bigbaddice.pl,dobra-mama.pl,festiwaldobregosmaku.eu,highlab.pl,martingreen.pl,profitech-narzedzia.pl,xgp.pl###custom_html-4
 agnieszkawielobob.pl,janikowski.pl,przestronnie.pl###text-12
 agora.pl###hamburger-menu a[href*="linkedin.com/"]
 agorabytom.pl##.row-top__fb
@@ -3426,18 +3426,17 @@ eska.pl##.ending-splash__share .fb-share-button
 eska.pl##.ending-splash__share iframe
 eska.pl##.gallery-share .share-box-button-wrapper
 eska.pl##.hot_temat_cont:nth-of-type(28) > .m-bottom30.goth_l.title, .goth_l.polub
-eska.pl##.share-buttons-wrapper
 eska.pl##.type--facebook.element
 eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,vibefm.pl,voxfm.pl##.open-messenger
+eska.pl,eskarock.pl,radioplus.pl,vibefm.pl,voxfm.pl##.share-buttons-wrapper > .share-buttons > a:not([href^="mailto:"])
 eska.pl,eskarock.pl,vibefm.pl,voxfm.pl##.links.widget-player-bottom a[href*=".com/"]
 eska.pl,poradnikzdrowie.pl,se.pl##.fb__shareBox
 eska.pl,~www.eska.pl##.footer > .box:nth-of-type(n+6):nth-of-type(-n+7)
 eska.tv##.social.box
 eskarock.pl##.main-nav__socials
-eskarock.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,voxfm.pl,www.eska.pl##.messenger { pointer-events: none !important }
-eskarock.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,voxfm.pl,www.eska.pl##.messenger { width: 35px !important; max-width: 35px !important }
-eskarock.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,voxfm.pl,www.eska.pl##.phone { max-width: unset !important }
-eskk.pl###footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > .footer-strong, #footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > .footer-strong ~ a
+eskarock.pl,radioplus.pl,vibefm.pl,voxfm.pl,www.eska.pl##.messenger { pointer-events: none !important }
+eskarock.pl,radioplus.pl,vibefm.pl,voxfm.pl,www.eska.pl##.messenger { width: 35px !important; max-width: 35px !important }
+eskarock.pl,radioplus.pl,vibefm.pl,voxfm.pl,www.eska.pl##.phone { max-width: unset !important }
 esklep-porta.pl##.slide_up
 espolem.pl##.pss-facebook
 esporter.pl##.common-copyright__social
@@ -5769,6 +5768,7 @@ marokosklep.com###bar_fb
 marokosklep.com###bar_in
 marokosklep.com###bar_yt
 marta-gotuje.pl###menu-navigation .pipdigicons-instagram, #menu-navigation .pipdigicons-pinterest, .pipdig_widget_facebook
+martingreen.pl##.header-top-right__social
 martom-hurtownia.pl##.like-social
 marwiz.pl##.social ~ span
 marwiz.pl##div.mx_zakladki a[href*="facebook.com/"]
@@ -7814,6 +7814,7 @@ radioony.fm##a[href*="youtube.com/channel/UCJDLhAlQfvDUlRC0SH_W7Qw"]
 radiopiekary.pl##.sidebar-radio-player__socials
 radioplus.pl###footer > div.col:nth-of-type(5) > .DosisExtraBold
 radioplus.pl,radiosupernova.pl,rivieraparkmarvipol.pl,senatkomorki.pl,stopcafe.pl,viva.pl,wp.pl##.messenger
+radioplus.pl,vibefm.pl,voxfm.pl##.links.widget-player-bottom
 radiopogoda.pl##.footer_middle_links a[href*="facebook.com/"]
 radiopogoda.pl##.radiozet-footer__socials__items
 radiopoznan.fm##.col-xs-12.col-sm-6.col-md-3:nth-of-type(4) > h4:first-of-type
@@ -11285,6 +11286,7 @@ edunews.pl#@#.custom-social-buttons
 enfamil.pl#@#.float-shop
 epodreczniki.pl#@#.mdi-share
 epodreczniki.pl#@#.share-icon
+eska.pl,eskarock.pl,radioplus.pl,vibefm.pl,voxfm.pl#@#.share-buttons-wrapper
 facetikuchnia.com.pl#@#.share-widget
 fixly.pl#@#.button_fb
 forbes.pl#@#.socialButton
