@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.6.30.0
-! Last modified: Tue, 30 Jun 2026, 21:52 UTC+00:00
+! Version: 2026.7.4.0
+! Last modified: Sat, 04 Jul 2026, 14:12 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2025 Certyficate IT
 ! Copyright © 2025 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.6.30.0 aktualizacja: wto, 30 cze 2026, 21:52 UTC+00:00
+! v.2026.7.4.0 aktualizacja: sob, 04 lip 2026, 14:12 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1017,6 +1017,7 @@ elektrozysk.pl,fajka24.pl,krups.com.pl,laznianowa.pl,linuxportal.pl,lovela.pl,ls
 elementstore.pl###cookie-row
 elensport.pl###sek_cstk_inf
 elevensports.pl##.cookieNotice
+elicytacje.mf.gov.pl##jsp-cookie-banner
 elk.gmina.pl###spu-10427, #spu-bg-10427
 elk.gmina.pl#?#.spu-box:has-text(plików cookies)
 elk.gmina.pl,naszesprawy.eu,parafiakomprachcice.eu##.spu-bg
@@ -2318,6 +2319,7 @@ pl.gorenje.com##.blurry-background
 pl.gpbatteries.com###raksha-consent-banner, #raksha-widget
 pl.gravatar.com##.custom-cookie-banner
 pl.hama.com###privacyOptionsCookieOptIn-bottom
+pl.holy.com##button[onclick="if(window.Cookiebot) Cookiebot.renew();"]
 pl.ingrammicro.eu###CookieConsentLayer
 pl.investing.com##.consentBarWrapper
 pl.jooble.org##[data-test-name="_termsOfServices"][class^="GdprPopup_gdpr_consent_banner"]
