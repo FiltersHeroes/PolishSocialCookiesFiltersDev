@@ -1,4 +1,3 @@
-google.*##div[jsowner] div > button + span:has-text(/^Facebook|X|Reddit|WhatsApp$/):upward(1)
 /plugins/likebox.php$frame,redirect=noop.html,domain=vifon.pl
 ||premium.pl*/fb/splash.jpg
 ~1login.wp.pl,money.pl,open.fm,~poczta.wp.pl,pudelek.pl,wp.pl,~www.wp.pl##a[href*="instagram"][title*="instagram"][target="_blank"] ~ a[href*="facebook"][title*="facebook"][target="_blank"]:upward(2)
@@ -25,6 +24,7 @@ forums-pl.ubisoft.com##area[href*="plus.google.com/"]:remove-attr(href)
 forums-pl.ubisoft.com##area[href*="reddit.com/"]:remove-attr(href)
 forums-pl.ubisoft.com##area[href*="twitter.com/"]:remove-attr(href)
 forums-pl.ubisoft.com##area[href*="youtube.com/"]:remove-attr(href)
+google.*##div[jsowner] div > button + span:has-text(/^Facebook|X|Reddit|WhatsApp$/):upward(1)
 ibb.co##.btn-social:not(.btn-mail):upward(li)
 inoni.cc##div[class*="footer"] a[href*=".com/"]:is([href*="facebook.com/"], [href*="instagram.com/"]):upward(p)
 invado.pl##div[id^="block"][class*="-item"] .widget.social-icons.social-section:upward(div[id^="block"])
