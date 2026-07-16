@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.7.13.0
-! Last modified: Mon, 13 Jul 2026, 16:09 UTC+00:00
+! Version: 2026.7.16.0
+! Last modified: Thu, 16 Jul 2026, 21:29 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.7.13.0 aktualizacja: pon, 13 lip 2026, 16:09 UTC+00:00
+! v.2026.7.16.0 aktualizacja: czw, 16 lip 2026, 21:29 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1783,6 +1783,7 @@ lifescan.pl##.simplemodal-wrap
 liga.com.pl###wcp
 lightbox.pl##.cookies-bottom
 lilio.pl###rodoPopup, .modal-backdrop
+lilly.com##a[aria-label="Ustawienia plików cookie"]
 limango-outlet.pl##.lilayout-header-cookiebar
 limango.pl###footer-container ~ div[class*="shop"]:last-of-type:not([style]), .floating_notification
 limpol.com,naturio.eu###cadre_alert_cookies.cadre_alert_cookies
@@ -3217,6 +3218,7 @@ zyro.com##.zyro-cookies
 !
 !
 ! Specyficzne filtry blokujące
+!||llycw.com/public/global-cookie-management.js$script,domain=lilly.com
 *oetker.*/static/js/privacy-dialog/
 /ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info
 /api/Agreements/AgreementsCheck?RodoCookie=$xmlhttprequest,domain=granice.pl|lubiegrac.pl
@@ -3306,6 +3308,7 @@ zyro.com##.zyro-cookies
 ||lajt-online.pl/api/terms/rodo$rewrite=abp-resource:blank-text,xmlhttprequest,domain=lajt-online.pl
 ||legionisci.com/js/cookiepopup.js
 ||lenovozone.pl/frontend/js/sweetalert.min.js$script
+||lilly.com/pl/eds/scripts/cookie.js
 ||lovekrakow.pl/ajax/rodo
 ||midea.pl/wp-content/uploads/2015/01/cookie_img.png
 ||msecnd.net/Unilever/panels/generic/PanelPrzepisy.htm?consent$subdocument
