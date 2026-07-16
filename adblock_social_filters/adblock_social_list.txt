@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.7.15.0
-! Last modified: Wed, 15 Jul 2026, 21:27 UTC+00:00
+! Version: 2026.7.16.0
+! Last modified: Thu, 16 Jul 2026, 21:29 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.7.15.0 aktualizacja: śro, 15 lip 2026, 21:27 UTC+00:00
+! v.2026.7.16.0 aktualizacja: czw, 16 lip 2026, 21:29 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3790,7 +3790,6 @@ footsteps.city##.footer-nav-row
 forbes.pl##.socialButton:not(.com)
 forbes.pl##footer .socialList
 forbes.pl##ul > .fb a
-forbes.pl,newsweek.pl##.articleSocials
 forbot.pl##h3:nth-of-type(11)
 fordata.pl##div[class$="_footerNewsletter"] > .haszesc:nth-child(5):nth-of-type(3), div[class$="_footerSocial"]
 fordogtrainers.pl##div.horizontal-module.col-xs-12.col-sm-6.col-md-2:first-of-type > .module-cont
@@ -5529,6 +5528,7 @@ lightbrd.com##.tweet-link
 lightingcenter.pl##.kac-sm-pinterest
 lightinthebox.com##.join-our-community
 likefb.pl##.jas-social > .facebook-f
+lilly.com##footer a[href*=".com/"]:is([href*="instagram.com"], [href*="facebook.com"])
 limango.pl##.lilayout-footer-column-social
 limango.pl##div[data-test-id="footer-bottom-bar"] > div > div:nth-child(2) > div:nth-child(2)
 limi.pl##div.footer_block:nth-of-type(4)
@@ -11118,6 +11118,7 @@ filmweb.pl##.sitemap__socialLogos
 filmweb.pl##.socialButton:not([data-value="copyToClipboard"])
 filmweb.pl##.socialButton:not([data-value="copyToClipboard"], [data-value="googleNewsFollow"])
 filmweb.pl##.socialSection__container
+forbes.pl,newsweek.pl##.articleSocials > :not(.followUsonGoogle)
 forum.shinden.pl##.sharePage.infoBlock.section > .secondaryContent, .social > a[href="#"]
 gameplanet.onet.pl##.footer__socials, .header__socials, .social-bar
 gotowanie.onet.pl,magia.onet.pl###fb-panel
@@ -11306,6 +11307,7 @@ eska.pl,eskarock.pl,radioplus.pl,vibefm.pl,voxfm.pl#@#.share-buttons-wrapper
 facetikuchnia.com.pl#@#.share-widget
 fixly.pl#@#.button_fb
 forbes.pl#@#.socialButton
+forbes.pl,newsweek.pl#@#.articleSocials
 forbes.pl,newsweek.pl#@#.socialList
 gameplay.pl,tvgry.pl#@#.social-16
 gdansk.pl#@#.share-btn
