@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.7.17.0
-! Last modified: Fri, 17 Jul 2026, 21:12 UTC+00:00
+! Version: 2026.7.19.0
+! Last modified: Sun, 19 Jul 2026, 11:07 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.7.17.0 aktualizacja: pią, 17 lip 2026, 21:12 UTC+00:00
+! v.2026.7.19.0 aktualizacja: nie, 19 lip 2026, 11:07 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -295,7 +295,6 @@ atel.com.pl###tmp_cookies
 atelierba.com.pl,e-moda.com.pl#?##content-wrap > div:first-child:has-text(plików cookie)
 atlascopco.com,ccleaner.com,deezer.com,glovoapp.com,grobelak.pl,ibood.com,markan-agdrtv.pl,ogloszenia.niedziela.nl,shop.lego.com,tiktok.com,wordpress.com##.cookie-banner
 atomstore.pl###RodoCookiesInit, .modal-backdrop
-atrakcyjny-kredyt.pl,gotowkadlaciebie.com,gotowkadlafirm.pl##.cookiesInformation
 atskaner.pl,bingospa.eu,bip.um.rybnik.eu,coremannet.com,firmyinzynieria.com,fotonegatyw.com,meczelive.tv,odmiana.net,starosadeckie.info,szlakwokoltatr.eu,warsztatowski.com,whitervbbit.com,wyczesani.com###cookieInfoWindow
 attipas.pl,bip.grodwik.pl,bip.radio.lublin.pl,bocian.org.pl,brzozow.nowybip.pl,fakturownia.pl,gsmonline.pl,lamillou.com,msport.lavinaplatform.com,mt514.nowybip.pl,nencki.gov.pl,okir.nowybip.pl,piwkolo.info,siteor.pl,sugester.pl,teatrwielki.nowybip.pl,wiif.nowybip.pl,wiml.nowybip.pl,zpp.nowybip.pl,zspostroda.nowybip.pl,zuromin.ibip.net.pl##.jGrowl-notification
 attrader.pl,teatrpalladium.com##.cppa
@@ -1342,6 +1341,7 @@ gospodarkamorska.pl,trzyjeze.pl###fr3ex-cookiewarning
 gostynin.info###modal-privacy, .cookies-message-wrapper
 gostynska.pl,jarocinska.pl,rawicz24.pl,zpleszewa.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 gothaer.pl##.ci-bar-wrapper
+gotowkadlaciebie.com,gotowkadlafirm.pl##.cookiesInformation
 gov.pl##cez-cookies
 gov.pl,policja.pl##.informationBar, .JSWrapper
 gowork.pl###header_top > p
@@ -1972,6 +1972,7 @@ mleasing.pl##.footer > div[class] + div[class]:last-child:has(a[href*="/polityka
 mlekovita.com.pl###realCookies.realCookies
 mlodziwlodzi.pl###footer > .module.module-24
 mloteczka.pl,no-ip.pl###id_rodosrodo
+mmpk.info###cookiesInfo
 mniammniam.com##div[class^="mm-cookies"]
 mobidziennik.pl,wizja.net###floating-cookie-content, #floating-cookie-button
 mobile.de###consentBanner, div[class^="cookie-banner"]
@@ -2085,6 +2086,7 @@ neonet.pl##.ReactModal__Overlay:has(a[href*="cookies"]):has(a[href*="polityka-pr
 net4car.pl###notice_messages
 net2000.pl##div[id].jquery-notify-bar
 net-speak.pl##div.uwaga
+netatmo.com##a[href="javascript:openAxeptioCookies()"]
 netflix.com###cookie-disclosure
 netgear.com,technisat.com##body:not(.overflowHidden) #usercentrics-root
 netkoncept.com##.slabowidzacyCookie
