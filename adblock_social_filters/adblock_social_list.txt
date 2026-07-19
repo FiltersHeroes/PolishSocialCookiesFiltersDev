@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.7.16.0
-! Last modified: Thu, 16 Jul 2026, 21:29 UTC+00:00
+! Version: 2026.7.19.0
+! Last modified: Sun, 19 Jul 2026, 11:07 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.7.16.0 aktualizacja: czw, 16 lip 2026, 21:29 UTC+00:00
+! v.2026.7.19.0 aktualizacja: nie, 19 lip 2026, 11:07 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1179,7 +1179,7 @@ agrotechnika.net##.trigger.right
 agrotex.org.pl##.footer-wrapper .fl-module-vamtam-icon-group
 agrotnom.pl,bebetalent.pl,creativepet.pl##.widget_kadence_social
 agrounia.pl##footer > .content > div.col:nth-of-type(2) > a > img
-agrowist.pl,annalotan.pl,arka.tv,audiosfera.eu,bananki.pl,bptour.pl,bramy-aga.pl,cannamos.pl,dailymotion.com,dowhan-nieruchomosci.pl,drogeria-alicja.pl,dwmed.pl,e-forma.pl,eitca.pl,emulus.pl,encje.odjechani.com.pl,energoret.pl,fryzjerskie.com,gkstychy.info,gorlice.tv,gotujwstylueko.pl,inkmax.pl,iopen.pl,jax.com.pl,jwc.pl,karbownik.pl,konsalnet.pl,kufer.poznajemyswiat.pl,lark.com.pl,maikpol.pl,majsteronline.pl,mazur-serwis.pl,mdron.pl,megamedic.pl,myfloor.pl,nabudowe24.pl,oponyalbert.pl,outletmeble.net,plastyczne-lublin.pl,pracawgdansku.com.pl,przychodniaspecjalistyczna.com.pl,reagujratuj.pl,rze.pl,sengam.pl,sklep.elektrospark.pl,sklep.koralove.eu,sklep.narzedziawarszawa.pl,sklep.precio.pl,sklep5438865.homesklep.pl,spadomowe.pl,speedtest.pl,supermarket-zoologiczny.pl,sw-rita.pl,telewizjastk.pl,termet.com.pl,univision24.pl,widzewiak.pl,wielkiebudowanie.pl,wilanow-palac.pl,wodociagi.slupsk.pl,wsliwinski.pl,www.sellsmart.pl,zielarnia24.pl,zm.org.pl,ztm.poznan.pl,zwierzyniec.wroclaw.pl,zycie.pl,zyciepabianic.pl###facebook
+agrowist.pl,annalotan.pl,arka.tv,audiosfera.eu,bananki.pl,bptour.pl,bramy-aga.pl,cannamos.pl,dailymotion.com,dowhan-nieruchomosci.pl,drogeria-alicja.pl,dwmed.pl,e-forma.pl,eitca.pl,emulus.pl,encje.odjechani.com.pl,energoret.pl,fryzjerskie.com,gkstychy.info,gorlice.tv,gotujwstylueko.pl,historia.org.pl,inkmax.pl,iopen.pl,jax.com.pl,jwc.pl,karbownik.pl,konsalnet.pl,kufer.poznajemyswiat.pl,lark.com.pl,maikpol.pl,majsteronline.pl,mazur-serwis.pl,mdron.pl,megamedic.pl,myfloor.pl,nabudowe24.pl,oponyalbert.pl,outletmeble.net,plastyczne-lublin.pl,pracawgdansku.com.pl,przychodniaspecjalistyczna.com.pl,reagujratuj.pl,rze.pl,sengam.pl,sklep.elektrospark.pl,sklep.koralove.eu,sklep.narzedziawarszawa.pl,sklep.precio.pl,sklep5438865.homesklep.pl,spadomowe.pl,speedtest.pl,supermarket-zoologiczny.pl,sw-rita.pl,telewizjastk.pl,termet.com.pl,univision24.pl,widzewiak.pl,wielkiebudowanie.pl,wilanow-palac.pl,wodociagi.slupsk.pl,wsliwinski.pl,www.sellsmart.pl,zielarnia24.pl,zm.org.pl,ztm.poznan.pl,zwierzyniec.wroclaw.pl,zycie.pl,zyciepabianic.pl###facebook
 agtom.eu#?##follow_block > div:has-text(/(Facebooku|Grupa|YouTube)/)
 agusto.pl###easycontent_23
 agwerblog.pl##.instafollow, .footer-widget-inside.widget_text > .custom-html-widget.textwidget > ul
@@ -4040,6 +4040,7 @@ genialne.pl##.social-inline
 genius.com##a[href*="facebook.com/RapGeniusPolska"]
 genius.com##button[aria-label="Post this Song on Facebook"]
 genius.com##button[aria-label="Tweet this Song"]
+genius.com##div[class*="AnnotationShareButtons_"] * > button[class*="ShareButton"]
 genius.com##div[class^="SocialLinks__Container-"]
 gerardroofs.pl##footer .text-align-right.col-sm-12
 gerda.pl##.in.icon, .li.icon
@@ -6433,6 +6434,7 @@ nerina2.pl##footer .contact-info > address:nth-of-type(3)
 nespresso.com##.ProductDetailsSocialMedias__list
 nestbank.pl##.copyright > ul > li > a > img
 nestle.media.pl##.socialNetwork
+netatmo.com##footer a[href*=".com/"]:is([href*="instagram.com"], [href*="facebook.com"], [href*="linkedin.com"], [href*="x.com"], [href*="youtube.com"])
 netbiel.pl##.smartlib-horizontal-list.smartlib-layout-list > li > a
 netcredit.pl##footer > .container > .row > div.mt-3.col-md-3.col-12:nth-of-type(2)
 netfan.pl##a[href*="netfan.pl/partners/youtube.php"] > img, a[href*="netfan.pl/partners/nk.php"] > img
@@ -7544,6 +7546,7 @@ precio.pl###secondary > .sidebar-title:has(+ .widget_alap_social_share_widget)
 precio.pl##.widget_alap_social_share_widget
 predkosc.pl###sharefacebook
 predkosc.pl###sharetwitter
+prego.pl##footer a[href*=".com/"]:is([href*="instagram.com"], [href*="facebook.com"], [href*="youtube.com"])
 premier.gov.pl##.f4.fl > .clearfix > li
 premier.gov.pl##.fr > .fr > .fr > li
 premiery.pl.canalplus.com##.c-detail__action--facebook
