@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.7.19.0
-! Last modified: Sun, 19 Jul 2026, 11:07 UTC+00:00
+! Version: 2026.7.24.0
+! Last modified: Fri, 24 Jul 2026, 15:25 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.7.19.0 aktualizacja: nie, 19 lip 2026, 11:07 UTC+00:00
+! v.2026.7.24.0 aktualizacja: pią, 24 lip 2026, 15:25 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -935,6 +935,7 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 4mens.pl##.text_share
 4programmers.net###facebook-button
 4programmers.net##.footer-bubble a[href*="facebook.com/4programmers.net"]
+4programmers.net##i[data-icon^="contactUs"]:not([data-icon$="Github"])
 4run.pl##.headerSocial, .footerSocialMedia
 4szpaki.pl,at-outlet.pl,biustonoszedokarmienia.pl,bookbook.pl,cocolita.pl,darmarsklep.pl,deezee.pl,e-sas.pl,emanta.pl,eoptic.pl,hairpro.pl,hap.pl,harmoniasmakow.pl,ikonka.eu,jarmix-militaria.pl,kakto.pl,life-care.pl,menland.pl,mikesport.pl,nalepsze.pl,nowafarmacja.pl,powerlook.pl,walizkazabawek.pl,wphw.pl,wyspaszkrabow.pl,zadowolenie.pl,zico-bike.pl##.social-profiles-info
 5el.pl##.widget_black_studio_tinymce.uk-panel:nth-of-type(3)
@@ -1274,7 +1275,7 @@ aliholik.pl,autorskielegalnie.pl,blog.rembowscy.pl,karointhekitchen.com,liberglo
 aliholik.pl,choinki.net,damagier.pl,dardysleksji.pl,dobremoce.pl,doktorania.pl,elportal.pl,entera.pl,fama.org.pl,fury-zone.com,koszalininfo.pl,lozaszydercow.com,miejscawewroclawiu.pl,niezatapialni.com,olejenazdrowie.pl,perfumyfm.biz,piotr-gorecki.pl,polski-dubbing.pl,polskiedrogi-tv.pl,psychetee.pl,sempretaniec.pl,typeofweb.com,warsaw-apteka.com,wyklady.org###text-4
 aliholik.pl,prokapitalizm.pl###text-5, #text-6
 alilo.pl###collapsingSocialNav, .footer__socialmedia
-aliorbank.pl,brytyjka.pl,halotu.polsat.pl,interia.pl,kantor.aliorbank.pl,n69.pl,pomponik.pl,rybnik.eu,terazgotuje.pl##.social-bar
+aliorbank.pl,brytyjka.pl,deccoria.pl,halotu.polsat.pl,interia.pl,kantor.aliorbank.pl,n69.pl,pomponik.pl,rybnik.eu,terazgotuje.pl##.social-bar
 alipaczka.pl##.trackad > center:has(> b:nth-last-of-type(1) > a > img[src="/img/fejs.jpg"])
 alivia.org.pl##.main-nav__social_menu
 alivia.org.pl##.page-footer__social-menu
@@ -2738,6 +2739,14 @@ decathlon.pl##.block-footer div.df-info__group:nth-of-type(3) > div.df-info-grou
 decathlon.pl##.ct-socials
 decathlon.pl##.footer-social-medias
 decathlon.pl#?#.footer .info-section__title:has-text(Znajdź nas)
+deccoria.pl,halotu.polsat.pl,hub.pl,interia.pl,pomponik.pl,top.pl##.emotion-share-button
+deccoria.pl,hub.pl,interia.pl,pomponik.pl,terazgotuje.pl,top.pl##.emotion-join-us-text
+deccoria.pl,interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##.social-buttons a[href*=".com/"]
+deccoria.pl,interia.pl,pomponik.pl##.brief-list-item:has(> .tile-magazine:has(a.tile-magazine-thumb[href*="facebook.com/"], a.tile-magazine-thumb[href*="instagram.com/"]))
+deccoria.pl,interia.pl,pomponik.pl##.share-tooltip a[href*=".com/"]
+deccoria.pl,interia.pl,pomponik.pl##.social-media-panel
+deccoria.pl,interia.pl,~poczta.interia.pl,pomponik.pl#?##react_component_article div[width="9"] div p:has(b:has-text(Bądź na bieżąco) ~ a[href*="facebook.com/"])
+deccoria.pl,interia.pl,~www.interia.pl##.social-facebook-fanpage-below
 decobazaar.com##.social > a[class*="b"]
 decofire.pl##.footer-bottom div.col > ul a[href*=".com/"]
 decoliving.pl,intymna.pl,ohso.pl###opis_zakladka_right1
@@ -3723,7 +3732,7 @@ fitnesstrening.pl##.menu_button_wrapper > .specialgfx.footer_links_sub > li.m4gf
 fitnessworld.com##.footer__social__box > p
 fitprofit.pl###likedin
 fiveoclock.eu###ig_button
-fixitpc.pl,forum.budujemydom.pl,forumgsm.pl,kosmetykaaut.pl##.focus-social
+fixitpc.pl,forum.budujemydom.pl,forum.studia.net,forumgsm.pl,kosmetykaaut.pl##.focus-social
 fizjoplaner.pl##.ft_soc
 fizjoterapeuty.pl##.elementor-location-footer a[href*="facebook.com/"]
 fizjoterapeuty.pl##.elementor-location-footer a[href*="pinterest.com/"]
@@ -3969,6 +3978,7 @@ gazeta-fotograficzna.org##.footer > a:nth-of-type(-n+2)
 gazeta-mosina.pl###short_code_si_icon > a:not([href*="/rss"])
 gazeta-olawa.pl#?#.vc_row-fluid.wpb_row.vc_row > .vc_column_container.wpb_column:has-text(ZNAJDŹ NAS)
 gazeta-optyka.pl##div.grid-v.width100.grid-box:nth-of-type(4) > .deepest.mod-box.module
+gazeta.pl##.mainMenu a[href*="facebook.com/"]
 gazetabaltycka.pl##.share > ul > li:nth-of-type(-n+12)
 gazetacz.com.pl##.nav-link > .fa-facebook-f.fab
 gazetajurajska.pl###menu-follow-us
@@ -4332,7 +4342,6 @@ halotu.polsat.pl##button[title="Instagram"]
 halotu.polsat.pl##button[title="TikTok"]
 halotu.polsat.pl##button[title="Youtube"]
 halotu.polsat.pl##div[data-testid="toolbarContent"] a[href*=".com/"]
-halotu.polsat.pl,hub.pl,interia.pl,pomponik.pl,top.pl##.emotion-share-button
 haloursynow.pl##.twitter.module > div[class*="col"]
 hamamobile.pl##.floating-socials
 hamamobile.pl##.hidden-xs.col-lg-2-3.col-md-2-3.col-sm-4.col-xxs-12 > div.footer__wrapper:nth-of-type(2)
@@ -4503,7 +4512,6 @@ hplush.pl##footer div[class*="box"] > div[class*="title"]:first-child:has(+ .soc
 hrkgame.com##div[class*="footer"] a[href*=".com/"]:is([href*="facebook.com"], [href*="twitter.com"], [href*="youtube.com"], [href*="instagram.com"])
 hrstandard.pl##.post_share
 huaweimobileservices.com#?#.fullwidth-box.fusion-fullwidth:has-text(Śledź nasz profil w mediach społecznościowych)
-hub.pl,interia.pl,pomponik.pl,terazgotuje.pl,top.pl##.emotion-join-us-text
 hubkolektyw.pl##.uk-grid.uk-flex-center.uk-child-width-auto
 hubparking.pl###footer-social-wrapper
 hugs.dog##table.footer-table:nth-of-type(2)
@@ -4692,12 +4700,6 @@ interhome.pl##.grid.container-fluid-lg > section:nth-of-type(2) > div:first-chil
 interia.pl###videos .player-videos__infoblock-share
 interia.pl##footer div > span:first-child + div a[href]:is([title*="Dołącz"], [title*="Obserwuj"], [title*="Śledź"])
 interia.pl#?#footer div > span:first-child:has-text(Dołącz do nas)
-interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##.social-buttons a[href*=".com/"]
-interia.pl,pomponik.pl##.brief-list-item:has(> .tile-magazine:has(a.tile-magazine-thumb[href*="facebook.com/"], a.tile-magazine-thumb[href*="instagram.com/"]))
-interia.pl,pomponik.pl##.share-tooltip a[href*=".com/"]
-interia.pl,pomponik.pl##.social-media-panel
-interia.pl,~poczta.interia.pl,pomponik.pl#?##react_component_article div[width="9"] div p:has(b:has-text(Bądź na bieżąco) ~ a[href*="facebook.com/"])
-interia.pl,~www.interia.pl##.social-facebook-fanpage-below
 intermarche.pl##.foot-links-list > li.foot-links-list__item:nth-of-type(3)
 intermarche.pl##.subsec__head > .subsec__head__add:has(a[href*="facebook.com/"], a[href*="instagram.com/"])
 intermarche.pl##li.cta-list__item:nth-of-type(n+2):nth-of-type(-n+3):has(a[href*="facebook.com/"], a[href*="instagram.com/"])
@@ -5002,6 +5004,7 @@ kazimierzdolny.pl##.mb--sm.tupper.header--sm.header--clean.header, .icon-gplus.l
 kb.pl##footer .grid-col:nth-of-type(4)
 kb.pl##nav .facebook
 kbw.gov.pl,pkw.gov.pl##.availability_social_box > ul > li:nth-of-type(n+3):nth-of-type(-n+5)
+keen.pl##.footer_contact__socials
 kei.pl##.kei-social-icons
 keller.com.pl,obserwatorgospodarczy.pl###Mod111
 kelton.pl##img[src="/data/include/cms/fb.png"]
@@ -7586,6 +7589,7 @@ profiart.pl##.soc-icon-container
 profil-hurt.pl##.footerContactList li:has(a[href*="facebook.com/"])
 profil-hurt.pl##.ikony-sm
 profile.google.com##c-wiz + div[class=""] > div[class*=" "] > div[class*=" "]:has(> div[jsaction^="click:"] > a[href][aria-label*="obserwuj"])
+profile.google.com##li:has(> div a[aria-label*="obserwuj"])
 profilki.pl##div.centering.tile:has(.fb-like-box)
 profilki.pl##div.centering.tile:has(.g-page)
 profim.pl##.button-instagram
@@ -7910,6 +7914,7 @@ rednetproperty.com###fk > .c > div:nth-of-type(2) > a
 reeco.info.pl###footer tr:nth-of-type(3) a[href*=".com/"] img[src*="grafika"]
 reefshop.pl###panelbest
 refericon.pl##div[data-element="content/text.htm"]:has([href*="youtu.be"])
+refurbed.pl###page-footer > div:first-child > div > div:nth-child(2)
 regatta.pl##.s-footer-links-social
 region24.pl##.em-author-details > ul > li > a[href*=".com/region24"]
 region24.pl,sluzby-ratownicze.pl##.covernews_social_contacts_widget
