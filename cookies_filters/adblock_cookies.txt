@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.7.19.1
-! Last modified: Sun, 19 Jul 2026, 21:12 UTC+00:00
+! Version: 2026.7.24.0
+! Last modified: Fri, 24 Jul 2026, 15:25 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.7.19.1 aktualizacja: nie, 19 lip 2026, 21:12 UTC+00:00
+! v.2026.7.24.0 aktualizacja: pią, 24 lip 2026, 15:25 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -173,7 +173,7 @@ akademiabambino.pl##.ciacha
 akademiaeurocash.com.pl,dlink.com,megawrzuta.pl,seoinvention.pl##.notification
 akademiafalubaz.pl###cgRodoModal, #cgRodoBackdrop
 akademos.pl,jezykipaderewski.pl,paderewski.lublin.pl,zagiel.pl,zagielauto.pl,zagielmed.pl###cc_zagiel
-akol.pl,funer.com.pl,pkw-sa.pl##div#klaro, button#klaro_toggle_dialog
+akol.pl,funer.com.pl,pkw-sa.pl,pomagam.pl,sklepopon.com##div#klaro, button#klaro_toggle_dialog
 akolinska-kancelaria.pl,cosmedicolight.pl,genetico.pl,kapitalnydom.pl,podkarpackie.travel.pl,tksport.pl,um-swiecie.pl##body > div[class][style*="position"][style*="fixed"]:not([id])
 akpolbaby.pl###gdpr-sticky-banner
 aktualnyodpis.pl##.ao-cookie-container
@@ -1258,6 +1258,7 @@ gastrowypozyczalnia.pl###popup1
 gazeo.pl###cookie_icon, #cookie_icon2
 gazeo.pl###rodo_accept
 gazeta-msp.pl,msportal.pl###stickynote
+gazeta.pl##.c-section--footer a[onclick="OneTrust.ToggleInfoDisplay(); return false;"]
 gazeta.us.edu.pl,psychiatria-poradnie.pl,rc.fm###popup-message-window, #popup-message-background
 gazetainformator.pl###okno_rcookie
 gazetaweselna.pl##.boxCookie
@@ -2735,7 +2736,6 @@ sklepbaterie.pl##.cookies-page
 sklepbiker.pl##.rodo-notice
 sklepfarmer.pl###cookie_info_response
 sklepjubilerski.com###cookieGuardMsg
-sklepopon.com##div#klaro
 skleprowerowy.pl##.gdpr-consent-tabs
 sklepyabc.pl###am_pop-up
 sklepygama24.pl##.client-modal:has(.cookies-modal)
