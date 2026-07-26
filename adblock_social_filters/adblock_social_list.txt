@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.7.24.0
-! Last modified: Fri, 24 Jul 2026, 15:25 UTC+00:00
+! Version: 2026.7.26.0
+! Last modified: Sun, 26 Jul 2026, 15:56 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.7.24.0 aktualizacja: pią, 24 lip 2026, 15:25 UTC+00:00
+! v.2026.7.26.0 aktualizacja: nie, 26 lip 2026, 15:56 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -3226,6 +3226,8 @@ ebizpro.pl##.contact-block--footer.contact-block
 ebratek.pl,eplaster.pl,pizzeriaubatmana.pl##.facebook-right
 ebuciki.com###inst
 ebutik.pl###footer_socials
+ecb.europa.eu###ecb-social-sharing li:not([class*="print" i], [class*="email" i])
+ecb.europa.eu##.ecb-footerBottomSocialLinks h2
 ecbedzin.pl##.social-media-icons__item
 eccotravel.eu###metkaFB
 ecelebrity.eu###socialsSectionInner
@@ -11312,6 +11314,8 @@ enfamil.pl#@#.float-shop
 epodreczniki.pl#@#.mdi-share
 epodreczniki.pl#@#.share-icon
 eska.pl,eskarock.pl,radioplus.pl,vibefm.pl,voxfm.pl#@#.share-buttons-wrapper
+europa.eu##.socialLinks > :not(.rss)
+europa.eu#@#.socialLinks
 facetikuchnia.com.pl#@#.share-widget
 fixly.pl#@#.button_fb
 forbes.pl#@#.socialButton
