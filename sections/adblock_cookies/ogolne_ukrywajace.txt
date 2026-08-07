@@ -120,7 +120,6 @@
 ~pl###actionCooki:not(body, html):lang(pl)
 ~pl###catapult-cookie-bar:not(body, html):lang(pl)
 ~pl###cmplz-manage-consent:lang(pl):not(body, html)
-~pl##body:lang(pl):has(.cmplz-cookiebanner.cmplz-show)::before
 ~pl###cookie-change-button:lang(pl)
 ~pl###cookiesSettings:lang(pl), .cookiesSettings:lang(pl)
 ~pl###kopageBarCookies + div:lang(pl)
@@ -130,6 +129,7 @@
 ~pl##.modal-cookies.open:lang(pl)
 ~pl##a[href="javascript:CookieScript.instance.show()"]:lang(pl)
 ~pl##body > div#cookie[class=""]
+~pl##body:lang(pl):has(.cmplz-cookiebanner.cmplz-show)::before
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) #ck_dsclr:lang(pl)
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id][class*="iai_cookie"]:lang(pl)
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
@@ -178,8 +178,6 @@ pl###cewe-accept-cookies:not(body, html)
 pl###cf-cookie-banner:not(body, html)
 pl###cherry-cookie-banner:not(body, html)
 pl###cmplz-manage-consent:not(body, html) { display: none !important }
-pl##body:has(.cmplz-cookiebanner.cmplz-show) > :not(#cmplz-cookiebanner-container) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
-pl##body:has(.cmplz-cookiebanner.cmplz-show)::before
 pl###cnd-gdpr-container:not(body, html)
 pl###cokPyt:not(body, html)
 pl###comm_info:not(body, html)
@@ -818,6 +816,8 @@ pl##aside[class*="Cookie"]
 pl##aside[class*="cookie"]:not([class*="modal" i])
 pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies_tlo"]:not([id], [class])
 pl##body:has(#CybotCookiebotDialog.CybotCookiebotDialogActive)::after
+pl##body:has(.cmplz-cookiebanner.cmplz-show) > :not(#cmplz-cookiebanner-container) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
+pl##body:has(.cmplz-cookiebanner.cmplz-show)::before
 pl##body:not(.cookie-opened) #cookie-container
 pl##body:not(.cookie-opened) .cookie-window
 pl##body:not(.overflow-hidden) .cookies-info

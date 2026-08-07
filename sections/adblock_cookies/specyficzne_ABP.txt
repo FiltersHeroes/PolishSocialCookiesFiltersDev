@@ -5,6 +5,7 @@ apteline.pl,ortopedio.pl##dialog.cookiefirst-root { remove: true }
 apteline.pl,ortopedio.pl##dialog[aria-label="Cookie baner"] { remove: true }
 bmw-motorrad.pl##.cookielayer { remove: true }
 centrum24.pl#@##__tealiumGDPRecModal
+ceo.org.pl##body:has(.cmplz-cookiebanner.cmplz-show) > :not(#cmplz-cookiebanner-container) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
 cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,zgl.pl###popModal2 { remove: true }
 downdetector.pl###onetrust-consent-sdk:has(.onetrust-pc-dark-filter[style*="z-index"] ~ #onetrust-banner-sdk)
 downdetector.pl#@##onetrust-banner-sdk
@@ -24,4 +25,3 @@ rynek-turystyczny.pl###modal-rodo { remove: true }
 vinello.pl##dialog#cookieDialog { remove: true }
 webh.pl##body .cookie-consent { remove: true }
 wmglass.com.pl##dialog[cookies-dialog] { remove: true }
-ceo.org.pl##body:has(.cmplz-cookiebanner.cmplz-show) > :not(#cmplz-cookiebanner-container) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
