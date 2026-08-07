@@ -120,6 +120,7 @@
 ~pl###actionCooki:not(body, html):lang(pl)
 ~pl###catapult-cookie-bar:not(body, html):lang(pl)
 ~pl###cmplz-manage-consent:lang(pl):not(body, html)
+~pl##body:lang(pl):has(.cmplz-cookiebanner.cmplz-show)::before
 ~pl###cookie-change-button:lang(pl)
 ~pl###cookiesSettings:lang(pl), .cookiesSettings:lang(pl)
 ~pl###kopageBarCookies + div:lang(pl)
@@ -176,7 +177,9 @@ pl###cccwr:not(head) + #cccwrpad:not(body)
 pl###cewe-accept-cookies:not(body, html)
 pl###cf-cookie-banner:not(body, html)
 pl###cherry-cookie-banner:not(body, html)
-pl###cmplz-manage-consent:not(body, html)
+pl###cmplz-manage-consent:not(body, html) { display: none !important }
+pl##body:has(.cmplz-cookiebanner.cmplz-show) > :not(#cmplz-cookiebanner-container) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
+pl##body:has(.cmplz-cookiebanner.cmplz-show)::before
 pl###cnd-gdpr-container:not(body, html)
 pl###cokPyt:not(body, html)
 pl###comm_info:not(body, html)
