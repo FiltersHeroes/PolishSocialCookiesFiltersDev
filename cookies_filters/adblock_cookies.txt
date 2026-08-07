@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.8.3.0
-! Last modified: Mon, 03 Aug 2026, 21:36 UTC+00:00
+! Version: 2026.8.7.0
+! Last modified: Fri, 07 Aug 2026, 21:06 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.8.3.0 aktualizacja: pon, 03 sie 2026, 21:36 UTC+00:00
+! v.2026.8.7.0 aktualizacja: pią, 07 sie 2026, 21:06 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -3555,6 +3555,7 @@ pl/tcf/cookie.js$script,domain=pl
 ~pl##.modal-cookies.open:lang(pl)
 ~pl##a[href="javascript:CookieScript.instance.show()"]:lang(pl)
 ~pl##body > div#cookie[class=""]
+~pl##body:lang(pl):has(.cmplz-cookiebanner.cmplz-show)::before
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) #ck_dsclr:lang(pl)
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id][class*="iai_cookie"]:lang(pl)
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
@@ -3602,7 +3603,7 @@ pl###cccwr:not(head) + #cccwrpad:not(body)
 pl###cewe-accept-cookies:not(body, html)
 pl###cf-cookie-banner:not(body, html)
 pl###cherry-cookie-banner:not(body, html)
-pl###cmplz-manage-consent:not(body, html)
+pl###cmplz-manage-consent:not(body, html) { display: none !important }
 pl###cnd-gdpr-container:not(body, html)
 pl###cokPyt:not(body, html)
 pl###comm_info:not(body, html)
@@ -4241,6 +4242,8 @@ pl##aside[class*="Cookie"]
 pl##aside[class*="cookie"]:not([class*="modal" i])
 pl##body > div[style*="top"][style*="left"][style*="background"][style*="cookies_tlo"]:not([id], [class])
 pl##body:has(#CybotCookiebotDialog.CybotCookiebotDialogActive)::after
+pl##body:has(.cmplz-cookiebanner.cmplz-show) > :not(#cmplz-cookiebanner-container) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
+pl##body:has(.cmplz-cookiebanner.cmplz-show)::before
 pl##body:not(.cookie-opened) #cookie-container
 pl##body:not(.cookie-opened) .cookie-window
 pl##body:not(.overflow-hidden) .cookies-info
@@ -4509,6 +4512,7 @@ apteline.pl,ortopedio.pl##dialog.cookiefirst-root { remove: true }
 apteline.pl,ortopedio.pl##dialog[aria-label="Cookie baner"] { remove: true }
 bmw-motorrad.pl##.cookielayer { remove: true }
 centrum24.pl#@##__tealiumGDPRecModal
+ceo.org.pl##body:has(.cmplz-cookiebanner.cmplz-show) > :not(#cmplz-cookiebanner-container) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
 cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,zgl.pl###popModal2 { remove: true }
 downdetector.pl###onetrust-consent-sdk:has(.onetrust-pc-dark-filter[style*="z-index"] ~ #onetrust-banner-sdk)
 downdetector.pl#@##onetrust-banner-sdk
