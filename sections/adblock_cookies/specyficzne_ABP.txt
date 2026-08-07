@@ -24,3 +24,4 @@ rynek-turystyczny.pl###modal-rodo { remove: true }
 vinello.pl##dialog#cookieDialog { remove: true }
 webh.pl##body .cookie-consent { remove: true }
 wmglass.com.pl##dialog[cookies-dialog] { remove: true }
+ceo.org.pl##body:has(.cmplz-cookiebanner.cmplz-show) > :not(#cmplz-cookiebanner-container) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
