@@ -239,9 +239,7 @@ agripel.pl###sfsiplusid_facebook
 agripel.pl###sfsiplusid_youtube
 agripel.pl##.sfsi_plus
 agristal.pl###fb-side
-agristal.pl###fixed-container a[href*="facebook.com/"]
-agristal.pl###fixed-container a[href*="instagram.com/"]
-agristal.pl###fixed-container a[href*="youtube.com/"]
+agristal.pl###fixed-container a[href*="com/"]:is(a[href*="facebook.com"], a[href*="instagram.com"], a[href*="youtube.com"])
 agristar.pl##.gmitem-footerbefore.gmitemfooterbefore3
 agristar.pl##.gmitem-link[href*="facebook.com/"]
 agro-eko.com.pl##footer div.col:nth-of-type(5)
@@ -9381,3 +9379,12 @@ zyrtec.pl##.social.column li
 zywiec-zdroj.pl##[class^="SocialMedia_list"]
 zywiecinfo.pl##.moduletable:has(> .dj-likebox)
 zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:has-text(Nasz Facebook)
+grupaglasso.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="youtube.com"])
+glassio.pl##.socials
+eanaliza.pl##.header-social
+eanaliza.pl##.footer-nav-title:has(~ .footer-social)
+tias.pl##.social
+e-brk.pl##footer a[href*="linkedin.com/"]
+interankiety.pl##.social
+malwarebytes.com##.social
+depcore.pl##.contact-section > div.footer-nav
