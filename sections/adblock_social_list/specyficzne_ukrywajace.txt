@@ -1,3 +1,11 @@
+mojedziecikreatywnie.pl##.top-bar-socials a[href]:not([href*="kontakt"])
+domasia.pl##.toplayerSpecialClass:has(iframe[src*="facebook.com/"])
+fixfix.pl##.facebook
+fixfix.pl##.Defaults-youtube
+fixfix.pl##.twitter
+fixfix.pl##div[id^="Info-box-wrap-"]:has(.Defaults-facebook-square)
+telekomp.eu##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
+casehome.pl##.toplayerSpecialClass:has(iframe:is([src*="facebook.com"], [src*="instagram.com"]))
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
