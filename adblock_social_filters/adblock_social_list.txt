@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.8.9.1
-! Last modified: Sun, 09 Aug 2026, 17:52 UTC+00:00
+! Version: 2026.8.9.2
+! Last modified: Sun, 09 Aug 2026, 21:00 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.8.9.1 aktualizacja: nie, 09 sie 2026, 17:52 UTC+00:00
+! v.2026.8.9.2 aktualizacja: nie, 09 sie 2026, 21:00 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -7249,6 +7249,8 @@ plata.pl###contact-home div.flex-item:nth-of-type(3)
 platforma.org,superprezenty.pl##.footer-column-social
 platontv.pl###edge > .edge-icons > .edge-icon
 plawecki.org###bossbyte_slide
+play.google.com##div[aria-label^="Udostępnij na"]
+play.google.com##div[aria-label^="Udostępnij w"][aria-label$="WhatsApp"]
 play.pl##.columns.box:nth-of-type(6)
 play.pl##.footer__header:has(+ div > .footer__social-row)
 play.pl##.footer__social-row
