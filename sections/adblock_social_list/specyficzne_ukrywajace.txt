@@ -1,11 +1,11 @@
 mojedziecikreatywnie.pl##.top-bar-socials a[href]:not([href*="kontakt"])
-domasia.pl##.toplayerSpecialClass:has(iframe[src*="facebook.com/"])
+domasia.pl##div[id*="tws_i_"]:has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="youtube.com/"], iframe[src*="facebook.com/"], iframe[src*="instagram.com/"], iframe[src*="youtube.com/"])
 fixfix.pl##.facebook
 fixfix.pl##.Defaults-youtube
 fixfix.pl##.twitter
 fixfix.pl##div[id^="Info-box-wrap-"]:has(.Defaults-facebook-square)
 telekomp.eu##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
-casehome.pl##.toplayerSpecialClass:has(iframe:is([src*="facebook.com"], [src*="instagram.com"]))
+casehome.pl##div[id*="tws_i_"]:has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="youtube.com/"], iframe[src*="facebook.com/"], iframe[src*="instagram.com/"], iframe[src*="youtube.com/"])
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
@@ -157,7 +157,7 @@ activefamily.pl##.moto-widget-social-links-extended__list
 activia.pl###gatsby-focus-wrapper > header ~ main ~ div a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="youtube.com"])
 activlab.pl##.fcbk-ico.ico
 activlab.pl##.socials .icons
-activsport.eu,cyfra.eu,e-fryzjernia.pl,ewimax.pl,fajnalazienka.com,fokus.pl,krakowsport.pl,megazoologiczny.pl,perfumeriainternetowa.pl,rosarosie.com,sklepmoto.eu,sportowybazar.pl##div[id*="tws_i_"]:has(iframe[src*="facebook.com/"], iframe[src*="youtube.com/"], iframe[src*="instagram.com/"], a[href*="facebook.com/"], a[href*="youtube.com/"], a[href*="instagram.com/"])
+activsport.eu,cyfra.eu,e-fryzjernia.pl,ewimax.pl,fajnalazienka.com,fokus.pl,krakowsport.pl,megazoologiczny.pl,perfumeriainternetowa.pl,rosarosie.com,sklepmoto.eu,sportowybazar.pl##div[id*="tws_i_"]:has(a[href*="facebook.com/"], a[href*="instagram.com/"], a[href*="youtube.com/"], iframe[src*="facebook.com/"], iframe[src*="instagram.com/"], iframe[src*="youtube.com/"])
 activy.app,erli.pl,fluostudio.pl,pbkm.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"])
 adamed.com##.site-footer__social-media
 adams.com.pl##.footer-container > .item:nth-of-type(5) > .moduleta
@@ -2024,7 +2024,7 @@ dobregniazdka.pl##.navblock__social-icons > li
 dobrehaki.pl,galeria55.com.pl,kluczekaczorek.pl,testowaniepl.net##div.KolumnaStopki:nth-of-type(4)
 dobremiejsce.org##.fw-top-bar-social, .fw-footer-social
 dobremiejsce.org##.opes-wp-social-tab
-dobreprogramy.pl##main > div:has(> div > div.fb-page iframe)
+dobreprogramy.pl##div[data-nosnippet] + div:has(svg) > div:first-child:has(svg):has(+ div > .fb-page)
 dobreprogramy.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class] > span:has-text(/^Udostępnij:?$/) + div:nth-child(2) > button:nth-child(-n+2)
 dobreprogramy.pl#?#div[data-scroll-lock-scrollable] > aside > div:nth-child(2):has-text(Obserwuj nas na)
 dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button:not([aria-label="Zapisz na później"]):has(svg)
