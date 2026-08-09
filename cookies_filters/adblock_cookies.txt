@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.8.8.0
-! Last modified: Sat, 08 Aug 2026, 20:55 UTC+00:00
+! Version: 2026.8.9.0
+! Last modified: Sun, 09 Aug 2026, 17:42 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.8.8.0 aktualizacja: sob, 08 sie 2026, 20:55 UTC+00:00
+! v.2026.8.9.0 aktualizacja: nie, 09 sie 2026, 17:42 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -167,7 +167,7 @@ airly.eu##[class^="cookies-alert__Wrapper"]
 airly.eu,mydhl.express.dhl##.cookies-policy
 airteam.eu##.cookiesAgreement
 aisko.pl##.module-header_notice[data-options*='"cookie"']
-akacjowawet.pl,bhppartnersc.pl,e-militaria.pl,edan.krakow.pl,flora-centrum.pl,handles.pl,kyocerasklep.pl,msexpert.pl,nieporet.pl,ogrodslaski.pl,sezon.olsztyn.pl,sklep-ogrodniczy.com,sklepbudowlanca.pl,sklepczemarol.pl##.jconfirm
+akacjowawet.pl,bhppartnersc.pl,e-militaria.pl,edan.krakow.pl,flora-centrum.pl,handles.pl,kyocerasklep.pl,msexpert.pl,nieporet.pl,ogrodslaski.pl,prowadnica.com.pl,sezon.olsztyn.pl,sklep-ogrodniczy.com,sklepbudowlanca.pl,sklepczemarol.pl##.jconfirm
 akademia-piwa.pl##div#polityka_tekst
 akademiabambino.pl##.ciacha
 akademiaeurocash.com.pl,dlink.com,megawrzuta.pl,seoinvention.pl##.notification
@@ -1155,7 +1155,6 @@ fiatklubpolska.pl#?##navbar_notice_1.restore > center:first-of-type:has-text(coo
 fightershop.com.pl,swiatchoinek.com##.cMonster
 figowesmaki.pl###cpBox
 fikiri.net###gdpr-cookie-consent-show-again, #gdpr-ccpa-gdprmodal, #gdpr-gdprmodal
-filman.cc###cookies > div
 filoma.org###app-confirm-dialog
 filoma.org,hotelbb.pl,interprojekt.pl,mck.krakow.pl,polskiprawnik.pl,yes.pl##.reveal-modal-bg
 finishparkiet.com.pl,jogapiekna.com###cs_preview_popup
@@ -1293,6 +1292,7 @@ gkb.pl##footer > .row > .pull-left
 gkn.pl##div#gora0
 gksglinik.pl##.t3-footer > div > div:first-child:has(p a[href="/index.php/bonus-pages/ochrona-danych-osobowych"] > span)
 gkstychy.info,marbus.pl###coookie
+glassio.pl##.btn.cookies-mini
 global-rent-a-car.com###module-cookies
 globalista.pl##.cookie_modal_wrapper
 globus-wapienica.eu###cookiediv
@@ -1764,6 +1764,7 @@ lenovo.com##div:lang(pl) ~ div#_evidon-barrier-wrapper
 leo.org,mojewypieki.com##.as-oil[data-qa="oil-Layer"] > .as-oil-content-overlay
 leoexpress.com##body > #__next > footer + div.sc-1oi3yor-0
 lepolek.pl###app main #see_user_notification_wrapper ~ div[class*=" "]:not([id]):has(> div > div > img[src^="/ciastko."])
+leroymerlin.pl##.js-open-cookie-modal
 lesnydwor.net.pl###header > center
 leszno.eu##footer > .subfooter
 lewiatan.pl###cookie-manager
@@ -1993,6 +1994,8 @@ mohito.com,superkoszyk.pl###widget-cookie-message
 moj.tauron.pl##.contact-box:last-child > div:last-child > div:only-child > p:only-child:has(a[href*="/polityka-plikow-cookie"] ~ a[href*="/polityka-prywatnosci"])
 mojabudowa.pl###cookie_regulamin
 mojavon.pl##.mpp-container > .mpp-popup
+mojedziecikreatywnie.pl##a[data-ec-change]
+mojedziecikreatywnie.pl,upolujebooka.pl##.easy-cookie
 mojehobby.pl###_message-footer-close.message-footer-panel:has(a[onclick^="AcceptAllCookies("])
 mojeppk.pl###main > div[class]:not([id]):has(> div[class]:not([id]) > div[class]:not([id]) > img[src*="Cookies."])
 mojeuslugi.pl##.footer ~ div.text-center.fixed
@@ -2922,6 +2925,7 @@ tedi.com##.tx-om-cookie-consent
 tektorado.com,vents-group.pl###cookies-accept-info
 teledyski.info###Cookieinfo
 telegazeta.pl##.tvp-covl-bg, .tvp-covl
+telekomp.eu##.fixed:has(a[href="/polityka-prywatnosci"])
 telemedi.co##.banner-cookies-2
 telewizjarepublika.pl###swsmodal, #swsoverlay
 telpol.net.pl##footer .clr > br ~ b
@@ -3025,7 +3029,6 @@ universalmusic.pl###CookiesModal.modal-cookies.modal
 upacjenta.pl##.cookies-box-info
 upc.pl##.dmg-cookie-info
 upctv.pl#?#.notification:has-text(pliki cookie)
-upolujebooka.pl##.easy-cookie
 uprp.pl###cookiesDsc
 ups-zasilacze.pl###pp2
 urzedow.pl##.no_cookies
