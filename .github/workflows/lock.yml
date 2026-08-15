@@ -3,6 +3,7 @@ name: 'Ochroniarz'
 on:
   schedule:
     - cron: '0 0 24 * *'
+  workflow_dispatch:
 
 jobs:
   lock:
