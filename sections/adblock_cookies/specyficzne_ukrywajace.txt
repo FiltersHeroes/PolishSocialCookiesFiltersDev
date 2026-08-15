@@ -1,3 +1,7 @@
+comarch.pl#?#li .footer__link:has-text(Ustawienia plików cookie)
+comarch.pl##li .footer__link:is([href="#display-cookie-consent"], [title="Ustawienia plików cookies"])
+comarch.pl##button.js-open-cookie-settings
+comarch.pl##.copyright-footer__links-separator:has(+ .js-open-cookie-settings)
 pl.vitamin360.com###cookieConsent
 pl.vitamin360.com###overlay_cookie_alert.cookie-alert
 osie.pl###block-cookiesui.block-cookies-ui-block
