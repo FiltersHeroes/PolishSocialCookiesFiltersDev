@@ -1,6 +1,5 @@
-###sharefb.sharefb
-##player-share-list:has(.copyshare[data-shareurl=""])
 ###likebox_content
+###sharefb.sharefb
 ##.facebookPrzyczepiony
 ##.footer-box.footer-social-media
 ##.footer_links span[title=""]:has(+ ul[class*="footer_links_sub"] a[href]:is([href*="facebook.com"], [title="Blog"])):style(border: 2px solid red !important; outline: 2px solid gold)
@@ -22,6 +21,7 @@
 ##a[href*="digg.com/submit?url="]
 ##div#wtyczka-fbinst
 ##div[id^="profilki_socialbuttons"]
+##player-share-list:has(.copyshare[data-shareurl=""])
 ##section[aria-label="media społecznościowe"]
 ##ul[aria-label="Pasek społecznościowy"], ul[aria-label="Social Bar"]
 ##ul[class*="footer_links_sub"] li > a[href*=".com/"]:is([href*="facebook.com"], a[href*="instagram"], [href*="tiktok.com"], [href*="pinterest.com"], [href*="youtube.com"], [href*="linkedin.com"], [href*="twitter.com"], [href*="x.com"])
