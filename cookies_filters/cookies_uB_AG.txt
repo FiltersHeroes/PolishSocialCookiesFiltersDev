@@ -237,6 +237,10 @@ codeeurope.pl##body.gdpr-noscroll:style(overflow-y: auto !important)
 codeeurope.pl,fermo.pl,fxpro.pl##body.no-scroll:style(overflow-y: auto !important)
 comarch.pl##.consent-modal, .consent-modal2
 comarch.pl##.consent-modal__body, .consent-modal2__body:style(overflow-y: auto !important)
+comarch.pl##.copyright-footer__links-separator:has(+ .js-open-cookie-settings)
+comarch.pl##button.js-open-cookie-settings
+comarch.pl##li .footer__link:is([href="#display-cookie-consent"], [title="Ustawienia plików cookies"])
+comarch.pl#?#li .footer__link:has-text(Ustawienia plików cookie)
 corbby.com.pl###tfade:has(+ #tlight > .termspopupcontainer)
 corbby.com.pl###tlight:has(> .termspopupcontainer)
 corbby.com.pl##:root[style^="overflow"]:style(overflow-y: auto !important)
