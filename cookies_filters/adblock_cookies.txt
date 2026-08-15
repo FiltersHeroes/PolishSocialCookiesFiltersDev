@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.8.9.0
-! Last modified: Sun, 09 Aug 2026, 17:42 UTC+00:00
+! Version: 2026.8.15.0
+! Last modified: Sat, 15 Aug 2026, 07:58 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.8.9.0 aktualizacja: nie, 09 sie 2026, 17:42 UTC+00:00
+! v.2026.8.15.0 aktualizacja: sob, 15 sie 2026, 07:58 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -439,7 +439,7 @@ bigmar.eu,bombkichoinkowe.czest.pl,choinkisztuczne.biz,illumia.pl,pomocedydaktyc
 bigstar.pl##ma-cookies-law-info
 bik.pl##.page-cookies-info, #cmsg
 bike24.pl##.b24-modal-new--fade.b24-modal-new:has(.js-cookie-consent-modal, .cookie-consent-modal)
-bike-parts-honda.pl###cookieConsent
+bike-parts-honda.pl,pl.vitamin360.com###cookieConsent
 bilera.pl,biurotech.net.pl,brewa.pl,dekavit.pl,jesienna.mediaprod.com.pl,kalisz.caritas.pl,lanko.pl,letniskowo.pl,opiekun.kalisz.pl,parafia-slupia.pl,parafiachynowa.pl,przp.pl,radiorodzina.kalisz.pl,technikum.kalisz.pl,tygodnikkepinski.pl##.module-abovebox[style^="position: fixed;"]
 bilety.arenazabrze.pl,bilety.arka.gdynia.pl,korona-kielce.pl##.cookie-notice-bin
 bilka.com.pl##footer > div > #mod99
@@ -713,6 +713,12 @@ coig.com.pl###BoxLine
 cojestgrane.pl##.ui-cookies-acceptance
 colores.pl##div > #popupContact
 colormark.pl###Kom_cookie
+comarch.pl##.copyright-footer__links-separator:has(+ .js-open-cookie-settings)
+comarch.pl##button.js-open-cookie-settings
+comarch.pl##html:not([class*="consent-modal2_"]) body:not(.consent-modal2__body) .consent-modal2
+comarch.pl##html:not([class*="consent-modal_"]) body:not(.consent-modal__body) .consent-modal
+comarch.pl##li .footer__link:is([href="#display-cookie-consent"], [title="Ustawienia plików cookies"])
+comarch.pl#?#li .footer__link:has-text(Ustawienia plików cookie)
 comfortum.pl,dywany.dywilan.pl,powiatkutno.eu,umed.pl###ppc_box.ppc_box
 comitor.pl###rodoBoxWrap
 computerowiec.com.pl##.m4p-cookies
@@ -2242,6 +2248,7 @@ ortograf.pl###ns-rodo-popup-one
 orzeczenia.ms.gov.pl###cookieInfoHeader
 osb.audi.pl##.banner
 osb.volkswagen.pl###app > .banner
+osie.pl###block-cookiesui.block-cookies-ui-block
 oskolaf.pl###modal-info
 oskroba.pl,putka.pl###myModalWindowX
 osm-sierpc.pl##.tm-cookies
@@ -2361,6 +2368,7 @@ pl.pog.com,y8.com###policy-validation
 pl.primo.com##.e-cookie
 pl.thermaltake.com###gdprcode2
 pl.trip.com###use-cookie
+pl.vitamin360.com###overlay_cookie_alert.cookie-alert
 placowka.znanylekarz.pl##.footer-container-wrapper #footer-baner[style*="fixed"]
 platan.pl###dialog1
 player.pl##.cBox
@@ -2903,6 +2911,7 @@ szukam-informacji.pl##.site-header .menu
 szybkanauka.pro#?##tve_editor:has-text(cookies)
 szybkiangielski.pl##.rodo-cover[style*="block"]
 takeda.com##.cookie__wrapper
+takietam.pl##button[onclick="showConsentTool()"]
 tally-weijl.com##.fixed > .container:has(> div[class*="cookie"])
 tamron.eu###cookieInfobox
 targeo.pl#?#body > div[style^="position: absolute;"]:not([id], [class]):has-text(plików cookie)
@@ -3143,7 +3152,6 @@ wsse-poznan.pl##.visiblebox
 wste.edu.pl###ms_rodo
 wszelkieprzepisy.pl##.txc_cookie_infobox
 wszystkoblisko.pl##.ueCookies
-www.comarch.pl##.consent-modal
 www.eset.com###manage-cookies
 www.google.*#?##appbar.appbar > div:first-child > div:has-text(/^Plików cookie i/) > div > *
 www.gov.pl###cb2-banner
@@ -4474,7 +4482,7 @@ horecanet.pl#@#.gdprmodal-backdrop
 horecanet.pl#@#div.gdpr
 hurt.com.pl#@##cookiePolicyBar
 hurt.com.pl#@##cookiesPanel
-iglotex.pl#@##cookie-info
+iglotex.pl,maxelektro.pl,media2.pl#@##cookie-info
 kakto.pl,pl#@#div.cookie-message
 leki.pl#@#div#cookie-popup
 leki.pl#@#div.cookie-popup
@@ -4581,7 +4589,7 @@ hurt.com.pl#@##cookiePolicyBar:not(body, html)
 hurt.com.pl#@##cookiesPanel:not(body, html)
 hurt.com.pl#@#[class*="coockie"]:not(body, html, [class*="button"])
 hurt.com.pl,nat.pl#@#.cookieContent:not(body, html)
-iglotex.pl,maxelektro.pl#@##cookie-info:not(body, html)
+iglotex.pl,maxelektro.pl,media2.pl#@##cookie-info:not(body, html)
 iglotex.pl,mcdonalds.pl,ose.gov.pl,san.edu.pl#@#.cookies:not(body, html, #page, #container, .popup-newsletter, .js-cookies, .wrapper)
 kupbilecik.pl,liderlamp.pl,panbilet.pl,targikielce.pl,wins.pl#@#.cookie-container:not(body, html)
 maxizoo.pl,vod3.pl#@##cookie-banner:not(body, html)
