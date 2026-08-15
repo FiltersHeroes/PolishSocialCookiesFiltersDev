@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.8.15.0
-! Last modified: Sat, 15 Aug 2026, 07:58 UTC+00:00
+! Version: 2026.8.15.1
+! Last modified: Sat, 15 Aug 2026, 08:06 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.8.15.0 aktualizacja: sob, 15 sie 2026, 07:58 UTC+00:00
+! v.2026.8.15.1 aktualizacja: sob, 15 sie 2026, 08:06 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -201,6 +201,7 @@ zmianywzyciu.pl###popup_facebook
 ##.gc__footer__socials
 ##.gc__social__container
 ##.gc__watch__us
+##.player-shares:has(.copyshare[data-shareurl=""])
 ##.rank-math-social-share-buttons > .rank-math-share-button:not(.rm-email)
 ##.sh-copyrights-social
 ##.social-sharing
@@ -215,7 +216,6 @@ zmianywzyciu.pl###popup_facebook
 ##a[href*="digg.com/submit?url="]
 ##div#wtyczka-fbinst
 ##div[id^="profilki_socialbuttons"]
-##player-share-list:has(.copyshare[data-shareurl=""])
 ##section[aria-label="media społecznościowe"]
 ##ul[aria-label="Pasek społecznościowy"], ul[aria-label="Social Bar"]
 ##ul[class*="footer_links_sub"] li > a[href*=".com/"]:is([href*="facebook.com"], a[href*="instagram"], [href*="tiktok.com"], [href*="pinterest.com"], [href*="youtube.com"], [href*="linkedin.com"], [href*="twitter.com"], [href*="x.com"])
@@ -4320,7 +4320,7 @@ gry-online.poszkole.pl###fb_slide
 grymel.pl###sc_behind
 grywalizacja24.pl###wpfb-facebook
 grzechhair.com##a[class][href*="facebook.com/GrzechHair/"], a[class][href*="facebook.com/GrzechHair/"] ~ .social, a[href*="pinterest.com/grzechhair/pins/"], a[href*="pinterest.com/grzechhair/pins/"] ~ .social
-grzegorzsekowski.pl##.et_pb_text_1_tb_footer:has(+ .et_pb_social_media_follow)
+grzegorzsekowski.pl##.et_pb_text[class*="_tb_footer"]:has(+ .et_pb_social_media_follow)
 grzeski.pl##.icon-instagram-1
 grzeski.pl##li > .icon-play
 gs24.pl###prawa-kolumna > .blok:first-of-type
@@ -11151,7 +11151,7 @@ dayz.pl###text-10
 dobreprogramy.pl##amp-social-share.sharer
 eskago.pl##.social1.box
 eu,pl###sharefb.sharefb
-eu,pl##player-share-list:has(.copyshare[data-shareurl=""])
+eu,pl##.player-shares:has(.copyshare[data-shareurl=""])
 fakty.tvn24.pl###dailyNewsBox
 fakty.tvn24.pl##.main-social
 filmweb.pl##.articleShareFB
