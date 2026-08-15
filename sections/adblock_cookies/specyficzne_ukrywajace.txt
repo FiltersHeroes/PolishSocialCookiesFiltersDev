@@ -1,11 +1,3 @@
-comarch.pl#?#li .footer__link:has-text(Ustawienia plików cookie)
-comarch.pl##li .footer__link:is([href="#display-cookie-consent"], [title="Ustawienia plików cookies"])
-comarch.pl##button.js-open-cookie-settings
-comarch.pl##.copyright-footer__links-separator:has(+ .js-open-cookie-settings)
-pl.vitamin360.com###cookieConsent
-pl.vitamin360.com###overlay_cookie_alert.cookie-alert
-osie.pl###block-cookiesui.block-cookies-ui-block
-takietam.pl##button[onclick="showConsentTool()"]
 1-st.com.pl,agrojd.com,agrospec.pl,arx.pl,aspel.com.pl,babysensepolska.pl,barline.eu,bikeman.pl,bosch.com.pl,browamator.pl,comarch-esklep.pl,cudnydom.pl,e-oazakrakow.pl,elabrick24.pl,esklep.bi1.pl,esklep.brandvital.eu,estetiq.pl,galerialazienek.pl,haczykowo.pl,kolorowymotylek.pl,kopalniasrebra.com,kran.tychy.pl,ksiegarniarubikon.pl,med4me.pl,nails.pl,nygus.pl,oftadirect.pl,ogrodekdziadunia.pl,papier24h.pl,papieryczerpane.pl,profesjonalne-nawadnianie.pl,selene.pl,sklep-agro-sklep.pl,sklep-narzedzia.pl,sklep.abydos.pl,sklep.agh.edu.pl,sklep.agro-eko.com.pl,sklep.agromasz.pl,sklep.balcamp.pl,sklep.benedetto.com.pl,sklep.budowniczy.com.pl,sklep.centrumbhpwpp.eu,sklep.dalimex.pl,sklep.kotrak.com,sklep.kskd.pl,sklep.mebloart.eu,sklep.miodyapis.pl,sklep.phalanxgames.pl,sklep.posto.pl,sklep.rol-mech.pl,sklep.salvatti.pl,sklep.sigma-max.pl,sklep.stalco.pl,sklepoptima.pl,spawalniczy-sklep.pl,swiatkoralikow.pl,swiatkoralikow2.pl,texasclub.pl,tvprodukt.pl,wierzynek.pl,workstyle.pl,wphmilitaria.pl#?#div[class*="config"][class*="messages" i]:has-text(/((cookies? i podobnych)|((P|p)lik(i|ów) "?cookies"?)|(RODO))/)
 3dom.pro,alipaczka.pl,anmur.eu,aoc.com,avenidapoznan.com,bc.wbp.lodz.pl,bcpw.bg.pw.edu.pl,bibliotekacyfrowa.eu,biketeam.pl,bimobject.com,bip.gliwice.eu,budmat.com,canalplus.com,chorzow.eu,corab.eu,czasopisma.fbc.net.pl,damy-rade.info,dbc.wroc.pl,diamante-wear.com,dpm.eu,druknij.to,eastbook.eu,f1experiences.com,gamet.eu,geo-polska.pl,ims.fm,inkubatorkultury.eu,jbc.jelenia-gora.pl,katowice-airport.com,kler.eu,koszulkomat.eu,kpbc.umk.pl,ksiaznicapodlaska.pl,kukbuk.pl,lefrosch.com,localmarket.no,maamstyle.com,marketbhp.pl,mateuszgrzesiak.com,media-tech.eu,metal-bud.eu,mg-pmm.com,motogron.com,naszefutrzaki.eu,pkpcargo.com,prochnik.com,prosave.pl,radiopark.fm,rocks-jeans.com,sapphiretech.com,sbc.wbp.kielce.pl,secretdelivery.pl,sso.comarch.com,stolmot.com,stomilagro.pl,telko.in,trans.eu,trecnutrition.com,warszawa.promenada.com,wbc.poznan.pl,wearmedicine.com,wimbp.gorzow.pl,wmbc.olsztyn.pl,woopauto.com,yes2move.com,zak.edu.pl,zbc.ksiaznica.szczecin.pl,zbc.uz.zgora.pl##.cookies
 3kropki.pl###cklayGCM_pre, .modal-backdrop
@@ -422,7 +414,7 @@ bigmar.eu,bombkichoinkowe.czest.pl,choinkisztuczne.biz,illumia.pl,pomocedydaktyc
 bigstar.pl##ma-cookies-law-info
 bik.pl##.page-cookies-info, #cmsg
 bike24.pl##.b24-modal-new--fade.b24-modal-new:has(.js-cookie-consent-modal, .cookie-consent-modal)
-bike-parts-honda.pl###cookieConsent
+bike-parts-honda.pl,pl.vitamin360.com###cookieConsent
 bilera.pl,biurotech.net.pl,brewa.pl,dekavit.pl,jesienna.mediaprod.com.pl,kalisz.caritas.pl,lanko.pl,letniskowo.pl,opiekun.kalisz.pl,parafia-slupia.pl,parafiachynowa.pl,przp.pl,radiorodzina.kalisz.pl,technikum.kalisz.pl,tygodnikkepinski.pl##.module-abovebox[style^="position: fixed;"]
 bilety.arenazabrze.pl,bilety.arka.gdynia.pl,korona-kielce.pl##.cookie-notice-bin
 bilka.com.pl##footer > div > #mod99
@@ -696,8 +688,12 @@ coig.com.pl###BoxLine
 cojestgrane.pl##.ui-cookies-acceptance
 colores.pl##div > #popupContact
 colormark.pl###Kom_cookie
-comarch.pl##html:not([class*="consent-modal_"]) body:not(.consent-modal__body) .consent-modal
+comarch.pl##.copyright-footer__links-separator:has(+ .js-open-cookie-settings)
+comarch.pl##button.js-open-cookie-settings
 comarch.pl##html:not([class*="consent-modal2_"]) body:not(.consent-modal2__body) .consent-modal2
+comarch.pl##html:not([class*="consent-modal_"]) body:not(.consent-modal__body) .consent-modal
+comarch.pl##li .footer__link:is([href="#display-cookie-consent"], [title="Ustawienia plików cookies"])
+comarch.pl#?#li .footer__link:has-text(Ustawienia plików cookie)
 comfortum.pl,dywany.dywilan.pl,powiatkutno.eu,umed.pl###ppc_box.ppc_box
 comitor.pl###rodoBoxWrap
 computerowiec.com.pl##.m4p-cookies
@@ -2227,6 +2223,7 @@ ortograf.pl###ns-rodo-popup-one
 orzeczenia.ms.gov.pl###cookieInfoHeader
 osb.audi.pl##.banner
 osb.volkswagen.pl###app > .banner
+osie.pl###block-cookiesui.block-cookies-ui-block
 oskolaf.pl###modal-info
 oskroba.pl,putka.pl###myModalWindowX
 osm-sierpc.pl##.tm-cookies
@@ -2346,6 +2343,7 @@ pl.pog.com,y8.com###policy-validation
 pl.primo.com##.e-cookie
 pl.thermaltake.com###gdprcode2
 pl.trip.com###use-cookie
+pl.vitamin360.com###overlay_cookie_alert.cookie-alert
 placowka.znanylekarz.pl##.footer-container-wrapper #footer-baner[style*="fixed"]
 platan.pl###dialog1
 player.pl##.cBox
@@ -2888,6 +2886,7 @@ szukam-informacji.pl##.site-header .menu
 szybkanauka.pro#?##tve_editor:has-text(cookies)
 szybkiangielski.pl##.rodo-cover[style*="block"]
 takeda.com##.cookie__wrapper
+takietam.pl##button[onclick="showConsentTool()"]
 tally-weijl.com##.fixed > .container:has(> div[class*="cookie"])
 tamron.eu###cookieInfobox
 targeo.pl#?#body > div[style^="position: absolute;"]:not([id], [class]):has-text(plików cookie)
