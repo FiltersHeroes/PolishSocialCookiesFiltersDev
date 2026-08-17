@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.8.15.3
-! Last modified: Sat, 15 Aug 2026, 21:27 UTC+00:00
+! Version: 2026.8.17.0
+! Last modified: Mon, 17 Aug 2026, 20:50 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.8.15.3 aktualizacja: sob, 15 sie 2026, 21:27 UTC+00:00
+! v.2026.8.17.0 aktualizacja: pon, 17 sie 2026, 20:50 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -11250,6 +11250,7 @@ zdrowietvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .s
 ##.elementor-social-icons-wrapper:not(:has([href*="/feed"]))
 ##.elementor-widget-social-icons:not(:has([href*="/feed"]))
 ##.scriptlesssocialsharing .button:not(.whatsapp, .email)
+##.share-action:not(.icon-email, .icon-copy, .copy-trigger, .icon-print)
 ##.share-btn:not([href$="/rss.xml"])
 ##[class] .button-facebook:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"])
@@ -11263,6 +11264,7 @@ zdrowietvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .s
 #@#.elementor-widget-social-icons
 #@#.js-cookie-light
 #@#.scriptlesssocialsharing
+#@#.share-action
 #@#.share-btn
 #@#.ss-social-icons-container
 #@#.td-social-icon-wrap
@@ -11335,6 +11337,7 @@ bankier.pl,claudia.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.p
 bemares.pl#@#.social-media:not(html):not(body)
 biznes.interia.pl#@#.social-socialButtons
 blackmagicdesign.com#@#.gf-socials
+ccprogres.pl#@#.share-label
 chillizet.pl#@#.share-content
 cke.gov.pl#@#.social_media:not(html):not(body)
 com,eu,info,pl#@##social_block
