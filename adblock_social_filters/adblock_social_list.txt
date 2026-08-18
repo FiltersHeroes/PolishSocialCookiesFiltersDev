@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.8.17.0
-! Last modified: Mon, 17 Aug 2026, 20:50 UTC+00:00
+! Version: 2026.8.18.0
+! Last modified: Tue, 18 Aug 2026, 11:03 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.8.17.0 aktualizacja: pon, 17 sie 2026, 20:50 UTC+00:00
+! v.2026.8.18.0 aktualizacja: wto, 18 sie 2026, 11:03 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -196,7 +196,7 @@ zmianywzyciu.pl###popup_facebook
 ###sharefb.sharefb
 ##.facebookPrzyczepiony
 ##.footer-box.footer-social-media
-##.footer_links span[title=""]:has(+ ul[class*="footer_links_sub"] a[href]:is([href*="facebook.com"], [title="Blog"])):style(border: 2px solid red !important; outline: 2px solid gold)
+##.footer_links span[title=""]:has(+ ul[class*="footer_links_sub"] a[href]:is([href*="facebook.com"], [title="Blog"]))
 ##.footer_links_label[title]:is([title^="Bądźmy blisko" i], [title^="Dołącz do nas" i], [title^="Social Media" i], [title="Obserwuj nas" i], [title*="My w sieci" i], [title="BĄDŹMY W KONTAKCIE" i], [title*="Znajdź nas na" i], [title*="Znajdziesz nas na" i])
 ##.gc__footer__socials
 ##.gc__social__container
@@ -3125,7 +3125,7 @@ dziennik.pl,forsal.pl,gazetaprawna.pl,ikomunikaty.pl##.fbButtonObserve
 dziennik.pl,forsal.pl,gazetaprawna.pl,ikomunikaty.pl##.widget-fbLike-box
 dziennik.pl,forsal.pl,gazetaprawna.pl,ikomunikaty.pl,programtv.onet.pl##.social.button
 dziennik.walbrzych.pl,fabrykatanca.pl,globenergia.pl##.fa-youtube-square
-dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikwschodni.pl,dziennikzachodni.pl,e-ogrodek.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gratka.pl,gs24.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nekrologi.net,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,stronapodrozy.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl#.atomsNavigationFooterSocialmedia__button :is(a, svg)
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikwschodni.pl,dziennikzachodni.pl,e-ogrodek.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gratka.pl,gs24.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nekrologi.net,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,stronapodrozy.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl##.atomsNavigationFooterSocialmedia__button :is(a, svg)
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikwschodni.pl,dziennikzachodni.pl,e-ogrodek.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gratka.pl,gs24.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nekrologi.net,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,stronapodrozy.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##.atomsArticleFootTools__icons
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikwschodni.pl,dziennikzachodni.pl,e-ogrodek.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gratka.pl,gs24.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nekrologi.net,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,stronapodrozy.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##.quiz-results-share
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikwschodni.pl,dziennikzachodni.pl,e-ogrodek.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gratka.pl,gs24.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nekrologi.net,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,stronapodrozy.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl##button[id*="componentsArticleFoot"][id*="Facebook"], button[id*="componentsArticleFoot"][id*="Twitter"]
