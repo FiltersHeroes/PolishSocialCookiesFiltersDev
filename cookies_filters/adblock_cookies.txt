@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.8.19.0
-! Last modified: Wed, 19 Aug 2026, 20:51 UTC+00:00
+! Version: 2026.8.22.0
+! Last modified: Sat, 22 Aug 2026, 16:44 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.8.19.0 aktualizacja: śro, 19 sie 2026, 20:51 UTC+00:00
+! v.2026.8.22.0 aktualizacja: sob, 22 sie 2026, 16:44 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -143,7 +143,7 @@ agrido.pl,alt.pl,altenberg.pl###wpmagus-consent-manager-dialog-wrapper, .wpmagus
 agriexpert.pl,agro-sklep.com,dj24.pl,dragoneye.pl,esklep.info,karmazdostawa.pl,niespodziewajka.com,ogrodniczy.org.pl,otosklep24.pl,panele24.com.pl,sklep-galvet.pl,sklepywww.pl,winoszarnia.pl,zabawki.esklep.info,zamienne.info###privacy-message
 agrii.pl,domusfari.pl,gls-group.eu,hurtowniazabawek.pl,kinder.com###cookiePopup, .cookiesBackground
 agrishop.pl,alibiuro.pl,asta-net.pl,domowa.tv,izodom2000.pl,jedynkafryzjerstwo.pl,molkip.pl,print-me.pl,spark.pl,twojezdrowie.pl#?#div[id^="elementor-popup-modal-"]:has-text(/cookies?|rodo|gdpr|ciastecze?ka?/i)
-agristar.pl,balticbhp.pl,edukatorek.pl,greenmouse.pl,sportpoint.pl,tekstyliowo.pl###gmgdpr-overlay
+agristar.pl,balticbhp.pl,carinet.pl,edukatorek.pl,greenmouse.pl,sportpoint.pl,tekstyliowo.pl###gmgdpr-overlay
 agro-bis.eu,eldom.eu###cookie-alert
 agro-mig.pl#?#.popup:has(a[href*="40"]:has-text(Polityce prywatności))
 agro-siec.pl##div.wrapper-fixed[data-position="bottom"]:not([style])
@@ -219,7 +219,6 @@ ampero.pl,apdmarket.pl,astachurski.pl,bobryk.pl,broker.auto.pl,buty-wolka.pl,che
 amrest.eu,klodzko24.eu,nowaruda24.pl,stoprocent.com###cndiv
 amrol.pl##.cookie2
 amundi.pl,chojnice24.pl###disclaimer
-andrespol.bip.cc,belgia.net,bip.chorzow.eu,ciasta.net,emcconsultant.eu,goganet.com,koniecpol.info,madameedith.com,nekla.eu,netpolska.com,nysa.eu,oblicz.to,polishexpress.co.uk,polskieligi.net,porcys.com,potak.eu,prawo-mieszkaniowe.info,reporterzy.info,tfkable.com,ug.tomaszow.maz.bip.cc,wader.toys,zabart.com,zlomowisko.info###cookies-message
 andrychow.eu,gazetkipromocyjne.net,kamienieczabkowicki.eu,kreatywna-europa.eu,kujawy.info,planetamarvel.net,ponglish.eu,wielkopolska.travel##.pea_cook_wrapper
 andrzejzawada.pl,megataxi.pl,ptfm-slask.pl##body > div > div[style*="position"][style*="fixed"]:not([id], [class])
 angelos.pl,najlepszyrower.pl##.ccc
@@ -392,6 +391,7 @@ bee.pl###floating_cookie_container
 beesafe.pl###root > div > div > div > .MuiGrid-root.container:only-child:has(a[href*="/polityka-prywatnosci/"])
 bejeans.pl,hael.pl###js-cookienotice
 bekoczesci.pl##.noty_alert.noty_bar
+belgia.net,bip.chorzow.eu,ciasta.net,emcconsultant.eu,goganet.com,koniecpol.info,madameedith.com,nekla.eu,netpolska.com,nysa.eu,oblicz.to,polishexpress.co.uk,polskieligi.net,porcys.com,potak.eu,prawo-mieszkaniowe.info,reporterzy.info,tfkable.com,wader.toys,zabart.com,zlomowisko.info###cookies-message
 bellanapoli.com.pl##.dialog-cookie
 belriso.com,jogobella.com,milk-tiger.com,monte.com,zott-dairy.com,zottarella.com##.cookieControl
 belutti.com##.fk-cookies
@@ -1350,6 +1350,7 @@ gostynin.info###modal-privacy, .cookies-message-wrapper
 gostynska.pl,jarocinska.pl,rawicz24.pl,zpleszewa.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 gothaer.pl##.ci-bar-wrapper
 gotowkadlaciebie.com,gotowkadlafirm.pl##.cookiesInformation
+gov.pl##a#manage-consent[href="#"]
 gov.pl##cez-cookies
 gov.pl,policja.pl##.informationBar, .JSWrapper
 gowork.pl###header_top > p
@@ -1392,6 +1393,7 @@ guseppewciaga.pl##.cookies_short
 gwarancja.creaton.pl###terms
 halfprice.eu##o-cookie-consent-manager
 halico.pl##.sqs-announcement-bar-custom-location
+hammerphones.com###website_cookies_bar
 handen.pl,mican.eu##.mod_cookiesinfo
 hankooktire.com##.top_ep_wrap
 hansgrohe.pl##div.cookie-bottom-layer
@@ -2283,6 +2285,7 @@ paliwaolkop.pl##div:has(div > #cookieContent)
 panasonic-electric-works.com##.cookiepolicy
 panasonic.com###notescookies
 panasonic.pl##div#CP_Layer
+panel.telemedi.com,signaliduna.telemedi.com##.MuiPaper-rounded.MuiPaper-root:has(a[href*="/privacy-policy"])
 paneleogrodzeniowe-treza.com###treza-cookies
 pap.pl,popoznaniu.pl,stat.gov.pl###divcook
 papajohns.pl###app > div > .Layout_theme_primary > footer ~ div[style]
@@ -2399,6 +2402,7 @@ podrogach.pl###acceptCookieBox
 podwawelem.eu##.rstbox.eb-dialog:has(a[href*="przetwarzamy-twoje-dane"], a[href*="polityka-cookies"])
 poettinger.at##.mfp-ready.mfp-bg
 poettinger.at##.mfp-ready.mfp-wrap:has(a[onclick*="AcceptCookie()"])
+pof.com##button#footer-ccpa-opt-out-button
 pojezierze24.pl###privModal
 poki.pl###app-root > footer[class]:not([id]) ~ aside[class]:not([id]):first-of-type:nth-last-of-type(1)
 poki.pl##button[title="Show CMP"]
@@ -2647,6 +2651,7 @@ sachsen.de###xcm-bar
 sadowniczy.pl###show_popup_photo
 sadowocowy.pl###container > div:first-of-type
 sagameble-sklep.pl##.sg-cookies
+saily.com###consent-widget-container.ConsentWidget__container
 salonmeblowy.net.pl###nfpolicy
 salonynoma.pl##.alert-container.pp-alert-noma
 samnaprawiam.com##.gdprcookie
@@ -2792,6 +2797,7 @@ snapchat.com###cookiePopupContainer
 snapwear.pro###consent-alert
 snowboard-zezula.pl###snippet-cookieConsent-snCookieConsent.c-cookie-consent-bar
 snt.pl###sntc-close
+so-magazyn.pl##.manageGdprButton
 socialwifi.com##.cookielaw-banner
 softnet.pl##.TsConsentWrapper
 softpedia.com###cookienotif
@@ -2984,7 +2990,6 @@ trafica.eu,wodbud.eu###q-cookie-box
 traftu.pl##.unconfirmed.opt-in-splash
 trakt.tv##.sncmp-app_gdpr
 trans-bus.eu,weebly.com###kb-container.kb-container
-transatlantyk.org,ump.edu.pl###app-cookie-bar
 transcribe.com##div[class^="Top_consent_panel_wrap_"]
 transfergo.com##.gdpr-consent
 transport.zamosc.pl,zacisze-roztocze.pl##.tooltip[style*="fixed"]
@@ -3031,6 +3036,7 @@ ugporaj.pl#?##fancybox-wrap:has-text(iod)
 uk.ign.com##div#policyNotice
 um.bielawa.pl###wiadomosccookie
 um.zarow.pl###bs_cookie_alert_container
+ump.edu.pl###app-cookie-bar
 unifiedfactory.com###cookie-div
 unilink.pl##.windov_front_new_text
 unipress.waw.pl###disclaimer-text
@@ -3155,6 +3161,7 @@ wszystkoblisko.pl##.ueCookies
 www.eset.com###manage-cookies
 www.google.*#?##appbar.appbar > div:first-child > div:has-text(/^Plików cookie i/) > div > *
 www.gov.pl###cb2-banner
+www.poznan.pl###change-cookies-label
 wydawnictwopoznanskie.com##.head-page-information
 wykopoczta.pl###noty_top_layout_container
 wymalujtosam.pl##.siteCookies
