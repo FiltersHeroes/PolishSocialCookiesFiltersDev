@@ -1,3 +1,5 @@
+bart-dom.pl##div.abs-footer-item-width-full:first-of-type > .abs-panel-footer.panel
+awenta.pl##.fb
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
@@ -1819,7 +1821,7 @@ damle.com.pl##.menu_button_wrapper > a[href*="facebook.com/groups/damlecompl/"]
 damle.com.pl##a[href*="facebook.com/shoesdamle"] > img
 damle.com.pl##a[href*="instagram.com/damle.com.pl/"] > img
 dancecontrol.pl###text-4 > .textwidget > a:nth-of-type(n+2):nth-of-type(-n+4)
-danio.com.pl##.footer > .footer-main > div.col:nth-of-type(1):nth-child(1) { border: none !important }
+danio.com.pl##.footer > .footer-main > div.col:first-of-type:first-child { border: none !important }
 danio.com.pl##.footer > .footer-main > div.col:nth-of-type(2):nth-child(2)
 danone.pl##.links.bottom a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="youtube.com"])
 danone.pl##.nav-link[href*="linkedin.com/"]
@@ -8963,7 +8965,7 @@ woda-selenka.pl###kontakt > .row > div > p:has(+ a[href*="facebook.com/"])
 woda-selenka.pl###kontakt a[href*="instagram.com/"]
 woda-selenka.pl##.fbradius
 woda.com.pl###footer > nav > div > .module-social
-wodazneta.pl##div.copyrights:nth-of-type(1)
+wodazneta.pl##div.copyrights:first-of-type
 wodociagi.katowice.pl###carousel ul li a[href*=".com/"]
 wodociagi.katowice.pl##.facebook-naglowek
 wodociagi.krakow.pl###social-left-sidebar
