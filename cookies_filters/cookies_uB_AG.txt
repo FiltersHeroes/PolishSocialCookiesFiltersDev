@@ -83,7 +83,7 @@ akademiasmaku.pl,contentstandard.pl,komerso.pl,mobileclick.pl,socialpress.pl##bo
 al.to##+js(set-cookie, trackingPermissionValueCookie, true)
 al.to##div[class*="ReactModal_"]:has(a[href="/cookies"])
 al.to,autohero.com,dopesnow.com,kanga.exchange,la-le.pl,longines.com,otoagent.pl,paczki.zabka.pl,pointpack.pl,powiadomienia.gis.gov.pl,timsport.pl##body[style]:style(overflow-y: auto !important; padding-right: 0 !important)
-albamar.pl,azb-cuw.pl###cookies-modal, .modal-backdrop
+albamar.pl,azb-cuw.pl,pl.natec-zone.com###cookies-modal, .modal-backdrop
 albeco.com.pl###content:style(filter: none !important)
 albeco.com.pl###pol-background, #pol-c
 aldi.pl,cewe.pl,conrad.pl,country.db.com,dm.pl,festool.pl,foto.auchan.pl,fotojoker.pl,gerryweber.com,gigaset.com,handelextra.pl,harting.com,loberon.pl,lotto.pl,parfumdreams.pl,pinkorblue.pl,sharpconsumer.pl,traktorpool.pl,trefl.com###usercentrics-root
@@ -674,6 +674,7 @@ pl.dbcargo.com##+js(set-cookie, consent_matomo, 0)
 pl.factcool.com##+js(set-cookie, cookieconsent_dismissed, yes)
 pl.kruk.eu##.cookie-agreement
 pl.kruk.eu##.cookie-open:style(position: static !important)
+pl.natec-zone.com##.cookies__modal-open:style(overflow: auto !important)
 pl.pinterest.com##:root > body > div[class]:has(span > a[href*="/policy/cookie"])
 pl.pinterest.com##:root:not([style]) body[style]:style(overflow-y: auto !important; margin-inline-end: 0 !important)
 pl.tommy.com##.cookie-notice:style(visibility: hidden !important)
