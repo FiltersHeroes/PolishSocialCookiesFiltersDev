@@ -5,3 +5,5 @@ plenti.app##.fixed:empty
 plenti.app##body:remove-attr(/data-scroll-locked|style/)
 plenti.app##div[role="dialog"].fixed:has(a[href*="/pl/terms/regulamin/"])
 www.zus.pl##:matches-path(/ezus/ustawienia-polityki-cookies) .p-dialog-mask-scrollblocker:has(> .cookie-consent-modal):style(display: flex !important)
+pl,eu,com##div.consents
+pl,eu,com##body:has(.consents):has(> [inert]) > [inert]:remove-attr(inert)
