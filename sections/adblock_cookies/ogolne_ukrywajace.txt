@@ -621,7 +621,6 @@ pl##.cookie-compliance-message:not(body, html)
 pl##.cookie-compliance:not(body, html)
 pl##.cookie-consent-dialogue:not(body, html)
 pl##.cookie-consent:not(body, html, .paragraph):not(:has(> .cookie-consent__summary[hidden]))
-pl##[data-cookie-consent]:not([hidden]) ~ .cookie-settings-trigger { display: block !important }
 pl##.cookie-container:not(body, html)
 pl##.cookie-container_:not(body, html)
 pl##.cookie-disclaimer:not(body, html)
@@ -815,6 +814,7 @@ pl##.wpgdprc-consent-bar:not(body, html)
 pl##.wrap-cookie-info:not(body, html)
 pl##[class*="cookie-policy"]:not(body, html)
 pl##[class^="box-cookie"]:not(body, html)
+pl##[data-cookie-consent]:not([hidden]) ~ .cookie-settings-trigger { display: block !important }
 pl##[id^="topInfo"]:not(body, html)
 pl##a[href*="javascript:CookieScript.instance.show()"]
 pl##aside[class*="Cookie"]
