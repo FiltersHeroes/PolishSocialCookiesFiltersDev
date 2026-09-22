@@ -1,9 +1,9 @@
 /^www\.zus\.pl\/ezus\/ustawienia-polityki-cookies/#@#.p-dialog-mask-scrollblocker:has(> .cookie-consent-modal)
 ||cdn.cookielaw.org^$important,redirect=noop.js:99,script,domain=open.spotify.com
+com,eu,pl##body:has(.consents):has(> [inert]) > [inert]:remove-attr(inert)
+com,eu,pl##div.consents
 plenti.app##+js(aeld, /scroll|wheel/i, , elements, body)
 plenti.app##.fixed:empty
 plenti.app##body:remove-attr(/data-scroll-locked|style/)
 plenti.app##div[role="dialog"].fixed:has(a[href*="/pl/terms/regulamin/"])
 www.zus.pl##:matches-path(/ezus/ustawienia-polityki-cookies) .p-dialog-mask-scrollblocker:has(> .cookie-consent-modal):style(display: flex !important)
-pl,eu,com##div.consents
-pl,eu,com##body:has(.consents):has(> [inert]) > [inert]:remove-attr(inert)
