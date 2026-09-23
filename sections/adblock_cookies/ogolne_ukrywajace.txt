@@ -147,6 +147,7 @@ com,eu,pl##body:not(.cli-barmodal-open) #cookie-law-info-bar
 com,eu,pl##.cc-revoke:not(body, html)
 com,eu,pl###cmplz-manage-consent:not(body, html) { display: none !important }
 com,eu,pl##body #cmplz-cookiebanner-container { display: none !important }
+com,eu,pl##body.cmplz-noscroll { overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important }
 com,eu,pl##body.cmplz-banner-active :not(.cmplz-cookiebanner):not(.cmplz-cookiebanner *) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
 com,eu,pl##body:has(.cmplz-cookiebanner.cmplz-show) > :not(#cmplz-cookiebanner-container) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
 com,eu,pl##body:has(.cmplz-cookiebanner.cmplz-show)::before
