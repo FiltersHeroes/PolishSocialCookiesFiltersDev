@@ -129,7 +129,6 @@
 ~pl##.modal-cookies.open:lang(pl)
 ~pl##a[href="javascript:CookieScript.instance.show()"]:lang(pl)
 ~pl##body > div#cookie[class=""]
-~pl##body:lang(pl):has(.cmplz-cookiebanner.cmplz-show)::before
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) #ck_dsclr:lang(pl)
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id][class*="iai_cookie"]:lang(pl)
 ~pl##body:not([class*="cookie-overflow"], [class*="freeze_bcg"]) div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
@@ -145,12 +144,6 @@ com,eu,pl##.cli-popupbar-overlay
 com,eu,pl##body:not(.cli-barmodal-open) #cookie-law-info-again
 com,eu,pl##body:not(.cli-barmodal-open) #cookie-law-info-bar
 com,eu,pl##.cc-revoke:not(body, html)
-com,eu,pl###cmplz-manage-consent:not(body, html) { display: none !important }
-com,eu,pl##body #cmplz-cookiebanner-container { display: none !important }
-com,eu,pl##body.cmplz-noscroll { overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important }
-com,eu,pl##body.cmplz-banner-active :not(.cmplz-cookiebanner):not(.cmplz-cookiebanner *) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
-com,eu,pl##body:has(.cmplz-cookiebanner.cmplz-show) > :not(#cmplz-cookiebanner-container) { filter: none !important; pointer-events: auto !important; user-select: auto !important }
-com,eu,pl##body:has(.cmplz-cookiebanner.cmplz-show)::before
 org,pl##html:not(.i-amphtml-scroll-disabled) #amp-user-notification1
 org,pl##html:not(.i-amphtml-scroll-disabled) amp-consent
 pl###accept-cookies-question:not(body, html)
