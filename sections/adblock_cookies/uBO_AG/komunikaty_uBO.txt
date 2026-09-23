@@ -1,5 +1,10 @@
 /^www\.zus\.pl\/ezus\/ustawienia-polityki-cookies/#@#.p-dialog-mask-scrollblocker:has(> .cookie-consent-modal)
 ||cdn.cookielaw.org^$important,redirect=noop.js:99,script,domain=open.spotify.com
+com,eu,pl###cmplz-manage-consent:not(body, html)
+com,eu,pl##body #cmplz-cookiebanner-container
+com,eu,pl##body .cmplz-cookiebanner.cmplz-show:remove()
+com,eu,pl##body.cmplz-banner-active:watch-attr():remove-class(cmplz-banner-activ)
+com,eu,pl##body.cmplz-noscroll:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 com,eu,pl##body:has(h-portal-target .consents-modal [aria-label="Ustawienia plików cookies"]):has(> [inert]) > [inert]:remove-attr(inert)
 com,eu,pl##body[class*="shop" i] div.consents
 com,eu,pl##body[class*="shop" i]:has(.consents):has(> [inert]) > [inert]:remove-attr(inert)
@@ -11,8 +16,3 @@ plenti.app##.fixed:empty
 plenti.app##body:remove-attr(/data-scroll-locked|style/)
 plenti.app##div[role="dialog"].fixed:has(a[href*="/pl/terms/regulamin/"])
 www.zus.pl##:matches-path(/ezus/ustawienia-polityki-cookies) .p-dialog-mask-scrollblocker:has(> .cookie-consent-modal):style(display: flex !important)
-com,eu,pl###cmplz-manage-consent:not(body, html)
-com,eu,pl##body #cmplz-cookiebanner-container
-com,eu,pl##body.cmplz-noscroll:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
-com,eu,pl##body.cmplz-banner-active:watch-attr():remove-class(cmplz-banner-activ)
-com,eu,pl##body .cmplz-cookiebanner.cmplz-show:remove()

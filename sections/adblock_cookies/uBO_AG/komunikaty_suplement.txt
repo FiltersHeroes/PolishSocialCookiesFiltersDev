@@ -311,6 +311,11 @@ empik.com##body.cookies-consent-component__prevent-scroll #app > div[class$="-wr
 empik.com##body.cookies-consent-component__prevent-scroll footer ~ div[class$="-wrapper"]:has(> div[class$="-background"]:empty:first-child + div[class$="-containerInfo-CookiesConsentsBannerRodoHelper"]:last-child)
 emuia1.gugik.gov.pl##+js(set-cookie, cookieMessageHide, true)
 entra.pl,grupabiwakowa.pl,nowymarketing.pl,ollopetfood.com##+js(set-cookie, cmplz_banner-status, dismissed)
+entra.pl,grupabiwakowa.pl,nowymarketing.pl,ollopetfood.com##+js(set-cookie, cmplz_functional, allow)
+entra.pl,grupabiwakowa.pl,nowymarketing.pl,ollopetfood.com##+js(set-cookie, cmplz_marketing, allow)
+entra.pl,grupabiwakowa.pl,nowymarketing.pl,ollopetfood.com##+js(set-cookie, cmplz_preferences, deny)
+entra.pl,grupabiwakowa.pl,nowymarketing.pl,ollopetfood.com##+js(set-cookie, cmplz_statistics, deny)
+entra.pl,grupabiwakowa.pl,nowymarketing.pl,ollopetfood.com##div#cmplz-cookiebanner-container
 epenta.pl###I6-cookieConsent
 epenta.pl,wagrowiecmiasto.konsultacjejst.pl##body.noscroll:style(overflow-y: auto !important)
 epicdrama.pl##.ui-modal[id^="modal_cookie"]
@@ -369,9 +374,6 @@ gitara-sklep.pl##body:style(padding-top: 0 !important)
 gmina-aleksandrow.pl,grabow.pl,raciazek.pl###g_toplayer
 gomez.pl###cookieModalInfo, .modal-backdrop
 goonline.bnpparibas.pl##+js(set-local-storage-item, cookie-policy-accept-date, true)
-entra.pl,grupabiwakowa.pl,nowymarketing.pl,ollopetfood.com##div#cmplz-cookiebanner-container
-entra.pl,grupabiwakowa.pl,nowymarketing.pl,ollopetfood.com##+js(set-cookie, cmplz_functional, allow)
-entra.pl,grupabiwakowa.pl,nowymarketing.pl,ollopetfood.com##+js(set-cookie, cmplz_marketing, allow)
 grupapsb.com.pl###js_CookiesHeader
 grupapsb.com.pl##.cookies-glass-overlay:style(overflow-y: auto !important)
 grupapsb.com.pl,mrowka.com.pl##+js(set-local-storage-item, CookiesAcceptedv2, true)
@@ -575,8 +577,6 @@ neopak.pl,zawojski.pl##.privacy-box-visible .privacy-box
 neopak.pl,zawojski.pl##body.privacy-box-visible:remove-class(privacy-box-visible)
 nike.com##.nds-no-scroll:style(overflow-y: auto !important)
 nike.com##div#modal-root:has(> div > div > div > div > .cookie-dialog-base)
-entra.pl,grupabiwakowa.pl,nowymarketing.pl,ollopetfood.com##+js(set-cookie, cmplz_preferences, deny)
-entra.pl,grupabiwakowa.pl,nowymarketing.pl,ollopetfood.com##+js(set-cookie, cmplz_statistics, deny)
 obpon.pl##.menu-flashmessages:style(top: 0 !important)
 obywatel.gov.pl###modal-rodo, .modal-backdrop
 odrabiamy.pl##.rodo-modal-blur
