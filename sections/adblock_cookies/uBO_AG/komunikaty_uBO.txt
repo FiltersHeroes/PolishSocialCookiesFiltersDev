@@ -1,7 +1,7 @@
 /^www\.zus\.pl\/ezus\/ustawienia-polityki-cookies/#@#.p-dialog-mask-scrollblocker:has(> .cookie-consent-modal)
 ||cdn.cookielaw.org^$important,redirect=noop.js:99,script,domain=open.spotify.com
-com,eu,pl##body:has(.consents):has(> [inert]) > [inert]:remove-attr(inert)
-com,eu,pl##body[class*="shop"] div.consents
+com,eu,pl##body[class*="shop" i]:has(.consents):has(> [inert]) > [inert]:remove-attr(inert)
+com,eu,pl##body[class*="shop" i] div.consents
 com,eu,pl##h-portal-target:has(.consents-modal [aria-label="Ustawienia plików cookies"])
 com,eu,pl##h-backdrop
 com,eu,pl##body:has(h-portal-target .consents-modal [aria-label="Ustawienia plików cookies"]):has(> [inert]) > [inert]:remove-attr(inert)
