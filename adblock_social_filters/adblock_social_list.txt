@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.9.23.0
-! Last modified: Wed, 23 Sep 2026, 16:26 UTC+00:00
+! Version: 2026.9.27.0
+! Last modified: Sun, 27 Sep 2026, 23:11 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.9.23.0 aktualizacja: śro, 23 wrz 2026, 16:26 UTC+00:00
+! v.2026.9.27.0 aktualizacja: nie, 27 wrz 2026, 23:11 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1191,7 +1191,7 @@ agrowist.pl,annalotan.pl,arka.tv,audiosfera.eu,bananki.pl,bptour.pl,bramy-aga.pl
 agtom.eu#?##follow_block > div:has-text(/(Facebooku|Grupa|YouTube)/)
 agusto.pl###easycontent_23
 agwerblog.pl##.instafollow, .footer-widget-inside.widget_text > .custom-html-widget.textwidget > ul
-agwerblog.pl,autonom.pl,bartekwpodrozy.pl,ceneo.pl,domowa.pizza,dowbit.pl,gloskultury.pl,inspro.org.pl,klassikauto.pl,ladybusiness.pl,miastons.pl,moviesroom.pl,multikop.pl,nflix.pl,techfresh.pl,wielkahistoria.pl###custom_html-3
+agwerblog.pl,autonom.pl,bartekwpodrozy.pl,ceneo.pl,domowa.pizza,dowbit.pl,gloskultury.pl,inspro.org.pl,klassikauto.pl,ladybusiness.pl,miastons.pl,moviesroom.pl,multikop.pl,nflix.pl,psowo.pl,techfresh.pl,wielkahistoria.pl###custom_html-3
 agwerblog.pl,eloblog.pl,komputerowapasja.pl,livingonmyown.pl,reklamacjatowaru.pl,zakreconywegeobiad.pl###custom_html-7
 aidcom.eu##.message.social, .facebook.social
 aig.pl##footer ul > li > a[href*=".com/"]
@@ -1640,6 +1640,7 @@ auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladspo
 auto-swiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-m-socials-stream > :not([class*="copy"], [href*="wa.me"], [href*="feed"])
 auto.pl##.row .row > .social-media:first-child
 autoblog24.pl###execphp-2
+autoblog.spidersweb.pl##div[class*="AuthorBio_authorBio__social_media_"]
 autodesk.pl##.section.responsive-grid > .row > .grid-columns.large-2.medium-12.small-12 > .responsive-column.responsive-column-0
 autoexpert.pl,magazynprzemyslowy.pl##.article-social-links
 autofakty.pl##.ruby-fb-widget, .social-bar-widget
@@ -1941,7 +1942,7 @@ bioevolution.com##.sf-link[href*=""]
 biofeedzoo.pl##.--facebook
 biofeedzoo.pl##.--instagram
 biofemina.pl##.insta-slider
-biogo.pl,butoholiczka.pl,ewozki.eu,forkids.pl###footgroup6
+biogo.pl,ewozki.eu,forkids.pl###footgroup6
 bioieko.pl##.row-copyrights > .pull-right.copyright-payment
 bioieko.pl#?##detal-block:has-text(Dołącz do społeczności bioieko.pl)
 bioindygo.pl##.stopka_spolecznosci
@@ -2230,8 +2231,6 @@ busy-kielce.eu,busy-krk.pl,busy-wroclaw.eu#?#footer > div > div:nth-of-type(2) >
 busy-krk.pl##footer > div > div:nth-of-type(2) > p:nth-of-type(2) > a[target="_blank"]
 busy.info.pl###contact-user-messenger-button
 busy.info.pl###footer > div:first-of-type
-butoholiczka.pl###box_custom60
-butoholiczka.pl##div.footer-group:nth-child(8)
 butosklep.pl###menu_contact > #menu_buttons
 butyjana.pl##.bjSocialMedia
 butynalata.pl##.facebook_banner
@@ -2297,7 +2296,6 @@ casaregal.pl##.elementor-section-boxed:has(> .elementor-container > div.elemento
 casaregal.pl##div[class*="footer"] a[href*=".com/"]:is([href*="facebook.com"], [href*="pinterest.com"], [href*="instagram.com"])
 casedrop.eu###cased__social
 casedrop.eu##.footer__left__top--social
-cashback.getdify.com##footer > div[class] > div[class] > div[class]:first-child > div[class]:last-child
 cashless.pl,green-news.pl##.bg-bgcomments ~ div[class*="bg"]
 cashless.pl,green-news.pl##.fb-before, .twitter-before, .youtube-before, .linkedin-before
 cashless.pl,green-news.pl##.text-content.prose + div > div:first-child > div:nth-child(2):has(a[href*="share"])
@@ -4539,7 +4537,6 @@ homedoctor.pl,otomotoprofi.pl,tradus.com##.app-footer__social
 homekoncept.com.pl##.site-footer > .sidebar > .container > div.widget:last-child
 homemadebyjanka.pl##a[href*="facebook.com/"] img[src*="facebook.png"]
 homemadebyjanka.pl##a[href*="instagram.com/"] img[src*="instagram.png"]
-homeoffice360.pl###footerColumn2 > h3:first-of-type, #footerColumn2 > a > img[src*="/xhtml/img/stopka_"]
 homeparkrawa.pl##.nav-link a[href*="facebook.com/"]
 homeparkrawa.pl##.nav-link a[href*="pinterest.com/"]
 homify.pl##.social-follow-links-box
@@ -9853,6 +9850,7 @@ werandafamily.com##.instagram-description > div > .btn-sm
 werandafamily.com##.instagram-item > .link-block > .overlay > .figure-content-hover
 werandafamily.com##.instagram-item > .link-block > .overlay::after
 werit.eu###middle-gray:has(#social)
+weron.pl###social_block_mod ul li a
 wesob.com.pl##.follow--up
 westwing.pl##footer div:nth-child(3) nav:nth-child(4) > *
 westwingnow.pl##.page > div[class*="OneFooter"] > div[class*="OneFooter"]:nth-child(2) > div:nth-child(8)
@@ -11595,6 +11593,7 @@ swiatebookow.pl#@#.facebook-button
 system.mpay.pl#@#.icon-twitter
 system.mpay.pl#@#.icon-youtube
 tvpuls.pl#@#.block-menu-menu-social-footer.block-menu.block > .menu
+weron.pl#@##social_block_mod
 wykop.pl#@#.wykop
 zwierzecisie.pl#@#.fa-instagram
 zwierzecisie.pl#@#.fa-spotify
