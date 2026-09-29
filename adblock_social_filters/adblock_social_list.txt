@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.9.27.0
-! Last modified: Sun, 27 Sep 2026, 23:11 UTC+00:00
+! Version: 2026.9.29.0
+! Last modified: Tue, 29 Sep 2026, 23:50 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.9.27.0 aktualizacja: nie, 27 wrz 2026, 23:11 UTC+00:00
+! v.2026.9.29.0 aktualizacja: wto, 29 wrz 2026, 23:50 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -5198,6 +5198,7 @@ kombatanci.gov.pl##img[src="/images/wyglad/fb.png"], img[src="/images/wyglad/tt.
 komfort.pl##.ComponentSocialMediaLinks
 kominytona.pl##.hidden-320px.marginleft10.nopadding.inline-block > li.inline-block:nth-of-type(n+2)
 komoorki.pl##.footer-social-media-area, .social-media-area
+komoot.com##footer#footer > div:only-of-type > div:nth-child(3) > div:nth-child(4) > div:has(> h6 ~ div a[href*="facebook.com/"])
 komorkomat.pl##.hidden-sm.hidden-xs.social_kontener
 komorkomat.pl##.social-link a[href*="group"] img
 komorkomat.pl##.social-link a[href]:not([href*="group"])
