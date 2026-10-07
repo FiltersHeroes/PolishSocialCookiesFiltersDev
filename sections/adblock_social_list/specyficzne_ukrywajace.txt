@@ -1,3 +1,9 @@
+mzkskierniewice.pl##.fixed:has(a[href="/polityka-prywatnosci"])
+mzkskierniewice.pl##a[aria-label^="Facebook"]
+mzkskierniewice.pl##a[aria-label^="X "]
+kmag.pl##a.border-limegreen[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"], [href*="x.com"])
+miuipolska.pl##.social-button:not(.social-link-email)
+dock.eu##footer li:has(a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"]))
 lumosteel.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="pinterest.com"])
 decoroom.eu##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"], [href*="pinterest.com"])
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
@@ -741,8 +747,8 @@ auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshe
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##div[class$="-community-floating"] > div.title:first-of-type
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-a-anchor__share-others
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-m-author-xl__socials
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##a.ods-m-socials-icon-stream__link:not([href*="feed"])
-auto-swiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-m-socials-stream > :not([class*="copy"], [href*="wa.me"], [href*="feed"])
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-m-socials-icon-stream__link:not([class*="copy"], [href*="wa.me"], [href*="feed"], [href^="mailto:"])
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-m-socials-stream > :not([class*="copy"], [href*="wa.me"], [href*="feed"], [href^="mailto:"])
 auto.pl##.row .row > .social-media:first-child
 autoblog24.pl###execphp-2
 autoblog.spidersweb.pl##div[class*="AuthorBio_authorBio__social_media_"]
@@ -4283,8 +4289,8 @@ komorkomat.pl##.widget_text.col-md-3:nth-of-type(4) > .widgettitle
 komornik-marchaj.pl##.rstpl-social
 kompan.pl##.blog-icon
 kompan.pl,truckcare.pl,ulc.gov.pl,uniqueseo.pl,wirtualnemedia.pl##.icon-linkedin
-komputerswiat.pl##.ods-c-footer__social a[href*="com/"]
-komputerswiat.pl,onet.pl,plejada.pl##div[class*="BigCard_social_"] > span[class*="share"]
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-c-footer__social a[href*="com/"]
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##div[class*="BigCard_social_"] > span[class*="share"]
 komputerswiat.pl,www-komputerswiat-pl.cdn.ampproject.org##div > a[href*="facebook.com/komputerswiat" i]:has(img)
 komputery-pc.info###Mod107
 komputerymarkowe.pl##.footer-banner-2 > a + a
@@ -5062,7 +5068,7 @@ medium.com##span[data-dd-action-name*="highlight_text"] + button
 medme.pl##.footer__navigation--social
 medme.pl##.medme__header__social
 mednova.pl,novamed.pl###footer-content-social
-medonet.pl,onet.pl,plejada.pl##.ods-m-author-teaser__socials
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl##.ods-m-author-teaser__socials
 medpak.com.pl###iqithtmlandbanners-block-3
 medpolonia.pl##.helper-yt
 medseven.eu,spawaj.eu##.kac-sm-panel .kac-sm-twitter
