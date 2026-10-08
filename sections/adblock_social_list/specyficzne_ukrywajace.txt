@@ -1,3 +1,8 @@
+credos.com###footer-widget p:has(+ p a[href*="facebook.com/"])
+credos.com###footer-widget p + p a[href*="facebook.com/"]
+hasco-lek.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="linkedin.com"], [href*="youtube.com"])
+fajnegotowanie.pl##.facebook[href*="facebook.com/"]
+fajnegotowanie.pl##.share
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
