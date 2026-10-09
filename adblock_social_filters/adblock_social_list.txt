@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.10.9.0
-! Last modified: Fri, 09 Oct 2026, 00:30 UTC+00:00
+! Version: 2026.10.9.1
+! Last modified: Fri, 09 Oct 2026, 18:32 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.10.9.0 aktualizacja: pią, 09 paź 2026, 00:30 UTC+00:00
+! v.2026.10.9.1 aktualizacja: pią, 09 paź 2026, 18:32 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -10323,8 +10323,6 @@ zapachove.interia.pl##.article-pagelike, .is-bottom.article-social
 zapiexy.pl##a[href*="instagram.com/zapiexy_widok19/"], a[href*="pl.tripadvisor.com/Restaurant_Review-"][href$="Zapiexy_Luxusowe-Warsaw_Mazovia_Province_Central_Poland.html"]
 zaplo.pl##div.footer-container:nth-of-type(5) > .footer-col > .decorated.footer-title
 zapytaj.dobroplast.pl##.footer__links > .footer-box
-zapytaj.onet.pl###fbFixed
-zapytaj.onet.pl##.addthis
 zara.com###homeSocialFooter
 zarabiam.com###sidebar_block > .tborder:first-of-type, #sidebar_block > .tborder:nth-of-type(5) > tbody, #sidebar_block > .tborder:nth-of-type(8) > tbody
 zarabiam.com##div[id^="pid"] strong:has(a[href*="likefb"] > img)
@@ -11273,7 +11271,6 @@ wyborcza.pl##.twitter, .fbShare
 wzory-cv.com##.shareStackItem
 xboxforum.pl##.notices:has(a[href*="youtube.com"])
 yafud.pl###strona > center, .extBox
-zapytaj.onet.pl##.share-icon
 zdrowietvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .social-btn--fb, .fb-tool__cta
 !
 !
@@ -11352,7 +11349,6 @@ zdrowietvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .s
 @@||static.westwingnow.pl/bella/Svgs-Pinterest.bundle.*.js
 @@||telepolis.pl/home/_img/twitter_square.png
 @@||wirtualnemedia.pl/new_wm_view/img/social/twitter.png$image,domain=www.wirtualnemedia.pl
-@@||zapytaj.onet.pl/images/fb-login-btn.png$image,domain=zapytaj.onet.pl
 @@||zaufanatrzeciastrona.pl/wp-content/plugins/subscribe-connect-follow-widget/images/32px/rss.png
 4kdownload.com#@#.footer__col--community
 24jgora.pl,24wroclaw.pl,babice24.pl,bbfan.pl,bp24.pl,checkpress.pl,ciechanowinaczej.pl,ctmyslowice.pl,czaschojnic.pl,ddb24.pl,debica24.eu,dobroni.pl,dzikieradio.pl,e-kg.pl,e-sochaczew.pl,e-wyszogrod.pl,egarwolin.pl,egorzow.pl,ekoscian.eu,ekspresjaroslawski.pl,eprzasnysz.pl,eradzyn.pl,ewysmaz.pl,fakty.bialystok.pl,galopuje.pl,golub-cgd.pl,gpr24.pl,gryfinska.pl,ibemowo.pl,ibialoleka.pl,ibielany.pl,ibielsk.pl,ikampinos.pl,imokotow.pl,info.mragowo.pl,infokonin.pl,inowroclaw.info.pl,iochota.pl,iotwock.pl,ipragapolnoc.pl,ipragapoludnie.pl,irembertow.pl,iskierniewice.pl,isrodmiescie.pl,itargowek.pl,itvpiaseczno.pl,iursus.pl,iursynow.pl,iwawer.pl,iwesola.pl,iwilanow.pl,iwola.pl,izabelin24.pl,izoliborz.pl,izyrardow.pl,jaw.pl,karkonoszego.pl,kartuzy.info,katowice24.info,konecki24.pl,koscierski.info,krasnik24.pl,kulisy.net,kurierbytowski.com.pl,kuriergmin.pl,kurierpodlaski.pl,lipno-cli.pl,losice.info,lowicz24.eu,lukow.tv,magazynnaszczycie.pl,mojestrone.com,mylomza.pl,nolesnica.pl,nowagazeta.pl,nowawrzesnia.pl,nowinybartoszyce.pl,nowinyketrzyn.pl,nowinylidzbark.pl,nowinynyskie.com.pl,nwloclawek.pl,ototorun.pl,palukimogilno.pl,palukiznin.pl,pilaonline.pl,plonszczak.pl,politykazdrowotna.com,poluje.pl,posty.pl,powiatowa.info,profitnes.pl,pultusk24.pl,radiotorun.pl,radomszczanska.pl,regionalna24.pl,rypin-cry.pl,sejny.net,siemiatycze24.pl,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,temat.net,tp.com.pl,trojmiejski.pl,tudeblin.pl,tulegnica.pl,turyki.pl,tuzywiec.pl,tygodnikregionalna.pl,wabrzezno-cwa.pl,wdi24.pl,wedkarzebezbarier.pl,wideoportal.tv,wio.waw.pl,wlodawa24.pl,wterenie.pl,zambrow.org,zegluje.pl,zlotowskie.pl,zycie.pl,zyciekalisza.pl,zyciesokolowa.pl,zyciewegrowa.pl#@#.news__share
@@ -11532,7 +11528,7 @@ appleworld.pl,esklep-porta.pl,lzx.pl,zwierzecisie.pl#@#.fa-facebook
 cdn.ampproject.org,interia.pl,meczyki.pl,pomponik.pl,wp.pl#@#.instagram
 dobreprogramy.pl#@##instagram
 dobreprogramy.pl,polityczek.pl#@##twitter:not(input)
-doladowaniaenergetyczne.pl,smaker.pl,system.mpay.pl,zapytaj.onet.pl#@#.icon-facebook
+doladowaniaenergetyczne.pl,smaker.pl#@#.icon-facebook
 downdetector.pl,masterchef.tvn.pl#@#a[title="Instagram"]
 esklep-porta.pl#@#.fa-linkedin
 esklep-porta.pl,pb.pl#@#.linkedin
