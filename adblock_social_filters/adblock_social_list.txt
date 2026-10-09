@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.10.7.0
-! Last modified: Wed, 07 Oct 2026, 20:22 UTC+00:00
+! Version: 2026.10.9.0
+! Last modified: Fri, 09 Oct 2026, 00:30 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.10.7.0 aktualizacja: śro, 07 paź 2026, 20:22 UTC+00:00
+! v.2026.10.9.0 aktualizacja: pią, 09 paź 2026, 00:30 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1071,7 +1071,7 @@ affde.com###sidebar > div.first.widget > h3:first-of-type
 afilio.autodna.pl##.footer-find-us
 afrodytasalon.pl##.fl-social-icons { visibility: hidden !important }
 aftermarket.zf.com##footer > div > div > div:has(~ div > .share) > .som
-aftermarket.zf.com,beszamel.se.pl,cert.orange.pl,dobrzemieszkaj.pl,doktorania.pl,ecg-electro.eu,inianie.pl,marionkosmetyki.pl,mojawww.com,muzyczneradio.pl,orpha.net,polish.wifilterouter.com,portalsamorzadowy.pl,press.pl,publicat.pl,rekinfinansow.pl,rozaniec.eu,siemens-home.bsh-group.com,silesiasmakuje.pl,skottsberg.com,sparta.com.pl,support.discord.com,tvn.pl,viva.pl,wasserman.eu,wmrowisku.pl,zadluzenia.com##.share
+aftermarket.zf.com,beszamel.se.pl,cert.orange.pl,dobrzemieszkaj.pl,doktorania.pl,ecg-electro.eu,fajnegotowanie.pl,inianie.pl,marionkosmetyki.pl,mojawww.com,muzyczneradio.pl,orpha.net,polish.wifilterouter.com,portalsamorzadowy.pl,press.pl,publicat.pl,rekinfinansow.pl,rozaniec.eu,siemens-home.bsh-group.com,silesiasmakuje.pl,skottsberg.com,sparta.com.pl,support.discord.com,tvn.pl,viva.pl,wasserman.eu,wmrowisku.pl,zadluzenia.com##.share
 afterweb.pl##.aw_header_social, .footer_top div.col-md-4:nth-of-type(2)
 afterweb.pl##.social_icons_footer, .szukaj-nas
 aga-toma.pl##a.pokazywanie:not([href^="mailto:"])
@@ -2604,6 +2604,8 @@ creaton.pl##.footer-main div.neos-contentcollection.col-lg-3:nth-of-type(4)
 creaton.pl,pbkm.pl,siniat.pl##.footer-content__social
 creaweb.pl###fb_all
 credit-suisse.com##.mod_footer_social_media
+credos.com###footer-widget p + p a[href*="facebook.com/"]
+credos.com###footer-widget p:has(+ p a[href*="facebook.com/"])
 crimeinvestigation.pl,historytv.pl,lifetimetv.pl##.c-footer--social
 crn.pl##a.social-top-header:not(:nth-of-type(4))
 croatia.hr##.social-media-links--platforms > li:nth-of-type(-n+7)
@@ -3272,7 +3274,7 @@ e-sklep.mega-tech.pl##div.box-bottom:nth-of-type(4)
 e-testynaprawojazdy.pl##.secPdng.faqArea > .container
 e-testynaprawojazdy.pl,hd-opinie.pl##.fanpage
 e-timberland.pl##.b-footer_infoLink
-e-tlumacze.net##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="linkedin.com"], [href*="youtube.com"])
+e-tlumacze.net,hasco-lek.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="linkedin.com"], [href*="youtube.com"])
 e-vasco.pl##.facebook-box-slider
 e.tm.pl##.fa-facebook-f.brands.icon
 e.tm.pl##.fa-twitter.brands.icon
@@ -3664,6 +3666,7 @@ fajne.life##.cl-header__element--socials
 fajne.life##.widget_bloomwidget
 fajne.life,rebe1scum.com,szukajacslonca.com##.widget_wpcom_instagram_widget
 fajnecv.pl,getem.pl,lantis.pl,zpb-maciejewski.pl###openFB
+fajnegotowanie.pl##.facebook[href*="facebook.com/"]
 fakro.pl##div.col-sm-6.col-md-3.footer-col:nth-of-type(4)
 fakt.pl##.article-contact-footer-button
 fakt.pl##.article-share-button:not([class*="link"], [class*="mail"])
