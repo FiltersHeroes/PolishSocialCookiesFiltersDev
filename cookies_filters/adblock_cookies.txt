@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.10.10.0
-! Last modified: Sat, 10 Oct 2026, 21:52 UTC+00:00
+! Version: 2026.10.11.0
+! Last modified: Sun, 11 Oct 2026, 10:21 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.10.10.0 aktualizacja: sob, 10 paź 2026, 21:52 UTC+00:00
+! v.2026.10.11.0 aktualizacja: nie, 11 paź 2026, 10:21 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -658,7 +658,8 @@ chamsko.pl##div[class^="cookies"]
 charaktery.eu,rarlab.com###cookiewarning
 charlizemystery.com,mjakmrowka.pl##.cookie-empty
 chataskrzata.com.pl##body > div[style*="position"][style*="fixed"]:not([id])
-chatgpt.com##dialog[class*="cookieOverlay"] { remove: true }
+chatgpt.com##dialog[data-cookie-consent] { remove: true }
+chatgpt.com##div[data-octane-static-cookie-consent], div[data-cookie-consent-first-paint]
 chceauto.pl##.cookue
 chemiaonline.pl###ds-cookie
 chemko.com.pl,sklep.ternet.com.pl,sklep.wzso.pl,specto.com.pl##.cookie-message-popup-js
@@ -1114,6 +1115,7 @@ eurosender.com###footer + #footer-bottom + div[class^="_"]
 eurostyl.com.pl###euroCookieInfo
 events.comarch.com##.adbcookie-info
 ever.eu,ziaja.com###cookies-info
+evergreen.pl,sklep.poradnikogrodniczy.pl##.privacy-box
 everhome.pl,gda.pl,sne.fc.pl,szwajcaria-kaszubska.pl##.shotimoo
 everydayme.pl##.cookie-consent-jolt
 everydayme.pl##button[class*="StyledCookieConsentButton-"]
@@ -2758,7 +2760,6 @@ sklep.legia.com###hw_cookie_law
 sklep.macmillan.pl##a > img[src^="/images/banners/cookies_b2"]
 sklep.medema.pl##.module-notification[data-options*="cookie"]
 sklep.mentalway.pl,wayup.pl###rodoMsg
-sklep.poradnikogrodniczy.pl##.privacy-box
 sklep.rakow.com###notice-cookie-block.cookie
 sklep.regalia.eu###iqitpopup
 sklep.regalia.eu###iqitpopup-overlay
