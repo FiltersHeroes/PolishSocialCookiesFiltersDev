@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.10.11.0
-! Last modified: Sun, 11 Oct 2026, 21:44 UTC+00:00
+! Version: 2026.10.12.0
+! Last modified: Mon, 12 Oct 2026, 17:17 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.10.11.0 aktualizacja: nie, 11 paź 2026, 21:44 UTC+00:00
+! v.2026.10.12.0 aktualizacja: pon, 12 paź 2026, 17:17 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -7104,10 +7104,11 @@ pepco.pl##.text-right.footer-menu > ul.no-list:nth-of-type(2) > li:not(:last-of-
 pepco.pl##li.js-share-page.single-share__list-item:not([data-type="mail"])
 pepco.pl#?#.footer-nav .row p:has-text(Znajdź nas na)
 pepegi.eu##.menu_button_wrapper:nth-of-type(2):has(a[href*="facebook.com/"], a[href*="twitter.com"])
+pepper.pl##.popover button[data-t="shareCopyLink"] + div
 pepper.pl##button[data-t^="shareOn"]:not([data-t*="Whatsapp" i], [data-t*="Messenger" i])
 pepper.pl##button[data-t^="shareOn"][data-t*="Whatsapp"], button[data-t^="shareOn"][data-t*="Messenger"]
 pepper.pl##div[class*="banner"]:has(img[alt*="Insta" i], img[alt*="Twitt" i])
-pepper.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"], [href*="x.com"])
+pepper.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"], [href*="tiktok.com"], [href*="x.com"])
 pepper.pl##footer a[href*=".com/"]:is([href*="whatsapp.com"], [href*="messenger.com"], [href*="wa.me"], [href*="m.me"])
 pepper.pl##footer a[href*="t.me/"]
 pepper.pl#?#footer .text--b:has-text(Obserwuj)
@@ -11361,7 +11362,7 @@ account.kaufland.com,komputerswiat.pl,onet.pl,realmadryt.pl,tvn24bis.pl#@#.socia
 account.kaufland.com,x-kom.pl#@#.social-bar
 addhost.pl#@#.retweet
 afrodytasalon.pl#@#.fl-social-icons
-aldi.pl#@#.icon--share
+aldi.pl,pepper.pl#@#.icon--share
 alilove.pl#@#.footer-social-wrap
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,morele.net,motoria.pl,muzykazreklam.pl,sklep-presto.pl,ubieramy.pl#@#.facebook-button
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,morele.net,motoria.pl,sklep-presto.pl,ubieramy.pl#@#.facebook-container
