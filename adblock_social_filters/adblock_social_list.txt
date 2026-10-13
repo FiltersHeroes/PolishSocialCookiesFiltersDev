@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.10.12.0
-! Last modified: Mon, 12 Oct 2026, 17:17 UTC+00:00
+! Version: 2026.10.13.0
+! Last modified: Tue, 13 Oct 2026, 02:09 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.10.12.0 aktualizacja: pon, 12 paź 2026, 17:17 UTC+00:00
+! v.2026.10.13.0 aktualizacja: wto, 13 paź 2026, 02:09 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1240,6 +1240,7 @@ al.to,ibood.com,prusa3d.com,spidersweb.pl,techgame.pl,tv.mgsm.pl,www.pocztowy.pl
 al.to,x-kom.pl##div[role="button"]:has([class*="Share"])
 al.to,x-kom.pl##footer a[href*="whatsapp.com"]
 al.to,x-kom.pl##footer.social > .row h4
+alab.pl,folia-eko.pl,fundacjafilar.pl,goodie.pl,itpsa.pl,mescomp.pl,oskroba.pl,payback.pl,screennetwork.pl,sempai.pl,seohost.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"], [href*="youtube.com"])
 alablaboratoria.pl,ccpartners.pl,fina.gov.pl,kosciolpalmarianski.org,lancerto.com,olejarnia-gaja.pl##.social-media-icons
 alanyaonline.pl,rajski.szczecin.pl##.facebook-join
 aldi.pl##.footer__social-section
@@ -3851,7 +3852,6 @@ focus.pl##.box-obserwuj-newsletter > a[href*="instagram.com/focus.pl/"], .social
 focus.pl##.fc-SocialsList1
 focusonbusiness.eu,yope.me##.social a:not([href^="mailto:"])
 foldruk.media.pl###socialmedia-top
-folia-eko.pl,fundacjafilar.pl,goodie.pl,itpsa.pl,mescomp.pl,oskroba.pl,payback.pl,screennetwork.pl,sempai.pl,seohost.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"], [href*="youtube.com"])
 followrap.com###wh-widget-send-button
 fonelab.com###share-list ul li.whatsapp
 fonia.app##.elementor-widget-pix-social-icons
