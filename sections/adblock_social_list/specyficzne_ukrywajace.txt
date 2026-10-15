@@ -1,3 +1,15 @@
+plantini.pl##.social-menu
+rolmarket.pl##.social
+fcinter.pl##.single-article-summary__share
+nexterio.pl##.footer__social-icons-wrapper
+allegro.tech##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="twitter.com"])
+netvet.pl##.footer_cta_wrap > h5
+netvet.pl##.footer_cta_wrap > h5 + a
+netvet.pl##.fb-box
+przepisy.lidl.pl##footer > div > div > div:nth-child(10):has(a[href*="linkedin.com/"])
+mersjo.com##.jm-social-share-list
+mersjo.com###selector-social a[href*=".com/"]
+chatgpt.com##div[aria-label="Udostępnij"] button:not([aria-label="Kopiuj łącze"])
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
