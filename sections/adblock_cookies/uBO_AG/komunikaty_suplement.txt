@@ -1,3 +1,8 @@
+fcinter.pl##.cookie-consent-page-overlay
+fcinter.pl##.cookie-consent-banner
+fcinter.pl##body.cookie-consent-pending:not(.auth-modal-open, .search-modal-open):style(overflow-y: auto !important)
+fcinter.pl##body.cookie-consent-pending > [inert]:remove-attr(inert)
+fcinter.pl##.cookie-consent-modal-overlay
 /wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js$important,domain=sztolnie.pl|zamekgrodno.pl
 @@/^https?:\/\/web\.archive\.org\/web\/[0-9]+\/https?:\/\/(?![^\/]+\.pl\.?(\/|$))/$ghide
 @@||web.archive.org^$badfilter,ghide
