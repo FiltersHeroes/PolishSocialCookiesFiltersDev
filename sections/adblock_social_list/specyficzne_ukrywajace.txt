@@ -1,3 +1,5 @@
+dariusz.wieckiewicz.org##.follow-buttons > :not(.rss, .github)
+edunews.pl##.moduleja-social h3
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
@@ -2407,7 +2409,7 @@ edu-sense.com##.tile-yt-btn
 edu.pl###feedback_simple > a > img, #feedback_simpleLINK, #feedback_simpleINST, #feedback_simpleYT
 edu.pl##.page-footer__social-list, .page-footer__social-title
 edukacja.rybnik.eu##div.box:nth-of-type(6)
-edunews.pl##.customja-social > div > a[href*="facebook.com/edunews"], a[href*="flickr.com/photos/edunews/"], a[href*="pinterest.com/marcinpolak/edustore/"], a[href*="twitter.com/edunews_pl"], a[href*="youtube.com/user/terazedukacja"]
+edunews.pl##.customja-social > a:not([href*="/aktualnosci"])
 eduvulcan.pl###information-clause-link
 eduzabawy.com##.et_social_sidebar_networks
 edziecko.pl,gazeta.pl,grillgarden.pl,haps.pl,mobilet.eu,moto.pl,pl.y8.com,sport.pl##.follow-us
@@ -7892,8 +7894,9 @@ start24.pl##a[href*="blog.start24.pl"], a[href*="facebook.com/START24/"]
 start.me##.page-footer__socials
 startupy.lodz.pl##.fa-linkedin.fab
 starysacz.info###footer div.text-justify:has(a)
-stat.gov.pl##.pos-3, .pos-4, .pos-5, .pos-6
+stat.gov.pl###gus-gussocialmedia
 stat.gov.pl##li[class*="profil-gus-na-"]
+stat.gov.pl##li:has(> a[href*=".com/"])
 stawiszynski.org##.widget_jupiterx_social.jupiterx-widget
 stawiszynski.org##ul.kiwi-floating-bar.rect.bottom
 steamaster.pl,welcome.home.pl##.footer-menu-social
