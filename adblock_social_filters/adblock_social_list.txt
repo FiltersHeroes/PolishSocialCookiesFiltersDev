@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.10.25.0
-! Last modified: Sun, 25 Oct 2026, 22:41 UTC+00:00
+! Version: 2026.10.30.0
+! Last modified: Fri, 30 Oct 2026, 23:55 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.10.25.0 aktualizacja: nie, 25 paź 2026, 22:41 UTC+00:00
+! v.2026.10.30.0 aktualizacja: pią, 30 paź 2026, 23:55 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -6172,6 +6172,7 @@ mlynnet.pl##footer div:nth-of-type(3)
 mma.pl##.site-footer__fb
 mmiur.com##.ytimg
 mmorpg.org.pl##footer a[href*=".com/"][title]
+mmorpg.org.pl##nav:has(div[class*="SocialsWrapper"])
 mmp24.pl##li.social-item-nav.nav-item:not(:nth-of-type(3))
 mmpk.info##.social-links > li:not(.rss)
 mng.gda.pl##section.section-opaque > .container-vertical-middle.container-fullwidth > .vertical-middle.row > div.small-screen-default.text-center.col-md-4:nth-of-type(-n+3)
