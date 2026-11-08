@@ -73,7 +73,7 @@
 ~pl##a[href*="//www.x.com/intent/tweet"]:lang(pl)
 ~pl##a[href*="//www.x.com/share?url="]:lang(pl)
 ~pl##a[href*="//x.com/home?status="]:lang(pl)
-~pl##a[href*="//x.com/intent/tweet"]:lang(pl)
+~pl##:not([class^="css-"][class*=" r-"]) > a[href*="//x.com/intent/tweet"]:lang(pl)
 ~pl##a[href*="//x.com/share?url="]:lang(pl)
 ~pl##a[href*="://plus.google.com/"]:lang(pl)
 ~pl##a[href*="google.com/+"]:lang(pl)
