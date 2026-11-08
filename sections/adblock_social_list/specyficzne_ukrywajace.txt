@@ -1,3 +1,30 @@
+delkom.pl##.socialMediaLink
+leczna.pl##.social
+proline.pl##.contact-info > .social-images
+proline.pl##.contact-info > .title:has(+ .social-images)
+fera.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="youtube.com"])
+mars.com##.coh-style-social-links
+bezmiesnymiesny.pl##.fx-social-media
+audiomagic.pl##.social-profiles-info
+gosc.pl##.fotterSocial
+gosc.pl##.footerContent > ul > li:has(> .fotterSocial)
+tophifi.pl##:is(header, footer) a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"] , [href*="youtube.com/"])
+gazetaprawna.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="linkedin.com"], [href*="x.com"], [href*="youtube.com"])
+kebabyumyum.pl##.col_last:has(.social-icon)
+attackshark.pl##.social-media li:has(a:not([href*="attackshark.com/"], [href*="whatsapp.com/channel"], [href^="mailto:"]))
+elfashop.pl##footer a[href*="facebook.com/"]
+specialspace.pl##.header-social
+specialspace.pl##.scroll-left > div.block:has(> div > a[href*="facebook.com/"])
+rossmann.pl##div[class*="SocialProfiles"]
+sprzedajpodrecznik.pl##.elementor-widget-divider:has(+ .elementor-widget .elementor-social-icons-wrapper)
+dsites.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="linkedin.com"])
+euro.com.pl##.product-intro__social-proof
+port-zdrowia.pl##.widget-social-media
+port-zdrowia.pl##.social-media
+tarkawdrodze.pl##.element-social-inner-wrap
+speedtest.net##a[href*=".com/"]:is([href*="facebook.com"], [href*="x.com"])
+hotelstok.pl##.socials
+nestlehealthscience.pl##.socials_fb
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
@@ -4123,10 +4150,6 @@ katowice24.info###webshareapiButton
 katowice24.info##.bottom-bar:not(.bottom-bar--scrolled):has(.go-back__link)
 katowice24.info##.share__social--mobile:has(#webshareapiButton)
 katowice24.info##li.share__social:has(> a[href*="://"])
-katowice24.info#@#.rst-list-social > li:nth-of-type(-n+3)
-katowice24.info#@#.rst-list-social:not(:has(a[href*="rss"], a[href*="feed"]))
-katowice24.info#@#.widget_social .ss_social li:has(.facebook, .twitter, .utube)
-katowice24.info#@#.widget_social h3
 katowice.eu###znajdznas
 katowice.eu##.footer .linki
 katowice.eu,korbasowydwor.pl##.social > a
