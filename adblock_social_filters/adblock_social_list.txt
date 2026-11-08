@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.11.8.0
-! Last modified: Sun, 08 Nov 2026, 11:57 UTC+00:00
+! Version: 2026.11.8.1
+! Last modified: Sun, 08 Nov 2026, 12:22 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.11.8.0 aktualizacja: nie, 08 lis 2026, 11:57 UTC+00:00
+! v.2026.11.8.1 aktualizacja: nie, 08 lis 2026, 12:22 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -4175,6 +4175,7 @@ girlonboard.pl##.link_socials
 girya.com.pl##.modal-body .product_ref, a[href*="facebook.com/giryafitness/?fref=ts"], div.copy.container-fluid:nth-of-type(2) > .container > div.text-center.col-xs-12.col-md-6:nth-of-type(2)
 gitd.gov.pl##div.footer-row.row > div.col-lg-6.col-md-6:nth-of-type(2), #footer-social-icons, #side-social-icons
 github.blog##footer ul li a[data-ga-click*="Blog, go to"][data-ga-click*="resources footer"]:not([data-ga-click*="to github's" i])
+github.com##div[class^="socialAndLocale_"] a:not([href*="github.com/"])
 github.com##ul[class*="SocialLinks-module__list_"] a[href]:not([href*="github.com/"])
 githubstatus.com##nav[aria-label="GitHub's Social Media Links"] li:not(:has(a[href*="github.com/"]))
 give.thunderbird.net##.footer-links__header
@@ -5774,8 +5775,8 @@ maclife.pl##.footer-own
 macpaw.com##.-social.footer-col > :not(.footer-lang)
 macris.com.pl###nav-fb
 macuga.pl##.contact-item:has(.lni-facebook)
-maczfit.pl##.footer-bottom__socials
 maczfit.pl##.socials-navbar
+maczfit.pl,missisleepy.pl##.footer-bottom__socials
 madameedith.com##.bottom h6 span > *
 madameedith.com##.top-social a:not([href*="feeds.feedburner.com"])
 madarbaby.pl##.box_custom:has(table img[src="/public/assets/yt2.jpg"])
@@ -5827,6 +5828,8 @@ maltec.pl,warsawdowntown.pl##.footer_top
 maluchy.pl##.lineFB
 maluchy.pl##.sekcja_dark > div:first-child:has([src="/szablon/share.png"])
 maluchy.pl#?##right-column > div.best_photo.widget:has-text(Fanpage)
+maluje.pl##.mx_seo__socials
+maluje.pl##.mx_top-links__rightcol a[href*=".com/"]
 malwarebytes.com##.close-soc
 mam-fach.info###__next > main ~ div[class*="bg-yellow"] p:last-child a[href*=".com/"]
 mam-serce.org##.ms-icon-social-media
@@ -6912,6 +6915,7 @@ optyk.klodzko.pl##.instagm
 optykwnecie.pl##.whatsappchat-anchor
 optymalnewybory.pl##.main-navigation__social
 oracle.com##.cw21social
+oracle.com##.su02social
 oralb.pl##.ob-follow-us-desktop
 oralb.pl##.ob-follow-us-mobile
 order.surfshark.com##footer a[href*=".com/"] > img[src^="data:image/svg"]
