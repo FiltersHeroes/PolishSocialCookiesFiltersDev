@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.11.10.0
-! Last modified: Tue, 10 Nov 2026, 02:49 UTC+00:00
+! Version: 2026.11.15.0
+! Last modified: Sun, 15 Nov 2026, 18:44 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.11.10.0 aktualizacja: wto, 10 lis 2026, 02:49 UTC+00:00
+! v.2026.11.15.0 aktualizacja: nie, 15 lis 2026, 18:44 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -221,7 +221,7 @@ ampero.pl,apdmarket.pl,astachurski.pl,bobryk.pl,broker.auto.pl,buty-wolka.pl,che
 amrest.eu,klodzko24.eu,nowaruda24.pl,stoprocent.com###cndiv
 amrol.pl##.cookie2
 amundi.pl,chojnice24.pl###disclaimer
-andrychow.eu,gazetkipromocyjne.net,kamienieczabkowicki.eu,kreatywna-europa.eu,kujawy.info,planetamarvel.net,ponglish.eu,wielkopolska.travel##.pea_cook_wrapper
+andrychow.eu,gazetkipromocyjne.net,kamienieczabkowicki.eu,kreatywna-europa.eu,kujawy.info,planetamarvel.net,wielkopolska.travel##.pea_cook_wrapper
 andrzejzawada.pl,megataxi.pl,ptfm-slask.pl##body > div > div[style*="position"][style*="fixed"]:not([id], [class])
 angelos.pl,najlepszyrower.pl##.ccc
 aniagemma.com,bboptic.com,davezameryki.pl##.consent-banner-root
@@ -716,6 +716,7 @@ cmolmed.pl###footer > .module[style*="#ffffff"]
 cmp.med.pl###modal-background, #modal-content
 cmrev.com###cookies-overlay
 cochrane.org,histmag.org###cookie-warning
+coddy.tech##div[class*="CookieConsent_container_"]
 codziennikfeministyczny.pl###bazinga-muffin-container
 coig.com.pl###BoxLine
 cojestgrane.pl##.ui-cookies-acceptance
@@ -1088,6 +1089,7 @@ ergokantor.pl###popups__
 erkado.pl##.show-consents
 esa.nask.pl##.ReactModalPortal:has(.cookies-greetings)
 esbank.pl###cookie_info_es
+eset.com###manage-cookies
 esklep.legutko.com.pl###event_banner
 esky-pl.mozio.com#?##container > div ~ div:has(> div > span:has-text(as cookies to))
 esparto.pl,eventy-online.pl,seoheroes.pl,yumisu.pl##.notification-bar
@@ -3190,7 +3192,6 @@ wste.edu.pl###ms_rodo
 wszelkieprzepisy.pl##.txc_cookie_infobox
 wszystkoblisko.pl##.ueCookies
 www.bankier.pl##a[href="javascript:Didomi.preferences.show()"]
-www.eset.com###manage-cookies
 www.google.*#?##appbar.appbar > div:first-child > div:has-text(/^Plików cookie i/) > div > *
 www.gov.pl###cb2-banner
 www.poznan.pl###change-cookies-label
@@ -3301,8 +3302,8 @@ zyro.com##.zyro-cookies
 /jquery.cookiebar$domain=selgros.pl
 /libraries/js/jquery.tipsy.cookie.js$domain=kierunkowy.com
 /otBannerSdk.js$domain=avast.com|avg.com|coca-cola.pl|dhl.com|hm.com|zarahome.com
-/pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|filmy-wesele.pl|fotograf-wesele.pl|hrd.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
-/pltk_pl-PL.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|hrd.pl|influencer.pl|lokale-wesele.pl|muzyka-wesele.pl|wesele.com.pl|whitepress.pl
+/pltk.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|filmy-wesele.pl|fotograf-wesele.pl|hrd.pl|influencer.pl|lokale-wesele.pl|wesele.com.pl|whitepress.pl
+/pltk_pl-PL.js$domain=aplikuj.pl|auta-wesele.pl|bielsko.biala.pl|biuroprasowe.pl|filmy-wesele.pl|fotograf-wesele.pl|hrd.pl|influencer.pl|lokale-wesele.pl|wesele.com.pl|whitepress.pl
 /pp-t-a-c.js$domain=najlepsze.net|silacze.org|toplista.info
 /privacy/popup.js$script,domain=bauer.pl|cdaction.pl|pcformat.pl
 /rhododendron/css/rhododendron-popup.css$domain=abctygodnik.pl|wpolsce.pl
@@ -4545,6 +4546,8 @@ pepper.pl#@#.popover--layout-fixed-bottomSheet
 pepper.pl#@#.zIndex--modal.popover-cover
 pl##body.cookie-overlay-active::after
 podlaskie.eu#@#.gdprcookie
+pracujwlogistyce.pl#@##cookie-div
+pracujwlogistyce.pl#@#.cookie-info-wrapper
 profix.com.pl,proline-tools.com.pl#@#div#cookieConsentModal
 san.edu.pl#@#.cookies.show:not(html):not(body)
 secure.checkout.visa.com#@#.eu-cookie-message
@@ -4653,6 +4656,8 @@ pikio.pl#@##cookie-policy:not(body, html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body, html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body, html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body, html)
+pracujwlogistyce.pl#@##cookie-div:not(body, html)
+pracujwlogistyce.pl#@#.cookie-info:not(body, html)
 przystanki.bialystok.pl#@##cookie-info-box:not(body, html)
 publiczneodtwarzanie.pl,rolmarket.pl,urbancity.pl,wpolu.pl#@##cookie-modal:not(body, html, .reveal)
 puratos.pl,targikielce.pl#@##cookieInfo:not(body, html)
