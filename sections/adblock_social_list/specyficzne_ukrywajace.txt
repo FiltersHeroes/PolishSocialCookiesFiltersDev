@@ -1,3 +1,5 @@
+google.*##div[jsowner] div:has(> button:is([aria-label="Facebook"], [aria-label="Threads"], [aria-label="X"], [aria-label="Reddit"], [aria-label="WhatsApp"]) + span)
+google.*##div[jsowner] div[jscontroller]:has(a[href*="share.google"]) a[role="link"]:not([href]):has(svg)
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
 ~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
