@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.11.22.0
-! Last modified: Sun, 22 Nov 2026, 15:08 UTC+00:00
+! Version: 2026.11.22.1
+! Last modified: Sun, 22 Nov 2026, 17:04 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.11.22.0 aktualizacja: nie, 22 lis 2026, 15:08 UTC+00:00
+! v.2026.11.22.1 aktualizacja: nie, 22 lis 2026, 17:04 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -11358,12 +11358,14 @@ zdrowietvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .s
 ##.elementor-social-icon:not([href*="/feed"])
 ##.elementor-social-icons-wrapper:not(:has([href*="/feed"]))
 ##.elementor-widget-social-icons:not(:has([href*="/feed"]))
+##.footer-social:not(:has([href^="mailto:"]))
 ##.scriptlesssocialsharing .button:not(.whatsapp, .email)
 ##.share-action:not(.icon-email, .icon-copy, .copy-trigger, .icon-print)
 ##.share-btn:not([href$="/rss.xml"])
 ##[class] .button-facebook:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"]) .dashicons-twitter
+##a.footer-social-el:not([href^="mailto:"])
 #@#.button-facebook
 #@#.button-twitter
 #@#.cookie-bottom-layer
@@ -11371,6 +11373,7 @@ zdrowietvn.pl##.fb-tool--link, .l-page__footer-label, .article_main__social > .s
 #@#.elementor-social-icon
 #@#.elementor-social-icons-wrapper
 #@#.elementor-widget-social-icons
+#@#.footer-social
 #@#.js-cookie-light
 #@#.scriptlesssocialsharing
 #@#.share-action
