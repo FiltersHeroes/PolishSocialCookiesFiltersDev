@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.11.22.1
-! Last modified: Sun, 22 Nov 2026, 17:04 UTC+00:00
+! Version: 2026.11.22.2
+! Last modified: Sun, 22 Nov 2026, 21:09 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.11.22.1 aktualizacja: nie, 22 lis 2026, 17:04 UTC+00:00
+! v.2026.11.22.2 aktualizacja: nie, 22 lis 2026, 21:09 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -875,19 +875,6 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 ##div[data-hook="social-sharing"] button[aria-label="Udostępnij na WhatsApp"]
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):has(> div[class] > svg)
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##div[aria-label="Menu"] + div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##header[data-st-area="header"] ~ div > div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl#?#article ~ div span:has-text(Dołącz do nas)
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
-~1login.wp.pl,money.pl,moneyv.wp.pl,o2.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 ~azure.microsoft.com,microsoft.com##div[id^="socialfollow-"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl###fb-root:lang(pl)
@@ -897,6 +884,24 @@ pl,tv##div#facebook-comments[class] > a.comments-facebook[href="#"]
 ~pl##.x13socialfixed_links a[href*="m.me"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="skype:"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="wa.me"]:lang(pl)
+1login.wp.pl,poaczta.o2.pl,poczta.wp.pl,www.wp.pl#@#a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#a[href*=","][title*=" "] ~ div button:has(svg)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article ~ div span:has-text(Dołącz do nas)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):has(> div[class] > svg)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#div[aria-label="Menu"] + div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#header[data-st-area="header"] ~ div > div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@?#article ~ div span:has-text(Dołącz do nas)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
 2fas.com##footer div[class*="footer-group"]:has(h3[class*="footer_connect" i])
 2kc.pl##.container.userfooter > .row > div > a[href*=".com/"]
 2lhome.pl##footer h3:has(+ .widget-social)
@@ -1658,6 +1663,18 @@ autogespot.pl##li.px1
 autogielda.pl##.cs-social-media
 autoidea.pl###media img[src*="media.png"], #media img[src*="in.png"]
 autoklub.pl###fb_like_box
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):has(> div[class] > svg)
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##div[aria-label="Menu"] + div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##header[data-st-area="header"] ~ div > div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl#?#article ~ div span:has-text(Dołącz do nas)
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
 autokult.pl,fotoblogia.pl,komorkomania.pl##.grid-item__social.grid-item { visibility: hidden !important; display: block !important; padding-top: 0 !important }
 autokult.pl,urzadzamy.pl##.instagram-media
 autoland.pl##.menu-instagram
@@ -5730,6 +5747,7 @@ lovet.pl##.pxl-footer-logo-social
 lowcygier.pl##.community-links, .socials-icons-list
 lowcytrendow.pl##.box-sharing
 loxx.pl##div.image-row:first-of-type > .image-column > .image > a
+lp.morele.net##.newsletter-section > .row > div:nth-child(3) > :nth-child(-n+2)
 lp.x-kom.pl##h2:has(~ .buttons > a.btn[href*="/tweet"])
 lrt.lt##.btn--fb
 luba-group.com###slideFB
@@ -6283,6 +6301,7 @@ mondeoklubpolska.pl###widgetlist_column2 > li:nth-of-type(2)
 moneteo.com##.footer__social-bar > a
 money.pl##a[href*="facebook.com/portal.Moneypl" i], a[href*="twitter.com/money_pl" i]
 money.pl,moneyv.wp.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="twitter.com"], [href*="instagram.com"], [href*="linkedin.com"])
+money.pl,moneyv.wp.pl,o2.pl,wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 moneygrabbing.co.uk##.sh-widget-socialv2-list
 moniaki.pl##.article-page > p:has(+ p + center .fb-page):not(:has(> *))
 moniaki.pl##.article-page > p:has(+ p + p + center .fb-page) > strong
