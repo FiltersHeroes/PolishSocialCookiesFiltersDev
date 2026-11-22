@@ -1,18 +1,19 @@
+lp.morele.net##.newsletter-section > .row > div:nth-child(3) > :nth-child(-n+2)
 0db.pl##.header-social-icon:not([data-tooltip*="RSS"])
 0db.pl##footer .ttip:not([data-tooltip*="RSS"])
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):has(> div[class] > svg)
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##div[aria-label="Menu"] + div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl##header[data-st-area="header"] ~ div > div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl#?#article ~ div span:has-text(Dołącz do nas)
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
-~1login.wp.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,pysznosci.pl,wp.pl,~www.wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
-~1login.wp.pl,money.pl,moneyv.wp.pl,o2.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##a[href*=","][title*=" "] ~ div button:has(svg)
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):has(> div[class] > svg)
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##div[aria-label="Menu"] + div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl##header[data-st-area="header"] ~ div > div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl#?#article ~ div span:has-text(Dołącz do nas)
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl#?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,pysznosci.pl,wp.pl#?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
+money.pl,moneyv.wp.pl,o2.pl,wp.pl##a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
 ~azure.microsoft.com,microsoft.com##div[id^="socialfollow-"]
 2fas.com##footer div[class*="footer-group"]:has(h3[class*="footer_connect" i])
 2kc.pl##.container.userfooter > .row > div > a[href*=".com/"]
@@ -9557,3 +9558,21 @@ zyrtec.pl##.social.column li
 zywiec-zdroj.pl##[class^="SocialMedia_list"]
 zywiecinfo.pl##.moduletable:has(> .dj-likebox)
 zywiecinfo.pl#?#.newsberg-card.sppb-addon-module.sppb-addon:has-text(Nasz Facebook)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#a[href*=","][title*=" "] ~ div button:has(svg)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article ~ div span > a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"], [href*="tiktok.com"])
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[aria-label="Zapisz na później"] ~ div
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content > div:first-child + div:last-child > div:first-child > div:only-child > button[title="Zapisz na później"] ~ div
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content > div[class]:nth-child(2) > div[class]:first-child > div[class*=" "]:first-child > div[class*=" "][role="button"]:nth-child(-n+2):has(> div[class] > svg)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#div[aria-label="Menu"] + div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#header[data-st-area="header"] ~ div > div[class*=" "] > aside > div:has(> p + div > a[href*=".com/"]:is([href*="facebookc.com"], [href*="twitter.com"]))
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@?#article ~ div span:has-text(Dołącz do nas)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@?#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@?#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article ~ div span:has-text(Dołącz do nas)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content > div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) > div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) > :not(:last-child)
+1login.wp.pl,poczta.o2.pl,poczta.wp.pl,www.wp.pl#@#article#main-content ~ div[class]:nth-child(n+2):nth-child(-n+3) ~ div[class]:nth-child(-n+2) > div[class]:has(> span:has-text(/^Udostępnij:?$/)) + div > div
+1login.wp.pl,poaczta.o2.pl,poczta.wp.pl,www.wp.pl#@#a[class][href*="instagram.com"][title^="Instagram"][target="_blank"]
