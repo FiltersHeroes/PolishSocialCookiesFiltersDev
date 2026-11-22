@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Social List (EasyList – Social Widgets) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, blocker999, hawkeye116477, xxcriticxx, KonoromiHimaries, RikoDEV, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.11.18.0
-! Last modified: Wed, 18 Nov 2026, 02:29 UTC+00:00
+! Version: 2026.11.22.0
+! Last modified: Sun, 22 Nov 2026, 15:08 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -18,7 +18,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.11.18.0 aktualizacja: śro, 18 lis 2026, 02:29 UTC+00:00
+! v.2026.11.22.0 aktualizacja: nie, 22 lis 2026, 15:08 UTC+00:00
 !
 !
 !#safari_cb_affinity(social)
@@ -1309,6 +1309,8 @@ alles.pl##footer > div > div > div > .text-lg-center > h4
 allianz.pl#?#.l-container:has(.headline > h2 > div:has-text(/^Dołącz do nas$/))
 allmedica.pl##.society-widget-cl
 allnutrition.pl##.page-footer__div > div:nth-of-type(4)
+allnutrition.pl##.page-footer__section-head:has(+ .page-footer__socials-list)
+allnutrition.pl##.page-footer__socials-list
 allrecipes.pl##.footer__links > div:nth-of-type(3)
 allsmiles.pl##.socialRow
 allthejobs.pl##footer .text-right > a
@@ -1452,6 +1454,7 @@ apress24.pl##footer .container > .row > div[class]:nth-of-type(2)
 apte.pl##.side-widget-facebook
 apteczkadziecka.pl,autoland.pl,bawidlo.pl,bonami.pl,dosiaty.pl,formeds.pl,grobonet.com,koty.pl,kuchnieswiata.com.pl,ladysi.com.pl,lepolek.pl,mamyito.pl,maxandmrau.pl,medi-polska.pl,melisa.pl,mrgugu.com,papajohns.pl,poshlady.pl,psy.pl,rebeltang.com,seksuologiadziecieca.pl,supermedia.pl,telekomp.eu,theprotocol.it,topspozywcze.pl,travelcircus.pl,wtv.pl##footer a[href*=".com/"]:is([href*="facebook.com"], [href*="instagram.com"])
 apteka-amica.pl##.left.sidebar > div.box:nth-of-type(n+5):nth-of-type(-n+8)
+apteka-amica.pl##.social:not(:has(.newsletter))
 apteka-band.eu###SITE_FOOTERinlineContent-gridContainer .font_7
 apteka-band.eu##div[data-hook="social-sharing"] > a
 apteka-leki.pl##.ps-social
@@ -1988,11 +1991,11 @@ biuroprasowe.pl##.clr:has(~ #share_cont)
 biuroprasowe.pl##.epr_social .tw
 biuroprasowe.pl##.twt, .lin
 biuroprasowe.play.pl##.footer__icons-container > li:not(:nth-of-type(6))
+biuroprasowe.porta.com.pl,media.globalworth.pl,media.traficar.pl,onas.biedronka.pl,prowly.com##.pr-story--share-sapce-none
 biuroprasowe.porta.com.pl,media.globalworth.pl,media.traficar.pl,prowly.com##.flex--right > .pr-story--share-text
 biuroprasowe.porta.com.pl,media.globalworth.pl,media.traficar.pl,prowly.com##.pr-story--media-contact__social-icon
 biuroprasowe.porta.com.pl,media.globalworth.pl,media.traficar.pl,prowly.com##.pr-story--share-sapce
 biuroprasowe.porta.com.pl,media.globalworth.pl,media.traficar.pl,prowly.com##.pr-story--share-sapce-lead
-biuroprasowe.porta.com.pl,media.globalworth.pl,media.traficar.pl,prowly.com##.pr-story--share-sapce-none
 bivert.pl##.social-absolute
 bizhub24.pl##.widget_times_social_widget.bass.widget a:not([href*="podcasts.google"])
 bizhub24.pl##.widget_times_social_widget.bass.widget h2
@@ -4829,6 +4832,7 @@ intimissimi.com##.cc-footer-boxTop_contact_title:has(+ .cnt-footer-socials)
 intimissimi.com##.follow-us-footer-box
 intimissimi.com##a.analytic-social-icon-share, .cc-footer-boxTop_followUs_social
 invado.pl##.breakdance-menu-link.bde-custom-area-link:has(.bde-social-icons)
+invado.pl##.social-panel > :not(.invado-catalog-side-link)
 invado.pl##.widget_gs_pin_profile_widget
 invado.pl##.widget_ws_fb_like_box
 investkomfort.pl#?#.h-screen:has-text(SOCIAL MEDIA)
@@ -6007,8 +6011,8 @@ media2.pl##a[href*="instagram.com/media2.pl"]
 media2.pl##a[href*="twitter.com/media2pl"]
 media-tech.eu##.footer-informations div.nav-container:nth-of-type(3)
 media-tech.eu,sporto.com.pl,zizako.pl###widget_shop4
-media.biedronka.pl##.biedronka-footer__social-section
-media.biedronka.pl##.biedronka-menu__social
+media.biedronka.pl,onas.biedronka.pl##.biedronka-footer__social-section
+media.biedronka.pl,onas.biedronka.pl##.biedronka-menu__social
 media.carrefour.pl##.footer__social__list
 media.globalworth.pl##.flex--right .pr-story--share-text
 media.ing.pl##div.column:nth-of-type(2) .footer-section-text, div.column:nth-of-type(2) .footer-section-text ~ ul > li
@@ -6872,6 +6876,8 @@ omediach.info###custom_html-5 a[href*="facebook.com/"]
 omediach.info##a[href*="facebook.com/omediach.info"], a[href*="twitter.com/omediach_info"]
 omega.om.pl###execphp-6
 omegaregen.pl###instafeed
+omnicalculator.com##div[data-testid="social-share-modal-content-share-section"]
+onas.biedronka.pl##.flex--right .header-font.pr-story--text-small
 onebid.pl##footer .footer-nav :nth-of-type(3) > h2
 oneorganic.eu##.links > .row > div:has(> [id*="footer_sub_menu"] a[id*="link-custom-page-facebook"])
 onepiece.com.pl#?#.column.wide.four > .segments.ui:has-text(Facebook)
@@ -7902,6 +7908,7 @@ pyskowice.pl###instagram-button
 pyspace.pl##.social-url-container
 pyszne.pl##.footerdesktop.footer-nav
 pyszne.pl##footer p[data-qa="text"] ~ ul li a[href*=".com/"]
+pyszne.pl##section[class*="footer_socialMedia_"]
 pyszne.pl#?#footer p[data-qa="text"] > b:has-text(Follow us)
 pyszneeko.pl##.top_menu__contact > a[href*=".com/"]
 pysznosci.pl##.g1-instagram-csstodo-boxed
@@ -9064,8 +9071,6 @@ swiatgwiazd.pl##header .w-full:has(> div > a[href*="facebook.com/"])
 swiatkoszy.eu##.footer-newsletter > .container > div.row:nth-of-type(2)
 swiatksiazki.pl##.Footer-SocialIcons
 swiatksiazki.pl##.footer-text > .pull-right:only-child
-swiatobuwia.com##.align-right-desktop.shb-footer-menu-label
-swiatobuwia.com,wearethecoffee.com##.shb-footer-social
 swiatoze.pl##.pk-social-links-items, .powerkit_facebook_fanpage_widget
 swiatoze.pl##.sm-list > li > a
 swiatoze.pl##.textwidget > div:nth-of-type(2)
@@ -9890,6 +9895,7 @@ wbp.olsztyn.pl##.floating-menu
 wbp.olsztyn.pl##.widget_custom_html.footer-widget-col-4
 wbpg.org.pl##div:nth-of-type(3) > .field__label
 wcrs.wroclaw.pl##.menu-link[href*=".com/"] > img[src*="48x48"]
+wearethecoffee.com##.shb-footer-social
 wearmedicine.com###socialMediaIcons
 wearmedicine.com##.footer__upper__box--social
 wearmedicine.com##.home-splash__social-wrap
@@ -11431,7 +11437,6 @@ alilove.pl#@#.footer-social-wrap
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,morele.net,motoria.pl,muzykazreklam.pl,sklep-presto.pl,ubieramy.pl#@#.facebook-button
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,morele.net,motoria.pl,sklep-presto.pl,ubieramy.pl#@#.facebook-container
 app.powerbi.com#@#.socialSharing
-avast.com,karointhekitchen.com,szkolymedyczne.eu,tenit.com.pl,upflix.pl#@#.social-icons
 axa.pl,influencer.pl,wrc.net.pl#@#.socials
 balansbox.pl#@#.social-icons-list
 bankier.pl#@#.m-social-bar
@@ -11484,6 +11489,7 @@ instalki.pl#@#img[alt="Facebook"]
 interia.pl,pomponik.pl#@#.article-social
 interia.pl,pomponik.pl#@#.article-social-buttons
 interia.pl,pomponik.pl,support.mozilla.org#@#.share-link
+invado.pl#@#.social-panel
 ithardware.pl#@#.post-sharing
 jezuici.pl#@#.et-extra-social-icons
 kadantiscam.netlify.app,naszesprawy.eu,pkobp.pl,radiopoznan.fm#@#.social-icon
@@ -11593,6 +11599,7 @@ zw.com.pl#@#.list_share
 @@/instagram_logo$domain=downdetector.pl
 aldi.pl#@##share
 appleworld.pl,esklep-porta.pl,lzx.pl,zwierzecisie.pl#@#.fa-facebook
+avast.com,invado.pl,karointhekitchen.com,szkolymedyczne.eu,tenit.com.pl,upflix.pl#@#.social-icons
 cdn.ampproject.org,interia.pl,meczyki.pl,pomponik.pl,wp.pl#@#.instagram
 dobreprogramy.pl#@##instagram
 dobreprogramy.pl,polityczek.pl#@##twitter:not(input)
