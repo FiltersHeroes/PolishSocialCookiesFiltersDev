@@ -1,15 +1,14 @@
-#@#.footer-social
-##.footer-social:not(:has([href^="mailto:"]))
-##a.footer-social-el:not([href^="mailto:"])
 ##.elementor-social-icon:not([href*="/feed"])
 ##.elementor-social-icons-wrapper:not(:has([href*="/feed"]))
 ##.elementor-widget-social-icons:not(:has([href*="/feed"]))
+##.footer-social:not(:has([href^="mailto:"]))
 ##.scriptlesssocialsharing .button:not(.whatsapp, .email)
 ##.share-action:not(.icon-email, .icon-copy, .copy-trigger, .icon-print)
 ##.share-btn:not([href$="/rss.xml"])
 ##[class] .button-facebook:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"])
 ##[class] .button-twitter:not([id*="tab-panel"]) .dashicons-twitter
+##a.footer-social-el:not([href^="mailto:"])
 #@#.button-facebook
 #@#.button-twitter
 #@#.cookie-bottom-layer
@@ -17,6 +16,7 @@
 #@#.elementor-social-icon
 #@#.elementor-social-icons-wrapper
 #@#.elementor-widget-social-icons
+#@#.footer-social
 #@#.js-cookie-light
 #@#.scriptlesssocialsharing
 #@#.share-action
