@@ -1,3 +1,6 @@
+#@#.footer-social
+##.footer-social:not(:has([href^="mailto:"]))
+##a.footer-social-el:not([href^="mailto:"])
 ##.elementor-social-icon:not([href*="/feed"])
 ##.elementor-social-icons-wrapper:not(:has([href*="/feed"]))
 ##.elementor-widget-social-icons:not(:has([href*="/feed"]))
