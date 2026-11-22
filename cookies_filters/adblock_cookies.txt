@@ -6,8 +6,8 @@
 ! Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 ! Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 ! Homepage: https://www.certyficate.it/
-! Version: 2026.11.22.0
-! Last modified: Sun, 22 Nov 2026, 15:08 UTC+00:00
+! Version: 2026.11.22.1
+! Last modified: Sun, 22 Nov 2026, 17:04 UTC+00:00
 ! Expires: 2 days
 ! Support:
 !   Email => errorsfilters@certyficate.it
@@ -19,7 +19,7 @@
 ! Copyright © 2026 Certyficate IT
 ! Copyright © 2026 Filters Heroes
 ! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-! v.2026.11.22.0 aktualizacja: nie, 22 lis 2026, 15:08 UTC+00:00
+! v.2026.11.22.1 aktualizacja: nie, 22 lis 2026, 17:04 UTC+00:00
 !
 !
 ! Specyficzne filtry ukrywające
@@ -1270,7 +1270,7 @@ gamasalon.pl###scc_powiadomienie
 gamedot.pl##.policy_warning
 gamepedia.com###policy-notice-root
 gameplay.pl##div#CP_box
-gamerhash.com,pl.remington-europe.com,styl.fm,szukajka.tv,wizzair.com##.cookie-policy
+gamerhash.com,login.ingbank.pl,pl.remington-europe.com,styl.fm,szukajka.tv,wizzair.com##.cookie-policy
 gamet.eu###webixa-cookie-app
 gamisport.pl###nextcreBotDialog
 gardinia.pl,mactronic.pl,ogradzamy.pl##body > div[id*="cookie"]
@@ -1842,7 +1842,6 @@ lnk.to,orcd.co,tix.to###modal.lnk-c-modal
 loco.pl###privacyCurtain
 login.aliorbank.pl###eccmm-root
 login.ingbank.pl###cookie-banner-region
-login.ingbank.pl##.cookie-policy
 logistics.dhl##.c-cookie-disclaimer
 logitflow.pl##div[style*="fixed"]:has(a[href*="/cookies"])
 lokalna24.pl#?##jm-right .custom > table:has-text(RODO)
@@ -3526,6 +3525,7 @@ pl/tcf/cookie.js$script,domain=pl
 ###politykaCookieWrapper:not(body, html)
 ###politykarodo:not(body, html)
 ###Qookie:not(body, html)
+###recallCookieSettings
 ###rodo-layer:not(body, html)
 ###rodo-popup:not(body, html, .fade, .modal)
 ###rodo_all:not(body, html)
